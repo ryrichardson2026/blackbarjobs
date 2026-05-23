@@ -4,6 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BlackBarJobs — Security Job Alerts</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23000814'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='13' fill='%23FFC300'>BB</text></svg>">
+
+<!-- OG / Social sharing -->
+<meta property="og:title" content="BlackBarJobs — Security Job Alerts">
+<meta property="og:description" content="Be first in line when security jobs open near you. Free SMS and email alerts.">
+<meta property="og:image" content="https://security.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
+<meta property="og:url" content="https://security.blackbarjobs.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BlackBarJobs — Security Job Alerts">
+<meta name="twitter:description" content="Be first in line when security jobs open near you.">
+<meta name="twitter:image" content="https://security.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -222,17 +234,19 @@
   }
 
   /* ── STICKY BAR ── */
-  .sticky-bar { display: none; }
+  .sticky-bar {
+    display: none !important;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 99;
+    padding: 12px 16px 18px;
+    background: var(--navy-deep);
+    border-top: 1px solid rgba(255,195,0,0.2);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+  }
   @media (max-width: 639px) {
-    .sticky-bar {
-      display: block;
-      position: fixed;
-      bottom: 0; left: 0; right: 0;
-      z-index: 99;
-      padding: 12px 16px 18px;
-      background: var(--navy-deep);
-      border-top: 1px solid rgba(255,195,0,0.2);
-      box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+    .sticky-bar.visible {
+      display: block !important;
     }
     .sticky-bar a {
       display: flex;
@@ -1002,15 +1016,19 @@
 
   function submitAll() {
     const payload = {
+      timestamp:  new Date().toISOString(),
       zip:        document.getElementById('f-zip').value.trim(),
       phone:      document.getElementById('f-phone').value.trim(),
       email:      document.getElementById('f-email').value.trim(),
-      jobs:       Array.from(selectedJobs),
-      quals:      Array.from(selectedQuals),
+      jobs:       Array.from(selectedJobs).join(', '),
+      quals:      Array.from(selectedQuals).join(', '),
       experience: document.getElementById('expSelect').value,
     };
-    console.log('Payload:', payload);
-    // fetch('YOUR_MAKE_WEBHOOK_URL', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
     showSuccess();
   }
 
@@ -1027,7 +1045,13 @@
   // Sticky bar observer
   const observer = new IntersectionObserver(entries => {
     const bar = document.getElementById('stickyBar');
-    if (bar) bar.style.display = entries[0].isIntersecting ? 'none' : 'block';
+    if (bar) {
+      if (entries[0].isIntersecting) {
+        bar.classList.remove('visible');
+      } else {
+        bar.classList.add('visible');
+      }
+    }
   }, { threshold: 0.4 });
   observer.observe(document.getElementById('signup'));
 
