@@ -322,62 +322,75 @@
   .job-card-sub { font-size: 0.72rem; color: var(--muted); font-weight: 500; }
 
   /* ── QUALS ── */
+  .quals-wrap {
+    background: var(--navy-deep);
+    padding: 40px 0;
+    margin: 0;
+  }
+  .quals-wrap .section-head { padding: 0 20px; margin-bottom: 24px; }
+  .quals-wrap .section-head h2 { color: var(--white); }
+  .quals-wrap .section-head p { color: rgba(255,255,255,0.6); }
+  .quals-wrap .section-divider span { color: rgba(255,255,255,0.4); }
+  .quals-wrap .section-divider::before,
+  .quals-wrap .section-divider::after { background: rgba(255,255,255,0.12); }
   .quals-section { padding: 0 20px; }
   .quals-grid { display: flex; flex-direction: column; }
   .qual-item {
     display: flex; align-items: center; gap: 14px;
-    padding: 15px 0; border-bottom: 1px solid var(--border);
+    padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.1);
   }
   .qual-item:last-child { border-bottom: none; }
   .qual-check {
     width: 24px; height: 24px; border-radius: 6px;
-    background: var(--navy-deep); flex-shrink: 0;
+    background: var(--gold); flex-shrink: 0;
     display: flex; align-items: center; justify-content: center;
   }
-  .qual-text { font-size: 0.95rem; font-weight: 600; color: var(--charcoal); }
+  .qual-text { font-size: 0.95rem; font-weight: 600; color: rgba(255,255,255,0.9); }
 
   /* ── CTA SECTION ── */
+  .cta-wrap {
+    background: var(--white);
+    padding: 40px 0 0;
+  }
   .cta-section {
-    margin: 0 16px 16px;
-    border-radius: 20px;
+    margin: 0 16px 0;
+    border-radius: 0;
     padding: 48px 24px;
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: var(--navy-deep);
+    background: var(--white);
   }
-  .cta-bg {
-    position: absolute;
-    inset: 0;
-    background-image: url('images/AdobeStock_442298598.jpeg');
-    background-size: cover;
-    background-position: center 30%;
-    opacity: 0.18;
-    filter: saturate(0.4);
-  }
-  .cta-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(0,8,20,0.92) 0%, rgba(0,29,61,0.85) 100%);
-  }
+  .cta-bg { display: none; }
+  .cta-overlay { display: none; }
   .cta-inner { position: relative; z-index: 1; }
   .cta-section h2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: clamp(1.8rem, 7vw, 2.6rem);
-    font-weight: 800; color: var(--white);
+    font-weight: 800; color: var(--navy-deep);
     line-height: 1.08; letter-spacing: -0.01em;
     margin-bottom: 10px;
   }
   .cta-section h2 span { color: var(--gold); }
-  .cta-section p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin-bottom: 26px; }
+  .cta-section p { font-size: 0.9rem; color: var(--muted); margin-bottom: 26px; }
   .cta-section .btn-primary { max-width: 320px; margin: 0 auto; }
 
   /* ── FOOTER ── */
-  footer { padding: 24px 20px; text-align: center; border-top: 1px solid var(--border); margin-top: 16px; }
-  .footer-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--navy-deep); margin-bottom: 8px; }
+  footer {
+    padding: 28px 20px;
+    text-align: center;
+    background: var(--navy-deep);
+    margin-top: 0;
+    border-top: none;
+  }
+  .footer-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 1.1rem;
+    color: var(--white); margin-bottom: 8px;
+  }
   .footer-logo span { color: var(--gold); }
-  footer p { font-size: 0.72rem; color: var(--muted); line-height: 1.6; }
-  footer a { color: var(--muted); text-decoration: underline; }
+  footer p { font-size: 0.72rem; color: rgba(255,255,255,0.45); line-height: 1.6; }
+  footer a { color: rgba(255,255,255,0.45); text-decoration: underline; }
 
   /* ════════════════════════════════
      MODAL
@@ -683,7 +696,8 @@
     .job-grid { grid-template-columns: repeat(4, 1fr); }
     .section-head { padding: 0 40px; margin-bottom: 28px; }
     .job-types { padding: 0 40px; }
-    .quals-section { padding: 0 40px; }
+    .quals-wrap .section-head { padding: 0 40px; }
+    .quals-wrap .section-divider { padding: 0 40px; margin: 56px 0 44px; }
     .cta-section { margin: 0 40px 40px; padding: 60px 48px; }
     .section-divider { padding: 0 40px; margin: 56px 0 44px; }
     footer { padding: 32px 40px; }
@@ -704,7 +718,7 @@
     <div class="hero-image-overlay"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-eyebrow">Accepting Applications</div>
+    <div class="hero-eyebrow">Now Hiring Near You</div>
     <h1>Find Security Jobs <em>Near You</em></h1>
     <p class="hero-sub">Be first in line when security jobs open in your area.</p>
     <div class="form-card" id="signup">
@@ -757,6 +771,7 @@
 </div>
 
 <!-- QUALS -->
+<div class="quals-wrap">
 <div class="section-divider"><span>Qualifications</span></div>
 <div class="section-head">
   <h2>What Employers Look For</h2>
@@ -765,33 +780,35 @@
 <div class="quals-section">
   <div class="quals-grid">
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">Guard Card / Security License</span>
     </div>
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">Armed License</span>
     </div>
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">Military or Law Enforcement Background</span>
     </div>
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">Reliable Transportation</span>
     </div>
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">Overnight Availability</span>
     </div>
     <div class="qual-item">
-      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <span class="qual-text">CPR / First Aid Certified</span>
     </div>
   </div>
 </div>
+</div>
 
 <!-- CLOSING CTA -->
+<div class="cta-wrap">
 <div class="section-divider"><span>Get Started</span></div>
 <div class="cta-section">
   <div class="cta-bg"></div>
@@ -803,6 +820,7 @@
       Get Security Job Alerts →
     </button>
   </div>
+</div>
 </div>
 
 <!-- FOOTER -->
