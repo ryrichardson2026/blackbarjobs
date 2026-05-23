@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlackBarJobs — Security Job Alerts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy-deep: #000814;
+    --navy-mid: #001D3D;
+    --navy-light: #003566;
+    --gold: #FFC300;
+    --gold-hover: #FFD60A;
+    --white: #ffffff;
+    --off-white: #f4f5f7;
+    --charcoal: #1a1a1a;
+    --muted: #5a6474;
+    --border: #e2e5ea;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--white);
+    color: var(--charcoal);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 200;
+    background: var(--navy-deep);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    color: var(--white);
+  }
+  .nav-logo span { color: var(--gold); }
+
+  /* ── HERO ── */
+  .hero {
+    margin-top: 52px;
+    background: var(--navy-deep);
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100vh - 52px);
+    display: flex;
+    flex-direction: column;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .hero-image-wrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .hero-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    filter: brightness(0.5) saturate(0.75);
+    display: block;
+  }
+  .hero-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,8,20,0.15) 0%, rgba(0,8,20,0.9) 100%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 32px 20px 44px;
+    flex: 1;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 18px; height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+  }
+
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 9vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+  h1 em { color: var(--gold); font-style: normal; }
+
+  .hero-sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    line-height: 1.55;
+    max-width: 400px;
+    margin-bottom: 28px;
+  }
+
+  /* ── FORM CARD ── */
+  .form-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 24px 20px 20px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+  }
+  .form-card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy-deep);
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .form-row { display: flex; flex-direction: column; gap: 11px; margin-bottom: 14px; }
+  .field-wrap { position: relative; }
+  .field-icon {
+    position: absolute;
+    left: 14px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    line-height: 1;
+  }
+  .form-card input {
+    width: 100%;
+    padding: 14px 14px 14px 40px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--charcoal);
+    background: var(--off-white);
+    outline: none;
+    transition: border-color 0.15s, background 0.15s;
+    -webkit-appearance: none;
+  }
+  .form-card input::placeholder { color: #a0aab4; }
+  .form-card input:focus {
+    border-color: var(--navy-light);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(0,53,102,0.10);
+  }
+  .form-card input.error { border-color: #e53935; }
+
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    -webkit-appearance: none;
+    text-align: center;
+  }
+  .btn-primary:hover { background: var(--gold-hover); }
+  .btn-primary:active { transform: scale(0.985); }
+
+  .form-trust {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  /* ── STICKY BAR ── */
+  .sticky-bar { display: none; }
+  @media (max-width: 639px) {
+    .sticky-bar {
+      display: block;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 99;
+      padding: 12px 16px 18px;
+      background: var(--navy-deep);
+      border-top: 1px solid rgba(255,195,0,0.2);
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+    }
+    .sticky-bar a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 15px;
+      background: var(--gold);
+      color: var(--navy-deep);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    body { padding-bottom: 80px; }
+  }
+
+  /* ── SECTIONS ── */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 20px;
+    margin: 40px 0 32px;
+  }
+  .section-divider::before, .section-divider::after {
+    content: ''; flex: 1; height: 1px; background: var(--border);
+  }
+  .section-divider span {
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted); white-space: nowrap;
+  }
+
+  .section-head { padding: 0 20px; margin-bottom: 24px; }
+  .section-head h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.7rem, 6vw, 2.2rem);
+    font-weight: 800;
+    color: var(--navy-deep);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .section-head p { margin-top: 8px; font-size: 0.95rem; color: var(--muted); max-width: 480px; }
+
+  /* ── JOB GRID ── */
+  .job-types { padding: 0 16px; }
+  .job-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .job-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .job-card-icon {
+    width: 38px; height: 38px;
+    border-radius: 10px;
+    background: var(--navy-deep);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; flex-shrink: 0;
+  }
+  .job-card-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 700;
+    color: var(--navy-deep); line-height: 1.2;
+  }
+  .job-card-sub { font-size: 0.72rem; color: var(--muted); font-weight: 500; }
+
+  /* ── QUALS ── */
+  .quals-section { padding: 0 20px; }
+  .quals-grid { display: flex; flex-direction: column; }
+  .qual-item {
+    display: flex; align-items: center; gap: 14px;
+    padding: 15px 0; border-bottom: 1px solid var(--border);
+  }
+  .qual-item:last-child { border-bottom: none; }
+  .qual-check {
+    width: 24px; height: 24px; border-radius: 6px;
+    background: var(--navy-deep); flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .qual-text { font-size: 0.95rem; font-weight: 600; color: var(--charcoal); }
+
+  /* ── CTA SECTION ── */
+  .cta-section {
+    margin: 0 16px 16px;
+    border-radius: 20px;
+    padding: 48px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: var(--navy-deep);
+  }
+  .cta-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('/images/AdobeStock_442298598.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+    opacity: 0.18;
+    filter: saturate(0.4);
+  }
+  .cta-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,8,20,0.92) 0%, rgba(0,29,61,0.85) 100%);
+  }
+  .cta-inner { position: relative; z-index: 1; }
+  .cta-section h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
+    font-weight: 800; color: var(--white);
+    line-height: 1.08; letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .cta-section h2 span { color: var(--gold); }
+  .cta-section p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin-bottom: 26px; }
+  .cta-section .btn-primary { max-width: 320px; margin: 0 auto; }
+
+  /* ── FOOTER ── */
+  footer { padding: 24px 20px; text-align: center; border-top: 1px solid var(--border); margin-top: 16px; }
+  .footer-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--navy-deep); margin-bottom: 8px; }
+  .footer-logo span { color: var(--gold); }
+  footer p { font-size: 0.72rem; color: var(--muted); line-height: 1.6; }
+  footer a { color: var(--muted); text-decoration: underline; }
+
+  /* ════════════════════════════════
+     MODAL
+  ════════════════════════════════ */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+    background: rgba(0,8,20,0.72);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .modal-overlay.open { display: flex; }
+
+  @media (min-width: 640px) {
+    .modal-overlay { align-items: center; }
+  }
+
+  .modal-sheet {
+    background: var(--white);
+    width: 100%;
+    max-width: 520px;
+    border-radius: 24px 24px 0 0;
+    max-height: 92dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: transform 0.32s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  .modal-overlay.open .modal-sheet { transform: translateY(0); }
+
+  @media (min-width: 640px) {
+    .modal-sheet {
+      border-radius: 20px;
+      max-height: 88dvh;
+      transform: translateY(30px) scale(0.97);
+      opacity: 0;
+      transition: transform 0.28s cubic-bezier(0.32,0.72,0,1), opacity 0.22s ease;
+    }
+    .modal-overlay.open .modal-sheet { transform: translateY(0) scale(1); opacity: 1; }
+  }
+
+  .modal-handle {
+    width: 40px; height: 4px;
+    background: #d1d5db;
+    border-radius: 4px;
+    margin: 12px auto 0;
+    flex-shrink: 0;
+  }
+  @media (min-width: 640px) { .modal-handle { display: none; } }
+
+  .modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--off-white);
+    border: none;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; line-height: 1;
+    color: var(--charcoal);
+    transition: background 0.15s;
+    z-index: 10;
+  }
+  .modal-close:hover { background: var(--border); }
+
+  .progress-bar-wrap { padding: 16px 20px 0; flex-shrink: 0; }
+  .progress-track { height: 3px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .progress-fill {
+    height: 100%;
+    background: var(--gold);
+    border-radius: 3px;
+    transition: width 0.35s cubic-bezier(0.4,0,0.2,1);
+  }
+  .progress-label {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 8px;
+    font-size: 0.7rem; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .steps-container {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+
+  .modal-step { display: none; padding: 20px 20px 24px; animation: stepIn 0.22s ease forwards; }
+  .modal-step.active { display: block; }
+
+  @keyframes stepIn {
+    from { opacity: 0; transform: translateX(18px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .step-back-anim { animation: stepBack 0.22s ease forwards !important; }
+  @keyframes stepBack {
+    from { opacity: 0; transform: translateX(-18px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+
+  .step-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 1.45rem;
+    color: var(--navy-deep); line-height: 1.1; margin-bottom: 4px;
+  }
+  .step-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; font-weight: 500; }
+
+  /* Job type selector grid */
+  .select-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-bottom: 22px; }
+  .sel-card {
+    border: 1.5px solid var(--border);
+    border-radius: 11px;
+    padding: 13px 12px;
+    display: flex; align-items: center; gap: 9px;
+    cursor: pointer;
+    transition: border-color 0.12s, background 0.12s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: var(--white);
+  }
+  .sel-card:active { transform: scale(0.97); }
+  .sel-card.selected { border-color: var(--gold); background: #fffbea; }
+  .sel-card.selected .sel-icon-wrap { background: var(--navy-deep); }
+
+  .sel-icon-wrap {
+    width: 34px; height: 34px;
+    border-radius: 9px;
+    background: var(--off-white);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem; flex-shrink: 0;
+    transition: background 0.12s;
+  }
+  .sel-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem; font-weight: 700;
+    color: var(--navy-deep); line-height: 1.2; flex: 1;
+  }
+  .sel-check {
+    width: 18px; height: 18px;
+    border: 1.5px solid var(--border);
+    border-radius: 5px; flex-shrink: 0;
+    transition: background 0.12s, border-color 0.12s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .sel-card.selected .sel-check { background: var(--gold); border-color: var(--gold); }
+  .sel-check svg { display: none; }
+  .sel-card.selected .sel-check svg { display: block; }
+
+  /* Qual selector */
+  .qual-list { display: flex; flex-direction: column; gap: 9px; margin-bottom: 20px; }
+  .qual-sel {
+    display: flex; align-items: center; gap: 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 11px;
+    padding: 14px;
+    cursor: pointer;
+    transition: border-color 0.12s, background 0.12s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: var(--white);
+  }
+  .qual-sel:active { transform: scale(0.985); }
+  .qual-sel.selected { border-color: var(--gold); background: #fffbea; }
+  .qual-sel-icon {
+    width: 32px; height: 32px; border-radius: 8px;
+    background: var(--off-white);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.95rem; flex-shrink: 0;
+    transition: background 0.12s;
+  }
+  .qual-sel.selected .qual-sel-icon { background: var(--navy-deep); }
+  .qual-sel-label { font-size: 0.92rem; font-weight: 600; color: var(--charcoal); flex: 1; }
+  .qual-sel-box {
+    width: 20px; height: 20px;
+    border: 1.5px solid var(--border);
+    border-radius: 5px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.12s, border-color 0.12s;
+  }
+  .qual-sel.selected .qual-sel-box { background: var(--gold); border-color: var(--gold); }
+  .qual-sel-box svg { display: none; }
+  .qual-sel.selected .qual-sel-box svg { display: block; }
+
+  /* Experience dropdown */
+  .exp-wrap { margin-bottom: 22px; }
+  .exp-label {
+    font-size: 0.78rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--navy-deep); margin-bottom: 8px; display: block;
+  }
+  .exp-select {
+    width: 100%;
+    padding: 13px 36px 13px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--charcoal);
+    background: var(--off-white);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6474' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    cursor: pointer;
+  }
+  .exp-select:focus { border-color: var(--navy-light); background-color: var(--white); }
+
+  /* Modal footer */
+  .modal-footer {
+    padding: 16px 20px 24px;
+    flex-shrink: 0;
+    border-top: 1px solid var(--border);
+    background: var(--white);
+  }
+  .modal-footer-row { display: flex; align-items: center; gap: 10px; }
+  .btn-back {
+    display: flex; align-items: center; justify-content: center;
+    width: 48px; height: 48px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    background: var(--white);
+    cursor: pointer; flex-shrink: 0;
+    font-size: 1.1rem;
+    transition: border-color 0.15s, background 0.15s;
+    -webkit-appearance: none;
+  }
+  .btn-back:hover { border-color: var(--navy-light); background: var(--off-white); }
+  .btn-next {
+    flex: 1; padding: 15px;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: none; border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    -webkit-appearance: none;
+  }
+  .btn-next:hover { background: var(--gold-hover); }
+  .btn-next:active { transform: scale(0.985); }
+  .skip-link {
+    display: block; text-align: center; margin-top: 10px;
+    font-size: 0.78rem; color: var(--muted); font-weight: 500;
+    cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+  }
+
+  /* Success */
+  .success-step { padding: 40px 24px 32px; text-align: center; }
+  .success-icon {
+    width: 72px; height: 72px;
+    background: var(--navy-deep);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 2rem;
+    animation: successPop 0.4s cubic-bezier(0.34,1.56,0.64,1) 0.1s both;
+  }
+  @keyframes successPop {
+    from { transform: scale(0.5); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+  }
+  .success-step h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem; font-weight: 800;
+    color: var(--navy-deep); margin-bottom: 8px;
+  }
+  .success-step p { font-size: 0.95rem; color: var(--muted); line-height: 1.55; margin-bottom: 8px; }
+  .success-sms-note {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 0.78rem; font-weight: 600;
+    color: var(--navy-light); background: #e8f0fb;
+    padding: 7px 14px; border-radius: 20px; margin-top: 6px;
+  }
+  .success-close {
+    display: block; width: 100%; max-width: 280px;
+    margin: 24px auto 0; padding: 14px;
+    background: var(--navy-deep); color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: none; border-radius: 10px; cursor: pointer;
+  }
+
+  /* ── DESKTOP ── */
+  @media (min-width: 640px) {
+    .hero { flex-direction: row; min-height: calc(100vh - 52px); align-items: stretch; }
+    .hero-image-wrap { width: 52%; height: auto; position: absolute; inset: 0 48% 0 0; }
+    .hero-image-wrap img { object-position: center top; }
+    .hero-content { width: 48%; margin-left: 52%; padding: 60px 48px; display: flex; flex-direction: column; justify-content: center; }
+    h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .form-card { max-width: 440px; }
+    .job-grid { grid-template-columns: repeat(4, 1fr); }
+    .section-head { padding: 0 40px; margin-bottom: 28px; }
+    .job-types { padding: 0 40px; }
+    .quals-section { padding: 0 40px; }
+    .cta-section { margin: 0 40px 40px; padding: 60px 48px; }
+    .section-divider { padding: 0 40px; margin: 56px 0 44px; }
+    footer { padding: 32px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">BlackBar<span>Jobs</span></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-image-wrap">
+    <img src="/images/AdobeStock_627151967.jpeg" alt="Security professional" loading="eager">
+    <div class="hero-image-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Now Hiring Near You</div>
+    <h1>Find Security Jobs <em>Near You</em></h1>
+    <p class="hero-sub">Be first in line when security jobs open in your area.</p>
+    <div class="form-card" id="signup">
+      <div class="form-card-title">Get Registered</div>
+      <div class="form-row">
+        <div class="field-wrap">
+          <span class="field-icon">📍</span>
+          <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
+        </div>
+        <div class="field-wrap">
+          <span class="field-icon">📱</span>
+          <input id="f-phone" type="tel" inputmode="tel" placeholder="Mobile Number" autocomplete="tel">
+        </div>
+        <div class="field-wrap">
+          <span class="field-icon">✉️</span>
+          <input id="f-email" type="email" inputmode="email" placeholder="Email Address" autocomplete="email">
+        </div>
+      </div>
+      <button class="btn-primary" onclick="openModal()">Get Job Alerts →</button>
+      <div class="form-trust">
+        <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        No spam. Unsubscribe anytime.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STICKY BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="#signup" onclick="document.querySelector('#signup input').focus()">Get Security Job Alerts</a>
+</div>
+
+<!-- JOB TYPES -->
+<div class="section-divider"><span>Job Categories</span></div>
+<div class="section-head">
+  <h2>Security Jobs We Cover</h2>
+  <p>Alerts across every role — from entry level to specialized.</p>
+</div>
+<div class="job-types">
+  <div class="job-grid">
+    <div class="job-card"><div class="job-card-icon">🛡️</div><div class="job-card-label">Armed Security</div><div class="job-card-sub">Licensed carry required</div></div>
+    <div class="job-card"><div class="job-card-icon">👮</div><div class="job-card-label">Unarmed Security</div><div class="job-card-sub">Guard card preferred</div></div>
+    <div class="job-card"><div class="job-card-icon">🎟️</div><div class="job-card-label">Event Security</div><div class="job-card-sub">Concerts, venues, sports</div></div>
+    <div class="job-card"><div class="job-card-icon">🚗</div><div class="job-card-label">Patrol Officer</div><div class="job-card-sub">Vehicle routes</div></div>
+    <div class="job-card"><div class="job-card-icon">🌙</div><div class="job-card-label">Overnight Security</div><div class="job-card-sub">Shift differentials</div></div>
+    <div class="job-card"><div class="job-card-icon">🏪</div><div class="job-card-label">Loss Prevention</div><div class="job-card-sub">Retail environments</div></div>
+    <div class="job-card"><div class="job-card-icon">✈️</div><div class="job-card-label">TSA / Airport</div><div class="job-card-sub">Federal screening roles</div></div>
+    <div class="job-card"><div class="job-card-icon">🚔</div><div class="job-card-label">Mobile Patrol</div><div class="job-card-sub">Multi-site rounds</div></div>
+  </div>
+</div>
+
+<!-- QUALS -->
+<div class="section-divider"><span>Qualifications</span></div>
+<div class="section-head">
+  <h2>What Employers Look For</h2>
+  <p>Meet a few of these and you're competitive for most openings.</p>
+</div>
+<div class="quals-section">
+  <div class="quals-grid">
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">Guard Card / Security License</span>
+    </div>
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">Armed License</span>
+    </div>
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">Military or Law Enforcement Background</span>
+    </div>
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">Reliable Transportation</span>
+    </div>
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">Overnight Availability</span>
+    </div>
+    <div class="qual-item">
+      <div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <span class="qual-text">CPR / First Aid Certified</span>
+    </div>
+  </div>
+</div>
+
+<!-- CLOSING CTA -->
+<div class="section-divider"><span>Get Started</span></div>
+<div class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="cta-overlay"></div>
+  <div class="cta-inner">
+    <h2>Be First To Know When <span>Employers Start Hiring</span></h2>
+    <p>New openings go fast. Get your alert before the position fills.</p>
+    <button class="btn-primary" onclick="document.getElementById('signup').scrollIntoView({behavior:'smooth'}); setTimeout(()=>document.getElementById('f-zip').focus(),600)">
+      Get Security Job Alerts →
+    </button>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
+  <p>Security job alerts for professionals across the US.<br>
+  <a href="#">Privacy Policy</a> · <a href="#">Unsubscribe</a> · <a href="#">Contact</a></p>
+</footer>
+
+
+<!-- ════════════════════════════════
+     MODAL — SEGMENTATION FLOW
+════════════════════════════════ -->
+<div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
+  <div class="modal-sheet" id="modalSheet">
+    <div class="modal-handle"></div>
+    <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+
+    <div class="progress-bar-wrap">
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill" style="width:50%"></div>
+      </div>
+      <div class="progress-label">
+        <span id="stepLabel">Step 1 of 2</span>
+        <span id="stepCount" style="color:var(--gold);font-weight:700;">Job Types</span>
+      </div>
+    </div>
+
+    <div class="steps-container">
+
+      <!-- STEP 1 — JOB INTERESTS -->
+      <div class="modal-step active" id="step1">
+        <div class="step-title">What jobs are you interested in?</div>
+        <div class="step-sub">Select all that apply.</div>
+        <div class="select-grid" id="jobGrid"></div>
+      </div>
+
+      <!-- STEP 2 — QUALIFICATIONS -->
+      <div class="modal-step" id="step2">
+        <div class="step-title">Any of these qualifications?</div>
+        <div class="step-sub">Helps us send better matches.</div>
+        <div class="qual-list" id="qualList"></div>
+        <div class="exp-wrap">
+          <label class="exp-label" for="expSelect">Years of Experience</label>
+          <select class="exp-select" id="expSelect">
+            <option value="">Select experience level</option>
+            <option value="none">No experience</option>
+            <option value="0-1">0–1 years</option>
+            <option value="1-3">1–3 years</option>
+            <option value="3-5">3–5 years</option>
+            <option value="5+">5+ years</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- STEP 3 — SUCCESS -->
+      <div class="modal-step" id="step3">
+        <div class="success-step">
+          <div class="success-icon">✓</div>
+          <h2>You're On The List</h2>
+          <p>We'll notify you when security jobs open near you.</p>
+          <span class="success-sms-note">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><rect x="3" y="4" width="14" height="10" rx="2" stroke="#003566" stroke-width="1.5"/><path d="M7 17l3-3 3 3" stroke="#003566" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Most alerts are sent by SMS
+          </span>
+          <button class="success-close" onclick="closeModal()">Done</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal-footer" id="modalFooter">
+      <div class="modal-footer-row">
+        <button class="btn-back" id="backBtn" onclick="goBack()" style="display:none" aria-label="Back">←</button>
+        <button class="btn-next" id="nextBtn" onclick="goNext()">Next →</button>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+  const JOB_TYPES = [
+    { id:'armed',     icon:'🛡️', label:'Armed Security' },
+    { id:'unarmed',   icon:'👮', label:'Unarmed Security' },
+    { id:'event',     icon:'🎟️', label:'Event Security' },
+    { id:'overnight', icon:'🌙', label:'Overnight Security' },
+    { id:'mobile',    icon:'🚔', label:'Mobile Patrol' },
+    { id:'patrol',    icon:'🚗', label:'Patrol Officer' },
+    { id:'lp',        icon:'🏪', label:'Loss Prevention' },
+    { id:'tsa',       icon:'✈️', label:'TSA / Airport' },
+    { id:'exec',      icon:'🤵', label:'Executive Protection' },
+    { id:'fire',      icon:'🔥', label:'Fire Watch' },
+    { id:'hospital',  icon:'🏥', label:'Hospital Security' },
+    { id:'retail',    icon:'🛒', label:'Retail Security' },
+  ];
+
+  const QUALS = [
+    { id:'guard',  icon:'📋', label:'Guard Card / Security License' },
+    { id:'armed',  icon:'🔒', label:'Armed License' },
+    { id:'mil_le', icon:'🎖️', label:'Military or Law Enforcement Background' },
+    { id:'trans',  icon:'🚗', label:'Reliable Transportation' },
+    { id:'cpr',    icon:'❤️', label:'CPR / First Aid Certified' },
+  ];
+
+  let currentStep = 1;
+  const TOTAL_STEPS = 2;
+  const selectedJobs = new Set();
+  const selectedQuals = new Set();
+  const checkSVG = `<svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l3 3 5-6" stroke="#000814" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+  function buildJobGrid() {
+    document.getElementById('jobGrid').innerHTML = JOB_TYPES.map(j => `
+      <div class="sel-card" data-id="${j.id}" onclick="toggleJob(this,'${j.id}')">
+        <div class="sel-icon-wrap">${j.icon}</div>
+        <div class="sel-label">${j.label}</div>
+        <div class="sel-check">${checkSVG}</div>
+      </div>`).join('');
+  }
+
+  function buildQualList() {
+    document.getElementById('qualList').innerHTML = QUALS.map(q => `
+      <div class="qual-sel" data-id="${q.id}" onclick="toggleQual(this,'${q.id}')">
+        <div class="qual-sel-icon">${q.icon}</div>
+        <span class="qual-sel-label">${q.label}</span>
+        <div class="qual-sel-box">${checkSVG}</div>
+      </div>`).join('');
+  }
+
+  function toggleJob(el, id) {
+    el.classList.toggle('selected');
+    selectedJobs.has(id) ? selectedJobs.delete(id) : selectedJobs.add(id);
+  }
+  function toggleQual(el, id) {
+    el.classList.toggle('selected');
+    selectedQuals.has(id) ? selectedQuals.delete(id) : selectedQuals.add(id);
+  }
+
+  function openModal() {
+    const zip   = document.getElementById('f-zip').value.trim();
+    const phone = document.getElementById('f-phone').value.trim();
+    const email = document.getElementById('f-email').value.trim();
+
+    if (!zip || zip.length < 5) {
+      const el = document.getElementById('f-zip');
+      el.classList.add('error'); el.focus();
+      setTimeout(() => el.classList.remove('error'), 1800);
+      return;
+    }
+    if (!phone && !email) {
+      const el = document.getElementById('f-phone');
+      el.classList.add('error'); el.focus();
+      setTimeout(() => el.classList.remove('error'), 1800);
+      return;
+    }
+
+    currentStep = 1;
+    updateUI();
+    document.getElementById('modalFooter').style.display = '';
+    document.getElementById('progressFill').closest('.progress-bar-wrap').style.display = '';
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    const sheet = document.getElementById('modalSheet');
+    const isMobile = window.innerWidth < 640;
+    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
+    sheet.style.opacity = '0';
+    setTimeout(() => {
+      document.getElementById('modalOverlay').classList.remove('open');
+      sheet.style.transform = '';
+      sheet.style.opacity = '';
+      document.body.style.overflow = '';
+    }, 280);
+  }
+
+  function handleOverlayClick(e) {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
+  }
+
+  function goNext() {
+    if (currentStep < TOTAL_STEPS) { currentStep++; updateUI(); }
+    else submitAll();
+  }
+  function goBack() {
+    if (currentStep > 1) { currentStep--; updateUI(true); }
+  }
+  function skipStep() {
+    if (currentStep < TOTAL_STEPS) { currentStep++; updateUI(); }
+    else submitAll();
+  }
+
+  function updateUI(isBack = false) {
+    document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
+    const active = document.getElementById('step' + currentStep);
+    active.classList.add('active');
+    if (isBack) {
+      active.classList.add('step-back-anim');
+      active.addEventListener('animationend', () => active.classList.remove('step-back-anim'), { once: true });
+    }
+    const pct = (currentStep / TOTAL_STEPS) * 100;
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('stepLabel').textContent = `Step ${currentStep} of ${TOTAL_STEPS}`;
+    document.getElementById('stepCount').textContent = currentStep === 1 ? 'Job Types' : 'Qualifications';
+    document.getElementById('backBtn').style.display = currentStep > 1 ? 'flex' : 'none';
+    document.getElementById('nextBtn').textContent = currentStep === TOTAL_STEPS ? 'Finish →' : 'Next →';
+  }
+
+  function submitAll() {
+    const payload = {
+      zip:        document.getElementById('f-zip').value.trim(),
+      phone:      document.getElementById('f-phone').value.trim(),
+      email:      document.getElementById('f-email').value.trim(),
+      jobs:       Array.from(selectedJobs),
+      quals:      Array.from(selectedQuals),
+      experience: document.getElementById('expSelect').value,
+    };
+    console.log('Payload:', payload);
+    // fetch('YOUR_MAKE_WEBHOOK_URL', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+    showSuccess();
+  }
+
+  function showSuccess() {
+    document.getElementById('modalFooter').style.display = 'none';
+    document.getElementById('progressFill').closest('.progress-bar-wrap').style.display = 'none';
+    document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
+    document.getElementById('step3').classList.add('active');
+  }
+
+  buildJobGrid();
+  buildQualList();
+
+  // Sticky bar observer
+  const observer = new IntersectionObserver(entries => {
+    const bar = document.getElementById('stickyBar');
+    if (bar) bar.style.display = entries[0].isIntersecting ? 'none' : 'block';
+  }, { threshold: 0.4 });
+  observer.observe(document.getElementById('signup'));
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+</script>
+</body>
+</html>
