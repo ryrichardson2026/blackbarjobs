@@ -764,7 +764,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="hero-content">
     <h1>Solid Jobs For <em>Hard Workers</em></h1>
-    <p class="hero-sub">Get instant alerts for security jobs in Dallas-Fort Worth.</p>
+    <p class="hero-sub">Get instant alerts for local security jobs hiring near you.</p>
     <div class="form-card" id="signup">
       <div class="form-card-title">Get Registered</div>
       <div class="form-row">
@@ -782,6 +782,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
       <button class="btn-primary" onclick="openModal()">Get Job Alerts →</button>
+      <p style="font-size:0.68rem;color:var(--muted);text-align:center;margin-top:10px;line-height:1.5;">By submitting you agree to receive SMS job alerts from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
+      <label style="display:flex;align-items:flex-start;gap:10px;margin-top:10px;cursor:pointer;">
+        <input type="checkbox" id="f-newsletter" style="margin-top:3px;width:16px;height:16px;flex-shrink:0;accent-color:var(--navy-deep);">
+        <span style="font-size:0.75rem;color:var(--muted);line-height:1.5;">I'd like to receive the BlackBarJobs newsletter with job updates and hiring news in my area.</span>
+      </label>
       <div class="form-trust">
         <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         No spam. Unsubscribe anytime.
@@ -851,7 +856,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer>
   <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
   <p>Security job alerts for professionals across the US.<br>
-  <a href="#">Privacy Policy</a> · <a href="#">Unsubscribe</a> · <a href="#">Contact</a></p>
+  <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
 </footer>
 
 <!-- MODAL -->
@@ -1041,6 +1046,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       zip:        document.getElementById('f-zip').value.trim(),
       phone:      document.getElementById('f-phone').value.trim(),
       email:      document.getElementById('f-email').value.trim(),
+      newsletter: document.getElementById('f-newsletter').checked ? 'Yes' : 'No',
       jobs:       Array.from(selectedJobs).join(', '),
       quals:      Array.from(selectedQuals).join(', '),
       experience: document.getElementById('expSelect').value,
