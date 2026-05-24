@@ -9,13 +9,13 @@
 <!-- OG / Social sharing -->
 <meta property="og:title" content="BlackBarJobs — Security Job Alerts">
 <meta property="og:description" content="Be first in line when security jobs open near you. Free SMS and email alerts.">
-<meta property="og:image" content="https://security.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
-<meta property="og:url" content="https://security.blackbarjobs.com">
+<meta property="og:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
+<meta property="og:url" content="https://www.blackbarjobs.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="BlackBarJobs — Security Job Alerts">
 <meta name="twitter:description" content="Be first in line when security jobs open near you.">
-<meta name="twitter:image" content="https://security.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
+<meta name="twitter:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -84,8 +84,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
   }
-
-  /* Logo block — text sits above the bar, bar is the nav bottom border */
   .nav-logo {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800;
@@ -98,6 +96,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: inline-block;
   }
   .nav-logo span { color: #FFC300; }
+  .nav-logo .nav-security {
+    color: #111111;
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0.6;
+    margin-left: 6px;
+    letter-spacing: 0.04em;
+  }
 
   /* ── HERO ── */
   .hero {
@@ -120,7 +126,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     pointer-events: none;
     z-index: 0;
   }
-
   .hero-image-wrap {
     position: absolute;
     inset: 0;
@@ -140,33 +145,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     inset: 0;
     background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.65) 60%);
   }
-
   .hero-content {
     position: relative;
     z-index: 2;
     padding: 100px 20px 32px;
     flex: 1;
   }
-
-  .hero-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 10px;
-  }
-  .hero-eyebrow::before {
-    content: '';
-    display: inline-block;
-    width: 18px; height: 2px;
-    background: var(--gold);
-    border-radius: 2px;
-  }
-
   h1 {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800;
@@ -178,7 +162,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-align: center;
   }
   h1 em { color: var(--gold); font-style: normal; }
-
   .hero-sub {
     font-size: 1rem;
     color: rgba(255,255,255,0.7);
@@ -235,7 +218,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     box-shadow: 0 0 0 3px rgba(0,53,102,0.10);
   }
   .form-card input.error { border-color: #e53935; }
-
   .btn-primary {
     display: block;
     width: 100%;
@@ -256,7 +238,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   .btn-primary:hover { background: var(--gold-hover); }
   .btn-primary:active { transform: scale(0.985); }
-
   .form-trust {
     display: flex;
     align-items: center;
@@ -317,7 +298,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     letter-spacing: 0.14em; text-transform: uppercase;
     color: var(--muted); white-space: nowrap;
   }
-
   .section-head { padding: 0 20px; margin-bottom: 16px; }
   .section-head h2 {
     font-family: 'Barlow Condensed', sans-serif;
@@ -330,7 +310,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .section-head p { margin-top: 6px; font-size: 0.9rem; color: var(--muted); max-width: 480px; }
 
   /* ── JOB GRID ── */
-  .job-types { padding: 0 16px; padding-bottom: 28px; }
+  .job-types { padding: 0 16px 28px; }
   .job-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
   .job-card {
     background: var(--white);
@@ -359,7 +339,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .quals-wrap {
     background: var(--navy-deep);
     padding: 0 0 28px;
-    margin: 0;
   }
   .quals-wrap .section-head { padding: 0 20px; margin-bottom: 16px; }
   .quals-wrap .section-head h2 { color: var(--white); }
@@ -383,7 +362,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .qual-text { font-size: 0.95rem; font-weight: 600; color: rgba(255,255,255,0.9); }
 
   /* ── CTA SECTION ── */
-  .cta-wrap { background: var(--white); padding: 0 0 0; }
+  .cta-wrap { background: var(--white); }
   .cta-section {
     padding: 32px 24px 36px;
     text-align: center;
@@ -417,9 +396,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   footer p { font-size: 0.72rem; color: rgba(255,255,255,0.45); line-height: 1.6; }
   footer a { color: rgba(255,255,255,0.45); text-decoration: underline; }
 
-  /* ════════════════════════════════
-     MODAL
-  ════════════════════════════════ */
+  /* ── MODAL ── */
   .modal-overlay {
     display: none;
     position: fixed;
@@ -433,7 +410,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   .modal-overlay.open { display: flex; }
   @media (min-width: 640px) { .modal-overlay { align-items: center; } }
-
   .modal-sheet {
     background: var(--white);
     width: 100%;
@@ -457,7 +433,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     .modal-overlay.open .modal-sheet { transform: translateY(0) scale(1); opacity: 1; }
   }
-
   .modal-handle {
     width: 40px; height: 4px;
     background: #d1d5db;
@@ -466,7 +441,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     flex-shrink: 0;
   }
   @media (min-width: 640px) { .modal-handle { display: none; } }
-
   .modal-close {
     position: absolute;
     top: 16px; right: 16px;
@@ -482,7 +456,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     z-index: 10;
   }
   .modal-close:hover { background: var(--border); }
-
   .progress-bar-wrap { padding: 16px 20px 0; flex-shrink: 0; }
   .progress-track { height: 3px; background: var(--border); border-radius: 3px; overflow: hidden; }
   .progress-fill {
@@ -498,17 +471,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--muted);
   }
-
   .steps-container {
     flex: 1;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-
   .modal-step { display: none; padding: 20px 20px 24px; animation: stepIn 0.22s ease forwards; }
   .modal-step.active { display: block; }
-
   @keyframes stepIn {
     from { opacity: 0; transform: translateX(18px); }
     to   { opacity: 1; transform: translateX(0); }
@@ -518,14 +488,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     from { opacity: 0; transform: translateX(-18px); }
     to   { opacity: 1; transform: translateX(0); }
   }
-
   .step-title {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800; font-size: 1.45rem;
     color: var(--navy-deep); line-height: 1.1; margin-bottom: 4px;
   }
   .step-sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; font-weight: 500; }
-
   .select-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-bottom: 22px; }
   .sel-card {
     border: 1.5px solid var(--border);
@@ -564,7 +532,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .sel-card.selected .sel-check { background: var(--gold); border-color: var(--gold); }
   .sel-check svg { display: none; }
   .sel-card.selected .sel-check svg { display: block; }
-
   .qual-list { display: flex; flex-direction: column; gap: 9px; margin-bottom: 20px; }
   .qual-sel {
     display: flex; align-items: center; gap: 12px;
@@ -598,7 +565,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .qual-sel.selected .qual-sel-box { background: var(--gold); border-color: var(--gold); }
   .qual-sel-box svg { display: none; }
   .qual-sel.selected .qual-sel-box svg { display: block; }
-
   .exp-wrap { margin-bottom: 22px; }
   .exp-label {
     font-size: 0.78rem; font-weight: 700;
@@ -623,7 +589,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     cursor: pointer;
   }
   .exp-select:focus { border-color: var(--navy-light); background-color: var(--white); }
-
   .modal-footer {
     padding: 14px 20px 22px;
     flex-shrink: 0;
@@ -657,7 +622,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   .btn-next:hover { background: var(--gold-hover); }
   .btn-next:active { transform: scale(0.985); }
-
   .success-step { padding: 40px 24px 32px; text-align: center; }
   .success-icon {
     width: 72px; height: 72px;
@@ -674,12 +638,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     stroke-dashoffset: 80;
     animation: drawCheck 0.4s ease 0.65s forwards;
   }
-  @keyframes drawCircle {
-    to { stroke-dashoffset: 0; }
-  }
-  @keyframes drawCheck {
-    to { stroke-dashoffset: 0; }
-  }
+  @keyframes drawCircle { to { stroke-dashoffset: 0; } }
+  @keyframes drawCheck { to { stroke-dashoffset: 0; } }
   @keyframes successPop {
     from { transform: scale(0.5); opacity: 0; }
     to   { transform: scale(1); opacity: 1; }
@@ -699,10 +659,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     margin-top: 20px; height: 4px;
     background: var(--border); border-radius: 3px; overflow: hidden;
   }
-  .loading-fill {
-    height: 100%; background: var(--gold);
-    border-radius: 3px; width: 0%;
-  }
+  .loading-fill { height: 100%; background: var(--gold); border-radius: 3px; width: 0%; }
   .success-step h2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2rem; font-weight: 800;
@@ -737,7 +694,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .form-card { max-width: 440px; }
     .job-grid { grid-template-columns: repeat(4, 1fr); }
     .section-head { padding: 0 40px; margin-bottom: 20px; }
-    .job-types { padding: 0 40px; padding-bottom: 36px; }
+    .job-types { padding: 0 40px 36px; }
     .quals-wrap .section-head { padding: 0 40px; }
     .quals-wrap .section-divider { padding: 0 40px; margin: 28px 0 20px; }
     .cta-section { padding: 48px 48px 52px; }
@@ -754,7 +711,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">BlackBar<span>Jobs</span></div>
+  <div class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></div>
 </nav>
 
 <!-- HERO -->
@@ -767,7 +724,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Solid Jobs For <em>Hard Workers</em></h1>
     <p class="hero-sub">Join the BlackBar Network for Dallas–Fort Worth security job alerts.</p>
     <div class="form-card" id="signup">
-      <div class="form-card-title">Sign Up for DFW Security Job Alerts</div>
+      <div class="form-card-title">Get Registered — No Cost</div>
       <div class="form-row">
         <div class="field-wrap">
           <span class="field-icon">👤</span>
@@ -865,19 +822,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="modal-handle"></div>
     <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
     <div class="progress-bar-wrap">
-      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:50%"></div></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:33%"></div></div>
       <div class="progress-label">
-        <span id="stepLabel">Step 1 of 2</span>
+        <span id="stepLabel">Step 1 of 3</span>
         <span id="stepCount" style="color:var(--gold);font-weight:700;">Job Types</span>
       </div>
     </div>
     <div class="steps-container">
+
+      <!-- STEP 1 — JOB TYPES -->
       <div class="modal-step active" id="step1">
         <div class="step-title">What jobs are you interested in?</div>
-        <div class="step-sub">Select all that apply.</div>
+        <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
         <div class="select-grid" id="jobGrid"></div>
         <div id="jobError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one job type.</div>
       </div>
+
+      <!-- STEP 2 — QUALIFICATIONS -->
       <div class="modal-step" id="step2">
         <div class="step-title">Any of these qualifications?</div>
         <div class="step-sub">Select all that apply.</div>
@@ -894,9 +855,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div id="expError" style="display:none;color:#e53935;font-size:0.75rem;margin-top:4px;">Please select your experience level.</div>
         </div>
         <div class="qual-list" id="qualList"></div>
-        <div id="qualError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one qualification.</div>
-        <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-bottom:6px;">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
+        <div id="qualError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;"></div>
       </div>
+
+      <!-- STEP 3 — AVAILABILITY -->
+      <div class="modal-step" id="step3">
+        <div class="step-title">What types of security jobs are you open to?</div>
+        <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
+        <div class="qual-list" id="availList"></div>
+        <div id="availError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one option.</div>
+        <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:16px;">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
+      </div>
+
+      <!-- LOADING -->
       <div class="modal-step" id="stepLoading">
         <div class="loading-step">
           <div class="loading-icon">🔍</div>
@@ -906,7 +877,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
       </div>
-      <div class="modal-step" id="step3">
+
+      <!-- SUCCESS -->
+      <div class="modal-step" id="step4">
         <div class="success-step">
           <div class="success-icon">
             <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -923,6 +896,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <button class="success-close" onclick="closeModal()">Done</button>
         </div>
       </div>
+
     </div>
     <div class="modal-footer" id="modalFooter">
       <div class="modal-footer-row">
@@ -948,6 +922,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     { id:'hospital',  icon:'🏥', label:'Hospital Security' },
     { id:'retail',    icon:'🛒', label:'Retail Security' },
   ];
+
   const QUALS = [
     { id:'guard',  icon:'📋', label:'Guard Card / Security License' },
     { id:'armed',  icon:'🔒', label:'Armed License' },
@@ -956,10 +931,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     { id:'cpr',    icon:'❤️', label:'CPR / First Aid Certified' },
   ];
 
+  const AVAILABILITY = [
+    { id:'fulltime', icon:'💼', label:'Full-Time' },
+    { id:'parttime', icon:'🕐', label:'Part-Time' },
+    { id:'nights',   icon:'🌙', label:'Nights / Weekends' },
+    { id:'oncall',   icon:'📲', label:'On-Call Shifts' },
+    { id:'all',      icon:'✅', label:'All of the Above' },
+  ];
+
   let currentStep = 1;
-  const TOTAL_STEPS = 2;
+  const TOTAL_STEPS = 3;
   const selectedJobs = new Set();
   const selectedQuals = new Set();
+  const selectedAvailability = new Set();
   const checkSVG = `<svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l3 3 5-6" stroke="#000814" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
   function buildJobGrid() {
@@ -970,6 +954,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="sel-check">${checkSVG}</div>
       </div>`).join('');
   }
+
   function buildQualList() {
     document.getElementById('qualList').innerHTML = QUALS.map(q => `
       <div class="qual-sel" data-id="${q.id}" onclick="toggleQual(this,'${q.id}')">
@@ -978,14 +963,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="qual-sel-box">${checkSVG}</div>
       </div>`).join('');
   }
+
+  function buildAvailList() {
+    document.getElementById('availList').innerHTML = AVAILABILITY.map(a => `
+      <div class="qual-sel" data-id="${a.id}" onclick="toggleAvail(this,'${a.id}')">
+        <div class="qual-sel-icon">${a.icon}</div>
+        <span class="qual-sel-label">${a.label}</span>
+        <div class="qual-sel-box">${checkSVG}</div>
+      </div>`).join('');
+  }
+
   function toggleJob(el, id) {
     el.classList.toggle('selected');
     selectedJobs.has(id) ? selectedJobs.delete(id) : selectedJobs.add(id);
   }
+
   function toggleQual(el, id) {
     el.classList.toggle('selected');
     selectedQuals.has(id) ? selectedQuals.delete(id) : selectedQuals.add(id);
   }
+
+  function toggleAvail(el, id) {
+    if (id === 'all') {
+      const allSelected = selectedAvailability.has('all');
+      selectedAvailability.clear();
+      document.querySelectorAll('#availList .qual-sel').forEach(c => c.classList.remove('selected'));
+      if (!allSelected) {
+        selectedAvailability.add('all');
+        el.classList.add('selected');
+      }
+      return;
+    }
+    selectedAvailability.delete('all');
+    document.querySelector('#availList [data-id="all"]').classList.remove('selected');
+    el.classList.toggle('selected');
+    selectedAvailability.has(id) ? selectedAvailability.delete(id) : selectedAvailability.add(id);
+  }
+
   function openModal() {
     const name  = document.getElementById('f-name').value.trim();
     const zip   = document.getElementById('f-zip').value.trim();
@@ -1013,6 +1027,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('modalOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
+
   function closeModal() {
     const sheet = document.getElementById('modalSheet');
     const isMobile = window.innerWidth < 640;
@@ -1025,40 +1040,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       document.body.style.overflow = '';
     }, 280);
   }
+
   function handleOverlayClick(e) {
     if (e.target === document.getElementById('modalOverlay')) closeModal();
   }
+
   function goNext() {
     if (currentStep === 1) {
       if (selectedJobs.size === 0) {
         document.getElementById('jobError').style.display = 'block';
         return;
-      } else {
-        document.getElementById('jobError').style.display = 'none';
       }
+      document.getElementById('jobError').style.display = 'none';
     }
     if (currentStep === 2) {
       const exp = document.getElementById('expSelect').value;
-      const expError = document.getElementById('expError');
-      const qualError = document.getElementById('qualError');
-      let valid = true;
       if (!exp) {
-        expError.style.display = 'block';
+        document.getElementById('expError').style.display = 'block';
         document.getElementById('expSelect').style.borderColor = '#e53935';
-        valid = false;
-      } else {
-        expError.style.display = 'none';
-        document.getElementById('expSelect').style.borderColor = '';
+        return;
       }
-      qualError.style.display = 'none';
-      if (!valid) return;
+      document.getElementById('expError').style.display = 'none';
+      document.getElementById('expSelect').style.borderColor = '';
+    }
+    if (currentStep === 3) {
+      if (selectedAvailability.size === 0) {
+        document.getElementById('availError').style.display = 'block';
+        return;
+      }
+      document.getElementById('availError').style.display = 'none';
     }
     if (currentStep < TOTAL_STEPS) { currentStep++; updateUI(); }
     else submitAll();
   }
+
   function goBack() {
     if (currentStep > 1) { currentStep--; updateUI(true); }
   }
+
   function updateUI(isBack = false) {
     document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
     const active = document.getElementById('step' + currentStep);
@@ -1070,13 +1089,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const pct = (currentStep / TOTAL_STEPS) * 100;
     document.getElementById('progressFill').style.width = pct + '%';
     document.getElementById('stepLabel').textContent = `Step ${currentStep} of ${TOTAL_STEPS}`;
-    document.getElementById('stepCount').textContent = currentStep === 1 ? 'Job Types' : 'Qualifications';
+    const labels = { 1: 'Job Types', 2: 'Qualifications', 3: 'Availability' };
+    document.getElementById('stepCount').textContent = labels[currentStep] || '';
     document.getElementById('backBtn').style.display = currentStep > 1 ? 'flex' : 'none';
     document.getElementById('nextBtn').textContent = currentStep === TOTAL_STEPS ? 'Finish →' : 'Next →';
   }
+
   function submitAll() {
     if (typeof grecaptcha === 'undefined') {
-      // reCAPTCHA not loaded, submit without token
       sendPayload('');
       return;
     }
@@ -1089,14 +1109,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   function sendPayload(token) {
     const payload = {
-      timestamp:  new Date().toISOString(),
-      name:       document.getElementById('f-name').value.trim(),
-      zip:        document.getElementById('f-zip').value.trim(),
-      phone:      document.getElementById('f-phone').value.trim(),
-      email:      document.getElementById('f-email').value.trim(),
-      jobs:       Array.from(selectedJobs).join(', '),
-      quals:      Array.from(selectedQuals).join(', '),
-      experience: document.getElementById('expSelect').value,
+      timestamp:    new Date().toISOString(),
+      name:         document.getElementById('f-name').value.trim(),
+      zip:          document.getElementById('f-zip').value.trim(),
+      phone:        document.getElementById('f-phone').value.trim(),
+      email:        document.getElementById('f-email').value.trim(),
+      jobs:         Array.from(selectedJobs).join(', '),
+      quals:        Array.from(selectedQuals).join(', '),
+      experience:   document.getElementById('expSelect').value,
+      availability: Array.from(selectedAvailability).join(', '),
       recaptcha_token: token,
     };
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
@@ -1112,7 +1133,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('progressFill').closest('.progress-bar-wrap').style.display = 'none';
     document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
     document.getElementById('stepLoading').classList.add('active');
-
     const messages = [
       'Verifying your info...',
       'Checking jobs in your area...',
@@ -1124,7 +1144,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     el.textContent = messages[0];
     fill.style.transition = 'width 2.7s linear';
     setTimeout(() => { fill.style.width = '100%'; }, 50);
-
     const interval = setInterval(() => {
       i++;
       if (i < messages.length) {
@@ -1135,15 +1154,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
     }, 900);
   }
+
   function showSuccess() {
     document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
-    document.getElementById('step3').classList.add('active');
+    document.getElementById('step4').classList.add('active');
     gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
     dataLayer.push({'event': 'conversion_success'});
   }
 
   buildJobGrid();
   buildQualList();
+  buildAvailList();
 
   const observer = new IntersectionObserver(entries => {
     const bar = document.getElementById('stickyBar');
