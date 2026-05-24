@@ -870,7 +870,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="steps-container">
       <div class="modal-step active" id="step1">
         <div class="step-title">What jobs are you interested in?</div>
-        <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
+        <div class="step-sub">Select all that apply.</div>
         <div class="select-grid" id="jobGrid"></div>
         <div id="jobError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one job type.</div>
       </div>
@@ -1040,12 +1040,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         expError.style.display = 'none';
         document.getElementById('expSelect').style.borderColor = '';
       }
-      if (selectedQuals.size === 0) {
-        qualError.style.display = 'block';
-        valid = false;
-      } else {
-        qualError.style.display = 'none';
-      }
+      qualError.style.display = 'none';
       if (!valid) return;
     }
     if (currentStep < TOTAL_STEPS) { currentStep++; updateUI(); }
