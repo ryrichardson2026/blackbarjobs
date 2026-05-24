@@ -770,6 +770,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="form-card-title">Get Registered</div>
       <div class="form-row">
         <div class="field-wrap">
+          <span class="field-icon">👤</span>
+          <input id="f-name" type="text" inputmode="text" placeholder="Full Name" autocomplete="name">
+        </div>
+        <div class="field-wrap">
           <span class="field-icon">📍</span>
           <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
         </div>
@@ -983,9 +987,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     selectedQuals.has(id) ? selectedQuals.delete(id) : selectedQuals.add(id);
   }
   function openModal() {
+    const name  = document.getElementById('f-name').value.trim();
     const zip   = document.getElementById('f-zip').value.trim();
     const phone = document.getElementById('f-phone').value.trim();
     const email = document.getElementById('f-email').value.trim();
+    if (!name) {
+      const el = document.getElementById('f-name');
+      el.classList.add('error'); el.focus();
+      setTimeout(() => el.classList.remove('error'), 1800); return;
+    }
     if (!zip || zip.length < 5) {
       const el = document.getElementById('f-zip');
       el.classList.add('error'); el.focus();
@@ -1080,6 +1090,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   function sendPayload(token) {
     const payload = {
       timestamp:  new Date().toISOString(),
+      name:       document.getElementById('f-name').value.trim(),
       zip:        document.getElementById('f-zip').value.trim(),
       phone:      document.getElementById('f-phone').value.trim(),
       email:      document.getElementById('f-email').value.trim(),
