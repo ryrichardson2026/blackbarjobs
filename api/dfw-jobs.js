@@ -1,12 +1,12 @@
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
 
   try {
 
     const response = await fetch(
-      "https://api.jobdatalake.com/v1/jobs?q=security+guard&location=Dallas&per_page=10&sort_by=posted_at:desc",
+      'https://api.jobdatalake.com/v1/jobs?q=security+guard&location=Dallas&per_page=10&sort_by=posted_at:desc',
       {
         headers: {
-          "X-API-Key": process.env.JOBDATALAKE_API_KEY
+          'X-API-Key': process.env.JOBDATALAKE_API_KEY
         }
       }
     );
@@ -18,8 +18,9 @@ export default async function handler(req, res) {
   } catch (error) {
 
     res.status(500).json({
-      error: "Failed to fetch jobs"
+      error: error.message
     });
 
   }
-}
+
+};
