@@ -3,7 +3,7 @@ module.exports = async (req, res) => {
   try {
 
     const response = await fetch(
-      'https://api.jobdatalake.com/v1/jobs?q=security+guard&location=Dallas&per_page=10&sort_by=posted_at:desc',
+      'https://api.jobdatalake.com/v1/jobs?q=security+officer&location=Dallas&per_page=10&sort_by=posted_at:desc',
       {
         headers: {
           'X-API-Key': process.env.JOBDATALAKE_API_KEY
