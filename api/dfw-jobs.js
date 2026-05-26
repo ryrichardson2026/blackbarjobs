@@ -11,9 +11,23 @@ module.exports = async (req, res) => {
       }
     );
 
-    const data = await response.json();
+   const data = await response.json();
 
-    res.status(200).json(data);
+const filteredJobs = data.jobs.filter(job => {
+
+  const title = job.title.toLowerCase();
+
+  return !title.includes('cloud')
+    && !title.includes('cyber')
+    && !title.includes('architect')
+    && !title.includes('engineer')
+    && !title.includes('information security');
+
+});
+
+res.status(200).json({
+  jobs: filteredJobs
+});
 
   } catch (error) {
 
