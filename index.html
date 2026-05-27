@@ -1262,16 +1262,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           return;
         }
         feed.innerHTML = jobs.map(function(j) {
-          var applyUrl = j.apply_url || j.url || j.job_url || '#';
+          var applyUrl = j.url || j.apply_url || '#';
           var title = j.title || 'Security Officer';
-          var company = j.company || '';
-          var location = j.location || j.city || '';
-          // Trim to city only if full address
+          var company = j.company_name || '';
+          var location = (j.locations && j.locations.length) ? j.locations[0] : '';
+          // Trim to city, state only
           if (location.indexOf(',') > -1) {
             location = location.split(',').slice(0, 2).join(',').trim();
           }
           var empType = j.employment_type ? j.employment_type.replace('_', ' ') : '';
-          var seniority = j.seniority || '';
+          var seniority = (j.seniority && j.seniority.length) ? j.seniority[0] : '';
           var metaParts = [];
           if (company) metaParts.push('<span class="hf-company">' + company + '</span>');
           if (location) metaParts.push('<span class="hf-sep">·</span><span class="hf-location">' + location + '</span>');
