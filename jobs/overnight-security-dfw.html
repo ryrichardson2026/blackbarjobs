@@ -62,7 +62,7 @@
   .section-light .duty-list li { color: var(--charcoal); }
 
   .section-dark { background: var(--navy-deep); padding: 0 0 36px; }
-  .section-dark .section-divider span { color: rgba(255,255,255,0.4); }
+  .section-dark .section-divider span { color: var(--gold); }
   .section-dark .section-divider::before, .section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
   .section-dark .section-wrap h2 { color: var(--white); }
   .section-dark .section-wrap p { color: rgba(255,255,255,0.72); }
@@ -86,7 +86,7 @@
   .pay-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px 14px; }
   .pay-card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
   .pay-card-rate { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--gold); line-height: 1; }
-  .pay-card-annual { font-size: 0.7rem; color: rgba(255,255,255,0.4); margin-top: 4px; }
+  .pay-card-annual { font-size: 0.7rem; color: var(--gold); margin-top: 4px; }
 
   /* ── BULLET LIST ── */
   .duty-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
@@ -147,8 +147,20 @@
   footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
 
   /* ── DESKTOP ── */
+
   @media (min-width: 640px) {
-    .hero-content { padding: 80px 48px 64px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
     .section-wrap { padding: 0 40px 40px; }
     .section-divider { padding: 0 40px; margin: 36px 0 24px; }
     .pay-grid { grid-template-columns: repeat(3, 1fr); }
@@ -204,9 +216,81 @@
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
+
   @media (min-width: 640px) {
-    .nudge-wrap { padding: 32px 40px 36px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
   }
+
+  /* ── TWO COL ── */
+  .two-col-section {
+    background: var(--white);
+  }
+  .mid-cta-wrap {
+    background: var(--white);
+    padding: 28px 20px;
+    text-align: center;
+  }
+  @media (min-width: 640px) {
+    .two-col-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .two-col-inner .section-wrap {
+      padding: 0 40px 40px;
+    }
+    .two-col-inner .section-wrap:first-child {
+      padding-left: 40px;
+      padding-right: 24px;
+      border-right: 1px solid var(--border);
+    }
+    .two-col-inner .section-wrap:last-child {
+      padding-left: 24px;
+      padding-right: 40px;
+    }
+    .mid-cta-wrap {
+      padding: 32px 40px;
+    }
+    .mid-cta-wrap .btn-primary {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+
+
+  .two-col-dark {
+    background: var(--navy-deep);
+  }
+  @media (min-width: 640px) {
+    .two-col-dark .two-col-inner .section-wrap:first-child {
+      border-right-color: rgba(255,255,255,0.12);
+    }
+  }
+
+
+  .two-col-dark .section-wrap h2 { color: var(--white); }
+  .two-col-dark .section-wrap p { color: rgba(255,255,255,0.6); }
+  .two-col-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  .two-col-dark .section-divider span { color: var(--gold); }
+  .two-col-dark .section-divider::before,
+  .two-col-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+
 </style>
 </head>
 <body>
@@ -226,19 +310,40 @@
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Overnight Security<br><em>Jobs</em></h1>
     <div class="hero-ctas">
-      <a href="#alerts" class="btn-primary">Get Notified First When Overnight Security Jobs Open</a>
+      <a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a>
     </div>
   </div>
 </section>
 
-<!-- SECTION 1 — ROLE OVERVIEW (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Role Overview</span></div>
+<!-- SECTION 1+3 — TWO COL -->
+<div class="two-col-section">
+  <div class="section-divider" style="margin-top:0;"><span>Overview &amp; Duties</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Role Overview</span></div>
   <div class="section-wrap">
     <h2>What Does an Overnight Security Officer Do?</h2>
     <p>Overnight security officers provide after-hours protection at facilities, properties, and sites that require continuous coverage. Shifts typically run from 10pm to 6am — covering the period of highest vulnerability for most commercial and industrial properties.</p>
     <p>Common assignments include warehouses, office buildings, construction sites, apartment complexes, hospitals, and retail centers. Officers work in quieter, lower-traffic environments but must remain alert and responsive throughout the shift.</p>
     <p>Overnight positions frequently offer shift differentials — a pay premium for working non-standard hours. Many experienced security professionals specifically seek overnight work for the higher pay and lower supervision environment.</p>
+  </div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Duties</span></div>
+  <div class="section-wrap">
+    <h2>Common Duties &amp; Responsibilities</h2>
+    <ul class="duty-list">
+      <li>Conduct scheduled foot and vehicle patrols throughout the shift</li>
+      <li>Monitor surveillance cameras and alarm systems</li>
+      <li>Control access to the facility during after-hours periods</li>
+      <li>Respond to alarms, disturbances, and emergency situations</li>
+      <li>Document all activity in daily shift logs and incident reports</li>
+      <li>Secure doors, gates, and entry points at start and end of shift</li>
+      <li>Coordinate with law enforcement and emergency services when required</li>
+      <li>Deter trespassing, theft, and vandalism during low-visibility hours</li>
+    </ul>
+  </div>
+    </div>
   </div>
 </div>
 
@@ -267,32 +372,17 @@
   </div>
 </div>
 
-<!-- MID-PAGE CTA -->
-<div style="background:var(--white);padding:28px 20px 32px;max-width:400px;">
-  <a href="#alerts" class="btn-primary">Get Notified First When Overnight Security Jobs Open</a>
+
+<div class="mid-cta-wrap">
+  <button class="btn-primary" onclick="document.getElementById('alerts').scrollIntoView({behavior:'smooth'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
 </div>
 
-<!-- SECTION 3 — RESPONSIBILITIES (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Duties</span></div>
-  <div class="section-wrap">
-    <h2>Common Duties &amp; Responsibilities</h2>
-    <ul class="duty-list">
-      <li>Conduct scheduled foot and vehicle patrols throughout the shift</li>
-      <li>Monitor surveillance cameras and alarm systems</li>
-      <li>Control access to the facility during after-hours periods</li>
-      <li>Respond to alarms, disturbances, and emergency situations</li>
-      <li>Document all activity in daily shift logs and incident reports</li>
-      <li>Secure doors, gates, and entry points at start and end of shift</li>
-      <li>Coordinate with law enforcement and emergency services when required</li>
-      <li>Deter trespassing, theft, and vandalism during low-visibility hours</li>
-    </ul>
-  </div>
-</div>
-
-<!-- SECTION 4 — CREDENTIALS (dark) -->
-<div class="section-dark">
-  <div class="section-divider"><span>Requirements</span></div>
+<!-- SECTION 4+5 — CREDENTIALS + EXPERIENCE TWO COL (dark) -->
+<div class="two-col-dark">
+  <div class="section-divider"><span>Requirements &amp; Experience</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Requirements</span></div>
   <div class="section-wrap">
     <h2>Training &amp; Credential Requirements</h2>
     <div class="cred-list">
@@ -319,11 +409,9 @@
     </div>
     <p style="margin-top:14px;font-size:0.75rem;color:rgba(255,255,255,0.35);">Requirements vary by employer and site. Verify directly with the hiring company.</p>
   </div>
-</div>
-
-<!-- SECTION 5 — EXPERIENCE (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Experience</span></div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Experience</span></div>
   <div class="section-wrap">
     <h2>Experience Requirements</h2>
     <ul class="duty-list">
@@ -334,10 +422,12 @@
       <li>Physical requirements include extended walking, standing, and responding quickly to incidents in low-light conditions</li>
     </ul>
   </div>
+    </div>
+  </div>
 </div>
 
 <!-- SECTION 6 — SHIFTS (dark) -->
-<div class="section-dark">
+<div class="section-light">
   <div class="section-divider"><span>Schedules</span></div>
   <div class="section-wrap">
     <h2>Typical Schedules &amp; Work Environments</h2>
@@ -354,24 +444,6 @@
 </div>
 
 <!-- SECTION 7 — INDUSTRIES (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Industries</span></div>
-  <div class="section-wrap">
-    <h2>Industries Hiring Overnight Security</h2>
-    <div class="industry-grid">
-      <span class="industry-tag">📦 Warehouses &amp; Distribution</span>
-      <span class="industry-tag">🏗️ Construction Sites</span>
-      <span class="industry-tag">🏠 Apartment Complexes</span>
-      <span class="industry-tag">🏥 Hospitals &amp; Healthcare</span>
-      <span class="industry-tag">🏢 Office Buildings</span>
-      <span class="industry-tag">🏪 Retail Centers</span>
-      <span class="industry-tag">🏭 Manufacturing Plants</span>
-      <span class="industry-tag">🚗 Auto Dealerships</span>
-      <span class="industry-tag">🏨 Hotels</span>
-      <span class="industry-tag">⛽ Energy &amp; Utilities</span>
-    </div>
-  </div>
-</div>
 
 <!-- SECTION 8 — RELATED JOBS (dark) -->
 <div class="section-dark">
@@ -416,24 +488,10 @@
 
 <!-- SECTION 10 — ALERT SIGNUP -->
 
-<!-- NUDGE BLOCK -->
-<div class="nudge-wrap">
-  <h3>Don't See The Right <span>Security Job Yet?</span></h3>
-  <ul class="nudge-roles">
-    <li>Unarmed Security jobs</li>
-    <li>Overnight Security shifts</li>
-    <li>Mobile Patrol positions</li>
-    <li>Event Security openings</li>
-    <li>Loss Prevention roles</li>
-  </ul>
-  <p class="nudge-sub">Get notified the moment new opportunities matching your interests are posted.</p>
-  <a href="#alerts" class="nudge-btn">Get Job Alerts</a>
-  <p class="nudge-trust">New security opportunities are added regularly across DFW.</p>
-</div>
 
-<div class="alert-wrap" id="alerts">
-  <h2>Get Notified First When<br><span>Overnight Security Jobs Open</span></h2>
-  <p>Drop your info below. We'll alert you the moment new openings post in DFW.</p>
+<div class="alert-wrap" id="alerts" style="border-top: 3px solid rgba(255,195,0,0.3);">
+  <h2>Don't See The Right Security Job Yet?</h2>
+  <p>Get notified when new overnight security jobs open in DFW.</p>
   <div class="alert-form" id="alertForm">
     <div class="alert-field">
       <span class="alert-field-icon">📍</span>
