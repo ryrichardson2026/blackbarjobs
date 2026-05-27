@@ -3,7 +3,8 @@ let cache = {
   ts: 0
 };
 
-const TTL = 2 * 60 * 60 * 1000; // 2 hours
+// Cache jobs for 12 hours
+const TTL = 12 * 60 * 60 * 1000;
 
 module.exports = async (req, res) => {
 
@@ -16,7 +17,7 @@ module.exports = async (req, res) => {
 
     }
 
-    // Fetch physical security jobs across DFW
+    // Fetch DFW security jobs
     const response = await fetch(
       'https://api.jobdatalake.com/v1/jobs?q=security+officer&location=Dallas%2C+TX%2CFrisco%2C+TX%2CRichardson%2C+TX%2CFort+Worth%2C+TX%2CArlington%2C+TX%2CPlano%2C+TX%2CMcKinney%2C+TX%2CDenton%2C+TX&per_page=25&sort_by=posted_at:desc',
       {
@@ -28,31 +29,44 @@ module.exports = async (req, res) => {
 
     const data = await response.json();
 
-    // Remove cybersecurity / IT security jobs
+    // Domains to block due to bad / stale links
+    const blockedDomains = [
+      'marriott.com',
+      'methodisthealthsystem.org'
+    ];
+
+    // Filter jobs
     const filteredJobs = data.jobs.filter(job => {
 
       const title = (job.title || '').toLowerCase();
 
+      // Remove blocked domains
+      if (blockedDomains.includes(job.domain_name)) {
+
+        return false;
+
+      }
+
+      // Remove cybersecurity / IT security jobs
       return !title.includes('cyber')
-  && !title.includes('information')
-  && !title.includes('information systems')
-  && !title.includes('application')
-  && !title.includes('software')
-  && !title.includes('developer')
-  && !title.includes('engineer')
-  && !title.includes('architect')
-  && !title.includes('devsecops')
-  && !title.includes('red team')
-  && !title.includes('mainframe')
-  && !title.includes('iam')
-  && !title.includes('it ')
-  && !title.includes('product manager')
-  && !title.includes('compliance manager')
-  && !title.includes('analyst');
+        && !title.includes('information')
+        && !title.includes('application')
+        && !title.includes('software')
+        && !title.includes('developer')
+        && !title.includes('engineer')
+        && !title.includes('architect')
+        && !title.includes('devsecops')
+        && !title.includes('red team')
+        && !title.includes('mainframe')
+        && !title.includes('iam')
+        && !title.includes('it ')
+        && !title.includes('product manager')
+        && !title.includes('compliance manager')
+        && !title.includes('analyst');
 
     });
 
-    // Only allow ONE job per employer
+    // Allow only ONE job per employer
     const seenCompanies = new Set();
 
     const uniqueJobs = filteredJobs.filter(job => {
@@ -71,7 +85,7 @@ module.exports = async (req, res) => {
 
     });
 
-    // Return top 5 unique employer jobs
+    // Return top 5 jobs
     const result = {
       jobs: uniqueJobs.slice(0, 5)
     };
