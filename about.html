@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About BlackBarJobs | Security Job Alerts in DFW</title>
+<meta name="description" content="BlackBarJobs is a security job alert network built for professionals in Dallas–Fort Worth. Get notified first when new security jobs open in your area.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23000814'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='13' fill='%23FFC300'>BB</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy-deep: #000814; --navy-light: #003566;
+    --gold: #FFC300; --gold-muted: #E6A800;
+    --white: #ffffff; --off-white: #f4f5f7;
+    --charcoal: #1a1a1a; --muted: #5a6474; --border: #e2e5ea;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Barlow', sans-serif; background: var(--white); color: var(--charcoal); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+  .nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; line-height: 1; border-bottom: 9px solid #111; padding-bottom: 4px; display: inline-block; text-decoration: none; }
+  .nav-logo span { color: #FFC300; }
+  .nav-logo .nav-security { color: #111; font-weight: 600; font-size: 1rem; opacity: 0.6; margin-left: 6px; }
+
+  /* HERO */
+  .about-hero {
+    margin-top: 49px;
+    background: var(--navy-deep);
+    padding: 64px 20px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+  .about-hero-inner { position: relative; z-index: 1; max-width: 640px; }
+  .about-badge {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold); border: 1px solid rgba(255,195,0,0.4);
+    padding: 4px 10px; border-radius: 3px; margin-bottom: 16px;
+  }
+  .about-hero h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: clamp(2.4rem, 8vw, 3.4rem);
+    line-height: 1.05; letter-spacing: -0.01em;
+    color: var(--white); margin-bottom: 14px;
+  }
+  .about-hero h1 em { color: var(--gold); font-style: normal; }
+  .about-hero p { font-size: 1rem; color: rgba(255,255,255,0.65); max-width: 480px; line-height: 1.6; }
+
+  /* SECTIONS */
+  .section-divider {
+    display: flex; align-items: center; gap: 12px;
+    padding: 0 20px; margin: 32px 0 20px;
+  }
+  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  .section-divider span { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+
+  .section-wrap { padding: 0 20px 36px; max-width: 720px; }
+  .section-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.6rem, 5vw, 2rem); font-weight: 800; color: var(--navy-deep); line-height: 1.1; margin-bottom: 14px; }
+  .section-wrap p { font-size: 0.92rem; color: var(--charcoal); line-height: 1.7; margin-bottom: 12px; }
+
+  /* HOW IT WORKS */
+  .steps { display: flex; flex-direction: column; gap: 16px; margin-top: 4px; }
+  .step {
+    display: flex; gap: 16px; align-items: flex-start;
+    padding: 16px; background: var(--off-white);
+    border-radius: 12px; border: 1px solid var(--border);
+  }
+  .step-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4rem; font-weight: 800;
+    color: var(--gold); background: var(--navy-deep);
+    width: 40px; height: 40px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; line-height: 1;
+  }
+  .step-text h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; color: var(--navy-deep); margin-bottom: 3px; }
+  .step-text p { font-size: 0.85rem; color: var(--muted); margin: 0; line-height: 1.5; }
+
+  /* ROLES GRID */
+  .roles-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 4px; }
+  .role-link {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px;
+    border: 1.5px solid var(--border); border-radius: 10px;
+    text-decoration: none; color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem; font-weight: 700;
+    transition: border-color 0.12s, box-shadow 0.12s;
+  }
+  .role-link:hover { border-color: var(--navy-light); box-shadow: 0 2px 8px rgba(0,53,102,0.08); }
+  .role-icon { font-size: 1rem; }
+
+  /* CONTACT */
+  .contact-wrap {
+    background: var(--navy-deep);
+    padding: 36px 20px 40px;
+  }
+  .contact-wrap .section-divider span { color: var(--gold); letter-spacing: 0.16em; }
+  .contact-wrap .section-divider::before,
+  .contact-wrap .section-divider::after { background: rgba(255,255,255,0.12); }
+  .contact-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.6rem, 5vw, 2rem); font-weight: 800; color: var(--white); margin-bottom: 10px; }
+  .contact-wrap p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin-bottom: 20px; max-width: 480px; line-height: 1.6; }
+  .contact-wrap a.contact-email {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--gold); text-decoration: none;
+    border: 1.5px solid rgba(255,195,0,0.4);
+    padding: 12px 24px; border-radius: 10px;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .contact-wrap a.contact-email:hover { background: rgba(255,195,0,0.08); border-color: var(--gold); }
+  .contact-note { font-size: 0.75rem; color: rgba(255,255,255,0.3); margin-top: 14px; }
+
+  /* FOOTER */
+  footer { padding: 22px 20px; text-align: center; background: var(--navy-deep); border-top: 1px solid rgba(255,255,255,0.08); }
+  .footer-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--white); margin-bottom: 6px; }
+  .footer-logo span { color: var(--gold-muted); }
+  footer p { font-size: 0.72rem; color: rgba(255,255,255,0.45); line-height: 1.8; }
+  footer a { color: rgba(255,255,255,0.45); text-decoration: underline; }
+
+  @media (min-width: 640px) {
+    .about-hero { padding: 80px 48px 72px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .roles-grid { grid-template-columns: repeat(3, 1fr); }
+    .contact-wrap { padding: 48px 40px 52px; }
+    .contact-wrap .section-divider { padding: 0 40px; }
+    footer { padding: 28px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
+</nav>
+
+<!-- HERO -->
+<div class="about-hero">
+  <div class="about-hero-inner">
+    <div class="about-badge">Dallas–Fort Worth</div>
+    <h1>Built For <em>Security Professionals</em></h1>
+    <p>BlackBarJobs is a job alert network built specifically for security workers in Dallas–Fort Worth. We help you get notified first when new jobs open — before they fill.</p>
+  </div>
+</div>
+
+<!-- WHAT WE DO -->
+<div class="section-divider"><span>What We Do</span></div>
+<div class="section-wrap">
+  <h2>Not a Job Board. A Job Alert Service.</h2>
+  <p>Most security professionals find out about job openings too late. Postings go up on Indeed or ZipRecruiter, get buried under hundreds of other listings, and fill within days — sometimes hours.</p>
+  <p>BlackBarJobs is different. We monitor security job openings across the DFW metro and notify you the moment a relevant position posts. No browsing. No algorithms burying your search. Just a direct alert when something opens up in your area and your role category.</p>
+  <p>We're not a staffing agency. We don't charge candidates. We don't place workers or take commissions. We're a notification service — fast, free, and focused on security jobs in DFW.</p>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="section-divider"><span>How It Works</span></div>
+<div class="section-wrap">
+  <h2>Simple. Fast. Free.</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        <h3>Sign Up</h3>
+        <p>Enter your ZIP code, phone number or email, and tell us what security roles you're interested in. Takes under 60 seconds.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        <h3>We Monitor</h3>
+        <p>We continuously track security job openings across Dallas–Fort Worth — armed, unarmed, mobile patrol, overnight, event, TSA, and loss prevention roles.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        <h3>You Get Notified First</h3>
+        <p>When a matching job opens, you get an SMS or email alert before the posting spreads across the major boards. First in line means a better shot at landing the role.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ROLES -->
+<div class="section-divider"><span>Coverage</span></div>
+<div class="section-wrap">
+  <h2>Security Roles We Cover in DFW</h2>
+  <div class="roles-grid">
+    <a href="/jobs/armed-security-dfw" class="role-link"><span class="role-icon">🛡️</span> Armed Security</a>
+    <a href="/jobs/unarmed-security-dfw" class="role-link"><span class="role-icon">👮</span> Unarmed Security</a>
+    <a href="/jobs/overnight-security-dfw" class="role-link"><span class="role-icon">🌙</span> Overnight Security</a>
+    <a href="/jobs/mobile-patrol-dfw" class="role-link"><span class="role-icon">🚔</span> Mobile Patrol</a>
+    <a href="/jobs/event-security-dfw" class="role-link"><span class="role-icon">🎟️</span> Event Security</a>
+    <a href="/jobs/loss-prevention-dfw" class="role-link"><span class="role-icon">🏪</span> Loss Prevention</a>
+    <a href="/jobs/tsa-airport-security-dfw" class="role-link"><span class="role-icon">✈️</span> TSA / Airport</a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-wrap">
+  <div class="section-divider"><span>Contact</span></div>
+  <div style="padding: 0 20px;">
+    <h2>Get In Touch</h2>
+    <p>For employer or contractor inquiries — including listing jobs or partnering with BlackBarJobs to reach qualified security candidates in DFW — reach out directly.</p>
+    <a href="mailto:hello@blackbarjobs.com" class="contact-email">hello@blackbarjobs.com</a>
+    <p class="contact-note">We respond to all employer and partnership inquiries within 1 business day.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
+  <p>
+    <a href="/about">About</a> &nbsp;·&nbsp;
+    <a href="/terms">Terms &amp; Conditions</a> &nbsp;·&nbsp;
+    <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>
+  </p>
+</footer>
+
+</body>
+</html>
