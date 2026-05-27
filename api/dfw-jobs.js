@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
 
   try {
 
-    // Return cached data if still fresh
+    // Return cached jobs if still fresh
     if (cache.data && Date.now() - cache.ts < TTL) {
 
       return res.status(200).json(cache.data);
@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
 
     // Fetch jobs from JobDataLake
     const response = await fetch(
-      'https://api.jobdatalake.com/v1/jobs?q=security&location=Texas&per_page=50&sort_by=posted_at:desc',
+      'https://api.jobdatalake.com/v1/jobs?q=security%20officer&location=Texas&per_page=50&sort_by=posted_at:desc',
       {
         headers: {
           'X-API-Key': process.env.JOBDATALAKE_API_KEY
@@ -28,14 +28,14 @@ module.exports = async (req, res) => {
 
     const data = await response.json();
 
-    // Light filtering only
+    // Remove cybersecurity / IT security jobs
     const filteredJobs = data.jobs.filter(job => {
 
       const title = (job.title || '').toLowerCase();
 
       return !title.includes('cyber')
-        && !title.includes('cloud')
-        && !title.includes('application security')
+        && !title.includes('information systems')
+        && !title.includes('application')
         && !title.includes('software')
         && !title.includes('developer')
         && !title.includes('engineer')
@@ -44,12 +44,14 @@ module.exports = async (req, res) => {
         && !title.includes('red team')
         && !title.includes('mainframe')
         && !title.includes('iam')
-        && !title.includes('consultant')
+        && !title.includes('it ')
+        && !title.includes('product manager')
+        && !title.includes('compliance manager')
         && !title.includes('analyst');
 
     });
 
-    // Limit homepage feed to 5 jobs
+    // Return only top 5 freshest jobs
     const result = {
       jobs: filteredJobs.slice(0, 5)
     };
