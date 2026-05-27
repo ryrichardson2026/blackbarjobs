@@ -405,29 +405,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   /* ── QUALS ── */
   .quals-wrap {
-    background: var(--navy-deep);
+    background: var(--white);
     padding: 0 0 28px;
   }
   .quals-wrap .section-head { padding: 0 20px; margin-bottom: 16px; }
-  .quals-wrap .section-head h2 { color: var(--white); }
-  .quals-wrap .section-head p { color: rgba(255,255,255,0.6); }
+  .quals-wrap .section-head h2 { color: var(--navy-deep); }
+  .quals-wrap .section-head p { color: var(--muted); }
   .quals-wrap .section-divider { margin: 28px 0 20px; }
-  .quals-wrap .section-divider span { color: rgba(255,255,255,0.4); }
+  .quals-wrap .section-divider span { color: var(--muted); }
   .quals-wrap .section-divider::before,
-  .quals-wrap .section-divider::after { background: rgba(255,255,255,0.12); }
+  .quals-wrap .section-divider::after { background: var(--border); }
   .quals-section { padding: 0 20px; }
   .quals-grid { display: flex; flex-direction: column; }
   .qual-item {
     display: flex; align-items: center; gap: 14px;
-    padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 13px 0; border-bottom: 1px solid var(--border);
   }
   .qual-item:last-child { border-bottom: none; }
   .qual-check {
     width: 24px; height: 24px; border-radius: 6px;
-    background: var(--gold); flex-shrink: 0;
+    background: var(--navy-deep); flex-shrink: 0;
     display: flex; align-items: center; justify-content: center;
   }
-  .qual-text { font-size: 0.95rem; font-weight: 600; color: rgba(255,255,255,0.9); }
+  .qual-text { font-size: 0.95rem; font-weight: 600; color: var(--charcoal); }
 
   /* ── CTA SECTION ── */
   .cta-wrap { background: var(--white); }
@@ -751,46 +751,139 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* ── FAQ ── */
-  .faq-wrap { background: var(--white); padding: 0 0 36px; }
+  .faq-wrap { background: var(--navy-deep); padding: 0 0 36px; }
+  .faq-wrap .section-head h2 { color: var(--white); }
+  .faq-wrap .section-head p { color: rgba(255,255,255,0.6); }
+  .faq-wrap .section-divider span { color: rgba(255,255,255,0.4); }
+  .faq-wrap .section-divider::before,
+  .faq-wrap .section-divider::after { background: rgba(255,255,255,0.12); }
   .faq-list { display: flex; flex-direction: column; }
-  .faq-item { border-bottom: 1px solid var(--border); }
-  .faq-item:first-child { border-top: 1px solid var(--border); }
+  .faq-item { border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .faq-item:first-child { border-top: 1px solid rgba(255,255,255,0.1); }
   .faq-q {
     display: flex; align-items: center; justify-content: space-between;
     padding: 16px 20px; cursor: pointer;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1rem; font-weight: 700;
-    color: var(--navy-deep); line-height: 1.3;
+    color: rgba(255,255,255,0.9); line-height: 1.3;
     gap: 12px; user-select: none;
     -webkit-tap-highlight-color: transparent;
   }
-  .faq-q:hover { color: var(--navy-light); }
+  .faq-q:hover { color: var(--gold); }
   .faq-chevron {
     flex-shrink: 0; width: 20px; height: 20px;
-    border-radius: 50%; background: var(--off-white);
+    border-radius: 50%; background: rgba(255,255,255,0.08);
     display: flex; align-items: center; justify-content: center;
     font-size: 0.7rem; transition: transform 0.2s, background 0.15s;
-    color: var(--muted);
+    color: rgba(255,255,255,0.4);
   }
-  .faq-item.open .faq-chevron { transform: rotate(180deg); background: var(--navy-deep); color: var(--gold); }
+  .faq-item.open .faq-chevron { transform: rotate(180deg); background: var(--gold); color: var(--navy-deep); }
   .faq-a {
     display: none;
     padding: 0 20px 16px;
-    font-size: 0.88rem; color: var(--muted);
+    font-size: 0.88rem; color: rgba(255,255,255,0.55);
     line-height: 1.65; max-width: 620px;
   }
   .faq-item.open .faq-a { display: block; }
 
+  .hero-stat-row { display: none; }
+  .hero-text-col { display: contents; }
+
   /* ── DESKTOP ── */
   @media (min-width: 640px) {
-    .hero { flex-direction: row; min-height: calc(100vh - 49px); align-items: stretch; }
-    .hero-image-wrap { position: absolute; inset: 0 48% 0 0; }
-    .hero-image-wrap img { object-position: center top; filter: brightness(0.5) saturate(0.75); }
-    .hero-image-overlay { background: linear-gradient(to bottom, rgba(0,8,20,0.15) 0%, rgba(0,8,20,0.9) 100%); }
-    .hero-content { width: 48%; margin-left: 52%; padding: 48px 48px; display: flex; flex-direction: column; justify-content: center; }
-    h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); text-align: left; }
-    .hero-sub { text-align: left; }
-    .form-card { max-width: 440px; }
+    /* Hero — full bleed image, content layered over it */
+    .hero {
+      flex-direction: column;
+      min-height: calc(100vh - 49px);
+      align-items: stretch;
+    }
+    .hero-image-wrap {
+      position: absolute;
+      inset: 0;
+    }
+    .hero-image-wrap img {
+      object-position: center 20%;
+      filter: brightness(0.5) saturate(0.75);
+    }
+    .hero-image-overlay {
+      background: linear-gradient(
+        105deg,
+        rgba(0,8,20,0.82) 0%,
+        rgba(0,8,20,0.55) 45%,
+        rgba(0,8,20,0.25) 100%
+      );
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 48px;
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      align-items: center;
+      gap: 48px;
+    }
+    .hero-text-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: clamp(3rem, 4.5vw, 4.4rem);
+      text-align: left;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      text-align: left;
+      font-size: 1.1rem;
+      max-width: 420px;
+      margin-bottom: 0;
+    }
+    .hero-stat-row {
+      display: flex;
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .hero-stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .hero-stat-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+    .form-card {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 28px 24px 22px;
+      background: rgba(255,255,255,0.97);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08);
+    }
+
+    .hero-stat-row { display: flex; }
+    .hero-text-col { display: flex; flex-direction: column; justify-content: center; }
+
+    .faq-wrap .section-head { padding: 0 40px; }
+    .faq-wrap .section-divider { padding: 0 40px; }
+    .faq-q { padding: 16px 40px; }
+    .faq-a { padding: 0 40px 16px; }
+
+    /* Non-hero desktop rules */
     .job-grid { grid-template-columns: repeat(4, 1fr); }
     .section-head { padding: 0 40px; margin-bottom: 20px; }
     .job-types { padding: 0 40px 36px; }
@@ -886,8 +979,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-image-overlay"></div>
   </div>
  <div class="hero-content">
-  <h1>Solid Jobs For <em>Hard Workers</em></h1>
-  <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+  <div class="hero-text-col">
+    <h1>Solid Jobs For <em>Hard Workers</em></h1>
+    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <span class="hero-stat-num">7</span>
+        <span class="hero-stat-label">Job Categories</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">DFW</span>
+        <span class="hero-stat-label">Metro Coverage</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">Free</span>
+        <span class="hero-stat-label">Job Alerts</span>
+      </div>
+    </div>
+  </div>
 
   <div class="form-card" id="signup">
     <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">⚡ Top Jobs This Week</div>
@@ -945,7 +1054,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- NUDGE BLOCK -->
-<div class="nudge-wrap nudge-light">
+<div class="nudge-wrap">
   <h3>Don't See The Right <span>Security Job Yet?</span></h3>
   <ul class="nudge-roles">
     <li>Unarmed Security jobs</li>
@@ -955,8 +1064,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li>Loss Prevention roles</li>
   </ul>
   <p class="nudge-sub">Get notified the moment new opportunities matching your interests are posted.</p>
-  <a href="#" onclick="openModal();return false;" class="nudge-btn nudge-btn-dark">Get Job Alerts</a>
-  <p class="nudge-trust nudge-trust-dark">New security opportunities are added regularly across DFW.</p>
+  <a href="#" onclick="openModal();return false;" class="nudge-btn">Get Job Alerts</a>
+  <p class="nudge-trust">New security opportunities are added regularly across DFW.</p>
 </div>
 
 <!-- QUALS -->
@@ -968,12 +1077,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="quals-section">
     <div class="quals-grid">
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Guard Card / Security License</span></div>
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Armed License</span></div>
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Military or Law Enforcement Background</span></div>
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Reliable Transportation</span></div>
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Overnight Availability</span></div>
-      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">CPR / First Aid Certified</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Guard Card / Security License</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Armed License</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Military or Law Enforcement Background</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Reliable Transportation</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">Overnight Availability</span></div>
+      <div class="qual-item"><div class="qual-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="qual-text">CPR / First Aid Certified</span></div>
     </div>
   </div>
 </div>
