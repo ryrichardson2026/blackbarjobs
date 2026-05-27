@@ -268,6 +268,58 @@
     .alert-wrap { padding: 48px 40px 52px; }
     footer { padding: 28px 40px; }
   }
+
+  /* ── NUDGE BLOCK ── */
+  .nudge-wrap {
+    background: var(--navy-deep);
+    padding: 28px 20px 32px;
+    border-top: 3px solid var(--gold);
+  }
+  .nudge-wrap h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-weight: 800; color: var(--white);
+    line-height: 1.1; margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+  .nudge-wrap h3 span { color: var(--gold); }
+  .nudge-roles {
+    list-style: none; padding: 0; margin: 0 0 14px;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .nudge-roles li {
+    font-size: 0.85rem; color: rgba(255,255,255,0.7);
+    display: flex; align-items: center; gap: 7px;
+  }
+  .nudge-roles li::before {
+    content: '';
+    width: 5px; height: 5px; border-radius: 50%;
+    background: var(--gold); flex-shrink: 0;
+  }
+  .nudge-sub {
+    font-size: 0.82rem; color: rgba(255,255,255,0.5);
+    margin-bottom: 18px; line-height: 1.55;
+  }
+  .nudge-btn {
+    display: inline-block;
+    padding: 13px 24px;
+    background: var(--gold); color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: none; border-radius: 10px; cursor: pointer;
+    text-decoration: none; transition: background 0.15s;
+    width: 100%; text-align: center; display: block;
+    max-width: 320px;
+  }
+  .nudge-btn:hover { background: var(--gold-hover); }
+  .nudge-trust {
+    font-size: 0.7rem; color: rgba(255,255,255,0.3);
+    margin-top: 10px;
+  }
+  @media (min-width: 640px) {
+    .nudge-wrap { padding: 32px 40px 36px; }
+  }
 </style>
 </head>
 <body>
@@ -286,7 +338,6 @@
   <div class="hero-content">
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Mobile Patrol<br><em>Jobs</em></h1>
-    <p class="hero-sub">Browse current mobile patrol job openings from employers hiring across Dallas–Fort Worth.</p>
     <div class="hero-ctas">
       <a href="#alerts" class="btn-primary">Get Notified First When Mobile Patrol Jobs Open</a>
     </div>
@@ -477,6 +528,22 @@
 </div>
 
 <!-- SECTION 10 — ALERT SIGNUP -->
+
+<!-- NUDGE BLOCK -->
+<div class="nudge-wrap">
+  <h3>Don't See The Right <span>Security Job Yet?</span></h3>
+  <ul class="nudge-roles">
+    <li>Unarmed Security jobs</li>
+    <li>Overnight Security shifts</li>
+    <li>Mobile Patrol positions</li>
+    <li>Event Security openings</li>
+    <li>Loss Prevention roles</li>
+  </ul>
+  <p class="nudge-sub">Get notified the moment new opportunities matching your interests are posted.</p>
+  <a href="#alerts" class="nudge-btn">Get Job Alerts</a>
+  <p class="nudge-trust">New security opportunities are added regularly across DFW.</p>
+</div>
+
 <div class="alert-wrap" id="alerts">
   <h2>Get Notified First When<br><span>Mobile Patrol Jobs Open</span></h2>
   <p>Drop your info below. We'll alert you the moment new openings post in DFW.</p>
