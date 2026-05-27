@@ -16,9 +16,9 @@ module.exports = async (req, res) => {
 
     }
 
-    // Fetch jobs from JobDataLake
+    // Fetch physical security jobs across DFW
     const response = await fetch(
-      'https://api.jobdatalake.com/v1/jobs?q=security%20officer&location=Texas&per_page=50&sort_by=posted_at:desc',
+      'https://api.jobdatalake.com/v1/jobs?q=security+officer&location=Dallas%2C+TX%2CFrisco%2C+TX%2CRichardson%2C+TX%2CFort+Worth%2C+TX%2CArlington%2C+TX%2CPlano%2C+TX%2CMcKinney%2C+TX%2CDenton%2C+TX&per_page=25&sort_by=posted_at:desc',
       {
         headers: {
           'X-API-Key': process.env.JOBDATALAKE_API_KEY
@@ -51,9 +51,28 @@ module.exports = async (req, res) => {
 
     });
 
-    // Return only top 5 freshest jobs
+    // Only allow ONE job per employer
+    const seenCompanies = new Set();
+
+    const uniqueJobs = filteredJobs.filter(job => {
+
+      const company = (job.company_name || '').toLowerCase();
+
+      if (seenCompanies.has(company)) {
+
+        return false;
+
+      }
+
+      seenCompanies.add(company);
+
+      return true;
+
+    });
+
+    // Return top 5 unique employer jobs
     const result = {
-      jobs: filteredJobs.slice(0, 5)
+      jobs: uniqueJobs.slice(0, 5)
     };
 
     // Save cache
