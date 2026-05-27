@@ -176,7 +176,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .form-card {
     background: var(--white);
     border-radius: 16px;
-    padding: 20px 18px 18px;
+    padding: 16px 16px 16px;
     box-shadow: 0 8px 40px rgba(0,0,0,0.35);
   }
   .form-card-title {
@@ -185,39 +185,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     font-weight: 700;
     color: var(--navy-deep);
     letter-spacing: 0.02em;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-transform: uppercase;
   }
-  .form-row { display: flex; flex-direction: column; gap: 9px; margin-bottom: 12px; }
-  .field-wrap { position: relative; }
-  .field-icon {
-    position: absolute;
-    left: 14px; top: 50%;
-    transform: translateY(-50%);
-    font-size: 1rem;
-    pointer-events: none;
-    line-height: 1;
-  }
-  .form-card input {
-    width: 100%;
-    padding: 13px 14px 13px 40px;
-    border: 1.5px solid var(--border);
-    border-radius: 10px;
-    font-size: 1rem;
-    font-family: 'Barlow', sans-serif;
-    color: var(--charcoal);
+
+  /* ── HERO FEED ── */
+  .hero-feed { display: flex; flex-direction: column; gap: 7px; margin-bottom: 12px; }
+  .hf-row {
+    display: flex; align-items: center; gap: 8px;
     background: var(--off-white);
-    outline: none;
-    transition: border-color 0.15s, background 0.15s;
-    -webkit-appearance: none;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 8px 10px;
+    transition: border-color 0.12s;
   }
-  .form-card input::placeholder { color: #a0aab4; }
-  .form-card input:focus {
-    border-color: var(--navy-light);
-    background: var(--white);
-    box-shadow: 0 0 0 3px rgba(0,53,102,0.10);
+  .hf-row:hover { border-color: var(--navy-light); }
+  .hf-body { flex: 1; min-width: 0; }
+  .hf-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem; font-weight: 700;
+    color: var(--navy-deep); line-height: 1.2;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  .form-card input.error { border-color: #e53935; }
+  .hf-meta {
+    display: flex; align-items: center; gap: 5px;
+    margin-top: 2px; flex-wrap: wrap;
+  }
+  .hf-pay {
+    font-size: 0.68rem; font-weight: 700;
+    color: #1a6b2e; background: #e6f4eb;
+    padding: 1px 5px; border-radius: 4px;
+    white-space: nowrap;
+  }
+  .hf-company {
+    font-size: 0.68rem; font-weight: 500; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    max-width: 110px;
+  }
+  .hf-date { font-size: 0.64rem; color: #a0aab4; white-space: nowrap; }
+  .hf-dot { font-size: 0.5rem; color: #d0d5dd; line-height: 1.6; }
+  .hf-apply {
+    flex-shrink: 0;
+    padding: 6px 10px;
+    background: var(--navy-deep);
+    color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem; font-weight: 800;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    border: none; border-radius: 6px;
+    cursor: pointer; text-decoration: none;
+    display: inline-block;
+    transition: background 0.12s;
+    white-space: nowrap;
+  }
+  .hf-apply:hover { background: var(--navy-light); }
+  .hf-loading {
+    text-align: center; padding: 16px 0;
+    font-size: 0.8rem; color: var(--muted); font-weight: 500;
+  }
+  .hf-error {
+    font-size: 0.75rem; color: var(--muted);
+    background: var(--off-white); border-radius: 8px;
+    padding: 10px 12px; text-align: center;
+  }
   .btn-primary {
     display: block;
     width: 100%;
@@ -334,6 +364,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     color: var(--navy-deep); line-height: 1.2;
   }
   .job-card-sub { font-size: 0.7rem; color: var(--muted); font-weight: 500; }
+
+  .field-wrap { position: relative; }
+  .field-icon {
+    position: absolute;
+    left: 14px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    line-height: 1;
+  }
+  #step1 input {
+    width: 100%;
+    padding: 13px 14px 13px 40px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--charcoal);
+    background: var(--off-white);
+    outline: none;
+    transition: border-color 0.15s, background 0.15s;
+    -webkit-appearance: none;
+  }
+  #step1 input::placeholder { color: #a0aab4; }
+  #step1 input:focus {
+    border-color: var(--navy-light);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(0,53,102,0.10);
+  }
+  #step1 input.error { border-color: #e53935; }
 
   /* ── QUALS ── */
   .quals-wrap {
@@ -725,37 +785,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
 
   <div class="form-card" id="signup">
-    <div class="form-card-title">Sign Up For Job Alerts</div>
-      <div class="form-row">
-        <div class="field-wrap">
-          <span class="field-icon">👤</span>
-          <input id="f-name" type="text" inputmode="text" placeholder="Full Name" autocomplete="name">
-        </div>
-        <div class="field-wrap">
-          <span class="field-icon">📍</span>
-          <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
-        </div>
-        <div class="field-wrap">
-          <span class="field-icon">📱</span>
-          <input id="f-phone" type="tel" inputmode="tel" placeholder="Mobile Number" autocomplete="tel">
-        </div>
-        <div class="field-wrap">
-          <span class="field-icon">✉️</span>
-          <input id="f-email" type="email" inputmode="email" placeholder="Email Address" autocomplete="email">
-        </div>
-      </div>
-      <button class="btn-primary" onclick="openModal()">Get Job Alerts →</button>
-      <div class="form-trust">
-        <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        No spam. Unsubscribe anytime.
-      </div>
+    <div class="form-card-title">🔥 Hottest Security Jobs In DFW</div>
+    <div class="hero-feed" id="heroFeed">
+      <div class="hf-loading">Loading jobs…</div>
     </div>
+    <button class="btn-primary" onclick="openModal()">Get Job Alerts →</button>
+    <div class="form-trust">
+      <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Free alerts. No spam. Unsubscribe anytime.
+    </div>
+  </div>
   </div>
 </section>
 
 <!-- STICKY BAR -->
 <div class="sticky-bar" id="stickyBar">
-  <a href="#signup" onclick="document.querySelector('#signup input').focus()">Get Security Job Alerts</a>
+  <a href="#signup" onclick="openModal(); return false;">Get Security Job Alerts</a>
 </div>
 
 <!-- JOB TYPES -->
@@ -803,7 +848,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="cta-inner">
       <h2>Be First To Know When <span>Employers Start Hiring</span></h2>
       <p>New openings go fast. Get your alert before the position fills.</p>
-      <button class="btn-primary" onclick="document.getElementById('signup').scrollIntoView({behavior:'smooth'}); setTimeout(()=>document.getElementById('f-zip').focus(),600)">
+      <button class="btn-primary" onclick="openModal()">
         Get Security Job Alerts →
       </button>
     </div>
@@ -823,24 +868,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="modal-handle"></div>
     <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
     <div class="progress-bar-wrap">
-      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:33%"></div></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:25%"></div></div>
       <div class="progress-label">
-        <span id="stepLabel">Step 1 of 3</span>
-        <span id="stepCount" style="color:var(--gold);font-weight:700;">Job Types</span>
+        <span id="stepLabel">Step 1 of 4</span>
+        <span id="stepCount" style="color:var(--gold);font-weight:700;">Your Info</span>
       </div>
     </div>
     <div class="steps-container">
 
-      <!-- STEP 1 — JOB TYPES -->
+      <!-- STEP 1 — CONTACT INFO -->
       <div class="modal-step active" id="step1">
+        <div class="step-title">Where should we send alerts?</div>
+        <div class="step-sub">We'll notify you the moment jobs open near you.</div>
+        <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:18px;">
+          <div class="field-wrap">
+            <span class="field-icon">👤</span>
+            <input id="f-name" type="text" inputmode="text" placeholder="Full Name" autocomplete="name">
+          </div>
+          <div class="field-wrap">
+            <span class="field-icon">📍</span>
+            <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
+          </div>
+          <div class="field-wrap">
+            <span class="field-icon">📱</span>
+            <input id="f-phone" type="tel" inputmode="tel" placeholder="Mobile Number" autocomplete="tel">
+          </div>
+          <div class="field-wrap">
+            <span class="field-icon">✉️</span>
+            <input id="f-email" type="email" inputmode="email" placeholder="Email Address (optional)" autocomplete="email">
+          </div>
+        </div>
+        <div id="contactError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
+      </div>
+
+      <!-- STEP 2 — JOB TYPES -->
+      <div class="modal-step" id="step2">
         <div class="step-title">What jobs are you interested in?</div>
         <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
         <div class="select-grid" id="jobGrid"></div>
         <div id="jobError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one job type.</div>
       </div>
 
-      <!-- STEP 2 — QUALIFICATIONS -->
-      <div class="modal-step" id="step2">
+      <!-- STEP 3 — QUALIFICATIONS -->
+      <div class="modal-step" id="step3">
         <div class="step-title">Any of these qualifications?</div>
         <div class="step-sub">Select all that apply.</div>
         <div class="exp-wrap">
@@ -859,8 +929,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div id="qualError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;"></div>
       </div>
 
-      <!-- STEP 3 — AVAILABILITY -->
-      <div class="modal-step" id="step3">
+      <!-- STEP 4 — AVAILABILITY -->
+      <div class="modal-step" id="step4">
         <div class="step-title">What types of security jobs are you open to?</div>
         <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
         <div class="qual-list" id="availList"></div>
@@ -880,7 +950,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <!-- SUCCESS -->
-      <div class="modal-step" id="step4">
+      <div class="modal-step" id="step5">
         <div class="success-step">
           <div class="success-icon">
             <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -941,7 +1011,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   ];
 
   let currentStep = 1;
-  const TOTAL_STEPS = 3;
+  const TOTAL_STEPS = 4;
   const selectedJobs = new Set();
   const selectedQuals = new Set();
   const selectedAvailability = new Set();
@@ -1002,25 +1072,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   function openModal() {
-    const name  = document.getElementById('f-name').value.trim();
-    const zip   = document.getElementById('f-zip').value.trim();
-    const phone = document.getElementById('f-phone').value.trim();
-    const email = document.getElementById('f-email').value.trim();
-    if (!name) {
-      const el = document.getElementById('f-name');
-      el.classList.add('error'); el.focus();
-      setTimeout(() => el.classList.remove('error'), 1800); return;
-    }
-    if (!zip || zip.length < 5) {
-      const el = document.getElementById('f-zip');
-      el.classList.add('error'); el.focus();
-      setTimeout(() => el.classList.remove('error'), 1800); return;
-    }
-    if (!phone && !email) {
-      const el = document.getElementById('f-phone');
-      el.classList.add('error'); el.focus();
-      setTimeout(() => el.classList.remove('error'), 1800); return;
-    }
     currentStep = 1;
     updateUI();
     document.getElementById('modalFooter').style.display = '';
@@ -1048,13 +1099,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   function goNext() {
     if (currentStep === 1) {
+      const name  = document.getElementById('f-name').value.trim();
+      const zip   = document.getElementById('f-zip').value.trim();
+      const phone = document.getElementById('f-phone').value.trim();
+      const email = document.getElementById('f-email').value.trim();
+      const errEl = document.getElementById('contactError');
+      if (!name) {
+        const el = document.getElementById('f-name');
+        el.classList.add('error'); el.focus();
+        setTimeout(() => el.classList.remove('error'), 1800);
+        errEl.textContent = 'Please enter your name.'; errEl.style.display = 'block'; return;
+      }
+      if (!zip || zip.length < 5) {
+        const el = document.getElementById('f-zip');
+        el.classList.add('error'); el.focus();
+        setTimeout(() => el.classList.remove('error'), 1800);
+        errEl.textContent = 'Please enter a valid ZIP code.'; errEl.style.display = 'block'; return;
+      }
+      if (!phone && !email) {
+        const el = document.getElementById('f-phone');
+        el.classList.add('error'); el.focus();
+        setTimeout(() => el.classList.remove('error'), 1800);
+        errEl.textContent = 'Please enter a phone number or email.'; errEl.style.display = 'block'; return;
+      }
+      errEl.style.display = 'none';
+    }
+    if (currentStep === 2) {
       if (selectedJobs.size === 0) {
         document.getElementById('jobError').style.display = 'block';
         return;
       }
       document.getElementById('jobError').style.display = 'none';
     }
-    if (currentStep === 2) {
+    if (currentStep === 3) {
       const exp = document.getElementById('expSelect').value;
       if (!exp) {
         document.getElementById('expError').style.display = 'block';
@@ -1064,7 +1141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       document.getElementById('expError').style.display = 'none';
       document.getElementById('expSelect').style.borderColor = '';
     }
-    if (currentStep === 3) {
+    if (currentStep === 4) {
       if (selectedAvailability.size === 0) {
         document.getElementById('availError').style.display = 'block';
         return;
@@ -1090,7 +1167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const pct = (currentStep / TOTAL_STEPS) * 100;
     document.getElementById('progressFill').style.width = pct + '%';
     document.getElementById('stepLabel').textContent = `Step ${currentStep} of ${TOTAL_STEPS}`;
-    const labels = { 1: 'Job Types', 2: 'Qualifications', 3: 'Availability' };
+    const labels = { 1: 'Your Info', 2: 'Job Types', 3: 'Qualifications', 4: 'Availability' };
     document.getElementById('stepCount').textContent = labels[currentStep] || '';
     document.getElementById('backBtn').style.display = currentStep > 1 ? 'flex' : 'none';
     document.getElementById('nextBtn').textContent = currentStep === TOTAL_STEPS ? 'Finish →' : 'Next →';
@@ -1158,7 +1235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   function showSuccess() {
     document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
-    document.getElementById('step4').classList.add('active');
+    document.getElementById('step5').classList.add('active');
     gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
     dataLayer.push({'event': 'conversion_success'});
   }
@@ -1166,6 +1243,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   buildJobGrid();
   buildQualList();
   buildAvailList();
+
+  // ── HERO JOB FEED ──
+  (function loadHeroFeed() {
+    var feed = document.getElementById('heroFeed');
+    fetch('/api/dfw-jobs')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var jobs = (data.jobs || []).slice(0, 5);
+        if (!jobs.length) {
+          feed.innerHTML = '<div class="hf-error">No listings right now — check back soon.</div>';
+          return;
+        }
+        feed.innerHTML = jobs.map(function(j) {
+          var applyUrl = j.apply_url || j.url || j.job_url || '#';
+          var title = j.title || 'Security Officer';
+          var company = j.company || '';
+          var pay = '';
+          if (j.salary_min_usd || j.salary_max_usd) {
+            var min = j.salary_min_usd ? '$' + Math.round(j.salary_min_usd / 1000) + 'k' : '';
+            var max = j.salary_max_usd ? '$' + Math.round(j.salary_max_usd / 1000) + 'k' : '';
+            pay = (min && max) ? min + '–' + max : (min || max);
+          }
+          var rawDate = j.posted_at || '';
+          var dateLabel = '';
+          if (rawDate) {
+            var d = new Date(rawDate);
+            var now = new Date();
+            var diffDays = Math.floor((now - d) / 86400000);
+            if (diffDays === 0) dateLabel = 'Today';
+            else if (diffDays === 1) dateLabel = '1d ago';
+            else if (diffDays < 30) dateLabel = diffDays + 'd ago';
+            else dateLabel = d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
+          }
+          var payHtml = pay ? '<span class="hf-pay">' + pay + '</span><span class="hf-dot">•</span>' : '';
+          var companyHtml = company ? '<span class="hf-company">' + company + '</span>' : '';
+          var dateHtml = dateLabel ? '<span class="hf-dot">•</span><span class="hf-date">' + dateLabel + '</span>' : '';
+          return '<div class="hf-row">'
+            + '<div class="hf-body">'
+            + '<div class="hf-title">' + title + '</div>'
+            + '<div class="hf-meta">' + payHtml + companyHtml + dateHtml + '</div>'
+            + '</div>'
+            + '<a class="hf-apply" href="' + applyUrl + '" target="_blank" rel="noopener">Apply &#x2192;</a>'
+            + '</div>';
+        }).join('');
+      })
+      .catch(function() {
+        feed.innerHTML = '<div class="hf-error">Could not load jobs. Try refreshing.</div>';
+      });
+  })();
 
   const observer = new IntersectionObserver(entries => {
     const bar = document.getElementById('stickyBar');
