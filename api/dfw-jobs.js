@@ -30,11 +30,11 @@ module.exports = async (req, res) => {
     const data = await response.json();
 
     // Domains to block due to bad / stale links
-    const blockedDomains = [
-      'marriott.com',
-      'methodisthealthsystem'
-    ];
-
+    const blockedCompanies = [
+  'Methodist Health System',
+  'Marriott'
+];
+   
     // Filter jobs
     const filteredJobs = data.jobs.filter(job => {
 
