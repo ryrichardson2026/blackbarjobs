@@ -106,8 +106,20 @@
   .footer-logo span { color: var(--gold-muted); }
   footer p { font-size: 0.72rem; color: rgba(255,255,255,0.35); line-height: 1.6; }
   footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
+
   @media (min-width: 640px) {
-    .hero-content { padding: 80px 48px 64px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
     .section-wrap { padding: 0 40px 40px; }
     .section-divider { padding: 0 40px; margin: 36px 0 24px; }
     .pay-grid { grid-template-columns: repeat(3, 1fr); }
@@ -163,9 +175,39 @@
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
+
   @media (min-width: 640px) {
-    .nudge-wrap { padding: 32px 40px 36px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
   }
+
+  /* ── TWO COL ── */
+  .two-col-section { background: var(--white); }
+  .mid-cta-wrap { background: var(--white); padding: 28px 20px; text-align: center; }
+  @media (min-width: 640px) {
+    .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .two-col-inner .section-wrap { padding: 0 40px 40px; }
+    .two-col-inner .section-wrap:first-child { padding-left: 40px; padding-right: 24px; border-right: 1px solid var(--border); }
+    .two-col-inner .section-wrap:last-child { padding-left: 24px; padding-right: 40px; }
+    .mid-cta-wrap { padding: 32px 40px; }
+    .mid-cta-wrap .btn-primary { max-width: 500px; margin: 0 auto; }
+  }
+
 </style>
 </head>
 <body>
@@ -183,20 +225,42 @@
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Loss Prevention<br><em>Jobs</em></h1>
     <div class="hero-ctas">
-      <a href="#alerts" class="btn-primary">Get Notified First When Loss Prevention Jobs Open</a>
+      <a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a>
     </div>
   </div>
 </section>
 
-<div class="section-light">
-  <div class="section-divider"><span>Role Overview</span></div>
+<div class="two-col-section">
+  <div class="section-divider" style="margin-top:0;"><span>Overview &amp; Duties</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+      <div class="section-divider"><span>Role Overview</span></div>
   <div class="section-wrap">
     <h2>What Does a Loss Prevention Officer Do?</h2>
     <p>Loss prevention officers protect retail and commercial businesses from theft, fraud, and shrinkage. Unlike traditional security roles, LP focuses specifically on identifying, monitoring, and apprehending individuals engaged in shoplifting, employee theft, and organized retail crime.</p>
     <p>Most LP officers work in plain clothes — blending into the retail environment to observe customer and employee behavior without a uniformed presence. Some positions are uniformed and serve as a visible deterrent. LP officers must understand Texas detention laws and follow strict procedures for detaining suspects.</p>
     <p>Loss prevention is one of the better-paying entry-level security roles and often leads into investigative or management careers within retail organizations. Major retailers in DFW — Walmart, Target, Home Depot, Macy's, and others — maintain active LP teams across the metro.</p>
   </div>
+    </div>
+    <div class="section-wrap">
+      <div class="section-divider"><span>Duties</span></div>
+  <div class="section-wrap">
+    <h2>Common Duties &amp; Responsibilities</h2>
+    <ul class="duty-list">
+      <li>Monitor customers and employees via CCTV and floor observation</li>
+      <li>Identify and apprehend shoplifters in compliance with state detention laws</li>
+      <li>Conduct interviews with subjects and write detailed incident reports</li>
+      <li>Investigate internal theft and employee fraud cases</li>
+      <li>Maintain and review surveillance footage for suspicious activity</li>
+      <li>Coordinate with law enforcement on criminal cases and court appearances</li>
+      <li>Conduct audits and inventory counts to identify shrinkage sources</li>
+      <li>Train store staff on theft deterrence and awareness procedures</li>
+    </ul>
+  </div>
+    </div>
+  </div>
 </div>
+
 
 <div class="section-dark">
   <div class="section-divider"><span>Compensation</span></div>
@@ -208,6 +272,7 @@
         <div class="pay-card-rate">$15–19/hr</div>
         <div class="pay-card-annual">~$31k–39k/yr</div>
       </div>
+
       <div class="pay-card">
         <div class="pay-card-label">Experienced</div>
         <div class="pay-card-rate">$19–25/hr</div>
@@ -222,25 +287,8 @@
   </div>
 </div>
 
-<div style="background:var(--white);padding:28px 20px 32px;max-width:400px;">
-  <a href="#alerts" class="btn-primary">Get Notified First When Loss Prevention Jobs Open</a>
-</div>
-
-<div class="section-light">
-  <div class="section-divider"><span>Duties</span></div>
-  <div class="section-wrap">
-    <h2>Common Duties &amp; Responsibilities</h2>
-    <ul class="duty-list">
-      <li>Monitor customers and employees via CCTV and floor observation</li>
-      <li>Identify and apprehend shoplifters in compliance with state detention laws</li>
-      <li>Conduct interviews with subjects and write detailed incident reports</li>
-      <li>Investigate internal theft and employee fraud cases</li>
-      <li>Maintain and review surveillance footage for suspicious activity</li>
-      <li>Coordinate with law enforcement on criminal cases and court appearances</li>
-      <li>Conduct audits and inventory counts to identify shrinkage sources</li>
-      <li>Train store staff on theft deterrence and awareness procedures</li>
-    </ul>
-  </div>
+<div class="mid-cta-wrap">
+  <button class="btn-primary" onclick="document.getElementById(\'alerts\').scrollIntoView({behavior:\'smooth\'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
 </div>
 
 <div class="section-dark">
