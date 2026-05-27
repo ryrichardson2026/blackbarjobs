@@ -195,6 +195,19 @@
     .alert-wrap { padding: 48px 40px 52px; }
     footer { padding: 28px 40px; }
   }
+
+  /* ── TWO COL ── */
+  .two-col-section { background: var(--white); }
+  .mid-cta-wrap { background: var(--white); padding: 28px 20px; text-align: center; }
+  @media (min-width: 640px) {
+    .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .two-col-inner .section-wrap { padding: 0 40px 40px; }
+    .two-col-inner .section-wrap:first-child { padding-left: 40px; padding-right: 24px; border-right: 1px solid var(--border); }
+    .two-col-inner .section-wrap:last-child { padding-left: 24px; padding-right: 40px; }
+    .mid-cta-wrap { padding: 32px 40px; }
+    .mid-cta-wrap .btn-primary { max-width: 500px; margin: 0 auto; }
+  }
+
 </style>
 </head>
 <body>
@@ -212,20 +225,42 @@
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>TSA &amp; Airport Security<br><em>Jobs</em></h1>
     <div class="hero-ctas">
-      <a href="#alerts" class="btn-primary">Get Instant Alerts When Airport Security Jobs Open in DFW</a>
+      <a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a>
     </div>
   </div>
 </section>
 
-<div class="section-light">
-  <div class="section-divider"><span>Role Overview</span></div>
+<div class="two-col-section">
+  <div class="section-divider" style="margin-top:0;"><span>Overview &amp; Duties</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+      <div class="section-divider"><span>Role Overview</span></div>
   <div class="section-wrap">
     <h2>What Does a TSA / Airport Security Officer Do?</h2>
     <p>TSA and airport security officers screen passengers, baggage, and cargo to ensure aviation safety. The Transportation Security Administration is a federal agency — TSA officers are federal employees with a separate hiring process, pay scale, and benefits package compared to private security contractors.</p>
     <p>DFW International Airport and Dallas Love Field are two of the busiest airports in the country, generating consistent demand for both TSA officers and private airport security personnel. Private contractors handle perimeter security, access control, and non-screening functions alongside TSA.</p>
     <p>Airport security roles require passing a federal background check, drug screening, and in the case of TSA, a medical evaluation and color vision test. Most positions offer full federal benefits including health insurance and retirement.</p>
   </div>
+    </div>
+    <div class="section-wrap">
+      <div class="section-divider"><span>Duties</span></div>
+  <div class="section-wrap">
+    <h2>Common Duties &amp; Responsibilities</h2>
+    <ul class="duty-list">
+      <li>Screen passengers and carry-on baggage using X-ray and imaging equipment</li>
+      <li>Operate advanced imaging technology and walk-through metal detectors</li>
+      <li>Conduct pat-down searches and resolve security alarms</li>
+      <li>Control access to secured areas of the terminal and tarmac</li>
+      <li>Monitor surveillance systems and report suspicious activity</li>
+      <li>Enforce TSA regulations and airport security policies</li>
+      <li>Assist passengers with screening procedures professionally and efficiently</li>
+      <li>Respond to security incidents and coordinate with law enforcement</li>
+    </ul>
+  </div>
+    </div>
+  </div>
 </div>
+
 
 <div class="section-dark">
   <div class="section-divider"><span>Compensation</span></div>
@@ -237,6 +272,7 @@
         <div class="pay-card-rate">$19–22/hr</div>
         <div class="pay-card-annual">~$39k–46k/yr + federal benefits</div>
       </div>
+
       <div class="pay-card">
         <div class="pay-card-label">TSA Experienced</div>
         <div class="pay-card-rate">$22–28/hr</div>
@@ -251,25 +287,8 @@
   </div>
 </div>
 
-<div style="background:var(--white);padding:28px 20px 32px;max-width:400px;">
-  <a href="#alerts" class="btn-primary">Get Instant Alerts When Airport Security Jobs Open in DFW</a>
-</div>
-
-<div class="section-light">
-  <div class="section-divider"><span>Duties</span></div>
-  <div class="section-wrap">
-    <h2>Common Duties &amp; Responsibilities</h2>
-    <ul class="duty-list">
-      <li>Screen passengers and carry-on baggage using X-ray and imaging equipment</li>
-      <li>Operate advanced imaging technology and walk-through metal detectors</li>
-      <li>Conduct pat-down searches and resolve security alarms</li>
-      <li>Control access to secured areas of the terminal and tarmac</li>
-      <li>Monitor surveillance systems and report suspicious activity</li>
-      <li>Enforce TSA regulations and airport security policies</li>
-      <li>Assist passengers with screening procedures professionally and efficiently</li>
-      <li>Respond to security incidents and coordinate with law enforcement</li>
-    </ul>
-  </div>
+<div class="mid-cta-wrap">
+  <button class="btn-primary" onclick="document.getElementById(\'alerts\').scrollIntoView({behavior:\'smooth\'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
 </div>
 
 <div class="section-dark">
