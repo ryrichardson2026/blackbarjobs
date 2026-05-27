@@ -189,64 +189,70 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-transform: uppercase;
   }
 
-  /* ── HERO FEED ── */
-  .hero-feed { display: flex; flex-direction: column; gap: 7px; margin-bottom: 12px; }
-  .hf-row {
-    display: flex; align-items: center; gap: 8px;
-    background: var(--off-white);
-    border: 1px solid var(--border);
-    border-radius: 9px;
-    padding: 8px 10px;
-    transition: border-color 0.12s;
+  /* ── HERO FEED — CLASSIFIEDS ── */
+  .hero-feed {
+    display: flex; flex-direction: column;
+    margin-bottom: 12px;
+    border-top: 2px solid var(--navy-deep);
+    border-bottom: 1px solid #c8cdd4;
   }
-  .hf-row:hover { border-color: var(--navy-light); }
+  .hf-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid #e2e5ea;
+    background: transparent;
+  }
+  .hf-row:last-child { border-bottom: none; }
   .hf-body { flex: 1; min-width: 0; }
   .hf-title {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.9rem; font-weight: 700;
-    color: var(--navy-deep); line-height: 1.2;
+    font-size: 0.95rem; font-weight: 800;
+    color: var(--navy-deep); line-height: 1.15;
+    letter-spacing: 0.01em;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
   .hf-meta {
-    display: flex; align-items: center; gap: 5px;
-    margin-top: 2px; flex-wrap: wrap;
-  }
-  .hf-pay {
-    font-size: 0.68rem; font-weight: 700;
-    color: #1a6b2e; background: #e6f4eb;
-    padding: 1px 5px; border-radius: 4px;
-    white-space: nowrap;
-  }
-  .hf-company {
-    font-size: 0.68rem; font-weight: 500; color: var(--muted);
+    display: flex; align-items: center; gap: 0;
+    margin-top: 1px; flex-wrap: nowrap;
+    font-size: 0.68rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-weight: 400;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    max-width: 110px;
   }
-  .hf-date { font-size: 0.64rem; color: #a0aab4; white-space: nowrap; }
-  .hf-dot { font-size: 0.5rem; color: #d0d5dd; line-height: 1.6; }
-  .hf-apply {
+  .hf-company { font-weight: 600; color: var(--charcoal); }
+  .hf-sep { margin: 0 4px; color: #c8cdd4; }
+  .hf-location { color: var(--muted); }
+  .hf-tag {
+    display: inline-block;
+    font-size: 0.6rem; font-weight: 700;
+    letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); border: 1px solid #c8cdd4;
+    padding: 1px 4px; border-radius: 2px;
+    margin-left: 5px; white-space: nowrap;
     flex-shrink: 0;
-    padding: 6px 10px;
-    background: var(--navy-deep);
-    color: var(--gold);
+  }
+  .hf-apply {
+    flex-shrink: 0; align-self: center;
+    padding: 4px 9px;
+    background: transparent;
+    color: var(--navy-deep);
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.75rem; font-weight: 800;
-    letter-spacing: 0.05em; text-transform: uppercase;
-    border: none; border-radius: 6px;
+    font-size: 0.72rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: 1.5px solid var(--navy-deep);
+    border-radius: 2px;
     cursor: pointer; text-decoration: none;
     display: inline-block;
-    transition: background 0.12s;
+    transition: background 0.12s, color 0.12s;
     white-space: nowrap;
   }
-  .hf-apply:hover { background: var(--navy-light); }
+  .hf-apply:hover { background: var(--navy-deep); color: var(--gold); }
   .hf-loading {
     text-align: center; padding: 16px 0;
     font-size: 0.8rem; color: var(--muted); font-weight: 500;
   }
   .hf-error {
     font-size: 0.75rem; color: var(--muted);
-    background: var(--off-white); border-radius: 8px;
-    padding: 10px 12px; text-align: center;
+    padding: 10px 0; text-align: center;
   }
   .btn-primary {
     display: block;
@@ -1259,32 +1265,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           var applyUrl = j.apply_url || j.url || j.job_url || '#';
           var title = j.title || 'Security Officer';
           var company = j.company || '';
-          var pay = '';
-          if (j.salary_min_usd || j.salary_max_usd) {
-            var min = j.salary_min_usd ? '$' + Math.round(j.salary_min_usd / 1000) + 'k' : '';
-            var max = j.salary_max_usd ? '$' + Math.round(j.salary_max_usd / 1000) + 'k' : '';
-            pay = (min && max) ? min + '–' + max : (min || max);
+          var location = j.location || j.city || '';
+          // Trim to city only if full address
+          if (location.indexOf(',') > -1) {
+            location = location.split(',').slice(0, 2).join(',').trim();
           }
-          var rawDate = j.posted_at || '';
-          var dateLabel = '';
-          if (rawDate) {
-            var d = new Date(rawDate);
-            var now = new Date();
-            var diffDays = Math.floor((now - d) / 86400000);
-            if (diffDays === 0) dateLabel = 'Today';
-            else if (diffDays === 1) dateLabel = '1d ago';
-            else if (diffDays < 30) dateLabel = diffDays + 'd ago';
-            else dateLabel = d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
-          }
-          var payHtml = pay ? '<span class="hf-pay">' + pay + '</span><span class="hf-dot">•</span>' : '';
-          var companyHtml = company ? '<span class="hf-company">' + company + '</span>' : '';
-          var dateHtml = dateLabel ? '<span class="hf-dot">•</span><span class="hf-date">' + dateLabel + '</span>' : '';
+          var empType = j.employment_type ? j.employment_type.replace('_', ' ') : '';
+          var seniority = j.seniority || '';
+          var metaParts = [];
+          if (company) metaParts.push('<span class="hf-company">' + company + '</span>');
+          if (location) metaParts.push('<span class="hf-sep">·</span><span class="hf-location">' + location + '</span>');
+          var tagHtml = '';
+          if (empType) tagHtml += '<span class="hf-tag">' + empType + '</span>';
+          if (seniority) tagHtml += '<span class="hf-tag">' + seniority + '</span>';
           return '<div class="hf-row">'
             + '<div class="hf-body">'
             + '<div class="hf-title">' + title + '</div>'
-            + '<div class="hf-meta">' + payHtml + companyHtml + dateHtml + '</div>'
+            + '<div class="hf-meta">' + metaParts.join('') + tagHtml + '</div>'
             + '</div>'
-            + '<a class="hf-apply" href="' + applyUrl + '" target="_blank" rel="noopener">Apply &#x2192;</a>'
+            + '<a class="hf-apply" href="' + applyUrl + '" target="_blank" rel="noopener">Apply</a>'
             + '</div>';
         }).join('');
       })
