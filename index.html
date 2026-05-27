@@ -1260,7 +1260,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         company_name: 'Nexus Recovery Center',
         locations: ['Dallas, TX'],
         employment_type: 'part_time',
-        seniority: [],
         url: 'https://www.paycomonline.net/v4/ats/web.php/portal/BDCDA977D7B8A847E80C1C0895A5FAB3/jobs/96850'
       },
       {
@@ -1268,7 +1267,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         company_name: 'Dallas Museum of Art',
         locations: ['Dallas, TX'],
         employment_type: 'full_time',
-        seniority: ['Mid Level'],
         url: 'https://recruiting.paylocity.com/Recruiting/Jobs/Details/4038925'
       }
     ];
@@ -1292,13 +1290,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             location = location.split(',').slice(0, 2).join(',').trim();
           }
           var empType = j.employment_type ? j.employment_type.replace('_', ' ') : '';
-          var seniority = (j.seniority && j.seniority.length) ? j.seniority[0] : '';
           var metaParts = [];
           if (company) metaParts.push('<span class="hf-company">' + company + '</span>');
           if (location) metaParts.push('<span class="hf-sep">·</span><span class="hf-location">' + location + '</span>');
           var tagHtml = '';
           if (empType) tagHtml += '<span class="hf-tag">' + empType + '</span>';
-          if (seniority) tagHtml += '<span class="hf-tag">' + seniority + '</span>';
           return '<div class="hf-row">'
             + '<div class="hf-body">'
             + '<div class="hf-title">' + title + '</div>'
