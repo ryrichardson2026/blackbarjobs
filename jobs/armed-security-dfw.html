@@ -290,8 +290,25 @@
     position: absolute; inset: 0;
     background: linear-gradient(to bottom, transparent 40%, rgba(0,8,20,0.5) 100%);
   }
+
   @media (min-width: 640px) {
-    .image-strip { height: 340px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
   }
 
   /* ── CREDENTIAL ITEMS ── */
@@ -445,9 +462,20 @@
   footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
 
   /* ── DESKTOP ── */
+
   @media (min-width: 640px) {
-    .hero-content { padding: 80px 48px 64px; }
-    .hero-ctas { flex-direction: row; max-width: 480px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
     .section-wrap { padding: 0 40px 40px; }
     .section-divider { padding: 0 40px; margin: 36px 0 24px; }
     .pay-grid { grid-template-columns: repeat(3, 1fr); }
@@ -503,9 +531,63 @@
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
+
   @media (min-width: 640px) {
-    .nudge-wrap { padding: 32px 40px 36px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
   }
+
+  /* ── TWO COL ── */
+  .two-col-section {
+    background: var(--white);
+  }
+  .mid-cta-wrap {
+    background: var(--white);
+    padding: 28px 20px;
+    text-align: center;
+  }
+  @media (min-width: 640px) {
+    .two-col-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .two-col-inner .section-wrap {
+      padding: 0 40px 40px;
+    }
+    .two-col-inner .section-wrap:first-child {
+      padding-left: 40px;
+      padding-right: 24px;
+      border-right: 1px solid var(--border);
+    }
+    .two-col-inner .section-wrap:last-child {
+      padding-left: 24px;
+      padding-right: 40px;
+    }
+    .mid-cta-wrap {
+      padding: 32px 40px;
+    }
+    .mid-cta-wrap .btn-primary {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+
 </style>
 </head>
 <body>
@@ -525,19 +607,41 @@
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Armed Security<br><em>Jobs</em></h1>
     <div class="hero-ctas">
-      <a href="#alerts" class="btn-primary">Get Notified First When Armed Security Jobs Open</a>
+      <a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a>
     </div>
   </div>
 </section>
 
-<!-- SECTION 1 — ROLE OVERVIEW (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Role Overview</span></div>
+<!-- SECTION 1+3 — TWO COL -->
+<div class="two-col-section">
+  <div class="section-divider" style="margin-top:0;"><span>Overview &amp; Duties</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Role Overview</span></div>
   <div class="section-wrap">
     <h2>What Does an Armed Security Officer Do?</h2>
     <p>Armed security officers are deployed in environments where a visible, credentialed deterrent is required. Common work settings include banks, jewelry retailers, cannabis dispensaries, government facilities, data centers, and high-value logistics operations.</p>
     <p>Most armed positions involve stationary post assignments, access control, and monitoring. Employers typically require a valid armed security license, a clean background check, and demonstrated firearms proficiency. Some positions include patrol responsibilities via vehicle or foot.</p>
     <p>Shifts vary widely — armed roles often include overnight and weekend coverage. Full-time, part-time, and contract arrangements are all common depending on the employer and site requirements.</p>
+  </div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Duties</span></div>
+  <div class="section-wrap">
+    <h2>Common Duties &amp; Responsibilities</h2>
+    <ul class="duty-list">
+      <li>Maintain armed post at assigned location</li>
+      <li>Control and monitor access points</li>
+      <li>Conduct foot or vehicle patrols of premises</li>
+      <li>Monitor surveillance and alarm systems</li>
+      <li>Respond to incidents, disturbances, and emergencies</li>
+      <li>Write detailed incident and daily activity reports</li>
+      <li>Coordinate with law enforcement when required</li>
+      <li>Deter theft, vandalism, and unauthorized access</li>
+      <li>Escort personnel, assets, or cash as directed</li>
+    </ul>
+  </div>
+    </div>
   </div>
 </div>
 
@@ -566,30 +670,7 @@
   </div>
 </div>
 
-<!-- MID-PAGE CTA -->
-<div style="background:var(--white);padding: 28px 20px 32px; max-width: 400px;">
-  <a href="#alerts" class="btn-primary">Get Notified First When Armed Security Jobs Open</a>
-</div>
-
-<!-- SECTION 3 — RESPONSIBILITIES (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Duties</span></div>
-  <div class="section-wrap">
-    <h2>Common Duties &amp; Responsibilities</h2>
-    <ul class="duty-list">
-      <li>Maintain armed post at assigned location</li>
-      <li>Control and monitor access points</li>
-      <li>Conduct foot or vehicle patrols of premises</li>
-      <li>Monitor surveillance and alarm systems</li>
-      <li>Respond to incidents, disturbances, and emergencies</li>
-      <li>Write detailed incident and daily activity reports</li>
-      <li>Coordinate with law enforcement when required</li>
-      <li>Deter theft, vandalism, and unauthorized access</li>
-      <li>Escort personnel, assets, or cash as directed</li>
-    </ul>
-  </div>
-</div>
-
+<!-- MID CTA -->
 <!-- SECTION 4 — CREDENTIALS (dark) -->
 <div class="section-dark">
   <div class="section-divider"><span>Requirements</span></div>
