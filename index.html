@@ -791,14 +791,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
 
   <div class="form-card" id="signup">
-    <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">⚡ New Security Jobs This Week</div>
+    <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">⚡ Top Jobs This Week</div>
     <div class="hero-feed" id="heroFeed">
       <div class="hf-loading">Loading jobs…</div>
     </div>
-    <button class="btn-primary" onclick="openModal()">Get Job Alerts →</button>
+    <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
     <div class="form-trust">
       <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Free alerts. No spam. Unsubscribe anytime.
+      Get notified when new jobs open up
     </div>
   </div>
   </div>
@@ -1193,16 +1193,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   function sendPayload(token) {
     const payload = {
-      timestamp:    new Date().toISOString(),
-      name:         document.getElementById('f-name').value.trim(),
-      zip:          document.getElementById('f-zip').value.trim(),
-      phone:        document.getElementById('f-phone').value.trim(),
-      email:        document.getElementById('f-email').value.trim(),
-      jobs:         Array.from(selectedJobs).join(', '),
-      quals:        Array.from(selectedQuals).join(', '),
-      experience:   document.getElementById('expSelect').value,
-      availability: Array.from(selectedAvailability).join(', '),
-      recaptcha_token: token,
+      timestamp:         new Date().toISOString(),
+      name:              document.getElementById('f-name').value.trim(),
+      zip:               document.getElementById('f-zip').value.trim(),
+      phone:             document.getElementById('f-phone').value.trim(),
+      email:             document.getElementById('f-email').value.trim(),
+      jobs:              Array.from(selectedJobs).join(', '),
+      quals:             Array.from(selectedQuals).join(', '),
+      experience:        document.getElementById('expSelect').value,
+      availability:      Array.from(selectedAvailability).join(', '),
+      consent:           true,
+      consent_timestamp: new Date().toISOString(),
+      consent_text:      'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.',
+      source:            window.location.href,
+      recaptcha_token:   token,
     };
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
       method: 'POST',
@@ -1282,6 +1286,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
         feed.innerHTML = jobs.map(function(j) {
           var applyUrl = j.url || j.apply_url || '#';
+          if (applyUrl !== '#') {
+            applyUrl = applyUrl + (applyUrl.indexOf('?') > -1 ? '&' : '?') + 'utm_source=blackbarjobs&utm_medium=job_feed&utm_campaign=dfw_security';
+          }
           var title = j.title || 'Security Officer';
           var company = j.company_name || '';
           var location = (j.locations && j.locations.length) ? j.locations[0] : '';
