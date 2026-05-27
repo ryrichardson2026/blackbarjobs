@@ -106,8 +106,20 @@
   .footer-logo span { color: var(--gold-muted); }
   footer p { font-size: 0.72rem; color: rgba(255,255,255,0.35); line-height: 1.6; }
   footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
+
   @media (min-width: 640px) {
-    .hero-content { padding: 80px 48px 64px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
     .section-wrap { padding: 0 40px 40px; }
     .section-divider { padding: 0 40px; margin: 36px 0 24px; }
     .pay-grid { grid-template-columns: repeat(3, 1fr); }
@@ -163,8 +175,25 @@
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
+
   @media (min-width: 640px) {
-    .nudge-wrap { padding: 32px 40px 36px; }
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
   }
 </style>
 </head>
@@ -183,7 +212,7 @@
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>TSA &amp; Airport Security<br><em>Jobs</em></h1>
     <div class="hero-ctas">
-      <a href="#alerts" class="btn-primary">Get Notified First When Airport Security Jobs Open</a>
+      <a href="#alerts" class="btn-primary">Get Instant Alerts When Airport Security Jobs Open in DFW</a>
     </div>
   </div>
 </section>
@@ -223,7 +252,7 @@
 </div>
 
 <div style="background:var(--white);padding:28px 20px 32px;max-width:400px;">
-  <a href="#alerts" class="btn-primary">Get Notified First When Airport Security Jobs Open</a>
+  <a href="#alerts" class="btn-primary">Get Instant Alerts When Airport Security Jobs Open in DFW</a>
 </div>
 
 <div class="section-light">
