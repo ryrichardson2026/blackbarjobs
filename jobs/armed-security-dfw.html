@@ -75,23 +75,51 @@
   /* ── HERO ── */
   .hero {
     margin-top: 49px;
+    background: #1a1a1a;
     position: relative;
-    min-height: 480px;
+    overflow: hidden;
+    min-height: calc(100vh - 49px);
     display: flex;
-    align-items: flex-end;
-    background: var(--navy-deep);
+    flex-direction: column;
   }
-  .hero-bg {
+  .hero::before {
+    content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(0,8,20,0.3) 0%, rgba(0,8,20,0.85) 100%),
-      url('/images/armed-security-hero.jpg') center 30%/cover no-repeat;
+    background-image:
+      linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-image-wrap {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .hero-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    filter: brightness(0.55) saturate(0.7);
+    display: block;
+  }
+  .hero-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.65) 60%);
   }
   .hero-content {
     position: relative;
     z-index: 2;
-    padding: 48px 20px 48px;
-    width: 100%;
+    padding: 100px 20px 48px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   .hero-badge {
     display: inline-block;
@@ -437,7 +465,10 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg"></div>
+  <div class="hero-image-wrap">
+    <img src="/images/armed-security-hero.jpg" alt="Armed security officer">
+    <div class="hero-image-overlay"></div>
+  </div>
   <div class="hero-content">
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Armed Security<br><em>Jobs</em></h1>
