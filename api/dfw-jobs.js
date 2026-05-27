@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
     // Domains to block due to bad / stale links
     const blockedDomains = [
       'marriott.com',
-      'methodisthealthsystem.org'
+      'methodisthealthsystem'
     ];
 
     // Filter jobs
