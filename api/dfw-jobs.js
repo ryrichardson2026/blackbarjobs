@@ -34,20 +34,21 @@ module.exports = async (req, res) => {
       const title = (job.title || '').toLowerCase();
 
       return !title.includes('cyber')
-        && !title.includes('information systems')
-        && !title.includes('application')
-        && !title.includes('software')
-        && !title.includes('developer')
-        && !title.includes('engineer')
-        && !title.includes('architect')
-        && !title.includes('devsecops')
-        && !title.includes('red team')
-        && !title.includes('mainframe')
-        && !title.includes('iam')
-        && !title.includes('it ')
-        && !title.includes('product manager')
-        && !title.includes('compliance manager')
-        && !title.includes('analyst');
+  && !title.includes('information')
+  && !title.includes('information systems')
+  && !title.includes('application')
+  && !title.includes('software')
+  && !title.includes('developer')
+  && !title.includes('engineer')
+  && !title.includes('architect')
+  && !title.includes('devsecops')
+  && !title.includes('red team')
+  && !title.includes('mainframe')
+  && !title.includes('iam')
+  && !title.includes('it ')
+  && !title.includes('product manager')
+  && !title.includes('compliance manager')
+  && !title.includes('analyst');
 
     });
 
