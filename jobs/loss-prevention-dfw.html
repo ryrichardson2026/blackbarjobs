@@ -41,7 +41,7 @@
   .section-light .section-wrap p { color: var(--charcoal); }
   .section-light .duty-list li { color: var(--charcoal); }
   .section-dark { background: var(--navy-deep); padding: 0 0 36px; }
-  .section-dark .section-divider span { color: rgba(255,255,255,0.4); }
+  .section-dark .section-divider span { color: var(--gold); }
   .section-dark .section-divider::before, .section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
   .section-dark .section-wrap h2 { color: var(--white); }
   .section-dark .section-wrap p { color: rgba(255,255,255,0.72); }
@@ -61,7 +61,7 @@
   .pay-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px 14px; }
   .pay-card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
   .pay-card-rate { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--gold); line-height: 1; }
-  .pay-card-annual { font-size: 0.7rem; color: rgba(255,255,255,0.4); margin-top: 4px; }
+  .pay-card-annual { font-size: 0.7rem; color: var(--gold); margin-top: 4px; }
   .duty-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
   .duty-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.92rem; line-height: 1.5; }
   .duty-list li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 7px; }
@@ -208,6 +208,24 @@
     .mid-cta-wrap .btn-primary { max-width: 500px; margin: 0 auto; }
   }
 
+
+  .two-col-dark {
+    background: var(--navy-deep);
+  }
+  @media (min-width: 640px) {
+    .two-col-dark .two-col-inner .section-wrap:first-child {
+      border-right-color: rgba(255,255,255,0.12);
+    }
+  }
+
+
+  .two-col-dark .section-wrap h2 { color: var(--white); }
+  .two-col-dark .section-wrap p { color: rgba(255,255,255,0.6); }
+  .two-col-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  .two-col-dark .section-divider span { color: var(--gold); }
+  .two-col-dark .section-divider::before,
+  .two-col-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+
 </style>
 </head>
 <body>
@@ -291,8 +309,18 @@
   <button class="btn-primary" onclick="document.getElementById(\'alerts\').scrollIntoView({behavior:\'smooth\'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
 </div>
 
-<div class="section-dark">
-  <div class="section-divider"><span>Requirements</span></div>
+
+    <p style="margin-top:14px;font-size:0.75rem;color:rgba(255,255,255,0.35);">Requirements vary by employer. Verify directly with the hiring company.</p>
+  </div>
+</div>
+
+
+
+<div class="two-col-dark">
+  <div class="section-divider"><span>Requirements &amp; Experience</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Requirements</span></div>
   <div class="section-wrap">
     <h2>Training &amp; Credential Requirements</h2>
     <div class="cred-list">
@@ -317,12 +345,8 @@
         <span class="cred-text">CPR / First Aid certification (preferred)</span>
       </div>
     </div>
-    <p style="margin-top:14px;font-size:0.75rem;color:rgba(255,255,255,0.35);">Requirements vary by employer. Verify directly with the hiring company.</p>
-  </div>
-</div>
-
-<div class="section-light">
-  <div class="section-divider"><span>Experience</span></div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Experience</span></div>
   <div class="section-wrap">
     <h2>Experience Requirements</h2>
     <ul class="duty-list">
@@ -333,9 +357,11 @@
       <li>Candidates must be comfortable testifying in court and working with law enforcement</li>
     </ul>
   </div>
+    </div>
+  </div>
 </div>
 
-<div class="section-dark">
+<div class="section-light">
   <div class="section-divider"><span>Schedules</span></div>
   <div class="section-wrap">
     <h2>Typical Schedules &amp; Work Environments</h2>
@@ -350,22 +376,6 @@
   </div>
 </div>
 
-<div class="section-light">
-  <div class="section-divider"><span>Industries</span></div>
-  <div class="section-wrap">
-    <h2>Industries Hiring Loss Prevention</h2>
-    <div class="industry-grid">
-      <span class="industry-tag">🛒 Big Box Retail</span>
-      <span class="industry-tag">👗 Department Stores</span>
-      <span class="industry-tag">💊 Pharmacy &amp; Drug Stores</span>
-      <span class="industry-tag">🛍️ Shopping Malls</span>
-      <span class="industry-tag">🏪 Grocery Chains</span>
-      <span class="industry-tag">🔧 Home Improvement</span>
-      <span class="industry-tag">📱 Electronics Retail</span>
-      <span class="industry-tag">🥃 Liquor &amp; Convenience</span>
-    </div>
-  </div>
-</div>
 
 <div class="section-dark">
   <div class="section-divider"><span>Related Roles</span></div>
@@ -407,24 +417,10 @@
 </div>
 
 
-<!-- NUDGE BLOCK -->
-<div class="nudge-wrap">
-  <h3>Don't See The Right <span>Security Job Yet?</span></h3>
-  <ul class="nudge-roles">
-    <li>Unarmed Security jobs</li>
-    <li>Overnight Security shifts</li>
-    <li>Mobile Patrol positions</li>
-    <li>Event Security openings</li>
-    <li>Loss Prevention roles</li>
-  </ul>
-  <p class="nudge-sub">Get notified the moment new opportunities matching your interests are posted.</p>
-  <a href="#alerts" class="nudge-btn">Get Job Alerts</a>
-  <p class="nudge-trust">New security opportunities are added regularly across DFW.</p>
-</div>
 
-<div class="alert-wrap" id="alerts">
-  <h2>Get Notified First When<br><span>Loss Prevention Jobs Open</span></h2>
-  <p>Drop your info below. We'll alert you the moment new openings post in DFW.</p>
+<div class="alert-wrap" id="alerts" style="border-top: 3px solid rgba(255,195,0,0.3);">
+  <h2>Don't See The Right Security Job Yet?</h2>
+  <p>Get notified when new loss prevention jobs open in DFW.</p>
   <div class="alert-form" id="alertForm">
     <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
     <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-phone" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
