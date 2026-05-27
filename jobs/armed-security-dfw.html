@@ -217,7 +217,7 @@
     color: var(--gold); line-height: 1;
   }
   .pay-card-annual {
-    font-size: 0.7rem; color: rgba(255,255,255,0.4);
+    font-size: 0.7rem; color: var(--gold);
     margin-top: 4px;
   }
 
@@ -253,7 +253,7 @@
     background: var(--navy-deep);
     padding: 0 0 36px;
   }
-  .section-dark .section-divider span { color: rgba(255,255,255,0.4); }
+  .section-dark .section-divider span { color: var(--gold); }
   .section-dark .section-divider::before,
   .section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
   .section-dark .section-wrap h2 { color: var(--white); }
@@ -588,6 +588,24 @@
     }
   }
 
+
+  .two-col-dark {
+    background: var(--navy-deep);
+  }
+  @media (min-width: 640px) {
+    .two-col-dark .two-col-inner .section-wrap:first-child {
+      border-right-color: rgba(255,255,255,0.12);
+    }
+  }
+
+
+  .two-col-dark .section-wrap h2 { color: var(--white); }
+  .two-col-dark .section-wrap p { color: rgba(255,255,255,0.6); }
+  .two-col-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  .two-col-dark .section-divider span { color: var(--gold); }
+  .two-col-dark .section-divider::before,
+  .two-col-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+
 </style>
 </head>
 <body>
@@ -670,10 +688,17 @@
   </div>
 </div>
 
-<!-- MID CTA -->
-<!-- SECTION 4 — CREDENTIALS (dark) -->
-<div class="section-dark">
-  <div class="section-divider"><span>Requirements</span></div>
+
+<div class="mid-cta-wrap">
+  <button class="btn-primary" onclick="document.getElementById('alerts').scrollIntoView({behavior:'smooth'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
+</div>
+
+<!-- SECTION 4+5 — CREDENTIALS + EXPERIENCE TWO COL (dark) -->
+<div class="two-col-dark">
+  <div class="section-divider"><span>Requirements &amp; Experience</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Requirements</span></div>
   <div class="section-wrap">
     <h2>Training &amp; Credential Requirements</h2>
     <div class="cred-list">
@@ -704,11 +729,9 @@
     </div>
     <p style="margin-top:14px;font-size:0.75rem;color:rgba(255,255,255,0.35);">Requirements vary by employer and site. Verify directly with the hiring company.</p>
   </div>
-</div>
-
-<!-- SECTION 5 — EXPERIENCE (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Experience</span></div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Experience</span></div>
   <div class="section-wrap">
     <h2>Experience Requirements</h2>
     <ul class="duty-list">
@@ -719,10 +742,12 @@
       <li>Physical requirements typically include standing for extended periods, walking patrol routes, and responding quickly to incidents</li>
     </ul>
   </div>
+    </div>
+  </div>
 </div>
 
 <!-- SECTION 6 — SHIFTS (dark) -->
-<div class="section-dark">
+<div class="section-light">
   <div class="section-divider"><span>Schedules</span></div>
   <div class="section-wrap">
     <h2>Typical Schedules &amp; Work Environments</h2>
@@ -739,24 +764,6 @@
 </div>
 
 <!-- SECTION 7 — INDUSTRIES (light) -->
-<div class="section-light">
-  <div class="section-divider"><span>Industries</span></div>
-  <div class="section-wrap">
-    <h2>Industries Hiring Armed Security</h2>
-    <div class="industry-grid">
-      <span class="industry-tag">🏦 Banks &amp; Credit Unions</span>
-      <span class="industry-tag">💊 Cannabis Dispensaries</span>
-      <span class="industry-tag">🏛️ Government Facilities</span>
-      <span class="industry-tag">💎 Jewelry &amp; Luxury Retail</span>
-      <span class="industry-tag">🏥 Hospitals</span>
-      <span class="industry-tag">📦 Logistics &amp; Warehousing</span>
-      <span class="industry-tag">🏢 Office Buildings</span>
-      <span class="industry-tag">🎰 Casinos &amp; Gaming</span>
-      <span class="industry-tag">🏗️ Construction Sites</span>
-      <span class="industry-tag">🚐 Cash-in-Transit</span>
-    </div>
-  </div>
-</div>
 
 <!-- SECTION 8 — RELATED JOBS (dark) -->
 <div class="section-dark">
@@ -801,24 +808,10 @@
 
 <!-- SECTION 10 — ALERT SIGNUP -->
 
-<!-- NUDGE BLOCK -->
-<div class="nudge-wrap">
-  <h3>Don't See The Right <span>Security Job Yet?</span></h3>
-  <ul class="nudge-roles">
-    <li>Unarmed Security jobs</li>
-    <li>Overnight Security shifts</li>
-    <li>Mobile Patrol positions</li>
-    <li>Event Security openings</li>
-    <li>Loss Prevention roles</li>
-  </ul>
-  <p class="nudge-sub">Get notified the moment new opportunities matching your interests are posted.</p>
-  <a href="#alerts" class="nudge-btn">Get Job Alerts</a>
-  <p class="nudge-trust">New security opportunities are added regularly across DFW.</p>
-</div>
 
-<div class="alert-wrap" id="alerts">
-  <h2>Get Notified First When<br><span>Armed Security Jobs Open</span></h2>
-  <p>Drop your info below. We'll alert you the moment new openings post in DFW.</p>
+<div class="alert-wrap" id="alerts" style="border-top: 3px solid rgba(255,195,0,0.3);">
+  <h2>Don't See The Right Security Job Yet?</h2>
+  <p>Get notified when new armed security jobs open in DFW.</p>
   <div class="alert-form" id="alertForm">
     <div class="alert-field">
       <span class="alert-field-icon">📍</span>
