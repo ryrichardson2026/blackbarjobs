@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     color: #111111;
     line-height: 1;
     border-bottom: 9px solid #111111;
-    padding-bottom: 4px;
+     4px;
     display: inline-block;
   }
   .nav-logo span { color: #FFC300; }
@@ -339,7 +339,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       border-radius: 10px;
       text-decoration: none;
     }
-    body { padding-bottom: 74px; }
+    body {  74px; }
   }
 
   /* ── SECTIONS ── */
@@ -868,26 +868,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   z-index: 5;
 }
 
-/* ── DESKTOP ───────────────────────────── */
 
+/* ── DESKTOP ── */
 @media (min-width: 640px) {
 
+  /* Hero — full bleed image, content layered over it */
   .hero {
     flex-direction: column;
-    min-height: auto;
+    min-height: calc(100vh - 49px);
     align-items: stretch;
-    position: relative;
   }
-
-  .hero-content {
-    min-height: auto;
-  }
-
-}
-
-
-
-
 
   .hero-image-wrap {
     position: absolute;
@@ -895,12 +885,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   .hero-image-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 15%;
-    filter: brightness(0.55) saturate(0.7);
-    display: block;
+    object-position: center 20%;
+    filter: brightness(0.5) saturate(0.75);
   }
 
   .hero-image-overlay {
@@ -920,7 +906,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     margin: 0 auto;
     padding: 0 48px;
     flex: 1;
-
     display: grid;
     grid-template-columns: 1fr 420px;
     align-items: center;
@@ -980,74 +965,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     border-radius: 20px;
     padding: 28px 24px 22px;
     background: rgba(255,255,255,0.97);
-    box-shadow: 0 24px 64px rgba(0,0,0,0.45),
-                0 0 0 1px rgba(255,255,255,0.08);
+    box-shadow:
+      0 24px 64px rgba(0,0,0,0.45),
+      0 0 0 1px rgba(255,255,255,0.08);
   }
 
-  .nudge-desktop {
-    display: grid;
-  }
-
-  .nudge-desktop-right {
+  .nudge-desktop { display: grid; }
+  .nudge-desktop-right { display: flex; }
+  .hero-stat-row { display: flex; }
+  .hero-text-col {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
 
-  .faq-wrap .section-head {
-    padding: 0 40px;
-  }
+  .faq-wrap .section-head { padding: 0 40px; }
+  .faq-wrap .section-divider { padding: 0 40px; }
+  .faq-q { padding: 16px 40px; }
+  .faq-a { padding: 0 40px 16px; }
 
-  .faq-wrap .section-divider {
-    padding: 0 40px;
-  }
-
-  .faq-q {
-    padding: 16px 40px;
-  }
-
-  .faq-a {
-    padding: 0 40px 16px;
-  }
-
-  .job-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .section-head {
-    padding: 0 40px;
-    margin-bottom: 20px;
-  }
-
-  .job-types {
-    padding: 0 40px 36px;
-  }
-
-  .quals-wrap .section-head {
-    padding: 0 40px;
-  }
-
+  /* Non-hero desktop rules */
+  .job-grid { grid-template-columns: repeat(4, 1fr); }
+  .section-head { padding: 0 40px; margin-bottom: 20px; }
+  .job-types { padding: 0 40px 36px; }
+  .quals-wrap .section-head { padding: 0 40px; }
   .quals-wrap .section-divider {
     padding: 0 40px;
     margin: 28px 0 20px;
   }
 
-  .cta-section {
-    padding: 48px 48px 52px;
-  }
+  .cta-section { padding: 48px 48px 52px; }
 
   .section-divider {
     padding: 0 40px;
     margin: 28px 0 20px;
   }
 
-  footer {
-    padding: 28px 40px;
-  }
+  footer { padding: 28px 40px; }
 
-  .nudge-wrap {
-    padding: 36px 48px 40px;
-  }
+  /* Nudge two-col */
+  .nudge-wrap { padding: 36px 48px 40px; }
 
   .nudge-desktop {
     display: grid;
@@ -1066,7 +1023,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .nudge-desktop-right {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .nudge-desktop-right .nudge-btn {
@@ -1074,6 +1031,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-align: center;
   }
 
+  /* Quals two-col */
   .quals-desktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1098,6 +1056,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
 }
+
+
 
 
   /* ── NUDGE BLOCK ── */
