@@ -869,33 +869,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
 
-/* ── DESKTOP ── */
+
+/* ── DESKTOP HERO SIMPLIFICATION ───────────────────────────── */
+
 @media (min-width: 640px) {
 
-  /* Hero — full bleed image, content layered over it */
   .hero {
-    flex-direction: column;
-    min-height: calc(100vh - 49px);
-    align-items: stretch;
+    background: var(--navy-deep);
+    min-height: auto;
+    padding: 72px 0 48px;
   }
 
   .hero-image-wrap {
-    position: absolute;
-    inset: 0;
+    display: none;
   }
 
-  .hero-image-wrap img {
-    object-position: center 20%;
-    filter: brightness(0.5) saturate(0.75);
-  }
-
-  .hero-image-overlay {
-    background: linear-gradient(
-      105deg,
-      rgba(0,8,20,0.82) 0%,
-      rgba(0,8,20,0.55) 45%,
-      rgba(0,8,20,0.25) 100%
-    );
+  .hero::before {
+    display: none;
   }
 
   .hero-content {
@@ -905,12 +895,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 48px;
-    flex: 1;
+
     display: grid;
     grid-template-columns: 1fr 420px;
     align-items: center;
     gap: 48px;
   }
+
+  h1 {
+    color: var(--white);
+  }
+
+  .hero-sub {
+    color: rgba(255,255,255,0.72);
+  }
+
+}
+
 
   .hero-text-col {
     display: flex;
