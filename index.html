@@ -147,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .hero-content {
     position: relative;
     z-index: 2;
-    padding: 20px 16px 20px;
+    padding: 24px 16px 16px;
   }
   h1 {
     font-family: 'Barlow Condensed', sans-serif;
@@ -778,7 +778,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .faq-item.open .faq-a { display: block; }
 
   .hero-stat-row { display: none; }
-  .hero-text-col { display: none; }
+  .hero-text-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
   .nudge-desktop { display: block; }
   .nudge-desktop-right { display: none; }
   .quals-desktop { display: block; padding: 0; }
