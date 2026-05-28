@@ -770,7 +770,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .faq-item.open .faq-a { display: block; }
 
   .hero-stat-row { display: none; }
-  .hero-text-col { display: none; }
+  .hero-text-col {
+  display: flex;
+  flex-direction: column;
+}
   .nudge-desktop { display: block; }
   .nudge-desktop-right { display: none; }
   .quals-desktop { display: block; padding: 0; }
@@ -865,7 +868,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .nudge-desktop { display: grid; }
     .nudge-desktop-right { display: flex; }
     .hero-stat-row { display: flex; }
-    .hero-text-col { display: flex; flex-direction: column; justify-content: center; }
+
 
     .faq-wrap .section-head { padding: 0 40px; }
     .faq-wrap .section-divider { padding: 0 40px; }
@@ -1039,19 +1042,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="images/AdobeStock_627151967.jpeg" alt="Security professional" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
- <div class="hero-content">
+<div class="hero-content">
+
   <div class="hero-text-col">
     <h1>Solid Jobs For <em>Hard Workers</em></h1>
-    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+
+    <p class="hero-sub">
+      Get notified instantly when security jobs open across Dallas–Fort Worth.
+    </p>
+
     <div class="hero-stat-row">
       <div class="hero-stat">
         <span class="hero-stat-num">7</span>
         <span class="hero-stat-label">Job Categories</span>
       </div>
+
       <div class="hero-stat">
         <span class="hero-stat-num">DFW</span>
         <span class="hero-stat-label">Metro Coverage</span>
       </div>
+
       <div class="hero-stat">
         <span class="hero-stat-num">Free</span>
         <span class="hero-stat-label">Job Alerts</span>
@@ -1059,8 +1069,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 
-  <div class="form-card" id="signup">
-    <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
+  <div class="form-card" id="signup">    <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
     <div class="hero-feed">
       <div class="hf-row"><div class="hf-body"><div class="hf-title">Armed Security Officer — Dallas</div><div class="hf-meta">Full-Time &nbsp;·&nbsp; $24–$30/hr</div></div></div>
       <div class="hf-row"><div class="hf-body"><div class="hf-title">Overnight Security Guard — Fort Worth</div><div class="hf-meta">Part-Time &nbsp;·&nbsp; $21–$26/hr</div></div></div>
