@@ -103,14 +103,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* ── HERO ── */
-  .hero {
-    margin-top: 49px;
-    background: #1a1a1a;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
+.hero {
+  padding-top: 49px;
+  background: #1a1a1a;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
   .hero::before {
     content: '';
     position: absolute;
@@ -830,15 +832,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rgba(0,8,20,0.25) 100%
       );
     }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 48px;
-      flex: 1;
-      display: grid;
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 48px 0;
+  flex: 1;
+  display: grid;
+
+
       grid-template-columns: 1fr 420px;
       align-items: center;
       gap: 48px;
@@ -1080,7 +1085,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         Solid Jobs For <em>Hard Workers</em>
       </h1>
 
-      <br><p class="hero-sub">
+      <p class="hero-sub">
         Get notified instantly when security jobs open across Dallas–Fort Worth.
       </p>
 
