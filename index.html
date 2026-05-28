@@ -809,13 +809,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .quals-desktop-left { padding: 0 20px; margin-bottom: 8px; }
 
   /* ── DESKTOP ── */
-  @media (min-width: 640px) {
-    /* Hero — full bleed image, content layered over it */
-    .hero {
-      flex-direction: column;
-      min-height: calc(100vh - 49px);
-      align-items: stretch;
-    }
+
+@media (min-width: 640px) {
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
     .hero-image-wrap {
       position: absolute;
       inset: 0;
