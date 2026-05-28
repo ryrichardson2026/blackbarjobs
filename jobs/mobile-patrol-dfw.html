@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Patrol Jobs in Dallas–Fort Worth | BlackBarJobs</title>
+<meta name="description" content="Browse current mobile patrol job openings from employers hiring across Dallas–Fort Worth. Get instant alerts when new mobile patrol jobs open.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23000814'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='13' fill='%23FFC300'>BB</text></svg>">
+<meta property="og:title" content="Mobile Patrol Jobs in DFW | BlackBarJobs">
+<meta property="og:description" content="Browse current mobile patrol job openings from employers hiring across Dallas–Fort Worth.">
+<meta property="og:url" content="https://www.blackbarjobs.com/jobs/mobile-patrol-dfw">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy-deep: #000814;
+    --navy-mid: #001D3D;
+    --navy-light: #003566;
+    --gold: #FFC300;
+    --gold-hover: #FFD60A;
+    --gold-muted: #E6A800;
+    --white: #ffffff;
+    --off-white: #f4f5f7;
+    --charcoal: #1a1a1a;
+    --muted: #5a6474;
+    --border: #e2e5ea;
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--white);
+    color: var(--charcoal);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 200;
+    background: var(--white);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    color: #111111;
+    line-height: 1;
+    border-bottom: 9px solid #111111;
+    padding-bottom: 4px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .nav-logo span { color: #FFC300; }
+  .nav-logo .nav-security {
+    color: #111111;
+    font-weight: 600;
+    font-size: 1rem;
+    opacity: 0.6;
+    margin-left: 6px;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    margin-top: 49px;
+    background: #1a1a1a;
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100vh - 49px);
+    display: flex;
+    flex-direction: column;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-image-wrap {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .hero-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(0.55) saturate(0.7);
+    display: block;
+  }
+  .hero-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.65) 60%);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 100px 20px 48px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero-badge {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(255,195,0,0.4);
+    padding: 4px 10px; border-radius: 3px;
+    margin-bottom: 14px;
+    width: fit-content;
+  }
+  .hero h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 9vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  .hero h1 em { color: var(--gold); font-style: normal; }
+  .hero-sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    line-height: 1.55;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  .hero-ctas { display: flex; flex-direction: column; gap: 10px; max-width: 360px; }
+  .btn-primary {
+    display: block; width: 100%; padding: 15px;
+    background: var(--gold); color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: none; border-radius: 10px; cursor: pointer;
+    text-align: center; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .btn-primary:hover { background: var(--gold-hover); }
+
+  /* ── SECTION BACKGROUNDS ── */
+  .section-light { background: var(--white); padding: 0 0 36px; }
+  .section-light .section-divider span { color: var(--muted); }
+  .section-light .section-divider::before,
+  .section-light .section-divider::after { background: var(--border); }
+  .section-light .section-wrap h2 { color: var(--navy-deep); }
+  .section-light .section-wrap p { color: var(--charcoal); }
+  .section-light .duty-list li { color: var(--charcoal); }
+
+  .section-dark { background: var(--navy-deep); padding: 0 0 36px; }
+  .section-dark .section-divider span { color: var(--gold); }
+  .section-dark .section-divider::before,
+  .section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+  .section-dark .section-wrap h2 { color: var(--white); }
+  .section-dark .section-wrap p { color: rgba(255,255,255,0.72); }
+  .section-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  .section-dark .industry-tag { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15); color: var(--white); }
+  .section-dark .related-item { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.12); }
+  .section-dark .related-item-label { color: var(--white); }
+  .section-dark .related-item-arrow { color: rgba(255,255,255,0.35); }
+  .section-dark .related-item:hover { border-color: var(--gold); }
+
+  /* ── SHARED ── */
+  .section-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 32px 0 20px; }
+  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; }
+  .section-divider span { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
+  .section-wrap { padding: 0 20px 36px; }
+  .section-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.6rem, 5vw, 2.1rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; margin-bottom: 16px; }
+  .section-wrap p { font-size: 0.92rem; line-height: 1.65; margin-bottom: 12px; max-width: 620px; }
+
+  /* ── PAY CARDS ── */
+  .pay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 4px; }
+  .pay-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px 14px; }
+  .pay-card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
+  .pay-card-rate { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--gold); line-height: 1; }
+  .pay-card-annual { font-size: 0.7rem; color: var(--gold); margin-top: 4px; }
+
+  /* ── BULLET LIST ── */
+  .duty-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+  .duty-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.92rem; line-height: 1.5; }
+  .duty-list li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 7px; }
+
+  /* ── CREDENTIAL ITEMS ── */
+  .cred-list { display: flex; flex-direction: column; gap: 9px; }
+  .cred-item { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; }
+  .cred-check { width: 24px; height: 24px; border-radius: 6px; background: var(--gold); flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+  .cred-text { font-size: 0.9rem; font-weight: 600; color: rgba(255,255,255,0.88); }
+
+  /* ── INDUSTRY TAGS ── */
+  .industry-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .industry-tag { font-family: 'Barlow Condensed', sans-serif; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.04em; padding: 7px 14px; border: 1.5px solid var(--border); border-radius: 20px; color: var(--navy-deep); background: var(--white); }
+
+  /* ── RELATED JOBS ── */
+  .related-grid { display: flex; flex-direction: column; gap: 8px; }
+  .related-item { display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; border: 1.5px solid; border-radius: 10px; text-decoration: none; transition: border-color 0.12s; }
+  .related-item-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; }
+  .related-item-arrow { font-size: 0.85rem; }
+
+  /* ── LIVE JOBS FEED ── */
+  .jobs-feed { display: flex; flex-direction: column; border-top: 2px solid var(--navy-deep); border-bottom: 1px solid #c8cdd4; }
+  .jf-row { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+  .jf-row:last-child { border-bottom: none; }
+  .jf-body { flex: 1; min-width: 0; }
+  .jf-title { font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 800; color: var(--navy-deep); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .jf-meta { display: flex; align-items: center; gap: 0; margin-top: 2px; font-size: 0.7rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .jf-company { font-weight: 600; color: var(--charcoal); }
+  .jf-sep { margin: 0 5px; color: #d0d5dd; }
+  .jf-loc { color: var(--muted); }
+  .jf-pay { font-size: 0.65rem; font-weight: 700; color: #1a6b2e; background: #e6f4eb; padding: 1px 5px; border-radius: 3px; margin-left: 6px; white-space: nowrap; flex-shrink: 0; }
+  .jf-apply { flex-shrink: 0; padding: 6px 12px; background: var(--navy-deep); color: var(--gold); font-family: 'Barlow Condensed', sans-serif; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.12s; white-space: nowrap; }
+  .jf-apply:hover { background: var(--navy-light); }
+  .jobs-loading { text-align: center; padding: 20px 0; font-size: 0.82rem; color: var(--muted); }
+
+  /* ── ALERT SIGNUP ── */
+  .alert-wrap { background: var(--navy-deep); padding: 36px 20px 40px; text-align: center; }
+  .alert-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.6rem, 6vw, 2.2rem); font-weight: 800; color: var(--white); line-height: 1.1; margin-bottom: 6px; }
+  .alert-wrap h2 span { color: var(--gold); }
+  .alert-wrap p { font-size: 0.88rem; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
+  .alert-form { display: flex; flex-direction: column; gap: 9px; max-width: 360px; margin: 0 auto; }
+  .alert-field { position: relative; }
+  .alert-field-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1rem; pointer-events: none; line-height: 1; }
+  .alert-form input { width: 100%; padding: 13px 14px 13px 40px; border: 1.5px solid rgba(255,255,255,0.15); border-radius: 10px; font-size: 1rem; font-family: 'Barlow', sans-serif; color: var(--white); background: rgba(255,255,255,0.08); outline: none; transition: border-color 0.15s; -webkit-appearance: none; }
+  .alert-form input::placeholder { color: rgba(255,255,255,0.35); }
+  .alert-form input:focus { border-color: var(--gold); }
+  .alert-form input.error { border-color: #e53935; }
+  .alert-trust { display: flex; align-items: center; gap: 6px; justify-content: center; margin-top: 8px; font-size: 0.7rem; color: rgba(255,255,255,0.35); font-weight: 500; }
+  .alert-note { font-size: 0.62rem; color: rgba(255,255,255,0.25); line-height: 1.5; margin-top: 10px; max-width: 340px; margin-left: auto; margin-right: auto; }
+
+  /* ── FOOTER ── */
+  footer { padding: 22px 20px; text-align: center; background: var(--navy-deep); border-top: 1px solid rgba(255,255,255,0.08); }
+  .footer-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--white); margin-bottom: 6px; }
+  .footer-logo span { color: var(--gold-muted); }
+  footer p { font-size: 0.72rem; color: rgba(255,255,255,0.35); line-height: 1.6; }
+  footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
+
+  /* ── DESKTOP ── */
+
+  @media (min-width: 640px) {
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
+  }
+
+  /* ── NUDGE BLOCK ── */
+  .nudge-wrap {
+    background: var(--navy-deep);
+    padding: 28px 20px 32px;
+    border-top: 3px solid var(--gold);
+  }
+  .nudge-wrap h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-weight: 800; color: var(--white);
+    line-height: 1.1; margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+  .nudge-wrap h3 span { color: var(--gold); }
+  .nudge-roles {
+    list-style: none; padding: 0; margin: 0 0 14px;
+    display: flex; flex-direction: column; gap: 5px;
+  }
+  .nudge-roles li {
+    font-size: 0.85rem; color: rgba(255,255,255,0.7);
+    display: flex; align-items: center; gap: 7px;
+  }
+  .nudge-roles li::before {
+    content: '';
+    width: 5px; height: 5px; border-radius: 50%;
+    background: var(--gold); flex-shrink: 0;
+  }
+  .nudge-sub {
+    font-size: 0.82rem; color: rgba(255,255,255,0.5);
+    margin-bottom: 18px; line-height: 1.55;
+  }
+  .nudge-btn {
+    display: inline-block;
+    padding: 13px 24px;
+    background: var(--gold); color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: none; border-radius: 10px; cursor: pointer;
+    text-decoration: none; transition: background 0.15s;
+    width: 100%; text-align: center; display: block;
+    max-width: 320px;
+  }
+  .nudge-btn:hover { background: var(--gold-hover); }
+  .nudge-trust {
+    font-size: 0.7rem; color: rgba(255,255,255,0.3);
+    margin-top: 10px;
+  }
+
+  @media (min-width: 640px) {
+    .hero {
+      min-height: 520px;
+      max-height: 560px;
+      height: 60vh;
+    }
+    .hero-image-wrap img { object-position: center center; }
+    .hero-content {
+      padding: 0 48px 48px;
+      justify-content: center;
+    }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
+    .hero-ctas { max-width: 420px; }
+    .section-wrap { padding: 0 40px 40px; }
+    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .pay-grid { grid-template-columns: repeat(3, 1fr); }
+    .alert-wrap { padding: 48px 40px 52px; }
+    footer { padding: 28px 40px; }
+  }
+
+  /* ── TWO COL ── */
+  .two-col-section {
+    background: var(--white);
+  }
+  .mid-cta-wrap {
+    background: var(--white);
+    padding: 28px 20px;
+    text-align: center;
+  }
+  @media (min-width: 640px) {
+    .two-col-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .two-col-inner .section-wrap {
+      padding: 0 40px 40px;
+    }
+    .two-col-inner .section-wrap:first-child {
+      padding-left: 40px;
+      padding-right: 24px;
+      border-right: 1px solid var(--border);
+    }
+    .two-col-inner .section-wrap:last-child {
+      padding-left: 24px;
+      padding-right: 40px;
+    }
+    .mid-cta-wrap {
+      padding: 32px 40px;
+    }
+    .mid-cta-wrap .btn-primary {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+
+
+  .two-col-dark {
+    background: var(--navy-deep);
+  }
+  @media (min-width: 640px) {
+    .two-col-dark .two-col-inner .section-wrap:first-child {
+      border-right-color: rgba(255,255,255,0.12);
+    }
+  }
+
+
+  .two-col-dark .section-wrap h2 { color: var(--white); }
+  .two-col-dark .section-wrap p { color: rgba(255,255,255,0.6); }
+  .two-col-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  .two-col-dark .section-divider span { color: var(--gold); }
+  .two-col-dark .section-divider::before,
+  .two-col-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+
+
+  /* ── WHY BEING FIRST ── */
+  .why-section-dark {
+    background: var(--navy-deep);
+    padding: 0 0 36px;
+  }
+  .why-section-dark .section-divider span { color: var(--gold); letter-spacing: 0.16em; }
+  .why-section-dark .section-divider::before,
+  .why-section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
+  .why-section-dark .section-wrap h2 { color: var(--white); }
+  .why-section-dark .section-wrap p { color: rgba(255,255,255,0.65); }
+  .why-wrap h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.8rem, 5vw, 2.4rem);
+    font-weight: 800; line-height: 1.05;
+    letter-spacing: -0.01em; margin-bottom: 14px;
+  }
+  .why-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+  .why-section-dark .why-stats { border-top-color: rgba(255,255,255,0.12); }
+  .why-stat-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6rem; font-weight: 800;
+    color: var(--gold); line-height: 1;
+    margin-bottom: 5px;
+  }
+  .why-stat-label {
+    font-size: 0.72rem; font-weight: 500;
+    color: var(--muted); line-height: 1.4;
+  }
+  .why-section-dark .why-stat-label { color: rgba(255,255,255,0.45); }
+  @media (min-width: 640px) {
+    .why-section-dark .section-wrap,
+    .section-light .why-wrap { padding: 0 40px 40px; max-width: 800px; }
+  }
+
+
+  /* ── FLIPPED SECTION COLORS ── */
+  /* Job feed now dark */
+  .section-dark .jobs-feed { border-top-color: rgba(255,255,255,0.3); border-bottom-color: rgba(255,255,255,0.12); }
+  .section-dark .jf-title { color: var(--white); }
+  .section-dark .jf-company { color: rgba(255,255,255,0.8); }
+  .section-dark .jf-loc { color: rgba(255,255,255,0.5); }
+  .section-dark .jf-sep { color: rgba(255,255,255,0.2); }
+  .section-dark .jf-row { border-bottom-color: rgba(255,255,255,0.1); }
+  .section-dark .jobs-loading { color: rgba(255,255,255,0.4); }
+  /* Related jobs now light */
+  .section-light .related-item { border-color: var(--border); background: var(--white); }
+  .section-light .related-item-label { color: var(--navy-deep); }
+  .section-light .related-item-arrow { color: var(--muted); }
+  .section-light .related-item:hover { border-color: var(--navy-light); }
+  /* Schedules now dark */
+  .section-dark .section-wrap h2 { color: var(--white); }
+  .section-dark .section-wrap p { color: rgba(255,255,255,0.72); }
+  .section-dark .duty-list li { color: rgba(255,255,255,0.82); }
+  /* Alert form now white */
+  .alert-light {
+    background: var(--white);
+    padding: 36px 20px 40px;
+    text-align: center;
+    border-top: 3px solid var(--gold);
+  }
+  .alert-light h2 { color: var(--navy-deep); }
+  .alert-light h2 span { color: var(--gold-muted); }
+  .alert-light p { color: var(--muted); }
+  .alert-light input {
+    border-color: var(--border);
+    background: var(--off-white);
+    color: var(--charcoal);
+  }
+  .alert-light input::placeholder { color: #a0aab4; }
+  .alert-light input:focus { border-color: var(--navy-light); background: var(--white); }
+  .alert-light .alert-trust { color: var(--muted); }
+  .alert-light .alert-note { color: var(--muted); }
+  .alert-light #alertSuccess { color: var(--charcoal); }
+  .alert-light #alertSuccess > div:nth-child(2) { color: var(--navy-deep); }
+  .alert-light #alertSuccess > div:nth-child(3) { color: var(--muted); }
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-image-wrap">
+    <img src="/images/mobile-patrol-hero.jpg" alt="Mobile patrol security officer">
+    <div class="hero-image-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">Dallas–Fort Worth</div>
+    <h1>Mobile Patrol<br><em>Jobs</em></h1>
+    <div class="hero-ctas">
+      <a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1+3 — TWO COL -->
+<div class="two-col-section">
+  <div class="section-divider" style="margin-top:0;"><span>Overview &amp; Duties</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Role Overview</span></div>
+  <div class="section-wrap">
+    <h2>What Does a Mobile Patrol Officer Do?</h2>
+    <p>Mobile patrol officers conduct security rounds across multiple sites using a company vehicle. Rather than being stationed at a single location, patrol officers cover assigned routes — checking properties, responding to alarms, and providing a visible security presence across a geographic area.</p>
+    <p>Common assignments include apartment complexes, commercial properties, construction sites, retail centers, and industrial parks. Officers typically work solo and are responsible for managing their route, documenting activity, and responding to incidents as they arise.</p>
+    <p>Mobile patrol is a physically active role requiring a valid driver's license and a clean driving record. Many positions include both daytime and overnight shifts, with overnight routes being the most common.</p>
+  </div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Duties</span></div>
+  <div class="section-wrap">
+    <h2>Common Duties &amp; Responsibilities</h2>
+    <ul class="duty-list">
+      <li>Drive assigned patrol routes on a set schedule</li>
+      <li>Conduct exterior checks of buildings, gates, and parking lots</li>
+      <li>Respond to alarms, disturbances, and suspicious activity</li>
+      <li>Lock and unlock facilities as required</li>
+      <li>Monitor and report vandalism, trespassing, and property damage</li>
+      <li>Write detailed patrol logs and incident reports</li>
+      <li>Coordinate with law enforcement and dispatch when required</li>
+      <li>Provide a visible deterrent across multiple client sites</li>
+    </ul>
+  </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 2 — PAY (dark) -->
+<div class="section-dark">
+  <div class="section-divider"><span>Compensation</span></div>
+  <div class="section-wrap">
+    <h2>Typical Pay &amp; Salary Range</h2>
+    <div class="pay-grid">
+      <div class="pay-card">
+        <div class="pay-card-label">Entry Level</div>
+        <div class="pay-card-rate">$15–18/hr</div>
+        <div class="pay-card-annual">~$31k–37k/yr</div>
+      </div>
+      <div class="pay-card">
+        <div class="pay-card-label">Experienced</div>
+        <div class="pay-card-rate">$18–24/hr</div>
+        <div class="pay-card-annual">~$37k–50k/yr</div>
+      </div>
+      <div class="pay-card">
+        <div class="pay-card-label">Armed / Senior</div>
+        <div class="pay-card-rate">$24–30/hr</div>
+        <div class="pay-card-annual">~$50k–62k/yr</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="mid-cta-wrap">
+  <button class="btn-primary" onclick="document.getElementById('alerts').scrollIntoView({behavior:'smooth'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button>
+</div>
+
+<!-- SECTION 4+5 — CREDENTIALS + EXPERIENCE TWO COL (dark) -->
+<div class="two-col-dark">
+  <div class="section-divider"><span>Requirements &amp; Experience</span></div>
+  <div class="two-col-inner">
+    <div class="section-wrap">
+<div class="section-divider"><span>Requirements</span></div>
+  <div class="section-wrap">
+    <h2>Training &amp; Credential Requirements</h2>
+    <div class="cred-list">
+      <div class="cred-item">
+        <div class="cred-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="cred-text">Valid Texas Security License (Level II or higher)</span>
+      </div>
+      <div class="cred-item">
+        <div class="cred-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="cred-text">Valid driver's license with clean driving record — required</span>
+      </div>
+      <div class="cred-item">
+        <div class="cred-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="cred-text">Clean criminal background check</span>
+      </div>
+      <div class="cred-item">
+        <div class="cred-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="cred-text">Armed License (Level III) — required for armed patrol roles</span>
+      </div>
+      <div class="cred-item">
+        <div class="cred-check"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="cred-text">CPR / First Aid certification (preferred by most employers)</span>
+      </div>
+    </div>
+    <p style="margin-top:14px;font-size:0.75rem;color:rgba(255,255,255,0.35);">Requirements vary by employer and site. Verify directly with the hiring company.</p>
+  </div>
+    </div>
+    <div class="section-wrap">
+<div class="section-divider"><span>Experience</span></div>
+  <div class="section-wrap">
+    <h2>Experience Requirements</h2>
+    <ul class="duty-list">
+      <li>Entry-level patrol roles available for candidates with a valid license and clean driving record</li>
+      <li>1–2 years of prior security or law enforcement experience preferred by most employers</li>
+      <li>Military or police background is a strong advantage for senior and armed patrol positions</li>
+      <li>Comfort working independently with minimal supervision is consistently valued</li>
+      <li>Physical requirements include extended driving, walking exterior inspections, and remaining alert during overnight shifts</li>
+    </ul>
+  </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 6 — SHIFTS (dark) -->
+<!-- WHY BEING FIRST -->
+<div class="section-light">
+  <div class="section-divider"><span>Why It Matters</span></div>
+  <div class="section-wrap why-wrap">
+    <h2>First To Know.<br>First To Apply.<br>First To Get The Callback.</h2>
+    <p>Security jobs in DFW move fast. Positions are frequently filled within days of posting. Candidates who apply in the first 48 hours are significantly more likely to get a callback than those who apply later.</p>
+    <p>By the time a job shows up in your search results, it may already have a full interview pipeline. BlackBarJobs alerts you the moment a new opening posts — so you're always first in line.</p>
+    <div class="why-stats">
+      <div class="why-stat">
+        <div class="why-stat-num">48hrs</div>
+        <div class="why-stat-label">First applicants have the highest callback rate</div>
+      </div>
+      <div class="why-stat">
+        <div class="why-stat-num">Days</div>
+        <div class="why-stat-label">Many security roles fill within days of posting</div>
+      </div>
+      <div class="why-stat">
+        <div class="why-stat-num">100k+</div>
+        <div class="why-stat-label">Security job openings across the US right now</div>
+      </div>
+    </div>
+    <a href="#alerts" class="btn-primary" style="max-width:360px;margin-top:20px;display:block;">Sign Up For Instant Job Alerts</a>
+  </div>
+</div>
+<div class="section-dark">
+  <div class="section-divider"><span>Schedules</span></div>
+  <div class="section-wrap">
+    <h2>Typical Schedules &amp; Work Environments</h2>
+    <ul class="duty-list">
+      <li>Overnight shifts (10pm–6am) are the most common — highest demand and often include shift differentials</li>
+      <li>Day and swing shifts available depending on client needs</li>
+      <li>Weekend coverage frequently required</li>
+      <li>12-hour shifts common with contract patrol companies</li>
+      <li>Primarily outdoor work — exterior checks in all weather conditions</li>
+      <li>Solo assignments covering multiple properties per shift</li>
+      <li>Vehicle provided by employer in most cases</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SECTION 7 — INDUSTRIES (light) -->
+
+<!-- SECTION 8 — RELATED JOBS (dark) -->
+<div class="section-light">
+  <div class="section-divider"><span>Related Roles</span></div>
+  <div class="section-wrap">
+    <h2>Related Security Jobs</h2>
+    <div class="related-grid">
+      <a href="/jobs/armed-security-dfw" class="related-item">
+        <span class="related-item-label">🛡️ Armed Security Jobs</span>
+        <span class="related-item-arrow">→</span>
+      </a>
+      <a href="/jobs/unarmed-security-dfw" class="related-item">
+        <span class="related-item-label">👮 Unarmed Security Jobs</span>
+        <span class="related-item-arrow">→</span>
+      </a>
+      <a href="/jobs/overnight-security-dfw" class="related-item">
+        <span class="related-item-label">🌙 Overnight Security Jobs</span>
+        <span class="related-item-arrow">→</span>
+      </a>
+      <a href="/jobs/event-security-dfw" class="related-item">
+        <span class="related-item-label">🎟️ Event Security Jobs</span>
+        <span class="related-item-arrow">→</span>
+      </a>
+      <a href="/jobs/event-security-dfw" class="related-item">
+        <span class="related-item-label">🎟️ Event Security Jobs</span>
+        <span class="related-item-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 9 — LIVE JOB FEED (light) -->
+<div class="section-dark" id="jobs">
+  <div class="section-divider"><span>Now Hiring</span></div>
+  <div class="section-wrap">
+    <h2>Current Mobile Patrol Openings</h2>
+    <div class="jobs-feed" id="patrolJobsFeed">
+      <div class="jobs-loading">Loading jobs…</div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 10 — ALERT SIGNUP -->
+
+
+<div class="alert-wrap alert-light" id="alerts">
+  <h2>Don't See The Right Security Job Yet?</h2>
+  <p>Get notified when new mobile patrol jobs open in DFW.</p>
+  <div class="alert-form" id="alertForm">
+    <div class="alert-field">
+      <span class="alert-field-icon">📍</span>
+      <input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5">
+    </div>
+    <div class="alert-field">
+      <span class="alert-field-icon">📱</span>
+      <input id="a-phone" type="tel" inputmode="tel" placeholder="Mobile Number">
+    </div>
+    <div class="alert-field">
+      <span class="alert-field-icon">✉️</span>
+      <input id="a-email" type="email" inputmode="email" placeholder="Email Address">
+    </div>
+    <div id="alertError" style="display:none;color:#e53935;font-size:0.75rem;text-align:left;"></div>
+    <button class="btn-primary" onclick="submitAlert()">Notify Me →</button>
+    <div class="alert-trust">
+      <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
+      No spam. Unsubscribe anytime.
+    </div>
+    <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
+  </div>
+  <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
+    <div style="font-size:2.5rem;margin-bottom:12px;">✅</div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:var(--white);margin-bottom:6px;">You're On The List</div>
+    <div style="font-size:0.88rem;color:rgba(255,255,255,0.55);">We'll notify you when mobile patrol jobs open near you.</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
+  <p>Security job alerts for professionals across the US.<br>
+  <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
+</footer>
+
+<script>
+  (function loadPatrolJobs() {
+    var feed = document.getElementById('patrolJobsFeed');
+    fetch('/api/dfw-jobs')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var jobs = (data.jobs || []).slice(0, 10);
+        if (!jobs.length) {
+          feed.innerHTML = '<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">No listings right now — check back soon.</div>';
+          return;
+        }
+        feed.innerHTML = jobs.map(function(j) {
+          var applyUrl = j.url || j.apply_url || '#';
+          if (applyUrl !== '#') {
+            applyUrl = applyUrl + (applyUrl.indexOf('?') > -1 ? '&' : '?') + 'utm_source=blackbarjobs&utm_medium=role_page&utm_campaign=mobile_patrol';
+          }
+          var title = j.title || 'Mobile Patrol Officer';
+          var company = j.company_name || '';
+          var location = (j.locations && j.locations.length) ? j.locations[0].split(',').slice(0,2).join(',').trim() : '';
+          var pay = '';
+          if (j.salary_min_usd || j.salary_max_usd) {
+            var min = j.salary_min_usd ? '$' + Math.round(j.salary_min_usd / 1000) + 'k' : '';
+            var max = j.salary_max_usd ? '$' + Math.round(j.salary_max_usd / 1000) + 'k' : '';
+            pay = (min && max) ? min + '–' + max : (min || max);
+          }
+          var payHtml = pay ? '<span class="jf-pay">' + pay + '</span>' : '';
+          return '<div class="jf-row">'
+            + '<div class="jf-body">'
+            + '<div class="jf-title">' + title + '</div>'
+            + '<div class="jf-meta">'
+            + (company ? '<span class="jf-company">' + company + '</span>' : '')
+            + (location ? '<span class="jf-sep">·</span><span class="jf-loc">' + location + '</span>' : '')
+            + payHtml
+            + '</div></div>'
+            + '<a class="jf-apply" href="' + applyUrl + '" target="_blank" rel="noopener">Apply →</a>'
+            + '</div>';
+        }).join('');
+      })
+      .catch(function() {
+        feed.innerHTML = '<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">Could not load jobs. Try refreshing.</div>';
+      });
+  })();
+
+  function submitAlert() {
+    var zip   = document.getElementById('a-zip').value.trim();
+    var phone = document.getElementById('a-phone').value.trim();
+    var email = document.getElementById('a-email').value.trim();
+    var errEl = document.getElementById('alertError');
+    if (!zip || zip.length < 5) {
+      errEl.textContent = 'Please enter a valid ZIP code.';
+      errEl.style.display = 'block';
+      document.getElementById('a-zip').classList.add('error');
+      return;
+    }
+    if (!phone && !email) {
+      errEl.textContent = 'Please enter a phone number or email.';
+      errEl.style.display = 'block';
+      document.getElementById('a-phone').classList.add('error');
+      return;
+    }
+    errEl.style.display = 'none';
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        timestamp:         new Date().toISOString(),
+        zip:               zip,
+        phone:             phone,
+        email:             email,
+        role:              'mobile_patrol',
+        source:            window.location.href,
+        consent:           true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text:      'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+      })
+    });
+    document.getElementById('alertForm').style.display = 'none';
+    document.getElementById('alertSuccess').style.display = 'block';
+  }
+</script>
+</body>
+</html>
