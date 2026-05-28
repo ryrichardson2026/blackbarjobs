@@ -1076,12 +1076,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-  /* ── NUDGE BLOCK ── */
-  .nudge-wrap {
-    background: var(--navy-deep);
-    padding: 28px 20px 32px;
-    border-top: 3px solid var(--gold);
-  }
+ /* ── NUDGE BLOCK ── */
+.nudge-wrap {
+  background: var(--navy-deep);
+  color: var(--white);
+  padding: 36px 20px 40px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.nudge-wrap h3 {
+  color: var(--white);
+}
+
+.nudge-wrap h3 span {
+  color: var(--gold);
+}
+
+.nudge-roles li {
+  color: rgba(255,255,255,0.74);
+}
+
+.nudge-sub {
+  color: rgba(255,255,255,0.58);
+}
+
+.nudge-trust {
+  color: rgba(255,255,255,0.42);
+}
+
+.nudge-wrap .section-divider span {
+  color: var(--gold);
+}
+
+.nudge-wrap .section-divider::before,
+.nudge-wrap .section-divider::after {
+  background: rgba(255,255,255,0.12);
+}
+
+
   .nudge-wrap .section-divider span,
   .quals-wrap .section-divider span,
   .faq-wrap .section-divider span {
@@ -1132,15 +1165,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
-  .nudge-wrap.nudge-light {
-    background: var(--white);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .nudge-wrap.nudge-light h3 { color: var(--navy-deep); }
-  .nudge-wrap.nudge-light h3 span { color: var(--gold-muted); }
-  .nudge-wrap.nudge-light .nudge-roles li { color: var(--muted); }
-  .nudge-wrap.nudge-light .nudge-sub { color: var(--muted); }
   .nudge-btn-dark {
     background: var(--navy-deep) !important;
     color: var(--gold) !important;
