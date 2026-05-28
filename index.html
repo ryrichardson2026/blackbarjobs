@@ -113,7 +113,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 480px;
   }
   .hero::before {
     content: '';
@@ -148,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .hero-content {
     position: relative;
     z-index: 2;
-    padding: 64px 20px 28px;
+    padding: 20px 16px 20px;
   }
   h1 {
     font-family: 'Barlow Condensed', sans-serif;
@@ -774,7 +773,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .faq-item.open .faq-a { display: block; }
 
   .hero-stat-row { display: none; }
-  .hero-text-col { display: contents; }
+  .hero-text-col { display: none; }
   .nudge-desktop { display: block; }
   .nudge-desktop-right { display: none; }
   .quals-desktop { display: block; padding: 0; }
@@ -987,9 +986,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* ── WHY BEING FIRST ── */
- .why-section-dark .section-divider {
-  margin: 0;
-  padding: 28px 20px 20px;
+  .why-section-dark {
+    background: var(--navy-deep);
+    padding: 0 0 36px;
+  }
+    .why-section-dark .section-wrap {
+  background: var(--navy-deep);
 }
   .why-section-dark .section-divider span { color: var(--gold); letter-spacing: 0.16em; }
   .why-section-dark .section-divider::before,
