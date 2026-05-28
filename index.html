@@ -9,7 +9,7 @@
 <!-- OG / Social sharing -->
 <meta property="og:title" content="BlackBarJobs — Security Job Alerts">
 <meta property="og:description" content="Be first in line when security jobs open near you. Free SMS and email alerts.">
-<meta property="og:image" content="https://www.blackbarj.form-card {obs.com/images/AdobeStock_627151967.jpeg">
+<meta property="og:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <meta property="og:url" content="https://www.blackbarjobs.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
@@ -80,6 +80,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: flex;
     align-items: center;
     justify-content: space-between;
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
   .nav-logo {
     font-family: 'Barlow Condensed', sans-serif;
@@ -89,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     color: #111111;
     line-height: 1;
     border-bottom: 9px solid #111111;
-     4px;
+    padding-bottom: 4px;
     display: inline-block;
   }
   .nav-logo span { color: #FFC300; }
@@ -103,16 +106,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* ── HERO ── */
-.hero {
-  padding-top: 49px;
-  background: #1a1a1a;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-
+  .hero {
+    margin-top: 49px;
+    background: #1a1a1a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
   .hero::before {
     content: '';
     position: absolute;
@@ -146,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .hero-content {
     position: relative;
     z-index: 2;
-    padding: 80px 16px 20px;
+    padding: 20px 16px 20px;
   }
   h1 {
     font-family: 'Barlow Condensed', sans-serif;
@@ -169,79 +170,52 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     text-align: center;
   }
 
-/* ── FORM CARD ── */
-.form-card {
-  background: var(--white);
-  border-radius: 16px;
-  padding: 12px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
-}
+  /* ── FORM CARD ── */
+  .form-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 16px 16px 16px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+  }
+  .form-card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy-deep);
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
 
-.form-card-title {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--navy-deep);
-  letter-spacing: 0.02em;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-/* ── HERO FEED — CLASSIFIEDS ── */
-.hero-feed {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-  border-top: 2px solid var(--navy-deep);
-  border-bottom: 1px solid #c8cdd4;
-}
-
-.hf-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 3px 0;
-  border-bottom: 1px solid #e2e5ea;
-  background: transparent;
-}
-
-.hf-row:last-child {
-  border-bottom: none;
-}
-
-.hf-body {
-  flex: 1;
-  min-width: 0;
-}
-
-.hf-title {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 800;
-  color: var(--navy-deep);
-  line-height: 1.15;
-  letter-spacing: 0.01em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.hf-meta {
-  display: flex;
-  align-items: center;
-  gap: 0;
-  margin-top: 1px;
-  flex-wrap: nowrap;
-  font-size: 0.68rem;
-  color: var(--muted);
-  font-family: 'Barlow', sans-serif;
-  font-weight: 400;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
+  /* ── HERO FEED — CLASSIFIEDS ── */
+  .hero-feed {
+    display: flex; flex-direction: column;
+    margin-bottom: 12px;
+    border-top: 2px solid var(--navy-deep);
+    border-bottom: 1px solid #c8cdd4;
+  }
+  .hf-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #e2e5ea;
+    background: transparent;
+  }
+  .hf-row:last-child { border-bottom: none; }
+  .hf-body { flex: 1; min-width: 0; }
+  .hf-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 800;
+    color: var(--navy-deep); line-height: 1.15;
+    letter-spacing: 0.01em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .hf-meta {
+    display: flex; align-items: center; gap: 0;
+    margin-top: 1px; flex-wrap: nowrap;
+    font-size: 0.68rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-weight: 400;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
   .hf-company { font-weight: 600; color: var(--charcoal); }
   .hf-sep { margin: 0 4px; color: #c8cdd4; }
   .hf-location { color: var(--muted); }
@@ -339,7 +313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       border-radius: 10px;
       text-decoration: none;
     }
-    body {  74px; }
+    body { padding-bottom: 74px; }
   }
 
   /* ── SECTIONS ── */
@@ -348,9 +322,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     align-items: center;
     gap: 12px;
     padding: 0 20px;
-    margin: 0px 0 20px;
+    margin: 0 0 20px;
   }
-    /* FIX FIRST DARK SECTION SPACING */ .why-section-dark .section-divider:first-child { margin-top: 0; padding-top: 28px; }
+  /* FIX HERO → DARK SECTION SEAM */
+  .why-section-dark .section-divider:first-child {
+    margin-top: 0;
+    padding-top: 28px;
+  }
   .section-divider::before, .section-divider::after {
     content: ''; flex: 1; height: 1px; background: var(--border);
   }
@@ -800,321 +778,153 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .faq-item.open .faq-a { display: block; }
 
   .hero-stat-row { display: none; }
-  .hero-text-col {
-  display: flex;
-  flex-direction: column;
-}
+  .hero-text-col { display: none; }
   .nudge-desktop { display: block; }
   .nudge-desktop-right { display: none; }
   .quals-desktop { display: block; padding: 0; }
   .quals-desktop-left { padding: 0 20px; margin-bottom: 8px; }
 
+  /* ── DESKTOP ── */
+  @media (min-width: 640px) {
+    /* Hero — full bleed image, content layered over it */
+    .hero {
+      flex-direction: column;
+      min-height: calc(100vh - 49px);
+      align-items: stretch;
+    }
+    .hero-image-wrap {
+      position: absolute;
+      inset: 0;
+    }
+    .hero-image-wrap img {
+      object-position: center 20%;
+      filter: brightness(0.5) saturate(0.75);
+    }
+    .hero-image-overlay {
+      background: linear-gradient(
+        105deg,
+        rgba(0,8,20,0.82) 0%,
+        rgba(0,8,20,0.55) 45%,
+        rgba(0,8,20,0.25) 100%
+      );
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 48px;
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      align-items: center;
+      gap: 48px;
+    }
+    .hero-text-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: clamp(3rem, 4.5vw, 4.4rem);
+      text-align: left;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      text-align: left;
+      font-size: 1.1rem;
+      max-width: 420px;
+      margin-bottom: 0;
+    }
+    .hero-stat-row {
+      display: flex;
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .hero-stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .hero-stat-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+    .form-card {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 28px 24px 22px;
+      background: rgba(255,255,255,0.97);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08);
+    }
 
-/* ── HERO ───────────────────────────── */
+    .nudge-desktop { display: grid; }
+    .nudge-desktop-right { display: flex; }
+    .hero-stat-row { display: flex; }
+    .hero-text-col { display: flex; flex-direction: column; justify-content: center; }
 
-.hero {
-  padding-top: 49px;
-  background: #1a1a1a;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
+    .faq-wrap .section-head { padding: 0 40px; }
+    .faq-wrap .section-divider { padding: 0 40px; }
+    .faq-q { padding: 16px 40px; }
+    .faq-a { padding: 0 40px 16px; }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
-  background-size: 40px 40px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.hero-image-wrap {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.hero-image-wrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 15%;
-  filter: brightness(0.55) saturate(0.7);
-  display: block;
-}
-
-.hero-image-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.05) 0%,
-    rgba(0,0,0,0.65) 60%
-  );
-}
-
-/* ── WHY SECTION FIX ───────────────────────────── */
-
-.why-section-dark {
-  background: var(--navy-deep);
-  padding: 0 0 36px;
-  position: relative;
-  margin-top: -2px;
-  z-index: 5;
-}
-
-
-
-/* ── DESKTOP HERO SIMPLIFICATION ───────────────────────────── */
-
-@media (min-width: 640px) {
-
-  .hero {
-    flex-direction: column;
-    min-height: calc(100vh - 49px);
-    align-items: stretch;
-    position: relative;
-    background: var(--navy-deep);
-  }
-
-  .hero-image-wrap {
-    display: block;
-    position: absolute;
-    inset: 0;
-  }
-
-  .hero-image-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 20%;
-    filter: brightness(0.5) saturate(0.75);
-    display: block;
-  }
-
-  .hero::before {
-    display: block;
-  }
-
-
-  .hero-content {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 72 48px;
-
-    display: grid;
-    grid-template-columns: 1fr 420px;
-    align-items: center;
-    gap: 48px;
-  }
-
-  h1 {
-    color: var(--white);
-  }
-
-  .hero-sub {
-    color: rgba(255,255,255,0.72);
-  }
-
-}
-
-
-  .hero-text-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  h1 {
-    font-size: clamp(3rem, 4.5vw, 4.4rem);
-    text-align: left;
-    margin-bottom: 16px;
-  }
-
-  .hero-sub {
-    text-align: left;
-    font-size: 1.1rem;
-    max-width: 420px;
-    margin-bottom: 0;
-  }
-
-  .hero-stat-row {
-    display: flex;
-    gap: 32px;
-    margin-top: 32px;
-  }
-
-  .hero-stat {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .hero-stat-num {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--gold);
-    line-height: 1;
-  }
-
-  .hero-stat-label {
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.45);
-  }
-
-  .form-card {
-    max-width: 420px;
-    width: 100%;
-    border-radius: 20px;
-    padding: 28px 24px 22px;
-    background: rgba(255,255,255,0.97);
-    box-shadow:
-      0 24px 64px rgba(0,0,0,0.45),
-      0 0 0 1px rgba(255,255,255,0.08);
-  }
-
-  .nudge-desktop { display: grid; }
-  .nudge-desktop-right { display: flex; }
-  .hero-stat-row { display: flex; }
-  .hero-text-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .faq-wrap .section-head { padding: 0 40px; }
-  .faq-wrap .section-divider { padding: 0 40px; }
-  .faq-q { padding: 16px 40px; }
-  .faq-a { padding: 0 40px 16px; }
+    .nav-logo { font-size: 1.6rem; border-bottom-width: 11px; }
+  .nav-logo .nav-security { font-size: 1.2rem; }
 
   /* Non-hero desktop rules */
-  .job-grid { grid-template-columns: repeat(4, 1fr); }
-  .section-head { padding: 0 40px; margin-bottom: 20px; }
-  .job-types { padding: 0 40px 36px; }
-  .quals-wrap .section-head { padding: 0 40px; }
-  .quals-wrap .section-divider {
-    padding: 0 40px;
-    margin: 28px 0 20px;
+    .job-grid { grid-template-columns: repeat(4, 1fr); }
+    .section-head { padding: 0 40px; margin-bottom: 20px; }
+    .job-types { padding: 0 40px 36px; }
+    .quals-wrap .section-head { padding: 0 40px; }
+    .quals-wrap .section-divider { padding: 0 40px; margin: 28px 0 20px; }
+    .cta-section { padding: 48px 48px 52px; }
+    .section-divider { padding: 0 40px; margin: 28px 0 20px; }
+    footer { padding: 28px 40px; }
+
+    /* Nudge two-col */
+    .nudge-wrap { padding: 36px 48px 40px; background: var(--navy-deep); }
+    .nudge-desktop {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 48px;
+      align-items: center;
+      max-width: 1100px;
+    }
+    .nudge-desktop-left { display: flex; flex-direction: column; gap: 0; }
+    .nudge-desktop-right { display: flex; align-items: center; justify-content: flex-end; }
+    .nudge-desktop-right .nudge-btn { width: 100%; text-align: center; }
+
+    /* Quals two-col */
+    .quals-desktop {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+      padding: 0 40px 36px;
+      max-width: 1100px;
+    }
+    .quals-desktop-left h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.7rem, 3vw, 2.2rem); font-weight: 800; color: var(--navy-deep); line-height: 1.1; margin-bottom: 10px; }
+    .quals-desktop-left p { font-size: 0.9rem; color: var(--muted); }
   }
 
-  .cta-section { padding: 48px 48px 52px; }
-
-  .section-divider {
-    padding: 0 40px;
-    margin: 28px 0 20px;
+  /* ── NUDGE BLOCK ── */
+  .nudge-wrap {
+    background: var(--navy-deep);
+    padding: 28px 20px 32px;
+    border-top: 3px solid var(--gold);
   }
-
-  footer { padding: 28px 40px; }
-
-  /* Nudge two-col */
-  .nudge-wrap { padding: 36px 48px 40px; }
-
-  .nudge-desktop {
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 48px;
-    align-items: center;
-    max-width: 1100px;
-  }
-
-  .nudge-desktop-left {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .nudge-desktop-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .nudge-desktop-right .nudge-btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  /* Quals two-col */
-  .quals-desktop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-    align-items: start;
-    padding: 0 40px 36px;
-    max-width: 1100px;
-  }
-
-  .quals-desktop-left h2 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: clamp(1.7rem, 3vw, 2.2rem);
-    font-weight: 800;
-    color: var(--navy-deep);
-    line-height: 1.1;
-    margin-bottom: 10px;
-  }
-
-  .quals-desktop-left p {
-    font-size: 0.9rem;
-    color: var(--muted);
-  }
-
-}
-
-
-
-
- /* ── NUDGE BLOCK ── */
-.nudge-wrap {
-  background: var(--navy-deep);
-  color: var(--white);
-  padding: 36px 20px 40px;
-  border-top: 1px solid rgba(255,255,255,0.08);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-
-.nudge-wrap h3 {
-  color: var(--white);
-}
-
-.nudge-wrap h3 span {
-  color: var(--gold);
-}
-
-.nudge-roles li {
-  color: rgba(255,255,255,0.74);
-}
-
-.nudge-sub {
-  color: rgba(255,255,255,0.58);
-}
-
-.nudge-trust {
-  color: rgba(255,255,255,0.42);
-}
-
-.nudge-wrap .section-divider span {
-  color: var(--gold);
-}
-
-.nudge-wrap .section-divider::before,
-.nudge-wrap .section-divider::after {
-  background: rgba(255,255,255,0.12);
-}
-
-
   .nudge-wrap .section-divider span,
   .quals-wrap .section-divider span,
   .faq-wrap .section-divider span {
@@ -1165,6 +975,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     font-size: 0.7rem; color: rgba(255,255,255,0.3);
     margin-top: 10px;
   }
+  .nudge-wrap.nudge-light {
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .nudge-wrap.nudge-light h3 { color: var(--navy-deep); }
+  .nudge-wrap.nudge-light h3 span { color: var(--gold-muted); }
+  .nudge-wrap.nudge-light .nudge-roles li { color: var(--muted); }
+  .nudge-wrap.nudge-light .nudge-sub { color: var(--muted); }
   .nudge-btn-dark {
     background: var(--navy-deep) !important;
     color: var(--gold) !important;
@@ -1179,6 +998,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     background: var(--navy-deep);
     padding: 0 0 36px;
   }
+  .why-desktop-grid {
+    display: block;
+    padding: 0 20px 20px;
+  }
+  .why-image-col { display: none; }
   .why-section-dark .section-divider span { color: var(--gold); letter-spacing: 0.16em; }
   .why-section-dark .section-divider::before,
   .why-section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
@@ -1208,9 +1032,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     font-size: 0.72rem; font-weight: 500;
     color: rgba(255,255,255,0.45); line-height: 1.4;
   }
-  @media (min-width: 640px) {
-    .why-section-dark .section-wrap { padding: 0 40px 40px; max-width: 800px; }
+@media (min-width: 640px) {
+  /* Why section desktop two-col */
+  .why-desktop-grid {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 56px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 48px 48px;
   }
+  .why-image-col { display: block; }
+  .why-image-col img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px;
+    filter: brightness(0.88) saturate(0.9);
+    display: block;
+  }
+}
 
 </style>
 </head>
@@ -1225,180 +1068,84 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></div>
 </nav>
 
-
 <!-- HERO -->
 <section class="hero">
   <div class="hero-image-wrap">
     <img src="images/AdobeStock_627151967.jpeg" alt="Security professional" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
-
-  <div class="hero-content">
-
-    <!-- LEFT SIDE -->
-    <div class="hero-text-col">
-
-      <h1>
-        Solid Jobs For <em>Hard Workers</em>
-      </h1>
-
-      <p class="hero-sub">
-        Get notified instantly when security jobs open across Dallas–Fort Worth.
-      </p>
-
-      <div class="hero-stat-row">
-
-        <div class="hero-stat">
-          <span class="hero-stat-num">7</span>
-          <span class="hero-stat-label">Job Categories</span>
-        </div>
-
-        <div class="hero-stat">
-          <span class="hero-stat-num">DFW</span>
-          <span class="hero-stat-label">Metro Coverage</span>
-        </div>
-
-        <div class="hero-stat">
-          <span class="hero-stat-num">Free</span>
-          <span class="hero-stat-label">Job Alerts</span>
-        </div>
-
+ <div class="hero-content">
+  <div class="hero-text-col">
+    <h1>Solid Jobs For <em>Hard Workers</em></h1>
+    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <span class="hero-stat-num">7</span>
+        <span class="hero-stat-label">Job Categories</span>
       </div>
-
+      <div class="hero-stat">
+        <span class="hero-stat-num">DFW</span>
+        <span class="hero-stat-label">Metro Coverage</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">Free</span>
+        <span class="hero-stat-label">Job Alerts</span>
+      </div>
     </div>
+  </div>
 
-    <!-- RIGHT SIDE -->
-    <div class="form-card" id="signup">
-
-      <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">
-        Recent Security Openings
-      </div>
-
-      <div class="hero-feed">
-
-        <div class="hf-row">
-          <div class="hf-body">
-            <div class="hf-title">
-              Armed Security Officer — Dallas
-            </div>
-            <div class="hf-meta">
-              Full-Time &nbsp;·&nbsp; $24–$30/hr
-            </div>
-          </div>
-        </div>
-
-        <div class="hf-row">
-          <div class="hf-body">
-            <div class="hf-title">
-              Overnight Security Guard — Fort Worth
-            </div>
-            <div class="hf-meta">
-              Part-Time &nbsp;·&nbsp; $21–$26/hr
-            </div>
-          </div>
-        </div>
-
-        <div class="hf-row">
-          <div class="hf-body">
-            <div class="hf-title">
-              Event Security Staff — Arlington
-            </div>
-            <div class="hf-meta">
-              Part-Time &nbsp;·&nbsp; $23–$28/hr
-            </div>
-          </div>
-        </div>
-
-        <div class="hf-row">
-          <div class="hf-body">
-            <div class="hf-title">
-              Mobile Patrol Officer — Plano
-            </div>
-            <div class="hf-meta">
-              Full-Time &nbsp;·&nbsp; $25–$32/hr
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">
-        Get notified when new security jobs open near you.
-      </p>
-
-      <button class="btn-primary" onclick="openModal()">
-        Get Alerts →
-      </button>
-
-      <div class="form-trust">
-        <svg width="13" height="13" viewBox="0 0 20 20" fill="none">
-          <path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/>
-          <path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        No spam. Unsubscribe anytime.
-      </div>
-
+  <div class="form-card" id="signup">
+    <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
+    <div class="hero-feed">
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Armed Security Officer — Dallas</div><div class="hf-meta">Full-Time &nbsp;·&nbsp; $24–$30/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Overnight Security Guard — Fort Worth</div><div class="hf-meta">Part-Time &nbsp;·&nbsp; $21–$26/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Event Security Staff — Arlington</div><div class="hf-meta">Part-Time &nbsp;·&nbsp; $23–$28/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Mobile Patrol Officer — Plano</div><div class="hf-meta">Full-Time &nbsp;·&nbsp; $25–$32/hr</div></div></div>
     </div>
-
+    <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
+    <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
+    <div class="form-trust">
+      <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      No spam. Unsubscribe anytime.
+    </div>
+  </div>
   </div>
 </section>
 
-<!-- WHY BEING FIRST -->
-<div class="why-section-dark">
-
-  <div class="section-wrap why-wrap">
-
-    <div class="section-divider">
-      <span>Why It Matters</span>
-    </div>
-
-    <h2>
-      First To Know.<br>
-      First To Apply.<br>
-      First To Get The Callback.
-    </h2>
-
-    <p>
-      Security jobs in DFW move fast. Positions are frequently filled within days of posting. Candidates who apply in the first 48 hours are significantly more likely to get a callback than those who apply later.
-    </p>
-
-    <p>
-      By the time a job shows up in your search results, it may already have a full interview pipeline. BlackBarJobs alerts you the moment a new opening posts — so you're always first in line.
-    </p>
-
-    <div class="why-stats">
-
-      <div class="why-stat">
-        <div class="why-stat-num">48hrs</div>
-        <div class="why-stat-label">
-          First applicants have the highest callback rate
-        </div>
-      </div>
-
-      <div class="why-stat">
-        <div class="why-stat-num">5 Days</div>
-        <div class="why-stat-label">
-          Many security roles fill within days of posting
-        </div>
-      </div>
-
-      <div class="why-stat">
-        <div class="why-stat-num">100k+</div>
-        <div class="why-stat-label">
-          Security job openings across the US right now
-        </div>
-      </div>
-
-    </div>
-
-    <a href="#" onclick="openModal();return false;" class="nudge-btn" style="max-width:360px;margin-top:20px;display:block;text-align:center;">
-      Get Job Alerts
-    </a>
-
-  </div>
+<!-- STICKY BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="#signup" onclick="openModal(); return false;">Get Security Job Alerts</a>
 </div>
 
-
+<!-- WHY BEING FIRST -->
+<div class="why-section-dark">
+  <div class="section-divider"><span>Why It Matters</span></div>
+  <div class="why-desktop-grid">
+    <div class="why-wrap">
+      <h2>First To Know.<br>First To Apply.<br>First To Get The Callback.</h2>
+      <p>Security jobs in DFW move fast. Positions are frequently filled within days of posting. Candidates who apply in the first 48 hours are significantly more likely to get a callback than those who apply later.</p>
+      <p>By the time a job shows up in your search results, it may already have a full interview pipeline. BlackBarJobs alerts you the moment a new opening posts — so you're always first in line.</p>
+      <div class="why-stats">
+        <div class="why-stat">
+          <div class="why-stat-num">48hrs</div>
+          <div class="why-stat-label">First applicants have the highest callback rate</div>
+        </div>
+        <div class="why-stat">
+          <div class="why-stat-num">5 Days</div>
+          <div class="why-stat-label">Many security roles fill within days of posting</div>
+        </div>
+        <div class="why-stat">
+          <div class="why-stat-num">100k+</div>
+          <div class="why-stat-label">Security job openings across the US right now</div>
+        </div>
+      </div>
+      <a href="#" onclick="openModal();return false;" class="nudge-btn" style="max-width:360px;margin-top:20px;display:block;text-align:center;">Get Job Alerts</a>
+    </div>
+    <div class="why-image-col">
+      <img src="images/why-section-image.jpg" alt="Mobile patrol security officer on duty">
+    </div>
+  </div>
+</div>
 
 <!-- JOB TYPES -->
 <div id="job-types" class="section-divider"><span>Job Categories</span></div>
