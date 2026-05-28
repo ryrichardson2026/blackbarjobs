@@ -809,41 +809,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .quals-desktop-left { padding: 0 20px; margin-bottom: 8px; }
 
 
+/* ── HERO ───────────────────────────── */
+
+.hero {
+  padding-top: 49px;
+  background: #1a1a1a;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-image-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  filter: brightness(0.55) saturate(0.7);
+  display: block;
+}
+
+.hero-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.05) 0%,
+    rgba(0,0,0,0.65) 60%
+  );
+}
+
+/* ── WHY SECTION FIX ───────────────────────────── */
+
+.why-section-dark {
+  background: var(--navy-deep);
+  padding: 0 0 36px;
+  position: relative;
+  margin-top: -2px;
+  z-index: 5;
+}
+
 /* ── DESKTOP ───────────────────────────── */
 
 @media (min-width: 640px) {
 
   .hero {
-    position: relative;
-    display: flex;
     flex-direction: column;
     min-height: calc(100vh - 49px);
     align-items: stretch;
-    overflow: hidden;
-    background: #0b1623;
+    position: relative;
   }
 
   .hero-image-wrap {
     position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
   }
 
   .hero-image-wrap img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center center;
+    object-position: center 15%;
+    filter: brightness(0.55) saturate(0.7);
     display: block;
-    filter: brightness(0.5) saturate(0.75);
   }
 
   .hero-image-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
     background: linear-gradient(
       105deg,
       rgba(0,8,20,0.82) 0%,
@@ -858,7 +908,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 48px 48px;
+    padding: 0 48px;
     flex: 1;
 
     display: grid;
@@ -917,31 +967,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .form-card {
     max-width: 420px;
     width: 100%;
-    border-radius: 16px;
-    padding: 12px;
+    border-radius: 20px;
+    padding: 28px 24px 22px;
     background: rgba(255,255,255,0.97);
-    box-shadow: 0 12px 50px rgba(0,0,0,0.38);
-  }
-
-  .hero-feed {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-    border-top: 2px solid var(--navy-deep);
-    border-bottom: 1px solid #c8cdd4;
-  }
-
-  .hf-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 3px 0;
-    border-bottom: 1px solid #e2e5ea;
-    background: transparent;
-  }
-
-  .hf-row:last-child {
-    border-bottom: none;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.45),
+                0 0 0 1px rgba(255,255,255,0.08);
   }
 
   .nudge-desktop {
@@ -952,10 +982,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .hero-stat-row {
-    display: flex;
   }
 
   .faq-wrap .section-head {
@@ -973,8 +999,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .faq-a {
     padding: 0 40px 16px;
   }
-
-  /* Non-hero desktop rules */
 
   .job-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -1011,8 +1035,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     padding: 28px 40px;
   }
 
-  /* Nudge two-col */
-
   .nudge-wrap {
     padding: 36px 48px 40px;
   }
@@ -1041,8 +1063,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     width: 100%;
     text-align: center;
   }
-
-  /* Quals two-col */
 
   .quals-desktop {
     display: grid;
