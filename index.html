@@ -811,10 +811,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   /* ── DESKTOP ── */
 
 @media (min-width: 640px) {
-  .hero {
-    flex-direction: column;
-    align-items: stretch;
-  }
+.hero {
+  flex-direction: column;
+  min-height: calc(100vh - 49px);
+  align-items: stretch;
+  position: relative;
+}
+
+
     .hero-image-wrap {
       position: absolute;
       inset: 0;
@@ -831,6 +835,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rgba(0,8,20,0.25) 100%
       );
     }
+
+.two-col-section {
+  margin-top: -1px;
+}
+
 
 .hero-content {
   position: relative;
