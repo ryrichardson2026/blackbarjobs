@@ -876,18 +876,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 @media (min-width: 640px) {
 
   .hero {
+    flex-direction: column;
+    min-height: calc(100vh - 49px);
+    align-items: stretch;
+    position: relative;
     background: var(--navy-deep);
-    min-height: auto;
-    padding: 72px 0 48px;
   }
 
   .hero-image-wrap {
-    display: none;
+    display: block;
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    filter: brightness(0.5) saturate(0.75);
+    display: block;
   }
 
   .hero::before {
-    display: none;
+    display: block;
   }
+
 
   .hero-content {
     position: relative;
