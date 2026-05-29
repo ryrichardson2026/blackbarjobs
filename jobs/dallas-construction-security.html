@@ -193,6 +193,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .breadcrumb a { color: #6b7280; text-decoration: none; }
   .breadcrumb a:hover { color: #000814; text-decoration: underline; }
   .breadcrumb span { margin: 0 5px; color: #d1d5db; }
+
+  .footer-links { margin-bottom: 10px; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 2px; font-size: 0.72rem; }
+  .footer-links a { color: var(--muted, #6b7280); text-decoration: none; }
+  .footer-links a:hover { text-decoration: underline; }
+  .footer-links span { color: #d1d5db; }
 </style>
 </head>
 <body>
@@ -200,7 +205,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<nav class="breadcrumb" aria-label="breadcrumb"><a href="/security-jobs-dfw">DFW Security Jobs</a><span>›</span><span>Dallas</span><span>›</span><span>Construction Security Dallas</span></nav>
 <div class="sticky-bar" id="stickyBar"><a href="#alerts">Get Security Job Alerts</a></div>
 <nav><a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a></nav>
 <section class="hero">
@@ -337,7 +341,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div style="font-size:0.88rem;color:rgba(255,255,255,0.55);">We'll notify you when security jobs open in Dallas, TX.</div>
   </div>
 </div>
-<footer><div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
+<footer>
+  <!-- Site Links -->
+  <div class="footer-links">
+    <a href="/security-jobs-dfw">DFW Security Jobs</a>
+    <span>·</span>
+    <a href="/jobs/security-officer-jobs-dallas">Dallas Security Jobs</a>
+    <span>·</span>
+    <a href="/jobs/armed-security-dfw">Armed Security</a>
+    <span>·</span>
+    <a href="/jobs/unarmed-security-dfw">Unarmed Security</a>
+    <span>·</span>
+    <a href="/jobs/overnight-security-dfw">Overnight Security</a>
+    <span>·</span>
+    <a href="/jobs/event-security-dfw">Event Security</a>
+    <span>·</span>
+    <a href="/texas-security-license-requirements">TX License Guide</a>
+  </div><div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
 <p>Security job alerts for professionals across the US.<br><a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p></footer>
 <script>
   (function(){var feed=document.getElementById('jobsFeed');fetch('/api/dfw-jobs?city=dallas&type=overnight').then(function(r){return r.json();}).then(function(data){var jobs=(data.jobs||[]).slice(0,10);if(!jobs.length){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">No listings right now — check back soon.</div>';return;}feed.innerHTML=jobs.map(function(j){var u=j.url||j.apply_url||'#';if(u!=='#')u=u+(u.indexOf('?')>-1?'&':'?')+'utm_source=blackbarjobs&utm_medium=role_page&utm_campaign=dallas_construction_security';var t=j.title||'Security Officer';var c=j.company_name||'';var l=(j.locations&&j.locations.length)?j.locations[0].split(',').slice(0,2).join(',').trim():'';var p2='';if(j.salary_min_usd||j.salary_max_usd){var mn=j.salary_min_usd?'$'+Math.round(j.salary_min_usd/1000)+'k':'';var mx=j.salary_max_usd?'$'+Math.round(j.salary_max_usd/1000)+'k':'';p2=(mn&&mx)?mn+'–'+mx:(mn||mx);}var ph=p2?'<span class="jf-pay">'+p2+'</span>':'';return '<div class="jf-row"><div class="jf-body"><div class="jf-title">'+t+'</div><div class="jf-meta">'+(c?'<span class="jf-company">'+c+'</span>':'')+(l?'<span class="jf-sep">·</span><span class="jf-loc">'+l+'</span>':'')+ph+'</div></div><a class="jf-apply" href="'+u+'" target="_blank" rel="noopener">Apply →</a></div>';}).join('');}).catch(function(){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">Could not load jobs.</div>';});})();
