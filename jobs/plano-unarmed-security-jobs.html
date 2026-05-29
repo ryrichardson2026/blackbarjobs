@@ -201,6 +201,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .two-col-inner .section-wrap:last-child { padding-left: 24px; padding-right: 40px; }
     .two-col-dark .two-col-inner .section-wrap:first-child { border-right-color: rgba(255,255,255,0.12); }
   }
+
+  /* ── MOBILE STICKY BAR ── */
+  .sticky-bar {
+    display: none !important;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 99;
+    padding: 10px 16px 16px;
+    background: var(--navy-deep);
+    border-top: 1px solid rgba(255,195,0,0.25);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+  }
+  @media (max-width: 639px) {
+    .sticky-bar.visible { display: block !important; }
+    .sticky-bar a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 14px;
+      background: var(--gold);
+      color: var(--navy-deep);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    body { padding-bottom: 74px; }
+  }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb { background: #f7f8fa; border-bottom: 1px solid #e5e7eb; padding: 7px 20px; font-size: 0.75rem; color: #6b7280; }
+  .breadcrumb a { color: #6b7280; text-decoration: none; }
+  .breadcrumb a:hover { color: #000814; text-decoration: underline; }
+  .breadcrumb span { margin: 0 5px; color: #d1d5db; }
 </style>
 </head>
 <body>
@@ -208,6 +247,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<nav class="breadcrumb" aria-label="breadcrumb"><a href="/security-jobs-dfw">DFW Security Jobs</a><span>›</span><span>Plano</span><span>›</span><span>Unarmed Security Plano</span></nav>
+<!-- Mobile Sticky CTA Bar -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="#alerts">Get Security Job Alerts</a>
+</div>
 
 <!-- NAV -->
 <nav>
@@ -652,6 +696,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('alertForm').style.display = 'none';
     document.getElementById('alertSuccess').style.display = 'block';
   }
+
+  // Mobile sticky bar — shows when hero scrolls out of view
+  (function() {
+    var bar = document.getElementById('stickyBar');
+    if (!bar) return;
+    var hero = document.querySelector('.hero');
+    if (!hero) return;
+    var observer = new IntersectionObserver(function(entries) {
+      entries[0].isIntersecting
+        ? bar.classList.remove('visible')
+        : bar.classList.add('visible');
+    }, { threshold: 0.1 });
+    observer.observe(hero);
+  })();
 </script>
 </body>
 </html>

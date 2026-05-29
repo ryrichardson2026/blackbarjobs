@@ -83,6 +83,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .alert-wrap { padding: 48px 40px 52px; }
     footer { padding: 28px 40px; }
   }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb { background: #f7f8fa; border-bottom: 1px solid #e5e7eb; padding: 7px 20px; font-size: 0.75rem; color: #6b7280; }
+  .breadcrumb a { color: #6b7280; text-decoration: none; }
+  .breadcrumb a:hover { color: #000814; text-decoration: underline; }
+  .breadcrumb span { margin: 0 5px; color: #d1d5db; }
+
+  /* ── HUB GRID ── */
+  .hub-section { padding: 32px 20px; max-width: 860px; margin: 0 auto; }
+  .hub-section h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.4rem; font-weight: 800; color: #000814; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid #FFC300; }
+  .hub-grid { display: grid; gap: 6px; margin-bottom: 32px; }
+  .hub-grid-2 { grid-template-columns: 1fr 1fr; }
+  .hub-grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .hub-link { display: block; padding: 9px 14px; border: 1px solid #e5e7eb; border-radius: 5px; font-size: 0.88rem; font-weight: 500; color: #000814; text-decoration: none; background: #fff; transition: border-color 0.1s, background 0.1s; }
+  .hub-link:hover { border-color: #000814; background: #f7f8fa; }
+  @media (max-width: 600px) { .hub-grid-2, .hub-grid-3 { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -90,6 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<nav class="breadcrumb" aria-label="breadcrumb"><a href="/security-jobs-dfw">DFW Security Jobs</a></nav>
 
 <nav>
   <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
@@ -100,6 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-badge">Dallas–Fort Worth</div>
     <h1>Security Jobs<br><em>Across DFW</em></h1>
     <p>Browse security job openings by role type and city across the Dallas–Fort Worth metro. Get instant alerts when new positions open near you.</p>
+    <a href="#alerts" style="display:inline-block;margin-top:20px;padding:14px 28px;background:var(--gold);color:var(--navy-deep);font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border-radius:10px;text-decoration:none;">Get Job Alerts →</a>
   </div>
 </section>
 
@@ -134,9 +152,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
+<div style="background:var(--navy-deep);padding:28px 20px;text-align:center;border-top:3px solid rgba(255,195,0,0.3);">
+  <p style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:800;color:var(--white);margin-bottom:10px;">Get Notified When <span style="color:var(--gold);">Jobs Open Near You</span></p>
+  <p style="font-size:0.85rem;color:rgba(255,255,255,0.5);margin-bottom:16px;">New security openings across DFW posted regularly. Sign up for instant alerts.</p>
+  <a href="#alerts" style="display:inline-block;padding:13px 28px;background:var(--gold);color:var(--navy-deep);font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border-radius:10px;text-decoration:none;">Get Job Alerts →</a>
+</div>
+
 <div class="index-section">
   <div class="index-label">Browse by City</div>
-  <h2>Security Jobs by City <span class="count-badge">7 cities</span></h2>
+  <h2>Security Jobs by City <span class="count-badge">14 cities</span></h2>
   <div class="index-grid">
         <a href="/jobs/dallas-overnight-security" class="index-card">
           <span class="index-card-label">🌙 Overnight Security — Dallas</span>
@@ -166,6 +190,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="index-card-label">👮 Unarmed Security — Frisco</span>
           <span class="index-card-arrow">→</span>
         </a>
+        <a href="/jobs/irving-overnight-security" class="index-card">
+          <span class="index-card-label">🌙 Overnight Security — Irving</span>
+          <span class="index-card-arrow">→</span>
+        </a>
+        <a href="/jobs/plano-overnight-security" class="index-card">
+          <span class="index-card-label">🌙 Overnight Security — Plano</span>
+          <span class="index-card-arrow">→</span>
+        </a>
+        <a href="/jobs/arlington-overnight-security" class="index-card">
+          <span class="index-card-label">🌙 Overnight Security — Arlington</span>
+          <span class="index-card-arrow">→</span>
+        </a>
+        <a href="/jobs/dallas-armed-security" class="index-card">
+          <span class="index-card-label">🛡️ Armed Security — Dallas</span>
+          <span class="index-card-arrow">→</span>
+        </a>
+        <a href="/jobs/fort-worth-armed-security" class="index-card">
+          <span class="index-card-label">🛡️ Armed Security — Fort Worth</span>
+          <span class="index-card-arrow">→</span>
+        </a>
+        <a href="/jobs/irving-unarmed-security" class="index-card">
+          <span class="index-card-label">👮 Unarmed Security — Irving</span>
+          <span class="index-card-arrow">→</span>
+        </a>
   </div>
 </div>
 
@@ -180,6 +228,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
+
+<!-- AUTO-GENERATED HUB LINKS — updated 2026-05-29 -->
+<div style="background:#f7f8fa; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; padding: 8px 0;">
+<div class="hub-section">
+  <h2>DFW Security Job Categories</h2>
+  <div class="hub-grid hub-grid-3"><a href="/jobs/armed-security-dfw" class="hub-link">Armed Security Jobs DFW</a><a href="/jobs/unarmed-security-dfw" class="hub-link">Unarmed Security Jobs DFW</a><a href="/jobs/event-security-dfw" class="hub-link">Event Security Jobs DFW</a><a href="/jobs/overnight-security-dfw" class="hub-link">Overnight Security Jobs DFW</a><a href="/jobs/tsa-airport-security-dfw" class="hub-link">TSA & Airport Security Jobs DFW</a><a href="/jobs/loss-prevention-dfw" class="hub-link">Loss Prevention Jobs DFW</a></div>
+
+  <h2>Dallas Role Pages</h2>
+  <div class="hub-grid hub-grid-2"><a href="/jobs/dallas-overnight-security" class="hub-link">Overnight Security Jobs Dallas</a><a href="/jobs/dallas-armed-security" class="hub-link">Armed Security Jobs Dallas</a><a href="/jobs/dallas-unarmed-security" class="hub-link">Unarmed Security Jobs Dallas</a><a href="/jobs/dallas-no-experience-security-jobs" class="hub-link">No Experience Security Jobs Dallas</a><a href="/jobs/dallas-loss-prevention" class="hub-link">Loss Prevention Jobs Dallas</a><a href="/jobs/dallas-event-security" class="hub-link">Event Security Jobs Dallas</a><a href="/jobs/dallas-hospital-security" class="hub-link">Hospital Security Jobs Dallas</a><a href="/jobs/dallas-hotel-security" class="hub-link">Hotel Security Jobs Dallas</a><a href="/jobs/dallas-warehouse-security" class="hub-link">Warehouse Security Jobs Dallas</a><a href="/jobs/dallas-mobile-patrol" class="hub-link">Mobile Patrol Security Jobs Dallas</a><a href="/jobs/dallas-part-time-security" class="hub-link">Part-Time Security Jobs Dallas</a><a href="/jobs/dallas-entry-level-security-jobs" class="hub-link">Entry Level Security Jobs Dallas</a><a href="/jobs/dallas-weekend-security-jobs" class="hub-link">Weekend Security Jobs Dallas</a><a href="/jobs/dallas-level-2-security" class="hub-link">Level 2 Security Jobs Dallas</a><a href="/jobs/dallas-level-3-security" class="hub-link">Level 3 Armed Security Jobs Dallas</a><a href="/jobs/dallas-security-jobs-hiring-immediately" class="hub-link">Security Jobs Hiring Immediately Dallas</a><a href="/jobs/dallas-armed-overnight-security" class="hub-link">Armed Overnight Security Jobs Dallas</a><a href="/jobs/dallas-surveillance-security" class="hub-link">Surveillance Security Jobs Dallas</a><a href="/jobs/dallas-school-security" class="hub-link">School Security Jobs Dallas</a><a href="/jobs/dallas-office-building-security" class="hub-link">Office Building Security Jobs Dallas</a><a href="/jobs/security-officer-jobs-dallas" class="hub-link">Security Officer Jobs Dallas</a><a href="/jobs/dallas-high-value-asset-security" class="hub-link">Bank & Jewelry High-Value Asset Security Dallas</a><a href="/jobs/dallas-residential-security" class="hub-link">Residential Security Jobs Dallas</a><a href="/jobs/dallas-retail-security" class="hub-link">Retail Security Jobs Dallas</a><a href="/jobs/dallas-construction-security" class="hub-link">Construction Security Jobs Dallas</a><a href="/jobs/dallas-corporate-security" class="hub-link">Corporate Security Jobs Dallas</a><a href="/jobs/dallas-executive-protection" class="hub-link">Executive Protection Jobs Dallas</a></div>
+
+  <h2>Dallas Neighborhoods & Districts</h2>
+  <div class="hub-grid hub-grid-2"><a href="/jobs/downtown-dallas-security" class="hub-link">Security Jobs Downtown Dallas</a><a href="/jobs/uptown-dallas-security" class="hub-link">Security Jobs Uptown Dallas</a><a href="/jobs/deep-ellum-security" class="hub-link">Security Jobs Deep Ellum Dallas</a><a href="/jobs/medical-district-dallas-security" class="hub-link">Security Jobs Dallas Medical District</a><a href="/jobs/design-district-dallas-security" class="hub-link">Security Jobs Dallas Design District</a></div>
+
+  <h2>Dallas Venue Types</h2>
+  <div class="hub-grid hub-grid-3"><a href="/jobs/dallas-venue-security" class="hub-link">Venue Security Jobs Dallas</a><a href="/jobs/dallas-bar-club-security" class="hub-link">Bar & Club Security Jobs Dallas</a><a href="/jobs/dallas-sporting-event-security" class="hub-link">Sporting Event Security Jobs Dallas</a><a href="/jobs/dallas-festival-security" class="hub-link">Festival Security Jobs Dallas</a><a href="/jobs/dallas-hospital-healthcare-security" class="hub-link">Hospital & Healthcare Security Jobs Dallas</a><a href="/jobs/dallas-government-security" class="hub-link">Government Security Jobs Dallas</a><a href="/jobs/dallas-airport-security" class="hub-link">Airport Security Jobs Dallas</a><a href="/jobs/dallas-private-event-security" class="hub-link">Private Event Security Jobs Dallas</a><a href="/jobs/dallas-parking-security" class="hub-link">Parking Security Jobs Dallas</a><a href="/jobs/dallas-university-security" class="hub-link">University & College Security Jobs Dallas</a><a href="/jobs/dallas-theme-park-security" class="hub-link">Theme Park & Attraction Security Jobs Dallas</a><a href="/jobs/dallas-industrial-security" class="hub-link">Industrial Security Jobs Dallas</a><a href="/jobs/dallas-parks-public-spaces-security" class="hub-link">Parks & Public Spaces Security Jobs Dallas</a></div>
+
+  <h2>DFW Cities</h2>
+  <div class="hub-grid hub-grid-3"><a href="/jobs/fort-worth-overnight-security-jobs" class="hub-link">Overnight Security Jobs Fort Worth</a><a href="/jobs/fort-worth-armed-security" class="hub-link">Armed Security Jobs Fort Worth</a><a href="/jobs/irving-overnight-security-jobs" class="hub-link">Overnight Security Jobs Irving</a><a href="/jobs/irving-overnight-security" class="hub-link">Overnight Security Irving</a><a href="/jobs/irving-unarmed-security" class="hub-link">Unarmed Security Jobs Irving</a><a href="/jobs/arlington-event-security-jobs" class="hub-link">Event Security Jobs Arlington</a><a href="/jobs/arlington-overnight-security" class="hub-link">Overnight Security Jobs Arlington</a><a href="/jobs/plano-unarmed-security-jobs" class="hub-link">Unarmed Security Jobs Plano</a><a href="/jobs/plano-overnight-security" class="hub-link">Overnight Security Jobs Plano</a><a href="/jobs/frisco-unarmed-security-jobs" class="hub-link">Unarmed Security Jobs Frisco</a><a href="/jobs/grand-prairie-overnight-security-jobs" class="hub-link">Overnight Security Jobs Grand Prairie</a></div>
+
+  <h2>Career Resources</h2>
+  <div class="hub-grid hub-grid-2"><a href="/texas-security-license-requirements" class="hub-link">Texas Security License Requirements</a><a href="/blog/security-training-schools-dfw" class="hub-link">Security Training Schools in DFW</a></div>
+</div>
+</div>
+<!-- END AUTO-GENERATED HUB LINKS -->
 <div class="alert-wrap" id="alerts">
   <h2>Get Notified When <span>Jobs Open</span> Near You</h2>
   <p>New security openings across DFW are posted regularly. Sign up for instant alerts.</p>
