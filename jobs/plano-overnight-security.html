@@ -521,42 +521,88 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   function toggleFaq(el) { el.parentElement.classList.toggle('open'); }
 
-  function submitAlert() {
+  function submitAlert(){
+    var fn  = document.getElementById('a-firstname') ? document.getElementById('a-firstname').value.trim() : '';
+    var ln  = document.getElementById('a-lastname')  ? document.getElementById('a-lastname').value.trim()  : '';
     var zip = document.getElementById('a-zip').value.trim();
-    var phone = document.getElementById('a-phone').value.trim();
-    var email = document.getElementById('a-email').value.trim();
-    var errEl = document.getElementById('alertError');
-    document.getElementById('a-zip').classList.remove('error');
-    document.getElementById('a-phone').classList.remove('error');
-    if (!zip || zip.length < 5) {
-      errEl.textContent = 'Please enter a valid ZIP code.';
-      errEl.style.display = 'block';
+    var ph  = document.getElementById('a-phone').value.trim();
+    var em  = document.getElementById('a-email').value.trim();
+    var er  = document.getElementById('alertError');
+
+    ['a-zip','a-phone','a-email','a-firstname','a-lastname'].forEach(function(id){
+      var el = document.getElementById(id); if(el) el.classList.remove('error');
+    });
+    er.style.display = 'none';
+
+    if(!fn){
+      er.textContent = 'Please enter your first name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-firstname'); if(el) el.classList.add('error');
+      return;
+    }
+    if(!ln){
+      er.textContent = 'Please enter your last name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-lastname'); if(el) el.classList.add('error');
+      return;
+    }
+
+    var zipClean = zip.replace(/\D/g,'');
+    var zipValid = zipClean.length === 5 && (
+      zipClean.startsWith('75') ||
+      zipClean.startsWith('760') || zipClean.startsWith('761') ||
+      zipClean.startsWith('762') || zipClean.startsWith('763')
+    );
+    if(!zipValid){
+      er.textContent = 'Please enter a valid DFW area ZIP code (75xxx or 760-763xx).';
+      er.style.display = 'block';
       document.getElementById('a-zip').classList.add('error');
       return;
     }
-    if (!phone && !email) {
-      errEl.textContent = 'Please enter a phone number or email.';
-      errEl.style.display = 'block';
+
+    var phClean = ph.replace(/\D/g,'');
+    if(phClean.length < 10){
+      er.textContent = 'Please enter a valid 10-digit phone number including area code.';
+      er.style.display = 'block';
       document.getElementById('a-phone').classList.add('error');
       return;
     }
-    errEl.style.display = 'none';
+
+    if(em){
+      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if(!emailRe.test(em)){
+        er.textContent = 'Please enter a valid email address or leave the field blank.';
+        er.style.display = 'block';
+        document.getElementById('a-email').classList.add('error');
+        return;
+      }
+    }
+
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'alert_form_submit', page_url: window.location.href, zip: zip });
-    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        timestamp: new Date().toISOString(), zip, phone, email,
-        role: 'overnight_security', city: 'plano',
-        source: window.location.href, consent: true,
+    window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zipClean});
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        timestamp: new Date().toISOString(),
+        first_name: fn,
+        last_name: ln,
+        zip: zipClean,
+        phone: phClean,
+        email: em,
+        role: 'overnight_security',
+        city: 'plano',
+        source: window.location.href,
+        consent: true,
         consent_timestamp: new Date().toISOString(),
         consent_text: 'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
       })
     });
-    document.getElementById('alertForm').style.display = 'none';
-    document.getElementById('alertSuccess').style.display = 'block';
+    document.getElementById('alertForm').style.display='none';
+    document.getElementById('alertSuccess').style.display='block';
   }
+
+
 
   // Mobile sticky bar — shows when hero scrolls out of view
   (function() {

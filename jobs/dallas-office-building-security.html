@@ -412,7 +412,88 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   (function(){var feed=document.getElementById('jobsFeed');fetch('/api/dfw-jobs?city=dallas&type=unarmed').then(function(r){return r.json();}).then(function(data){var jobs=(data.jobs||[]).slice(0,10);if(!jobs.length){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">No listings right now — check back soon.</div>';return;}feed.innerHTML=jobs.map(function(j){var u=j.url||j.apply_url||'#';if(u!=='#')u=u+(u.indexOf('?')>-1?'&':'?')+'utm_source=blackbarjobs&utm_medium=role_page&utm_campaign=dallas_office_building_security';var t=j.title||'Security Officer';var c=j.company_name||'';var l=(j.locations&&j.locations.length)?j.locations[0].split(',').slice(0,2).join(',').trim():'';var p2='';if(j.salary_min_usd||j.salary_max_usd){var mn=j.salary_min_usd?'$'+Math.round(j.salary_min_usd/1000)+'k':'';var mx=j.salary_max_usd?'$'+Math.round(j.salary_max_usd/1000)+'k':'';p2=(mn&&mx)?mn+'–'+mx:(mn||mx);}var ph=p2?'<span class="jf-pay">'+p2+'</span>':'';return '<div class="jf-row"><div class="jf-body"><div class="jf-title">'+t+'</div><div class="jf-meta">'+(c?'<span class="jf-company">'+c+'</span>':'')+(l?'<span class="jf-sep">·</span><span class="jf-loc">'+l+'</span>':'')+ph+'</div></div><a class="jf-apply" href="'+u+'" target="_blank" rel="noopener">Apply →</a></div>';}).join('');}).catch(function(){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">Could not load jobs.</div>';});})();
   function toggleFaq(el){el.parentElement.classList.toggle('open');}
-  function submitAlert(){var z=document.getElementById('a-zip').value.trim();var ph=document.getElementById('a-phone').value.trim();var em=document.getElementById('a-email').value.trim();var er=document.getElementById('alertError');er.style.display='none';if(!z||z.length<5){er.textContent='Please enter a valid ZIP code.';er.style.display='block';return;}if(!ph&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';return;}window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:z});fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:z,phone:ph,email:em,role:'office_security',city:'dallas',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});document.getElementById('alertForm').style.display='none';document.getElementById('alertSuccess').style.display='block';}
+  function submitAlert(){
+    var fn  = document.getElementById('a-firstname') ? document.getElementById('a-firstname').value.trim() : '';
+    var ln  = document.getElementById('a-lastname')  ? document.getElementById('a-lastname').value.trim()  : '';
+    var zip = document.getElementById('a-zip').value.trim();
+    var ph  = document.getElementById('a-phone').value.trim();
+    var em  = document.getElementById('a-email').value.trim();
+    var er  = document.getElementById('alertError');
+
+    ['a-zip','a-phone','a-email','a-firstname','a-lastname'].forEach(function(id){
+      var el = document.getElementById(id); if(el) el.classList.remove('error');
+    });
+    er.style.display = 'none';
+
+    if(!fn){
+      er.textContent = 'Please enter your first name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-firstname'); if(el) el.classList.add('error');
+      return;
+    }
+    if(!ln){
+      er.textContent = 'Please enter your last name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-lastname'); if(el) el.classList.add('error');
+      return;
+    }
+
+    var zipClean = zip.replace(/\D/g,'');
+    var zipValid = zipClean.length === 5 && (
+      zipClean.startsWith('75') ||
+      zipClean.startsWith('760') || zipClean.startsWith('761') ||
+      zipClean.startsWith('762') || zipClean.startsWith('763')
+    );
+    if(!zipValid){
+      er.textContent = 'Please enter a valid DFW area ZIP code (75xxx or 760-763xx).';
+      er.style.display = 'block';
+      document.getElementById('a-zip').classList.add('error');
+      return;
+    }
+
+    var phClean = ph.replace(/\D/g,'');
+    if(phClean.length < 10){
+      er.textContent = 'Please enter a valid 10-digit phone number including area code.';
+      er.style.display = 'block';
+      document.getElementById('a-phone').classList.add('error');
+      return;
+    }
+
+    if(em){
+      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if(!emailRe.test(em)){
+        er.textContent = 'Please enter a valid email address or leave the field blank.';
+        er.style.display = 'block';
+        document.getElementById('a-email').classList.add('error');
+        return;
+      }
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zipClean});
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        timestamp: new Date().toISOString(),
+        first_name: fn,
+        last_name: ln,
+        zip: zipClean,
+        phone: phClean,
+        email: em,
+        role: 'office_security',
+        city: 'dallas',
+        source: window.location.href,
+        consent: true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text: 'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+      })
+    });
+    document.getElementById('alertForm').style.display='none';
+    document.getElementById('alertSuccess').style.display='block';
+  }
+
+
   (function(){var b=document.getElementById('stickyBar');var h=document.querySelector('.hero');if(!b||!h)return;new IntersectionObserver(function(e){e[0].isIntersecting?b.classList.remove('visible'):b.classList.add('visible');},{threshold:0.1}).observe(h);})();
 </script>
 </body>
