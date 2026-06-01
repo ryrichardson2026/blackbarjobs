@@ -74,39 +74,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   /* ── NAV ── */
-  nav {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 200;
-    background: var(--white);
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    will-change: transform;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-  .nav-logo {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 800;
-    font-size: 1.25rem;
-    letter-spacing: 0.02em;
-    color: #111111;
-    line-height: 1;
-    border-bottom: 9px solid #111111;
-    padding-bottom: 4px;
-    display: inline-block;
-  }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; }
+  .nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; text-decoration: none; border-bottom: 9px solid #111; padding-bottom: 4px; display: inline-block; }
   .nav-logo span { color: #FFC300; }
-  .nav-logo .nav-security {
-    color: #111111;
-    font-weight: 600;
-    font-size: 1rem;
-    opacity: 0.6;
-    margin-left: 6px;
-    letter-spacing: 0.04em;
-  }
+  .nav-logo .ns { color: #111; font-weight: 600; font-size: 1rem; opacity: 0.6; margin-left: 6px; }
 
   /* ── HERO ── */
   .hero {
@@ -885,7 +856,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .faq-a { padding: 0 40px 16px; }
 
     .nav-logo { font-size: 1.6rem; border-bottom-width: 11px; }
-  .nav-logo .nav-security { font-size: 1.2rem; }
 
   /* Non-hero desktop rules */
     .job-grid { grid-template-columns: repeat(4, 1fr); }
@@ -1074,7 +1044,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- NAV -->
 <nav>
-  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="ns">| Security</span></a>
 </nav>
 
 <!-- HERO -->
