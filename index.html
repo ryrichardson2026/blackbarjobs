@@ -1377,19 +1377,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="modal-handle"></div>
     <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
     <div class="progress-bar-wrap">
-      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:33%"></div></div>
-      <div class="progress-label">
-        <span id="stepLabel">Step 1 of 3</span>
-        <span id="stepCount" style="color:var(--gold);font-weight:700;">Your Info</span>
+      <div style="text-align:center;padding:4px 0 8px;">
+        <span style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);">Get Instant Job Alerts — Free</span>
       </div>
     </div>
     <div class="steps-container">
-
-      <!-- STEP 1 — CONTACT INFO -->
       <div class="modal-step active" id="step1">
-        <div class="step-title">Get Instant Job Alerts</div>
-        <div class="step-sub">Be first to know when new security jobs open across DFW.</div>
-        <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:18px;">
+        <div class="step-title">Get Security Job Alerts</div>
+        <div class="step-sub">New DFW openings texted to you the moment they post.</div>
+        <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:14px;">
           <div class="field-wrap">
             <span class="field-icon">📍</span>
             <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
@@ -1404,41 +1400,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
         <div id="contactError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
-      </div>
-
-      <!-- STEP 2 — JOB TYPES (simplified) -->
-      <div class="modal-step" id="step2">
-        <div class="step-title">What jobs interest you?</div>
-        <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
-        <div class="select-grid" id="jobGrid"></div>
-        <div id="jobError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one job type.</div>
-      </div>
-
-      <!-- STEP 3 — AVAILABILITY (simplified) -->
-      <div class="modal-step" id="step3">
-        <div class="step-title">What's your availability?</div>
-        <div class="step-sub">Select all that apply. <span style="color:#e53935;">*</span></div>
-        <div class="qual-list" id="availList"></div>
-        <div id="availError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:12px;">Please select at least one option.</div>
-        <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:16px;">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
-      </div>
-
-      <!-- LOADING -->
-      <div class="modal-step" id="stepLoading">
-        <div class="loading-step">
-          <div class="loading-icon">🔍</div>
-          <div class="loading-msg" id="loadingMsg">Verifying your info...</div>
-          <div class="loading-track">
-            <div class="loading-fill" id="loadingFill"></div>
-          </div>
-        </div>
+        <button class="btn-next" onclick="submitModal()" style="width:100%;margin:0;">Get Job Alerts →</button>
+        <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:12px;text-align:center;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
       </div>
 
       <!-- SUCCESS -->
       <div class="modal-step" id="step5">
         <div class="success-step">
           <div class="success-icon">
-            <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
               <circle class="check-circle" cx="36" cy="36" r="34" stroke="#22c55e" stroke-width="4" fill="none" stroke-linecap="round"/>
               <path class="check-mark" d="M20 37l11 11 21-22" stroke="#22c55e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
             </svg>
@@ -1447,87 +1417,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p>We'll notify you when security jobs open near you.</p>
           <span class="success-sms-note">
             <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><rect x="3" y="4" width="14" height="10" rx="2" stroke="#003566" stroke-width="1.5"/><path d="M7 17l3-3 3 3" stroke="#003566" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Most alerts are sent by SMS
+            Most alerts sent by SMS
           </span>
           <button class="success-close" onclick="closeModal()">Done</button>
         </div>
       </div>
+    </div>
+    </div>
 
-    </div>
-    <div class="modal-footer" id="modalFooter">
-      <div class="modal-footer-row">
-        <button class="btn-back" id="backBtn" onclick="goBack()" style="display:none" aria-label="Back">←</button>
-        <button class="btn-next" id="nextBtn" onclick="goNext()">Next →</button>
-      </div>
-    </div>
   </div>
 </div>
 
 <script>
-  const JOB_TYPES = [
-    { id:'armed',     icon:'🛡️', label:'Armed Security' },
-    { id:'unarmed',   icon:'👮', label:'Unarmed Security' },
-    { id:'overnight', icon:'🌙', label:'Overnight Security' },
-    { id:'event',     icon:'🎟️', label:'Event Security' },
-    { id:'mobile',    icon:'🚔', label:'Mobile Patrol' },
-    { id:'lp',        icon:'🏪', label:'Loss Prevention' },
-  ];
-
-  const AVAILABILITY = [
-    { id:'fulltime', icon:'💼', label:'Full-Time' },
-    { id:'parttime', icon:'🕐', label:'Part-Time' },
-    { id:'nights',   icon:'🌙', label:'Nights / Weekends' },
-  ];
-
-  let currentStep = 1;
-  const TOTAL_STEPS = 3;
-  const selectedJobs = new Set();
-  const selectedAvailability = new Set();
-  const checkSVG = `<svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l3 3 5-6" stroke="#000814" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-
-  function buildJobGrid() {
-    document.getElementById('jobGrid').innerHTML = JOB_TYPES.map(j => `
-      <div class="sel-card" data-id="${j.id}" onclick="toggleJob(this,'${j.id}')">
-        <div class="sel-icon-wrap">${j.icon}</div>
-        <div class="sel-label">${j.label}</div>
-        <div class="sel-check">${checkSVG}</div>
-      </div>`).join('');
-  }
-
-  function buildAvailList() {
-    document.getElementById('availList').innerHTML = AVAILABILITY.map(a => `
-      <div class="qual-sel" data-id="${a.id}" onclick="toggleAvail(this,'${a.id}')">
-        <div class="qual-sel-icon">${a.icon}</div>
-        <span class="qual-sel-label">${a.label}</span>
-        <div class="qual-sel-box">${checkSVG}</div>
-      </div>`).join('');
-  }
-
-  function toggleJob(el, id) {
-    el.classList.toggle('selected');
-    selectedJobs.has(id) ? selectedJobs.delete(id) : selectedJobs.add(id);
-  }
-
-  function toggleAvail(el, id) {
-    el.classList.toggle('selected');
-    selectedAvailability.has(id) ? selectedAvailability.delete(id) : selectedAvailability.add(id);
-  }
-
   function openModal() {
-    currentStep = 1;
-    updateUI();
-    document.getElementById('modalFooter').style.display = '';
-    document.getElementById('progressFill').closest('.progress-bar-wrap').style.display = '';
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    document.getElementById('contactError').style.display = 'none';
     document.getElementById('modalOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
+    setTimeout(function(){ document.getElementById('f-zip').focus(); }, 400);
   }
 
   function closeModal() {
-    const sheet = document.getElementById('modalSheet');
-    const isMobile = window.innerWidth < 640;
+    var sheet = document.getElementById('modalSheet');
+    var isMobile = window.innerWidth < 640;
     sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
     sheet.style.opacity = '0';
-    setTimeout(() => {
+    setTimeout(function() {
       document.getElementById('modalOverlay').classList.remove('open');
       sheet.style.transform = '';
       sheet.style.opacity = '';
@@ -1539,136 +1455,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     if (e.target === document.getElementById('modalOverlay')) closeModal();
   }
 
-  function goNext() {
-    if (currentStep === 1) {
-      const zip   = document.getElementById('f-zip').value.trim();
-      const phone = document.getElementById('f-phone').value.trim();
-      const email = document.getElementById('f-email').value.trim();
-      const errEl = document.getElementById('contactError');
-      if (!zip || zip.length < 5) {
-        const el = document.getElementById('f-zip');
-        el.classList.add('error'); el.focus();
-        setTimeout(() => el.classList.remove('error'), 1800);
-        errEl.textContent = 'Please enter a valid ZIP code.'; errEl.style.display = 'block'; return;
-      }
-      if (!phone && !email) {
-        const el = document.getElementById('f-phone');
-        el.classList.add('error'); el.focus();
-        setTimeout(() => el.classList.remove('error'), 1800);
-        errEl.textContent = 'Please enter a phone number or email.'; errEl.style.display = 'block'; return;
-      }
-      errEl.style.display = 'none';
-    }
-    if (currentStep === 2) {
-      if (selectedJobs.size === 0) {
-        document.getElementById('jobError').style.display = 'block';
-        return;
-      }
-      document.getElementById('jobError').style.display = 'none';
-    }
-    if (currentStep === 3) {
-      if (selectedAvailability.size === 0) {
-        document.getElementById('availError').style.display = 'block';
-        return;
-      }
-      document.getElementById('availError').style.display = 'none';
-    }
-    if (currentStep < TOTAL_STEPS) { currentStep++; updateUI(); }
-    else submitAll();
-  }
+  function submitModal() {
+    var zip   = document.getElementById('f-zip').value.trim();
+    var phone = document.getElementById('f-phone').value.trim();
+    var email = document.getElementById('f-email').value.trim();
+    var errEl = document.getElementById('contactError');
+    errEl.style.display = 'none';
 
-  function goBack() {
-    if (currentStep > 1) { currentStep--; updateUI(true); }
-  }
-
-  function updateUI(isBack = false) {
-    document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
-    const active = document.getElementById('step' + currentStep);
-    active.classList.add('active');
-    if (isBack) {
-      active.classList.add('step-back-anim');
-      active.addEventListener('animationend', () => active.classList.remove('step-back-anim'), { once: true });
-    }
-    const pct = (currentStep / TOTAL_STEPS) * 100;
-    document.getElementById('progressFill').style.width = pct + '%';
-    document.getElementById('stepLabel').textContent = `Step ${currentStep} of ${TOTAL_STEPS}`;
-    const labels = { 1: 'Your Info', 2: 'Job Types', 3: 'Availability' };
-    document.getElementById('stepCount').textContent = labels[currentStep] || '';
-    document.getElementById('backBtn').style.display = currentStep > 1 ? 'flex' : 'none';
-    document.getElementById('nextBtn').textContent = currentStep === TOTAL_STEPS ? 'Finish →' : 'Next →';
-  }
-
-  function submitAll() {
-    if (typeof grecaptcha === 'undefined') {
-      sendPayload('');
+    if (!zip || zip.length < 5) {
+      errEl.textContent = 'Please enter your ZIP code.';
+      errEl.style.display = 'block';
+      document.getElementById('f-zip').focus();
       return;
     }
-    grecaptcha.ready(function() {
-      grecaptcha.execute('6LfU8vksAAAAAIDejILuUSe2P1e3r-XCWEpmgwcZ', {action: 'submit'}).then(function(token) {
-        sendPayload(token);
-      });
-    });
-  }
+    if (!phone && !email) {
+      errEl.textContent = 'Please enter a phone number or email.';
+      errEl.style.display = 'block';
+      document.getElementById('f-phone').focus();
+      return;
+    }
 
-  function sendPayload(token) {
-    const payload = {
-      timestamp:         new Date().toISOString(),
-      zip:               document.getElementById('f-zip').value.trim(),
-      phone:             document.getElementById('f-phone').value.trim(),
-      email:             document.getElementById('f-email').value.trim(),
-      jobs:              Array.from(selectedJobs).join(', '),
-      availability:      Array.from(selectedAvailability).join(', '),
-      consent:           true,
-      consent_timestamp: new Date().toISOString(),
-      consent_text:      'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.',
-      source:            window.location.href,
-      recaptcha_token:   token,
-    };
+    var pc = phone.replace(/\D/g,'');
+
+    // Fire GTM + Google Ads conversion
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'alert_form_submit', zip:zip});
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
+    }
+
+    // Send to Make.com
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        timestamp: new Date().toISOString(),
+        zip: zip,
+        phone: pc,
+        email: email,
+        source: window.location.href,
+        consent: true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text: 'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+      })
     });
-    showLoading();
-  }
 
-  function showLoading() {
-    document.getElementById('modalFooter').style.display = 'none';
-    document.getElementById('progressFill').closest('.progress-bar-wrap').style.display = 'none';
-    document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
-    document.getElementById('stepLoading').classList.add('active');
-    const messages = [
-      'Verifying your info...',
-      'Checking jobs in your area...',
-      'Getting alerts set up...'
-    ];
-    let i = 0;
-    const el = document.getElementById('loadingMsg');
-    const fill = document.getElementById('loadingFill');
-    el.textContent = messages[0];
-    fill.style.transition = 'width 2.7s linear';
-    setTimeout(() => { fill.style.width = '100%'; }, 50);
-    const interval = setInterval(() => {
-      i++;
-      if (i < messages.length) {
-        el.textContent = messages[i];
-      } else {
-        clearInterval(interval);
-        showSuccess();
-      }
-    }, 900);
-  }
-
-  function showSuccess() {
-    document.querySelectorAll('.modal-step').forEach(s => s.classList.remove('active'));
+    // Show success
+    document.getElementById('step1').classList.remove('active');
     document.getElementById('step5').classList.add('active');
-    gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
-    dataLayer.push({'event': 'conversion_success'});
   }
-
-  buildJobGrid();
-  buildAvailList();
-
 
   function toggleFaq(el) {
     var item = el.parentElement;
@@ -1677,7 +1512,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     if (!isOpen) item.classList.add('open');
   }
 
-  (function(){var b=document.getElementById('stickyBar');var h=document.querySelector('.hero')||document.querySelector('section');if(!b||!h)return;function chk(){b.classList.toggle('show',h.getBoundingClientRect().bottom<=0);}window.addEventListener('scroll',chk,{passive:true});chk();})();
+  // Sticky bar
+  (function(){
+    var b = document.getElementById('stickyBar');
+    var h = document.getElementById('signup');
+    if (!b || !h) return;
+    function chk(){ b.classList.toggle('show', h.getBoundingClientRect().bottom <= 0); }
+    window.addEventListener('scroll', chk, {passive:true});
+    chk();
+  })();
+
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
 </script>
 </body>
 </html>
