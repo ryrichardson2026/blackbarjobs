@@ -362,13 +362,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><strong>Format</strong> — online, in-person, or hybrid — pick what fits your schedule</li>
       <li><strong>Range access for Level III</strong> — confirm whether qualification is on-site or at a separate location</li>
     </ul>
-    <p>Most candidates complete training and receive an active commission within 2–4 weeks. For a full breakdown of the licensing process see our <a href="/texas-security-license-requirements">Texas Security License Requirements guide</a>.</p>
+    <p>Most candidates complete training and receive an active commission within 2–4 weeks. For a full breakdown of the licensing process see our <a href="/jobs/texas-security-license-requirements">Texas Security License Requirements guide</a>.</p>
 
     <!-- RELATED -->
     <div class="related-section">
       <h2>Related</h2>
       <div class="related-grid">
-        <a href="/texas-security-license-requirements" class="related-item">
+        <a href="/jobs/texas-security-license-requirements" class="related-item">
           <span class="related-item-label">Texas Security License Requirements</span>
           <span class="related-item-arrow">→</span>
         </a>
@@ -396,7 +396,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <!-- ALERT -->
-    <div class="alert-wrap" id="alerts">
+      <div class="section-wrap">
+    <ul class="link-list" style="margin:0;">
+      <li><a href="/security-jobs-dfw">DFW Security Jobs — Complete Guide</a></li>
+      <li><a href="/how-to-become-a-security-guard-in-texas">How To Become A Security Guard in Texas</a></li>
+      <li><a href="/security-guard-salary-texas">Texas Security Guard Salary Guide</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-light" id="resource-links">
+  <div class="section-divider"><span>Guides &amp; Resources</span></div>
+  <div class="section-wrap">
+    <ul class="link-list" style="margin:0;">
+      <li><a href="/security-jobs-dfw">DFW Security Jobs — Complete Guide</a></li>
+      <li><a href="/how-to-become-a-security-guard-in-texas">How To Become A Security Guard in Texas</a></li>
+      <li><a href="/security-guard-salary-texas">Texas Security Guard Salary Guide</a></li>
+      <li><a href="/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
+      <li><a href="/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
+    </ul>
+  </div>
+</div>
+<div class="alert-wrap" id="alerts">
       <h2>Ready to Work? Get <span>Job Alerts</span></h2>
       <p>We'll notify you the moment new security jobs open near you in DFW.</p>
       <div class="alert-form" id="alertForm">
@@ -425,6 +446,116 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
     <p style="margin-top:6px;">Listings are for informational purposes. Verify DPS license status and current availability directly with each provider before enrolling.</p>
   </footer>
+
+</div>
+
+<script>
+  (function() {
+    var bar = document.getElementById('stickyBar');
+    var hero = document.querySelector('.hero');
+    if (!bar || !hero) return;
+    new IntersectionObserver(function(e) {
+      e[0].isIntersecting ? bar.classList.remove('visible') : bar.classList.add('visible');
+    }, { threshold: 0.1 }).observe(hero);
+  })();
+
+  function submitAlert(){
+    var fn  = document.getElementById('a-firstname') ? document.getElementById('a-firstname').value.trim() : '';
+    var ln  = document.getElementById('a-lastname')  ? document.getElementById('a-lastname').value.trim()  : '';
+    var zip = document.getElementById('a-zip').value.trim();
+    var ph  = document.getElementById('a-phone').value.trim();
+    var em  = document.getElementById('a-email').value.trim();
+    var er  = document.getElementById('alertError');
+
+    ['a-zip','a-phone','a-email','a-firstname','a-lastname'].forEach(function(id){
+      var el = document.getElementById(id); if(el) el.classList.remove('error');
+    });
+    er.style.display = 'none';
+
+    if(!fn){
+      er.textContent = 'Please enter your first name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-firstname'); if(el) el.classList.add('error');
+      return;
+    }
+    if(!ln){
+      er.textContent = 'Please enter your last name.';
+      er.style.display = 'block';
+      var el = document.getElementById('a-lastname'); if(el) el.classList.add('error');
+      return;
+    }
+
+    var zipClean = zip.replace(/\D/g,'');
+    var zipValid = zipClean.length === 5 && (
+      zipClean.startsWith('75') ||
+      zipClean.startsWith('760') || zipClean.startsWith('761') ||
+      zipClean.startsWith('762') || zipClean.startsWith('763')
+    );
+    if(!zipValid){
+      er.textContent = 'Please enter a valid DFW area ZIP code (75xxx or 760-763xx).';
+      er.style.display = 'block';
+      document.getElementById('a-zip').classList.add('error');
+      return;
+    }
+
+    var phClean = ph.replace(/\D/g,'');
+    if(phClean.length < 10){
+      er.textContent = 'Please enter a valid 10-digit phone number including area code.';
+      er.style.display = 'block';
+      document.getElementById('a-phone').classList.add('error');
+      return;
+    }
+
+    if(em){
+      var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if(!emailRe.test(em)){
+        er.textContent = 'Please enter a valid email address or leave the field blank.';
+        er.style.display = 'block';
+        document.getElementById('a-email').classList.add('error');
+        return;
+      }
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zipClean});
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        timestamp: new Date().toISOString(),
+        first_name: fn,
+        last_name: ln,
+        zip: zipClean,
+        phone: phClean,
+        email: em,
+        role: 'general',
+        city: 'dfw',
+        source: window.location.href,
+        consent: true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text: 'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+      })
+    });
+    document.getElementById('alertForm').style.display='none';
+    document.getElementById('alertSuccess').style.display='block';
+  }
+
+
+</script>
+</body>
+</html><footer>
+  <div class="footer-links">
+    <a href="/security-jobs-dfw">DFW Security Jobs</a><span>·</span>
+    <a href="/jobs/security-officer-jobs-dallas">Dallas Security Jobs</a><span>·</span>
+    <a href="/jobs/armed-security-dfw">Armed Security</a><span>·</span>
+    <a href="/jobs/unarmed-security-dfw">Unarmed Security</a><span>·</span>
+    <a href="/jobs/overnight-security-dfw">Overnight Security</a><span>·</span>
+    <a href="/jobs/event-security-dfw">Event Security</a><span>·</span>
+    <a href="/jobs/texas-security-license-requirements">TX License Guide</a>
+  </div>
+  <div class="footer-logo">BlackBar<span style="color:#FFC300;">Jobs</span>.com</div>
+  <p>Security job alerts for professionals across the US.<br><a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
+</footer>
 
 </div>
 
