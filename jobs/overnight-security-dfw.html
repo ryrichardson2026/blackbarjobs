@@ -390,10 +390,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="sec-wrap">
     <ul class="link-list">
       <li><a href="/security-jobs-dfw">DFW Security Jobs — Complete Guide</a></li>
-      <li><a href="/how-to-become-a-security-guard-in-texas">How To Become A Security Guard in Texas</a></li>
-      <li><a href="/security-guard-salary-texas">Texas Security Guard Salary Guide</a></li>
-      <li><a href="/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
-      <li><a href="/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
+      <li><a href="/root/how-to-become-a-security-guard-in-texas">How To Become A Security Guard in Texas</a></li>
+      <li><a href="/root/security-guard-salary-texas">Texas Security Guard Salary Guide</a></li>
+      <li><a href="/root/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
+      <li><a href="/root/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
     </ul>
   </div>
 </div>
@@ -401,9 +401,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="alert-wrap" id="alerts">
   <h2>Don't See The Right <span>Overnight Job?</span></h2>
   <p>New overnight openings posted daily. Overnight candidates have the most options in DFW.</p>
-  <div class="alert-form" id="alertForm">
-    <div class="af"><span class="af-icon">👤</span><input id="a-fn" type="text" autocomplete="given-name" placeholder="First Name"></div>
-    <div class="af"><span class="af-icon">👤</span><input id="a-ln" type="text" autocomplete="family-name" placeholder="Last Name"></div>
+      <div class="alert-form" id="alertForm">
     <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
     <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
     <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
@@ -446,25 +444,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   window.addEventListener('scroll', check, { passive: true });
   check();
 })();
-function submitAlert() {
-  var fn=document.getElementById('a-fn').value.trim();
-  var ln=document.getElementById('a-ln').value.trim();
+function submitAlert(){
   var zip=document.getElementById('a-zip').value.trim();
   var ph=document.getElementById('a-ph').value.trim();
   var em=document.getElementById('a-em').value.trim();
   var er=document.getElementById('alertError');
   er.style.display='none';
-  ['a-fn','a-ln','a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
-  if(!fn){er.textContent='Please enter your first name.';er.style.display='block';document.getElementById('a-fn').classList.add('err');return;}
-  if(!ln){er.textContent='Please enter your last name.';er.style.display='block';document.getElementById('a-ln').classList.add('err');return;}
+  ['a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
   var zc=zip.replace(/\D/g,'');
-  if(zc.length!==5||!(zc.startsWith('75')||zc.startsWith('76'))){er.textContent='Please enter a valid DFW area ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
+  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
   var pc=ph.replace(/\D/g,'');
-  if(pc.length<10){er.textContent='Please enter a valid 10-digit phone number.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
+  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
   if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-em').classList.add('err');return;}
   window.dataLayer=window.dataLayer||[];
   window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),first_name:fn,last_name:ln,zip:zc,phone:pc,email:em,role:'overnight_security',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'overnight_security',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
   document.getElementById('alertForm').style.display='none';
   document.getElementById('alertSuccess').style.display='block';
 }</script>

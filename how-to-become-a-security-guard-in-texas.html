@@ -547,15 +547,16 @@ footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
 <div class="alert-wrap" id="alerts">
   <h2>Ready? Get DFW Security <span>Job Alerts</span></h2>
   <p>New openings across Dallas–Fort Worth posted daily. Be first to apply.</p>
-  <div class="alert-form" id="alertForm">
-    <div class="alert-field"><span class="alert-icon">👤</span><input id="a-firstname" type="text" autocomplete="given-name" placeholder="First Name"></div>
-    <div class="alert-field"><span class="alert-icon">👤</span><input id="a-lastname" type="text" autocomplete="family-name" placeholder="Last Name"></div>
-    <div class="alert-field"><span class="alert-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="alert-field"><span class="alert-icon">📱</span><input id="a-phone" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="alert-field"><span class="alert-icon">✉️</span><input id="a-email" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
+      <div class="alert-form" id="alertForm">
+    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
+    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
+    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Job Alerts →</button>
-    <p class="alert-trust">No spam. Unsubscribe anytime.</p>
+    <button class="btn-gold block" onclick="submitAlert()">Get Job Alerts →</button>
+    <div class="alert-trust">
+      <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
+      No spam. Unsubscribe anytime.
+    </div>
     <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
   <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
@@ -581,25 +582,20 @@ footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
 
 <script>
 function submitAlert(){
-  var fn=document.getElementById('a-firstname').value.trim();
-  var ln=document.getElementById('a-lastname').value.trim();
   var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-phone').value.trim();
-  var em=document.getElementById('a-email').value.trim();
+  var ph=document.getElementById('a-ph').value.trim();
+  var em=document.getElementById('a-em').value.trim();
   var er=document.getElementById('alertError');
   er.style.display='none';
-  ['a-firstname','a-lastname','a-zip','a-phone','a-email'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('error');});
-  if(!fn){er.textContent='Please enter your first name.';er.style.display='block';document.getElementById('a-firstname').classList.add('error');return;}
-  if(!ln){er.textContent='Please enter your last name.';er.style.display='block';document.getElementById('a-lastname').classList.add('error');return;}
+  ['a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
   var zc=zip.replace(/\D/g,'');
-  var zv=zc.length===5&&(zc.startsWith('75')||zc.startsWith('760')||zc.startsWith('761')||zc.startsWith('762')||zc.startsWith('763'));
-  if(!zv){er.textContent='Please enter a valid DFW ZIP code (75xxx or 760-763xx).';er.style.display='block';document.getElementById('a-zip').classList.add('error');return;}
+  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
   var pc=ph.replace(/\D/g,'');
-  if(pc.length<10){er.textContent='Please enter a 10-digit phone number with area code.';er.style.display='block';document.getElementById('a-phone').classList.add('error');return;}
-  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-email').classList.add('error');return;}
+  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
+  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-em').classList.add('err');return;}
   window.dataLayer=window.dataLayer||[];
   window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),first_name:fn,last_name:ln,zip:zc,phone:pc,email:em,role:'how_to_guide',city:'texas',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'how_to_guide',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
   document.getElementById('alertForm').style.display='none';
   document.getElementById('alertSuccess').style.display='block';
 }
@@ -610,9 +606,9 @@ function submitAlert(){
     <p style="font-family:'Barlow Condensed',sans-serif;font-size:0.73rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:#5a6474;margin-bottom:12px;">Related Guides</p>
     <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:7px;">
       <li style="font-size:0.93rem;"><a href="/security-jobs-dfw" style="color:#001D3D;font-weight:500;text-decoration:none;">→ DFW Security Jobs — Complete Guide</a></li>
-      <li style="font-size:0.93rem;"><a href="/security-guard-salary-texas" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Texas Security Guard Salary Guide</a></li>
-      <li style="font-size:0.93rem;"><a href="/security-jobs-for-veterans-texas" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Veterans Security Jobs in Texas</a></li>
-      <li style="font-size:0.93rem;"><a href="/dallas-security-jobs-guide" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Dallas Security Jobs Guide</a></li>
+      <li style="font-size:0.93rem;"><a href="/root/security-guard-salary-texas" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Texas Security Guard Salary Guide</a></li>
+      <li style="font-size:0.93rem;"><a href="/root/security-jobs-for-veterans-texas" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Veterans Security Jobs in Texas</a></li>
+      <li style="font-size:0.93rem;"><a href="/root/dallas-security-jobs-guide" style="color:#001D3D;font-weight:500;text-decoration:none;">→ Dallas Security Jobs Guide</a></li>
     </ul>
   </div>
 </div>
