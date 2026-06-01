@@ -1074,7 +1074,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></div>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
 </nav>
 
 <!-- HERO -->
@@ -1173,7 +1173,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="/jobs/event-security-dfw" class="job-card" style="text-decoration:none;">
       <div class="job-card-icon">🎟️</div><div class="job-card-label">Event Security</div><div class="job-card-sub">Concerts, venues, sports</div>
     </a>
-    <a href="/jobs/mobile-patrol-dfw" class="job-card" style="text-decoration:none;">
+    <a href="/jobs/mobile-patrol-security-jobs-dfw" class="job-card" style="text-decoration:none;">
       <div class="job-card-icon">🚗</div><div class="job-card-label">Patrol Officer</div><div class="job-card-sub">Vehicle routes</div>
     </a>
     <a href="/jobs/overnight-security-dfw" class="job-card" style="text-decoration:none;">
@@ -1185,12 +1185,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="/jobs/tsa-airport-security-dfw" class="job-card" style="text-decoration:none;">
       <div class="job-card-icon">✈️</div><div class="job-card-label">TSA / Airport</div><div class="job-card-sub">Federal screening roles</div>
     </a>
-    <a href="/jobs/mobile-patrol-dfw" class="job-card" style="text-decoration:none;">
-      <div class="job-card-icon">🚔</div><div class="job-card-label">Mobile Patrol</div><div class="job-card-sub">Multi-site rounds</div>
+    <a href="/jobs/hospital-security-jobs-dfw" class="job-card" style="text-decoration:none;">
+      <div class="job-card-icon">🏥</div><div class="job-card-label">Hospital Security</div><div class="job-card-sub">Healthcare facilities</div>
     </a>
   </div>
 </div>
 
+
+
+<!-- PILLAR GUIDES SECTION -->
+<div style="background:#f7f8fa;padding:28px 20px 32px;border-top:1px solid #e2e5ea;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="section-divider" style="margin-bottom:18px;"><span>DFW Security Guides</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:680px;margin:0 auto;">
+      <a href="/security-jobs-dfw" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ DFW Security Jobs Guide</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/how-to-become-a-security-guard-in-texas" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">📋 Get Your TX License</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/security-guard-salary-texas" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">💰 TX Security Salary Guide</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/security-jobs-for-veterans-texas" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🎖️ Veterans Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/dallas-security-jobs-guide" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">📍 Dallas Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/jobs/texas-security-license-requirements" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🛡️ TX License Requirements</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+    </div>
+  </div>
+</div>
 
 <!-- NUDGE BLOCK -->
 <div class="nudge-wrap">
@@ -1661,15 +1677,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     if (!isOpen) item.classList.add('open');
   }
 
-  const observer = new IntersectionObserver(entries => {
-    const bar = document.getElementById('stickyBar');
-    if (bar) {
-      entries[0].isIntersecting ? bar.classList.remove('visible') : bar.classList.add('visible');
-    }
-  }, { threshold: 0.4 });
-  observer.observe(document.getElementById('signup'));
-
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  (function(){var b=document.getElementById('stickyBar');var h=document.querySelector('.hero')||document.querySelector('section');if(!b||!h)return;function chk(){b.classList.toggle('show',h.getBoundingClientRect().bottom<=0);}window.addEventListener('scroll',chk,{passive:true});chk();})();
 </script>
 </body>
 </html>
