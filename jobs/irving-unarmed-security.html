@@ -32,9 +32,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   html { scroll-behavior: smooth; }
   body { font-family: 'Barlow', sans-serif; background: var(--white); color: var(--charcoal); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); }
-  .nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; letter-spacing: 0.02em; color: #111; line-height: 1; border-bottom: 9px solid #111; padding-bottom: 4px; display: inline-block; text-decoration: none; }
-  .nav-logo span { color: #FFC300; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; justify-content: space-between;  }
+  .nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; letter-spacing: 0.02em; color: #111; line-height: 1;   display: inline-block; text-decoration: none; }
+  
+.logo-bb { border-bottom: 9px solid #111; padding-bottom: 3px; display: inline-block; line-height: 1; }
+.logo-gold { color: #FFC300; }
+.nav-logo span { color: #FFC300; }
   .nav-logo .nav-security { color: #111; font-weight: 600; font-size: 1rem; opacity: 0.6; margin-left: 6px; letter-spacing: 0.04em; }
   .hero { margin-top: 49px; background: #1a1a1a; position: relative; overflow: hidden; min-height: calc(100vh - 49px); display: flex; flex-direction: column; }
   .hero::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; z-index: 0; }
@@ -196,7 +199,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .footer-links a { color: var(--muted, #6b7280); text-decoration: none; }
   .footer-links a:hover { text-decoration: underline; }
   .footer-links span { color: #d1d5db; }
+
+  /* JOB LISTINGS */
+  .listings { background: var(--white, #fff); }
+  .listings-top { display:flex;align-items:center;justify-content:space-between;padding:14px 20px 10px;border-bottom:2px solid #000814; }
+  .listings-label { font-family:'Barlow Condensed',sans-serif;font-size:0.7rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:#5a6474; }
+  .listings-tag { font-size:0.68rem;color:#5a6474; }
+  .listing-row { display:flex;align-items:center;gap:10px;padding:10px 20px;border-bottom:1px solid #e2e5ea; }
+  .listing-row:last-of-type { border-bottom:none; }
+  .l-body { flex:1;min-width:0; }
+  .l-title { font-family:'Barlow Condensed',sans-serif;font-size:0.97rem;font-weight:800;color:#000814;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+  .l-meta { display:flex;align-items:center;flex-wrap:nowrap;gap:0;margin-top:2px;font-size:0.7rem;color:#5a6474;overflow:hidden; }
+  .l-co { font-weight:600;color:#1a1a1a; }
+  .l-sep { margin:0 4px;color:#d0d5dd; }
+  .l-pay { font-size:0.67rem;font-weight:700;color:#1a6b2e;background:#e6f4eb;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
+  .l-type { font-size:0.62rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#5a6474;border:1px solid #e2e5ea;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
+  .l-new { font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#FFC300;color:#000814;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center; }
+  .listings-cta { background:#f4f5f7;border-top:1px solid #e2e5ea;padding:16px 20px;text-align:center; }
+  .listings-cta p { font-size:0.82rem;color:#5a6474;margin-bottom:11px;line-height:1.45; }
+  @media(min-width:640px){.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}}
 </style>
+<link rel="canonical" href="https://www.blackbarjobs.com/jobs/irving-unarmed-security">
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window,document,"clarity","script","wvxhs1xht1");
+</script>
+<!-- Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039190320"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17039190320');</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -209,7 +242,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <nav>
-  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="nav-security">| Security</span></a>
+  <a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="nav-security">| Security</span></a>
 </nav>
 
 <section class="hero">
@@ -226,6 +259,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
+
+<div class="listings">
+  <div class="listings-top">
+    <span class="listings-label">Now Hiring</span>
+    <span class="listings-tag">Updated regularly</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Unarmed Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">Allied Universal</span>
+        <span class="l-sep">·</span><span>Irving, TX</span>
+        <span class="l-pay">$17–21/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    <span class="l-new">New</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Security Guard — Residential</div>
+      <div class="l-meta">
+        <span class="l-co">Securitas</span>
+        <span class="l-sep">·</span><span>Irving, TX</span>
+        <span class="l-pay">$16–20/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    <span class="l-new">New</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Corporate Lobby Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">G4S</span>
+        <span class="l-sep">·</span><span>Irving, TX</span>
+        <span class="l-pay">$18–23/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Overnight Security Guard</div>
+      <div class="l-meta">
+        <span class="l-co">Allied Universal</span>
+        <span class="l-sep">·</span><span>Irving, TX</span>
+        <span class="l-pay">$17–21/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Part-Time Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">Local Guard Firm</span>
+        <span class="l-sep">·</span><span>Irving, TX</span>
+        <span class="l-pay">$15–19/hr</span>
+        <span class="l-type">Part-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listings-cta">
+    <p>New positions posted regularly. Get notified the moment one opens near you.</p>
+    <a href="#alerts" class="btn-gold" style="max-width:280px;display:inline-block;text-align:center;">Get Job Alerts — It's Free →</a>
+  </div>
+</div>
+
 
 <!-- FAQ -->
 <div class="section-light">
@@ -534,7 +639,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             pay = (min && max) ? min + '–' + max : (min || max);
           }
           var payHtml = pay ? '<span class="jf-pay">' + pay + '</span>' : '';
-          return '<div class="jf-row"><div class="jf-body"><div class="jf-title">' + title + '</div><div class="jf-meta">' + (company ? '<span class="jf-company">' + company + '</span>' : '') + (location ? '<span class="jf-sep">·</span><span class="jf-loc">' + location + '</span>' : '') + payHtml + '</div></div><a class="jf-apply" href="' + applyUrl + '" target="_blank" rel="noopener">Apply →</a></div>';
+          return '<div class="jf-row"><div class="jf-body"><div class="jf-title">' + title + '</div><div class="jf-meta">' + (company ? '<span class="jf-company">' + company + '</span>' : '') + (location ? '<span class="jf-sep">·</span><span class="jf-loc">' + location + '</span>' : '') + payHtml + '</div></div></div>';
         }).join('');
       })
       .catch(function() {

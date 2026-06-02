@@ -41,8 +41,11 @@ html { scroll-behavior: smooth; }
 body { font-family: 'Barlow', sans-serif; background: var(--white); color: var(--char); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
 
 /* ── NAV ── */
-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; border-bottom: 1px solid var(--border); }
-.nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; text-decoration: none; border-bottom: 9px solid #111; padding-bottom: 4px; display: inline-block; }
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); padding: 10px 20px; display: flex; align-items: center; }
+.nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; text-decoration: none;   display: inline-block; }
+
+.logo-bb { border-bottom: 9px solid #111; padding-bottom: 3px; display: inline-block; line-height: 1; }
+.logo-gold { color: #FFC300; }
 .nav-logo span { color: var(--gold); }
 .nav-logo .ns { color: #111; font-weight: 600; font-size: 1rem; opacity: 0.6; margin-left: 6px; }
 
@@ -222,7 +225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <nav>
-  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="ns">| Security</span></a>
+  <a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="ns">| Security</span></a>
 </nav>
 
 <section class="hero" id="heroAnchor">

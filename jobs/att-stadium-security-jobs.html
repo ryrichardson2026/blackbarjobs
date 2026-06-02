@@ -23,8 +23,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 :root { --navy:#000814;--navy-mid:#001D3D;--gold:#FFC300;--gold-hv:#FFD60A;--gold-m:#E6A800;--white:#ffffff;--off:#f4f5f7;--char:#1a1a1a;--muted:#5a6474;--border:#e2e5ea; }
 html { scroll-behavior: smooth; }
 body { font-family:'Barlow',sans-serif;background:var(--white);color:var(--char);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased; }
-nav { position:fixed;top:0;left:0;right:0;z-index:200;background:var(--white);padding:10px 20px;display:flex;align-items:center;border-bottom:1px solid var(--border); }
-.nav-logo { font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#111;text-decoration:none;border-bottom:9px solid #111;padding-bottom:4px;display:inline-block; }
+nav { position:fixed;top:0;left:0;right:0;z-index:200;background:var(--white);padding:10px 20px;display:flex;align-items:center; }
+.nav-logo { font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#111;text-decoration:none;display:inline-block; }
+
+.logo-bb { border-bottom: 9px solid #111; padding-bottom: 3px; display: inline-block; line-height: 1; }
+.logo-gold { color: #FFC300; }
 .nav-logo span { color:var(--gold); }
 .nav-logo .ns { color:#111;font-weight:600;font-size:1rem;opacity:0.6;margin-left:6px; }
 /* STICKY BAR */
@@ -141,6 +144,16 @@ footer p { font-size:0.7rem;color:rgba(255,255,255,0.28); }
 footer a { color:rgba(255,255,255,0.28);text-decoration:underline; }
 @media(min-width:640px){.sec-wrap{padding:0 40px 36px;}.sec-divider{padding:0 40px;}.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}.mid-cta{padding:28px 40px;}.alert-wrap{padding:48px 40px 52px;}}
 </style>
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window,document,"clarity","script","wvxhs1xht1");
+</script>
+<!-- Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039190320"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17039190320');</script>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -150,7 +163,7 @@ footer a { color:rgba(255,255,255,0.28);text-decoration:underline; }
 </div>
 
 <nav>
-  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="ns">| Security</span></a>
+  <a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="ns">| Security</span></a>
 </nav>
 
 <section class="hero" id="heroAnchor">
