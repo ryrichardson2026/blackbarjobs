@@ -48,13 +48,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .hero-ctas { display: flex; flex-direction: column; gap: 10px; max-width: 360px; }
   .btn-primary { display: block; width: 100%; padding: 15px; background: var(--gold); color: var(--navy-deep); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-align: center; text-decoration: none; transition: background 0.15s; }
   .btn-primary:hover { background: var(--gold-hover); }
-  .section-light { background: var(--white); padding: 0 0 36px; }
+  .section-light { background: var(--white); padding: 18px 0 0; }
   .section-light .section-divider span { color: var(--muted); }
   .section-light .section-divider::before, .section-light .section-divider::after { background: var(--border); }
   .section-light .section-wrap h2 { color: var(--navy-deep); }
   .section-light .section-wrap p { color: var(--charcoal); }
   .section-light .duty-list li { color: var(--charcoal); }
-  .section-dark { background: var(--navy-deep); padding: 0 0 36px; }
+  .section-dark { background: var(--navy-deep); padding: 18px 0 0; }
   .section-dark .section-divider span { color: var(--gold); }
   .section-dark .section-divider::before, .section-dark .section-divider::after { background: rgba(255,255,255,0.12); }
   .section-dark .section-wrap h2 { color: var(--white); }
@@ -65,16 +65,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .section-dark .related-item-label { color: var(--white); }
   .section-dark .related-item-arrow { color: rgba(255,255,255,0.35); }
   .section-dark .related-item:hover { border-color: var(--gold); }
-  .section-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 32px 0 20px; }
+  .section-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 12px; }
   .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; }
   .section-divider span { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
-  .section-wrap { padding: 0 20px 36px; }
+  .section-wrap { padding: 0 20px 24px; }
   .section-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.6rem, 5vw, 2.1rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; margin-bottom: 16px; }
   .section-wrap p { font-size: 0.92rem; line-height: 1.65; margin-bottom: 12px; max-width: 620px; }
   .pay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 4px; }
   .pay-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px 14px; }
-  .pay-card-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
-  .pay-card-rate { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--gold); line-height: 1; }
+  .pay-card-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 6px; }
+  .pay-card-rate { font-family: 'Barlow Condensed', sans-serif; font-size: 2rem; font-weight: 800; color: var(--gold); line-height: 1; }
   .pay-card-annual { font-size: 0.7rem; color: var(--gold); margin-top: 4px; }
   .duty-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
   .duty-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.92rem; line-height: 1.5; }
@@ -127,9 +127,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .footer-logo span { color: var(--gold-muted); }
   footer p { font-size: 0.72rem; color: rgba(255,255,255,0.35); line-height: 1.6; }
   footer a { color: rgba(255,255,255,0.35); text-decoration: underline; }
-  .mid-cta-wrap { background: var(--white); padding: 28px 20px; text-align: center; }
-  .two-col-section { background: var(--white); }
-  .two-col-dark { background: var(--navy-deep); }
+  .mid-cta-wrap { background: var(--navy-deep); padding: 28px 20px; text-align: center; }
+  .two-col-section { background: var(--white); padding-top: 18px; }
+  .two-col-dark { background: var(--navy-deep); padding-top: 18px; }
   .two-col-dark .section-wrap h2 { color: var(--white); }
   .two-col-dark .section-wrap p { color: rgba(255,255,255,0.6); }
   .two-col-dark .duty-list li { color: rgba(255,255,255,0.82); }
@@ -140,15 +140,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .hero-content { padding: 0 48px 48px; justify-content: center; }
     .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
     .hero-ctas { max-width: 420px; }
-    .section-wrap { padding: 0 40px 40px; }
-    .section-divider { padding: 0 40px; margin: 36px 0 24px; }
+    .section-wrap { padding: 0 40px 28px; }
+    .section-divider { padding: 0 40px; margin: 0 0 12px; }
     .pay-grid { grid-template-columns: repeat(3, 1fr); }
     .alert-wrap { padding: 48px 40px 52px; }
     footer { padding: 28px 40px; }
     .mid-cta-wrap { padding: 32px 40px; }
-    .mid-cta-wrap .btn-primary { max-width: 500px; margin: 0 auto; }
+    .mid-cta-wrap .btn-primary { max-width: 260px; margin: 0 auto; }
     .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
-    .two-col-inner .section-wrap { padding: 0 40px 40px; }
+    .two-col-inner .section-wrap { padding: 0 40px 28px; }
     .two-col-inner .section-wrap:first-child { padding-left: 40px; padding-right: 24px; border-right: 1px solid var(--border); }
     .two-col-inner .section-wrap:last-child { padding-left: 24px; padding-right: 40px; }
     .two-col-dark .two-col-inner .section-wrap:first-child { border-right-color: rgba(255,255,255,0.12); }
@@ -222,9 +222,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .l-pay { font-size:0.67rem;font-weight:700;color:#1a6b2e;background:#e6f4eb;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
   .l-type { font-size:0.62rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#5a6474;border:1px solid #e2e5ea;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
   .l-new { font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#FFC300;color:#000814;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center; }
-  .listings-cta { background:#f4f5f7;border-top:1px solid #e2e5ea;padding:16px 20px;text-align:center; }
-  .listings-cta p { font-size:0.82rem;color:#5a6474;margin-bottom:11px;line-height:1.45; }
+  .listings-cta { background:var(--navy-deep);border-top:none;padding:20px;text-align:center; }
+  .listings-cta p { font-size:0.82rem;color:rgba(255,255,255,0.6);margin-bottom:11px;line-height:1.45; }
+  .link-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--border); }
+  .link-list li { border-bottom: 1px solid var(--border); }
+  .link-list li a { display: block; padding: 12px 0; font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; color: var(--navy-deep); text-decoration: none; letter-spacing: 0.01em; transition: color 0.12s; }
+  .link-list li a:hover { color: var(--gold-muted); }
   @media(min-width:640px){.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}}
+  /* TRUST PILLS */
+  .trust-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 20px; }
+  .trust-pill { display: flex; align-items: center; gap: 6px; font-family: 'Barlow Condensed', sans-serif; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; color: rgba(255,255,255,0.55); }
+  .trust-pill::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
 </style>
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/denton-security-jobs">
 <!-- Microsoft Clarity -->
@@ -251,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-badge">Denton, TX</div>
     <h1>Security Jobs in<br><em>Denton, TX</em></h1>
     <p class="hero-sub">Get alerted about security openings across Denton — University of North Texas, Texas Woman's University, Denton County government facilities, the I-35 commercial corridor, and surrounding residential communities.</p>
-    <div class="hero-ctas"><a href="#alerts" class="btn-primary">Sign Up For Instant Job Alerts</a></div>
+    <div class="hero-ctas"><a href="#alerts" class="btn-primary">Get Free Job Alerts →</a></div>
   </div>
 </section>
 
@@ -322,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="listings-cta">
     <p>New positions posted regularly. Get notified the moment one opens near you.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:280px;display:inline-block;text-align:center;">Get Job Alerts — It's Free →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
   </div>
 </div>
 
@@ -363,7 +371,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="pay-card"><div class="pay-card-label">Experienced</div><div class="pay-card-rate">$17–23/hr</div><div class="pay-card-annual">~$35k–48k/yr</div></div>
   <div class="pay-card"><div class="pay-card-label">Lead / Senior</div><div class="pay-card-rate">$23–32/hr</div><div class="pay-card-annual">~$48k–67k/yr</div></div>
 </div></div></div>
-<div class="mid-cta-wrap"><button class="btn-primary" onclick="document.getElementById('alerts').scrollIntoView({behavior:'smooth'})" style="max-width:460px;margin:0 auto;">Sign Up For Instant Job Alerts</button></div>
+<div class="mid-cta-wrap"><button class="btn-primary" onclick="document.getElementById('alerts').scrollIntoView({behavior:'smooth'})" style="max-width:460px;margin:0 auto;">Get Free Job Alerts →</button></div>
 <div class="two-col-dark"><div class="section-divider"><span>Requirements &amp; Schedules</span></div>
 <div class="two-col-inner">
   <div class="section-wrap"><div class="section-divider"><span>Requirements</span></div><h2>What You Need</h2><ul class="duty-list">        <li>Valid Texas Level 2 Security License required</li>
@@ -379,9 +387,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li>Student housing corridor residential gate coverage overnight and weekends</li>
         <li>Academic calendar drives above-normal security demand during move-in, finals, and major campus events</li></ul></div>
 </div></div>
-<div class="section-light" id="jobs"><div class="section-divider"><span>Now Hiring</span></div>
-<div class="section-wrap"><h2>Current Openings in Denton, TX</h2>
-<div class="jobs-feed" id="jobsFeed"><div class="jobs-loading">Loading jobs…</div></div></div></div>
+</div>
 <div class="section-dark"><div class="section-divider"><span>Related Roles</span></div>
 <div class="section-wrap"><h2>Related Security Jobs in DFW</h2><div class="related-grid">      <a href="/jobs/lewisville-security-jobs" class="related-item"><span class="related-item-label">📍 Security Jobs — Lewisville</span><span class="related-item-arrow">→</span></a>
       <a href="/jobs/carrollton-security-jobs" class="related-item"><span class="related-item-label">📍 Security Jobs — Carrollton</span><span class="related-item-arrow">→</span></a>
@@ -409,11 +415,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Don't See The Right <span>Security Job</span> Yet?</h2>
   <p>New openings posted regularly across Denton, TX. Get notified the moment something matches.</p>
       <div class="alert-form" id="alertForm">
-    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
+    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
+    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
+    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-gold block" onclick="submitAlert()">Get Job Alerts →</button>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
     <div class="alert-trust">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
       No spam. Unsubscribe anytime.
@@ -440,7 +446,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p>Security job alerts for professionals across the US.<br><a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
 </footer>
 <script>
-  (function(){var feed=document.getElementById('jobsFeed');fetch('/api/dfw-jobs?city=denton&type=unarmed').then(function(r){return r.json();}).then(function(data){var jobs=(data.jobs||[]).slice(0,10);if(!jobs.length){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">No listings right now — check back soon.</div>';return;}feed.innerHTML=jobs.map(function(j){var u=j.url||j.apply_url||'#';if(u!=='#')u=u+(u.indexOf('?')>-1?'&':'?')+'utm_source=blackbarjobs&utm_medium=role_page&utm_campaign=denton_security_jobs';var t=j.title||'Security Officer';var c=j.company_name||'';var l=(j.locations&&j.locations.length)?j.locations[0].split(',').slice(0,2).join(',').trim():'';var p2='';if(j.salary_min_usd||j.salary_max_usd){var mn=j.salary_min_usd?'$'+Math.round(j.salary_min_usd/1000)+'k':'';var mx=j.salary_max_usd?'$'+Math.round(j.salary_max_usd/1000)+'k':'';p2=(mn&&mx)?mn+'–'+mx:(mn||mx);}var ph=p2?'<span class="jf-pay">'+p2+'</span>':'';return '<div class="jf-row"><div class="jf-body"><div class="jf-title">'+t+'</div><div class="jf-meta">'+(c?'<span class="jf-company">'+c+'</span>':'')+(l?'<span class="jf-sep">·</span><span class="jf-loc">'+l+'</span>':'')+ph+'</div></div></div>';}).join('');}).catch(function(){feed.innerHTML='<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">Could not load jobs.</div>';});})();
   
   function toggleFaq(el){el.parentElement.classList.toggle('open');}
   function submitAlert(){

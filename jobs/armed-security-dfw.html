@@ -98,6 +98,8 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 .btn-gold { display: inline-block; padding: 13px 22px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; transition: background 0.15s; }
 .btn-gold:hover { background: var(--gold-hv); }
 .btn-gold.block { display: block; width: 100%; text-align: center; }
+  .btn-primary { display: block; width: 100%; padding: 14px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; text-align: center; transition: background 0.15s; }
+  .btn-primary:hover { background: #FFD60A; }
 @media (min-width: 640px) {
   .hero { min-height: 380px; }
   .hero-body { padding: 60px 48px 44px; justify-content: center; }
@@ -129,22 +131,22 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 }
 
 /* ── SECTIONS ── */
-.sec-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 18px; }
+.sec-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 12px; }
 .sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; }
 .sec-divider span { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
-.sec-wrap { padding: 0 20px 32px; }
+.sec-wrap { padding: 0 20px 22px; }
 .sec-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.45rem, 4vw, 1.85rem); font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
 .sec-wrap p { font-size: 0.94rem; line-height: 1.68; margin-bottom: 12px; max-width: 660px; }
 .sec-wrap ul { padding-left: 20px; margin-bottom: 12px; }
 .sec-wrap ul li { font-size: 0.94rem; line-height: 1.5; margin-bottom: 7px; }
 
-.sec-light { background: var(--white); padding: 28px 0 32px; }
+.sec-light { background: var(--white); padding: 18px 0 22px; }
 .sec-light .sec-divider span { color: var(--muted); }
 .sec-light .sec-divider::before, .sec-light .sec-divider::after { background: var(--border); }
 .sec-light h2 { color: var(--navy); }
 .sec-light p, .sec-light li { color: var(--char); }
 
-.sec-dark { background: var(--navy); padding: 28px 0 32px; }
+.sec-dark { background: var(--navy); padding: 18px 0 22px; }
 .sec-dark .sec-divider span { color: var(--gold); }
 .sec-dark .sec-divider::before, .sec-dark .sec-divider::after { background: rgba(255,255,255,0.12); }
 .sec-dark h2 { color: var(--white); }
@@ -213,6 +215,12 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .alert-wrap { padding: 48px 40px 52px; }
   footer { padding: 28px 40px; }
 }
+  /* TRUST PILLS */
+  .trust-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 20px; }
+  .trust-pill { display: flex; align-items: center; gap: 6px; font-family: 'Barlow Condensed', sans-serif; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; color: rgba(255,255,255,0.55); }
+  .trust-pill::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+  .alert-field { position: relative; }
+  .alert-field-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1rem; pointer-events: none; line-height: 1; }
 </style>
 </head>
 <body>
@@ -237,7 +245,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-badge">Dallas–Fort Worth, TX</div>
     <h1>Armed Security Jobs<br><em>Dallas–Fort Worth</em></h1>
     <p class="hero-sub">Level 3 commissioned security officer positions across DFW — banks, data centers, government buildings, corporate campuses, cannabis dispensaries, and overnight armed patrol.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:300px;">Sign Up For Job Alerts →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:300px;">Sign Up For Job Alerts →</a>
   </div>
 </section>
 
@@ -320,7 +328,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="listings-cta">
     <p>Armed positions fill fast — most candidates who apply in the first 48 hours get a callback.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:280px;display:inline-block;text-align:center;">Get Job Alerts — It's Free →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
   </div>
 </div>
 
@@ -365,7 +373,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="mid-cta">
   <p>Level 3 positions fill faster than any other security category in DFW — first applicants have the strongest callback rates.</p>
-  <a href="#alerts" class="btn-gold" style="display:inline-block;max-width:300px;text-align:center;">Get Free DFW Job Alerts →</a>
+  <a href="#alerts" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;">Get Free DFW Job Alerts →</a>
 </div>
 
 <div class="sec-light">
@@ -417,11 +425,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Don't See The Right <span>Armed Security Job?</span></h2>
   <p>New Level 3 openings posted daily across DFW. Be first in line.</p>
       <div class="alert-form" id="alertForm">
-    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
+    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
+    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
+    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-gold block" onclick="submitAlert()">Get Job Alerts →</button>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
     <div class="alert-trust">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
       No spam. Unsubscribe anytime.

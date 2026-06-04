@@ -31,38 +31,14 @@ nav { position:fixed;top:0;left:0;right:0;z-index:200;background:var(--white);pa
 .nav-logo span { color:var(--gold); }
 .nav-logo .ns { color:#111;font-weight:600;font-size:1rem;opacity:0.6;margin-left:6px; }
 /* STICKY BAR */
+    /* STICKY BAR — mobile only */
   .sticky-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 999; }
   @media (max-width: 639px) {
     body { padding-bottom: 74px; }
-    .sticky-bar.show {
-      display: block !important;
-      padding: 10px 16px 16px;
-      background: #000814;
-      border-top: 2px solid rgba(255,195,0,0.4);
-      box-shadow: 0 -4px 24px rgba(0,0,0,0.5);
-    }
-    .sticky-bar.show a {
-      display: flex !important;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 15px;
-      background: #FFC300;
-      color: #000814;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 1.15rem;
-      font-weight: 800;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      border-radius: 10px;
-      text-decoration: none;
-    }
+    .sticky-bar.show { display: block !important; padding: 10px 16px 16px; background: #000814; border-top: 2px solid rgba(255,195,0,0.4); box-shadow: 0 -4px 24px rgba(0,0,0,0.5); }
+    .sticky-bar.show a { display: flex !important; align-items: center; justify-content: center; width: 100%; padding: 15px; background: #FFC300; color: #000814; font-family: 'Barlow Condensed', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border-radius: 10px; text-decoration: none; }
   }
-.sticky-bar.show { display:block; }
-.sticky-bar a { display:flex;align-items:center;justify-content:center;width:100%;padding:14px;background:var(--gold);color:var(--navy);font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border-radius:10px;text-decoration:none; }
-@media(max-width:639px){body{padding-bottom:74px;}}
-@media(min-width:640px){.sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:99;padding:10px 16px 16px;background:#000814;border-top:1px solid rgba(255,195,0,0.3);box-shadow:0 -4px 20px rgba(0,0,0,0.45);}.sticky-bar.show{display:block;}.sticky-bar a{display:flex;align-items:center;justify-content:center;width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border-radius:10px;text-decoration:none;}@media(max-width:639px){body{padding-bottom:74px;}}@media(min-width:640px){.sticky-bar{display:none!important;}}
-.hero { margin-top:49px;background:#111;position:relative;overflow:hidden;min-height:320px; }
+  .hero { margin-top:49px;background:#111;position:relative;overflow:hidden;min-height:320px; }
 .hero-img-wrap { position:absolute;inset:0; }
 .hero-img-wrap img { width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:brightness(0.42) saturate(0.7);display:block; }
 .hero-overlay { position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,8,20,0.1) 0%,rgba(0,8,20,0.78) 60%); }
@@ -143,6 +119,14 @@ footer { background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);padd
 footer p { font-size:0.7rem;color:rgba(255,255,255,0.28); }
 footer a { color:rgba(255,255,255,0.28);text-decoration:underline; }
 @media(min-width:640px){.sec-wrap{padding:0 40px 36px;}.sec-divider{padding:0 40px;}.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}.mid-cta{padding:28px 40px;}.alert-wrap{padding:48px 40px 52px;}}
+  .btn-primary { display: block; width: 100%; padding: 14px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; text-align: center; transition: background 0.15s; }
+  .btn-primary:hover { background: #FFD60A; }
+  /* TRUST PILLS */
+  .trust-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 20px; }
+  .trust-pill { display: flex; align-items: center; gap: 6px; font-family: 'Barlow Condensed', sans-serif; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; color: rgba(255,255,255,0.55); }
+  .trust-pill::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+  .alert-field { position: relative; }
+  .alert-field-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1rem; pointer-events: none; line-height: 1; }
 </style>
 <!-- Microsoft Clarity -->
 <script type="text/javascript">
@@ -175,7 +159,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     <div class="hero-badge">Arlington, TX · Dallas Cowboys · NFL Security</div>
     <h1>Working Security at<br><em>Dallas Cowboys Games</em></h1>
     <p class="hero-sub">Security officer positions at AT&amp;T Stadium in Arlington — Cowboys home game day deployments, major events, and year-round stadium security.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:300px;">Get Stadium Job Alerts →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:300px;">Get Stadium Job Alerts →</a>
   </div>
 </section>
 
@@ -249,7 +233,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 
   <div class="listings-cta">
     <p>Roster spots fill before the August preseason. Sign up now to be first in line when positions open.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:280px;display:inline-block;text-align:center;">Get Game Day Job Alerts →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Game Day Job Alerts →</a>
   </div>
 </div>
 
@@ -285,7 +269,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
   <div class="sec-divider"><span>Pay &amp; What To Expect</span></div>
   <div class="sec-wrap">
     <h2>Cowboys Game Day Security Pay</h2>
-    <p style="color:rgba(255,255,255,0.55);font-size:0.84rem;margin-bottom:16px;">Per-diem — no commitment between games. Rates by post and event type.</p>
+    <p style="color:rgba(255,255,255,0.55);font-size:0.84rem;margin-bottom:16px;">flexible — no commitment between games. Rates by post and event type.</p>
     <ul>
       <li>Parking, gate entry: <strong style="color:var(--gold);">$17–20/hr</strong></li>
       <li>Concourse patrol: <strong style="color:var(--gold);">$18–22/hr</strong></li>
@@ -300,7 +284,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 
 <div class="mid-cta">
   <p>Roster spots fill before the season — sign up for alerts to be notified when AT&amp;T Stadium security openings post.</p>
-  <a href="#alerts" class="btn-gold" style="display:inline-block;max-width:320px;text-align:center;">Get Stadium Security Alerts →</a>
+  <a href="#alerts" class="btn-primary" style="display:inline-block;max-width:320px;text-align:center;">Get Stadium Security Alerts →</a>
 </div>
 
 <div class="sec-light">
@@ -352,11 +336,11 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
   <h2>Get Cowboys Game Security <span>Job Alerts</span></h2>
   <p>Roster spots for Cowboys game day security open before the season. Get notified the moment positions post so you're first in line.</p>
   <div class="alert-form" id="alertForm">
-    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
+    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
+    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
+    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-gold block" onclick="submitAlert()">Get Job Alerts →</button>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
     <div class="alert-trust">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
       No spam. Unsubscribe anytime.

@@ -70,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   /* SCHOOL LISTINGS */
   .school-list { display: flex; flex-direction: column; }
-  .school-entry { padding: 28px 0; border-bottom: 1px solid var(--border); }
+  .school-entry { padding: 18px 0; border-bottom: 1px solid var(--border); }
   .school-entry:first-child { padding-top: 0; }
 
   .school-header { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 12px; }
@@ -189,8 +189,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .l-pay { font-size:0.67rem;font-weight:700;color:#1a6b2e;background:#e6f4eb;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
   .l-type { font-size:0.62rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#5a6474;border:1px solid #e2e5ea;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
   .l-new { font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#FFC300;color:#000814;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center; }
-  .listings-cta { background:#f4f5f7;border-top:1px solid #e2e5ea;padding:16px 20px;text-align:center; }
-  .listings-cta p { font-size:0.82rem;color:#5a6474;margin-bottom:11px;line-height:1.45; }
+  .listings-cta { background:var(--navy-deep);border-top:none;padding:20px;text-align:center; }
+  .listings-cta p { font-size:0.82rem;color:rgba(255,255,255,0.6);margin-bottom:11px;line-height:1.45; }
+  .link-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--border); }
+  .link-list li { border-bottom: 1px solid var(--border); }
+  .link-list li a { display: block; padding: 12px 0; font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 700; color: var(--navy-deep); text-decoration: none; letter-spacing: 0.01em; transition: color 0.12s; }
+  .link-list li a:hover { color: var(--gold-muted); }
   @media(min-width:640px){.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}}
 </style>
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/security-training-schools-dfw">
@@ -297,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="listings-cta">
     <p>New positions posted regularly. Get notified the moment one opens near you.</p>
-    <a href="#alerts" class="btn-gold" style="max-width:280px;display:inline-block;text-align:center;">Get Job Alerts — It's Free →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
   </div>
 </div>
 
@@ -549,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
     <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-gold block" onclick="submitAlert()">Get Job Alerts →</button>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
     <div class="alert-trust">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
       No spam. Unsubscribe anytime.
