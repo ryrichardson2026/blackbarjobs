@@ -341,9 +341,21 @@
       border-bottom: 1px solid #1e2f45;
       padding: 80px 24px;
       text-align: center;
+      position: relative;
+    }
+    .pricing::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
     }
     .pricing .section-eyebrow { color: rgba(255,255,255,0.6); }
     .pricing .section-title { color: var(--gold); margin-bottom: 36px; }
+    .pricing .wrap { position: relative; z-index: 1; }
     .pricing-card {
       max-width: 400px;
       margin: 0 auto;
