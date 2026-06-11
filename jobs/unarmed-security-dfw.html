@@ -251,91 +251,32 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   </div>
 </section>
 
-<!-- JOB LISTINGS — hardcoded, classifieds style, NO apply button -->
+<!-- JOB LISTINGS — dynamic feed from Google Sheets -->
 <div class="listings">
   <div class="listings-top">
     <span class="listings-label">Now Hiring — DFW</span>
-    <span class="listings-tag">Updated regularly</span>
+    <span class="listings-tag" id="listingsTag">Loading jobs...</span>
   </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Unarmed Security Officer — Corporate Lobby</div>
-      <div class="l-meta">
-        <span class="l-co">Allied Universal</span>
-        <span class="l-sep">·</span><span>Dallas, TX</span>
-        <span class="l-pay">$17–20/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    <span class="l-new">New</span>
-  </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Overnight Security Guard — Industrial Patrol</div>
-      <div class="l-meta">
-        <span class="l-co">Securitas</span>
-        <span class="l-sep">·</span><span>Garland, TX</span>
-        <span class="l-pay">$16–19/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    <span class="l-new">New</span>
-  </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Residential Gate Security Officer</div>
-      <div class="l-meta">
-        <span class="l-co">Local Guard Firm</span>
-        <span class="l-sep">·</span><span>Plano, TX</span>
-        <span class="l-pay">$15–18/hr</span>
-        <span class="l-type">Part-Time</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Security Monitor — Healthcare Campus</div>
-      <div class="l-meta">
-        <span class="l-co">Texas Health Resources</span>
-        <span class="l-sep">·</span><span>Fort Worth, TX</span>
-        <span class="l-pay">$18–22/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Event Security Officer — Venues & Arenas</div>
-      <div class="l-meta">
-        <span class="l-co">Allied Universal</span>
-        <span class="l-sep">·</span><span>Dallas, TX</span>
-        <span class="l-pay">$16–19/hr</span>
-        <span class="l-type">Part-Time</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Loss Prevention Associate — Retail</div>
-      <div class="l-meta">
-        <span class="l-co">National Retailer</span>
-        <span class="l-sep">·</span><span>Irving, TX</span>
-        <span class="l-pay">$17–22/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-  </div>
-
+  <div id="jobRows"></div>
   <!-- CTA IMMEDIATELY BELOW JOB LISTINGS — fold 1 exit -->
   <div class="listings-cta">
     <p>New positions posted regularly. Get notified the moment one opens near you.</p>
     <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
+  </div>
+</div>
+
+<!-- REGISTRATION MODAL -->
+<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
+  <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To Apply</div>
+    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings.</div>
+    <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
+    <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
+    <input id="reg-phone" type="tel" placeholder="Phone Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
+    <div id="reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
+    <button onclick="submitReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network & View Job →</button>
+    <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
+    <button onclick="closeModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">✕</button>
   </div>
 </div>
 
@@ -491,6 +432,108 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   window.addEventListener('scroll', check, { passive: true });
   check(); // run on load
 })();
+
+// JOB FEED
+var pendingApplyUrl = '';
+var sessionUnlocked = false;
+
+var CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=0&single=true&output=csv';
+
+function parseCSV(text) {
+  var lines = text.trim().split('\n');
+  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
+  return lines.slice(1).map(function(line) {
+    var cols = [];
+    var cur = ''; var inQ = false;
+    for (var i = 0; i < line.length; i++) {
+      var c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    cols.push(cur);
+    var obj = {};
+    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
+    return obj;
+  });
+}
+
+function renderJobs(jobs) {
+  var active = jobs.filter(function(j){ return j.active === 'yes'; });
+  var container = document.getElementById('jobRows');
+  var tag = document.getElementById('listingsTag');
+  if (!active.length) {
+    container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
+    tag.textContent = 'Updated regularly';
+    return;
+  }
+  tag.textContent = active.length + ' open positions';
+  container.innerHTML = active.map(function(job) {
+    var isNew = job.posted && (job.posted.indexOf('day') !== -1 || job.posted.indexOf('hour') !== -1);
+    var applyUrl = encodeURIComponent(job.apply_link || '');
+    return '<div class="listing-row">' +
+      '<div class="l-body">' +
+        '<div class="l-title">' + (job.title || '') + '</div>' +
+        '<div class="l-meta">' +
+          '<span class="l-co">' + (job.company || '') + '</span>' +
+          '<span class="l-sep">·</span>' +
+          '<span>' + (job.location || '') + '</span>' +
+          (job.pay ? '<span class="l-pay">' + job.pay + '</span>' : '') +
+          (job.job_type ? '<span class="l-type">' + job.job_type + '</span>' : '') +
+        '</div>' +
+      '</div>' +
+      (isNew ? '<span class="l-new">New</span>' : '') +
+      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:7px 14px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">Apply</button>' +
+    '</div>';
+  }).join('');
+}
+
+function handleApply(encodedUrl) {
+  pendingApplyUrl = decodeURIComponent(encodedUrl);
+  if (sessionUnlocked) {
+    window.open(pendingApplyUrl, '_blank');
+  } else {
+    var modal = document.getElementById('regModal');
+    modal.style.display = 'flex';
+  }
+}
+
+function closeModal() {
+  document.getElementById('regModal').style.display = 'none';
+}
+
+function submitReg() {
+  var name = document.getElementById('reg-name').value.trim();
+  var email = document.getElementById('reg-email').value.trim();
+  var phone = document.getElementById('reg-phone').value.trim();
+  var err = document.getElementById('reg-error');
+  err.style.display = 'none';
+  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
+  if (!phone || phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid phone number.'; err.style.display = 'block'; return; }
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      timestamp: new Date().toISOString(),
+      name: name,
+      email: email,
+      phone: phone.replace(/\D/g,''),
+      role: 'unarmed',
+      city: 'dfw',
+      source: window.location.href,
+      consent: true
+    })
+  });
+  sessionUnlocked = true;
+  closeModal();
+  if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
+}
+
+fetch(CSV_URL)
+  .then(function(r){ return r.text(); })
+  .then(function(text){ renderJobs(parseCSV(text)); })
+  .catch(function(){ document.getElementById('listingsTag').textContent = 'Updated regularly'; });
 
 // ALERT FORM
 function submitAlert(){
