@@ -1496,6 +1496,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 // INDEX JOB FEED
 var indexPendingApplyUrl = '';
 var indexSessionUnlocked = false;
+if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
 var INDEX_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=908030&single=true&output=csv';
 
 function parseIndexCSV(text) {
@@ -1576,6 +1577,7 @@ function submitIndexReg() {
     body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'dfw', source: window.location.href, consent: true })
   });
   indexSessionUnlocked = true;
+  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
   closeIndexModal();
