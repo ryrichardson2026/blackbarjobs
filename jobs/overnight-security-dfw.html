@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Overnight Security Jobs in DFW | BlackBarJobs</title>
 <meta name="description" content="Browse overnight security jobs in Dallas-Fort Worth. Current openings, shift differentials, and instant alerts for overnight security officer positions across DFW.">
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/overnight-security-dfw">
@@ -10,9 +11,11 @@
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 <meta property="og:title" content="Overnight Security Jobs in DFW | BlackBarJobs">
-<meta property="og:description" content="Browse overnight security jobs in Dallas-Fort Worth. Current openings, shift differentials, and instant alerts for overnight security officer positions across DFW.">
+<meta property="og:description" content="Browse live overnight security job listings in Dallas–Fort Worth. Shift differentials, full-time and part-time openings. Apply today.">
 <meta property="og:url" content="https://www.blackbarjobs.com/jobs/overnight-security-dfw">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Live overnight security jobs in DFW — shift differentials and immediate openings across the metro.">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -272,7 +275,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
     <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
       <input type="checkbox" id="reg-sms-opt" onchange="togglePhone()" style="width:16px;height:16px;accent-color:#FFC300;flex-shrink:0;">
-      <span style="font-size:0.84rem;color:#1a1a1a;">Get SMS alerts when new jobs post</span>
+      <span style="font-size:0.84rem;color:#1a1a1a;">Text me when overnight jobs are posted</span>
     </label>
     <div id="reg-phone-wrap" style="display:none;margin-bottom:14px;">
       <input id="reg-phone" type="tel" placeholder="Mobile Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;box-sizing:border-box;">
@@ -503,6 +506,8 @@ function submitReg() {
     body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'overnight', city: 'dfw', source: window.location.href, consent: true })
   });
   sessionUnlocked = true;
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'job_apply_click', role:'overnight', page_url:window.location.href});
   closeModal();
   if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
 }

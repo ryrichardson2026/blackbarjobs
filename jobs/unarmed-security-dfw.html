@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Unarmed Security Jobs in DFW | BlackBarJobs</title>
 <meta name="description" content="Browse unarmed security jobs in Dallas-Fort Worth. Current openings, pay rates, and instant alerts for Level 2 security officer positions across the DFW metro.">
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/unarmed-security-dfw">
@@ -10,9 +11,11 @@
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 <meta property="og:title" content="Unarmed Security Jobs in DFW | BlackBarJobs">
-<meta property="og:description" content="Current unarmed security openings in Dallas–Fort Worth. Get instant job alerts.">
+<meta property="og:description" content="Browse live unarmed security job listings in Dallas–Fort Worth. View open positions, join the network, and apply today.">
 <meta property="og:url" content="https://www.blackbarjobs.com/jobs/unarmed-security-dfw">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Live unarmed security jobs in DFW — join the network and apply to open positions today.">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -274,7 +277,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
     <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
       <input type="checkbox" id="reg-sms-opt" onchange="togglePhone()" style="width:16px;height:16px;accent-color:#FFC300;flex-shrink:0;">
-      <span style="font-size:0.84rem;color:#1a1a1a;">Get SMS alerts when new jobs post</span>
+      <span style="font-size:0.84rem;color:#1a1a1a;">Text me when unarmed jobs are posted</span>
     </label>
     <div id="reg-phone-wrap" style="display:none;margin-bottom:14px;">
       <input id="reg-phone" type="tel" placeholder="Mobile Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;box-sizing:border-box;">
@@ -545,6 +548,8 @@ function submitReg() {
     })
   });
   sessionUnlocked = true;
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'job_apply_click', role:'unarmed', page_url:window.location.href});
   closeModal();
   if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
 }
