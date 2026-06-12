@@ -474,27 +474,26 @@ function renderJobs(jobs) {
     tag.textContent = 'Updated regularly';
     return;
   }
+  // Sort by date_pulled descending, take top 5
+  active.sort(function(a, b) {
+    return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0);
+  });
+  var display = active.slice(0, 5);
   tag.textContent = active.length + ' open positions';
-  var now = new Date();
-  container.innerHTML = active.map(function(job) {
-    var isNew = false;
-    if (job.date_pulled) {
-      var pulled = new Date(job.date_pulled);
-      isNew = !isNaN(pulled) && (now - pulled) < 7 * 24 * 60 * 60 * 1000;
-    }
+  container.innerHTML = display.map(function(job, i) {
+    var isNew = i < 2;
     var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="listing-row">' +
+    return '<div class="listing-row" style="padding-top:14px;padding-bottom:14px;">' +
       '<div class="l-body">' +
         '<div class="l-title">' + (job.title || '') + '</div>' +
         '<div class="l-meta">' +
           '<span class="l-co">' + (job.company || '') + '</span>' +
           '<span class="l-sep">·</span>' +
           '<span>' + (job.location || '') + '</span>' +
-          (job.job_type ? '<span class="l-type">' + job.job_type + '</span>' : '') +
         '</div>' +
       '</div>' +
-      (isNew ? '<span class="l-new">New</span>' : '') +
-      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:7px 14px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">View</button>' +
+      (isNew ? '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center;">New</span>' : '') +
+      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:8px 16px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">View</button>' +
     '</div>';
   }).join('');
 }
