@@ -1535,7 +1535,7 @@ function renderIndexFeed(jobs) {
       '</div>' +
       '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
         '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleIndexApply('' + applyUrl + '')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
+        '<button onclick="handleIndexApply(\'' + applyUrl + '\')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
       '</div>' +
     '</div>';
   }).join('');
@@ -1582,10 +1582,13 @@ function submitIndexReg() {
   if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
 }
 
-fetch(INDEX_CSV_URL)
+fetch(INDEX_CSV_URL, {mode: 'cors'})
   .then(function(r){ return r.text(); })
   .then(function(text){ renderIndexFeed(parseIndexCSV(text)); })
-  .catch(function(){ });
+  .catch(function(err){
+    var c = document.getElementById('indexJobFeed');
+    if (c) c.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Check back soon for open positions.</div></div></div>';
+  });
 
 </script>
 
