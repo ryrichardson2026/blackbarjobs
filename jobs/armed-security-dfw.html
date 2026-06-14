@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Armed Security Jobs in DFW | BlackBarJobs</title>
-<meta name="description" content="Browse armed (Level 3) security jobs in Dallas-Fort Worth. Current openings, pay rates, and instant alerts for armed security officer positions across DFW.">
+<meta name="description" content="Armed security officer jobs in Dallas–Fort Worth. Level 3 commissioned positions across DFW — $22–30/hr pay rates and free instant alerts.">
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/armed-security-dfw">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 <meta property="og:title" content="Armed Security Jobs in DFW | BlackBarJobs">
-<meta property="og:description" content="Browse armed (Level 3) security jobs in Dallas-Fort Worth. Current openings, pay rates, and instant alerts for armed security officer positions across DFW.">
+<meta property="og:description" content="Browse live armed security job listings in Dallas–Fort Worth. Level 3 positions, competitive pay. Join the network and apply today.">
 <meta property="og:url" content="https://www.blackbarjobs.com/jobs/armed-security-dfw">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Live armed security jobs in DFW — Level 3 positions across Dallas and Fort Worth.">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -249,86 +252,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+<!-- JOB LISTINGS — dynamic feed from Google Sheets -->
 <div class="listings">
   <div class="listings-top">
     <span class="listings-label">Now Hiring — DFW</span>
-    <span class="listings-tag">Updated regularly</span>
+    <span class="listings-tag" id="listingsTag">Loading jobs...</span>
   </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Security Officer — Bank Branch</div>
-      <div class="l-meta">
-        <span class="l-co">Allied Universal</span>
-        <span class="l-sep">·</span><span>Dallas, TX</span>
-        <span class="l-pay">$22–27/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    <span class="l-new">New</span>
-  </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Patrol Officer — Industrial</div>
-      <div class="l-meta">
-        <span class="l-co">Securitas</span>
-        <span class="l-sep">·</span><span>Garland, TX</span>
-        <span class="l-pay">$20–25/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    <span class="l-new">New</span>
-  </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Security — Corporate Campus</div>
-      <div class="l-meta">
-        <span class="l-co">G4S</span>
-        <span class="l-sep">·</span><span>Irving, TX</span>
-        <span class="l-pay">$21–26/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    
-  </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Overnight Guard — Data Center</div>
-      <div class="l-meta">
-        <span class="l-co">Allied Universal</span>
-        <span class="l-sep">·</span><span>Richardson, TX</span>
-        <span class="l-pay">$23–28/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    
-  </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Security Officer — Cannabis</div>
-      <div class="l-meta">
-        <span class="l-co">Private Employer</span>
-        <span class="l-sep">·</span><span>Dallas, TX</span>
-        <span class="l-pay">$22–28/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    
-  </div>
-  <div class="listing-row">
-    <div class="l-body">
-      <div class="l-title">Armed Mobile Patrol Officer</div>
-      <div class="l-meta">
-        <span class="l-co">Local Guard Firm</span>
-        <span class="l-sep">·</span><span>Fort Worth, TX</span>
-        <span class="l-pay">$20–24/hr</span>
-        <span class="l-type">Full-Time</span>
-      </div>
-    </div>
-    
-  </div>
+  <div id="jobRows"></div>
+  <!-- CTA IMMEDIATELY BELOW JOB LISTINGS -->
   <div class="listings-cta">
     <p>Armed positions fill fast — most candidates who apply in the first 48 hours get a callback.</p>
-    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts &rarr;</a>
+  </div>
+</div>
+
+<!-- REGISTRATION MODAL -->
+<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
+  <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To View</div>
+    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings. We'll also alert you when new roles match yours.</div>
+    <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
+    <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
+    <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
+      <input type="checkbox" id="reg-sms-opt" onchange="togglePhone()" style="width:16px;height:16px;accent-color:#FFC300;flex-shrink:0;">
+      <span style="font-size:0.84rem;color:#1a1a1a;">Text me when armed jobs are posted</span>
+    </label>
+    <div id="reg-phone-wrap" style="display:none;margin-bottom:14px;">
+      <input id="reg-phone" type="tel" placeholder="Mobile Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;box-sizing:border-box;">
+      <p style="font-size:0.68rem;color:#5a6474;margin-top:6px;line-height:1.5;">By entering your number you agree to receive SMS job alerts from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
+    </div>
+    <div id="reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
+    <button onclick="submitReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network &amp; View Job &rarr;</button>
+    <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
+    <button onclick="closeModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">&times;</button>
   </div>
 </div>
 
@@ -421,7 +377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
-<div class="alert-wrap" id="alerts" data-nosnippet>
+<div class="alert-wrap" id="alerts" data-nosnippet data-nosnippet>
   <h2>Don't See The Right <span>Armed Security Job?</span></h2>
   <p>New Level 3 openings posted daily across DFW. Be first in line.</p>
       <div class="alert-form" id="alertForm">
@@ -467,6 +423,103 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   window.addEventListener('scroll', check, { passive: true });
   check();
 })();
+
+// JOB FEED
+var pendingApplyUrl = '';
+var sessionUnlocked = false;
+if (document.cookie.indexOf('bbj_registered=1') !== -1) { sessionUnlocked = true; }
+var CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=860426680&single=true&output=csv';
+
+function parseCSV(text) {
+  var lines = text.trim().split('\n');
+  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
+  return lines.slice(1).map(function(line) {
+    var cols = []; var cur = ''; var inQ = false;
+    for (var i = 0; i < line.length; i++) {
+      var c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    cols.push(cur);
+    var obj = {};
+    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
+    return obj;
+  });
+}
+
+function renderJobs(jobs) {
+  var active = jobs.filter(function(j){ return j.active === 'yes'; });
+  var container = document.getElementById('jobRows');
+  var tag = document.getElementById('listingsTag');
+  if (!active.length) {
+    container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
+    tag.textContent = 'Updated regularly';
+    return;
+  }
+  active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
+  var display = active.slice(0, 5);
+  tag.textContent = active.length + ' open positions';
+  container.innerHTML = display.map(function(job, i) {
+    var isNew = i < 2;
+    var applyUrl = encodeURIComponent(job.apply_link || '');
+    return '<div class="listing-row" style="padding-top:14px;padding-bottom:14px;">' +
+      '<div class="l-body">' +
+        '<div class="l-title">' + (job.title || '') + '</div>' +
+        '<div class="l-meta">' +
+          '<span class="l-co">' + (job.company || '') + '</span>' +
+          '<span class="l-sep">·</span>' +
+          '<span>' + (job.location || '') + '</span>' +
+        '</div>' +
+      '</div>' +
+      (isNew ? '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center;">New</span>' : '') +
+      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:8px 16px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">View</button>' +
+    '</div>';
+  }).join('');
+}
+
+function handleApply(encodedUrl) {
+  pendingApplyUrl = decodeURIComponent(encodedUrl);
+  if (sessionUnlocked) { window.open(pendingApplyUrl, '_blank'); }
+  else { document.getElementById('regModal').style.display = 'flex'; }
+}
+
+function closeModal() { document.getElementById('regModal').style.display = 'none'; }
+
+function togglePhone() {
+  var wrap = document.getElementById('reg-phone-wrap');
+  var checked = document.getElementById('reg-sms-opt').checked;
+  wrap.style.display = checked ? 'block' : 'none';
+  if (!checked) document.getElementById('reg-phone').value = '';
+}
+
+function submitReg() {
+  var name = document.getElementById('reg-name').value.trim();
+  var email = document.getElementById('reg-email').value.trim();
+  var smsOpt = document.getElementById('reg-sms-opt').checked;
+  var phone = smsOpt ? document.getElementById('reg-phone').value.trim() : '';
+  var err = document.getElementById('reg-error');
+  err.style.display = 'none';
+  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
+  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'armed', city: 'dfw', source: window.location.href, consent: true })
+  });
+  sessionUnlocked = true;
+  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'job_apply_click', role:'armed', page_url:window.location.href});
+  closeModal();
+  if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
+}
+
+fetch(CSV_URL)
+  .then(function(r){ return r.text(); })
+  .then(function(text){ renderJobs(parseCSV(text)); })
+  .catch(function(){ document.getElementById('listingsTag').textContent = 'Updated regularly'; });
+
 function submitAlert(){
   var zip=document.getElementById('a-zip').value.trim();
   var ph=document.getElementById('a-ph').value.trim();
