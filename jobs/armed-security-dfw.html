@@ -1627,31 +1627,28 @@ function parseCSV(text) {
 function renderJobs(jobs) {
   var active = jobs.filter(function(j){ return j.active === 'yes'; });
   var container = document.getElementById('jobRows');
+  if (!container) return;
   if (!active.length) {
-    container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
-    
+    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
     return;
   }
   active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
   var display = active.slice(0, 5);
-  
-  container.innerHTML = display.map(function(job, i) {
-    var isNew = i < 2;
+  container.innerHTML = display.map(function(job) {
     var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="listing-row" style="padding-top:14px;padding-bottom:14px;">' +
-      '<div class="l-body">' +
-        '<div class="l-title">' + (job.title || '') + '</div>' +
-        '<div class="l-meta">' +
-          '<span class="l-co">' + (job.company || '') + '</span>' +
-          '<span class="l-sep">·</span>' +
-          '<span>' + (job.location || '') + '</span>' +
-        '</div>' +
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
+      '<div class="hf-body">' +
+        '<div class="hf-title">' + (job.title || '') + '</div>' +
+        '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
       '</div>' +
-      (isNew ? '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center;">New</span>' : '') +
-      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:8px 16px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">View</button>' +
+      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
+        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
+        '<button onclick="handleApply(\'' + applyUrl + '\')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
+      '</div>' +
     '</div>';
   }).join('');
 }
+
 
 function handleApply(encodedUrl) {
   pendingApplyUrl = decodeURIComponent(encodedUrl);
