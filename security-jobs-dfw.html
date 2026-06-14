@@ -9,7 +9,10 @@
 <meta property="og:description" content="Salary data, licensing requirements, top employers, and career paths for security professionals across Dallas–Fort Worth.">
 <meta property="og:url" content="https://www.blackbarjobs.com/security-jobs-dfw">
 <meta property="og:type" content="article">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23000814'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='13' fill='%23FFC300'>BB</text></svg>">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -49,8 +52,11 @@ html { scroll-behavior: smooth; }
 body { font-family: 'Barlow', sans-serif; background: var(--white); color: var(--charcoal); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
 
 /* NAV */
-nav.site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white); border-bottom: 1px solid var(--border); padding: 10px 20px; display: flex; align-items: center; }
-.nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; text-decoration: none; border-bottom: 7px solid #111; padding-bottom: 3px; display: inline-block; }
+nav.site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(--white);  padding: 10px 20px; display: flex; align-items: center; }
+.nav-logo { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1.25rem; color: #111; text-decoration: none;   display: inline-block; }
+
+.logo-bb { border-bottom: 9px solid #111; padding-bottom: 3px; display: inline-block; line-height: 1; }
+.logo-gold { color: #FFC300; }
 .nav-logo span { color: var(--gold); }
 .nav-logo .ns { color: #111; font-weight: 600; font-size: 1rem; opacity: 0.55; margin-left: 6px; }
 
@@ -159,15 +165,76 @@ footer p { font-size: 0.7rem; color: rgba(255,255,255,0.26); }
 footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
 
 @media (min-width: 640px) { .article { padding: 56px 44px 80px; } }
+/* STICKY BAR */
+  .sticky-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 999; }
+  @media (max-width: 639px) {
+    body { padding-bottom: 74px; }
+    .sticky-bar.show {
+      display: block !important;
+      padding: 10px 16px 16px;
+      background: #000814;
+      border-top: 2px solid rgba(255,195,0,0.4);
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.5);
+    }
+    .sticky-bar.show a {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 15px;
+      background: #FFC300;
+      color: #000814;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+  }
+
+  /* JOB LISTINGS */
+  .listings { background: var(--white, #fff); }
+  .listings-top { display:flex;align-items:center;justify-content:space-between;padding:14px 20px 10px;border-bottom:2px solid #000814; }
+  .listings-label { font-family:'Barlow Condensed',sans-serif;font-size:0.7rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:#5a6474; }
+  .listings-tag { font-size:0.68rem;color:#5a6474; }
+  .listing-row { display:flex;align-items:center;gap:10px;padding:10px 20px;border-bottom:1px solid #e2e5ea; }
+  .listing-row:last-of-type { border-bottom:none; }
+  .l-body { flex:1;min-width:0; }
+  .l-title { font-family:'Barlow Condensed',sans-serif;font-size:0.97rem;font-weight:800;color:#000814;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+  .l-meta { display:flex;align-items:center;flex-wrap:nowrap;gap:0;margin-top:2px;font-size:0.7rem;color:#5a6474;overflow:hidden; }
+  .l-co { font-weight:600;color:#1a1a1a; }
+  .l-sep { margin:0 4px;color:#d0d5dd; }
+  .l-pay { font-size:0.67rem;font-weight:700;color:#1a6b2e;background:#e6f4eb;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
+  .l-type { font-size:0.62rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#5a6474;border:1px solid #e2e5ea;padding:1px 5px;border-radius:3px;margin-left:5px;white-space:nowrap;flex-shrink:0; }
+  .l-new { font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#FFC300;color:#000814;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center; }
+  .listings-cta { background:var(--navy);border-top:none;padding:20px;text-align:center; }
+  .listings-cta p { font-size:0.82rem;color:rgba(255,255,255,0.6);margin-bottom:11px;line-height:1.45; }
+  @media(min-width:640px){.listings-top{padding:14px 40px 10px;}.listing-row{padding:10px 40px;}.listings-cta{padding:18px 40px;}}
 </style>
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window,document,"clarity","script","wvxhs1xht1");
+</script>
+<!-- Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039190320"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17039190320');</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
+<div class="sticky-bar" id="stickyBar">
+  <a href="#alerts">Get Free Job Alerts</a>
+</div>
+
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <nav class="site-nav">
-  <a href="/" class="nav-logo">BlackBar<span>Jobs</span><span class="ns">| Security</span></a>
+  <a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="ns">| Security</span></a>
 </nav>
 
 <section class="hero">
@@ -187,6 +254,78 @@ footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
     <a href="#alerts" class="btn-primary">Get Job Alerts</a>
   </div>
 </section>
+
+<div class="listings">
+  <div class="listings-top">
+    <span class="listings-label">Now Hiring</span>
+    <span class="listings-tag">Updated regularly</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Unarmed Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">Allied Universal</span>
+        <span class="l-sep">·</span><span>Dallas–Fort Worth, TX</span>
+        <span class="l-pay">$17–21/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    <span class="l-new">New</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Security Guard — Residential</div>
+      <div class="l-meta">
+        <span class="l-co">Securitas</span>
+        <span class="l-sep">·</span><span>Dallas–Fort Worth, TX</span>
+        <span class="l-pay">$16–20/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    <span class="l-new">New</span>
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Corporate Lobby Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">G4S</span>
+        <span class="l-sep">·</span><span>Dallas–Fort Worth, TX</span>
+        <span class="l-pay">$18–23/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Overnight Security Guard</div>
+      <div class="l-meta">
+        <span class="l-co">Allied Universal</span>
+        <span class="l-sep">·</span><span>Dallas–Fort Worth, TX</span>
+        <span class="l-pay">$17–21/hr</span>
+        <span class="l-type">Full-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listing-row">
+    <div class="l-body">
+      <div class="l-title">Part-Time Security Officer</div>
+      <div class="l-meta">
+        <span class="l-co">Local Guard Firm</span>
+        <span class="l-sep">·</span><span>Dallas–Fort Worth, TX</span>
+        <span class="l-pay">$15–19/hr</span>
+        <span class="l-type">Part-Time</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="listings-cta">
+    <p>New positions posted regularly. Get notified the moment one opens near you.</p>
+    <a href="#alerts" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">Get Free Job Alerts →</a>
+  </div>
+</div>
+
 
 <div class="article">
 
@@ -509,18 +648,19 @@ footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
     </div>
   </div>
 </div>
-<div class="alert-wrap" id="alerts">
+<div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Get DFW Security <span>Job Alerts</span></h2>
   <p>New openings across Dallas–Fort Worth posted daily. Be first to apply.</p>
-  <div class="alert-form" id="alertForm">
-    <div class="alert-field"><span class="alert-icon">👤</span><input id="a-firstname" type="text" autocomplete="given-name" placeholder="First Name"></div>
-    <div class="alert-field"><span class="alert-icon">👤</span><input id="a-lastname" type="text" autocomplete="family-name" placeholder="Last Name"></div>
-    <div class="alert-field"><span class="alert-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="alert-field"><span class="alert-icon">📱</span><input id="a-phone" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="alert-field"><span class="alert-icon">✉️</span><input id="a-email" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
+      <div class="alert-form" id="alertForm">
+    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
+    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
+    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Job Alerts →</button>
-    <p class="alert-trust">No spam. Unsubscribe anytime.</p>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
+    <div class="alert-trust">
+      <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
+      No spam. Unsubscribe anytime.
+    </div>
     <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
   <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
@@ -546,25 +686,20 @@ footer a { color: rgba(255,255,255,0.26); text-decoration: underline; }
 
 <script>
 function submitAlert(){
-  var fn=document.getElementById('a-firstname').value.trim();
-  var ln=document.getElementById('a-lastname').value.trim();
   var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-phone').value.trim();
-  var em=document.getElementById('a-email').value.trim();
+  var ph=document.getElementById('a-ph').value.trim();
+  var em=document.getElementById('a-em').value.trim();
   var er=document.getElementById('alertError');
   er.style.display='none';
-  ['a-firstname','a-lastname','a-zip','a-phone','a-email'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('error');});
-  if(!fn){er.textContent='Please enter your first name.';er.style.display='block';document.getElementById('a-firstname').classList.add('error');return;}
-  if(!ln){er.textContent='Please enter your last name.';er.style.display='block';document.getElementById('a-lastname').classList.add('error');return;}
+  ['a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
   var zc=zip.replace(/\D/g,'');
-  var zv=zc.length===5&&(zc.startsWith('75')||zc.startsWith('760')||zc.startsWith('761')||zc.startsWith('762')||zc.startsWith('763'));
-  if(!zv){er.textContent='Please enter a valid DFW ZIP code (75xxx or 760-763xx).';er.style.display='block';document.getElementById('a-zip').classList.add('error');return;}
+  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
   var pc=ph.replace(/\D/g,'');
-  if(pc.length<10){er.textContent='Please enter a 10-digit phone number with area code.';er.style.display='block';document.getElementById('a-phone').classList.add('error');return;}
-  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-email').classList.add('error');return;}
+  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
+  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-em').classList.add('err');return;}
   window.dataLayer=window.dataLayer||[];
   window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),first_name:fn,last_name:ln,zip:zc,phone:pc,email:em,role:'dfw_security_guide',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'dfw_security_guide',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
   document.getElementById('alertForm').style.display='none';
   document.getElementById('alertSuccess').style.display='block';
 }
@@ -581,5 +716,16 @@ function submitAlert(){
     </ul>
   </div>
 </div>
+
+<script>
+(function(){
+  var b = document.getElementById('stickyBar');
+  var h = document.getElementById('heroAnchor') || document.querySelector('.hero') || document.querySelector('section');
+  if (!b || !h) return;
+  function chk() { b.classList.toggle('show', h.getBoundingClientRect().bottom <= 0); }
+  window.addEventListener('scroll', chk, {passive: true});
+  chk();
+})();
+</script>
 </body>
 </html>

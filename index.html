@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="Security job alerts for Dallas–Fort Worth, TX. Armed, unarmed, overnight, event, and loss prevention security officer openings across DFW — free instant alerts.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Security Jobs in Dallas–Fort Worth | BlackBarJobs</title>
-<meta name="description" content="Browse security jobs in Dallas–Fort Worth — unarmed, armed, overnight, and event security openings across DFW. Join the network and apply today.">
+<title>DFW Security Job Alerts | BlackBarJobs</title>
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 
 <!-- OG / Social sharing -->
-<meta property="og:title" content="Security Jobs in Dallas–Fort Worth | BlackBarJobs">
-<meta property="og:description" content="Browse unarmed, armed, overnight, and event security jobs across DFW. Join the network and apply to open positions today.">
+<meta property="og:title" content="BlackBarJobs — DFW Security Jobs">
+<meta property="og:description" content="Be first in line when security jobs open near you. Free SMS and email alerts.">
 <meta property="og:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <meta property="og:url" content="https://www.blackbarjobs.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Security Jobs in Dallas–Fort Worth | BlackBarJobs">
-<meta name="twitter:description" content="Browse unarmed, armed, overnight, and event security jobs across DFW. Join the network and apply today.">
+<meta name="twitter:title" content="BlackBarJobs — Security Job Alerts">
+<meta name="twitter:description" content="Be first in line when security jobs open near you.">
 <meta name="twitter:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -1076,8 +1076,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="form-card" id="signup">
     <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
-    <div class="hero-feed" id="indexJobFeed">
-      <div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Loading jobs...</div></div></div>
+    <div class="hero-feed">
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Armed Security Officer — Dallas</div><div class="hf-meta">Full-Time &nbsp;·&nbsp; $24–$30/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Overnight Security Guard — Fort Worth</div><div class="hf-meta">Part-Time &nbsp;·&nbsp; $21–$26/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Event Security Staff — Arlington</div><div class="hf-meta">Part-Time &nbsp;·&nbsp; $23–$28/hr</div></div></div>
+      <div class="hf-row"><div class="hf-body"><div class="hf-title">Mobile Patrol Officer — Plano</div><div class="hf-meta">Full-Time &nbsp;·&nbsp; $25–$32/hr</div></div></div>
     </div>
     <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
     <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
@@ -1491,130 +1494,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   })();
 
   document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
-
-
-// INDEX JOB FEED
-var indexPendingApplyUrl = '';
-var indexSessionUnlocked = false;
-if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
-var INDEX_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=908030&single=true&output=csv';
-
-function parseIndexCSV(text) {
-  var lines = text.trim().split('\n');
-  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
-  return lines.slice(1).map(function(line) {
-    var cols = []; var cur = ''; var inQ = false;
-    for (var i = 0; i < line.length; i++) {
-      var c = line[i];
-      if (c === '"') { inQ = !inQ; }
-      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
-      else { cur += c; }
-    }
-    cols.push(cur);
-    var obj = {};
-    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
-    return obj;
-  });
-}
-
-function renderIndexFeed(jobs) {
-  var active = jobs.filter(function(j){ return j.active === 'yes'; });
-  var container = document.getElementById('indexJobFeed');
-  if (!container) return;
-  if (!active.length) {
-    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
-    return;
-  }
-  active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
-  var display = active.slice(0, 5);
-  container.innerHTML = display.map(function(job) {
-    var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
-      '<div class="hf-body">' +
-        '<div class="hf-title">' + (job.title || '') + '</div>' +
-        '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
-        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleIndexApply(\'' + applyUrl + '\')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-}
-
-function handleIndexApply(encodedUrl) {
-  indexPendingApplyUrl = decodeURIComponent(encodedUrl);
-  if (indexSessionUnlocked) {
-    window.open(indexPendingApplyUrl, '_blank');
-  } else {
-    document.getElementById('indexRegModal').style.display = 'flex';
-  }
-}
-
-function closeIndexModal() {
-  document.getElementById('indexRegModal').style.display = 'none';
-}
-
-function toggleIndexPhone() {
-  var wrap = document.getElementById('index-phone-wrap');
-  var checked = document.getElementById('index-sms-opt').checked;
-  wrap.style.display = checked ? 'block' : 'none';
-  if (!checked) document.getElementById('index-reg-phone').value = '';
-}
-
-function submitIndexReg() {
-  var name = document.getElementById('index-reg-name').value.trim();
-  var email = document.getElementById('index-reg-email').value.trim();
-  var smsOpt = document.getElementById('index-sms-opt').checked;
-  var phone = smsOpt ? document.getElementById('index-reg-phone').value.trim() : '';
-  var err = document.getElementById('index-reg-error');
-  err.style.display = 'none';
-  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
-  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-    method: 'POST', headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'dfw', source: window.location.href, consent: true })
-  });
-  indexSessionUnlocked = true;
-  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
-  closeIndexModal();
-  if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
-}
-
-fetch(INDEX_CSV_URL, {mode: 'cors'})
-  .then(function(r){ return r.text(); })
-  .then(function(text){ renderIndexFeed(parseIndexCSV(text)); })
-  .catch(function(err){
-    var c = document.getElementById('indexJobFeed');
-    if (c) c.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Check back soon for open positions.</div></div></div>';
-  });
-
 </script>
-
-<!-- INDEX JOB REGISTRATION MODAL -->
-<div id="indexRegModal" style="display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
-  <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To View</div>
-    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings. We'll also alert you when new roles match yours.</div>
-    <input id="index-reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
-    <input id="index-reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
-    <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
-      <input type="checkbox" id="index-sms-opt" onchange="toggleIndexPhone()" style="width:16px;height:16px;accent-color:#FFC300;flex-shrink:0;">
-      <span style="font-size:0.84rem;color:#1a1a1a;">Text me when new security jobs are posted</span>
-    </label>
-    <div id="index-phone-wrap" style="display:none;margin-bottom:14px;">
-      <input id="index-reg-phone" type="tel" placeholder="Mobile Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;box-sizing:border-box;">
-      <p style="font-size:0.68rem;color:#5a6474;margin-top:6px;line-height:1.5;">By entering your number you agree to receive SMS job alerts from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
-    </div>
-    <div id="index-reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
-    <button onclick="submitIndexReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network &amp; View Job &rarr;</button>
-    <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
-    <button onclick="closeIndexModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">&times;</button>
-  </div>
-</div>
-
 </body>
 </html>
