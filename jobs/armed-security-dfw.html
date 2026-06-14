@@ -104,35 +104,35 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
   .btn-primary { display: block; width: 100%; padding: 14px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; text-align: center; transition: background 0.15s; }
   .btn-primary:hover { background: #FFD60A; }
 @media (min-width: 640px) {
-    .listings-section { padding: 24px 40px; }
-    .listings { margin: 0 auto; }
+    
+    
    }
   .hero-body { padding: 52px 48px 24px; justify-content: center; }
   .hero h1 { font-size: clamp(2.6rem, 4vw, 3.4rem); }
 }
 
 /* ── JOB LISTINGS — classifieds style (no apply button) ── */
-.listings { background: var(--white); max-width: 480px; margin: 0 auto; border-radius: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.10); overflow: hidden; }
-.listings-top { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px 8px; border-bottom: 1px solid var(--border); }
-.listings-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); }
-.listings-tag { font-size: 0.68rem; color: var(--muted); }
-.listing-row { display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-bottom: 1px solid var(--border); }
-.listing-row:last-of-type { border-bottom: none; }
-.l-body { flex: 1; min-width: 0; }
-.l-title { font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 800; color: var(--navy-deep); line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.l-meta { display: flex; align-items: center; flex-wrap: nowrap; gap: 0; margin-top: 1px; font-size: 0.68rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.l-co { font-weight: 600; color: var(--char); }
-.l-sep { margin: 0 4px; color: #d0d5dd; }
-.l-pay { font-size: 0.67rem; font-weight: 700; color: #1a6b2e; background: #e6f4eb; padding: 1px 5px; border-radius: 3px; margin-left: 5px; white-space: nowrap; flex-shrink: 0; }
-.l-type { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--border); padding: 1px 5px; border-radius: 3px; margin-left: 5px; white-space: nowrap; flex-shrink: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .l-new { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; background: var(--gold); color: var(--navy); padding: 2px 7px; border-radius: 3px; flex-shrink: 0; align-self: center; }
 /* CTA BELOW LISTINGS — fold 1 exit CTA */
-.listings-cta { background: var(--navy); padding: 14px 16px; text-align: center; }
-.listings-cta p { font-size: 0.82rem; color: rgba(255,255,255,0.65); margin-bottom: 11px; line-height: 1.45; }
+
+
 @media (min-width: 640px) {
-  .listings-top { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px 8px; border-bottom: 1px solid var(--border); }
-  .listing-row { display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-bottom: 1px solid var(--border); }
-  .listings-cta { background: var(--navy); padding: 14px 16px; text-align: center; }
+  
+  
+  
 }
 
 /* ── SECTIONS ── */
@@ -227,7 +227,106 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .alert-field { position: relative; }
   .alert-field-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1rem; pointer-events: none; line-height: 1; }
   /* ── LISTINGS SECTION WRAPPER ── */
+.form-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 16px 16px 16px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+  }
+  .form-card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy-deep);
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  /* ── HERO FEED — CLASSIFIEDS ── */
+  .hero-feed {
+    display: flex; flex-direction: column;
+    margin-bottom: 12px;
+    border-top: 2px solid var(--navy-deep);
+    border-bottom: 1px solid #c8cdd4;
+  }
+  .hf-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #e2e5ea;
+    background: transparent;
+  }
+  .hf-row:last-child { border-bottom: none; }
+  .hf-body { flex: 1; min-width: 0; }
+  .hf-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 800;
+    color: var(--navy-deep); line-height: 1.15;
+    letter-spacing: 0.01em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .hf-meta {
+    display: flex; align-items: center; gap: 0;
+    margin-top: 1px; flex-wrap: nowrap;
+    font-size: 0.68rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-weight: 400;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .hf-company { font-weight: 600; color: var(--charcoal); }
+  .hf-sep { margin: 0 4px; color: #c8cdd4; }
+  .hf-location { color: var(--muted); }
+  .hf-tag {
+    display: inline-block;
+    font-size: 0.6rem; font-weight: 700;
+    letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); border: 1px solid #c8cdd4;
+    padding: 1px 4px; border-radius: 2px;
+    margin-left: 5px; white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .hf-apply {
+    flex-shrink: 0; align-self: center;
+    padding: 5px 11px;
+    background: var(--navy-deep);
+    color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: 1.5px solid var(--navy-deep);
+    border-radius: 2px;
+    cursor: pointer; text-decoration: none;
+    display: inline-block;
+    transition: background 0.12s, color 0.12s;
+    white-space: nowrap;
+  }
+  .hf-apply:hover { background: var(--navy-light); border-color: var(--navy-light); }
+  .hf-loading {
+    text-align: center; padding: 16px 0;
+    font-size: 0.8rem; color: var(--muted); font-weight: 500;
+  }
+  .hf-error {
+    font-size: 0.75rem; color: var(--muted);
+    padding: 10px 0; text-align: center;
+  }
+
+  /* ── HUB LISTING CARD — mirrors index form-card exactly ── */
+  .listings         { background: var(--white); border-radius: 16px; padding: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.35); overflow: hidden; max-width: 420px; margin: 0 auto; }
+  .listings-top     { display: flex; align-items: center; justify-content: space-between; padding: 0 0 0 0; margin-bottom: 10px; border-top: 2px solid var(--navy-deep); border-bottom: 1px solid #c8cdd4; }
+  .listings-label   { font-family: 'Barlow Condensed', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--navy-deep); letter-spacing: 0.02em; text-transform: uppercase; padding: 8px 0 6px; }
+  .listing-row      { display: flex; align-items: flex-start; gap: 10px; padding: 5px 0; border-bottom: 1px solid #e2e5ea; background: transparent; }
+  .listing-row:last-of-type { border-bottom: none; }
+  .l-body           { flex: 1; min-width: 0; }
+  .l-title          { font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 800; color: var(--navy-deep); line-height: 1.15; letter-spacing: 0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .l-meta           { display: flex; align-items: center; gap: 0; margin-top: 1px; flex-wrap: nowrap; font-size: 0.68rem; color: var(--muted); font-family: 'Barlow', sans-serif; font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .l-co             { font-weight: 600; color: var(--charcoal); }
+  .l-sep            { margin: 0 4px; color: #c8cdd4; }
+  .l-type           { display: inline-block; font-size: 0.6rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); border: 1px solid #c8cdd4; padding: 1px 4px; border-radius: 2px; margin-left: 5px; white-space: nowrap; flex-shrink: 0; }
+  .listings-cta     { background: var(--white); border-top: 1px solid #e2e5ea; padding: 10px 0 4px; text-align: center; }
+  .listings-cta p   { font-size: 0.78rem; color: var(--muted); margin-bottom: 10px; line-height: 1.5; text-align: center; }
+
   .listings-section { background: var(--navy); padding: 8px 20px 20px; }
+
+  @media (min-width: 640px) { .listings-section { padding: 24px 40px; } .listings { max-width: 420px; } }
 </style>
 </head>
 <body>
@@ -260,7 +359,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="listings">
   <div class="listings-top">
     <span class="listings-label">Now Hiring — DFW</span>
-    <span class="listings-tag" id="listingsTag">Loading jobs...</span>
   </div>
   <div id="jobRows"></div>
   <!-- CTA IMMEDIATELY BELOW JOB LISTINGS -->
@@ -456,7 +554,6 @@ function parseCSV(text) {
 function renderJobs(jobs) {
   var active = jobs.filter(function(j){ return j.active === 'yes'; });
   var container = document.getElementById('jobRows');
-  var tag = document.getElementById('listingsTag');
   if (!active.length) {
     container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
     tag.textContent = 'Updated regularly';
@@ -523,7 +620,6 @@ function submitReg() {
 fetch(CSV_URL)
   .then(function(r){ return r.text(); })
   .then(function(text){ renderJobs(parseCSV(text)); })
-  .catch(function(){ document.getElementById('listingsTag').textContent = 'Updated regularly'; });
 
 function submitAlert(){
   var zip=document.getElementById('a-zip').value.trim();
