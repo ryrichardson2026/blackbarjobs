@@ -935,6 +935,21 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   /* ── HUB HERO FINAL ── */
   .hero { margin-top:49px; background:#111; position:relative; overflow:hidden; display:block; }
   @media(min-width:640px){ .hero { min-height:300px; } }
+  /* ── FIX 1: Modal centered on mobile (not bottom sheet) ── */
+  .modal-overlay { align-items: center; justify-content: center; padding: 16px; }
+  .modal-sheet { border-radius: 20px; width: 100%; max-width: 480px; max-height: 92dvh; }
+  .modal-handle { display: none; }
+  .modal-overlay.open .modal-sheet { transform: none; opacity: 1; }
+
+  /* ── FIX 2: Close button always on top ── */
+  .modal-close { position: absolute; top: 12px; right: 12px; z-index: 10; 
+    width: 32px; height: 32px; border-radius: 50%; background: var(--off-white, #f4f5f7); 
+    border: none; cursor: pointer; font-size: 1rem; display: flex; 
+    align-items: center; justify-content: center; pointer-events: all; }
+
+  /* ── FIX 3: CTA button centered ── */
+  .listings-cta .btn-primary { display: block; margin: 0 auto; }
+  .listings-cta { text-align: center; }
 </style>
 </head>
 <body>
@@ -1343,7 +1358,7 @@ function submitAlert(){
   function closeModal() {
     var sheet = document.getElementById('modalSheet');
     var isMobile = window.innerWidth < 640;
-    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
+    sheet.style.transform = 'translateY(10px) scale(0.97)';
     sheet.style.opacity = '0';
     setTimeout(function() {
       document.getElementById('modalOverlay').classList.remove('open');
