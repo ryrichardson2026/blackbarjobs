@@ -1285,7 +1285,7 @@ function submitReg() {
 fetch(CSV_URL)
   .then(function(r){ return r.text(); })
   .then(function(text){ renderJobs(parseCSV(text)); })
-  .catch(function(){ document.getElementById('listingsTag').textContent = 'Updated regularly'; });
+  .catch(function(){ console.log('Job feed fetch failed'); });
 
 // ALERT FORM
 function submitAlert(){
