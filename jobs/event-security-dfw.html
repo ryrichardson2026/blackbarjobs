@@ -577,6 +577,7 @@ function parseCSV(text) {
   });
 }
 
+var tag = document.getElementById('listingsTag');
 function renderJobs(jobs) {
   var active = jobs.filter(function(j){ return j.active === 'yes'; });
   var container = document.getElementById('jobRows');
