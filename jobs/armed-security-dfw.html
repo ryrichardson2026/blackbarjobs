@@ -994,8 +994,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <!-- REGISTRATION MODAL -->
-<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
+<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;" onclick="if(event.target===this)this.style.display='none';">
   <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
+    <button onclick="document.getElementById('regModal').style.display='none';" style="position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.3rem;cursor:pointer;color:#5a6474;line-height:1;padding:4px;">✕</button>
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To View</div>
     <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings. We'll also alert you when new roles match yours.</div>
     <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
@@ -1181,12 +1182,12 @@ function renderJobs(jobs) {
   var container = document.getElementById('jobRows');
   if (!active.length) {
     container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
-    tag.textContent = 'Updated regularly';
+    // tag.textContent removed
     return;
   }
   active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
   var display = active.slice(0, 5);
-  tag.textContent = active.length + ' open positions';
+  // tag.textContent removed
   container.innerHTML = display.map(function(job, i) {
     var isNew = i < 2;
     var applyUrl = encodeURIComponent(job.apply_link || '');
