@@ -1297,7 +1297,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
     <button onclick="submitReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network &amp; View Job &rarr;</button>
     <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
-    <button onclick="closeModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">&times;</button>
+    <button onclick="closeRegModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">&times;</button>
   </div>
 </div>
 
@@ -1517,7 +1517,7 @@ function handleApply(encodedUrl) {
   else { document.getElementById('regModal').style.display = 'flex'; }
 }
 
-function closeModal() { document.getElementById('regModal').style.display = 'none'; }
+function closeRegModal() { document.getElementById('regModal').style.display = 'none'; }
 
 function togglePhone() {
   var wrap = document.getElementById('reg-phone-wrap');
@@ -1544,7 +1544,7 @@ function submitReg() {
   document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event:'job_apply_click', role:'event', page_url:window.location.href});
-  closeModal();
+  closeRegModal();
   if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
 }
 
