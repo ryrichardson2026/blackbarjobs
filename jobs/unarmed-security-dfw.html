@@ -1493,14 +1493,14 @@ function renderJobs(jobs) {
   active.sort(function(a,b){ return new Date(b.date_pulled||0)-new Date(a.date_pulled||0); });
   container.innerHTML = active.slice(0,5).map(function(job){
     var url = encodeURIComponent(job.apply_link||'');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'  +
       '<div class="hf-body">' +
         '<div class="hf-title">'+(job.title||'')+'</div>' +
         '<div class="hf-meta">'+(job.company||'')+' &nbsp;&middot;&nbsp; '+(job.location||'')+'</div>' +
       '</div>' +
       '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
         '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleApply(\''+url+'\');" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
       '</div>' +
     '</div>';
   }).join('');
