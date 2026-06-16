@@ -1180,6 +1180,17 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .footer-links a:hover { text-decoration: underline; }
   .footer-links span { color: #d1d5db; }
 
+
+  /* ── SKELETON LOADER ── */
+  .skeleton-row { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #e2e5ea; }
+  .skeleton-row:last-child { border-bottom: none; }
+  .skeleton-body { flex: 1; min-width: 0; }
+  .skeleton-line { background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: 4px; }
+  .skeleton-title { height: 13px; width: 75%; margin-bottom: 6px; }
+  .skeleton-meta { height: 10px; width: 50%; }
+  .skeleton-btn { width: 46px; height: 28px; border-radius: 8px; flex-shrink: 0; }
+  @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
 </style>
 <script type="application/ld+json">
 {
@@ -1267,7 +1278,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="form-card" id="signup">
     <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
     <div class="hero-feed" id="jobRows">
-      <div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Loading jobs...</div></div></div>
+      <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
     <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
     <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
