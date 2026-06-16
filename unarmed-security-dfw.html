@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Unarmed Security Jobs in DFW | BlackBarJobs</title>
-<meta name="description" content="Unarmed security officer jobs in Dallas–Fort Worth. Level 2 positions across DFW — $17–23/hr pay rates and free instant alerts.">
+<title>Unarmed Security Jobs in DFW | Level 2 Pay & Openings 2026 | BlackBarJobs</title>
+<meta name="description" content="Unarmed security jobs in DFW pay $14–$22/hr. Level 2 officer openings across Dallas and Fort Worth — entry level welcome, apply free.">
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/unarmed-security-dfw">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
-<meta property="og:title" content="Unarmed Security Jobs in DFW | BlackBarJobs">
+<meta property="og:title" content="Unarmed Security Jobs in DFW | Level 2 Pay & Openings 2026 | BlackBarJobs">
 <meta property="og:description" content="Browse live unarmed security job listings in Dallas–Fort Worth. View open positions, join the network, and apply today.">
 <meta property="og:url" content="https://www.blackbarjobs.com/jobs/unarmed-security-dfw">
 <meta property="og:type" content="website">
@@ -83,48 +83,54 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
   }
 
 /* ── HERO — NOT full screen height ── */
-
+.hero {
+  margin-top: 49px;
+  background: #111;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+}
 .hero-img-wrap { position: absolute; inset: 0; }
 .hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; filter: brightness(0.45) saturate(0.7); display: block; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,8,20,0.1) 0%, rgba(0,8,20,0.75) 60%); }
-
+.hero-body { position: relative; z-index: 2; padding: 52px 20px 36px; display: flex; flex-direction: column; }
 .hero-badge { display: inline-block; font-family: 'Barlow Condensed', sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(255,195,0,0.4); padding: 3px 9px; border-radius: 3px; margin-bottom: 10px; width: fit-content; }
 .hero h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: clamp(2.1rem, 7vw, 3rem); line-height: 1.0; color: var(--white); margin-bottom: 8px; }
 .hero h1 em { color: var(--gold); font-style: normal; }
-
+.hero-sub { font-size: 0.95rem; color: rgba(255,255,255,0.65); max-width: 460px; line-height: 1.5; margin-bottom: 18px; }
 .btn-gold { display: inline-block; padding: 13px 22px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; transition: background 0.15s; }
 .btn-gold:hover { background: var(--gold-hv); }
 .btn-gold.block { display: block; width: 100%; text-align: center; }
   .btn-primary { display: block; width: 100%; padding: 14px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; text-align: center; transition: background 0.15s; }
-  .btn-primary:hover { background: #FFD60A; }
+  
 @media (min-width: 640px) {
-  
-  
+  .hero { min-height: 380px; }
+  .hero-body { padding: 60px 48px 44px; justify-content: center; }
   .hero h1 { font-size: clamp(2.6rem, 4vw, 3.4rem); }
 }
 
 /* ── JOB LISTINGS — classifieds style (no apply button) ── */
-
-
-
+.listings { background: var(--white); }
+.listings-top { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px 10px; border-bottom: 2px solid var(--navy); }
+.listings-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); }
 .listings-tag { font-size: 0.68rem; color: var(--muted); }
-
-
-
-
-
-
-
+.listing-row { display: flex; align-items: center; gap: 10px; padding: 10px 20px; border-bottom: 1px solid var(--border); }
+.listing-row:last-of-type { border-bottom: none; }
+.l-body { flex: 1; min-width: 0; }
+.l-title { font-family: 'Barlow Condensed', sans-serif; font-size: 0.97rem; font-weight: 800; color: var(--navy); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.l-meta { display: flex; align-items: center; flex-wrap: nowrap; gap: 0; margin-top: 2px; font-size: 0.7rem; color: var(--muted); overflow: hidden; }
+.l-co { font-weight: 600; color: var(--char); }
+.l-sep { margin: 0 4px; color: #d0d5dd; }
 .l-pay { font-size: 0.67rem; font-weight: 700; color: #1a6b2e; background: #e6f4eb; padding: 1px 5px; border-radius: 3px; margin-left: 5px; white-space: nowrap; flex-shrink: 0; }
-
+.l-type { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--border); padding: 1px 5px; border-radius: 3px; margin-left: 5px; white-space: nowrap; flex-shrink: 0; }
 .l-new { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; background: var(--gold); color: var(--navy); padding: 2px 7px; border-radius: 3px; flex-shrink: 0; align-self: center; }
 /* CTA BELOW LISTINGS — fold 1 exit CTA */
-
-
+.listings-cta { background: var(--navy); border-top: 1px solid var(--border); padding: 16px 20px; text-align: center; }
+.listings-cta p { font-size: 0.82rem; color: rgba(255,255,255,0.65); margin-bottom: 11px; line-height: 1.45; }
 @media (min-width: 640px) {
-  
-  
-  
+  .listings-top { padding: 14px 40px 10px; }
+  .listing-row { padding: 10px 40px; }
+  .listings-cta { padding: 18px 40px; }
 }
 
 /* ── SECTIONS ── */
@@ -218,23 +224,275 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .trust-pill::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
   .alert-field { position: relative; }
   .alert-field-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1rem; pointer-events: none; line-height: 1; }
-  .listings-section { background: var(--navy); padding: 8px 20px 20px; }
-  @media(min-width:640px){ .listings-section { padding: 24px 40px; } }
+  /* INDEX SECTION 1 CSS */
+.hero {
+    margin-top: 49px;
+    background: #1a1a1a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,195,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,195,0,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-image-wrap {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .hero-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    filter: brightness(0.55) saturate(0.7);
+    display: block;
+  }
+  .hero-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.65) 60%);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 120px 16px 16px;
+  }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 9vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--white);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h1 em { color: var(--gold); font-style: normal; }
+  .hero-sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    line-height: 1.55;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* ── FORM CARD ── */
+  .form-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 16px 16px 16px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+  }
+  .form-card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy-deep);
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  /* ── HERO FEED — CLASSIFIEDS ── */
+  .hero-feed {
+    display: flex; flex-direction: column;
+    margin-bottom: 12px;
+    border-top: 2px solid var(--navy-deep);
+    border-bottom: 1px solid #c8cdd4;
+  }
+  .hf-row {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #e2e5ea;
+    background: transparent;
+  }
+  .hf-row:last-child { border-bottom: none; }
+  .hf-body { flex: 1; min-width: 0; }
+  .hf-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 800;
+    color: var(--navy-deep); line-height: 1.15;
+    letter-spacing: 0.01em;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .hf-meta {
+    display: flex; align-items: center; gap: 0;
+    margin-top: 1px; flex-wrap: nowrap;
+    font-size: 0.68rem; color: var(--muted);
+    font-family: 'Barlow', sans-serif; font-weight: 400;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .hf-company { font-weight: 600; color: var(--charcoal); }
+  .hf-sep { margin: 0 4px; color: #c8cdd4; }
+  .hf-location { color: var(--muted); }
+  .hf-tag {
+    display: inline-block;
+    font-size: 0.6rem; font-weight: 700;
+    letter-spacing: 0.07em; text-transform: uppercase;
+    color: var(--muted); border: 1px solid #c8cdd4;
+    padding: 1px 4px; border-radius: 2px;
+    margin-left: 5px; white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .hf-apply {
+    flex-shrink: 0; align-self: center;
+    padding: 5px 11px;
+    background: var(--navy-deep);
+    color: var(--gold);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem; font-weight: 800;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    border: 1.5px solid var(--navy-deep);
+    border-radius: 2px;
+    cursor: pointer; text-decoration: none;
+    display: inline-block;
+    transition: background 0.12s, color 0.12s;
+    white-space: nowrap;
+  }
+  .hf-apply:hover { background: var(--navy-light); border-color: var(--navy-light); }
+  .hf-loading {
+    text-align: center; padding: 16px 0;
+    font-size: 0.8rem; color: var(--muted); font-weight: 500;
+  }
+  .hf-error {
+    font-size: 0.75rem; color: var(--muted);
+    padding: 10px 0; text-align: center;
+  }
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    -webkit-appearance: none;
+    text-align: center;
+  }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* ── MODAL (verbatim from index) ── */
-.field-wrap { position: relative; }
+  .btn-primary:active { transform: scale(0.985); }
+  .form-trust {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.72rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  /* ── STICKY BAR ── */
+  /* STICKY BAR */
+  .sticky-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 999; }
+  @media (max-width: 639px) {
+    body { padding-bottom: 74px; }
+    .sticky-bar.show {
+      display: block !important;
+      padding: 10px 16px 16px;
+      background: #000814;
+      border-top: 2px solid rgba(255,195,0,0.4);
+      box-shadow: 0 -4px 24px rgba(0,0,0,0.5);
+    }
+    .sticky-bar.show a {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 15px;
+      background: #FFC300;
+      color: #000814;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+  }
+
+  /* ── SECTIONS ── */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 20px;
+    margin: 0 0 20px;
+  }
+  /* FIX HERO → DARK SECTION SEAM */
+  .why-section-dark .section-divider:first-child {
+    margin-top: 0;
+    padding-top: 28px;
+  }
+  .section-divider::before, .section-divider::after {
+    content: ''; flex: 1; height: 1px; background: var(--border);
+  }
+  .section-divider span {
+    font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted); white-space: nowrap;
+  }
+  .section-head { padding: 0 20px; margin-bottom: 16px; }
+  .section-head h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(1.7rem, 6vw, 2.2rem);
+    font-weight: 800;
+    color: var(--navy-deep);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .section-head p { margin-top: 6px; font-size: 0.9rem; color: var(--muted); max-width: 480px; }
+
+  /* ── JOB GRID ── */
+  .job-types { padding: 0 16px 28px; }
+  .job-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .job-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: border-color 0.12s, box-shadow 0.12s;
+  }
+  a.job-card:hover { border-color: var(--navy-light); box-shadow: 0 2px 10px rgba(0,53,102,0.08); }
+  .job-card-icon {
+    width: 36px; height: 36px;
+    border-radius: 9px;
+    background: var(--navy-deep);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem; flex-shrink: 0;
+  }
+  .job-card-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.92rem; font-weight: 700;
+    color: var(--navy-deep); line-height: 1.2;
+  }
+  .job-card-sub { font-size: 0.7rem; color: var(--muted); font-weight: 500; }
+
+  .field-wrap { position: relative; }
   .field-icon {
     position: absolute;
     left: 14px; top: 50%;
@@ -649,7 +907,11 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   /* ── DESKTOP ── */
   @media (min-width: 640px) {
     /* Hero — full bleed image, content layered over it */
-    
+    .hero {
+      flex-direction: column;
+      min-height: calc(100vh - 49px);
+      align-items: stretch;
+    }
     .hero-image-wrap {
       position: absolute;
       inset: 0;
@@ -689,7 +951,12 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
       text-align: left;
       margin-bottom: 16px;
     }
-    
+    .hero-sub {
+      text-align: left;
+      font-size: 1.1rem;
+      max-width: 420px;
+      margin-bottom: 0;
+    }
     .hero-stat-row {
       display: flex;
       gap: 32px;
@@ -714,7 +981,14 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
       text-transform: uppercase;
       color: rgba(255,255,255,0.45);
     }
-    
+    .form-card {
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 28px 24px 22px;
+      background: rgba(255,255,255,0.97);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08);
+    }
 
     .nudge-desktop { display: grid; }
     .nudge-desktop-right { display: flex; }
@@ -905,125 +1179,52 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .footer-links a { color: var(--muted, #6b7280); text-decoration: none; }
   .footer-links a:hover { text-decoration: underline; }
   .footer-links span { color: #d1d5db; }
-  /* ── RESTORE HUB HERO (overrides index modal CSS) ── */
-  
-  .hero-img-wrap { position:absolute; inset:0; }
-  .hero-img-wrap img { width:100%; height:100%; object-fit:cover; object-position:center 30%; filter:brightness(0.45); }
-  .hero-overlay { position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,8,20,0.1) 0%, rgba(0,8,20,0.75) 60%); }
-  
-  @media(min-width:640px){
-    
-    
-    .hero h1 { font-size:clamp(2.6rem,4vw,3.4rem); }
-  }
-  /* ── HUB HERO SPACING — FINAL ── */
-  .hero-body { position:relative; z-index:2; padding:20px 20px 8px; display:flex; flex-direction:column; }
-  .hero-sub  { font-size:0.95rem; color:rgba(255,255,255,0.65); max-width:460px; line-height:1.5; margin-bottom:6px; }
-  @media(min-width:640px){
-    
-    .hero-body { padding:44px 48px 20px; justify-content:center; }
-    .hero h1   { font-size:clamp(2.6rem,4vw,3.4rem); }
-    .hero-sub  { font-size:1rem; }
-  }
-  /* ── HUB HERO FINAL ── */
-  .hero { margin-top:49px; background:#111; position:relative; overflow:hidden; display:block; }
-  @media(min-width:640px){ .hero { min-height:300px; } }
-  /* ── FIX 1: Modal centered on mobile (not bottom sheet) ── */
-  .modal-overlay { align-items: center; justify-content: center; padding: 16px; }
-  .modal-sheet { border-radius: 20px; width: 100%; max-width: 480px; max-height: 92dvh; }
-  .modal-handle { display: none; }
-  .modal-overlay.open .modal-sheet { transform: none; opacity: 1; }
 
-  /* ── FIX 2: Close button always on top ── */
-  .modal-close { position: absolute; top: 12px; right: 12px; z-index: 10; 
-    width: 32px; height: 32px; border-radius: 50%; background: var(--off-white, #f4f5f7); 
-    border: none; cursor: pointer; font-size: 1rem; display: flex; 
-    align-items: center; justify-content: center; pointer-events: all; }
-
-  /* ── FIX 3: CTA button centered ── */
-  /* INDEX CARD CSS VERBATIM */
-  .form-card {
-    background: var(--white);
-    border-radius: 16px;
-    padding: 16px 16px 16px;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
-  }
-  .form-card-title {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: var(--navy-deep);
-    letter-spacing: 0.02em;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-
-  /* ── HERO FEED — CLASSIFIEDS ── */
-  .hero-feed {
-    display: flex; flex-direction: column;
-    margin-bottom: 12px;
-    border-top: 2px solid var(--navy-deep);
-    border-bottom: 1px solid #c8cdd4;
-  }
-  .hf-row {
-    display: flex; align-items: flex-start; gap: 10px;
-    padding: 5px 0;
-    border-bottom: 1px solid #e2e5ea;
-    background: transparent;
-  }
-  .hf-row:last-child { border-bottom: none; }
-  .hf-body { flex: 1; min-width: 0; }
-  .hf-title {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.95rem; font-weight: 800;
-    color: var(--navy-deep); line-height: 1.15;
-    letter-spacing: 0.01em;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .hf-meta {
-    display: flex; align-items: center; gap: 0;
-    margin-top: 1px; flex-wrap: nowrap;
-    font-size: 0.68rem; color: var(--muted);
-    font-family: 'Barlow', sans-serif; font-weight: 400;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .hf-company { font-weight: 600; color: var(--charcoal); }
-  .hf-sep { margin: 0 4px; color: #c8cdd4; }
-  .hf-location { color: var(--muted); }
-  .hf-tag {
-    display: inline-block;
-    font-size: 0.6rem; font-weight: 700;
-    letter-spacing: 0.07em; text-transform: uppercase;
-    color: var(--muted); border: 1px solid #c8cdd4;
-    padding: 1px 4px; border-radius: 2px;
-    margin-left: 5px; white-space: nowrap;
-    flex-shrink: 0;
-  }
-  .hf-apply {
-    flex-shrink: 0; align-self: center;
-    padding: 5px 11px;
-    background: var(--navy-deep);
-    color: var(--gold);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.72rem; font-weight: 800;
-    letter-spacing: 0.06em; text-transform: uppercase;
-    border: 1.5px solid var(--navy-deep);
-    border-radius: 2px;
-    cursor: pointer; text-decoration: none;
-    display: inline-block;
-    transition: background 0.12s, color 0.12s;
-    white-space: nowrap;
-  }
-  .hf-apply:hover { background: var(--navy-light); border-color: var(--navy-light); }
-  .hf-loading {
-    text-align: center; padding: 16px 0;
-    font-size: 0.8rem; color: var(--muted); font-weight: 500;
-  }
-  .hf-error {
-    font-size: 0.75rem; color: var(--muted);
-    padding: 10px 0; text-align: center;
-  }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "Unarmed Security Officer",
+  "description": "Unarmed security officer positions (Level 2) across Dallas-Fort Worth. Responsibilities include access control, patrol, monitoring, and incident reporting at commercial and residential properties.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "BlackBarJobs",
+    "value": "unarmed-security-dfw"
+  },
+  "datePosted": "2026-06-14",
+  "validThrough": "2026-12-31",
+  "employmentType": "FULL_TIME",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "BlackBarJobs",
+    "sameAs": "https://www.blackbarjobs.com",
+    "logo": "https://www.blackbarjobs.com/favicon.png"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dallas",
+      "addressRegion": "TX",
+      "postalCode": "75201",
+      "addressCountry": "US"
+    }
+  },
+  "url": "https://www.blackbarjobs.com/jobs/unarmed-security-dfw"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "BlackBarJobs", "item": "https://www.blackbarjobs.com"},
+    {"@type": "ListItem", "position": 2, "name": "DFW Security Jobs", "item": "https://www.blackbarjobs.com/security-jobs-dfw"},
+    {"@type": "ListItem", "position": 3, "name": "Unarmed Security Officer", "item": "https://www.blackbarjobs.com/jobs/unarmed-security-dfw"}
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -1041,23 +1242,34 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 
 <!-- HERO — not full screen height so sticky triggers quickly on scroll -->
 <section class="hero" id="heroAnchor">
-  <div class="hero-img-wrap">
-    <img src="/images/unarmed-security-hero.jpg" alt="Unarmed security officer jobs Dallas Fort Worth">
-    <div class="hero-overlay"></div>
+  <div class="hero-image-wrap">
+    <img src="/images/unarmed-security-hero.jpg" alt="Unarmed Security Jobs Dallas–Fort Worth" loading="eager">
+    <div class="hero-image-overlay"></div>
   </div>
-  <div class="hero-body">
-    <div class="hero-badge">Dallas–Fort Worth, TX</div>
-    <h1>Unarmed Security Jobs<br><em>Dallas–Fort Worth</em></h1>
-    <p class="hero-sub">Level 2 security officer positions across DFW — corporate lobbies, residential gate, retail, healthcare, event venues, and overnight industrial.</p>
+ <div class="hero-content">
+  <div class="hero-text-col">
+    <h1>Get Alerts for <em>Security Jobs in DFW</em></h1>
+    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <span class="hero-stat-num">7</span>
+        <span class="hero-stat-label">Job Categories</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">DFW</span>
+        <span class="hero-stat-label">Metro Coverage</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">Free</span>
+        <span class="hero-stat-label">Job Alerts</span>
+      </div>
+    </div>
   </div>
-</section>
 
-<div class="listings-section">
-<!-- JOB LISTINGS — dynamic feed from Google Sheets -->
-<div class="form-card" id="signup">
+  <div class="form-card" id="signup">
     <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
     <div class="hero-feed" id="jobRows">
-      
+      <div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Loading jobs...</div></div></div>
     </div>
     <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
     <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
@@ -1066,14 +1278,14 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
       No spam. Unsubscribe anytime.
     </div>
   </div>
-</div>
+  </div>
+</section>
 
 <!-- REGISTRATION MODAL -->
-<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;" onclick="if(event.target===this)this.style.display='none';">
+<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
   <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
-    <button onclick="document.getElementById('regModal').style.display='none';" style="position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.3rem;cursor:pointer;color:#5a6474;line-height:1;padding:4px;">✕</button>
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To View</div>
-    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings. We'll also alert you when new roles match yours.</div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Sign Up To View Jobs</div>
+    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;"></div>
     <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
     <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
     <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
@@ -1087,7 +1299,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     <div id="reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
     <button onclick="submitReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network & View Job →</button>
     <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
-    
+    <button onclick="closeRegModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">✕</button>
   </div>
 </div>
 
@@ -1137,7 +1349,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 <!-- MID-PAGE CTA — second explicit CTA for users who scrolled past fold 1 -->
 <div class="mid-cta">
   <p>Don't wait for the right job to find you — be the first candidate in line when it posts.</p>
-  <button onclick="openModal()" class="btn-primary" style="max-width:280px;width:100%;cursor:pointer;">Get Free Job Alerts →</button>
+  <a href="#alerts" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;">Get Free DFW Job Alerts →</a>
 </div>
 
 <!-- REQUIREMENTS -->
@@ -1273,45 +1485,27 @@ function parseCSV(text) {
 function renderJobs(jobs) {
   var active = jobs.filter(function(j){ return j.active === 'yes'; });
   var container = document.getElementById('jobRows');
+  if (!container) return;
   if (!active.length) {
-    container.innerHTML = '<div style="padding:20px;color:#5a6474;font-size:0.9rem;">No listings available right now. Check back soon.</div>';
-    // tag.textContent removed
+    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
     return;
   }
-  // Sort by date_pulled descending, take top 5
-  active.sort(function(a, b) {
-    return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0);
-  });
-  var display = active.slice(0, 5);
-  // tag.textContent removed
-  container.innerHTML = display.map(function(job, i) {
-    var isNew = i < 2;
-    var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="hf-row">' +
+  active.sort(function(a,b){ return new Date(b.date_pulled||0)-new Date(a.date_pulled||0); });
+  container.innerHTML = active.slice(0,5).map(function(job){
+    var url = encodeURIComponent(job.apply_link||'');
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'  +
       '<div class="hf-body">' +
-        '<div class="hf-title">' + (job.title || '') + '</div>' +
-        '<div class="hf-meta">' +
-          '<span class="hf-company">' + (job.company || '') + '</span>' +
-          '<span class="hf-sep">·</span>' +
-          '<span class="hf-location">' + (job.location || '') + '</span>' +
-          (job.pay ? '<span class="hf-sep">·</span><span class="hf-tag">' + job.pay + '</span>' : '') +
-        '</div>' +
+        '<div class="hf-title">'+(job.title||'')+'</div>' +
+        '<div class="hf-meta">'+(job.company||'')+' &nbsp;&middot;&nbsp; '+(job.location||'')+'</div>' +
       '</div>' +
-      (isNew ? '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center;">New</span>' : '') +
-    '</div>';padding-bottom:14px;">' +
-      '<div class="l-body">' +
-        '<div class="l-title">' + (job.title || '') + '</div>' +
-        '<div class="l-meta">' +
-          '<span class="l-co">' + (job.company || '') + '</span>' +
-          '<span class="l-sep">·</span>' +
-          '<span>' + (job.location || '') + '</span>' +
-        '</div>' +
+      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
+        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
       '</div>' +
-      (isNew ? '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;flex-shrink:0;align-self:center;">New</span>' : '') +
-      '<button onclick="handleApply(\'' + applyUrl + '\')" style="margin-left:8px;padding:8px 16px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.85rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;flex-shrink:0;">View</button>' +
     '</div>';
   }).join('');
 }
+
 
 function handleApply(encodedUrl) {
   pendingApplyUrl = decodeURIComponent(encodedUrl);
@@ -1323,7 +1517,7 @@ function handleApply(encodedUrl) {
   }
 }
 
-function closeModal() {
+function closeRegModal() {
   document.getElementById('regModal').style.display = 'none';
 }
 
@@ -1363,14 +1557,14 @@ function submitReg() {
   document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event:'job_apply_click', role:'unarmed', page_url:window.location.href});
-  closeModal();
+  closeRegModal();
   if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
 }
 
 fetch(CSV_URL)
   .then(function(r){ return r.text(); })
   .then(function(text){ renderJobs(parseCSV(text)); })
-  .catch(function(){ console.log('Job feed fetch failed'); });
+  .catch(function(){  });
 
 // ALERT FORM
 function submitAlert(){
@@ -1460,7 +1654,7 @@ function submitAlert(){
   function closeModal() {
     var sheet = document.getElementById('modalSheet');
     var isMobile = window.innerWidth < 640;
-    sheet.style.transform = 'translateY(10px) scale(0.97)';
+    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
     sheet.style.opacity = '0';
     setTimeout(function() {
       document.getElementById('modalOverlay').classList.remove('open');
@@ -1548,50 +1742,7 @@ function submitAlert(){
 var indexPendingApplyUrl = '';
 var indexSessionUnlocked = false;
 if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
-var INDEX_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=908030&single=true&output=csv';
 
-function parseIndexCSV(text) {
-  var lines = text.trim().split('\n');
-  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
-  return lines.slice(1).map(function(line) {
-    var cols = []; var cur = ''; var inQ = false;
-    for (var i = 0; i < line.length; i++) {
-      var c = line[i];
-      if (c === '"') { inQ = !inQ; }
-      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
-      else { cur += c; }
-    }
-    cols.push(cur);
-    var obj = {};
-    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
-    return obj;
-  });
-}
-
-function renderIndexFeed(jobs) {
-  var active = jobs.filter(function(j){ return j.active === 'yes'; });
-  var container = document.getElementById('indexJobFeed');
-  if (!container) return;
-  if (!active.length) {
-    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
-    return;
-  }
-  active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
-  var display = active.slice(0, 5);
-  container.innerHTML = display.map(function(job) {
-    var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
-      '<div class="hf-body">' +
-        '<div class="hf-title">' + (job.title || '') + '</div>' +
-        '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
-        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleIndexApply(\'' + applyUrl + '\')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-}
 
 function handleIndexApply(encodedUrl) {
   indexPendingApplyUrl = decodeURIComponent(encodedUrl);
@@ -1635,13 +1786,6 @@ function submitIndexReg() {
   if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
 }
 
-fetch(INDEX_CSV_URL, {mode: 'cors'})
-  .then(function(r){ return r.text(); })
-  .then(function(text){ renderIndexFeed(parseIndexCSV(text)); })
-  .catch(function(err){
-    var c = document.getElementById('indexJobFeed');
-    if (c) c.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Check back soon for open positions.</div></div></div>';
-  });
 
 
 </script>
