@@ -1283,7 +1283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
   <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Join The Network To View</div>
-    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Free access to all DFW security job listings. We'll also alert you when new roles match yours.</div>
+    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;">Join free to view job details and apply.</div>
     <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
     <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
     <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
@@ -1472,14 +1472,14 @@ function renderJobs(jobs) {
   active.sort(function(a,b){ return new Date(b.date_pulled||0)-new Date(a.date_pulled||0); });
   container.innerHTML = active.slice(0,5).map(function(job){
     var url = encodeURIComponent(job.apply_link||'');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'  +
       '<div class="hf-body">' +
         '<div class="hf-title">'+(job.title||'')+'</div>' +
         '<div class="hf-meta">'+(job.company||'')+' &nbsp;&middot;&nbsp; '+(job.location||'')+'</div>' +
       '</div>' +
       '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
         '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleApply(\''+url+'\');" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
       '</div>' +
     '</div>';
   }).join('');
