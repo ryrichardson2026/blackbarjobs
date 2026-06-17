@@ -1548,7 +1548,7 @@ function submitReg() {
   err.style.display = 'none';
   if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
-  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number for SMS alerts.'; err.style.display = 'block'; return; }
+  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
   fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
