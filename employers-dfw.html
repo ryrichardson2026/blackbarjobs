@@ -97,7 +97,7 @@
       border-bottom: 1px solid var(--border);
       position: relative;
       overflow: hidden;
-      min-height: 680px;
+      min-height: 420px;
     }
     .hero::before {
       content: '';
@@ -132,27 +132,40 @@
     .hero-inner {
       position: relative;
       z-index: 2;
-      padding: 160px 24px 80px;
-      text-align: center;
-      max-width: 760px;
+      padding: 80px 24px 48px;
+      text-align: left;
+      max-width: 960px;
       margin: 0 auto;
     }
     .hero h1 {
       font-family: 'Barlow Condensed', sans-serif;
       font-weight: 900;
-      font-size: clamp(2.2rem, 5.5vw, 3.4rem);
-      line-height: 1.1;
+      font-size: clamp(2.6rem, 6vw, 4rem);
+      line-height: 1.05;
       color: var(--white);
-      max-width: 640px;
-      margin: 0 auto 16px;
+      max-width: 520px;
+      margin: 0 0 16px;
     }
     .hero h1 span { color: var(--gold); }
     .hero p {
-      font-size: clamp(1rem, 2vw, 1.15rem);
-      color: rgba(255,255,255,0.75);
-      max-width: 520px;
-      margin: 0 auto 32px;
-      line-height: 1.7;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+      max-width: 420px;
+      margin: 0 0 28px;
+      line-height: 1.65;
+    }
+    .hero-free {
+      display: inline-block;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--navy);
+      background: #4ade80;
+      padding: 4px 12px;
+      border-radius: 3px;
+      margin-top: 12px;
     }
     .btn {
       display: inline-block;
@@ -710,7 +723,7 @@
       <h1>Stop Posting Jobs.<br><span>Start Filling Shifts.</span></h1>
       <p>Tap into the only on-demand Security Officer Network in DFW to fill your staffing contracts and open roles.</p>
       <a href="#request" class="btn btn-gold">Request Candidates</a>
-      <p style="margin-top:12px;font-size:0.82rem;font-weight:600;color:#4ade80;letter-spacing:0.04em;">First candidate match is free.</p>
+      <br><span class="hero-free">First Candidate Match Free</span>
     </div>
   </section>
 
