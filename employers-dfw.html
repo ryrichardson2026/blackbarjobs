@@ -93,11 +93,10 @@
 
     /* ── HERO ── */
     .hero {
-      background: #1a1a1a;
-      border-bottom: 1px solid var(--border);
+      background: var(--navy);
       position: relative;
       overflow: hidden;
-      min-height: 420px;
+      border-bottom: 1px solid #1e2f45;
     }
     .hero::before {
       content: '';
@@ -110,47 +109,32 @@
       pointer-events: none;
       z-index: 0;
     }
-    .hero-image-wrap {
-      position: absolute;
-      inset: 0;
-      overflow: hidden;
-      z-index: 0;
-    }
-    .hero-image-wrap img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center top;
-      filter: brightness(0.45) saturate(0.7);
-      display: block;
-    }
-    .hero-image-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.7) 100%);
-    }
-    .hero-inner {
+    .hero-split {
       position: relative;
-      z-index: 2;
-      padding: 80px 24px 48px;
-      text-align: left;
-      max-width: 960px;
+      z-index: 1;
+      max-width: 1100px;
       margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      min-height: 480px;
+    }
+    .hero-left {
+      padding: 80px 48px 80px 32px;
     }
     .hero h1 {
       font-family: 'Barlow Condensed', sans-serif;
       font-weight: 900;
-      font-size: clamp(2.6rem, 6vw, 4rem);
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
       line-height: 1.05;
       color: var(--white);
-      max-width: 520px;
       margin: 0 0 16px;
     }
     .hero h1 span { color: var(--gold); }
     .hero p {
       font-size: 1rem;
       color: rgba(255,255,255,0.7);
-      max-width: 420px;
+      max-width: 400px;
       margin: 0 0 28px;
       line-height: 1.65;
     }
@@ -166,6 +150,30 @@
       padding: 4px 12px;
       border-radius: 3px;
       margin-top: 12px;
+    }
+    .hero-right {
+      position: relative;
+      height: 480px;
+      overflow: hidden;
+    }
+    .hero-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+      filter: brightness(0.85) saturate(0.8);
+    }
+    .hero-right::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, var(--navy) 0%, transparent 40%);
+    }
+    @media (max-width: 720px) {
+      .hero-split { grid-template-columns: 1fr; }
+      .hero-right { display: none; }
+      .hero-left { padding: 60px 24px 48px; }
     }
     .btn {
       display: inline-block;
@@ -715,15 +723,16 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-image-wrap">
-      <img src="images/AdobeStock_627151967.jpeg" alt="Security professional on duty" loading="eager" />
-      <div class="hero-image-overlay"></div>
-    </div>
-    <div class="hero-inner">
-      <h1>Stop Posting Jobs.<br><span>Start Filling Shifts.</span></h1>
-      <p>Tap into the only on-demand Security Officer Network in DFW to fill your staffing contracts and open roles.</p>
-      <a href="#request" class="btn btn-gold">Request Candidates</a>
-      <br><span class="hero-free">First Candidate Match Free</span>
+    <div class="hero-split">
+      <div class="hero-left">
+        <h1>Stop Posting Jobs.<br><span>Start Filling Shifts.</span></h1>
+        <p>Tap into the only on-demand Security Officer Network in DFW to fill your staffing contracts and open roles.</p>
+        <a href="#request" class="btn btn-gold">Request Candidates</a>
+        <br><span class="hero-free">First Candidate Match Free</span>
+      </div>
+      <div class="hero-right">
+        <img src="images/AdobeStock_627151967.jpeg" alt="Security officer on duty" loading="eager" />
+      </div>
     </div>
   </section>
 
