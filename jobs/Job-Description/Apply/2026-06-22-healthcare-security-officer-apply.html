@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pre-Qualify | BlackBarJobs</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Ads Conversion -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039190320"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17039190320');
+</script>
+<!-- End Google Ads Conversion -->
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:    #000814;
+      --navy-mid: #001D3D;
+      --gold:    #FFC300;
+      --gold-hv: #FFD60A;
+      --gold-m:  #E6A800;
+      --white:   #ffffff;
+      --off:     #f4f5f7;
+      --char:    #1a1a1a;
+      --muted:   #5a6474;
+      --border:  #e2e5ea;
+      --green:   #22c55e;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--navy);
+      color: var(--white);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    nav {
+      background: var(--navy);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .nav-logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .logo-bb {
+      border-bottom: 7px solid var(--white);
+      padding-bottom: 2px;
+      display: inline-block;
+      line-height: 1;
+    }
+
+    .logo-gold { color: var(--gold); }
+
+    .progress-wrap {
+      background: rgba(255,255,255,0.06);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .progress-bar-track {
+      flex: 1;
+      height: 4px;
+      background: rgba(255,255,255,0.12);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: width 0.3s ease;
+    }
+
+    .progress-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.5);
+      white-space: nowrap;
+      font-family: 'Barlow Condensed', sans-serif;
+      letter-spacing: 0.5px;
+    }
+
+    .form-wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    .card {
+      display: none;
+      animation: fadeUp 0.25s ease;
+    }
+
+    .card.active { display: block; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .card-step {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .card-question {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1.5rem, 6vw, 1.9rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--white);
+      margin-bottom: 24px;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .option-btn {
+      width: 100%;
+      background: rgba(255,255,255,0.06);
+      border: 1.5px solid rgba(255,255,255,0.12);
+      border-radius: 10px;
+      padding: 16px 18px;
+      text-align: left;
+      color: var(--white);
+      font-family: 'Barlow', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .option-btn:hover {
+      border-color: rgba(255,195,0,0.5);
+      background: rgba(255,195,0,0.06);
+    }
+
+    .option-btn.selected {
+      border-color: var(--gold);
+      background: rgba(255,195,0,0.1);
+    }
+
+    .option-check {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.2);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .option-btn.selected .option-check {
+      border-color: var(--gold);
+      background: var(--gold);
+    }
+
+    .option-check-inner {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--navy);
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+
+    .option-btn.selected .option-check-inner { opacity: 1; }
+
+    .option-btn.multi .option-check { border-radius: 4px; }
+    .option-btn.multi.selected .option-check {
+      border-color: var(--gold);
+      background: var(--gold);
+    }
+
+    .btn-next {
+      width: 100%;
+      background: var(--gold);
+      color: var(--navy);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 17px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-bottom: 4px;
+    }
+
+    .btn-next:hover { background: var(--gold-hv); }
+    .btn-next:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    .btn-back {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.45);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 12px 0 0;
+      transition: color 0.15s;
+    }
+
+    .btn-back:hover { color: rgba(255,255,255,0.75); }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .input-field {
+      width: 100%;
+      background: rgba(255,255,255,0.06);
+      border: 1.5px solid rgba(255,255,255,0.12);
+      border-radius: 10px;
+      padding: 15px 18px;
+      color: var(--white);
+      font-family: 'Barlow', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      outline: none;
+      transition: border-color 0.15s;
+      -webkit-appearance: none;
+    }
+
+    .input-field::placeholder { color: rgba(255,255,255,0.3); }
+    .input-field:focus { border-color: var(--gold); }
+
+    .input-error {
+      font-size: 12px;
+      color: #f87171;
+      margin-top: -6px;
+      display: none;
+    }
+
+    .tcpa-wrap {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+
+    .tcpa-check {
+      width: 20px;
+      height: 20px;
+      border: 2px solid rgba(255,255,255,0.25);
+      border-radius: 4px;
+      flex-shrink: 0;
+      margin-top: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+
+    .tcpa-check.checked { background: var(--gold); border-color: var(--gold); }
+    .tcpa-check svg { display: none; }
+    .tcpa-check.checked svg { display: block; }
+
+    .tcpa-text {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.5;
+    }
+
+    .tcpa-text a { color: rgba(255,255,255,0.6); }
+
+    .success-screen {
+      display: none;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .success-icon {
+      width: 64px;
+      height: 64px;
+      background: rgba(34,197,94,0.15);
+      border: 2px solid var(--green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+
+    .success-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .success-sub {
+      font-size: 15px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .spinner-screen {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(255,255,255,0.1);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .spinner-text { font-size: 14px; color: rgba(255,255,255,0.45); }
+
+    .hint {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 16px;
+      margin-top: -16px;
+    }
+
+    .job-header-bar {
+      background: rgba(255,195,0,0.07);
+      border-bottom: 1px solid rgba(255,195,0,0.12);
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .job-header-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: rgba(255,255,255,0.35);
+      font-family: 'Barlow Condensed', sans-serif;
+      white-space: nowrap;
+    }
+
+    .job-header-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--gold);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav>
+  <a class="nav-logo" href="/">
+    <span class="logo-bb">Black<span class="logo-gold">Bar</span></span>Jobs
+  </a>
+</nav>
+
+<div class="job-header-bar" id="job-header-bar" style="display:none">
+  <span class="job-header-label">Applying for</span>
+  <span class="job-header-title" id="job-header-title"></span>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-bar-track">
+    <div class="progress-bar-fill" id="progressFill" style="width: 8%"></div>
+  </div>
+  <div class="progress-label" id="progressLabel">1 of 12</div>
+</div>
+
+<div class="form-wrap">
+
+  <!-- CARD 1: Age -->
+  <div class="card active" id="card-1">
+    <div class="card-step">Step 1 of 12</div>
+    <div class="card-question">Are you 18 years of age or older?</div>
+    <div class="options">
+      <button class="option-btn" data-field="age" data-value="Yes" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Yes
+      </button>
+      <button class="option-btn" data-field="age" data-value="No" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(2)" id="next-1" disabled>Continue</button>
+  </div>
+
+  <!-- CARD 2: Background + Drug Screen -->
+  <div class="card" id="card-2">
+    <div class="card-step">Step 2 of 12</div>
+    <div class="card-question">Are you able to pass a background check and drug screen?</div>
+    <div class="options">
+      <button class="option-btn" data-field="background_check" data-value="Yes" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Yes
+      </button>
+      <button class="option-btn" data-field="background_check" data-value="No" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No
+      </button>
+      <button class="option-btn" data-field="background_check" data-value="Unsure" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Unsure
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(3)" id="next-2" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(1)">← Back</button>
+  </div>
+
+  <!-- CARD 3: TX Security License -->
+  <div class="card" id="card-3">
+    <div class="card-step">Step 3 of 12</div>
+    <div class="card-question">Do you have an active Texas security license?</div>
+    <div class="options">
+      <button class="option-btn" data-field="tx_license" data-value="Yes" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Yes
+      </button>
+      <button class="option-btn" data-field="tx_license" data-value="No" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextFromLicense()" id="next-3" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(2)">← Back</button>
+  </div>
+
+  <!-- CARD 4a: License Type (has license) -->
+  <div class="card" id="card-4a">
+    <div class="card-step">Step 4 of 12</div>
+    <div class="card-question">Which license do you hold?</div>
+    <div class="options">
+      <button class="option-btn" data-field="license_type" data-value="Level 2 — Non-Commissioned" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Level 2 — Non-Commissioned
+      </button>
+      <button class="option-btn" data-field="license_type" data-value="Level 3 — Armed/Commissioned" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Level 3 — Armed/Commissioned
+      </button>
+      <button class="option-btn" data-field="license_type" data-value="Both" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Both
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(5)" id="next-4a" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(3)">← Back</button>
+  </div>
+
+  <!-- CARD 4b: No License -->
+  <div class="card" id="card-4b">
+    <div class="card-step">Step 4 of 12</div>
+    <div class="card-question">Would you like help getting your Texas security license?</div>
+    <div class="options">
+      <button class="option-btn" data-field="license_interest" data-value="Yes" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Yes, I'm interested
+      </button>
+      <button class="option-btn" data-field="license_interest" data-value="No" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No thanks
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(5)" id="next-4b" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(3)">← Back</button>
+  </div>
+
+  <!-- CARD 5: Years of Experience -->
+  <div class="card" id="card-5">
+    <div class="card-step">Step 5 of 12</div>
+    <div class="card-question">How many years of security officer experience do you have?</div>
+    <div class="options">
+      <button class="option-btn" data-field="years_experience" data-value="No experience" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No experience
+      </button>
+      <button class="option-btn" data-field="years_experience" data-value="Less than 1 year" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Less than 1 year
+      </button>
+      <button class="option-btn" data-field="years_experience" data-value="1–2 years" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        1–2 years
+      </button>
+      <button class="option-btn" data-field="years_experience" data-value="3–5 years" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        3–5 years
+      </button>
+      <button class="option-btn" data-field="years_experience" data-value="5+ years" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        5+ years
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(6)" id="next-5" disabled>Continue</button>
+    <button class="btn-back" onclick="goBackFromCard5()">← Back</button>
+  </div>
+
+  <!-- CARD 6: Experience Type (multi-select) -->
+  <div class="card" id="card-6">
+    <div class="card-step">Step 6 of 12</div>
+    <div class="card-question">Do you have experience in any of the following?</div>
+    <div class="hint">Select all that apply</div>
+    <div class="options">
+      <button class="option-btn multi" data-field="experience" data-value="Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Security
+      </button>
+      <button class="option-btn multi" data-field="experience" data-value="Law Enforcement">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Law Enforcement
+      </button>
+      <button class="option-btn multi" data-field="experience" data-value="Military">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Military
+      </button>
+      <button class="option-btn multi" data-field="experience" data-value="Healthcare">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Healthcare
+      </button>
+      <button class="option-btn multi" data-field="experience" data-value="Hospitality">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Hospitality
+      </button>
+      <button class="option-btn multi" data-field="experience" data-value="None">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        None of the above
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextFromMulti('experience', 7)">Continue</button>
+    <button class="btn-back" onclick="showCard(5)">← Back</button>
+  </div>
+
+  <!-- CARD 7: Employment Type -->
+  <div class="card" id="card-7">
+    <div class="card-step">Step 7 of 12</div>
+    <div class="card-question">What type of work are you looking for?</div>
+    <div class="options">
+      <button class="option-btn" data-field="employment_type" data-value="Full Time" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Full Time
+      </button>
+      <button class="option-btn" data-field="employment_type" data-value="Part Time" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Part Time
+      </button>
+      <button class="option-btn" data-field="employment_type" data-value="On-Call" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        On-Call
+      </button>
+      <button class="option-btn" data-field="employment_type" data-value="Contract / Temp" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Contract / Temp
+      </button>
+      <button class="option-btn" data-field="employment_type" data-value="All types" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        All types — open to anything
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(8)" id="next-7" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(6)">← Back</button>
+  </div>
+
+  <!-- CARD 8: Shift Availability (multi-select) -->
+  <div class="card" id="card-8">
+    <div class="card-step">Step 8 of 12</div>
+    <div class="card-question">When are you available to work?</div>
+    <div class="hint">Select all that apply</div>
+    <div class="options">
+      <button class="option-btn multi" data-field="availability" data-value="Mon–Fri">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Mon–Fri
+      </button>
+      <button class="option-btn multi" data-field="availability" data-value="Nights">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Nights
+      </button>
+      <button class="option-btn multi" data-field="availability" data-value="Weekends">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Weekends
+      </button>
+      <button class="option-btn multi" data-field="availability" data-value="Events">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Events
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextFromMulti('availability', 9)">Continue</button>
+    <button class="btn-back" onclick="showCard(7)">← Back</button>
+  </div>
+
+  <!-- CARD 9: Driver's License + Transportation -->
+  <div class="card" id="card-9">
+    <div class="card-step">Step 9 of 12</div>
+    <div class="card-question">Do you have a valid driver's license and reliable transportation?</div>
+    <div class="options">
+      <button class="option-btn" data-field="transportation" data-value="Yes — both" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Yes — both
+      </button>
+      <button class="option-btn" data-field="transportation" data-value="License only" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        License only
+      </button>
+      <button class="option-btn" data-field="transportation" data-value="No" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        No
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(10)" id="next-9" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(8)">← Back</button>
+  </div>
+
+  <!-- CARD 10: Start Date -->
+  <div class="card" id="card-10">
+    <div class="card-step">Step 10 of 12</div>
+    <div class="card-question">How soon can you start?</div>
+    <div class="options">
+      <button class="option-btn" data-field="start_date" data-value="Immediately" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Immediately
+      </button>
+      <button class="option-btn" data-field="start_date" data-value="Within 1 week" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Within 1 week
+      </button>
+      <button class="option-btn" data-field="start_date" data-value="Within 2 weeks" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Within 2 weeks
+      </button>
+      <button class="option-btn" data-field="start_date" data-value="More than 2 weeks" onclick="selectOption(this)">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        More than 2 weeks
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextCard(11)" id="next-10" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(9)">← Back</button>
+  </div>
+
+  <!-- CARD 11: Contact Info -->
+  <div class="card" id="card-11">
+    <div class="card-step">Step 11 of 12</div>
+    <div class="card-question">Almost done. Where can we reach you?</div>
+    <div class="input-group">
+      <input class="input-field" id="input-name" type="text" placeholder="Full name" autocomplete="name" />
+      <div class="input-error" id="err-name">Please enter your full name.</div>
+
+      <input class="input-field" id="input-phone" type="tel" placeholder="Phone number" autocomplete="tel" inputmode="numeric" />
+      <div class="input-error" id="err-phone">Please enter a valid 10-digit phone number.</div>
+
+      <input class="input-field" id="input-email" type="email" placeholder="Email address" autocomplete="email" inputmode="email" />
+      <div class="input-error" id="err-email">Please enter a valid email address.</div>
+
+      <input class="input-field" id="input-zip" type="text" placeholder="ZIP code" inputmode="numeric" maxlength="5" />
+      <div class="input-error" id="err-zip">Please enter a valid 5-digit ZIP code.</div>
+    </div>
+    <button class="btn-next" onclick="validateContact()">Continue</button>
+    <button class="btn-back" onclick="showCard(10)">← Back</button>
+  </div>
+
+  <!-- CARD 12: TCPA + Submit -->
+  <div class="card" id="card-12">
+    <div class="card-step">Step 12 of 12</div>
+    <div class="card-question">One last thing.</div>
+    <div class="tcpa-wrap" onclick="toggleTCPA()">
+      <div class="tcpa-check" id="tcpa-check">
+        <svg width="12" height="10" viewBox="0 0 12 10" fill="none">
+          <path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="tcpa-text">
+        By submitting, you agree to receive calls and texts from BlackBarJobs about job opportunities. Message and data rates may apply. Reply STOP to opt out. View our <a href="/privacy" onclick="event.stopPropagation()">Privacy Policy</a>.
+      </div>
+    </div>
+    <button class="btn-next" id="btn-submit" onclick="submitForm()" disabled>Submit Application</button>
+    <button class="btn-back" onclick="showCard(11)">← Back</button>
+  </div>
+
+  <!-- SPINNER -->
+  <div class="spinner-screen" id="spinner-screen">
+    <div class="spinner"></div>
+    <div class="spinner-text">Submitting your application...</div>
+  </div>
+
+  <!-- SUCCESS -->
+  <div class="success-screen" id="success-screen">
+    <div class="success-icon">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6L9 17l-5-5"/>
+      </svg>
+    </div>
+    <div class="success-title">You're all set.</div>
+    <div class="success-sub">We've got your info. Keep an eye on your phone and email — we'll be in touch if this role is a fit, and we'll notify you when other openings match your profile.</div>
+  </div>
+
+</div>
+
+<script>
+  const formData = {};
+  const TOTAL_STEPS = 12;
+
+  const urlParams = new URLSearchParams(window.location.search);
+  formData.utm_source   = urlParams.get('utm_source')   || '';
+  formData.utm_medium   = urlParams.get('utm_medium')   || '';
+  formData.utm_campaign = urlParams.get('utm_campaign') || '';
+  formData.utm_content  = urlParams.get('utm_content')  || '';
+  formData.job_title    = urlParams.get('job')          || '';
+
+  // Show job title header if ?job= param present
+  const jobTitle = formData.job_title;
+  if (jobTitle) {
+    const bar = document.getElementById('job-header-bar');
+    const titleEl = document.getElementById('job-header-title');
+    if (bar && titleEl) {
+      titleEl.textContent = decodeURIComponent(jobTitle);
+      bar.style.display = 'flex';
+    }
+  }
+
+  function updateProgress(step) {
+    const pct = Math.round((step / TOTAL_STEPS) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressLabel').textContent = step + ' of ' + TOTAL_STEPS;
+  }
+
+  function showCard(id) {
+    document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+    const el = document.getElementById('card-' + id);
+    if (el) {
+      el.classList.add('active');
+      const stepMap = {'1':1,'2':2,'3':3,'4a':4,'4b':4,'5':5,'6':6,'7':7,'8':8,'9':9,'10':10,'11':11,'12':12};
+      updateProgress(stepMap[String(id)] || parseInt(id));
+      window.scrollTo(0, 0);
+    }
+  }
+
+  // Single select — highlight and enable Continue
+  function selectOption(btn) {
+    const options = btn.closest('.options');
+    options.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+
+    // Store value
+    formData[btn.dataset.field] = btn.dataset.value;
+
+    // Enable the Continue button in same card
+    const card = btn.closest('.card');
+    const nextBtn = card.querySelector('.btn-next');
+    if (nextBtn) nextBtn.disabled = false;
+  }
+
+  function nextCard(id) {
+    showCard(id);
+  }
+
+  // Card 3 Continue — branch to 4a or 4b
+  function nextFromLicense() {
+    if (formData.tx_license === 'Yes') {
+      showCard('4a');
+    } else {
+      showCard('4b');
+    }
+  }
+
+  // Card 5 Back — go back to whichever card 4 was shown
+  function goBackFromCard5() {
+    if (formData.tx_license === 'Yes') {
+      showCard('4a');
+    } else {
+      showCard('4b');
+    }
+  }
+
+  // Multi select
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.option-btn.multi');
+    if (!btn) return;
+    btn.classList.toggle('selected');
+  });
+
+  function nextFromMulti(field, nextCardId) {
+    const selected = [];
+    document.querySelectorAll(`[data-field="${field}"].selected`).forEach(b => {
+      selected.push(b.dataset.value);
+    });
+    formData[field] = selected.join(', ') || 'None selected';
+    showCard(nextCardId);
+  }
+
+  // Contact validation
+  function validateContact() {
+    let valid = true;
+    const name  = document.getElementById('input-name').value.trim();
+    const phone = document.getElementById('input-phone').value.trim().replace(/\D/g,'');
+    const email = document.getElementById('input-email').value.trim();
+    const zip   = document.getElementById('input-zip').value.trim();
+
+    const showErr = (id, show) => {
+      document.getElementById(id).style.display = show ? 'block' : 'none';
+    };
+
+    if (!name)                                          { showErr('err-name',  true);  valid = false; } else { showErr('err-name',  false); }
+    if (phone.length !== 10)                            { showErr('err-phone', true);  valid = false; } else { showErr('err-phone', false); }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))    { showErr('err-email', true);  valid = false; } else { showErr('err-email', false); }
+    if (!/^\d{5}$/.test(zip))                          { showErr('err-zip',   true);  valid = false; } else { showErr('err-zip',   false); }
+
+    if (valid) {
+      formData.name  = name;
+      formData.phone = phone;
+      formData.email = email;
+      formData.zip   = zip;
+      showCard(12);
+    }
+  }
+
+  // TCPA
+  let tcpaChecked = false;
+  function toggleTCPA() {
+    tcpaChecked = !tcpaChecked;
+    document.getElementById('tcpa-check').classList.toggle('checked', tcpaChecked);
+    document.getElementById('btn-submit').disabled = !tcpaChecked;
+  }
+
+  // Submit
+  async function submitForm() {
+    formData.tcpa_consent = 'Yes';
+    formData.submitted_at = new Date().toISOString();
+
+    document.getElementById('card-12').classList.remove('active');
+    document.getElementById('spinner-screen').style.display = 'block';
+
+    try {
+      await fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+    } catch(e) {}
+
+    setTimeout(() => {
+      document.getElementById('spinner-screen').style.display = 'none';
+      document.getElementById('success-screen').style.display = 'block';
+      document.getElementById('progressFill').style.width = '100%';
+      document.getElementById('progressLabel').textContent = 'Complete';
+      // Fire Google Ads conversion
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'conversion', { 'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_' });
+      }
+    }, 2500);
+  }
+</script>
+
+</body>
+</html>
