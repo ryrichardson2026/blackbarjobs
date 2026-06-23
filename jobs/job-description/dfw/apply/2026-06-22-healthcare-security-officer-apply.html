@@ -429,14 +429,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="progress-bar-track">
     <div class="progress-bar-fill" id="progressFill" style="width: 8%"></div>
   </div>
-  <div class="progress-label" id="progressLabel">1 of 12</div>
+  <div class="progress-label" id="progressLabel">1 of 13</div>
 </div>
 
 <div class="form-wrap">
 
   <!-- CARD 1: Age -->
   <div class="card active" id="card-1">
-    <div class="card-step">Step 1 of 12</div>
+    <div class="card-step">Step 1 of 13</div>
     <div class="card-question">Are you 18 years of age or older?</div>
     <div class="options">
       <button class="option-btn" data-field="age" data-value="Yes" onclick="selectOption(this)">
@@ -453,7 +453,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 2: Background + Drug Screen -->
   <div class="card" id="card-2">
-    <div class="card-step">Step 2 of 12</div>
+    <div class="card-step">Step 2 of 13</div>
     <div class="card-question">Are you able to pass a background check and drug screen?</div>
     <div class="options">
       <button class="option-btn" data-field="background_check" data-value="Yes" onclick="selectOption(this)">
@@ -475,7 +475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 3: TX Security License -->
   <div class="card" id="card-3">
-    <div class="card-step">Step 3 of 12</div>
+    <div class="card-step">Step 3 of 13</div>
     <div class="card-question">Do you have an active Texas security license?</div>
     <div class="options">
       <button class="option-btn" data-field="tx_license" data-value="Yes" onclick="selectOption(this)">
@@ -493,7 +493,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 4a: License Type (has license) -->
   <div class="card" id="card-4a">
-    <div class="card-step">Step 4 of 12</div>
+    <div class="card-step">Step 4 of 13</div>
     <div class="card-question">Which license do you hold?</div>
     <div class="options">
       <button class="option-btn" data-field="license_type" data-value="Level 2 — Non-Commissioned" onclick="selectOption(this)">
@@ -515,7 +515,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 4b: No License -->
   <div class="card" id="card-4b">
-    <div class="card-step">Step 4 of 12</div>
+    <div class="card-step">Step 4 of 13</div>
     <div class="card-question">Would you like help getting your Texas security license?</div>
     <div class="options">
       <button class="option-btn" data-field="license_interest" data-value="Yes" onclick="selectOption(this)">
@@ -533,7 +533,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 5: Years of Experience -->
   <div class="card" id="card-5">
-    <div class="card-step">Step 5 of 12</div>
+    <div class="card-step">Step 5 of 13</div>
     <div class="card-question">How many years of security officer experience do you have?</div>
     <div class="options">
       <button class="option-btn" data-field="years_experience" data-value="No experience" onclick="selectOption(this)">
@@ -563,7 +563,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- CARD 6: Experience Type (multi-select) -->
   <div class="card" id="card-6">
-    <div class="card-step">Step 6 of 12</div>
+    <div class="card-step">Step 6 of 13</div>
     <div class="card-question">Do you have experience in any of the following?</div>
     <div class="hint">Select all that apply</div>
     <div class="options">
@@ -596,9 +596,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <button class="btn-back" onclick="showCard(5)">← Back</button>
   </div>
 
-  <!-- CARD 7: Employment Type -->
+  <!-- CARD 7: Role Interest (multi-select) -->
   <div class="card" id="card-7">
-    <div class="card-step">Step 7 of 12</div>
+    <div class="card-step">Step 7 of 13</div>
+    <div class="card-question">What types of roles are you most interested in?</div>
+    <div class="hint">Select all that apply</div>
+    <div class="options">
+      <button class="option-btn multi" data-field="role_interest" data-value="Unarmed Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Unarmed Security
+      </button>
+      <button class="option-btn multi" data-field="role_interest" data-value="Armed Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Armed Security
+      </button>
+      <button class="option-btn multi" data-field="role_interest" data-value="Overnight Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Overnight Security
+      </button>
+      <button class="option-btn multi" data-field="role_interest" data-value="Event Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Event Security
+      </button>
+      <button class="option-btn multi" data-field="role_interest" data-value="Loss Prevention">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Loss Prevention
+      </button>
+      <button class="option-btn multi" data-field="role_interest" data-value="Healthcare Security">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        Healthcare Security
+      </button>
+    </div>
+    <button class="btn-next" onclick="nextFromMulti('role_interest', 8)">Continue</button>
+    <button class="btn-back" onclick="showCard(6)">← Back</button>
+  </div>
+
+  <!-- CARD 7: Employment Type -->
+  <div class="card" id="card-8">
+    <div class="card-step">Step 8 of 13</div>
     <div class="card-question">What type of work are you looking for?</div>
     <div class="options">
       <button class="option-btn" data-field="employment_type" data-value="Full Time" onclick="selectOption(this)">
@@ -622,13 +657,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         All types — open to anything
       </button>
     </div>
-    <button class="btn-next" onclick="nextCard(8)" id="next-7" disabled>Continue</button>
-    <button class="btn-back" onclick="showCard(6)">← Back</button>
+    <button class="btn-next" onclick="nextCard(9)" id="next-8" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(7)">← Back</button>
   </div>
 
   <!-- CARD 8: Shift Availability (multi-select) -->
-  <div class="card" id="card-8">
-    <div class="card-step">Step 8 of 12</div>
+  <div class="card" id="card-9">
+    <div class="card-step">Step 9 of 13</div>
     <div class="card-question">When are you available to work?</div>
     <div class="hint">Select all that apply</div>
     <div class="options">
@@ -648,14 +683,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="option-check"><span class="option-check-inner"></span></span>
         Events
       </button>
+      <button class="option-btn multi" data-field="availability" data-value="All schedules">
+        <span class="option-check"><span class="option-check-inner"></span></span>
+        All of the above — open to any schedule
+      </button>
     </div>
-    <button class="btn-next" onclick="nextFromMulti('availability', 9)">Continue</button>
-    <button class="btn-back" onclick="showCard(7)">← Back</button>
+    <button class="btn-next" onclick="nextFromMulti('availability', 10)">Continue</button>
+    <button class="btn-back" onclick="showCard(8)">← Back</button>
   </div>
 
   <!-- CARD 9: Driver's License + Transportation -->
-  <div class="card" id="card-9">
-    <div class="card-step">Step 9 of 12</div>
+  <div class="card" id="card-10">
+    <div class="card-step">Step 10 of 13</div>
     <div class="card-question">Do you have a valid driver's license and reliable transportation?</div>
     <div class="options">
       <button class="option-btn" data-field="transportation" data-value="Yes — both" onclick="selectOption(this)">
@@ -671,13 +710,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         No
       </button>
     </div>
-    <button class="btn-next" onclick="nextCard(10)" id="next-9" disabled>Continue</button>
-    <button class="btn-back" onclick="showCard(8)">← Back</button>
+    <button class="btn-next" onclick="nextCard(11)" id="next-10" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(9)">← Back</button>
   </div>
 
   <!-- CARD 10: Start Date -->
-  <div class="card" id="card-10">
-    <div class="card-step">Step 10 of 12</div>
+  <div class="card" id="card-11">
+    <div class="card-step">Step 11 of 13</div>
     <div class="card-question">How soon can you start?</div>
     <div class="options">
       <button class="option-btn" data-field="start_date" data-value="Immediately" onclick="selectOption(this)">
@@ -697,13 +736,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         More than 2 weeks
       </button>
     </div>
-    <button class="btn-next" onclick="nextCard(11)" id="next-10" disabled>Continue</button>
-    <button class="btn-back" onclick="showCard(9)">← Back</button>
+    <button class="btn-next" onclick="nextCard(12)" id="next-11" disabled>Continue</button>
+    <button class="btn-back" onclick="showCard(10)">← Back</button>
   </div>
 
   <!-- CARD 11: Contact Info -->
-  <div class="card" id="card-11">
-    <div class="card-step">Step 11 of 12</div>
+  <div class="card" id="card-12">
+    <div class="card-step">Step 12 of 13</div>
     <div class="card-question">Almost done. Where can we reach you?</div>
     <div class="input-group">
       <input class="input-field" id="input-name" type="text" placeholder="Full name" autocomplete="name" />
@@ -719,12 +758,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="input-error" id="err-zip">Please enter a valid 5-digit ZIP code.</div>
     </div>
     <button class="btn-next" onclick="validateContact()">Continue</button>
-    <button class="btn-back" onclick="showCard(10)">← Back</button>
+    <button class="btn-back" onclick="showCard(11)">← Back</button>
   </div>
 
   <!-- CARD 12: TCPA + Submit -->
-  <div class="card" id="card-12">
-    <div class="card-step">Step 12 of 12</div>
+  <div class="card" id="card-13">
+    <div class="card-step">Step 13 of 13</div>
     <div class="card-question">One last thing.</div>
     <div class="tcpa-wrap" onclick="toggleTCPA()">
       <div class="tcpa-check" id="tcpa-check">
@@ -737,7 +776,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <button class="btn-next" id="btn-submit" onclick="submitForm()" disabled>Submit Application</button>
-    <button class="btn-back" onclick="showCard(11)">← Back</button>
+    <button class="btn-back" onclick="showCard(12)">← Back</button>
   </div>
 
   <!-- SPINNER -->
@@ -746,22 +785,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="spinner-text">Submitting your application...</div>
   </div>
 
-  <!-- SUCCESS -->
-  <div class="success-screen" id="success-screen">
-    <div class="success-icon">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M20 6L9 17l-5-5"/>
-      </svg>
-    </div>
-    <div class="success-title">You're all set.</div>
-    <div class="success-sub">We've got your info. Keep an eye on your phone and email — we'll be in touch if this role is a fit, and we'll notify you when other openings match your profile.</div>
-  </div>
+</div>
 
+<!-- SUCCESS SCREEN — full page, outside form-wrap -->
+<div class="success-screen" id="success-screen" style="display:none; min-height:80vh; display:none; flex-direction:column; align-items:center; justify-content:center; padding:48px 24px; text-align:center; max-width:480px; margin:0 auto;">
+  <div class="success-icon">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 6L9 17l-5-5"/>
+    </svg>
+  </div>
+  <div class="success-title">You're all set.</div>
+  <div class="success-sub">We've got your info. Keep an eye on your phone and email — we'll be in touch if this role is a fit, and we'll notify you when other openings match your profile.</div>
 </div>
 
 <script>
   const formData = {};
-  const TOTAL_STEPS = 12;
+  const TOTAL_STEPS = 13;
 
   const urlParams = new URLSearchParams(window.location.search);
   formData.utm_source   = urlParams.get('utm_source')   || '';
@@ -792,7 +831,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     const el = document.getElementById('card-' + id);
     if (el) {
       el.classList.add('active');
-      const stepMap = {'1':1,'2':2,'3':3,'4a':4,'4b':4,'5':5,'6':6,'7':7,'8':8,'9':9,'10':10,'11':11,'12':12};
+      const stepMap = {'1':1,'2':2,'3':3,'4a':4,'4b':4,'5':5,'6':6,'7':7,'8':8,'9':9,'10':10,'11':11,'12':12,'13':13};
       updateProgress(stepMap[String(id)] || parseInt(id));
       window.scrollTo(0, 0);
     }
@@ -873,7 +912,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       formData.phone = phone;
       formData.email = email;
       formData.zip   = zip;
-      showCard(12);
+      showCard(13);
     }
   }
 
@@ -902,10 +941,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     } catch(e) {}
 
     setTimeout(() => {
+      // Hide everything above
       document.getElementById('spinner-screen').style.display = 'none';
-      document.getElementById('success-screen').style.display = 'block';
-      document.getElementById('progressFill').style.width = '100%';
-      document.getElementById('progressLabel').textContent = 'Complete';
+      document.querySelector('.form-wrap').style.display = 'none';
+      document.querySelector('.progress-wrap').style.display = 'none';
+      document.querySelector('.job-header-bar') && (document.querySelector('.job-header-bar').style.display = 'none');
+      // Show success as full screen
+      const s = document.getElementById('success-screen');
+      s.style.display = 'flex';
+      window.scrollTo(0, 0);
       // Fire Google Ads conversion
       if (typeof gtag !== 'undefined') {
         gtag('event', 'conversion', { 'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_' });
