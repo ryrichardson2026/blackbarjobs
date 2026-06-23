@@ -926,6 +926,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   // Submit
   async function submitForm() {
+    formData.type = 'candidate';
     formData.tcpa_consent = 'Yes';
     formData.submitted_at = new Date().toISOString();
 
