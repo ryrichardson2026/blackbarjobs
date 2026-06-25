@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DFW Security Job Board — Browse All Openings | BlackBarJobs</title>
-<meta name="description" content="Browse every live security officer opening in Dallas–Fort Worth. Filter by role, schedule, pay, and city. Armed, unarmed, overnight, patrol, event security and more — updated continuously.">
+<title>DFW Security Officer Jobs — See Who's Hiring Now | BlackBarJobs</title>
+<meta name="description" content="Browse live security officer openings across Dallas–Fort Worth. Filter by role, schedule, pay, and city — new positions added continuously.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 
 <!-- OG / Social sharing -->
-<meta property="og:title" content="DFW Security Job Board | BlackBarJobs">
-<meta property="og:description" content="Browse and filter every live security job across Dallas–Fort Worth. Armed, unarmed, overnight, patrol, event and more.">
+<meta property="og:title" content="DFW Security Officer Jobs — See Who's Hiring Now | BlackBarJobs">
+<meta property="og:description" content="Browse live security officer openings across Dallas–Fort Worth. Filter by role, schedule, pay, and city — new positions added continuously.">
 <meta property="og:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <meta property="og:url" content="https://www.blackbarjobs.com/job-board">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DFW Security Job Board | BlackBarJobs">
-<meta name="twitter:description" content="Browse and filter every live security job across Dallas–Fort Worth.">
+<meta name="twitter:description" content="Browse live security officer openings across Dallas–Fort Worth. Filter by role, schedule, pay, and city — new positions added continuously.">
 <meta name="twitter:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 
 <!-- Google Tag Manager -->
@@ -1124,35 +1124,21 @@ window.addEventListener("load", function(){
   }
 
   /* ───────────────── FEED LOADER (all tabs) ───────────────── */
-  function discoverGids(){
-    return fetch(PUBHTML, {mode:'cors'})
-      .then(function(r){ return r.ok ? r.text() : ''; })
-      .then(function(html){
-        var set = {};
-        (html.match(/gid=(\d+)/g) || []).forEach(function(g){ set[g.slice(4)] = 1; });
-        var gids = Object.keys(set);
-        return gids.length ? gids : FALLBACK_GIDS;
-      })
-      .catch(function(){ return FALLBACK_GIDS; });
-  }
+  var MASTER_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
 
   function loadFeed(){
-    discoverGids().then(function(gids){
-      return Promise.all(gids.map(function(gid){
-        return fetch(tabCsvUrl(gid), {mode:'cors'})
-          .then(function(r){ return r.ok ? r.text() : ''; })
-          .then(function(t){ return t ? parseCSV(t) : []; })
-          .catch(function(){ return []; });
-      }));
-    }).then(function(arrs){
-      var raw = [];
-      arrs.forEach(function(a){ raw = raw.concat(a); });
-      if(!raw.length) throw new Error('empty');
-      boot(raw);
-    }).catch(function(){
-      document.getElementById('feed').innerHTML = '<div class="feed-msg" style="grid-column:1/-1;"><div class="fm-title">Couldn\'t load openings</div><div class="fm-sub">Please refresh in a moment, or get job alerts and we\'ll come to you.</div><a href="#" class="hero-btn gold" onclick="openAlerts();return false;" style="display:inline-flex;color:var(--navy-deep);">Get Job Alerts →</a></div>';
-      document.getElementById('resultsCount').textContent = 'Listings temporarily unavailable';
-    });
+    fetch(MASTER_CSV, {mode:'cors'})
+      .then(function(r){ return r.ok ? r.text() : ''; })
+      .then(function(t){
+        if(!t) throw new Error('empty');
+        var raw = parseCSV(t);
+        if(!raw.length) throw new Error('empty');
+        boot(raw);
+      })
+      .catch(function(){
+        document.getElementById('feed').innerHTML = '<div class="feed-msg" style="grid-column:1/-1;"><div class="fm-title">Couldn\'t load openings</div><div class="fm-sub">Please refresh in a moment, or get job alerts and we\'ll come to you.</div><a href="#" class="hero-btn gold" onclick="openAlerts();return false;" style="display:inline-flex;color:var(--navy-deep);">Get Job Alerts →</a></div>';
+        document.getElementById('resultsCount').textContent = 'Listings temporarily unavailable';
+      });
   }
   loadFeed();
 </script>
