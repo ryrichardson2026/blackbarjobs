@@ -1280,7 +1280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-feed" id="jobRows">
       <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
-<a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">See More Jobs →</a>
+<a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;" onclick="bbjGo('/job-board?role=overnight&city=dfw');return false;">See More Jobs →</a>
   </div>
   </div>
 </section>
@@ -1348,7 +1348,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="mid-cta">
   <p>Overnight candidates have the highest placement rate in DFW security — the demand is consistent and callbacks are fast.</p>
-  <a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;">Browse All Jobs →</a>
+  <a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;" onclick="bbjGo('/job-board?role=overnight&city=dfw');return false;">Browse All Jobs →</a>
 </div>
 
 <div class="sec-light">
@@ -1443,95 +1443,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 })();
 
 // JOB FEED
-var pendingApplyUrl = '';
+
 var sessionUnlocked = false;
 if (document.cookie.indexOf('bbj_registered=1') !== -1) { sessionUnlocked = true; }
-var CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=2118776757&single=true&output=csv';
 
-function parseCSV(text) {
-  var lines = text.trim().split('\n');
-  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
-  return lines.slice(1).map(function(line) {
-    var cols = []; var cur = ''; var inQ = false;
-    for (var i = 0; i < line.length; i++) {
-      var c = line[i];
-      if (c === '"') { inQ = !inQ; }
-      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
-      else { cur += c; }
-    }
-    cols.push(cur);
-    var obj = {};
-    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
-    return obj;
-  });
-}
-
-function renderJobs(jobs) {
-  var active = jobs.filter(function(j){ return j.active === 'yes'; });
-  var container = document.getElementById('jobRows');
-  if (!container) return;
-  if (!active.length) {
-    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
-    return;
-  }
-  active.sort(function(a,b){ return new Date(b.date_pulled||0)-new Date(a.date_pulled||0); });
-  container.innerHTML = active.slice(0,10).map(function(job){
-    var url = encodeURIComponent(job.apply_link||'');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'  +
-      '<div class="hf-body">' +
-        '<div class="hf-title">'+(job.title||'')+'</div>' +
-        '<div class="hf-meta">'+(job.company||'')+' &nbsp;&middot;&nbsp; '+(job.location||'')+'</div>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
-        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-}
-
-
-function handleApply(encodedUrl) {
-  pendingApplyUrl = decodeURIComponent(encodedUrl);
-  if (sessionUnlocked) { window.open(pendingApplyUrl, '_blank'); }
-  else { document.getElementById('regModal').style.display = 'flex'; }
-}
-
-function closeRegModal() { document.getElementById('regModal').style.display = 'none'; }
-
-function togglePhone() {
-  var wrap = document.getElementById('reg-phone-wrap');
-  var checked = document.getElementById('reg-sms-opt').checked;
-  wrap.style.display = checked ? 'block' : 'none';
-  if (!checked) document.getElementById('reg-phone').value = '';
-}
-
-function submitReg() {
-  var name = document.getElementById('reg-name').value.trim();
-  var email = document.getElementById('reg-email').value.trim();
-  var smsOpt = document.getElementById('reg-sms-opt').checked;
-  var phone = smsOpt ? document.getElementById('reg-phone').value.trim() : '';
-  var err = document.getElementById('reg-error');
-  err.style.display = 'none';
-  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
-  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-    method: 'POST', headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'overnight', city: 'dfw', source: window.location.href, consent: true })
-  });
-  sessionUnlocked = true;
-  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({event:'job_apply_click', role:'overnight', page_url:window.location.href});
-  closeRegModal();
-  if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
-}
-
-fetch(CSV_URL)
-  .then(function(r){ return r.text(); })
-  .then(function(text){ renderJobs(parseCSV(text)); })
-  .catch(function(){  });
 
 function submitAlert(){
   var zip=document.getElementById('a-zip').value.trim();
@@ -1753,6 +1668,597 @@ function submitIndexReg() {
 
 
 
+</script>
+
+
+<script>
+/* ─────────────────────────────────────────────
+   BBJ UNIFIED GATE v3
+   Order: Role → Availability → License → Contact+TCPA
+   ───────────────────────────────────────────── */
+
+var BBJ_WEBHOOK = 'https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
+var BBJ_COOKIE  = 'bbj_registered=1';
+
+function bbjIsRegistered() { return document.cookie.indexOf(BBJ_COOKIE) !== -1; }
+function bbjSetRegistered() { document.cookie = BBJ_COOKIE + '; max-age=2592000; path=/; SameSite=Lax'; }
+function bbjGetViewCookie() { var m=document.cookie.match(/bbj_views=(\d+)/); return m?parseInt(m[1],10):0; }
+function bbjSetViewCookie(n) { document.cookie='bbj_views='+n+'; path=/; SameSite=Lax'; }
+
+var _bbjGateDest='', _bbjGateApplyUrl='', _bbjGateSource='';
+var _bbjLicVal='', _bbjHelpVal='', _bbjTCPAChecked=false;
+
+/* ── STYLES ── */
+var BBJ_GATE_STYLES='<style id="bbjGateStyles">' +
+'.bbj-multi{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:11px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
+'.bbj-multi:hover{border-color:#FFC300;}' +
+'.bbj-multi.on{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
+'.bbj-opt{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:12px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
+'.bbj-opt:hover{border-color:#FFC300;background:#fffbeb;}' +
+'.bbj-opt.selected{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
+'.bbj-cont-btn{flex:1;padding:13px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;}' +
+'.bbj-back-btn{padding:12px 16px;background:none;border:1.5px solid #e2e5ea;border-radius:10px;font-family:\'Barlow Condensed\',sans-serif;font-size:0.95rem;font-weight:700;color:#5a6474;cursor:pointer;}' +
+'.bbj-input{width:100%;padding:12px 14px;border:1.5px solid #e2e5ea;border-radius:9px;font-size:1rem;font-family:\'Barlow\',sans-serif;color:#1a1a1a;box-sizing:border-box;-webkit-appearance:none;outline:none;margin-bottom:9px;display:block;}' +
+'.bbj-input:focus{border-color:#000814;}' +
+'</style>';
+
+/* ── HTML ── */
+function bbjGateHTML() {
+  return '<div id="bbjGate" style="display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.88);align-items:center;justify-content:center;padding:16px;overflow-y:auto;">' +
+  '<div style="background:#fff;border-radius:18px;padding:28px 22px 24px;max-width:400px;width:100%;position:relative;margin:auto;">' +
+  '<button onclick="bbjCloseGate()" aria-label="Close" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.3rem;cursor:pointer;color:#5a6474;">✕</button>' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.65rem;font-weight:800;color:#000814;line-height:1.08;margin-bottom:4px;">Sign Up to See Jobs</div>' +
+  '<div style="font-size:0.83rem;color:#5a6474;margin-bottom:16px;">Free to register. No resume required.</div>' +
+
+  /* dots */
+  '<div style="display:flex;gap:6px;margin-bottom:20px;">' +
+  '<span id="bbjDot1" style="width:8px;height:8px;border-radius:50%;background:#000814;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot2" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot3" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot4" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '</div>' +
+
+  /* STEP 1 — Role interest */
+  '<div id="bbjStep1">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:6px;">What roles interest you?</div>' +
+  '<div style="font-size:0.75rem;color:#5a6474;margin-bottom:10px;">Select all that apply</div>' +
+  '<div style="display:flex;flex-direction:column;gap:7px;margin-bottom:14px;">' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Unarmed Security">Unarmed Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Armed Security">Armed Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Overnight Security">Overnight Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Event Security">Event Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Loss Prevention">Loss Prevention</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Healthcare Security">Healthcare Security</button>' +
+  '</div>' +
+  '<button class="bbj-cont-btn" onclick="bbjGoStep(2)" style="width:100%;">Continue →</button>' +
+  '</div>' +
+
+  /* STEP 2 — Availability */
+  '<div id="bbjStep2" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:6px;">When are you available?</div>' +
+  '<div style="font-size:0.75rem;color:#5a6474;margin-bottom:10px;">Select all that apply</div>' +
+  '<div style="display:flex;flex-direction:column;gap:7px;margin-bottom:14px;">' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Mon–Fri">Mon–Fri</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Nights">Nights</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Weekends">Weekends</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Events">Events only</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Any">Open to any schedule</button>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(1)">← Back</button>' +
+  '<button class="bbj-cont-btn" onclick="bbjGoStep(3)">Continue →</button>' +
+  '</div>' +
+  '</div>' +
+
+  /* STEP 3 — License */
+  '<div id="bbjStep3" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:12px;">Do you have a TX security license?</div>' +
+  '<div id="bbjLicOpts" style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;">' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Level 2\')">Level 2 — Non-Commissioned</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Level 3\')">Level 3 — Armed/Commissioned</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Both\')">Both</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'None\')">No license yet</button>' +
+  '</div>' +
+  '<div id="bbjLicHelp" style="display:none;margin-bottom:14px;">' +
+  '<div style="font-size:0.82rem;font-weight:700;color:#000814;margin-bottom:8px;">Want help getting licensed?</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-opt" style="flex:1;" onclick="bbjPickHelp(this,\'Yes\')">Yes</button>' +
+  '<button class="bbj-opt" style="flex:1;" onclick="bbjPickHelp(this,\'No\')">No thanks</button>' +
+  '</div>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(2)">← Back</button>' +
+  '<button id="bbjNext3" class="bbj-cont-btn" onclick="bbjGoStep(4)" style="opacity:0.35;pointer-events:none;">Continue →</button>' +
+  '</div>' +
+  '</div>' +
+
+  /* STEP 4 — Contact + TCPA */
+  '<div id="bbjStep4" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:14px;">Where should we send alerts?</div>' +
+  '<input id="bbjName" class="bbj-input" type="text" placeholder="Full Name" autocomplete="name">' +
+  '<input id="bbjEmail" class="bbj-input" type="email" placeholder="Email Address" autocomplete="email">' +
+  '<input id="bbjPhone" class="bbj-input" type="tel" placeholder="Phone (optional — for SMS alerts)" autocomplete="tel">' +
+  '<div id="bbjGateErr" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:9px;"></div>' +
+  '<div onclick="bbjToggleTCPA()" style="display:flex;align-items:flex-start;gap:10px;background:#f4f5f7;border-radius:9px;padding:12px;margin-bottom:14px;cursor:pointer;">' +
+  '<div id="bbjTCPAbox" style="width:18px;height:18px;border:2px solid #c8cdd4;border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;"></div>' +
+  '<div style="font-size:0.72rem;color:#5a6474;line-height:1.5;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" onclick="event.stopPropagation()" style="color:#5a6474;">Privacy Policy</a>.</div>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(3)">← Back</button>' +
+  '<button id="bbjSubmitBtn" class="bbj-cont-btn" onclick="bbjSubmitGate()" style="opacity:0.35;pointer-events:none;">See Jobs →</button>' +
+  '</div>' +
+  '</div>' +
+
+  '</div></div>';
+}
+
+/* ── STEP NAV ── */
+function bbjGoStep(n) {
+  for(var i=1;i<=4;i++){
+    var el=document.getElementById('bbjStep'+i);
+    if(el) el.style.display=(i===n)?'block':'none';
+    var dot=document.getElementById('bbjDot'+i);
+    if(dot) dot.style.background=(i<=n)?'#000814':'#e2e5ea';
+  }
+}
+
+/* ── LICENSE LOGIC ── */
+function bbjPickLic(btn,val){
+  _bbjLicVal=val;
+  document.querySelectorAll('#bbjLicOpts .bbj-opt').forEach(function(b){b.classList.remove('selected');});
+  btn.classList.add('selected');
+  var help=document.getElementById('bbjLicHelp');
+  var next=document.getElementById('bbjNext3');
+  if(val==='None'){
+    help.style.display='block';
+    _bbjHelpVal='';
+    next.style.opacity='0.35'; next.style.pointerEvents='none';
+  } else {
+    help.style.display='none';
+    _bbjHelpVal='';
+    next.style.opacity='1'; next.style.pointerEvents='auto';
+  }
+}
+function bbjPickHelp(btn,val){
+  _bbjHelpVal=val;
+  document.querySelectorAll('#bbjLicHelp .bbj-opt').forEach(function(b){b.classList.remove('selected');});
+  btn.classList.add('selected');
+  var next=document.getElementById('bbjNext3');
+  next.style.opacity='1'; next.style.pointerEvents='auto';
+}
+
+/* ── MULTI TOGGLE ── */
+function bbjToggle(btn){ btn.classList.toggle('on'); }
+
+/* ── TCPA ── */
+function bbjToggleTCPA(){
+  _bbjTCPAChecked=!_bbjTCPAChecked;
+  var box=document.getElementById('bbjTCPAbox');
+  box.style.background=_bbjTCPAChecked?'#000814':'';
+  box.style.borderColor=_bbjTCPAChecked?'#000814':'#c8cdd4';
+  box.innerHTML=_bbjTCPAChecked?'<svg width="11" height="9" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';
+  var sub=document.getElementById('bbjSubmitBtn');
+  sub.style.opacity=_bbjTCPAChecked?'1':'0.35';
+  sub.style.pointerEvents=_bbjTCPAChecked?'auto':'none';
+}
+
+/* ── OPEN / CLOSE ── */
+function bbjOpenGate(dest,source){
+  _bbjGateDest=dest||'/job-board';
+  _bbjGateSource=source||window.location.href;
+  if(!document.getElementById('bbjGate')){
+    if(!document.getElementById('bbjGateStyles')) document.head.insertAdjacentHTML('beforeend',BBJ_GATE_STYLES);
+    document.body.insertAdjacentHTML('beforeend',bbjGateHTML());
+  }
+  /* reset state */
+  _bbjLicVal=''; _bbjHelpVal=''; _bbjTCPAChecked=false;
+  document.querySelectorAll('.bbj-multi,.bbj-opt').forEach(function(b){b.classList.remove('on','selected');});
+  var help=document.getElementById('bbjLicHelp'); if(help) help.style.display='none';
+  var n3=document.getElementById('bbjNext3'); if(n3){n3.style.opacity='0.35';n3.style.pointerEvents='none';}
+  var sb=document.getElementById('bbjSubmitBtn'); if(sb){sb.style.opacity='0.35';sb.style.pointerEvents='none';}
+  var box=document.getElementById('bbjTCPAbox'); if(box){box.style.background='';box.style.borderColor='#c8cdd4';box.innerHTML='';}
+  ['bbjName','bbjEmail','bbjPhone'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  var err=document.getElementById('bbjGateErr'); if(err) err.style.display='none';
+  bbjGoStep(1);
+  document.getElementById('bbjGate').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+function bbjCloseGate(){
+  var el=document.getElementById('bbjGate');
+  if(el) el.style.display='none';
+  document.body.style.overflow='';
+}
+
+/* ── SUBMIT ── */
+function bbjSubmitGate(){
+  var name=(document.getElementById('bbjName')||{}).value||'';
+  var email=(document.getElementById('bbjEmail')||{}).value||'';
+  var phone=(document.getElementById('bbjPhone')||{}).value||'';
+  var err=document.getElementById('bbjGateErr');
+  name=name.trim(); email=email.trim(); phone=phone.trim();
+  if(!name){err.textContent='Please enter your name.';err.style.display='block';return;}
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent='Please enter a valid email.';err.style.display='block';return;}
+  err.style.display='none';
+  var roles=[],avail=[];
+  document.querySelectorAll('#bbjStep1 .bbj-multi.on').forEach(function(b){roles.push(b.getAttribute('data-val'));});
+  document.querySelectorAll('#bbjStep2 .bbj-multi.on').forEach(function(b){avail.push(b.getAttribute('data-val'));});
+  fetch(BBJ_WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+    timestamp:new Date().toISOString(),type:'candidate',name:name,email:email,
+    phone:phone.replace(/\D/g,''),tx_license:_bbjLicVal,license_help:_bbjHelpVal,
+    role_interest:roles.join(', '),availability:avail.join(', '),
+    source:_bbjGateSource,form:'gate_v3',consent:true,
+    consent_text:'User agreed to receive SMS and email updates from BlackBarJobs.'
+  })});
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({event:'network_join',source:'gate_v3'});
+  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
+  bbjSetRegistered();
+  bbjCloseGate();
+  if(_bbjGateApplyUrl){window.open(_bbjGateApplyUrl,'_blank');_bbjGateApplyUrl='';}
+  else if(_bbjGateDest){window.location.href=_bbjGateDest;}
+}
+
+/* ── GATED LINK ── */
+function bbjGo(dest){
+  if(bbjIsRegistered()){window.location.href=dest;return;}
+  _bbjGateApplyUrl='';
+  bbjOpenGate(dest,window.location.href);
+}
+
+/* ── BACKDROP + ESC ── */
+document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
+
+</script>
+<script>
+
+(function(){
+  var FREE=1, viewsThisSession=0;
+  var dest='/job-board?role=overnight&city=dfw';
+  function renderHubFeed(jobs){
+    var c=document.getElementById('jobRows'); if(!c)return;
+    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
+    c.innerHTML=jobs.map(function(job){
+      var url=encodeURIComponent(job.apply_link||'');
+      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">' +
+        '<div class="hf-body">' +
+          '<div class="hf-title">'+(job.title||'')+'</div>' +
+          '<div class="hf-meta">'+(job.company||'')+(job.location?' &nbsp;&middot;&nbsp; '+job.location:'')+(job.pay?' &nbsp;&middot;&nbsp; '+job.pay:'')+'</div>' +
+        '</div>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>' +
+      '</div>';
+    }).join('');
+  }
+  window.bbjHubApply=function(applyUrl){
+    if(!applyUrl)return;
+    if(bbjIsRegistered()){window.open(applyUrl,'_blank');return;}
+    viewsThisSession++;
+    if(viewsThisSession<=FREE){window.open(applyUrl,'_blank');return;}
+    _bbjGateApplyUrl=applyUrl;
+    _bbjGateDest=null;
+    bbjOpenGate(null,window.location.href);
+  };
+  var PUB='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
+  var GIDS=['908030','0','860426680','2118776757','344919398'];
+  var role='overnight-dfw';
+  function parseCSV(t){var rows=[],cur=[''],f=0,inQ=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(inQ){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else inQ=false;}else cur[f]+=c;}else{if(c==='"')inQ=true;else if(c===','){f++;cur[f]='';}else if(c==='
+'){rows.push(cur);cur=[''];f=0;}else if(c!=='
+')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+  Promise.all(GIDS.map(function(gid){return fetch(PUB+'?single=true&output=csv&gid='+gid,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){return t?parseCSV(t):[]}).catch(function(){return[];});})). then(function(arrs){
+    var seen={},all=[];
+    arrs.forEach(function(a){a.forEach(function(j){var k=(j.apply_link||j.title+j.company).toLowerCase().trim();if(!seen[k]){seen[k]=1;all.push(j);}});});
+    var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
+    active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
+    renderHubFeed(active.slice(0,10));
+  }).catch(function(){
+    var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';
+  });
+})();
+
+</script>
+<script>
+/* ─────────────────────────────────────────────
+   BBJ UNIFIED GATE v4
+   Style: dark navy modal, apply-form cards + alert-form inputs
+   Order: Role → Availability → License → Contact+TCPA
+   ───────────────────────────────────────────── */
+
+var BBJ_WEBHOOK = 'https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
+var BBJ_COOKIE  = 'bbj_registered=1';
+
+function bbjIsRegistered(){ return document.cookie.indexOf(BBJ_COOKIE)!==-1; }
+function bbjSetRegistered(){ document.cookie=BBJ_COOKIE+'; max-age=2592000; path=/; SameSite=Lax'; }
+function bbjGetViewCookie(){ var m=document.cookie.match(/bbj_views=(\d+)/); return m?parseInt(m[1],10):0; }
+function bbjSetViewCookie(n){ document.cookie='bbj_views='+n+'; path=/; SameSite=Lax'; }
+
+var _bbjGateDest='', _bbjGateApplyUrl='', _bbjGateSource='';
+var _bbjLicVal='', _bbjHelpVal='', _bbjTCPAChecked=false;
+
+/* ── STYLES ── */
+var BBJ_GATE_STYLES='<style id="bbjGateStyles">' +
+/* Overlay */
+'#bbjGate{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.92);align-items:flex-end;justify-content:center;overflow-y:auto;}' +
+'@media(min-width:640px){#bbjGate{align-items:center;}}' +
+/* Sheet */
+'#bbjSheet{background:#000814;width:100%;max-width:460px;border-radius:22px 22px 0 0;padding:28px 22px 32px;position:relative;max-height:92dvh;overflow-y:auto;}' +
+'@media(min-width:640px){#bbjSheet{border-radius:18px;}}' +
+/* Close */
+'#bbjClose{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.08);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:rgba(255,255,255,0.6);}' +
+'#bbjClose:hover{background:rgba(255,255,255,0.14);}' +
+/* Header */
+'.bbj-eyebrow{font-family:\'Barlow Condensed\',sans-serif;font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#FFC300;margin-bottom:6px;}' +
+'.bbj-heading{font-family:\'Barlow Condensed\',sans-serif;font-size:clamp(1.5rem,6vw,1.9rem);font-weight:800;color:#fff;line-height:1.1;margin-bottom:4px;}' +
+'.bbj-sub{font-size:0.82rem;color:rgba(255,255,255,0.45);margin-bottom:20px;}' +
+/* Progress dots */
+'.bbj-dots{display:flex;gap:6px;margin-bottom:22px;}' +
+'.bbj-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);transition:background 0.2s;}' +
+'.bbj-dot.on{background:#FFC300;}' +
+/* Option buttons — single select */
+'.bbj-opts{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}' +
+'.bbj-opt{width:100%;background:rgba(255,255,255,0.06);border:1.5px solid rgba(255,255,255,0.12);border-radius:10px;padding:14px 16px;text-align:left;color:#fff;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:12px;transition:border-color 0.15s,background 0.15s;}' +
+'.bbj-opt:hover{border-color:rgba(255,195,0,0.5);background:rgba(255,195,0,0.06);}' +
+'.bbj-opt.on{border-color:#FFC300;background:rgba(255,195,0,0.1);}' +
+'.bbj-check{width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,0.2);flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}' +
+'.bbj-opt.on .bbj-check{border-color:#FFC300;background:#FFC300;}' +
+'.bbj-check-inner{width:8px;height:8px;border-radius:50%;background:#000814;opacity:0;transition:opacity 0.15s;}' +
+'.bbj-opt.on .bbj-check-inner{opacity:1;}' +
+/* Multi-select — square check */
+'.bbj-multi .bbj-check{border-radius:4px;}' +
+/* Inputs — alert-form style dark */
+'.bbj-field{position:relative;margin-bottom:9px;}' +
+'.bbj-field-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:1rem;pointer-events:none;line-height:1;}' +
+'.bbj-input{width:100%;padding:13px 13px 13px 38px;border:1.5px solid rgba(255,255,255,0.14);border-radius:10px;background:rgba(255,255,255,0.08);color:#fff;font-family:\'Barlow\',sans-serif;font-size:0.97rem;outline:none;-webkit-appearance:none;box-sizing:border-box;}' +
+'.bbj-input::placeholder{color:rgba(255,255,255,0.32);}' +
+'.bbj-input:focus{border-color:#FFC300;}' +
+/* Buttons */
+'.bbj-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-top:2px;}' +
+'.bbj-btn:hover{background:#FFD60A;}' +
+'.bbj-btn:disabled{opacity:0.35;cursor:not-allowed;}' +
+'.bbj-back{background:none;border:none;color:rgba(255,255,255,0.4);font-family:\'Barlow\',sans-serif;font-size:0.82rem;cursor:pointer;padding:10px 0 0;display:flex;align-items:center;gap:4px;}' +
+'.bbj-back:hover{color:rgba(255,255,255,0.7);}' +
+/* TCPA */
+'.bbj-tcpa{display:flex;align-items:flex-start;gap:10px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:14px;margin-bottom:14px;cursor:pointer;}' +
+'.bbj-tcpa-box{width:18px;height:18px;border:2px solid rgba(255,255,255,0.25);border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}' +
+'.bbj-tcpa-box.on{background:#FFC300;border-color:#FFC300;}' +
+'.bbj-tcpa-text{font-size:0.72rem;color:rgba(255,255,255,0.4);line-height:1.5;}' +
+'.bbj-tcpa-text a{color:rgba(255,255,255,0.5);}' +
+'.bbj-trust{font-size:0.7rem;color:rgba(255,255,255,0.28);margin-top:10px;display:flex;align-items:center;gap:5px;justify-content:center;}' +
+'.bbj-err{display:none;color:#f87171;font-size:0.8rem;margin-bottom:8px;}' +
+'.bbj-hint{font-size:0.75rem;color:rgba(255,255,255,0.35);margin-bottom:10px;margin-top:-12px;}' +
+'</style>';
+
+/* ── HTML ── */
+function bbjBuildGate(){
+  var h='<div id="bbjGate"><div id="bbjSheet">' +
+  '<button id="bbjClose" onclick="bbjCloseGate()" aria-label="Close">✕</button>' +
+  '<div class="bbj-eyebrow">Free — No Resume Required</div>' +
+  '<div class="bbj-heading">Sign Up to See Jobs</div>' +
+  '<div class="bbj-sub">Free to register. Takes 30 seconds.</div>' +
+  '<div class="bbj-dots">' +
+    '<div class="bbj-dot on" id="bbjD1"></div>' +
+    '<div class="bbj-dot" id="bbjD2"></div>' +
+    '<div class="bbj-dot" id="bbjD3"></div>' +
+    '<div class="bbj-dot" id="bbjD4"></div>' +
+  '</div>' +
+
+  /* STEP 1 — Role */
+  '<div id="bbjS1">' +
+  '<div class="bbj-heading" style="font-size:1.4rem;margin-bottom:8px;">What roles interest you?</div>' +
+  '<div class="bbj-hint">Select all that apply</div>' +
+  '<div class="bbj-opts" id="bbjRoleOpts">' +
+    bbjMultiOpt('Unarmed Security')+ bbjMultiOpt('Armed Security')+
+    bbjMultiOpt('Overnight Security')+ bbjMultiOpt('Event Security')+
+    bbjMultiOpt('Loss Prevention')+ bbjMultiOpt('Healthcare Security')+
+  '</div>' +
+  '<button class="bbj-btn" onclick="bbjGoStep(2)">Continue →</button>' +
+  '</div>' +
+
+  /* STEP 2 — Availability */
+  '<div id="bbjS2" style="display:none;">' +
+  '<div class="bbj-heading" style="font-size:1.4rem;margin-bottom:8px;">When are you available?</div>' +
+  '<div class="bbj-hint">Select all that apply</div>' +
+  '<div class="bbj-opts" id="bbjAvailOpts">' +
+    bbjMultiOpt('Mon–Fri')+ bbjMultiOpt('Nights')+
+    bbjMultiOpt('Weekends')+ bbjMultiOpt('Events only')+
+    bbjMultiOpt('Open to any schedule')+
+  '</div>' +
+  '<button class="bbj-btn" onclick="bbjGoStep(3)">Continue →</button>' +
+  '<button class="bbj-back" onclick="bbjGoStep(1)">← Back</button>' +
+  '</div>' +
+
+  /* STEP 3 — License */
+  '<div id="bbjS3" style="display:none;">' +
+  '<div class="bbj-heading" style="font-size:1.4rem;margin-bottom:16px;">Do you have a TX security license?</div>' +
+  '<div class="bbj-opts" id="bbjLicOpts">' +
+    bbjSingleOpt('lic','Level 2 — Non-Commissioned','Level 2')+
+    bbjSingleOpt('lic','Level 3 — Armed/Commissioned','Level 3')+
+    bbjSingleOpt('lic','Both','Both')+
+    bbjSingleOpt('lic','No license yet','None')+
+  '</div>' +
+  '<div id="bbjHelpWrap" style="display:none;margin-bottom:14px;">' +
+  '<div class="bbj-heading" style="font-size:1rem;margin-bottom:10px;">Want help getting licensed?</div>' +
+  '<div class="bbj-opts" id="bbjHelpOpts" style="flex-direction:row;">' +
+    bbjSingleOpt('help','Yes','Yes')+
+    bbjSingleOpt('help','No thanks','No')+
+  '</div>' +
+  '</div>' +
+  '<button class="bbj-btn" id="bbjLicNext" onclick="bbjGoStep(4)" disabled>Continue →</button>' +
+  '<button class="bbj-back" onclick="bbjGoStep(2)">← Back</button>' +
+  '</div>' +
+
+  /* STEP 4 — Contact + TCPA */
+  '<div id="bbjS4" style="display:none;">' +
+  '<div class="bbj-heading" style="font-size:1.4rem;margin-bottom:16px;">Where should we send alerts?</div>' +
+  '<div class="bbj-field"><span class="bbj-field-icon">👤</span><input id="bbjName" class="bbj-input" type="text" placeholder="Full Name" autocomplete="name"></div>' +
+  '<div class="bbj-field"><span class="bbj-field-icon">✉️</span><input id="bbjEmail" class="bbj-input" type="email" placeholder="Email Address" autocomplete="email" inputmode="email"></div>' +
+  '<div class="bbj-field"><span class="bbj-field-icon">📱</span><input id="bbjPhone" class="bbj-input" type="tel" placeholder="Phone (optional — for SMS alerts)" autocomplete="tel" inputmode="tel"></div>' +
+  '<div class="bbj-err" id="bbjErr"></div>' +
+  '<div class="bbj-tcpa" onclick="bbjToggleTCPA()">' +
+    '<div class="bbj-tcpa-box" id="bbjTCPAbox"></div>' +
+    '<div class="bbj-tcpa-text">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" onclick="event.stopPropagation()">Privacy Policy</a>.</div>' +
+  '</div>' +
+  '<button class="bbj-btn" id="bbjSubmit" onclick="bbjSubmitGate()" disabled>See Jobs →</button>' +
+  '<div class="bbj-trust"><svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>No spam. Unsubscribe anytime.</div>' +
+  '<button class="bbj-back" onclick="bbjGoStep(3)">← Back</button>' +
+  '</div>' +
+
+  '</div></div>';
+  return h;
+}
+
+function bbjMultiOpt(label){
+  return '<button class="bbj-opt bbj-multi" onclick="bbjToggleMulti(this)" data-val="'+label+'">' +
+    '<span class="bbj-check"><span class="bbj-check-inner"></span></span>'+label+'</button>';
+}
+function bbjSingleOpt(group,label,val){
+  return '<button class="bbj-opt" onclick="bbjPickSingle(this,\''+group+'\',\''+val+'\')" data-group="'+group+'" data-val="'+val+'">' +
+    '<span class="bbj-check"><span class="bbj-check-inner"></span></span>'+label+'</button>';
+}
+
+/* ── INTERACTIONS ── */
+function bbjToggleMulti(btn){ btn.classList.toggle('on'); }
+
+function bbjPickSingle(btn,group,val){
+  document.querySelectorAll('[data-group="'+group+'"]').forEach(function(b){b.classList.remove('on');});
+  btn.classList.add('on');
+  if(group==='lic'){
+    _bbjLicVal=val;
+    var hw=document.getElementById('bbjHelpWrap');
+    var ln=document.getElementById('bbjLicNext');
+    if(val==='None'){
+      hw.style.display='block';
+      _bbjHelpVal='';
+      ln.disabled=true;
+    } else {
+      hw.style.display='none';
+      _bbjHelpVal='';
+      ln.disabled=false;
+    }
+  }
+  if(group==='help'){
+    _bbjHelpVal=val;
+    document.getElementById('bbjLicNext').disabled=false;
+  }
+}
+
+function bbjToggleTCPA(){
+  _bbjTCPAChecked=!_bbjTCPAChecked;
+  var box=document.getElementById('bbjTCPAbox');
+  box.classList.toggle('on',_bbjTCPAChecked);
+  box.innerHTML=_bbjTCPAChecked?'<svg width="11" height="9" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';
+  document.getElementById('bbjSubmit').disabled=!_bbjTCPAChecked;
+}
+
+function bbjGoStep(n){
+  [1,2,3,4].forEach(function(i){
+    var s=document.getElementById('bbjS'+i); if(s) s.style.display=(i===n)?'block':'none';
+    var d=document.getElementById('bbjD'+i); if(d) d.classList.toggle('on',i<=n);
+  });
+  var sheet=document.getElementById('bbjSheet'); if(sheet) sheet.scrollTop=0;
+}
+
+/* ── OPEN / CLOSE ── */
+function bbjOpenGate(dest,source){
+  _bbjGateDest=dest||'/job-board';
+  _bbjGateSource=source||window.location.href;
+  if(!document.getElementById('bbjGate')){
+    if(!document.getElementById('bbjGateStyles')) document.head.insertAdjacentHTML('beforeend',BBJ_GATE_STYLES);
+    document.body.insertAdjacentHTML('beforeend',bbjBuildGate());
+  }
+  /* reset */
+  _bbjLicVal=''; _bbjHelpVal=''; _bbjTCPAChecked=false;
+  document.querySelectorAll('#bbjGate .bbj-opt').forEach(function(b){b.classList.remove('on');});
+  var hw=document.getElementById('bbjHelpWrap'); if(hw) hw.style.display='none';
+  var ln=document.getElementById('bbjLicNext'); if(ln) ln.disabled=true;
+  var sb=document.getElementById('bbjSubmit'); if(sb) sb.disabled=true;
+  var box=document.getElementById('bbjTCPAbox'); if(box){box.classList.remove('on');box.innerHTML='';}
+  ['bbjName','bbjEmail','bbjPhone'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  var err=document.getElementById('bbjErr'); if(err) err.style.display='none';
+  bbjGoStep(1);
+  document.getElementById('bbjGate').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+
+function bbjCloseGate(){
+  var el=document.getElementById('bbjGate'); if(el) el.style.display='none';
+  document.body.style.overflow='';
+}
+
+/* ── SUBMIT ── */
+function bbjSubmitGate(){
+  var name=(document.getElementById('bbjName')||{}).value||'';
+  var email=(document.getElementById('bbjEmail')||{}).value||'';
+  var phone=(document.getElementById('bbjPhone')||{}).value||'';
+  var err=document.getElementById('bbjErr');
+  name=name.trim(); email=email.trim(); phone=phone.trim();
+  if(!name){err.textContent='Please enter your name.';err.style.display='block';return;}
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent='Please enter a valid email.';err.style.display='block';return;}
+  err.style.display='none';
+  var roles=[],avail=[];
+  document.querySelectorAll('#bbjRoleOpts .bbj-opt.on').forEach(function(b){roles.push(b.getAttribute('data-val'));});
+  document.querySelectorAll('#bbjAvailOpts .bbj-opt.on').forEach(function(b){avail.push(b.getAttribute('data-val'));});
+  fetch(BBJ_WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+    timestamp:new Date().toISOString(),type:'candidate',name:name,email:email,
+    phone:phone.replace(/\D/g,''),tx_license:_bbjLicVal,license_help:_bbjHelpVal,
+    role_interest:roles.join(', '),availability:avail.join(', '),
+    source:_bbjGateSource,form:'gate_v4',consent:true,
+    consent_text:'User agreed to receive SMS and email updates from BlackBarJobs.'
+  })});
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({event:'network_join',source:'gate_v4'});
+  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
+  bbjSetRegistered();
+  bbjCloseGate();
+  if(_bbjGateApplyUrl){window.open(_bbjGateApplyUrl,'_blank');_bbjGateApplyUrl='';}
+  else if(_bbjGateDest){window.location.href=_bbjGateDest;}
+}
+
+/* ── GATED LINK ── */
+var _bbjGateApplyUrl='';
+function bbjGo(dest){
+  if(bbjIsRegistered()){window.location.href=dest;return;}
+  _bbjGateApplyUrl='';
+  bbjOpenGate(dest,window.location.href);
+}
+
+/* ── BACKDROP + ESC ── */
+document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
+
+</script>
+<script>
+(function(){
+  var FREE=1,sess=0,dest='/job-board?role=overnight&city=dfw';
+  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
+'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+  function render(jobs){
+    var c=document.getElementById('jobRows');if(!c)return;
+    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
+    c.innerHTML=jobs.map(function(j){
+      var url=encodeURIComponent(j.apply_link||'');
+      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">' +
+        '<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>' +
+        '<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>' +
+      '</div>';
+    }).join('');
+  }
+  window.bbjHubApply=function(url){
+    if(!url)return;
+    if(bbjIsRegistered()){window.open(url,'_blank');return;}
+    sess++;
+    if(sess<=FREE){window.open(url,'_blank');return;}
+    _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
+  };
+  var PUB='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
+  var GIDS=['908030','0','860426680','2118776757','344919398'],role='overnight-dfw';
+  Promise.all(GIDS.map(function(g){return fetch(PUB+'?single=true&output=csv&gid='+g,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){return t?parseCSV(t):[]}).catch(function(){return[];});})). then(function(arrs){
+    var seen={},all=[];arrs.forEach(function(a){a.forEach(function(j){var k=(j.apply_link||j.title+j.company).toLowerCase();if(!seen[k]){seen[k]=1;all.push(j);}});});
+    var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
+    active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
+    render(active.slice(0,10));
+  }).catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
+})();
 </script>
 </body>
 </html>

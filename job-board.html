@@ -861,8 +861,8 @@ window.addEventListener("load", function(){
   }
 
   /* ───────────────── APPLY + GATE ───────────────── */
-  function getViews() { try { return parseInt(localStorage.getItem('bbj_board_views')||'0',10) || 0; } catch(e){ return 0; } }
-  function setViews(n) { try { localStorage.setItem('bbj_board_views', String(n)); } catch(e){} }
+  function getViews() { var m = document.cookie.match(/bbj_views=(\d+)/); return m ? parseInt(m[1],10) : 0; }
+  function setViews(n) { document.cookie = 'bbj_views=' + n + '; path=/; SameSite=Lax'; }
 
   function handleApply(job) {
     pendingJob = job || null;
@@ -907,7 +907,7 @@ window.addEventListener("load", function(){
       body: JSON.stringify({ timestamp:new Date().toISOString(), name:name, email:email, phone:phone.replace(/\D/g,''), sms_consent:sms, role:'general', city:'dfw', source:window.location.href, form:'board_gate', consent:true })
     });
     registered = true;
-    document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
+    document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event:'network_join', source:'board_gate' });
     if (typeof gtag !== 'undefined') { gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'}); }

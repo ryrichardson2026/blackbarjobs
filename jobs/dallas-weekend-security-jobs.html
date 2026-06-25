@@ -259,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-badge">Dallas, TX</div>
     <h1>Weekend Security<br><em>Jobs in Dallas</em></h1>
     <p class="hero-sub">Get alerted about weekend security openings across Dallas — Friday nights, Saturday shifts, Sunday coverage, and flexible event positions that pay at or above weekday rates.</p>
-    <div class="hero-ctas"><a href="/job-board?city=dallas" class="btn-primary">Browse All Jobs →</a></div>
+    <div class="hero-ctas"><a href="/job-board?city=dallas" class="btn-primary" onclick="bbjGo('/job-board?city=dallas');return false;">Browse All Jobs →</a></div>
   </div>
 </section>
 
@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="listings-cta">
     <p>New positions posted regularly. Get notified the moment one opens near you.</p>
-    <a href="/job-board?city=dallas" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">See More Jobs →</a>
+    <a href="/job-board?city=dallas" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;" onclick="bbjGo('/job-board?city=dallas');return false;">See More Jobs →</a>
   </div>
 </div>
 
@@ -508,7 +508,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
       <li><a href="/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
     </ul>
-    <a href="/job-board?city=dallas" class="btn-primary" style="display:inline-block;margin-top:16px;max-width:320px;text-align:center;">Browse All DFW Security Jobs →</a>
+    <a href="/job-board?city=dallas" class="btn-primary" style="display:inline-block;margin-top:16px;max-width:320px;text-align:center;" onclick="bbjGo('/job-board?city=dallas');return false;">Browse All DFW Security Jobs →</a>
   </div>
 </div>
 <div class="alert-wrap" id="alerts" data-nosnippet>
@@ -575,6 +575,246 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   (function(){var b=document.getElementById('stickyBar');var h=document.querySelector('.hero')||document.querySelector('section');if(!b||!h)return;function chk(){b.classList.toggle('show',h.getBoundingClientRect().bottom<=0);}window.addEventListener('scroll',chk,{passive:true});chk();})();
+</script>
+
+<script>
+/* ─────────────────────────────────────────────
+   BBJ UNIFIED GATE v3
+   Order: Role → Availability → License → Contact+TCPA
+   ───────────────────────────────────────────── */
+
+var BBJ_WEBHOOK = 'https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
+var BBJ_COOKIE  = 'bbj_registered=1';
+
+function bbjIsRegistered() { return document.cookie.indexOf(BBJ_COOKIE) !== -1; }
+function bbjSetRegistered() { document.cookie = BBJ_COOKIE + '; max-age=2592000; path=/; SameSite=Lax'; }
+function bbjGetViewCookie() { var m=document.cookie.match(/bbj_views=(\d+)/); return m?parseInt(m[1],10):0; }
+function bbjSetViewCookie(n) { document.cookie='bbj_views='+n+'; path=/; SameSite=Lax'; }
+
+var _bbjGateDest='', _bbjGateApplyUrl='', _bbjGateSource='';
+var _bbjLicVal='', _bbjHelpVal='', _bbjTCPAChecked=false;
+
+/* ── STYLES ── */
+var BBJ_GATE_STYLES='<style id="bbjGateStyles">' +
+'.bbj-multi{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:11px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
+'.bbj-multi:hover{border-color:#FFC300;}' +
+'.bbj-multi.on{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
+'.bbj-opt{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:12px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
+'.bbj-opt:hover{border-color:#FFC300;background:#fffbeb;}' +
+'.bbj-opt.selected{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
+'.bbj-cont-btn{flex:1;padding:13px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;}' +
+'.bbj-back-btn{padding:12px 16px;background:none;border:1.5px solid #e2e5ea;border-radius:10px;font-family:\'Barlow Condensed\',sans-serif;font-size:0.95rem;font-weight:700;color:#5a6474;cursor:pointer;}' +
+'.bbj-input{width:100%;padding:12px 14px;border:1.5px solid #e2e5ea;border-radius:9px;font-size:1rem;font-family:\'Barlow\',sans-serif;color:#1a1a1a;box-sizing:border-box;-webkit-appearance:none;outline:none;margin-bottom:9px;display:block;}' +
+'.bbj-input:focus{border-color:#000814;}' +
+'</style>';
+
+/* ── HTML ── */
+function bbjGateHTML() {
+  return '<div id="bbjGate" style="display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.88);align-items:center;justify-content:center;padding:16px;overflow-y:auto;">' +
+  '<div style="background:#fff;border-radius:18px;padding:28px 22px 24px;max-width:400px;width:100%;position:relative;margin:auto;">' +
+  '<button onclick="bbjCloseGate()" aria-label="Close" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.3rem;cursor:pointer;color:#5a6474;">✕</button>' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.65rem;font-weight:800;color:#000814;line-height:1.08;margin-bottom:4px;">Sign Up to See Jobs</div>' +
+  '<div style="font-size:0.83rem;color:#5a6474;margin-bottom:16px;">Free to register. No resume required.</div>' +
+
+  /* dots */
+  '<div style="display:flex;gap:6px;margin-bottom:20px;">' +
+  '<span id="bbjDot1" style="width:8px;height:8px;border-radius:50%;background:#000814;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot2" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot3" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '<span id="bbjDot4" style="width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;"></span>' +
+  '</div>' +
+
+  /* STEP 1 — Role interest */
+  '<div id="bbjStep1">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:6px;">What roles interest you?</div>' +
+  '<div style="font-size:0.75rem;color:#5a6474;margin-bottom:10px;">Select all that apply</div>' +
+  '<div style="display:flex;flex-direction:column;gap:7px;margin-bottom:14px;">' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Unarmed Security">Unarmed Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Armed Security">Armed Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Overnight Security">Overnight Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Event Security">Event Security</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Loss Prevention">Loss Prevention</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Healthcare Security">Healthcare Security</button>' +
+  '</div>' +
+  '<button class="bbj-cont-btn" onclick="bbjGoStep(2)" style="width:100%;">Continue →</button>' +
+  '</div>' +
+
+  /* STEP 2 — Availability */
+  '<div id="bbjStep2" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:6px;">When are you available?</div>' +
+  '<div style="font-size:0.75rem;color:#5a6474;margin-bottom:10px;">Select all that apply</div>' +
+  '<div style="display:flex;flex-direction:column;gap:7px;margin-bottom:14px;">' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Mon–Fri">Mon–Fri</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Nights">Nights</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Weekends">Weekends</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Events">Events only</button>' +
+  '<button class="bbj-multi" onclick="bbjToggle(this)" data-val="Any">Open to any schedule</button>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(1)">← Back</button>' +
+  '<button class="bbj-cont-btn" onclick="bbjGoStep(3)">Continue →</button>' +
+  '</div>' +
+  '</div>' +
+
+  /* STEP 3 — License */
+  '<div id="bbjStep3" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:12px;">Do you have a TX security license?</div>' +
+  '<div id="bbjLicOpts" style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;">' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Level 2\')">Level 2 — Non-Commissioned</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Level 3\')">Level 3 — Armed/Commissioned</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'Both\')">Both</button>' +
+  '<button class="bbj-opt" onclick="bbjPickLic(this,\'None\')">No license yet</button>' +
+  '</div>' +
+  '<div id="bbjLicHelp" style="display:none;margin-bottom:14px;">' +
+  '<div style="font-size:0.82rem;font-weight:700;color:#000814;margin-bottom:8px;">Want help getting licensed?</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-opt" style="flex:1;" onclick="bbjPickHelp(this,\'Yes\')">Yes</button>' +
+  '<button class="bbj-opt" style="flex:1;" onclick="bbjPickHelp(this,\'No\')">No thanks</button>' +
+  '</div>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(2)">← Back</button>' +
+  '<button id="bbjNext3" class="bbj-cont-btn" onclick="bbjGoStep(4)" style="opacity:0.35;pointer-events:none;">Continue →</button>' +
+  '</div>' +
+  '</div>' +
+
+  /* STEP 4 — Contact + TCPA */
+  '<div id="bbjStep4" style="display:none;">' +
+  '<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;color:#000814;margin-bottom:14px;">Where should we send alerts?</div>' +
+  '<input id="bbjName" class="bbj-input" type="text" placeholder="Full Name" autocomplete="name">' +
+  '<input id="bbjEmail" class="bbj-input" type="email" placeholder="Email Address" autocomplete="email">' +
+  '<input id="bbjPhone" class="bbj-input" type="tel" placeholder="Phone (optional — for SMS alerts)" autocomplete="tel">' +
+  '<div id="bbjGateErr" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:9px;"></div>' +
+  '<div onclick="bbjToggleTCPA()" style="display:flex;align-items:flex-start;gap:10px;background:#f4f5f7;border-radius:9px;padding:12px;margin-bottom:14px;cursor:pointer;">' +
+  '<div id="bbjTCPAbox" style="width:18px;height:18px;border:2px solid #c8cdd4;border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;"></div>' +
+  '<div style="font-size:0.72rem;color:#5a6474;line-height:1.5;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" onclick="event.stopPropagation()" style="color:#5a6474;">Privacy Policy</a>.</div>' +
+  '</div>' +
+  '<div style="display:flex;gap:8px;">' +
+  '<button class="bbj-back-btn" onclick="bbjGoStep(3)">← Back</button>' +
+  '<button id="bbjSubmitBtn" class="bbj-cont-btn" onclick="bbjSubmitGate()" style="opacity:0.35;pointer-events:none;">See Jobs →</button>' +
+  '</div>' +
+  '</div>' +
+
+  '</div></div>';
+}
+
+/* ── STEP NAV ── */
+function bbjGoStep(n) {
+  for(var i=1;i<=4;i++){
+    var el=document.getElementById('bbjStep'+i);
+    if(el) el.style.display=(i===n)?'block':'none';
+    var dot=document.getElementById('bbjDot'+i);
+    if(dot) dot.style.background=(i<=n)?'#000814':'#e2e5ea';
+  }
+}
+
+/* ── LICENSE LOGIC ── */
+function bbjPickLic(btn,val){
+  _bbjLicVal=val;
+  document.querySelectorAll('#bbjLicOpts .bbj-opt').forEach(function(b){b.classList.remove('selected');});
+  btn.classList.add('selected');
+  var help=document.getElementById('bbjLicHelp');
+  var next=document.getElementById('bbjNext3');
+  if(val==='None'){
+    help.style.display='block';
+    _bbjHelpVal='';
+    next.style.opacity='0.35'; next.style.pointerEvents='none';
+  } else {
+    help.style.display='none';
+    _bbjHelpVal='';
+    next.style.opacity='1'; next.style.pointerEvents='auto';
+  }
+}
+function bbjPickHelp(btn,val){
+  _bbjHelpVal=val;
+  document.querySelectorAll('#bbjLicHelp .bbj-opt').forEach(function(b){b.classList.remove('selected');});
+  btn.classList.add('selected');
+  var next=document.getElementById('bbjNext3');
+  next.style.opacity='1'; next.style.pointerEvents='auto';
+}
+
+/* ── MULTI TOGGLE ── */
+function bbjToggle(btn){ btn.classList.toggle('on'); }
+
+/* ── TCPA ── */
+function bbjToggleTCPA(){
+  _bbjTCPAChecked=!_bbjTCPAChecked;
+  var box=document.getElementById('bbjTCPAbox');
+  box.style.background=_bbjTCPAChecked?'#000814':'';
+  box.style.borderColor=_bbjTCPAChecked?'#000814':'#c8cdd4';
+  box.innerHTML=_bbjTCPAChecked?'<svg width="11" height="9" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#FFC300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';
+  var sub=document.getElementById('bbjSubmitBtn');
+  sub.style.opacity=_bbjTCPAChecked?'1':'0.35';
+  sub.style.pointerEvents=_bbjTCPAChecked?'auto':'none';
+}
+
+/* ── OPEN / CLOSE ── */
+function bbjOpenGate(dest,source){
+  _bbjGateDest=dest||'/job-board';
+  _bbjGateSource=source||window.location.href;
+  if(!document.getElementById('bbjGate')){
+    if(!document.getElementById('bbjGateStyles')) document.head.insertAdjacentHTML('beforeend',BBJ_GATE_STYLES);
+    document.body.insertAdjacentHTML('beforeend',bbjGateHTML());
+  }
+  /* reset state */
+  _bbjLicVal=''; _bbjHelpVal=''; _bbjTCPAChecked=false;
+  document.querySelectorAll('.bbj-multi,.bbj-opt').forEach(function(b){b.classList.remove('on','selected');});
+  var help=document.getElementById('bbjLicHelp'); if(help) help.style.display='none';
+  var n3=document.getElementById('bbjNext3'); if(n3){n3.style.opacity='0.35';n3.style.pointerEvents='none';}
+  var sb=document.getElementById('bbjSubmitBtn'); if(sb){sb.style.opacity='0.35';sb.style.pointerEvents='none';}
+  var box=document.getElementById('bbjTCPAbox'); if(box){box.style.background='';box.style.borderColor='#c8cdd4';box.innerHTML='';}
+  ['bbjName','bbjEmail','bbjPhone'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  var err=document.getElementById('bbjGateErr'); if(err) err.style.display='none';
+  bbjGoStep(1);
+  document.getElementById('bbjGate').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+function bbjCloseGate(){
+  var el=document.getElementById('bbjGate');
+  if(el) el.style.display='none';
+  document.body.style.overflow='';
+}
+
+/* ── SUBMIT ── */
+function bbjSubmitGate(){
+  var name=(document.getElementById('bbjName')||{}).value||'';
+  var email=(document.getElementById('bbjEmail')||{}).value||'';
+  var phone=(document.getElementById('bbjPhone')||{}).value||'';
+  var err=document.getElementById('bbjGateErr');
+  name=name.trim(); email=email.trim(); phone=phone.trim();
+  if(!name){err.textContent='Please enter your name.';err.style.display='block';return;}
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent='Please enter a valid email.';err.style.display='block';return;}
+  err.style.display='none';
+  var roles=[],avail=[];
+  document.querySelectorAll('#bbjStep1 .bbj-multi.on').forEach(function(b){roles.push(b.getAttribute('data-val'));});
+  document.querySelectorAll('#bbjStep2 .bbj-multi.on').forEach(function(b){avail.push(b.getAttribute('data-val'));});
+  fetch(BBJ_WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+    timestamp:new Date().toISOString(),type:'candidate',name:name,email:email,
+    phone:phone.replace(/\D/g,''),tx_license:_bbjLicVal,license_help:_bbjHelpVal,
+    role_interest:roles.join(', '),availability:avail.join(', '),
+    source:_bbjGateSource,form:'gate_v3',consent:true,
+    consent_text:'User agreed to receive SMS and email updates from BlackBarJobs.'
+  })});
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({event:'network_join',source:'gate_v3'});
+  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
+  bbjSetRegistered();
+  bbjCloseGate();
+  if(_bbjGateApplyUrl){window.open(_bbjGateApplyUrl,'_blank');_bbjGateApplyUrl='';}
+  else if(_bbjGateDest){window.location.href=_bbjGateDest;}
+}
+
+/* ── GATED LINK ── */
+function bbjGo(dest){
+  if(bbjIsRegistered()){window.location.href=dest;return;}
+  _bbjGateApplyUrl='';
+  bbjOpenGate(dest,window.location.href);
+}
+
+/* ── BACKDROP + ESC ── */
+document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
+
 </script>
 </body>
 </html>
