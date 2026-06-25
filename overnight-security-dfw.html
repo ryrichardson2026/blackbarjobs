@@ -1286,27 +1286,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- REGISTRATION MODAL -->
-<div id="regModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,8,20,0.85);align-items:center;justify-content:center;padding:20px;">
-  <div style="background:#fff;border-radius:12px;padding:28px 24px;max-width:360px;width:100%;position:relative;">
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#000814;margin-bottom:6px;">Sign Up To View Jobs</div>
-    <div style="font-size:0.85rem;color:#5a6474;margin-bottom:18px;"></div>
-    <input id="reg-name" type="text" placeholder="Full Name" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:10px;box-sizing:border-box;">
-    <input id="reg-email" type="email" placeholder="Email Address" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;margin-bottom:14px;box-sizing:border-box;">
-    <label style="display:flex;align-items:center;gap:10px;margin-bottom:12px;cursor:pointer;">
-      <input type="checkbox" id="reg-sms-opt" onchange="togglePhone()" style="width:16px;height:16px;accent-color:#FFC300;flex-shrink:0;">
-      <span style="font-size:0.84rem;color:#1a1a1a;">Text me when overnight jobs are posted</span>
-    </label>
-    <div id="reg-phone-wrap" style="display:none;margin-bottom:14px;">
-      <input id="reg-phone" type="tel" placeholder="Mobile Number" style="width:100%;padding:11px 14px;border:1px solid #e2e5ea;border-radius:8px;font-size:0.95rem;box-sizing:border-box;">
-      <p style="font-size:0.68rem;color:#5a6474;margin-top:6px;line-height:1.5;">By entering your number you agree to receive SMS job alerts from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
-    </div>
-    <div id="reg-error" style="display:none;color:#c0392b;font-size:0.8rem;margin-bottom:10px;"></div>
-    <button onclick="submitReg()" style="width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;">Join Network &amp; View Job &rarr;</button>
-    <div style="font-size:0.72rem;color:#5a6474;margin-top:10px;text-align:center;">No spam. Unsubscribe anytime.</div>
-    <button onclick="closeRegModal()" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#5a6474;">&times;</button>
-  </div>
-</div>
-
 <div class="sec-light">
   <div class="sec-divider" style="margin-top:0;"><span>Overview</span></div>
   <div class="sec-wrap">
@@ -1444,8 +1423,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 // JOB FEED
 
-var sessionUnlocked = false;
-if (document.cookie.indexOf('bbj_registered=1') !== -1) { sessionUnlocked = true; }
 
 
 function submitAlert(){
@@ -1522,13 +1499,7 @@ function submitAlert(){
   </div>
 <script>
 
-  function openModal() {
-    document.getElementById('step1').classList.add('active');
-    document.getElementById('step5').classList.remove('active');
-    document.getElementById('contactError').style.display = 'none';
-    document.getElementById('modalOverlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-    setTimeout(function(){ document.getElementById('f-zip').focus(); }, 400);
+  , 400);
   }
 
   function closeModal() {
@@ -1629,12 +1600,12 @@ function handleIndexApply(encodedUrl) {
   if (indexSessionUnlocked) {
     window.open(indexPendingApplyUrl, '_blank');
   } else {
-    document.getElementById('indexRegModal').style.display = 'flex';
+    
   }
 }
 
 function closeIndexModal() {
-  document.getElementById('indexRegModal').style.display = 'none';
+  
 }
 
 function toggleIndexPhone() {
@@ -1911,7 +1882,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 (function(){
   var FREE=1,sess=0;
   function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+'){rows.push(cur);cur=[''];f=0;}else if(c!=='
+')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
   function render(jobs){
     var c=document.getElementById('jobRows');if(!c)return;
     if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
