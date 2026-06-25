@@ -493,6 +493,8 @@ function submitAlert(){
 
 
 
+
+
 <script>
 /* ─────────────────────────────────────────────
    BBJ UNIFIED GATE v5
@@ -726,17 +728,17 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 <script>
 (function(){
   var FREE=1,sess=0;
-  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='\n'){rows.push(cur);cur=[''];f=0;}else if(c!=='\r')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
   function render(jobs){
     var c=document.getElementById('jobRows');if(!c)return;
-    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
+    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now \u2014 check back soon.</div></div></div>';return;}
+    var ff='Barlow Condensed';
     c.innerHTML=jobs.map(function(j){
       var url=encodeURIComponent(j.apply_link||'');
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
-        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
-        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
+        +'<div class="hf-meta">'+(j.company||'')+(j.location?' \xb7 '+j.location:'')+(j.pay?' \xb7 '+j.pay:'')+'</div></div>'
+        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'+ff+',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
         +'</div>';
     }).join('');
   }

@@ -1520,149 +1520,9 @@ function submitAlert(){
     </div>
 
   </div>
-<script>
-
-  , 400);
-  }
-
-  function closeModal() {
-    var sheet = document.getElementById('modalSheet');
-    var isMobile = window.innerWidth < 640;
-    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
-    sheet.style.opacity = '0';
-    setTimeout(function() {
-      document.getElementById('modalOverlay').classList.remove('open');
-      sheet.style.transform = '';
-      sheet.style.opacity = '';
-      document.body.style.overflow = '';
-    }, 280);
-  }
-
-  function handleOverlayClick(e) {
-    if (e.target === document.getElementById('modalOverlay')) closeModal();
-  }
-
-  function submitModal() {
-    var zip   = document.getElementById('f-zip').value.trim();
-    var phone = document.getElementById('f-phone').value.trim();
-    var email = document.getElementById('f-email').value.trim();
-    var errEl = document.getElementById('contactError');
-    errEl.style.display = 'none';
-
-    if (!zip || zip.length < 5) {
-      errEl.textContent = 'Please enter your ZIP code.';
-      errEl.style.display = 'block';
-      document.getElementById('f-zip').focus();
-      return;
-    }
-    if (!phone && !email) {
-      errEl.textContent = 'Please enter a phone number or email.';
-      errEl.style.display = 'block';
-      document.getElementById('f-phone').focus();
-      return;
-    }
-
-    var pc = phone.replace(/\D/g,'');
-
-    // Fire GTM + Google Ads conversion
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({event:'alert_form_submit', zip:zip});
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
-    }
-
-    // Send to Make.com
-    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        timestamp: new Date().toISOString(),
-        zip: zip,
-        phone: pc,
-        email: email,
-        source: window.location.href,
-        consent: true,
-        consent_timestamp: new Date().toISOString(),
-        consent_text: 'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
-      })
-    });
-
-    // Show success
-    document.getElementById('step1').classList.remove('active');
-    document.getElementById('step5').classList.add('active');
-  }
-
-  function toggleFaq(el) {
-    var item = el.parentElement;
-    var isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(function(i) { i.classList.remove('open'); });
-    if (!isOpen) item.classList.add('open');
-  }
-
-  // Sticky bar
-  (function(){
-    var b = document.getElementById('stickyBar');
-    var h = document.querySelector('.hero');
-    if (!b || !h) return;
-    function chk(){ b.classList.toggle('show', h.getBoundingClientRect().bottom <= 0); }
-    window.addEventListener('scroll', chk, {passive:true});
-    chk();
-  })();
-
-  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
-
-
-// INDEX JOB FEED
-var indexPendingApplyUrl = '';
-var indexSessionUnlocked = false;
-if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
-
-
-function handleIndexApply(encodedUrl) {
-  indexPendingApplyUrl = decodeURIComponent(encodedUrl);
-  if (indexSessionUnlocked) {
-    window.open(indexPendingApplyUrl, '_blank');
-  } else {
-    
-  }
-}
-
-function closeIndexModal() {
-  
-}
-
-function toggleIndexPhone() {
-  var wrap = document.getElementById('index-phone-wrap');
-  var checked = document.getElementById('index-sms-opt').checked;
-  wrap.style.display = checked ? 'block' : 'none';
-  if (!checked) document.getElementById('index-reg-phone').value = '';
-}
-
-function submitIndexReg() {
-  var name = document.getElementById('index-reg-name').value.trim();
-  var email = document.getElementById('index-reg-email').value.trim();
-  var smsOpt = document.getElementById('index-sms-opt').checked;
-  var phone = smsOpt ? document.getElementById('index-reg-phone').value.trim() : '';
-  var err = document.getElementById('index-reg-error');
-  err.style.display = 'none';
-  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
-  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-    method: 'POST', headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'dfw', source: window.location.href, consent: true })
-  });
-  indexSessionUnlocked = true;
-  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
-  closeIndexModal();
-  if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
-}
 
 
 
-</script>
 
 
 
@@ -1904,18 +1764,17 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 <script>
 (function(){
   var FREE=1,sess=0;
-  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='
-')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='\n'){rows.push(cur);cur=[''];f=0;}else if(c!=='\r')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
   function render(jobs){
     var c=document.getElementById('jobRows');if(!c)return;
-    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
+    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now \u2014 check back soon.</div></div></div>';return;}
+    var ff='Barlow Condensed';
     c.innerHTML=jobs.map(function(j){
       var url=encodeURIComponent(j.apply_link||'');
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
-        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
-        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
+        +'<div class="hf-meta">'+(j.company||'')+(j.location?' \xb7 '+j.location:'')+(j.pay?' \xb7 '+j.pay:'')+'</div></div>'
+        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'+ff+',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
         +'</div>';
     }).join('');
   }
