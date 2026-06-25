@@ -1712,18 +1712,7 @@ var _bbjGateDest='', _bbjGateApplyUrl='', _bbjGateSource='';
 var _bbjLicVal='', _bbjHelpVal='', _bbjTCPAChecked=false;
 
 /* ── STYLES ── */
-var BBJ_GATE_STYLES='<style id="bbjGateStyles">' +
-'.bbj-multi{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:11px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
-'.bbj-multi:hover{border-color:#FFC300;}' +
-'.bbj-multi.on{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
-'.bbj-opt{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:9px;padding:12px 14px;text-align:left;color:#1a1a1a;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;transition:border-color 0.15s,background 0.15s;display:block;}' +
-'.bbj-opt:hover{border-color:#FFC300;background:#fffbeb;}' +
-'.bbj-opt.selected{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}' +
-'.bbj-cont-btn{flex:1;padding:13px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;}' +
-'.bbj-back-btn{padding:12px 16px;background:none;border:1.5px solid #e2e5ea;border-radius:10px;font-family:\'Barlow Condensed\',sans-serif;font-size:0.95rem;font-weight:700;color:#5a6474;cursor:pointer;}' +
-'.bbj-input{width:100%;padding:12px 14px;border:1.5px solid #e2e5ea;border-radius:9px;font-size:1rem;font-family:\'Barlow\',sans-serif;color:#1a1a1a;box-sizing:border-box;-webkit-appearance:none;outline:none;margin-bottom:9px;display:block;}' +
-'.bbj-input:focus{border-color:#000814;}' +
-'</style>';
+var BBJ_GATE_STYLES='';
 
 /* ── HTML ── */
 function bbjGateHTML() {
@@ -1998,57 +1987,7 @@ var _bbjGateDest='', _bbjGateApplyUrl='', _bbjGateSource='';
 var _bbjLicVal='', _bbjHelpVal='', _bbjTCPAChecked=false;
 
 /* ── STYLES ── */
-var BBJ_GATE_STYLES='<style id="bbjGateStyles">' +
-/* Overlay */
-'#bbjGate{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.92);align-items:flex-end;justify-content:center;overflow-y:auto;}' +
-'@media(min-width:640px){#bbjGate{align-items:center;}}' +
-/* Sheet */
-'#bbjSheet{background:#000814;width:100%;max-width:460px;border-radius:22px 22px 0 0;padding:28px 22px 32px;position:relative;max-height:92dvh;overflow-y:auto;}' +
-'@media(min-width:640px){#bbjSheet{border-radius:18px;}}' +
-/* Close */
-'#bbjClose{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,0.08);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:rgba(255,255,255,0.6);}' +
-'#bbjClose:hover{background:rgba(255,255,255,0.14);}' +
-/* Header */
-'.bbj-eyebrow{font-family:\'Barlow Condensed\',sans-serif;font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#FFC300;margin-bottom:6px;}' +
-'.bbj-heading{font-family:\'Barlow Condensed\',sans-serif;font-size:clamp(1.5rem,6vw,1.9rem);font-weight:800;color:#fff;line-height:1.1;margin-bottom:4px;}' +
-'.bbj-sub{font-size:0.82rem;color:rgba(255,255,255,0.45);margin-bottom:20px;}' +
-/* Progress dots */
-'.bbj-dots{display:flex;gap:6px;margin-bottom:22px;}' +
-'.bbj-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);transition:background 0.2s;}' +
-'.bbj-dot.on{background:#FFC300;}' +
-/* Option buttons — single select */
-'.bbj-opts{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}' +
-'.bbj-opt{width:100%;background:rgba(255,255,255,0.06);border:1.5px solid rgba(255,255,255,0.12);border-radius:10px;padding:14px 16px;text-align:left;color:#fff;font-family:\'Barlow\',sans-serif;font-size:0.92rem;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:12px;transition:border-color 0.15s,background 0.15s;}' +
-'.bbj-opt:hover{border-color:rgba(255,195,0,0.5);background:rgba(255,195,0,0.06);}' +
-'.bbj-opt.on{border-color:#FFC300;background:rgba(255,195,0,0.1);}' +
-'.bbj-check{width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,0.2);flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}' +
-'.bbj-opt.on .bbj-check{border-color:#FFC300;background:#FFC300;}' +
-'.bbj-check-inner{width:8px;height:8px;border-radius:50%;background:#000814;opacity:0;transition:opacity 0.15s;}' +
-'.bbj-opt.on .bbj-check-inner{opacity:1;}' +
-/* Multi-select — square check */
-'.bbj-multi .bbj-check{border-radius:4px;}' +
-/* Inputs — alert-form style dark */
-'.bbj-field{position:relative;margin-bottom:9px;}' +
-'.bbj-field-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:1rem;pointer-events:none;line-height:1;}' +
-'.bbj-input{width:100%;padding:13px 13px 13px 38px;border:1.5px solid rgba(255,255,255,0.14);border-radius:10px;background:rgba(255,255,255,0.08);color:#fff;font-family:\'Barlow\',sans-serif;font-size:0.97rem;outline:none;-webkit-appearance:none;box-sizing:border-box;}' +
-'.bbj-input::placeholder{color:rgba(255,255,255,0.32);}' +
-'.bbj-input:focus{border-color:#FFC300;}' +
-/* Buttons */
-'.bbj-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-top:2px;}' +
-'.bbj-btn:hover{background:#FFD60A;}' +
-'.bbj-btn:disabled{opacity:0.35;cursor:not-allowed;}' +
-'.bbj-back{background:none;border:none;color:rgba(255,255,255,0.4);font-family:\'Barlow\',sans-serif;font-size:0.82rem;cursor:pointer;padding:10px 0 0;display:flex;align-items:center;gap:4px;}' +
-'.bbj-back:hover{color:rgba(255,255,255,0.7);}' +
-/* TCPA */
-'.bbj-tcpa{display:flex;align-items:flex-start;gap:10px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:14px;margin-bottom:14px;cursor:pointer;}' +
-'.bbj-tcpa-box{width:18px;height:18px;border:2px solid rgba(255,255,255,0.25);border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}' +
-'.bbj-tcpa-box.on{background:#FFC300;border-color:#FFC300;}' +
-'.bbj-tcpa-text{font-size:0.72rem;color:rgba(255,255,255,0.4);line-height:1.5;}' +
-'.bbj-tcpa-text a{color:rgba(255,255,255,0.5);}' +
-'.bbj-trust{font-size:0.7rem;color:rgba(255,255,255,0.28);margin-top:10px;display:flex;align-items:center;gap:5px;justify-content:center;}' +
-'.bbj-err{display:none;color:#f87171;font-size:0.8rem;margin-bottom:8px;}' +
-'.bbj-hint{font-size:0.75rem;color:rgba(255,255,255,0.35);margin-bottom:10px;margin-top:-12px;}' +
-'</style>';
+var BBJ_GATE_STYLES='';
 
 /* ── HTML ── */
 function bbjBuildGate(){
@@ -2253,7 +2192,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 (function(){
   var FREE=1,sess=0,dest='/job-board?role=unarmed&city=dfw';
   function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+'){rows.push(cur);cur=[''];f=0;}else if(c!=='
+')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
   function render(jobs){
     var c=document.getElementById('jobRows');if(!c)return;
     if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
@@ -2264,6 +2204,270 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
         '<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>' +
         '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>' +
       '</div>';
+    }).join('');
+  }
+  window.bbjHubApply=function(url){
+    if(!url)return;
+    if(bbjIsRegistered()){window.open(url,'_blank');return;}
+    sess++;
+    if(sess<=FREE){window.open(url,'_blank');return;}
+    _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
+  };
+  var PUB='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
+  var GIDS=['908030','0','860426680','2118776757','344919398'],role='unarmed-dfw';
+  Promise.all(GIDS.map(function(g){return fetch(PUB+'?single=true&output=csv&gid='+g,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){return t?parseCSV(t):[]}).catch(function(){return[];});})). then(function(arrs){
+    var seen={},all=[];arrs.forEach(function(a){a.forEach(function(j){var k=(j.apply_link||j.title+j.company).toLowerCase();if(!seen[k]){seen[k]=1;all.push(j);}});});
+    var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
+    active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
+    render(active.slice(0,10));
+  }).catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
+})();
+</script>
+<script>
+/* ─────────────────────────────────────────────
+   BBJ UNIFIED GATE v5
+   White card, 3 steps: Role Type → License → Contact
+   ───────────────────────────────────────────── */
+
+var BBJ_WEBHOOK='https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
+var BBJ_COOKIE='bbj_registered=1';
+
+function bbjIsRegistered(){return document.cookie.indexOf(BBJ_COOKIE)!==-1;}
+function bbjSetRegistered(){document.cookie=BBJ_COOKIE+'; max-age=2592000; path=/; SameSite=Lax';}
+function bbjGetViewCookie(){var m=document.cookie.match(/bbj_views=(\d+)/);return m?parseInt(m[1],10):0;}
+function bbjSetViewCookie(n){document.cookie='bbj_views='+n+'; path=/; SameSite=Lax';}
+
+var _bbjGateDest='',_bbjGateApplyUrl='',_bbjGateSource='';
+var _bbjLicVal='',_bbjHelpVal='',_bbjSMSChecked=false;
+
+/* ── STYLES ── */
+var BBJ_GATE_STYLES='<style id="bbjGS">'
++'#bbjGate{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}'
++'@media(min-width:640px){#bbjGate{align-items:center;}}'
++'#bbjSheet{background:#fff;width:100%;max-width:440px;border-radius:22px 22px 0 0;padding:30px 22px 36px;position:relative;max-height:92dvh;overflow-y:auto;}'
++'@media(min-width:640px){#bbjSheet{border-radius:18px;}}'
++'#bbjXbtn{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:#f4f5f7;border:none;cursor:pointer;font-size:1.1rem;color:#5a6474;display:flex;align-items:center;justify-content:center;}'
++'#bbjXbtn:hover{background:#e2e5ea;}'
++'.bbj-h1{font-family:"Barlow Condensed",sans-serif;font-size:1.75rem;font-weight:800;color:#000814;line-height:1.05;margin-bottom:4px;}'
++'.bbj-sub{font-size:0.82rem;color:#5a6474;margin-bottom:18px;}'
++'.bbj-dots{display:flex;gap:6px;margin-bottom:22px;}'
++'.bbj-dot{width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;}'
++'.bbj-dot.on{background:#000814;}'
+/* Question label */
++'.bbj-qlabel{font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;color:#000814;margin-bottom:12px;}'
+/* Full-width clickable rows */
++'.bbj-row{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:10px;padding:14px 16px;margin-bottom:8px;text-align:left;color:#1a1a1a;font-family:"Barlow",sans-serif;font-size:0.95rem;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:12px;transition:border-color 0.15s,background 0.15s;box-sizing:border-box;}'
++'.bbj-row:hover{border-color:#FFC300;background:#fffbeb;}'
++'.bbj-row.on{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}'
++'.bbj-radio{width:20px;height:20px;border-radius:50%;border:2px solid #c8cdd4;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}'
++'.bbj-row.on .bbj-radio{border-color:#FFC300;background:#FFC300;}'
++'.bbj-radio-inner{width:8px;height:8px;border-radius:50%;background:#000814;opacity:0;}'
++'.bbj-row.on .bbj-radio-inner{opacity:1;}'
+/* Inputs */
++'.bbj-input{width:100%;padding:13px 14px;border:1.5px solid #e2e5ea;border-radius:10px;font-size:1rem;font-family:"Barlow",sans-serif;color:#1a1a1a;background:#fff;outline:none;-webkit-appearance:none;box-sizing:border-box;margin-bottom:9px;display:block;}'
++'.bbj-input:focus{border-color:#000814;}'
++'.bbj-input::placeholder{color:#a0aab4;}'
+/* SMS checkbox row */
++'.bbj-sms-row{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#f4f5f7;border-radius:10px;margin-bottom:9px;cursor:pointer;}'
++'.bbj-sms-box{width:20px;height:20px;border:2px solid #c8cdd4;border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}'
++'.bbj-sms-box.on{background:#000814;border-color:#000814;}'
++'.bbj-sms-label{font-size:0.9rem;color:#1a1a1a;font-family:"Barlow",sans-serif;font-weight:500;}'
+/* TCPA */
++'.bbj-tcpa{font-size:0.7rem;color:#a0aab4;line-height:1.5;margin-bottom:12px;}'
++'.bbj-tcpa a{color:#a0aab4;}'
+/* Buttons */
++'.bbj-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-bottom:8px;}'
++'.bbj-btn:hover{background:#FFD60A;}'
++'.bbj-btn:disabled{opacity:0.35;cursor:not-allowed;}'
++'.bbj-back{background:none;border:none;color:#a0aab4;font-family:"Barlow",sans-serif;font-size:0.82rem;cursor:pointer;padding:4px 0;}'
++'.bbj-back:hover{color:#5a6474;}'
++'.bbj-unsub{font-size:0.7rem;color:#a0aab4;text-align:center;margin-top:6px;}'
++'.bbj-err{display:none;color:#e53935;font-size:0.8rem;margin-bottom:8px;}'
++'</style>';
+
+/* ── HTML ── */
+function bbjBuildGate(){
+  return '<div id="bbjGate"><div id="bbjSheet">'
+  +'<button id="bbjXbtn" onclick="bbjCloseGate()" aria-label="Close">✕</button>'
+  +'<div class="bbj-h1">Sign Up to See Jobs</div>'
+  +'<div class="bbj-sub">Free to join. No resume required.</div>'
+  +'<div class="bbj-dots"><div class="bbj-dot on" id="bbjD1"></div><div class="bbj-dot" id="bbjD2"></div><div class="bbj-dot" id="bbjD3"></div></div>'
+
+  /* STEP 1 — Role type */
+  +'<div id="bbjS1">'
+  +'<div class="bbj-qlabel">What type of roles are you interested in?</div>'
+  +bbjRow('role','Full-Time')+bbjRow('role','Part-Time')+bbjRow('role','Event')+bbjRow('role','On-Call')+bbjRow('role','Any role type')
+  +'<button class="bbj-btn" id="bbjN1" onclick="bbjGoStep(2)" disabled>Continue →</button>'
+  +'</div>'
+
+  /* STEP 2 — License */
+  +'<div id="bbjS2" style="display:none;">'
+  +'<div class="bbj-qlabel">Do you have a security license?</div>'
+  +bbjRow('lic','Level 2')+bbjRow('lic','Level 3')+bbjRow('lic','Both')+bbjRow('lic','No license yet')
+  +'<div id="bbjHelpWrap" style="display:none;margin-top:4px;margin-bottom:4px;">'
+  +'<div class="bbj-qlabel" style="font-size:0.95rem;margin-bottom:8px;">Want help getting licensed?</div>'
+  +'<div style="display:flex;gap:8px;">'+bbjRowInline('help','Yes')+bbjRowInline('help','No thanks')+'</div>'
+  +'</div>'
+  +'<button class="bbj-btn" id="bbjN2" onclick="bbjGoStep(3)" disabled style="margin-top:8px;">Continue →</button>'
+  +'<button class="bbj-back" onclick="bbjGoStep(1)">← Back</button>'
+  +'</div>'
+
+  /* STEP 3 — Contact */
+  +'<div id="bbjS3" style="display:none;">'
+  +'<input id="bbjName" class="bbj-input" type="text" placeholder="Full Name" autocomplete="name">'
+  +'<input id="bbjEmail" class="bbj-input" type="email" placeholder="Email Address" autocomplete="email" inputmode="email">'
+  +'<div class="bbj-sms-row" onclick="bbjToggleSMS()">'
+  +'<div class="bbj-sms-box" id="bbjSMSbox"></div>'
+  +'<span class="bbj-sms-label">Receive SMS alerts for new jobs</span>'
+  +'</div>'
+  +'<div id="bbjPhoneWrap" style="display:none;"><input id="bbjPhone" class="bbj-input" type="tel" placeholder="Phone Number" autocomplete="tel" inputmode="tel"></div>'
+  +'<div class="bbj-err" id="bbjErr"></div>'
+  +'<div class="bbj-tcpa">By submitting I agree to receive email updates and SMS updates if applicable. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</div>'
+  +'<button class="bbj-btn" onclick="bbjSubmitGate()">See Jobs →</button>'
+  +'<div class="bbj-unsub">Unsubscribe anytime.</div>'
+  +'<button class="bbj-back" onclick="bbjGoStep(2)">← Back</button>'
+  +'</div>'
+
+  +'</div></div>';
+}
+
+function bbjRow(group,label){
+  return '<button class="bbj-row" onclick="bbjPickRow(this,\''+group+'\',\''+label+'\')" data-group="'+group+'" data-val="'+label+'">'
+    +'<span class="bbj-radio"><span class="bbj-radio-inner"></span></span>'+label+'</button>';
+}
+function bbjRowInline(group,label){
+  return '<button class="bbj-row" onclick="bbjPickRow(this,\''+group+'\',\''+label+'\')" data-group="'+group+'" data-val="'+label+'" style="flex:1;margin-bottom:0;">'
+    +'<span class="bbj-radio"><span class="bbj-radio-inner"></span></span>'+label+'</button>';
+}
+
+/* ── INTERACTIONS ── */
+function bbjPickRow(btn,group,val){
+  document.querySelectorAll('#bbjSheet [data-group="'+group+'"]').forEach(function(b){b.classList.remove('on');});
+  btn.classList.add('on');
+  if(group==='role'){
+    document.getElementById('bbjN1').disabled=false;
+  }
+  if(group==='lic'){
+    _bbjLicVal=val;
+    var hw=document.getElementById('bbjHelpWrap');
+    if(val==='No license yet'){
+      hw.style.display='block';
+      _bbjHelpVal='';
+      document.getElementById('bbjN2').disabled=true;
+    } else {
+      hw.style.display='none';
+      _bbjHelpVal='';
+      document.getElementById('bbjN2').disabled=false;
+    }
+  }
+  if(group==='help'){
+    _bbjHelpVal=val;
+    document.getElementById('bbjN2').disabled=false;
+  }
+}
+
+function bbjToggleSMS(){
+  _bbjSMSChecked=!_bbjSMSChecked;
+  var box=document.getElementById('bbjSMSbox');
+  box.classList.toggle('on',_bbjSMSChecked);
+  box.innerHTML=_bbjSMSChecked?'<svg width="11" height="9" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#FFC300" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';
+  document.getElementById('bbjPhoneWrap').style.display=_bbjSMSChecked?'block':'none';
+  if(!_bbjSMSChecked){var p=document.getElementById('bbjPhone');if(p)p.value='';}
+}
+
+function bbjGoStep(n){
+  [1,2,3].forEach(function(i){
+    var s=document.getElementById('bbjS'+i);if(s)s.style.display=(i===n)?'block':'none';
+    var d=document.getElementById('bbjD'+i);if(d)d.classList.toggle('on',i<=n);
+  });
+  var sh=document.getElementById('bbjSheet');if(sh)sh.scrollTop=0;
+}
+
+/* ── OPEN / CLOSE ── */
+function bbjOpenGate(dest,source){
+  _bbjGateDest=dest||'/job-board';
+  _bbjGateSource=source||window.location.href;
+  if(!document.getElementById('bbjGate')){
+    if(!document.getElementById('bbjGS'))document.head.insertAdjacentHTML('beforeend',BBJ_GATE_STYLES);
+    document.body.insertAdjacentHTML('beforeend',bbjBuildGate());
+  }
+  /* reset */
+  _bbjLicVal='';_bbjHelpVal='';_bbjSMSChecked=false;
+  document.querySelectorAll('#bbjSheet .bbj-row').forEach(function(b){b.classList.remove('on');});
+  var hw=document.getElementById('bbjHelpWrap');if(hw)hw.style.display='none';
+  var n1=document.getElementById('bbjN1');if(n1)n1.disabled=true;
+  var n2=document.getElementById('bbjN2');if(n2)n2.disabled=true;
+  var smsbox=document.getElementById('bbjSMSbox');if(smsbox){smsbox.classList.remove('on');smsbox.innerHTML='';}
+  var pw=document.getElementById('bbjPhoneWrap');if(pw)pw.style.display='none';
+  ['bbjName','bbjEmail','bbjPhone'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
+  var err=document.getElementById('bbjErr');if(err)err.style.display='none';
+  bbjGoStep(1);
+  document.getElementById('bbjGate').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+
+function bbjCloseGate(){
+  var el=document.getElementById('bbjGate');if(el)el.style.display='none';
+  document.body.style.overflow='';
+}
+
+/* ── SUBMIT ── */
+function bbjSubmitGate(){
+  var name=(document.getElementById('bbjName')||{}).value||'';
+  var email=(document.getElementById('bbjEmail')||{}).value||'';
+  var phone=_bbjSMSChecked?((document.getElementById('bbjPhone')||{}).value||''):'';
+  var err=document.getElementById('bbjErr');
+  name=name.trim();email=email.trim();phone=phone.trim();
+  if(!name){err.textContent='Please enter your name.';err.style.display='block';return;}
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent='Please enter a valid email.';err.style.display='block';return;}
+  if(_bbjSMSChecked&&phone.replace(/\D/g,'').length<10){err.textContent='Please enter a valid phone number.';err.style.display='block';return;}
+  err.style.display='none';
+  var roleVal=document.querySelector('#bbjS1 .bbj-row.on');
+  fetch(BBJ_WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+    timestamp:new Date().toISOString(),type:'candidate',name:name,email:email,
+    phone:phone.replace(/\D/g,''),sms_consent:_bbjSMSChecked,
+    role_type:roleVal?roleVal.getAttribute('data-val'):'',
+    tx_license:_bbjLicVal,license_help:_bbjHelpVal,
+    source:_bbjGateSource,form:'gate_v5',consent:true,
+    consent_text:'User agreed to receive email and SMS updates if applicable from BlackBarJobs.'
+  })});
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({event:'network_join',source:'gate_v5'});
+  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
+  bbjSetRegistered();
+  bbjCloseGate();
+  if(_bbjGateApplyUrl){window.open(_bbjGateApplyUrl,'_blank');_bbjGateApplyUrl='';}
+  else if(_bbjGateDest){window.location.href=_bbjGateDest;}
+}
+
+/* ── GATED LINK ── */
+var _bbjGateApplyUrl='';
+function bbjGo(dest){
+  if(bbjIsRegistered()){window.location.href=dest;return;}
+  _bbjGateApplyUrl='';
+  bbjOpenGate(dest,window.location.href);
+}
+
+/* ── BACKDROP + ESC ── */
+document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
+
+</script>
+<script>
+(function(){
+  var FREE=1,sess=0;
+  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
+'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
+  function render(jobs){
+    var c=document.getElementById('jobRows');if(!c)return;
+    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
+    c.innerHTML=jobs.map(function(j){
+      var url=encodeURIComponent(j.apply_link||'');
+      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
+        +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
+        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
+        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
+        +'</div>';
     }).join('');
   }
   window.bbjHubApply=function(url){
