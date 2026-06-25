@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Now Hiring Overnight Security Officers in DFW | Night Shift Openings | BlackBarJobs</title>
-<meta name="description" content="See who's hiring overnight security officers across Dallas–Fort Worth. Browse night shift openings, view shift differential pay, and get alerted when new positions post.">
+<meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overnight Security Jobs DFW | Night Shift & Pay | BlackBarJobs</title>
+<meta name="description" content="Overnight security jobs in Dallas–Fort Worth pay $16–$26/hr with shift differentials. See who's hiring for night shifts across DFW — apply free.">
 <link rel="canonical" href="https://www.blackbarjobs.com/jobs/overnight-security-dfw">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
-<meta property="og:title" content="Now Hiring Overnight Security Officers in DFW | Night Shift Openings | BlackBarJobs">
-<meta property="og:description" content="See who's hiring overnight security officers across Dallas–Fort Worth. Browse night shift openings, view shift differential pay, and get alerted when new positions post.">
+<meta property="og:title" content="Overnight Security Jobs DFW | Night Shift & Pay | BlackBarJobs">
+<meta property="og:description" content="Browse live overnight security job listings in Dallas–Fort Worth. Shift differentials, full-time and part-time openings. Apply today.">
 <meta property="og:url" content="https://www.blackbarjobs.com/jobs/overnight-security-dfw">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="See who's hiring overnight security officers across Dallas–Fort Worth. Browse night shift openings, view shift differential pay, and get alerted when new positions post.">
+<meta name="twitter:description" content="Live overnight security jobs in DFW — shift differentials and immediate openings across the metro.">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -1243,7 +1243,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="sticky-bar" id="stickyBar">
-  <a href="#alerts">Get Job Alerts →</a>
+  <a href="#alerts">Get Security Job Alerts</a>
 </div>
 
 <nav>
@@ -1257,8 +1257,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
  <div class="hero-content">
   <div class="hero-text-col">
-    <h1>Overnight Security Officer Jobs in <em>Dallas–Fort Worth</em></h1>
-    <p class="hero-sub">The only overnight security job board built for Dallas–Fort Worth. Browse night shift openings with shift differential pay across the metro.</p>
+    <h1>Get Alerts for <em>Security Jobs in DFW</em></h1>
+    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
     <div class="hero-stat-row">
       <div class="hero-stat">
         <span class="hero-stat-num">7</span>
@@ -1280,7 +1280,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-feed" id="jobRows">
       <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
-<a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;" onclick="bbjGo('/job-board?role=overnight&city=dfw');return false;">See More Jobs →</a>
+    <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
+    <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
+    <div class="form-trust">
+      <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      No spam. Unsubscribe anytime.
+    </div>
   </div>
   </div>
 </section>
@@ -1327,7 +1332,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="mid-cta">
   <p>Overnight candidates have the highest placement rate in DFW security — the demand is consistent and callbacks are fast.</p>
-  <a href="/job-board?role=overnight&city=dfw" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;" onclick="bbjGo('/job-board?role=overnight&city=dfw');return false;">Browse All Jobs →</a>
+  <a href="#alerts" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;">Get Free DFW Job Alerts →</a>
 </div>
 
 <div class="sec-light">
@@ -1422,8 +1427,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 })();
 
 // JOB FEED
+var pendingApplyUrl = '';
+var sessionUnlocked = false;
+if (document.cookie.indexOf('bbj_registered=1') !== -1) { sessionUnlocked = true; }
+var CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=2118776757&single=true&output=csv';
+
+function parseCSV(text) {
+  var lines = text.trim().split('\n');
+  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
+  return lines.slice(1).map(function(line) {
+    var cols = []; var cur = ''; var inQ = false;
+    for (var i = 0; i < line.length; i++) {
+      var c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    cols.push(cur);
+    var obj = {};
+    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
+    return obj;
+  });
+}
+
+function renderJobs(jobs) {
+  var active = jobs.filter(function(j){ return j.active === 'yes'; });
+  var container = document.getElementById('jobRows');
+  if (!container) return;
+  if (!active.length) {
+    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
+    return;
+  }
+  active.sort(function(a,b){ return new Date(b.date_pulled||0)-new Date(a.date_pulled||0); });
+  container.innerHTML = active.slice(0,5).map(function(job){
+    var url = encodeURIComponent(job.apply_link||'');
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'  +
+      '<div class="hf-body">' +
+        '<div class="hf-title">'+(job.title||'')+'</div>' +
+        '<div class="hf-meta">'+(job.company||'')+' &nbsp;&middot;&nbsp; '+(job.location||'')+'</div>' +
+      '</div>' +
+      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
+        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
 
 
+function handleApply(encodedUrl) {
+  pendingApplyUrl = decodeURIComponent(encodedUrl);
+  if (sessionUnlocked) { window.open(pendingApplyUrl, '_blank'); }
+  else { document.getElementById('regModal').style.display = 'flex'; }
+}
+
+function closeRegModal() { document.getElementById('regModal').style.display = 'none'; }
+
+function togglePhone() {
+  var wrap = document.getElementById('reg-phone-wrap');
+  var checked = document.getElementById('reg-sms-opt').checked;
+  wrap.style.display = checked ? 'block' : 'none';
+  if (!checked) document.getElementById('reg-phone').value = '';
+}
+
+function submitReg() {
+  var name = document.getElementById('reg-name').value.trim();
+  var email = document.getElementById('reg-email').value.trim();
+  var smsOpt = document.getElementById('reg-sms-opt').checked;
+  var phone = smsOpt ? document.getElementById('reg-phone').value.trim() : '';
+  var err = document.getElementById('reg-error');
+  err.style.display = 'none';
+  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
+  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'overnight', city: 'dfw', source: window.location.href, consent: true })
+  });
+  sessionUnlocked = true;
+  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'job_apply_click', role:'overnight', page_url:window.location.href});
+  closeRegModal();
+  if (pendingApplyUrl) { window.open(pendingApplyUrl, '_blank'); }
+}
+
+fetch(CSV_URL)
+  .then(function(r){ return r.text(); })
+  .then(function(text){ renderJobs(parseCSV(text)); })
+  .catch(function(){  });
 
 function submitAlert(){
   var zip=document.getElementById('a-zip').value.trim();
@@ -1454,7 +1546,7 @@ function submitAlert(){
     </div>
     <div class="steps-container">
       <div class="modal-step active" id="step1">
-        <div class="step-title">Browse All Jobs →</div>
+        <div class="step-title">Get Security Job Alerts</div>
         <div class="step-sub">New DFW openings texted to you the moment they post.</div>
         <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:14px;">
           <div class="field-wrap">
@@ -1497,16 +1589,155 @@ function submitAlert(){
     </div>
 
   </div>
+<script>
+
+  function openModal() {
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    document.getElementById('contactError').style.display = 'none';
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function(){ document.getElementById('f-zip').focus(); }, 400);
+  }
+
+  function closeModal() {
+    var sheet = document.getElementById('modalSheet');
+    var isMobile = window.innerWidth < 640;
+    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
+    sheet.style.opacity = '0';
+    setTimeout(function() {
+      document.getElementById('modalOverlay').classList.remove('open');
+      sheet.style.transform = '';
+      sheet.style.opacity = '';
+      document.body.style.overflow = '';
+    }, 280);
+  }
+
+  function handleOverlayClick(e) {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
+  }
+
+  function submitModal() {
+    var zip   = document.getElementById('f-zip').value.trim();
+    var phone = document.getElementById('f-phone').value.trim();
+    var email = document.getElementById('f-email').value.trim();
+    var errEl = document.getElementById('contactError');
+    errEl.style.display = 'none';
+
+    if (!zip || zip.length < 5) {
+      errEl.textContent = 'Please enter your ZIP code.';
+      errEl.style.display = 'block';
+      document.getElementById('f-zip').focus();
+      return;
+    }
+    if (!phone && !email) {
+      errEl.textContent = 'Please enter a phone number or email.';
+      errEl.style.display = 'block';
+      document.getElementById('f-phone').focus();
+      return;
+    }
+
+    var pc = phone.replace(/\D/g,'');
+
+    // Fire GTM + Google Ads conversion
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'alert_form_submit', zip:zip});
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
+    }
+
+    // Send to Make.com
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        timestamp: new Date().toISOString(),
+        zip: zip,
+        phone: pc,
+        email: email,
+        source: window.location.href,
+        consent: true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text: 'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+      })
+    });
+
+    // Show success
+    document.getElementById('step1').classList.remove('active');
+    document.getElementById('step5').classList.add('active');
+  }
+
+  function toggleFaq(el) {
+    var item = el.parentElement;
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(i) { i.classList.remove('open'); });
+    if (!isOpen) item.classList.add('open');
+  }
+
+  // Sticky bar
+  (function(){
+    var b = document.getElementById('stickyBar');
+    var h = document.querySelector('.hero');
+    if (!b || !h) return;
+    function chk(){ b.classList.toggle('show', h.getBoundingClientRect().bottom <= 0); }
+    window.addEventListener('scroll', chk, {passive:true});
+    chk();
+  })();
+
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
+
+
+// INDEX JOB FEED
+var indexPendingApplyUrl = '';
+var indexSessionUnlocked = false;
+if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
+
+
+function handleIndexApply(encodedUrl) {
+  indexPendingApplyUrl = decodeURIComponent(encodedUrl);
+  if (indexSessionUnlocked) {
+    window.open(indexPendingApplyUrl, '_blank');
+  } else {
+    document.getElementById('indexRegModal').style.display = 'flex';
+  }
+}
+
+function closeIndexModal() {
+  document.getElementById('indexRegModal').style.display = 'none';
+}
+
+function toggleIndexPhone() {
+  var wrap = document.getElementById('index-phone-wrap');
+  var checked = document.getElementById('index-sms-opt').checked;
+  wrap.style.display = checked ? 'block' : 'none';
+  if (!checked) document.getElementById('index-reg-phone').value = '';
+}
+
+function submitIndexReg() {
+  var name = document.getElementById('index-reg-name').value.trim();
+  var email = document.getElementById('index-reg-email').value.trim();
+  var smsOpt = document.getElementById('index-sms-opt').checked;
+  var phone = smsOpt ? document.getElementById('index-reg-phone').value.trim() : '';
+  var err = document.getElementById('index-reg-error');
+  err.style.display = 'none';
+  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
+  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'dfw', source: window.location.href, consent: true })
+  });
+  indexSessionUnlocked = true;
+  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
+  closeIndexModal();
+  if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
+}
 
 
 
-
-
-
-
-
-
-
+</script>
 
 <script>
 /* ─────────────────────────────────────────────
@@ -1737,44 +1968,6 @@ function bbjGo(dest){
 document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
 
-</script>
-<script>
-(function(){
-  var FREE=1,sess=0;
-  var CSV='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=2118776757&single=true&output=csv';
-  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
-  function render(jobs){
-    var c=document.getElementById('jobRows');if(!c)return;
-    var active=jobs.filter(function(j){return(j.active||'').toLowerCase()==='yes';});
-    active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
-    if(!active.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';return;}
-    c.innerHTML=active.slice(0,10).map(function(j){
-      var url=encodeURIComponent(j.apply_link||'');
-      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">' +
-      '<div class="hf-body">' +
-        '<div class="hf-title">'+(j.title||'')+'</div>' +
-        '<div class="hf-meta">'+(j.company||'')+' &nbsp;&middot;&nbsp; '+(j.location||'')+'</div>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
-        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;cursor:pointer;">View</span>' +
-      '</div>' +
-    '</div>';
-    }).join('');
-  }
-  window.bbjHubApply=function(url){
-    if(!url)return;
-    if(bbjIsRegistered()){window.open(url,'_blank');return;}
-    sess++;
-    if(sess<=FREE){window.open(url,'_blank');return;}
-    _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
-  };
-  fetch(CSV,{mode:'cors'})
-    .then(function(r){return r.ok?r.text():''})
-    .then(function(t){if(t)render(parseCSV(t));else{var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now.</div></div></div>';}  })
-    .catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
-})();
 </script>
 </body>
 </html>
