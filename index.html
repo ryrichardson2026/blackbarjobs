@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Security Jobs in Dallas–Fort Worth | BlackBarJobs</title>
-<meta name="description" content="Security officer job alerts for Dallas–Fort Worth. Armed, unarmed, overnight, event, and loss prevention openings across DFW — free instant alerts.">
+<title>Find the Latest Security Officer Jobs in Dallas–Fort Worth | BlackBarJobs</title>
+<meta name="description" content="Browse unarmed, armed, overnight, and event openings across the DFW metro — updated continuously. Built for DFW officers.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 
 <!-- OG / Social sharing -->
-<meta property="og:title" content="Security Jobs in Dallas–Fort Worth | BlackBarJobs">
-<meta property="og:description" content="Browse unarmed, armed, overnight, and event security jobs across DFW. Join the network and apply to open positions today.">
+<meta property="og:title" content="Find the Latest Security Officer Jobs in Dallas–Fort Worth | BlackBarJobs">
+<meta property="og:description" content="Browse unarmed, armed, overnight, and event openings across the DFW metro — updated continuously. Built for DFW officers.">
 <meta property="og:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <meta property="og:url" content="https://www.blackbarjobs.com">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Security Jobs in Dallas–Fort Worth | BlackBarJobs">
-<meta name="twitter:description" content="Browse unarmed, armed, overnight, and event security jobs across DFW. Join the network and apply today.">
+<meta name="twitter:description" content="Browse unarmed, armed, overnight, and event openings across the DFW metro — updated continuously. Built for DFW officers.">
 <meta name="twitter:image" content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -177,6 +177,7 @@ window.addEventListener("load", function(){
     padding: 5px 0;
     border-bottom: 1px solid #e2e5ea;
     background: transparent;
+    cursor: pointer;
   }
   .hf-row:last-child { border-bottom: none; }
   .hf-body { flex: 1; min-width: 0; }
@@ -1070,8 +1071,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
  <div class="hero-content">
   <div class="hero-text-col">
-    <h1>Get Alerts for <em>Security Jobs in DFW</em></h1>
-    <p class="hero-sub">Get notified instantly when security jobs open across Dallas–Fort Worth.</p>
+    <h1>Find the Latest <em>Security Officer Jobs</em> in Dallas–Fort Worth</h1>
+    <p class="hero-sub">Browse unarmed, armed, overnight, and event openings across the DFW metro — updated continuously. Built for DFW officers.</p>
     <div class="hero-stat-row">
       <div class="hero-stat">
         <span class="hero-stat-num">7</span>
@@ -1093,19 +1094,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-feed" id="indexJobFeed">
       <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
-    <p style="font-size:0.78rem;color:var(--muted);margin-bottom:12px;line-height:1.5;text-align:center;">Get notified when new security jobs open near you.</p>
-    <button class="btn-primary" onclick="openModal()">Get Alerts →</button>
-    <div class="form-trust">
-      <svg width="13" height="13" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="#003566"/><path d="M7.5 10.5l2 2 3-3.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      No spam. Unsubscribe anytime.
-    </div>
+<a href="/job-board" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;" onclick="bbjGo('/job-board');return false;">Browse All Jobs →</a>
   </div>
   </div>
 </section>
 
 <!-- STICKY BAR -->
 <div class="sticky-bar" id="stickyBar">
-  <a href="#signup" onclick="openModal(); return false;">Get Security Job Alerts</a>
+  <a href="#alerts">Get Security Job Alerts</a>
 </div>
 
 <!-- JOB TYPES -->
@@ -1543,14 +1539,14 @@ function renderIndexFeed(jobs) {
   var display = active.slice(0, 5);
   container.innerHTML = display.map(function(job) {
     var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;">' +
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply(\'' + applyUrl + '\')">' +
       '<div class="hf-body">' +
         '<div class="hf-title">' + (job.title || '') + '</div>' +
         '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
       '</div>' +
       '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
         '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<button onclick="handleIndexApply(\'' + applyUrl + '\')" style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:8px;cursor:pointer;">View</button>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>' +
       '</div>' +
     '</div>';
   }).join('');
@@ -1579,27 +1575,7 @@ function toggleIndexPhone() {
   if (!checked) document.getElementById('index-reg-phone').value = '';
 }
 
-function submitIndexReg() {
-  var name = document.getElementById('index-reg-name').value.trim();
-  var email = document.getElementById('index-reg-email').value.trim();
-  var smsOpt = document.getElementById('index-sms-opt').checked;
-  var phone = smsOpt ? document.getElementById('index-reg-phone').value.trim() : '';
-  var err = document.getElementById('index-reg-error');
-  err.style.display = 'none';
-  if (!name) { err.textContent = 'Please enter your name.'; err.style.display = 'block'; return; }
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display = 'block'; return; }
-  if (smsOpt && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display = 'block'; return; }
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-    method: 'POST', headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'dfw', source: window.location.href, consent: true })
-  });
-  indexSessionUnlocked = true;
-  document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
-  closeIndexModal();
-  if (indexPendingApplyUrl) { window.open(indexPendingApplyUrl, '_blank'); }
-}
+
 
 fetch(INDEX_CSV_URL, {mode: 'cors'})
   .then(function(r){ return r.text(); })
