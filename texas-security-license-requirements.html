@@ -468,7 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Mobile Sticky CTA Bar -->
 <div class="sticky-bar" id="stickyBar">
-  <a href="#alerts">Get Security Job Alerts</a>
+  <a href="/job-board">Browse Jobs →</a>
 </div>
 
 <nav>
@@ -745,22 +745,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2>Get Notified When <span>Jobs Open</span> Near You</h2>
       <p>Sign up for instant alerts across DFW — we'll notify you the moment new openings match your area.</p>
       <div class="alert-form" id="alertForm">
-    <div class="af"><span class="af-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="af"><span class="af-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="af"><span class="af-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
-    <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
-    <div class="alert-trust">
-      <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
-      No spam. Unsubscribe anytime.
-    </div>
-    <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
+    <a href="/job-board" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Browse Security Jobs →</a>
   </div>
-      <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
-        <div style="font-size:2.5rem;margin-bottom:12px;">✅</div>
-        <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:var(--white);margin-bottom:6px;">You're On The List</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.55);">We'll notify you when security jobs open near you in DFW.</div>
-      </div>
+  <div id="alertSuccess" style="display:none;"></div>
     </div>
 
   </div><!-- end article-body -->
