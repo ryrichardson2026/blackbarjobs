@@ -469,12 +469,13 @@ window.addEventListener("load", function(){
     <div class="modal-title">Unlock The Full Job Board</div>
     <div class="modal-sub">Create a free account to keep viewing every listing and get alerted when new roles match.</div>
     <div class="gate-perks">
+      <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>No resume required</div>
       <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited access to every listing</div>
       <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Instant alerts when new jobs post</div>
       <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>No spam — unsubscribe anytime</div>
     </div>
-    <a href="/register.html" class="modal-btn" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px;">Create Free Account →</a>
-    <p class="modal-fine" style="text-align:center;">Already have an account? <a href="/login.html">Sign in</a></p>
+    <a href="/register.html" id="gateCtaBtn" class="modal-btn" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px;">Create Free Account →</a>
+    <p class="modal-fine" style="text-align:center;">Already have an account? <a href="/login.html" id="gateLoginLink">Sign in</a></p>
   </div>
 </div>
 
@@ -866,7 +867,18 @@ window.addEventListener("load", function(){
     if (pendingUrl) window.open(pendingUrl, '_blank');
   }
 
-  function openGate() { document.getElementById('gateModal').classList.add('open'); document.body.style.overflow='hidden'; }
+  function openGate() {
+    if (pendingUrl) {
+      try { sessionStorage.setItem('bbj_pending_job', pendingUrl); } catch(e) {}
+    }
+    var returnUrl = '/register.html?return=job-board';
+    var btn = document.getElementById('gateCtaBtn');
+    var loginLink = document.getElementById('gateLoginLink');
+    if (btn) btn.href = returnUrl;
+    if (loginLink) loginLink.href = '/login.html?return=job-board';
+    document.getElementById('gateModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
   function closeGate() { document.getElementById('gateModal').classList.remove('open'); document.body.style.overflow=''; }
   function toggleGateSms() {}
   function submitGate() {}
