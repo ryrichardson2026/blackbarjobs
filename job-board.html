@@ -467,25 +467,14 @@ window.addEventListener("load", function(){
     <button class="modal-close" onclick="closeGate()" aria-label="Close">✕</button>
     <div class="modal-eyebrow">Free — Join The Network</div>
     <div class="modal-title">Unlock The Full Job Board</div>
-    <div class="modal-sub">You've viewed a few openings. Join free to keep viewing every listing — and we'll alert you when new roles match.</div>
+    <div class="modal-sub">Create a free account to keep viewing every listing and get alerted when new roles match.</div>
     <div class="gate-perks">
-      <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited access to every DFW listing</div>
+      <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Unlimited access to every listing</div>
       <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Instant alerts when new jobs post</div>
       <div class="gate-perk"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#1a6b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>No spam — unsubscribe anytime</div>
     </div>
-    <input id="gate-name" class="modal-input" type="text" placeholder="Full Name" autocomplete="name">
-    <input id="gate-email" class="modal-input" type="email" placeholder="Email Address" autocomplete="email">
-    <label class="modal-check">
-      <input type="checkbox" id="gate-sms" onchange="toggleGateSms()">
-      <span>Text me when new security jobs are posted</span>
-    </label>
-    <div id="gate-phone-wrap" style="display:none;">
-      <input id="gate-phone" class="modal-input" type="tel" placeholder="Mobile Number" autocomplete="tel">
-      <p class="modal-fine" style="text-align:left;margin-top:0;margin-bottom:11px;">By entering your number you agree to receive SMS job alerts from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
-    </div>
-    <div class="modal-err" id="gate-err"></div>
-    <button class="modal-btn" onclick="submitGate()">Join Network &amp; View Job →</button>
-    <p class="modal-fine">Free forever. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
+    <a href="/register.html" class="modal-btn" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px;">Create Free Account →</a>
+    <p class="modal-fine" style="text-align:center;">Already have an account? <a href="/login.html">Sign in</a></p>
   </div>
 </div>
 
@@ -493,27 +482,11 @@ window.addEventListener("load", function(){
 <div class="modal-overlay" id="alertsModal" onclick="if(event.target===this)closeAlerts()">
   <div class="modal-sheet">
     <button class="modal-close" onclick="closeAlerts()" aria-label="Close">✕</button>
-    <div id="alertsForm">
-      <div class="modal-eyebrow">Get Instant Job Alerts — Free</div>
-      <div class="modal-title">Get Security Job Alerts</div>
-      <div class="modal-sub">New DFW openings texted to you the moment they post.</div>
-      <input id="a-zip" class="modal-input" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
-      <input id="a-phone" class="modal-input" type="tel" placeholder="Mobile Number" autocomplete="tel">
-      <input id="a-email" class="modal-input" type="email" placeholder="Email (optional)" autocomplete="email">
-      <div class="modal-err" id="a-err"></div>
-      <button class="modal-btn" onclick="submitAlerts()">Get Free Job Alerts →</button>
-      <p class="modal-fine">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
-    </div>
-    <div id="alertsSuccess" style="display:none;">
-      <div class="success-wrap">
-        <div class="success-ic">
-          <svg width="64" height="64" viewBox="0 0 72 72" fill="none"><circle cx="36" cy="36" r="34" stroke="#22c55e" stroke-width="4"/><path d="M20 37l11 11 21-22" stroke="#22c55e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <h2>You're On The List</h2>
-        <p>We'll notify you when security jobs open near you.</p>
-        <button class="modal-btn" onclick="closeAlerts()">Done</button>
-      </div>
-    </div>
+    <div class="modal-eyebrow">Get Instant Job Alerts — Free</div>
+    <div class="modal-title">Get Security Job Alerts</div>
+    <div class="modal-sub">Create a free account to get notified the moment new jobs post.</div>
+    <a href="/register.html" id="alertsCtaBtn" class="modal-btn" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px;">Create Free Account →</a>
+    <p class="modal-fine" style="text-align:center;">Already have an account? <a href="/login.html">Sign in</a></p>
   </div>
 </div>
 
@@ -530,7 +503,7 @@ window.addEventListener("load", function(){
   var FALLBACK_GIDS = ['908030','0','860426680','2118776757','344919398'];
   var WEBHOOK = 'https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
   var PAGE_SIZE = 10;
-  var FREE_VIEWS = 2;       // free job views before the gate appears (gate on the 3rd)
+  var FREE_VIEWS = 1;       // free job views before the gate appears (gate on the 2nd)
 
   /* ───────────────── STATE ───────────────── */
   var ALL_JOBS = [];
@@ -538,7 +511,13 @@ window.addEventListener("load", function(){
   var shown = 0;
   var pendingUrl = '';
   var pendingJob = null;
-  var registered = document.cookie.indexOf('bbj_registered=1') !== -1;
+  var registered = false;
+  var sbClient = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+  if (sbClient) {
+    sbClient.auth.getSession().then(function(res){
+      if (res.data && res.data.session) registered = true;
+    });
+  }
   var filters = { q: '', loc: '', type: '', pay: false, role: '', posted: '', sort: 'newest' };
   var DEFAULT_LOC = '';
   var METRO_FRIENDLY = { 'DFW': 'Dallas–Fort Worth', 'Houston': 'Houston', 'Austin': 'Austin', 'San Antonio': 'San Antonio', 'El Paso': 'El Paso' };
@@ -889,58 +868,28 @@ window.addEventListener("load", function(){
 
   function openGate() { document.getElementById('gateModal').classList.add('open'); document.body.style.overflow='hidden'; }
   function closeGate() { document.getElementById('gateModal').classList.remove('open'); document.body.style.overflow=''; }
-  function toggleGateSms() {
-    var on = document.getElementById('gate-sms').checked;
-    document.getElementById('gate-phone-wrap').style.display = on ? 'block' : 'none';
-    if (!on) document.getElementById('gate-phone').value = '';
-  }
-  function submitGate() {
-    var name = document.getElementById('gate-name').value.trim();
-    var email = document.getElementById('gate-email').value.trim();
-    var sms = document.getElementById('gate-sms').checked;
-    var phone = sms ? document.getElementById('gate-phone').value.trim() : '';
-    var err = document.getElementById('gate-err'); err.style.display = 'none';
-    if (!name) { err.textContent = 'Please enter your name.'; err.style.display='block'; return; }
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { err.textContent = 'Please enter a valid email.'; err.style.display='block'; return; }
-    if (sms && phone.replace(/\D/g,'').length < 10) { err.textContent = 'Please enter a valid mobile number.'; err.style.display='block'; return; }
-    fetch(WEBHOOK, { method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ timestamp:new Date().toISOString(), name:name, email:email, phone:phone.replace(/\D/g,''), sms_consent:sms, role:'general', city:'dfw', source:window.location.href, form:'board_gate', consent:true })
-    });
-    registered = true;
-    document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event:'network_join', source:'board_gate' });
-    if (typeof gtag !== 'undefined') { gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'}); }
-    closeGate();
-    goToJob();
-  }
+  function toggleGateSms() {}
+  function submitGate() {}
 
   /* ───────────────── ALERTS MODAL ───────────────── */
   function openAlerts() {
-    document.getElementById('alertsForm').style.display = 'block';
-    document.getElementById('alertsSuccess').style.display = 'none';
-    document.getElementById('a-err').style.display = 'none';
+    var btn = document.getElementById('alertsCtaBtn');
+    if (btn && sbClient) {
+      sbClient.auth.getSession().then(function(res){
+        if (res.data && res.data.session) {
+          btn.href = '/dashboard.html';
+          btn.textContent = 'Manage My Alerts →';
+        } else {
+          btn.href = '/register.html';
+          btn.textContent = 'Create Free Account →';
+        }
+      });
+    }
     document.getElementById('alertsModal').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
   function closeAlerts() { document.getElementById('alertsModal').classList.remove('open'); document.body.style.overflow=''; }
-  function submitAlerts() {
-    var zip = document.getElementById('a-zip').value.trim();
-    var phone = document.getElementById('a-phone').value.trim();
-    var email = document.getElementById('a-email').value.trim();
-    var err = document.getElementById('a-err'); err.style.display = 'none';
-    if (!zip || zip.length < 5) { err.textContent='Please enter your ZIP code.'; err.style.display='block'; return; }
-    if (!phone && !email) { err.textContent='Please enter a phone number or email.'; err.style.display='block'; return; }
-    var pc = phone.replace(/\D/g,'');
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event:'alert_form_submit', zip:zip });
-    if (typeof gtag !== 'undefined') { gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'}); }
-    fetch(WEBHOOK, { method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ timestamp:new Date().toISOString(), zip:zip, phone:pc, email:email, source:window.location.href, form:'board_alerts', consent:true, consent_timestamp:new Date().toISOString(), consent_text:'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.' })
-    });
-    document.getElementById('alertsForm').style.display = 'none';
-    document.getElementById('alertsSuccess').style.display = 'block';
-  }
+  function submitAlerts() {}
 
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape') { closeGate(); closeAlerts(); } });
 
@@ -1142,5 +1091,8 @@ window.addEventListener("load", function(){
   }
   loadFeed();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/supabase-config.js"></script>
+<script src="/js/bbj-auth-nav.js"></script>
 </body>
 </html>

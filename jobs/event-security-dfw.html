@@ -1244,7 +1244,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="sticky-bar" id="stickyBar">
-  <a href="#alerts">Get Security Job Alerts</a>
+  <a href="/register.html" id="stickyAlertLink">Get Job Alerts →</a>
 </div>
 
 <nav>
@@ -1404,23 +1404,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Don't See The Right <span>Event Security Job?</span></h2>
   <p>New event security openings posted regularly across DFW's major venues and arenas.</p>
-      <div class="alert-form" id="alertForm">
-    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
-    <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
-    <div class="alert-trust">
+            <div class="alert-form" id="alertForm">
+    <a href="/register.html" id="alertCta" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Create Free Account &amp; Get Alerts &rarr;</a>
+    <div class="alert-trust" style="margin-top:12px;">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
-      No spam. Unsubscribe anytime.
+      Free to join. Unsubscribe anytime.
     </div>
-    <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
   <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
-    <div style="font-size:2.5rem;margin-bottom:10px;">✅</div>
+    <div style="font-size:2.5rem;margin-bottom:10px;">&#9989;</div>
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#fff;margin-bottom:5px;">You're On The List</div>
-    <div style="font-size:0.87rem;color:rgba(255,255,255,0.5);">We'll notify you when event security jobs open in DFW.</div>
+    <div style="font-size:0.87rem;color:rgba(255,255,255,0.5);">Check your dashboard to manage your alerts.</div>
   </div>
+<script>
+(function(){
+  function setAlertLink(){
+    var btn = document.getElementById('alertCta');
+    var sticky = document.getElementById('stickyAlertLink');
+    if(!window.supabase || !window.SUPABASE_URL) return;
+    var sb = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+    sb.auth.getSession().then(function(res){
+      var loggedIn = res.data && res.data.session;
+      if(btn){ btn.href = loggedIn ? '/dashboard.html' : '/register.html'; if(loggedIn) btn.textContent='Manage My Alerts'; }
+      if(sticky){ sticky.href = loggedIn ? '/dashboard.html' : '/register.html'; }
+    });
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', setAlertLink); }
+  else { setTimeout(setAlertLink, 300); }
+})();
+</script>
 </div>
 
 <footer>
@@ -1498,12 +1510,7 @@ function renderJobs(jobs) {
 function handleApply(encodedUrl) {
   var url = decodeURIComponent(encodedUrl);
   if (!url) return;
-  if (bbjIsRegistered()) { window.open(url, '_blank'); return; }
-  viewsThisSession = (viewsThisSession || 0) + 1;
-  if (viewsThisSession <= 1) { window.open(url, '_blank'); return; }
-  _bbjGateApplyUrl = url;
-  _bbjGateDest = null;
-  bbjOpenGate(null, window.location.href);
+  window.open(url, '_blank');
 }
 var viewsThisSession = 0;
 
@@ -1964,5 +1971,8 @@ document.addEventListener('click',function(e){var el=document.getElementById('bb
 document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
 
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/supabase-config.js"></script>
+<script src="/js/bbj-auth-nav.js"></script>
 </body>
 </html>

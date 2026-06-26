@@ -254,7 +254,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div class="sticky-bar" id="stickyBar"><a href="#alerts">Get Security Job Alerts</a></div>
+<div class="sticky-bar" id="stickyBar"><a href="/register.html" id="stickyAlertLink">Get Job Alerts →</a></div>
 <nav><a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="nav-security">| Security</span></a></nav>
 <section class="hero">
   <div class="hero-image-wrap"><img src="/images/overnight-security-hero.jpg" alt="Mobile patrol security officer in a DFW patrol vehicle"><div class="hero-image-overlay"></div></div>
@@ -262,7 +262,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-badge">Dallas–Fort Worth, TX</div>
     <h1>Mobile Patrol Security<br><em>Jobs in DFW</em></h1>
     <p class="hero-sub">Get alerted about mobile patrol openings across DFW — multi-site vehicle patrol routes covering residential communities, commercial properties, and industrial corridors across Dallas and Tarrant counties.</p>
-    <div class="hero-ctas"><a href="/job-board?role=patrol&city=dfw" class="btn-primary" onclick="bbjGo('/job-board?role=patrol&city=dfw');return false;">Browse All Jobs →</a></div>
+    <div class="hero-ctas"><a href="/job-board?role=patrol&city=dfw" class="btn-primary">Browse All Jobs →</a></div>
   </div>
 </section>
 
@@ -333,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="listings-cta">
     <p>New positions posted regularly. Get notified the moment one opens near you.</p>
-    <a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;" onclick="bbjGo('/job-board?role=patrol&city=dfw');return false;">See More Jobs →</a>
+    <a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="max-width:280px;display:inline-block;text-align:center;">See More Jobs →</a>
   </div>
 </div>
 
@@ -374,7 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="pay-card"><div class="pay-card-label">Experienced</div><div class="pay-card-rate">$20–27/hr</div><div class="pay-card-annual">~$42k–56k/yr</div></div>
   <div class="pay-card"><div class="pay-card-label">Lead / Senior</div><div class="pay-card-rate">$27–36/hr</div><div class="pay-card-annual">~$56k–75k/yr</div></div>
 </div></div></div>
-<div class="mid-cta-wrap"><a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="max-width:460px;margin:0 auto;;display:inline-block;text-decoration:none;" onclick="bbjGo('/job-board?role=patrol&city=dfw');return false;">Browse All Jobs →</a></div>
+<div class="mid-cta-wrap"><a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="max-width:460px;margin:0 auto;;display:inline-block;text-decoration:none;">Browse All Jobs →</a></div>
 <div class="two-col-dark"><div class="section-divider"><span>Requirements &amp; Schedules</span></div>
 <div class="two-col-inner">
   <div class="section-wrap"><div class="section-divider"><span>Requirements</span></div><h2>What You Need</h2><ul class="duty-list">        <li>Valid Texas Level 2 Security License required — Level 3 for armed patrol positions</li>
@@ -412,29 +412,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
       <li><a href="/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
     </ul>
-    <a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="display:inline-block;margin-top:16px;max-width:320px;text-align:center;" onclick="bbjGo('/job-board?role=patrol&city=dfw');return false;">Browse All DFW Security Jobs →</a>
+    <a href="/job-board?role=patrol&city=dfw" class="btn-primary" style="display:inline-block;margin-top:16px;max-width:320px;text-align:center;">Browse All DFW Security Jobs →</a>
   </div>
 </div>
 <div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Don't See The Right <span>Security Job</span> Yet?</h2>
   <p>New openings posted regularly across Dallas–Fort Worth, TX. Get notified the moment something matches.</p>
-      <div class="alert-form" id="alertForm">
-    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
-    <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
-    <div class="alert-trust">
+            <div class="alert-form" id="alertForm">
+    <a href="/register.html" id="alertCta" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Create Free Account &amp; Get Alerts &rarr;</a>
+    <div class="alert-trust" style="margin-top:12px;">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
-      No spam. Unsubscribe anytime.
+      Free to join. Unsubscribe anytime.
     </div>
-    <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
   <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
-    <div style="font-size:2.5rem;margin-bottom:12px;">✅</div>
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:var(--white);margin-bottom:6px;">You're On The List</div>
-    <div style="font-size:0.88rem;color:rgba(255,255,255,0.55);">We'll notify you when security jobs open in Dallas–Fort Worth, TX.</div>
+    <div style="font-size:2.5rem;margin-bottom:10px;">&#9989;</div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#fff;margin-bottom:5px;">You're On The List</div>
+    <div style="font-size:0.87rem;color:rgba(255,255,255,0.5);">Check your dashboard to manage your alerts.</div>
   </div>
+<script>
+(function(){
+  function setAlertLink(){
+    var btn = document.getElementById('alertCta');
+    var sticky = document.getElementById('stickyAlertLink');
+    if(!window.supabase || !window.SUPABASE_URL) return;
+    var sb = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+    sb.auth.getSession().then(function(res){
+      var loggedIn = res.data && res.data.session;
+      if(btn){ btn.href = loggedIn ? '/dashboard.html' : '/register.html'; if(loggedIn) btn.textContent='Manage My Alerts'; }
+      if(sticky){ sticky.href = loggedIn ? '/dashboard.html' : '/register.html'; }
+    });
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', setAlertLink); }
+  else { setTimeout(setAlertLink, 300); }
+})();
+</script>
 </div>
 <footer>
 
@@ -700,4 +712,7 @@ document.addEventListener('click',function(e){var el=document.getElementById('bb
 document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
 
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/supabase-config.js"></script>
+<script src="/js/bbj-auth-nav.js"></script>
 </body></html>

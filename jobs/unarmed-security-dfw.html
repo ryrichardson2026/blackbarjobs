@@ -1243,7 +1243,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 
 <!-- STICKY BAR — JS controls show/hide via .show class -->
 <div class="sticky-bar" id="stickyBar">
-  <a href="#alerts">Get Job Alerts →</a>
+  <a href="/register.html" id="stickyAlertLink">Get Job Alerts →</a>
 </div>
 
 <!-- NAV -->
@@ -1282,7 +1282,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     <div class="hero-feed" id="jobRows">
       <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
-<a href="/job-board?role=unarmed&city=dfw" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;" onclick="bbjGo('/job-board?role=unarmed&city=dfw');return false;">See More Jobs →</a>
+<a href="/job-board?role=unarmed&city=dfw" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">See More Jobs →</a>
   </div>
   </div>
 </section>
@@ -1334,7 +1334,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 <!-- MID-PAGE CTA — second explicit CTA for users who scrolled past fold 1 -->
 <div class="mid-cta">
   <p>Don't wait for the right job to find you — be the first candidate in line when it posts.</p>
-  <a href="/job-board?role=unarmed&city=dfw" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;" onclick="bbjGo('/job-board?role=unarmed&city=dfw');return false;">Browse All Jobs →</a>
+  <a href="/job-board?role=unarmed&city=dfw" class="btn-primary" style="display:inline-block;max-width:300px;text-align:center;">Browse All Jobs →</a>
 </div>
 
 <!-- REQUIREMENTS -->
@@ -1389,23 +1389,35 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 <div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Don't See The Right Job? <span>We'll Find It.</span></h2>
   <p>New unarmed security openings posted daily across DFW. Be first.</p>
-      <div class="alert-form" id="alertForm">
-    <div class="alert-field"><span class="alert-field-icon">📍</span><input id="a-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5"></div>
-    <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
-    <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
-    <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
-    <div class="alert-trust">
+            <div class="alert-form" id="alertForm">
+    <a href="/register.html" id="alertCta" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Create Free Account &amp; Get Alerts &rarr;</a>
+    <div class="alert-trust" style="margin-top:12px;">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
-      No spam. Unsubscribe anytime.
+      Free to join. Unsubscribe anytime.
     </div>
-    <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
   <div id="alertSuccess" style="display:none;text-align:center;padding:20px 0;">
-    <div style="font-size:2.5rem;margin-bottom:10px;">✅</div>
+    <div style="font-size:2.5rem;margin-bottom:10px;">&#9989;</div>
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#fff;margin-bottom:5px;">You're On The List</div>
-    <div style="font-size:0.87rem;color:rgba(255,255,255,0.5);">We'll notify you when unarmed security jobs open in DFW.</div>
+    <div style="font-size:0.87rem;color:rgba(255,255,255,0.5);">Check your dashboard to manage your alerts.</div>
   </div>
+<script>
+(function(){
+  function setAlertLink(){
+    var btn = document.getElementById('alertCta');
+    var sticky = document.getElementById('stickyAlertLink');
+    if(!window.supabase || !window.SUPABASE_URL) return;
+    var sb = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+    sb.auth.getSession().then(function(res){
+      var loggedIn = res.data && res.data.session;
+      if(btn){ btn.href = loggedIn ? '/dashboard.html' : '/register.html'; if(loggedIn) btn.textContent='Manage My Alerts'; }
+      if(sticky){ sticky.href = loggedIn ? '/dashboard.html' : '/register.html'; }
+    });
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', setAlertLink); }
+  else { setTimeout(setAlertLink, 300); }
+})();
+</script>
 </div>
 
 <footer>
@@ -1882,10 +1894,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
   }
   window.bbjHubApply=function(url){
     if(!url)return;
-    if(bbjIsRegistered()){window.open(url,'_blank');return;}
-    sess++;
-    if(sess<=FREE){window.open(url,'_blank');return;}
-    _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
+    window.open(url,'_blank');
   };
   var CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=0&single=true&output=csv';
   fetch(CSV_URL)
@@ -1899,6 +1908,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     .catch(function(){ var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>'; });
 })();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
