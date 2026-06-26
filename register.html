@@ -1,73 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Create Account | BlackBar Jobs</title>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="/js/supabase-config.js"></script>
-  <link rel="stylesheet" href="/css/style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account | BlackBar Jobs</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/supabase-config.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy-deep: #000814;
+    --navy-mid: #001D3D;
+    --gold: #FFC300;
+    --gold-hover: #FFD60A;
+    --white: #ffffff;
+    --off-white: #f4f5f7;
+    --charcoal: #1a1a1a;
+    --muted: #5a6474;
+    --border: #e2e5ea;
+  }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--white);
+    color: var(--charcoal);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+    background: var(--white); padding: 10px 20px;
+    display: flex; align-items: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 1.25rem; color: #111;
+    text-decoration: none; border-bottom: 9px solid #111;
+    padding-bottom: 4px; display: inline-block;
+  }
+  .nav-logo span { color: #FFC300; }
+
+  /* PAGE */
+  .page-wrap {
+    min-height: 100vh;
+    padding: 80px 20px 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .auth-card {
+    width: 100%;
+    max-width: 440px;
+    padding-top: 24px;
+  }
+
+  .auth-eyebrow {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .auth-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--navy-deep);
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+
+  .auth-sub {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+
+  .field-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .field-row input {
+    flex: 1;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    background: var(--white);
+    outline: none;
+    transition: border-color 0.15s;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  input:focus {
+    border-color: var(--navy-mid);
+  }
+
+  input::placeholder {
+    color: #a0aab4;
+  }
+
+  .field-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  .optional-tag {
+    font-weight: 400;
+    color: #a0aab4;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.75rem;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s;
+    margin-top: 6px;
+  }
+
+  .submit-btn:hover { background: var(--gold-hover, #FFD60A); }
+  .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .err-msg {
+    display: none;
+    color: #e53935;
+    font-size: 0.82rem;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    background: #fff5f5;
+    border-radius: 6px;
+    border: 1px solid #fcc;
+  }
+
+  .signin-link {
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-top: 20px;
+  }
+
+  .signin-link a {
+    color: var(--navy-mid);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .signin-link a:hover { text-decoration: underline; }
+
+  .tcpa {
+    font-size: 0.72rem;
+    color: #a0aab4;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  .tcpa a { color: #a0aab4; }
+</style>
 </head>
 <body>
 
-  <main style="max-width:480px;margin:60px auto;padding:0 20px;">
-    <h1>Create Account</h1>
+<nav>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span></a>
+</nav>
 
-    <div id="error-msg" style="color:red;margin-bottom:12px;display:none;"></div>
+<div class="page-wrap">
+  <div class="auth-card">
 
-    <input id="first_name" type="text" placeholder="First Name" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="last_name" type="text" placeholder="Last Name" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="email" type="email" placeholder="Email" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="phone" type="tel" placeholder="Phone (optional)" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="city" type="text" placeholder="City" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="state" type="text" placeholder="State" style="width:100%;margin-bottom:10px;padding:10px;" /><br>
-    <input id="password" type="password" placeholder="Password" style="width:100%;margin-bottom:20px;padding:10px;" /><br>
+    <div class="auth-eyebrow">Security Officer Network</div>
+    <h1 class="auth-title">Create your account</h1>
+    <p class="auth-sub">Free to join. Get alerts for new jobs in your area.</p>
 
-    <button id="register-btn" style="width:100%;padding:12px;background:#FFC300;color:#000814;font-weight:bold;border:none;cursor:pointer;">
-      Create Account
-    </button>
+    <div id="err-msg" class="err-msg"></div>
 
-    <p style="margin-top:16px;">Already have an account? <a href="/login.html">Sign In</a></p>
-  </main>
+    <div class="field-row">
+      <div style="flex:1;">
+        <label class="field-label">First Name</label>
+        <input id="first_name" type="text" placeholder="First" autocomplete="given-name">
+      </div>
+      <div style="flex:1;">
+        <label class="field-label">Last Name</label>
+        <input id="last_name" type="text" placeholder="Last" autocomplete="family-name">
+      </div>
+    </div>
 
-  <script>
-    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    <label class="field-label">Email</label>
+    <input id="email" type="email" placeholder="you@email.com" autocomplete="email" inputmode="email">
 
-    document.getElementById('register-btn').addEventListener('click', async () => {
-      const first_name = document.getElementById('first_name').value.trim();
-      const last_name = document.getElementById('last_name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-      const city = document.getElementById('city').value.trim();
-      const state = document.getElementById('state').value.trim();
-      const password = document.getElementById('password').value;
+    <label class="field-label">Phone <span class="optional-tag">(optional)</span></label>
+    <input id="phone" type="tel" placeholder="(214) 000-0000" autocomplete="tel" inputmode="tel">
 
-      const errEl = document.getElementById('error-msg');
-      errEl.style.display = 'none';
+    <div class="field-row">
+      <div style="flex:1;">
+        <label class="field-label">City</label>
+        <input id="city" type="text" placeholder="Dallas" autocomplete="address-level2">
+      </div>
+      <div style="flex:1;">
+        <label class="field-label">State</label>
+        <input id="state" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2">
+      </div>
+    </div>
 
-      if (!first_name || !last_name || !email || !city || !state || !password) {
-        errEl.textContent = 'Please fill in all required fields.';
-        errEl.style.display = 'block';
-        return;
+    <hr class="divider">
+
+    <label class="field-label">Password</label>
+    <input id="password" type="password" placeholder="Min. 8 characters" autocomplete="new-password">
+
+    <button class="submit-btn" id="register-btn">Create Account →</button>
+
+    <p class="tcpa">By creating an account you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
+
+    <p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>
+
+  </div>
+</div>
+
+<script>
+  const sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+  document.getElementById('register-btn').addEventListener('click', async () => {
+    const first_name = document.getElementById('first_name').value.trim();
+    const last_name  = document.getElementById('last_name').value.trim();
+    const email      = document.getElementById('email').value.trim();
+    const phone      = document.getElementById('phone').value.trim();
+    const city       = document.getElementById('city').value.trim();
+    const state      = document.getElementById('state').value.trim().toUpperCase();
+    const password   = document.getElementById('password').value;
+
+    const errEl = document.getElementById('err-msg');
+    errEl.style.display = 'none';
+
+    if (!first_name || !last_name || !email || !city || !state || !password) {
+      errEl.textContent = 'Please fill in all required fields.';
+      errEl.style.display = 'block';
+      return;
+    }
+
+    if (password.length < 8) {
+      errEl.textContent = 'Password must be at least 8 characters.';
+      errEl.style.display = 'block';
+      return;
+    }
+
+    const btn = document.getElementById('register-btn');
+    btn.disabled = true;
+    btn.textContent = 'Creating account...';
+
+    const { data, error } = await sbClient.auth.signUp({
+      email,
+      password,
+      options: {
+        data: { first_name, last_name, phone, city, state }
       }
-
-      const { data, error } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          data: { first_name, last_name, phone, city, state }
-        }
-      });
-
-      if (error) {
-        errEl.textContent = error.message;
-        errEl.style.display = 'block';
-        return;
-      }
-
-      window.location.href = '/dashboard.html';
     });
-  </script>
+
+    if (error) {
+      errEl.textContent = error.message;
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Create Account →';
+      return;
+    }
+
+    window.location.href = '/dashboard.html';
+  });
+</script>
 
 </body>
 </html>
