@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | BlackBar Jobs</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="robots" content="noindex,nofollow">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/supabase-config.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy-deep: #000814;
+    --navy-mid: #001D3D;
+    --gold: #FFC300;
+    --gold-hover: #FFD60A;
+    --white: #ffffff;
+    --off-white: #f4f5f7;
+    --charcoal: #1a1a1a;
+    --muted: #5a6474;
+    --border: #e2e5ea;
+  }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--off-white);
+    color: var(--charcoal);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+    background: var(--white); padding: 10px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 1.25rem; color: #111;
+    text-decoration: none; border-bottom: 9px solid #111;
+    padding-bottom: 4px; display: inline-block;
+  }
+  .nav-logo span { color: #FFC300; }
+  .nav-logout {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px 0;
+    font-family: 'Barlow', sans-serif;
+  }
+  .nav-logout:hover { color: var(--charcoal); }
+
+  .page-wrap {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 80px 20px 60px;
+  }
+
+  .greeting {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--navy-deep);
+    margin-bottom: 4px;
+    margin-top: 20px;
+  }
+
+  .greeting-sub {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+
+  .card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+  }
+
+  .card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .field-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .field-row > div { flex: 1; }
+
+  .field-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  .optional-tag {
+    font-weight: 400;
+    color: #a0aab4;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.75rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    background: var(--white);
+    outline: none;
+    transition: border-color 0.15s;
+    display: block;
+  }
+
+  input:focus { border-color: var(--navy-mid); }
+  input::placeholder { color: #a0aab4; }
+
+  /* Alert preference toggles */
+  .pref-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .pref-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    user-select: none;
+  }
+
+  .pref-item.on {
+    border-color: var(--gold);
+    background: #fffbea;
+  }
+
+  .pref-check {
+    width: 18px; height: 18px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .pref-item.on .pref-check {
+    border-color: var(--gold);
+    background: var(--gold);
+  }
+
+  .pref-check svg { display: none; }
+  .pref-item.on .pref-check svg { display: block; }
+
+  .pref-label {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--charcoal);
+  }
+
+  /* Notification method row */
+  .notif-row {
+    display: flex;
+    gap: 8px;
+  }
+
+  .notif-btn {
+    flex: 1;
+    padding: 10px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+    text-align: center;
+  }
+
+  .notif-btn.on {
+    border-color: var(--gold);
+    background: #fffbea;
+    color: var(--charcoal);
+    font-weight: 600;
+  }
+
+  .save-btn {
+    width: 100%;
+    padding: 14px;
+    background: var(--gold);
+    color: var(--navy-deep);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s;
+    margin-top: 4px;
+  }
+
+  .save-btn:hover { background: var(--gold-hover); }
+  .save-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .save-status {
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 10px;
+    min-height: 20px;
+  }
+
+  .save-status.ok { color: #2e7d32; }
+  .save-status.err { color: #e53935; }
+
+  .browse-link {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 0.88rem;
+    color: var(--navy-mid);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .browse-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">BlackBar<span>Jobs</span></a>
+  <button class="nav-logout" id="logout-btn">Sign Out</button>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="greeting" id="greeting">Hi there</div>
+  <p class="greeting-sub">Manage your profile and job alerts below.</p>
+
+  <!-- Profile -->
+  <div class="card">
+    <div class="card-title">Profile</div>
+
+    <div class="field-row">
+      <div>
+        <label class="field-label">First Name</label>
+        <input id="first_name" type="text" placeholder="First">
+      </div>
+      <div>
+        <label class="field-label">Last Name</label>
+        <input id="last_name" type="text" placeholder="Last">
+      </div>
+    </div>
+
+    <label class="field-label">Email</label>
+    <input id="email" type="email" placeholder="you@email.com" style="margin-bottom:10px;" disabled>
+
+    <label class="field-label" style="margin-top:4px;">Phone <span class="optional-tag">(optional)</span></label>
+    <input id="phone" type="tel" placeholder="(214) 000-0000" style="margin-bottom:10px;">
+
+    <div class="field-row" style="margin-bottom:0;">
+      <div>
+        <label class="field-label">City</label>
+        <input id="city" type="text" placeholder="Dallas">
+      </div>
+      <div>
+        <label class="field-label">State</label>
+        <input id="state" type="text" placeholder="TX" maxlength="2">
+      </div>
+    </div>
+  </div>
+
+  <!-- Alert Preferences -->
+  <div class="card">
+    <div class="card-title">Job Alert Preferences</div>
+
+    <div class="pref-grid">
+      <div class="pref-item" data-pref="unarmed" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Unarmed</span>
+      </div>
+      <div class="pref-item" data-pref="armed" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Armed</span>
+      </div>
+      <div class="pref-item" data-pref="event" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Event Security</span>
+      </div>
+      <div class="pref-item" data-pref="overnight" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Overnight</span>
+      </div>
+      <div class="pref-item" data-pref="mobile_patrol" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Mobile Patrol</span>
+      </div>
+      <div class="pref-item" data-pref="loss_prevention" onclick="togglePref(this)">
+        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="pref-label">Loss Prevention</span>
+      </div>
+    </div>
+
+    <div class="card-title" style="margin-bottom:10px;">Notify me via</div>
+    <div class="notif-row">
+      <button class="notif-btn" data-notif="email_notifications" onclick="toggleNotif(this)">Email</button>
+      <button class="notif-btn" data-notif="sms_notifications" onclick="toggleNotif(this)">SMS</button>
+    </div>
+  </div>
+
+  <button class="save-btn" id="save-btn" onclick="saveAll()">Save</button>
+  <div class="save-status" id="save-status"></div>
+  <a href="/" class="browse-link">Browse jobs →</a>
+
+</div>
+
+<script>
+  const sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  let currentUser = null;
+
+  // Redirect to login if not authenticated
+  async function init() {
+    const { data: { session } } = await sbClient.auth.getSession();
+    if (!session) {
+      window.location.href = '/login.html';
+      return;
+    }
+    currentUser = session.user;
+    loadProfile();
+    loadPrefs();
+  }
+
+  async function loadProfile() {
+    const meta = currentUser.user_metadata || {};
+    document.getElementById('greeting').textContent = 'Hi ' + (meta.first_name || '');
+    document.getElementById('first_name').value = meta.first_name || '';
+    document.getElementById('last_name').value  = meta.last_name  || '';
+    document.getElementById('email').value       = currentUser.email || '';
+    document.getElementById('phone').value       = meta.phone || '';
+    document.getElementById('city').value        = meta.city  || '';
+    document.getElementById('state').value       = meta.state || '';
+  }
+
+  async function loadPrefs() {
+    const { data, error } = await sbClient
+      .from('alert_preferences')
+      .select('*')
+      .eq('user_id', currentUser.id)
+      .single();
+
+    if (!data) return;
+
+    ['unarmed','armed','event','overnight','mobile_patrol','loss_prevention'].forEach(key => {
+      if (data[key]) {
+        const el = document.querySelector('[data-pref="' + key + '"]');
+        if (el) el.classList.add('on');
+      }
+    });
+
+    ['email_notifications','sms_notifications'].forEach(key => {
+      if (data[key]) {
+        const el = document.querySelector('[data-notif="' + key + '"]');
+        if (el) el.classList.add('on');
+      }
+    });
+  }
+
+  function togglePref(el) { el.classList.toggle('on'); }
+  function toggleNotif(el) { el.classList.toggle('on'); }
+
+  async function saveAll() {
+    const btn = document.getElementById('save-btn');
+    const status = document.getElementById('save-status');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    status.textContent = '';
+    status.className = 'save-status';
+
+    // Update profile metadata
+    const { error: profileError } = await sbClient.auth.updateUser({
+      data: {
+        first_name: document.getElementById('first_name').value.trim(),
+        last_name:  document.getElementById('last_name').value.trim(),
+        phone:      document.getElementById('phone').value.trim(),
+        city:       document.getElementById('city').value.trim(),
+        state:      document.getElementById('state').value.trim().toUpperCase(),
+      }
+    });
+
+    if (profileError) {
+      status.textContent = 'Error saving profile: ' + profileError.message;
+      status.className = 'save-status err';
+      btn.disabled = false;
+      btn.textContent = 'Save';
+      return;
+    }
+
+    // Upsert alert preferences
+    const prefs = {
+      user_id: currentUser.id,
+      unarmed:             document.querySelector('[data-pref="unarmed"]').classList.contains('on'),
+      armed:               document.querySelector('[data-pref="armed"]').classList.contains('on'),
+      event:               document.querySelector('[data-pref="event"]').classList.contains('on'),
+      overnight:           document.querySelector('[data-pref="overnight"]').classList.contains('on'),
+      mobile_patrol:       document.querySelector('[data-pref="mobile_patrol"]').classList.contains('on'),
+      loss_prevention:     document.querySelector('[data-pref="loss_prevention"]').classList.contains('on'),
+      email_notifications: document.querySelector('[data-notif="email_notifications"]').classList.contains('on'),
+      sms_notifications:   document.querySelector('[data-notif="sms_notifications"]').classList.contains('on'),
+    };
+
+    const { error: prefsError } = await sbClient
+      .from('alert_preferences')
+      .upsert(prefs, { onConflict: 'user_id' });
+
+    if (prefsError) {
+      status.textContent = 'Error saving preferences: ' + prefsError.message;
+      status.className = 'save-status err';
+      btn.disabled = false;
+      btn.textContent = 'Save';
+      return;
+    }
+
+    status.textContent = 'Saved.';
+    status.className = 'save-status ok';
+    btn.disabled = false;
+    btn.textContent = 'Save';
+
+    // Update greeting with new name
+    const newFirst = document.getElementById('first_name').value.trim();
+    if (newFirst) document.getElementById('greeting').textContent = 'Hi ' + newFirst;
+  }
+
+  document.getElementById('logout-btn').addEventListener('click', async () => {
+    await sbClient.auth.signOut();
+    window.location.href = '/';
+  });
+
+  init();
+</script>
+
+</body>
+</html>
