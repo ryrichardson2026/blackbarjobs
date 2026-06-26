@@ -227,6 +227,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       return;
     }
 
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'user_login' });
     window.location.href = '/dashboard.html';
   });
 </script>

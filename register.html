@@ -242,16 +242,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <input id="email" type="email" placeholder="you@email.com" autocomplete="email" inputmode="email">
 
     <label class="field-label">Phone <span class="optional-tag">(optional)</span></label>
-    <input id="phone" type="tel" placeholder="(214) 000-0000" autocomplete="tel" inputmode="tel">
+    <input id="phone" type="tel" placeholder="Phone (optional)" autocomplete="tel" inputmode="tel">
 
     <div class="field-row">
       <div style="flex:1;">
         <label class="field-label">City</label>
-        <input id="city" type="text" placeholder="Dallas" autocomplete="address-level2">
+        <input id="city" type="text" placeholder="City" autocomplete="address-level2">
       </div>
       <div style="flex:1;">
         <label class="field-label">State</label>
-        <input id="state" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2">
+        <input id="state" type="text" placeholder="State" autocomplete="address-level1" maxlength="2">
       </div>
     </div>
 
@@ -316,7 +316,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       return;
     }
 
-    window.location.href = '/dashboard.html';
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'account_created' });
+    window.location.href = '/job-board';
   });
 </script>
 
