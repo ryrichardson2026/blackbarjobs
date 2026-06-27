@@ -1,16 +1,155 @@
 """
-BBJ Page Generator v4
+BBJ Page Generator v5
 - Matches Dallas template structure
 - Alternating section backgrounds for visual rhythm
 - Gold mid-CTA (primary conversion moment)
 - navy-mid for requirements/schedules two-col-dark
 - off-white alternating light sections
 - Gold left-border accent on duty column in two-col
+
+v5 CHANGES — Interlinking enforcement:
+- validate_interlinking() runs on every page before output
+- Warns when required link types are missing from related_links
+- Enforces hub link, role hub link, DFW/market cross-link, training link rules
+- See INTERLINKING RULES section below for full spec
 """
 
 import json
+import warnings
 from datetime import date
 from pathlib import Path
+
+# ══════════════════════════════════════════════════════════════════
+# INTERLINKING RULES
+# ══════════════════════════════════════════════════════════════════
+#
+# Every page MUST link to its market hub. This is enforced.
+# The related_links list + footer together must satisfy these rules.
+#
+# RULE 1 — Market hub link (REQUIRED)
+#   Houston pages: /houston must appear in related_links or be the hub itself
+#   DFW pages: /security-jobs-dfw must appear in related_links or be the hub
+#
+# RULE 2 — Cross-market link (REQUIRED for topic/role pages)
+#   Houston topic pages must link to DFW equivalent (/jobs/...)
+#   DFW topic pages must link to Houston equivalent (/houston/jobs/...)
+#
+# RULE 3 — Training schools link (REQUIRED for entry/licensing pages)
+#   Pages with these slugs must include training schools in related_links:
+#   no-experience, entry-level, level-2, level-3, how-to-become
+#
+# RULE 4 — Topic → suburb hub links (REQUIRED for topic pages)
+#   Topic pages should link to at least 1 suburb hub where that topic is relevant
+#   Suburb hub pages must link to at least 2 adjacent suburb hubs
+#
+# RULE 5 — Neighborhood → topic page links (REQUIRED for neighborhood pages)
+#   Neighborhood pages must link to their primary topic page
+#   (e.g. Medical Center → hospital security, Galleria → loss prevention)
+#
+# PAGE TYPE DETECTION — based on slug patterns:
+#   hub:          slug == /houston or /security-jobs-dfw
+#   role_hub:     slug contains unarmed|armed|event|overnight|loss-prevention|mobile-patrol|tsa
+#   topic:        slug contains no-experience|full-time|entry-level|night-shift|part-time|level-2|level-3|airport|university|hospital|warehouse|hotel
+#   suburb_hub:   slug matches /houston/jobs/[city]-security-jobs or /jobs/[city]-security-jobs
+#   neighborhood: slug contains midtown|galleria|medical-center|montrose|heights|downtown|uptown|deep-ellum|design-district|medical-district
+#   training:     slug contains training-schools
+#
+# ══════════════════════════════════════════════════════════════════
+
+HOUSTON_HUB   = "/houston"
+DFW_HUB       = "/security-jobs-dfw"
+SA_HUB        = "/san-antonio"
+AUSTIN_HUB    = "/austin"
+TRAINING_HOU  = "/houston/jobs/security-training-schools-houston"
+TRAINING_DFW  = "/jobs/security-training-schools-dfw"
+TRAINING_SA   = "/san-antonio/jobs/security-training-schools-san-antonio"
+TRAINING_AUS  = "/austin/jobs/security-training-schools-austin"
+
+LICENSING_SLUGS = ["no-experience", "entry-level", "level-2", "level-3", "how-to-become"]
+NEIGHBORHOOD_SLUGS = ["midtown", "galleria", "medical-center", "montrose", "heights",
+                      "downtown-houston", "downtown-dallas", "uptown", "deep-ellum",
+                      "design-district", "medical-district"]
+
+def detect_page_type(slug):
+    s = slug.lower()
+    if s in [HOUSTON_HUB, DFW_HUB]: return "hub"
+    if any(x in s for x in NEIGHBORHOOD_SLUGS): return "neighborhood"
+    if "training-school" in s: return "training"
+    if any(x in s for x in LICENSING_SLUGS): return "licensing"
+    if any(x in s for x in ["unarmed","armed","event-security","overnight","loss-prevention","mobile-patrol","tsa-airport"]): return "role_hub"
+    if any(x in s for x in ["full-time","night-shift","part-time","hospital-security","warehouse","hotel-security","airport-security","university-security","industrial-security","retail-security","school-security","corporate-campus","data-center"]): return "topic"
+    if s.endswith("-security-jobs") or s.endswith("-jobs"): return "suburb_hub"
+    return "other"
+
+def validate_interlinking(cfg):
+    """
+    Validates interlinking rules and prints warnings for violations.
+    Does not block page generation — warns so issues can be fixed.
+    """
+    slug    = cfg.get("slug", "")
+    market  = cfg.get("market", "Houston")
+    related = cfg.get("related_links", [])
+    page_type = detect_page_type(slug)
+
+    # Extract all hrefs from related_links
+    hrefs = [r[0] for r in related]
+    hrefs_str = " ".join(hrefs)
+
+    issues = []
+
+    # RULE 1: Market hub link
+    hub_map = {"Houston": HOUSTON_HUB, "DFW": DFW_HUB, "San Antonio": SA_HUB, "Austin": AUSTIN_HUB}
+    hub = hub_map.get(market, DFW_HUB)
+    if hub not in hrefs and slug != hub:
+        issues.append(f"RULE 1: Missing market hub link ({hub}) in related_links")
+
+    # RULE 2: Cross-market link (topic + role_hub pages)
+    if page_type in ("topic", "role_hub"):
+        cross_prefixes = {"Houston": ["/jobs/"], "DFW": ["/houston/jobs/"], "San Antonio": ["/jobs/", "/houston/jobs/"], "Austin": ["/jobs/", "/houston/jobs/"]}
+        prefixes = cross_prefixes.get(market, ["/jobs/"])
+        has_cross = any(any(h.startswith(p) for p in prefixes) for h in hrefs)
+        if not has_cross:
+            issues.append(f"RULE 2: No cross-market link (to {'DFW /jobs/' if is_houston else 'Houston /houston/jobs/'}) in related_links")
+
+    # RULE 3: Training schools link for licensing pages
+    if page_type == "licensing":
+        training_map = {"Houston": TRAINING_HOU, "DFW": TRAINING_DFW, "San Antonio": TRAINING_SA, "Austin": TRAINING_AUS}
+        training = training_map.get(market, TRAINING_DFW)
+        if training not in hrefs:
+            # Also accept the texas-wide training page
+            if "training-school" not in hrefs_str and "security-license" not in hrefs_str:
+                issues.append(f"RULE 3: Licensing page missing training schools link ({training})")
+
+    # RULE 4a: Topic pages should link to at least 1 suburb hub
+    if page_type == "topic":
+        suburb_pattern = "-security-jobs" if market == "Houston" else "-security-jobs"
+        has_suburb = any(suburb_pattern in h for h in hrefs)
+        if not has_suburb:
+            issues.append("RULE 4: Topic page has no suburb city hub link in related_links")
+
+    # RULE 4b: Suburb hubs should link to at least 2 other suburb hubs
+    if page_type == "suburb_hub":
+        sibling_hubs = [h for h in hrefs if h.endswith("-security-jobs") and h != slug]
+        if len(sibling_hubs) < 2:
+            issues.append(f"RULE 4: Suburb hub links to only {len(sibling_hubs)} sibling hub(s) — need at least 2")
+
+    # RULE 5: Neighborhood pages must link to a topic page
+    if page_type == "neighborhood":
+        topic_prefixes = ["/houston/jobs/hospital", "/houston/jobs/houston-bar", "/houston/jobs/loss-prevention",
+                         "/houston/jobs/houston-retail", "/houston/jobs/overnight", "/houston/jobs/full-time",
+                         "/jobs/hospital", "/jobs/dallas-bar", "/jobs/loss-prevention", "/jobs/overnight"]
+        has_topic = any(any(h.startswith(p) for p in topic_prefixes) for h in hrefs)
+        if not has_topic:
+            issues.append("RULE 5: Neighborhood page missing link to primary topic page")
+
+    if issues:
+        page_name = slug.split("/")[-1]
+        print(f"\n⚠️  INTERLINKING WARNINGS — {page_name}")
+        for issue in issues:
+            print(f"   → {issue}")
+        print()
+
+    return issues
 
 TODAY     = date.today().isoformat()
 BASE_URL  = "https://www.blackbarjobs.com"
@@ -23,6 +162,9 @@ ADS_CONV  = "rYvuCM6Mu7IcELDS9bw_"
 PUB_BASE   = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub"
 MASTER_HOU = f"{PUB_BASE}?gid=1720400336&single=true&output=csv"
 MASTER_DFW = f"{PUB_BASE}?gid=885752320&single=true&output=csv"
+# SA and Austin: update GID once tabs are created in Google Sheet
+MASTER_SA  = f"{PUB_BASE}?gid=885752320&single=true&output=csv"  # TODO: replace with SA GID
+MASTER_AUS = f"{PUB_BASE}?gid=885752320&single=true&output=csv"  # TODO: replace with Austin GID
 
 HOUSTON_FOOTER = [
     ("/houston",                                    "Houston Security Jobs"),
@@ -54,6 +196,38 @@ DFW_RESOURCES = [
     ("/security-guard-salary-texas",            "Texas Security Guard Salary Guide"),
     ("/dallas-security-jobs-guide",             "Dallas Security Jobs Guide"),
     ("/security-jobs-for-veterans-texas",       "Veterans Security Jobs in Texas"),
+]
+
+
+SA_FOOTER = [
+    ("/san-antonio",                                       "San Antonio Security Jobs"),
+    ("/san-antonio/jobs/unarmed-security-san-antonio",     "Unarmed Security"),
+    ("/san-antonio/jobs/armed-security-san-antonio",       "Armed Security"),
+    ("/san-antonio/jobs/event-security-san-antonio",       "Event Security"),
+    ("/san-antonio/jobs/overnight-security-san-antonio",   "Overnight Security"),
+    ("/san-antonio/jobs/hospital-security-san-antonio",    "Hospital Security"),
+    ("/jobs/texas-security-license-requirements",          "TX License Guide"),
+]
+SA_RESOURCES = [
+    ("/san-antonio",                                       "San Antonio Security Jobs — Complete Guide"),
+    ("/how-to-become-a-security-guard-in-texas",           "How To Become A Security Guard in Texas"),
+    ("/security-guard-salary-texas",                       "Texas Security Guard Salary Guide"),
+    ("/security-jobs-for-veterans-texas",                  "Veterans Security Jobs in Texas"),
+]
+AUSTIN_FOOTER = [
+    ("/austin",                                            "Austin Security Jobs"),
+    ("/austin/jobs/unarmed-security-austin",               "Unarmed Security"),
+    ("/austin/jobs/armed-security-austin",                 "Armed Security"),
+    ("/austin/jobs/event-security-austin",                 "Event Security"),
+    ("/austin/jobs/overnight-security-austin",             "Overnight Security"),
+    ("/austin/jobs/hospital-security-austin",              "Hospital Security"),
+    ("/jobs/texas-security-license-requirements",          "TX License Guide"),
+]
+AUSTIN_RESOURCES = [
+    ("/austin",                                            "Austin Security Jobs — Complete Guide"),
+    ("/how-to-become-a-security-guard-in-texas",           "How To Become A Security Guard in Texas"),
+    ("/security-guard-salary-texas",                       "Texas Security Guard Salary Guide"),
+    ("/security-jobs-for-veterans-texas",                  "Veterans Security Jobs in Texas"),
 ]
 
 PAGE_CSS = """
@@ -291,8 +465,10 @@ def jobposting_schema(cfg):
 
 def breadcrumb_schema(cfg):
     market = cfg.get("market","Houston")
-    hub_slug = "/houston" if market=="Houston" else "/security-jobs-dfw"
-    hub_name = "Houston Security Jobs" if market=="Houston" else "DFW Security Jobs"
+    hub_slug_map = {"Houston": "/houston", "DFW": "/security-jobs-dfw", "San Antonio": "/san-antonio", "Austin": "/austin"}
+    hub_name_map = {"Houston": "Houston Security Jobs", "DFW": "DFW Security Jobs", "San Antonio": "San Antonio Security Jobs", "Austin": "Austin Security Jobs"}
+    hub_slug = hub_slug_map.get(market, "/security-jobs-dfw")
+    hub_name = hub_name_map.get(market, "DFW Security Jobs")
     return json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"BlackBarJobs","item":BASE_URL},
         {"@type":"ListItem","position":2,"name":hub_name,"item":f"{BASE_URL}{hub_slug}"},
@@ -352,9 +528,12 @@ def generate_page(cfg):
     browse_url  = cfg.get("browse_url","/job-board")
     alert_city  = cfg.get("alert_city", city)
 
-    csv_url   = cfg.get("csv_url", MASTER_HOU if market=="Houston" else MASTER_DFW)
-    resources = cfg.get("resources", HOUSTON_RESOURCES if market=="Houston" else DFW_RESOURCES)
-    ftlinks   = footer_html(HOUSTON_FOOTER if market=="Houston" else DFW_FOOTER)
+    csv_url_map = {"Houston": MASTER_HOU, "DFW": MASTER_DFW, "San Antonio": MASTER_SA, "Austin": MASTER_AUS}
+    csv_url   = cfg.get("csv_url", csv_url_map.get(market, MASTER_DFW))
+    res_map = {"Houston": HOUSTON_RESOURCES, "DFW": DFW_RESOURCES, "San Antonio": SA_RESOURCES, "Austin": AUSTIN_RESOURCES}
+    ft_map  = {"Houston": HOUSTON_FOOTER,    "DFW": DFW_FOOTER,    "San Antonio": SA_FOOTER,    "Austin": AUSTIN_FOOTER}
+    resources = cfg.get("resources", res_map.get(market, DFW_RESOURCES))
+    ftlinks   = footer_html(ft_map.get(market, DFW_FOOTER))
 
     faqs        = cfg["faqs"]
     demand_h2   = cfg["demand_h2"]
@@ -370,6 +549,9 @@ def generate_page(cfg):
     requirements= cfg["requirements"]
     schedules   = cfg["schedules"]
     related     = cfg["related_links"]
+
+    # ── Interlinking validation ────────────────────────────────
+    validate_interlinking(cfg)
 
     faq_html = '\n'.join(
         f'<div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">{q}<span class="faq-icon">+</span></div><div class="faq-a">{a}</div></div>'
@@ -588,4 +770,4 @@ function submitAlert(){{
 </body>
 </html>"""
 
-print("BBJ Generator v4 loaded.")
+print("BBJ Generator v5 loaded. Interlinking validation active.")
