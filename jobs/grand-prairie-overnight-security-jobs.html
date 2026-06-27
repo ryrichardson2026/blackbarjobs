@@ -665,80 +665,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <p>Security job alerts for professionals across the US.<br/>
 <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
 </footer>
-<script>
-  (function loadGPJobs() {
-    var feed = document.getElementById('gpJobsFeed');
-    fetch('/api/dfw-jobs?city=grand-prairie&type=overnight')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        var jobs = (data.jobs || []).slice(0, 10);
-        if (!jobs.length) {
-          feed.innerHTML = '<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">No listings right now — check back soon or sign up for alerts below.</div>';
-          return;
-        }
-        feed.innerHTML = jobs.map(function(j) {
-          var applyUrl = j.url || j.apply_url || '#';
-          if (applyUrl !== '#') {
-            applyUrl = applyUrl + (applyUrl.indexOf('?') > -1 ? '&' : '?') + 'utm_source=blackbarjobs&utm_medium=role_page&utm_campaign=grand_prairie_overnight_security';
-          }
-          var title = j.title || 'Overnight Security Officer';
-          var company = j.company_name || '';
-          var location = (j.locations && j.locations.length) ? j.locations[0].split(',').slice(0,2).join(',').trim() : '';
-          var pay = '';
-          if (j.salary_min_usd || j.salary_max_usd) {
-            var min = j.salary_min_usd ? '$' + Math.round(j.salary_min_usd / 1000) + 'k' : '';
-            var max = j.salary_max_usd ? '$' + Math.round(j.salary_max_usd / 1000) + 'k' : '';
-            pay = (min && max) ? min + '–' + max : (min || max);
-          }
-          var payHtml = pay ? '<span class="jf-pay">' + pay + '</span>' : '';
-          return '<div class="jf-row">'
-            + '<div class="jf-body">'
-            + '<div class="jf-title">' + title + '</div>'
-            + '<div class="jf-meta">'
-            + (company ? '<span class="jf-company">' + company + '</span>' : '')
-            + (location ? '<span class="jf-sep">·</span><span class="jf-loc">' + location + '</span>' : '')
-            + payHtml
-            + '</div></div>'
-            + ''
-            + '</div>';
-        }).join('');
-      })
-      .catch(function() {
-        feed.innerHTML = '<div style="padding:16px 0;font-size:0.82rem;color:var(--muted);">Could not load jobs. Try refreshing.</div>';
-      });
-  })();
 
-  function toggleFaq(el) {
-    var item = el.parentElement;
-    item.classList.toggle('open');
-  }
-
-  function submitAlert(){
-  var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-ph').value.trim();
-  var em=document.getElementById('a-em').value.trim();
-  var er=document.getElementById('alertError');
-  er.style.display='none';
-  ['a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
-  var zc=zip.replace(/\D/g,'');
-  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
-  var pc=ph.replace(/\D/g,'');
-  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
-  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-em').classList.add('err');return;}
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'security',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
-  document.getElementById('alertForm').style.display='none';
-  document.getElementById('alertSuccess').style.display='block';
-}
-
-
-
-  // Mobile sticky bar — shows when hero scrolls out of view
-  (function() {
-    (function(){var b=document.getElementById('stickyBar');var h=document.querySelector('.hero')||document.querySelector('section');if(!b||!h)return;function chk(){b.classList.toggle('show',h.getBoundingClientRect().bottom<=0);}window.addEventListener('scroll',chk,{passive:true});chk();})();
-  })();
-</script>
 <script>
 /* ─────────────────────────────────────────────
    BBJ UNIFIED GATE v3
@@ -970,6 +897,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+
 <script>
 (function(){
   var CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
@@ -995,9 +923,9 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
     c.innerHTML=jobs.map(function(j){
       var url=encodeURIComponent(j.apply_link||'');
-      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="window.open(decodeURIComponent(this.dataset.url),'_blank')" data-url="'+url+'">'
+      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHandleApply(this)" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
-        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
+        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &middot; '+j.location:'')+(j.pay?' &middot; '+j.pay:'')+'</div></div>'
         +'<span class="hf-apply">View</span>'
         +'</div>';
     }).join('');
@@ -1008,9 +936,23 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
       var jobs=parseCSV(text);
       var active=jobs.filter(function(j){return (j.active||'').toLowerCase()==='yes';});
       active.sort(function(a,b){return new Date(b.date_pulled||0)-new Date(a.date_pulled||0);});
-      render(active.slice(0,8));
+      render(active.slice(0,5));
     })
     .catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
+  window.bbjHandleApply=function(el){
+    var url=decodeURIComponent(el.dataset.url||'');
+    if(!url)return;
+    if(typeof bbjIsRegistered==='function'&&bbjIsRegistered()){window.open(url,'_blank');return;}
+    if(document.cookie.indexOf('bbj_registered=1')!==-1){window.open(url,'_blank');return;}
+    var views=parseInt((document.cookie.match(/bbj_views=(\d+)/)||[0,0])[1],10);
+    if(views<1){
+      views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';
+      window.open(url,'_blank');return;
+    }
+    if(typeof bbjOpenGate==='function'){bbjOpenGate(null,url);}
+    else{window.open(url,'_blank');}
+  };
 })();
-</script></body>
+</script>
+</body>
 </html>
