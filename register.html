@@ -68,6 +68,34 @@ hr{border:none;border-top:1px solid var(--border);margin:16px 0;}
 .tcpa{font-size:0.7rem;color:#a0aab4;margin-top:10px;line-height:1.5;}
 .tcpa a{color:#a0aab4;}
 </style>
+<script>
+// Defined early so onclick attributes work before main script loads
+var smsValue = '';
+var licenseValue = '';
+function setSMS(val) {
+  smsValue = val;
+  document.getElementById('sms-yes').classList.toggle('selected', val === 'yes');
+  document.getElementById('sms-no').classList.toggle('selected', val === 'no');
+  document.getElementById('sms-phone-block').classList.toggle('visible', val === 'yes');
+}
+function setLicense(val) {
+  licenseValue = val;
+  document.getElementById('license-yes').classList.toggle('selected', val === 'yes');
+  document.getElementById('license-no').classList.toggle('selected', val === 'no');
+  document.getElementById('license-level-block').classList.toggle('visible', val === 'yes');
+  document.getElementById('license-help-block').classList.toggle('visible', val === 'no');
+}
+function setDots(active) {
+  document.getElementById('dot1').className = 'step-dot ' + (active > 1 ? 'done' : 'active');
+  document.getElementById('dot2').className = 'step-dot ' + (active >= 2 ? 'active' : '');
+}
+function showStep2() {
+  document.getElementById('step-success').style.display = 'none';
+  document.getElementById('step2').style.display = 'block';
+  setDots(2);
+  window.scrollTo(0, 0);
+}
+</script>
 </head>
 <body>
 <nav>
@@ -173,11 +201,7 @@ hr{border:none;border-top:1px solid var(--border);margin:16px 0;}
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-
 var sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-var licenseValue = '';
-var smsValue = '';
 var step1Data = {};
 
 document.getElementById('chip-all').addEventListener('click', function() {
@@ -199,33 +223,6 @@ document.querySelectorAll('.chip:not(#chip-all)').forEach(function(chip) {
     else { allChip.classList.remove('selected'); }
   });
 });
-
-function setSMS(val) {
-  smsValue = val;
-  document.getElementById('sms-yes').classList.toggle('selected', val === 'yes');
-  document.getElementById('sms-no').classList.toggle('selected', val === 'no');
-  document.getElementById('sms-phone-block').classList.toggle('visible', val === 'yes');
-}
-
-function setLicense(val) {
-  licenseValue = val;
-  document.getElementById('license-yes').classList.toggle('selected', val === 'yes');
-  document.getElementById('license-no').classList.toggle('selected', val === 'no');
-  document.getElementById('license-level-block').classList.toggle('visible', val === 'yes');
-  document.getElementById('license-help-block').classList.toggle('visible', val === 'no');
-}
-
-function setDots(active) {
-  document.getElementById('dot1').className = 'step-dot ' + (active > 1 ? 'done' : 'active');
-  document.getElementById('dot2').className = 'step-dot ' + (active >= 2 ? 'active' : '');
-}
-
-function showStep2() {
-  document.getElementById('step-success').style.display = 'none';
-  document.getElementById('step2').style.display = 'block';
-  setDots(2);
-  window.scrollTo(0, 0);
-}
 
 document.getElementById('step1-btn').addEventListener('click', async function() {
   var first_name = document.getElementById('first_name').value.trim();
@@ -347,8 +344,6 @@ document.getElementById('step2-btn').addEventListener('click', async function() 
 
   window.location.href = '/job-board';
 });
-
-}); // end DOMContentLoaded
 </script>
 </body>
 </html>
