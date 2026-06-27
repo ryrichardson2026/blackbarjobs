@@ -3,213 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Create Account | BlackBar Jobs</title>
+<title>Create Account | BlackBarJobs</title>
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-  :root {
-    --navy-deep: #000814;
-    --navy-mid: #001D3D;
-    --gold: #FFC300;
-    --gold-hover: #FFD60A;
-    --white: #ffffff;
-    --off-white: #f4f5f7;
-    --charcoal: #1a1a1a;
-    --muted: #5a6474;
-    --border: #e2e5ea;
-  }
-
-  body {
-    font-family: 'Barlow', sans-serif;
-    background: var(--white);
-    color: var(--charcoal);
-    font-size: 16px;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  /* NAV */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-    background: var(--white); padding: 10px 20px;
-    display: flex; align-items: center;
-    border-bottom: 1px solid var(--border);
-  }
-  .nav-logo {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 800; font-size: 1.25rem; color: #111;
-    text-decoration: none; border-bottom: 9px solid #111;
-    padding-bottom: 4px; display: inline-block;
-  }
-  .nav-logo span { color: #FFC300; }
-
-  /* PAGE */
-  .page-wrap {
-    min-height: 100vh;
-    padding: 80px 20px 60px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  .auth-card {
-    width: 100%;
-    max-width: 440px;
-    padding-top: 24px;
-  }
-
-  .auth-eyebrow {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 6px;
-  }
-
-  .auth-title {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
-    color: var(--navy-deep);
-    line-height: 1.1;
-    margin-bottom: 6px;
-  }
-
-  .auth-sub {
-    font-size: 0.9rem;
-    color: var(--muted);
-    margin-bottom: 28px;
-  }
-
-  .field-row {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-
-  .field-row input {
-    flex: 1;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="password"] {
-    width: 100%;
-    padding: 11px 14px;
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 0.95rem;
-    color: var(--charcoal);
-    background: var(--white);
-    outline: none;
-    transition: border-color 0.15s;
-    margin-bottom: 10px;
-    display: block;
-  }
-
-  input:focus {
-    border-color: var(--navy-mid);
-  }
-
-  input::placeholder {
-    color: #a0aab4;
-  }
-
-  .field-label {
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--muted);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-    display: block;
-  }
-
-  .optional-tag {
-    font-weight: 400;
-    color: #a0aab4;
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 0.75rem;
-  }
-
-  .divider {
-    border: none;
-    border-top: 1px solid var(--border);
-    margin: 20px 0;
-  }
-
-  .submit-btn {
-    width: 100%;
-    padding: 14px;
-    background: var(--gold);
-    color: var(--navy-deep);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 800;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.15s;
-    margin-top: 6px;
-  }
-
-  .submit-btn:hover { background: var(--gold-hover, #FFD60A); }
-  .submit-btn:disabled { opacity: 0.4; cursor: not-allowed; }
-
-  .err-msg {
-    display: none;
-    color: #e53935;
-    font-size: 0.82rem;
-    margin-bottom: 12px;
-    padding: 10px 12px;
-    background: #fff5f5;
-    border-radius: 6px;
-    border: 1px solid #fcc;
-  }
-
-  .signin-link {
-    text-align: center;
-    font-size: 0.88rem;
-    color: var(--muted);
-    margin-top: 20px;
-  }
-
-  .signin-link a {
-    color: var(--navy-mid);
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .signin-link a:hover { text-decoration: underline; }
-
-  .tcpa {
-    font-size: 0.72rem;
-    color: #a0aab4;
-    margin-top: 12px;
-    line-height: 1.5;
-  }
-
-  .tcpa a { color: #a0aab4; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{--navy:#000814;--navy-mid:#001D3D;--gold:#FFC300;--white:#ffffff;--off:#f4f5f7;--muted:#5a6474;--border:#e2e5ea;--charcoal:#1a1a1a;}
+body{font-family:'Barlow',sans-serif;background:var(--off);color:var(--charcoal);font-size:16px;-webkit-font-smoothing:antialiased;}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;background:var(--white);padding:10px 20px;display:flex;align-items:center;border-bottom:1px solid var(--border);}
+.nav-logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.2rem;color:var(--navy);text-decoration:none;}
+.nav-logo span{color:var(--gold);}
+.page-wrap{min-height:100vh;padding:80px 16px 60px;display:flex;align-items:flex-start;justify-content:center;}
+.auth-card{width:100%;max-width:480px;background:var(--white);border-radius:16px;padding:32px 28px;box-shadow:0 4px 24px rgba(0,0,0,0.08);margin-top:16px;}
+.auth-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
+.auth-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.9rem;color:var(--navy);line-height:1.1;margin-bottom:4px;}
+.auth-sub{font-size:0.88rem;color:var(--muted);margin-bottom:24px;}
+.section-label{font-family:'Barlow Condensed',sans-serif;font-size:0.78rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:var(--navy);margin:20px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--gold);display:block;}
+.field-label{font-size:0.75rem;font-weight:600;color:var(--muted);letter-spacing:0.04em;text-transform:uppercase;margin-bottom:4px;display:block;}
+.field-row{display:flex;gap:10px;margin-bottom:10px;}
+.field-row>div{flex:1;}
+input[type="text"],input[type="email"],input[type="tel"],input[type="password"],select{width:100%;padding:10px 13px;border:1.5px solid var(--border);border-radius:8px;font-family:'Barlow',sans-serif;font-size:0.92rem;color:var(--charcoal);background:var(--white);outline:none;transition:border-color 0.15s;margin-bottom:10px;display:block;-webkit-appearance:none;appearance:none;}
+input:focus,select:focus{border-color:var(--navy-mid);}
+input::placeholder{color:#a0aab4;}
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6474' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;padding-right:32px;}
+.chip-grid{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}
+.chip{font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:0.03em;padding:7px 14px;border-radius:20px;border:1.5px solid var(--border);background:var(--white);color:var(--muted);cursor:pointer;transition:all 0.12s;user-select:none;-webkit-tap-highlight-color:transparent;}
+.chip.selected{background:var(--navy);border-color:var(--navy);color:var(--gold);}
+.license-toggle{display:flex;gap:8px;margin-bottom:10px;}
+.toggle-btn{flex:1;padding:10px;font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;font-weight:700;border:1.5px solid var(--border);border-radius:8px;background:var(--white);color:var(--muted);cursor:pointer;transition:all 0.12s;text-align:center;-webkit-tap-highlight-color:transparent;}
+.toggle-btn.selected{background:var(--navy);border-color:var(--navy);color:var(--gold);}
+.reveal-block{display:none;background:var(--off);border-radius:10px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--border);}
+.reveal-block.visible{display:block;}
+.reveal-block p{font-size:0.85rem;color:var(--muted);margin-bottom:10px;line-height:1.5;}
+.help-opts{display:flex;flex-direction:column;gap:10px;margin-top:6px;}
+.help-opt{display:flex;align-items:flex-start;gap:10px;font-size:0.88rem;color:var(--charcoal);cursor:pointer;line-height:1.4;}
+.help-opt input[type="checkbox"]{width:16px;height:16px;margin:0;padding:0;accent-color:var(--navy);cursor:pointer;flex-shrink:0;margin-top:2px;}
+hr{border:none;border-top:1px solid var(--border);margin:20px 0;}
+.submit-btn{width:100%;padding:14px;background:var(--gold);color:var(--navy);font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-top:8px;}
+.submit-btn:hover{background:#FFD60A;}
+.submit-btn:disabled{opacity:0.4;cursor:not-allowed;}
+.err-msg{display:none;color:#e53935;font-size:0.82rem;margin-bottom:12px;padding:10px 12px;background:#fff5f5;border-radius:6px;border:1px solid #fcc;}
+.signin-link{text-align:center;font-size:0.86rem;color:var(--muted);margin-top:16px;}
+.signin-link a{color:var(--navy-mid);font-weight:600;text-decoration:none;}
+.signin-link a:hover{text-decoration:underline;}
+.tcpa{font-size:0.7rem;color:#a0aab4;margin-top:10px;line-height:1.5;}
+.tcpa a{color:#a0aab4;}
 </style>
 </head>
 <body>
@@ -222,105 +64,206 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="auth-card">
 
     <div class="auth-eyebrow">Security Officer Network</div>
-    <h1 class="auth-title">Create your account</h1>
-    <p class="auth-sub">Free to join. Get alerts for new jobs in your area.</p>
+    <h1 class="auth-title">Join BlackBarJobs</h1>
+    <p class="auth-sub">Browse security jobs in your area and get notified the moment new openings post.</p>
 
     <div id="err-msg" class="err-msg"></div>
 
+    <!-- Basic Info -->
+    <span class="section-label">Your Info</span>
     <div class="field-row">
-      <div style="flex:1;">
+      <div>
         <label class="field-label">First Name</label>
         <input id="first_name" type="text" placeholder="First" autocomplete="given-name">
       </div>
-      <div style="flex:1;">
+      <div>
         <label class="field-label">Last Name</label>
         <input id="last_name" type="text" placeholder="Last" autocomplete="family-name">
       </div>
     </div>
-
     <label class="field-label">Email</label>
     <input id="email" type="email" placeholder="you@email.com" autocomplete="email" inputmode="email">
 
-    <label class="field-label">Phone <span class="optional-tag">(optional)</span></label>
-    <input id="phone" type="tel" placeholder="Phone (optional)" autocomplete="tel" inputmode="tel">
-
     <div class="field-row">
-      <div style="flex:1;">
+      <div>
         <label class="field-label">City</label>
         <input id="city" type="text" placeholder="City" autocomplete="address-level2">
       </div>
-      <div style="flex:1;">
+      <div>
         <label class="field-label">State</label>
-        <input id="state" type="text" placeholder="State" autocomplete="address-level1" maxlength="2">
+        <input id="state" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2">
       </div>
     </div>
 
-    <hr class="divider">
+    <!-- Role Type -->
+    <span class="section-label">What type of security jobs are you interested in?</span>
+    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:10px;">Select all that apply.</p>
+    <div class="chip-grid"><div class="chip" data-role="all" id="chip-all">All Types</div>
+      <div class="chip" data-role="unarmed">Unarmed</div>
+      <div class="chip" data-role="armed">Armed</div>
+      <div class="chip" data-role="overnight">Overnight</div>
+      <div class="chip" data-role="event">Event</div>
+      <div class="chip" data-role="mobile_patrol">Mobile Patrol</div>
+      <div class="chip" data-role="loss_prevention">Loss Prevention</div>
+      <div class="chip" data-role="tsa">TSA / Airport</div>
+    </div>
 
-    <label class="field-label">Password</label>
+    <!-- License -->
+    <span class="section-label">Texas Security License</span>
+    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:10px;">Do you currently hold a Texas DPS security license?</p>
+    <div class="license-toggle">
+      <div class="toggle-btn" id="license-yes" onclick="setLicense('yes')">Yes, I'm licensed</div>
+      <div class="toggle-btn" id="license-no" onclick="setLicense('no')">Not yet</div>
+    </div>
+
+    <!-- If licensed: level -->
+    <div class="reveal-block" id="license-level-block">
+      <label class="field-label">License Level</label>
+      <select id="license_level">
+        <option value="">Select level</option>
+        <option value="level2">Level 2 — Non-Commissioned (Unarmed)</option>
+        <option value="level3">Level 3 — Commissioned (Armed)</option>
+        <option value="both">Both Level 2 and Level 3</option>
+      </select>
+    </div>
+
+    <!-- If not licensed: help options -->
+    <div class="reveal-block" id="license-help-block">
+      <p>No problem — you can still apply to many positions while pursuing your license. Would you like us to connect you with a leading training program?</p>
+      <div class="help-opts">
+        <label class="help-opt">
+          <input type="checkbox" id="help_training">
+          Yes, connect me with a training program
+        </label>
+        <label class="help-opt">
+          <input type="checkbox" id="help_jobs">
+          Show me jobs that include training or license sponsorship
+        </label>
+      </div>
+    </div>
+
+    <!-- SMS opt-in -->
+    <span class="section-label">Job Alerts</span>
+    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:10px;">Would you like to receive SMS notifications when new jobs open up?</p>
+    <div class="license-toggle">
+      <div class="toggle-btn" id="sms-yes" onclick="setSMS('yes')">Yes</div>
+      <div class="toggle-btn" id="sms-no" onclick="setSMS('no')">No</div>
+    </div>
+    <div class="reveal-block" id="sms-phone-block">
+      <label class="field-label">Mobile Number</label>
+      <input id="phone" type="tel" placeholder="Mobile number" autocomplete="tel" inputmode="tel">
+    </div>
+
+        <!-- Password -->
+    <hr>
+    <label class="field-label">Create Your Password</label>
     <input id="password" type="password" placeholder="Min. 8 characters" autocomplete="new-password">
 
-    <button class="submit-btn" id="register-btn">Create Account →</button>
+    <button class="submit-btn" id="register-btn">Create Account</button>
 
     <p class="tcpa">By creating an account you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
-
     <p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>
 
   </div>
 </div>
 
 <script>
-  const sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+var licenseValue = '';
 
-  document.getElementById('register-btn').addEventListener('click', async () => {
-    const first_name = document.getElementById('first_name').value.trim();
-    const last_name  = document.getElementById('last_name').value.trim();
-    const email      = document.getElementById('email').value.trim();
-    const phone      = document.getElementById('phone').value.trim();
-    const city       = document.getElementById('city').value.trim();
-    const state      = document.getElementById('state').value.trim().toUpperCase();
-    const password   = document.getElementById('password').value;
-
-    const errEl = document.getElementById('err-msg');
-    errEl.style.display = 'none';
-
-    if (!first_name || !last_name || !email || !city || !state || !password) {
-      errEl.textContent = 'Please fill in all required fields.';
-      errEl.style.display = 'block';
-      return;
-    }
-
-    if (password.length < 8) {
-      errEl.textContent = 'Password must be at least 8 characters.';
-      errEl.style.display = 'block';
-      return;
-    }
-
-    const btn = document.getElementById('register-btn');
-    btn.disabled = true;
-    btn.textContent = 'Creating account...';
-
-    const { data, error } = await sbClient.auth.signUp({
-      email,
-      password,
-      options: {
-        data: { first_name, last_name, phone, city, state }
-      }
-    });
-
-    if (error) {
-      errEl.textContent = error.message;
-      errEl.style.display = 'block';
-      btn.disabled = false;
-      btn.textContent = 'Create Account →';
-      return;
-    }
-
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'account_created' });
-    window.location.href = '/job-board';
+document.getElementById('chip-all').addEventListener('click', function() {
+  var allChip = this;
+  var isSelecting = !allChip.classList.contains('selected');
+  document.querySelectorAll('.chip').forEach(function(c) {
+    if (isSelecting) c.classList.add('selected');
+    else c.classList.remove('selected');
   });
-</script>
+});
 
+document.querySelectorAll('.chip:not(#chip-all)').forEach(function(chip) {
+  chip.addEventListener('click', function() {
+    // If All Types was selected, deselect it when picking individual
+    document.getElementById('chip-all').classList.remove('selected');
+  });
+});
+
+document.querySelectorAll('.chip').forEach(function(chip) {
+  chip.addEventListener('click', function() { chip.classList.toggle('selected'); });
+});
+
+function setSMS(val) {
+  document.getElementById('sms-yes').classList.toggle('selected', val === 'yes');
+  document.getElementById('sms-no').classList.toggle('selected', val === 'no');
+  document.getElementById('sms-phone-block').classList.toggle('visible', val === 'yes');
+}
+
+function setLicense(val) {
+  licenseValue = val;
+  document.getElementById('license-yes').classList.toggle('selected', val === 'yes');
+  document.getElementById('license-no').classList.toggle('selected', val === 'no');
+  document.getElementById('license-level-block').classList.toggle('visible', val === 'yes');
+  document.getElementById('license-help-block').classList.toggle('visible', val === 'no');
+}
+
+document.getElementById('register-btn').addEventListener('click', async function() {
+  var first_name = document.getElementById('first_name').value.trim();
+  var last_name  = document.getElementById('last_name').value.trim();
+  var email      = document.getElementById('email').value.trim();
+  var phoneEl = document.getElementById('phone'); var phone = phoneEl ? phoneEl.value.trim() : '';
+  var city       = document.getElementById('city').value.trim();
+  var state      = document.getElementById('state').value.trim().toUpperCase();
+  var password   = document.getElementById('password').value;
+  var errEl      = document.getElementById('err-msg');
+  errEl.style.display = 'none';
+
+  if (!first_name || !last_name || !email || !city || !state || !password) {
+    errEl.textContent = 'Please fill in all required fields.';
+    errEl.style.display = 'block';
+    return;
+  }
+  if (password.length < 8) {
+    errEl.textContent = 'Password must be at least 8 characters.';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  var btn = document.getElementById('register-btn');
+  btn.disabled = true; btn.textContent = 'Creating account...';
+
+  var roles = {};
+  document.querySelectorAll('.chip.selected').forEach(function(c) { roles[c.dataset.role] = true; });
+
+  var license_level  = document.getElementById('license_level').value;
+  var help_training  = document.getElementById('help_training').checked;
+  var help_jobs      = document.getElementById('help_jobs').checked;
+
+  var sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  var result = await sbClient.auth.signUp({
+    email: email, password: password,
+    options: { data: { first_name, last_name, phone, city, state, roles,
+      license_status: licenseValue, license_level, help_training, help_jobs } }
+  });
+
+  if (result.error) {
+    errEl.textContent = result.error.message;
+    errEl.style.display = 'block';
+    btn.disabled = false; btn.textContent = 'Create Account';
+    return;
+  }
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: 'account_created' });
+
+  try {
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'candidate', first_name, last_name, email, phone,
+        city, state, roles, license_status: licenseValue, license_level,
+        help_training, help_jobs, source: 'register', ts: new Date().toISOString() })
+    });
+  } catch(e) {}
+
+  window.location.href = '/job-board';
+});
+</script>
 </body>
 </html>
