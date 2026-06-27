@@ -355,7 +355,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <button class="save-btn" id="save-btn" onclick="saveAll()">Save</button>
   <div class="save-status" id="save-status"></div>
-  <a href="/" class="browse-link">Browse jobs →</a>
+  <a href="/job-board" class="browse-link">Browse jobs →</a>
 
 </div>
 
@@ -477,7 +477,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   document.getElementById('logout-btn').addEventListener('click', async () => {
     await sbClient.auth.signOut();
-    window.location.href = '/';
+    window.location.href = '/job-board';
   });
 
   init();
