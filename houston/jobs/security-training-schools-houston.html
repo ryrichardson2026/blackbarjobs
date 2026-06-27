@@ -362,6 +362,12 @@
     @media(max-width:639px){ body { padding-bottom: 74px; } }
     @media(min-width:640px){ .sticky-bar { display:none!important; } }
   }
+
+/* ── MOBILE: hide hero image, collapse height ── */
+@media (max-width: 639px) {
+  .hero-img-wrap, .hero-image-wrap { display: none !important; }
+  .hero { min-height: 0 !important; background: #000814 !important; }
+}
 </style>
 </head>
 <body>

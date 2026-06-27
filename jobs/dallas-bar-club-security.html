@@ -254,6 +254,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .skeleton-meta{height:10px;width:50%;}
   .skeleton-btn{width:46px;height:28px;border-radius:8px;flex-shrink:0;}
   @keyframes shimmer{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+
+/* ── MOBILE: hide hero image, collapse height ── */
+@media (max-width: 639px) {
+  .hero-img-wrap, .hero-image-wrap { display: none !important; }
+  .hero { min-height: 0 !important; background: #000814 !important; }
+}
 </style>
 <link href="https://www.blackbarjobs.com/jobs/dallas-bar-club-security" rel="canonical"/>
 <!-- Microsoft Clarity -->
