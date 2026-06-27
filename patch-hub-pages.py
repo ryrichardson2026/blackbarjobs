@@ -2,6 +2,8 @@ import re, os, glob
 
 REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+print(f'Repo root: {REPO_ROOT}')
+
 SCAN_DIRS = [
     'jobs',
     'houston/jobs',
@@ -19,7 +21,10 @@ ALERT_BTN_PATTERNS = [
     r'<button[^>]*onclick="[^"]*scrollIntoView[^"]*"[^>]*>Get Free Job Alerts[^<]*</button>',
     r'<button[^>]*onclick="submitModal\(\)"[^>]*>Get Free Job Alerts[^<]*</button>',
 ]
-ALERT_BTN_REPLACEMENT = '<a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts \u2192</a>'
+
+JOB_BOARD_CTA_PATTERN = r'<a\s+class="btn-(?:primary|gold)"[^>]*href="/job-board[^"]*"[^>]*>(?:(?!</a>).)*</a>'
+
+CTA_REPLACEMENT = '<a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts \u2192</a>'
 
 H1_MOBILE_PATTERNS = [
     (r"\.hero h1 \{ font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: clamp\(2\.8rem, 4vw, 3\.8rem\); line-height: 1\.05; letter-spacing: -0\.01em; color: var\(--white\); margin-bottom: 10px; \}",
@@ -46,38 +51,23 @@ def patch_file(path):
     with open(path, 'r', encoding='utf-8', errors='ignore', newline='') as f:
         raw = f.read()
 
-    # Normalize line endings for matching
     html = raw.replace('\r\n', '\n').replace('\r', '\n')
     original = html
-    changed = False
 
-    # 1. Alert CTA buttons
     for pattern in ALERT_BTN_PATTERNS:
-        new_html = re.sub(pattern, ALERT_BTN_REPLACEMENT, html, flags=re.DOTALL)
-        if new_html != html:
-            html = new_html
-            changed = True
+        html = re.sub(pattern, CTA_REPLACEMENT, html, flags=re.DOTALL)
 
-    # 2. H1 mobile font size
+    html = re.sub(JOB_BOARD_CTA_PATTERN, CTA_REPLACEMENT, html, flags=re.DOTALL)
+
     for old, new in H1_MOBILE_PATTERNS:
-        new_html = re.sub(old, new, html)
-        if new_html != html:
-            html = new_html
-            changed = True
+        html = re.sub(old, new, html)
 
-    # 3. H1 desktop font size
-    new_html = re.sub(H1_DESKTOP_OLD, H1_DESKTOP_NEW, html)
-    if new_html != html:
-        html = new_html
-        changed = True
+    html = re.sub(H1_DESKTOP_OLD, H1_DESKTOP_NEW, html)
 
-    # 4. View button → gold + NEW pill
     if VIEW_BTN_OLD in html:
         html = html.replace('+' + VIEW_BTN_OLD, '+' + VIEW_BTN_NEW)
-        changed = True
 
-    if changed:
-        # Write back with Windows line endings to preserve original format
+    if html != original:
         with open(path, 'w', encoding='utf-8', newline='\r\n') as f:
             f.write(html)
         return 'patched'
@@ -88,11 +78,14 @@ results = {'patched': 0, 'unchanged': 0, 'error': 0}
 
 for folder in SCAN_DIRS:
     scan_path = os.path.join(REPO_ROOT, folder)
+    print(f'Scanning: {scan_path} — exists: {os.path.isdir(scan_path)}')
     if not os.path.isdir(scan_path):
-        print(f'[skip] folder not found: {scan_path}')
         continue
 
-    for fpath in glob.glob(os.path.join(scan_path, '**', '*.html'), recursive=True):
+    files = glob.glob(os.path.join(scan_path, '**', '*.html'), recursive=True)
+    print(f'  Found {len(files)} HTML files')
+
+    for fpath in files:
         fname = os.path.basename(fpath)
         if fname in SKIP_FILES:
             continue
