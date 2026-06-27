@@ -95,7 +95,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,8,20,0.1) 0%, rgba(0,8,20,0.75) 60%); }
 .hero-body { position: relative; z-index: 2; padding: 52px 20px 36px; display: flex; flex-direction: column; }
 .hero-badge { display: inline-block; font-family: 'Barlow Condensed', sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(255,195,0,0.4); padding: 3px 9px; border-radius: 3px; margin-bottom: 10px; width: fit-content; }
-.hero h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: clamp(2.1rem, 7vw, 3rem); line-height: 1.0; color: var(--white); margin-bottom: 8px; }
+.hero h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: clamp(2.4rem, 9vw, 3.2rem); line-height: 1.05; letter-spacing: -0.01em; color: var(--white); margin-bottom: 10px; }
 .hero h1 em { color: var(--gold); font-style: normal; }
 .hero-sub { font-size: 0.95rem; color: rgba(255,255,255,0.65); max-width: 460px; line-height: 1.5; margin-bottom: 18px; }
 .btn-gold { display: inline-block; padding: 13px 22px; background: var(--gold); color: var(--navy); font-family: 'Barlow Condensed', sans-serif; font-size: 1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; transition: background 0.15s; }
@@ -1453,7 +1453,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
         <div id="contactError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
-        <button class="btn-next" onclick="submitModal()" style="width:100%;margin:0;">Get Free Job Alerts →</button>
+        <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
         <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:12px;text-align:center;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
       </div>
 
@@ -1861,7 +1861,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHandleApply(this)" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
         +'<div class="hf-meta">'+(j.company||'')+(j.location?' &middot; '+j.location:'')+(j.pay?' &middot; '+j.pay:'')+'</div></div>'
-        +'<span class="hf-apply">View</span>'
+        +'<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">'+'<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>'+'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>'+'</div>'
         +'</div>';
     }).join('');
   }
