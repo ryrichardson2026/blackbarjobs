@@ -93,7 +93,7 @@ footer a{color:rgba(255,255,255,0.28);text-decoration:underline;}
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<div class="sticky-bar" id="stickyBar"><a href="/register.html">Browse Jobs →</a></div>
+<div class="sticky-bar" id="stickyBar"><a href="#" onclick="bbjAccOpen('/job-board');return false;" class="btn-primary" style="display:inline-block;text-align:center;text-decoration:none;padding:14px 28px;">Browse Jobs →</a></div>
 <nav><a href="/" class="nav-logo"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="ns">| Security</span></a></nav>
 
 <section class="hero" id="heroAnchor">
@@ -263,7 +263,7 @@ footer a{color:rgba(255,255,255,0.28);text-decoration:underline;}
   <h2>Get Armed Security <span>Job Alerts in Dallas</span></h2>
   <p>Level 3 positions at banking, government, and corporate accounts across DFW — be first when they post.</p>
   <div class="alert-form" id="alertForm">
-    <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Browse Security Jobs →</a>
+    <a href="#" onclick="bbjAccOpen('/job-board');return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Browse Security Jobs →</a>
   </div>
   <div id="alertSuccess" style="display:none;"></div>
 </div>
@@ -344,5 +344,442 @@ function submitAlert(){
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+
+<!-- BBJ ALERTS OVERLAY -->
+<style>
+#bbjAlertOvr{display:none;position:fixed;inset:0;z-index:4000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}
+#bbjAlertOvr.open{display:flex;}
+@media(min-width:640px){#bbjAlertOvr{align-items:center;}}
+#bbjAlertCard{background:#fff;width:100%;max-width:480px;border-radius:22px 22px 0 0;padding:32px 28px 40px;position:relative;max-height:92dvh;overflow-y:auto;transform:translateY(100%);transition:transform 0.28s ease,opacity 0.28s ease;opacity:0;}
+@media(min-width:640px){#bbjAlertCard{border-radius:16px;transform:translateY(20px) scale(0.97);}}
+#bbjAlertOvr.open #bbjAlertCard{transform:translateY(0);opacity:1;}
+#bbjAlertX{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:#f4f5f7;border:none;cursor:pointer;font-size:1.1rem;color:#5a6474;line-height:1;display:flex;align-items:center;justify-content:center;}
+#bbjAlertX:hover{background:#e2e5ea;}
+/* Register card styles scoped */
+#bbjAlertCard .step-bar{display:flex;gap:6px;margin-bottom:24px;}
+#bbjAlertCard .step-dot{flex:1;height:3px;border-radius:2px;background:#e2e5ea;transition:background 0.2s;}
+#bbjAlertCard .step-dot.active{background:#FFC300;}
+#bbjAlertCard .step-dot.done{background:#000814;}
+#bbjAlertCard .auth-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#5a6474;margin-bottom:4px;}
+#bbjAlertCard .auth-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.9rem;color:#000814;line-height:1.1;margin-bottom:4px;}
+#bbjAlertCard .auth-sub{font-size:0.88rem;color:#5a6474;margin-bottom:20px;}
+#bbjAlertCard .field-label{font-size:0.75rem;font-weight:600;color:#5a6474;letter-spacing:0.04em;text-transform:uppercase;margin-bottom:4px;display:block;}
+#bbjAlertCard input[type=text],#bbjAlertCard input[type=email],#bbjAlertCard input[type=tel],#bbjAlertCard input[type=password],#bbjAlertCard select{width:100%;padding:10px 13px;border:1.5px solid #e2e5ea;border-radius:8px;font-family:'Barlow',sans-serif;font-size:0.92rem;color:#1a1a1a;background:#fff;outline:none;transition:border-color 0.15s;margin-bottom:10px;display:block;-webkit-appearance:none;}
+#bbjAlertCard input:focus,#bbjAlertCard select:focus{border-color:#001D3D;}
+#bbjAlertCard input::placeholder{color:#a0aab4;}
+#bbjAlertCard .chip-grid{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+#bbjAlertCard .chip{font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:700;padding:7px 14px;border-radius:20px;border:1.5px solid #e2e5ea;background:#fff;color:#5a6474;cursor:pointer;transition:all 0.12s;user-select:none;}
+#bbjAlertCard .chip.selected{background:#000814;border-color:#000814;color:#FFC300;}
+#bbjAlertCard .toggle-row{display:flex;gap:8px;margin-bottom:10px;}
+#bbjAlertCard .toggle-btn{flex:1;padding:10px;font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;font-weight:700;border:1.5px solid #e2e5ea;border-radius:8px;background:#fff;color:#5a6474;cursor:pointer;transition:all 0.12s;text-align:center;}
+#bbjAlertCard .toggle-btn.selected{background:#000814;border-color:#000814;color:#FFC300;}
+#bbjAlertCard .reveal-block{display:none;margin-bottom:10px;}
+#bbjAlertCard .reveal-block.visible{display:block;}
+#bbjAlertCard .submit-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-top:8px;}
+#bbjAlertCard .submit-btn:hover{background:#FFD60A;}
+#bbjAlertCard .submit-btn:disabled{opacity:0.4;cursor:not-allowed;}
+#bbjAlertCard .err-msg{display:none;color:#e53935;font-size:0.82rem;margin-bottom:12px;padding:10px 12px;background:#fff5f5;border-radius:6px;border:1px solid #fcc;}
+#bbjAlertCard .success-wrap{text-align:center;padding:10px 0;}
+#bbjAlertCard .success-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.8rem;color:#000814;margin-bottom:6px;}
+#bbjAlertCard .success-sub{font-size:0.88rem;color:#5a6474;margin-bottom:24px;line-height:1.5;}
+#bbjAlertCard .tcpa{font-size:0.7rem;color:#a0aab4;margin-top:10px;line-height:1.5;}
+#bbjAlertCard .tcpa a{color:#a0aab4;}
+#bbjAlertCard .signin-link{text-align:center;font-size:0.86rem;color:#5a6474;margin-top:16px;}
+#bbjAlertCard .signin-link a{color:#001D3D;font-weight:600;text-decoration:none;}
+#bbjAlertCard .network-cta{display:block;width:100%;padding:14px;background:#000814;color:#FFC300;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;text-align:center;margin-bottom:10px;text-decoration:none;transition:background 0.15s;}
+#bbjAlertCard .skip-link{display:block;text-align:center;font-size:0.82rem;color:#5a6474;cursor:pointer;margin-top:8px;}
+</style>
+
+<div id="bbjAlertOvr" onclick="if(event.target===this)bbjAlertClose()">
+  <div id="bbjAlertCard">
+    <button id="bbjAlertX" onclick="bbjAlertClose()">✕</button>
+    <div class="step-bar">
+      <div class="step-dot active" id="dot1"></div>
+      <div class="step-dot" id="dot2"></div>
+    </div>
+    <div id="step1">
+      <div class="auth-eyebrow">Security Officer Network</div>
+      <h1 class="auth-title">Get Job Alerts</h1>
+      <p class="auth-sub">Free. No resume required. Get notified the moment new openings post.</p>
+      <div id="err-msg" class="err-msg"></div>
+      <label class="field-label">First Name</label>
+      <input id="first_name" type="text" placeholder="First name" autocomplete="given-name">
+      <label class="field-label">Email</label>
+      <input id="email" type="email" placeholder="you@email.com" autocomplete="email" inputmode="email">
+      <label class="field-label" style="margin-top:4px;font-size:0.88rem;font-weight:700;color:var(--charcoal);text-transform:none;letter-spacing:0;">What type of security jobs?</label>
+      <p style="font-size:0.78rem;color:var(--muted);margin-bottom:10px;">Select all that apply.</p>
+      <div class="chip-grid">
+        <div class="chip" data-role="all" id="chip-all">All Types</div>
+        <div class="chip" data-role="unarmed">Unarmed</div>
+        <div class="chip" data-role="armed">Armed</div>
+        <div class="chip" data-role="overnight">Overnight</div>
+        <div class="chip" data-role="event">Event</div>
+      </div>
+      <label class="field-label" style="font-size:0.88rem;font-weight:700;color:var(--charcoal);text-transform:none;letter-spacing:0;">Receive SMS alerts for new jobs?</label>
+      <div class="toggle-row" style="margin-top:6px;">
+        <div class="toggle-btn" id="sms-yes" onclick="setSMS('yes')">Yes</div>
+        <div class="toggle-btn" id="sms-no" onclick="setSMS('no')">No thanks</div>
+      </div>
+      <div class="reveal-block" id="sms-phone-block">
+        <label class="field-label">Mobile Number</label>
+        <input id="phone" type="tel" placeholder="(214) 000-0000" autocomplete="tel" inputmode="tel">
+      </div>
+      <button class="submit-btn" id="step1-btn">Get Job Alerts</button>
+      <p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
+      <p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>
+    </div>
+
+    <!-- SUCCESS -->
+    <div id="step-success" style="display:none;">
+      <div class="success-wrap">
+        <div class="success-title">You're on the list!</div>
+        <p class="success-sub">We'll notify you the moment new security jobs post in your area.</p>
+        <button class="submit-btn" onclick="showStep2()" style="margin-bottom:14px;">Browse All Jobs →</button>
+        <p style="font-size:0.88rem;margin-bottom:4px;"><strong>Join the BBJ Network for Free</strong></p>
+        <p style="font-size:0.82rem;color:var(--muted);margin-bottom:16px;">No resume required. Free to access.</p>
+        <a class="skip-link" href="/job-board">Skip — Browse jobs now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// BBJ ALERTS OVERLAY
+var bbjAlertSmsValue = '';
+var bbjAlertLicenseValue = '';
+
+function bbjAlertOpen() {
+  document.getElementById('step1').style.display = 'block';
+  document.getElementById('step-success').style.display = 'none';
+  document.getElementById('err-msg').style.display = 'none';
+  document.getElementById('err-msg').textContent = '';
+  document.getElementById('bbjAlertOvr').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  setTimeout(function(){ document.getElementById('first_name').focus(); }, 350);
+}
+
+function bbjAlertClose() {
+  document.getElementById('bbjAlertOvr').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function setSMS(val) {
+  bbjAlertSmsValue = val;
+  document.getElementById('sms-yes').classList.toggle('selected', val === 'yes');
+  document.getElementById('sms-no').classList.toggle('selected', val === 'no');
+  document.getElementById('sms-phone-block').classList.toggle('visible', val === 'yes');
+  if (val !== 'yes') document.getElementById('phone').value = '';
+}
+
+function setDots(active) {
+  document.getElementById('dot1').className = 'step-dot ' + (active > 1 ? 'done' : 'active');
+  document.getElementById('dot2').className = 'step-dot ' + (active >= 2 ? 'active' : '');
+}
+
+function showStep2() {
+  bbjAlertClose();
+  window.location.href = '/register.html?step=2';
+}
+
+// Chip logic
+document.addEventListener('DOMContentLoaded', function() {
+  var chipAll = document.getElementById('chip-all');
+  if (!chipAll) return;
+  chipAll.addEventListener('click', function() {
+    var allSelected = this.classList.contains('selected');
+    if (allSelected) {
+      document.querySelectorAll('#bbjAlertCard .chip').forEach(function(c) { c.classList.remove('selected'); });
+    } else {
+      document.querySelectorAll('#bbjAlertCard .chip').forEach(function(c) { c.classList.add('selected'); });
+    }
+    this.classList.toggle('selected', !allSelected);
+  });
+  document.querySelectorAll('#bbjAlertCard .chip:not(#chip-all)').forEach(function(chip) {
+    chip.addEventListener('click', function() {
+      this.classList.toggle('selected');
+      var anyOn = Array.from(document.querySelectorAll('#bbjAlertCard .chip:not(#chip-all)')).some(function(c) { return c.classList.contains('selected'); });
+      document.getElementById('chip-all').classList.toggle('selected', !anyOn);
+    });
+  });
+
+  // Step1 submit
+  var btn = document.getElementById('step1-btn');
+  if (!btn) return;
+  btn.addEventListener('click', async function() {
+    var first_name = document.getElementById('first_name').value.trim();
+    var email      = document.getElementById('email').value.trim();
+    var phone      = (document.getElementById('phone') || {}).value || '';
+    var errEl      = document.getElementById('err-msg');
+    errEl.style.display = 'none';
+
+    if (!first_name || !email) {
+      errEl.textContent = 'Please enter your name and email.';
+      errEl.style.display = 'block'; return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      errEl.textContent = 'Please enter a valid email address.';
+      errEl.style.display = 'block'; return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+
+    var roles = Array.from(document.querySelectorAll('#bbjAlertCard .chip.selected')).map(function(c) { return c.dataset.role; }).join(',');
+    var smsOpt = bbjAlertSmsValue === 'yes';
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event: 'alert_form_submit', email: email});
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
+    }
+
+    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        timestamp: new Date().toISOString(),
+        first_name: first_name, email: email,
+        phone: phone.replace(/\D/g,''), roles: roles,
+        sms_opt: smsOpt, source: window.location.href,
+        trigger: 'alerts_overlay', consent: true,
+        consent_timestamp: new Date().toISOString(),
+        consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.'
+      })
+    });
+
+    // Supabase signup if available
+    if (typeof sbClient !== 'undefined') {
+      try {
+        await sbClient.auth.signInWithOtp({ email: email, options: { data: { first_name: first_name, roles: roles } } });
+      } catch(e) {}
+    }
+
+    document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
+
+    document.getElementById('step1').style.display = 'none';
+    document.getElementById('step-success').style.display = 'block';
+    setDots(2);
+  });
+});
+</script>
+
+
+<!-- BBJ ACCESS OVERLAY -->
+<style>
+#bbjAccOvr{display:none;position:fixed;inset:0;z-index:4000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}
+#bbjAccOvr.open{display:flex;}
+@media(min-width:640px){#bbjAccOvr{align-items:center;}}
+#bbjAccCard2{background:#fff;width:100%;max-width:480px;border-radius:22px 22px 0 0;padding:32px 28px 40px;position:relative;max-height:92dvh;overflow-y:auto;transform:translateY(100%);transition:transform 0.28s ease,opacity 0.28s ease;opacity:0;}
+@media(min-width:640px){#bbjAccCard2{border-radius:16px;transform:translateY(20px) scale(0.97);}}
+#bbjAccOvr.open #bbjAccCard2{transform:translateY(0);opacity:1;}
+#bbjAccX2{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:#f4f5f7;border:none;cursor:pointer;font-size:1.1rem;color:#5a6474;line-height:1;display:flex;align-items:center;justify-content:center;}
+#bbjAccX2:hover{background:#e2e5ea;}
+#bbjAccCard2 .auth-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#5a6474;margin-bottom:4px;}
+#bbjAccCard2 .auth-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.9rem;color:#000814;line-height:1.1;margin-bottom:4px;}
+#bbjAccCard2 .auth-sub{font-size:0.88rem;color:#5a6474;margin-bottom:20px;}
+#bbjAccCard2 .field-label{font-size:0.75rem;font-weight:600;color:#5a6474;letter-spacing:0.04em;text-transform:uppercase;margin-bottom:4px;display:block;}
+#bbjAccCard2 input[type=text],#bbjAccCard2 input[type=email],#bbjAccCard2 input[type=tel],#bbjAccCard2 select{width:100%;padding:10px 13px;border:1.5px solid #e2e5ea;border-radius:8px;font-family:'Barlow',sans-serif;font-size:0.92rem;color:#1a1a1a;background:#fff;outline:none;transition:border-color 0.15s;margin-bottom:10px;display:block;-webkit-appearance:none;}
+#bbjAccCard2 input:focus,#bbjAccCard2 select:focus{border-color:#001D3D;}
+#bbjAccCard2 input::placeholder{color:#a0aab4;}
+#bbjAccCard2 .chip-grid{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+#bbjAccCard2 .chip{font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:700;padding:7px 14px;border-radius:20px;border:1.5px solid #e2e5ea;background:#fff;color:#5a6474;cursor:pointer;transition:all 0.12s;user-select:none;}
+#bbjAccCard2 .chip.selected{background:#000814;border-color:#000814;color:#FFC300;}
+#bbjAccCard2 .toggle-row{display:flex;gap:8px;margin-bottom:10px;}
+#bbjAccCard2 .toggle-btn{flex:1;padding:10px;font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;font-weight:700;border:1.5px solid #e2e5ea;border-radius:8px;background:#fff;color:#5a6474;cursor:pointer;transition:all 0.12s;text-align:center;}
+#bbjAccCard2 .toggle-btn.selected{background:#000814;border-color:#000814;color:#FFC300;}
+#bbjAccCard2 .reveal-block{display:none;margin-bottom:10px;}
+#bbjAccCard2 .reveal-block.visible{display:block;}
+#bbjAccCard2 .reveal-block-pad{display:none;background:#f4f5f7;border-radius:10px;padding:14px 16px;margin-bottom:10px;border:1px solid #e2e5ea;}
+#bbjAccCard2 .reveal-block-pad.visible{display:block;}
+#bbjAccCard2 .reveal-block-pad p{font-size:0.85rem;color:#5a6474;margin-bottom:10px;line-height:1.5;}
+#bbjAccCard2 .help-opts{display:flex;flex-direction:column;gap:10px;margin-top:6px;}
+#bbjAccCard2 .help-opt{display:flex;align-items:flex-start;gap:10px;font-size:0.88rem;color:#1a1a1a;cursor:pointer;line-height:1.4;}
+#bbjAccCard2 .help-opt input[type=checkbox]{width:16px;height:16px;margin:0;padding:0;accent-color:#000814;cursor:pointer;flex-shrink:0;margin-top:2px;}
+#bbjAccCard2 .submit-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-top:8px;}
+#bbjAccCard2 .submit-btn:hover{background:#FFD60A;}
+#bbjAccCard2 .submit-btn:disabled{opacity:0.4;cursor:not-allowed;}
+#bbjAccCard2 .err-msg{display:none;color:#e53935;font-size:0.82rem;margin-bottom:12px;padding:10px 12px;background:#fff5f5;border-radius:6px;border:1px solid #fcc;}
+#bbjAccCard2 .tcpa{font-size:0.7rem;color:#a0aab4;margin-top:10px;line-height:1.5;}
+#bbjAccCard2 .tcpa a{color:#a0aab4;}
+#bbjAccCard2 .section-label{font-family:'Barlow Condensed',sans-serif;font-size:0.78rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#000814;margin:16px 0 10px;padding-bottom:6px;border-bottom:2px solid #FFC300;display:block;}
+#bbjAccCard2 hr{border:none;border-top:1px solid #e2e5ea;margin:16px 0;}
+#bbjAccCard2 select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235a6474' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center;padding-right:32px;}
+.baj2-loader{display:none;text-align:center;padding:48px 20px;}
+.baj2-spinner{width:44px;height:44px;border:3px solid #e2e5ea;border-top-color:#FFC300;border-radius:50%;animation:baj2Spin 0.8s linear infinite;margin:0 auto 16px;}
+@keyframes baj2Spin{to{transform:rotate(360deg);}}
+.baj2-loader-txt{font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:800;color:#000814;}
+</style>
+
+<div id="bbjAccOvr" onclick="if(event.target===this)bbjAccClose()">
+  <div id="bbjAccCard2">
+    <button id="bbjAccX2" onclick="bbjAccClose()">✕</button>
+    <div id="formWrap">
+      <div class="auth-eyebrow">Security Officer Network</div>
+      <h1 class="auth-title">Get Access to Jobs</h1>
+      <p class="auth-sub" id="jobCountSub">Free. No resume required.</p>
+      <div class="err-msg" id="errMsg"></div>
+
+      <label class="field-label">First Name</label>
+      <input id="first_name" type="text" placeholder="First name" autocomplete="given-name">
+
+      <label class="field-label">Email</label>
+      <input id="email" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">
+
+      <label class="field-label" style="font-size:0.88rem;font-weight:700;color:var(--charcoal);text-transform:none;letter-spacing:0;">What type of security jobs?</label>
+      <p style="font-size:0.78rem;color:var(--muted);margin-bottom:10px;">Select all that apply.</p>
+      <div class="chip-grid">
+        <div class="chip selected" data-role="all" id="chip-all" onclick="toggleChip(this)">All Types</div>
+        <div class="chip" data-role="unarmed" onclick="toggleChip(this)">Unarmed</div>
+        <div class="chip" data-role="armed" onclick="toggleChip(this)">Armed</div>
+        <div class="chip" data-role="overnight" onclick="toggleChip(this)">Overnight</div>
+        <div class="chip" data-role="event" onclick="toggleChip(this)">Event</div>
+      </div>
+
+      <label class="field-label" style="font-size:0.88rem;font-weight:700;color:var(--charcoal);text-transform:none;letter-spacing:0;">Receive SMS alerts for new jobs?</label>
+      <div class="toggle-row" style="margin-top:6px;">
+        <div class="toggle-btn" id="sms-yes" onclick="setSMS('yes')">Yes</div>
+        <div class="toggle-btn" id="sms-no" onclick="setSMS('no')">No thanks</div>
+      </div>
+      <div class="reveal-block" id="sms-phone-block">
+        <label class="field-label">Mobile Number</label>
+        <input id="phone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">
+      </div>
+
+      <hr>
+      <span class="section-label">Texas Security License</span>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:10px;">Do you hold a Texas DPS security license?</p>
+      <div class="toggle-row">
+        <div class="toggle-btn" id="license-yes" onclick="setLicense('yes')">Yes, I'm licensed</div>
+        <div class="toggle-btn" id="license-no" onclick="setLicense('no')">Not yet</div>
+      </div>
+      <div class="reveal-block" id="license-level-block">
+        <label class="field-label">License Level</label>
+        <select id="license_level">
+          <option value="">Select level</option>
+          <option value="level2">Level 2 — Non-Commissioned (Unarmed)</option>
+          <option value="level3">Level 3 — Commissioned (Armed)</option>
+          <option value="both">Both Level 2 and Level 3</option>
+        </select>
+      </div>
+      <div class="reveal-block-pad" id="license-help-block">
+        <p>No problem — you can still apply to many positions while pursuing your license.</p>
+        <div class="help-opts">
+          <label class="help-opt"><input type="checkbox" id="help_training"> Connect me with a training program</label>
+          <label class="help-opt"><input type="checkbox" id="help_jobs"> Show me jobs that include training or license sponsorship</label>
+        </div>
+      </div>
+
+      <button class="submit-btn" id="submitBtn" onclick="submitAccess()">Get Access →</button>
+      <p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
+      <p style="text-align:center;font-size:0.86rem;color:var(--muted);margin-top:16px;">Already have an account? <a href="/login.html" style="color:var(--navy-mid);font-weight:600;text-decoration:none;">Sign in</a></p>
+    </div>
+    <div class="baj2-loader" id="bbjAccLoader2">
+      <div class="baj2-spinner"></div>
+      <div class="baj2-loader-txt">Creating your account...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+var _bbjAccSmsVal = '';
+var _bbjAccLicVal = '';
+var _bbjAccDest   = '/job-board';
+
+// Fetch job count
+(function(){
+  var M='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
+  fetch(M,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){
+    if(!t)return;
+    var n=t.trim().split('\n').slice(1).filter(function(l){return l.toLowerCase().indexOf(',yes')!==-1;}).length;
+    var el=document.getElementById('jobCountSub');
+    if(el&&n>0)el.textContent='Currently '+n+' active jobs. Free, no resume required.';
+  }).catch(function(){});
+})();
+
+function bbjAccOpen(dest){
+  _bbjAccDest = dest || '/job-board';
+  document.getElementById('formWrap').style.display='block';
+  document.getElementById('bbjAccLoader2').style.display='none';
+  document.getElementById('errMsg') && (document.getElementById('errMsg').style.display='none');
+  document.getElementById('bbjAccOvr').classList.add('open');
+  document.body.style.overflow='hidden';
+  setTimeout(function(){document.getElementById('first_name').focus();},350);
+}
+
+function bbjAccClose(){
+  document.getElementById('bbjAccOvr').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+function setSMS2(val){
+  _bbjAccSmsVal=val;
+  document.getElementById('sms-yes').classList.toggle('selected',val==='yes');
+  document.getElementById('sms-no').classList.toggle('selected',val==='no');
+  document.getElementById('sms-phone-block').classList.toggle('visible',val==='yes');
+  if(val!=='yes')document.getElementById('phone').value='';
+}
+
+function setLicense2(val){
+  _bbjAccLicVal=val;
+  document.getElementById('license-yes').classList.toggle('selected',val==='yes');
+  document.getElementById('license-no').classList.toggle('selected',val==='no');
+  document.getElementById('license-level-block').classList.toggle('visible',val==='yes');
+  document.getElementById('license-help-block').classList.toggle('visible',val==='no');
+}
+
+function submitAccess(){
+  var name=document.getElementById('first_name').value.trim();
+  var email=document.getElementById('email').value.trim();
+  var phone=(document.getElementById('phone')||{}).value||'';
+  var errEl=document.getElementById('errMsg');
+  if(errEl)errEl.style.display='none';
+  if(!name){if(errEl){errEl.textContent='Please enter your first name.';errEl.style.display='block';}document.getElementById('first_name').focus();return;}
+  if(!email||!email.includes('@')){if(errEl){errEl.textContent='Please enter a valid email address.';errEl.style.display='block';}document.getElementById('email').focus();return;}
+  var roles=Array.from(document.querySelectorAll('#bbjAccCard2 .chip.selected')).map(function(c){return c.dataset.role;}).join(',');
+  window.dataLayer=window.dataLayer||[];
+  window.dataLayer.push({event:'bbj_access_signup',email:email});
+  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{
+    method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      timestamp:new Date().toISOString(),first_name:name,email:email,
+      phone:phone.replace(/\D/g,''),roles:roles,sms_opt:_bbjAccSmsVal,
+      license_status:_bbjAccLicVal,
+      license_level:(document.getElementById('license_level')||{}).value||'',
+      help_training:(document.getElementById('help_training')||{}).checked||false,
+      help_jobs:(document.getElementById('help_jobs')||{}).checked||false,
+      source:window.location.href,trigger:'access_overlay',consent:true,
+      consent_timestamp:new Date().toISOString(),
+      consent_text:'By submitting you agree to receive job alerts by email and SMS if opted in.'
+    })
+  });
+  document.cookie='bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
+  document.getElementById('formWrap').style.display='none';
+  document.getElementById('bbjAccLoader2').style.display='block';
+  setTimeout(function(){window.location.href=_bbjAccDest;},2000);
+}
+
+// Fix onclick refs in access card to use scoped functions
+document.addEventListener('DOMContentLoaded',function(){
+  var chipAll=document.querySelector('#bbjAccCard2 #chip-all');
+  if(chipAll){
+    chipAll.addEventListener('click',function(){
+      var chips=document.querySelectorAll('#bbjAccCard2 .chip');
+      var allOn=this.classList.contains('selected');
+      chips.forEach(function(c){c.classList.remove('selected');});
+      if(!allOn)this.classList.add('selected');
+    });
+  }
+  document.querySelectorAll('#bbjAccCard2 .chip:not(#chip-all)').forEach(function(c){
+    c.addEventListener('click',function(){
+      this.classList.toggle('selected');
+      var anyOn=Array.from(document.querySelectorAll('#bbjAccCard2 .chip:not(#chip-all)')).some(function(x){return x.classList.contains('selected');});
+      var ca=document.querySelector('#bbjAccCard2 #chip-all');
+      if(ca)ca.classList.toggle('selected',!anyOn);
+    });
+  });
+});
+</script>
+
 </body>
 </html>
