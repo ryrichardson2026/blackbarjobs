@@ -336,7 +336,7 @@
   @media (min-width: 640px) {
     .hero { min-height: 520px; max-height: 580px; height: 62vh; }
     .hero-content { padding: 0 48px 52px; justify-content: center; }
-    .hero h1 { font-size: clamp(3rem, 4.5vw, 4.4rem); }
+    .hero h1 { font-size: clamp(2.8rem, 4vw, 3.8rem); }
     .hero-ctas { max-width: 420px; }
     .section-wrap { padding: 0 40px 32px; }
     .section-divider { padding: 0 40px; margin: 0 0 14px; }
@@ -354,12 +354,6 @@
     @media(max-width:639px){ body { padding-bottom: 74px; } }
     @media(min-width:640px){ .sticky-bar { display:none!important; } }
   }
-
-/* ── MOBILE: hide hero image, collapse height ── */
-@media (max-width: 639px) {
-  .hero-img-wrap, .hero-image-wrap { display: none !important; }
-  .hero { min-height: 0 !important; background: #000814 !important; }
-}
 </style>
 </head>
 <body>
@@ -382,7 +376,7 @@
     <h1>Night Shift Security Jobs in<br><em>Dallas–Fort Worth</em></h1>
     <p class="hero-sub">Second and third shift security officer positions across the DFW metro — Sunstates, SITEMETRIC, United Protective Services, and Admiral Security actively hiring 2nd and 3rd shift across Fort Worth, Mansfield, Grand Prairie, and Dallas.</p>
     <div class="hero-ctas">
-      <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+      <a class="btn-primary" href="/job-board">Browse All Jobs →</a>
     </div>
   </div>
 </section>
@@ -393,7 +387,7 @@
   <div class="section-wrap">
     <h2>Recent Night Shift Security Officer Openings</h2>
     <div id="jobRows" style="min-height:80px;border-top:2px solid var(--navy-deep);"></div>
-    <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+    <a class="btn-primary" href="/job-board" style="display:inline-block;max-width:260px;margin-top:16px;text-align:center;">Browse All Jobs →</a>
   </div>
 </div>
 
@@ -522,7 +516,7 @@
 <li><a href="/dallas-security-jobs-guide">Dallas Security Jobs Guide</a></li>
 <li><a href="/security-jobs-for-veterans-texas">Veterans Security Jobs in Texas</a></li>
 </ul>
-    <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+    <a class="btn-primary" href="/job-board" style="display:inline-block;margin-top:18px;max-width:320px;text-align:center;">Browse All Dallas Security Jobs →</a>
   </div>
 </div>
 
@@ -535,7 +529,7 @@
     <div class="alert-field"><span class="alert-field-icon">📱</span><input type="tel" id="a-ph" placeholder="Mobile Number" inputmode="tel"></div>
     <div class="alert-field"><span class="alert-field-icon">✉️</span><input type="email" id="a-em" placeholder="Email Address (optional)" inputmode="email"></div>
     <div id="alertError"></div>
-    <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
     <div class="alert-trust"><svg width="12" height="12" fill="none" viewBox="0 0 20 20"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"></path></svg> No spam. Unsubscribe anytime.</div>
     <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
