@@ -1279,7 +1279,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 
   <div class="form-card" id="signup">
     <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Unarmed Security Openings</div>
-    <div class="hero-feed" id="jobRows">
+    <div class="hero-feed" id="indexJobFeed">
       <div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-meta"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:60%"></div><div class="skeleton-line skeleton-meta" style="width:40%"></div></div><div class="skeleton-line skeleton-btn"></div></div><div class="skeleton-row"><div class="skeleton-body"><div class="skeleton-line skeleton-title" style="width:80%"></div><div class="skeleton-line skeleton-meta" style="width:55%"></div></div><div class="skeleton-line skeleton-btn"></div></div>
     </div>
 <a href="/register.html" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">Get Job Alerts →</a>
@@ -1906,14 +1906,14 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 '){rows.push(cur);cur=[''];f=0;}else if(c!=='
 ')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
   function render(jobs){
-    var c=document.getElementById('jobRows');if(!c)return;
+    var c=document.getElementById('indexJobFeed');if(!c)return;
     if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
     c.innerHTML=jobs.map(function(j){
       var url=encodeURIComponent(j.apply_link||'');
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
         +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
-        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
+        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:Barlow Condensed,sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
         +'</div>';
     }).join('');
   }
@@ -1931,13 +1931,80 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
     active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
     render(active.slice(0,10));
-  }).catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
+  }).catch(function(){var c=document.getElementById('indexJobFeed');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
 })();
 </script>
 
+<script>
+// INDEX JOB FEED
+var indexViewsThisSession = 0;
+var INDEX_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=1137907543&single=true&output=csv';
+
+function parseIndexCSV(text) {
+  var lines = text.trim().split('\n');
+  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
+  return lines.slice(1).map(function(line) {
+    var cols = []; var cur = ''; var inQ = false;
+    for (var i = 0; i < line.length; i++) {
+      var c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    cols.push(cur);
+    var obj = {};
+    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
+    return obj;
+  });
+}
+
+function renderIndexFeed(jobs) {
+  var active = jobs.filter(function(j){ return j.active === 'yes'; });
+  var container = document.getElementById('indexJobFeed');
+  if (!container) return;
+  if (!active.length) {
+    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
+    return;
+  }
+  active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
+  var display = active.slice(0, 5);
+  container.innerHTML = display.map(function(job) {
+    var applyUrl = encodeURIComponent(job.apply_link || '');
+    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply(\'' + applyUrl + '\')">' +
+      '<div class="hf-body">' +
+        '<div class="hf-title">' + (job.title || '') + '</div>' +
+        '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
+      '</div>' +
+      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
+        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
+        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function handleIndexApply(encodedUrl) {
+  var url = decodeURIComponent(encodedUrl);
+  if (!url) return;
+  if (bbjIsRegistered()) { window.open(url, '_blank'); return; }
+  indexViewsThisSession = (indexViewsThisSession || 0) + 1;
+  if (indexViewsThisSession <= 1) { window.open(url, '_blank'); return; }
+  _bbjGateApplyUrl = url;
+  _bbjGateDest = null;
+  bbjOpenGate(null, window.location.href);
+}
+
+fetch(INDEX_CSV_URL, {mode: 'cors'})
+  .then(function(r){ return r.text(); })
+  .then(function(text){ renderIndexFeed(parseIndexCSV(text)); })
+  .catch(function(){
+    var c = document.getElementById('indexJobFeed');
+    if (c) c.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Check back soon for open positions.</div></div></div>';
+  });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
-<script>var CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=1137907543&single=true&output=csv';</script>
+
 </body>
 </html>
