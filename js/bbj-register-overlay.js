@@ -59,89 +59,94 @@
   ].join('');
 
   // ── HTML ─────────────────────────────────────────────────────
-  var html = '<style>' + css + '</style>' +
-    '<div id="bbjRegOvr" onclick="if(event.target===this)bbjRegClose()">' +
-    '<div id="bbjRegCard">' +
-    '<button id="bbjRegX" onclick="bbjRegClose()">✕</button>' +
-    '<div class="step-bar">' +
-      '<div class="step-dot active" id="bbjDot1"></div>' +
-      '<div class="step-dot" id="bbjDot2"></div>' +
-    '</div>' +
-    // STEP 1
-    '<div id="bbjStep1">' +
-      '<h2 class="auth-title">Get Job Alerts</h2>' +
-      '<p class="auth-sub">Free. No resume required. Get notified the moment new openings post.</p>' +
-      '<div id="bbjErr1" class="err-msg"></div>' +
-      '<label class="field-label">First Name</label>' +
-      '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">' +
-      '<label class="field-label">Email</label>' +
-      '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">' +
-      '<label class="field-label" style="font-size:0.88rem;font-weight:700;color:#1a1a1a;text-transform:none;letter-spacing:0;">What type of security jobs?</label>' +
-      '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>' +
-      '<div class="chip-grid">' +
-        '<div class="chip" data-role="all" id="bbjChipAll">All Types</div>' +
-        '<div class="chip" data-role="unarmed">Unarmed</div>' +
-        '<div class="chip" data-role="armed">Armed</div>' +
-        '<div class="chip" data-role="overnight">Overnight</div>' +
-        '<div class="chip" data-role="event">Event</div>' +
-      '</div>' +
-      '<label class="field-label" style="font-size:0.88rem;font-weight:700;color:#1a1a1a;text-transform:none;letter-spacing:0;">Receive SMS alerts for new jobs?</label>' +
-      '<div class="toggle-row" style="margin-top:6px;">' +
-        '<div class="toggle-btn" id="bbjSmsYes" onclick="bbjSetSms(\'yes\')">Yes</div>' +
-        '<div class="toggle-btn" id="bbjSmsNo" onclick="bbjSetSms(\'no\')">No thanks</div>' +
-      '</div>' +
-      '<div class="reveal-block" id="bbjPhoneBlock">' +
-        '<label class="field-label">Mobile Number</label>' +
-        '<input id="bbjPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">' +
-      '</div>' +
-      '<button class="submit-btn" id="bbjStep1Btn">Get Job Alerts</button>' +
-      '<p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>' +
-      '<p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>' +
-    '</div>' +
-    // LOADER
-    '<div id="bbjLoader"><div id="bbjLoaderSpinner"></div><div id="bbjLoaderTxt">One moment...</div></div>' +
-    // SUCCESS
-    '<div id="bbjSuccess" style="display:none;">' +
-      '<div class="success-wrap">' +
-        '<div class="success-title">You\'re on the list!</div>' +
-        '<p class="success-sub">We\'ll notify you the moment new security jobs post in your area.</p>' +
-        '<button class="submit-btn" onclick="bbjShowStep2()" style="margin-bottom:14px;">Browse All Jobs \u2192</button>' +
-        '<a class="signin-link" href="/job-board" style="display:block;margin-top:8px;">Skip \u2014 Browse jobs now</a>' +
-      '</div>' +
-    '</div>' +
-    // STEP 2
-    '<div id="bbjStep2" style="display:none;">' +
-      '<h2 class="auth-title" style="font-size:1.6rem;">Complete Your Profile</h2>' +
-      '<p class="auth-sub">Register for BlackBarJobs \u2014 get access to more jobs. Free to sign up. No resume required.</p>' +
-      '<div id="bbjErr2" class="err-msg"></div>' +
-      '<div class="field-row">' +
-        '<div><label class="field-label">City</label><input id="bbjCity" type="text" placeholder="Dallas" autocomplete="address-level2"></div>' +
-        '<div><label class="field-label">State</label><input id="bbjState" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2"></div>' +
-      '</div>' +
-      '<span class="section-label">Texas Security License</span>' +
-      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>' +
-      '<div class="toggle-row">' +
-        '<div class="toggle-btn" id="bbjLicYes" onclick="bbjSetLic(\'yes\')">Yes, I\'m licensed</div>' +
-        '<div class="toggle-btn" id="bbjLicNo" onclick="bbjSetLic(\'no\')">Not yet</div>' +
-      '</div>' +
-      '<div class="reveal-block" id="bbjLicLevelBlock">' +
-        '<label class="field-label">License Level</label>' +
-        '<select id="bbjLicLevel"><option value="">Select level</option><option value="level2">Level 2 \u2014 Non-Commissioned (Unarmed)</option><option value="level3">Level 3 \u2014 Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>' +
-      '</div>' +
-      '<div class="reveal-block-pad" id="bbjLicHelpBlock">' +
-        '<p>No problem \u2014 you can still apply to many positions while pursuing your license.</p>' +
-        '<div class="help-opts">' +
-          '<label class="help-opt"><input type="checkbox" id="bbjHelpTrain"> Connect me with a training program</label>' +
-          '<label class="help-opt"><input type="checkbox" id="bbjHelpJobs"> Show me jobs that include training or license sponsorship</label>' +
-        '</div>' +
-      '</div>' +
-      '<hr>' +
-      '<label class="field-label">Create a Password</label>' +
-      '<input id="bbjPassword" type="password" placeholder="Min. 8 characters" autocomplete="new-password">' +
-      '<button class="submit-btn" id="bbjStep2Btn">Create Account &amp; View Jobs</button>' +
-      '<p class="tcpa">Free forever. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>' +
-    '</div>' +
-    '</div></div>';
+  var div = document.createElement('div');
+  div.innerHTML = '<style>' + css + '</style>';
+  document.head.appendChild(div.firstChild);
+
+  var card = document.createElement('div');
+  card.id = 'bbjRegOvr';
+  card.onclick = function(e){ if(e.target===this) bbjRegClose(); };
+  card.innerHTML = [
+    '<div id="bbjRegCard">',
+    '<button id="bbjRegX" onclick="bbjRegClose()">&#x2715;</button>',
+    '<div class="step-bar">',
+      '<div class="step-dot active" id="bbjDot1"></div>',
+      '<div class="step-dot" id="bbjDot2"></div>',
+    '</div>',
+    '<div id="bbjStep1">',
+      '<h2 class="auth-title">Get Job Alerts</h2>',
+      '<p class="auth-sub">Free. No resume required. Get notified the moment new openings post.</p>',
+      '<div id="bbjErr1" class="err-msg"></div>',
+      '<label class="field-label">First Name</label>',
+      '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">',
+      '<label class="field-label">Email</label>',
+      '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
+      '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
+      '<div class="chip-grid">',
+        '<div class="chip" data-role="all" id="bbjChipAll">All Types</div>',
+        '<div class="chip" data-role="unarmed">Unarmed</div>',
+        '<div class="chip" data-role="armed">Armed</div>',
+        '<div class="chip" data-role="overnight">Overnight</div>',
+        '<div class="chip" data-role="event">Event</div>',
+      '</div>',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Receive SMS alerts for new jobs?</label>',
+      '<div class="toggle-row" style="margin-top:6px;">',
+        '<div class="toggle-btn" id="bbjSmsYes">Yes</div>',
+        '<div class="toggle-btn" id="bbjSmsNo">No thanks</div>',
+      '</div>',
+      '<div class="reveal-block" id="bbjPhoneBlock">',
+        '<label class="field-label">Mobile Number</label>',
+        '<input id="bbjPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">',
+      '</div>',
+      '<button class="submit-btn" id="bbjStep1Btn">Get Job Alerts</button>',
+      '<p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
+      '<p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>',
+    '</div>',
+    '<div id="bbjLoader"><div id="bbjLoaderSpinner"></div><div id="bbjLoaderTxt">One moment...</div></div>',
+    '<div id="bbjSuccess" style="display:none;">',
+      '<div class="success-wrap">',
+        '<div class="success-title">You\'re on the list!</div>',
+        '<p class="success-sub">We\'ll notify you the moment new security jobs post in your area.</p>',
+        '<button class="submit-btn" id="bbjShowStep2Btn" style="margin-bottom:14px;">Browse All Jobs &#x2192;</button>',
+        '<a class="signin-link" href="/job-board" style="display:block;margin-top:8px;">Skip &#x2014; Browse jobs now</a>',
+      '</div>',
+    '</div>',
+    '<div id="bbjStep2" style="display:none;">',
+      '<h2 class="auth-title" style="font-size:1.6rem;">Complete Your Profile</h2>',
+      '<p class="auth-sub">Register for BlackBarJobs &#x2014; get access to more jobs. Free to sign up. No resume required.</p>',
+      '<div id="bbjErr2" class="err-msg"></div>',
+      '<div class="field-row">',
+        '<div><label class="field-label">City</label><input id="bbjCity" type="text" placeholder="Dallas" autocomplete="address-level2"></div>',
+        '<div><label class="field-label">State</label><input id="bbjState" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2"></div>',
+      '</div>',
+      '<span class="section-label">Texas Security License</span>',
+      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>',
+      '<div class="toggle-row">',
+        '<div class="toggle-btn" id="bbjLicYes">Yes, I\'m licensed</div>',
+        '<div class="toggle-btn" id="bbjLicNo">Not yet</div>',
+      '</div>',
+      '<div class="reveal-block" id="bbjLicLevelBlock">',
+        '<label class="field-label">License Level</label>',
+        '<select id="bbjLicLevel"><option value="">Select level</option><option value="level2">Level 2 &#x2014; Non-Commissioned (Unarmed)</option><option value="level3">Level 3 &#x2014; Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>',
+      '</div>',
+      '<div class="reveal-block" id="bbjLicHelpBlock">',
+        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Would you like help finding a training facility in your area?</label>',
+        '<div class="toggle-row">',
+          '<div class="toggle-btn" id="bbjHelpY">Yes</div>',
+          '<div class="toggle-btn" id="bbjHelpN">No</div>',
+        '</div>',
+      '</div>',
+      '<hr>',
+      '<label class="field-label">Create a Password</label>',
+      '<input id="bbjPassword" type="password" placeholder="Min. 8 characters" autocomplete="new-password">',
+      '<button class="submit-btn" id="bbjStep2Btn">Create Account &amp; View Jobs</button>',
+      '<p class="tcpa">Free forever. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
+    '</div>',
+    '</div>'
+  ].join('');
+  document.body.appendChild(card);
+
 
   // ── INJECT ───────────────────────────────────────────────────
   var div = document.createElement('div');
@@ -214,6 +219,11 @@
     document.getElementById('bbjLicHelpBlock').classList.toggle('visible', val === 'no');
   };
 
+  window.bbjSetHelp = function(val) {
+    document.getElementById('bbjHelpY').classList.toggle('selected', val==='yes');
+    document.getElementById('bbjHelpN').classList.toggle('selected', val==='no');
+  };
+
   window.bbjShowStep2 = function() {
     document.getElementById('bbjSuccess').style.display = 'none';
     document.getElementById('bbjStep2').style.display   = 'block';
@@ -222,6 +232,20 @@
 
   // ── INIT LISTENERS ───────────────────────────────────────────
   document.addEventListener('DOMContentLoaded', function() {
+
+    // Wire SMS toggles
+    document.getElementById('bbjSmsYes').addEventListener('click', function(){ bbjSetSms('yes'); });
+    document.getElementById('bbjSmsNo').addEventListener('click', function(){ bbjSetSms('no'); });
+    // Wire License toggles
+    document.getElementById('bbjLicYes').addEventListener('click', function(){ bbjSetLic('yes'); });
+    document.getElementById('bbjLicNo').addEventListener('click', function(){ bbjSetLic('no'); });
+    // Wire Help toggles
+    document.getElementById('bbjHelpY').addEventListener('click', function(){ bbjSetHelp('yes'); });
+    document.getElementById('bbjHelpN').addEventListener('click', function(){ bbjSetHelp('no'); });
+    // Wire success Browse button
+    document.getElementById('bbjShowStep2Btn').addEventListener('click', function(){ bbjShowStep2(); });
+    // Wire X button
+    document.getElementById('bbjRegX').addEventListener('click', function(){ bbjRegClose(); });
 
     // Chips
     var chipAll = document.getElementById('bbjChipAll');
@@ -246,7 +270,7 @@
     if (btn1) btn1.addEventListener('click', async function() {
       var name  = document.getElementById('bbjFirstName').value.trim();
       var email = document.getElementById('bbjEmail').value.trim();
-      var phone = document.getElementById('bbjPhone').value.trim();
+      var phoneEl = document.getElementById('bbjPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
       var errEl = document.getElementById('bbjErr1');
       errEl.style.display = 'none';
 
@@ -284,7 +308,9 @@
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ type: 'candidate', first_name: name, email: email,
             phone: phone.replace(/\D/g,''), sms_consent: _sms === 'yes', roles: roles,
-            source: 'overlay_step1', ts: new Date().toISOString() })
+            source: 'overlay_step1', ts: new Date().toISOString(),
+            consent: true, consent_timestamp: new Date().toISOString(),
+            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href })
         });
       } catch(e) {}
 
@@ -325,7 +351,7 @@
             data: { first_name: _step1Data.first_name, phone: _step1Data.phone,
               city: city, state: state, roles: _step1Data.roles,
               sms_notifications: _step1Data.sms_opt, license_status: _lic,
-              license_level: licLevel, help_training: helpTrain, help_jobs: helpJobs, step: 2 }
+              license_level: licLevel, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 2 }
           });
           if (upd.error) {
             errEl.textContent = upd.error.message;
@@ -342,7 +368,9 @@
           body: JSON.stringify({ type: 'candidate_profile', first_name: _step1Data.first_name,
             email: _step1Data.email, phone: _step1Data.phone, city: city, state: state,
             license_status: _lic, license_level: licLevel, help_training: helpTrain,
-            help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString() })
+            help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString(),
+            consent: true, consent_timestamp: new Date().toISOString(),
+            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href })
         });
       } catch(e) {}
 
@@ -409,72 +437,71 @@
     '@keyframes bbjAccSpin{to{transform:rotate(360deg);}}'
   ].join('');
 
-  var accHtml = '<style>' + accCss + '</style>' +
-    '<div id="bbjAccOvr" onclick="if(event.target===this)bbjAccClose()">' +
-    '<div id="bbjAccCard">' +
-    '<button id="bbjAccX" onclick="bbjAccClose()">✕</button>' +
+  // Inject access CSS
+  var accStyle = document.createElement('style');
+  accStyle.textContent = accCss;
+  document.head.appendChild(accStyle);
 
-    '<div id="bbjAccForm">' +
-    '<h2 class="acc-title">Get Access to Jobs</h2>' +
-    '<p class="acc-sub" id="bbjAccSub">Free. No resume required.</p>' +
-    '<div class="acc-err" id="bbjAccErr"></div>' +
+  var accCard = document.createElement('div');
+  accCard.id = 'bbjAccOvr';
+  accCard.onclick = function(e){ if(e.target===this) bbjAccClose(); };
+  accCard.innerHTML = [
+    '<div id="bbjAccCard">',
+    '<button id="bbjAccX">&#x2715;</button>',
+    '<div id="bbjAccForm">',
+      '<h2 class="acc-title">Get Access to Jobs</h2>',
+      '<p class="acc-sub" id="bbjAccSub">Free. No resume required.</p>',
+      '<div class="acc-err" id="bbjAccErr"></div>',
+      '<label class="acc-label">First Name</label>',
+      '<input id="bbjAccName" type="text" placeholder="First name" autocomplete="given-name">',
+      '<label class="acc-label">Email</label>',
+      '<input id="bbjAccEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
+      '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
+      '<div class="acc-chips">',
+        '<div class="acc-chip selected" data-role="all" id="bbjAccChipAll">All Types</div>',
+        '<div class="acc-chip" data-role="unarmed">Unarmed</div>',
+        '<div class="acc-chip" data-role="armed">Armed</div>',
+        '<div class="acc-chip" data-role="overnight">Overnight</div>',
+        '<div class="acc-chip" data-role="event">Event</div>',
+      '</div>',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Receive SMS alerts for new jobs?</label>',
+      '<div class="acc-toggles" style="margin-top:6px;">',
+        '<div class="acc-toggle" id="bbjAccSmsY">Yes</div>',
+        '<div class="acc-toggle" id="bbjAccSmsN">No thanks</div>',
+      '</div>',
+      '<div class="acc-reveal" id="bbjAccPhoneWrap">',
+        '<label class="acc-label">Mobile Number</label>',
+        '<input id="bbjAccPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">',
+      '</div>',
+      '<hr>',
+      '<span class="acc-section-label">Texas Security License</span>',
+      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>',
+      '<div class="acc-toggles">',
+        '<div class="acc-toggle" id="bbjAccLicY">Yes, I\'m licensed</div>',
+        '<div class="acc-toggle" id="bbjAccLicN">Not yet</div>',
+      '</div>',
+      '<div class="acc-reveal" id="bbjAccLicLevel">',
+        '<label class="acc-label">License Level</label>',
+        '<select id="bbjAccLicSel"><option value="">Select level</option><option value="level2">Level 2 &#x2014; Non-Commissioned (Unarmed)</option><option value="level3">Level 3 &#x2014; Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>',
+      '</div>',
+      '<div class="acc-reveal" id="bbjAccLicHelp">',
+        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Would you like help finding a training facility in your area?</label>',
+        '<div class="acc-toggles">',
+          '<div class="acc-toggle" id="bbjAccHelpY">Yes</div>',
+          '<div class="acc-toggle" id="bbjAccHelpN">No</div>',
+        '</div>',
+      '</div>',
+      '<button class="acc-btn" id="bbjAccSubmitBtn">Get Access &#x2192;</button>',
+      '<p class="acc-tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
+      '<p class="acc-signin">Already have an account? <a href="/login.html">Sign in</a></p>',
+    '</div>',
+    '<div id="bbjAccLoader"><div id="bbjAccSpinner"></div><div id="bbjAccLoaderTxt">Creating your account...</div></div>',
+    '</div>'
+  ].join('');
+  document.body.appendChild(accCard);
 
-    '<label class="acc-label">First Name</label>' +
-    '<input id="bbjAccName" type="text" placeholder="First name" autocomplete="given-name">' +
 
-    '<label class="acc-label">Email</label>' +
-    '<input id="bbjAccEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">' +
-
-    '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>' +
-    '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>' +
-    '<div class="acc-chips">' +
-      '<div class="acc-chip selected" data-role="all" id="bbjAccChipAll">All Types</div>' +
-      '<div class="acc-chip" data-role="unarmed">Unarmed</div>' +
-      '<div class="acc-chip" data-role="armed">Armed</div>' +
-      '<div class="acc-chip" data-role="overnight">Overnight</div>' +
-      '<div class="acc-chip" data-role="event">Event</div>' +
-    '</div>' +
-
-    '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Receive SMS alerts for new jobs?</label>' +
-    '<div class="acc-toggles" style="margin-top:6px;">' +
-      '<div class="acc-toggle" id="bbjAccSmsY" onclick="bbjAccSetSms(\'yes\')">Yes</div>' +
-      '<div class="acc-toggle" id="bbjAccSmsN" onclick="bbjAccSetSms(\'no\')">No thanks</div>' +
-    '</div>' +
-    '<div class="acc-reveal" id="bbjAccPhoneWrap">' +
-      '<label class="acc-label">Mobile Number</label>' +
-      '<input id="bbjAccPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">' +
-    '</div>' +
-
-    '<hr>' +
-    '<span class="acc-section-label">Texas Security License</span>' +
-    '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>' +
-    '<div class="acc-toggles">' +
-      '<div class="acc-toggle" id="bbjAccLicY" onclick="bbjAccSetLic(\'yes\')">Yes, I\'m licensed</div>' +
-      '<div class="acc-toggle" id="bbjAccLicN" onclick="bbjAccSetLic(\'no\')">Not yet</div>' +
-    '</div>' +
-    '<div class="acc-reveal" id="bbjAccLicLevel">' +
-      '<label class="acc-label">License Level</label>' +
-      '<select id="bbjAccLicSel"><option value="">Select level</option><option value="level2">Level 2 \u2014 Non-Commissioned (Unarmed)</option><option value="level3">Level 3 \u2014 Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>' +
-    '</div>' +
-    '<div class="acc-reveal-pad" id="bbjAccLicHelp">' +
-      '<p>No problem \u2014 you can still apply to many positions while pursuing your license.</p>' +
-      '<div class="acc-help-opts">' +
-        '<label class="acc-help-opt"><input type="checkbox" id="bbjAccHelpTrain"> Connect me with a training program</label>' +
-        '<label class="acc-help-opt"><input type="checkbox" id="bbjAccHelpJobs"> Show me jobs that include training or license sponsorship</label>' +
-      '</div>' +
-    '</div>' +
-
-    '<button class="acc-btn" id="bbjAccSubmitBtn" onclick="bbjAccSubmit()">Get Access \u2192</button>' +
-    '<p class="acc-tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>' +
-    '<p class="acc-signin">Already have an account? <a href="/login.html">Sign in</a></p>' +
-    '</div>' +
-
-    '<div id="bbjAccLoader"><div id="bbjAccSpinner"></div><div id="bbjAccLoaderTxt">Creating your account...</div></div>' +
-    '</div></div>';
-
-  var div2 = document.createElement('div');
-  div2.innerHTML = accHtml;
-  document.body.appendChild(div2);
 
   // State
   var _accSms = '', _accLic = '';
@@ -521,8 +548,23 @@
     document.getElementById('bbjAccLicHelp').classList.toggle('visible', val==='no');
   };
 
-  // Chip logic
+  window.bbjAccSetHelp = function(val) {
+    document.getElementById('bbjAccHelpY').classList.toggle('selected', val==='yes');
+    document.getElementById('bbjAccHelpN').classList.toggle('selected', val==='no');
+  };
+
+  // Wire access toggles + chips
   document.addEventListener('DOMContentLoaded', function() {
+    // Toggles
+    document.getElementById('bbjAccSmsY').addEventListener('click', function(){ bbjAccSetSms('yes'); });
+    document.getElementById('bbjAccSmsN').addEventListener('click', function(){ bbjAccSetSms('no'); });
+    document.getElementById('bbjAccLicY').addEventListener('click', function(){ bbjAccSetLic('yes'); });
+    document.getElementById('bbjAccLicN').addEventListener('click', function(){ bbjAccSetLic('no'); });
+    document.getElementById('bbjAccHelpY').addEventListener('click', function(){ bbjAccSetHelp('yes'); });
+    document.getElementById('bbjAccHelpN').addEventListener('click', function(){ bbjAccSetHelp('no'); });
+    document.getElementById('bbjAccX').addEventListener('click', function(){ bbjAccClose(); });
+    document.getElementById('bbjAccSubmitBtn').addEventListener('click', function(){ bbjAccSubmit(); });
+
     var ca = document.getElementById('bbjAccChipAll');
     if(ca) {
       ca.addEventListener('click', function(){
@@ -545,7 +587,7 @@
   window.bbjAccSubmit = function() {
     var name  = document.getElementById('bbjAccName').value.trim();
     var email = document.getElementById('bbjAccEmail').value.trim();
-    var phone = document.getElementById('bbjAccPhone').value.trim();
+    var phoneEl = document.getElementById('bbjAccPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
     var errEl = document.getElementById('bbjAccErr');
     errEl.style.display = 'none';
 
@@ -557,8 +599,8 @@
 
     var roles = Array.from(document.querySelectorAll('#bbjAccCard .acc-chip.selected')).map(function(c){return c.dataset.role;}).join(',');
     var licLevel   = (document.getElementById('bbjAccLicSel')||{}).value||'';
-    var helpTrain  = (document.getElementById('bbjAccHelpTrain')||{}).checked||false;
-    var helpJobs   = (document.getElementById('bbjAccHelpJobs')||{}).checked||false;
+    var helpTrain  = document.getElementById('bbjAccHelpY') && document.getElementById('bbjAccHelpY').classList.contains('selected');
+    var helpJobs   = false;
 
     // GTM
     window.dataLayer = window.dataLayer||[];
@@ -575,7 +617,7 @@
           email: email, password: tempPass,
           options: { data: { first_name: name, phone: phone.replace(/\D/g,''), roles: roles,
             sms_notifications: _accSms==='yes', license_status: _accLic,
-            license_level: licLevel, help_training: helpTrain, help_jobs: helpJobs, step: 1 } }
+            license_level: licLevel, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 1 } }
         });
       }
     } catch(e) {}
@@ -588,7 +630,9 @@
         license_status:_accLic, license_level:licLevel,
         help_training:helpTrain, help_jobs:helpJobs,
         source:window.location.href, trigger:'browse_jobs_overlay',
-        ts:new Date().toISOString(), consent:true })
+        ts:new Date().toISOString(), consent:true,
+        consent_timestamp:new Date().toISOString(),
+        consent_text:'By submitting you agree to receive job alerts by email and SMS if opted in.' })
     });
 
     document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
