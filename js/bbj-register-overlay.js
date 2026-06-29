@@ -167,6 +167,12 @@
   div.innerHTML = html;
   document.body.appendChild(div);
 
+  // ── SUPABASE CLIENT ──────────────────────────────────────────
+  var _sbClient = null;
+  if (typeof window.supabase !== 'undefined' && typeof SUPABASE_URL !== 'undefined') {
+    try { _sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); } catch(e) {}
+  }
+
   // ── STATE ────────────────────────────────────────────────────
   var _sms = '', _lic = '';
   var _step1Data = {};
@@ -272,8 +278,8 @@
       });
 
       // Supabase OTP
-      if (typeof sbClient !== 'undefined') {
-        try { await sbClient.auth.signInWithOtp({ email: email, options: { data: { first_name: name, roles: roles } } }); } catch(e) {}
+      if (typeof _sbClient !== 'undefined' && _sbClient !== null) {
+        try { await _sbClient.auth.signInWithOtp({ email: email, options: { data: { first_name: name, roles: roles } } }); } catch(e) {}
       }
 
       document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
@@ -320,9 +326,9 @@
         }))
       });
 
-      if (typeof sbClient !== 'undefined') {
+      if (typeof _sbClient !== 'undefined' && _sbClient !== null) {
         try {
-          await sbClient.auth.signUp({
+          await _sbClient.auth.signUp({
             email: _step1Data.email, password: password,
             options: { data: { first_name: _step1Data.first_name, city: city, state: state, roles: _step1Data.roles, license_status: _lic, license_level: licLevel } }
           });
