@@ -863,11 +863,11 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     if(typeof bbjIsRegistered==='function'&&bbjIsRegistered()){window.open(url,'_blank');return;}
     if(document.cookie.indexOf('bbj_registered=1')!==-1){window.open(url,'_blank');return;}
     var views=parseInt((document.cookie.match(/bbj_views=(\d+)/)||[0,0])[1],10);
-    if(views<1){
+    if(views<2){
       views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';
       window.open(url,'_blank');return;
     }
-    if(typeof bbjOpenGate==='function'){bbjOpenGate(null,url);}
+    window.location.href='/register-access.html?return=/job-board?city=dallas&role=unarmed';
     else{window.open(url,'_blank');}
   };
 })();

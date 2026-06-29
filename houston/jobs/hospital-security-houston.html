@@ -1728,20 +1728,6 @@ function submitAlert(){
 
 
 // INDEX JOB FEED
-var indexPendingApplyUrl = '';
-var indexSessionUnlocked = false;
-if (document.cookie.indexOf('bbj_registered=1') !== -1) { indexSessionUnlocked = true; }
-
-
-function handleIndexApply(encodedUrl) {
-  indexPendingApplyUrl = decodeURIComponent(encodedUrl);
-  if (indexSessionUnlocked) {
-    window.open(indexPendingApplyUrl, '_blank');
-  } else {
-    
-  }
-}
-
 function closeIndexModal() {
   
 }
@@ -1767,7 +1753,6 @@ function submitIndexReg() {
     method: 'POST', headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({ timestamp: new Date().toISOString(), name: name, email: email, phone: phone.replace(/\D/g,''), sms_consent: smsOpt, role: 'general', city: 'houston', source: window.location.href, consent: true })
   });
-  indexSessionUnlocked = true;
   document.cookie = 'bbj_registered=1; max-age=2592000; path=/';
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event:'job_apply_click', role:'general', page_url:window.location.href});
@@ -2062,7 +2047,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     if(document.cookie.indexOf('bbj_registered=1')!==-1){window.open(url,'_blank');return;}
     var views=parseInt((document.cookie.match(/bbj_views=(\d+)/)||[0,0])[1],10);
     if(views<2){views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';window.open(url,'_blank');return;}
-    if(typeof bbjOpenGate==='function'){bbjOpenGate(null,url);}
+    window.location.href='/register-access.html?return=/job-board?city=houston&role=unarmed';
     else{window.open(url,'_blank');}
   };
 })();
