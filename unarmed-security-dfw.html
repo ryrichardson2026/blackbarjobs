@@ -1394,7 +1394,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     <div class="alert-field"><span class="alert-field-icon">📱</span><input id="a-ph" type="tel" inputmode="tel" placeholder="Mobile Number"></div>
     <div class="alert-field"><span class="alert-field-icon">✉️</span><input id="a-em" type="email" inputmode="email" placeholder="Email Address (optional)"></div>
     <div id="alertError"></div>
-    <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+    <a href="#" onclick="openModal();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
     <div class="alert-trust">
       <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"/></svg>
       No spam. Unsubscribe anytime.
@@ -1494,7 +1494,7 @@ function submitAlert(){
           </div>
         </div>
         <div id="contactError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
-        <a href="/register.html" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
+        <a href="#" onclick="openModal();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
         <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:12px;text-align:center;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
       </div>
 
@@ -1910,7 +1910,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
   function render(jobs){
     var c=document.getElementById('jobRows');if(!c)return;
     if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
-    c.innerHTML=jobs.map(function(j){
+    _bbjTotalJobs=jobs.length;c.innerHTML=jobs.map(function(j){
       var url=encodeURIComponent(j.apply_link||'');
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
         +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
@@ -1940,5 +1940,123 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+
+<!-- BBJ ACCESS MODAL -->
+<div id="bbjAccessOverlay" style="display:none;position:fixed;inset:0;z-index:3000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;" onclick="if(event.target===this)bbjCloseAccess()">
+  <div id="bbjAccessSheet" style="background:#fff;width:100%;max-width:440px;border-radius:22px 22px 0 0;padding:30px 22px 36px;position:relative;max-height:92dvh;overflow-y:auto;transform:translateY(0);transition:transform 0.28s ease,opacity 0.28s ease;">
+    <button onclick="bbjCloseAccess()" style="position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:#f4f5f7;border:none;cursor:pointer;font-size:1.1rem;color:#5a6474;display:flex;align-items:center;justify-content:center;">✕</button>
+    <div id="bbjAccessStep1">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.75rem;font-weight:800;color:#000814;line-height:1.05;margin-bottom:8px;">Want to see more jobs?</div>
+      <div id="bbjAccessCount" style="font-size:0.82rem;color:#5a6474;margin-bottom:18px;"></div>
+      <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:14px;">
+        <div style="display:flex;align-items:center;gap:10px;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:10px;padding:11px 14px;">
+          <span style="font-size:1.1rem;flex-shrink:0;">📍</span>
+          <input id="bbjAcc-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" style="border:none;background:transparent;font-size:0.95rem;width:100%;outline:none;font-family:'Barlow',sans-serif;">
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:10px;padding:11px 14px;">
+          <span style="font-size:1.1rem;flex-shrink:0;">📱</span>
+          <input id="bbjAcc-phone" type="tel" inputmode="tel" placeholder="Mobile Number" style="border:none;background:transparent;font-size:0.95rem;width:100%;outline:none;font-family:'Barlow',sans-serif;">
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:10px;padding:11px 14px;">
+          <span style="font-size:1.1rem;flex-shrink:0;">✉️</span>
+          <input id="bbjAcc-email" type="email" inputmode="email" placeholder="Email (optional)" style="border:none;background:transparent;font-size:0.95rem;width:100%;outline:none;font-family:'Barlow',sans-serif;">
+        </div>
+      </div>
+      <div id="bbjAccError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
+      <button onclick="bbjSubmitAccess()" style="width:100%;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border:none;border-radius:10px;padding:14px;cursor:pointer;">Get Access →</button>
+      <p style="font-size:0.68rem;color:#9ca3af;line-height:1.5;margin-top:12px;text-align:center;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
+    </div>
+    <div id="bbjAccessStep2" style="display:none;text-align:center;padding:12px 0;">
+      <div style="font-size:2.5rem;margin-bottom:12px;">✅</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#000814;margin-bottom:6px;">You're In</div>
+      <p style="font-size:0.88rem;color:#5a6474;margin-bottom:20px;">Taking you to the DFW job board now.</p>
+      <button onclick="bbjCloseAccess()" style="background:#f4f5f7;border:none;border-radius:10px;padding:12px 24px;font-family:'Barlow',sans-serif;font-size:0.9rem;cursor:pointer;">Done</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var _bbjAccPendingUrl = '';
+var _bbjTotalJobs = 0;
+
+function bbjOpenAccess(pendingUrl) {
+  _bbjAccPendingUrl = pendingUrl || '';
+  // Update job count display
+  var countEl = document.getElementById('bbjAccessCount');
+  if (countEl && _bbjTotalJobs > 0) {
+    countEl.textContent = 'Currently ' + _bbjTotalJobs + ' active jobs';
+  } else if (countEl) {
+    countEl.textContent = 'Hundreds of active jobs';
+  }
+  document.getElementById('bbjAccessStep1').style.display = 'block';
+  document.getElementById('bbjAccessStep2').style.display = 'none';
+  document.getElementById('bbjAccError').style.display = 'none';
+  var overlay = document.getElementById('bbjAccessOverlay');
+  overlay.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  setTimeout(function(){ document.getElementById('bbjAcc-zip').focus(); }, 350);
+}
+
+function bbjCloseAccess() {
+  document.getElementById('bbjAccessOverlay').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function bbjSubmitAccess() {
+  var zip   = document.getElementById('bbjAcc-zip').value.trim();
+  var phone = document.getElementById('bbjAcc-phone').value.trim();
+  var email = document.getElementById('bbjAcc-email').value.trim();
+  var errEl = document.getElementById('bbjAccError');
+  errEl.style.display = 'none';
+
+  if (!zip || zip.length < 5) {
+    errEl.textContent = 'Please enter your ZIP code.';
+    errEl.style.display = 'block';
+    document.getElementById('bbjAcc-zip').focus();
+    return;
+  }
+  if (!phone && !email) {
+    errEl.textContent = 'Please enter a phone number or email.';
+    errEl.style.display = 'block';
+    document.getElementById('bbjAcc-phone').focus();
+    return;
+  }
+
+  var pc = phone.replace(/\D/g,'');
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({event:'bbj_access_signup', zip:zip});
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
+  }
+
+  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      timestamp: new Date().toISOString(),
+      zip: zip,
+      phone: pc,
+      email: email,
+      source: window.location.href,
+      trigger: 'job_access_gate',
+      consent: true,
+      consent_timestamp: new Date().toISOString(),
+      consent_text: 'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
+    })
+  });
+
+  document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
+
+  document.getElementById('bbjAccessStep1').style.display = 'none';
+  document.getElementById('bbjAccessStep2').style.display = 'block';
+
+  // Redirect to filtered job board after short delay
+  setTimeout(function() {
+    window.location.href = '/job-board?city=dallas&role=unarmed';
+  }, 1200);
+}
+</script>
+
 </body>
 </html>
