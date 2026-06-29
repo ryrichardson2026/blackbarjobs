@@ -1925,7 +1925,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
     _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
   };
   var PUB='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
-  var GIDS=['908030','0','860426680','2118776757','344919398'],role='unarmed-dfw';
+  var GIDS=['775012600','983975652'],role='unarmed-austin';
   Promise.all(GIDS.map(function(g){return fetch(PUB+'?single=true&output=csv&gid='+g,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){return t?parseCSV(t):[]}).catch(function(){return[];});})). then(function(arrs){
     var seen={},all=[];arrs.forEach(function(a){a.forEach(function(j){var k=(j.apply_link||j.title+j.company).toLowerCase();if(!seen[k]){seen[k]=1;all.push(j);}});});
     var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
