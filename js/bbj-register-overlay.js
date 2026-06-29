@@ -113,6 +113,14 @@
       </div>
     </div>
 
+
+    <!-- LOADER -->
+    <div id="bbjLoader" style="display:none;text-align:center;padding:60px 20px;">
+      <div style="width:44px;height:44px;border:3px solid #e2e5ea;border-top-color:#FFC300;border-radius:50%;animation:bbjSpin 0.8s linear infinite;margin:0 auto 16px;"></div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.2rem;font-weight:800;color:#000814;" id="bbjLoaderTxt">One moment...</div>
+    </div>
+    <style>@keyframes bbjSpin{to{transform:rotate(360deg);}}</style>
+
     <!-- STEP 2 -->
     <div id="bbjStep2" style="display:none;">
       <h2 class="auth-title" style="font-size:1.6rem;">Complete Your Profile</h2>
@@ -270,8 +278,13 @@
 
       document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
       document.getElementById('bbjStep1').style.display = 'none';
-      document.getElementById('bbjSuccess').style.display = 'block';
-      bbjSetDots(2);
+      document.getElementById('bbjLoaderTxt').textContent = 'One moment...';
+      document.getElementById('bbjLoader').style.display = 'block';
+      setTimeout(function() {
+        document.getElementById('bbjLoader').style.display = 'none';
+        document.getElementById('bbjSuccess').style.display = 'block';
+        bbjSetDots(2);
+      }, 1500);
     });
 
     // ── STEP 2 SUBMIT ─────────────────────────────────────────
@@ -316,8 +329,13 @@
         } catch(e) {}
       }
 
-      bbjRegClose();
-      window.location.href = '/job-board';
+      document.getElementById('bbjStep2').style.display = 'none';
+      document.getElementById('bbjLoaderTxt').textContent = 'Creating your account...';
+      document.getElementById('bbjLoader').style.display = 'block';
+      setTimeout(function() {
+        bbjRegClose();
+        window.location.href = '/job-board';
+      }, 2000);
     });
   });
 
