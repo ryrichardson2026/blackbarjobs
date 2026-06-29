@@ -148,11 +148,6 @@
   document.body.appendChild(card);
 
 
-  // ── INJECT ───────────────────────────────────────────────────
-  var div = document.createElement('div');
-  div.innerHTML = html;
-  document.body.appendChild(div);
-
   // ── STATE ────────────────────────────────────────────────────
   var _sms = '', _lic = '', _step1Data = {};
 
