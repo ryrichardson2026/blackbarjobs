@@ -17,7 +17,21 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="Event security jobs in Austin. BEST at Moody Center 150+ events/yr, Andy Frain Austin FC Q2 Stadium, SXSW avg $24.20/hr, ACL Fest, Formula 1 COTA.">
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+function openModal() {
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    var ce = document.getElementById('contactError');
+    if(ce) ce.style.display = 'none';
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function(){
+      var z = document.getElementById('f-zip');
+      if(z) z.focus();
+    }, 400);
+  }
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -1557,19 +1571,7 @@ function submitAlert(){
   </div>
 <script>
 
-  function openModal() {
-    document.getElementById('step1').classList.add('active');
-    document.getElementById('step5').classList.remove('active');
-    var ce = document.getElementById('contactError');
-    if(ce) ce.style.display = 'none';
-    document.getElementById('modalOverlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-    setTimeout(function(){
-      var z = document.getElementById('f-zip');
-      if(z) z.focus();
-    }, 400);
-  }
-
+  
   function closeModal() {
     var sheet = document.getElementById('modalSheet');
     var isMobile = window.innerWidth < 640;
@@ -1658,13 +1660,7 @@ function submitAlert(){
 
 
 // INDEX JOB FEED
-if (document.cookie.indexOf('bbj_registered=1') !== -1) { }
 
-
-else {
-    
-  }
-}
 
 </script>
 

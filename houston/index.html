@@ -41,6 +41,16 @@ window.addEventListener("load", function(){
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17039190320"></script>
 <script>
+function openModal() {
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    document.getElementById('contactError').style.display = 'none';
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function(){ document.getElementById('f-zip').focus(); }, 400);
+  }
+
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -1456,15 +1466,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <script>
-  function openModal() {
-    document.getElementById('step1').classList.add('active');
-    document.getElementById('step5').classList.remove('active');
-    document.getElementById('contactError').style.display = 'none';
-    document.getElementById('modalOverlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-    setTimeout(function(){ document.getElementById('f-zip').focus(); }, 400);
-  }
-
+  
   function closeModal() {
     var sheet = document.getElementById('modalSheet');
     var isMobile = window.innerWidth < 640;
