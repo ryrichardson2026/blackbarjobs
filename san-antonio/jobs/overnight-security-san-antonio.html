@@ -1561,7 +1561,16 @@ function submitAlert(){
   </div>
 <script>
 
-  , 400);
+  function openModal() {
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    document.getElementById('contactError') && (document.getElementById('contactError').style.display = 'none');
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function(){ 
+      var z = document.getElementById('f-zip');
+      if(z) z.focus();
+    }, 400);
   }
 
   function closeModal() {
@@ -1940,41 +1949,7 @@ document.addEventListener('click',function(e){var el=document.getElementById('bb
 document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
 
 </script>
-<script>
-(function(){
-  var FREE=1,sess=0;
-  function parseCSV(t){var rows=[],cur=[''],f=0,q=false,i,c;for(i=0;i<t.length;i++){c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){cur[f]+='"';i++;}else q=false;}else cur[f]+=c;}else{if(c==='"')q=true;else if(c===','){f++;cur[f]='';}else if(c==='
-'){rows.push(cur);cur=[''];f=0;}else if(c!=='
-')cur[f]+=c;}}if(cur.length>1||cur[0])rows.push(cur);if(!rows.length)return[];var h=rows[0].map(function(x){return x.trim();});return rows.slice(1).map(function(r){var o={};h.forEach(function(k,i){o[k]=(r[i]||'').trim();});return o;}).filter(function(o){return o.title;});}
-  function render(jobs){
-    var c=document.getElementById('indexJobFeed');if(!c)return;
-    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
-    c.innerHTML=jobs.map(function(j){
-      var url=encodeURIComponent(j.apply_link||'');
-      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHubApply(decodeURIComponent(this.dataset.url))" data-url="'+url+'">'
-        +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
-        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &nbsp;&middot;&nbsp; '+j.location:'')+(j.pay?' &nbsp;&middot;&nbsp; '+j.pay:'')+'</div></div>'
-        +'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:Barlow Condensed,sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;flex-shrink:0;cursor:pointer;">View</span>'
-        +'</div>';
-    }).join('');
-  }
-  window.bbjHubApply=function(url){
-    if(!url)return;
-    if(bbjIsRegistered()){window.open(url,'_blank');return;}
-    sess++;
-    if(sess<=FREE){window.open(url,'_blank');return;}
-    _bbjGateApplyUrl=url;_bbjGateDest=null;bbjOpenGate(null,window.location.href);
-  };
-  var PUB='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
-  var GIDS=['1294311845','1157420661'],role='overnight-sa';
-  Promise.all(GIDS.map(function(g){return fetch(PUB+'?single=true&output=csv&gid='+g,{mode:'cors'}).then(function(r){return r.ok?r.text():''}).then(function(t){return t?parseCSV(t):[]}).catch(function(){return[];});})). then(function(arrs){
-    var seen={},all=[];arrs.forEach(function(a){a.forEach(function(j){var k=(j.apply_link||j.title+j.company).toLowerCase();if(!seen[k]){seen[k]=1;all.push(j);}});});
-    var active=all.filter(function(j){return(j.active||'').toLowerCase()==='yes'&&j.role_category===role;});
-    active.sort(function(a,b){return(new Date(b.posted||b.date_pulled||0))-(new Date(a.posted||a.date_pulled||0));});
-    render(active.slice(0,10));
-  }).catch(function(){var c=document.getElementById('indexJobFeed');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
-})();
-</script>
+
 
 <script>
 // INDEX JOB FEED

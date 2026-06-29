@@ -585,10 +585,26 @@ window.addEventListener("load", function(){
   var pendingUrl = '';
   var pendingJob = null;
   var registered = false;
+  if (document.cookie.indexOf('bbj_registered=1') !== -1) {
+    registered = true;
+    document.addEventListener('DOMContentLoaded', function(){
+      var navCta = document.querySelector('.nav-cta');
+      if (navCta) navCta.style.display = 'none';
+      var heroBtns = document.querySelectorAll('.hero-btn.gold');
+      heroBtns.forEach(function(b){ b.style.display = 'none'; });
+    });
+  }
   var sbClient = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
   if (sbClient) {
     sbClient.auth.getSession().then(function(res){
-      if (res.data && res.data.session) registered = true;
+      if (res.data && res.data.session) {
+        registered = true;
+        // Hide Get Alerts CTAs for registered users
+        var navCta = document.querySelector('.nav-cta');
+        if (navCta) navCta.style.display = 'none';
+        var heroBtns = document.querySelectorAll('.hero-btn.gold');
+        heroBtns.forEach(function(b){ b.style.display = 'none'; });
+      }
     });
   }
   var filters = { q: '', loc: '', type: '', pay: false, role: '', posted: '', sort: 'newest' };

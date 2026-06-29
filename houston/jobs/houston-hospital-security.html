@@ -1628,7 +1628,16 @@ function submitAlert(){
 </div>
 <script>
 
-  , 400);
+  function openModal() {
+    document.getElementById('step1').classList.add('active');
+    document.getElementById('step5').classList.remove('active');
+    document.getElementById('contactError') && (document.getElementById('contactError').style.display = 'none');
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function(){ 
+      var z = document.getElementById('f-zip');
+      if(z) z.focus();
+    }, 400);
   }
 
   function closeModal() {
