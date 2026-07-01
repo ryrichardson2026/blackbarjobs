@@ -19,8 +19,8 @@ ENTRY_POINTS = ["/", "/security-jobs-dfw", "/houston", "/san-antonio", "/austin"
 HREF = re.compile(r'<a\b[^>]*\bhref\s*=\s*["\']([^"\']+)["\']', re.IGNORECASE)
 
 def file_to_url(path):
-    p = path[2:] if path.startswith("./") else path
-    p = p.replace(os.sep, "/")
+    p = path.replace(os.sep, "/")
+    if p.startswith("./"): p = p[2:]
     if p.endswith(".html"): p = p[:-5]
     if p == "index": return "/"
     if p.endswith("/index"): p = p[:-6]
