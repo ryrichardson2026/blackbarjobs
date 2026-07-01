@@ -2,6 +2,31 @@
   // BBJ Register Overlay — mirrors register.html as floating overlay
   // Supabase: Step 1 signUp with temp pass, Step 2 updateUser with real pass
 
+  // ── Attribution: capture once at landing, attach to every webhook ──
+  window.bbjAttr = window.bbjAttr || (function () {
+    function qp(n){var m=new RegExp('[?&]'+n+'=([^&#]*)').exec(location.href);return m?decodeURIComponent(m[1].replace(/\+/g,' ')):'';}
+    var KEY='bbj_attr', s=null;
+    try { s = JSON.parse(sessionStorage.getItem(KEY)||'null'); } catch(e){ s=null; }
+    if (!s) {
+      var gclid=qp('gclid'), gbraid=qp('gbraid'), wbraid=qp('wbraid');
+      s = { landing_url: location.href, landing_path: location.pathname, referrer: document.referrer || '',
+            gclid: gclid, gbraid: gbraid, wbraid: wbraid,
+            utm_source: qp('utm_source'), utm_medium: qp('utm_medium'), utm_campaign: qp('utm_campaign'),
+            utm_term: qp('utm_term'), utm_content: qp('utm_content') };
+      var ch='direct';
+      if (gclid||gbraid||wbraid) ch='google_ads';
+      else if (s.utm_medium) ch=s.utm_medium;
+      else if (document.referrer) { var h=''; try{h=new URL(document.referrer).hostname;}catch(e){}
+        if(/google\.|bing\.|yahoo\.|duckduckgo\./.test(h)) ch='organic_search';
+        else if(h && h.indexOf(location.hostname)===-1) ch='referral'; }
+      s.channel=ch;
+      try { sessionStorage.setItem(KEY, JSON.stringify(s)); } catch(e){}
+    }
+    return function (cta) {
+      return Object.assign({}, s, { page_url: location.href, page_path: location.pathname, page_title: document.title, cta: cta||'' });
+    };
+  })();
+
   // ── CSS ──────────────────────────────────────────────────────
   var css = [
     '#bbjRegOvr{display:none;position:fixed;inset:0;z-index:5000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}',
@@ -301,11 +326,11 @@
       try {
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ type: 'candidate', first_name: name, email: email,
+          body: JSON.stringify(Object.assign(bbjAttr('overlay_step1'), { type: 'candidate', first_name: name, email: email,
             phone: phone.replace(/\D/g,''), sms_consent: _sms === 'yes', roles: roles,
             source: 'overlay_step1', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
-            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href })
+            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
         });
       } catch(e) {}
 
@@ -360,12 +385,12 @@
       try {
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ type: 'candidate_profile', first_name: _step1Data.first_name,
+          body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: _step1Data.first_name,
             email: _step1Data.email, phone: _step1Data.phone, city: city, state: state,
             license_status: _lic, license_level: licLevel, help_training: helpTrain,
             help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
-            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href })
+            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
         });
       } catch(e) {}
 
@@ -620,14 +645,14 @@
     // Webhook
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
       method:'POST', headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({ type:'candidate_access', first_name:name, email:email,
+      body:JSON.stringify(Object.assign(bbjAttr('browse_jobs_overlay'), { type:'candidate_access', first_name:name, email:email,
         phone:phone.replace(/\D/g,''), roles:roles, sms_opt:_accSms,
         license_status:_accLic, license_level:licLevel,
         help_training:helpTrain, help_jobs:helpJobs,
         source:window.location.href, trigger:'browse_jobs_overlay',
         ts:new Date().toISOString(), consent:true,
         consent_timestamp:new Date().toISOString(),
-        consent_text:'By submitting you agree to receive job alerts by email and SMS if opted in.' })
+        consent_text:'By submitting you agree to receive job alerts by email and SMS if opted in.' }))
     });
 
     document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
