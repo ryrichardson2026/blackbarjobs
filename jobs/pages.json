@@ -14,7 +14,7 @@
     },
     {
       "file": "security-jobs-dfw.html",
-      "url": "/security-jobs-dfw",
+      "url": "/dallas",
       "title": "DFW Security Jobs Hub",
       "city": "DFW",
       "type": "hub",
@@ -23,7 +23,7 @@
     },
     {
       "file": "texas-security-license-requirements.html",
-      "url": "/texas-security-license-requirements",
+      "url": "/texas/texas-security-license-requirements",
       "title": "Texas Security License Requirements",
       "city": "Texas",
       "type": "resource",
@@ -41,7 +41,7 @@
     },
     {
       "file": "armed-security-dfw.html",
-      "url": "/jobs/armed-security-dfw",
+      "url": "/dallas/armed-security-dfw",
       "title": "Armed Security Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -50,7 +50,7 @@
     },
     {
       "file": "unarmed-security-dfw.html",
-      "url": "/jobs/unarmed-security-dfw",
+      "url": "/dallas/unarmed-security-dfw",
       "title": "Unarmed Security Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -59,7 +59,7 @@
     },
     {
       "file": "event-security-dfw.html",
-      "url": "/jobs/event-security-dfw",
+      "url": "/dallas/event-security-dfw",
       "title": "Event Security Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -68,7 +68,7 @@
     },
     {
       "file": "overnight-security-dfw.html",
-      "url": "/jobs/overnight-security-dfw",
+      "url": "/dallas/overnight-security-dfw",
       "title": "Overnight Security Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -77,7 +77,7 @@
     },
     {
       "file": "tsa-airport-security-dfw.html",
-      "url": "/jobs/tsa-airport-security-dfw",
+      "url": "/dallas/tsa-airport-security-dfw",
       "title": "TSA & Airport Security Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -86,7 +86,7 @@
     },
     {
       "file": "loss-prevention-dfw.html",
-      "url": "/jobs/loss-prevention-dfw",
+      "url": "/dallas/loss-prevention-dfw",
       "title": "Loss Prevention Jobs DFW",
       "city": "DFW",
       "type": "role_hub",
@@ -95,7 +95,7 @@
     },
     {
       "file": "dallas-overnight-security.html",
-      "url": "/jobs/dallas-overnight-security",
+      "url": "/dallas/dallas-overnight-security",
       "title": "Overnight Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -104,7 +104,7 @@
     },
     {
       "file": "dallas-armed-security.html",
-      "url": "/jobs/dallas-armed-security",
+      "url": "/dallas/dallas-armed-security",
       "title": "Armed Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -113,7 +113,7 @@
     },
     {
       "file": "dallas-unarmed-security.html",
-      "url": "/jobs/dallas-unarmed-security",
+      "url": "/dallas/dallas-unarmed-security",
       "title": "Unarmed Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -122,7 +122,7 @@
     },
     {
       "file": "dallas-no-experience-security-jobs.html",
-      "url": "/jobs/dallas-no-experience-security-jobs",
+      "url": "/dallas/dallas-no-experience-security-jobs",
       "title": "No Experience Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -131,7 +131,7 @@
     },
     {
       "file": "dallas-loss-prevention.html",
-      "url": "/jobs/dallas-loss-prevention",
+      "url": "/dallas/dallas-loss-prevention",
       "title": "Loss Prevention Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -140,7 +140,7 @@
     },
     {
       "file": "dallas-event-security.html",
-      "url": "/jobs/dallas-event-security",
+      "url": "/dallas/dallas-event-security",
       "title": "Event Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -149,7 +149,7 @@
     },
     {
       "file": "dallas-hospital-security.html",
-      "url": "/jobs/dallas-hospital-security",
+      "url": "/dallas/dallas-hospital-security",
       "title": "Hospital Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -158,7 +158,7 @@
     },
     {
       "file": "dallas-hotel-security.html",
-      "url": "/jobs/dallas-hotel-security",
+      "url": "/dallas/dallas-hotel-security",
       "title": "Hotel Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -167,7 +167,7 @@
     },
     {
       "file": "dallas-warehouse-security.html",
-      "url": "/jobs/dallas-warehouse-security",
+      "url": "/dallas/dallas-warehouse-security",
       "title": "Warehouse Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -176,7 +176,7 @@
     },
     {
       "file": "dallas-mobile-patrol.html",
-      "url": "/jobs/dallas-mobile-patrol",
+      "url": "/dallas/dallas-mobile-patrol",
       "title": "Mobile Patrol Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -185,7 +185,7 @@
     },
     {
       "file": "dallas-part-time-security.html",
-      "url": "/jobs/dallas-part-time-security",
+      "url": "/dallas/dallas-part-time-security",
       "title": "Part-Time Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -194,7 +194,7 @@
     },
     {
       "file": "dallas-entry-level-security-jobs.html",
-      "url": "/jobs/dallas-entry-level-security-jobs",
+      "url": "/dallas/dallas-entry-level-security-jobs",
       "title": "Entry Level Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -203,7 +203,7 @@
     },
     {
       "file": "dallas-weekend-security-jobs.html",
-      "url": "/jobs/dallas-weekend-security-jobs",
+      "url": "/dallas/dallas-weekend-security-jobs",
       "title": "Weekend Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -212,7 +212,7 @@
     },
     {
       "file": "dallas-level-2-security.html",
-      "url": "/jobs/dallas-level-2-security",
+      "url": "/dallas/dallas-level-2-security",
       "title": "Level 2 Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -221,7 +221,7 @@
     },
     {
       "file": "dallas-level-3-security.html",
-      "url": "/jobs/dallas-level-3-security",
+      "url": "/dallas/dallas-level-3-security",
       "title": "Level 3 Armed Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -230,7 +230,7 @@
     },
     {
       "file": "dallas-security-jobs-hiring-immediately.html",
-      "url": "/jobs/dallas-security-jobs-hiring-immediately",
+      "url": "/dallas/dallas-security-jobs-hiring-immediately",
       "title": "Security Jobs Hiring Immediately Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -239,7 +239,7 @@
     },
     {
       "file": "dallas-armed-overnight-security.html",
-      "url": "/jobs/dallas-armed-overnight-security",
+      "url": "/dallas/dallas-armed-overnight-security",
       "title": "Armed Overnight Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -248,7 +248,7 @@
     },
     {
       "file": "dallas-surveillance-security.html",
-      "url": "/jobs/dallas-surveillance-security",
+      "url": "/dallas/dallas-surveillance-security",
       "title": "Surveillance Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -257,7 +257,7 @@
     },
     {
       "file": "dallas-school-security.html",
-      "url": "/jobs/dallas-school-security",
+      "url": "/dallas/dallas-school-security",
       "title": "School Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -266,7 +266,7 @@
     },
     {
       "file": "dallas-office-building-security.html",
-      "url": "/jobs/dallas-office-building-security",
+      "url": "/dallas/dallas-office-building-security",
       "title": "Office Building Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -275,7 +275,7 @@
     },
     {
       "file": "security-officer-jobs-dallas.html",
-      "url": "/jobs/security-officer-jobs-dallas",
+      "url": "/dallas/security-officer-jobs-dallas",
       "title": "Security Officer Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -284,7 +284,7 @@
     },
     {
       "file": "dallas-high-value-asset-security.html",
-      "url": "/jobs/dallas-high-value-asset-security",
+      "url": "/dallas/dallas-high-value-asset-security",
       "title": "Bank & Jewelry High-Value Asset Security Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -293,7 +293,7 @@
     },
     {
       "file": "dallas-residential-security.html",
-      "url": "/jobs/dallas-residential-security",
+      "url": "/dallas/dallas-residential-security",
       "title": "Residential Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -302,7 +302,7 @@
     },
     {
       "file": "dallas-retail-security.html",
-      "url": "/jobs/dallas-retail-security",
+      "url": "/dallas/dallas-retail-security",
       "title": "Retail Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -311,7 +311,7 @@
     },
     {
       "file": "dallas-construction-security.html",
-      "url": "/jobs/dallas-construction-security",
+      "url": "/dallas/dallas-construction-security",
       "title": "Construction Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -320,7 +320,7 @@
     },
     {
       "file": "dallas-corporate-security.html",
-      "url": "/jobs/dallas-corporate-security",
+      "url": "/dallas/dallas-corporate-security",
       "title": "Corporate Security Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -329,7 +329,7 @@
     },
     {
       "file": "dallas-executive-protection.html",
-      "url": "/jobs/dallas-executive-protection",
+      "url": "/dallas/dallas-executive-protection",
       "title": "Executive Protection Jobs Dallas",
       "city": "Dallas",
       "type": "geo_role",
@@ -338,7 +338,7 @@
     },
     {
       "file": "downtown-dallas-security.html",
-      "url": "/jobs/downtown-dallas-security",
+      "url": "/dallas/downtown-dallas-security",
       "title": "Security Jobs Downtown Dallas",
       "city": "Dallas",
       "type": "neighborhood",
@@ -347,7 +347,7 @@
     },
     {
       "file": "uptown-dallas-security.html",
-      "url": "/jobs/uptown-dallas-security",
+      "url": "/dallas/uptown-dallas-security",
       "title": "Security Jobs Uptown Dallas",
       "city": "Dallas",
       "type": "neighborhood",
@@ -356,7 +356,7 @@
     },
     {
       "file": "deep-ellum-security.html",
-      "url": "/jobs/deep-ellum-security",
+      "url": "/dallas/deep-ellum-security",
       "title": "Security Jobs Deep Ellum Dallas",
       "city": "Dallas",
       "type": "neighborhood",
@@ -365,7 +365,7 @@
     },
     {
       "file": "medical-district-dallas-security.html",
-      "url": "/jobs/medical-district-dallas-security",
+      "url": "/dallas/medical-district-dallas-security",
       "title": "Security Jobs Dallas Medical District",
       "city": "Dallas",
       "type": "neighborhood",
@@ -374,7 +374,7 @@
     },
     {
       "file": "design-district-dallas-security.html",
-      "url": "/jobs/design-district-dallas-security",
+      "url": "/dallas/design-district-dallas-security",
       "title": "Security Jobs Dallas Design District",
       "city": "Dallas",
       "type": "neighborhood",
@@ -383,7 +383,7 @@
     },
     {
       "file": "dallas-venue-security.html",
-      "url": "/jobs/dallas-venue-security",
+      "url": "/dallas/dallas-venue-security",
       "title": "Venue Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -392,7 +392,7 @@
     },
     {
       "file": "dallas-bar-club-security.html",
-      "url": "/jobs/dallas-bar-club-security",
+      "url": "/dallas/dallas-bar-club-security",
       "title": "Bar & Club Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -401,7 +401,7 @@
     },
     {
       "file": "dallas-sporting-event-security.html",
-      "url": "/jobs/dallas-sporting-event-security",
+      "url": "/dallas/dallas-sporting-event-security",
       "title": "Sporting Event Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -410,7 +410,7 @@
     },
     {
       "file": "dallas-festival-security.html",
-      "url": "/jobs/dallas-festival-security",
+      "url": "/dallas/dallas-festival-security",
       "title": "Festival Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -419,7 +419,7 @@
     },
     {
       "file": "dallas-hospital-healthcare-security.html",
-      "url": "/jobs/dallas-hospital-healthcare-security",
+      "url": "/dallas/dallas-hospital-healthcare-security",
       "title": "Hospital & Healthcare Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -428,7 +428,7 @@
     },
     {
       "file": "dallas-government-security.html",
-      "url": "/jobs/dallas-government-security",
+      "url": "/dallas/dallas-government-security",
       "title": "Government Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -437,7 +437,7 @@
     },
     {
       "file": "dallas-airport-security.html",
-      "url": "/jobs/dallas-airport-security",
+      "url": "/dallas/dallas-airport-security",
       "title": "Airport Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -446,7 +446,7 @@
     },
     {
       "file": "dallas-private-event-security.html",
-      "url": "/jobs/dallas-private-event-security",
+      "url": "/dallas/dallas-private-event-security",
       "title": "Private Event Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -455,7 +455,7 @@
     },
     {
       "file": "dallas-parking-security.html",
-      "url": "/jobs/dallas-parking-security",
+      "url": "/dallas/dallas-parking-security",
       "title": "Parking Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -464,7 +464,7 @@
     },
     {
       "file": "dallas-university-security.html",
-      "url": "/jobs/dallas-university-security",
+      "url": "/dallas/dallas-university-security",
       "title": "University & College Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -473,7 +473,7 @@
     },
     {
       "file": "dallas-theme-park-security.html",
-      "url": "/jobs/dallas-theme-park-security",
+      "url": "/dallas/dallas-theme-park-security",
       "title": "Theme Park & Attraction Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -482,7 +482,7 @@
     },
     {
       "file": "dallas-industrial-security.html",
-      "url": "/jobs/dallas-industrial-security",
+      "url": "/dallas/dallas-industrial-security",
       "title": "Industrial Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -491,7 +491,7 @@
     },
     {
       "file": "dallas-parks-public-spaces-security.html",
-      "url": "/jobs/dallas-parks-public-spaces-security",
+      "url": "/dallas/dallas-parks-public-spaces-security",
       "title": "Parks & Public Spaces Security Jobs Dallas",
       "city": "Dallas",
       "type": "venue",
@@ -500,7 +500,7 @@
     },
     {
       "file": "fort-worth-overnight-security-jobs.html",
-      "url": "/jobs/fort-worth-overnight-security-jobs",
+      "url": "/dallas/fort-worth-overnight-security-jobs",
       "title": "Overnight Security Jobs Fort Worth",
       "city": "Fort Worth",
       "type": "geo_role",
@@ -509,7 +509,7 @@
     },
     {
       "file": "fort-worth-armed-security.html",
-      "url": "/jobs/fort-worth-armed-security",
+      "url": "/dallas/fort-worth-armed-security",
       "title": "Armed Security Jobs Fort Worth",
       "city": "Fort Worth",
       "type": "geo_role",
@@ -518,7 +518,7 @@
     },
     {
       "file": "irving-overnight-security-jobs.html",
-      "url": "/jobs/irving-overnight-security-jobs",
+      "url": "/dallas/irving-overnight-security-jobs",
       "title": "Overnight Security Jobs Irving",
       "city": "Irving",
       "type": "geo_role",
@@ -527,7 +527,7 @@
     },
     {
       "file": "irving-overnight-security.html",
-      "url": "/jobs/irving-overnight-security",
+      "url": "/dallas/irving-overnight-security",
       "title": "Overnight Security Irving",
       "city": "Irving",
       "type": "geo_role",
@@ -536,7 +536,7 @@
     },
     {
       "file": "irving-unarmed-security.html",
-      "url": "/jobs/irving-unarmed-security",
+      "url": "/dallas/irving-unarmed-security",
       "title": "Unarmed Security Jobs Irving",
       "city": "Irving",
       "type": "geo_role",
@@ -545,7 +545,7 @@
     },
     {
       "file": "arlington-event-security-jobs.html",
-      "url": "/jobs/arlington-event-security-jobs",
+      "url": "/dallas/arlington-event-security-jobs",
       "title": "Event Security Jobs Arlington",
       "city": "Arlington",
       "type": "geo_role",
@@ -554,7 +554,7 @@
     },
     {
       "file": "arlington-overnight-security.html",
-      "url": "/jobs/arlington-overnight-security",
+      "url": "/dallas/arlington-overnight-security",
       "title": "Overnight Security Jobs Arlington",
       "city": "Arlington",
       "type": "geo_role",
@@ -563,7 +563,7 @@
     },
     {
       "file": "plano-unarmed-security-jobs.html",
-      "url": "/jobs/plano-unarmed-security-jobs",
+      "url": "/dallas/plano-unarmed-security-jobs",
       "title": "Unarmed Security Jobs Plano",
       "city": "Plano",
       "type": "geo_role",
@@ -572,7 +572,7 @@
     },
     {
       "file": "plano-overnight-security.html",
-      "url": "/jobs/plano-overnight-security",
+      "url": "/dallas/plano-overnight-security",
       "title": "Overnight Security Jobs Plano",
       "city": "Plano",
       "type": "geo_role",
@@ -581,7 +581,7 @@
     },
     {
       "file": "frisco-unarmed-security-jobs.html",
-      "url": "/jobs/frisco-unarmed-security-jobs",
+      "url": "/dallas/frisco-unarmed-security-jobs",
       "title": "Unarmed Security Jobs Frisco",
       "city": "Frisco",
       "type": "geo_role",
@@ -590,7 +590,7 @@
     },
     {
       "file": "grand-prairie-overnight-security-jobs.html",
-      "url": "/jobs/grand-prairie-overnight-security-jobs",
+      "url": "/dallas/grand-prairie-overnight-security-jobs",
       "title": "Overnight Security Jobs Grand Prairie",
       "city": "Grand Prairie",
       "type": "geo_role",
