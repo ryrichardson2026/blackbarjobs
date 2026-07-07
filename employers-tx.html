@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP9JXK39');</script>
+<!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hire Security Officers in Texas | BlackBarJobs</title>
@@ -744,6 +751,9 @@
   </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- NAV -->
   <nav>
@@ -1161,7 +1171,7 @@
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            source:        'employers-dfw',
+            source:        'employers-tx',
             type:          'employer_request',
             name, company, phone,
             event_type:    eventType,
@@ -1173,7 +1183,10 @@
         });
       } catch(e) { console.warn('Webhook:', e); }
 
-      document.getElementById('formContent').style.display = 'none';
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({event:'employer_request_submit'});
+        if (typeof gtag !== 'undefined') { gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'}); }
+        document.getElementById('formContent').style.display = 'none';
       document.getElementById('formSuccess').style.display = 'block';
     }
   </script>

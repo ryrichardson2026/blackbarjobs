@@ -1907,71 +1907,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 </script>
 
 
-<script>
-// INDEX JOB FEED
-var indexViewsThisSession = 0;
-var INDEX_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=1157420661&single=true&output=csv';
-
-function parseIndexCSV(text) {
-  var lines = text.trim().split('\n');
-  var headers = lines[0].split(',').map(function(h){ return h.replace(/"/g,'').trim(); });
-  return lines.slice(1).map(function(line) {
-    var cols = []; var cur = ''; var inQ = false;
-    for (var i = 0; i < line.length; i++) {
-      var c = line[i];
-      if (c === '"') { inQ = !inQ; }
-      else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
-      else { cur += c; }
-    }
-    cols.push(cur);
-    var obj = {};
-    headers.forEach(function(h, i){ obj[h] = (cols[i] || '').replace(/"/g,'').trim(); });
-    return obj;
-  });
-}
-
-function renderIndexFeed(jobs) {
-  var active = jobs.filter(function(j){ return j.active === 'yes'; });
-  var container = document.getElementById('indexJobFeed');
-  if (!container) return;
-  if (!active.length) {
-    container.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now. Check back soon.</div></div></div>';
-    return;
-  }
-  active.sort(function(a, b) { return new Date(b.date_pulled || 0) - new Date(a.date_pulled || 0); });
-  var display = active.slice(0, 5);
-  container.innerHTML = display.map(function(job) {
-    var applyUrl = encodeURIComponent(job.apply_link || '');
-    return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply(\'' + applyUrl + '\')">' +
-      '<div class="hf-body">' +
-        '<div class="hf-title">' + (job.title || '') + '</div>' +
-        '<div class="hf-meta">' + (job.company || '') + ' &nbsp;&middot;&nbsp; ' + (job.location || '') + '</div>' +
-      '</div>' +
-      '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
-        '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
-        '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-}
-
-function handleIndexApply(encodedUrl) {
-  var url = decodeURIComponent(encodedUrl);
-  if (!url) return;
-  if (bbjIsRegistered()) { window.open(url, '_blank'); return; }
-  indexViewsThisSession = (indexViewsThisSession || 0) + 1;
-  if (indexViewsThisSession <= 2) { window.open(url, '_blank'); return; }
-  bbjAccOpen();
-}
-
-fetch(INDEX_CSV_URL, {mode: 'cors'})
-  .then(function(r){ return r.text(); })
-  .then(function(text){ renderIndexFeed(parseIndexCSV(text)); })
-  .catch(function(){
-    var c = document.getElementById('indexJobFeed');
-    if (c) c.innerHTML = '<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Check back soon for open positions.</div></div></div>';
-  });
-</script>
+<script>window.BBJ_FEED_KEY="san-antonio/jobs/overnight-security-san-antonio";</script>
+<script src="/js/bbj-feed.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>

@@ -1,0 +1,1718 @@
+{
+  "generated": "phase2_v4_boundaryfix",
+  "feed_pages": 209,
+  "distinct_queries": 164,
+  "pages_per_query": 3,
+  "queries": [
+    {
+      "key": "DFW::security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Dallas TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/dallas-high-value-asset-security.html",
+        "dallas/dallas-office-building-security.html",
+        "dallas/dallas-parks-public-spaces-security.html",
+        "dallas/dallas-theme-park-security.html",
+        "dallas/dallas-venue-security.html",
+        "dallas/deep-ellum-security.html",
+        "dallas/design-district-dallas-security.html",
+        "dallas/downtown-dallas-security.html",
+        "dallas/job-board.html",
+        "dallas/medical-district-dallas-security.html",
+        "dallas/security-officer-jobs-dallas.html",
+        "dallas/security-training-schools-dfw.html",
+        "dallas/uptown-dallas-security.html"
+      ]
+    },
+    {
+      "key": "DFW::event security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "event",
+      "query": "event security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-event-security.html",
+        "dallas/dallas-private-event-security.html",
+        "dallas/dallas-sporting-event-security.html",
+        "dallas/event-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::airport tsa security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "airport-tsa",
+      "query": "airport tsa security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/airport-security-jobs-dfw.html",
+        "dallas/dallas-airport-security.html",
+        "dallas/tsa-airport-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::armed security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "armed",
+      "query": "armed security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/armed-security-dfw.html",
+        "dallas/armed-security-jobs.html",
+        "dallas/dallas-armed-security.html"
+      ]
+    },
+    {
+      "key": "DFW::armed security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "armed",
+      "query": "armed security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/armed-security-dfw.html",
+        "dallas/armed-security-jobs.html",
+        "dallas/fort-worth-armed-security.html"
+      ]
+    },
+    {
+      "key": "DFW::airport tsa security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "airport-tsa",
+      "query": "airport tsa security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/airport-security-jobs-dfw.html",
+        "dallas/tsa-airport-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::construction security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "construction",
+      "query": "construction security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/construction-security-jobs-dfw.html",
+        "dallas/dallas-construction-security.html"
+      ]
+    },
+    {
+      "key": "DFW::corporate security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "corporate",
+      "query": "corporate security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/corporate-campus-security-jobs-dfw.html",
+        "dallas/dallas-corporate-security.html"
+      ]
+    },
+    {
+      "key": "DFW::entry level security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "entry-level",
+      "query": "entry level security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-entry-level-security-jobs.html",
+        "dallas/entry-level-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::event security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "event",
+      "query": "event security officer jobs Fort Worth TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/event-security-dfw.html",
+        "dallas/fort-worth-event-security.html"
+      ]
+    },
+    {
+      "key": "DFW::hospital security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "hospital-healthcare",
+      "query": "hospital security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-hospital-healthcare-security.html",
+        "dallas/hospital-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::hospital security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "hospital-healthcare",
+      "query": "hospital security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/fort-worth-hospital-security.html",
+        "dallas/hospital-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::hotel security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "hotel",
+      "query": "hotel security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-hotel-security.html",
+        "dallas/hotel-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::level 2 security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "level-2",
+      "query": "level 2 security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-level-2-security.html",
+        "dallas/level-2-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::level 3 security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "level-3",
+      "query": "level 3 security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-level-3-security.html",
+        "dallas/level-3-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::loss prevention security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "loss-prevention",
+      "query": "loss prevention security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-loss-prevention.html",
+        "dallas/loss-prevention-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::loss prevention security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "loss-prevention",
+      "query": "loss prevention security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/fort-worth-loss-prevention.html",
+        "dallas/loss-prevention-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::mobile patrol security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "mobile-patrol",
+      "query": "mobile patrol security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-mobile-patrol.html",
+        "dallas/mobile-patrol-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::no experience security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "no-experience",
+      "query": "no experience security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-no-experience-security-jobs.html",
+        "dallas/no-experience-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::no experience security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "no-experience",
+      "query": "no experience security officer jobs Fort Worth TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/fort-worth-no-experience-security.html",
+        "dallas/no-experience-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-overnight-security.html",
+        "dallas/overnight-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Fort Worth TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/fort-worth-overnight-security-jobs.html",
+        "dallas/overnight-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::part time security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "part-time",
+      "query": "part time security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-part-time-security.html",
+        "dallas/part-time-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::retail security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "retail",
+      "query": "retail security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-retail-security.html",
+        "dallas/retail-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::school security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "school",
+      "query": "school security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-school-security.html",
+        "dallas/school-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::unarmed security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-unarmed-security.html",
+        "dallas/unarmed-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::unarmed security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Fort Worth TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/fort-worth-unarmed-security.html",
+        "dallas/unarmed-security-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::warehouse security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "warehouse",
+      "query": "warehouse security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/dallas-warehouse-security.html",
+        "dallas/warehouse-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::armed overnight security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "armed-overnight",
+      "query": "armed overnight security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-armed-overnight-security.html"
+      ]
+    },
+    {
+      "key": "DFW::bar club security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "bar-club",
+      "query": "bar club security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-bar-club-security.html"
+      ]
+    },
+    {
+      "key": "DFW::construction security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "construction",
+      "query": "construction security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/construction-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::corporate security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "corporate",
+      "query": "corporate security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/corporate-campus-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::data center security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "data-center",
+      "query": "data center security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/data-center-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::data center security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "data-center",
+      "query": "data center security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/data-center-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::entry level security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "entry-level",
+      "query": "entry level security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/entry-level-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::event security officer jobs Arlington TX",
+      "metro": "DFW",
+      "role": "event",
+      "query": "event security officer jobs Arlington TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/arlington-event-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::executive protection security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "executive-protection",
+      "query": "executive protection security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-executive-protection.html"
+      ]
+    },
+    {
+      "key": "DFW::festival security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "festival",
+      "query": "festival security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-festival-security.html"
+      ]
+    },
+    {
+      "key": "DFW::full time security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "full-time",
+      "query": "full time security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/full-time-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::full time security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "full-time",
+      "query": "full time security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/full-time-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::government security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "government",
+      "query": "government security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-government-security.html"
+      ]
+    },
+    {
+      "key": "DFW::hiring immediately security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "hiring-immediately",
+      "query": "hiring immediately security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-security-jobs-hiring-immediately.html"
+      ]
+    },
+    {
+      "key": "DFW::hotel security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "hotel",
+      "query": "hotel security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/hotel-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::industrial security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "industrial",
+      "query": "industrial security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-industrial-security.html"
+      ]
+    },
+    {
+      "key": "DFW::level 2 security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "level-2",
+      "query": "level 2 security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/level-2-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::level 3 security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "level-3",
+      "query": "level 3 security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/level-3-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::mobile patrol security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "mobile-patrol",
+      "query": "mobile patrol security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/mobile-patrol-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::night shift security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "night-shift",
+      "query": "night shift security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/night-shift-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::night shift security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "night-shift",
+      "query": "night shift security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/night-shift-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Arlington TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Arlington TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/arlington-overnight-security.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Grand Prairie TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Grand Prairie TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/grand-prairie-overnight-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Irving TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Irving TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/irving-overnight-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight security officer jobs Plano TX",
+      "metro": "DFW",
+      "role": "overnight",
+      "query": "overnight security officer jobs Plano TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/plano-overnight-security.html"
+      ]
+    },
+    {
+      "key": "DFW::parking security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "parking",
+      "query": "parking security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-parking-security.html"
+      ]
+    },
+    {
+      "key": "DFW::part time security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "part-time",
+      "query": "part time security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/part-time-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::residential security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "residential",
+      "query": "residential security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-residential-security.html"
+      ]
+    },
+    {
+      "key": "DFW::retail security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "retail",
+      "query": "retail security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/retail-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::school security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "school",
+      "query": "school security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/school-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Allen TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Allen TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/allen-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Bedford TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Bedford TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/bedford-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Carrollton TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Carrollton TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/carrollton-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Cedar Hill TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Cedar Hill TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/cedar-hill-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Denton TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Denton TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/denton-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Desoto TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Desoto TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/desoto-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Duncanville TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Duncanville TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/duncanville-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Euless TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Euless TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/euless-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Forney TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Forney TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/forney-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Fort Worth TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/security-jobs-fort-worth.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Garland TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Garland TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/garland-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Grapevine TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Grapevine TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/grapevine-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Lancaster TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Lancaster TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/lancaster-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Lewisville TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Lewisville TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/lewisville-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Mansfield TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Mansfield TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/mansfield-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Mckinney TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Mckinney TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/mckinney-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Mesquite TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Mesquite TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/mesquite-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Midlothian TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Midlothian TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/midlothian-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs North Richland Hills TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs North Richland Hills TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/north-richland-hills-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Richardson TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Richardson TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/richardson-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Rockwall TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Rockwall TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/rockwall-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::security officer jobs Rowlett TX",
+      "metro": "DFW",
+      "role": "general",
+      "query": "security officer jobs Rowlett TX",
+      "qtype": "city",
+      "pages": [
+        "dallas/rowlett-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::sporting event security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "sporting-event",
+      "query": "sporting event security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/att-stadium-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::sporting event security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "sporting-event",
+      "query": "sporting event security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/att-stadium-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::surveillance security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "surveillance",
+      "query": "surveillance security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-surveillance-security.html"
+      ]
+    },
+    {
+      "key": "DFW::unarmed security officer jobs Frisco TX",
+      "metro": "DFW",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Frisco TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/frisco-unarmed-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::unarmed security officer jobs Irving TX",
+      "metro": "DFW",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Irving TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/irving-unarmed-security.html"
+      ]
+    },
+    {
+      "key": "DFW::unarmed security officer jobs Plano TX",
+      "metro": "DFW",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Plano TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/plano-unarmed-security-jobs.html"
+      ]
+    },
+    {
+      "key": "DFW::university security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "university",
+      "query": "university security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-university-security.html"
+      ]
+    },
+    {
+      "key": "DFW::warehouse security officer jobs Fort Worth TX",
+      "metro": "DFW",
+      "role": "warehouse",
+      "query": "warehouse security officer jobs Fort Worth TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/warehouse-security-jobs-dfw.html"
+      ]
+    },
+    {
+      "key": "DFW::weekend security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "weekend",
+      "query": "weekend security officer jobs Dallas TX",
+      "qtype": "city-role",
+      "pages": [
+        "dallas/dallas-weekend-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Houston TX",
+      "qtype": "city",
+      "pages": [
+        "houston/downtown-houston-security.html",
+        "houston/galleria-houston-security-jobs.html",
+        "houston/heights-houston-security-jobs.html",
+        "houston/houston-high-value-asset-security.html",
+        "houston/houston-office-building-security.html",
+        "houston/houston-theme-park-security.html",
+        "houston/houston-venue-security.html",
+        "houston/index.html",
+        "houston/medical-center-houston-security-jobs.html",
+        "houston/midtown-houston-security-jobs.html",
+        "houston/montrose-houston-security-jobs.html",
+        "houston/security-officer-jobs-houston.html",
+        "houston/security-training-schools-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::event security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "event",
+      "query": "event security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/event-security-houston.html",
+        "houston/houston-private-event-security.html",
+        "houston/houston-sporting-event-security.html"
+      ]
+    },
+    {
+      "key": "Houston::airport tsa security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "airport-tsa",
+      "query": "airport tsa security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-airport-security.html",
+        "houston/tsa-airport-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::construction security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "construction",
+      "query": "construction security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/construction-security-houston.html",
+        "houston/houston-construction-security.html"
+      ]
+    },
+    {
+      "key": "Houston::corporate security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "corporate",
+      "query": "corporate security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/corporate-campus-security-houston.html",
+        "houston/houston-corporate-security.html"
+      ]
+    },
+    {
+      "key": "Houston::hospital security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "hospital-healthcare",
+      "query": "hospital security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/hospital-security-houston.html",
+        "houston/houston-hospital-security.html"
+      ]
+    },
+    {
+      "key": "Houston::armed overnight security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "armed-overnight",
+      "query": "armed overnight security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-armed-overnight-security.html"
+      ]
+    },
+    {
+      "key": "Houston::armed security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "armed",
+      "query": "armed security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/armed-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::bar club security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "bar-club",
+      "query": "bar club security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-bar-club-security.html"
+      ]
+    },
+    {
+      "key": "Houston::data center security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "data-center",
+      "query": "data center security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/data-center-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::entry level security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "entry-level",
+      "query": "entry level security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-entry-level-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::executive protection security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "executive-protection",
+      "query": "executive protection security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-executive-protection.html"
+      ]
+    },
+    {
+      "key": "Houston::festival security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "festival",
+      "query": "festival security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-festival-security.html"
+      ]
+    },
+    {
+      "key": "Houston::full time security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "full-time",
+      "query": "full time security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/full-time-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::hotel security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "hotel",
+      "query": "hotel security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/hotel-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::industrial security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "industrial",
+      "query": "industrial security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/industrial-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::level 2 security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "level-2",
+      "query": "level 2 security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-level-2-security.html"
+      ]
+    },
+    {
+      "key": "Houston::level 3 security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "level-3",
+      "query": "level 3 security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-level-3-security.html"
+      ]
+    },
+    {
+      "key": "Houston::loss prevention security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "loss-prevention",
+      "query": "loss prevention security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/loss-prevention-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::mobile patrol security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "mobile-patrol",
+      "query": "mobile patrol security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/mobile-patrol-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::night shift security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "night-shift",
+      "query": "night shift security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-night-shift-security.html"
+      ]
+    },
+    {
+      "key": "Houston::no experience security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "no-experience",
+      "query": "no experience security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-no-experience-security.html"
+      ]
+    },
+    {
+      "key": "Houston::overnight security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "overnight",
+      "query": "overnight security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/overnight-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::part time security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "part-time",
+      "query": "part time security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-part-time-security.html"
+      ]
+    },
+    {
+      "key": "Houston::residential security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "residential",
+      "query": "residential security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-residential-security.html"
+      ]
+    },
+    {
+      "key": "Houston::retail security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "retail",
+      "query": "retail security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-retail-security.html"
+      ]
+    },
+    {
+      "key": "Houston::school security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "school",
+      "query": "school security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-school-security.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Baytown TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Baytown TX",
+      "qtype": "city",
+      "pages": [
+        "houston/baytown-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Conroe TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Conroe TX",
+      "qtype": "city",
+      "pages": [
+        "houston/conroe-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Friendswood TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Friendswood TX",
+      "qtype": "city",
+      "pages": [
+        "houston/friendswood-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Humble TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Humble TX",
+      "qtype": "city",
+      "pages": [
+        "houston/humble-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Katy TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Katy TX",
+      "qtype": "city",
+      "pages": [
+        "houston/katy-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs League City TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs League City TX",
+      "qtype": "city",
+      "pages": [
+        "houston/league-city-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Missouri City TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Missouri City TX",
+      "qtype": "city",
+      "pages": [
+        "houston/missouri-city-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Pasadena TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Pasadena TX",
+      "qtype": "city",
+      "pages": [
+        "houston/pasadena-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Pearland TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Pearland TX",
+      "qtype": "city",
+      "pages": [
+        "houston/pearland-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Richmond TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Richmond TX",
+      "qtype": "city",
+      "pages": [
+        "houston/richmond-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs Sugar Land TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs Sugar Land TX",
+      "qtype": "city",
+      "pages": [
+        "houston/sugar-land-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::security officer jobs The Woodlands TX",
+      "metro": "Houston",
+      "role": "general",
+      "query": "security officer jobs The Woodlands TX",
+      "qtype": "city",
+      "pages": [
+        "houston/the-woodlands-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Houston::surveillance security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "surveillance",
+      "query": "surveillance security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-surveillance-security.html"
+      ]
+    },
+    {
+      "key": "Houston::unarmed security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/unarmed-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::university security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "university",
+      "query": "university security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-university-security.html"
+      ]
+    },
+    {
+      "key": "Houston::warehouse security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "warehouse",
+      "query": "warehouse security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/warehouse-security-houston.html"
+      ]
+    },
+    {
+      "key": "Houston::weekend security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "weekend",
+      "query": "weekend security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/houston-weekend-security-jobs.html"
+      ]
+    },
+    {
+      "key": "San Antonio::security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "general",
+      "query": "security officer jobs San Antonio TX",
+      "qtype": "city",
+      "pages": [
+        "san-antonio/index.html",
+        "san-antonio/military-base-security-san-antonio.html",
+        "san-antonio/river-walk-security-jobs-san-antonio.html",
+        "san-antonio/security-jobs-san-antonio.html",
+        "san-antonio/security-training-schools-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::airport tsa security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "airport-tsa",
+      "query": "airport tsa security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/airport-security-san-antonio.html",
+        "san-antonio/tsa-airport-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::armed security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "armed",
+      "query": "armed security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/armed-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::construction security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "construction",
+      "query": "construction security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/construction-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::entry level security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "entry-level",
+      "query": "entry level security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/entry-level-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::event security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "event",
+      "query": "event security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/event-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::full time security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "full-time",
+      "query": "full time security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/full-time-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::hospital security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "hospital-healthcare",
+      "query": "hospital security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/hospital-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::hotel security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "hotel",
+      "query": "hotel security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/hotel-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::loss prevention security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "loss-prevention",
+      "query": "loss prevention security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/loss-prevention-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::mobile patrol security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "mobile-patrol",
+      "query": "mobile patrol security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/mobile-patrol-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::no experience security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "no-experience",
+      "query": "no experience security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/no-experience-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::overnight security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "overnight",
+      "query": "overnight security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/overnight-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::part time security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "part-time",
+      "query": "part time security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/part-time-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::residential security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "residential",
+      "query": "residential security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/residential-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::retail security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "retail",
+      "query": "retail security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/retail-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::school security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "school",
+      "query": "school security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/school-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::unarmed security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/unarmed-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::university security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "university",
+      "query": "university security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/university-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::warehouse security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "warehouse",
+      "query": "warehouse security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/warehouse-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "Austin::security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "general",
+      "query": "security officer jobs Austin TX",
+      "qtype": "city",
+      "pages": [
+        "austin/index.html",
+        "austin/security-jobs-austin.html",
+        "austin/student-security-jobs-austin.html",
+        "austin/tech-campus-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::armed security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "armed",
+      "query": "armed security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/armed-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::event security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "event",
+      "query": "event security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/event-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::full time security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "full-time",
+      "query": "full time security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/full-time-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::no experience security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "no-experience",
+      "query": "no experience security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/no-experience-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::overnight security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "overnight",
+      "query": "overnight security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/overnight-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::security officer jobs Cedar Park TX",
+      "metro": "Austin",
+      "role": "general",
+      "query": "security officer jobs Cedar Park TX",
+      "qtype": "city",
+      "pages": [
+        "austin/cedar-park-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Austin::security officer jobs Georgetown TX",
+      "metro": "Austin",
+      "role": "general",
+      "query": "security officer jobs Georgetown TX",
+      "qtype": "city",
+      "pages": [
+        "austin/georgetown-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Austin::security officer jobs Round Rock TX",
+      "metro": "Austin",
+      "role": "general",
+      "query": "security officer jobs Round Rock TX",
+      "qtype": "city",
+      "pages": [
+        "austin/round-rock-security-jobs.html"
+      ]
+    },
+    {
+      "key": "Austin::unarmed security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "unarmed",
+      "query": "unarmed security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/unarmed-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::university security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "university",
+      "query": "university security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/university-security-austin.html"
+      ]
+    }
+  ]
+}
