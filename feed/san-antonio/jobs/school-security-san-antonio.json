@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "san-antonio/jobs/school-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "San Antonio, TX",
       "pay": "18–20 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://valorforce.joblinkapply.com/job/7a56233e-ee39-49bd-8239-972324a17abb",
       "via": "via JobLinkApply"
     },
@@ -22,7 +22,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-07-01",
       "apply_link": "https://us.trabajo.org/job-5632-82ae9664a85ad69dfed391fbc5d13dd2",
       "via": "via Trabajo.org"
     },
@@ -32,7 +32,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-22",
+      "posted_date": "2026-06-23",
       "apply_link": "https://lensa.com/job-v1/security-solutions-of-texas/san-antonio-tx/school-crossing-guard/a8a7cbc8c1d0f1a6e6a283c40d43b846",
       "via": "via Lensa"
     },
@@ -47,14 +47,14 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Guard",
-      "company": "Allied Universal",
+      "title": "Information System Security Officer – Senior",
+      "company": "Amentum",
       "location": "San Antonio, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal%C2%AE/Job/Security-Guard-Hiring-Immediately/-in-San-Antonio,TX?jid=dd03a34c300d5a42",
-      "via": "via ZipRecruiter"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.amentumcareers.com/jobs/information-system-security-officer-senior-san-antonio-texas-united-states-9a9e0d0e-d154-4819-8063-dfead794d62e",
+      "via": "via Amentum"
     }
   ]
 }

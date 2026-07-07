@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 3,
+  "exact": 4,
   "jobs": [
     {
       "title": "Security Director - Southwest at The Security Executive Council Houston, TX",
@@ -12,19 +12,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-27",
+      "posted_date": "2026-06-28",
       "apply_link": "https://nsplsecurityforce.com/job-listing/job/security-director-southwest-at-the-security-executive-council-houston-tx-azBzY3k0TjgrZXJXZzdDYi9hcGxuQUNHL2c9PQ==",
       "via": "via NSPL Security Force"
     },
     {
-      "title": "Armed Executive Protection Agent (EP)",
-      "company": "Armed/Unarmed Security Guard",
+      "title": "Executive Protection Field Agent",
+      "company": "Crisis24",
       "location": "Houston, TX",
-      "pay": "6,933 a month",
-      "schedule": "Contractor",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/armed-executive-protection-agent-ep-armed-unarmed-security-guard-houston-tx--theirstack-697503966",
-      "via": "via BeBee"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.linkedin.com/jobs/view/executive-protection-field-agent-at-crisis24-4432505991",
+      "via": "via LinkedIn"
     },
     {
       "title": "Executive Protection Officer",
@@ -37,24 +37,24 @@
       "via": "via ZipRecruiter"
     },
     {
+      "title": "Armed Executive Protection Agent (EP)",
+      "company": "Armed/Unarmed Security Guard",
+      "location": "Houston, TX",
+      "pay": "6,933 a month",
+      "schedule": "Contractor",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/armed-executive-protection-agent-ep-armed-unarmed-security-guard-houston-tx--theirstack-697503966",
+      "via": "via BeBee"
+    },
+    {
       "title": "Security Officer – Part-Time",
       "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": "16.00–16.50 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=047bbefca82de862",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Patrol Monitor",
-      "company": "Allied Universal",
-      "location": "Conroe, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-monitor-at-allied-universal-4437480759",
-      "via": "via LinkedIn"
     }
   ]
 }

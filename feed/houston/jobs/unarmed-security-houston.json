@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Unarmed Security Guard (North Houston)",
+      "company": "Platinum Shield Security",
+      "location": "Houston, TX",
+      "pay": "16.50–20.22 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=53e4b3ca11dafaa9",
+      "via": "via Indeed"
+    },
+    {
       "title": "Security Officer Unarmed",
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed/22950/97243524992",
       "via": "via Allied Universal"
     },
@@ -27,6 +37,16 @@
       "via": "via Indeed"
     },
     {
+      "title": "Unarmed Security Officers",
+      "company": "St. Moritz Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-13",
+      "apply_link": "https://us.trabajo.org/job-4023-5263a3fc34554ca6441eaa73dc54241e",
+      "via": "via Trabajo.org"
+    },
+    {
       "title": "Unarmed Guard Level 2 -Houston TX-",
       "company": "Unified Protective Services, Inc",
       "location": "Houston, TX",
@@ -35,26 +55,6 @@
       "posted_date": null,
       "apply_link": "https://www.simplyhired.com/job/t1UJ_kwPLUOxICv-50U7gAcKDaCIrovzjaxDtl_6Yr1u0yjtaLIB3w",
       "via": "via SimplyHired"
-    },
-    {
-      "title": "Unarmed Security Guard – Night Shift (Houston, TX – Surrounding Areas)",
-      "company": "Upscale Security Services LLC",
-      "location": "Houston, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=2d4b33c6db928dd9",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Unarmed Level II Event Security",
-      "company": "TriCorps Security",
-      "location": "Houston, TX",
-      "pay": "16–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=280a82d65277a6a6",
-      "via": "via Indeed"
     }
   ]
 }

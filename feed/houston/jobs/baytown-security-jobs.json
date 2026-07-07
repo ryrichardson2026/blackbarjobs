@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/baytown-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,22 +7,12 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Unarmed Patrol",
-      "company": "Allied Universal",
-      "location": "Baytown, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-at-allied-universal-4436211576",
-      "via": "via LinkedIn"
-    },
-    {
       "title": "Security Officer Full Time Patrol Driver",
       "company": "Allied Universal",
       "location": "Baytown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=e6a224dbbd2e55b0",
       "via": "via Indeed"
     },
@@ -32,9 +22,19 @@
       "location": "Baytown, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=f18831b00f455100",
       "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Unarmed Patrol",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-at-allied-universal-4436211576",
+      "via": "via LinkedIn"
     },
     {
       "title": "Security Officer Badge Control",
@@ -47,14 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Armed Security Guards",
-      "company": "Premier-Protective-Security",
+      "title": "Event Security",
+      "company": "Andy Frain Services",
       "location": "Baytown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-guards-wanted-baytown-tx--baytown--ea2822b7d2e53287a66c023e67e8ee546",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.monster.com/job-openings/event-security-baytown-tx--41c68fc6-26d8-450b-ab84-a9b5a2dd78c6?mstr_dist=true",
+      "via": "via Monster"
     }
   ]
 }

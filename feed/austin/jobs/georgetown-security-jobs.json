@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "austin/jobs/georgetown-security-jobs",
   "market": "Austin",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Armored Truck Driver And Messenger($22-$27/hr)-Georgetown,TX | Hiring",
+      "company": "GardaWorld",
+      "location": "Georgetown, TX",
+      "pay": "22–27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://dreamcareer.us.com/jobs/armored-truck-driver-and-messenger22-27hr-georgetowntx-203e4e.html",
+      "via": "via EasyCareers"
+    },
+    {
       "title": "Security at Georgetown, Texas",
       "company": "disABLEDperson Inc",
       "location": "Georgetown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-05",
       "apply_link": "https://lensa.com/job-v1/disabledperson-inc/georgetown-tx/security-officer/a3bc91e90b53c4d27c111296ce549d3e",
       "via": "via Lensa"
     },
@@ -22,7 +32,7 @@
       "location": "Georgetown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Georgetown,TX?jid=b9acc5c4615396e2",
       "via": "via ZipRecruiter"
     },
@@ -32,7 +42,7 @@
       "location": "Georgetown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.jobleads.com/us/job/experienced-unarmed-security-officer-start-tomorrow-18-hr-full-time-georgetown--georgetown--e3660a9ea651d306e39b2cc43bc7d7708",
       "via": "via JobLeads"
     },
@@ -42,19 +52,9 @@
       "location": "Georgetown, TX",
       "pay": null,
       "schedule": null,
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://jooble.org/jdp/-2122680902281986137",
       "via": "via Jooble"
-    },
-    {
-      "title": "Site & Guest Experience Supervisor",
-      "company": "Inter-Con Security",
-      "location": "Georgetown, TX",
-      "pay": "40K–55K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/site-guest-experience-supervisor--georgetown--edc9b52d9714141c13dcbd8c16e744bb4",
-      "via": "via JobLeads"
     }
   ]
 }

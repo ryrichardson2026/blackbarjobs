@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/armed-security-jobs",
   "market": "DFW",
   "target": "role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Full Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Dallas, TX",
+      "pay": "27.03 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Armed Security Flex Officer - Cleared Position",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
       "via": "via SaluteMyJob"
     },
@@ -22,7 +32,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-06",
       "apply_link": "https://jobs.aus.com/job/dallas/armed-security-operative/22950/97437424528",
       "via": "via Allied Universal"
     },
@@ -32,7 +42,7 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
       "via": "via Recruit.net"
     },
@@ -42,19 +52,9 @@
       "location": "Dallas, TX",
       "pay": "35K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.jobleads.com/us/job/senior-armed-security-supervisor-level-ii--dallas--ed3504340bf6a46f998c41525a1c49c9d",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Plano, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/plano/texas/security/5258623274/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

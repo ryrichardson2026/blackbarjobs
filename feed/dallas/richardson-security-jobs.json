@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/richardson-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Part-Time Unarmed Patrol Security Guard with Security Clearance",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-unarmed-patrol-security-guard-with-security-clearance-richardson-texas/2861470295-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
       "title": "Security Officer Patrol Navigator",
       "company": "Allied Universal",
       "location": "Richardson, TX",
-      "pay": "18.07 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Navigator/-in-Richardson,TX?jid=fd5f2e996de910ef",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.indeed.com/viewjob?jk=67f208eb90ca6ff6",
+      "via": "via Indeed"
     },
     {
       "title": "Flexible Security Professional — Grow Across Industries",
@@ -22,19 +32,19 @@
       "location": "Richardson, TX",
       "pay": "30K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/flexible-security-professional-grow-across-industries--richardson--e8985ff12389397e58af0d0d94162e60f",
       "via": "via JobLeads"
     },
     {
-      "title": "Armed Security - Cash Transport",
-      "company": "GardaWorld",
+      "title": "Police Officer: Patrol, Investigations & Community Impact",
+      "company": "City of Richardson Texas",
       "location": "Richardson, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-cash-transport-at-gardaworld-4434636450",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-02",
+      "apply_link": "https://jooble.org/jdp/9008876880649122910",
+      "via": "via Jooble"
     },
     {
       "title": "Security Officer Software Facility",
@@ -42,19 +52,9 @@
       "location": "Richardson, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jobs.aus.com/job/richardson/security-officer-software-facility/22950/97253110400",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Concierge Security Officer — Customer-First Guard",
-      "company": "Garda World Security",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/concierge-security-officer-customer-first-guard--richardson--ef9784032f9f16d3c3ad1604db6441816",
-      "via": "via JobLeads"
     }
   ]
 }

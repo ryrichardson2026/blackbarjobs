@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-28",
+      "posted_date": "2026-06-29",
       "apply_link": "https://www.jobleads.com/us/job/weekend-security-patrol-surveillance-part-time--houston--e41cdce8bf141ce307f34a551d7184330",
       "via": "via JobLeads"
     },
@@ -22,9 +22,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-27",
+      "posted_date": "2026-06-28",
       "apply_link": "https://jooble.org/jdp/-4041289195863171472",
       "via": "via Jooble"
+    },
+    {
+      "title": "Security Monitor — 24/7 Access",
+      "company": "Reporter Newspapers",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://us.trabajo.org/job-2283-9e861a1d3d5b398e56f2d4d952c0fe8f",
+      "via": "via Trabajo.org"
     },
     {
       "title": "Surveillance Security Officer",
@@ -32,7 +42,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-14",
+      "posted_date": "2026-06-15",
       "apply_link": "https://securityjobsus.garda.com/search/jobdetails/surveillance-security-officer/5ad912c9-530d-41b0-b680-0bb245a530ee",
       "via": "via GardaWorld - GardaWorld Security"
     },
@@ -42,19 +52,9 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-06-13",
+      "posted_date": "2026-06-14",
       "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5176707303/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Industrial Security Guard-Surveillance",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/industrial-security-guard-surveillance-gardaworld-houston-tx-united-states--appcast-7428_df35b9ebfd0c09e2818e2e70cf9d2b014e2dc56b9ac33af762a3ae61a696b808",
-      "via": "via BeBee"
     }
   ]
 }

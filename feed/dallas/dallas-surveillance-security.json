@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-surveillance-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
+      "company": "Garda World Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Surveillance Security Guard",
       "company": "Garda World Security",
       "location": "Irving, TX",
       "pay": "17.72 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.learn4good.com/jobs/irving/texas/security/5255816946/e/",
       "via": "via Learn4Good"
     },
@@ -22,19 +32,19 @@
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.jobleads.com/us/job/evening-surveillance-security-specialist--grapevine--e220d8e282c93e511f575f805343b6e39",
       "via": "via JobLeads"
     },
     {
-      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
-      "company": "Garda World Security",
-      "location": "Dallas, TX",
+      "title": "Security Monitoring Supervisor - 10:00PM - 6:30AM",
+      "company": "Interface Systems",
+      "location": "Plano, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/night-surveillance-officer-detail-driven-proactive-garda-world-security-dallas--lensa-7428_0eaaf6a0df3647ad01334bb89267f86754d4544231d2064d7972655375e970dc",
-      "via": "via BeBee"
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-monitoring-supervisor-10-00pm-6-30am-at-interface-systems-4432726342",
+      "via": "via LinkedIn"
     },
     {
       "title": "Surveillance Security Lead – Roanoke, TX | Full-time",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.jobleads.com/us/job/surveillance-security-lead-roanoke-tx-full-time--roanoke--e5e7096b1e6f145190689868903d4ec29",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Monitoring Supervisor - 10:00PM - 6:30AM",
-      "company": "Interface Systems",
-      "location": "Plano, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-monitoring-supervisor-10-00pm-6-30am-at-interface-systems-4432726342",
-      "via": "via LinkedIn"
     }
   ]
 }

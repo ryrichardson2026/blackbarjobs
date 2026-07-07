@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/houston-hospital-security",
   "market": "Houston",
   "target": "city-role",
@@ -12,9 +12,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-doubletree-medical-center-at-hilton-4437419583",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Hospital Security",
+      "company": "Houston Methodist",
+      "location": "Houston, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://us.trabajo.org/job-2283-4efd8e1a59bdc08aa69086870d647431",
+      "via": "via Trabajo.org"
     },
     {
       "title": "Overnight Security Supervisor - St Joseph Medical Center",
@@ -22,7 +32,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.jobilize.com/job/us-tx-houston-overnight-security-supervisor-st-joseph-medical-center",
       "via": "via Jobilize"
     },
@@ -32,28 +42,18 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patrol-respond-protect--houston--e76b75141880327b29141c8960d9d9c52",
       "via": "via JobLeads"
     },
     {
-      "title": "Hospital Security Guard - Taser Night Shift at Allied Universal Houston, TX",
-      "company": "Allied Universal",
+      "title": "Hospital Peace Officer: Security & Patient Safety Lead",
+      "company": "Houston Methodist",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "50K–70K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://alcarazautomotores.com.ar/list/job/hospital-security-guard-taser-night-shift-at-allied-universal-houston-tx-WDQ5RjE5YjduK2JuSHBDSHk3K1NGQWlMaGc9PQ==",
-      "via": "via Alcaraz Automotores"
-    },
-    {
-      "title": "Healthcare Security & Dispatch Officer",
-      "company": "CommonSpirit Health",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-dispatch-officer--houston--e67de26adf34ab8d9feec0442b4a8ca6c",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/hospital-peace-officer-security-patient-safety-lead--houston--e4f9c590f841858186b185eafe2bc0062",
       "via": "via JobLeads"
     }
   ]

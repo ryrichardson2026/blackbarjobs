@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/missouri-city-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Licensed Special Event Security",
+      "company": "Andy Frain Services",
+      "location": "Missouri City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-missouri-city-tx--ec1f5205-b668-400c-b569-2794545c6177?mstr_dist=true",
+      "via": "via Monster"
+    },
     {
       "title": "Now Hiring in Missouri City:Armored Truck Driver And Messenger",
       "company": "GardaWorld",
@@ -17,44 +27,34 @@
       "via": "via EasyCareers"
     },
     {
-      "title": "Unarmed Security Officer",
-      "company": "Marksman",
-      "location": "Missouri City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/professional-unarmed-security-officer-missouri-city-texas--missouri-city--e97f2fe2bfc2ba46ae68a29fb8bce79c9",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Allied Universal is hiring: Security Officer in Missouri City",
       "company": "Allied Universal",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.recruit.net/job/allied-universal-is-security-officer-jobs/B2D0194542E5FF4A",
       "via": "via Recruit.net"
     },
     {
-      "title": "Licensed Event Security - Houston Rockets",
-      "company": "BEST Crowd Management",
+      "title": "Unarmed Security Officer",
+      "company": "Marksman",
       "location": "Missouri City, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.ziprecruiter.com/c/BEST-Crowd-Management/Job/Licensed-Event-Security-Houston-Rockets/-in-Missouri-City,TX?jid=b2dfacc3d09e8fe3",
-      "via": "via ZipRecruiter"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/professional-unarmed-security-officer-missouri-city-texas--missouri-city--e97f2fe2bfc2ba46ae68a29fb8bce79c9",
+      "via": "via JobLeads"
     },
     {
-      "title": "Certified Police Officer — Patrol & Community Safety",
-      "company": "City of Missouri City, TX",
+      "title": "Armed Mobile Security Driver - Overnight Patrol & Benefits",
+      "company": "Allied Universal",
       "location": "Missouri City, TX",
-      "pay": "72,961–84,612 a year",
+      "pay": "45K–50K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://jooble.org/jdp/3832103596723855749",
-      "via": "via Jooble"
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/armed-mobile-security-driver-overnight-patrol-benefits--missouri-city--e382aa65958021c005fe749b5d8a416a3",
+      "via": "via JobLeads"
     }
   ]
 }

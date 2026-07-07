@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/event-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Arena Event Security Guard Part-Time",
+      "company": "Trail Drive Management Corp",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
+      "via": "via Jobilize"
+    },
     {
       "title": "Event Security Staff",
       "company": "Andy Frain Services",
@@ -17,14 +27,14 @@
       "via": "via Monster"
     },
     {
-      "title": "Arena Event Security Guard Part-Time",
-      "company": "Trail Drive Management Corp",
-      "location": "Fort Worth, TX",
+      "title": "Director of Event Operations",
+      "company": "Andy Frain Services",
+      "location": "Rockwall, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-03",
+      "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-rockwall-texas/2854887330-2/",
+      "via": "via SaluteMyJob"
     },
     {
       "title": "Director of Event Operations",
@@ -32,7 +42,7 @@
       "location": "Allen, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-allen-texas/2854884752-2/",
       "via": "via SaluteMyJob"
     },
@@ -42,18 +52,8 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-fort-worth-texas/2854889259-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Director of Event Operations",
-      "company": "Andy Frain Services",
-      "location": "Rockwall, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-rockwall-texas/2854887330-2/",
       "via": "via SaluteMyJob"
     }
   ]

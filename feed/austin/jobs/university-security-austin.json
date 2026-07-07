@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Austin,TX?jid=9bd9e2a944dbcc9e",
       "via": "via ZipRecruiter"
     },
@@ -27,24 +27,24 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Tech Campus Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Austin, TX",
-      "pay": "16–25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://www.blackbarjobs.com/austin/jobs/tech-campus-security-austin",
-      "via": "via Jobs"
-    },
-    {
       "title": "University Security Officer",
       "company": "BlackBarJobs",
       "location": "Austin, TX",
       "pay": "17–32 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-27",
+      "posted_date": "2026-06-28",
       "apply_link": "https://www.blackbarjobs.com/austin/jobs/university-security-austin",
       "via": "via Blackbarjobs.com"
+    },
+    {
+      "title": "Tech Campus Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Austin, TX",
+      "pay": "16–25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://www.blackbarjobs.com/austin/jobs/tech-campus-security-austin",
+      "via": "via Jobs"
     },
     {
       "title": "Campus Security Specialist",

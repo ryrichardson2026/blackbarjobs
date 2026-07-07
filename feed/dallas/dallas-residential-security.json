@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-residential-security",
   "market": "DFW",
   "target": "city-role",
@@ -12,19 +12,29 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1625401/security-officer-community-patrol-associate/job",
-      "via": "via Allied Universal - ICIMS"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-community-patrol-associate-at-allied-universal-4437485696",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Police Officer: Patrol, Investigations & Community Impact",
-      "company": "City of Richardson Texas",
-      "location": "Richardson, TX",
+      "title": "Luxury Residential Security Officer – Dallas",
+      "company": "Stratton Amenities",
+      "location": "Dallas, TX",
+      "pay": "30K–50K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5223815212/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Luxury Residential Security Officer – Dallas (FT/PT)",
+      "company": "Stratton Amenities",
+      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://jooble.org/jdp/9008876880649122910",
-      "via": "via Jooble"
+      "posted_date": "2026-06-18",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5471813475695067136",
+      "via": "via Jobrapido"
     },
     {
       "title": "Armed Flex Executive Protection/Residential Security Agent",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/armed-security-officer-55-residential-community-north-dallas-17-hr-hrs-week-d-n-global-security-pllc--theirstack-680772871",
       "via": "via BeBee"
-    },
-    {
-      "title": "Patrol Security Officer - Residential Community Event Security Officer",
-      "company": "First In Security LLC",
-      "location": "Forney, TX",
-      "pay": "15–18 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/First-In-Security/Job/Patrol-Security-Officer-Residential-Community-Event-Security-Officer/-in-Forney,TX?jid=646114ca841950c6",
-      "via": "via ZipRecruiter"
     }
   ]
 }

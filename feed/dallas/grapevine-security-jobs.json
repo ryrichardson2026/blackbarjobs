@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/grapevine-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,23 +7,33 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Airport",
-      "company": "Allied Universal",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://bebee.com/us/jobs/security-officer-airport-allied-universal-grapevine--fj-2242813565",
-      "via": "via BeBee"
-    },
-    {
       "title": "Security Officer Patrol Screening",
       "company": "Allied Universal",
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-06",
       "apply_link": "https://bebee.com/us/jobs/security-officer-patrol-screening-allied-universal-grapevine--fj-2242813608",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Immersive Venue Security Officer: Protect & Engage",
+      "company": "Meow Wolf Dallas, LLC",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.whatjobs.com/jobs/immersive-venue-security-officer-protect/grapevine-texas?id=2860490069",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Security Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-airport-allied-universal-grapevine--fj-2242813565",
       "via": "via BeBee"
     },
     {
@@ -32,7 +42,7 @@
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.jobleads.com/us/job/evening-surveillance-security-specialist--grapevine--e220d8e282c93e511f575f805343b6e39",
       "via": "via JobLeads"
     },
@@ -42,19 +52,9 @@
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": null,
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/jdp/-8004927640038590461",
       "via": "via Jooble"
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "U.S. Navy",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242585968",
-      "via": "via Snagajob"
     }
   ]
 }

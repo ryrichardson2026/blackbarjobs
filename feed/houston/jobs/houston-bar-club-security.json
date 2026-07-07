@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/houston-bar-club-security",
   "market": "Houston",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Houston, TX",
       "pay": "20–22 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.simplyhired.com/job/UBffzi-ZfS9-3nYw2WGT0BDrJOro8qhgtoWSGAFgXn7jUALIz9HOmw",
       "via": "via SimplyHired"
     },
@@ -32,19 +32,9 @@
       "location": "Houston, TX",
       "pay": "16.00–16.50 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=047bbefca82de862",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Patrol Monitor",
-      "company": "Allied Universal",
-      "location": "Conroe, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-monitor-at-allied-universal-4437480759",
-      "via": "via LinkedIn"
     },
     {
       "title": "Security Officer Patrol Armed Enhanced Part Time",
@@ -52,9 +42,19 @@
       "location": "Humble, TX",
       "pay": "17.25 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Armed-Enhanced-Part-Time/-in-Humble,TX?jid=36fe547493d0cbaf",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Patrol",
+      "company": "Allied Universal",
+      "location": "Galveston, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4437488592",
+      "via": "via LinkedIn"
     }
   ]
 }

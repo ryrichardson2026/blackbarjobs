@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-loss-prevention",
   "market": "DFW",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Internship",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-ft-at-omni-hotels-resorts-4436259468",
       "via": "via LinkedIn"
     },
@@ -22,9 +22,29 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.indeed.com/viewjob?jk=e85a075743cb5bbb",
       "via": "via Indeed"
+    },
+    {
+      "title": "Assistant Loss Prevention Manager",
+      "company": "Marriott",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://careers.marriott.com/assistant-loss-prevention-manager/job/968725A7781842B8A99B92ADE6C9610C",
+      "via": "via Marriott Careers"
+    },
+    {
+      "title": "Lead, Security & Loss Prevention - 2nd Shift",
+      "company": "Fanatics Collectibles",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-22",
+      "apply_link": "https://www.glassdoor.com/job-listing/lead-security-loss-prevention-2nd-shift-fanatics-JV_IC1139977_KO0,39_KE40,48.htm?jl=1010109569415",
+      "via": "via Glassdoor"
     },
     {
       "title": "Loss Prevention Officer Overnight",
@@ -32,28 +52,8 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-09",
+      "posted_date": "2026-06-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=15e2bef074449c74",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Asset Protection Officer",
-      "company": "The TJX Companies, Inc.",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/asset-protection-officer-the-tjx-companies-inc-dallas--dc-8417C59315CF907CBD35D238D38DC3E1",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Hotel Security-Loss Prevention Associate",
-      "company": "Westin Dallas Downtown",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=a78d7c9236df94fa",
       "via": "via Indeed"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-construction-security",
   "market": "DFW",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Flower Mound, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-26",
+      "posted_date": "2026-06-27",
       "apply_link": "https://moraltheologian.com/career/job/construction-flex-security-officer-at-garda-world-security-corporation-flower-mound-tx-UTNOWDZzTzducHp6WnRTMU5OSHNEb1habUE9PQ==",
       "via": "via Moral Theologian"
     },
@@ -27,23 +27,13 @@
       "via": "via Talent.com"
     },
     {
-      "title": "Security Officer Central Dispatch",
+      "title": "Security Officer Enhanced Part Time Identity Screening",
       "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-central-dispatch-at-allied-universal-4437491470",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Patrol Compliance Analyst",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-analyst-at-allied-universal-4437498174",
+      "location": "Irving, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-identity-screening-at-allied-universal-4437478918",
       "via": "via LinkedIn"
     },
     {
@@ -52,8 +42,18 @@
       "location": "Plano, TX",
       "pay": "17–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Afternoon-Shift-(Varied)/-in-Plano,TX?jid=62f3161d08f9a898",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer - Office Building",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": "20.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Office-Building/-in-Irving,TX?jid=407d703f6c242ddc",
       "via": "via ZipRecruiter"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-part-time-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer – Driving & Screening (Part-Time)",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-driving-screening-part-time--dallas--e6a19a89f4c2bcbd13a653133af3b7bbf",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Part-Time Armed Access Control Officer - Government Site",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": "22K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.jobleads.com/us/job/part-time-armed-access-control-officer-government-site--dallas--e80258bb73addedf3aaf801c5c9a987a8",
       "via": "via JobLeads"
     },
@@ -22,7 +32,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/rjdp/4795378812576094822",
       "via": "via Jooble"
     },
@@ -32,7 +42,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
       "via": "via JobLeads"
     },
@@ -42,19 +52,9 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jooble.org/rjdp/2198138357915720873",
       "via": "via Jooble"
-    },
-    {
-      "title": "Part Time Security Officer, Irving TX",
-      "company": "Walden Security",
-      "location": "Dallas, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.ziprecruiter.com/c/Walden-Security/Job/Part-Time-Security-Officer,-Dallas-TX/-in-Dallas,TX?jid=1f61bbbd259b944c",
-      "via": "via ZipRecruiter"
     }
   ]
 }

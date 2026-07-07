@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-mobile-patrol",
   "market": "DFW",
   "target": "city-role",
@@ -7,22 +7,12 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
-      "via": "via LinkedIn"
-    },
-    {
       "title": "Security Officer Plaza Patrol",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-plaza-patrol-at-allied-universal-4436217342",
       "via": "via LinkedIn"
     },
@@ -32,9 +22,9 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1625401/security-officer-community-patrol-associate/job",
-      "via": "via Allied Universal - ICIMS"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-community-patrol-associate-at-allied-universal-4437485696",
+      "via": "via LinkedIn"
     },
     {
       "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
@@ -42,18 +32,28 @@
       "location": "Dallas, TX",
       "pay": "30K–45K a year",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Armed Patrol Driver (Part-Time) – Retail Security",
-      "company": "Alliedbarton Security Services",
+      "title": "Security Officer Patrol Screening",
+      "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1625460/security-officer-patrol-screening/job",
+      "via": "via Allied Universal - ICIMS"
+    },
+    {
+      "title": "Unarmed Security Officer — Patrol & Customer Service",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-patrol-customer-service--dallas--e7e33d51953613cb1a77dcdcca0fcbaa4",
       "via": "via JobLeads"
     }
   ]

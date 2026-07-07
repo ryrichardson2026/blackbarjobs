@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/dallas-overnight-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
+      "company": "Garda World Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Security Officers - Full-Time (Night Shift)",
       "company": "Smith Protective Services Inc.",
       "location": "Dallas, TX",
       "pay": "17–20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/rjdp/4760674944287707538",
       "via": "via Jooble"
     },
@@ -22,7 +32,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.jobleads.com/us/job/night-security-officer-luxury-senior-living--dallas--e8e9e38637c10cf9c5024bde6f36b2d8e",
       "via": "via JobLeads"
     },
@@ -32,19 +42,9 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.indeed.com/viewjob?jk=e85a075743cb5bbb",
       "via": "via Indeed"
-    },
-    {
-      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
-      "company": "Garda World Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/night-surveillance-officer-detail-driven-proactive-garda-world-security-dallas--lensa-7428_0eaaf6a0df3647ad01334bb89267f86754d4544231d2064d7972655375e970dc",
-      "via": "via BeBee"
     },
     {
       "title": "Overnight Security Officers -full and part time",
@@ -52,7 +52,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jooble.org/rjdp/2198138357915720873",
       "via": "via Jooble"
     }

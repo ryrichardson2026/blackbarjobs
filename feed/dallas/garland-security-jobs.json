@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/garland-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -12,7 +12,7 @@
       "location": "Garland, TX",
       "pay": "36K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/mobile-security-officer-full-time-plano-50-sign-on--garland--e387f0720d702777c9c22de2a10a6f02c",
       "via": "via JobLeads"
     },
@@ -22,9 +22,19 @@
       "location": "Garland, TX",
       "pay": "14.50–16.50 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.ziprecruiter.com/c/Texas-Industrial-Security/Job/Full-Part-Time-Unarmed-Officers-For-Garland-Area/-in-Garland,TX?jid=207419a4de00ce95",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Military Security Officer",
+      "company": "U.S. Navy",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.snagajob.com/jobs/1242586362",
+      "via": "via Snagajob"
     },
     {
       "title": "Security Officer - Garland",
@@ -32,7 +42,7 @@
       "location": "Garland, TX",
       "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-Garland/-in-Garland,TX?jid=086cab24bdbeade1",
       "via": "via ZipRecruiter"
     },
@@ -42,19 +52,9 @@
       "location": "Garland, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-06-28",
+      "posted_date": "2026-06-29",
       "apply_link": "https://www.tealhq.com/job/security-officer-enhanced-part-time-reception_7ea1ae7e0a42a1c8b36daaf96e93b843eb42b",
       "via": "via Teal"
-    },
-    {
-      "title": "Security Guard (Armed/Unarmed)",
-      "company": "Fast Guard Security Service",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-16",
-      "apply_link": "https://motorjobs.com/en/job/security-guard-armed-unarmed-1634",
-      "via": "via Motor Jobs"
     }
   ]
 }

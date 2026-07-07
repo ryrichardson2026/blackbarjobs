@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "houston/jobs/armed-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -12,18 +12,18 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-06",
       "apply_link": "https://jobs.aus.com/job/houston/security-guard-armed-vehicle-patrol-driver/22950/97437416976",
       "via": "via Allied Universal"
     },
     {
-      "title": "Armed Security Guard Job at National Collaboration Security, LLC in Houston",
+      "title": "National Collaboration Security, LLC is hiring: Armed Security Guard in Houston",
       "company": "National Collaboration Security, LLC",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.recruit.net/job/armed-security-guard-at-national-jobs/DAB2C0DB6EB6C47E",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.recruit.net/job/national-collaboration-security-llc-is-jobs/F9A8B292C5D1F877",
       "via": "via Recruit.net"
     },
     {
@@ -32,9 +32,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.indeed.com/viewjob?jk=128a49f186e09f94",
       "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Guard Job at National Collaboration Security, LLC in Houston",
+      "company": "National Collaboration Security, LLC",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.recruit.net/job/armed-security-guard-at-national-jobs/DAB2C0DB6EB6C47E",
+      "via": "via Recruit.net"
     },
     {
       "title": "Armed Security Officer Job at Quick Protection Inc in Houston",
@@ -42,19 +52,9 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.recruit.net/job/armed-security-officer-at-quick-jobs/14040FC6F1A7CF12",
       "via": "via Recruit.net"
-    },
-    {
-      "title": "Armed Security Guard – Flexible Schedule & Benefits",
-      "company": "Premier Protective Security",
-      "location": "Houston, TX",
-      "pay": "37K–41K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-guard-flexible-schedule-benefits--houston--ec71fb3affb14a89ab994ae3a43353b3e",
-      "via": "via JobLeads"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "austin/jobs/round-rock-security-jobs",
   "market": "Austin",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer - Weekly Pay, Benefits & Advancement",
+      "company": "Secureone Security Services Inc",
+      "location": "Round Rock, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-weekly-pay-benefits-advancement--round-rock--e359a8842aa16740b197982e58d96a065",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Temp to Full-time Seasonal Security Officers",
       "company": "Brushy Creek Municipal Utility District",
       "location": "Round Rock, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://jooble.org/rjdp/-6337148886394346832",
       "via": "via Jooble"
     },
@@ -22,29 +32,9 @@
       "location": "Round Rock, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.jobleads.com/us/job/hotel-security-patrol-officer-unarmed-full-time--round-rock--e52a48224218d3ad144cf519c1d37cb93",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Professional - Full Time",
-      "company": "Kalahari Resorts and Conventions",
-      "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jooble.org/rjdp/5771709476976475201",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
-      "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Round-Rock,TX?jid=559ef5599bb589d8",
-      "via": "via ZipRecruiter"
     },
     {
       "title": "Security Officer Armed",
@@ -52,9 +42,19 @@
       "location": "Round Rock, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4435257497",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Round Rock, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Round-Rock,TX?jid=559ef5599bb589d8",
+      "via": "via ZipRecruiter"
     }
   ]
 }

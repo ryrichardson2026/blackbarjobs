@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:04:00.920548+00:00",
+  "generated": "2026-07-07T04:22:19.586533+00:00",
   "page": "dallas/mckinney-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,24 +7,24 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Driver Patrol Security Clearance",
+      "company": "Allied Universal",
+      "location": "McKinney, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-patrol-security-clearance-at-allied-universal-4437495424",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Security Officer Driving Role with Active Clearance",
       "company": "Allied Universal",
       "location": "McKinney, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1626591/security-officer-driving-role-with-active-clearance/job",
-      "via": "via Allied Universal - ICIMS"
-    },
-    {
-      "title": "Security Officer Driver Patrol Security Clearance",
-      "company": "Allied Universal",
-      "location": "McKinney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1626590/security-officer-driver-patrol-security-clearance/job",
-      "via": "via Allied Universal - ICIMS"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d7a475ca1f7bc0c3",
+      "via": "via Indeed"
     },
     {
       "title": "Security Officer III (Armed)",
@@ -32,7 +32,7 @@
       "location": "McKinney, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.ziprecruiter.com/c/ENCORE-WIRE-CORP-&-SUB/Job/Security-Officer-III-(Armed)/-in-Mckinney,TX?jid=887ca50398f7fa6b",
       "via": "via ZipRecruiter"
     },
@@ -42,7 +42,7 @@
       "location": "McKinney, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.clearancejobs.com/jobs/9011069/security-officer-mobile-patrol-driver-clearance-required",
       "via": "via Clearance Jobs"
     },
@@ -52,7 +52,7 @@
       "location": "McKinney, TX",
       "pay": "50K–70K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-warrants-deputy--mckinney--e66c22b1d0453975924b107ae3a5465f2",
       "via": "via JobLeads"
     }
