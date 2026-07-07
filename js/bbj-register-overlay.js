@@ -204,6 +204,55 @@
   }
 
   // ── PUBLIC API ───────────────────────────────────────────────
+  // Post-registration: feed pages already show aligned jobs, so stay in place
+  // (bbj_registered cookie unlocks applies). Feedless hub pages still get the board.
+  // After account creation, render a success splash (kept open) with a single
+  // Browse Jobs button that goes to the board filtered to this page.
+  function bbjShowBrowseSplash(spinnerId, txtId){
+    var sp = document.getElementById(spinnerId); if (sp) sp.style.display = 'none';
+    if (typeof bbjMorphCtas === 'function') bbjMorphCtas();  // flip lander CTAs too, in case they dismiss this
+    var url = bbjBrowseUrl();
+    var el = document.getElementById(txtId);
+    if (el) el.innerHTML =
+      "You're in."
+      + "<span style='display:block;margin-top:8px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your account is ready. Browse jobs matched to this search.</span>"
+      + "<a href='" + url + "' style='display:block;box-sizing:border-box;width:100%;margin-top:20px;padding:15px;background:#FFC300;color:#000814;font-family:\"Barlow Condensed\",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;'>Browse Jobs \u2192</a>";
+  }
+
+  // Once registered, alerts are already active from signup, so register CTAs
+  // become browse actions: scroll to the on-page feed, or go to the board if none.
+  // Build a board URL filtered to this page's context, derived from the feed key
+  // e.g. "austin/jobs/armed-security-austin" -> /job-board?role=armed-security-austin&city=austin
+  function bbjBrowseUrl(){
+    var key = window.BBJ_FEED_KEY || '';
+    if (!key) return '/job-board';
+    var parts = key.split('/');
+    var metro = (parts[0] || '').replace(/-/g, ' ');
+    var slug  = parts[parts.length - 1] || '';
+    var qs = [];
+    if (slug && slug !== 'index') qs.push('role=' + encodeURIComponent(slug));
+    if (metro) qs.push('city=' + encodeURIComponent(metro));
+    return '/job-board' + (qs.length ? '?' + qs.join('&') : '');
+  }
+  // Once registered, alerts are already active from signup, so register CTAs
+  // become a Browse Jobs action that opens the board filtered to this page.
+  function bbjMorphCtas(){
+    if (document.cookie.indexOf('bbj_registered=1') === -1) return;
+    var ctas = document.querySelectorAll('[onclick*="bbjAlertOpen"],[onclick*="bbjAccOpen"]');
+    [].forEach.call(ctas, function(el){
+      if (/alert/i.test(el.textContent)) el.textContent = 'Browse Jobs \u2192';
+      el.setAttribute('href', bbjBrowseUrl());
+      el.onclick = function(e){
+        if (e && e.preventDefault) e.preventDefault();
+        window.location.href = bbjBrowseUrl();
+        return false;
+      };
+    });
+  }
+  window.bbjBrowseUrl = bbjBrowseUrl;
+  window.bbjShowBrowseSplash = bbjShowBrowseSplash;
+  document.addEventListener('DOMContentLoaded', bbjMorphCtas);
+
   window.bbjRegOpen = function() {
     document.getElementById('bbjStep1').style.display   = 'block';
     document.getElementById('bbjLoader').style.display  = 'none';
@@ -397,7 +446,7 @@
       window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'account_created' });
 
       _showLoader('Creating your account...');
-      setTimeout(function() { bbjRegClose(); window.location.href = '/job-board'; }, 2000);
+      setTimeout(function() { bbjShowBrowseSplash('bbjLoaderSpinner', 'bbjLoaderTxt'); }, 700);
     });
 
   });
@@ -660,7 +709,7 @@
     // Loader then job board
     document.getElementById('bbjAccForm').style.display = 'none';
     document.getElementById('bbjAccLoader').style.display = 'block';
-    setTimeout(function(){ bbjAccClose(); window.location.href = '/job-board'; }, 2000);
+    setTimeout(function() { window.bbjShowBrowseSplash('bbjAccSpinner', 'bbjAccLoaderTxt'); }, 700);
   };
 
 })();
