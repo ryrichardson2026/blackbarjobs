@@ -1,0 +1,38 @@
+BBJ WEEKLY FEED AUTOMATION  ·  setup (about 5 minutes, once)
+
+WHAT IT DOES
+  Every Tuesday, GitHub runs fetch -> snapshot -> commit -> push on its own.
+  No computer, no PowerShell, no keys typed. Vercel redeploys automatically.
+
+STEP 1  put these files in your repo
+  Extract this zip at your repo root. It adds two things:
+    automation/            (the scripts the robot runs)
+    .github/workflows/feed-refresh.yml   (the schedule + steps)
+
+STEP 2  add your two keys as GitHub secrets
+  On github.com, open your repo -> Settings -> Secrets and variables -> Actions
+  -> New repository secret. Add these two (names must match exactly):
+    SEARCHAPI_KEY          = your searchapi key
+    SUPABASE_SERVICE_KEY   = your Supabase service_role key
+  Secrets are encrypted and never visible in logs. This is the safe home for them.
+
+STEP 3  commit and push
+  git add automation .github
+  git commit -m "ci: weekly feed automation"
+  git push
+
+STEP 4  test it now (don't wait until Tuesday)
+  On github.com, open your repo -> Actions tab -> "Weekly feed refresh" ->
+  "Run workflow" button -> Run. Watch it go green (takes a few minutes).
+  When done, check your Supabase job count and that a "weekly feed refresh"
+  commit appeared. If green, the Tuesday schedule is live.
+
+CHANGE THE DAY/TIME
+  Edit the cron line in feed-refresh.yml. It's in UTC.
+  '0 14 * * 2' = Tuesday 14:00 UTC. The 2 is Tuesday (0=Sun ... 6=Sat).
+
+NOTES
+  - Scripts are stdlib-only, so no installs needed.
+  - The action only commits when the feed actually changed.
+  - Your local supabase-jobfeed folder stays your scratch space; the robot
+    uses the automation/ copy. Keep them the same when you change queries.

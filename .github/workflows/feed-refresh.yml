@@ -1,0 +1,44 @@
+name: Weekly feed refresh
+
+on:
+  schedule:
+    - cron: '0 14 * * 2'      # every Tuesday 14:00 UTC (~9am Central, 7am Pacific)
+  workflow_dispatch: {}        # adds a manual "Run workflow" button
+
+permissions:
+  contents: write              # lets the action commit the refreshed feed
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch jobs into Supabase
+        env:
+          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python automation/bbj_feed_fetch.py --queries automation/bbj_feed_queries.json
+
+      - name: Build feed snapshot
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python automation/bbj_feed_snapshot.py --targets automation/bbj_page_targets.json --out feed
+
+      - name: Commit and push refreshed feed
+        run: |
+          git config user.name "bbj-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed
+          if git diff --staged --quiet; then
+            echo "No feed changes this run."
+          else
+            git commit -m "chore: weekly feed refresh"
+            git push
+          fi
