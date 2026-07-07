@@ -614,13 +614,8 @@ function submitAlert(){
   window.addEventListener('scroll',chk,{passive:true});chk();
 })();
 </script>
-<script>(function(){
-  var CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
-  function parseCSV(t){var lines=t.trim().split('\n');var headers=lines[0].split(',').map(function(h){return h.replace(/"/g,'').trim();});return lines.slice(1).map(function(line){var cols=[],cur='',inQ=false;for(var i=0;i<line.length;i++){var c=line[i];if(c==='"'){inQ=!inQ;}else if(c===','&&!inQ){cols.push(cur);cur='';}else{cur+=c;}}cols.push(cur);var obj={};headers.forEach(function(h,i){obj[h]=(cols[i]||'').replace(/"/g,'').trim();});return obj;}).filter(function(o){return o.title;});}
-  function render(jobs){var c=document.getElementById('jobRows');if(!c)return;if(!jobs.length){c.innerHTML='<div style="padding:14px 0;color:var(--muted);font-size:0.85rem;">No listings right now — check back soon.</div>';return;}c.innerHTML=jobs.map(function(j){var url=encodeURIComponent(j.apply_link||'');return '<div class="jf-row" onclick="bbjHandleApply(this)" data-url="'+url+'"><div class="jf-body"><div class="jf-title">'+(j.title||'')+'</div><div class="jf-meta"><span class="jf-company">'+(j.company||'')+'</span>'+(j.location?'<span class="jf-sep">·</span><span>'+j.location+'</span>':'')+(j.pay?'<span class="jf-pay">'+j.pay+'</span>':'')+'</div></div><a class="jf-apply">View</a></div>';}).join('');}
-  fetch(CSV_URL).then(function(r){return r.text();}).then(function(text){var jobs=parseCSV(text);var active=jobs.filter(function(j){return(j.active||'').toLowerCase()==='yes';});active.sort(function(a,b){return new Date(b.date_pulled||0)-new Date(a.date_pulled||0);});render(active.slice(0,5));}).catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div style="padding:14px 0;color:var(--muted);font-size:0.85rem;">Could not load jobs.</div>';});
-  window.bbjHandleApply=window.bbjHandleApply||function(el){var url=decodeURIComponent(el.dataset.url||'');if(!url)return;if(document.cookie.indexOf('bbj_registered=1')!==-1){window.open(url,'_blank');return;}var views=parseInt((document.cookie.match(/bbj_views=(\d+)/)||[0,0])[1],10);if(views<2){views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';window.open(url,'_blank');return;}if(typeof bbjAccOpen==='function'){bbjAccOpen();}else{window.open(url,'_blank');}};
-})();</script>
+<script>window.BBJ_FEED_KEY="dallas/bedford-security-jobs";</script>
+<script src="/js/bbj-feed.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>

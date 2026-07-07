@@ -816,62 +816,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
 
-<script>
-(function(){
-  var CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
-  function parseCSV(t){
-    var lines=t.trim().split('\n');
-    var headers=lines[0].split(',').map(function(h){return h.replace(/"/g,'').trim();});
-    return lines.slice(1).map(function(line){
-      var cols=[],cur='',inQ=false;
-      for(var i=0;i<line.length;i++){
-        var c=line[i];
-        if(c==='"'){inQ=!inQ;}
-        else if(c===','&&!inQ){cols.push(cur);cur='';}
-        else{cur+=c;}
-      }
-      cols.push(cur);
-      var obj={};
-      headers.forEach(function(h,i){obj[h]=(cols[i]||'').replace(/"/g,'').trim();});
-      return obj;
-    }).filter(function(o){return o.title;});
-  }
-  function render(jobs){
-    var c=document.getElementById('jobRows');if(!c)return;
-    if(!jobs.length){c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">No listings right now — check back soon.</div></div></div>';return;}
-    c.innerHTML=jobs.map(function(j){
-      var url=encodeURIComponent(j.apply_link||'');
-      return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="bbjHandleApply(this)" data-url="'+url+'">'
-        +'<div class="hf-body"><div class="hf-title">'+(j.title||'')+'</div>'
-        +'<div class="hf-meta">'+(j.company||'')+(j.location?' &middot; '+j.location:'')+(j.pay?' &middot; '+j.pay:'')+'</div></div>'
-        +'<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">'+'<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>'+'<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>'+'</div>'
-        +'</div>';
-    }).join('');
-  }
-  fetch(CSV_URL)
-    .then(function(r){return r.text();})
-    .then(function(text){
-      var jobs=parseCSV(text);
-      var active=jobs.filter(function(j){return (j.active||'').toLowerCase()==='yes';});
-      active.sort(function(a,b){return new Date(b.date_pulled||0)-new Date(a.date_pulled||0);});
-      render(active.slice(0,5));
-    })
-    .catch(function(){var c=document.getElementById('jobRows');if(c)c.innerHTML='<div class="hf-row"><div class="hf-body"><div class="hf-title" style="color:#5a6474;">Could not load jobs.</div></div></div>';});
-  window.bbjHandleApply=function(el){
-    var url=decodeURIComponent(el.dataset.url||'');
-    if(!url)return;
-    if(typeof bbjIsRegistered==='function'&&bbjIsRegistered()){window.open(url,'_blank');return;}
-    if(document.cookie.indexOf('bbj_registered=1')!==-1){window.open(url,'_blank');return;}
-    var views=parseInt((document.cookie.match(/bbj_views=(\d+)/)||[0,0])[1],10);
-    if(views<2){
-      views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';
-      window.open(url,'_blank');return;
-    }
-    if(typeof bbjAccOpen==='function'){bbjAccOpen();}
-    else{window.open(url,'_blank');}
-  };
-})();
-</script>
+<script>window.BBJ_FEED_KEY="dallas/design-district-dallas-security";</script>
+<script src="/js/bbj-feed.js" defer></script>
 <script src="/js/bbj-register-overlay.js"></script>
 </body>
 </html>
