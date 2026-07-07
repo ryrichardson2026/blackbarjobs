@@ -323,22 +323,6 @@ footer a{color:rgba(255,255,255,0.28);text-decoration:underline;}
 
 <script>
 (function(){var b=document.getElementById('stickyBar');var h=document.getElementById('heroAnchor');if(!b||!h)return;function chk(){b.classList.toggle('show',h.getBoundingClientRect().bottom<=0);}window.addEventListener('scroll',chk,{passive:true});chk();})();
-function submitAlert(){
-  var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-ph').value.trim();
-  var em=document.getElementById('a-em').value.trim();
-  var er=document.getElementById('alertError');
-  er.style.display='none';
-  var zc=zip.replace(/\D/g,'');
-  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';return;}
-  var pc=ph.replace(/\D/g,'');
-  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';return;}
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'armed_security',city:'dallas',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates from BlackBarJobs.'})});
-  document.getElementById('alertForm').style.display='none';
-  document.getElementById('alertSuccess').style.display='block';
-}
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
