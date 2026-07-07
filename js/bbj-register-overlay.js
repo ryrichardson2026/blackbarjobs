@@ -204,13 +204,6 @@
   }
 
   // ── PUBLIC API ───────────────────────────────────────────────
-  // Post-registration: feed pages already show aligned jobs, so stay in place
-  // (bbj_registered cookie unlocks applies). Feedless hub pages still get the board.
-  function bbjPostReg(closeFn){
-    var hasFeed = !!window.BBJ_FEED_KEY || !!document.getElementById('jobRows');
-    if (hasFeed) { closeFn(); } else { closeFn(); window.location.href = '/job-board'; }
-  }
-
   window.bbjRegOpen = function() {
     document.getElementById('bbjStep1').style.display   = 'block';
     document.getElementById('bbjLoader').style.display  = 'none';
@@ -404,11 +397,7 @@
       window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'account_created' });
 
       _showLoader('Creating your account...');
-      setTimeout(function() {
-        var sp = document.getElementById('bbjLoaderSpinner'); if (sp) sp.style.display = 'none';
-        document.getElementById('bbjLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
-        setTimeout(function(){ bbjPostReg(bbjRegClose); }, 1600);
-      }, 700);
+      setTimeout(function() { bbjRegClose(); window.location.href = '/job-board'; }, 2000);
     });
 
   });
@@ -671,11 +660,7 @@
     // Loader then job board
     document.getElementById('bbjAccForm').style.display = 'none';
     document.getElementById('bbjAccLoader').style.display = 'block';
-    setTimeout(function() {
-      var sp = document.getElementById('bbjAccSpinner'); if (sp) sp.style.display = 'none';
-      document.getElementById('bbjAccLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
-      setTimeout(function(){ bbjPostReg(bbjAccClose); }, 1600);
-    }, 700);
+    setTimeout(function(){ bbjAccClose(); window.location.href = '/job-board'; }, 2000);
   };
 
 })();
