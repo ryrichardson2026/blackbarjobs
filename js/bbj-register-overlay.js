@@ -206,11 +206,17 @@
   // ── PUBLIC API ───────────────────────────────────────────────
   // Post-registration: feed pages already show aligned jobs, so stay in place
   // (bbj_registered cookie unlocks applies). Feedless hub pages still get the board.
-  function bbjPostReg(closeFn){
-    // Stay on the page they registered on, then flip the CTAs to browse-mode
-    // immediately so nothing waits on a manual refresh.
-    closeFn();
-    if (typeof bbjMorphCtas === 'function') bbjMorphCtas();
+  // After account creation, render a success splash (kept open) with a single
+  // Browse Jobs button that goes to the board filtered to this page.
+  function bbjShowBrowseSplash(spinnerId, txtId){
+    var sp = document.getElementById(spinnerId); if (sp) sp.style.display = 'none';
+    if (typeof bbjMorphCtas === 'function') bbjMorphCtas();  // flip lander CTAs too, in case they dismiss this
+    var url = bbjBrowseUrl();
+    var el = document.getElementById(txtId);
+    if (el) el.innerHTML =
+      "You're in."
+      + "<span style='display:block;margin-top:8px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your account is ready. Browse jobs matched to this search.</span>"
+      + "<a href='" + url + "' style='display:block;box-sizing:border-box;width:100%;margin-top:20px;padding:15px;background:#FFC300;color:#000814;font-family:\"Barlow Condensed\",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;'>Browse Jobs \u2192</a>";
   }
 
   // Once registered, alerts are already active from signup, so register CTAs
@@ -438,11 +444,7 @@
       window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'account_created' });
 
       _showLoader('Creating your account...');
-      setTimeout(function() {
-        var sp = document.getElementById('bbjLoaderSpinner'); if (sp) sp.style.display = 'none';
-        document.getElementById('bbjLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
-        setTimeout(function(){ bbjPostReg(bbjRegClose); }, 1600);
-      }, 700);
+      setTimeout(function() { bbjShowBrowseSplash('bbjLoaderSpinner', 'bbjLoaderTxt'); }, 700);
     });
 
   });
@@ -705,11 +707,7 @@
     // Loader then job board
     document.getElementById('bbjAccForm').style.display = 'none';
     document.getElementById('bbjAccLoader').style.display = 'block';
-    setTimeout(function() {
-      var sp = document.getElementById('bbjAccSpinner'); if (sp) sp.style.display = 'none';
-      document.getElementById('bbjAccLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
-      setTimeout(function(){ bbjPostReg(bbjAccClose); }, 1600);
-    }, 700);
+    setTimeout(function() { bbjShowBrowseSplash('bbjAccSpinner', 'bbjAccLoaderTxt'); }, 700);
   };
 
 })();
