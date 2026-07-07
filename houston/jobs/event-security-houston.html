@@ -18,18 +18,7 @@
 <meta name="twitter:description" content="Event security jobs in Houston. NRG Stadium, Toyota Center, Minute Maid Park, Shell Energy Stadium. BEST Crowd Management and Andy Frain hiring. $16-22/hr.">
 <!-- Google Tag Manager -->
 <script>
-function openModal() {
-    document.getElementById('step1').classList.add('active');
-    document.getElementById('step5').classList.remove('active');
-    var ce = document.getElementById('contactError');
-    if(ce) ce.style.display = 'none';
-    document.getElementById('modalOverlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-    setTimeout(function(){
-      var z = document.getElementById('f-zip');
-      if(z) z.focus();
-    }, 400);
-  }
+
 
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -1210,12 +1199,12 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 {
   "@context": "https://schema.org/",
   "@type": "JobPosting",
-  "title": "Unarmed Security Officer",
-  "description": "Unarmed security officer positions (Level 2) across Dallas-Fort Worth. Responsibilities include access control, patrol, monitoring, and incident reporting at commercial and residential properties.",
+  "title": "Event Security Officer",
+  "description": "Event security officer positions across Houston. Responsibilities include access control, patrol, monitoring, and incident reporting at commercial and residential properties.",
   "identifier": {
     "@type": "PropertyValue",
     "name": "BlackBarJobs",
-    "value": "unarmed-security-dfw"
+    "value": "event-security-houston"
   },
   "datePosted": "2026-06-14",
   "validThrough": "2026-12-31",
@@ -1230,13 +1219,13 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Dallas",
+      "addressLocality": "Houston",
       "addressRegion": "TX",
-      "postalCode": "75201",
+      "postalCode": "77002",
       "addressCountry": "US"
     }
   },
-  "url": "https://www.blackbarjobs.com/dallas/unarmed-security-dfw"
+  "url": "https://www.blackbarjobs.com/houston/jobs/event-security-houston"
 }
 </script>
 <script type="application/ld+json">
@@ -1245,8 +1234,8 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "BlackBarJobs", "item": "https://www.blackbarjobs.com"},
-    {"@type": "ListItem", "position": 2, "name": "DFW Security Jobs", "item": "https://www.blackbarjobs.com/dallas"},
-    {"@type": "ListItem", "position": 3, "name": "Unarmed Security Officer", "item": "https://www.blackbarjobs.com/dallas/unarmed-security-dfw"}
+    {"@type": "ListItem", "position": 2, "name": "Houston Security Jobs", "item": "https://www.blackbarjobs.com/houston"},
+    {"@type": "ListItem", "position": 3, "name": "Event Security Officer", "item": "https://www.blackbarjobs.com/houston/jobs/event-security-houston"}
   ]
 }
 </script>
@@ -1268,7 +1257,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 <!-- HERO — not full screen height so sticky triggers quickly on scroll -->
 <section class="hero" id="heroAnchor">
   <div class="hero-image-wrap">
-    <img src="/images/unarmed-security-hero.jpg" alt="Unarmed Security Jobs Dallas–Fort Worth" loading="eager">
+    <img src="/images/unarmed-security-hero.jpg" alt="Event Security Jobs Houston" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
  <div class="hero-content">
@@ -1475,7 +1464,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
     <span>·</span>
     <a href="/texas/texas-security-license-requirements">TX License Guide</a>
     <span>·</span>
-    <a href="/">DFW Security Jobs</a>
+    <a href="/dallas">DFW Security Jobs</a>
     <span>·</span>
     <a href="/san-antonio">San Antonio Security Jobs</a>
     <span>·</span>
@@ -1510,148 +1499,17 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 
 
 // ALERT FORM
-function submitAlert(){
-  var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-ph').value.trim();
-  var em=document.getElementById('a-em').value.trim();
-  var er=document.getElementById('alertError');
-  er.style.display='none';
-  ['a-zip','a-ph','a-em'].forEach(function(id){var el=document.getElementById(id);if(el)el.classList.remove('err');});
-  var zc=zip.replace(/\D/g,'');
-  if(zc.length!==5){er.textContent='Please enter your ZIP code.';er.style.display='block';document.getElementById('a-zip').classList.add('err');return;}
-  var pc=ph.replace(/\D/g,'');
-  if(pc.length<10&&!em){er.textContent='Please enter a phone number or email.';er.style.display='block';document.getElementById('a-ph').classList.add('err');return;}
-  if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){er.textContent='Please enter a valid email or leave blank.';er.style.display='block';document.getElementById('a-em').classList.add('err');return;}
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({event:'alert_form_submit',page_url:window.location.href,zip:zc});
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),zip:zc,phone:pc,email:em,role:'security',city:'dfw',source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
-  document.getElementById('alertForm').style.display='none';
-  document.getElementById('alertSuccess').style.display='block';
-}
+
 </script>
-<div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
-  <div class="modal-sheet" id="modalSheet">
-    <div class="modal-handle"></div>
-    <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
-    <div class="progress-bar-wrap">
-      <div style="text-align:center;padding:4px 0 8px;">
-        <span style="font-family:'Barlow Condensed',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);">Get Instant Job Alerts — Free</span>
-      </div>
-    </div>
-    <div class="steps-container">
-      <div class="modal-step active" id="step1">
-        <div class="step-title">Get Job Alerts →</div>
-        <div class="step-sub">New DFW openings texted to you the moment they post.</div>
-        <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:14px;">
-          <div class="field-wrap">
-            <span class="field-icon">📍</span>
-            <input id="f-zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="ZIP Code" maxlength="5" autocomplete="postal-code">
-          </div>
-          <div class="field-wrap">
-            <span class="field-icon">📱</span>
-            <input id="f-phone" type="tel" inputmode="tel" placeholder="Mobile Number" autocomplete="tel">
-          </div>
-          <div class="field-wrap">
-            <span class="field-icon">✉️</span>
-            <input id="f-email" type="email" inputmode="email" placeholder="Email (optional)" autocomplete="email">
-          </div>
-        </div>
-        <div id="contactError" style="display:none;color:#e53935;font-size:0.75rem;margin-bottom:8px;"></div>
-        <a href="#" onclick="bbjAlertOpen();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">Get Job Alerts →</a>
-        <p style="font-size:0.68rem;color:var(--muted);line-height:1.5;margin-top:12px;text-align:center;">By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank" style="color:var(--muted);">Privacy Policy</a>.</p>
-      </div>
 
-      <!-- SUCCESS -->
-      <div class="modal-step" id="step5">
-        <div class="success-step">
-          <div class="success-icon">
-            <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
-              <circle class="check-circle" cx="36" cy="36" r="34" stroke="#22c55e" stroke-width="4" fill="none" stroke-linecap="round"/>
-              <path class="check-mark" d="M20 37l11 11 21-22" stroke="#22c55e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-            </svg>
-          </div>
-          <h2>You're On The List</h2>
-          <p>We'll notify you when security jobs open near you.</p>
-          <span class="success-sms-note">
-            <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><rect x="3" y="4" width="14" height="10" rx="2" stroke="#003566" stroke-width="1.5"/><path d="M7 17l3-3 3 3" stroke="#003566" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Most alerts sent by SMS
-          </span>
-          <button class="success-close" onclick="closeModal()">Done</button>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </div>
 <script>
 
   
-  function closeModal() {
-    var sheet = document.getElementById('modalSheet');
-    var isMobile = window.innerWidth < 640;
-    sheet.style.transform = isMobile ? 'translateY(100%)' : 'translateY(30px) scale(0.97)';
-    sheet.style.opacity = '0';
-    setTimeout(function() {
-      document.getElementById('modalOverlay').classList.remove('open');
-      sheet.style.transform = '';
-      sheet.style.opacity = '';
-      document.body.style.overflow = '';
-    }, 280);
-  }
+  
 
-  function handleOverlayClick(e) {
-    if (e.target === document.getElementById('modalOverlay')) closeModal();
-  }
+  
 
-  function submitModal() {
-    var zip   = document.getElementById('f-zip').value.trim();
-    var phone = document.getElementById('f-phone').value.trim();
-    var email = document.getElementById('f-email').value.trim();
-    var errEl = document.getElementById('contactError');
-    errEl.style.display = 'none';
-
-    if (!zip || zip.length < 5) {
-      errEl.textContent = 'Please enter your ZIP code.';
-      errEl.style.display = 'block';
-      document.getElementById('f-zip').focus();
-      return;
-    }
-    if (!phone && !email) {
-      errEl.textContent = 'Please enter a phone number or email.';
-      errEl.style.display = 'block';
-      document.getElementById('f-phone').focus();
-      return;
-    }
-
-    var pc = phone.replace(/\D/g,'');
-
-    // Fire GTM + Google Ads conversion
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({event:'alert_form_submit', zip:zip});
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'conversion', {'send_to': 'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});
-    }
-
-    // Send to Make.com
-    fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        timestamp: new Date().toISOString(),
-        zip: zip,
-        phone: pc,
-        email: email,
-        source: window.location.href,
-        consent: true,
-        consent_timestamp: new Date().toISOString(),
-        consent_text: 'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'
-      })
-    });
-
-    // Show success
-    document.getElementById('step1').classList.remove('active');
-    document.getElementById('step5').classList.add('active');
-  }
+  
 
   function toggleFaq(el) {
     var item = el.parentElement;
@@ -1670,8 +1528,6 @@ function submitAlert(){
     chk();
   })();
 
-  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeModal(); });
-
 
 // INDEX JOB FEED
 
@@ -1685,236 +1541,6 @@ function submitAlert(){
 
 
 
-<script>
-/* ─────────────────────────────────────────────
-   BBJ UNIFIED GATE v5
-   White card, 3 steps: Role Type → License → Contact
-   ───────────────────────────────────────────── */
-
-var BBJ_WEBHOOK='https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
-var BBJ_COOKIE='bbj_registered=1';
-
-function bbjIsRegistered(){return document.cookie.indexOf(BBJ_COOKIE)!==-1;}
-function bbjSetRegistered(){document.cookie=BBJ_COOKIE+'; max-age=2592000; path=/; SameSite=Lax';}
-function bbjGetViewCookie(){var m=document.cookie.match(/bbj_views=(\d+)/);return m?parseInt(m[1],10):0;}
-function bbjSetViewCookie(n){document.cookie='bbj_views='+n+'; path=/; SameSite=Lax';}
-
-var _bbjGateDest='',_bbjGateApplyUrl='',_bbjGateSource='';
-var _bbjLicVal='',_bbjHelpVal='',_bbjSMSChecked=false;
-
-/* ── STYLES ── */
-var BBJ_GATE_STYLES='<style id="bbjGS">'
-+'#bbjGate{display:none;position:fixed;inset:0;z-index:2000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}'
-+'@media(min-width:640px){#bbjGate{align-items:center;}}'
-+'#bbjSheet{background:#fff;width:100%;max-width:440px;border-radius:22px 22px 0 0;padding:30px 22px 36px;position:relative;max-height:92dvh;overflow-y:auto;}'
-+'@media(min-width:640px){#bbjSheet{border-radius:18px;}}'
-+'#bbjXbtn{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;background:#f4f5f7;border:none;cursor:pointer;font-size:1.1rem;color:#5a6474;display:flex;align-items:center;justify-content:center;}'
-+'#bbjXbtn:hover{background:#e2e5ea;}'
-+'.bbj-h1{font-family:"Barlow Condensed",sans-serif;font-size:1.75rem;font-weight:800;color:#000814;line-height:1.05;margin-bottom:4px;}'
-+'.bbj-sub{font-size:0.82rem;color:#5a6474;margin-bottom:18px;}'
-+'.bbj-dots{display:flex;gap:6px;margin-bottom:22px;}'
-+'.bbj-dot{width:8px;height:8px;border-radius:50%;background:#e2e5ea;transition:background 0.2s;}'
-+'.bbj-dot.on{background:#000814;}'
-/* Question label */
-+'.bbj-qlabel{font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;color:#000814;margin-bottom:12px;}'
-/* Full-width clickable rows */
-+'.bbj-row{width:100%;background:#f4f5f7;border:1.5px solid #e2e5ea;border-radius:10px;padding:14px 16px;margin-bottom:8px;text-align:left;color:#1a1a1a;font-family:"Barlow",sans-serif;font-size:0.95rem;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:12px;transition:border-color 0.15s,background 0.15s;box-sizing:border-box;}'
-+'.bbj-row:hover{border-color:#FFC300;background:#fffbeb;}'
-+'.bbj-row.on{border-color:#000814;background:#000814;color:#FFC300;font-weight:700;}'
-+'.bbj-radio{width:20px;height:20px;border-radius:50%;border:2px solid #c8cdd4;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}'
-+'.bbj-row.on .bbj-radio{border-color:#FFC300;background:#FFC300;}'
-+'.bbj-radio-inner{width:8px;height:8px;border-radius:50%;background:#000814;opacity:0;}'
-+'.bbj-row.on .bbj-radio-inner{opacity:1;}'
-/* Inputs */
-+'.bbj-input{width:100%;padding:13px 14px;border:1.5px solid #e2e5ea;border-radius:10px;font-size:1rem;font-family:"Barlow",sans-serif;color:#1a1a1a;background:#fff;outline:none;-webkit-appearance:none;box-sizing:border-box;margin-bottom:9px;display:block;}'
-+'.bbj-input:focus{border-color:#000814;}'
-+'.bbj-input::placeholder{color:#a0aab4;}'
-/* SMS checkbox row */
-+'.bbj-sms-row{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#f4f5f7;border-radius:10px;margin-bottom:9px;cursor:pointer;}'
-+'.bbj-sms-box{width:20px;height:20px;border:2px solid #c8cdd4;border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all 0.15s;}'
-+'.bbj-sms-box.on{background:#000814;border-color:#000814;}'
-+'.bbj-sms-label{font-size:0.9rem;color:#1a1a1a;font-family:"Barlow",sans-serif;font-weight:500;}'
-/* TCPA */
-+'.bbj-tcpa{font-size:0.7rem;color:#a0aab4;line-height:1.5;margin-bottom:12px;}'
-+'.bbj-tcpa a{color:#a0aab4;}'
-/* Buttons */
-+'.bbj-btn{width:100%;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:none;border-radius:10px;cursor:pointer;transition:background 0.15s;margin-bottom:8px;}'
-+'.bbj-btn:hover{background:#FFD60A;}'
-+'.bbj-btn:disabled{opacity:0.35;cursor:not-allowed;}'
-+'.bbj-back{background:none;border:none;color:#a0aab4;font-family:"Barlow",sans-serif;font-size:0.82rem;cursor:pointer;padding:4px 0;}'
-+'.bbj-back:hover{color:#5a6474;}'
-+'.bbj-unsub{font-size:0.7rem;color:#a0aab4;text-align:center;margin-top:6px;}'
-+'.bbj-err{display:none;color:#e53935;font-size:0.8rem;margin-bottom:8px;}'
-+'</style>';
-
-/* ── HTML ── */
-function bbjBuildGate(){
-  return '<div id="bbjGate"><div id="bbjSheet">'
-  +'<button id="bbjXbtn" onclick="bbjCloseGate()" aria-label="Close">✕</button>'
-  +'<div class="bbj-h1">Sign Up to See Jobs</div>'
-  +'<div class="bbj-sub">Free to join. No resume required.</div>'
-  +'<div class="bbj-dots"><div class="bbj-dot on" id="bbjD1"></div><div class="bbj-dot" id="bbjD2"></div><div class="bbj-dot" id="bbjD3"></div></div>'
-
-  /* STEP 1 — Role type */
-  +'<div id="bbjS1">'
-  +'<div class="bbj-qlabel">What type of roles are you interested in?</div>'
-  +bbjRow('role','Full-Time')+bbjRow('role','Part-Time')+bbjRow('role','Event')+bbjRow('role','On-Call')+bbjRow('role','Any role type')
-  +'<button class="bbj-btn" id="bbjN1" onclick="bbjGoStep(2)" disabled>Continue →</button>'
-  +'</div>'
-
-  /* STEP 2 — License */
-  +'<div id="bbjS2" style="display:none;">'
-  +'<div class="bbj-qlabel">Do you have a security license?</div>'
-  +bbjRow('lic','Level 2')+bbjRow('lic','Level 3')+bbjRow('lic','Both')+bbjRow('lic','No license yet')
-  +'<div id="bbjHelpWrap" style="display:none;margin-top:4px;margin-bottom:4px;">'
-  +'<div class="bbj-qlabel" style="font-size:0.95rem;margin-bottom:8px;">Want help getting licensed?</div>'
-  +'<div style="display:flex;gap:8px;">'+bbjRowInline('help','Yes')+bbjRowInline('help','No thanks')+'</div>'
-  +'</div>'
-  +'<button class="bbj-btn" id="bbjN2" onclick="bbjGoStep(3)" disabled style="margin-top:8px;">Continue →</button>'
-  +'<button class="bbj-back" onclick="bbjGoStep(1)">← Back</button>'
-  +'</div>'
-
-  /* STEP 3 — Contact */
-  +'<div id="bbjS3" style="display:none;">'
-  +'<input id="bbjName" class="bbj-input" type="text" placeholder="Full Name" autocomplete="name">'
-  +'<input id="bbjEmail" class="bbj-input" type="email" placeholder="Email Address" autocomplete="email" inputmode="email">'
-  +'<div class="bbj-sms-row" onclick="bbjToggleSMS()">'
-  +'<div class="bbj-sms-box" id="bbjSMSbox"></div>'
-  +'<span class="bbj-sms-label">Receive SMS alerts for new jobs</span>'
-  +'</div>'
-  +'<div id="bbjPhoneWrap" style="display:none;"><input id="bbjPhone" class="bbj-input" type="tel" placeholder="Phone Number" autocomplete="tel" inputmode="tel"></div>'
-  +'<div class="bbj-err" id="bbjErr"></div>'
-  +'<div class="bbj-tcpa">By submitting I agree to receive email updates and SMS updates if applicable. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</div>'
-  +'<button class="bbj-btn" onclick="bbjSubmitGate()">See Jobs →</button>'
-  +'<div class="bbj-unsub">Unsubscribe anytime.</div>'
-  +'<button class="bbj-back" onclick="bbjGoStep(2)">← Back</button>'
-  +'</div>'
-
-  +'</div></div>';
-}
-
-function bbjRow(group,label){
-  return '<button class="bbj-row" onclick="bbjPickRow(this,\''+group+'\',\''+label+'\')" data-group="'+group+'" data-val="'+label+'">'
-    +'<span class="bbj-radio"><span class="bbj-radio-inner"></span></span>'+label+'</button>';
-}
-function bbjRowInline(group,label){
-  return '<button class="bbj-row" onclick="bbjPickRow(this,\''+group+'\',\''+label+'\')" data-group="'+group+'" data-val="'+label+'" style="flex:1;margin-bottom:0;">'
-    +'<span class="bbj-radio"><span class="bbj-radio-inner"></span></span>'+label+'</button>';
-}
-
-/* ── INTERACTIONS ── */
-function bbjPickRow(btn,group,val){
-  document.querySelectorAll('#bbjSheet [data-group="'+group+'"]').forEach(function(b){b.classList.remove('on');});
-  btn.classList.add('on');
-  if(group==='role'){
-    document.getElementById('bbjN1').disabled=false;
-  }
-  if(group==='lic'){
-    _bbjLicVal=val;
-    var hw=document.getElementById('bbjHelpWrap');
-    if(val==='No license yet'){
-      hw.style.display='block';
-      _bbjHelpVal='';
-      document.getElementById('bbjN2').disabled=true;
-    } else {
-      hw.style.display='none';
-      _bbjHelpVal='';
-      document.getElementById('bbjN2').disabled=false;
-    }
-  }
-  if(group==='help'){
-    _bbjHelpVal=val;
-    document.getElementById('bbjN2').disabled=false;
-  }
-}
-
-function bbjToggleSMS(){
-  _bbjSMSChecked=!_bbjSMSChecked;
-  var box=document.getElementById('bbjSMSbox');
-  box.classList.toggle('on',_bbjSMSChecked);
-  box.innerHTML=_bbjSMSChecked?'<svg width="11" height="9" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#FFC300" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';
-  document.getElementById('bbjPhoneWrap').style.display=_bbjSMSChecked?'block':'none';
-  if(!_bbjSMSChecked){var p=document.getElementById('bbjPhone');if(p)p.value='';}
-}
-
-function bbjGoStep(n){
-  [1,2,3].forEach(function(i){
-    var s=document.getElementById('bbjS'+i);if(s)s.style.display=(i===n)?'block':'none';
-    var d=document.getElementById('bbjD'+i);if(d)d.classList.toggle('on',i<=n);
-  });
-  var sh=document.getElementById('bbjSheet');if(sh)sh.scrollTop=0;
-}
-
-/* ── OPEN / CLOSE ── */
-function bbjOpenGate(dest,source){
-  _bbjGateDest=dest||'/job-board';
-  _bbjGateSource=source||window.location.href;
-  if(!document.getElementById('bbjGate')){
-    if(!document.getElementById('bbjGS'))document.head.insertAdjacentHTML('beforeend',BBJ_GATE_STYLES);
-    document.body.insertAdjacentHTML('beforeend',bbjBuildGate());
-  }
-  /* reset */
-  _bbjLicVal='';_bbjHelpVal='';_bbjSMSChecked=false;
-  document.querySelectorAll('#bbjSheet .bbj-row').forEach(function(b){b.classList.remove('on');});
-  var hw=document.getElementById('bbjHelpWrap');if(hw)hw.style.display='none';
-  var n1=document.getElementById('bbjN1');if(n1)n1.disabled=true;
-  var n2=document.getElementById('bbjN2');if(n2)n2.disabled=true;
-  var smsbox=document.getElementById('bbjSMSbox');if(smsbox){smsbox.classList.remove('on');smsbox.innerHTML='';}
-  var pw=document.getElementById('bbjPhoneWrap');if(pw)pw.style.display='none';
-  ['bbjName','bbjEmail','bbjPhone'].forEach(function(id){var el=document.getElementById(id);if(el)el.value='';});
-  var err=document.getElementById('bbjErr');if(err)err.style.display='none';
-  bbjGoStep(1);
-  document.getElementById('bbjGate').style.display='flex';
-  document.body.style.overflow='hidden';
-}
-
-function bbjCloseGate(){
-  var el=document.getElementById('bbjGate');if(el)el.style.display='none';
-  document.body.style.overflow='';
-}
-
-/* ── SUBMIT ── */
-function bbjSubmitGate(){
-  var name=(document.getElementById('bbjName')||{}).value||'';
-  var email=(document.getElementById('bbjEmail')||{}).value||'';
-  var phone=_bbjSMSChecked?((document.getElementById('bbjPhone')||{}).value||''):'';
-  var err=document.getElementById('bbjErr');
-  name=name.trim();email=email.trim();phone=phone.trim();
-  if(!name){err.textContent='Please enter your name.';err.style.display='block';return;}
-  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err.textContent='Please enter a valid email.';err.style.display='block';return;}
-  if(_bbjSMSChecked&&phone.replace(/\D/g,'').length<10){err.textContent='Please enter a valid phone number.';err.style.display='block';return;}
-  err.style.display='none';
-  var roleVal=document.querySelector('#bbjS1 .bbj-row.on');
-  fetch(BBJ_WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
-    timestamp:new Date().toISOString(),type:'candidate',name:name,email:email,
-    phone:phone.replace(/\D/g,''),sms_consent:_bbjSMSChecked,
-    role_type:roleVal?roleVal.getAttribute('data-val'):'',
-    tx_license:_bbjLicVal,license_help:_bbjHelpVal,
-    source:_bbjGateSource,form:'gate_v5',consent:true,
-    consent_text:'User agreed to receive email and SMS updates if applicable from BlackBarJobs.'
-  })});
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({event:'network_join',source:'gate_v5'});
-  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
-  bbjSetRegistered();
-  bbjCloseGate();
-  if(_bbjGateApplyUrl){window.open(_bbjGateApplyUrl,'_blank');_bbjGateApplyUrl='';}
-  else if(_bbjGateDest){window.location.href=_bbjGateDest;}
-}
-
-/* ── GATED LINK ── */
-var _bbjGateApplyUrl='';
-function bbjGo(dest){
-  if(bbjIsRegistered()){window.location.href=dest;return;}
-  _bbjGateApplyUrl='';
-  bbjOpenGate(dest,window.location.href);
-}
-
-/* ── BACKDROP + ESC ── */
-document.addEventListener('click',function(e){var el=document.getElementById('bbjGate');if(el&&e.target===el)bbjCloseGate();});
-document.addEventListener('keydown',function(e){if(e.key==='Escape')bbjCloseGate();});
-
-</script>
 
 
 <script>window.BBJ_FEED_KEY="houston/jobs/event-security-houston";</script>
