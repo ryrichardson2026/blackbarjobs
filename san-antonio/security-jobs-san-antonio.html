@@ -583,7 +583,7 @@
     <p style="display:block;font-family:'Barlow Condensed',sans-serif;font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#6b7280;margin:0 0 6px;">Browse</p>
     <h2 style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#000814;margin:0 0 18px;">Texas Security Resources</h2>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:680px;margin:0 auto;">
-      <a href="/" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ DFW Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
+      <a href="/dallas" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ DFW Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
       <a href="/houston" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ Houston Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
       <a href="/san-antonio" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ San Antonio Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
       <a href="/austin" style="display:flex;align-items:center;justify-content:space-between;padding:11px 14px;border:1.5px solid #e2e5ea;border-radius:10px;text-decoration:none;background:#fff;"><span style="font-family:'Barlow Condensed',sans-serif;font-size:0.93rem;font-weight:700;color:#000814;">🗺️ Austin Security Jobs</span><span style="color:#9ca3af;font-size:0.8rem;">→</span></a>
@@ -603,7 +603,7 @@
     <span>·</span>
     <a href="/san-antonio/jobs/armed-security-san-antonio">Armed Security</a>
     <span>·</span>
-    <a href="/">DFW Security Jobs</a>
+    <a href="/dallas">DFW Security Jobs</a>
     <span>·</span>
     <a href="/houston">Houston Security Jobs</a>
     <span>·</span>
@@ -616,22 +616,7 @@
 
 <script>
 function toggleFaq(el){el.parentElement.classList.toggle('open');}
-function submitAlert(){
-  var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-ph').value.trim();
-  var em=document.getElementById('a-em').value.trim();
-  var er=document.getElementById('alertError');
-  if(er){er.style.display='none';er.textContent='';}
-  function showErr(msg,id){if(er){er.textContent=msg;er.style.cssText='display:block;color:#ff6b6b;font-size:0.82rem;margin:4px 0 2px;';}var f=document.getElementById(id);if(f)f.focus();}
-  if(!zip||zip.length<5){showErr('Please enter your ZIP code.','a-zip');return;}
-  if(!ph&&!em){showErr('Please enter a phone number or email.','a-ph');return;}
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({event:'alert_form_submit',zip:zip});
-  if(typeof gtag!=='undefined'){gtag('event','conversion',{'send_to':'AW-17039190320/rYvuCM6Mu7IcELDS9bw_'});}
-  fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({timestamp:new Date().toISOString(),type:'candidate',form:'job_alert',zip:zip,phone:ph.replace(/\D/g,''),email:em,source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'})});
-  var f=document.getElementById('alertForm');var ok=document.getElementById('alertSuccess');
-  if(f)f.style.display='none';if(ok)ok.style.display='block';
-}
+
 (function(){
   var b=document.getElementById('stickyBar'),h=document.querySelector('.hero');
   if(!b||!h)return;
