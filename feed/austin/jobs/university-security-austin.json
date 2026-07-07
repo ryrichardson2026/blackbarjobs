@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Austin,TX?jid=9bd9e2a944dbcc9e",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Campus Safety & Operations Support",
+      "company": "Young World Physical Education",
+      "location": "Pflugerville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-pflugerville-security-officer-campus-safety-operations-support",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Tech Campus Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Austin, TX",
+      "pay": "16–25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://www.blackbarjobs.com/austin/jobs/tech-campus-security-austin",
+      "via": "via Jobs"
+    },
+    {
+      "title": "University Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Austin, TX",
+      "pay": "17–32 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://www.blackbarjobs.com/austin/jobs/university-security-austin",
+      "via": "via Blackbarjobs.com"
+    },
+    {
+      "title": "Campus Security Specialist",
+      "company": "Texas Southmost College",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.linkedin.com/jobs/view/campus-security-specialist-at-texas-southmost-college-4418675979",
+      "via": "via LinkedIn"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "san-antonio/jobs/part-time-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Concierge Security Officer - Customer-Facing (Part-Time)",
+      "company": "Garda World Security",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://salutemyjob.com/jobs/concierge-security-officer-customer-facing-part-time-san-antonio-texas/2858816802-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
+      "company": "Texas Health and Human Services Commission",
+      "location": "San Antonio, TX",
+      "pay": "3,100.00–4,365.66 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Part Time Access Control Officer - POLY / TX CONST",
+      "company": "CenCore LLC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.ziprecruiter.com/c/CenCore-LLC/Job/Part-Time-Access-Control-Officer-Poly-TX-CONST-with-Security-Clearance/-in-San-Antonio,TX?jid=67b848299d8f165d",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Part-Time Unarmed Security Officer: Flexible Shifts Job at Allied Universal in San Antonio",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-shifts-at-jobs/AB116ACCD51D494F",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Part-Time Security",
+      "company": "Defense Consulting Services",
+      "location": "San Antonio, TX",
+      "pay": "20,173–28,731 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://us.trabajo.org/job-2283-42a19bf395dcdccfd4526a8d4047dc09",
+      "via": "via Trabajo.org"
+    }
+  ]
 }

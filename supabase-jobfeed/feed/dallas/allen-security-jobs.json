@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/allen-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Guard; shifts",
+      "company": "Excelsior Defense",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/allen/texas/security/5258623821/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Director of Event Operations",
+      "company": "Andy Frain Services",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-allen-texas/2854884752-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer - Retail Afternoon FRO Div 2",
+      "company": "United Protective Services",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobilize.com/job/us-tx-allen-security-officer-retail-afternoon-fro-div-2-united-protective",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Military Security Officer - Now Hiring",
+      "company": "U.S. Navy",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242590605",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Unarmed Retail Security Officer - Evening Patrol & Growth",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": "37K–41K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-retail-security-officer-evening-patrol-growth--allen--e901186ba39a509fbc5d08d1db22eb3a1",
+      "via": "via JobLeads"
+    }
+  ]
 }

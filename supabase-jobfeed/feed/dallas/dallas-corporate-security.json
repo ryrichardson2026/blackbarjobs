@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-corporate-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Elite Security Officer - Corporate Campus (Dallas)",
+      "company": "IIdon Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Corporate Security Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5243611750/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officers - Corporate & Armed Transit Opportunities - Up to $26.45/hr",
+      "company": "Inter-Con Security Systems",
+      "location": "Dallas, TX",
+      "pay": "19.75–26.45 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.simplyhired.com/job/SNLExEJEx7D9FFJ_sZVEUKNmJ302_-B9iKXBcrVNzNFx5gf3nDxuyg",
+      "via": "via SimplyHired"
+    },
+    {
+      "title": "Sr Manager, Corporate Security Investigations",
+      "company": "American Airlines",
+      "location": "Dallas, TX",
+      "pay": "100K–130K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.theladders.com/job/sr-manager-corporate-security-investigations-americanairlines-dallas-tx_83108969",
+      "via": "via Ladders"
+    },
+    {
+      "title": "Strategic Corporate Security Leader",
+      "company": "The Security Executive Council",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://us.jobrapido.com/jobpreview/3413097644833112064",
+      "via": "via Jobrapido"
+    }
+  ]
 }

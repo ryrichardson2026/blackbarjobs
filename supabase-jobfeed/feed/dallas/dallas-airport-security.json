@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-airport-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Airport Checkpoint Screener; TSA",
+      "company": "Airport Security",
+      "location": "Dallas, TX",
+      "pay": "45,760–65,341 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/entertainment/5240231845/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Aviation Security Officer - Part-Time with Paid Training",
+      "company": "Global Elite Group",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobleads.com/us/job/aviation-security-officer-part-time-with-paid-training--dallas--e20e8f9e10316adaa459d7e149df2fa51",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Aviation Security Specialist at DFW Airport",
+      "company": "ACTS-Aviation Security, Inc",
+      "location": "Dallas, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5229356751/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
+      "company": "Airport Security Careers",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-lak/2843475061-2/",
+      "via": "via SaluteMyJob"
+    }
+  ]
 }

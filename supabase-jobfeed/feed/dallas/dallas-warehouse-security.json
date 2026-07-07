@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-warehouse-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
+      "company": "Congregational Security Inc.",
+      "location": "Dallas, TX",
+      "pay": "23–25 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.indeed.com/viewjob?jk=25348896f417937b",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Warehouse Security Officer | Smart Tools & Career Growth",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/warehouse-security-officer-smart-tools-career-growth--dallas--ef806b355293cc3556ab3c360cb3c5921",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer Distribution Center",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-distribution-center/22950/97253110016",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Warehouse Security Officer | Smart Tools & Career",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "16–18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5237048609/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer- Distribution Center - Part Time",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "32,885 a year",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.sorce.jobs/jobs/security-officer-distribution-center-part-time-allied-universal-j1_93nBAZPawQIKU_XlAnnIUeappGjDsh3z-mF_Ig9LqhfS-pYl",
+      "via": "via Sorce"
+    }
+  ]
 }

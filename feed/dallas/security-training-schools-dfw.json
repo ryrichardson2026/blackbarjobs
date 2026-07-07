@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/security-training-schools-dfw",
   "market": "DFW",
   "target": "general",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Central Dispatch",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-central-dispatch-at-allied-universal-4437491470",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Patrol Compliance Analyst",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-analyst-at-allied-universal-4437498174",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer - Afternoon Shift (Varied)",
+      "company": "United Protective Services",
+      "location": "Plano, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Afternoon-Shift-(Varied)/-in-Plano,TX?jid=62f3161d08f9a898",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security - Corporal",
+      "company": "Arlington Independent School District",
+      "location": "Arlington, TX",
+      "pay": "20.45–28.85 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Arlington-ISD/Job/Security-Corporal/-in-Arlington,TX?jid=2e148b5cd07a55ea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Full Time",
+      "company": "United Protective Services",
+      "location": "Fort Worth, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "via": "via ZipRecruiter"
+    }
+  ]
 }

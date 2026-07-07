@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/full-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Full Time",
+      "company": "United Protective Services",
+      "location": "Fort Worth, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Operations Manager - Full-time",
+      "company": "Kronos",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
+      "via": "via Digitalhire"
+    },
+    {
+      "title": "Security Officer - Full Time , Rotating at Texas Health Resources Bedford, TX",
+      "company": "Texas Health Resources",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://aotvintage.com/gig/job/security-officer-full-time-rotating-at-texas-health-resources-bedford-tx-ak12RmdhQThZNjF4bE5yOUdQOURPZHRqY3c9PQ==",
+      "via": "via Aotvintage.com"
+    },
+    {
+      "title": "Front Desk Security Pro — Full-Time, Plano",
+      "company": "Marksman Security",
+      "location": "The Colony, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/front-desk-security-pro-full-time-plano--the-colony--eb7e1426e960187b033e8fbe6275ba91b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officers - Full-time & Part-Time - Evenings & Nights",
+      "company": "IIdon Security",
+      "location": "Irving, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/8486029637406956736",
+      "via": "via Jooble"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/lewisville-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Military Security Officer",
+      "company": "US Navy",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-lewisville-military-security-officer-navy-hiring-now-job-immediately",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Part-Time Lobby Desk Security Officer (Night Shift)",
+      "company": "Alliedbarton Security Services",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jooble.org/jdp/6313699425694025712",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Front Desk Security Officer - Visitor Access Specialist",
+      "company": "Alliedbarton Security Services",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jooble.org/jdp/7325861308323853139",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer Driver Patrol Support",
+      "company": "Allied Universal",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-driver-patrol-support/22950/97253112368",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Security Officer Armed - Security",
+      "company": "Christus Health",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/lewisville-tx/security-officer-armed-security-474070/",
+      "via": "via Women For Hire- Job Board"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Allied Universal is hiring: Armed Security Officer Flex - Data Center in Fort Worth",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Armed Security Officer Data Center - Clearance Required",
+      "company": "Allied Universal",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/bedford-tx/armed-security-officer-data-center-clearance-required-163757/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
+      "title": "Global 24/7 Datacenter Security Leader",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Red Oak, TX",
+      "pay": "65K–85K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobleads.com/us/job/global-24-7-datacenter-security-leader--red-oak--e99e48016b2228323aa7da721b95ce1f9",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Officer Data Center - Clearance Required",
+      "company": "Allied Universal",
+      "location": "Blue Mound, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/blue-mound-tx/armed-security-officer-data-center-clearance-required-101801/",
+      "via": "via GetHiredToday | Largest Job Board For Women - Women For Hire"
+    },
+    {
+      "title": "Armed Security Officer Data Center - Clearance Required",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-23",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/armed-security-officer-data-center-clearance-required/22950/96880044064",
+      "via": "via Allied Universal"
+    }
+  ]
 }

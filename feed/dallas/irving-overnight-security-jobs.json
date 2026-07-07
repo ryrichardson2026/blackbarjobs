@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/irving-overnight-security-jobs",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer - Overnight Varied",
+      "company": "United Protective Services",
+      "location": "Frisco, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=99d5c0546a8ab05b",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer - Overnight Varied",
+      "company": "United Protective Services",
+      "location": "Plano, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Overnight-Varied/-in-Plano,TX?jid=c6f4afed2e6b3182",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Part-Time Security Officer; DoD Cleared — Night Patrol",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5258525052/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officers - Night Shift",
+      "company": "Middleton Place",
+      "location": "Denton, TX",
+      "pay": "15.50–17.50 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/2518206293985511485",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officers - Full-Time (Night Shift)",
+      "company": "Gondola",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/5201297054225839802",
+      "via": "via Jooble"
+    }
+  ]
 }

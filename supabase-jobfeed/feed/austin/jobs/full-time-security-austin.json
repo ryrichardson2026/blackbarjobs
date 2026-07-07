@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "austin/jobs/full-time-security-austin",
   "market": "Austin",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officers Immediate Hire/Start Tomorrow $22 HR Full-Time (Austin)",
+      "company": "North America Security & Select Services",
+      "location": "Austin, TX",
+      "pay": "22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.ziprecruiter.com/c/North-America-Security-&-Select-Services/Job/Security-Officers-Immediate-Hire-Start-Tomorrow-$22-HR-Full-Time-(Austin)/-in-Austin,TX?jid=1683a985afb32d56",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer- Full-Time",
+      "company": "HYATT Hotels",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobilize.com/job/us-tx-austin-security-officer-full-time-hyatt-hotels-hiring-now-job",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Security Officer Full Time Patrol Position",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://jobs.aus.com/job/austin/security-officer-full-time-patrol-position/22950/97194980000",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Full Time Armed Security Driver Patrol",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://salutemyjob.com/jobs/full-time-armed-security-driver-patrol-austin-texas/2842294897-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Armed Security Guard (Full-Time – Day Shift)",
+      "company": "MATRIX SECURITY GUARD SERVICES LLC",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.craigslist.org/view/d/austin-armed-security-guard-full-time/oCrVNJv53nfy7wc2FHp4FS",
+      "via": "via Craigslist"
+    }
+  ]
 }

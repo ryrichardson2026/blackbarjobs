@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "houston/jobs/humble-security-jobs",
   "market": "Houston",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Patrol Armed Enhanced Part Time",
+      "company": "Allied Universal",
+      "location": "Humble, TX",
+      "pay": "17.25 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Armed-Enhanced-Part-Time/-in-Humble,TX?jid=36fe547493d0cbaf",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Humble,TX?jid=b28ed02cb8a89b56",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Detention Center Custody & Security Officer",
+      "company": "Gfoat",
+      "location": "Humble, TX",
+      "pay": "28,709–31,863 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/humble/texas/government/5261188991/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Level III Commission Security Guard",
+      "company": "F. W. Security LLC",
+      "location": "Humble, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.indeed.com/viewjob?jk=7b3c6080199a8de5",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Professional - No Experience Necessary",
+      "company": "Securitas Security Services USA",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/846244918646685854",
+      "via": "via Jooble"
+    }
+  ]
 }

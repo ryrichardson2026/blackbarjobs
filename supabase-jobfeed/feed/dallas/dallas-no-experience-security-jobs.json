@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-no-experience-security-jobs",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Secure Entry Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-secure-entry-specialist-at-allied-universal-4436222241",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Entry-Level Juvenile Detention Officer - Youth Care & Safety",
+      "company": "Dallasact",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://bebee.com/us/jobs/entry-level-juvenile-detention-officer-youth-care-safety-dallasact-dallas--lensa-7428_f91fcf1764b836176c583f640ee21b1ccab8db22937cac81c30f067d656aa0f7",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
+      "company": "Airport Security Careers",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-lak/2843475061-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Airport Checkpoint Screener (TSA) – Full-Time, No Experience Required",
+      "company": "Airport Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-21",
+      "apply_link": "https://www.whatjobs.com/jobs/airport-checkpoint-screener-tsa/dallas-texas?id=2816180118",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Behavior Detection Officer (BDO) - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Lake Dallas, TX",
+      "pay": "23–45 an hour",
+      "schedule": null,
+      "posted_date": "2026-06-07",
+      "apply_link": "https://jooble.org/jdp/-5518507949051242202",
+      "via": "via Jooble"
+    }
+  ]
 }

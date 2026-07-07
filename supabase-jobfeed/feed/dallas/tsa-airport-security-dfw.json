@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/tsa-airport-security-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-airport-allied-universal-grapevine--fj-2242813565",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
+      "location": "North Richland Hills, TX",
+      "pay": "25–50 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jooble.org/jdp/4105170484613475717",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Armed Security Officer; Req.) Aviation Firm",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5243561824/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Airport Checkpoint Screener; TSA",
+      "company": "Airport Security",
+      "location": "Dallas, TX",
+      "pay": "45,760–65,341 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/entertainment/5240231845/e/",
+      "via": "via Learn4Good"
+    }
+  ]
 }

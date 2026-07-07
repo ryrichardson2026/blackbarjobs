@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-government-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Part-Time Armed Access Control Officer - Government Site",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "22K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-armed-access-control-officer-government-site--dallas--e80258bb73addedf3aaf801c5c9a987a8",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Municipal Court Security Officer",
+      "company": "City of Mesquite",
+      "location": "Mesquite, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-officer--mesquite--e5d23743c588435c51979a3aac57e7a2f",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Municipal Court Security Specialist",
+      "company": "City of Rowlett, Texas",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-specialist--rowlett--e72b4e690274917c4149c6e2ff5a707aa",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Municipal Court Security & Warrants Deputy",
+      "company": "City of McKinney",
+      "location": "McKinney, TX",
+      "pay": "50K–70K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-warrants-deputy--mckinney--e66c22b1d0453975924b107ae3a5465f2",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Court Security Officer — Municipal Court",
+      "company": "City-of-Rowlett",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobleads.com/us/job/court-security-officer-municipal-court--rowlett--e1db3c7b78828889c5e37450ca538f436",
+      "via": "via JobLeads"
+    }
+  ]
 }

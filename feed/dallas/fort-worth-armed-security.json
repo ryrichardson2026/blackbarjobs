@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Armed Security Flex Officer - Cleared Position",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Allied Universal is hiring: Armed Security Officer Flex - Data Center in Fort Worth",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Armed Security Officer; Level 3 - Special Events, Same",
+      "company": "New Legacy Private Security",
+      "location": "Fort Worth, TX",
+      "pay": "18–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5250150361/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Security Driver for Aerospace Facility",
+      "company": "Alliedbarton Security Services",
+      "location": "Fort Worth, TX",
+      "pay": "27K–28K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-driver-for-aerospace-facility--fort-worth--eec68dab45261de623bd89cb724e39c5d",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Fort Worth Armed Patrol Officer – Night Shift & Benefits",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/fort-worth-armed-patrol-officer-night-shift-benefits--fort-worth--e4509164feec3e9fcee2dd338affa0c8f",
+      "via": "via JobLeads"
+    }
+  ]
 }

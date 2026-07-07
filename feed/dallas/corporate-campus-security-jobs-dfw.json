@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/corporate-campus-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Elite Security Officer - Corporate Campus (Dallas)",
+      "company": "IIdon Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Corporate Security Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5243611750/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Shift Supervisor Corporate Building",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-shift-supervisor-corporate-building/22950/97147740352",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Security Officers - Corporate & Armed Transit Opportunities - Up to $26.45/hr",
+      "company": "Inter-Con Security Systems",
+      "location": "Dallas, TX",
+      "pay": "19.75–26.45 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.simplyhired.com/job/SNLExEJEx7D9FFJ_sZVEUKNmJ302_-B9iKXBcrVNzNFx5gf3nDxuyg",
+      "via": "via SimplyHired"
+    },
+    {
+      "title": "Supervisor, Physical Security & Corporate Badging",
+      "company": "American Airlines",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://www.linkedin.com/jobs/view/supervisor-physical-security-corporate-badging-at-american-airlines-4430242071",
+      "via": "via LinkedIn"
+    }
+  ]
 }

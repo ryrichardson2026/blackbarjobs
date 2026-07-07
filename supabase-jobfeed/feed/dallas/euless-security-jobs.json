@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/euless-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Military Security Officer - Now Hiring",
+      "company": "U.S. Navy",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242581635",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Euless, TX",
+      "pay": "16–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.blackbarjobs.com/jobs/euless-security-jobs",
+      "via": "via Jobs"
+    },
+    {
+      "title": "Unarmed Security Officer at Marksman Security Euless, TX",
+      "company": "Marksman Security",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-24",
+      "apply_link": "https://allproasset.com/work/job/unarmed-security-officer-at-marksman-security-euless-tx-Q3djK2c4bEtHRk04bHh6VGdzWjdOOGxubkE9PQ==",
+      "via": "via All Pro Asset Solutions"
+    },
+    {
+      "title": "Security Guard (Armed/Unarmed)",
+      "company": "Fast Guard Security Service",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-16",
+      "apply_link": "https://motorjobs.com/en/job/security-guard-armed-unarmed-1363",
+      "via": "via Motor Jobs"
+    },
+    {
+      "title": "Division Protective Services Specialist (Dallas/Fort Worth, TX)",
+      "company": "QuikTrip Corporation",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-16",
+      "apply_link": "https://careers.quiktrip.com/QuikTrip/job/EULESS-Division-Protective-Services-Specialist-%28DallasFort-Worth%2C-TX%29-TX-76039/1330165400/",
+      "via": "via QuikTrip"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/cedar-hill-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Guard; shifts",
+      "company": "Excelsior Defense",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623840/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Evening Armed Guard; PT",
+      "company": "Excelsior Defense",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623308/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Military Police Officer - Now Hiring",
+      "company": "U.S. Navy",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242567265",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Supply Chain Security Officer: Patrol & Protect",
+      "company": "JCPenney",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/supply-chain-security-officer-patrol-protect--cedar-hill--ea28c50df03cb88381895e0e52e6797e0",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Military Security Officer - Now Hiring",
+      "company": "U.S. Navy",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242583821",
+      "via": "via Snagajob"
+    }
+  ]
 }

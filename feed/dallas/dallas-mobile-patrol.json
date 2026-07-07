@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-mobile-patrol",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Patrol Screening",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Plaza Patrol",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-plaza-patrol-at-allied-universal-4436217342",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Community Patrol Associate",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1625401/security-officer-community-patrol-associate/job",
+      "via": "via Allied Universal - ICIMS"
+    },
+    {
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Patrol Driver (Part-Time) – Retail Security",
+      "company": "Alliedbarton Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
+      "via": "via JobLeads"
+    }
+  ]
 }

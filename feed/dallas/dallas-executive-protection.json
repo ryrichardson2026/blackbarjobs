@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-executive-protection",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Executive Protection Specialist - Global Protective Operations",
+      "company": "Gavin de Becker & Associates",
+      "location": "Dallas, TX",
+      "pay": "120K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.ziprecruiter.com/c/Gavin-de-Becker-&-Associates/Job/Executive-Protection-Specialist-Global-Protective-Operations/-in-Dallas,TX?jid=b5930a4ef1bff70b",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Executive Protection & Security Specialist",
+      "company": "Security Industry Specialists, Inc.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobleads.com/us/job/executive-protection-security-specialist--dallas--e9c954ab7ec34bbaa8f110085a513e298",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Executive Protection Specialist - Part-Time Travel Ready",
+      "company": "Security Industry Specialists",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobleads.com/us/job/executive-protection-specialist-part-time-travel-ready--dallas--ef084a637ffbc740dd6e1450a89fc3cae",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Commercial Account Executive - Electronic Security",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://jobs.aus.com/job/dallas/commercial-account-executive-electronic-security/22950/97101119712",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Global Executive Protection Specialist – Travel-Heavy Security",
+      "company": "Gavin de Becker & Associates (GDBA)",
+      "location": "Dallas, TX",
+      "pay": "120K–150K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.jobleads.com/us/job/global-executive-protection-specialist-travel-heavy-security--dallas--e67287556296f18a85ce13959b622638b",
+      "via": "via JobLeads"
+    }
+  ]
 }

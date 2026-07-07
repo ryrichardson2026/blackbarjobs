@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "san-antonio/jobs/armed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "San Antonio Armed Security- Rapid Response Officer",
+      "company": "Quality Security Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3587779ae54fccea",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part-Time Armed Driver Patrol — Retail Security",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-armed-driver-patrol-retail-security--san-antonio--ecf20c05b99d17b970959fc7b989d911e",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Flex Officer: Flexible Shifts, Growth",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "16K–20K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-flex-officer-flexible-shifts-growth--san-antonio--ee58a358e79cf001d12c7987351fca87b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Officer TS/SCI w/ Poly (Part Time ) Jobs",
+      "company": "Patriot Group International, Inc.",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.clearancejobs.com/jobs/9001732/armed-security-officer-tssci-w-poly-part-time",
+      "via": "via Clearance Jobs"
+    },
+    {
+      "title": "Armed Security Guard- San Antonio, TX",
+      "company": "Premier Protective Security",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.indeed.com/viewjob?jk=bcf28452ede9ae8a",
+      "via": "via Indeed"
+    }
+  ]
 }

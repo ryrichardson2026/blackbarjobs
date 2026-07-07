@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/richardson-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Patrol Navigator",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "18.07 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Navigator/-in-Richardson,TX?jid=fd5f2e996de910ef",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Flexible Security Professional — Grow Across Industries",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/flexible-security-professional-grow-across-industries--richardson--e8985ff12389397e58af0d0d94162e60f",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security - Cash Transport",
+      "company": "GardaWorld",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-cash-transport-at-gardaworld-4434636450",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Software Facility",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jobs.aus.com/job/richardson/security-officer-software-facility/22950/97253110400",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Concierge Security Officer — Customer-First Guard",
+      "company": "Garda World Security",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/concierge-security-officer-customer-first-guard--richardson--ef9784032f9f16d3c3ad1604db6441816",
+      "via": "via JobLeads"
+    }
+  ]
 }

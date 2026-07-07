@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/duncanville-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.ihiresecurity.com/jobs/view/527087556",
+      "via": "via IHireSecurity"
+    },
+    {
+      "title": "Security Officer- Armed Supervisor at GardaWorld Corporation Duncanville, TX",
+      "company": "GardaWorld Corporation",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://classicelectrictattoos.com/library/job/security-officer-armed-supervisor-at-gardaworld-corporation-duncanville-tx-TnE4NEJIRi9QU2tLdTZzS25COEpYZ1ZsdGc9PQ==",
+      "via": "via Classic Electric Tattoo"
+    },
+    {
+      "title": "Military Security Officer - Now Hiring",
+      "company": "U.S. Navy",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242584841",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Airport Checkpoint Screener; TSA",
+      "company": "Airport Security",
+      "location": "Duncanville, TX",
+      "pay": "45,760–65,341 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.learn4good.com/jobs/duncanville/texas/entertainment/5240238987/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Federal Air Marshal - TSA Law Enforcement Career",
+      "company": "Airport Security Careers",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://salutemyjob.com/jobs/federal-air-marshal-tsa-law-enforcement-career-duncanville-texas/2842664127-2/",
+      "via": "via SaluteMyJob"
+    }
+  ]
 }

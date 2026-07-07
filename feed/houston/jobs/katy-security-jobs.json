@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer​/Warehouse",
+      "company": "St. Moritz Security Services",
+      "location": "Katy, TX",
+      "pay": "16.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5259381334/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Guard; shifts",
+      "company": "Excelsior Defense",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5258623892/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Evening Armed Guard; PT",
+      "company": "Excelsior Defense",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5258623363/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer - Patrol, Reports & Emergency Response",
+      "company": "St. Moritz Security Services",
+      "location": "Katy, TX",
+      "pay": "33K–38K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-patrol-reports-emergency-response--katy--e55332bb6557c7a151d9c4d73f38c3612",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Healthcare Security Officer: Patient & Asset Protection",
+      "company": "Houston Methodist",
+      "location": "Katy, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patient-asset-protection--katy--e1779f7c1d021fff1740c8924282e8ab9",
+      "via": "via JobLeads"
+    }
+  ]
 }

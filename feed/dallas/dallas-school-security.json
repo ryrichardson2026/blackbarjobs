@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-school-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "School Safety & Security Officer",
+      "company": "ESC Region 11",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://jooble.org/jdp/2158475992858946881",
+      "via": "via Jooble"
+    },
+    {
+      "title": "School Security Guard (184 day) at Paulding County School District Dallas, TX",
+      "company": "Paulding County School District",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-15",
+      "apply_link": "http://simonhudsonimages.com/library/job/school-security-guard-184-day-at-paulding-county-school-district-dallas-tx-eUk1U2NyZG80aHNDbjhwdTNMWTdrdlozRHc9PQ==",
+      "via": "via Simonhudsonimages.com"
+    },
+    {
+      "title": "Security Officer at St. John's Episcopal School Dallas, TX",
+      "company": "St. John's Episcopal School",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-11",
+      "apply_link": "https://www.europrogradnja.rs/job-finder/job/security-officer-at-st-john-s-episcopal-school-dallas-tx-eDIxWk9lR3dYT3dhSFRGVDVjdzNSODRqc1E9PQ==",
+      "via": "via Euro - Pro Gradnja"
+    },
+    {
+      "title": "School and Church Security",
+      "company": "Security Solutions of Texas",
+      "location": "Dallas, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/security-solutions-of-texas/dallas/school-and-church-security-103547945/",
+      "via": "via Talents By Vaia"
+    },
+    {
+      "title": "Cadet, School District Peace Officer (235 Days)",
+      "company": "Dallas Independent School District",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.linkedin.com/jobs/view/cadet-school-district-peace-officer-235-days-at-dallas-independent-school-district-4383935753",
+      "via": "via LinkedIn"
+    }
+  ]
 }

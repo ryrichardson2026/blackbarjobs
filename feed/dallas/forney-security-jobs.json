@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/forney-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Director of Operations",
+      "company": "Andy Frain Services",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://salutemyjob.com/jobs/director-of-operations-forney-texas/2854760940-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Surveillance Security Officer – Detail-Driven Flexible Shifts",
+      "company": "GardaWorld",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobleads.com/us/job/surveillance-security-officer-detail-driven-flexible-shifts--forney--e7426de7bd3476227f4956edc6f394576",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Military Security Officer - Full-time",
+      "company": "U.S. Navy",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.snagajob.com/jobs/1242586965",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Forney, TX",
+      "pay": "15–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.blackbarjobs.com/dallas/forney-security-jobs",
+      "via": "via The Job Network For Security Officers"
+    },
+    {
+      "title": "Surveillance Security Officer – Detail-Driven",
+      "company": "GardaWorld",
+      "location": "Forney, TX",
+      "pay": "17.72 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://www.learn4good.com/jobs/forney/texas/security/5225761267/e/",
+      "via": "via Learn4Good"
+    }
+  ]
 }

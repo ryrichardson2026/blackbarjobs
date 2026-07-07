@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "austin/security-jobs-austin",
   "market": "Austin",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Downtown Hotel Security Officer",
+      "company": "United Protective Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4f9849e0423f2257",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer-Armed",
+      "company": "Ascension",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Austin,TX?jid=9bd9e2a944dbcc9e",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Officers",
+      "company": "Sunstates Security",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100265/Unarmed-Security-Officers",
+      "via": "via Sunstates Security Jobs"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/fort-worth-no-experience-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Secure Entry Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-secure-entry-specialist-at-allied-universal-4436222241",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Part-Time Security Officer – Entry Control",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "22,730–32,373 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5261133447/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer Entry Control",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-entry-control-allied-universal-fort-worth--fj-2242813630",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
+      "location": "North Richland Hills, TX",
+      "pay": "25–50 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-01",
+      "apply_link": "https://jooble.org/jdp/4105170484613475717",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
+      "company": "TSA Career Placement",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-mid/2847292533-2/",
+      "via": "via SaluteMyJob"
+    }
+  ]
 }

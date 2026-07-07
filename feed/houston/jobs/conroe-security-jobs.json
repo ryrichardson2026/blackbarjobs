@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "houston/jobs/conroe-security-jobs",
   "market": "Houston",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officer Patrol Monitor",
+      "company": "Allied Universal",
+      "location": "Conroe, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-monitor-at-allied-universal-4437480759",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Patrol Agent",
+      "company": "Allied Universal",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1626011/security-officer-patrol-agent/job",
+      "via": "via Allied Universal - ICIMS"
+    },
+    {
+      "title": "Security Professional - No Experience Necessary",
+      "company": "Securitas Security Services USA",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/1357848010169084351",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Unarmed Security Guard",
+      "company": "All Nation Security Services, Inc.",
+      "location": "Conroe, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.ziprecruiter.com/c/All-Nation-Security-Services/Job/Unarmed-Security-Guard/-in-Conroe,TX?jid=9f383755e50685bb",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Hospital Security Officer (NCSO) - Patient Safety",
+      "company": "Texas Children's Hospital",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-ncso-patient-safety-texas-childrens-hospital-conroe--lensa-7428_ec497bb46dd89b3eed1a4d1f0a15eb535ac5bd7962d9640da1817bc320bca9ea",
+      "via": "via BeBee"
+    }
+  ]
 }

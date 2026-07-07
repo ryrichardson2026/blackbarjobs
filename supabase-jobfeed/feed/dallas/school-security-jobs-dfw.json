@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/school-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Campus Security Guard - Assigned Secondary School",
+      "company": "Prosper Independent School District",
+      "location": "Prosper, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobilize.com/job/us-tx-prosper-campus-security-guard-assigned-secondary-school-independent",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Armed School Safety Officer: Campus Patrol & Response",
+      "company": "Young World Physical Education",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.jobleads.com/us/job/armed-school-safety-officer-campus-patrol-response--irving--ef4ed5ea209e61bc7513c5ecaca36c418",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Officer Pool 26-27 SY - School Safety and Operations",
+      "company": "Irving Independent School District",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobilize.com/job/us-tx-irving-armed-security-officer-pool-26-27-sy-school-safety-operations",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "School Safety & Security Officer",
+      "company": "ESC Region 11",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://jooble.org/jdp/2158475992858946881",
+      "via": "via Jooble"
+    },
+    {
+      "title": "School Security Guard (184 day) at Paulding County School District Dallas, TX",
+      "company": "Paulding County School District",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-15",
+      "apply_link": "http://simonhudsonimages.com/library/job/school-security-guard-184-day-at-paulding-county-school-district-dallas-tx-eUk1U2NyZG80aHNDbjhwdTNMWTdrdlozRHc9PQ==",
+      "via": "via Simonhudsonimages.com"
+    }
+  ]
 }

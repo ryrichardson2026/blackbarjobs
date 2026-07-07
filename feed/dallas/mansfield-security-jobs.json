@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/mansfield-security-jobs",
   "market": "DFW",
   "target": "city",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Unarmed Security Officer — Full-Time (1st–3rd Shifts)",
+      "company": "Prosegur",
+      "location": "Mansfield, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-full-time-1st-3rd-shifts--mansfield--ef6ddba826de99a871a960212621b6e69",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Military Security Officer",
+      "company": "U.S. Navy",
+      "location": "Mansfield, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.snagajob.com/jobs/1242588756",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Security Officer Manufacturing Facility",
+      "company": "Allied Universal",
+      "location": "Mansfield, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-manufacturing-facility-allied-universal-mansfield--techmap_us_securitycareers-aus_1622698",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Security Officer - Part Time , Weekends",
+      "company": "Texas Health",
+      "location": "Mansfield, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://www.career.com/job/texas-health/security-officer-part-time-weekends/j202507011658473598465",
+      "via": "via Career.com"
+    },
+    {
+      "title": "Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Mansfield, TX",
+      "pay": "18–23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.blackbarjobs.com/dallas/mansfield-security-jobs",
+      "via": "via The Job Network For Security Officers"
+    }
+  ]
 }

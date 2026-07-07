@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Event Security Specialist — Crowd Control & Access",
+      "company": "Viking Tactical Security Group",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/event-security-specialist-crowd-control-access--austin--e17c1e56e7f55ff9fce6464444f86b9b5",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Part-time Event Security Staff",
+      "company": "Saint Leo University",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://lensa.com/job-v1/saint-leo-university/austin-tx/event-security-part-time/0bc583fd09862eb6c9e79dcb5430484f",
+      "via": "via Lensa"
+    },
+    {
+      "title": "Event Safety Officer",
+      "company": "Allied Universal® Event Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://salutemyjob.com/jobs/event-safety-officer-austin-texas/2849436929-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Event Security Specialist",
+      "company": "Allied Universal® Event Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://salutemyjob.com/jobs/event-security-specialist-austin-texas/2846682427-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Event Security Officer | Allied Universal | Handshake",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://app.joinhandshake.com/public/jobs/11160555",
+      "via": "via Handshake"
+    }
+  ]
 }

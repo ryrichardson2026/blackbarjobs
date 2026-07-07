@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "san-antonio/jobs/tsa-airport-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Airport Checkpoint Screener; TSA",
+      "company": "Airport Security",
+      "location": "San Antonio, TX",
+      "pay": "45,760–65,341 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/entertainment/5240209943/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Federal Air Marshal - TSA Law Enforcement Career",
+      "company": "Airport Security Careers",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://salutemyjob.com/jobs/federal-air-marshal-tsa-law-enforcement-career-san-antonio-texas/2845963083-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
+      "company": "Airport Careers Services",
+      "location": "Pleasanton, TX",
+      "pay": "20–45 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-14",
+      "apply_link": "https://jooble.org/jdp/6315921666399057907",
+      "via": "via Jooble"
+    },
+    {
+      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Castroville, TX",
+      "pay": "20–45 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-07",
+      "apply_link": "https://jooble.org/jdp/-1351324171761508707",
+      "via": "via Jooble"
+    },
+    {
+      "title": "TSA Security Inspector - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Schertz, TX",
+      "pay": "26–48 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-07",
+      "apply_link": "https://jooble.org/jdp/-87967134741916859",
+      "via": "via Jooble"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "houston/jobs/houston-construction-security",
   "market": "Houston",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Construction Site Security Officer; Houston",
+      "company": "Prosegur",
+      "location": "Houston, TX",
+      "pay": "36K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5250163744/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Construction Site Security Officer (Houston)",
+      "company": "Prosegur",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://us.jobrapido.com/jobpreview/371134804868988928",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "Construction Site Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Houston, TX",
+      "pay": "15–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-construction-security",
+      "via": "via Jobs"
+    },
+    {
+      "title": "Legit Construction",
+      "company": "City Security Services LTD",
+      "location": "Houston, TX",
+      "pay": "2,773 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-16",
+      "apply_link": "https://bebee.com/us/jobs/legit-construction-city-security-services-ltd-houston-tx--theirstack-729788488",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Security Officer - Construction Patrol",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.talent.com/view?id=614456891150903247",
+      "via": "via Talent.com"
+    }
+  ]
 }

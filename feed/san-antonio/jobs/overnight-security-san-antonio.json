@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "san-antonio/jobs/overnight-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officers - Overnight Monitoring",
+      "company": "Saint MaryS Hall",
+      "location": "San Antonio, TX",
+      "pay": "26–30 an hour",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://jooble.org/rjdp/-6966798796964888088",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer-Graveyard (Overnight)",
+      "company": "American GI Forum",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://salutemyjob.com/jobs/security-officer-graveyard-overnight-san-antonio-texas/2858816959-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
+      "company": "Texas Health and Human Services Commission",
+      "location": "San Antonio, TX",
+      "pay": "3,100.00–4,365.66 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officers - Night Shift",
+      "company": "Southside Independent School District",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/-5909072313559129459",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Outdoor Security Patrol — Evening/Night Shifts",
+      "company": "San Antonio Museum of Art",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
+      "via": "via JobLeads"
+    }
+  ]
 }

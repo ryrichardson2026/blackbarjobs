@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/part-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Part-Time Security Officer – Entry Control",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "22,730–32,373 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5261133447/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Part-Time Security Officer — Flexible Shifts + Driver Screening",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-security-officer-flexible-shifts-driver-screening--fort-worth--e62d09785acdec8b157ad979e5e69bd8d",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Part-Time Security Officer; DoD Cleared — Night Patrol",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5258525052/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Roving Security Officer - Part-Time, DoD-Cleared",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "21–23 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5258569736/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Arena Event Security Guard Part-Time",
+      "company": "Trail Drive Management Corp",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
+      "via": "via Jobilize"
+    }
+  ]
 }

@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Coverage",
+      "company": "Marksman Security",
+      "location": "Rowlett, TX",
+      "pay": "17.17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/rowlett/texas/security/5261208483/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "company": "Marksman Security",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rowlett--edb3e325706576d10e488e03372a8c5ba",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Weekend Security Rover (Part-Time) – Patrol & Reports",
+      "company": "GardaWorld",
+      "location": "Plano, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/weekend-security-rover-part-time-patrol-reports--plano--e62dad5718b7d7292eed77f4caa88f78b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Weekend Armed Security Holiday Coverage",
+      "company": "HSS SECURITY",
+      "location": "Dallas, TX",
+      "pay": "24–25 an hour",
+      "schedule": "Contractor",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3b769e347bd1984c",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Professional (weekend/overnight shift)",
+      "company": "HIRED Staffing Solutions, Inc.",
+      "location": "Mesquite, TX",
+      "pay": "13.50–14.00 an hour",
+      "schedule": null,
+      "posted_date": "2026-06-30",
+      "apply_link": "https://jooble.org/rjdp/7857602556322819519",
+      "via": "via Jooble"
+    }
+  ]
 }

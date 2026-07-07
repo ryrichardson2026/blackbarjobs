@@ -1,9 +1,60 @@
 {
-  "generated": "2026-07-07T02:49:17.526561+00:00",
+  "generated": "2026-07-07T03:04:00.920548+00:00",
   "page": "san-antonio/jobs/entry-level-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 0,
-  "exact": 0,
-  "jobs": []
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Facility Security Guard I: Patrol, Entry Control & Events",
+      "company": "Oakland University",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://salutemyjob.com/jobs/facility-security-guard-i-patrol-entry-control-events-san-antonio-texas/2858817073-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Entry-Level Security Officer with Training Provided",
+      "company": "six flags fiesta texas",
+      "location": "Live Oak, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://salutemyjob.com/jobs/entry-level-security-officer-with-training-provided-live-oak-texas/2858377895-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Behavior Detection Officer (BDO) - No Experience Required",
+      "company": "TSA Career Placement",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://salutemyjob.com/jobs/behavior-detection-officer-bdo-no-experience-required-san-antonio-texas/2847297032-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience",
+      "company": "Airport Careers Services",
+      "location": "Poteet, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.jobilize.com/job/us-tx-poteet-lead-supervisory-transportation-security-officer-no-experience",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience",
+      "company": "Airport Careers Services",
+      "location": "Yancey, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-28",
+      "apply_link": "https://www.jobilize.com/job/us-tx-yancey-lead-supervisory-transportation-security-officer-no-experience-pynvtmp",
+      "via": "via Jobilize"
+    }
+  ]
 }
