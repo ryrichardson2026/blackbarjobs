@@ -98,3 +98,11 @@ Enforcement:
 - Employer page https://www.blackbarjobs.com/employers-dfw must appear in every outreach email body.
 - Signature: Thanks, Ryaire Richardson | BlackBarJobs.com | Founder | 206.883.8017
 - "security officer" throughout, no em-dashes, no AI-sounding phrasing.
+
+## 12. Working autonomously
+- Run the full loop end to end without pausing between steps: branch -> make the surgical edits ->
+  run the relevant audit (bbj_page_check.py / bbj_link_audit.py) -> commit.
+- Only stop to ask when: (1) about to git push or merge, (2) a fix is genuinely ambiguous, or
+  (3) a change would touch working functionality.
+- After any page or link change, re-run the audits and report the before/after counts.
+- Surgical edits only. Branch first. Never edit on main.
