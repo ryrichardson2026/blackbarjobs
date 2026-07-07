@@ -204,6 +204,32 @@
   }
 
   // ── PUBLIC API ───────────────────────────────────────────────
+  // Post-registration: feed pages already show aligned jobs, so stay in place
+  // (bbj_registered cookie unlocks applies). Feedless hub pages still get the board.
+  function bbjPostReg(closeFn){
+    // Always stay on the page they registered on. The morphed "Browse Jobs"
+    // CTA handles reaching the board if a page has no on-page feed.
+    closeFn();
+  }
+
+  // Once registered, alerts are already active from signup, so register CTAs
+  // become browse actions: scroll to the on-page feed, or go to the board if none.
+  function bbjMorphCtas(){
+    if (document.cookie.indexOf('bbj_registered=1') === -1) return;
+    var ctas = document.querySelectorAll('[onclick*="bbjAlertOpen"],[onclick*="bbjAccOpen"]');
+    [].forEach.call(ctas, function(el){
+      if (/alert/i.test(el.textContent)) el.textContent = 'Browse Jobs \u2192';
+      el.onclick = function(e){
+        if (e && e.preventDefault) e.preventDefault();
+        var feed = document.getElementById('jobRows') || document.getElementById('indexJobFeed');
+        if (feed) { feed.scrollIntoView({behavior:'smooth', block:'start'}); }
+        else { window.location.href = '/job-board'; }
+        return false;
+      };
+    });
+  }
+  document.addEventListener('DOMContentLoaded', bbjMorphCtas);
+
   window.bbjRegOpen = function() {
     document.getElementById('bbjStep1').style.display   = 'block';
     document.getElementById('bbjLoader').style.display  = 'none';
@@ -397,7 +423,11 @@
       window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'account_created' });
 
       _showLoader('Creating your account...');
-      setTimeout(function() { bbjRegClose(); window.location.href = '/job-board'; }, 2000);
+      setTimeout(function() {
+        var sp = document.getElementById('bbjLoaderSpinner'); if (sp) sp.style.display = 'none';
+        document.getElementById('bbjLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
+        setTimeout(function(){ bbjPostReg(bbjRegClose); }, 1600);
+      }, 700);
     });
 
   });
@@ -660,7 +690,11 @@
     // Loader then job board
     document.getElementById('bbjAccForm').style.display = 'none';
     document.getElementById('bbjAccLoader').style.display = 'block';
-    setTimeout(function(){ bbjAccClose(); window.location.href = '/job-board'; }, 2000);
+    setTimeout(function() {
+      var sp = document.getElementById('bbjAccSpinner'); if (sp) sp.style.display = 'none';
+      document.getElementById('bbjAccLoaderTxt').innerHTML = "You're in.<br><span style='display:block;margin-top:6px;font-weight:400;font-size:0.9rem;color:#5a6474;'>Your jobs are unlocked below. Open any listing to apply.</span>";
+      setTimeout(function(){ bbjPostReg(bbjAccClose); }, 1600);
+    }, 700);
   };
 
 })();
