@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "san-antonio/jobs/event-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Von Ormy, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-hiring-event-in-san-antonio-at-marksman-security-4436403345",
       "via": "via LinkedIn"
     },
@@ -22,7 +22,7 @@
       "location": "Castroville, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-hiring-event-7-9-2026-at-securitas-security-services-usa-inc-4431988609",
       "via": "via LinkedIn"
     },
@@ -32,7 +32,17 @@
       "location": "Universal City, TX",
       "pay": "16 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.simplyhired.com/job/e0RjvTnEoBoLruSLzzF76uBYcbPmT-t_-duBwrtgjZmyJDtXWomZeg",
+      "via": "via SimplyHired"
+    },
+    {
+      "title": "Level 2 Unarmed Event Security",
+      "company": "A & Associates",
+      "location": "Universal City, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-29",
       "apply_link": "https://www.simplyhired.com/job/e0RjvTnEoBoLruSLzzF76uBYcbPmT-t_-duBwrtgjZmyJDtXWomZeg",
       "via": "via SimplyHired"
     },
@@ -42,19 +52,9 @@
       "location": "San Antonio, TX",
       "pay": "16 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-06-27",
+      "posted_date": "2026-06-26",
       "apply_link": "https://www.indeed.com/viewjob?jk=2af906bac79d6e73",
       "via": "via Indeed"
-    },
-    {
-      "title": "Event Security Officer - Amusement Park",
-      "company": "Securitas",
-      "location": "Universal City, TX",
-      "pay": "19.42 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://career.io/job/event-security-officer-amusement-park-universal-city-securitas-6c9944fac08fcbfe0daa2b4eabf134db",
-      "via": "via Career.io"
     }
   ]
 }

@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/part-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Level 2 Security Officer ( Part time)",
+      "company": "RELIANCE SECURITY SERVICES",
+      "location": "Fort Worth, TX",
+      "pay": "15–16 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": "26.77 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Security Officer Enhanced Part Time Identity Screening",
       "company": "Allied Universal",
@@ -17,44 +37,24 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Part-Time Unarmed Patrol Security Guard with Security Clearance",
+      "title": "Security Officer Enhanced Part Time Access Monitor",
       "company": "Allied Universal",
-      "location": "Richardson, TX",
+      "location": "Plano, TX",
+      "pay": "21 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-access-monitor-at-allied-universal-4437493492",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Asset Protection Associate \"Part Time\"",
+      "company": "Living Spaces Furniture",
+      "location": "Grand Prairie, TX",
       "pay": null,
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://salutemyjob.com/jobs/part-time-unarmed-patrol-security-guard-with-security-clearance-richardson-texas/2861470295-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Part-Time Security Officer – Entry Control",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "22,730–32,373 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5261133447/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Officer – Driving & Screening (Part-Time)",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-driving-screening-part-time--dallas--e6a19a89f4c2bcbd13a653133af3b7bbf",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part-Time Security Officer — Flexible Shifts + Driver Screening",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-security-officer-flexible-shifts-driver-screening--fort-worth--e62d09785acdec8b157ad979e5e69bd8d",
-      "via": "via JobLeads"
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-part-time-at-living-spaces-furniture-4437459972",
+      "via": "via LinkedIn"
     }
   ]
 }

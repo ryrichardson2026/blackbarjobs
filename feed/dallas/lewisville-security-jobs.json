@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/lewisville-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officers",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Lewisville, TX",
+      "pay": "14–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4297713021",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Store Security & Loss Prevention Pro",
       "company": "Ross Stores",
       "location": "Lewisville, TX",
       "pay": "35K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.jobleads.com/us/job/store-security-loss-prevention-pro--lewisville--e6fd1871872f4859c044111ba01e34090",
       "via": "via JobLeads"
     },
@@ -22,19 +32,9 @@
       "location": "Lewisville, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.jobilize.com/job/us-tx-lewisville-military-security-officer-navy-hiring-now-job-immediately",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Security Officer Driver Patrol Support",
-      "company": "Allied Universal",
-      "location": "Lewisville, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-driver-patrol-support/22950/97253112368",
-      "via": "via Allied Universal"
     },
     {
       "title": "Security Officer Armed - Security",
@@ -42,19 +42,19 @@
       "location": "Lewisville, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://jobs.womenforhire.com/job/usa/lewisville-tx/security-officer-armed-security-474070/",
       "via": "via Women For Hire- Job Board"
     },
     {
-      "title": "Front Desk Security Officer - Visitor Access Specialist",
-      "company": "Alliedbarton Security Services",
+      "title": "Security Officer Driver Patrol Support",
+      "company": "Allied Universal",
       "location": "Lewisville, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Part-time",
       "posted_date": "2026-07-01",
-      "apply_link": "https://jooble.org/jdp/7325861308323853139",
-      "via": "via Jooble"
+      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-driver-patrol-support/22950/97253112368",
+      "via": "via Allied Universal"
     }
   ]
 }

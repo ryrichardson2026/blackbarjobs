@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/desoto-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Driver Mobile Patrol",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-mobile-patrol-at-allied-universal-4437727203",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
       "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
       "via": "via ZipRecruiter"
     },
@@ -22,7 +32,7 @@
       "location": "DeSoto, TX",
       "pay": "23 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.ziprecruiter.com/c/Metro-One-LPSG/Job/Unarmed-Security-Officer/-in-Desoto,TX?jid=189837fc9f34677c",
       "via": "via ZipRecruiter"
     },
@@ -32,7 +42,7 @@
       "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://salutemyjob.com/jobs/director-of-operations-desoto-texas/2854760778-2/",
       "via": "via SaluteMyJob"
     },
@@ -42,19 +52,9 @@
       "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1242585005",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Unarmed Patrol Driver | Tech Site Security",
-      "company": "Allied Universal",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-patrol-driver-tech-site-security--desoto--eb0841408869313c65b142aa121fd9e71",
-      "via": "via JobLeads"
     }
   ]
 }

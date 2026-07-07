@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/houston-part-time-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Part-Time",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": "16.00–16.50 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Security Officer – Part-Time",
       "company": "United Protective Services",
@@ -14,6 +24,16 @@
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=047bbefca82de862",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Specialist - Part Time",
+      "company": "SECURITY INDUSTRY SPECIALISTS INC",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0e3291073fa8a0a5",
       "via": "via Indeed"
     },
     {
@@ -27,34 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Flexible Part-Time Security Officer – Earn More Shifts",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/flexible-part-time-security-officer-earn-more-shifts--houston--e120ae48664cba2f8680bf3493dd1517d",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Security Officer Enhanced Part Time Area Patrol",
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-area-patrol/22950/97437415552",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Part-Time Access Control Security Officer – Evening Shifts",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-access-control-security-officer-evening-shifts--houston--e274b8717c30d9870a20f43208f3c101f",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-area-patrol-at-allied-universal-4437497277",
+      "via": "via LinkedIn"
     }
   ]
 }

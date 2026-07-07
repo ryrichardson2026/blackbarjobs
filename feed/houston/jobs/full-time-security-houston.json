@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/full-time-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Corporate Security Officer (Full Time - Houston, TX)",
+      "company": "Houston Dose",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/jdp/1696989969378206269",
+      "via": "via Jooble"
+    },
     {
       "title": "Security Officer Full Time Patrol Steward",
       "company": "Allied Universal",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-steward-at-allied-universal-4435519137",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Guard Full Time Armed",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://jobs.aus.com/job/houston/security-guard-full-time-armed/22950/97203299344",
-      "via": "via Allied Universal"
     },
     {
       "title": "Paid WEEKLY! Full Time Security Officers",
@@ -37,24 +37,24 @@
       "via": "via Jooble"
     },
     {
+      "title": "Security Guard Full Time Armed",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.tealhq.com/job/security-guard-full-time-armed_7ea1ac84f3d603a0b0d4721e50464e77ef42e",
+      "via": "via Teal"
+    },
+    {
       "title": "Now Hiring: Full-Time Patrol Rover Security Officer",
       "company": "Prevail Security Services",
       "location": "Houston, TX",
       "pay": "16 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-06-29",
       "apply_link": "https://www.ziprecruiter.com/c/Prevail-Security-Services/Job/Now-Hiring:-Full-Time-Patrol-Rover-Security-Officer/-in-Houston,TX?jid=a0ea42149bd658b5",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Overnight Security Officer, Full-Time",
-      "company": "The Houstonian Hotel, Club & Spa",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.linkedin.com/jobs/view/overnight-security-officer-full-time-at-the-houstonian-hotel-club-spa-4434146970",
-      "via": "via LinkedIn"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-retail-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,34 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Armed Patrol Driver (Part-Time) – Retail Security",
-      "company": "Alliedbarton Security Services",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Retail Off-Duty Security Officer: Protect & Assist Guests",
       "company": "Marksman Security",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.jobleads.com/us/job/retail-off-duty-security-officer-protect-assist-guests--dallas--e46cd65e11640b38c113a4cc7792e251e",
       "via": "via JobLeads"
     },
     {
-      "title": "Retail Security Officer- Swingshift (Weekends Required)",
-      "company": "National Protection Group",
+      "title": "Armed Patrol Driver (Part-Time) – Retail Security",
+      "company": "Alliedbarton Security Services",
       "location": "Dallas, TX",
-      "pay": "17 an hour",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-01",
-      "apply_link": "https://www.simplyhired.com/job/NcBQV9VSodG-fUX00q51zN3x-jhMWLIbGXskPvtrWjVSNa_WLrFN6w",
-      "via": "via SimplyHired"
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
+      "via": "via JobLeads"
     },
     {
       "title": "Full Time Retail Security Professional",
@@ -42,9 +32,19 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://jooble.org/rjdp/-4956505497941973422",
       "via": "via Jooble"
+    },
+    {
+      "title": "Retail Security Officer- Swingshift (Weekends Required)",
+      "company": "National Protection Group",
+      "location": "Dallas, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.glassdoor.com/job-listing/retail-security-officer-swingshift-weekends-required-national-protection-group-JV_IC1139977_KO0,52_KE53,78.htm?jl=1010184791995",
+      "via": "via Glassdoor"
     },
     {
       "title": "🚨 Now Hiring: Retail Security Supervisor | Mesquite, TX",
@@ -52,7 +52,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-24",
+      "posted_date": "2026-06-23",
       "apply_link": "https://www.linkedin.com/jobs/view/%F0%9F%9A%A8-now-hiring-retail-security-supervisor-mesquite-tx-at-marksman-security-4434905022",
       "via": "via LinkedIn"
     }

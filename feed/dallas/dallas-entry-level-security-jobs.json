@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-entry-level-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -10,21 +10,11 @@
       "title": "Security Officer Secure Entry Specialist",
       "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": null,
+      "pay": "20 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f8705bc93ec8bbc1",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Entry-Level Juvenile Detention Officer - Youth Care & Safety",
-      "company": "Dallasact",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://bebee.com/us/jobs/entry-level-juvenile-detention-officer-youth-care-safety-dallasact-dallas--lensa-7428_f91fcf1764b836176c583f640ee21b1ccab8db22937cac81c30f067d656aa0f7",
-      "via": "via BeBee"
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-secure-entry-specialist-at-allied-universal-4437483690",
+      "via": "via LinkedIn"
     },
     {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
@@ -37,12 +27,22 @@
       "via": "via SaluteMyJob"
     },
     {
+      "title": "Entry-Level Juvenile Detention Officer - Youth Care & Safety",
+      "company": "Dallasact",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://bebee.com/us/jobs/entry-level-juvenile-detention-officer-youth-care-safety-dallasact-dallas--lensa-7428_f91fcf1764b836176c583f640ee21b1ccab8db22937cac81c30f067d656aa0f7",
+      "via": "via BeBee"
+    },
+    {
       "title": "TSA Security Inspector - No Experience Required",
       "company": "Airport Security Careers",
       "location": "Dallas, TX",
       "pay": "26–48 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-26",
+      "posted_date": "2026-06-25",
       "apply_link": "https://jooble.org/jdp/1171484235086115847",
       "via": "via Jooble"
     },
@@ -52,7 +52,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-22",
+      "posted_date": "2026-06-21",
       "apply_link": "https://www.whatjobs.com/jobs/airport-checkpoint-screener-tsa/dallas-texas?id=2816180118",
       "via": "via WhatJobs"
     }

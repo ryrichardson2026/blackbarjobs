@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/event-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Arena Event Security Guard Part-Time",
-      "company": "Trail Drive Management Corp",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
-      "via": "via Jobilize"
-    },
     {
       "title": "Event Security Staff",
       "company": "Andy Frain Services",
@@ -27,14 +17,24 @@
       "via": "via Monster"
     },
     {
-      "title": "Director of Event Operations",
-      "company": "Andy Frain Services",
-      "location": "Rockwall, TX",
+      "title": "Arena Event Security Guard Part-Time",
+      "company": "Trail Drive Management Corp",
+      "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-rockwall-texas/2854887330-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Security Officers-EVENT SECURITY",
+      "company": "Paycom",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://jooble.org/rjdp/-4195520254827835852",
+      "via": "via Jooble"
     },
     {
       "title": "Director of Event Operations",
@@ -52,7 +52,7 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://salutemyjob.com/jobs/director-of-event-operations-fort-worth-texas/2854889259-2/",
       "via": "via SaluteMyJob"
     }

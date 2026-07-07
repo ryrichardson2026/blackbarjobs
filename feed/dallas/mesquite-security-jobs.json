@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/mesquite-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Unarmed Patrol Screening Duties",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Unarmed-Patrol-Screening-Duties/-in-Mesquite,TX?jid=269ff01d02c269cd",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Patrol Compliance Analyst",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Compliance-Analyst/-in-Mesquite,TX?jid=b5ec2381b0f19f0f",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Lead Security Officer",
       "company": "Andy Frain",
       "location": "Mesquite, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-05",
       "apply_link": "https://salutemyjob.com/jobs/lead-security-officer-mesquite-texas/2860573622-2/",
       "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Municipal Court Security Officer",
+      "company": "City of Mesquite",
+      "location": "Mesquite, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-officer--mesquite--e5d23743c588435c51979a3aac57e7a2f",
+      "via": "via JobLeads"
     },
     {
       "title": "Safety and Security Officer",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://jobs.womenforhire.com/job/usa/mesquite-tx/safety-and-security-officer-540086/",
       "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Security Officer - Warehouse",
-      "company": "GardaWorld Security Services U.S.",
-      "location": "Mesquite, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.ihiresecurity.com/jobs/view/527087559",
-      "via": "via IHireSecurity"
-    },
-    {
-      "title": "Municipal Court Security Officer",
-      "company": "City of Mesquite",
-      "location": "Mesquite, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-officer--mesquite--e5d23743c588435c51979a3aac57e7a2f",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Now Hiring: Retail Security Supervisor | Mesquite, TX",
-      "company": "Marksman Security LLC",
-      "location": "Mesquite, TX",
-      "pay": "17.17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Now-Hiring:-Retail-Security-Supervisor-%7C-Mesquite,-TX/-in-Mesquite,TX?jid=7abe8cf5a7fcc5db",
-      "via": "via ZipRecruiter"
     }
   ]
 }

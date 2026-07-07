@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/overnight-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Overnight Security Shift Lead – Auto Auction Site",
-      "company": "Securitas Global Clients America",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5261153526/e/",
-      "via": "via Learn4Good"
-    },
     {
       "title": "Night Security Officer - Training & Career",
       "company": "City Security Services",
@@ -27,34 +17,44 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Overnight Security Supervisor",
-      "company": "Hilton",
+      "title": "Multi-Site Night Security Officer",
+      "company": "Citysecurityservices",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/multi-site-night-security-officer/houston-texas?id=2860501365",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Overnight Security Shift Lead – Auto Auction Site",
+      "company": "Securitas Global Clients America",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5261153526/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Night Shift Patrol Security Officer | Health Benefits",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/night-shift-patrol-security-officer/houston-texas?id=2861298039",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Armed Security Officer: Night Patrols & Property Protection",
+      "company": "signal-careers",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-04",
-      "apply_link": "https://us.trabajo.org/job-3137-6679b391496ac23055a4563309caf388",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Overnight Security Supervisor - St Joseph Medical Center",
-      "company": "Lemontree Healthcare",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobilize.com/job/us-tx-houston-overnight-security-supervisor-st-joseph-medical-center",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Night-Shift High-Rise Lobby Security Officer",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "pay": "17,047–24,280 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5250142456/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-night-patrols-property-protection--houston--eabec98550be8215ac0db1a32d0670421",
+      "via": "via JobLeads"
     }
   ]
 }

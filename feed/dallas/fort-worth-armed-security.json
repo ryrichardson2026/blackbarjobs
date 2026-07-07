@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Part Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": "26.77 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Full Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": "26.77 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Armed Security Flex Officer - Cleared Position",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
       "via": "via SaluteMyJob"
     },
@@ -22,7 +42,7 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
       "via": "via Recruit.net"
     },
@@ -32,29 +52,9 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-03",
       "apply_link": "https://salutemyjob.com/jobs/armed-patrol-driver-security-guard-with-clearance-fort-worth-texas/2856352625-2/",
       "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Armed Security Driver for Aerospace Facility",
-      "company": "Alliedbarton Security Services",
-      "location": "Fort Worth, TX",
-      "pay": "27K–28K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-driver-for-aerospace-facility--fort-worth--eec68dab45261de623bd89cb724e39c5d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Armed Security Officer; Level 3 - Special Events, Same",
-      "company": "New Legacy Private Security",
-      "location": "Fort Worth, TX",
-      "pay": "18–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5250150361/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

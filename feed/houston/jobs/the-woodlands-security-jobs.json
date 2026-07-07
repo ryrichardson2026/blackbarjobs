@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/the-woodlands-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Night Shift Hospital Security Officer (CPR-Certified)",
+      "company": "Memorial Hermann Health System",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/night-shift-hospital-security-officer/the-woodlands-texas?id=2860765945",
+      "via": "via WhatJobs"
+    },
+    {
       "title": "Mobile Patrol Security Officer – Evening & Overnight Shift",
       "company": "United Protective Services",
       "location": "The Woodlands, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/mobile-patrol-security-officer-evening-overnight-shift--the-woodlands--e13364e7a743dcefb78b634b2f28a2cba",
       "via": "via JobLeads"
     },
@@ -22,7 +32,7 @@
       "location": "The Woodlands, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.indeed.com/viewjob?jk=22f5bd542c4457dd",
       "via": "via Indeed"
     },
@@ -32,7 +42,7 @@
       "location": "The Woodlands, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1242585262",
       "via": "via Snagajob"
     },
@@ -42,18 +52,8 @@
       "location": "The Woodlands, TX",
       "pay": "15.53 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security-LLC/Job/Retail-Security-Officer/-in-The-Woodlands,TX?jid=3edb1dd503316123",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Event Security - Toyota Center",
-      "company": "BEST Crowd Management",
-      "location": "The Woodlands, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
       "posted_date": "2026-06-30",
-      "apply_link": "https://www.ziprecruiter.com/c/BEST-Crowd-Management/Job/Event-Security-Toyota-Center/-in-The-Woodlands,TX?jid=04e6cccb7621d2bc",
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security-LLC/Job/Retail-Security-Officer/-in-The-Woodlands,TX?jid=3edb1dd503316123",
       "via": "via ZipRecruiter"
     }
   ]

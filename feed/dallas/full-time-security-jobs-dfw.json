@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/full-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,13 +7,13 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Full Time",
-      "company": "United Protective Services",
+      "title": "Full Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
       "location": "Fort Worth, TX",
-      "pay": "17 an hour",
+      "pay": "26.77 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
       "via": "via ZipRecruiter"
     },
     {
@@ -27,24 +27,14 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer - Full Time , Rotating at Texas Health Resources Bedford, TX",
-      "company": "Texas Health Resources",
-      "location": "Bedford, TX",
+      "title": "Full-Time Rover Security Officer — Sign-On Bonus",
+      "company": "Marksman Security",
+      "location": "Frisco, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://aotvintage.com/gig/job/security-officer-full-time-rotating-at-texas-health-resources-bedford-tx-ak12RmdhQThZNjF4bE5yOUdQOURPZHRqY3c9PQ==",
-      "via": "via Aotvintage.com"
-    },
-    {
-      "title": "Full Time Loss Prevention Investigator",
-      "company": "Boot Barn",
-      "location": "Frisco, TX",
-      "pay": "60K–75K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jooble.org/rjdp/-2926565224935917232",
-      "via": "via Jooble"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/full-time-rover-security-officer-sign-on-bonus--frisco--eb4e6530ee5bf9934772197ca98a1bcf2",
+      "via": "via JobLeads"
     },
     {
       "title": "Security Operations Manager - Full-time",
@@ -52,9 +42,19 @@
       "location": "Lancaster, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-07",
       "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
       "via": "via Digitalhire"
+    },
+    {
+      "title": "Security Officer Full Time",
+      "company": "United Protective Services",
+      "location": "Fort Worth, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "via": "via ZipRecruiter"
     }
   ]
 }

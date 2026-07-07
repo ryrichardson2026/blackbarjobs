@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-28",
+      "posted_date": "2026-06-27",
       "apply_link": "https://nsplsecurityforce.com/job-listing/job/security-director-southwest-at-the-security-executive-council-houston-tx-azBzY3k0TjgrZXJXZzdDYi9hcGxuQUNHL2c9PQ==",
       "via": "via NSPL Security Force"
     },
@@ -27,16 +27,6 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Executive Protection Officer",
-      "company": "Constellis",
-      "location": "Houston, TX",
-      "pay": "35–45 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/Constellis/Job/Executive-Protection-Officer/-in-Houston,TX?jid=c0f075b0b1d083d6",
-      "via": "via ZipRecruiter"
-    },
-    {
       "title": "Armed Executive Protection Agent (EP)",
       "company": "Armed/Unarmed Security Guard",
       "location": "Houston, TX",
@@ -47,14 +37,24 @@
       "via": "via BeBee"
     },
     {
-      "title": "Security Officer – Part-Time",
+      "title": "Executive Protection Officer",
+      "company": "Constellis",
+      "location": "Houston, TX",
+      "pay": "35–45 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Constellis/Job/Executive-Protection-Officer/-in-Houston,TX?jid=c0f075b0b1d083d6",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer - Part-Time",
       "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": "16.00–16.50 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=047bbefca82de862",
-      "via": "via Indeed"
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
+      "via": "via ZipRecruiter"
     }
   ]
 }

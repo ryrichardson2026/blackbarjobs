@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/houston-retail-security",
   "market": "Houston",
   "target": "city-role",
@@ -22,9 +22,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.indeed.com/viewjob?jk=fdc72cfda7bbacc2",
       "via": "via Indeed"
+    },
+    {
+      "title": "Front-Line Retail Security",
+      "company": "Burlington Stores",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://us.trabajo.org/job-3991-50c2fddd1fbbf18cc367e5575d5eac7b",
+      "via": "via Trabajo.org"
     },
     {
       "title": "Security Officer - Bouncer - Must have Retail / Bouncer experience",
@@ -32,7 +42,7 @@
       "location": "Houston, TX",
       "pay": "20–22 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.simplyhired.com/job/UBffzi-ZfS9-3nYw2WGT0BDrJOro8qhgtoWSGAFgXn7jUALIz9HOmw",
       "via": "via SimplyHired"
     },
@@ -42,19 +52,9 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://jobs.aus.com/job/houston/security-officer-retail-patrol/22950/97208132768",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Armed Driver Patrol Security - Retail & Customer Service",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/armed-driver-patrol-security-retail-customer-service--houston--e28a3ca52cd04636d2d6cb7a1d7efa4d1",
-      "via": "via JobLeads"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "san-antonio/jobs/unarmed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Licensed Unarmed Security Guard (Security)",
       "company": "Inner Parish Security Corporation",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-03",
       "apply_link": "https://us.expertini.com/job/licensed-unarmed-security-guard-security-san-antonio-inner-parish-security-corporation-c6c63a9f13f64d25bddda8db39f80959105/",
       "via": "via Expertini"
     },
@@ -22,19 +32,9 @@
       "location": "San Antonio, TX",
       "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5253313508/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
-      "via": "via ZipRecruiter"
     },
     {
       "title": "Hospital Security Officer (Unarmed) - Patient Safety",
@@ -42,7 +42,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jooble.org/jdp/6178635401834100067",
       "via": "via Jooble"
     },
@@ -52,7 +52,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.recruit.net/job/unarmed-security-officer-shifts-at-jobs/AB116ACCD51D494F",
       "via": "via Recruit.net"
     }

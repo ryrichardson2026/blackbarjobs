@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/plano-unarmed-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -17,12 +17,22 @@
       "via": "via Monster"
     },
     {
+      "title": "Unarmed Security Officer",
+      "company": "Metro One LPSG",
+      "location": "Plano, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.ziprecruiter.com/c/Metro-One-LPSG/Job/Unarmed-Security-Officer/-in-Plano,TX?jid=52a98dd6ba7a7ff9",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Unarmed Security Guard at All Nation Security Services, Inc. Plano, TX",
       "company": "All Nation Security Services, Inc.",
       "location": "Plano, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://arabisht.fahemdev.com/job-positions/job/unarmed-security-guard-at-all-nation-security-services-inc-plano-tx-TlF0SHhLak53Q2ErNnFMaHRYVG9CUWZvZUE9PQ==",
       "via": "via FahemDev"
     },
@@ -32,7 +42,7 @@
       "location": "Plano, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-19",
+      "posted_date": "2026-06-18",
       "apply_link": "https://www.indeed.com/viewjob?jk=bfe092f161b99afb",
       "via": "via Indeed"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-16",
       "apply_link": "https://motorjobs.com/en/job/security-guard-armed-unarmed-1698",
       "via": "via Motor Jobs"
-    },
-    {
-      "title": "Unarmed Security Officer (FLEX)",
-      "company": "Marksmen Security",
-      "location": "Plano, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-08",
-      "apply_link": "https://staging.careersingovernment.com/job/1304010/unarmed-security-officer-flex/",
-      "via": "via Careers In Government"
     }
   ]
 }

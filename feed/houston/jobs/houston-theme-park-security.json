@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/houston-theme-park-security",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Part-Time",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": "16.00–16.50 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Armed Security Officers and EMT Certified Officers, 77015, 77053, 77024",
+      "company": "Enforce Security",
+      "location": "Houston, TX",
+      "pay": "18–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a83f74c7a3802f0d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Guard Armed Vehicle Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "24 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-armed-vehicle-patrol-driver-at-allied-universal-4437479857",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Security Officer – Part-Time",
       "company": "United Protective Services",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.jobleads.com/us/job/evening-security-officer-luxury-hotel-pm-shift--houston--e8539f8d8197cbf59e9eae350e75733a2",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Professional UTILITY Security Officer - All of Houston",
-      "company": "Marksman Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/professional-utility-security-officer-all-of-houston-at-marksman-security-4437453786",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Front Desk",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=c958093614cadb71",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Patrol Roving Security Officer Outdoor shopping Center - 77070",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=4615cd1ea860a547",
-      "via": "via Indeed"
     }
   ]
 }

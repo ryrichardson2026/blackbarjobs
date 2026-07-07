@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/arlington-overnight-security",
   "market": "DFW",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Plano, TX",
       "pay": "17–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Overnight-Varied/-in-Plano,TX?jid=c6f4afed2e6b3182",
       "via": "via ZipRecruiter"
     },
@@ -22,19 +22,9 @@
       "location": "Frisco, TX",
       "pay": "17–19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.indeed.com/viewjob?jk=99d5c0546a8ab05b",
       "via": "via Indeed"
-    },
-    {
-      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
-      "company": "Garda World Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
-      "via": "via JobLeads"
     },
     {
       "title": "Security Patrol Officer DoD Secret Clearance; Night",
@@ -47,14 +37,24 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Part-Time Security Officer; DoD Cleared — Night Patrol",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "21 an hour",
-      "schedule": "Full-time and Part-time",
+      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
+      "company": "Garda World Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
       "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5258525052/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Residential Security Agent - Night Shift & Global Ops",
+      "company": "Surefox North America Inc",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/armed-residential-security-agent-night-shift-global-ops--dallas--e73d617226ef878718f483ff6e7d62ed6",
+      "via": "via JobLeads"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/mobile-patrol-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Patrol Screening",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Security Officer Unarmed Patrol Screening Duties",
       "company": "Allied Universal",
@@ -14,6 +24,16 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-screening-duties-at-allied-universal-4437478928",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Patrol Compliance Analyst",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-analyst-at-allied-universal-4437498174",
       "via": "via LinkedIn"
     },
     {
@@ -27,34 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Guard Unarmed Patrol Security Clearance",
+      "title": "Security Officer Unarmed Patrol Screening Duties",
       "company": "Allied Universal",
-      "location": "Carrollton, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/carrollton-tx/security-guard-unarmed-patrol-security-clearance-231090/",
-      "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Security Officer Plaza Patrol",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-plaza-patrol-at-allied-universal-4436217342",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Community Patrol Associate",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-community-patrol-associate-at-allied-universal-4437485696",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Unarmed-Patrol-Screening-Duties/-in-Mesquite,TX?jid=269ff01d02c269cd",
+      "via": "via ZipRecruiter"
     }
   ]
 }

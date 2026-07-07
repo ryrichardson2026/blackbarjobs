@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-29",
+      "posted_date": "2026-06-28",
       "apply_link": "https://www.jobleads.com/us/job/weekend-security-patrol-surveillance-part-time--houston--e41cdce8bf141ce307f34a551d7184330",
       "via": "via JobLeads"
     },
@@ -22,7 +22,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-28",
+      "posted_date": "2026-06-27",
       "apply_link": "https://jooble.org/jdp/-4041289195863171472",
       "via": "via Jooble"
     },
@@ -37,16 +37,6 @@
       "via": "via Trabajo.org"
     },
     {
-      "title": "Surveillance Security Officer",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-15",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/surveillance-security-officer/5ad912c9-530d-41b0-b680-0bb245a530ee",
-      "via": "via GardaWorld - GardaWorld Security"
-    },
-    {
       "title": "Weekend Security Patrol & Surveillance; Part-Time",
       "company": "The-Briar-Club",
       "location": "Houston, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-06-14",
       "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5176707303/e/",
       "via": "via Learn4Good"
+    },
+    {
+      "title": "Surveillance Security Officer",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-14",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/surveillance-security-officer/5ad912c9-530d-41b0-b680-0bb245a530ee",
+      "via": "via GardaWorld - GardaWorld Security"
     }
   ]
 }

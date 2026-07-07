@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/irving-unarmed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,22 +7,12 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officers",
-      "company": "Sunstates Security",
-      "location": "Irving, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100245/Unarmed-Security-Officers",
-      "via": "via Sunstates Security Jobs"
-    },
-    {
       "title": "Unarmed Security Officer ~ Irving, TX",
       "company": "Thomas Protective Service, Inc.",
       "location": "Irving, TX",
       "pay": "13.75–14.80 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.indeed.com/viewjob?jk=da924bf5bb46828d",
       "via": "via Indeed"
     },
@@ -32,9 +22,19 @@
       "location": "Irving, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.jobilize.com/job/us-tx-irving-unarmed-security-officer-1st-dall99-sei-hiring-now-job",
       "via": "via Jobilize"
+    },
+    {
+      "title": "Unarmed Security Officers",
+      "company": "Sunstates Security",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.indeed.com/viewjob?jk=7142345a2a38265e",
+      "via": "via Indeed"
     },
     {
       "title": "Unarmed Retail Security Officer: Patrol & Protect",
@@ -42,7 +42,7 @@
       "location": "Irving, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-26",
+      "posted_date": "2026-06-25",
       "apply_link": "https://www.learn4good.com/jobs/irving/texas/security/5219407915/e/",
       "via": "via Learn4Good"
     },
@@ -52,7 +52,7 @@
       "location": "Irving, TX",
       "pay": "17 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-25",
+      "posted_date": "2026-06-24",
       "apply_link": "https://www.ziprecruiter.com/c/Security-Engineers/Job/Unarmed-Security-Officer-1st-Shift/-in-Irving,TX?jid=f48018f43d6cbf17",
       "via": "via ZipRecruiter"
     }

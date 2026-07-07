@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/mobile-patrol-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,14 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Patrol Roving Security Officer Outdoor shopping Center - 77070",
-      "company": "United Protective Services",
+      "title": "Security Guard Armed Vehicle Patrol Driver",
+      "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "24 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=4615cd1ea860a547",
-      "via": "via Indeed"
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-armed-vehicle-patrol-driver-at-allied-universal-4437479857",
+      "via": "via LinkedIn"
     },
     {
       "title": "Allied Universal is hiring: Security Officer Proactive Patrol in Houston",
@@ -27,34 +27,34 @@
       "via": "via Recruit.net"
     },
     {
-      "title": "Shift Lead Security Officer - Patrol, Lead & Respond",
-      "company": "Prevail Security Services",
-      "location": "Houston, TX",
-      "pay": "20,457–29,136 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5261787346/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Security Officer Enhanced Part Time Area Patrol",
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-area-patrol/22950/97437415552",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-area-patrol-at-allied-universal-4437497277",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Guard Armed Vehicle Patrol Driver",
-      "company": "Allied Universal",
+      "title": "Patrol Roving Security Officer Outdoor shopping Center - 77070",
+      "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/houston/security-guard-armed-vehicle-patrol-driver/22950/97437416976",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4615cd1ea860a547",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Shift Lead Security Officer - Patrol, Lead & Respond",
+      "company": "Prevail Security Services",
+      "location": "Houston, TX",
+      "pay": "20,457–29,136 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5261787346/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

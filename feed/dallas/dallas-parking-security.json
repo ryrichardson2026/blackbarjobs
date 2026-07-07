@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-parking-security",
   "market": "DFW",
   "target": "city-role",
@@ -37,24 +37,24 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer Enhanced Part Time Identity Screening",
-      "company": "Allied Universal",
-      "location": "Irving, TX",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-identity-screening-at-allied-universal-4437478918",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer - Afternoon Shift (Varied)",
-      "company": "United Protective Services",
-      "location": "Plano, TX",
-      "pay": "17–19 an hour",
+      "title": "Security - Corporal",
+      "company": "Arlington Independent School District",
+      "location": "Arlington, TX",
+      "pay": "20.45–28.85 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Afternoon-Shift-(Varied)/-in-Plano,TX?jid=62f3161d08f9a898",
+      "apply_link": "https://www.ziprecruiter.com/c/Arlington-ISD/Job/Security-Corporal/-in-Arlington,TX?jid=2e148b5cd07a55ea",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Level 2 Security Officer ( Part time)",
+      "company": "RELIANCE SECURITY SERVICES",
+      "location": "Fort Worth, TX",
+      "pay": "15–16 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
+      "via": "via Indeed"
     }
   ]
 }

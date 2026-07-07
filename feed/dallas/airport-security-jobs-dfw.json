@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/airport-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
-      "company": "Maximus Global Services",
-      "location": "Dallas, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
-      "via": "via Learn4Good"
-    },
     {
       "title": "Security Officer - Airport",
       "company": "Allied Universal",
@@ -27,34 +17,44 @@
       "via": "via BeBee"
     },
     {
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
       "company": "Airport Security Careers",
       "location": "North Richland Hills, TX",
       "pay": "25–50 an hour",
       "schedule": null,
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://jooble.org/jdp/4105170484613475717",
       "via": "via Jooble"
     },
     {
-      "title": "Armed Security Officer; Req.) Aviation Firm",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
+      "company": "TSA Career Placement",
+      "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5243561824/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-06-30",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-mid/2847292533-2/",
+      "via": "via SaluteMyJob"
     },
     {
-      "title": "Airport Checkpoint Screener; TSA",
-      "company": "Airport Security",
-      "location": "Fort Worth, TX",
-      "pay": "45,760–65,341 a year",
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
+      "company": "TSA Career Placement",
+      "location": "Mesquite, TX",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-06-30",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/entertainment/5240210706/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-mes/2847292484-2/",
+      "via": "via SaluteMyJob"
     }
   ]
 }

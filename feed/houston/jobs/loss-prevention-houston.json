@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/loss-prevention-houston",
   "market": "Houston",
   "target": "city-role",
@@ -12,9 +12,19 @@
       "location": "Houston, TX",
       "pay": "17–30 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4436962607",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Loss Prevention Officer; Part Time",
+      "company": "Omni Hotels & Resorts",
+      "location": "Houston, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5244853618/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Overnight Guest-Safety & Loss Prevention Officer",
@@ -22,29 +32,9 @@
       "location": "Houston, TX",
       "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.jobleads.com/us/job/overnight-guest-safety-loss-prevention-officer--houston--e45e024f95c0a2f7576733e2aba76ad4b",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Loss Prevention",
-      "company": "Nter Talent",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://us.trabajo.org/job-5632-ec4e0ed33f7e56b15faae98d4403fe68",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Asset Loss Prevention Officer",
-      "company": "Metro One LPSG",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://us.trabajo.org/job-5632-094bde486d859d0b7f7f5cedd50bb9de",
-      "via": "via Trabajo.org"
     },
     {
       "title": "Loss Prevention Coordinator",
@@ -52,9 +42,19 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-coordinator-at-prime-communications-4422603667",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Asset Loss Prevention Officer",
+      "company": "Metro One LPSG",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://us.trabajo.org/job-5632-094bde486d859d0b7f7f5cedd50bb9de",
+      "via": "via Trabajo.org"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-level-3-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Lake-Dallas,TX?jid=923717ba1818ffab",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
       "company": "Congregational Security Inc.",
@@ -22,7 +32,7 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.jobleads.com/us/job/level-3-security-officer-commission-non-commission-dallas--dallas--e55eeb035994148d4f3fce643e3d6df80",
       "via": "via JobLeads"
     },
@@ -32,7 +42,7 @@
       "location": "Dallas, TX",
       "pay": "19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.ziprecruiter.com/c/Walden-Security/Job/Security-Officer-Level-3,-Wylie,-TX-(Weekends)/-in-Dallas,TX?jid=ace145bf6e74e5ab",
       "via": "via ZipRecruiter"
     },
@@ -42,18 +52,8 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.jobleads.com/us/job/level-3-commission-security-officer-paid-vacation-bonuses--dallas--e822798a2a522af37d5c9a53a2b950291",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Armed Security Officer (Level 3) – Training & Flexible Shifts",
-      "company": "Waldensecurity",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-level-3-training-flexible-shifts--dallas--e1638b233e7b34cbef919f8c0c3dba50c",
       "via": "via JobLeads"
     }
   ]

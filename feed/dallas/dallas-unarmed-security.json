@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-unarmed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Unarmed Security Officers Needed",
+      "company": "Imperial Security – Dallas",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.securityguardsonly.com/jobs/us/dallas/imperial-security-8211-dallas/unarmed-security-officers-needed/",
+      "via": "via Security Guards Only"
+    },
+    {
       "title": "Unarmed Security Officer — Patrol & Customer Service",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-patrol-customer-service--dallas--e7e33d51953613cb1a77dcdcca0fcbaa4",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261014841/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "On-Call Unarmed Security Guard - Access & Safety",
+      "company": "Admiral Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/jdp/-612094254056912222",
+      "via": "via Jooble"
     },
     {
       "title": "Unarmed Security Officer — Flexible Shifts & Weekly Pay",
@@ -22,39 +42,19 @@
       "location": "Dallas, TX",
       "pay": "30K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-flexible-shifts-weekly-pay--dallas--e02e5ced644977fe5664819773e29a9bf",
       "via": "via JobLeads"
     },
     {
-      "title": "Security Officer (Unarmed)",
-      "company": "Tarian",
+      "title": "Unarmed Security Officer Full-Time",
+      "company": "D&L Entertainment",
       "location": "Dallas, TX",
-      "pay": "17.75 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Dallas,TX?jid=7cb64d81cf85a675",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Platinum Group Security",
-      "location": "Dallas, TX",
-      "pay": "15.50–17.50 an hour",
+      "pay": "15 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=80b1f831a71f4c33",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.indeed.com/viewjob?jk=61e75b000094d32a",
       "via": "via Indeed"
-    },
-    {
-      "title": "Armed/Unarmed Security Guard | Flexible Shifts & 1099",
-      "company": "Security Solutions of Texas",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-flexible-shifts-1099--dallas--eb497a651ca187cafbc7440fb6ac591aa",
-      "via": "via JobLeads"
     }
   ]
 }

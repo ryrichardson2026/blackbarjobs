@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -12,9 +12,19 @@
       "location": "Rowlett, TX",
       "pay": "17.17 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.learn4good.com/jobs/rowlett/texas/security/5261208483/e/",
       "via": "via Learn4Good"
+    },
+    {
+      "title": "Weekend Armed Security Specialist - $20/hr + Daily Pay",
+      "company": "Cascadia Global Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://bebee.com/us/jobs/weekend-armed-security-specialist-20-hr-daily-pay-cascadia-global-security-dallas-tx-united-states--appcast-7428_14b61e40119b70b4ab47343d972771e7ad81ff36deac3ccb68dea423d0354e35",
+      "via": "via BeBee"
     },
     {
       "title": "Security Officers For Part-Time & Weekend Shifts",
@@ -22,19 +32,9 @@
       "location": "Frisco, TX",
       "pay": "15.50–16.50 an hour",
       "schedule": null,
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/rjdp/-3141162736698693263",
       "via": "via Jooble"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
-      "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rowlett--edb3e325706576d10e488e03372a8c5ba",
-      "via": "via JobLeads"
     },
     {
       "title": "Weekend Security Rover (Part-Time) – Patrol & Reports",
@@ -47,14 +47,14 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Weekend Armed Security Holiday Coverage",
-      "company": "HSS SECURITY",
-      "location": "Dallas, TX",
-      "pay": "24–25 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3b769e347bd1984c",
-      "via": "via Indeed"
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "company": "Marksman Security",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rowlett--edb3e325706576d10e488e03372a8c5ba",
+      "via": "via JobLeads"
     }
   ]
 }

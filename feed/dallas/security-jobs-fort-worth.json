@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/security-jobs-fort-worth",
   "market": "DFW",
   "target": "city",
@@ -7,34 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Full Time",
-      "company": "United Protective Services",
+      "title": "Level 2 Security Officer ( Part time)",
+      "company": "RELIANCE SECURITY SERVICES",
       "location": "Fort Worth, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
+      "pay": "15–16 an hour",
+      "schedule": "Full-time and Contractor",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": "26.77 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Armed Security Flex Officer - Cleared Position",
-      "company": "Allied Universal",
+      "title": "Full Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
       "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
+      "pay": "26.77 an hour",
+      "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Part-Time Security Officer – Entry Control",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "22,730–32,373 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5261133447/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Security Officer Entry Control",
@@ -42,19 +42,19 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://bebee.com/us/jobs/security-officer-entry-control-allied-universal-fort-worth--fj-2242813630",
-      "via": "via BeBee"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1b53abc78ef41ea3",
+      "via": "via Indeed"
     },
     {
-      "title": "Allied Universal is hiring: Armed Security Officer Flex - Data Center in Fort Worth",
-      "company": "Allied Universal",
+      "title": "Security Officer Full Time",
+      "company": "United Protective Services",
       "location": "Fort Worth, TX",
-      "pay": null,
+      "pay": "17 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-06",
-      "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
-      "via": "via Recruit.net"
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
+      "via": "via ZipRecruiter"
     }
   ]
 }

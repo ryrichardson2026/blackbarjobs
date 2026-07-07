@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "san-antonio/index",
   "market": "San Antonio",
   "target": "general",
@@ -7,24 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
+      "title": "Security Officer - Patrol, Assist & Ensure Safety",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "San Antonio, TX",
-      "pay": "18–20 an hour",
-      "schedule": "Full-time and Part-time",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://valorforce.joblinkapply.com/job/7a56233e-ee39-49bd-8239-972324a17abb",
-      "via": "via JobLinkApply"
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5263869915/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Information System Security Officer – Senior",
-      "company": "Amentum",
+      "title": "Unarmed Security Guard",
+      "company": "All Nation Security Services, Inc.",
+      "location": "Leon Valley, TX",
+      "pay": "17.00–17.75 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/All-Nation-Security-Services/Job/Unarmed-Security-Guard/-in-Leon-Valley,TX?jid=96a58eb66ae9f128",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer - Paid Training & Career Growth Job at Middleton Place in San Antonio",
+      "company": "Middleton Place",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.amentumcareers.com/jobs/information-system-security-officer-senior-san-antonio-texas-united-states-9a9e0d0e-d154-4819-8063-dfead794d62e",
-      "via": "via Amentum"
+      "apply_link": "https://www.recruit.net/job/security-officer-paid-training-growth-jobs/EDAC5EF47B178928",
+      "via": "via Recruit.net"
     },
     {
       "title": "Loss Prevention Team Member",
@@ -37,24 +47,14 @@
       "via": "via Best Hire Force"
     },
     {
-      "title": "Excelsior Defense is hiring: Non-Commissioned Security Officer in San Antonio",
-      "company": "Excelsior Defense",
+      "title": "Information System Security Officer – Senior",
+      "company": "Amentum",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Contractor",
+      "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.recruit.net/job/excelsior-defense-is-non-commissioned-jobs/CA3B5718399463FB",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Security Guard",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal%C2%AE/Job/Security-Guard-Hiring-Immediately/-in-San-Antonio,TX?jid=dd03a34c300d5a42",
-      "via": "via ZipRecruiter"
+      "apply_link": "https://www.amentumcareers.com/jobs/information-system-security-officer-senior-san-antonio-texas-united-states-9a9e0d0e-d154-4819-8063-dfead794d62e",
+      "via": "via Amentum"
     }
   ]
 }

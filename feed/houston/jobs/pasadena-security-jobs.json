@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/pasadena-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Security Officer: CPChem Pasadena",
-      "company": "Denali Universal Services",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Denali-Universal-Services/Job/Security-Officer:-CPChem-Pasadena/-in-Pasadena,TX?jid=87e673c7337d571d",
-      "via": "via ZipRecruiter"
-    },
     {
       "title": "Security Officer Armed Driving Role Security Clearance",
       "company": "Allied Universal",
@@ -27,12 +17,32 @@
       "via": "via Women For Hire- Job Board"
     },
     {
+      "title": "Security Officer: CPChem Pasadena",
+      "company": "Denali Universal Services",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Denali-Universal-Services/Job/Security-Officer:-CPChem-Pasadena/-in-Pasadena,TX?jid=87e673c7337d571d",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Licensed Special Event Security",
+      "company": "Andy Frain Services",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-pasadena-tx--756edd07-fea7-40c7-84ba-88c4ac087efc?mstr_dist=true",
+      "via": "via Monster"
+    },
+    {
       "title": "Flex Security Officer (Unarmed)",
       "company": "Tarian",
       "location": "Pasadena, TX",
       "pay": "15.94 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Unarmed)/-in-Pasadena,TX?jid=823d12f8d532cca9",
       "via": "via ZipRecruiter"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.learn4good.com/jobs/pasadena/texas/security/5258623904/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Loss Prevention & Security Investigations Specialist",
-      "company": "The Home Depot",
-      "location": "Pasadena, TX",
-      "pay": "35K–55K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-security-investigations-specialist--pasadena--e08c7c92c6b254d9d73328061a1f9a9a4",
-      "via": "via JobLeads"
     }
   ]
 }

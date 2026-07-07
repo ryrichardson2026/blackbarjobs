@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "san-antonio/jobs/hospital-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,24 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Detention Hospital Officer — Secure Medical Oversight",
-      "company": "GEO Corrections & Detentions",
-      "location": "San Antonio, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/detention-hospital-officer-secure-medical-oversight--san-antonio--ebd81661994b8e65f11e716b534be7686",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Hospital Security Officer; Unarmed - Patient Safety",
       "company": "Tenet Healthcare",
       "location": "San Antonio, TX",
       "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5253313508/e/",
       "via": "via Learn4Good"
+    },
+    {
+      "title": "Healthcare Security Officer",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "19,320–27,517 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://us.trabajo.org/job-2283-bec8d384f18bef7a396a184d035dd37a",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Detention Hospital Officer — Secure Medical Oversight",
+      "company": "GEO Corrections & Detentions",
+      "location": "San Antonio, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/detention-hospital-officer-secure-medical-oversight--san-antonio--ebd81661994b8e65f11e716b534be7686",
+      "via": "via JobLeads"
     },
     {
       "title": "Lead Hospital Guard: Detainee Security",
@@ -32,7 +42,7 @@
       "location": "San Antonio, TX",
       "pay": "45K–65K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://us.trabajo.org/job-2283-86bd6e6b360ee360c54edc8f0eaa3d71",
       "via": "via Trabajo.org"
     },
@@ -42,19 +52,9 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jooble.org/jdp/6178635401834100067",
       "via": "via Jooble"
-    },
-    {
-      "title": "Compassionate Hospital Security Officer (Unarmed)",
-      "company": "Baptist Health System",
-      "location": "San Antonio, TX",
-      "pay": "35K–55K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/compassionate-hospital-security-officer-unarmed--san-antonio--e405804397cdb6dba8cbe78a5838f90d3",
-      "via": "via JobLeads"
     }
   ]
 }

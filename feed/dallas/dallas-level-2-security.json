@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/dallas-level-2-security",
   "market": "DFW",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Security Guard Level II Armed Supervisor",
-      "company": "Koniag",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
-      "via": "via Jobilize"
-    },
-    {
       "title": "Level 2 Security Officer - Immediate Hiring in Dallas",
       "company": "Brosnan Risk Consultants",
       "location": "Dallas, TX",
@@ -52,9 +42,19 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-11",
+      "posted_date": "2026-06-10",
       "apply_link": "https://abyadd.com/vacancies/job/security-guard-level-ii-armed-supervisor-at-koniag-dallas-tx-RDNaVWZDUW0wdzIxdFZqUkJTOVA4MCtxMHc9PQ==",
       "via": "via Abyadd.com"
+    },
+    {
+      "title": "Level 2 Security Officer - Customer Service Experience a Plus",
+      "company": "Bohling Protective Services, LLC.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=9b0d51d8afd933bf",
+      "via": "via Indeed"
     }
   ]
 }

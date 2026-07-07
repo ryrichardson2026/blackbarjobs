@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "houston/jobs/baytown-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Full Time Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Baytown, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e6a224dbbd2e55b0",
-      "via": "via Indeed"
-    },
-    {
       "title": "Security Officer Patrol",
       "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": null,
+      "pay": "14 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f18831b00f455100",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Unarmed Patrol",
-      "company": "Allied Universal",
-      "location": "Baytown, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-at-allied-universal-4436211576",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4437495381",
       "via": "via LinkedIn"
     },
     {
       "title": "Security Officer Badge Control",
       "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": null,
+      "pay": "15 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-control-at-allied-universal-4436210623",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-control-at-allied-universal-4437478916",
       "via": "via LinkedIn"
     },
     {
-      "title": "Event Security",
-      "company": "Andy Frain Services",
+      "title": "Security Officer Unarmed Patrol",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": "14 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-at-allied-universal-4437481784",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Full Time Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": "14 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-driver-at-allied-universal-4437495375",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Mobile Security Patrol Driver — Earn & Grow with Benefits",
+      "company": "Allied Universal",
       "location": "Baytown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.monster.com/job-openings/event-security-baytown-tx--41c68fc6-26d8-450b-ab84-a9b5a2dd78c6?mstr_dist=true",
-      "via": "via Monster"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/mobile-security-patrol-driver-earn-grow-with-benefits--baytown--eff365a218b35659c6be6e7b59ba8e504",
+      "via": "via JobLeads"
     }
   ]
 }

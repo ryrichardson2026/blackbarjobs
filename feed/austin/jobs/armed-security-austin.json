@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "austin/jobs/armed-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
-      "company": "Ranger Protection Agency",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
-      "via": "via Indeed"
-    },
     {
       "title": "Security Officer-Armed",
       "company": "Ascension",
@@ -27,12 +17,22 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
+      "via": "via Indeed"
+    },
+    {
       "title": "Alliedbarton Security Services is hiring: Security Officer Armed Driver Patrol in Austin",
       "company": "Alliedbarton Security Services",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/92BAFC9A87F76B72",
       "via": "via Recruit.net"
     },
@@ -42,7 +42,7 @@
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-03",
       "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/598B89DC9E46B496",
       "via": "via Recruit.net"
     },
@@ -52,7 +52,7 @@
       "location": "Austin, TX",
       "pay": "25 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.indeed.com/viewjob?jk=a8f99390a0db73cf",
       "via": "via Indeed"
     }

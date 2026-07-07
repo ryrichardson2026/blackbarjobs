@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "dallas/midlothian-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Dynamic Response Security Officer Patrol & Access",
+      "company": "Garda World Security",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/dynamic-response-security-officer-patrol/midlothian-texas?id=2860549558",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Security Guard; shifts",
       "company": "Excelsior Defense",
@@ -17,44 +27,34 @@
       "via": "via Learn4Good"
     },
     {
+      "title": "Hospital Security Officer: Protect Patients & Patrol",
+      "company": "Dormont Manufacturing Co",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/jdp/-4091560866707354294",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Protective Services Officer; Unarmed – St Francis Medical Center",
+      "company": "Dormont Manufacturing Co",
+      "location": "Midlothian, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.learn4good.com/jobs/midlothian/texas/security/5253210790/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Military Security Officer",
       "company": "U.S. Navy",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1242584294",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
-      "company": "TSA Career Placement",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-mid/2847292533-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Hospital Security Officer: Protect Patients & Patrol",
-      "company": "Dormont Manufacturing Co",
-      "location": "Midlothian, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/hospital-security-officer-protect-patients-patrol--midlothian--e744947e2972bb7dc27f21a3599a9a3bf",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer - Flex",
-      "company": "GardaWorld",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---flex/edff3594-58ac-4d6f-8da9-3701ed8213ba",
-      "via": "via GardaWorld - GardaWorld Security"
     }
   ]
 }

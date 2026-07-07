@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "austin/jobs/student-security-jobs-austin",
   "market": "Austin",
   "target": "city",
@@ -17,24 +17,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
+      "title": "Security Officer-Armed",
+      "company": "Ascension",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Austin,TX?jid=9bd9e2a944dbcc9e",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
-      "company": "Ranger Protection Agency",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
-      "via": "via Indeed"
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
+      "via": "via LinkedIn"
     },
     {
       "title": "Downtown Hotel Security Officer",
@@ -47,14 +37,24 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer-Armed",
-      "company": "Ascension",
+      "title": "Austin On Call Security Officer",
+      "company": "United Protective Services",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/On-Call-Austin-Security-Officer/-in-Austin,TX?jid=2211994949a00512",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
+      "via": "via Indeed"
     }
   ]
 }

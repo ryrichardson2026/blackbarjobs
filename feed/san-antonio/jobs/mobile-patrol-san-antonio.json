@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T04:22:19.586533+00:00",
+  "generated": "2026-07-07T16:59:43.351288+00:00",
   "page": "san-antonio/jobs/mobile-patrol-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer - Patrol, Assist & Ensure Safety",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "San Antonio, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5263869915/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Part-Time Driving Patrol Officer",
       "company": "Alliedbarton Security Services",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5261788421/e/",
       "via": "via Learn4Good"
     },
@@ -22,7 +32,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
+      "posted_date": "2026-07-04",
       "apply_link": "https://salutemyjob.com/jobs/facility-security-guard-i-patrol-entry-control-events-san-antonio-texas/2858817073-2/",
       "via": "via SaluteMyJob"
     },
@@ -32,7 +42,7 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
       "via": "via JobLeads"
     },
@@ -42,19 +52,9 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-02",
       "apply_link": "https://jooble.org/jdp/947828067284172769",
       "via": "via Jooble"
-    },
-    {
-      "title": "Part-Time Unarmed Security Officer: Patrol & Service",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "18 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5245734084/e/",
-      "via": "via Learn4Good"
     }
   ]
 }
