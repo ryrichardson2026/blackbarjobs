@@ -722,6 +722,51 @@
       "source": "/dallas/texas-security-license-requirements",
       "destination": "/texas/texas-security-license-requirements",
       "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-hotel-security",
+      "destination": "/houston/jobs/hotel-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-loss-prevention",
+      "destination": "/houston/jobs/loss-prevention-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-armed-security",
+      "destination": "/houston/jobs/armed-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-warehouse-security",
+      "destination": "/houston/jobs/warehouse-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-overnight-security",
+      "destination": "/houston/jobs/overnight-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-unarmed-security",
+      "destination": "/houston/jobs/unarmed-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-event-security",
+      "destination": "/houston/jobs/event-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-no-experience-security-jobs",
+      "destination": "/houston/jobs/houston-no-experience-security",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/houston/:slug*",
+      "destination": "/houston/jobs/:slug*",
+      "permanent": true
     }
   ]
 }
