@@ -207,23 +207,38 @@
   // Post-registration: feed pages already show aligned jobs, so stay in place
   // (bbj_registered cookie unlocks applies). Feedless hub pages still get the board.
   function bbjPostReg(closeFn){
-    // Always stay on the page they registered on. The morphed "Browse Jobs"
-    // CTA handles reaching the board if a page has no on-page feed.
+    // Stay on the page they registered on, then flip the CTAs to browse-mode
+    // immediately so nothing waits on a manual refresh.
     closeFn();
+    if (typeof bbjMorphCtas === 'function') bbjMorphCtas();
   }
 
   // Once registered, alerts are already active from signup, so register CTAs
   // become browse actions: scroll to the on-page feed, or go to the board if none.
+  // Build a board URL filtered to this page's context, derived from the feed key
+  // e.g. "austin/jobs/armed-security-austin" -> /job-board?role=armed-security-austin&city=austin
+  function bbjBrowseUrl(){
+    var key = window.BBJ_FEED_KEY || '';
+    if (!key) return '/job-board';
+    var parts = key.split('/');
+    var metro = (parts[0] || '').replace(/-/g, ' ');
+    var slug  = parts[parts.length - 1] || '';
+    var qs = [];
+    if (slug && slug !== 'index') qs.push('role=' + encodeURIComponent(slug));
+    if (metro) qs.push('city=' + encodeURIComponent(metro));
+    return '/job-board' + (qs.length ? '?' + qs.join('&') : '');
+  }
+  // Once registered, alerts are already active from signup, so register CTAs
+  // become a Browse Jobs action that opens the board filtered to this page.
   function bbjMorphCtas(){
     if (document.cookie.indexOf('bbj_registered=1') === -1) return;
     var ctas = document.querySelectorAll('[onclick*="bbjAlertOpen"],[onclick*="bbjAccOpen"]');
     [].forEach.call(ctas, function(el){
       if (/alert/i.test(el.textContent)) el.textContent = 'Browse Jobs \u2192';
+      el.setAttribute('href', bbjBrowseUrl());
       el.onclick = function(e){
         if (e && e.preventDefault) e.preventDefault();
-        var feed = document.getElementById('jobRows') || document.getElementById('indexJobFeed');
-        if (feed) { feed.scrollIntoView({behavior:'smooth', block:'start'}); }
-        else { window.location.href = '/job-board'; }
+        window.location.href = bbjBrowseUrl();
         return false;
       };
     });
