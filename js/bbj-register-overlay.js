@@ -249,6 +249,8 @@
       };
     });
   }
+  window.bbjBrowseUrl = bbjBrowseUrl;
+  window.bbjShowBrowseSplash = bbjShowBrowseSplash;
   document.addEventListener('DOMContentLoaded', bbjMorphCtas);
 
   window.bbjRegOpen = function() {
@@ -707,7 +709,7 @@
     // Loader then job board
     document.getElementById('bbjAccForm').style.display = 'none';
     document.getElementById('bbjAccLoader').style.display = 'block';
-    setTimeout(function() { bbjShowBrowseSplash('bbjAccSpinner', 'bbjAccLoaderTxt'); }, 700);
+    setTimeout(function() { window.bbjShowBrowseSplash('bbjAccSpinner', 'bbjAccLoaderTxt'); }, 700);
   };
 
 })();
