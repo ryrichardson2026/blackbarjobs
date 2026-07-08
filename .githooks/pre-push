@@ -1,0 +1,21 @@
+#!/bin/sh
+# BBJ pre-push guardrail.
+# Blocks a push if any page points at a feed file that doesn't exist
+# (BBJ_FEED_KEY with no feed/<KEY>.json -> the landing 404s and shows zero jobs).
+#
+# Enable once per clone:   git config core.hooksPath .githooks
+# Override a single push:  git push --no-verify
+root="$(git rev-parse --show-toplevel)" || exit 1
+cd "$root" || exit 1
+
+if command -v python >/dev/null 2>&1; then PY=python; else PY=python3; fi
+
+echo "[pre-push] bbj_feed_target_check.py ..."
+"$PY" bbj_feed_target_check.py
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "[pre-push] BLOCKED: missing feed target(s) above. Generate the snapshot"
+  echo "           (or fix the key), or override once with: git push --no-verify"
+  exit 1
+fi
+exit 0
