@@ -3,7 +3,8 @@
 Read this fully at the start of every session and follow it on every change.
 BlackBarJobs (BBJ) is a static HTML/JS security officer candidate network and
 publisher property targeting Texas markets, hosted on Vercel via GitHub, with
-Google Sheets CSV job feeds, Supabase auth, and Make.com/MailerLite for leads.
+static per-page JSON job feeds (searchapi.io ingest + Supabase, snapshotted to
+/feed/*.json), Supabase auth, and Make.com/MailerLite for leads.
 Candidate traffic is the product; employer demand develops as rankings grow.
 
 ---
@@ -30,7 +31,7 @@ Candidate traffic is the product; employer demand develops as rankings grow.
 Two distinct concepts. Do not conflate them.
 
 Pillar vs hub:
-- Pillar pages (for example /security-jobs-dfw) are 3,000 to 5,000 word guides, NOT hub directories.
+- Pillar pages (for example /dallas/dallas-security-jobs-guide) are 3,000 to 5,000 word guides, NOT hub directories.
 - Hub, geo, topic, and role pages are directory/landing pages.
 
 Visual template routing (which page to copy structure from):
@@ -59,7 +60,7 @@ Known gaps to fix deliberately, not silently:
 ## 6. Interlinking (hard requirement, every page, enforced)
 The mesh must be uniform so Search Console can crawl and discover every page. Rules by page
 type (see detect_page_type in bbj_generator_v5.py):
-- ALL pages link to their market hub: DFW=/security-jobs-dfw, Houston=/houston, San Antonio=/san-antonio, Austin=/austin.
+- ALL pages link to their market hub: DFW=/dallas, Houston=/houston, San Antonio=/san-antonio, Austin=/austin.
 - topic and role_hub pages include a cross-market link to the equivalent page in another market.
 - licensing pages link to the market's training-schools page (or the Texas-wide license page).
 - topic pages link to at least one suburb hub. suburb_hub pages link to at least two sibling suburb hubs.
@@ -68,30 +69,30 @@ type (see detect_page_type in bbj_generator_v5.py):
 - No dead links: never link to a page that does not exist.
 Enforcement:
 - bbj_generator_v5.py hard-gates the outbound rules per page. A violation raises BUILD BLOCKED. Override only with a conscious skip_interlink_gate=True in that page's cfg.
-- bbj_link_graph.py checks inbound links and reachability across the whole repo. Run it before every push; orphans, unreachable pages, and dead links block the push.
+- bbj_link_audit.py checks inbound links and reachability across the whole repo. Run it before every push; orphans, unreachable pages, and dead links block the push.
 
 ## 7. Tracking and overlays (one source of truth)
 - The signup webhook and attribution fire from ONE place: js/bbj-register-overlay.js (bbjAlertOpen, bbjAccOpen), which every page loads.
 - The bbjAttr helper captures attribution once at landing (gclid/gbraid/wbraid, utm_*, referrer, derived channel) and persists it for the session. Every payload includes page_url, landing_url, channel, and cta.
 - Do NOT add new inline webhook fetches or inline Ads-conversion gtag calls to pages.
 - Conversions belong in GTM, fired off the dataLayer events the shared script pushes (alert_signup, account_created, bbj_access_signup), not inline per page.
-- CAVEAT: bbj_generator_v5.py currently bakes an inline fetch(WEBHOOK) and inline gtag conversion into each page's submitAlert(). This is the source of historical drift. Regenerating pages re-introduces inline fires. Refactor the generator template to rely on the shared script + GTM before any mass regeneration.
+- RESOLVED (2026-07-08): bbj_generator_v5.py no longer emits an inline fetch(WEBHOOK), an inline gtag conversion, or a submitAlert() block. Generated pages now load js/bbj-register-overlay.js and fire registration only via bbjAlertOpen()/bbjAccOpen() and the shared dataLayer events, caught by GTM. Regenerating pages is safe on the tracking front. Do NOT reintroduce inline webhook/conversion fires into the template.
 
 ## 8. Tooling and audits
-- bbj_generator_v5.py: page generator. SEO/meta/schema contract, page-type detection, interlinking gate. PUB_BASE + MASTER_* constants are the feed source of truth. San Antonio and Austin master GIDs are still TODO placeholders pointing at the DFW GID. Replace before those feeds go live.
-- bbj_tracking_audit.py: inventories inline webhook/conversion drift across all pages. Run after tracking changes.
-- bbj_link_graph.py: builds the internal link graph; reports orphans, unreachable pages, dead links. Run before every push.
-- Feeds: Google Sheets published CSV per tab (PUB_BASE in the generator). DFW master gid 885752320, Houston master gid 1720400336.
+- bbj_generator_v5.py: page generator. SEO/meta/schema contract, page-type detection, interlinking gate. Each page emits BBJ_FEED_KEY (= slug without leading slash) and loads js/bbj-feed.js; the visible-job cap and apply gating live in that shared script. Also bakes in two output guardrails: no internal <a href> may carry a utm_ param, and the favicon set must be present, or the build blocks.
+- bbj_page_check.py: audits every page for correct wiring (GTM, shared overlay, BBJ_FEED_KEY + bbj-feed.js, auth scripts) and flags leftover old systems (submitAlert, inline conversion/webhook, CSV feeds), wrong-metro copy, and em-dashes. Run after tracking/overlay/feed changes.
+- bbj_link_audit.py: cross-checks pages, internal links, and sitemaps; reports broken links, dead sitemap URLs, pages missing from the map, orphans, and dead links. Run before every push.
+- Feeds: static per-page JSON snapshots at /feed/<BBJ_FEED_KEY>.json (searchapi.io ingest + Supabase), rendered by js/bbj-feed.js. The old Google Sheets CSV feed (PUB_BASE + MASTER_* GIDs) is retired.
 
 ## 9. Markets
 - Live: DFW, Houston.
-- In progress / queued: San Antonio, Austin (need feed GIDs, full mesh, and parity buildout).
+- In progress / queued: San Antonio, Austin (need feeds wired to /feed/*.json, full mesh, and parity buildout).
 - New-market and role pages are structural clones per Section 4, with city-specific content swapped and all source-market references scrubbed.
 
 ## 10. Workflow
 - Work on a branch, never directly on main, so Vercel builds a preview instead of shipping to production.
 - Show the diff for review before merge. Ranking pages get extra scrutiny.
-- After multi-page changes: run bbj_link_graph.py and bbj_tracking_audit.py, report results, then commit.
+- After multi-page changes: run bbj_link_audit.py and bbj_page_check.py, report results, then commit.
 - Keep commits deliberate. Do not auto-push every edit.
 
 ## 11. Outreach

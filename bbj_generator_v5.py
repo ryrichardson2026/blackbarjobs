@@ -15,6 +15,7 @@ v5 CHANGES — Interlinking enforcement:
 """
 
 import json
+import re
 import warnings
 from datetime import date
 from pathlib import Path
@@ -155,16 +156,13 @@ TODAY     = date.today().isoformat()
 BASE_URL  = "https://www.blackbarjobs.com"
 GTM_ID    = "GTM-TP9JXK39"
 CLARITY   = "wvxhs1xht1"
-WEBHOOK   = "https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x"
 ADS_ID    = "AW-17039190320"
-ADS_CONV  = "rYvuCM6Mu7IcELDS9bw_"
+# WEBHOOK + ADS_CONV removed: registration webhook and the Ads conversion now
+# fire only from the shared overlay's dataLayer events via GTM, never inline.
 
-PUB_BASE   = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub"
-MASTER_HOU = f"{PUB_BASE}?gid=1720400336&single=true&output=csv"
-MASTER_DFW = f"{PUB_BASE}?gid=885752320&single=true&output=csv"
-# SA and Austin: update GID once tabs are created in Google Sheet
-MASTER_SA  = f"{PUB_BASE}?gid=885752320&single=true&output=csv"  # TODO: replace with SA GID
-MASTER_AUS = f"{PUB_BASE}?gid=885752320&single=true&output=csv"  # TODO: replace with Austin GID
+# Feed source = static per-page JSON snapshots under /feed/<key>.json, rendered
+# by /js/bbj-feed.js. The old Google Sheets CSV feed (PUB_BASE + MASTER_* GIDs)
+# has been retired. The per-page key is BBJ_FEED_KEY = slug without leading slash.
 
 HOUSTON_FOOTER = [
     ("/houston",                                    "Houston Security Jobs"),
@@ -185,15 +183,15 @@ DFW_FOOTER = [
     ("/texas/texas-security-license-requirements", "TX License Guide"),
 ]
 HOUSTON_RESOURCES = [
-    ("/houston",                                "Houston Security Jobs — Complete Guide"),
-    ("/texas/how-to-become-a-security-guard-in-texas","How To Become A Security Guard in Texas"),
-    ("/texas/security-guard-salary-texas",            "Texas Security Guard Salary Guide"),
+    ("/houston",                                "Houston Security Jobs - Complete Guide"),
+    ("/texas/how-to-become-a-security-guard-in-texas","How To Become A Security Officer in Texas"),
+    ("/texas/security-guard-salary-texas",            "Texas Security Officer Salary Guide"),
     ("/texas/security-jobs-for-veterans-texas",       "Veterans Security Jobs in Texas"),
 ]
 DFW_RESOURCES = [
-    ("/dallas",                      "DFW Security Jobs — Complete Guide"),
-    ("/texas/how-to-become-a-security-guard-in-texas","How To Become A Security Guard in Texas"),
-    ("/texas/security-guard-salary-texas",            "Texas Security Guard Salary Guide"),
+    ("/dallas",                      "DFW Security Jobs - Complete Guide"),
+    ("/texas/how-to-become-a-security-guard-in-texas","How To Become A Security Officer in Texas"),
+    ("/texas/security-guard-salary-texas",            "Texas Security Officer Salary Guide"),
     ("/dallas/dallas-security-jobs-guide",             "Dallas Security Jobs Guide"),
     ("/texas/security-jobs-for-veterans-texas",       "Veterans Security Jobs in Texas"),
 ]
@@ -209,9 +207,9 @@ SA_FOOTER = [
     ("/texas/texas-security-license-requirements",          "TX License Guide"),
 ]
 SA_RESOURCES = [
-    ("/san-antonio",                                       "San Antonio Security Jobs — Complete Guide"),
-    ("/texas/how-to-become-a-security-guard-in-texas",           "How To Become A Security Guard in Texas"),
-    ("/texas/security-guard-salary-texas",                       "Texas Security Guard Salary Guide"),
+    ("/san-antonio",                                       "San Antonio Security Jobs - Complete Guide"),
+    ("/texas/how-to-become-a-security-guard-in-texas",           "How To Become A Security Officer in Texas"),
+    ("/texas/security-guard-salary-texas",                       "Texas Security Officer Salary Guide"),
     ("/texas/security-jobs-for-veterans-texas",                  "Veterans Security Jobs in Texas"),
 ]
 AUSTIN_FOOTER = [
@@ -224,9 +222,9 @@ AUSTIN_FOOTER = [
     ("/texas/texas-security-license-requirements",          "TX License Guide"),
 ]
 AUSTIN_RESOURCES = [
-    ("/austin",                                            "Austin Security Jobs — Complete Guide"),
-    ("/texas/how-to-become-a-security-guard-in-texas",           "How To Become A Security Guard in Texas"),
-    ("/texas/security-guard-salary-texas",                       "Texas Security Guard Salary Guide"),
+    ("/austin",                                            "Austin Security Jobs - Complete Guide"),
+    ("/texas/how-to-become-a-security-guard-in-texas",           "How To Become A Security Officer in Texas"),
+    ("/texas/security-guard-salary-texas",                       "Texas Security Officer Salary Guide"),
     ("/texas/security-jobs-for-veterans-texas",                  "Veterans Security Jobs in Texas"),
 ]
 
@@ -453,11 +451,13 @@ def jobposting_schema(cfg):
     return json.dumps({"@context":"https://schema.org/","@type":"JobPosting",
         "title":cfg["role"],"description":cfg["meta_desc"],
         "identifier":{"@type":"PropertyValue","name":"BlackBarJobs","value":cfg["slug"].strip("/").replace("/","-")},
+        # FLAG: datePosted/validThrough is a stale-date pattern (build date + end-of-year).
+        # Revisit alongside the Google-for-Jobs JobPosting schema work before relying on it.
         "datePosted":TODAY,"validThrough":f"{date.today().year}-12-31",
         "employmentType":cfg.get("employment_type","FULL_TIME"),
         "hiringOrganization":{"@type":"Organization","name":"BlackBarJobs","sameAs":BASE_URL},
         "jobLocation":{"@type":"Place","address":{"@type":"PostalAddress",
-            "addressLocality":cfg["city"],"addressRegion":"TX","addressCountry":"US"}},
+            "addressLocality":cfg["city"],"addressRegion":cfg.get("region","TX"),"addressCountry":"US"}},
         "baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{
             "@type":"QuantitativeValue","minValue":cfg.get("pay_min",15),
             "maxValue":cfg.get("pay_max",22),"unitText":"HOUR"}},
@@ -475,15 +475,10 @@ def breadcrumb_schema(cfg):
         {"@type":"ListItem","position":3,"name":cfg["role"],"item":f"{BASE_URL}{cfg['slug']}"}
     ]}, indent=2)
 
-# ── Feed JS ───────────────────────────────────────────────────────
-def feed_js(csv_url):
-    return f"""(function(){{
-  var CSV_URL='{csv_url}';
-  function parseCSV(t){{var lines=t.trim().split('\\n');var headers=lines[0].split(',').map(function(h){{return h.replace(/"/g,'').trim();}});return lines.slice(1).map(function(line){{var cols=[],cur='',inQ=false;for(var i=0;i<line.length;i++){{var c=line[i];if(c==='"'){{inQ=!inQ;}}else if(c===','&&!inQ){{cols.push(cur);cur='';}}else{{cur+=c;}}}}cols.push(cur);var obj={{}};headers.forEach(function(h,i){{obj[h]=(cols[i]||'').replace(/"/g,'').trim();}});return obj;}}).filter(function(o){{return o.title;}});}}
-  function render(jobs){{var c=document.getElementById('jobRows');if(!c)return;if(!jobs.length){{c.innerHTML='<div style="padding:14px 0;color:var(--muted);font-size:0.85rem;">No listings right now — check back soon.</div>';return;}}c.innerHTML=jobs.map(function(j){{var url=encodeURIComponent(j.apply_link||'');return '<div class="jf-row" onclick="bbjHandleApply(this)" data-url="'+url+'"><div class="jf-body"><div class="jf-title">'+(j.title||'')+'</div><div class="jf-meta"><span class="jf-company">'+(j.company||'')+'</span>'+(j.location?'<span class="jf-sep">·</span><span>'+j.location+'</span>':'')+(j.pay?'<span class="jf-pay">'+j.pay+'</span>':'')+'</div></div><a class="jf-apply">View</a></div>';}}).join('');}}
-  fetch(CSV_URL).then(function(r){{return r.text();}}).then(function(text){{var jobs=parseCSV(text);var active=jobs.filter(function(j){{return(j.active||'').toLowerCase()==='yes';}});active.sort(function(a,b){{return new Date(b.date_pulled||0)-new Date(a.date_pulled||0);}});render(active.slice(0,5));}}).catch(function(){{var c=document.getElementById('jobRows');if(c)c.innerHTML='<div style="padding:14px 0;color:var(--muted);font-size:0.85rem;">Could not load jobs.</div>';}});
-  window.bbjHandleApply=window.bbjHandleApply||function(el){{var url=decodeURIComponent(el.dataset.url||'');if(!url)return;if(document.cookie.indexOf('bbj_registered=1')!==-1){{window.open(url,'_blank');return;}}var views=parseInt((document.cookie.match(/bbj_views=(\\d+)/)||[0,0])[1],10);if(views<1){{views++;document.cookie='bbj_views='+views+';path=/;SameSite=Lax';window.open(url,'_blank');return;}}if(typeof bbjOpenGate==='function'){{bbjOpenGate(null,url);}}else{{window.open(url,'_blank');}}}};
-}})();"""
+# ── Feed ──────────────────────────────────────────────────────────
+# The feed is rendered by the shared /js/bbj-feed.js, which reads the static
+# snapshot at /feed/<BBJ_FEED_KEY>.json and populates #jobRows. The visible-job
+# cap and the apply gating live in that shared script, not inline here.
 
 # ── Builders ──────────────────────────────────────────────────────
 def duty_list(items):
@@ -515,6 +510,29 @@ def sec_div(label, mt0=False):
     style = ' style="margin-top:0;"' if mt0 else ''
     return f'<div class="section-divider"{style}><span>{label}</span></div>'
 
+# ── Output guardrails (bake in fixes for past bugs) ────────────────
+_A_HREF_RE  = re.compile(r'<a\b[^>]*?href="([^"]*)"', re.I)
+_FAVICONS   = ('/favicon.ico', '/favicon-32.png', '/favicon.png')
+
+def _is_internal_href(href):
+    h = href.strip().lower()
+    if h.startswith(("mailto:", "tel:", "javascript:", "#", "data:", "//")):
+        return False
+    if h.startswith(("http://", "https://")):
+        return "blackbarjobs.com" in h   # our own absolute URLs count as internal
+    return True                          # site-relative
+
+def assert_output_guardrails(html, slug):
+    """Fail the build if a regressed past-bug pattern slips into a generated page."""
+    # Guardrail A — no internal <a href> may carry a utm_ parameter.
+    for href in _A_HREF_RE.findall(html):
+        if _is_internal_href(href) and "utm_" in href.lower():
+            raise SystemExit(f"BUILD BLOCKED — {slug}: internal link carries a UTM param: {href}")
+    # Guardrail B — the favicon set must be emitted on every page.
+    missing = [f for f in _FAVICONS if f not in html]
+    if missing:
+        raise SystemExit(f"BUILD BLOCKED — {slug}: missing favicon tag(s): {', '.join(missing)}")
+
 # ── Main generator ────────────────────────────────────────────────
 def generate_page(cfg):
     market      = cfg.get("market","Houston")
@@ -524,12 +542,15 @@ def generate_page(cfg):
     title       = cfg["title"]
     meta_desc   = cfg["meta_desc"]
     canonical   = f"{BASE_URL}{slug}"
+    region      = cfg.get("region","TX")
     hero_img    = cfg.get("hero_img","/images/overnight-security-hero.jpg")
+    hero_alt    = cfg.get("hero_alt", f"{role} jobs {city} {region}")
     browse_url  = cfg.get("browse_url","/job-board")
     alert_city  = cfg.get("alert_city", city)
 
-    csv_url_map = {"Houston": MASTER_HOU, "DFW": MASTER_DFW, "San Antonio": MASTER_SA, "Austin": MASTER_AUS}
-    csv_url   = cfg.get("csv_url", csv_url_map.get(market, MASTER_DFW))
+    # Feed key = slug without leading slash (e.g. "austin/jobs/armed-security-austin").
+    # bbj-feed.js fetches /feed/<feed_key>.json; the overlay derives the metro from it too.
+    feed_key  = cfg.get("feed_key", slug.lstrip("/"))
     res_map = {"Houston": HOUSTON_RESOURCES, "DFW": DFW_RESOURCES, "San Antonio": SA_RESOURCES, "Austin": AUSTIN_RESOURCES}
     ft_map  = {"Houston": HOUSTON_FOOTER,    "DFW": DFW_FOOTER,    "San Antonio": SA_FOOTER,    "Austin": AUSTIN_FOOTER}
     resources = cfg.get("resources", res_map.get(market, DFW_RESOURCES))
@@ -564,7 +585,7 @@ def generate_page(cfg):
         f'<div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">{q}<span class="faq-icon">+</span></div><div class="faq-a">{a}</div></div>'
         for q,a in faqs)
 
-    return f"""<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -600,7 +621,7 @@ def generate_page(cfg):
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<div class="sticky-bar" id="stickyBar"><a href="#alerts">Get Security Job Alerts</a></div>
+<div class="sticky-bar" id="stickyBar"><a href="#" onclick="bbjAlertOpen();return false;">Get Security Job Alerts</a></div>
 
 <nav>
   <a class="nav-logo" href="/"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span></a>
@@ -609,7 +630,7 @@ def generate_page(cfg):
 <!-- HERO -->
 <section class="hero">
   <div class="hero-image-wrap">
-    <img src="{hero_img}" alt="{role} jobs {city} TX" loading="eager">
+    <img src="{hero_img}" alt="{hero_alt}" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
   <div class="hero-content">
@@ -622,7 +643,7 @@ def generate_page(cfg):
   </div>
 </section>
 
-<!-- LIVE FEED — off-white -->
+<!-- LIVE FEED - off-white -->
 <div class="section-offwhite" id="live-jobs">
   {sec_div("Live Openings", mt0=True)}
   <div class="section-wrap">
@@ -632,7 +653,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- FAQ — white -->
+<!-- FAQ - white -->
 <div class="section-white">
   {sec_div("FAQ", mt0=True)}
   <div class="section-wrap">
@@ -641,7 +662,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- DEMAND OVERVIEW — off-white -->
+<!-- DEMAND OVERVIEW - off-white -->
 <div class="section-offwhite">
   {sec_div("Overview")}
   <div class="section-wrap">
@@ -650,7 +671,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- ROLE OVERVIEW + DUTIES — white two-col -->
+<!-- ROLE OVERVIEW + DUTIES - white two-col -->
 <div class="two-col-light">
   {sec_div("Overview &amp; Duties")}
   <div class="two-col-inner">
@@ -667,7 +688,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- PAY — navy-deep dark -->
+<!-- PAY - navy-deep dark -->
 <div class="section-dark">
   {sec_div("Compensation")}
   <div class="section-wrap">
@@ -677,13 +698,13 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- MID CTA — GOLD -->
+<!-- MID CTA - GOLD -->
 <div class="mid-cta-gold">
   <p>{mid_cta}</p>
   <a class="btn-cta-navy" href="{browse_url}">Browse All Jobs →</a>
 </div>
 
-<!-- REQUIREMENTS + SCHEDULES — navy-mid two-col-dark -->
+<!-- REQUIREMENTS + SCHEDULES - navy-mid two-col-dark -->
 <div class="two-col-dark">
   {sec_div("Requirements &amp; Schedules")}
   <div class="two-col-inner">
@@ -700,7 +721,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- RELATED — navy-deep dark -->
+<!-- RELATED - navy-deep dark -->
 <div class="section-dark">
   {sec_div("Related Roles")}
   <div class="section-wrap">
@@ -709,7 +730,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- RESOURCES — off-white -->
+<!-- RESOURCES - off-white -->
 <div class="section-offwhite" id="resource-links">
   {sec_div("Guides &amp; Resources")}
   <div class="section-wrap">
@@ -718,7 +739,7 @@ def generate_page(cfg):
   </div>
 </div>
 
-<!-- ALERT — navy-deep -->
+<!-- ALERT - navy-deep -->
 <div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Don't See The Right <span>Security Job</span> Yet?</h2>
   <p>New openings posted regularly across {alert_city}, TX. Get notified the moment something matches.</p>
@@ -727,7 +748,7 @@ def generate_page(cfg):
     <div class="alert-field"><span class="alert-field-icon">📱</span><input type="tel" id="a-ph" placeholder="Mobile Number" inputmode="tel"></div>
     <div class="alert-field"><span class="alert-field-icon">✉️</span><input type="email" id="a-em" placeholder="Email Address (optional)" inputmode="email"></div>
     <div id="alertError"></div>
-    <button class="btn-primary" onclick="submitAlert()">Get Free Job Alerts →</button>
+    <a href="#" onclick="bbjAlertOpen();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;">Get Free Job Alerts →</a>
     <div class="alert-trust"><svg width="12" height="12" fill="none" viewBox="0 0 20 20"><path d="M10 2L3 6v5c0 4 3.1 7.7 7 8.9C13.9 18.7 17 15 17 11V6L10 2z" fill="rgba(255,195,0,0.6)"></path></svg> No spam. Unsubscribe anytime.</div>
     <p class="alert-note">By submitting I agree to receive SMS and email updates regarding jobs from BlackBarJobs. Msg &amp; data rates may apply. Reply STOP to unsubscribe.</p>
   </div>
@@ -747,22 +768,9 @@ def generate_page(cfg):
 
 <script>
 function toggleFaq(el){{el.parentElement.classList.toggle('open');}}
-function submitAlert(){{
-  var zip=document.getElementById('a-zip').value.trim();
-  var ph=document.getElementById('a-ph').value.trim();
-  var em=document.getElementById('a-em').value.trim();
-  var er=document.getElementById('alertError');
-  if(er){{er.style.display='none';er.textContent='';}}
-  function showErr(msg,id){{if(er){{er.textContent=msg;er.style.cssText='display:block;color:#ff6b6b;font-size:0.82rem;margin:4px 0 2px;';}}var f=document.getElementById(id);if(f)f.focus();}}
-  if(!zip||zip.length<5){{showErr('Please enter your ZIP code.','a-zip');return;}}
-  if(!ph&&!em){{showErr('Please enter a phone number or email.','a-ph');return;}}
-  window.dataLayer=window.dataLayer||[];
-  window.dataLayer.push({{event:'alert_form_submit',zip:zip}});
-  if(typeof gtag!=='undefined'){{gtag('event','conversion',{{'send_to':'{ADS_ID}/{ADS_CONV}'}});}}
-  fetch('{WEBHOOK}',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{timestamp:new Date().toISOString(),type:'candidate',form:'job_alert',zip:zip,phone:ph.replace(/\\D/g,''),email:em,source:window.location.href,consent:true,consent_timestamp:new Date().toISOString(),consent_text:'By submitting I agree to receive SMS and email updates from BlackBarJobs. Msg & data rates may apply. Reply STOP to unsubscribe.'}})}});
-  var f=document.getElementById('alertForm');var ok=document.getElementById('alertSuccess');
-  if(f)f.style.display='none';if(ok)ok.style.display='block';
-}}
+// Registration + attribution fire from the shared overlay (bbjAlertOpen /
+// bbjAccOpen in /js/bbj-register-overlay.js) and its dataLayer events, caught
+// by GTM. No inline conversion gtag, webhook fetch, or submitAlert() here.
 (function(){{
   var b=document.getElementById('stickyBar'),h=document.querySelector('.hero');
   if(!b||!h)return;
@@ -770,11 +778,16 @@ function submitAlert(){{
   window.addEventListener('scroll',chk,{{passive:true}});chk();
 }})();
 </script>
-<script>{feed_js(csv_url)}</script>
+<script>window.BBJ_FEED_KEY="{feed_key}";</script>
+<script src="/js/bbj-feed.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+<script src="/js/bbj-register-overlay.js"></script>
 </body>
 </html>"""
+
+    assert_output_guardrails(html, slug)
+    return html
 
 print("BBJ Generator v5 loaded. Interlinking validation active.")
