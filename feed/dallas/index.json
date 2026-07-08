@@ -1,0 +1,60 @@
+{
+  "generated": "2026-07-08T17:30:26.493310+00:00",
+  "page": "dallas/index",
+  "market": "DFW",
+  "target": "general",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security - Corporal",
+      "company": "Arlington Independent School District",
+      "location": "Arlington, TX",
+      "pay": "20.45–28.85 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Arlington-ISD/Job/Security-Corporal/-in-Arlington,TX?jid=2e148b5cd07a55ea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Level 2 Security Officer ( Part time)",
+      "company": "RELIANCE SECURITY SERVICES",
+      "location": "Fort Worth, TX",
+      "pay": "15–16 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": "26.77 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Armed Security Operative",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "45 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-operative-at-allied-universal-4437492594",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Patrol Screening",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
+      "via": "via LinkedIn"
+    }
+  ]
+}
