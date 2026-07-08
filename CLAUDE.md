@@ -82,6 +82,7 @@ Enforcement:
 - bbj_generator_v5.py: page generator. SEO/meta/schema contract, page-type detection, interlinking gate. Each page emits BBJ_FEED_KEY (= slug without leading slash) and loads js/bbj-feed.js; the visible-job cap and apply gating live in that shared script. Also bakes in two output guardrails: no internal <a href> may carry a utm_ param, and the favicon set must be present, or the build blocks.
 - bbj_page_check.py: audits every page for correct wiring (GTM, shared overlay, BBJ_FEED_KEY + bbj-feed.js, auth scripts) and flags leftover old systems (submitAlert, inline conversion/webhook, CSV feeds), wrong-metro copy, and em-dashes. Run after tracking/overlay/feed changes.
 - bbj_link_audit.py: cross-checks pages, internal links, and sitemaps; reports broken links, dead sitemap URLs, pages missing from the map, orphans, and dead links. Run before every push.
+- bbj_feed_target_check.py: guardrail. For every page carrying a BBJ_FEED_KEY, verifies feed/<KEY>.json exists in the repo; lists offenders and exits non-zero so a landing page can never ship showing zero jobs (a missing feed 404s silently). Run before every push, and always after adding a new page target or landing page.
 - Feeds: static per-page JSON snapshots at /feed/<BBJ_FEED_KEY>.json (searchapi.io ingest + Supabase), rendered by js/bbj-feed.js. The old Google Sheets CSV feed (PUB_BASE + MASTER_* GIDs) is retired.
 
 ## 9. Markets
@@ -92,7 +93,8 @@ Enforcement:
 ## 10. Workflow
 - Work on a branch, never directly on main, so Vercel builds a preview instead of shipping to production.
 - Show the diff for review before merge. Ranking pages get extra scrutiny.
-- After multi-page changes: run bbj_link_audit.py and bbj_page_check.py, report results, then commit.
+- After multi-page changes: run bbj_link_audit.py, bbj_page_check.py, and bbj_feed_target_check.py, report results, then commit.
+- Before any push that adds or renames a page/feed: run bbj_feed_target_check.py and confirm 0 missing feed targets.
 - Keep commits deliberate. Do not auto-push every edit.
 
 ## 11. Outreach
@@ -102,7 +104,8 @@ Enforcement:
 
 ## 12. Working autonomously
 - Run the full loop end to end without pausing between steps: branch -> make the surgical edits ->
-  run the relevant audit (bbj_page_check.py / bbj_link_audit.py) -> commit.
+  run the relevant audit (bbj_page_check.py / bbj_link_audit.py, plus bbj_feed_target_check.py when
+  a page target or feed key changed) -> commit.
 - Only stop to ask when: (1) about to git push or merge, (2) a fix is genuinely ambiguous, or
   (3) a change would touch working functionality.
 - After any page or link change, re-run the audits and report the before/after counts.
