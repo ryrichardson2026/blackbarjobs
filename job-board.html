@@ -568,13 +568,7 @@ window.addEventListener("load", function(){
 }</script></div>
 <script>
   /* ───────────────── CONFIG ───────────────── */
-  // Master feed = EVERY tab of the BBJ Job Feed sheet, merged + de-duplicated by apply link.
-  var PUB_BASE = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub';
-  var PUBHTML  = PUB_BASE + 'html';                          // lists every published tab's gid
-  function tabCsvUrl(gid){ return PUB_BASE + '?single=true&output=csv&gid=' + gid; }
-  // Fallback tab list if auto-discovery fails: index, unarmed, armed, overnight, event
-  var FALLBACK_GIDS = ['908030','0','860426680','2118776757','344919398'];
-  var WEBHOOK = 'https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x';
+  // Job source: static /feed/board.json (all active jobs), written by bbj_feed_snapshot.py. Google Sheet retired.
   var PAGE_SIZE = 10;
   var FREE_VIEWS = 1;       // free job views before the gate appears (gate on the 2nd)
 
@@ -626,30 +620,6 @@ window.addEventListener("load", function(){
   }
 
   /* ───────────────── CSV PARSE ───────────────── */
-  function parseCSV(text) {
-    var rows = []; var cur = ['']; var i = 0, field = 0, inQ = false;
-    for (i = 0; i < text.length; i++) {
-      var c = text[i];
-      if (inQ) {
-        if (c === '"') { if (text[i+1] === '"') { cur[field] += '"'; i++; } else inQ = false; }
-        else cur[field] += c;
-      } else {
-        if (c === '"') inQ = true;
-        else if (c === ',') { field++; cur[field] = ''; }
-        else if (c === '\n') { rows.push(cur); cur = ['']; field = 0; }
-        else if (c === '\r') { /* skip */ }
-        else cur[field] += c;
-      }
-    }
-    if (cur.length > 1 || cur[0] !== '') rows.push(cur);
-    if (!rows.length) return [];
-    var headers = rows[0].map(function(h){ return h.trim(); });
-    return rows.slice(1).map(function(r){
-      var o = {};
-      headers.forEach(function(h, idx){ o[h] = (r[idx] || '').trim(); });
-      return o;
-    }).filter(function(o){ return (o.title || '').length > 0; });
-  }
 
   /* ───────────────── ROLE DERIVATION ───────────────── */
   function deriveRoles(job) {
@@ -1169,17 +1139,33 @@ window.addEventListener("load", function(){
     applyUrlFilters();                // deep-link via UTM / query params (?role=unarmed&city=houston)
   }
 
-  /* ───────────────── FEED LOADER (all tabs) ───────────────── */
-  var MASTER_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSGYh2fnA1lRdcI1nLmiohA8YuC6FTdeA5xmF6sga3a-9SPuTMN_o-p28OiAtxPFb5PhTEbNjzIe-UF/pub?gid=885752320&single=true&output=csv';
+  /* ───────────────── FEED LOADER (master static JSON) ───────────────── */
+  var FEED_URL = '/feed/board.json';   // all active jobs, written by bbj_feed_snapshot.py
+
+  // Map the snapshot job shape -> the object shape boot() expects.
+  function mapFeedJob(j) {
+    var loc = (j.location || '').trim();
+    return {
+      active: 'yes',                                  // snapshot only contains live jobs
+      apply_link: j.apply_link || '',
+      title: j.title || '',
+      company: j.company || '',
+      location: loc,
+      city: (j.market || (loc.split(',')[0] || '')).trim(),  // metro grouping
+      posted: j.posted_date || '',
+      pay: j.pay || '',
+      via: j.via || '',
+      schedule: j.schedule || ''
+    };
+  }
 
   function loadFeed(){
-    fetch(MASTER_CSV, {mode:'cors'})
-      .then(function(r){ return r.ok ? r.text() : ''; })
-      .then(function(t){
-        if(!t) throw new Error('empty');
-        var raw = parseCSV(t);
-        if(!raw.length) throw new Error('empty');
-        boot(raw);
+    fetch(FEED_URL, { cache: 'no-cache' })
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(data){
+        var jobs = (data && data.jobs ? data.jobs : []).map(mapFeedJob);
+        if(!jobs.length) throw new Error('empty');
+        boot(jobs);
       })
       .catch(function(){
         document.getElementById('feed').innerHTML = '<div class="feed-msg" style="grid-column:1/-1;"><div class="fm-title">Couldn\'t load openings</div><div class="fm-sub">Please refresh in a moment, or get job alerts and we\'ll come to you.</div><a href="#" class="hero-btn gold" onclick="openAlerts();return false;" style="display:inline-flex;color:var(--navy-deep);">Get Job Alerts →</a></div>';
