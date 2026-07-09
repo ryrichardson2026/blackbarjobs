@@ -1,8 +1,8 @@
-name: Weekly feed refresh
+name: Scheduled feed refresh (3x/week)
 
 on:
   schedule:
-    - cron: '0 14 * * 2'      # every Tuesday 14:00 UTC (~9am Central, 7am Pacific)
+    - cron: '0 14 * * 2,4,6'  # Tue/Thu/Sat 14:00 UTC (~9am Central, 7am Pacific)
   workflow_dispatch: {}        # adds a manual "Run workflow" button
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
         env:
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python automation/bbj_feed_fetch.py --queries automation/bbj_feed_queries.json
+        run: python automation/bbj_feed_fetch.py --queries automation/bbj_feed_queries.json --staleness-days 14 --max-posted-age 21
 
       - name: Build feed snapshot
         env:
@@ -39,6 +39,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No feed changes this run."
           else
-            git commit -m "chore: weekly feed refresh"
+            git commit -m "chore: scheduled feed refresh"
             git push
           fi

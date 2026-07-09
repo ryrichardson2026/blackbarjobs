@@ -17,6 +17,18 @@
       .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   }
 
+  function relPosted(iso) {
+    if (!iso) return "";
+    var d = new Date(iso + "T00:00:00");
+    if (isNaN(d.getTime())) return "";
+    var t = new Date(); t.setHours(0, 0, 0, 0);
+    var days = Math.round((t - d) / 86400000);
+    if (days <= 0) return "Posted today";
+    if (days === 1) return "Posted yesterday";
+    if (days < 7) return "Posted " + days + " days ago";
+    return "Posted " + d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  }
+
   /* ── click gates (faithful copies of the originals) ── */
   window.bbjHandleApply = window.bbjHandleApply || function (el) {
     var url = decodeURIComponent(el.dataset.url || "");
@@ -50,6 +62,7 @@
           '<div class="jf-meta"><span class="jf-company">' + esc(j.company) + '</span>' +
           (j.location ? '<span class="jf-sep">&middot;</span><span class="jf-loc">' + esc(j.location) + '</span>' : '') +
           (j.pay ? '<span class="jf-pay">' + esc(j.pay) + '</span>' : '') +
+          (relPosted(j.posted_date) ? '<span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">' + esc(relPosted(j.posted_date)) + '</span>' : '') +
           '</div></div><a class="jf-apply">View</a></div>';
     }).join("");
   }
@@ -60,7 +73,7 @@
       return '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply(\'' + url + '\')">' +
         '<div class="hf-body">' +
           '<div class="hf-title">' + esc(j.title) + '</div>' +
-          '<div class="hf-meta">' + esc(j.company) + ' &nbsp;&middot;&nbsp; ' + esc(j.location) + '</div>' +
+          '<div class="hf-meta">' + esc(j.company) + ' &nbsp;&middot;&nbsp; ' + esc(j.location) + (relPosted(j.posted_date) ? ' &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">' + esc(relPosted(j.posted_date)) + '</span>' : '') + '</div>' +
         '</div>' +
         '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">' +
           '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>' +
