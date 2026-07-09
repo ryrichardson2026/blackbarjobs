@@ -45,7 +45,7 @@
     },
     {
       "source": "/armed-security-dfw",
-      "destination": "/dallas/armed-security-dfw",
+      "destination": "/dallas/jobs/dallas-armed-security",
       "permanent": true
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "source": "/event-security-dfw",
-      "destination": "/dallas/event-security-dfw",
+      "destination": "/dallas/jobs/dallas-event-security",
       "permanent": true
     },
     {
@@ -125,7 +125,7 @@
     },
     {
       "source": "/jobs/armed-security-jobs",
-      "destination": "/dallas/armed-security-jobs",
+      "destination": "/dallas/jobs/dallas-armed-security",
       "permanent": true
     },
     {
@@ -160,7 +160,7 @@
     },
     {
       "source": "/jobs/dallas-airport-security",
-      "destination": "/dallas/dallas-airport-security",
+      "destination": "/dallas/jobs/dallas-airport-security",
       "permanent": true
     },
     {
@@ -390,7 +390,7 @@
     },
     {
       "source": "/jobs/entry-level-security-jobs-dfw",
-      "destination": "/dallas/entry-level-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
       "permanent": true
     },
     {
@@ -510,7 +510,7 @@
     },
     {
       "source": "/jobs/level-3-security-jobs-dfw",
-      "destination": "/dallas/level-3-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-level-3-security",
       "permanent": true
     },
     {
@@ -580,7 +580,7 @@
     },
     {
       "source": "/jobs/part-time-security-jobs-dfw",
-      "destination": "/dallas/part-time-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-part-time-security",
       "permanent": true
     },
     {
@@ -665,12 +665,12 @@
     },
     {
       "source": "/loss-prevention-dfw",
-      "destination": "/dallas/loss-prevention-dfw",
+      "destination": "/dallas/jobs/dallas-loss-prevention-security",
       "permanent": true
     },
     {
       "source": "/overnight-security-dfw",
-      "destination": "/dallas/overnight-security-dfw",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
@@ -1126,6 +1126,136 @@
     {
       "source": "/dallas/uptown-dallas-security",
       "destination": "/dallas/jobs/uptown-dallas-security-jobs",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/airport-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-airport-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/armed-security-dfw",
+      "destination": "/dallas/jobs/dallas-armed-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/armed-security-jobs",
+      "destination": "/dallas/jobs/dallas-armed-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-airport-security",
+      "destination": "/dallas/jobs/dallas-airport-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-armed-overnight-security",
+      "destination": "/dallas/jobs/dallas-armed-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-bar-club-security",
+      "destination": "/dallas/jobs/dallas-bar-club-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-corporate-security",
+      "destination": "/dallas/jobs/dallas-corporate-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-entry-level-security-jobs",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-event-security",
+      "destination": "/dallas/jobs/dallas-event-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-government-security",
+      "destination": "/dallas/jobs/dallas-government-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-high-value-asset-security",
+      "destination": "/dallas/jobs/dallas-high-value-asset-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-parking-security",
+      "destination": "/dallas/jobs/dallas-parking-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-venue-security",
+      "destination": "/dallas/jobs/dallas-venue-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/entry-level-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/event-security-dfw",
+      "destination": "/dallas/jobs/dallas-event-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/fort-worth-no-experience-security",
+      "destination": "/dallas/jobs/fort-worth-no-experience-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/fort-worth-overnight-security-jobs",
+      "destination": "/dallas/jobs/fort-worth-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/hospital-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-hospital-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/hotel-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-hotel-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/level-2-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-level-2-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/level-3-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-level-3-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/loss-prevention-dfw",
+      "destination": "/dallas/jobs/dallas-loss-prevention-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/no-experience-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-no-experience-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/overnight-security-dfw",
+      "destination": "/dallas/jobs/dallas-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/part-time-security-jobs-dfw",
+      "destination": "/dallas/jobs/dallas-part-time-security",
       "permanent": true
     }
   ]
