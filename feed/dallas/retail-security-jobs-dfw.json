@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/retail-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full-Time: Retail Security Supervisor | Mesquite, TX",
+      "company": "Marksman Security LLC",
+      "location": "Mesquite, TX",
+      "pay": "17.17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Full-Time:-Retail-Security-Supervisor-%7C-Mesquite,-TX/-in-Mesquite,TX?jid=d02e4a6f9289635f",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Security Officer - Retail (Evening shift)",
       "company": "United Protective Services",
@@ -17,44 +27,34 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Unarmed Retail Security Officer - Evening Patrol & Growth",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "37K–41K a year",
+      "title": "Security Professional - Retail Part Time",
+      "company": "Metro One Security",
+      "location": "Dallas, TX",
+      "pay": "18–23 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-retail-security-officer-evening-patrol-growth--allen--e901186ba39a509fbc5d08d1db22eb3a1",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jooble.org/rjdp/-1195959806764860144",
+      "via": "via Jooble"
     },
     {
-      "title": "Retail Security Site Supervisor: Weekend & Coverage",
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
       "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": "17.17 an hour",
+      "location": "Rockwall, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/rowlett/texas/security/5261208483/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Retail Security Officer",
-      "company": "jobr.pro",
-      "location": "Arlington, TX",
-      "pay": "35K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/now-hiring-retail-security-officer-arlington-tx--arlington--e826a2b703c4676e052b012e484a6185a",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rockwall--e6f96e182ee95f31d2b49f31cf54c92f4",
       "via": "via JobLeads"
     },
     {
-      "title": "Retail Security Supervisor",
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
       "company": "Marksman Security",
       "location": "Rowlett, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/now-hiring-retail-security-supervisor-mesquite-tx--rowlett--eaeef286f30f849b76b20540efe4b849a",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
+      "via": "via BeBee"
     }
   ]
 }

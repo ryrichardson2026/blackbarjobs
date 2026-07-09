@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-surveillance-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Access Control Monitor",
+      "title": "Security Officer Patrol Credentials Monitor",
       "company": "Allied Universal",
-      "location": "Plano, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-control-monitor-at-allied-universal-4437485670",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Access Monitor",
-      "company": "Allied Universal",
-      "location": "Plano, TX",
-      "pay": "21 an hour",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-access-monitor-at-allied-universal-4437493492",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Surveillance Security - Multiple Sites & Shifts",
-      "company": "GardaWorld",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Internship",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/surveillance-security-multiple-sites-shifts-at-gardaworld-4436261034",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Surveillance Patrol Officer",
-      "company": "GardaWorld",
-      "location": "Garland, TX",
-      "pay": "17.72 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.ziprecruiter.com/c/GardaWorld/Job/Surveillance-Patrol-Officer/-in-Garland,TX?jid=a08cfc272e99090b",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Credentials-Monitor/-in-Mesquite,TX?jid=c340634f550deb3a",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
-      "company": "Garda World Security",
-      "location": "Dallas, TX",
+      "title": "Surveillance Security Patrol",
+      "company": "GardaWorld",
+      "location": "Grand Prairie, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.adzuna.com/details/5792148290",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Surveillance Security Officer (Hiring Immediately)",
+      "company": "GardaWorld",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/surveillance-security-officer-hiring-immediately/grapevine-texas?id=2864432239",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Surveillance Security - Warehouse",
+      "company": "GardaWorld",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/surveillance-security-warehouse-at-gardaworld-4436277604",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Patrol Credentials Monitor",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-credentials-monitor-at-allied-universal-4438116229",
+      "via": "via LinkedIn"
     }
   ]
 }

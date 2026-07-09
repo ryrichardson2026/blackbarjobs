@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "austin/jobs/unarmed-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officers",
-      "company": "Sunstates Security",
+      "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "40K–52K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5265051943/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Retail Security Patrol — Full‑Time (Austin)",
+      "company": "Alliedbarton Security Services",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100265/Unarmed-Security-Officers",
-      "via": "via Sunstates Security Jobs"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-retail-security-patrol-full-time-austin--austin--e135c70204fcfb75266676bd840b56254",
+      "via": "via JobLeads"
     },
     {
       "title": "Unarmed Security Patrol – Tech Campus, Growth & Benefits",
@@ -27,6 +37,16 @@
       "via": "via JobLeads"
     },
     {
+      "title": "Full-Time Security Officer - 2nd/3rd Shift (Unarmed) | Austin",
+      "company": "North America Security & Select Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-2nd-3rd/austin-texas?id=2861140702",
+      "via": "via WhatJobs"
+    },
+    {
       "title": "Security Officer; Unarmed",
       "company": "Tarian",
       "location": "Austin, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5252455540/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Guard – Patrol, Monitor & Protect (Armed/Unarmed)",
-      "company": "Security Solutions of Texas",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/security-guard-patrol-monitor-protect-armed-unarmed--austin--ede67667c339cf7cfcfc470d891764829",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Security Officers — Immediate Start in Austin",
-      "company": "North America Security & Select Services",
-      "location": "Austin, TX",
-      "pay": "48K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officers-immediate-start-in-austin--austin--efe1c0d2b015d99c7c76740bba076405d",
-      "via": "via JobLeads"
     }
   ]
 }

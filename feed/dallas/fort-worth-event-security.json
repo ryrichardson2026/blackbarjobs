@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/fort-worth-event-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Arena Event Security Guard",
+      "company": "Dickies Arena",
+      "location": "Fort Worth, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/arena-event-security-guard-part-time--fort-worth--e6c43a3e754c199de57532036ff380b06",
+      "via": "via JobLeads"
+    },
     {
       "title": "Arena Event Security Guard Part-Time",
       "company": "Trail Drive Management Corp",
@@ -27,24 +37,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Arena Event Security Guard Part Time",
-      "company": "Dickies Arena",
+      "title": "Arena Event Security Guard; Part-Time",
+      "company": "Trail Drive Management Corp.",
       "location": "Fort Worth, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-dickies-hiring",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Arena Event Security Guard",
-      "company": "Dickies Arena",
-      "location": "Fort Worth, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/arena-event-security-guard-part-time--fort-worth--e6c43a3e754c199de57532036ff380b06",
-      "via": "via JobLeads"
+      "schedule": "Part-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5224818112/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Level II Event - Unarmed Security Officer License Number: B2516040",
@@ -52,7 +52,7 @@
       "location": "Fort Worth, TX",
       "pay": "3,120–3,467 a month",
       "schedule": "Part-time",
-      "posted_date": "2026-06-07",
+      "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/level-ii-event-unarmed-security-officer-license-number-b2516040-county-patrol-division-llc-fort-wort--theirstack-704970400",
       "via": "via BeBee"
     }

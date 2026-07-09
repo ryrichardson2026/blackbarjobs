@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,23 +7,43 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officers",
-      "company": "Sunstates Security",
+      "title": "Security Officer Flex (Unarmed)",
+      "company": "Tarian",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-08",
+      "apply_link": "https://careers.tariangroup.com/events/jobs/23206?lang=en-us",
+      "via": "via Tarian Group"
+    },
+    {
+      "title": "Unarmed Security Officers- All Shifts Available",
+      "company": "Security Engineers, Inc",
+      "location": "Houston, TX",
+      "pay": "16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://securityengineers.joblinkapply.com/job/4b4e8109-48d9-4633-bbbd-e92f29a0334a",
+      "via": "via Securityengineers"
+    },
+    {
+      "title": "Unarmed Security Officer- Full Time Floater",
+      "company": "Security Engineers, Inc",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100317/Unarmed-Security-Officers",
-      "via": "via Sunstates Security Jobs"
+      "apply_link": "https://www.indeed.com/viewjob?jk=b2acfe5b9740e667",
+      "via": "via Indeed"
     },
     {
-      "title": "Unarmed Security Guard (North Houston)",
-      "company": "Platinum Shield Security",
+      "title": "Unarmed Security Officer- Part Time Floater",
+      "company": "Security Engineers, Inc",
       "location": "Houston, TX",
-      "pay": "16.50–20.22 an hour",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.indeed.com/viewjob?jk=53e4b3ca11dafaa9",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3685b947c77dcf1f",
       "via": "via Indeed"
     },
     {
@@ -31,30 +51,10 @@
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed/22950/97243524992",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Security Officer. Flex (Unarmed)",
-      "company": "Tarian",
-      "location": "Houston, TX",
-      "pay": "15.94 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer.-Flex-(Unarmed)/-in-Houston,TX?jid=68fc501685f3ce42",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Guard Enhanced Part Time Unarmed Patrol",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-06-24",
-      "apply_link": "https://www.indeed.com/viewjob?jk=9f039406406fce34",
-      "via": "via Indeed"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed/22950/97489300144",
+      "via": "via Allied Universal"
     }
   ]
 }

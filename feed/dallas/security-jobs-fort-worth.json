@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/security-jobs-fort-worth",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Level 2 Security Officer ( Part time)",
-      "company": "RELIANCE SECURITY SERVICES",
+      "title": "Hotel Security Officer - Luxury Hotel",
+      "company": "Coastal International Security",
       "location": "Fort Worth, TX",
-      "pay": "15–16 an hour",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Part Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
+      "pay": "19.50 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Coastal-International-Security/Job/Hotel-Security-Officer-Luxury-Hotel/-in-Fort-Worth,TX?jid=f6871c70feb8b81c",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Entry Control",
-      "company": "Allied Universal",
+      "title": "Asset Protection Investigator",
+      "company": "Yesway",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1b53abc78ef41ea3",
-      "via": "via Indeed"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-investigator-at-yesway-4437342241",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Full Time",
-      "company": "United Protective Services",
+      "title": "Security Supervisor",
+      "company": "Hyatt Regency",
       "location": "Fort Worth, TX",
-      "pay": "17 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-supervisor-at-hyatt-regency-4438571066",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Supervisor, Security Operations",
+      "company": "American Airlines",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/supervisor-security-operations-at-american-airlines-4434804885",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer - Field Duty, Firearms Training",
+      "company": "The Tatitlek Corporation",
+      "location": "Fort Worth, TX",
+      "pay": "30K–50K a year",
+      "schedule": "Internship",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5271666268/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

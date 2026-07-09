@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/full-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,13 +7,43 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
+      "title": "Security Officer - Full-Time",
+      "company": "Hyatt Regency",
+      "location": "Frisco, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-at-hyatt-regency-4438503506",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Access Control Guard (Permanent/Full-time)",
+      "company": "Labatt Food Service",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/access-control-guard-permanent-full-time-at-labatt-food-service-4438599314",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Operations Manager - Full-time",
+      "company": "Kronos",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
+      "via": "via Digitalhire"
+    },
+    {
+      "title": "Full-Time: Retail Security Supervisor | Mesquite, TX",
+      "company": "Marksman Security LLC",
+      "location": "Mesquite, TX",
+      "pay": "17.17 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Full-Time:-Retail-Security-Supervisor-%7C-Mesquite,-TX/-in-Mesquite,TX?jid=d02e4a6f9289635f",
       "via": "via ZipRecruiter"
     },
     {
@@ -24,36 +54,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
       "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full-Time Rover Security Officer — Sign-On Bonus",
-      "company": "Marksman Security",
-      "location": "Frisco, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/full-time-rover-security-officer-sign-on-bonus--frisco--eb4e6530ee5bf9934772197ca98a1bcf2",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Operations Manager - Full-time",
-      "company": "Kronos",
-      "location": "Lancaster, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
-      "via": "via Digitalhire"
-    },
-    {
-      "title": "Security Officer Full Time",
-      "company": "United Protective Services",
-      "location": "Fort Worth, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Full-Time/-in-Fort-Worth,TX?jid=aed08662349c971f",
       "via": "via ZipRecruiter"
     }
   ]

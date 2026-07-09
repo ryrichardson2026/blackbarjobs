@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/denton-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer II: Night Shift at State Living Center",
-      "company": "Texas Health and Human Services",
+      "title": "Protective Security Officer NTXTYL",
+      "company": "AMERICAN EAGLE PROTECTIVE SERVICES CORP",
       "location": "Denton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-ii-night-shift-at-state-living-center--denton--e294b0064970eaae76114d93480a61db7",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=41e44fd380c63f0c",
+      "via": "via Indeed"
     },
     {
-      "title": "Level 3 Security Officer",
-      "company": "Valor Force",
+      "title": "Armed Campus Safety Officer – Protect & Respond",
+      "company": "Young World Physical Education",
       "location": "Denton, TX",
-      "pay": null,
+      "pay": "62,877 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://us.trabajo.org/job-972-521d88a504cb0b3f1999fed5879374ee",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Security Officers - Night Shift",
-      "company": "Middleton Place",
-      "location": "Denton, TX",
-      "pay": "15.50–17.50 an hour",
-      "schedule": null,
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/2518206293985511485",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer; Unarmed",
-      "company": "Defense Mechanics Inc",
-      "location": "Denton, TX",
-      "pay": "28K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.learn4good.com/jobs/denton/texas/security/5253419272/e/",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/denton/texas/security/5265121914/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Campus Police Officer: Patrol, Protect & Serve",
-      "company": "Texas Woman's University",
+      "title": "Warehouse Security Officer | Patrols & Incident Response",
+      "company": "Alliedbarton Security Services",
       "location": "Denton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/jdp/-3256728229334262918",
-      "via": "via Jooble"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/warehouse-security-officer-patrols-incident-response--denton--e5c8af9ead39e8bf1677d640517a52e3a",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Part-Time Detention Officer I - Jail Security & Custody",
+      "company": "Denton County Defunct",
+      "location": "Denton, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/part-time-detention-officer-i-jail-security-custody-denton-county-defunct-denton--lensa-7428_819c1152eb1b64e257a4bddce79d31868d12d0606d6b606917ff1539b30de37c",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Campus Police Officer: Patrol, Security & Emergencies",
+      "company": "TWU",
+      "location": "Denton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/campus-police-officer-patrol-security/denton-texas?id=2861198833",
+      "via": "via WhatJobs"
     }
   ]
 }

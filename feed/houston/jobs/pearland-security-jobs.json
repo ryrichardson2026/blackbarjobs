@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/pearland-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Campus Security Monitor #4238",
+      "company": "Pearland ISD",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/campus-security-monitor-%234238-at-pearland-isd-4438549525",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Flex Security Officer (Taser)",
+      "company": "Tarian",
+      "location": "Pearland, TX",
+      "pay": "18.30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Taser)/-in-Pearland,TX?jid=a2bf31c6d2369639",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Event Security",
       "company": "Andy Frain Services",
@@ -15,16 +35,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.monster.com/job-openings/event-security-pearland-tx--21128896-1f51-43be-87b4-6c0337fccd14?mstr_dist=true",
       "via": "via Monster"
-    },
-    {
-      "title": "Courtroom Security Deputy",
-      "company": "Brazoria County",
-      "location": "Pearland, TX",
-      "pay": "50K–70K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/courtroom-security-deputy--pearland--e476d81e41d3ed0112655f9b5e014d3d6",
-      "via": "via JobLeads"
     },
     {
       "title": "Armed Security Officer Part-Time – Flexible Shifts & Growth",
@@ -37,24 +47,14 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Security Officers (Part & Full-Time Shifts)",
-      "company": "Allied Universal",
+      "title": "Courtroom Security Deputy",
+      "company": "Brazoria County",
       "location": "Pearland, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
+      "pay": "50K–70K a year",
+      "schedule": "Full-time",
       "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/-525678441311754079",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Part-Time Armed Patrol Driver — Customer-Focused Security",
-      "company": "Allied Universal",
-      "location": "Pearland, TX",
-      "pay": "15.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.learn4good.com/jobs/pearland/texas/security/5253187440/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://www.jobleads.com/us/job/courtroom-security-deputy--pearland--e476d81e41d3ed0112655f9b5e014d3d6",
+      "via": "via JobLeads"
     }
   ]
 }

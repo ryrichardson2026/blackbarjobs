@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/level-3-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "DeSoto, TX",
+      "title": "Armed Flex Officer in Fort Worth (Level 3 only)",
+      "company": "Smith Protective Services",
+      "location": "Benbrook, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4952a3a74254823b",
+      "via": "via Indeed"
+    },
+    {
+      "title": "SECURITY GUARDS Commissioned /Level III 76137",
+      "company": "AAA Security Guard Services LLC",
+      "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-security-guards-commissioned-level-iii-76137-aaa",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Armed Level 3 Security Officer",
+      "company": "Jet Security LLC",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1232194133c8283c",
+      "via": "via Indeed"
     },
     {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
@@ -27,34 +47,14 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Level 3 Security Officer",
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
-      "location": "Denton, TX",
+      "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://us.trabajo.org/job-972-521d88a504cb0b3f1999fed5879374ee",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
-      "company": "Congregational Security Inc.",
-      "location": "Dallas, TX",
-      "pay": "23–25 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=25348896f417937b",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed - Level 3 Security Officer",
-      "company": "Servant Anchor Security Services",
-      "location": "Waxahachie, TX",
-      "pay": "18.25–20.00 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2458ff1ec3f134af",
-      "via": "via Indeed"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
+      "via": "via ZipRecruiter"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-executive-protection",
   "market": "DFW",
   "target": "city-role",
@@ -7,34 +7,24 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Executive Protection & Security Specialist",
+      "company": "Security Industry Specialists, Inc.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/executive-protection-security-specialist--dallas--e9c954ab7ec34bbaa8f110085a513e298",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Executive Protection Texas",
       "company": "AECON GLOBAL SECURITY INC",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.glassdoor.com/job-listing/executive-protection-texas-aecon-global-security-inc-JV_IC1139977_KO0,26_KE27,52.htm?jl=1010191925139",
       "via": "via Glassdoor"
-    },
-    {
-      "title": "Executive Protection Agent - Corporate (Day Shift) at Crisis24 Dallas, TX",
-      "company": "Crisis24",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://logowizards.com/work/job/executive-protection-agent-corporate-day-shift-at-crisis24-dallas-tx-aGtlKzRPWDQvVXRrN3JCOEs4MUZWa1JtZFE9PQ==",
-      "via": "via Logowizards"
-    },
-    {
-      "title": "Executive Protection Specialist - Global Protective Operations",
-      "company": "Gavin de Becker & Associates",
-      "location": "Dallas, TX",
-      "pay": "120K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.ziprecruiter.com/c/Gavin-de-Becker-&-Associates/Job/Executive-Protection-Specialist-Global-Protective-Operations/-in-Dallas,TX?jid=b5930a4ef1bff70b",
-      "via": "via ZipRecruiter"
     },
     {
       "title": "Executive Protection Specialist - Part-Time Travel Ready",
@@ -42,19 +32,29 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-29",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/executive-protection-specialist-part-time-travel-ready--dallas--ef084a637ffbc740dd6e1450a89fc3cae",
       "via": "via JobLeads"
     },
     {
-      "title": "Executive Protection & Security Specialist",
-      "company": "Security Industry Specialists, Inc.",
+      "title": "Global Executive Protection Specialist – Travel-Heavy Security",
+      "company": "Gavin de Becker & Associates (GDBA)",
+      "location": "Dallas, TX",
+      "pay": "120K–150K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobleads.com/us/job/global-executive-protection-specialist-travel-heavy-security--dallas--e67287556296f18a85ce13959b622638b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Global Executive Protection Specialist - Travel-Heavy Security",
+      "company": "Gavin de Becker & Associates (GDBA)",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/executive-protection-security-specialist--dallas--e9c954ab7ec34bbaa8f110085a513e298",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/jdp/-6406673086457126846",
+      "via": "via Jooble"
     }
   ]
 }

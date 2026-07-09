@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/corporate-campus-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security Officer - Corporate Office",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-corporate-office-at-allied-universal-4438542278",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Corporate Building",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-corporate-building/22950/97534874944",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Elite Security Officer - Corporate Campus (Dallas)",
       "company": "IIdon Security",
@@ -27,34 +47,14 @@
       "via": "via Logowizards"
     },
     {
-      "title": "Corporate Security Specialist",
-      "company": "Allied Universal",
+      "title": "Elite Security Officer - Corporate Campus (Dallas)",
+      "company": "IIdon Security",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5243611750/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Shift Supervisor Corporate Building",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-shift-supervisor-corporate-building/22950/97147740352",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Security Officers - Corporate & Armed Transit Opportunities - Up to $26.45/hr",
-      "company": "Inter-Con Security Systems",
-      "location": "Dallas, TX",
-      "pay": "19.75–26.45 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.simplyhired.com/job/SNLExEJEx7D9FFJ_sZVEUKNmJ302_-B9iKXBcrVNzNFx5gf3nDxuyg",
-      "via": "via SimplyHired"
+      "posted_date": "2026-07-01",
+      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
+      "via": "via BeBee"
     }
   ]
 }

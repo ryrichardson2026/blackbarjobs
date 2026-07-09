@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/arlington-overnight-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Patrol Officer – DC Night Shift",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5267532272/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Officer - Overnight Varied",
       "company": "United Protective Services",
@@ -27,34 +37,24 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Patrol Officer DoD Secret Clearance; Night",
-      "company": "Allied Universal",
-      "location": "Plano, TX",
-      "pay": "19–20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/plano/texas/security/5258603609/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Night Surveillance Officer: Detail-Driven & Proactive",
-      "company": "Garda World Security",
+      "title": "Erickson Senior Living is hiring: Overnight Security & Emergency Services Officer (EMR/EMT) in Dallas",
+      "company": "Erickson Senior Living",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/night-surveillance-officer-detail-driven-proactive--dallas--e86e149fe87837d6555cc73857a498ef2",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.recruit.net/job/erickson-living-is-overnight-security-jobs/61CDCCACA5322FDF",
+      "via": "via Recruit.net"
     },
     {
-      "title": "Armed Residential Security Agent - Night Shift & Global Ops",
-      "company": "Surefox North America Inc",
-      "location": "Dallas, TX",
-      "pay": null,
+      "title": "Security Officers - Full-Time (Night Shift)",
+      "company": "NTT Data",
+      "location": "Garland, TX",
+      "pay": "17.00–21.20 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/armed-residential-security-agent-night-shift-global-ops--dallas--e73d617226ef878718f483ff6e7d62ed6",
-      "via": "via JobLeads"
+      "apply_link": "https://jooble.org/rjdp/8905920738320972264",
+      "via": "via Jooble"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/euless-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officers (Part & Full-Time Shifts)",
+      "company": "Security Solutions of Texas",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jooble.org/rjdp/-2793065832669366368",
+      "via": "via Jooble"
+    },
     {
       "title": "Military Security Officer - Now Hiring",
       "company": "U.S. Navy",
@@ -27,6 +37,16 @@
       "via": "via Jobs"
     },
     {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
+      "company": "Airport Security Careers",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-26",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-eul/2842663247-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
       "title": "Unarmed Security Officer at Marksman Security Euless, TX",
       "company": "Marksman Security",
       "location": "Euless, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-24",
       "apply_link": "https://allproasset.com/work/job/unarmed-security-officer-at-marksman-security-euless-tx-Q3djK2c4bEtHRk04bHh6VGdzWjdOOGxubkE9PQ==",
       "via": "via All Pro Asset Solutions"
-    },
-    {
-      "title": "Division Protective Services Specialist (Dallas/Fort Worth, TX)",
-      "company": "QuikTrip Corporation",
-      "location": "Euless, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-17",
-      "apply_link": "https://careers.quiktrip.com/QuikTrip/job/EULESS-Division-Protective-Services-Specialist-%28DallasFort-Worth%2C-TX%29-TX-76039/1330165400/",
-      "via": "via QuikTrip"
-    },
-    {
-      "title": "Security Guard (Armed/Unarmed)",
-      "company": "Fast Guard Security Service",
-      "location": "Euless, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-16",
-      "apply_link": "https://motorjobs.com/en/job/security-guard-armed-unarmed-1363",
-      "via": "via Motor Jobs"
     }
   ]
 }

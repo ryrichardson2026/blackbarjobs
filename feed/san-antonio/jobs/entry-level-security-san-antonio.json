@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/entry-level-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Entry-Level Security Officer — Training & Benefits",
+      "company": "Securitas Global Clients America",
+      "location": "San Antonio, TX",
+      "pay": "28K–36K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/entry-level-security-officer-training-benefits--san-antonio--e07a17fe7e9c0348f36603c2c664f8039",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer - Entry Control Point",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-entry-control-point/22950/97481244336",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Facility Security Guard I: Patrol, Entry Control & Events",
       "company": "Oakland University",
@@ -14,16 +34,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-04",
       "apply_link": "https://salutemyjob.com/jobs/facility-security-guard-i-patrol-entry-control-events-san-antonio-texas/2858817073-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Entry-Level Security Officer with Training Provided",
-      "company": "six flags fiesta texas",
-      "location": "Live Oak, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://salutemyjob.com/jobs/entry-level-security-officer-with-training-provided-live-oak-texas/2858377895-2/",
       "via": "via SaluteMyJob"
     },
     {
@@ -37,24 +47,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience",
-      "company": "Airport Careers Services",
-      "location": "Poteet, TX",
-      "pay": null,
+      "title": "No Experience Security Officer",
+      "company": "BlackBarJobs",
+      "location": "San Antonio, TX",
+      "pay": "14–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobilize.com/job/us-tx-poteet-lead-supervisory-transportation-security-officer-no-experience",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience",
-      "company": "Airport Careers Services",
-      "location": "Falls City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-28",
-      "apply_link": "https://www.jobilize.com/job/us-tx-falls-lead-supervisory-transportation-security-officer-no-experience",
-      "via": "via Jobilize"
+      "posted_date": "2026-06-26",
+      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/no-experience-security-san-antonio",
+      "via": "via The Job Network For Security Officers"
     }
   ]
 }

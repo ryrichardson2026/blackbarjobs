@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-retail-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Professional - Retail Part Time",
+      "company": "Metro One Security",
+      "location": "Dallas, TX",
+      "pay": "18–23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jooble.org/rjdp/-1195959806764860144",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Boutique Officer Northpark Mall High End Retail",
+      "company": "St. Moritz Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=bb6de907d8cecaf1",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Patrol Driver (Part-Time) – Retail Security",
+      "company": "Alliedbarton Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
+      "via": "via JobLeads"
+    },
     {
       "title": "Retail Off-Duty Security Officer: Protect & Assist Guests",
       "company": "Marksman Security",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-part-time-retail-security--dallas--e460dde2beb345f44209539d68ab565c8",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Full Time Retail Security Professional",
-      "company": "Tier One Holdings, LLC",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://jooble.org/rjdp/-4956505497941973422",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Retail Security Officer- Swingshift (Weekends Required)",
-      "company": "National Protection Group",
-      "location": "Dallas, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.glassdoor.com/job-listing/retail-security-officer-swingshift-weekends-required-national-protection-group-JV_IC1139977_KO0,52_KE53,78.htm?jl=1010184791995",
-      "via": "via Glassdoor"
-    },
-    {
-      "title": "🚨 Now Hiring: Retail Security Supervisor | Mesquite, TX",
-      "company": "Marksman Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-23",
-      "apply_link": "https://www.linkedin.com/jobs/view/%F0%9F%9A%A8-now-hiring-retail-security-supervisor-mesquite-tx-at-marksman-security-4434905022",
-      "via": "via LinkedIn"
     }
   ]
 }

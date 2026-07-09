@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/hospital-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Evening Retail Security Officer - Medical",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5267786322/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Healthcare Security & Dispatch Officer",
+      "company": "CommonSpirit Health",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-dispatch-officer--houston--e67de26adf34ab8d9feec0442b4a8ca6c",
+      "via": "via JobLeads"
+    },
     {
       "title": "Security Officer- DoubleTree Medical Center",
       "company": "Hilton",
@@ -17,44 +37,24 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Hospital Security",
-      "company": "Houston Methodist",
+      "title": "Hospital Security Pro: Protect, Assist, Respond",
+      "company": "Memorial Hermann Health System",
       "location": "Houston, TX",
-      "pay": "35K–50K a year",
+      "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://us.trabajo.org/job-2283-4efd8e1a59bdc08aa69086870d647431",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Overnight Security Supervisor - St Joseph Medical Center",
-      "company": "Lemontree Healthcare",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobilize.com/job/us-tx-houston-overnight-security-supervisor-st-joseph-medical-center",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Hospital Peace Officer: Security & Patient Safety Lead",
-      "company": "Houston Methodist",
-      "location": "Houston, TX",
-      "pay": "50K–70K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/hospital-peace-officer-security-patient-safety-lead--houston--e4f9c590f841858186b185eafe2bc0062",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/hospital-security-pro-protect-assist-respond--houston--e14fedd5e5c19007f56367866ef2efecd",
       "via": "via JobLeads"
     },
     {
-      "title": "Healthcare Security Officer: Patrol, Respond, Protect",
-      "company": "CHI",
+      "title": "Hospital Security Officer Safeguard Patients & Staff",
+      "company": "Houston Dose",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patrol-respond-protect--houston--e76b75141880327b29141c8960d9d9c52",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/hospital-security-officer-safeguard-patients/houston-texas?id=2861145930",
+      "via": "via WhatJobs"
     }
   ]
 }

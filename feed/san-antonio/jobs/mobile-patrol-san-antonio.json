@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/mobile-patrol-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Border Patrol Agent - Experienced",
+      "company": "U.S. Customs and Border Protection",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/border-patrol-agent-experienced-at-u-s-customs-and-border-protection-4438219944",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Elite Armed Security Officer: Warehouse Patrol; Day Shift",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5267551779/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Security Officer - Patrol, Assist & Ensure Safety",
       "company": "Securitas Security Services USA, Inc.",
       "location": "San Antonio, TX",
       "pay": "30K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5263869915/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Part-Time Driving Patrol Officer",
-      "company": "Alliedbarton Security Services",
+      "title": "Campus Safety & Patrol Officer",
+      "company": "UT Health San Antonio",
       "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5261788421/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Facility Security Guard I: Patrol, Entry Control & Events",
-      "company": "Oakland University",
-      "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "40K–60K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://salutemyjob.com/jobs/facility-security-guard-i-patrol-entry-control-events-san-antonio-texas/2858817073-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Outdoor Security Patrol — Evening/Night Shifts",
-      "company": "San Antonio Museum of Art",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/campus-safety-patrol-officer--san-antonio--eae6a200005a0a1662839fde375e7134f",
       "via": "via JobLeads"
     },
     {
-      "title": "Venue Security Agent: Patrol, Protect, Report",
-      "company": "Dormont Manufacturing Co",
+      "title": "Security Officer - Auto Auction Patrol",
+      "company": "Allied Universal",
       "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "14 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jooble.org/jdp/947828067284172769",
-      "via": "via Jooble"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Auto-Auction-Patrol/-in-San-Antonio,TX?jid=20f78676915dbc5a",
+      "via": "via ZipRecruiter"
     }
   ]
 }

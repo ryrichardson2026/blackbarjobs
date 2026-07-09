@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-mobile-patrol",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Mobile Security Patrol – Part-Time; Dallas",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "18.93 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5267741574/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Officer Patrol Screening",
       "company": "Allied Universal",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Specialist | Access Control & Patrol",
+      "company": "AX9 Security, Inc.",
+      "location": "Dallas, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5271618977/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Security Officer Community Patrol Associate",
@@ -32,29 +52,9 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=32c15a64da668fe3",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
-      "company": "Maximus Global Services",
-      "location": "Dallas, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Mobile Security Patrol – Part-Time (Dallas)",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/mobile-security-patrol-part-time-dallas--dallas--e9bc80f50482b437a6dc2f5ddc1a40e3b",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-plaza-patrol-at-allied-universal-4437498192",
+      "via": "via LinkedIn"
     }
   ]
 }

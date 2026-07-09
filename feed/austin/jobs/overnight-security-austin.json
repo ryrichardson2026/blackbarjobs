@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "austin/jobs/overnight-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security - Night (Hiring Immediately)",
+      "company": "White Lodging",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/security-night-hiring-immediately/austin-texas?id=2864435549",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Overnight Vehicle Patrol Officer - Full-Time 3rd Shift",
+      "company": "IIdon Security",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/overnight-vehicle-patrol-officer?id=2822699067",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Overnight Security and Guest Safety Specialist",
+      "company": "Hilton",
+      "location": "Austin, TX",
+      "pay": "35K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/overnight-security-and-guest-safety-specialist--austin--e1a9b267b50eaf33a3b125ce0ae855192",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Overnight Security Officer (Level II) | Multiple Openings | Immediate Hire",
       "company": "Security Reconnaissance Team Inc",
       "location": "Austin, TX",
       "pay": "16–18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.indeed.com/viewjob?jk=e090e5e5f214e54d",
       "via": "via Indeed"
     },
     {
-      "title": "Overnight Security Specialist - Safeguard Seniors' Comfort",
-      "company": "Provincial Senior Living",
+      "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobilize.com/job/us-tx-austin-overnight-security-specialist-safeguard-seniors-comfort",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Over Night Security (Part Time)",
-      "company": "Solstice at Austin",
-      "location": "Austin, TX",
-      "pay": "16–17 an hour",
+      "pay": "40K–52K a year",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=7cbe7bd768deb7a2",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Part Time Patrol Officer Needed Overnight",
-      "company": "GuardTexas Inc",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.monster.com/job-openings/part-time-patrol-officer-needed-overnight-austin-tx--63771459-bd40-4af2-8258-0bb6c16a4b06",
-      "via": "via Monster"
-    },
-    {
-      "title": "Part Time Patrol Officer Needed ( Overnight)",
-      "company": "GuardTexas",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b2ac3b5f6ea163c2",
-      "via": "via Indeed"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5265051943/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

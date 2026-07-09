@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "austin/jobs/cedar-park-security-jobs",
   "market": "Austin",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Loss Prevention Security Officer",
+      "company": "Marriott International, Inc",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-security-officer-cedar-park-texas/2866895788-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer Armed - Part Time Driver",
+      "company": "Allied Universal",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/cedar-park-tx/security-officer-armed-part-time-driver-937210/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
+      "title": "Physical Security Lead",
+      "company": "Firefly Aerospace",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/physical-security-lead-at-firefly-aerospace-4426856804",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Now Hiring Security Officers for Government Contractor",
+      "company": "Firefly Aerospace",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jooble.org/rjdp/2324814034725919952",
+      "via": "via Jooble"
+    },
     {
       "title": "Security Officer PRN",
       "company": "St. David's North Austin Medical Center",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.ziprecruiter.com/c/HCA-Healthcare/Job/Security-Officer-PRN/-in-Cedar-Park,TX?jid=373582dae9aac999",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "U.S. Navy",
-      "location": "Cedar Park, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242582816",
-      "via": "via Snagajob"
-    },
-    {
-      "title": "Contractor Program Security Officer; CPSO",
-      "company": "jobs.frontdoordefense.com - Jobboard",
-      "location": "Cedar Park, TX",
-      "pay": "80K–100K a year",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.learn4good.com/jobs/cedar-park/texas/security/5239693323/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Immediate Need - Weekend Security Officers",
-      "company": "Nebraska Furniture Mart",
-      "location": "Cedar Park, TX",
-      "pay": "18.01–19.95 an hour",
-      "schedule": null,
-      "posted_date": "2026-06-26",
-      "apply_link": "https://jooble.org/rjdp/-1306744681611932757",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Bouncer/Security/Barback",
-      "company": "Shooters Billiards & Sports Bar",
-      "location": "Cedar Park, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-06-18",
-      "apply_link": "https://www.seasoned.co/job/bouncersecuritybarback-shooters-billiards-sports-bar-cedar-parkaustin-tx_58a35dcf-0cf8-4445-96ee-874a7a4704b0",
-      "via": "via Seasoned"
     }
   ]
 }

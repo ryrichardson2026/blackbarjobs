@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/att-stadium-security-jobs",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Stadium Event Security Specialist; Evenings​/Weekends",
+      "company": "BEST Crowd Management",
+      "location": "Arlington, TX",
+      "pay": "22,041–23,419 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/arlington/texas/security/5267611903/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Arena Event Security Guard",
+      "company": "Dickies Arena",
+      "location": "Fort Worth, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/arena-event-security-guard-part-time--fort-worth--e6c43a3e754c199de57532036ff380b06",
+      "via": "via JobLeads"
+    },
     {
       "title": "Arena Event Security Guard Part-Time",
       "company": "Trail Drive Management Corp",
@@ -17,14 +37,14 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Arena Event Security Guard Part Time",
-      "company": "Dickies Arena",
-      "location": "Fort Worth, TX",
+      "title": "Mansfield Stadium Event Security",
+      "company": "Andy Frain Services",
+      "location": "Garland, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Full-time and Part-time",
       "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-dickies-hiring",
-      "via": "via Jobilize"
+      "apply_link": "https://www.snagajob.com/jobs/1259394456",
+      "via": "via Snagajob"
     },
     {
       "title": "Mansfield Stadium Event Security - Now Hiring",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1259395301",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Arena Event Security Guard",
-      "company": "Dickies Arena",
-      "location": "Fort Worth, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/arena-event-security-guard-part-time--fort-worth--e6c43a3e754c199de57532036ff380b06",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Seasonal Security Event Staff – Sports Venues",
-      "company": "REVELxp",
-      "location": "Dallas, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5218481786/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

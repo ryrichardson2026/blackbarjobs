@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-residential-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Residential Security Officer – Driving Patrol & Career",
+      "company": "Allied Universal",
+      "location": "The Woodlands, TX",
+      "pay": "17,047–24,280 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5269118105/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Flex Officer- Residential",
       "company": "Allied Universal",
@@ -17,6 +27,26 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Mobile Patrol Officer - Apartment Community Security",
+      "company": "signal-careers",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/mobile-patrol-officer-apartment-community-security--houston--e7a66b153973f68108827cdf1d7344d92",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Residential Security Officer – Driving Patrol & Career Growth",
+      "company": "Allied Universal",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/residential-security-officer-driving-patrol-career-growth--the-woodlands--e98e692d9ab5b47cb35cbdf1b8426142c",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Certified Police Officer — Patrol & Community Safety",
       "company": "City of Missouri City, TX",
       "location": "Missouri City, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://jooble.org/jdp/3832103596723855749",
       "via": "via Jooble"
-    },
-    {
-      "title": "Mobile Patrol Officer - Apartment Community Security",
-      "company": "signal-careers",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/mobile-patrol-officer-apartment-community-security--houston--e7a66b153973f68108827cdf1d7344d92",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Residential Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Houston, TX",
-      "pay": "14–18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-residential-security",
-      "via": "via The Job Network For Security Officers"
-    },
-    {
-      "title": "Security Officer Community Patrol",
-      "company": "Allied Universal",
-      "location": "The Woodlands, TX",
-      "pay": "15.45 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.breakroom.cc/en-us/jobs/listing/41821852-allied-universal-security-officer-community-patrol-spring",
-      "via": "via Breakroom"
     }
   ]
 }

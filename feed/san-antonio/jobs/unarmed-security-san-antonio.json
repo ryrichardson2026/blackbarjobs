@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/unarmed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Unarmed Security Officer — Public Space Patrol & Service",
+      "company": "Marksman",
+      "location": "San Antonio, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5264336398/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Asset Protection Officer - Flexible Shifts",
+      "company": "Inter-Con Security",
+      "location": "San Antonio, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-asset-protection-officer-flexible-shifts--san-antonio--e7173a6644f9bf190b19654f97222a3d7",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Security Patrol – Tech Campus",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "pay": "17–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5265373502/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Inter-Con Security is hiring: Unarmed Security Services Officer 1 (44822) in San Antonio",
+      "company": "Inter-con Security",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.recruit.net/job/inter-con-security-is-unarmed-jobs/F3023F14821D6231",
+      "via": "via Recruit.net"
+    },
+    {
       "title": "Unarmed Security Officer",
       "company": "Weiser Security Services",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
+      "posted_date": "2026-07-05",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Licensed Unarmed Security Guard (Security)",
-      "company": "Inner Parish Security Corporation",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://us.expertini.com/job/licensed-unarmed-security-guard-security-san-antonio-inner-parish-security-corporation-c6c63a9f13f64d25bddda8db39f80959105/",
-      "via": "via Expertini"
-    },
-    {
-      "title": "Hospital Security Officer; Unarmed - Patient Safety",
-      "company": "Tenet Healthcare",
-      "location": "San Antonio, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5253313508/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Hospital Security Officer (Unarmed) - Patient Safety",
-      "company": "Tenet Healthcare",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jooble.org/jdp/6178635401834100067",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Part-Time Unarmed Security Officer: Flexible Shifts Job at Allied Universal in San Antonio",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-shifts-at-jobs/AB116ACCD51D494F",
-      "via": "via Recruit.net"
     }
   ]
 }

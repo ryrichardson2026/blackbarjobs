@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-armed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security Site Supervisor",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-site-supervisor-at-allied-universal-4438543182",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Armed Security Operative",
       "company": "Allied Universal",
@@ -17,6 +27,26 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Armed Security Specialist | Access Control & Patrol",
+      "company": "AX9 Security, Inc.",
+      "location": "Dallas, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5271618977/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Security Guard - AutoZone; Dallas, TX",
+      "company": "AX9 Security, Inc.",
+      "location": "Dallas, TX",
+      "pay": "12–15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5269160849/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Full Time Armed Guard Texas",
       "company": "D F W Security Protective Force LLC",
       "location": "Dallas, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Senior Armed Security Supervisor (Level II)",
-      "company": "Koniag Government Services",
-      "location": "Dallas, TX",
-      "pay": "35K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/senior-armed-security-supervisor-level-ii--dallas--ed3504340bf6a46f998c41525a1c49c9d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Weekend Armed Security Specialist - $20/hr + Daily Pay",
-      "company": "Cascadia Global Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://bebee.com/us/jobs/weekend-armed-security-specialist-20-hr-daily-pay-cascadia-global-security-dallas-tx-united-states--appcast-7428_14b61e40119b70b4ab47343d972771e7ad81ff36deac3ccb68dea423d0354e35",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Armed Residential Security Agent - Night Shift & Global Ops",
-      "company": "Surefox North America Inc",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/armed-residential-security-agent-night-shift-global-ops--dallas--e73d617226ef878718f483ff6e7d62ed6",
-      "via": "via JobLeads"
     }
   ]
 }

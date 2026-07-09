@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/humble-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,44 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Armed Enhanced Part Time",
-      "company": "Allied Universal",
+      "title": "Senior Police Officer - PCN 9999",
+      "company": "HUMBLE INDEPENDENT SCHOOL DISTRICT",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/senior-police-officer-pcn-9999-at-humble-independent-school-district-4437325666",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Commercial Security Foot/Vehicle Patrol Security Officers for Humble, TX - Immediate Start",
+      "company": "Allied Consulting & Security Services",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=6b7b95ecf8999562",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officers (N) (Hiring Immediately)",
+      "company": "Securitas",
       "location": "Humble, TX",
       "pay": null,
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-armed-enhanced-part-time-at-allied-universal-4437479860",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "Humble, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Humble,TX?jid=b28ed02cb8a89b56",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Detention Center Custody & Security Officer",
-      "company": "Gfoat",
-      "location": "Humble, TX",
-      "pay": "28,709–31,863 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/humble/texas/government/5261188991/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Level III Commission Security Guard",
-      "company": "F. W. Security LLC",
-      "location": "Humble, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.indeed.com/viewjob?jk=7b3c6080199a8de5",
-      "via": "via Indeed"
+      "apply_link": "https://www.whatjobs.com/jobs/security-officers-n-hiring-immediately/humble-texas?id=2864437594",
+      "via": "via WhatJobs"
     },
     {
       "title": "Security Professional - No Experience Necessary",
@@ -52,9 +42,19 @@
       "location": "Humble, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-07",
       "apply_link": "https://jooble.org/rjdp/846244918646685854",
       "via": "via Jooble"
+    },
+    {
+      "title": "Loss Prevention & Customer Safety Specialist",
+      "company": "Ross Stores, Inc.",
+      "location": "Humble, TX",
+      "pay": "30K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-customer-safety-specialist--humble--e73ff0f0b4c0394ee7b74a36c5fd5c73c",
+      "via": "via JobLeads"
     }
   ]
 }

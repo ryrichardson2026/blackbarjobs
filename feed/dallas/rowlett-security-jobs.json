@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/rowlett-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "company": "Marksman Security",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Court Security Officer — Municipal Court",
+      "company": "City-of-Rowlett",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/court-security-officer-municipal-court--rowlett--e1db3c7b78828889c5e37450ca538f436",
+      "via": "via JobLeads"
+    },
     {
       "title": "Retail Security Site Supervisor: Weekend & Coverage",
       "company": "Marksman Security",
@@ -27,16 +47,6 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
-      "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rowlett--edb3e325706576d10e488e03372a8c5ba",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Municipal Court Security Specialist",
       "company": "City of Rowlett, Texas",
       "location": "Rowlett, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-specialist--rowlett--e72b4e690274917c4149c6e2ff5a707aa",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Military Security Officer - Now Hiring",
-      "company": "U.S. Navy",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242585037",
-      "via": "via Snagajob"
     }
   ]
 }

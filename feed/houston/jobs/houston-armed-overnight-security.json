@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-armed-overnight-security",
   "market": "Houston",
   "target": "city-role",
@@ -17,43 +17,43 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Security Officer - Part-Time",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "pay": "16.00–16.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer",
-      "company": "Allied Universal",
-      "location": "Friendswood, TX",
+      "title": "Unarmed Security Guard",
+      "company": "PalAmerican Security",
+      "location": "Baytown, TX",
       "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-at-allied-universal-4437490537",
-      "via": "via LinkedIn"
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
+      "via": "via Indeed"
     },
     {
-      "title": "Security Officer Patrol",
+      "title": "Security Officer Patrol Response",
       "company": "Allied Universal",
       "location": "Baytown, TX",
       "pay": "14 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4437495381",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4438547066",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Patrol Monitor",
-      "company": "Allied Universal",
-      "location": "Conroe, TX",
-      "pay": "15 an hour",
+      "title": "Security Officer III-Nights-LBJ",
+      "company": "Harris Health System",
+      "location": "Houston, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-monitor-at-allied-universal-4437480759",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.harrishealth.org/security-officer-iii-nights-lbj/job/14E0970D9F9032BBD89F1D3A7EF81830",
+      "via": "via Harris Health System Jobs"
+    },
+    {
+      "title": "Security Officer Hospital",
+      "company": "Allied Universal",
+      "location": "Galveston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-hospital-at-allied-universal-4438530803",
       "via": "via LinkedIn"
     }
   ]

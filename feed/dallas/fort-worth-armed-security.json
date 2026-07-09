@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,23 +7,23 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Armed Security Officers- All Shifts",
+      "company": "Prosegur",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Prosegur/Job/Armed-Security-Officers-All-Shifts/-in-Fort-Worth,TX?jid=e6837976a5cd5e54",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Part Time Armed Guard Texas",
       "company": "D F W Security Protective Force LLC",
       "location": "Fort Worth, TX",
       "pay": "26.77 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
       "via": "via ZipRecruiter"
     },
     {
@@ -37,24 +37,24 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Allied Universal is hiring: Armed Security Officer Flex - Data Center in Fort Worth",
+      "title": "Full Time Armed Guard Texas",
+      "company": "D F W Security Protective Force LLC",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c2f5ef1129b3ab4c",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Site Supervisor - Clearance Required",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Armed Patrol Driver Security Guard with Clearance",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://salutemyjob.com/jobs/armed-patrol-driver-security-guard-with-clearance-fort-worth-texas/2856352625-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/armed-security-site-supervisor-clearance-required/22950/97481237712",
+      "via": "via Allied Universal"
     }
   ]
 }

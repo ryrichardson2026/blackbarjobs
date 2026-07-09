@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "company": "Marksman Security",
+      "location": "Rockwall, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rockwall--e6f96e182ee95f31d2b49f31cf54c92f4",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "company": "Marksman Security",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
+      "via": "via BeBee"
+    },
     {
       "title": "Retail Security Site Supervisor: Weekend & Coverage",
       "company": "Marksman Security",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/rjdp/-3141162736698693263",
       "via": "via Jooble"
-    },
-    {
-      "title": "Weekend Security Rover (Part-Time) – Patrol & Reports",
-      "company": "GardaWorld",
-      "location": "Plano, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/weekend-security-rover-part-time-patrol-reports--plano--e62dad5718b7d7292eed77f4caa88f78b",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
-      "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rowlett--edb3e325706576d10e488e03372a8c5ba",
-      "via": "via JobLeads"
     }
   ]
 }

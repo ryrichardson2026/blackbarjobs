@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/armed-security-jobs",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Part Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
+      "title": "Armed Security Officer - Corporate Office",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-corporate-office-at-allied-universal-4438542278",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Officer - Service Center",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": "19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-service-center-at-allied-universal-4438535576",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Site Supervisor",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-site-supervisor-at-allied-universal-4438543182",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Flex Officer in Fort Worth (Level 3 only)",
+      "company": "Smith Protective Services",
+      "location": "Benbrook, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4952a3a74254823b",
+      "via": "via Indeed"
     },
     {
       "title": "Armed Security Operative",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/armed-security-operative-at-allied-universal-4437492594",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=fe5be7f2990823f0",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Dallas, TX",
-      "pay": "27.03 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Armed Security Officer Data Center - Clearance Required",
-      "company": "Allied Universal",
-      "location": "Justin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/justin-tx/armed-security-officer-data-center-clearance-required-093162/",
-      "via": "via GetHiredToday | Largest Job Board For Women - Women For Hire"
     }
   ]
 }

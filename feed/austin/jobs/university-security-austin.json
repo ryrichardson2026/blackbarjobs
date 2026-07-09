@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "40K–52K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5265051943/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
@@ -32,19 +42,9 @@
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
+      "posted_date": "2026-06-30",
       "apply_link": "https://www.jobleads.com/us/job/campus-safety-officer-evening-shift-3-11pm--austin--ed4fd188676f07ac8358c37f8e69003f0",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Tech Campus Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Austin, TX",
-      "pay": "16–25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://www.blackbarjobs.com/austin/jobs/tech-campus-security-austin",
-      "via": "via Jobs"
     },
     {
       "title": "University Security Officer",

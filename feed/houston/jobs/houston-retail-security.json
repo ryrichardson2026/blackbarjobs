@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-retail-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Afternoon/Evening Retail Security Officer - 77065 (STX3 Div 1)",
+      "title": "Retail Security Officer & Driver - PT Shifts",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "17,047–24,280 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5267723625/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Evening Retail Security Officer - Medical",
       "company": "United Protective Services",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.adzuna.com/details/5787952725",
-      "via": "via Adzuna"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5267786322/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Afternoon/Evening Retail Security Officer - 77065",
-      "company": "United Protective Services",
+      "title": "Security Officer Retail Patrol -Valid Drivers License Required",
+      "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=fdc72cfda7bbacc2",
-      "via": "via Indeed"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.nexxt.com/jobs/security-officer-retail-patrol-valid-drivers-license-required-houston-tx-3314548306-job.html",
+      "via": "via Nexxt"
     },
     {
-      "title": "Front-Line Retail Security",
-      "company": "Burlington Stores",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://us.trabajo.org/job-3991-50c2fddd1fbbf18cc367e5575d5eac7b",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Security Officer - Bouncer - Must have Retail / Bouncer experience",
-      "company": "NARROW SECURITY",
-      "location": "Houston, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.simplyhired.com/job/UBffzi-ZfS9-3nYw2WGT0BDrJOro8qhgtoWSGAFgXn7jUALIz9HOmw",
-      "via": "via SimplyHired"
-    },
-    {
-      "title": "Security Officer Retail Patrol",
+      "title": "Security Officer Retail",
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-retail-patrol/22950/97208132768",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-retail/22950/97437407616",
       "via": "via Allied Universal"
+    },
+    {
+      "title": "Afternoon/Evening Retail Security Officer - STX3 Div 1",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobilize.com/job/us-tx-houston-afternoon-evening-retail-security-officer-stx3-div-1",
+      "via": "via Jobilize"
     }
   ]
 }

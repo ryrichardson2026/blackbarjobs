@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Access Operations",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-operations-at-allied-universal-4437337639",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Senior Security Officer: Patrol & Team Mentoring",
+      "company": "signal-careers",
+      "location": "Katy, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5269118149/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Security Officer Armed Patrol- Afternoon",
       "company": "Allied Universal",
       "location": "Katy, TX",
       "pay": "22 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-patrol-afternoon-at-allied-universal-4437485681",
       "via": "via LinkedIn"
     },
     {
-      "title": "Unarmed Security Officer 12h Shifts, 7 Days/Week",
+      "title": "Night Shift Hospital Security Officer",
+      "company": "Dormont Manufacturing Co",
+      "location": "Katy, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-hospital-security-officer--katy--e87286a1c205f067940ab89f82d7f9d89",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "24/7 Mobile Security Patrol Officer",
       "company": "signal-careers",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/unarmed-security-officer-12h-shifts/katy-texas?id=2860760032",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5258623363/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Campus Security Pro: Level II Certified, Full-Time",
-      "company": "Young World Physical Education",
-      "location": "Katy, TX",
-      "pay": "35K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/campus-security-pro-level-ii-certified-full-time--katy--e69970c2bf82fafc03cd77133e2831a1f",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer​/Warehouse",
-      "company": "St. Moritz Security Services",
-      "location": "Katy, TX",
-      "pay": "16.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5259381334/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://us.jobrapido.com/jobpreview/3422608806960431104",
+      "via": "via Jobrapido"
     }
   ]
 }

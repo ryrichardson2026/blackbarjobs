@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/design-district-dallas-security",
   "market": "DFW",
   "target": "city",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Armed Security Operative",
-      "company": "Allied Universal",
+      "title": "Protective Security Officer NTXDal",
+      "company": "AMERICAN EAGLE PROTECTIVE SERVICES CORP",
       "location": "Dallas, TX",
-      "pay": "45 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-operative-at-allied-universal-4437492594",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "19 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e47c843c8b70b45c",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Access Services",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1629445/security-officer-access-services/job",
+      "via": "via Allied Universal - ICIMS"
+    },
+    {
+      "title": "Armed Security Site Supervisor",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-site-supervisor-at-allied-universal-4438543182",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Emergency Communications",
+      "title": "Access Control Guard (Permanent/Full-time)",
+      "company": "Labatt Food Service",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/access-control-guard-permanent-full-time-at-labatt-food-service-4438599314",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Manufacturing Facility",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-emergency-communications-at-allied-universal-4437499078",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Secure Entry Specialist",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-secure-entry-specialist-at-allied-universal-4437483690",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Central Dispatch",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-central-dispatch-at-allied-universal-4437491470",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-manufacturing-facility-at-allied-universal-4438157543",
       "via": "via LinkedIn"
     }
   ]

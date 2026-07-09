@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-construction-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 3,
   "jobs": [
-    {
-      "title": "Construction Site Security Officer; Houston",
-      "company": "Prosegur",
-      "location": "Houston, TX",
-      "pay": "36K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5250163744/e/",
-      "via": "via Learn4Good"
-    },
     {
       "title": "Construction Site Security Officer (Houston)",
       "company": "Prosegur",
@@ -37,16 +27,6 @@
       "via": "via Jobs"
     },
     {
-      "title": "Legit Construction",
-      "company": "City Security Services LTD",
-      "location": "Houston, TX",
-      "pay": "2,773 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-16",
-      "apply_link": "https://bebee.com/us/jobs/legit-construction-city-security-services-ltd-houston-tx--theirstack-729788488",
-      "via": "via BeBee"
-    },
-    {
       "title": "Security Officer - Construction Patrol",
       "company": "Allied Universal",
       "location": "Katy, TX",
@@ -55,6 +35,26 @@
       "posted_date": null,
       "apply_link": "https://www.talent.com/view?id=614456891150903247",
       "via": "via Talent.com"
+    },
+    {
+      "title": "Unarmed Security Guard",
+      "company": "PalAmerican Security",
+      "location": "Baytown, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Response",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": "14 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4438547066",
+      "via": "via LinkedIn"
     }
   ]
 }

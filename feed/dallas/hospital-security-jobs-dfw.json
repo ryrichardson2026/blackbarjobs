@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/hospital-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Hospital Security Officer: Protecting Patients & Staff",
+      "company": "Cook Children's Health Care System",
+      "location": "Fort Worth, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/hospital-security-officer-protecting-patients-staff--fort-worth--e2a5263ce4c02430bb8fb5b880091d8be",
+      "via": "via JobLeads"
+    },
     {
       "title": "Hospital Public Safety Officer with Sign-On Bonus",
       "company": "Baylor Scott & White Health",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.learn4good.com/jobs/midlothian/texas/security/5253210790/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Healthcare Campus Public Safety Officer",
-      "company": "UT Southwestern Medical Center",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/healthcare-campus-public-safety-officer-ut-southwestern-medical-center-dallas--lensa-7428_685647f6ef80f29a17360c0b7a267bc1b2788687ec7decb189e6ac4bea6be83e",
-      "via": "via BeBee"
     }
   ]
 }

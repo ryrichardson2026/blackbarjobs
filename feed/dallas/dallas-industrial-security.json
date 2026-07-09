@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-industrial-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Industrial Security Rep / CSSO with Security Clearance",
+      "company": "Lockheed Martin",
+      "location": "Grand Prairie, TX",
+      "pay": null,
+      "schedule": "Contractor",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/industrial-security-rep-csso-with-security-clearance-lockheed-martin-grand-prairie-tx-united-states--oneredce-8340_8935031",
+      "via": "via BeBee"
+    },
     {
       "title": "Industrial Security Manager",
       "company": "Boeing",
@@ -27,16 +37,6 @@
       "via": "via Indeed"
     },
     {
-      "title": "Industrial Security Rep / CSSO with Security Clearance",
-      "company": "Lockheed Martin",
-      "location": "Grand Prairie, TX",
-      "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://bebee.com/us/jobs/industrial-security-rep-csso-with-security-clearance-lockheed-martin-grand-prairie-tx-united-states--oneredce-8340_8935031",
-      "via": "via BeBee"
-    },
-    {
       "title": "Industrial Security Officer",
       "company": "GD Information Technology",
       "location": "Arlington, TX",
@@ -47,14 +47,14 @@
       "via": "via Monster"
     },
     {
-      "title": "Industrial Security Rep Asc / DTA-CSSO",
-      "company": "Lockheed Martin",
+      "title": "Industrial Security Rep/Alternate CSSO",
+      "company": "Clearance Jobs",
       "location": "Grand Prairie, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-16",
-      "apply_link": "https://www.lockheedmartinjobs.com/job/grand-prairie/industrial-security-rep-asc-dta-csso/694/96552616016",
-      "via": "via Lockheed Martin"
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/clearance-jobs/industrial-security-rep-alternate-csso-27354785/",
+      "via": "via Talents By Vaia"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-school-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.adzuna.com/details/5791993453",
+      "via": "via Adzuna"
+    },
     {
       "title": "School Security & Emergency Ops Liaison",
       "company": "Texans Can Academies",
@@ -17,24 +27,14 @@
       "via": "via JobLeads"
     },
     {
-      "title": "School Safety Officer at Andy Frain Services Houston, TX",
-      "company": "Andy Frain Services",
+      "title": "Un-Armed Security Officers - SW $18.00 - Full-Time and Part-Time -Now Interviewing - School Campus",
+      "company": "SAFESECURE 360, LLC",
       "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-15",
-      "apply_link": "https://sansanisurag.com/vacancy/job/school-safety-officer-at-andy-frain-services-houston-tx-TlRwMjF0SjVQSnVFek9MZFNRQ0dzSGNDL1E9PQ==",
-      "via": "via Sansanisurag.com"
-    },
-    {
-      "title": "School Crossing Guard - Part Time",
-      "company": "City of Deer Park",
-      "location": "Houston, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-13",
-      "apply_link": "https://www.glassdoor.com/job-listing/school-crossing-guard-part-time-deer-park-JV_IC1140171_KO0,31_KE32,41.htm?jl=1010133196043",
-      "via": "via Glassdoor"
+      "pay": "18 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=d730768e14028f2e",
+      "via": "via Indeed"
     },
     {
       "title": "195-Day Campus Police Officer - School Year 2026-2027",
@@ -47,14 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "School Security Guard",
-      "company": "The Awty International School",
+      "title": "Private School Officer",
+      "company": "Star Protection Agency LLC",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Part-time",
       "posted_date": null,
-      "apply_link": "https://www.linkedin.com/jobs/view/school-security-guard-at-the-awty-international-school-4279668424",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.indeed.com/viewjob?jk=1c3a2f6f25a7ab02",
+      "via": "via Indeed"
     }
   ]
 }

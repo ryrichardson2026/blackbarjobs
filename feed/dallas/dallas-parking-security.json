@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-parking-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 3,
   "jobs": [
-    {
-      "title": "Security Officer / Parking Lot Patrol",
-      "company": "Arrow Security",
-      "location": "Dallas, TX",
-      "pay": "17.25 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/Arrow-Security/Job/Security-Officer-Parking-Lot-Patrol/-in-Dallas,TX?jid=6be72ae6101ab4f4",
-      "via": "via ZipRecruiter"
-    },
     {
       "title": "Professional Armed and Unarmed Security Officers - High-End Retail/Eatery Parking Patrol",
       "company": "Med-Security Inc.",
@@ -25,6 +15,16 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/professional-armed-and-unarmed-security-officers-high-end-retail-eatery-parking-patrol-med-security---theirstack-682362034",
       "via": "via BeBee"
+    },
+    {
+      "title": "Security Officer / Parking Lot Patrol",
+      "company": "Arrow Security",
+      "location": "Dallas, TX",
+      "pay": "17.25 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Arrow-Security/Job/Security-Officer-Parking-Lot-Patrol/-in-Dallas,TX?jid=6be72ae6101ab4f4",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Parking Security",
@@ -37,24 +37,24 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security - Corporal",
-      "company": "Arlington Independent School District",
-      "location": "Arlington, TX",
-      "pay": "20.45–28.85 an hour",
+      "title": "Security Officer Virtual Hiring Event 7/14/2026",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Red Oak, TX",
+      "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Arlington-ISD/Job/Security-Corporal/-in-Arlington,TX?jid=2e148b5cd07a55ea",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-virtual-hiring-event-7-14-2026-at-securitas-security-services-usa-inc-4435644314",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Level 2 Security Officer ( Part time)",
-      "company": "RELIANCE SECURITY SERVICES",
-      "location": "Fort Worth, TX",
-      "pay": "15–16 an hour",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
-      "via": "via Indeed"
+      "title": "Security Officer Financial Facility",
+      "company": "Allied Universal",
+      "location": "Plano, TX",
+      "pay": "21 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-financial-facility-at-allied-universal-4438531825",
+      "via": "via LinkedIn"
     }
   ]
 }

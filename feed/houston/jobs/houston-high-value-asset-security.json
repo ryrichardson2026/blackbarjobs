@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-high-value-asset-security",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Part-Time",
-      "company": "United Protective Services",
+      "title": "Security Officer III-Nights-LBJ",
+      "company": "Harris Health System",
       "location": "Houston, TX",
-      "pay": "16.00–16.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Armed Security Officers and EMT Certified Officers, 77015, 77053, 77024",
-      "company": "Enforce Security",
-      "location": "Houston, TX",
-      "pay": "18–21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a83f74c7a3802f0d",
-      "via": "via Indeed"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.harrishealth.org/security-officer-iii-nights-lbj/job/14E0970D9F9032BBD89F1D3A7EF81830",
+      "via": "via Harris Health System Jobs"
     },
     {
-      "title": "Security Guard Armed Vehicle Patrol Driver",
+      "title": "Security Officer Badge Desk",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": "24 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-armed-vehicle-patrol-driver-at-allied-universal-4437479857",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-desk-at-allied-universal-4438538352",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer – Part-Time",
-      "company": "United Protective Services",
+      "title": "Safety and Security Associate - Emancipation",
+      "company": "The Harris Center for Mental Health and IDD",
       "location": "Houston, TX",
-      "pay": "16.00–16.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=047bbefca82de862",
-      "via": "via Indeed"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/safety-and-security-associate-emancipation-at-the-harris-center-for-mental-health-and-idd-4438271767",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Evening Security Officer — Luxury Hotel PM Shift",
-      "company": "Thompson Hotels",
+      "title": "Information System Security Officer",
+      "company": "Booz Allen Hamilton",
       "location": "Houston, TX",
-      "pay": "30K–50K a year",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/evening-security-officer-luxury-hotel-pm-shift--houston--e8539f8d8197cbf59e9eae350e75733a2",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/information-system-security-officer-at-booz-allen-hamilton-4438511027",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Flex (Unarmed)",
+      "company": "Tarian",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-08",
+      "apply_link": "https://careers.tariangroup.com/events/jobs/23206?lang=en-us",
+      "via": "via Tarian Group"
     }
   ]
 }

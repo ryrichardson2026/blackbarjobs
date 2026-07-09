@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/sugar-land-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Deputy Constable Contract - Constable Pct. 3",
+      "company": "Fort Bend County",
+      "location": "Sugar Land, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/deputy-constable-contract-constable-pct-3-at-fort-bend-county-4434894400",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer (Hiring Immediately)",
+      "company": "CommonSpirit Health",
+      "location": "Sugar Land, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/security-officer-hiring-immediately/sugar-land-texas?id=2864486296",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Supplemental Security Officer I",
+      "company": "Memorial Hermann Health System",
+      "location": "Sugar Land, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jobs.memorialhermann.org/us/en/job/MHHSUS100184456EXTERNALENUS/Supplemental-Security-Officer-I",
+      "via": "via Memorial Hermann Health System Jobs"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Green City Security",
+      "location": "Sugar Land, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-flex-floaters-houston-tx--sugar-land--e5624761bc3493111ad77657df9f0f09f",
+      "via": "via JobLeads"
+    },
     {
       "title": "Hospital Security Officer - Protecting Patients & Staff",
       "company": "Dormont Manufacturing Company",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.whatjobs.com/jobs/hospital-security-officer-protecting/sugar-land-texas?id=2860606121",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Part-Time Security Officer — Flexible Shifts & Growth",
-      "company": "Allied Universal",
-      "location": "Sugar Land, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-security-officer-flexible-shifts-growth--sugar-land--eff30d16bb26e7394edd4ed37642c0a80",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Hospital Security Officer – Protecting Patients",
-      "company": "Dormont Manufacturing Co",
-      "location": "Sugar Land, TX",
-      "pay": "30K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.learn4good.com/jobs/sugar-land/texas/security/5254568740/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Allied Universal is hiring: Security Officer in Sugar Land",
-      "company": "Allied Universal",
-      "location": "Sugar Land, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.recruit.net/job/allied-universal-is-security-officer-jobs/A888FB673BD4F3A0",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Hospital Security Officer Safety & Emergency Response",
-      "company": "Houston Methodist",
-      "location": "Sugar Land, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-safety-emergency-response-houston-methodist-sugar-land-tx-united-states--appcast-7428_184d065031afcdb8a1a9fe8e80ce88fb3848cef7a66ff7c4b8017e6d8a19d1d0",
-      "via": "via BeBee"
     }
   ]
 }

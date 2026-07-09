@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-unarmed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed/Unarmed Security Guard | Flexible Shifts & 1099",
+      "company": "Security Solutions of Texas",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-flexible-shifts-1099--dallas--eb497a651ca187cafbc7440fb6ac591aa",
+      "via": "via JobLeads"
+    },
     {
       "title": "Unarmed Security Officers Needed",
       "company": "Imperial Security – Dallas",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-flexible-shifts-weekly-pay--dallas--e02e5ced644977fe5664819773e29a9bf",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Security Officer Full-Time",
-      "company": "D&L Entertainment",
-      "location": "Dallas, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.indeed.com/viewjob?jk=61e75b000094d32a",
-      "via": "via Indeed"
     }
   ]
 }

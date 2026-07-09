@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/forney-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/forney-texas?id=2865657547",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Temp Security Officer (Hiring Immediately)",
+      "company": "GardaWorld",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/temp-security-officer-hiring-immediately/forney-texas?id=2864456201",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Military Security Officer",
+      "company": "US Navy",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-forney-military-security-officer-navy-hiring-now-job-immediately",
+      "via": "via Jobilize"
+    },
     {
       "title": "Director of Operations",
       "company": "Andy Frain Services",
@@ -17,16 +47,6 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Surveillance Security Officer – Detail-Driven Flexible Shifts",
-      "company": "GardaWorld",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/surveillance-security-officer-detail-driven-flexible-shifts--forney--e7426de7bd3476227f4956edc6f394576",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Military Security Officer - Full-time",
       "company": "U.S. Navy",
       "location": "Forney, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-30",
       "apply_link": "https://www.snagajob.com/jobs/1242586965",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Forney, TX",
-      "pay": "15–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/dallas/forney-security-jobs",
-      "via": "via The Job Network For Security Officers"
-    },
-    {
-      "title": "Surveillance Security Officer – Detail-Driven",
-      "company": "GardaWorld",
-      "location": "Forney, TX",
-      "pay": "17.72 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.learn4good.com/jobs/forney/texas/security/5225761267/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

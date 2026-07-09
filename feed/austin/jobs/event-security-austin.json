@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security Pro Paid Training",
+      "company": "Alliedbarton Security Services",
+      "location": "Austin, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time and Internship",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5271960022/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Event Security Specialist — Crowd Control & Access",
       "company": "Viking Tactical Security Group",
@@ -34,16 +44,6 @@
       "schedule": "Full-time and Part-time",
       "posted_date": "2026-06-30",
       "apply_link": "https://salutemyjob.com/jobs/event-safety-officer-austin-texas/2849436929-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Event Security Specialist",
-      "company": "Allied Universal® Event Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://salutemyjob.com/jobs/event-security-specialist-austin-texas/2846682427-2/",
       "via": "via SaluteMyJob"
     },
     {

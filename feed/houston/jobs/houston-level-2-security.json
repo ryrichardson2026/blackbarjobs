@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-level-2-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Level II Security Guard – Part-Time",
+      "company": "S.A.F.E. Management",
+      "location": "Houston, TX",
+      "pay": "16–22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/entertainment/5269659469/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Guard - Level II Certification -187 days",
       "company": "Katy Independent School District",
@@ -37,24 +47,14 @@
       "via": "via Security Guards Only"
     },
     {
-      "title": "Level 2 Parking Lot Patrol Associate (FLEX)",
-      "company": "Silbar Security of Dallas",
+      "title": "Unarmed Level II Event Security",
+      "company": "TriCorps Security",
       "location": "Houston, TX",
-      "pay": "2,947 a month",
+      "pay": "16–22 an hour",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/level-2-parking-lot-patrol-associate-flex-silbar-security-of-dallas-houston-tx--theirstack-687155867",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Unarmed Guard Level 2 -Houston TX-",
-      "company": "Unified Protective Services, Inc",
-      "location": "Houston, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/t1UJ_kwPLUOxICv-50U7gAcKDaCIrovzjaxDtl_6Yr1u0yjtaLIB3w",
-      "via": "via SimplyHired"
+      "apply_link": "https://www.indeed.com/viewjob?jk=280a82d65277a6a6",
+      "via": "via Indeed"
     }
   ]
 }

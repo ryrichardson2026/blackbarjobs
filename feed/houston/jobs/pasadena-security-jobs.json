@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/pasadena-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Overnight Patrol Security Officer at GardaWorld Pasadena, TX",
+      "company": "GardaWorld",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://allproasset.com/work/job/overnight-patrol-security-officer-at-gardaworld-pasadena-tx-QmdnNWpNOUhGMU02a3hqU2dzOTVOY3Rv",
+      "via": "via All Pro Asset Solutions"
+    },
+    {
+      "title": "Security Officers (S)",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Pasadena, TX",
+      "pay": "13–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4263023186",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer",
+      "company": "Priority Protection & Investigations, Inc",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.craigslist.org/view/d/pasadena-unarmed-security-officer-no/sksAUVEEsVyWSEKMDy3c5o",
+      "via": "via Craigslist"
+    },
+    {
+      "title": "Security Officer Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jobs.aus.com/job/pasadena/security-officer-part-time-patrol/22950/97534874416",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Security Officer Armed Driving Role Security Clearance",
       "company": "Allied Universal",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://jobs.womenforhire.com/job/usa/pasadena-tx/security-officer-armed-driving-role-security-clearance-787755/",
       "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Security Officer: CPChem Pasadena",
-      "company": "Denali Universal Services",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Denali-Universal-Services/Job/Security-Officer:-CPChem-Pasadena/-in-Pasadena,TX?jid=87e673c7337d571d",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Licensed Special Event Security",
-      "company": "Andy Frain Services",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-pasadena-tx--756edd07-fea7-40c7-84ba-88c4ac087efc?mstr_dist=true",
-      "via": "via Monster"
-    },
-    {
-      "title": "Flex Security Officer (Unarmed)",
-      "company": "Tarian",
-      "location": "Pasadena, TX",
-      "pay": "15.94 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Unarmed)/-in-Pasadena,TX?jid=823d12f8d532cca9",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Guard; shifts",
-      "company": "Excelsior Defense",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/pasadena/texas/security/5258623904/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

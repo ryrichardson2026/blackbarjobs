@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/event-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security Officer – Concerts, College Football & Major Events (Level 2 Required)",
+      "company": "A & Associates",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=fb9ad3e3b1138c00",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Hiring Event in San Antonio",
+      "company": "Marksman Security LLC",
+      "location": "Von Ormy, TX",
+      "pay": "17.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.indeed.com/viewjob?jk=476a9b40ac97c745",
+      "via": "via Indeed"
+    },
     {
       "title": "Security Officer Hiring Event in San Antonio",
       "company": "Marksman Security",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-29",
       "apply_link": "https://www.simplyhired.com/job/e0RjvTnEoBoLruSLzzF76uBYcbPmT-t_-duBwrtgjZmyJDtXWomZeg",
       "via": "via SimplyHired"
-    },
-    {
-      "title": "Level 2 Unarmed Event Security",
-      "company": "A & Associates",
-      "location": "Universal City, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.simplyhired.com/job/e0RjvTnEoBoLruSLzzF76uBYcbPmT-t_-duBwrtgjZmyJDtXWomZeg",
-      "via": "via SimplyHired"
-    },
-    {
-      "title": "Concert Event Security - Alamodome",
-      "company": "Allied Universal® Event Services",
-      "location": "San Antonio, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2af906bac79d6e73",
-      "via": "via Indeed"
     }
   ]
 }

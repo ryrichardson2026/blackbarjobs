@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/hotel-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,24 +7,44 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Hotel Security & Safety Specialist",
-      "company": "Loews Hotels, LLC.",
-      "location": "Arlington, TX",
-      "pay": "35K–50K a year",
+      "title": "Hotel Security Officer - Luxury Hotel",
+      "company": "Coastal International Security",
+      "location": "Fort Worth, TX",
+      "pay": "19.50 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Coastal-International-Security/Job/Hotel-Security-Officer-Luxury-Hotel/-in-Fort-Worth,TX?jid=f6871c70feb8b81c",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Hotel Security Officer: Protect Guests, Elevate Service",
+      "company": "Hilton",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-security-safety-specialist--arlington--e797e3d4650c6134f8aadf7d8297a8f1d",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/hotel-security-officer-protect-guests-elevate-service--dallas--edbe307ff21649eda4005e440a7eb5cca",
       "via": "via JobLeads"
     },
     {
-      "title": "Hotel Security/Night Audit",
-      "company": "Renaissance Dallas Addison Hotel",
-      "location": "Addison, TX",
-      "pay": null,
+      "title": "Hotel Security Officer: Protect & Elevate Guest Experience",
+      "company": "HHM Hotels",
+      "location": "Fort Worth, TX",
+      "pay": "30K–45K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://us.trabajo.org/job-3769-a5bbf01f5a9691a0e42f91b799bc448a",
-      "via": "via Trabajo.org"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/hotel-security-officer-protect-elevate-guest-experience--fort-worth--e83579191f076627418afd1d6a016e7e3",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Hotel Security & Guest Safety Advocate",
+      "company": "Hilton Dallas/Rockwall Lakefront",
+      "location": "Rockwall, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/hotel-security-guest-safety-advocate--rockwall--e78832e93769a05d5f05c376fc6981376",
+      "via": "via JobLeads"
     },
     {
       "title": "Security Officer - Overnight at Loews Hotel & Resorts Arlington, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "http://petersonresearch.com.au/wp-job/job/security-officer-overnight-at-loews-hotel-and-resorts-arlington-tx-WXArV3cvUmk3bitCdi9pS2lnRXBMZDNR",
       "via": "via Peterson Research Institute"
-    },
-    {
-      "title": "Hotel Safety & Loss Prevention Specialist",
-      "company": "Omni Hotels & Resorts",
-      "location": "Irving, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-safety-loss-prevention-specialist--irving--eba07412754f1762e71516b683d7a5ee3",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Hotel Security Officer: Protect Guests, Elevate Service",
-      "company": "Hilton",
-      "location": "Dallas, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-security-officer-protect-guests-elevate-service--dallas--edbe307ff21649eda4005e440a7eb5cca",
-      "via": "via JobLeads"
     }
   ]
 }

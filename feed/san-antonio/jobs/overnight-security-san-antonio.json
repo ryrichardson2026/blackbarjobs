@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/overnight-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Overnight Security Officers -full and part time",
+      "company": "Security Guards of America",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/-8699128087803482187",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Professional (weekend/overnight shift)",
+      "company": "VIA Metropolitan Transit",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jooble.org/rjdp/-8367451022552279265",
+      "via": "via Jooble"
+    },
     {
       "title": "Security Officers - Overnight Monitoring",
       "company": "Saint MaryS Hall",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://salutemyjob.com/jobs/security-officer-graveyard-overnight-san-antonio-texas/2858816959-2/",
       "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
-      "company": "Texas Health and Human Services Commission",
-      "location": "San Antonio, TX",
-      "pay": "3,100.00–4,365.66 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officers - Night Shift",
-      "company": "Southside Independent School District",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/-5909072313559129459",
-      "via": "via Jooble"
     }
   ]
 }

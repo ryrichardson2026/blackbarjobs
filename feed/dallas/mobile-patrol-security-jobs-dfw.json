@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/mobile-patrol-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-screening-at-allied-universal-4437498200",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Unarmed Patrol Screening Duties",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-screening-duties-at-allied-universal-4437478928",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Patrol Compliance Analyst",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-analyst-at-allied-universal-4437498174",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Driver Patrol Security Clearance",
-      "company": "Allied Universal",
-      "location": "McKinney, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-patrol-security-clearance-at-allied-universal-4437495424",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Unarmed Patrol Screening Duties",
+      "title": "Security Officer Patrol Credentials Monitor",
       "company": "Allied Universal",
       "location": "Mesquite, TX",
       "pay": "18.54 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Credentials-Monitor/-in-Mesquite,TX?jid=c340634f550deb3a",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Surveillance Security Patrol",
+      "company": "GardaWorld",
+      "location": "Grand Prairie, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.adzuna.com/details/5792148290",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Tech Site Unarmed Security Patrol",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": "20.25 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Unarmed-Patrol-Screening-Duties/-in-Mesquite,TX?jid=269ff01d02c269cd",
-      "via": "via ZipRecruiter"
+      "apply_link": "https://www.learn4good.com/jobs/desoto/texas/security/5267662410/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Security Patrol Officer – DC Night Shift",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5267532272/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Mobile Security Patrol – Part-Time; Dallas",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "18.93 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5267741574/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

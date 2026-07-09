@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/desoto-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,42 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Tech Site Unarmed Security Patrol",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": "20.25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/desoto/texas/security/5267662410/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer Patrol Driver Experience Required",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-experience-required-at-allied-universal-4437732043",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer -Clinical Patrol",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d51f85a2380be343",
+      "via": "via Indeed"
+    },
+    {
       "title": "Security Officer Driver Mobile Patrol",
       "company": "Allied Universal",
       "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-mobile-patrol-at-allied-universal-4437727203",
       "via": "via LinkedIn"
     },
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Metro One LPSG",
-      "location": "DeSoto, TX",
-      "pay": "23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.ziprecruiter.com/c/Metro-One-LPSG/Job/Unarmed-Security-Officer/-in-Desoto,TX?jid=189837fc9f34677c",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Director of Operations",
-      "company": "Andy Frain Services",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://salutemyjob.com/jobs/director-of-operations-desoto-texas/2854760778-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Military Security Officer - Now Hiring",
-      "company": "U.S. Navy",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242585005",
-      "via": "via Snagajob"
     }
   ]
 }

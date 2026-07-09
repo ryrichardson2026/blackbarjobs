@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/corporate-campus-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -27,14 +27,14 @@
       "via": "via Jooble"
     },
     {
-      "title": "Corporate Security Officer",
-      "company": "Crescent Energy",
+      "title": "Corporate Security Officer (Full Time - Houston, TX)",
+      "company": "The Home Depot",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Crescent-Energy/Job/Corporate-Security-Officer/-in-Houston,TX?jid=c209e3dedcd06227",
-      "via": "via ZipRecruiter"
+      "posted_date": null,
+      "apply_link": "https://staging.careersingovernment.com/job/1304034/corporate-security-officer-full-time-houston/",
+      "via": "via Careers In Government"
     },
     {
       "title": "Corporate Head of Security",
@@ -47,14 +47,14 @@
       "via": "via BeBee"
     },
     {
-      "title": "Security Officer - Part-Time",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "pay": "16.00–16.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
-      "via": "via ZipRecruiter"
+      "title": "Unarmed Security Guard",
+      "company": "PalAmerican Security",
+      "location": "Baytown, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
+      "via": "via Indeed"
     }
   ]
 }

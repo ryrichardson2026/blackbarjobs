@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "san-antonio/jobs/hotel-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Frontline Hotel Security: Protect Guests & Property",
+      "company": "Texas Western Hospitality Group",
+      "location": "San Antonio, TX",
+      "pay": "25K–35K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5269082056/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Hotel Security / Loss Prevention Officer",
       "company": "Grand Hyatt",
@@ -27,14 +37,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Hotel Security & Loss Prevention Pro | Free Room Nights",
-      "company": "Hyatt Group",
+      "title": "Loss Prevention Officer - Overnight Security at Luxury Hotel",
+      "company": "Crescent Hotels & Resorts",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-06-27",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4254723123871481856",
-      "via": "via Jobrapido"
+      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-officer-overnight-security-at-luxury-hotel-san-antonio-texas/2843447929-2/",
+      "via": "via SaluteMyJob"
     },
     {
       "title": "On-Call Hotel Security & Loss Prevention Officer",
@@ -44,16 +54,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-06-27",
       "apply_link": "https://salutemyjob.com/jobs/on-call-hotel-security-loss-prevention-officer-san-antonio-texas/2843447905-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Loss Prevention Officer - Overnight Security at Luxury Hotel",
-      "company": "Crescent Hotels & Resorts",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-officer-overnight-security-at-luxury-hotel-san-antonio-texas/2843447929-2/",
       "via": "via SaluteMyJob"
     }
   ]

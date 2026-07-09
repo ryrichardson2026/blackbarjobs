@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/dallas-part-time-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Mobile Security Patrol – Part-Time; Dallas",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "18.93 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5267741574/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Professional - Retail Part Time",
+      "company": "Metro One Security",
+      "location": "Dallas, TX",
+      "pay": "18–23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jooble.org/rjdp/-1195959806764860144",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Executive Protection Specialist - Part-Time Travel Ready",
+      "company": "Security Industry Specialists",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/executive-protection-specialist-part-time-travel-ready--dallas--ef084a637ffbc740dd6e1450a89fc3cae",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer Part Time Patrol Detail",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-part-time-patrol-detail/22950/97481236672",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Mobile Security Patrol – Part-Time (Dallas)",
       "company": "Allied Universal",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.jobleads.com/us/job/mobile-security-patrol-part-time-dallas--dallas--e9bc80f50482b437a6dc2f5ddc1a40e3b",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer – Driving & Screening (Part-Time)",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-driving-screening-part-time--dallas--e6a19a89f4c2bcbd13a653133af3b7bbf",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Mobile Security Officer 2nd Shift, Part-Time – $50 Sign-On",
-      "company": "Marksman Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/mobile-security-officer-2nd-shift-part-time-50-sign-on--dallas--eb53f942191d6d2808305a8a0cb323e1d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part-Time Armed Access Control Officer - Government Site",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "22K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-armed-access-control-officer-government-site--dallas--e80258bb73addedf3aaf801c5c9a987a8",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part Time Security Officers Needed",
-      "company": "Security Reconnaissance Team Inc",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jooble.org/rjdp/4795378812576094822",
-      "via": "via Jooble"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
@@ -27,6 +27,16 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Executive Protection Officer",
+      "company": "Constellis",
+      "location": "Houston, TX",
+      "pay": "35–45 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.tealhq.com/job/executive-protection-officer_7ea1a34b2a147537b6a36b0c92537b6c3c5b1",
+      "via": "via Teal"
+    },
+    {
       "title": "Armed Executive Protection Agent (EP)",
       "company": "Armed/Unarmed Security Guard",
       "location": "Houston, TX",
@@ -37,24 +47,14 @@
       "via": "via BeBee"
     },
     {
-      "title": "Executive Protection Officer",
-      "company": "Constellis",
-      "location": "Houston, TX",
-      "pay": "35–45 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/Constellis/Job/Executive-Protection-Officer/-in-Houston,TX?jid=c0f075b0b1d083d6",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer - Part-Time",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "pay": "16.00–16.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Part-Time/-in-Houston,TX?jid=4cd55004b98196ea",
-      "via": "via ZipRecruiter"
+      "title": "Unarmed Security Guard",
+      "company": "PalAmerican Security",
+      "location": "Baytown, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
+      "via": "via Indeed"
     }
   ]
 }

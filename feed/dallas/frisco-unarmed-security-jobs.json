@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "dallas/frisco-unarmed-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer (Unarmed) (Hiring Immediately)",
+      "company": "Tarian",
+      "location": "Frisco, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/security-officer-unarmed-hiring-immediately/frisco-texas?id=2864486392",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Unarmed Security Officers",
+      "company": "Sunstates Security",
+      "location": "Frisco, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100319/Unarmed-Security-Officers",
+      "via": "via Sunstates Security Jobs"
+    },
     {
       "title": "UNARMED OFFICER: FULL-TIME: THURS-MONDAY: 9PM-5AM",
       "company": "Ameritex Guard Service",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-28",
       "apply_link": "https://www.jobilize.com/job/us-tx-frisco-2026-season-event-staff-unarmed-security-guard-fc-dallas",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Marksman Security",
-      "location": "Frisco, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/unarmed-security-officer-at-marksman-security-4430738486",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer (Unarmed)",
-      "company": "Tarian",
-      "location": "Frisco, TX",
-      "pay": "17.75 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-17",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Frisco,TX?jid=c195fa49f2c631a7",
-      "via": "via ZipRecruiter"
     }
   ]
 }

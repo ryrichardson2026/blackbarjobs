@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-07T16:59:43.351288+00:00",
+  "generated": "2026-07-09T15:54:03.678890+00:00",
   "page": "houston/jobs/houston-private-event-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Licensed Event Security - Houston Rockets",
+      "company": "BEST Crowd Management",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/licensed-event-security-houston-rockets-at-best-crowd-management-4434841323",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Licensed Special Event Security",
       "company": "Andy Frain Services",
@@ -17,23 +27,13 @@
       "via": "via Monster"
     },
     {
-      "title": "Houston Event Staff & Security",
-      "company": "5 STAR Event Services",
-      "location": "Houston, TX",
-      "pay": "10–16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Event Security - Now Hiring",
+      "title": "Licensed Special Event Security - Now Hiring",
       "company": "Andy Frain Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time and Part-time",
       "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1273998729",
+      "apply_link": "https://www.snagajob.com/jobs/1226246065",
       "via": "via Snagajob"
     },
     {
