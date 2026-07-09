@@ -15,6 +15,7 @@
           <a href="/houston">Houston</a>
           <a href="/san-antonio">San Antonio</a>
           <a href="/austin">Austin</a>
+          <a href="/chicago">Chicago</a>
         </div>
       </div>
       <a href="/job-board">Find Jobs</a>

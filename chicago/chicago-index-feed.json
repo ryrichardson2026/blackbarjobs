@@ -1,0 +1,60 @@
+{
+  "generated": "2026-07-09T21:43:47.993991+00:00",
+  "page": "chicago/index",
+  "market": "Chicago",
+  "target": "general",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19-21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.aus.com/careers",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Overnight Security Officer",
+      "company": "Titan Security Group",
+      "location": "Chicago, IL",
+      "pay": "20-22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.titan-security.com/careers",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Hospital Security Officer",
+      "company": "GardaWorld",
+      "location": "Chicago, IL",
+      "pay": "19-20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.garda.com/careers",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Armed Security Officer",
+      "company": "Securitas",
+      "location": "Chicago, IL",
+      "pay": "23-25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.securitasjobs.com",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Overnight Warehouse Security Officer",
+      "company": "Sunstates Security",
+      "location": "Aurora, IL",
+      "pay": "18-20 an hour",
+      "schedule": "Overnight",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.sunstatessecurity.com/careers",
+      "via": "via BlackBarJobs"
+    }
+  ]
+}

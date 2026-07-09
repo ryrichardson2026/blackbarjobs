@@ -1,0 +1,60 @@
+{
+  "generated": "2026-07-09T23:03:55.897420+00:00",
+  "page": "chicago/jobs/hospital-security-chicago",
+  "market": "Chicago",
+  "target": "city-role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Hospital Security Officer",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19-21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Emergency Department Security Officer",
+      "company": "Titan Security Group",
+      "location": "Chicago, IL",
+      "pay": "20-22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Healthcare Security Officer",
+      "company": "Securitas",
+      "location": "Chicago, IL",
+      "pay": "19-20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Behavioral Health Security Officer",
+      "company": "GardaWorld",
+      "location": "Chicago, IL",
+      "pay": "21-23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Patient Safety Officer",
+      "company": "Allied Universal",
+      "location": "Evanston, IL",
+      "pay": "20-22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    }
+  ]
+}

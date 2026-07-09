@@ -1,0 +1,60 @@
+{
+  "generated": "2026-07-09T23:03:55.888205+00:00",
+  "page": "chicago/jobs/airport-security-chicago",
+  "market": "Chicago",
+  "target": "city-role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Transportation Security Officer",
+      "company": "TSA",
+      "location": "Chicago, IL (O'Hare)",
+      "pay": "22-25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Airport Screener",
+      "company": "Prospect Airport Services",
+      "location": "Chicago, IL (Midway)",
+      "pay": "17-19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Aviation Security Officer",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19-21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Terminal Security Officer",
+      "company": "Securitas",
+      "location": "Chicago, IL (O'Hare)",
+      "pay": "19-20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    },
+    {
+      "title": "Cargo Access Officer",
+      "company": "GardaWorld",
+      "location": "Chicago, IL",
+      "pay": "20-22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/chicago",
+      "via": "via BlackBarJobs"
+    }
+  ]
+}

@@ -352,8 +352,8 @@ window.addEventListener("load", function(){
 <!-- HERO -->
 <header class="board-hero">
 <div class="board-hero-inner">
-<span class="board-eyebrow">Texas Security Job Board</span>
-<h1>Security Officer Jobs in Texas — <em>See Who's Hiring Now</em></h1>
+<span class="board-eyebrow" id="boardEyebrow">Security Job Board</span>
+<h1 id="boardH1">Security Officer Jobs <em>- See Who's Hiring Now</em></h1>
 <p data-nosnippet="">Browse live openings across DFW, Houston, San Antonio, and Austin. Filter by role, schedule, pay, and city — new positions added continuously.</p>
 <div class="board-hero-actions">
 <a class="hero-btn gold" href="#" onclick="openAlerts();return false;">Get Free Job Alerts →</a>
@@ -600,7 +600,7 @@ window.addEventListener("load", function(){
   }
   var filters = { q: '', loc: '', type: '', pay: false, role: '', posted: '', sort: 'newest' };
   var DEFAULT_LOC = '';
-  var METRO_FRIENDLY = { 'DFW': 'Dallas–Fort Worth', 'Houston': 'Houston', 'Austin': 'Austin', 'San Antonio': 'San Antonio', 'El Paso': 'El Paso' };
+  var METRO_FRIENDLY = { 'DFW': 'Dallas–Fort Worth', 'Houston': 'Houston', 'Austin': 'Austin', 'San Antonio': 'San Antonio', 'El Paso': 'El Paso', 'Chicago': 'Chicago' };
   var TYPE_OPTS = [ {v:'',label:'Any Schedule'}, {v:'full-time',label:'Full-time'}, {v:'part-time',label:'Part-time'} ];
   var POSTED_OPTS = [ {v:'',label:'Any Time'}, {v:'week',label:'Posted This Week'}, {v:'3',label:'Past 3 Days'}, {v:'1',label:'Posted Today'} ];
 
@@ -1177,5 +1177,25 @@ window.addEventListener("load", function(){
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+<script>
+/* Dynamic board header: reflect the metro from ?city/?metro/?location or UTM (e.g. Chicago from a chi page). Neutral default. */
+(function(){
+  try{
+    var p = new URLSearchParams(location.search);
+    var raw = (p.get('city') || p.get('metro') || p.get('location') || '').trim();
+    if(!raw){
+      var c = ((p.get('utm_campaign')||'') + ' ' + (p.get('utm_content')||'') + ' ' + (p.get('role')||'')).toLowerCase();
+      ['chicago','houston','austin','dallas','dfw','san antonio'].forEach(function(k){ if(c.indexOf(k)!==-1 && !raw) raw = k; });
+    }
+    if(!raw) return;
+    var map = {'chicago':'Chicago','dfw':'Dallas\u2013Fort Worth','dallas':'Dallas\u2013Fort Worth','houston':'Houston','austin':'Austin','san antonio':'San Antonio','san-antonio':'San Antonio'};
+    var name = map[raw.toLowerCase()] || raw.replace(/\b\w/g, function(m){ return m.toUpperCase(); });
+    var eb = document.getElementById('boardEyebrow'), h1 = document.getElementById('boardH1');
+    if(eb) eb.textContent = name + ' Security Job Board';
+    if(h1) h1.innerHTML = 'Security Officer Jobs in ' + name + " - <em>See Who's Hiring Now</em>";
+    try{ document.title = 'Security Officer Jobs in ' + name + ' | BlackBarJobs'; }catch(e){}
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
