@@ -1257,6 +1257,41 @@
       "source": "/dallas/part-time-security-jobs-dfw",
       "destination": "/dallas/jobs/dallas-part-time-security",
       "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-overnight-warehouse-security",
+      "destination": "/houston/jobs/overnight-warehouse-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-hospital-security",
+      "destination": "/houston/jobs/hospital-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-construction-security",
+      "destination": "/houston/jobs/construction-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/how-to-hire-security-houston",
+      "destination": "/how-to-hire-security-houston",
+      "permanent": true
+    },
+    {
+      "source": "/security-jobs-austin",
+      "destination": "/austin/security-jobs-austin",
+      "permanent": true
+    },
+    {
+      "source": "/security-jobs-san-antonio",
+      "destination": "/san-antonio/security-jobs-san-antonio",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/dallas-job-guide",
+      "destination": "/dallas/dallas-security-jobs-guide",
+      "permanent": true
     }
   ]
 }
