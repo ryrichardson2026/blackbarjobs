@@ -2321,6 +2321,138 @@
       "target_type": "general",
       "container": "jobRows",
       "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/armed-overnight-security-austin",
+      "path": "austin/jobs/armed-overnight-security-austin.html",
+      "market": "Austin",
+      "role": "armed-overnight",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/data-center-security-austin",
+      "path": "austin/jobs/data-center-security-austin.html",
+      "market": "Austin",
+      "role": "data-center",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/industrial-security-austin",
+      "path": "austin/jobs/industrial-security-austin.html",
+      "market": "Austin",
+      "role": "industrial",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/night-shift-security-austin",
+      "path": "austin/jobs/night-shift-security-austin.html",
+      "market": "Austin",
+      "role": "night-shift",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/overnight-warehouse-security-austin",
+      "path": "austin/jobs/overnight-warehouse-security-austin.html",
+      "market": "Austin",
+      "role": "overnight-warehouse",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "dallas/overnight-warehouse-security-dfw",
+      "path": "dallas/jobs/dallas-overnight-warehouse-security.html",
+      "market": "DFW",
+      "role": "overnight-warehouse",
+      "city": null,
+      "city_major": false,
+      "target_type": "role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "houston/jobs/overnight-warehouse-security-houston",
+      "path": "houston/jobs/overnight-warehouse-security-houston.html",
+      "market": "Houston",
+      "role": "overnight-warehouse",
+      "city": "houston",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/armed-overnight-security-san-antonio",
+      "path": "san-antonio/jobs/armed-overnight-security-san-antonio.html",
+      "market": "San Antonio",
+      "role": "armed-overnight",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/data-center-security-san-antonio",
+      "path": "san-antonio/jobs/data-center-security-san-antonio.html",
+      "market": "San Antonio",
+      "role": "data-center",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/industrial-security-san-antonio",
+      "path": "san-antonio/jobs/industrial-security-san-antonio.html",
+      "market": "San Antonio",
+      "role": "industrial",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/night-shift-security-san-antonio",
+      "path": "san-antonio/jobs/night-shift-security-san-antonio.html",
+      "market": "San Antonio",
+      "role": "night-shift",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/overnight-warehouse-security-san-antonio",
+      "path": "san-antonio/jobs/overnight-warehouse-security-san-antonio.html",
+      "market": "San Antonio",
+      "role": "overnight-warehouse",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
     }
   ]
 }

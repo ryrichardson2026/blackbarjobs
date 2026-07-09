@@ -512,7 +512,7 @@ def sec_div(label, mt0=False):
 
 # ── Output guardrails (bake in fixes for past bugs) ────────────────
 _A_HREF_RE  = re.compile(r'<a\b[^>]*?href="([^"]*)"', re.I)
-_FAVICONS   = ('/favicon.ico', '/favicon-32.png', '/favicon.png')
+_FAVICONS   = ('/favicon.ico', '/favicon-96.png', '/favicon-192.png', '/apple-touch-icon.png')
 
 def _is_internal_href(href):
     h = href.strip().lower()
@@ -594,10 +594,10 @@ def generate_page(cfg):
 <title>{title}</title>
 <meta name="description" content="{meta_desc}">
 <link rel="canonical" href="{canonical}">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/favicon.png" sizes="64x64" type="image/png">
-<link rel="apple-touch-icon" href="/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{meta_desc}">
 <meta property="og:url" content="{canonical}">

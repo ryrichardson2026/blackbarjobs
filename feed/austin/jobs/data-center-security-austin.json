@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-09T06:37:31Z",
+  "page": "austin/jobs/data-center-security-austin.html",
+  "market": "Austin",
+  "target": "city",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Overnight Security Officer (Level II) | Multiple Openings | Immediate Hire",
+      "company": "Security Reconnaissance Team Inc",
+      "location": "Austin, TX",
+      "pay": "16\u201318 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e090e5e5f214e54d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer-Armed",
+      "company": "Ascension",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Downtown Hotel Security Officer",
+      "company": "United Protective Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4f9849e0423f2257",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Austin On Call Security Officer",
+      "company": "United Protective Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/On-Call-Austin-Security-Officer/-in-Austin,TX?jid=2211994949a00512",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
+      "via": "via Indeed"
+    }
+  ],
+  "seed_note": "SEED from tech-campus-security-austin; run bbj_feed_fetch.py + snapshot to replace with data-center-security-austin results"
+}

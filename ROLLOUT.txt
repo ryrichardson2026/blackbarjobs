@@ -1,0 +1,22 @@
+BBJ overnight/industrial batch — FINAL (favicon + sitemap + tracker)
+
+NEW THIS VERSION:
+- Houston overnight-warehouse file RENAMED to overnight-warehouse-security-houston.html
+  (its canonical/feed-key/seed already used that slug; filename now matches -> URL resolves).
+- sitemap.xml: +12 new-page URLs (220 total), weekly / priority 0.6, lastmod 2026-07-09.
+- SEO_Cluster_Tracker_updated.xlsx: +12 rows on 'SEO Cluster Tracker'; Summary live-page
+  count 119 -> 131. NOTE: Summary per-category breakdown is stale (no SA/Austin lines) —
+  refresh separately if you want it fully reconciled.
+
+DROP-IN (repo root paths):
+  6 favicons -> root ; sitemap.xml -> root (overwrite) ;
+  */jobs/*.html -> market folders ; feed/** -> feed/ ;
+  automation/bbj_feed_queries.json + bbj_page_targets.json -> overwrite ;
+  bbj_generator_v5.py -> overwrite.
+  SEO_Cluster_Tracker_updated.xlsx -> wherever you keep the tracker (not necessarily the repo).
+
+MANUAL: swap the 4 favicon <link> lines into index.html <head> (already done);
+Request Indexing on homepage in GSC. Resubmit sitemap.xml in GSC after deploy.
+
+SHIP: copy in -> bbj_page_check.py + bbj_link_audit.py + feed guardrail ->
+branch -> Vercel preview -> merge -> run feed workflow. Push each market family together.

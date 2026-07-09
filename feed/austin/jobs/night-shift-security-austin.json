@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-09T06:37:31Z",
+  "page": "austin/jobs/night-shift-security-austin.html",
+  "market": "Austin",
+  "target": "city-role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Overnight Security Officer (Level II) | Multiple Openings | Immediate Hire",
+      "company": "Security Reconnaissance Team Inc",
+      "location": "Austin, TX",
+      "pay": "16\u201318 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e090e5e5f214e54d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Overnight Security Specialist - Safeguard Seniors' Comfort",
+      "company": "Provincial Senior Living",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.jobilize.com/job/us-tx-austin-overnight-security-specialist-safeguard-seniors-comfort",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Over Night Security (Part Time)",
+      "company": "Solstice at Austin",
+      "location": "Austin, TX",
+      "pay": "16\u201317 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.indeed.com/viewjob?jk=7cbe7bd768deb7a2",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part Time Patrol Officer Needed Overnight",
+      "company": "GuardTexas Inc",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.monster.com/job-openings/part-time-patrol-officer-needed-overnight-austin-tx--63771459-bd40-4af2-8258-0bb6c16a4b06",
+      "via": "via Monster"
+    },
+    {
+      "title": "Part Time Patrol Officer Needed ( Overnight)",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://www.indeed.com/viewjob?jk=b2ac3b5f6ea163c2",
+      "via": "via Indeed"
+    }
+  ],
+  "seed_note": "SEED from overnight-security-austin; run bbj_feed_fetch.py + snapshot to replace with night-shift-security-austin results"
+}

@@ -1,7 +1,7 @@
 {
-  "generated": "phase2_v4_boundaryfix",
-  "feed_pages": 209,
-  "distinct_queries": 164,
+  "generated": "2026-07-09T06:37:31Z",
+  "feed_pages": 221,
+  "distinct_queries": 176,
   "pages_per_query": 3,
   "queries": [
     {
@@ -11,19 +11,14 @@
       "query": "security officer jobs Dallas TX",
       "qtype": "city",
       "pages": [
-        "dallas/dallas-high-value-asset-security.html",
-        "dallas/dallas-office-building-security.html",
+        "dallas/jobs/dallas-high-value-asset-security.html",
+        "dallas/jobs/dallas-office-building-security.html",
         "dallas/dallas-parks-public-spaces-security.html",
         "dallas/dallas-theme-park-security.html",
-        "dallas/dallas-venue-security.html",
+        "dallas/jobs/dallas-venue-security.html",
         "dallas/deep-ellum-security.html",
-        "dallas/design-district-dallas-security.html",
-        "dallas/downtown-dallas-security.html",
         "dallas/job-board.html",
-        "dallas/medical-district-dallas-security.html",
-        "dallas/security-officer-jobs-dallas.html",
-        "dallas/security-training-schools-dfw.html",
-        "dallas/uptown-dallas-security.html"
+        "dallas/security-training-schools-dfw.html"
       ]
     },
     {
@@ -33,10 +28,9 @@
       "query": "event security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-event-security.html",
-        "dallas/dallas-private-event-security.html",
-        "dallas/dallas-sporting-event-security.html",
-        "dallas/event-security-dfw.html"
+        "dallas/jobs/dallas-event-security.html",
+        "dallas/jobs/dallas-private-event-security.html",
+        "dallas/jobs/dallas-sporting-event-security.html"
       ]
     },
     {
@@ -46,9 +40,7 @@
       "query": "airport tsa security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/airport-security-jobs-dfw.html",
-        "dallas/dallas-airport-security.html",
-        "dallas/tsa-airport-security-dfw.html"
+        "dallas/jobs/dallas-airport-security.html"
       ]
     },
     {
@@ -58,9 +50,7 @@
       "query": "armed security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/armed-security-dfw.html",
-        "dallas/armed-security-jobs.html",
-        "dallas/dallas-armed-security.html"
+        "dallas/jobs/dallas-armed-security.html"
       ]
     },
     {
@@ -70,9 +60,7 @@
       "query": "armed security officer jobs Fort Worth TX",
       "qtype": "role",
       "pages": [
-        "dallas/armed-security-dfw.html",
-        "dallas/armed-security-jobs.html",
-        "dallas/fort-worth-armed-security.html"
+        "dallas/jobs/fort-worth-armed-security.html"
       ]
     },
     {
@@ -93,8 +81,7 @@
       "query": "construction security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/construction-security-jobs-dfw.html",
-        "dallas/dallas-construction-security.html"
+        "dallas/jobs/dallas-construction-security.html"
       ]
     },
     {
@@ -104,8 +91,7 @@
       "query": "corporate security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/corporate-campus-security-jobs-dfw.html",
-        "dallas/dallas-corporate-security.html"
+        "dallas/jobs/dallas-corporate-security.html"
       ]
     },
     {
@@ -126,8 +112,7 @@
       "query": "event security officer jobs Fort Worth TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/event-security-dfw.html",
-        "dallas/fort-worth-event-security.html"
+        "dallas/jobs/fort-worth-event-security.html"
       ]
     },
     {
@@ -137,8 +122,7 @@
       "query": "hospital security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-hospital-healthcare-security.html",
-        "dallas/hospital-security-jobs-dfw.html"
+        "dallas/jobs/dallas-hospital-healthcare-security.html"
       ]
     },
     {
@@ -148,8 +132,7 @@
       "query": "hospital security officer jobs Fort Worth TX",
       "qtype": "role",
       "pages": [
-        "dallas/fort-worth-hospital-security.html",
-        "dallas/hospital-security-jobs-dfw.html"
+        "dallas/jobs/fort-worth-hospital-security.html"
       ]
     },
     {
@@ -159,8 +142,7 @@
       "query": "hotel security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-hotel-security.html",
-        "dallas/hotel-security-jobs-dfw.html"
+        "dallas/jobs/dallas-hotel-security.html"
       ]
     },
     {
@@ -170,8 +152,7 @@
       "query": "level 2 security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-level-2-security.html",
-        "dallas/level-2-security-jobs-dfw.html"
+        "dallas/jobs/dallas-level-2-security.html"
       ]
     },
     {
@@ -181,8 +162,7 @@
       "query": "level 3 security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-level-3-security.html",
-        "dallas/level-3-security-jobs-dfw.html"
+        "dallas/jobs/dallas-level-3-security.html"
       ]
     },
     {
@@ -236,8 +216,7 @@
       "query": "no experience security officer jobs Fort Worth TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/fort-worth-no-experience-security.html",
-        "dallas/no-experience-security-jobs-dfw.html"
+        "dallas/jobs/fort-worth-no-experience-security.html"
       ]
     },
     {
@@ -247,8 +226,7 @@
       "query": "overnight security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-overnight-security.html",
-        "dallas/overnight-security-dfw.html"
+        "dallas/jobs/dallas-overnight-security.html"
       ]
     },
     {
@@ -269,8 +247,7 @@
       "query": "part time security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-part-time-security.html",
-        "dallas/part-time-security-jobs-dfw.html"
+        "dallas/jobs/dallas-part-time-security.html"
       ]
     },
     {
@@ -280,8 +257,7 @@
       "query": "retail security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-retail-security.html",
-        "dallas/retail-security-jobs-dfw.html"
+        "dallas/jobs/dallas-retail-security.html"
       ]
     },
     {
@@ -291,8 +267,7 @@
       "query": "school security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-school-security.html",
-        "dallas/school-security-jobs-dfw.html"
+        "dallas/jobs/dallas-school-security.html"
       ]
     },
     {
@@ -302,8 +277,7 @@
       "query": "unarmed security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-unarmed-security.html",
-        "dallas/unarmed-security-dfw.html"
+        "dallas/jobs/dallas-unarmed-security.html"
       ]
     },
     {
@@ -313,8 +287,7 @@
       "query": "unarmed security officer jobs Fort Worth TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/fort-worth-unarmed-security.html",
-        "dallas/unarmed-security-dfw.html"
+        "dallas/jobs/fort-worth-unarmed-security.html"
       ]
     },
     {
@@ -324,8 +297,7 @@
       "query": "warehouse security officer jobs Dallas TX",
       "qtype": "role",
       "pages": [
-        "dallas/dallas-warehouse-security.html",
-        "dallas/warehouse-security-jobs-dfw.html"
+        "dallas/jobs/dallas-warehouse-security.html"
       ]
     },
     {
@@ -335,7 +307,7 @@
       "query": "armed overnight security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-armed-overnight-security.html"
+        "dallas/jobs/dallas-armed-overnight-security.html"
       ]
     },
     {
@@ -345,7 +317,7 @@
       "query": "bar club security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-bar-club-security.html"
+        "dallas/jobs/dallas-bar-club-security.html"
       ]
     },
     {
@@ -425,7 +397,7 @@
       "query": "festival security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-festival-security.html"
+        "dallas/jobs/dallas-festival-security.html"
       ]
     },
     {
@@ -455,7 +427,7 @@
       "query": "government security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-government-security.html"
+        "dallas/jobs/dallas-government-security.html"
       ]
     },
     {
@@ -485,7 +457,7 @@
       "query": "industrial security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-industrial-security.html"
+        "dallas/jobs/dallas-industrial-security.html"
       ]
     },
     {
@@ -585,7 +557,7 @@
       "query": "parking security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-parking-security.html"
+        "dallas/jobs/dallas-parking-security.html"
       ]
     },
     {
@@ -635,7 +607,7 @@
       "query": "security officer jobs Allen TX",
       "qtype": "city",
       "pages": [
-        "dallas/allen-security-jobs.html"
+        "dallas/jobs/allen-security-jobs.html"
       ]
     },
     {
@@ -645,7 +617,7 @@
       "query": "security officer jobs Bedford TX",
       "qtype": "city",
       "pages": [
-        "dallas/bedford-security-jobs.html"
+        "dallas/jobs/bedford-security-jobs.html"
       ]
     },
     {
@@ -655,7 +627,7 @@
       "query": "security officer jobs Carrollton TX",
       "qtype": "city",
       "pages": [
-        "dallas/carrollton-security-jobs.html"
+        "dallas/jobs/carrollton-security-jobs.html"
       ]
     },
     {
@@ -665,7 +637,7 @@
       "query": "security officer jobs Cedar Hill TX",
       "qtype": "city",
       "pages": [
-        "dallas/cedar-hill-security-jobs.html"
+        "dallas/jobs/cedar-hill-security-jobs.html"
       ]
     },
     {
@@ -675,7 +647,7 @@
       "query": "security officer jobs Denton TX",
       "qtype": "city",
       "pages": [
-        "dallas/denton-security-jobs.html"
+        "dallas/jobs/denton-security-jobs.html"
       ]
     },
     {
@@ -705,7 +677,7 @@
       "query": "security officer jobs Euless TX",
       "qtype": "city",
       "pages": [
-        "dallas/euless-security-jobs.html"
+        "dallas/jobs/euless-security-jobs.html"
       ]
     },
     {
@@ -715,7 +687,7 @@
       "query": "security officer jobs Forney TX",
       "qtype": "city",
       "pages": [
-        "dallas/forney-security-jobs.html"
+        "dallas/jobs/forney-security-jobs.html"
       ]
     },
     {
@@ -735,7 +707,7 @@
       "query": "security officer jobs Garland TX",
       "qtype": "city",
       "pages": [
-        "dallas/garland-security-jobs.html"
+        "dallas/jobs/garland-security-jobs.html"
       ]
     },
     {
@@ -745,7 +717,7 @@
       "query": "security officer jobs Grapevine TX",
       "qtype": "city",
       "pages": [
-        "dallas/grapevine-security-jobs.html"
+        "dallas/jobs/grapevine-security-jobs.html"
       ]
     },
     {
@@ -755,7 +727,7 @@
       "query": "security officer jobs Lancaster TX",
       "qtype": "city",
       "pages": [
-        "dallas/lancaster-security-jobs.html"
+        "dallas/jobs/lancaster-security-jobs.html"
       ]
     },
     {
@@ -765,7 +737,7 @@
       "query": "security officer jobs Lewisville TX",
       "qtype": "city",
       "pages": [
-        "dallas/lewisville-security-jobs.html"
+        "dallas/jobs/lewisville-security-jobs.html"
       ]
     },
     {
@@ -775,7 +747,7 @@
       "query": "security officer jobs Mansfield TX",
       "qtype": "city",
       "pages": [
-        "dallas/mansfield-security-jobs.html"
+        "dallas/jobs/mansfield-security-jobs.html"
       ]
     },
     {
@@ -785,7 +757,7 @@
       "query": "security officer jobs Mckinney TX",
       "qtype": "city",
       "pages": [
-        "dallas/mckinney-security-jobs.html"
+        "dallas/jobs/mckinney-security-jobs.html"
       ]
     },
     {
@@ -795,7 +767,7 @@
       "query": "security officer jobs Mesquite TX",
       "qtype": "city",
       "pages": [
-        "dallas/mesquite-security-jobs.html"
+        "dallas/jobs/mesquite-security-jobs.html"
       ]
     },
     {
@@ -805,7 +777,7 @@
       "query": "security officer jobs Midlothian TX",
       "qtype": "city",
       "pages": [
-        "dallas/midlothian-security-jobs.html"
+        "dallas/jobs/midlothian-security-jobs.html"
       ]
     },
     {
@@ -815,7 +787,7 @@
       "query": "security officer jobs North Richland Hills TX",
       "qtype": "city",
       "pages": [
-        "dallas/north-richland-hills-security-jobs.html"
+        "dallas/jobs/north-richland-hills-security-jobs.html"
       ]
     },
     {
@@ -825,7 +797,7 @@
       "query": "security officer jobs Richardson TX",
       "qtype": "city",
       "pages": [
-        "dallas/richardson-security-jobs.html"
+        "dallas/jobs/richardson-security-jobs.html"
       ]
     },
     {
@@ -835,7 +807,7 @@
       "query": "security officer jobs Rockwall TX",
       "qtype": "city",
       "pages": [
-        "dallas/rockwall-security-jobs.html"
+        "dallas/jobs/rockwall-security-jobs.html"
       ]
     },
     {
@@ -845,7 +817,7 @@
       "query": "security officer jobs Rowlett TX",
       "qtype": "city",
       "pages": [
-        "dallas/rowlett-security-jobs.html"
+        "dallas/jobs/rowlett-security-jobs.html"
       ]
     },
     {
@@ -875,7 +847,7 @@
       "query": "surveillance security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-surveillance-security.html"
+        "dallas/jobs/dallas-surveillance-security.html"
       ]
     },
     {
@@ -895,7 +867,7 @@
       "query": "unarmed security officer jobs Irving TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/irving-unarmed-security.html"
+        "dallas/jobs/irving-unarmed-security.html"
       ]
     },
     {
@@ -915,7 +887,7 @@
       "query": "university security officer jobs Dallas TX",
       "qtype": "city-role",
       "pages": [
-        "dallas/dallas-university-security.html"
+        "dallas/jobs/dallas-university-security.html"
       ]
     },
     {
@@ -945,19 +917,19 @@
       "query": "security officer jobs Houston TX",
       "qtype": "city",
       "pages": [
-        "houston/downtown-houston-security.html",
-        "houston/galleria-houston-security-jobs.html",
-        "houston/heights-houston-security-jobs.html",
-        "houston/houston-high-value-asset-security.html",
-        "houston/houston-office-building-security.html",
-        "houston/houston-theme-park-security.html",
-        "houston/houston-venue-security.html",
+        "houston/jobs/downtown-houston-security.html",
+        "houston/jobs/galleria-houston-security-jobs.html",
+        "houston/jobs/heights-houston-security-jobs.html",
+        "houston/jobs/houston-high-value-asset-security.html",
+        "houston/jobs/houston-office-building-security.html",
+        "houston/jobs/houston-theme-park-security.html",
+        "houston/jobs/houston-venue-security.html",
         "houston/index.html",
-        "houston/medical-center-houston-security-jobs.html",
-        "houston/midtown-houston-security-jobs.html",
-        "houston/montrose-houston-security-jobs.html",
-        "houston/security-officer-jobs-houston.html",
-        "houston/security-training-schools-houston.html"
+        "houston/jobs/medical-center-houston-security-jobs.html",
+        "houston/jobs/midtown-houston-security-jobs.html",
+        "houston/jobs/montrose-houston-security-jobs.html",
+        "houston/jobs/security-officer-jobs-houston.html",
+        "houston/jobs/security-training-schools-houston.html"
       ]
     },
     {
@@ -967,9 +939,9 @@
       "query": "event security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/event-security-houston.html",
-        "houston/houston-private-event-security.html",
-        "houston/houston-sporting-event-security.html"
+        "houston/jobs/event-security-houston.html",
+        "houston/jobs/houston-private-event-security.html",
+        "houston/jobs/houston-sporting-event-security.html"
       ]
     },
     {
@@ -979,8 +951,8 @@
       "query": "airport tsa security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-airport-security.html",
-        "houston/tsa-airport-security-houston.html"
+        "houston/jobs/houston-airport-security.html",
+        "houston/jobs/tsa-airport-security-houston.html"
       ]
     },
     {
@@ -990,8 +962,8 @@
       "query": "construction security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/construction-security-houston.html",
-        "houston/houston-construction-security.html"
+        "houston/jobs/construction-security-houston.html",
+        "houston/jobs/houston-construction-security.html"
       ]
     },
     {
@@ -1001,8 +973,8 @@
       "query": "corporate security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/corporate-campus-security-houston.html",
-        "houston/houston-corporate-security.html"
+        "houston/jobs/corporate-campus-security-houston.html",
+        "houston/jobs/houston-corporate-security.html"
       ]
     },
     {
@@ -1012,8 +984,8 @@
       "query": "hospital security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/hospital-security-houston.html",
-        "houston/houston-hospital-security.html"
+        "houston/jobs/hospital-security-houston.html",
+        "houston/jobs/houston-hospital-security.html"
       ]
     },
     {
@@ -1023,7 +995,7 @@
       "query": "armed overnight security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-armed-overnight-security.html"
+        "houston/jobs/houston-armed-overnight-security.html"
       ]
     },
     {
@@ -1033,7 +1005,7 @@
       "query": "armed security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/armed-security-houston.html"
+        "houston/jobs/armed-security-houston.html"
       ]
     },
     {
@@ -1043,7 +1015,7 @@
       "query": "bar club security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-bar-club-security.html"
+        "houston/jobs/houston-bar-club-security.html"
       ]
     },
     {
@@ -1053,7 +1025,7 @@
       "query": "data center security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/data-center-security-houston.html"
+        "houston/jobs/data-center-security-houston.html"
       ]
     },
     {
@@ -1063,7 +1035,7 @@
       "query": "entry level security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-entry-level-security-jobs.html"
+        "houston/jobs/houston-entry-level-security-jobs.html"
       ]
     },
     {
@@ -1073,7 +1045,7 @@
       "query": "executive protection security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-executive-protection.html"
+        "houston/jobs/houston-executive-protection.html"
       ]
     },
     {
@@ -1083,7 +1055,7 @@
       "query": "festival security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-festival-security.html"
+        "houston/jobs/houston-festival-security.html"
       ]
     },
     {
@@ -1093,7 +1065,7 @@
       "query": "full time security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/full-time-security-houston.html"
+        "houston/jobs/full-time-security-houston.html"
       ]
     },
     {
@@ -1103,7 +1075,7 @@
       "query": "hotel security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/hotel-security-houston.html"
+        "houston/jobs/hotel-security-houston.html"
       ]
     },
     {
@@ -1113,7 +1085,7 @@
       "query": "industrial security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/industrial-security-houston.html"
+        "houston/jobs/industrial-security-houston.html"
       ]
     },
     {
@@ -1123,7 +1095,7 @@
       "query": "level 2 security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-level-2-security.html"
+        "houston/jobs/houston-level-2-security.html"
       ]
     },
     {
@@ -1133,7 +1105,7 @@
       "query": "level 3 security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-level-3-security.html"
+        "houston/jobs/houston-level-3-security.html"
       ]
     },
     {
@@ -1143,7 +1115,7 @@
       "query": "loss prevention security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/loss-prevention-houston.html"
+        "houston/jobs/loss-prevention-houston.html"
       ]
     },
     {
@@ -1153,7 +1125,7 @@
       "query": "mobile patrol security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/mobile-patrol-houston.html"
+        "houston/jobs/mobile-patrol-houston.html"
       ]
     },
     {
@@ -1163,7 +1135,7 @@
       "query": "night shift security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-night-shift-security.html"
+        "houston/jobs/houston-night-shift-security.html"
       ]
     },
     {
@@ -1173,7 +1145,7 @@
       "query": "no experience security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-no-experience-security.html"
+        "houston/jobs/houston-no-experience-security.html"
       ]
     },
     {
@@ -1183,7 +1155,7 @@
       "query": "overnight security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/overnight-security-houston.html"
+        "houston/jobs/overnight-security-houston.html"
       ]
     },
     {
@@ -1193,7 +1165,7 @@
       "query": "part time security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-part-time-security.html"
+        "houston/jobs/houston-part-time-security.html"
       ]
     },
     {
@@ -1203,7 +1175,7 @@
       "query": "residential security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-residential-security.html"
+        "houston/jobs/houston-residential-security.html"
       ]
     },
     {
@@ -1213,7 +1185,7 @@
       "query": "retail security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-retail-security.html"
+        "houston/jobs/houston-retail-security.html"
       ]
     },
     {
@@ -1223,7 +1195,7 @@
       "query": "school security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-school-security.html"
+        "houston/jobs/houston-school-security.html"
       ]
     },
     {
@@ -1233,7 +1205,7 @@
       "query": "security officer jobs Baytown TX",
       "qtype": "city",
       "pages": [
-        "houston/baytown-security-jobs.html"
+        "houston/jobs/baytown-security-jobs.html"
       ]
     },
     {
@@ -1243,7 +1215,7 @@
       "query": "security officer jobs Conroe TX",
       "qtype": "city",
       "pages": [
-        "houston/conroe-security-jobs.html"
+        "houston/jobs/conroe-security-jobs.html"
       ]
     },
     {
@@ -1253,7 +1225,7 @@
       "query": "security officer jobs Friendswood TX",
       "qtype": "city",
       "pages": [
-        "houston/friendswood-security-jobs.html"
+        "houston/jobs/friendswood-security-jobs.html"
       ]
     },
     {
@@ -1263,7 +1235,7 @@
       "query": "security officer jobs Humble TX",
       "qtype": "city",
       "pages": [
-        "houston/humble-security-jobs.html"
+        "houston/jobs/humble-security-jobs.html"
       ]
     },
     {
@@ -1273,7 +1245,7 @@
       "query": "security officer jobs Katy TX",
       "qtype": "city",
       "pages": [
-        "houston/katy-security-jobs.html"
+        "houston/jobs/katy-security-jobs.html"
       ]
     },
     {
@@ -1283,7 +1255,7 @@
       "query": "security officer jobs League City TX",
       "qtype": "city",
       "pages": [
-        "houston/league-city-security-jobs.html"
+        "houston/jobs/league-city-security-jobs.html"
       ]
     },
     {
@@ -1293,7 +1265,7 @@
       "query": "security officer jobs Missouri City TX",
       "qtype": "city",
       "pages": [
-        "houston/missouri-city-security-jobs.html"
+        "houston/jobs/missouri-city-security-jobs.html"
       ]
     },
     {
@@ -1303,7 +1275,7 @@
       "query": "security officer jobs Pasadena TX",
       "qtype": "city",
       "pages": [
-        "houston/pasadena-security-jobs.html"
+        "houston/jobs/pasadena-security-jobs.html"
       ]
     },
     {
@@ -1313,7 +1285,7 @@
       "query": "security officer jobs Pearland TX",
       "qtype": "city",
       "pages": [
-        "houston/pearland-security-jobs.html"
+        "houston/jobs/pearland-security-jobs.html"
       ]
     },
     {
@@ -1323,7 +1295,7 @@
       "query": "security officer jobs Richmond TX",
       "qtype": "city",
       "pages": [
-        "houston/richmond-security-jobs.html"
+        "houston/jobs/richmond-security-jobs.html"
       ]
     },
     {
@@ -1333,7 +1305,7 @@
       "query": "security officer jobs Sugar Land TX",
       "qtype": "city",
       "pages": [
-        "houston/sugar-land-security-jobs.html"
+        "houston/jobs/sugar-land-security-jobs.html"
       ]
     },
     {
@@ -1343,7 +1315,7 @@
       "query": "security officer jobs The Woodlands TX",
       "qtype": "city",
       "pages": [
-        "houston/the-woodlands-security-jobs.html"
+        "houston/jobs/the-woodlands-security-jobs.html"
       ]
     },
     {
@@ -1353,7 +1325,7 @@
       "query": "surveillance security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-surveillance-security.html"
+        "houston/jobs/houston-surveillance-security.html"
       ]
     },
     {
@@ -1363,7 +1335,7 @@
       "query": "unarmed security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/unarmed-security-houston.html"
+        "houston/jobs/unarmed-security-houston.html"
       ]
     },
     {
@@ -1373,7 +1345,7 @@
       "query": "university security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-university-security.html"
+        "houston/jobs/houston-university-security.html"
       ]
     },
     {
@@ -1383,7 +1355,7 @@
       "query": "warehouse security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/warehouse-security-houston.html"
+        "houston/jobs/warehouse-security-houston.html"
       ]
     },
     {
@@ -1393,7 +1365,7 @@
       "query": "weekend security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/houston-weekend-security-jobs.html"
+        "houston/jobs/houston-weekend-security-jobs.html"
       ]
     },
     {
@@ -1404,10 +1376,10 @@
       "qtype": "city",
       "pages": [
         "san-antonio/index.html",
-        "san-antonio/military-base-security-san-antonio.html",
-        "san-antonio/river-walk-security-jobs-san-antonio.html",
+        "san-antonio/jobs/military-base-security-san-antonio.html",
+        "san-antonio/jobs/river-walk-security-jobs-san-antonio.html",
         "san-antonio/security-jobs-san-antonio.html",
-        "san-antonio/security-training-schools-san-antonio.html"
+        "san-antonio/jobs/security-training-schools-san-antonio.html"
       ]
     },
     {
@@ -1417,8 +1389,8 @@
       "query": "airport tsa security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/airport-security-san-antonio.html",
-        "san-antonio/tsa-airport-security-san-antonio.html"
+        "san-antonio/jobs/airport-security-san-antonio.html",
+        "san-antonio/jobs/tsa-airport-security-san-antonio.html"
       ]
     },
     {
@@ -1428,7 +1400,7 @@
       "query": "armed security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/armed-security-san-antonio.html"
+        "san-antonio/jobs/armed-security-san-antonio.html"
       ]
     },
     {
@@ -1438,7 +1410,7 @@
       "query": "construction security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/construction-security-san-antonio.html"
+        "san-antonio/jobs/construction-security-san-antonio.html"
       ]
     },
     {
@@ -1448,7 +1420,7 @@
       "query": "entry level security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/entry-level-security-san-antonio.html"
+        "san-antonio/jobs/entry-level-security-san-antonio.html"
       ]
     },
     {
@@ -1458,7 +1430,7 @@
       "query": "event security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/event-security-san-antonio.html"
+        "san-antonio/jobs/event-security-san-antonio.html"
       ]
     },
     {
@@ -1468,7 +1440,7 @@
       "query": "full time security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/full-time-security-san-antonio.html"
+        "san-antonio/jobs/full-time-security-san-antonio.html"
       ]
     },
     {
@@ -1478,7 +1450,7 @@
       "query": "hospital security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/hospital-security-san-antonio.html"
+        "san-antonio/jobs/hospital-security-san-antonio.html"
       ]
     },
     {
@@ -1488,7 +1460,7 @@
       "query": "hotel security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/hotel-security-san-antonio.html"
+        "san-antonio/jobs/hotel-security-san-antonio.html"
       ]
     },
     {
@@ -1498,7 +1470,7 @@
       "query": "loss prevention security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/loss-prevention-san-antonio.html"
+        "san-antonio/jobs/loss-prevention-san-antonio.html"
       ]
     },
     {
@@ -1508,7 +1480,7 @@
       "query": "mobile patrol security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/mobile-patrol-san-antonio.html"
+        "san-antonio/jobs/mobile-patrol-san-antonio.html"
       ]
     },
     {
@@ -1518,7 +1490,7 @@
       "query": "no experience security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/no-experience-security-san-antonio.html"
+        "san-antonio/jobs/no-experience-security-san-antonio.html"
       ]
     },
     {
@@ -1528,7 +1500,7 @@
       "query": "overnight security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/overnight-security-san-antonio.html"
+        "san-antonio/jobs/overnight-security-san-antonio.html"
       ]
     },
     {
@@ -1538,7 +1510,7 @@
       "query": "part time security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/part-time-security-san-antonio.html"
+        "san-antonio/jobs/part-time-security-san-antonio.html"
       ]
     },
     {
@@ -1548,7 +1520,7 @@
       "query": "residential security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/residential-security-san-antonio.html"
+        "san-antonio/jobs/residential-security-san-antonio.html"
       ]
     },
     {
@@ -1558,7 +1530,7 @@
       "query": "retail security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/retail-security-san-antonio.html"
+        "san-antonio/jobs/retail-security-san-antonio.html"
       ]
     },
     {
@@ -1568,7 +1540,7 @@
       "query": "school security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/school-security-san-antonio.html"
+        "san-antonio/jobs/school-security-san-antonio.html"
       ]
     },
     {
@@ -1578,7 +1550,7 @@
       "query": "unarmed security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/unarmed-security-san-antonio.html"
+        "san-antonio/jobs/unarmed-security-san-antonio.html"
       ]
     },
     {
@@ -1588,7 +1560,7 @@
       "query": "university security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/university-security-san-antonio.html"
+        "san-antonio/jobs/university-security-san-antonio.html"
       ]
     },
     {
@@ -1598,7 +1570,7 @@
       "query": "warehouse security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/warehouse-security-san-antonio.html"
+        "san-antonio/jobs/warehouse-security-san-antonio.html"
       ]
     },
     {
@@ -1610,8 +1582,8 @@
       "pages": [
         "austin/index.html",
         "austin/security-jobs-austin.html",
-        "austin/student-security-jobs-austin.html",
-        "austin/tech-campus-security-austin.html"
+        "austin/jobs/student-security-jobs-austin.html",
+        "austin/jobs/tech-campus-security-austin.html"
       ]
     },
     {
@@ -1621,7 +1593,7 @@
       "query": "armed security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/armed-security-austin.html"
+        "austin/jobs/armed-security-austin.html"
       ]
     },
     {
@@ -1631,7 +1603,7 @@
       "query": "event security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/event-security-austin.html"
+        "austin/jobs/event-security-austin.html"
       ]
     },
     {
@@ -1641,7 +1613,7 @@
       "query": "full time security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/full-time-security-austin.html"
+        "austin/jobs/full-time-security-austin.html"
       ]
     },
     {
@@ -1651,7 +1623,7 @@
       "query": "no experience security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/no-experience-security-austin.html"
+        "austin/jobs/no-experience-security-austin.html"
       ]
     },
     {
@@ -1661,7 +1633,7 @@
       "query": "overnight security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/overnight-security-austin.html"
+        "austin/jobs/overnight-security-austin.html"
       ]
     },
     {
@@ -1671,7 +1643,7 @@
       "query": "security officer jobs Cedar Park TX",
       "qtype": "city",
       "pages": [
-        "austin/cedar-park-security-jobs.html"
+        "austin/jobs/cedar-park-security-jobs.html"
       ]
     },
     {
@@ -1681,7 +1653,7 @@
       "query": "security officer jobs Georgetown TX",
       "qtype": "city",
       "pages": [
-        "austin/georgetown-security-jobs.html"
+        "austin/jobs/georgetown-security-jobs.html"
       ]
     },
     {
@@ -1691,7 +1663,7 @@
       "query": "security officer jobs Round Rock TX",
       "qtype": "city",
       "pages": [
-        "austin/round-rock-security-jobs.html"
+        "austin/jobs/round-rock-security-jobs.html"
       ]
     },
     {
@@ -1701,7 +1673,7 @@
       "query": "unarmed security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/unarmed-security-austin.html"
+        "austin/jobs/unarmed-security-austin.html"
       ]
     },
     {
@@ -1711,7 +1683,127 @@
       "query": "university security officer jobs Austin TX",
       "qtype": "city-role",
       "pages": [
-        "austin/university-security-austin.html"
+        "austin/jobs/university-security-austin.html"
+      ]
+    },
+    {
+      "key": "DFW::overnight warehouse security officer jobs Dallas TX",
+      "metro": "DFW",
+      "role": "overnight-warehouse",
+      "query": "overnight warehouse security officer jobs Dallas TX",
+      "qtype": "role",
+      "pages": [
+        "dallas/jobs/dallas-overnight-warehouse-security.html"
+      ]
+    },
+    {
+      "key": "Houston::overnight warehouse security officer jobs Houston TX",
+      "metro": "Houston",
+      "role": "overnight-warehouse",
+      "query": "overnight warehouse security officer jobs Houston TX",
+      "qtype": "city-role",
+      "pages": [
+        "houston/jobs/overnight-warehouse-security-houston.html"
+      ]
+    },
+    {
+      "key": "San Antonio::overnight warehouse security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "overnight-warehouse",
+      "query": "overnight warehouse security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/jobs/overnight-warehouse-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::data center security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "data-center",
+      "query": "data center security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/jobs/data-center-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::industrial security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "industrial",
+      "query": "industrial security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/jobs/industrial-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::night shift security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "night-shift",
+      "query": "night shift security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/jobs/night-shift-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "San Antonio::armed overnight security officer jobs San Antonio TX",
+      "metro": "San Antonio",
+      "role": "armed-overnight",
+      "query": "armed overnight security officer jobs San Antonio TX",
+      "qtype": "city-role",
+      "pages": [
+        "san-antonio/jobs/armed-overnight-security-san-antonio.html"
+      ]
+    },
+    {
+      "key": "Austin::overnight warehouse security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "overnight-warehouse",
+      "query": "overnight warehouse security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/jobs/overnight-warehouse-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::data center security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "data-center",
+      "query": "data center security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/jobs/data-center-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::industrial security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "industrial",
+      "query": "industrial security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/jobs/industrial-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::night shift security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "night-shift",
+      "query": "night shift security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/jobs/night-shift-security-austin.html"
+      ]
+    },
+    {
+      "key": "Austin::armed overnight security officer jobs Austin TX",
+      "metro": "Austin",
+      "role": "armed-overnight",
+      "query": "armed overnight security officer jobs Austin TX",
+      "qtype": "city-role",
+      "pages": [
+        "austin/jobs/armed-overnight-security-austin.html"
       ]
     }
   ]

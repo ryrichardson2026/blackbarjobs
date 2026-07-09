@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-09T05:43:48Z",
+  "page": "houston/jobs/overnight-warehouse-security-houston.html",
+  "market": "Houston",
+  "target": "city-role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Professional Flex Officer- Warehouse PT",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-professional-flex-officer-warehouse-pt-at-allied-universal-4437740494",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Industrial/Warehouse Security (TWIC CARD)",
+      "company": "GuardTexas \u2013 Houston",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/guardtexas-8211-houston/industrial-warehouse-security-twic-card/",
+      "via": "via Security Guards Only"
+    },
+    {
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld",
+      "location": "North Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.adzuna.com/details/5787671499",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
+      "via": "via GardaWorld - GardaWorld Security"
+    },
+    {
+      "title": "Security Guard Patrol- Warehouse",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "2.5K a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-16",
+      "apply_link": "https://bebee.com/us/jobs/security-guard-patrol-warehouse-allied-universal-us-tx-houston--theirstack-731677025",
+      "via": "via BeBee"
+    }
+  ],
+  "seed_note": "SEED from market warehouse feed; run bbj_feed_fetch.py + snapshot to replace with the overnight-warehouse query results"
+}

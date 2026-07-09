@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-09T05:24:56Z",
+  "page": "dallas/dallas-overnight-warehouse-security.html",
+  "market": "DFW",
+  "target": "role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Alliedbarton Security Services is hiring: Security Officer Flex - Warehouse in Fort Worth",
+      "company": "Alliedbarton Security Services",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/B66B1A5F6C10A44C",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
+      "company": "Congregational Security Inc.",
+      "location": "Dallas, TX",
+      "pay": "23\u201325 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.indeed.com/viewjob?jk=25348896f417937b",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Mesquite, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.ihiresecurity.com/jobs/view/527087559",
+      "via": "via IHireSecurity"
+    },
+    {
+      "title": "Warehouse Security Officer | Smart Tools & Career Growth",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.jobleads.com/us/job/warehouse-security-officer-smart-tools-career-growth--dallas--ef806b355293cc3556ab3c360cb3c5921",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer Distribution Center with Security Clearance",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.adzuna.com/details/5786406873",
+      "via": "via Adzuna"
+    }
+  ],
+  "seed_note": "SEED from warehouse feed; run bbj_feed_fetch.py + snapshot to replace with 'overnight warehouse security officer jobs Dallas TX' results"
+}

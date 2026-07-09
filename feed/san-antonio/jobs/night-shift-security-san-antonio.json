@@ -1,0 +1,61 @@
+{
+  "generated": "2026-07-09T05:59:39Z",
+  "page": "san-antonio/jobs/night-shift-security-san-antonio.html",
+  "market": "San Antonio",
+  "target": "city-role",
+  "count": 5,
+  "exact": 5,
+  "jobs": [
+    {
+      "title": "Security Officers - Overnight Monitoring",
+      "company": "Saint MaryS Hall",
+      "location": "San Antonio, TX",
+      "pay": "26\u201330 an hour",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://jooble.org/rjdp/-6966798796964888088",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Professional Overnight Full Time Flex",
+      "company": "HYATT Hotels",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://jooble.org/rjdp/-5081676009216402819",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer-Graveyard (Overnight)",
+      "company": "American GI Forum",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://salutemyjob.com/jobs/security-officer-graveyard-overnight-san-antonio-texas/2858816959-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
+      "company": "Texas Health and Human Services Commission",
+      "location": "San Antonio, TX",
+      "pay": "3,100.00\u20134,365.66 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officers - Night Shift",
+      "company": "Southside Independent School District",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-03",
+      "apply_link": "https://jooble.org/rjdp/-5909072313559129459",
+      "via": "via Jooble"
+    }
+  ],
+  "seed_note": "SEED from overnight-security-san-antonio; run bbj_feed_fetch.py + snapshot to replace with night-shift-security-san-antonio results"
+}
