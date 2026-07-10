@@ -495,7 +495,12 @@
     },
     {
       "source": "/jobs/job-board",
-      "destination": "/dallas/job-board",
+      "destination": "/job-board",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/job-board",
+      "destination": "/job-board",
       "permanent": true
     },
     {

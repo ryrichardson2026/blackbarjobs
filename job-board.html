@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8"/><meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Security Officer Jobs in Texas | BlackBarJobs</title>
-<meta content="Browse live security officer jobs across DFW, Houston, San Antonio, and Austin. Filter by role, pay, and schedule — updated continuously." name="description"/>
+<title>Security Officer Jobs | Live Openings Near You | BlackBarJobs</title>
+<meta content="Browse live security officer jobs across every market we cover. Filter by role, pay, and schedule. New openings added continuously." name="description"/>
 <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
 <link href="/favicon.png" rel="icon" sizes="64x64" type="image/png"/>
 <link href="/favicon.png" rel="apple-touch-icon"/>
 <!-- OG / Social sharing -->
-<meta content="DFW Security Officer Jobs — See Who's Hiring Now | BlackBarJobs" property="og:title"/>
-<meta content="Browse live security officer openings across Dallas–Fort Worth. Filter by role, schedule, pay, and city — new positions added continuously." property="og:description"/>
+<meta content="Security Officer Jobs | See Who's Hiring Now | BlackBarJobs" property="og:title"/>
+<meta content="Browse live security officer openings and filter by role, schedule, pay, and city. New positions added continuously." property="og:description"/>
 <meta content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg" property="og:image"/>
 <meta content="https://www.blackbarjobs.com/job-board" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="DFW Security Job Board | BlackBarJobs" name="twitter:title"/>
-<meta content="Browse live security officer openings across Dallas–Fort Worth. Filter by role, schedule, pay, and city — new positions added continuously." name="twitter:description"/>
+<meta content="Security Officer Job Board | BlackBarJobs" name="twitter:title"/>
+<meta content="Browse live security officer openings and filter by role, schedule, pay, and city. New positions added continuously." name="twitter:description"/>
 <meta content="https://www.blackbarjobs.com/images/AdobeStock_627151967.jpeg" name="twitter:image"/>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -155,7 +155,8 @@ window.addEventListener("load", function(){
   #searchInput:focus { border-color: var(--navy-light); background: var(--white); box-shadow: 0 0 0 3px rgba(0,53,102,0.08); }
 
   .filter-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 9px; }
-  @media (min-width: 560px) { .filter-controls { grid-template-columns: 1fr 1fr 1fr auto; } }
+  @media (min-width: 560px) { .filter-controls { grid-template-columns: 1fr 1fr auto; } }
+  .chip-scroll--loc { margin-bottom: 8px; }
   .filter-select {
     flex: 1; min-width: 0; padding: 10px 30px 10px 12px;
     border: 1.5px solid var(--border); border-radius: 9px;
@@ -199,6 +200,30 @@ window.addEventListener("load", function(){
   .chip:hover { border-color: var(--navy-light); }
   .chip.active { background: var(--navy-deep); border-color: var(--navy-deep); color: var(--white); }
   .chip.disabled { opacity: 0.38; pointer-events: none; }
+
+  .chip-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.72rem; font-weight: 700; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; margin: 8px 0 3px; }
+  .chip-scroll--loc { margin-bottom: 4px; }
+
+  .morefilters-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border: 1.5px solid var(--border); border-radius: 20px; background: var(--white); font-family: 'Barlow', sans-serif; font-size: 0.8rem; font-weight: 700; color: var(--navy-mid); cursor: pointer; -webkit-tap-highlight-color: transparent; white-space: nowrap; }
+  .morefilters-btn:hover { border-color: var(--navy-light); }
+  .morefilters-btn svg { color: var(--navy-light); }
+  .mf-badge { min-width: 17px; height: 17px; padding: 0 5px; box-sizing: border-box; border-radius: 9px; background: var(--gold); color: #3d2c00; font-size: 0.68rem; font-weight: 800; line-height: 17px; text-align: center; }
+
+  .filter-sheet { padding: 20px 20px 20px; }
+  .fs-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .fs-title { font-family: 'Barlow Condensed', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--navy-mid); }
+  .fs-close { width: 32px; height: 32px; border: none; background: none; cursor: pointer; color: var(--muted); display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+  .fs-close:hover { background: var(--off-white); }
+  .fs-label { font-family: 'Barlow Condensed', sans-serif; font-size: 0.72rem; font-weight: 700; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; margin: 0 0 8px; }
+  .seg-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .seg { padding: 9px 14px; border-radius: 9px; border: 1.5px solid var(--border); background: var(--white); font-family: 'Barlow', sans-serif; font-size: 0.83rem; font-weight: 700; color: var(--muted); cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; transition: background 0.12s, border-color 0.12s, color 0.12s; }
+  .seg:hover { border-color: var(--navy-light); }
+  .seg.active { background: var(--navy-deep); border-color: var(--navy-deep); color: var(--white); }
+  .seg.disabled { opacity: 0.38; pointer-events: none; }
+  .fs-pay { width: 100%; justify-content: space-between; margin-bottom: 4px; }
+  .fs-actions { display: flex; gap: 10px; margin-top: 18px; }
+  .fs-clear { flex: 1; padding: 12px; border-radius: 10px; border: 1.5px solid var(--border); background: var(--white); font-family: 'Barlow', sans-serif; font-size: 0.88rem; font-weight: 700; color: var(--navy-mid); cursor: pointer; }
+  .fs-apply { flex: 2; padding: 12px; border-radius: 10px; border: 1.5px solid var(--navy-deep); background: var(--navy-deep); color: var(--white); font-family: 'Barlow', sans-serif; font-size: 0.88rem; font-weight: 800; cursor: pointer; }
 
   /* ── RESULTS BAR ── */
   .results-bar {
@@ -340,7 +365,7 @@ window.addEventListener("load", function(){
   .success-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.7rem; font-weight: 800; color: var(--navy-deep); margin-bottom: 6px; }
   .success-wrap p { font-size: 0.9rem; color: var(--muted); margin-bottom: 16px; }
 </style>
-<link href="https://www.blackbarjobs.com/dallas/job-board" rel="canonical"/></head>
+<link href="https://www.blackbarjobs.com/job-board" rel="canonical"/></head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-TP9JXK39" style="display:none;visibility:hidden" width="0"></iframe></noscript>
@@ -354,7 +379,7 @@ window.addEventListener("load", function(){
 <div class="board-hero-inner">
 <span class="board-eyebrow" id="boardEyebrow">Security Job Board</span>
 <h1 id="boardH1">Security Officer Jobs <em>- See Who's Hiring Now</em></h1>
-<p data-nosnippet="">Browse live openings across DFW, Houston, San Antonio, and Austin. Filter by role, schedule, pay, and city — new positions added continuously.</p>
+<p data-nosnippet="">Browse live openings across every market we cover. Filter by role, schedule, pay, and city. New positions added continuously.</p>
 <div class="board-hero-actions">
 <a class="hero-btn gold" href="#" onclick="openAlerts();return false;">Get Free Job Alerts →</a>
 </div>
@@ -367,26 +392,11 @@ window.addEventListener("load", function(){
 <svg fill="none" height="17" viewbox="0 0 20 20" width="17"><circle cx="9" cy="9" r="6" stroke="#a0aab4" stroke-width="1.6"></circle><path d="M14 14l3.5 3.5" stroke="#a0aab4" stroke-linecap="round" stroke-width="1.6"></path></svg>
 <input autocomplete="off" id="searchInput" placeholder="Search job title or company…" type="text"/>
 </div>
-<div class="filter-controls">
-<select aria-label="Location" class="filter-select" id="locationFilter">
-<option value="">Loading…</option>
-</select>
-<select aria-label="Job type" class="filter-select" id="typeFilter">
-<option value="">Any Schedule</option>
-<option value="full-time">Full-time</option>
-<option value="part-time">Part-time</option>
-</select>
-<select aria-label="Date posted" class="filter-select" id="postedFilter">
-<option value="">Any Time</option>
-<option value="week">Posted This Week</option>
-<option value="3">Past 3 Days</option>
-<option value="1">Posted Today</option>
-</select>
-<div class="pay-toggle" id="payToggle" onclick="togglePay()">
-<span class="pay-box"><svg fill="none" height="11" viewbox="0 0 16 16" width="11"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg></span>
-        Pay listed
-      </div>
+<div class="chip-label">Location</div>
+<div class="chip-scroll chip-scroll--loc" id="locationChips">
+<div class="chip active" data-loc="">All Locations</div>
 </div>
+<div class="chip-label">Security type</div>
 <div class="chip-scroll" id="roleChips">
 <div class="chip active" data-role="">All Roles</div>
 <div class="chip" data-role="armed">Armed</div>
@@ -405,11 +415,42 @@ window.addEventListener("load", function(){
 <div class="results-count" id="resultsCount">Loading openings…</div>
 <div class="results-right">
 <button class="clear-btn" id="clearBtn" onclick="clearFilters()">Clear filters</button>
-<select aria-label="Sort jobs" class="sort-select" id="sortSelect">
-<option value="newest">Newest first</option>
-<option value="pay">Highest pay</option>
-<option value="company">Company A–Z</option>
-</select>
+<button type="button" class="morefilters-btn" id="moreFiltersBtn" onclick="openFilterSheet()"><svg fill="none" height="14" viewbox="0 0 18 18" width="14"><path d="M2 5h14M5 9h8M7 13h4" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"></path></svg>More filters<span class="mf-badge" id="mfBadge" style="display:none;">0</span></button>
+</div>
+</div>
+<!-- MORE FILTERS SHEET -->
+<div class="modal-overlay" id="filterSheet" onclick="if(event.target===this)closeFilterSheet()">
+<div class="modal-sheet filter-sheet">
+<div class="fs-head">
+<div class="fs-title">More filters</div>
+<button type="button" class="fs-close" aria-label="Close" onclick="closeFilterSheet()"><svg fill="none" height="18" viewbox="0 0 20 20" width="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path></svg></button>
+</div>
+<div class="fs-label">Schedule</div>
+<div class="seg-row" id="schedSeg">
+<div class="seg active" data-sched="">Any</div>
+<div class="seg" data-sched="full-time">Full-time</div>
+<div class="seg" data-sched="part-time">Part-time</div>
+</div>
+<div class="fs-label">Date posted</div>
+<div class="seg-row" id="postedSeg">
+<div class="seg active" data-posted="">Any time</div>
+<div class="seg" data-posted="week">This week</div>
+<div class="seg" data-posted="3">Past 3 days</div>
+<div class="seg" data-posted="1">Today</div>
+</div>
+<div class="fs-label">Sort by</div>
+<div class="seg-row" id="sortSeg">
+<div class="seg active" data-sort="newest">Newest</div>
+<div class="seg" data-sort="pay">Highest pay</div>
+<div class="seg" data-sort="company">Company A–Z</div>
+</div>
+<div class="pay-toggle fs-pay" id="payToggle" onclick="togglePay()">
+<span style="display:flex;align-items:center;gap:7px;"><span class="pay-box"><svg fill="none" height="11" viewbox="0 0 16 16" width="11"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg></span>Pay listed only</span>
+</div>
+<div class="fs-actions">
+<button type="button" class="fs-clear" onclick="clearFilters()">Clear</button>
+<button type="button" class="fs-apply" onclick="closeFilterSheet()">Show results</button>
+</div>
 </div>
 </div>
 <!-- FEED -->
@@ -427,28 +468,33 @@ window.addEventListener("load", function(){
 <!-- FOOTER -->
 
 <section class="board-seo-content" style="max-width:860px;margin:48px auto 0;padding:0 20px 48px;">
-<h2 style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#001D3D;letter-spacing:0.02em;margin-bottom:8px;">Security Officer Jobs Across Texas</h2>
-<p style="font-size:0.92rem;color:#444;line-height:1.7;margin-bottom:24px;">BlackBarJobs aggregates active security officer openings from staffing firms, direct employers, and regional operators across four major Texas markets. Every listing is pulled from a live feed and updated continuously — no stale postings, no aggregator noise.</p>
+<h2 style="font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:#001D3D;letter-spacing:0.02em;margin-bottom:8px;">Security Officer Jobs By Market</h2>
+<p style="font-size:0.92rem;color:#444;line-height:1.7;margin-bottom:24px;">BlackBarJobs aggregates active security officer openings from staffing firms, direct employers, and regional operators across every market we serve. Every listing is pulled from a live feed and updated continuously. No stale postings, no aggregator noise.</p>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:36px;">
 <div style="background:#f7f8fa;border-radius:10px;padding:18px 16px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Dallas–Fort Worth</div>
 <p style="font-size:0.82rem;color:#555;line-height:1.6;margin-bottom:10px;">The largest security market in Texas. Armed, unarmed, overnight, and event roles across Dallas, Fort Worth, and 30+ suburbs.</p>
-<a href="/dallas/job-board?city=DFW#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse DFW Jobs →</a>
+<a href="/job-board?city=DFW#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse DFW Jobs →</a>
 </div>
 <div style="background:#f7f8fa;border-radius:10px;padding:18px 16px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Houston</div>
 <p style="font-size:0.82rem;color:#555;line-height:1.6;margin-bottom:10px;">Energy corridor campuses, the Port of Houston, TMC, and major event venues. Strong demand for Level 2 and Level 3 officers.</p>
-<a href="/dallas/job-board?city=Houston#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse Houston Jobs →</a>
+<a href="/job-board?city=Houston#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse Houston Jobs →</a>
 </div>
 <div style="background:#f7f8fa;border-radius:10px;padding:18px 16px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;color:#001D3D;margin-bottom:6px;">San Antonio</div>
 <p style="font-size:0.82rem;color:#555;line-height:1.6;margin-bottom:10px;">Government and military-adjacent accounts, hospitality, healthcare, and a growing tech corridor driving consistent officer demand.</p>
-<a href="/dallas/job-board?city=San%20Antonio#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse San Antonio Jobs →</a>
+<a href="/job-board?city=San%20Antonio#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse San Antonio Jobs →</a>
 </div>
 <div style="background:#f7f8fa;border-radius:10px;padding:18px 16px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Austin</div>
 <p style="font-size:0.82rem;color:#555;line-height:1.6;margin-bottom:10px;">Tech campuses, live music venues, hospitality, and state government accounts. Fast-growing market with strong officer demand.</p>
-<a href="/dallas/job-board?city=Austin#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse Austin Jobs →</a>
+<a href="/job-board?city=Austin#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse Austin Jobs →</a>
+</div>
+<div style="background:#f7f8fa;border-radius:10px;padding:18px 16px;">
+<div style="font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Chicago</div>
+<p style="font-size:0.82rem;color:#555;line-height:1.6;margin-bottom:10px;">Corporate campuses, high-rise and residential accounts, healthcare systems, and event venues across the city and suburbs. Steady demand for unarmed and overnight officers.</p>
+<a href="/job-board?city=Chicago#board" style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;color:#001D3D;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid #FFC300;">Browse Chicago Jobs →</a>
 </div>
 </div>
 <h2 style="font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;color:#001D3D;letter-spacing:0.02em;margin-bottom:16px;">Browse by Role</h2>
@@ -466,24 +512,24 @@ window.addEventListener("load", function(){
 <div style="display:flex;flex-direction:column;gap:16px;">
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">What security officer jobs are listed on this board?</div>
-<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Every active listing on this board is a security officer role — armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across Texas and updated continuously. No unrelated industries, no spam listings.</p>
+<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Every active listing on this board is a security officer role: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across every market we cover and updated continuously. No unrelated industries, no spam listings.</p>
 </div>
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
-<div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Which Texas markets does BlackBarJobs cover?</div>
-<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Currently active in Dallas–Fort Worth and Houston, with San Antonio and Austin expanding shortly. DFW is the primary market with 100+ dedicated job pages covering every role type and submarket. Houston covers the Energy Corridor, TMC, the Port, and surrounding suburbs.</p>
+<div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Which markets does BlackBarJobs cover?</div>
+<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Active markets include Dallas–Fort Worth, Houston, San Antonio, Austin, and Chicago, with more metros added as we expand. DFW is the largest market with 100+ dedicated job pages covering every role type and submarket. Use the location filter at the top of the board to jump straight to any city.</p>
 </div>
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
-<div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Do I need a guard card to apply for jobs on this board?</div>
-<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Most positions require a valid Texas security license — Level 2 for unarmed roles, Level 3 for armed positions. Some entry-level and training-provided roles accept applicants who are actively pursuing their license. Each listing specifies the credential requirement. See the <a href="/texas/texas-security-license-requirements" style="color:#001D3D;font-weight:700;">Texas License Guide</a> if you're starting from zero.</p>
+<div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Do I need a license to apply for jobs on this board?</div>
+<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Most positions require a valid state security officer license, and requirements vary by state. Some entry-level and training-provided roles accept applicants who are actively pursuing their license. Each listing specifies the credential requirement. Working in Texas? See the <a href="/texas/texas-security-license-requirements" style="color:#001D3D;font-weight:700;">Texas License Guide</a> if you're starting from zero.</p>
 </div>
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">How is BlackBarJobs different from Indeed or ZipRecruiter?</div>
-<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">BlackBarJobs is built exclusively for security officers. Every page, every filter, and every listing is specific to this industry — no irrelevant results to sort through. The network is also candidate-first: we surface who's hiring and what they pay, so you can apply with context instead of blind.</p>
+<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">BlackBarJobs is built exclusively for security officers. Every page, every filter, and every listing is specific to this industry, so there are no irrelevant results to sort through. The network is also candidate-first: we surface who's hiring and what they pay, so you can apply with context instead of blind.</p>
 </div>
 </div>
 </section>
 <footer>
-<div class="footer-links"><a href="/">Home</a><span> · </span><a href="/dallas">DFW Security Jobs</a><span> · </span><a href="/houston">Houston Security Jobs</a><span> · </span><a href="/dallas/jobs/dallas-armed-security">Armed Security</a><span> · </span><a href="/dallas/jobs/dallas-unarmed-security">Unarmed Security</a><span> · </span><a href="/dallas/jobs/dallas-overnight-security">Overnight Security</a><span> · </span><a href="/texas/texas-security-license-requirements">TX License Guide</a></div>
+<div class="footer-links"><a href="/">Home</a><span> · </span><a href="/dallas">DFW Security Jobs</a><span> · </span><a href="/houston">Houston Security Jobs</a><span> · </span><a href="/chicago">Chicago Security Jobs</a><span> · </span><a href="/dallas/jobs/dallas-armed-security">Armed Security</a><span> · </span><a href="/dallas/jobs/dallas-unarmed-security">Unarmed Security</a><span> · </span><a href="/dallas/jobs/dallas-overnight-security">Overnight Security</a><span> · </span><a href="/texas/texas-security-license-requirements">TX License Guide</a></div>
 <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
 <p>Security job alerts for professionals across the US.</p>
 <p>
@@ -527,7 +573,7 @@ window.addEventListener("load", function(){
   "@type": "WebSite",
   "name": "BlackBarJobs",
   "url": "https://www.blackbarjobs.com",
-  "description": "Security officer job network covering DFW, Houston, San Antonio, and Austin, TX."
+  "description": "Security officer job network covering DFW, Houston, San Antonio, Austin, and Chicago, with more markets added as we expand."
 }</script><script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -537,23 +583,23 @@ window.addEventListener("load", function(){
       "name": "What security officer jobs are listed on this board?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every active listing on this board is a security officer role — armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across Texas and updated continuously."
+        "text": "Every active listing on this board is a security officer role: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across every market we cover and updated continuously."
       }
     },
     {
       "@type": "Question",
-      "name": "Which Texas markets does BlackBarJobs cover?",
+      "name": "Which markets does BlackBarJobs cover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Currently active in Dallas–Fort Worth and Houston, with San Antonio and Austin expanding shortly. DFW is the primary market with 100+ dedicated job pages covering every role type and submarket. Houston covers the Energy Corridor, TMC, the Port, and surrounding suburbs."
+        "text": "Active markets include Dallas-Fort Worth, Houston, San Antonio, Austin, and Chicago, with more metros added as we expand. DFW is the largest market with 100+ dedicated job pages covering every role type and submarket. Use the location filter at the top of the board to jump straight to any city."
       }
     },
     {
       "@type": "Question",
-      "name": "Do I need a guard card to apply for jobs on this board?",
+      "name": "Do I need a license to apply for jobs on this board?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most positions require a valid Texas security license — Level 2 for unarmed roles, Level 3 for armed positions. Some entry-level and training-provided roles accept applicants who are actively pursuing their license. Each listing specifies the credential requirement."
+        "text": "Most positions require a valid state security officer license, and requirements vary by state. Some entry-level and training-provided roles accept applicants who are actively pursuing their license. Each listing specifies the credential requirement."
       }
     },
     {
@@ -669,6 +715,7 @@ window.addEventListener("load", function(){
   /* ───────────────── MATCHERS ───────────────── */
   function postedDays(v){ return v === 'week' ? 7 : (v === '3' ? 3 : (v === '1' ? 1 : 0)); }
   function qMatch(job){ var q = filters.q.toLowerCase().trim(); if(!q) return true; return ((job.title||'')+' '+(job.company||'')).toLowerCase().indexOf(q) !== -1; }
+  function locChipValue(){ var v = filters.loc||''; if(v.indexOf('metro:')===0) return v; if(v.indexOf('loc:')===0){ var rest=v.slice(4), s=rest.indexOf('::'); return 'metro:'+(s===-1?rest:rest.slice(0,s)); } return ''; }
   function locMatch(job, val){ if(!val) return true; if(val.indexOf('metro:')===0) return job._metro === val.slice(6); if(val.indexOf('loc:')===0){ var rest=val.slice(4), s=rest.indexOf('::'); if(s===-1) return job._locCity === rest; return job._metro === rest.slice(0,s) && job._locCity === rest.slice(s+2); } return true; }
   function typeMatch(job){ return !filters.type || jobTypeKey(job).indexOf(filters.type) !== -1; }
   function payMatch(job){ return !filters.pay || !!(job.pay||'').trim(); }
@@ -797,6 +844,16 @@ window.addEventListener("load", function(){
     });
     return html || '<option value="">No locations available</option>';
   }
+  function buildLocationChips(){
+    var m = metrosFrom(ALL_JOBS), names = metroOrder(m);
+    var html = '<div class="chip active" data-loc="">All Locations</div>';
+    names.forEach(function(name){
+      var label = METRO_FRIENDLY[name] || name;
+      html += '<div class="chip" data-loc="metro:'+esc(name)+'">'+esc(label)+'</div>';
+    });
+    var el = document.getElementById('locationChips');
+    if(el) el.innerHTML = html;
+  }
   function pickDefaultLoc(base){
     if(DEFAULT_LOC === '') return '';
     var m = metrosFrom(base);
@@ -819,31 +876,45 @@ window.addEventListener("load", function(){
   function refreshFacets(){
     var corrected = false;
 
-    // LOCATION — rebuilt from live data, grouped by metro
+    // LOCATION — metro chips, updated live (counts drive disable + active)
     var locBase = jobsMatching('loc');
-    var locSel = document.getElementById('locationFilter');
-    locSel.innerHTML = buildLocationOptions(locBase);
-    locSel.value = filters.loc;
-    if(locSel.value !== filters.loc){
-      filters.loc = pickDefaultLoc(locBase);
-      locSel.value = filters.loc;
-      if(locSel.value !== filters.loc){ filters.loc = ''; locSel.value = ''; }
-      corrected = true;
+    var wantLoc = locChipValue();
+    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(chip){
+      var v = chip.getAttribute('data-loc');
+      var n = (v === '') ? locBase.length : locBase.filter(function(j){ return j._metro === v.slice(6); }).length;
+      var dead = (n === 0 && v !== '');
+      chip.classList.toggle('disabled', dead);
+      chip.classList.toggle('active', v === wantLoc && !dead);
+      if(dead && v === wantLoc){ filters.loc = ''; corrected = true; }
+    });
+    if(!document.querySelector('#locationChips .chip.active')){
+      var allLoc = document.querySelector('#locationChips .chip[data-loc=""]');
+      if(allLoc) allLoc.classList.add('active');
     }
 
-    // SCHEDULE
+    // SCHEDULE (sheet segments)
     var typeBase = jobsMatching('type');
-    corrected = rebuildSelect('typeFilter', TYPE_OPTS, function(v){
-      return typeBase.filter(function(j){ return v===''?true:jobTypeKey(j).indexOf(v)!==-1; }).length;
-    }, 'type') || corrected;
+    [].forEach.call(document.querySelectorAll('#schedSeg .seg'), function(seg){
+      var v = seg.getAttribute('data-sched');
+      var n = (v==='') ? typeBase.length : typeBase.filter(function(j){ return jobTypeKey(j).indexOf(v)!==-1; }).length;
+      var dead = (n===0 && v!=='');
+      seg.classList.toggle('disabled', dead);
+      seg.classList.toggle('active', v===filters.type && !dead);
+      if(dead && filters.type===v){ filters.type=''; corrected = true; }
+    });
+    if(!document.querySelector('#schedSeg .seg.active')){ var s0=document.querySelector('#schedSeg .seg[data-sched=""]'); if(s0) s0.classList.add('active'); }
 
-    // DATE POSTED
+    // DATE POSTED (sheet segments)
     var postedBase = jobsMatching('posted');
-    corrected = rebuildSelect('postedFilter', POSTED_OPTS, function(v){
-      if(v==='') return postedBase.length;
-      var d = postedDays(v);
-      return postedBase.filter(function(j){ return d && withinDays(j, d); }).length;
-    }, 'posted') || corrected;
+    [].forEach.call(document.querySelectorAll('#postedSeg .seg'), function(seg){
+      var v = seg.getAttribute('data-posted');
+      var n; if(v===''){ n = postedBase.length; } else { var d = postedDays(v); n = postedBase.filter(function(j){ return d && withinDays(j, d); }).length; }
+      var dead = (n===0 && v!=='');
+      seg.classList.toggle('disabled', dead);
+      seg.classList.toggle('active', v===filters.posted && !dead);
+      if(dead && filters.posted===v){ filters.posted=''; corrected = true; }
+    });
+    if(!document.querySelector('#postedSeg .seg.active')){ var p0=document.querySelector('#postedSeg .seg[data-posted=""]'); if(p0) p0.classList.add('active'); }
 
     // ROLE CHIPS
     var roleBase = jobsMatching('role');
@@ -861,7 +932,18 @@ window.addEventListener("load", function(){
     var paidN = payBase.filter(function(j){ return !!(j.pay||'').trim(); }).length;
     var payT = document.getElementById('payToggle');
     payT.classList.toggle('disabled', paidN === 0);
-    if(paidN === 0 && filters.pay){ filters.pay = false; payT.classList.remove('on'); corrected = true; }
+    if(paidN === 0 && filters.pay){ filters.pay = false; corrected = true; }
+    payT.classList.toggle('on', filters.pay);
+
+    // SORT (sheet segments — never disabled)
+    [].forEach.call(document.querySelectorAll('#sortSeg .seg'), function(seg){
+      seg.classList.toggle('active', seg.getAttribute('data-sort')===filters.sort);
+    });
+
+    // MORE-FILTERS badge — active secondary filters only
+    var badgeN = (filters.type?1:0) + (filters.posted?1:0) + (filters.pay?1:0) + (filters.sort!=='newest'?1:0);
+    var mb = document.getElementById('mfBadge');
+    if(mb){ mb.textContent = badgeN; mb.style.display = badgeN>0 ? 'inline-block' : 'none'; }
 
     return corrected;
   }
@@ -870,10 +952,27 @@ window.addEventListener("load", function(){
   document.getElementById('searchInput').addEventListener('input', function(e){
     filters.q = e.target.value; applyFilters();
   });
-  document.getElementById('locationFilter').addEventListener('change', function(e){ filters.loc = e.target.value; applyFilters(); });
-  document.getElementById('typeFilter').addEventListener('change', function(e){ filters.type = e.target.value; applyFilters(); });
-  document.getElementById('postedFilter').addEventListener('change', function(e){ filters.posted = e.target.value; applyFilters(); });
-  document.getElementById('sortSelect').addEventListener('change', function(e){ filters.sort = e.target.value; applyFilters(); });
+  document.getElementById('locationChips').addEventListener('click', function(e){
+    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
+    filters.loc = chip.getAttribute('data-loc');
+    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
+    chip.classList.add('active');
+    applyFilters();
+  });
+  function segHandler(containerId, attr, key){
+    document.getElementById(containerId).addEventListener('click', function(e){
+      var seg = e.target.closest('.seg'); if (!seg || seg.classList.contains('disabled')) return;
+      filters[key] = seg.getAttribute(attr);
+      [].forEach.call(this.querySelectorAll('.seg'), function(s){ s.classList.remove('active'); });
+      seg.classList.add('active');
+      applyFilters();
+    });
+  }
+  segHandler('schedSeg', 'data-sched', 'type');
+  segHandler('postedSeg', 'data-posted', 'posted');
+  segHandler('sortSeg', 'data-sort', 'sort');
+  function openFilterSheet(){ document.getElementById('filterSheet').classList.add('open'); document.body.style.overflow='hidden'; }
+  function closeFilterSheet(){ document.getElementById('filterSheet').classList.remove('open'); document.body.style.overflow=''; }
   function togglePay() {
     filters.pay = !filters.pay;
     document.getElementById('payToggle').classList.toggle('on', filters.pay);
@@ -887,10 +986,11 @@ window.addEventListener("load", function(){
     applyFilters();
   });
   function clearFilters() {
-    filters = { q:'', loc:DEFAULT_LOC, type:'', pay:false, role:'', posted:'', sort: filters.sort };
+    filters = { q:'', loc:DEFAULT_LOC, type:'', pay:false, role:'', posted:'', sort:'newest' };
     document.getElementById('searchInput').value = '';
     document.getElementById('payToggle').classList.remove('on');
     [].forEach.call(document.querySelectorAll('#roleChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-role')===''); });
+    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-loc')===''); });
     applyFilters();
     window.scrollTo({ top: document.getElementById('board').offsetTop - 60, behavior: 'smooth' });
   }
@@ -1134,6 +1234,7 @@ window.addEventListener("load", function(){
     ALL_JOBS.forEach(function(j, i){ j._i = i; });
     DEFAULT_LOC = '';                 // All Locations by default (national master board)
     filters.loc = DEFAULT_LOC;
+    buildLocationChips();             // metro chips from live feed data
     injectJsonLd(ALL_JOBS);
     applyFilters();
     applyUrlFilters();                // deep-link via UTM / query params (?role=unarmed&city=houston)

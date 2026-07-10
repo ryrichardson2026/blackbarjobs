@@ -1,0 +1,13 @@
+BlackBarJobs — /job-board go-live
+Drop all three at repo ROOT, commit together in ONE commit:
+
+  job-board.html   -> serves at /job-board (cleanUrls strips .html)
+  vercel.json      -> adds /dallas/job-board -> /job-board 301 (+ dechained /jobs/job-board)
+  sitemap.xml      -> adds /job-board entry
+
+Same commit matters: if the redirect deploys before the file is at root,
+/dallas/job-board briefly forwards to a 404.
+
+After deploy: resubmit sitemap.xml in Google Search Console.
+Sanity check: open /dallas/job-board?city=Houston -> should land on
+/job-board?city=Houston with Houston preselected.
