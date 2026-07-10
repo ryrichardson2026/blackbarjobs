@@ -844,11 +844,16 @@ window.addEventListener("load", function(){
     });
     return html || '<option value="">No locations available</option>';
   }
+  function metroLabel(name){
+    var keys = Object.keys(METRO_FRIENDLY), i;
+    for(i=0;i<keys.length;i++){ if(keys[i].toLowerCase() === String(name).toLowerCase()) return METRO_FRIENDLY[keys[i]]; }
+    return String(name).replace(/\S+/g, function(w){ return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase(); });
+  }
   function buildLocationChips(){
     var m = metrosFrom(ALL_JOBS), names = metroOrder(m);
     var html = '<div class="chip active" data-loc="">All Locations</div>';
     names.forEach(function(name){
-      var label = METRO_FRIENDLY[name] || name;
+      var label = metroLabel(name);
       html += '<div class="chip" data-loc="metro:'+esc(name)+'">'+esc(label)+'</div>';
     });
     var el = document.getElementById('locationChips');
