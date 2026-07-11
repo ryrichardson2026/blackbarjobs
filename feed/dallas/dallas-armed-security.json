@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-armed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "W2 - Armed Commissioned Security Officer/Level 3",
+      "company": "Tiger Solutions Group",
+      "location": "Dallas, TX",
+      "pay": "21–23 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=49570ae135169088",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Officer Elite Enhanced Part Time Driver",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "25 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-elite-enhanced-part-time-driver-at-allied-universal-4438857181",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Officer - Dallas | Weekly Pay & Benefits",
+      "company": "Sunstates Security",
+      "location": "Dallas, TX",
+      "pay": "42K–52K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-dallas-weekly-pay-benefits--dallas--ee128406a87d08bb96fe3a1ea729cf966",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Driver — Part-Time, Dallas",
+      "company": "Alliedbarton Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-driver-part-time-dallas--dallas--edd2cf69eb6fb2be0d565afa586cfc939",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Armed Security Site Supervisor",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.linkedin.com/jobs/view/armed-security-site-supervisor-at-allied-universal-4438543182",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Operative",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "45 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-operative-at-allied-universal-4437492594",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Specialist | Access Control & Patrol",
-      "company": "AX9 Security, Inc.",
-      "location": "Dallas, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5271618977/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Security Guard - AutoZone; Dallas, TX",
-      "company": "AX9 Security, Inc.",
-      "location": "Dallas, TX",
-      "pay": "12–15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5269160849/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Dallas, TX",
-      "pay": "27.03 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
-      "via": "via ZipRecruiter"
     }
   ]
 }

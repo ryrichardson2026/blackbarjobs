@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/houston-weekend-security-jobs",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Weekend Security Officer - Downtown - 77002",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ae9c86d08bb3b008",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officers For Part-Time & Weekend Shifts",
+      "company": "St. Moritz Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/rjdp/6313603854585344871",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Full and Part-Time Evening and Weekend Security Officers",
+      "company": "IIdon Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/-7479999745606938743",
+      "via": "via Jooble"
+    },
     {
       "title": "Campus Security Officer - Night & Weekend Shifts",
       "company": "The Chronicle of Higher Education",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://jooble.org/rjdp/5248625483709720407",
       "via": "via Jooble"
-    },
-    {
-      "title": "Weekend Security Patrol & Surveillance (Part-Time)",
-      "company": "The-Briar-Club",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/weekend-security-patrol-surveillance-part-time--houston--e41cdce8bf141ce307f34a551d7184330",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part Time Weekend Security Guard",
-      "company": "Admiral Security Services",
-      "location": "Houston, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-weekend-security-guard-sat-sun-8am-8pm--houston--e22f9e60441d77bd66a9ae8371ea7c2f1",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Weekend Security Pro: Part-Time Access & Patrol",
-      "company": "Admiral Security Services",
-      "location": "Houston, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/weekend-security-pro-part-time-access-patrol--houston--e7b39e0713b8b85e29c46600767b6d6d5",
-      "via": "via JobLeads"
     }
   ]
 }

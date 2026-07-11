@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer: CCTV & Incident Response",
+      "company": "DeKalb Health",
+      "location": "Houston, TX",
+      "pay": "22.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276383297/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Surveillance Security Officer — Detail-Driven, -Oriented",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Houston, TX",
+      "pay": "17,968–25,591 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5273833844/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer Facility Monitor",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-facility-monitor/22950/97525089568",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Weekend Security Patrol & Surveillance (Part-Time)",
       "company": "The-Briar-Club",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://us.trabajo.org/job-5632-b761310d6056efb9f4c9650e9ae8353e",
       "via": "via Trabajo.org"
-    },
-    {
-      "title": "Security Monitor — 24/7 Access",
-      "company": "Reporter Newspapers",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://us.trabajo.org/job-2283-9e861a1d3d5b398e56f2d4d952c0fe8f",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Surveillance Security Supervisor: Monitor, Respond & Protect",
-      "company": "Garda World Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://jooble.org/jdp/-4041289195863171472",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Guard: Surveillance & Protection (Armed/Unarmed)",
-      "company": "Security Solutions of Texas",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/security-solutions-of-texas/houston/security-guard-surveillance-protection-armed-unarmed-60066800/",
-      "via": "via Talents By Vaia"
     }
   ]
 }

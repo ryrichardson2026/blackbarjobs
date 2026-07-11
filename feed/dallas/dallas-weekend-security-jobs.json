@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Weekend Security Officer - Part Time",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Weekend-Security-Officer-Part-Time/-in-Dallas,TX?jid=6806125af0db29af",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officers For Part-Time & Weekend Shifts",
+      "company": "Signal of Houston",
+      "location": "Frisco, TX",
+      "pay": "15.50–16.50 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/rjdp/-3141162736698693263",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Coverage",
+      "company": "Marksman Security",
+      "location": "Sunnyvale, TX",
+      "pay": "17.17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.learn4good.com/jobs/sunnyvale/texas/security/5273699815/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
       "company": "Marksman Security",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
       "via": "via BeBee"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Coverage",
-      "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": "17.17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/rowlett/texas/security/5261208483/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Weekend Armed Security Specialist - $20/hr + Daily Pay",
-      "company": "Cascadia Global Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://bebee.com/us/jobs/weekend-armed-security-specialist-20-hr-daily-pay-cascadia-global-security-dallas-tx-united-states--appcast-7428_14b61e40119b70b4ab47343d972771e7ad81ff36deac3ccb68dea423d0354e35",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Security Officers For Part-Time & Weekend Shifts",
-      "company": "Signal of Houston",
-      "location": "Frisco, TX",
-      "pay": "15.50–16.50 an hour",
-      "schedule": null,
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/-3141162736698693263",
-      "via": "via Jooble"
     }
   ]
 }

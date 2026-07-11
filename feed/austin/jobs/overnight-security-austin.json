@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "austin/jobs/overnight-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Night Vehicle Patrol Security Officer - Full-Time",
+      "company": "Iidon Security Associates",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/jdp/-4609899027704061571",
+      "via": "via Jooble"
+    },
     {
       "title": "Security - Night (Hiring Immediately)",
       "company": "White Lodging",
@@ -17,44 +37,24 @@
       "via": "via WhatJobs"
     },
     {
-      "title": "Overnight Vehicle Patrol Officer - Full-Time 3rd Shift",
-      "company": "IIdon Security",
+      "title": "Over Night Security (Part Time) (Hiring Immediately)",
+      "company": "Provincial Senior Living",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/over-night-security-part-time/austin-texas?id=2864440161",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Security Officer Evening/Night Shifts, CPR/First Aid Ready",
+      "company": "Silver Shield",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/overnight-vehicle-patrol-officer?id=2822699067",
+      "apply_link": "https://www.whatjobs.com/jobs/security-officer-evening-night-shifts-cpr-first/austin-texas?id=2868267921",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Overnight Security and Guest Safety Specialist",
-      "company": "Hilton",
-      "location": "Austin, TX",
-      "pay": "35K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/overnight-security-and-guest-safety-specialist--austin--e1a9b267b50eaf33a3b125ce0ae855192",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Overnight Security Officer (Level II) | Multiple Openings | Immediate Hire",
-      "company": "Security Reconnaissance Team Inc",
-      "location": "Austin, TX",
-      "pay": "16–18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e090e5e5f214e54d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "40K–52K a year",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5265051943/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

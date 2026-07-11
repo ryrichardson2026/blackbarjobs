@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "austin/jobs/full-time-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full Time Security Officer Needed for University Environment",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Night Vehicle Patrol Security Officer - Full-Time",
+      "company": "Iidon Security Associates",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/jdp/-4609899027704061571",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Personnel Needed – Full Time – Austin, TX",
+      "company": "Inter-Con Security",
+      "location": "Austin, TX",
+      "pay": "17.56–21.93 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1522942b6702e3c2",
+      "via": "via Indeed"
+    },
     {
       "title": "Overnight Vehicle Patrol Officer - Full-Time 3rd Shift",
       "company": "IIdon Security",
@@ -17,44 +47,14 @@
       "via": "via WhatJobs"
     },
     {
-      "title": "Full-Time Security Officer - 2nd/3rd Shift (Unarmed) | Austin",
-      "company": "North America Security & Select Services",
+      "title": "Part & Full Time Security Officers (Overnight Shifts)",
+      "company": "Inter-Con Security",
       "location": "Austin, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-2nd-3rd/austin-texas?id=2861140702",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Officers Immediate Hire/Start Tomorrow $22 HR Full-Time (Austin)",
-      "company": "North America Security & Select Services",
-      "location": "Austin, TX",
-      "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.ziprecruiter.com/c/North-America-Security-&-Select-Services/Job/Security-Officers-Immediate-Hire-Start-Tomorrow-$22-HR-Full-Time-(Austin)/-in-Austin,TX?jid=1683a985afb32d56",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer- Full-Time",
-      "company": "HYATT Hotels",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobilize.com/job/us-tx-austin-security-officer-full-time-hyatt-hotels-hiring-now-job",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Security Officer Full Time Patrol Position",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol/-in-Austin,TX?jid=bf350cc11c81707a",
-      "via": "via ZipRecruiter"
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jooble.org/rjdp/-7584421858352739066",
+      "via": "via Jooble"
     }
   ]
 }

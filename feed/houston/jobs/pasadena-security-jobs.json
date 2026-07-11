@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/pasadena-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Overnight Patrol Security Officer at GardaWorld Pasadena, TX",
-      "company": "GardaWorld",
+      "title": "Security Officer Part Time Armed Driver",
+      "company": "Allied Universal",
       "location": "Pasadena, TX",
       "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-armed-driver-at-allied-universal-4439528709",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Pasadena, TX",
+      "pay": "17 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-patrol-at-allied-universal-4438580681",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Flex Security Officer (Unarmed)",
+      "company": "Tarian",
+      "location": "Pasadena, TX",
+      "pay": "15.94 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://allproasset.com/work/job/overnight-patrol-security-officer-at-gardaworld-pasadena-tx-QmdnNWpNOUhGMU02a3hqU2dzOTVOY3Rv",
-      "via": "via All Pro Asset Solutions"
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Unarmed)/-in-Pasadena,TX?jid=823d12f8d532cca9",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Security Officers (S)",
@@ -27,34 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer",
-      "company": "Priority Protection & Investigations, Inc",
+      "title": "Overnight Patrol Security Officer at GardaWorld Pasadena, TX",
+      "company": "GardaWorld",
       "location": "Pasadena, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.craigslist.org/view/d/pasadena-unarmed-security-officer-no/sksAUVEEsVyWSEKMDy3c5o",
-      "via": "via Craigslist"
-    },
-    {
-      "title": "Security Officer Part Time Patrol",
-      "company": "Allied Universal",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.aus.com/job/pasadena/security-officer-part-time-patrol/22950/97534874416",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Security Officer Armed Driving Role Security Clearance",
-      "company": "Allied Universal",
-      "location": "Pasadena, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/pasadena-tx/security-officer-armed-driving-role-security-clearance-787755/",
-      "via": "via Women For Hire- Job Board"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://allproasset.com/work/job/overnight-patrol-security-officer-at-gardaworld-pasadena-tx-QmdnNWpNOUhGMU02a3hqU2dzOTVOY3Rv",
+      "via": "via All Pro Asset Solutions"
     }
   ]
 }

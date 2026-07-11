@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/armed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "(Pooled) Security Operations Liaison (ARMED)",
+      "company": "Texans Can Academies",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/pooled-security-operations-liaison-armed-at-texans-can-academies-4438658770",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Officer - Overnight & Evening Shift",
+      "company": "CITY SECURITY CO INC",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://us.jobrapido.com/jobpreview/424476718137344000",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "Security Officer Enhanced Part Time Armed Response",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-armed-response/22950/97573591312",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Armed Mobile Patrol Officer – Part-Time; Houston",
       "company": "Allied Universal",
@@ -17,44 +47,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Security Guard Armed Vehicle Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": "24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-armed-vehicle-patrol-driver-at-allied-universal-4437479857",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Officers and EMT Certified Officers, 77015, 77053, 77024",
-      "company": "Enforce Security",
-      "location": "Houston, TX",
-      "pay": "18–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a83f74c7a3802f0d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "National Collaboration Security, LLC is hiring: Armed Security Guard in Houston",
-      "company": "National Collaboration Security, LLC",
+      "title": "Armed & Unarmed Security Guard — Protect & Prevent",
+      "company": "Fast Guard Service",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.recruit.net/job/national-collaboration-security-llc-is-jobs/F9A8B292C5D1F877",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Armed Patrol Officer; Part-Time – Government Sites",
-      "company": "Alliedbarton Security Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5265519443/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-protect-prevent--houston--e595a64562611991c1429eaf218cae510",
+      "via": "via JobLeads"
     }
   ]
 }

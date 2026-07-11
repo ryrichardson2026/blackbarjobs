@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full Time Security Officer Needed for University Environment",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "University Police Officer: Patrol, Investigations & Safety",
+      "company": "St.Edward's University",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/university-police-officer-patrol-investigations-safety--austin--e85b6d49e0be265ab3c26592bb9711508",
+      "via": "via JobLeads"
+    },
     {
       "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
       "company": "Allied Universal",
@@ -17,44 +47,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Austin,TX?jid=9bd9e2a944dbcc9e",
-      "via": "via ZipRecruiter"
-    },
-    {
       "title": "Unarmed Security Patrol – Tech Campus, Growth & Benefits",
       "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-patrol-tech-campus-growth-benefits--austin--e528f8a989a32cbf834d4324f61686715",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Campus Safety Officer – Evening Shift (3-11pm)",
-      "company": "Sstx",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/campus-safety-officer-evening-shift-3-11pm--austin--ed4fd188676f07ac8358c37f8e69003f0",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "University Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Austin, TX",
-      "pay": "17–32 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://www.blackbarjobs.com/austin/jobs/university-security-austin",
-      "via": "via Blackbarjobs.com"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4703406812412510208",
+      "via": "via Jobrapido"
     }
   ]
 }

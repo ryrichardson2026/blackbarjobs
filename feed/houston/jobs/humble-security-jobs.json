@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/humble-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,13 +7,43 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officers (N)",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Humble, TX",
+      "pay": "13–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-n-at-securitas-security-services-usa-inc-4435987801",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer (Unarmed)",
+      "company": "Tarian",
+      "location": "Humble, TX",
+      "pay": "15.94 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Humble,TX?jid=80432ad65ef5eaea",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Senior Police Officer - PCN 9999",
       "company": "HUMBLE INDEPENDENT SCHOOL DISTRICT",
       "location": "Humble, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.linkedin.com/jobs/view/senior-police-officer-pcn-9999-at-humble-independent-school-district-4437325666",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Police Corporal - PCN 4168",
+      "company": "HUMBLE INDEPENDENT SCHOOL DISTRICT",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/police-corporal-pcn-4168-at-humble-independent-school-district-4437318928",
       "via": "via LinkedIn"
     },
     {
@@ -22,39 +52,9 @@
       "location": "Humble, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.indeed.com/viewjob?jk=6b7b95ecf8999562",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officers (N) (Hiring Immediately)",
-      "company": "Securitas",
-      "location": "Humble, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officers-n-hiring-immediately/humble-texas?id=2864437594",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Professional - No Experience Necessary",
-      "company": "Securitas Security Services USA",
-      "location": "Humble, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jooble.org/rjdp/846244918646685854",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Loss Prevention & Customer Safety Specialist",
-      "company": "Ross Stores, Inc.",
-      "location": "Humble, TX",
-      "pay": "30K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-customer-safety-specialist--humble--e73ff0f0b4c0394ee7b74a36c5fd5c73c",
-      "via": "via JobLeads"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-bar-club-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
-  "exact": 1,
+  "exact": 2,
   "jobs": [
     {
       "title": "Elite Club Security Officer - Evenings & Weekends",
@@ -17,43 +17,43 @@
       "via": "via Jooble"
     },
     {
-      "title": "Security Officer Virtual Hiring Event 7/14/2026",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Red Oak, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-virtual-hiring-event-7-14-2026-at-securitas-security-services-usa-inc-4435644314",
-      "via": "via LinkedIn"
+      "title": "Bar Security",
+      "company": "Second Rodeo Brewing",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-06-22",
+      "apply_link": "https://www.securityguardsonly.com/jobs/us/fort-worth/second-rodeo-brewing/bar-security/",
+      "via": "via Security Guards Only"
     },
     {
-      "title": "Security Officer Financial Facility",
+      "title": "Security Officer Data Center",
       "company": "Allied Universal",
       "location": "Plano, TX",
-      "pay": "21 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-financial-facility-at-allied-universal-4438531825",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer - Pool Attendant",
-      "company": "North America Security & Select Services",
-      "location": "Frisco, TX",
-      "pay": "16–17 an hour",
+      "pay": "22.15 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/North-America-Security-&-Select-Services/Job/Security-Officer-Pool-Attendant/-in-Frisco,TX?jid=298bc999c7cae77c",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Data-Center/-in-Plano,TX?jid=3c06d53cd11e5fe5",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer Enhanced Part Time Driver",
-      "company": "Allied Universal",
-      "location": "Lewisville, TX",
-      "pay": "18.07 an hour",
+      "title": "Part Time Receptionist/Data Entry - Medical Office",
+      "company": "Generations Geriatric Mental Health",
+      "location": "Manchester, NH",
+      "pay": "16–19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Enhanced-Part-Time-Driver/-in-Lewisville,TX?jid=f0b2c9c7852adb46",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0e71504041fabe74",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Full/Part Time Unarmed Officers For Lewisville/Coppell Area",
+      "company": "Texas Industrial Security, Inc",
+      "location": "Lewisville, TX",
+      "pay": "16.00–16.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Texas-Industrial-Security/Job/Full-Part-Time-Unarmed-Officers-For-Lewisville-Coppell-Area/-in-Lewisville,TX?jid=24a7a37eb0dbc4d5",
       "via": "via ZipRecruiter"
     }
   ]

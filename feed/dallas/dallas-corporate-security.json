@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-corporate-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Elite Security Officer - Corporate Campus (Dallas)",
-      "company": "IIdon Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
-      "via": "via BeBee"
-    },
     {
       "title": "Executive Protection Agent - Corporate (Day Shift) at Crisis24 Dallas, TX",
       "company": "Crisis24",
@@ -55,6 +45,16 @@
       "posted_date": "2026-06-26",
       "apply_link": "https://www.simplyhired.com/job/SNLExEJEx7D9FFJ_sZVEUKNmJ302_-B9iKXBcrVNzNFx5gf3nDxuyg",
       "via": "via SimplyHired"
+    },
+    {
+      "title": "Sr Manager, Corporate Security Investigations",
+      "company": "American Airlines",
+      "location": "Dallas, TX",
+      "pay": "100K–130K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.theladders.com/job/sr-manager-corporate-security-investigations-americanairlines-dallas-tx_83108969",
+      "via": "via Ladders"
     }
   ]
 }

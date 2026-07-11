@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "security-jobs-austin",
   "market": "Austin",
   "target": "general",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Driver Patrol Escort",
+      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": "23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Response",
       "company": "Allied Universal",
-      "location": "Pflugerville, TX",
-      "pay": "22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-patrol-escort-at-allied-universal-4438545136",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4439378792",
       "via": "via LinkedIn"
     },
     {
-      "title": "Loss Prevention Security Officer",
-      "company": "Marriott International, Inc",
-      "location": "Cedar Park, TX",
-      "pay": null,
+      "title": "Full Time Security Officer Needed for University Environment",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": "18–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-security-officer-cedar-park-texas/2866895788-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
+      "via": "via Indeed"
     },
     {
-      "title": "Response Security Officer",
-      "company": "GardaWorld Security Services U.S.",
+      "title": "Security Technician I",
+      "company": "CBX Solutions, LLC",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://salutemyjob.com/jobs/response-security-officer-austin-texas/2867240255-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-technician-i-at-cbx-solutions-llc-4439380009",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Alliedbarton Security Services is hiring: Security Officer Armed Patrol Unit in Austin",
-      "company": "Alliedbarton Security Services",
+      "title": "Security Officer Part Time Welcome Desk",
+      "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/598B89DC9E46B496",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Loss Prevention Security Officer",
-      "company": "Marriott International, Inc",
-      "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-security-officer-round-rock-texas/2866895799-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-welcome-desk-at-allied-universal-4439372932",
+      "via": "via LinkedIn"
     }
   ]
 }

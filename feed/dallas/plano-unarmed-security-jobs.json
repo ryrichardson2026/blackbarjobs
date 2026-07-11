@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/plano-unarmed-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -15,6 +15,16 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://www.monster.com/job-openings/unarmed-security-officer-plano-tx--77bd6f62-2ea8-4b51-bcf3-9620f9329c46",
       "via": "via Monster"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Metro One Loss Prevention Services Group (Guard Division), Inc.",
+      "location": "Plano, TX",
+      "pay": "15–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://www.indeed.com/viewjob?jk=52a8c1186e960500",
+      "via": "via Indeed"
     },
     {
       "title": "Unarmed Security Officer",
@@ -37,24 +47,14 @@
       "via": "via FahemDev"
     },
     {
-      "title": "Flex Unarmed Security Officers",
+      "title": "Unarmed Security Officer - Full Time - 1st shift- $22.50/hr | Sunstates Security | Handshake",
       "company": "Sunstates Security",
       "location": "Plano, TX",
-      "pay": null,
+      "pay": "22.50 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-06-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=bfe092f161b99afb",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Unarmed Patrol Driver - Day & Night Shifts (Dallas, TX)",
-      "company": "AX9 Security, Inc.",
-      "location": "Plano, TX",
-      "pay": "15–18 an hour",
-      "schedule": "Part-time",
       "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/AX9-Security,-Inc./Job/Unarmed-Patrol-Driver-Day-&-Night-Shifts-(Dallas,-TX)/-in-Plano,TX?jid=b4d1bda514ff59a3",
-      "via": "via ZipRecruiter"
+      "apply_link": "https://app.joinhandshake.com/public/jobs/10230379",
+      "via": "via Handshake"
     }
   ]
 }

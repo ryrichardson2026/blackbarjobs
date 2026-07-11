@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/carrollton-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,13 +7,33 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Carrollton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Carrollton,TX?jid=ba61f97420b206e0",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Full Time Patrol Representative",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-representative-at-allied-universal-4439538073",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Security Officers",
       "company": "Securitas Security Services USA, Inc.",
       "location": "Carrollton, TX",
       "pay": "14–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4297495153",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4435997470",
       "via": "via LinkedIn"
     },
     {
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-security-clearance-at-allied-universal-4437490581",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Event Security Staff",
-      "company": "Andy Frain Services",
-      "location": "Carrollton, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.monster.com/job-openings/event-security-staff-carrollton-tx--e396568a-0787-43c8-9b83-c83d5c67753d?mstr_dist=true",
-      "via": "via Monster"
-    },
-    {
-      "title": "Mobile Officer (2nd Shift)",
-      "company": "Marksman Security",
-      "location": "Carrollton, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-mobile-officer-2nd-shift-in-plano-tx--carrollton--e58080dbc5da6a76bacf1a5eadcf79bfd",
-      "via": "via JobLeads"
     }
   ]
 }

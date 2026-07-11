@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/midlothian-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Hospital Security Officer: Protect Patients & Patrol",
+      "company": "Dormont Manufacturing Co",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/jdp/-4091560866707354294",
+      "via": "via Jooble"
+    },
     {
       "title": "Dynamic Response Security Officer Patrol & Access",
       "company": "Garda World Security",
@@ -15,26 +25,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.whatjobs.com/jobs/dynamic-response-security-officer-patrol/midlothian-texas?id=2860549558",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Guard; shifts",
-      "company": "Excelsior Defense",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/midlothian/texas/security/5258623859/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Hospital Security Officer: Protect Patients & Patrol",
-      "company": "Dormont Manufacturing Co",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/jdp/-4091560866707354294",
-      "via": "via Jooble"
     },
     {
       "title": "Protective Services Officer; Unarmed – St Francis Medical Center",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1242584294",
       "via": "via Snagajob"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
+      "company": "TSA Career Placement",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-mid/2847292533-2/",
+      "via": "via SaluteMyJob"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/industrial-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Roving Security Driver – Industrial Site, Baytown; Unarmed",
+      "company": "Alliedbarton Security Services",
+      "location": "Baytown, TX",
+      "pay": "14 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/baytown/texas/security/5271580215/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Industrial/Warehouse Security (TWIC CARD)",
       "company": "GuardTexas – Houston",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/industrial-security-guard-surveillance-gardaworld-houston-tx-united-states--appcast-7428_df35b9ebfd0c09e2818e2e70cf9d2b014e2dc56b9ac33af762a3ae61a696b808",
       "via": "via BeBee"
-    },
-    {
-      "title": "Plant Security Officer: Patrols, Access Control, 7a–3p",
-      "company": "Alliedbarton Security Services",
-      "location": "Conroe, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/alliedbarton-security-services/conroe/plant-security-officer-patrols-access-control-7a-3p-70625188/",
-      "via": "via Talents By Vaia"
     }
   ]
 }

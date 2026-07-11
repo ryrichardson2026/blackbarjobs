@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/warehouse-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -15,16 +15,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5267551779/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Concierge- Warehouse - Apply Now!",
-      "company": "GardaWorld",
-      "location": "New Braunfels, TX",
-      "pay": "17.56 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://oysterlink.com/job-posting/concierge-warehouse/",
-      "via": "via OysterLink"
     },
     {
       "title": "Concierge Security: Warehouse Lobby & Patrol",
@@ -55,6 +45,16 @@
       "posted_date": "2026-06-26",
       "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/warehouse-security-san-antonio",
       "via": "via The Job Network For Security Officers"
+    },
+    {
+      "title": "Concierge- Warehouse",
+      "company": "GardaWorld",
+      "location": "Schertz, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-24",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/concierge--warehouse/3f54edf4-42ae-4e60-b054-6d363c9b3601",
+      "via": "via GardaWorld - GardaWorld Security"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-security-jobs-hiring-immediately",
   "market": "DFW",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via Get.It"
     },
     {
-      "title": "Security Officer (Lv 4 PPO) (Hiring Immediately)",
-      "company": "Highland Park Presbyterian Church",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-18",
-      "apply_link": "https://us.expertini.com/job/security-officer-lv-4-ppo-hiring-immediately-dallas-highland-park-presbyterian-church-4173-6152818/",
-      "via": "via Expertini"
-    },
-    {
       "title": "IMMEDIATE OPENINGS – NOW HIRING LEVEL III SECURITY OFFICERS (ONSITE)",
       "company": "Special Response Group",
       "location": "Dallas, TX",
@@ -55,6 +45,16 @@
       "posted_date": null,
       "apply_link": "https://www.ziprecruiter.com/c/North-America-Security-&-Select-Services/Job/Armed-Officer-Downtown-Dallas-(Immediate-Hire)-$25-$27hr/-in-Dallas,TX?jid=7eb363bc8acc8196",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Loss Prevention - Hiring Immediately",
+      "company": "swipejobs LLC",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=0a20292895c1217e",
+      "via": "via Indeed"
     }
   ]
 }

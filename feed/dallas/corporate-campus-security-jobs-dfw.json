@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/corporate-campus-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Armed Security Officer - Corporate Office",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "27 an hour",
+      "title": "Security Site Supervisor – Corporate Office",
+      "company": "Securitas Global Clients America",
+      "location": "Irving, TX",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-corporate-office-at-allied-universal-4438542278",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-site-supervisor-%E2%80%93-corporate-office-at-securitas-global-clients-america-4439363464",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Corporate Office",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-corporate-office/22950/97573580896",
+      "via": "via Allied Universal"
     },
     {
       "title": "Security Officer Corporate Building",
@@ -27,14 +37,14 @@
       "via": "via Allied Universal"
     },
     {
-      "title": "Elite Security Officer - Corporate Campus (Dallas)",
-      "company": "IIdon Security",
-      "location": "Dallas, TX",
+      "title": "Armed Security Officer - Corporate Office",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
-      "via": "via BeBee"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jobs.aus.com/job/richardson/armed-security-officer-corporate-office/22950/97525090000",
+      "via": "via Allied Universal"
     },
     {
       "title": "Executive Protection Agent - Corporate (Day Shift) at Crisis24 Dallas, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://logowizards.com/work/job/executive-protection-agent-corporate-day-shift-at-crisis24-dallas-tx-aGtlKzRPWDQvVXRrN3JCOEs4MUZWa1JtZFE9PQ==",
       "via": "via Logowizards"
-    },
-    {
-      "title": "Elite Security Officer - Corporate Campus (Dallas)",
-      "company": "IIdon Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
-      "via": "via BeBee"
     }
   ]
 }

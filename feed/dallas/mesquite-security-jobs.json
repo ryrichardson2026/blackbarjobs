@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/mesquite-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Credentials Monitor",
+      "title": "Security Officer Part Time Patrol Monitor",
       "company": "Allied Universal",
       "location": "Mesquite, TX",
       "pay": "18.54 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Patrol-Monitor/-in-Mesquite,TX?jid=cfcc5b0be53eff53",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force- #C19105",
+      "location": "Mesquite, TX",
+      "pay": "20–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=fba7f36ff0f3692a",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Guard Patrol and Customer Service",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Guard-Patrol-and-Customer-Service/-in-Mesquite,TX?jid=0466744b6729629a",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Part-Time Event Security Officers",
+      "company": "GardaWorld",
+      "location": "Mesquite, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/rjdp/8597222246838398871",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer Patrol Credentials Monitor",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Credentials-Monitor/-in-Mesquite,TX?jid=c340634f550deb3a",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Patrol Compliance Analyst",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Compliance-Analyst/-in-Mesquite,TX?jid=b5ec2381b0f19f0f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full-Time: Retail Security Supervisor | Mesquite, TX",
-      "company": "Marksman Security LLC",
-      "location": "Mesquite, TX",
-      "pay": "17.17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Full-Time:-Retail-Security-Supervisor-%7C-Mesquite,-TX/-in-Mesquite,TX?jid=d02e4a6f9289635f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Unarmed Patrol Screening Duties",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Unarmed-Patrol-Screening-Duties/-in-Mesquite,TX?jid=269ff01d02c269cd",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Part-Time Driver Patrol Security Officer",
-      "company": "Alliedbarton Security Services",
-      "location": "Mesquite, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/mesquite/texas/security/5265350751/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

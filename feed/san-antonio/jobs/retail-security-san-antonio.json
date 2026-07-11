@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/retail-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Part-Time Armed Patrol Officer – Retail Safety Pro",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "20,664–23,419 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5276883143/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Retail Security Officer Job at Marksman Security LLC in San Antonio",
+      "company": "Marksman Security LLC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.recruit.net/job/unarmed-retail-security-officer-at-jobs/3FE479F88708F241",
+      "via": "via Recruit.net"
+    },
+    {
       "title": "Part-Time Armed Driver Patrol — Retail Security",
       "company": "Alliedbarton Security Services",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-07-07",
       "apply_link": "https://www.jobleads.com/us/job/part-time-armed-driver-patrol-retail-security--san-antonio--ecf20c05b99d17b970959fc7b989d911e",
       "via": "via JobLeads"
     },
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-26",
       "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/retail-security-san-antonio",
       "via": "via The Job Network For Security Officers"
-    },
-    {
-      "title": "Armed Retail Patrol Officer - Part-Time",
-      "company": "Alliedbarton Security Services",
-      "location": "San Antonio, TX",
-      "pay": "22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5223234333/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Retail Security Officer: Patrol & Response",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5220296507/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

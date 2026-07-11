@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/warehouse-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Hiring:Part-Time Overnight Warehouse Associate",
+      "company": "Rockville Loop",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-hiring-part-time-overnight-warehouse-associate-rockville",
+      "via": "via Jobilize"
+    },
     {
       "title": "Surveillance Security - Warehouse",
       "company": "GardaWorld",
@@ -35,16 +45,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/B66B1A5F6C10A44C",
       "via": "via Recruit.net"
-    },
-    {
-      "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
-      "company": "Congregational Security Inc.",
-      "location": "Dallas, TX",
-      "pay": "23–25 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=25348896f417937b",
-      "via": "via Indeed"
     },
     {
       "title": "Security Officer Distribution Center",

@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/richmond-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Deputy Constable - Constable, Pct. 4",
+      "company": "Fort Bend County",
+      "location": "Richmond, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.linkedin.com/jobs/view/deputy-constable-constable-pct-4-at-fort-bend-county-4432711842",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Professional - No Experience Necessary",
+      "company": "Securitas Security Services USA",
+      "location": "Richmond, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/4905701912294339061",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Hospital Security Officer: Protecting People & Property",
+      "company": "OakBend Medical Center",
+      "location": "Richmond, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://us.jobrapido.com/jobpreview/3457986967973658624",
+      "via": "via Jobrapido"
+    },
     {
       "title": "Event Security",
       "company": "Andy Frain Services",
@@ -24,36 +54,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-04",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4277440844",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer II: Protect & Respond at Healthcare Site",
-      "company": "Texas Health and Human Services",
-      "location": "Richmond, TX",
-      "pay": "3,100.00–4,365.66 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/jdp/-4651151963773496324",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Retail Security Supervisor - Growth & Benefits, Flexible Shifts",
-      "company": "Marksman Security LLC",
-      "location": "Richmond, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-supervisor-growth-benefits-flexible-shifts--richmond--ec1a8bff569dfc7d2a4e89a4c0b103f0c",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Deputy Constable - Constable, Pct. 4",
-      "company": "Fort Bend County",
-      "location": "Richmond, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.linkedin.com/jobs/view/deputy-constable-constable-pct-4-at-fort-bend-county-4432711842",
       "via": "via LinkedIn"
     }
   ]

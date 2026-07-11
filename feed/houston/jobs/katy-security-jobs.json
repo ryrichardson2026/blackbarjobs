@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Professional Unarmed Security Officer - Katy",
+      "company": "Marksman Security",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/professional-unarmed-security-officer-katy-at-marksman-security-4439346617",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Security Officer Access Operations",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-operations-at-allied-universal-4438583457",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Job at Allied Universal in Katy",
       "company": "Allied Universal",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-operations-at-allied-universal-4437337639",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Senior Security Officer: Patrol & Team Mentoring",
-      "company": "signal-careers",
-      "location": "Katy, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5269118149/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Officer Armed Patrol- Afternoon",
-      "company": "Allied Universal",
-      "location": "Katy, TX",
-      "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-patrol-afternoon-at-allied-universal-4437485681",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.recruit.net/job/security-officer-at-allied-universal-jobs/8D27133C7885B174",
+      "via": "via Recruit.net"
     },
     {
       "title": "Night Shift Hospital Security Officer",
-      "company": "Dormont Manufacturing Co",
-      "location": "Katy, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/night-shift-hospital-security-officer--katy--e87286a1c205f067940ab89f82d7f9d89",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "24/7 Mobile Security Patrol Officer",
-      "company": "signal-careers",
+      "company": "Dormont Manufacturing Company",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://us.jobrapido.com/jobpreview/3422608806960431104",
-      "via": "via Jobrapido"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobilize.com/job/us-tx-katy-night-shift-hospital-security-officer-dormont-manufacturing",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Security Guard - Overseas with Security Clearance",
+      "company": "Continuity Global Solutions",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Contractor",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/7279838344058627918",
+      "via": "via Jooble"
     }
   ]
 }

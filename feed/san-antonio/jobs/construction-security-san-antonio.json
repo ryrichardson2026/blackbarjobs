@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/construction-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 1,
+  "exact": 3,
   "jobs": [
+    {
+      "title": "Data Center Construction Security Tech — TS/Poly",
+      "company": "Kids for the Future",
+      "location": "San Antonio, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-construction-security-tech-ts-poly--san-antonio--e31d4d82d95d18a15ef9ccf3cbcfa5bf3",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Construction Surveillance Technician",
+      "company": "Falken Industries LLC",
+      "location": "San Antonio, TX",
+      "pay": "40–50 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=787f7ad101bd321f",
+      "via": "via Indeed"
+    },
     {
       "title": "Zachry Construction",
       "company": "Zachry Construction",
@@ -17,43 +37,23 @@
       "via": "via Careers In Government"
     },
     {
-      "title": "Security Officer - Full Time Patrol",
-      "company": "Allied Universal",
-      "location": "Boerne, TX",
-      "pay": "15 an hour",
+      "title": "Level III Campus Security Officer; School",
+      "company": "Valorforces",
+      "location": "San Antonio, TX",
+      "pay": "24,796–27,552 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-at-allied-universal-4438532794",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Security Agent",
-      "company": "ACTS-Aviation Security, Inc",
+      "title": "Security Installer",
+      "company": "Johnson Controls",
       "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "26–34 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/security-agent-full-time--san-antonio--e52cb412462370401e60a034a5f6d86fa",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Guard",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal%C2%AE/Job/Security-Guard-Hiring-Immediately/-in-San-Antonio,TX?jid=dd03a34c300d5a42",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Border Patrol Agent - Experienced",
-      "company": "U.S. Customs and Border Protection",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/border-patrol-agent-experienced-at-u-s-customs-and-border-protection-4438219944",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-installer-at-johnson-controls-4436636182",
       "via": "via LinkedIn"
     }
   ]

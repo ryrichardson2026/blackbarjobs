@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Cleared Security Officer at Allied Universal Fort Worth, TX",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://weequahicalumni.org/library/job/armed-cleared-security-officer-at-allied-universal-fort-worth-tx-dUpwcWZRdmdNVnkxTlp0VUMvd0JjSnhVVHc9PQ==",
+      "via": "via Weequahic High School Alumni Association"
+    },
     {
       "title": "Armed Security Officers- All Shifts",
       "company": "Prosegur",
@@ -27,34 +37,24 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Armed Security Flex Officer - Cleared Position",
-      "company": "Allied Universal",
+      "title": "Armed Security Officer - Campus Patrol & Access Control",
+      "company": "Alliedbarton Security Services",
       "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": null,
+      "pay": "21,593–30,754 a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=c2f5ef1129b3ab4c",
-      "via": "via Indeed"
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5264545927/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Armed Security Site Supervisor - Clearance Required",
+      "title": "Armed Security Site Supervisor",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/armed-security-site-supervisor-clearance-required/22950/97481237712",
-      "via": "via Allied Universal"
+      "apply_link": "https://us.trabajo.org/job-9000-f87c970a46cd036d1ad9caa8e64514a2",
+      "via": "via Trabajo.org"
     }
   ]
 }

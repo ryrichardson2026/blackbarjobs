@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/data-center-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 3,
   "jobs": [
+    {
+      "title": "Data Center Security Pro - Protect Critical Facilities",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Houston, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-pro-protect-critical-facilities--houston--e7354051f27617772601421f8556f71b2",
+      "via": "via JobLeads"
+    },
     {
       "title": "Data Center Security & Patrol Specialist",
       "company": "Securitas Global Clients America",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/data-center-security-patrol-specialist--houston--e82f0ea27d45830bc7c608c65255985cc",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Data Center Security Pro - Protect Critical Facilities",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Houston, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5224547892/e/",
-      "via": "via Learn4Good"
     },
     {
       "title": "Data Center Security Officer",
@@ -37,24 +37,24 @@
       "via": "via Ekaw.fa.us2.Oraclecloud.com"
     },
     {
-      "title": "Unarmed Security Guard",
-      "company": "PalAmerican Security",
-      "location": "Baytown, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
-      "via": "via Indeed"
+      "title": "Security Receptionist",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Houston, TX",
+      "pay": "16–17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Patrol Response",
-      "company": "Allied Universal",
-      "location": "Baytown, TX",
-      "pay": "14 an hour",
+      "title": "Unarmed Security Officer",
+      "company": "CULPEPPER & ASSOCIATES SECURITY SERVICES INC",
+      "location": "Harris County, TX",
+      "pay": "3,667 a month",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4438547066",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-culpepper-associates-security-services-inc-houston-va-houston-tx-77030--t7xk-757265259",
+      "via": "via BeBee"
     }
   ]
 }

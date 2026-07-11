@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/tsa-airport-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
+      "company": "Airport Security Careers",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-san/2869169638-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
+      "location": "San Antonio, TX",
+      "pay": "25–50 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/jdp/5563396271740321732",
+      "via": "via Jooble"
+    },
     {
       "title": "Airport Checkpoint Screener; TSA",
       "company": "Airport Security",
@@ -27,16 +47,6 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
-      "company": "Airport Security Careers",
-      "location": "San Antonio, TX",
-      "pay": "25–50 an hour",
-      "schedule": null,
-      "posted_date": "2026-06-25",
-      "apply_link": "https://jooble.org/jdp/5563396271740321732",
-      "via": "via Jooble"
-    },
-    {
       "title": "Airport Security Patrol Officer – Day/Night Shifts",
       "company": "City of San Antonio",
       "location": "San Antonio, TX",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/city-of-san-antonio/san-antonio/airport-security-patrol-officer-day-night-shifts-83615453/",
       "via": "via Talents By Vaia"
-    },
-    {
-      "title": "TSA Security Inspector - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Converse, TX",
-      "pay": "26–48 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/-3667366735032128960",
-      "via": "via Jooble"
     }
   ]
 }

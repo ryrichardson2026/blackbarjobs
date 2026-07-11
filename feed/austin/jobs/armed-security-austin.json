@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "austin/jobs/armed-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
+      "company": "Ranger Protection Agency",
+      "location": "Austin, TX",
+      "pay": "23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
+      "via": "via Indeed"
+    },
     {
       "title": "Alliedbarton Security Services is hiring: Security Officer Armed Patrol Unit in Austin",
       "company": "Alliedbarton Security Services",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/598B89DC9E46B496",
       "via": "via Recruit.net"
+    },
+    {
+      "title": "Elite FPS Protective Security Officer (Armed)",
+      "company": "Dormont Manufacturing Co",
+      "location": "Austin, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/elite-fps-protective-security-officer-armed--austin--ef7e348878b9ffaa2f298e2f616b293fe",
+      "via": "via JobLeads"
     },
     {
       "title": "Armed Security – Cash Transport",
@@ -27,34 +47,14 @@
       "via": "via Security Guards Only"
     },
     {
-      "title": "Security Officer-Armed",
-      "company": "Ascension",
+      "title": "Armed Security Officer; Level III​/IV",
+      "company": "Viking Tactical Security Group",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "25–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Officer - Premium Pay, Benefits & Growth",
-      "company": "Sunstates Security",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-premium-pay-benefits-growth--austin--ee4a8afb6aa3752c2922d9facb5353dd8",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
-      "company": "Ranger Protection Agency",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
-      "via": "via Indeed"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5269437903/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

@@ -1,61 +1,60 @@
 {
-  "generated": "2026-07-09T05:59:39Z",
-  "page": "san-antonio/jobs/data-center-security-san-antonio.html",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "page": "san-antonio/jobs/data-center-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 2,
   "jobs": [
     {
-      "title": "Security Officers - Overnight Monitoring",
-      "company": "Saint MaryS Hall",
+      "title": "Data Center Construction Security Tech — TS/Poly",
+      "company": "Kids for the Future",
       "location": "San Antonio, TX",
-      "pay": "26\u201330 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://jooble.org/rjdp/-6966798796964888088",
-      "via": "via Jooble"
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-construction-security-tech-ts-poly--san-antonio--e31d4d82d95d18a15ef9ccf3cbcfa5bf3",
+      "via": "via JobLeads"
     },
     {
-      "title": "Security Professional Overnight Full Time Flex",
-      "company": "HYATT Hotels",
+      "title": "Data Center Security Control Room Officer",
+      "company": "Alamo ACE",
+      "location": "San Antonio, TX",
+      "pay": "50K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/alamo-ace/san-antonio/data-center-security-control-room-officer-poly-91329341/",
+      "via": "via Talents By Vaia"
+    },
+    {
+      "title": "Level III Campus Security Officer; School",
+      "company": "Valorforces",
+      "location": "San Antonio, TX",
+      "pay": "24,796–27,552 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Installer",
+      "company": "Johnson Controls",
+      "location": "San Antonio, TX",
+      "pay": "26–34 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-installer-at-johnson-controls-4436636182",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "La Mansion | Loss Prevention Officer Overnight",
+      "company": "Omni Hotels & Resorts",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://jooble.org/rjdp/-5081676009216402819",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer-Graveyard (Overnight)",
-      "company": "American GI Forum",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://salutemyjob.com/jobs/security-officer-graveyard-overnight-san-antonio-texas/2858816959-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
-      "company": "Texas Health and Human Services Commission",
-      "location": "San Antonio, TX",
-      "pay": "3,100.00\u20134,365.66 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officers - Night Shift",
-      "company": "Southside Independent School District",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/rjdp/-5909072313559129459",
-      "via": "via Jooble"
+      "schedule": "Internship",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/la-mansion-loss-prevention-officer-overnight-at-omni-hotels-resorts-4438372319",
+      "via": "via LinkedIn"
     }
-  ],
-  "seed_note": "SEED from overnight-security-san-antonio; run bbj_feed_fetch.py + snapshot to replace with data-center-security-san-antonio results"
+  ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/houston-retail-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Retail Patrol -Valid Drivers License Required",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.nexxt.com/jobs/security-officer-retail-patrol-valid-drivers-license-required-houston-tx-3314548306-job.html",
+      "via": "via Nexxt"
+    },
     {
       "title": "Retail Security Officer & Driver - PT Shifts",
       "company": "Allied Universal",
@@ -27,34 +37,24 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Security Officer Retail Patrol -Valid Drivers License Required",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.nexxt.com/jobs/security-officer-retail-patrol-valid-drivers-license-required-houston-tx-3314548306-job.html",
-      "via": "via Nexxt"
-    },
-    {
-      "title": "Security Officer Retail",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-retail/22950/97437407616",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Afternoon/Evening Retail Security Officer - STX3 Div 1",
+      "title": "Afternoon/Evening Retail Security Officer - 77065",
       "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://us.expertini.com/job/afternoonevening-retail-security-officer-77065-houston-united-protective-services-626575975762166288/",
+      "via": "via United States Jobs Expertini"
+    },
+    {
+      "title": "Retail Security Driver Patrol — Customer Service",
+      "company": "Alliedbarton Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
       "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobilize.com/job/us-tx-houston-afternoon-evening-retail-security-officer-stx3-div-1",
-      "via": "via Jobilize"
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-driver-patrol-customer-service--houston--e1581a96880596c6961fb00d313db539e",
+      "via": "via JobLeads"
     }
   ]
 }

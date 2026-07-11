@@ -1,61 +1,60 @@
 {
-  "generated": "2026-07-09T06:37:31Z",
-  "page": "austin/jobs/industrial-security-austin.html",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "page": "austin/jobs/industrial-security-austin",
   "market": "Austin",
-  "target": "city",
+  "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 1,
   "jobs": [
     {
-      "title": "Overnight Security Officer (Level II) | Multiple Openings | Immediate Hire",
-      "company": "Security Reconnaissance Team Inc",
-      "location": "Austin, TX",
-      "pay": "16\u201318 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e090e5e5f214e54d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer-Armed",
-      "company": "Ascension",
+      "title": "Industrial Security Specialist, Mid",
+      "company": "Booz Allen Hamilton",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
+      "posted_date": "2026-06-22",
+      "apply_link": "https://www.linkedin.com/jobs/view/industrial-security-specialist-mid-at-booz-allen-hamilton-4432012393",
       "via": "via LinkedIn"
     },
     {
-      "title": "Downtown Hotel Security Officer",
-      "company": "United Protective Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=4f9849e0423f2257",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Austin On Call Security Officer",
-      "company": "United Protective Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/On-Call-Austin-Security-Officer/-in-Austin,TX?jid=2211994949a00512",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
+      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
       "company": "Ranger Protection Agency",
       "location": "Austin, TX",
+      "pay": "23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Response",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4439378792",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Full Time Security Officer Needed for University Environment",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Technician I",
+      "company": "CBX Solutions, LLC",
+      "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
-      "via": "via Indeed"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-technician-i-at-cbx-solutions-llc-4439380009",
+      "via": "via LinkedIn"
     }
-  ],
-  "seed_note": "SEED from tech-campus-security-austin; run bbj_feed_fetch.py + snapshot to replace with industrial-security-austin results"
+  ]
 }

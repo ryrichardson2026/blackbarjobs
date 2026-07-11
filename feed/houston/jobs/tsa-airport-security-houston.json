@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/tsa-airport-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
+      "company": "Airport Security Careers",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-hou/2869171137-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer - Airport",
+      "company": "Alliedbarton Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/jdp/-694406301714244426",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Federal Air Marshal - TSA Law Enforcement Career",
+      "company": "Airport Security Careers",
+      "location": "South Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/federal-air-marshal-tsa/south-houston-texas?id=2865648001",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
       "company": "Airport Security Careers",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/south-houston-texas?id=2852267933",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Security, Airport Staff & Aviation Operations",
-      "company": "Huntleigh USA",
-      "location": "Houston, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/transportation/5244963949/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
-      "company": "Airport Security Careers",
-      "location": "North Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-28",
-      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-nor/2845699458-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Airport Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Houston, TX",
-      "pay": "16–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-airport-security",
-      "via": "via The Job Network For Security Officers"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/part-time-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Part-Time Security Officer: Shifts",
+      "title": "Security Officer - Flex Part Time Mobile Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
-      "pay": "15,911–22,661 a year",
+      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5267612856/e/",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-flex-part-time-mobile-patrol-at-allied-universal-4438885980",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Part-Time Armed Patrol Officer – Retail Safety Pro",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "20,664–23,419 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5276883143/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Overnight Security Officers -full and part time",
-      "company": "Security Guards of America",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jooble.org/rjdp/-8699128087803482187",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Guard – Logistics Part Time",
-      "company": "Allied Universal – San Antonio",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/san-antonio/allied-universal-8211-san-antonio/security-guard-logistics-part-time/",
-      "via": "via Security Guards Only"
-    },
-    {
-      "title": "Church Security Officer — Part-Time, Weekend Shifts",
-      "company": "Community Bible Church San Antonio",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/church-security-officer-part-time-weekend-shifts--san-antonio--ef04a5995196bcc3ba994f811aafca349",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Armed Security Officer - Visitor Center Part Time",
+      "title": "Security Guard Flex - Part Time Patrol Armed",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/armed-security-officer-visitor-center-part-time/22950/97481241696",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/san-antonio/security-guard-flex-part-time-patrol-armed/22950/97586094752",
       "via": "via Allied Universal"
+    },
+    {
+      "title": "Security Guard - Part Time Unarmed Patrol",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/san-antonio/security-guard-part-time-unarmed-patrol/22950/97586094784",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Full-time/Part-time Security Officers for 1st, 2nd & Overnight Shifts",
+      "company": "Texas Health and Human Services Commission",
+      "location": "San Antonio, TX",
+      "pay": "3,100.00–4,365.66 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/8532776255464828970",
+      "via": "via Jooble"
     }
   ]
 }

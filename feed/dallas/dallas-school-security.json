@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-school-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Campus Safety Officer Full-Time Dallas School Security",
+      "company": "Young World Physical Education",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3a9601be1b496d9b",
+      "via": "via Indeed"
+    },
     {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
@@ -17,6 +27,26 @@
       "via": "via ZipRecruiter"
     },
     {
+      "title": "School Resource Officer — Campus Safety Leader",
+      "company": "Young World Physical Education",
+      "location": "Dallas, TX",
+      "pay": "55K–70K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/school-resource-officer-campus-safety-leader--dallas--e0f532528dd745b1a732c671971025b2d",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "School Resource Officer — Campus Safety Leader",
+      "company": "Young World Physical Education",
+      "location": "Dallas, TX",
+      "pay": "55K–70K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobleads.com/us/job/school-resource-officer-campus-safety-leader--dallas--e0f532528dd745b1a732c671971025b2d",
+      "via": "via JobLeads"
+    },
+    {
       "title": "School Safety & Security Officer",
       "company": "ESC Region 11",
       "location": "Lake Dallas, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-06-29",
       "apply_link": "https://jooble.org/jdp/2158475992858946881",
       "via": "via Jooble"
-    },
-    {
-      "title": "School and Church Security",
-      "company": "Security Solutions of Texas",
-      "location": "Dallas, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/security-solutions-of-texas/dallas/school-and-church-security-103547945/",
-      "via": "via Talents By Vaia"
-    },
-    {
-      "title": "Cadet, School District Peace Officer (235 Days)",
-      "company": "Dallas Independent School District",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.linkedin.com/jobs/view/cadet-school-district-peace-officer-235-days-at-dallas-independent-school-district-4383935753",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "School District Peace Officer (235 Days): 2025-2026 School Year",
-      "company": "Dallas Independent School District",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.linkedin.com/jobs/view/school-district-peace-officer-235-days-2025-2026-school-year-at-dallas-independent-school-district-4270949113",
-      "via": "via LinkedIn"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/lancaster-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -12,9 +12,29 @@
       "location": "Lancaster, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-11",
       "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
       "via": "via Digitalhire"
+    },
+    {
+      "title": "Security Officer Aerospace Facility",
+      "company": "Allied Universal",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/lancaster/security-officer-aerospace-facility/22950/97573585088",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Security Officer - Lancaster",
+      "company": "DSI Security Services",
+      "location": "Lancaster, TX",
+      "pay": "16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-(Lancaster)/-in-Lancaster,TX?jid=77dae964de9adfd7",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Unarmed Security Officer",
@@ -27,16 +47,6 @@
       "via": "via Indeed"
     },
     {
-      "title": "$17.75/HR - UNARMED SECURITY OFFICER - WEEKLY PAY W/BENEFITS",
-      "company": "A&A Security Group",
-      "location": "Lancaster, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=685deb4813a4379d",
-      "via": "via Indeed"
-    },
-    {
       "title": "Security Officer",
       "company": "Weiser Security Services",
       "location": "Lancaster, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Security-Officer/-in-Lancaster,TX?jid=2dbe3675d5a4fd2a",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Director of Operations",
-      "company": "Andy Frain Services",
-      "location": "Lancaster, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://salutemyjob.com/jobs/director-of-operations-lancaster-texas/2854762193-2/",
-      "via": "via SaluteMyJob"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/event-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Dynamic Part-Time Event Staff - Arena & Concerts (Flexible)",
+      "company": "S.A.F.E. Management",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://bebee.com/us/jobs/dynamic-part-time-event-staff-arena-concerts-flexible-safe-management-houston--lensa-7428_3da88996157a588f7cdaffb20898d8b3d49252937a8f2ab64ed149e7a89a0101",
+      "via": "via BeBee"
+    },
     {
       "title": "Licensed Event Security - Houston Rockets",
       "company": "BEST Crowd Management",
@@ -17,6 +27,16 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Usher/Event Staff - Houston Miller Outdoor Theater",
+      "company": "5 STAR Event Services",
+      "location": "Houston, TX",
+      "pay": "11–13 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Usher-Event-Staff-Houston-Miller-Outdoor-Theater/-in-Houston,TX?jid=a767a8b5f2f3b316",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Licensed Special Event Security",
       "company": "Andy Frain Services",
       "location": "North Houston, TX",
@@ -25,26 +45,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-north-houston-tx--3d3addee-1d38-454b-9505-8d61d72981db?mstr_dist=true",
       "via": "via Monster"
-    },
-    {
-      "title": "Licensed Special Event Security - Now Hiring",
-      "company": "Andy Frain Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1226246065",
-      "via": "via Snagajob"
-    },
-    {
-      "title": "Licensed Special Event Security - Now Hiring",
-      "company": "Andy Frain Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1226246065",
-      "via": "via Snagajob"
     },
     {
       "title": "Armed Event Security Officer — Training & Growth",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Executive Protection Officer",
-      "company": "Constellis",
-      "location": "Houston, TX",
-      "pay": "35–45 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.tealhq.com/job/executive-protection-officer_7ea1a34b2a147537b6a36b0c92537b6c3c5b1",
-      "via": "via Teal"
-    },
-    {
       "title": "Armed Executive Protection Agent (EP)",
       "company": "Armed/Unarmed Security Guard",
       "location": "Houston, TX",
@@ -47,14 +37,24 @@
       "via": "via BeBee"
     },
     {
-      "title": "Unarmed Security Guard",
-      "company": "PalAmerican Security",
-      "location": "Baytown, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
-      "via": "via Indeed"
+      "title": "Executive Protection Officer",
+      "company": "Constellis",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://staging.careersingovernment.com/job/1305086/executive-protection-officer/",
+      "via": "via Careers In Government"
+    },
+    {
+      "title": "Security Receptionist",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Houston, TX",
+      "pay": "16–17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
+      "via": "via LinkedIn"
     }
   ]
 }

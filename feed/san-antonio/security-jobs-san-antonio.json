@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/security-jobs-san-antonio",
   "market": "San Antonio",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Agent",
-      "company": "ACTS-Aviation Security, Inc",
+      "title": "Level III Campus Security Officer; School",
+      "company": "Valorforces",
       "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "24,796–27,552 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/security-agent-full-time--san-antonio--e52cb412462370401e60a034a5f6d86fa",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Security Guard",
-      "company": "Allied Universal",
+      "title": "Security Installer",
+      "company": "Johnson Controls",
       "location": "San Antonio, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal%C2%AE/Job/Security-Guard-Hiring-Immediately/-in-San-Antonio,TX?jid=dd03a34c300d5a42",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Border Patrol Agent - Experienced",
-      "company": "U.S. Customs and Border Protection",
-      "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "26–34 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/border-patrol-agent-experienced-at-u-s-customs-and-border-protection-4438219944",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-installer-at-johnson-controls-4436636182",
       "via": "via LinkedIn"
     },
     {
-      "title": "Frontline Hotel Security: Protect Guests & Property",
-      "company": "Texas Western Hospitality Group",
+      "title": "La Mansion | Loss Prevention Officer Overnight",
+      "company": "Omni Hotels & Resorts",
       "location": "San Antonio, TX",
-      "pay": "25K–35K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5269082056/e/",
-      "via": "via Learn4Good"
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/la-mansion-loss-prevention-officer-overnight-at-omni-hotels-resorts-4438372319",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Public Safety Officer; Guard 3rd Shift, University Police",
-      "company": "The University of Texas at San Antonio",
+      "title": "Training Compliance Officer - West with Security Clearance",
+      "company": "Cencore Group",
       "location": "San Antonio, TX",
-      "pay": "36,894 a year",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5271715650/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e147b42621bb625e",
+      "via": "via Indeed"
+    },
+    {
+      "title": "SUPERVISOR, SECURITY",
+      "company": "ST Engineering - San Antonio Aerospace (SAA)",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/supervisor-security-at-st-engineering-san-antonio-aerospace-saa-4438367342",
+      "via": "via LinkedIn"
     }
   ]
 }

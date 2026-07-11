@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/pearland-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,24 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Flex Security Officer (Taser)",
+      "company": "Tarian",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-11",
+      "apply_link": "https://careers.tariangroup.com/careers-home/jobs/23394?lang=en-us",
+      "via": "via Tarian Group"
+    },
+    {
+      "title": "Level 2/3 Security Officer: Full Time",
+      "company": "MLG PROTECTION SERVICES, LLC",
+      "location": "Pearland, TX",
+      "pay": "14.00–16.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1951496e776eb3d0",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Part Time Route Driver",
+      "company": "Allied Universal",
+      "location": "Pearland, TX",
+      "pay": "15 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-route-driver-at-allied-universal-4438853260",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Campus Security Monitor #4238",
       "company": "Pearland ISD",
       "location": "Pearland, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.linkedin.com/jobs/view/campus-security-monitor-%234238-at-pearland-isd-4438549525",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Flex Security Officer (Taser)",
-      "company": "Tarian",
-      "location": "Pearland, TX",
-      "pay": "18.30 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Taser)/-in-Pearland,TX?jid=a2bf31c6d2369639",
-      "via": "via ZipRecruiter"
     },
     {
       "title": "Event Security",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.monster.com/job-openings/event-security-pearland-tx--21128896-1f51-43be-87b4-6c0337fccd14?mstr_dist=true",
       "via": "via Monster"
-    },
-    {
-      "title": "Armed Security Officer Part-Time – Flexible Shifts & Growth",
-      "company": "Allied Universal",
-      "location": "Pearland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-part-time-flexible-shifts-growth--pearland--e30eaff4416575e3c779bf8f199ed6f97",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Courtroom Security Deputy",
-      "company": "Brazoria County",
-      "location": "Pearland, TX",
-      "pay": "50K–70K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/courtroom-security-deputy--pearland--e476d81e41d3ed0112655f9b5e014d3d6",
-      "via": "via JobLeads"
     }
   ]
 }

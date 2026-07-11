@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/irving-unarmed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer (Unarmed)",
+      "company": "Tarian",
+      "location": "Irving, TX",
+      "pay": "17.75 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Irving,TX?jid=29e1aafd43edd43f",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer; Unarmed",
+      "company": "Tarian",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/irving/texas/security/5276331173/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Security Patrol - Evening Shift; Irving, TX",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": "18.11 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.learn4good.com/jobs/irving/texas/security/5273685281/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Unarmed Security Patrol - Evening Shift (Irving, TX)",
       "company": "Allied Universal",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.jobilize.com/job/us-tx-irving-unarmed-security-officer-1st-dall99-sei-hiring-now-job",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Unarmed Security Officer ~ Irving, TX",
-      "company": "Thomas Protective Service, Inc.",
-      "location": "Irving, TX",
-      "pay": "13.75–14.80 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=da924bf5bb46828d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Unarmed Security Officer ~ Irving, TX",
-      "company": "Thomas Protective Service, Inc.",
-      "location": "Irving, TX",
-      "pay": "13.75–14.80 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=da924bf5bb46828d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Unarmed Security Officers",
-      "company": "Sunstates Security",
-      "location": "Irving, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.indeed.com/viewjob?jk=7142345a2a38265e",
-      "via": "via Indeed"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/bedford-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Administrative Specialist",
+      "company": "AAA Security Guard Services, LLC",
+      "location": "Bedford, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/administrative-specialist-part-time--bedford--e5a78d00645128f4dcdc78dcee43df9da",
+      "via": "via JobLeads"
+    },
     {
       "title": "Security Officer - Full Time , Rotating at Texas Health Resources Bedford, TX",
       "company": "Texas Health Resources",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://aotvintage.com/gig/job/security-officer-full-time-rotating-at-texas-health-resources-bedford-tx-ak12RmdhQThZNjF4bE5yOUdQOURPZHRqY3c9PQ==",
       "via": "via Aotvintage.com"
+    },
+    {
+      "title": "Evening Armed Guard; PT",
+      "company": "Excelsior Defense",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/bedford/texas/security/5258623315/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Security Guard; shifts",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/jdp/-1377202507400332358",
       "via": "via Jooble"
-    },
-    {
-      "title": "Armed Security Officer Data Center - Clearance Required",
-      "company": "Allied Universal",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/bedford-tx/armed-security-officer-data-center-clearance-required-163757/",
-      "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Administrative Specialist",
-      "company": "AAA Security Guard Services, LLC",
-      "location": "Bedford, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/administrative-specialist-part-time--bedford--e5a78d00645128f4dcdc78dcee43df9da",
-      "via": "via JobLeads"
     }
   ]
 }

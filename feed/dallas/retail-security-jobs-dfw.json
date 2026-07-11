@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/retail-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Now Hiring: Retail Security Officer",
+      "company": "Marksman Security",
+      "location": "Arlington, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.jobilize.com/job/us-tx-arlington-now-hiring-retail-security-officer-marksman-job-immediately",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Retail Security Site Supervisor: Weekend & Coverage",
+      "company": "Marksman Security",
+      "location": "Sunnyvale, TX",
+      "pay": "17.17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.learn4good.com/jobs/sunnyvale/texas/security/5273699815/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Full-Time: Retail Security Supervisor | Mesquite, TX",
       "company": "Marksman Security LLC",
@@ -17,14 +37,14 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer - Retail (Evening shift)",
-      "company": "United Protective Services",
-      "location": "Allen, TX",
-      "pay": "17 an hour",
+      "title": "Retail Security Patrol & Response Officer",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Retail-Evening-Shift/-in-Allen,TX?jid=cce9a57d6f7143c1",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/jdp/6030923357702158988",
+      "via": "via Jooble"
     },
     {
       "title": "Security Professional - Retail Part Time",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://jooble.org/rjdp/-1195959806764860144",
       "via": "via Jooble"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
-      "company": "Marksman Security",
-      "location": "Rockwall, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-site-supervisor-weekend-holiday-coverage--rockwall--e6f96e182ee95f31d2b49f31cf54c92f4",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
-      "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
-      "via": "via BeBee"
     }
   ]
 }

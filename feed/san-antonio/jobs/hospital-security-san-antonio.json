@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/hospital-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Detention Hospital Officer — Secure Medical Oversight",
+      "company": "GEO Corrections & Detentions",
+      "location": "San Antonio, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.jobleads.com/us/job/detention-hospital-officer-secure-medical-oversight--san-antonio--ebd81661994b8e65f11e716b534be7686",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Healthcare Security Director – Patient Safety & Operations",
+      "company": "Baptist Health System",
+      "location": "San Antonio, TX",
+      "pay": "70K–90K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-director-patient-safety-operations--san-antonio--ec8c100b426a9bd2653261db86d8ca9fa",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "State Hospital Night Security Officer",
+      "company": "Texas Health and Human Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/state-hospital-night-security-officer--san-antonio--ec2ec9c113059d9e72768b1008080d8e0",
+      "via": "via JobLeads"
+    },
     {
       "title": "Armed Security Officer – Medical Facility Patrol & Growth",
       "company": "Alliedbarton Security Services",
@@ -17,26 +47,6 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Detention Hospital Officer — Secure Medical Oversight",
-      "company": "GEO Corrections & Detentions",
-      "location": "San Antonio, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/detention-hospital-officer-secure-medical-oversight--san-antonio--ebd81661994b8e65f11e716b534be7686",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Healthcare Security Officer",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "19,320–27,517 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://us.trabajo.org/job-2283-bec8d384f18bef7a396a184d035dd37a",
-      "via": "via Trabajo.org"
-    },
-    {
       "title": "Hospital Security Officer; Unarmed - Patient Safety",
       "company": "Tenet Healthcare",
       "location": "San Antonio, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5253313508/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Lead Hospital Guard: Detainee Security",
-      "company": "The GEO Group Australia Pty Ltd.",
-      "location": "San Antonio, TX",
-      "pay": "45K–65K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://us.trabajo.org/job-2283-86bd6e6b360ee360c54edc8f0eaa3d71",
-      "via": "via Trabajo.org"
     }
   ]
 }

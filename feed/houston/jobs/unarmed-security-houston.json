@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer: CCTV & Incident Response",
+      "company": "DeKalb Health",
+      "location": "Houston, TX",
+      "pay": "22.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276383297/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Officer Flex (Unarmed)",
       "company": "Tarian",
@@ -37,24 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Unarmed Security Officer- Part Time Floater",
-      "company": "Security Engineers, Inc",
+      "title": "Armed & Unarmed Security Guard — Protect & Prevent",
+      "company": "Fast Guard Service",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Part-time",
+      "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3685b947c77dcf1f",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Unarmed",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed/22950/97489300144",
-      "via": "via Allied Universal"
+      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-protect-prevent--houston--e595a64562611991c1429eaf218cae510",
+      "via": "via JobLeads"
     }
   ]
 }

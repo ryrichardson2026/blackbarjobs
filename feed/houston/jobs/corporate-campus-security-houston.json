@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/corporate-campus-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Associate Corporate Security Guard",
+      "company": "Wells Fargo",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.wellsfargojobs.com/fr/jobs/r-558532/associate-corporate-security-guard/",
+      "via": "via Wells Fargo"
+    },
+    {
+      "title": "Corporate Security Officer",
+      "company": "Securitas",
+      "location": "Houston, TX",
+      "pay": "16–18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.indeed.com/viewjob?jk=89af29cc26de280e",
+      "via": "via Indeed"
+    },
     {
       "title": "Corporate Security & Compliance Specialist",
       "company": "Giga Energy",
@@ -35,26 +55,6 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1304034/corporate-security-officer-full-time-houston/",
       "via": "via Careers In Government"
-    },
-    {
-      "title": "Corporate Head of Security",
-      "company": "Commonwealth LNG",
-      "location": "Harris County, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/corporate-head-of-security-commonwealth-lng-greater-houston--theirstack-683163012",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Unarmed Security Guard",
-      "company": "PalAmerican Security",
-      "location": "Baytown, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
-      "via": "via Indeed"
     }
   ]
 }

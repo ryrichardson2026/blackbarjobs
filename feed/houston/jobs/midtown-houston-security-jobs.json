@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "houston/jobs/midtown-houston-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer III-Nights-LBJ",
-      "company": "Harris Health System",
+      "title": "Security Receptionist",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "16–17 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jobs.harrishealth.org/security-officer-iii-nights-lbj/job/14E0970D9F9032BBD89F1D3A7EF81830",
-      "via": "via Harris Health System Jobs"
-    },
-    {
-      "title": "Security Officer Badge Desk",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-desk-at-allied-universal-4438538352",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
       "via": "via LinkedIn"
     },
     {
-      "title": "Safety and Security Associate - Emancipation",
-      "company": "The Harris Center for Mental Health and IDD",
+      "title": "Weekend Security Officer - Downtown - 77002",
+      "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/safety-and-security-associate-emancipation-at-the-harris-center-for-mental-health-and-idd-4438271767",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ae9c86d08bb3b008",
+      "via": "via Indeed"
     },
     {
-      "title": "Information System Security Officer",
-      "company": "Booz Allen Hamilton",
+      "title": "Campus Safety Officer",
+      "company": "New Caney Independent School District",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/information-system-security-officer-at-booz-allen-hamilton-4438511027",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/campus-safety-officer-at-new-caney-independent-school-district-4439312121",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Flex (Unarmed)",
-      "company": "Tarian",
+      "title": "Evening Security Officer - 77027",
+      "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-08",
-      "apply_link": "https://careers.tariangroup.com/events/jobs/23206?lang=en-us",
-      "via": "via Tarian Group"
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=217854c426308e3a",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Downtown Houston Highrise Security Officer - 77002",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=86c295382ee6093b",
+      "via": "via Indeed"
     }
   ]
 }

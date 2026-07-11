@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/allen-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Enhanced Part Time Patrol Presence",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-patrol-presence-at-allied-universal-4439535348",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Armed Level 3 Security Officer",
       "company": "Jet Security LLC",
       "location": "Allen, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.indeed.com/viewjob?jk=1232194133c8283c",
       "via": "via Indeed"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.whatjobs.com/jobs/behavior-detection-officer-bdo/allen-texas?id=2862867490",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Flexible-Shift Security Pro | Patrols & Growth",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/flexible-shift-security-pro-patrols-growth--allen--e9d9557abba5bb451b8062953c6ef5dbd",
-      "via": "via JobLeads"
     }
   ]
 }

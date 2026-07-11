@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "san-antonio/jobs/school-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Level III Campus Security Officer; School",
+      "company": "Valorforces",
+      "location": "San Antonio, TX",
+      "pay": "24,796–27,552 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force- #C19105",
+      "location": "San Antonio, TX",
+      "pay": "18–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=95f1165406ff79d5",
+      "via": "via Indeed"
+    },
     {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-23",
       "apply_link": "https://lensa.com/job-v1/security-solutions-of-texas/san-antonio-tx/school-crossing-guard/a8a7cbc8c1d0f1a6e6a283c40d43b846",
       "via": "via Lensa"
-    },
-    {
-      "title": "Security-10 Months (Pool) (2026-2027 School Year)",
-      "company": "San Benito Consolidated Independent School District",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/San-Benito-Consolidated-Independent-School-District/Job/Security-10-Months-(Pool)-(2026-2027-School-Year)/-in-San-Antonio,TX?jid=2f6eed2af312d68f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer - Full Time Patrol",
-      "company": "Allied Universal",
-      "location": "Boerne, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-at-allied-universal-4438532794",
-      "via": "via LinkedIn"
     }
   ]
 }

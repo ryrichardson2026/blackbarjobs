@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "austin/jobs/no-experience-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Security Officer - All Shifts, No Experience",
-      "company": "Statewide Patrol",
-      "location": "Austin, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-28",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-all-shifts-no-experience--austin--e9a371541b258fe4025b894d4c3fc2cb8",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience",
       "company": "Airport Careers Services",
       "location": "Fentress, TX",
@@ -54,6 +44,16 @@
       "schedule": null,
       "posted_date": "2026-06-27",
       "apply_link": "https://jooble.org/jdp/-6231400167195289125",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer - All Shifts, No Experience",
+      "company": "Statewide Patrol",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://jooble.org/jdp/6540437433091942259",
       "via": "via Jooble"
     }
   ]

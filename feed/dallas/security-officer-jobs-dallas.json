@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/security-officer-jobs-dallas",
   "market": "DFW",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Protective Security Officer NTXDal",
-      "company": "AMERICAN EAGLE PROTECTIVE SERVICES CORP",
+      "title": "W2 - Armed Commissioned Security Officer/Level 3",
+      "company": "Tiger Solutions Group",
       "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e47c843c8b70b45c",
+      "pay": "21–23 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=49570ae135169088",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Access Services",
-      "company": "Allied Universal",
+      "title": "Level 3 Commissioned Officer Weekends",
+      "company": "Servant Anchor Security Services",
+      "location": "Dallas, TX",
+      "pay": "18–20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=942e968267acbb71",
+      "via": "via Indeed"
+    },
+    {
+      "title": "1st/2nd Shift - Security Officer - Golf Cart Patrol 75206",
+      "company": "United Protective Services",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1629445/security-officer-access-services/job",
-      "via": "via Allied Universal - ICIMS"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=9d4a7de5c30f2c08",
+      "via": "via Indeed"
     },
     {
-      "title": "Armed Security Site Supervisor",
+      "title": "Security Officer Enhanced Part Time Access Verification",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-site-supervisor-at-allied-universal-4438543182",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-access-verification-at-allied-universal-4439534437",
       "via": "via LinkedIn"
     },
     {
-      "title": "Access Control Guard (Permanent/Full-time)",
-      "company": "Labatt Food Service",
+      "title": "Security Officer Response Patrol",
+      "company": "Honest Jobs",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/access-control-guard-permanent-full-time-at-labatt-food-service-4438599314",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Manufacturing Facility",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-manufacturing-facility-at-allied-universal-4438157543",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://app.honestjobs.com/job-post/8b08a2ef-a406-41ed-9f08-32edfff9765a?utm_source=google&utm_medium=jobs&utm_campaign=apply",
+      "via": "via Honest Jobs"
     }
   ]
 }

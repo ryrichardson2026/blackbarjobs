@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/full-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Full-Time",
-      "company": "Hyatt Regency",
-      "location": "Frisco, TX",
+      "title": "Security Operations Manager - Full-time",
+      "company": "Kronos",
+      "location": "Lancaster, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-at-hyatt-regency-4438503506",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
+      "via": "via Digitalhire"
+    },
+    {
+      "title": "Security Officer Full Time Patrol Representative",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-representative-at-allied-universal-4439538073",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Campus Safety Officer Full-Time Dallas School Security",
+      "company": "Young World Physical Education",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3a9601be1b496d9b",
+      "via": "via Indeed"
     },
     {
       "title": "Access Control Guard (Permanent/Full-time)",
@@ -27,34 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Operations Manager - Full-time",
-      "company": "Kronos",
-      "location": "Lancaster, TX",
+      "title": "SECURITY OFFICER- Full-Time Night's at Texas Health Resources Fort Worth, TX",
+      "company": "Texas Health Resources",
+      "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
-      "via": "via Digitalhire"
-    },
-    {
-      "title": "Full-Time: Retail Security Supervisor | Mesquite, TX",
-      "company": "Marksman Security LLC",
-      "location": "Mesquite, TX",
-      "pay": "17.17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Full-Time:-Retail-Security-Supervisor-%7C-Mesquite,-TX/-in-Mesquite,TX?jid=d02e4a6f9289635f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Dallas, TX",
-      "pay": "27.03 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Full-Time-Armed-Guard-Texas/-in-Dallas,TX?jid=3d05291543857c7a",
-      "via": "via ZipRecruiter"
+      "apply_link": "https://ccar.jp/office/job/security-officer-full-time-nights-at-texas-health-resources-fort-worth-tx-YmtRaVl6REwzUWxKbEVNenZZZmFpVmxUZ3c9PQ==",
+      "via": "via Ccar.jp"
     }
   ]
 }

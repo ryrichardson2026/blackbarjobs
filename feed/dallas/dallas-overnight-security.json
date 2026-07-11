@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-overnight-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,34 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Erickson Senior Living is hiring: Overnight Security & Emergency Services Officer (EMR/EMT) in Dallas",
-      "company": "Erickson Senior Living",
+      "title": "State Government Night Shift Officer - Dallas, TX",
+      "company": "Texas Department of Public Safety",
       "location": "Dallas, TX",
-      "pay": null,
+      "pay": "52K–68K a month",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.recruit.net/job/erickson-living-is-overnight-security-jobs/61CDCCACA5322FDF",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Armed Residential Security Agent - Night Shift & Global Ops",
-      "company": "Surefox North America Inc",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/armed-residential-security-agent-night-shift-global-ops--dallas--e73d617226ef878718f483ff6e7d62ed6",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part & Full Time Security Officers (Overnight Shifts)",
-      "company": "Inter-Con Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://jooble.org/rjdp/7622603818811480022",
-      "via": "via Jooble"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://governmentjobs.jenispekerjaan.com/job/state-government-night-shift-officer-dallas-tx",
+      "via": "via Govermentjobs"
     },
     {
       "title": "Full-Time Overnight Security Officers",
@@ -42,8 +22,18 @@
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-08",
       "apply_link": "https://jooble.org/rjdp/-3730460835511462476",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Professional Overnight Full Time Flex",
+      "company": "iidon Security Associates, Inc.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/rjdp/7336618358808039281",
       "via": "via Jooble"
     },
     {
@@ -52,8 +42,18 @@
       "location": "Dallas, TX",
       "pay": "17–20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
+      "posted_date": "2026-07-07",
       "apply_link": "https://jooble.org/rjdp/4760674944287707538",
+      "via": "via Jooble"
+    },
+    {
+      "title": "PT Night Shift Security Officers",
+      "company": "Inter-Con Security",
+      "location": "Dallas, TX",
+      "pay": "30.00–30.06 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://jooble.org/rjdp/4931998743385574249",
       "via": "via Jooble"
     }
   ]

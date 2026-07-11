@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/lewisville-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,13 +7,13 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Enhanced Part Time Driver",
-      "company": "Allied Universal",
+      "title": "Full/Part Time Unarmed Officers For Lewisville/Coppell Area",
+      "company": "Texas Industrial Security, Inc",
       "location": "Lewisville, TX",
-      "pay": "18.07 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Enhanced-Part-Time-Driver/-in-Lewisville,TX?jid=f0b2c9c7852adb46",
+      "pay": "16.00–16.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Texas-Industrial-Security/Job/Full-Part-Time-Unarmed-Officers-For-Lewisville-Coppell-Area/-in-Lewisville,TX?jid=24a7a37eb0dbc4d5",
       "via": "via ZipRecruiter"
     },
     {
@@ -22,9 +22,29 @@
       "location": "Lewisville, TX",
       "pay": "14–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4297713021",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4435991682",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer (Unarmed)",
+      "company": "Tarian",
+      "location": "Lewisville, TX",
+      "pay": "17.32 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Lewisville,TX?jid=8190fb53dff8bbea",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Enhanced Part Time Driver",
+      "company": "Allied Universal",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-enhanced-part-time-driver/22950/97481237072",
+      "via": "via Allied Universal"
     },
     {
       "title": "Store Security & Loss Prevention Pro",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.jobleads.com/us/job/store-security-loss-prevention-pro--lewisville--e6fd1871872f4859c044111ba01e34090",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Lewisville, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/lewisville/texas/security/5258623298/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "US Navy",
-      "location": "Lewisville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobilize.com/job/us-tx-lewisville-military-security-officer-navy-hiring-now-job-immediately",
-      "via": "via Jobilize"
     }
   ]
 }

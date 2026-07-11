@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/level-2-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Level 2 Security Officer ( Part time)",
-      "company": "RELIANCE SECURITY SERVICES",
-      "location": "Fort Worth, TX",
-      "pay": "15–16 an hour",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0d5fb96060fe0bdc",
+      "title": "Level II Security Officers – Family Entertainment Venue (Part Time - Weekends and Evenings)",
+      "company": "Ophion Tactical Security LLC",
+      "location": "McKinney, TX",
+      "pay": "20–22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=5d52d737f471cbd2",
       "via": "via Indeed"
     },
     {
-      "title": "Security Guard Level II Armed Supervisor",
-      "company": "Koniag",
-      "location": "Dallas, TX",
+      "title": "Part-Time Security Officer Level 2",
+      "company": "First Responder Protective Services",
+      "location": "Grapevine, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobilize.com/job/us-tx-grapevine-part-time-security-officer-level-2-first-responder",
       "via": "via Jobilize"
     },
     {
-      "title": "Senior Armed Security Supervisor (Level II)",
+      "title": "Part-Time Security Officer (Level 2)",
+      "company": "First Responder Protective Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://lensa.com/job-v1/first-responder-protective-services/dallas-tx/security-officer-part-time/a642592fa31b732d8d84d24e07ba5b54",
+      "via": "via Lensa"
+    },
+    {
+      "title": "Level 2 Security Officer",
+      "company": "Axis Protection, LLC",
+      "location": "Fort Worth, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c3e34c77e94ba88d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Guard Level II",
       "company": "Koniag Government Services",
       "location": "Dallas, TX",
-      "pay": "35K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/senior-armed-security-supervisor-level-ii--dallas--ed3504340bf6a46f998c41525a1c49c9d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Guard Level II Armed",
-      "company": "Koniag Government Services",
-      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-koniag-government-services",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Security Officer Level II-Full",
-      "company": "SEI Inc Security",
-      "location": "Grand Prairie, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobilize.com/job/us-tx-grand-prairie-security-officer-level-ii-full-sei-hiring-now",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://us.trabajo.org/job-4023-3f55e6e1eb828b2651ddd6dc38781824",
+      "via": "via Trabajo.org"
     }
   ]
 }

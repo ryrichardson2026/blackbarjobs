@@ -1,61 +1,60 @@
 {
-  "generated": "2026-07-09T06:37:31Z",
-  "page": "austin/jobs/armed-overnight-security-austin.html",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "page": "austin/jobs/armed-overnight-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 0,
   "jobs": [
     {
-      "title": "Security Officer-Armed",
-      "company": "Ascension",
+      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
+      "company": "Ranger Protection Agency",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "23 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4436244729",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Response",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4439378792",
       "via": "via LinkedIn"
     },
     {
-      "title": "L3 Commissioned Security Officer ARMED POST- AUSTIN - 40-50 hours/wk (4-5 nights) OVERNIGHTS",
-      "company": "Ranger Protection Agency",
+      "title": "Full Time Security Officer Needed for University Environment",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Technician I",
+      "company": "CBX Solutions, LLC",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2925e86a1c847869",
-      "via": "via Indeed"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-technician-i-at-cbx-solutions-llc-4439380009",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Alliedbarton Security Services is hiring: Security Officer Armed Driver Patrol in Austin",
-      "company": "Alliedbarton Security Services",
+      "title": "Security Officer Part Time Welcome Desk",
+      "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/92BAFC9A87F76B72",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Alliedbarton Security Services is hiring: Security Officer Armed Patrol Unit in Austin",
-      "company": "Alliedbarton Security Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/598B89DC9E46B496",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Level 3 Armed Security",
-      "company": "Next Level Security, LLC",
-      "location": "Austin, TX",
-      "pay": "25 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a8f99390a0db73cf",
-      "via": "via Indeed"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-welcome-desk-at-allied-universal-4439372932",
+      "via": "via LinkedIn"
     }
-  ],
-  "seed_note": "SEED from armed-security-austin; run bbj_feed_fetch.py + snapshot to replace with armed-overnight-security-austin results"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/garland-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force- #C19105",
+      "location": "Garland, TX",
+      "pay": "20–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a6bfda3ff798141a",
+      "via": "via Indeed"
+    },
+    {
       "title": "Security Officer - Garland",
       "company": "DSI Security Services",
       "location": "Garland, TX",
       "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-Garland/-in-Garland,TX?jid=086cab24bdbeade1",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "5340 - Security Officer L1 (Hiring Immediately)",
+      "company": "NTT DATA",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/5340-security-officer-l1/garland-texas?id=2866405442",
+      "via": "via WhatJobs"
     },
     {
       "title": "Security Officer L1 Onsite, On-Call, Growth-Oriented",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.whatjobs.com/jobs/security-officer-hiring-immediately/garland-texas?id=2864552215",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "5340 - Security Officer L1 (Hiring Immediately)",
-      "company": "NTT DATA",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/5340-security-officer-l1/garland-texas?id=2866405442",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Guard Unarmed Patrol Security Clearance",
-      "company": "Allied Universal",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/garland-tx/security-guard-unarmed-patrol-security-clearance-961099/",
-      "via": "via Women For Hire- Job Board"
     }
   ]
 }

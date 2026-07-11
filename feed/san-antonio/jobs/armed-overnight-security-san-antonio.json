@@ -1,61 +1,60 @@
 {
-  "generated": "2026-07-09T05:59:39Z",
-  "page": "san-antonio/jobs/armed-overnight-security-san-antonio.html",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "page": "san-antonio/jobs/armed-overnight-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 1,
   "jobs": [
     {
-      "title": "Armed Security Officer: Part-Time & Growth",
-      "company": "Alliedbarton Security Services",
+      "title": "Armed Security Officer - Overnight & Weekend; San Antonio",
+      "company": "Statewide Patrol",
       "location": "San Antonio, TX",
-      "pay": "15\u201316 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5257001218/e/",
+      "pay": "12–18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5276534981/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "San Antonio Armed Security- Rapid Response Officer",
-      "company": "Quality Security Services",
+      "title": "Level III Campus Security Officer; School",
+      "company": "Valorforces",
+      "location": "San Antonio, TX",
+      "pay": "24,796–27,552 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Installer",
+      "company": "Johnson Controls",
+      "location": "San Antonio, TX",
+      "pay": "26–34 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-installer-at-johnson-controls-4436636182",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "La Mansion | Loss Prevention Officer Overnight",
+      "company": "Omni Hotels & Resorts",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3587779ae54fccea",
+      "schedule": "Internship",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/la-mansion-loss-prevention-officer-overnight-at-omni-hotels-resorts-4438372319",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Training Compliance Officer - West with Security Clearance",
+      "company": "Cencore Group",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e147b42621bb625e",
       "via": "via Indeed"
-    },
-    {
-      "title": "Part-Time Armed Driver Patrol \u2014 Retail Security",
-      "company": "Alliedbarton Security Services",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-armed-driver-patrol-retail-security--san-antonio--ecf20c05b99d17b970959fc7b989d911e",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Armed Security Flex Officer: Flexible Shifts, Growth",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "16K\u201320K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-flex-officer-flexible-shifts-growth--san-antonio--ee58a358e79cf001d12c7987351fca87b",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Armed Security Officer TS/SCI w/ Poly (Part Time ) Jobs",
-      "company": "Patriot Group International, Inc.",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.clearancejobs.com/jobs/9001732/armed-security-officer-tssci-w-poly-part-time",
-      "via": "via Security Clearance Jobs"
     }
-  ],
-  "seed_note": "SEED from armed-security-san-antonio; run bbj_feed_fetch.py + snapshot to replace with armed-overnight-security-san-antonio results"
+  ]
 }

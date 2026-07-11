@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/north-richland-hills-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -27,16 +27,6 @@
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Guard; shifts",
-      "company": "Excelsior Defense",
-      "location": "North Richland Hills, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/north-richland-hills/texas/security/5258623883/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Security",
       "company": "TradeJobsWorkforce",
       "location": "North Richland Hills, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-02",
       "apply_link": "https://www.snagajob.com/jobs/1275013495",
       "via": "via Snagajob"
+    },
+    {
+      "title": "Detention Center Security Officer Vigilant & Responsive",
+      "company": "GardaWorld Federal Services",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-02",
+      "apply_link": "https://bebee.com/us/jobs/detention-center-security-officer-vigilant-responsive-gardaworld-federal-services-north-richland-hil--appcast-7428_667b283e24f9c75a512cf017ddc0323a25a0a76fb6e4e3fa4e0428a6c27b5c5b",
+      "via": "via BeBee"
     }
   ]
 }

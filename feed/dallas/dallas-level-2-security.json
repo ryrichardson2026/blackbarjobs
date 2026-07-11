@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-level-2-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Guard Level II Armed Supervisor",
-      "company": "Koniag",
+      "title": "Part-Time Security Officer (Level 2)",
+      "company": "First Responder Protective Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://lensa.com/job-v1/first-responder-protective-services/dallas-tx/security-officer-part-time/a642592fa31b732d8d84d24e07ba5b54",
+      "via": "via Lensa"
+    },
+    {
+      "title": "Security Guard Level II",
+      "company": "Koniag Government Services",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://us.trabajo.org/job-4023-3f55e6e1eb828b2651ddd6dc38781824",
+      "via": "via Trabajo.org"
     },
     {
       "title": "Senior Armed Security Supervisor (Level II)",
@@ -37,24 +47,14 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Security Guard Level II Armed",
+      "title": "Security Guard Level II Armed Supervisor",
       "company": "Koniag",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-koniag-hiring-now-job-immediately",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Level 2 Security Officer - Immediate Hiring in Dallas",
-      "company": "Brosnan Risk Consultants",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.get.it/job/level-2-security-officer-immediate-hiring-in-dallas-in-dallas-tx-at-brosnan-risk-consultants-ga_625687019317690888",
-      "via": "via Get.It"
     }
   ]
 }

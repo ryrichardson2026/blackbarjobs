@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/cedar-hill-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -27,16 +27,6 @@
       "via": "via WhatJobs"
     },
     {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Cedar Hill, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623308/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Security Guard; shifts",
       "company": "Excelsior Defense",
       "location": "Cedar Hill, TX",
@@ -44,6 +34,16 @@
       "schedule": "Full-time and Part-time",
       "posted_date": "2026-07-04",
       "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623840/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Evening Armed Guard; PT",
+      "company": "Excelsior Defense",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623308/e/",
       "via": "via Learn4Good"
     },
     {

@@ -1,61 +1,60 @@
 {
-  "generated": "2026-07-09T05:43:48Z",
-  "page": "houston/jobs/overnight-warehouse-security-houston.html",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "page": "houston/jobs/overnight-warehouse-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 0,
   "jobs": [
     {
-      "title": "Security Professional Flex Officer- Warehouse PT",
-      "company": "Allied Universal",
+      "title": "Security Receptionist",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-professional-flex-officer-warehouse-pt-at-allied-universal-4437740494",
+      "pay": "16–17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
       "via": "via LinkedIn"
     },
     {
-      "title": "Industrial/Warehouse Security (TWIC CARD)",
-      "company": "GuardTexas \u2013 Houston",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/guardtexas-8211-houston/industrial-warehouse-security-twic-card/",
-      "via": "via Security Guards Only"
-    },
-    {
-      "title": "Security Officer - Warehouse",
-      "company": "GardaWorld",
-      "location": "North Houston, TX",
-      "pay": null,
+      "title": "Unarmed Security Officer",
+      "company": "CULPEPPER & ASSOCIATES SECURITY SERVICES INC",
+      "location": "Harris County, TX",
+      "pay": "3,667 a month",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.adzuna.com/details/5787671499",
-      "via": "via Adzuna"
-    },
-    {
-      "title": "Security Officer - Warehouse",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
-      "via": "via GardaWorld - GardaWorld Security"
-    },
-    {
-      "title": "Security Guard Patrol- Warehouse",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": "2.5K a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-16",
-      "apply_link": "https://bebee.com/us/jobs/security-guard-patrol-warehouse-allied-universal-us-tx-houston--theirstack-731677025",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-culpepper-associates-security-services-inc-houston-va-houston-tx-77030--t7xk-757265259",
       "via": "via BeBee"
+    },
+    {
+      "title": "Security Site Manager",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Rosenberg, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-site-manager-at-securitas-security-services-usa-inc-4436641247",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Weekend Security Officer - Downtown - 77002",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ae9c86d08bb3b008",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Unarmed Patrol",
+      "company": "Allied Universal",
+      "location": "Texas City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-patrol-at-allied-universal-4438904288",
+      "via": "via LinkedIn"
     }
-  ],
-  "seed_note": "SEED from market warehouse feed; run bbj_feed_fetch.py + snapshot to replace with the overnight-warehouse query results"
+  ]
 }

@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/desoto-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Healthcare Security Officer — Part-Time",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": "18–21 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.learn4good.com/jobs/desoto/texas/security/5276406465/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force- #C19105",
+      "location": "DeSoto, TX",
+      "pay": "20–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ebf9d29217ee4a51",
+      "via": "via Indeed"
+    },
     {
       "title": "Tech Site Unarmed Security Patrol",
       "company": "Allied Universal",
@@ -17,24 +37,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Security Officer Patrol Driver Experience Required",
-      "company": "Allied Universal",
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
       "location": "DeSoto, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-experience-required-at-allied-universal-4437732043",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer -Clinical Patrol",
-      "company": "Allied Universal",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d51f85a2380be343",
-      "via": "via Indeed"
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Security Officer Driver Mobile Patrol",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-mobile-patrol-at-allied-universal-4437727203",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Desoto,TX?jid=e48514d5236e4d34",
-      "via": "via ZipRecruiter"
     }
   ]
 }

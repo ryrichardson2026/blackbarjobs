@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/forney-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security Officer Elite Route Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.learn4good.com/jobs/forney/texas/security/5277779310/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "School Resource Security Officer",
+      "company": "United Protective Services",
+      "location": "Forney, TX",
+      "pay": "16.25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.glassdoor.com/job-listing/school-resource-security-officer-united-protective-services-JV_IC1139991_KO0,32_KE33,59.htm?jl=1010195611838",
+      "via": "via Glassdoor"
+    },
     {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
       "company": "Airport Security Careers",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.jobilize.com/job/us-tx-forney-military-security-officer-navy-hiring-now-job-immediately",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Director of Operations",
-      "company": "Andy Frain Services",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://salutemyjob.com/jobs/director-of-operations-forney-texas/2854760940-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Military Security Officer - Full-time",
-      "company": "U.S. Navy",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.snagajob.com/jobs/1242586965",
-      "via": "via Snagajob"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:54:03.678890+00:00",
+  "generated": "2026-07-11T15:06:03.776490+00:00",
   "page": "dallas/dallas-loss-prevention",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Loss Prevention Officer | FT",
-      "company": "Omni Hotels & Resorts",
+      "title": "Asset Protection Outlet Associate - Park Lane",
+      "company": "BLOOMINGDALE'S",
       "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Internship",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://us.fashionjobs.com/job/bloomingdale-s/Asset-protection-outlet-associate-park-lane,11605486.html",
+      "via": "via Fashion Jobs"
+    },
+    {
+      "title": "Security & Loss Prevention Specialist",
+      "company": "Target",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://bebee.com/us/jobs/security-loss-prevention-specialist-target-dallas--lensa-7428_b2ede378377ebe0796017945a1236bc3c109b88badb41c14eeea505dbacac4a0",
+      "via": "via BeBee"
+    },
+    {
+      "title": "ORC Investigator - Field-Driven Loss Prevention Pro",
+      "company": "Triumph Protection Group",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-ft-at-omni-hotels-resorts-4436259468",
-      "via": "via LinkedIn"
+      "apply_link": "https://bebee.com/us/jobs/orc-investigator-field-driven-loss-prevention-pro-triumph-protection-group-dallas--lensa-7428_e9efabb70db9d30720deea14d02eb627b1961a87b9775430c0ffe05d349d035e",
+      "via": "via BeBee"
     },
     {
       "title": "Senior Loss Prevention & Security Manager at Omni Hotels Dallas, TX",
@@ -27,34 +47,14 @@
       "via": "via Brackenridge Construction"
     },
     {
-      "title": "Senior Asset Protection Specialist: Security Lead",
-      "company": "HelloFresh",
-      "location": "Dallas, TX",
-      "pay": "48K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.jobleads.com/us/job/senior-asset-protection-specialist-security-lead--dallas--e770f9a9fc35d67a224127f3ed85eba2a",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Overnight Loss Prevention Supervisor",
+      "title": "Loss Prevention Officer | FT",
       "company": "Omni Hotels & Resorts",
       "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e85a075743cb5bbb",
+      "schedule": null,
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.indeed.com/viewjob?jk=039439f0825d5b14",
       "via": "via Indeed"
-    },
-    {
-      "title": "Assistant Loss Prevention Manager",
-      "company": "Marriott",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://careers.marriott.com/assistant-loss-prevention-manager/job/968725A7781842B8A99B92ADE6C9610C",
-      "via": "via Marriott Careers"
     }
   ]
 }
