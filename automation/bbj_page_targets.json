@@ -1,5 +1,5 @@
 {
-  "pages": 211,
+  "pages": 244,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -2451,6 +2451,237 @@
       "city": "san-antonio",
       "city_major": true,
       "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/index",
+      "path": "chicago/index.html",
+      "market": "Chicago",
+      "role": "general",
+      "city": null,
+      "city_major": false,
+      "target_type": "general",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/unarmed-security-chicago",
+      "path": "chicago/jobs/unarmed-security-chicago.html",
+      "market": "Chicago",
+      "role": "unarmed",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/armed-security-chicago",
+      "path": "chicago/jobs/armed-security-chicago.html",
+      "market": "Chicago",
+      "role": "armed",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/overnight-security-chicago",
+      "path": "chicago/jobs/overnight-security-chicago.html",
+      "market": "Chicago",
+      "role": "overnight",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/event-security-chicago",
+      "path": "chicago/jobs/event-security-chicago.html",
+      "market": "Chicago",
+      "role": "event",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/loss-prevention-chicago",
+      "path": "chicago/jobs/loss-prevention-chicago.html",
+      "market": "Chicago",
+      "role": "loss-prevention",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/airport-security-chicago",
+      "path": "chicago/jobs/airport-security-chicago.html",
+      "market": "Chicago",
+      "role": "airport-tsa",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/corporate-security-chicago",
+      "path": "chicago/jobs/corporate-security-chicago.html",
+      "market": "Chicago",
+      "role": "corporate",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/hospital-security-chicago",
+      "path": "chicago/jobs/hospital-security-chicago.html",
+      "market": "Chicago",
+      "role": "hospital-healthcare",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/hotel-security-chicago",
+      "path": "chicago/jobs/hotel-security-chicago.html",
+      "market": "Chicago",
+      "role": "hotel",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/campus-security-chicago",
+      "path": "chicago/jobs/campus-security-chicago.html",
+      "market": "Chicago",
+      "role": "university",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/dispatch-security-chicago",
+      "path": "chicago/jobs/dispatch-security-chicago.html",
+      "market": "Chicago",
+      "role": "dispatch",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/data-center-security-chicago",
+      "path": "chicago/jobs/data-center-security-chicago.html",
+      "market": "Chicago",
+      "role": "data-center",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/warehouse-security-chicago",
+      "path": "chicago/jobs/warehouse-security-chicago.html",
+      "market": "Chicago",
+      "role": "warehouse",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/manufacturing-security-chicago",
+      "path": "chicago/jobs/manufacturing-security-chicago.html",
+      "market": "Chicago",
+      "role": "manufacturing",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/industrial-security-chicago",
+      "path": "chicago/jobs/industrial-security-chicago.html",
+      "market": "Chicago",
+      "role": "industrial",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/security-officer-joliet",
+      "path": "chicago/jobs/security-officer-joliet.html",
+      "market": "Chicago",
+      "role": null,
+      "city": "joliet",
+      "city_major": false,
+      "target_type": "city",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/overnight-warehouse-security-joliet",
+      "path": "chicago/jobs/overnight-warehouse-security-joliet.html",
+      "market": "Chicago",
+      "role": "overnight-warehouse",
+      "city": "joliet",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/security-officer-naperville",
+      "path": "chicago/jobs/security-officer-naperville.html",
+      "market": "Chicago",
+      "role": null,
+      "city": "naperville",
+      "city_major": false,
+      "target_type": "city",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/security-officer-aurora",
+      "path": "chicago/jobs/security-officer-aurora.html",
+      "market": "Chicago",
+      "role": null,
+      "city": "aurora",
+      "city_major": false,
+      "target_type": "city",
+      "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/security-officer-schaumburg",
+      "path": "chicago/jobs/security-officer-schaumburg.html",
+      "market": "Chicago",
+      "role": null,
+      "city": "schaumburg",
+      "city_major": false,
+      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     }

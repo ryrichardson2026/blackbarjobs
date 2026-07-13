@@ -63,6 +63,13 @@ def city_str(token):
     return (token or "").replace("-", " ").lower()
 
 
+# Supabase market label -> board.json slug (DFW is the only non-lowercase-hyphen case)
+MARKET_SLUG = {"DFW": "dallas"}
+def market_slug(m):
+    m = (m or "").strip()
+    return MARKET_SLUG.get(m, m.lower().replace(" ", "-"))
+
+
 # ---------- Supabase read -----------------------------------------------------
 def fetch_active_jobs(base, key):
     rest = base.rstrip("/") + "/rest/v1"
@@ -178,6 +185,29 @@ def main():
             summary["empty"].append(t["key"])
         elif n_exact == 0:
             summary["fallback_heavy"].append(t["key"])
+
+    # ---- master board feed: ALL active jobs, deduped by apply_link, newest-first ----
+    # Always built from the full active set (fetch is never market-scoped), so a
+    # --market run still refreshes the global board rather than clobbering it.
+    board = []
+    seen_apply = set()
+    for j in sorted(jobs, key=rank_key):
+        al = j.get("apply_link")
+        if al and al in seen_apply:
+            continue
+        if al:
+            seen_apply.add(al)
+        row = render_job(j)
+        row["market"] = market_slug(j.get("market"))
+        board.append(row)
+    with open(os.path.join(args.out, "board.json"), "w", encoding="utf-8") as f:
+        json.dump({"generated": now, "count": len(board), "jobs": board},
+                  f, indent=2, ensure_ascii=False)
+    _bym = {}
+    for r in board:
+        _bym[r["market"]] = _bym.get(r["market"], 0) + 1
+    print("Wrote board.json: %d jobs (%s)" %
+          (len(board), ", ".join("%s=%d" % (k, _bym[k]) for k in sorted(_bym))))
 
     with open(os.path.join(args.out, "_manifest.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)

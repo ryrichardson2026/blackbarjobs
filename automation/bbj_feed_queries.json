@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-09T06:37:31Z",
-  "feed_pages": 221,
-  "distinct_queries": 176,
-  "pages_per_query": 3,
+  "feed_pages": 232,
+  "distinct_queries": 197,
+  "pages_per_query": 1.213,
   "queries": [
     {
       "key": "DFW::security officer jobs Dallas TX",
@@ -1804,6 +1804,216 @@
       "qtype": "city-role",
       "pages": [
         "austin/jobs/armed-overnight-security-austin.html"
+      ]
+    },
+    {
+      "key": "Chicago::security officer Chicago",
+      "metro": "Chicago",
+      "role": "general",
+      "query": "security officer Chicago",
+      "qtype": "city",
+      "pages": [
+        "chicago/index.html"
+      ]
+    },
+    {
+      "key": "Chicago::unarmed security officer Chicago",
+      "metro": "Chicago",
+      "role": "unarmed",
+      "query": "unarmed security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/unarmed-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::armed security officer Chicago",
+      "metro": "Chicago",
+      "role": "armed",
+      "query": "armed security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/armed-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::overnight security officer Chicago",
+      "metro": "Chicago",
+      "role": "overnight",
+      "query": "overnight security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/overnight-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::event security officer Chicago",
+      "metro": "Chicago",
+      "role": "event",
+      "query": "event security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/event-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::loss prevention officer Chicago",
+      "metro": "Chicago",
+      "role": "loss-prevention",
+      "query": "loss prevention officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/loss-prevention-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::airport security officer Chicago",
+      "metro": "Chicago",
+      "role": "airport-tsa",
+      "query": "airport security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/airport-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::corporate security officer Chicago",
+      "metro": "Chicago",
+      "role": "corporate",
+      "query": "corporate security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/corporate-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::hospital security officer Chicago",
+      "metro": "Chicago",
+      "role": "hospital-healthcare",
+      "query": "hospital security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/hospital-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::hotel security officer Chicago",
+      "metro": "Chicago",
+      "role": "hotel",
+      "query": "hotel security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/hotel-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::campus security officer Chicago",
+      "metro": "Chicago",
+      "role": "university",
+      "query": "campus security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/campus-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::security dispatcher Chicago",
+      "metro": "Chicago",
+      "role": "dispatch",
+      "query": "security dispatcher Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/dispatch-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::data center security officer Chicago",
+      "metro": "Chicago",
+      "role": "data-center",
+      "query": "data center security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/data-center-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::warehouse security officer Chicago",
+      "metro": "Chicago",
+      "role": "warehouse",
+      "query": "warehouse security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/warehouse-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::manufacturing security officer Chicago",
+      "metro": "Chicago",
+      "role": "manufacturing",
+      "query": "manufacturing security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/manufacturing-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::industrial security officer Chicago",
+      "metro": "Chicago",
+      "role": "industrial",
+      "query": "industrial security officer Chicago",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/industrial-security-chicago.html"
+      ]
+    },
+    {
+      "key": "Chicago::security officer Joliet",
+      "metro": "Chicago",
+      "role": "general",
+      "query": "security officer Joliet",
+      "qtype": "city",
+      "pages": [
+        "chicago/jobs/security-officer-joliet.html"
+      ]
+    },
+    {
+      "key": "Chicago::overnight warehouse security officer Joliet",
+      "metro": "Chicago",
+      "role": "overnight-warehouse",
+      "query": "overnight warehouse security officer Joliet",
+      "qtype": "city-role",
+      "pages": [
+        "chicago/jobs/overnight-warehouse-security-joliet.html"
+      ]
+    },
+    {
+      "key": "Chicago::security officer Naperville",
+      "metro": "Chicago",
+      "role": "general",
+      "query": "security officer Naperville",
+      "qtype": "city",
+      "pages": [
+        "chicago/jobs/security-officer-naperville.html"
+      ]
+    },
+    {
+      "key": "Chicago::security officer Aurora",
+      "metro": "Chicago",
+      "role": "general",
+      "query": "security officer Aurora",
+      "qtype": "city",
+      "pages": [
+        "chicago/jobs/security-officer-aurora.html"
+      ]
+    },
+    {
+      "key": "Chicago::security officer Schaumburg",
+      "metro": "Chicago",
+      "role": "general",
+      "query": "security officer Schaumburg",
+      "qtype": "city",
+      "pages": [
+        "chicago/jobs/security-officer-schaumburg.html"
       ]
     }
   ]
