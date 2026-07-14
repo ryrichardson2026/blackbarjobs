@@ -252,6 +252,33 @@ def bake_page(html, feed_key, feed_dir, bake_date):
 
 # ---- sitemap lastmod bump -------------------------------------------------
 
+def enumerate_walk(repo, walk_dir):
+    """Enumerate bakeable *.html under walk_dir: a page qualifies if it carries a
+    BBJ_FEED_KEY and a #jobRows or #indexJobFeed container. Returns (scope, skipped)
+    where scope is a list of {"path": rel} and skipped lists pages intentionally not
+    baked (pillar/guide/apply pages with no feed). Source of truth is the page
+    itself, so a stale manifest cannot cause pages to be silently missed."""
+    base = os.path.join(repo, walk_dir)
+    scope, skipped = [], []
+    for root, dirs, files in os.walk(base):
+        dirs[:] = [d for d in dirs if d not in (".git", "node_modules", ".vercel")]
+        for f in sorted(files):
+            if not f.endswith(".html"):
+                continue
+            full = os.path.join(root, f)
+            rel = os.path.relpath(full, repo).replace(os.sep, "/")
+            with open(full, encoding="utf-8", newline="") as fh:
+                html = fh.read()
+            if not KEY_RE.search(html):
+                skipped.append(rel + "  (no BBJ_FEED_KEY)")
+                continue
+            if 'id="jobRows"' not in html and 'id="indexJobFeed"' not in html:
+                skipped.append(rel + "  (no feed container)")
+                continue
+            scope.append({"path": rel})
+    scope.sort(key=lambda t: t["path"])
+    return scope, skipped
+
 def page_to_loc(path):
     """Map a repo-relative page path to its sitemap <loc> URL."""
     url = path.replace(os.sep, "/")
@@ -298,6 +325,9 @@ def main():
     ap.add_argument("--targets", default="bbj_page_targets.json")
     ap.add_argument("--market", required=True)
     ap.add_argument("--pages", nargs="*", help="restrict to these repo-relative paths")
+    ap.add_argument("--walk-dir", help="bake every *.html under this dir using each "
+                    "page's own embedded BBJ_FEED_KEY, bypassing the manifest. For "
+                    "markets whose manifest is stale (e.g. DFW after the restructure).")
     ap.add_argument("--date", help="bake date YYYY-MM-DD (default: today)")
     ap.add_argument("--sitemap", default="sitemap.xml")
     ap.add_argument("--no-sitemap", action="store_true")
@@ -310,29 +340,39 @@ def main():
     repo = args.repo
     feed_dir = os.path.join(repo, "feed")
 
-    targets = json.load(open(os.path.join(repo, args.targets), encoding="utf-8"))["targets"]
-    market = [t for t in targets if t["market"].lower() == args.market.lower()]
-
-    # split real vs phantom (target path with no file on disk)
-    real, phantom = [], []
-    for t in market:
-        (real if os.path.exists(os.path.join(repo, t["path"])) else phantom).append(t)
-
-    if args.pages:
-        want = {p.replace("\\", "/") for p in args.pages}
-        scope = [t for t in real if t["path"].replace("\\", "/") in want]
+    if args.walk_dir:
+        scope, skipped = enumerate_walk(repo, args.walk_dir)
+        print("=== bbj_feed_bake  market=%s  date=%s  [WALK-DIR %s]%s ===" %
+              (args.market, bake_iso, args.walk_dir,
+               "  [DRY-RUN]" if args.dry_run else ""))
+        print("bakeable pages found:   %d" % len(scope))
+        print("skipped (no key/container, NOT baked): %d" % len(skipped))
+        for p in skipped:
+            print("   - %s" % p)
     else:
-        scope = real
+        targets = json.load(open(os.path.join(repo, args.targets), encoding="utf-8"))["targets"]
+        market = [t for t in targets if t["market"].lower() == args.market.lower()]
 
-    print("=== bbj_feed_bake  market=%s  date=%s%s ===" %
-          (args.market, bake_iso, "  [DRY-RUN]" if args.dry_run else ""))
-    print("targets in market:      %d" % len(market))
-    print("real (file exists):     %d" % len(real))
-    print("in scope this run:      %d" % len(scope))
-    if phantom:
-        print("PHANTOM targets (no file on disk, NOT touched, flag for manifest cleanup):")
-        for t in phantom:
-            print("   - %s" % t["path"])
+        # split real vs phantom (target path with no file on disk)
+        real, phantom = [], []
+        for t in market:
+            (real if os.path.exists(os.path.join(repo, t["path"])) else phantom).append(t)
+
+        if args.pages:
+            want = {p.replace("\\", "/") for p in args.pages}
+            scope = [t for t in real if t["path"].replace("\\", "/") in want]
+        else:
+            scope = real
+
+        print("=== bbj_feed_bake  market=%s  date=%s%s ===" %
+              (args.market, bake_iso, "  [DRY-RUN]" if args.dry_run else ""))
+        print("targets in market:      %d" % len(market))
+        print("real (file exists):     %d" % len(real))
+        print("in scope this run:      %d" % len(scope))
+        if phantom:
+            print("PHANTOM targets (no file on disk, NOT touched, flag for manifest cleanup):")
+            for t in phantom:
+                print("   - %s" % t["path"])
 
     changed_paths, errors, baked = [], [], 0
     for t in scope:
