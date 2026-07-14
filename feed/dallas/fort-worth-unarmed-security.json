@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/fort-worth-unarmed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Patrol Officer – DC Night Shift",
+      "title": "Unarmed Security Officer - Public Safety & Patrol Fort Worth",
+      "company": "jobr.pro",
+      "location": "Fort Worth, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-public-safety-patrol-fort-worth--fort-worth--ee9f435d504f27b8827e7fe5757b47876",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Tech Campus Security Patrol Driver (Unarmed)",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5267532272/e/",
-      "via": "via Learn4Good"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobleads.com/us/job/tech-campus-security-patrol-driver-unarmed--fort-worth--e36a92a10f13d525d53811c8a1fee3c5c",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Fort-Worth,TX?jid=0c71dede16579233",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Unarmed Security Gate Officer: 3rd Shift",
@@ -27,34 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
+      "title": "Unarmed Security Gate Officer: 3rd Shift",
+      "company": "Marksman Security LLC",
       "location": "Fort Worth, TX",
-      "pay": null,
+      "pay": "17 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Fort-Worth,TX?jid=0c71dede16579233",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Security Guard",
-      "company": "BKS Security",
-      "location": "Fort Worth, TX",
-      "pay": "20–21 an hour",
-      "schedule": "Full-time, Part-time, and Contractor",
       "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d3baaf99328e7874",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Tech Site Security Officer - Day Shift (Unarmed)",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/tech-site-security-officer-day-shift-unarmed--fort-worth--e000e79bf9057d59d7ec65f8ec58e16c2",
-      "via": "via JobLeads"
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Unarmed-Security-Gate-Officer:-3rd-Shift/-in-Fort-Worth,TX?jid=c4410940f23b7da5",
+      "via": "via ZipRecruiter"
     }
   ]
 }

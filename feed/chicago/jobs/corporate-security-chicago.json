@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.895874+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/corporate-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Corporate Security Officer",
-      "company": "Titan Security Group",
+      "title": "Manager, Corporate Security Manager, Corporate Security with verification",
+      "company": "Secure Options Consulting, LLC",
       "location": "Chicago, IL",
-      "pay": "20-23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/manager-corporate-security-manager-corporate-security-with-verification-at-secure-options-consulting-llc-4436660117",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Lobby Security Officer",
+      "title": "Head of Corporate Security",
+      "company": "Invenergy",
+      "location": "Chicago, IL",
+      "pay": "149K–206K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://us.trabajo.org/job-2283-22d417d7fddb2788e4f3eaffd0dbdc25",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Executive Protection & Corporate Security Training Manager",
+      "company": "Constellation Brands",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-04",
+      "apply_link": "https://www.linkedin.com/jobs/view/executive-protection-corporate-security-training-manager-at-constellation-brands-4416778638",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Corporate Security Agent",
+      "company": "Crisis24",
+      "location": "Chicago, IL",
+      "pay": "79,040 a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://tallo.com/talent/job/law-and-public-safety/security-officer/il/chicago/corporate-security-agent-351a2347",
+      "via": "via Tallo"
+    },
+    {
+      "title": "Security Officer – Downtown Corporate Site",
       "company": "Allied Universal",
-      "location": "Chicago, IL (Loop)",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Concierge Security Officer",
-      "company": "Securitas",
       "location": "Chicago, IL",
-      "pay": "19-22 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Console Operator",
-      "company": "GardaWorld",
-      "location": "Chicago, IL",
-      "pay": "21-24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "High-Rise Security Officer",
-      "company": "Monterrey Security",
-      "location": "Chicago, IL",
-      "pay": "20-23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/allied-universal/security-officer-downtown-corporate-site-20991559/",
+      "via": "via Talents By Vaia"
     }
   ]
 }

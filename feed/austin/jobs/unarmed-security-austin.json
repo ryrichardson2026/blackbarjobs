@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/unarmed-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Guard - Licensed Unarmed",
+      "company": "TITAN Global Enterprises Inc",
+      "location": "Austin, TX",
+      "pay": "17–20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3057f21f5d8edcee",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Pro: Patrol, Access Control & Service",
+      "company": "GY6 Services",
+      "location": "Austin, TX",
+      "pay": "23,419–31,684 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5283579845/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "2nd & 3rd Shift Unarmed Security Officer - Full-Time (Austin)",
+      "company": "North America Security & Select Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/2nd-3rd-shift-unarmed-security-officer-full-time-austin-north-america-security-select-services-austi--lensa-7428_9b08a686c95a800d97ed30f16db39cec102cd60246e01568b577881865f33674",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Night Patrol Security Officer – Healthcare (Unarmed)",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/2769640324744609792",
+      "via": "via Jobrapido"
+    },
     {
       "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
       "company": "Allied Universal",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Unarmed Security Officers — Immediate Start in Austin",
-      "company": "North America Security & Select Services",
-      "location": "Austin, TX",
-      "pay": "48K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officers-immediate-start-in-austin--austin--efe1c0d2b015d99c7c76740bba076405d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Night-Shift Part-Time Unarmed Security Officer–Tech Campus",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "40K–52K a year",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5265051943/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Unarmed Security Patrol – Tech Campus, Growth & Benefits",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4703406812412510208",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Full-Time Security Officer - 2nd/3rd Shift (Unarmed) | Austin",
-      "company": "North America Security & Select Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-2nd-3rd/austin-texas?id=2861140702",
-      "via": "via WhatJobs"
     }
   ]
 }

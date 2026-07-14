@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-weekend-security-jobs",
   "market": "Houston",
   "target": "city-role",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Full and Part-Time Evening and Weekend Security Officers",
+      "company": "IIdon Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/-7479999745606938743",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Professional--Part Time Weekend and Night",
+      "company": "S.A.F.E. Management",
+      "location": "Houston, TX",
+      "pay": "16–22 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/5248625483709720407",
+      "via": "via Jooble"
+    },
+    {
       "title": "Weekend Security Officer - Downtown - 77002",
       "company": "United Protective Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=ae9c86d08bb3b008",
       "via": "via Indeed"
     },
@@ -27,16 +47,6 @@
       "via": "via Jooble"
     },
     {
-      "title": "Full and Part-Time Evening and Weekend Security Officers",
-      "company": "IIdon Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jooble.org/rjdp/-7479999745606938743",
-      "via": "via Jooble"
-    },
-    {
       "title": "Campus Security Officer - Night & Weekend Shifts",
       "company": "The Chronicle of Higher Education",
       "location": "Houston, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.whatjobs.com/jobs/campus-security-officer-night/houston-texas?id=2864868692",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Professional--Part Time Weekend and Night",
-      "company": "S.A.F.E. Management",
-      "location": "Houston, TX",
-      "pay": "16–22 an hour",
-      "schedule": null,
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jooble.org/rjdp/5248625483709720407",
-      "via": "via Jooble"
     }
   ]
 }

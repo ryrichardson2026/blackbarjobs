@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/construction-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
     {
       "title": "Construction Site Security Manager",
@@ -27,6 +27,16 @@
       "via": "via Moral Theologian"
     },
     {
+      "title": "Regional Construction Site Security Manager",
+      "company": "Turner & Townsend",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-25",
+      "apply_link": "https://www.linkedin.com/jobs/view/regional-construction-site-security-manager-at-turner-townsend-4432677440",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Construction Security Manager - Varies Locations",
       "company": "GardaWorld",
       "location": "Wilmer, TX (+1 other)",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://www.tealhq.com/job/construction-site-safety-security_7ea1ab1c2fb902fee2648f71bcd03522f845b",
       "via": "via Teal"
-    },
-    {
-      "title": "Security Officer Data Center",
-      "company": "Allied Universal",
-      "location": "Plano, TX",
-      "pay": "22.15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Data-Center/-in-Plano,TX?jid=3c06d53cd11e5fe5",
-      "via": "via ZipRecruiter"
     }
   ]
 }

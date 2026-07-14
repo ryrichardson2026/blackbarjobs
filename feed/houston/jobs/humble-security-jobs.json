@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/humble-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Licensed Special Event Security - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1226245929",
+      "via": "via Snagajob"
+    },
     {
       "title": "Security Officers (N)",
       "company": "Securitas Security Services USA, Inc.",
@@ -17,44 +27,34 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer (Unarmed)",
-      "company": "Tarian",
+      "title": "Campus Safety Officer",
+      "company": "New Caney Independent School District",
       "location": "Humble, TX",
-      "pay": "15.94 an hour",
+      "pay": "13.53 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Humble,TX?jid=80432ad65ef5eaea",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/New-Caney-Independent-School-District/Job/Campus-Safety-Officer/-in-Houston,TX?jid=ee3a436c4c5bdd07",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Senior Police Officer - PCN 9999",
-      "company": "HUMBLE INDEPENDENT SCHOOL DISTRICT",
+      "title": "Security Professional - No Experience Necessary",
+      "company": "Securitas Security Services USA",
       "location": "Humble, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/senior-police-officer-pcn-9999-at-humble-independent-school-district-4437325666",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/rjdp/846244918646685854",
+      "via": "via Jooble"
     },
     {
-      "title": "Police Corporal - PCN 4168",
-      "company": "HUMBLE INDEPENDENT SCHOOL DISTRICT",
+      "title": "Armed Security Patrol Driver – Part-Time",
+      "company": "Allied Universal",
       "location": "Humble, TX",
-      "pay": null,
+      "pay": "18K–21K a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/police-corporal-pcn-4168-at-humble-independent-school-district-4437318928",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Commercial Security Foot/Vehicle Patrol Security Officers for Humble, TX - Immediate Start",
-      "company": "Allied Consulting & Security Services",
-      "location": "Humble, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.indeed.com/viewjob?jk=6b7b95ecf8999562",
-      "via": "via Indeed"
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-patrol-driver-part-time--humble--e5f1b06c4c8f7e15615940452f3363a27",
+      "via": "via JobLeads"
     }
   ]
 }

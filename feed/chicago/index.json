@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T21:43:47.993991+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/index",
   "market": "Chicago",
   "target": "general",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officer",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.aus.com/careers",
-      "via": "via BlackBarJobs"
+      "title": "Unarmed Security Guard - 2nd and 3rd shifts - Weekly Pay and Benefits",
+      "company": "A & A Security Group Inc",
+      "location": "Joliet, IL",
+      "pay": "18.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3fa1a4e9d5177211",
+      "via": "via Indeed"
     },
     {
-      "title": "Overnight Security Officer",
-      "company": "Titan Security Group",
+      "title": "Armed Guard: Part-Time",
+      "company": "Silver Star Protection Group",
       "location": "Chicago, IL",
-      "pay": "20-22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.titan-security.com/careers",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-guard-part-time-at-silver-star-protection-group-4440371526",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Hospital Security Officer",
-      "company": "GardaWorld",
+      "title": "Security Sergeant - University Police",
+      "company": "University of Illinois Chicago",
       "location": "Chicago, IL",
-      "pay": "19-20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.garda.com/careers",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-sergeant-university-police-at-university-of-illinois-chicago-4440378581",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Armed Security Officer",
-      "company": "Securitas",
-      "location": "Chicago, IL",
-      "pay": "23-25 an hour",
+      "title": "Armed Security Guard (Full-Time or On-Call Only)",
+      "company": "GardaWorld Federal Services",
+      "location": "Burbank, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.securitasjobs.com",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-guard-full-time-or-on-call-only-at-gardaworld-federal-services-4440513159",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Overnight Warehouse Security Officer",
-      "company": "Sunstates Security",
-      "location": "Aurora, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Overnight",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.sunstatessecurity.com/careers",
-      "via": "via BlackBarJobs"
+      "title": "Account Manager - Data Center",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/account-manager-data-center-at-securitas-security-services-usa-inc-4437642930",
+      "via": "via LinkedIn"
     }
   ]
 }

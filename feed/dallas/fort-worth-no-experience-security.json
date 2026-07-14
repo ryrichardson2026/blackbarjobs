@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/fort-worth-no-experience-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Entry Control Security Officer — Afternoon Shifts, Fort Worth",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/entry-control-security-officer-afternoon-shifts-fort-worth--fort-worth--efb25dc7c46f056063ef5956b549ac296",
+      "via": "via JobLeads"
+    },
     {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
       "company": "Airport Security Careers",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-for/2869171175-2/",
       "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Entry-Level Security Rep - Federal Programs & Clearances",
+      "company": "Lockheed Martin Corporation",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://bebee.com/us/jobs/entry-level-security-rep-federal-programs-clearances-lockheed-martin-corporation-fort-worth--lensa-7428_25aec16b1d10377c250ce11b931899baad05cfa119a1e1b985c3eda72a4e0cb7",
+      "via": "via BeBee"
     },
     {
       "title": "TSA Security Inspector - No Experience Required",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.indeed.com/viewjob?jk=1b53abc78ef41ea3",
       "via": "via Indeed"
-    },
-    {
-      "title": "Part-Time Security Officer – Entry Control",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "22,730–32,373 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5261133447/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Flexible Part-Time Security Officer – Entry Control",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://us.jobrapido.com/jobpreview/2507762699690049536",
-      "via": "via Jobrapido"
     }
   ]
 }

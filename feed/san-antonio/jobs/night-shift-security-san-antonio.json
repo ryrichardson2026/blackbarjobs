@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/night-shift-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Access Control Officer FT: Night",
+      "company": "SITEMETRIC LLC",
+      "location": "San Antonio, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ab38f1b14237a666",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Professional--Part Time Weekend and Night",
+      "company": "Patriot Group International",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Contractor",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/rjdp/8101918312988072747",
+      "via": "via Jooble"
+    },
+    {
       "title": "La Mansion | Loss Prevention Officer Overnight",
       "company": "Omni Hotels & Resorts",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Internship",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/la-mansion-loss-prevention-officer-overnight-at-omni-hotels-resorts-4438372319",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officers - Overnight Monitoring",
-      "company": "Saint MaryS Hall",
-      "location": "San Antonio, TX",
-      "pay": "26–30 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/rjdp/-6966798796964888088",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Armed Security Officer - Overnight & Weekend; San Antonio",
-      "company": "Statewide Patrol",
-      "location": "San Antonio, TX",
-      "pay": "12–18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5276534981/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=018c8f35885d0087",
+      "via": "via Indeed"
     },
     {
-      "title": "Part & Full Time Security Officers (Overnight Shifts)",
-      "company": "SENTRYSIX International",
-      "location": "San Antonio, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/rjdp/-7045560574675408978",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Night Shift Campus Security Officer",
-      "company": "The University of Texas at San Antonio",
+      "title": "Outdoor Security Patrol — Evening/Night Shifts",
+      "company": "San Antonio Museum of Art",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/night-shift-campus-security-officer-the-university-of-texas-at-san-antonio-san-antonio-tx-united-sta--appcast-7428_1c1770a62b82f3c924e3c469d3987f90795ffa810ee1eb460fac3e07c6592c6e",
-      "via": "via BeBee"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Police (Security) Dispatchers (Swing/Night Shift Only)",
+      "company": "University of the Incarnate Word",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/8219600178285152193",
+      "via": "via Jooble"
     }
   ]
 }

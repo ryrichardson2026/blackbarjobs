@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/richardson-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Cleared (Clearance Required - Unarmed)",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-cleared-clearance-required-unarmed-at-allied-universal-4440350476",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer with Active Clearance",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-at-allied-universal-4440355326",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Level 3 Security Officer (Part-Time)",
       "company": "Shield Security & Training Solutions LLC",
@@ -17,44 +37,24 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Richardson, TX",
-      "pay": "15–24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-at-securitas-security-services-usa-inc-4436603384",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Richardson,TX?jid=a8059083e00ee0ae",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer - Software Facility",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "18 an hour",
-      "schedule": "Internship",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-software-facility-at-allied-universal-4438104622",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Patrol Unit",
+      "title": "Flexible Part-Time Lobby Security Host & Earn More Shifts",
       "company": "Allied Universal",
       "location": "Richardson, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-patrol-unit-at-allied-universal-4438102624",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/457147469206126592",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "Police Officer: Patrol, Investigations & Community Impact",
+      "company": "City of Richardson Texas",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/9008876880649122910",
+      "via": "via Jooble"
     }
   ]
 }

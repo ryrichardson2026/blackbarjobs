@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/conroe-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Patrol Agent Job at Allied Universal in Conroe",
+      "company": "Allied Universal",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.recruit.net/job/security-officer-patrol-agent-at-jobs/B265F6727242131A",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Hospital Security Officer (NCSO) - Patient Safety",
+      "company": "Texas Children's Hospital",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-ncso-patient-safety-texas-childrens-hospital-conroe--lensa-7428_ec497bb46dd89b3eed1a4d1f0a15eb535ac5bd7962d9640da1817bc320bca9ea",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Event Security",
+      "company": "Andy Frain Services",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1273999862",
+      "via": "via Snagajob"
+    },
     {
       "title": "Security Officers (N)",
       "company": "Securitas Security Services USA, Inc.",
@@ -17,44 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Surveillance Security Officer — Monitor & Respond",
-      "company": "GardaWorld",
-      "location": "Conroe, TX",
-      "pay": "32K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/conroe/texas/security/5267548093/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Officer (TWIC Required) - Temp Assignment",
-      "company": "Securitas",
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
       "location": "Conroe, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=258e876b25f849ed",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer NCSO Woodlands Campus at Texas Children's Hospital Conroe, TX",
-      "company": "Texas Children's Hospital",
-      "location": "Conroe, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://forum.escapeartists.net/job-library/job/security-officer-ncso-woodlands-campus-at-texas-childrens-hospital-conroe-tx-TVBjVzdBY0NzQXBoYU5yUUdYTlFSWXVROUE9PQ==",
-      "via": "via Escape Artists"
-    },
-    {
-      "title": "Hospital Security Officer (NCSO) - Patient Safety",
-      "company": "Texas Children's Hospital",
-      "location": "Conroe, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-ncso-patient-safety-texas-childrens-hospital-conroe--lensa-7428_ec497bb46dd89b3eed1a4d1f0a15eb535ac5bd7962d9640da1817bc320bca9ea",
-      "via": "via BeBee"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Conroe,TX?jid=8faaf10aea0a56f5",
+      "via": "via ZipRecruiter"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-bar-club-security",
   "market": "Houston",
   "target": "city-role",
@@ -27,34 +27,34 @@
       "via": "via Craigslist"
     },
     {
-      "title": "Security Receptionist",
-      "company": "Securitas Security Services USA, Inc.",
+      "title": "Level 2 Non Commissioned Officer",
+      "company": "Security King LLC",
+      "location": "Pasadena, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Security-King/Job/Level-2-Non-Commissioned-Officer/-in-Remote,US?jid=0f8335f81486d35e",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Part Time Driver",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": "14.79 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Driver/-in-Baytown,TX?jid=bde29885daa251e2",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Evening Security Officer — Luxury Hotel PM Shift",
+      "company": "Thompson Hotels",
       "location": "Houston, TX",
-      "pay": "16–17 an hour",
+      "pay": "30K–50K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "CULPEPPER & ASSOCIATES SECURITY SERVICES INC",
-      "location": "Harris County, TX",
-      "pay": "3,667 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-culpepper-associates-security-services-inc-houston-va-houston-tx-77030--t7xk-757265259",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Security Site Manager",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Rosenberg, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-site-manager-at-securitas-security-services-usa-inc-4436641247",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/evening-security-officer-luxury-hotel-pm-shift--houston--e8539f8d8197cbf59e9eae350e75733a2",
+      "via": "via JobLeads"
     }
   ]
 }

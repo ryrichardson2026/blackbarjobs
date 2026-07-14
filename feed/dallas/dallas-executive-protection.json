@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/dallas-executive-protection",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Executive Protection & Security Specialist",
-      "company": "Security Industry Specialists, Inc.",
+      "title": "Global Executive Protection Specialist - Travel-Heavy Security",
+      "company": "Gavin de Becker & Associates (GDBA)",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/executive-protection-security-specialist--dallas--e9c954ab7ec34bbaa8f110085a513e298",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/jdp/-6406673086457126846",
+      "via": "via Jooble"
     },
     {
       "title": "Executive Protection Specialist - Part-Time Travel Ready",
@@ -24,6 +24,16 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/executive-protection-specialist-part-time-travel-ready--dallas--ef084a637ffbc740dd6e1450a89fc3cae",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Executive Protection & Security Specialist",
+      "company": "Security Industry Specialists, Inc.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/executive-protection-security-specialist--dallas--e9c954ab7ec34bbaa8f110085a513e298",
       "via": "via JobLeads"
     },
     {
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://www.jobleads.com/us/job/global-executive-protection-specialist-travel-heavy-security--dallas--e67287556296f18a85ce13959b622638b",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Global Executive Protection Specialist - Travel-Heavy Security",
-      "company": "Gavin de Becker & Associates (GDBA)",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/jdp/-6406673086457126846",
-      "via": "via Jooble"
     }
   ]
 }

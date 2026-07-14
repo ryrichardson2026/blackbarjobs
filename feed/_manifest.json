@@ -1,16 +1,18 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
-  "pages": 223,
+  "generated": "2026-07-14T15:54:47.387148+00:00",
+  "pages": 226,
   "empty": [],
   "fallback_heavy": [
     "dallas/dallas-festival-security",
-    "dallas/dallas-armed-overnight-security",
     "san-antonio/jobs/residential-security-san-antonio",
-    "houston/jobs/houston-festival-security",
     "austin/jobs/armed-overnight-security-austin",
     "austin/jobs/overnight-warehouse-security-austin",
     "dallas/overnight-warehouse-security-dfw",
     "houston/jobs/overnight-warehouse-security-houston",
-    "san-antonio/jobs/overnight-warehouse-security-san-antonio"
+    "san-antonio/jobs/overnight-warehouse-security-san-antonio",
+    "chicago/jobs/dispatch-security-chicago",
+    "chicago/jobs/manufacturing-security-chicago",
+    "chicago/jobs/industrial-security-chicago",
+    "chicago/jobs/overnight-warehouse-security-joliet"
   ]
 }

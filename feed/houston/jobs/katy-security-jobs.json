@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Enhanced Part Time Credentialing",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=05eb84535eaa1aaa",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Access Control Security Officer (Night Shift)",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/8718471021012713472",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "School Security Professional",
+      "company": "Katy Independent School District",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/-4711321634866950074",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Now Hiring Security Officers",
+      "company": "Houston Methodist",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/-4733843054909139256",
+      "via": "via Jooble"
+    },
+    {
       "title": "Professional Unarmed Security Officer - Katy",
       "company": "Marksman Security",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/professional-unarmed-security-officer-katy-at-marksman-security-4439346617",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Access Operations",
-      "company": "Allied Universal",
-      "location": "Katy, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-operations-at-allied-universal-4438583457",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Job at Allied Universal in Katy",
-      "company": "Allied Universal",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.recruit.net/job/security-officer-at-allied-universal-jobs/8D27133C7885B174",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Night Shift Hospital Security Officer",
-      "company": "Dormont Manufacturing Company",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobilize.com/job/us-tx-katy-night-shift-hospital-security-officer-dormont-manufacturing",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Security Guard - Overseas with Security Clearance",
-      "company": "Continuity Global Solutions",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jooble.org/rjdp/7279838344058627918",
-      "via": "via Jooble"
     }
   ]
 }

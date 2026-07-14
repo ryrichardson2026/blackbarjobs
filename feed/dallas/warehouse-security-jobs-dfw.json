@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/warehouse-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Warehouse",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440350471",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Posting Security Shift Supervisor Warehouse",
+      "company": "Allied Universal",
+      "location": "Wilmer, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobilize.com/job/us-tx-wilmer-posting-security-shift-supervisor-warehouse-allied-universal",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Armed Warehouse Access Officer Dallas Regional Office",
+      "company": "ST MORITZ SECURITY SERVICES",
+      "location": "Grand Prairie, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobilize.com/job/us-tx-grand-prairie-armed-warehouse-access-officer-dallas-regional",
+      "via": "via Jobilize"
+    },
     {
       "title": "Hiring:Part-Time Overnight Warehouse Associate",
       "company": "Rockville Loop",
@@ -17,16 +47,6 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Surveillance Security - Warehouse",
-      "company": "GardaWorld",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/surveillance-security-warehouse-at-gardaworld-4436277604",
-      "via": "via LinkedIn"
-    },
-    {
       "title": "Warehouse Security Officer | Patrols & Incident Response",
       "company": "Alliedbarton Security Services",
       "location": "Denton, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/warehouse-security-officer-patrols-incident-response--denton--e5c8af9ead39e8bf1677d640517a52e3a",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Alliedbarton Security Services is hiring: Security Officer Flex - Warehouse in Fort Worth",
-      "company": "Alliedbarton Security Services",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.recruit.net/job/alliedbarton-security-services-is-security-jobs/B66B1A5F6C10A44C",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Security Officer Distribution Center",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "19.23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Distribution-Center/-in-Dallas,TX?jid=258ecf370494858f",
-      "via": "via ZipRecruiter"
     }
   ]
 }

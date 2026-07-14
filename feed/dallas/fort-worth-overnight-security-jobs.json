@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/fort-worth-overnight-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -17,16 +17,6 @@
       "via": "via Ccar.jp"
     },
     {
-      "title": "Security Officers - Full-Time (Night Shift)",
-      "company": "Gondola",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/rjdp/5201297054225839802",
-      "via": "via Jooble"
-    },
-    {
       "title": "Hiring:Part-Time Overnight Warehouse Associate",
       "company": "Rockville Loop",
       "location": "Fort Worth, TX",
@@ -37,14 +27,14 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Unarmed Security Patrol Officer – DC Night Shift",
-      "company": "Allied Universal",
+      "title": "Security Officers - Full-Time (Night Shift)",
+      "company": "Gondola",
       "location": "Fort Worth, TX",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5267532272/e/",
-      "via": "via Learn4Good"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/rjdp/5201297054225839802",
+      "via": "via Jooble"
     },
     {
       "title": "Security Professional--Part Time Weekend and Night",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://jooble.org/rjdp/8032127183529551850",
       "via": "via Jooble"
+    },
+    {
+      "title": "Night Security Dispatch Coordinator - Grow & Impact",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/night-security-dispatch-coordinator-grow-impact--fort-worth--ee2fdfe8c19c77a58f03f80315cb4f966",
+      "via": "via JobLeads"
     }
   ]
 }

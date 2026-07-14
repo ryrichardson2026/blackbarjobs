@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.915285+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/warehouse-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Warehouse Security Officer",
-      "company": "Sunstates Security",
+      "title": "Securitas Global Clients America is hiring: Warehouse Security Officer in Joliet",
+      "company": "Securitas Global Clients America",
       "location": "Joliet, IL",
-      "pay": "18-20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.recruit.net/job/securitas-global-clients-america-is-jobs/5205A7F098BCD6C1",
+      "via": "via Recruit.net"
     },
     {
-      "title": "Distribution Center Gate Officer",
-      "company": "Allied Universal",
-      "location": "Elwood, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "title": "Security Officers - Warehouse/Patrol",
+      "company": "Alliedbarton Security Services",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/-2671205516922902941",
+      "via": "via Jooble"
     },
     {
-      "title": "Gatehouse Security Officer",
+      "title": "Warehouse Security Officer",
+      "company": "Securitas Services",
+      "location": "Joliet, IL",
+      "pay": "18.71 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Securitas-Services/Job/Warehouse-Security-Officer/-in-Joliet,IL?jid=43396c60c12e6a82",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Warehouse Security Officers Needed Weekly Pay!!",
+      "company": "Securitas Security Services USA",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/rjdp/499737785408137693",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Warehouse Security Officer",
       "company": "Securitas",
-      "location": "Bolingbrook, IL",
-      "pay": "19-21 an hour",
+      "location": "Wilmington, IL",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Overnight Warehouse Security Officer",
-      "company": "GardaWorld",
-      "location": "Aurora, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Logistics Security Officer",
-      "company": "Titan Security Group",
-      "location": "Romeoville, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "apply_link": "https://lensa.com/job-v1/securitas/wilmington-il/security-officer/2c7de77d7a91b4c319556b70ff2f319a",
+      "via": "via Lensa"
     }
   ]
 }

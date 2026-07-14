@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security Specialist — Crowd Control & Access",
+      "company": "Viking Tactical Security Group",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/event-security-specialist-crowd-control-access--austin--e17c1e56e7f55ff9fce6464444f86b9b5",
+      "via": "via JobLeads"
+    },
     {
       "title": "Event Security Pro Paid Training",
       "company": "Alliedbarton Security Services",
@@ -17,24 +27,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Event Security Specialist — Crowd Control & Access",
-      "company": "Viking Tactical Security Group",
+      "title": "Part-time Event Security Staff",
+      "company": "Saint Leo University",
       "location": "Austin, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/event-security-specialist-crowd-control-access--austin--e17c1e56e7f55ff9fce6464444f86b9b5",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Event Security Specialist — Crowd Control & Access",
-      "company": "Viking Tactical Security Group",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobleads.com/us/job/event-security-specialist-crowd-control-access--austin--e17c1e56e7f55ff9fce6464444f86b9b5",
-      "via": "via JobLeads"
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://lensa.com/job-v1/saint-leo-university/austin-tx/event-security-part-time/0bc583fd09862eb6c9e79dcb5430484f",
+      "via": "via Lensa"
     },
     {
       "title": "Part-time Event Security Staff",

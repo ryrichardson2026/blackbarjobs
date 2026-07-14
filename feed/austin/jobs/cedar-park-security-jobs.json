@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/cedar-park-security-jobs",
   "market": "Austin",
   "target": "city",
@@ -7,44 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer PRN",
+      "company": "St. David's North Austin Medical Center",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.ziprecruiter.com/c/HCA-Healthcare/Job/Security-Officer-PRN/-in-Cedar-Park,TX?jid=373582dae9aac999",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Security Officer Armed",
       "company": "Ascension",
       "location": "Cedar Park, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4438386880",
       "via": "via LinkedIn"
     },
     {
-      "title": "Physical Security Lead",
+      "title": "Now Hiring Security Officers for Government Contractor",
       "company": "Firefly Aerospace",
       "location": "Cedar Park, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/physical-security-lead-at-firefly-aerospace-4426856804",
-      "via": "via LinkedIn"
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/2324814034725919952",
+      "via": "via Jooble"
     },
     {
-      "title": "Security Officer Armed - Part Time Driver",
-      "company": "Allied Universal",
+      "title": "Contractor Program Security Officer - DoD/IC, TS/SCI",
+      "company": "jobs.frontdoordefense.com - Jobboard",
       "location": "Cedar Park, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/cedar-park-tx/security-officer-armed-part-time-driver-937210/",
-      "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Contractor Program Security Officer (CPSO)",
-      "company": "Firefly Aerospace",
-      "location": "Cedar Park, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/contractor-program-security-officer-cpso-at-firefly-aerospace-4415203922",
-      "via": "via LinkedIn"
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/jdp/-425059599262593745",
+      "via": "via Jooble"
     },
     {
       "title": "Loss Prevention Security Officer",

@@ -1,60 +1,60 @@
 {
-  "generated": "2026-07-09T23:03:55.930407+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/security-officer-joliet",
   "market": "Chicago",
-  "target": "city-role",
+  "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer",
+      "title": "Unarmed Security Guard - 2nd and 3rd shifts - Weekly Pay and Benefits",
+      "company": "A & A Security Group Inc",
+      "location": "Joliet, IL",
+      "pay": "18.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3fa1a4e9d5177211",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Event Security Officer: Nights & Weekends",
+      "company": "Dormont Manufacturing Co",
+      "location": "Joliet, IL",
+      "pay": "15–18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5281829281/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Part-Time Security Officer",
+      "company": "Andy Frain Services",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-security-officer-joliet-illinois/2872362356-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Securitas Global Clients America is hiring: Warehouse Security Officer in Joliet",
+      "company": "Securitas Global Clients America",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.recruit.net/job/securitas-global-clients-america-is-jobs/5205A7F098BCD6C1",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Allied Universal is hiring: Security Officer - Part Time Access in Joliet",
       "company": "Allied Universal",
       "location": "Joliet, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Warehouse Security Officer",
-      "company": "Sunstates Security",
-      "location": "Elwood, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Gatehouse Officer",
-      "company": "Securitas",
-      "location": "Joliet, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Overnight Security Officer",
-      "company": "GardaWorld",
-      "location": "Joliet, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Hospital Security Officer",
-      "company": "Titan Security Group",
-      "location": "Joliet, IL",
-      "pay": "19-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.recruit.net/job/allied-universal-is-security-officer-jobs/CD74E2CAB722A5BB",
+      "via": "via Recruit.net"
     }
   ]
 }

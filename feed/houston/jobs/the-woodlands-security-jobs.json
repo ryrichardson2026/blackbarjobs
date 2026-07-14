@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/the-woodlands-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Specialist Part-Time",
+      "company": "ESPN",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-specialist-part-time-at-espn-4440343769?position=36&pageNum=0&refId=bB7qZWFLeqmKksZVYsnIUg%3D%3D&trackingId=GYpuGtH27JJLTTqFZ4Q9Cw%3D%3D",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Evening/Overnight Patrol Security Officer",
+      "company": "United Protective Services",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.trabajo.org/job-4023-354d74568067f9cdac6d340fc4b547a1",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Seasonal Hotel Security Officer — On-Site Patrol & Safety",
+      "company": "HEI Hotels",
+      "location": "The Woodlands, TX",
+      "pay": "17,047–24,280 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5278888351/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Event Security - Shell Energy Stadium",
+      "company": "BEST Crowd Management",
+      "location": "The Woodlands, TX",
+      "pay": "15 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/BEST-Crowd-Management/Job/Event-Security-Shell-Energy-Stadium/-in-The-Woodlands,TX?jid=90b48a5a606e36f3",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "VP of Corporate Security",
       "company": "Target Hospitality",
       "location": "The Woodlands, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/vp-of-corporate-security-at-target-hospitality-4437919018",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Residential Security Officer – Driving Patrol & Career",
-      "company": "Allied Universal",
-      "location": "The Woodlands, TX",
-      "pay": "17,047–24,280 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5269118105/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Commissioned Hospital Security Officer | Day Shift",
-      "company": "Texas Children's Hospital",
-      "location": "The Woodlands, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5269156566/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Retail Security Officer: Growth, PTO & Training",
-      "company": "Marksman",
-      "location": "The Woodlands, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-officer-growth-pto-training--the-woodlands--e254d57459135707b51cf98c7b322cafa",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Night Shift Hospital Security Officer (CPR-Certified)",
-      "company": "Memorial Hermann Health System",
-      "location": "The Woodlands, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://salutemyjob.com/jobs/night-shift-hospital-security-officer-cpr-certified-the-woodlands-texas/2863141134-2/",
-      "via": "via SaluteMyJob"
+      "apply_link": "https://www.indeed.com/viewjob?jk=27f2376c7d7edf34",
+      "via": "via Indeed"
     }
   ]
 }

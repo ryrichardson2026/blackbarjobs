@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/garland-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Cleared Supervisor",
+      "company": "Allied Universal",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/garland-tx/security-officer-cleared-supervisor-029241/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
+      "title": "Security Officers - Full-Time (Night Shift)",
+      "company": "NTT Data",
+      "location": "Garland, TX",
+      "pay": "17.00–21.20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/8905920738320972264",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Retail Security Officer",
+      "company": "Marksman Security",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobleads.com/us/job/full-time-retail-security-officer-mesquite-tx--garland--eb343af93098133020e0ee072e36fb799",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Retail Security Lead — Growth, PTO & Health Benefits",
+      "company": "Marksman Security",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-lead-growth-pto-health-benefits--garland--ea3fc60d9da0ad143610aa234e47ec95b",
+      "via": "via JobLeads"
+    },
     {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force- #C19105",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.indeed.com/viewjob?jk=a6bfda3ff798141a",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer - Garland",
-      "company": "DSI Security Services",
-      "location": "Garland, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-Garland/-in-Garland,TX?jid=086cab24bdbeade1",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "5340 - Security Officer L1 (Hiring Immediately)",
-      "company": "NTT DATA",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/5340-security-officer-l1/garland-texas?id=2866405442",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Officer L1 Onsite, On-Call, Growth-Oriented",
-      "company": "Dormont Manufacturing Company",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://bebee.com/us/jobs/security-officer-l1-onsite-on-call-growth-oriented-dormont-manufacturing-company-garland-tx-united-s--appcast-7428_a60e658b22e3bc8267c7bf9a4a194ac0bfb84b44aff3d40cecb1640d66018694",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Security Officer (Hiring Immediately)",
-      "company": "First Coast Security Services, Inc.",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officer-hiring-immediately/garland-texas?id=2864552215",
-      "via": "via WhatJobs"
     }
   ]
 }

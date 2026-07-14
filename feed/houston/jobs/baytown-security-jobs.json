@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/baytown-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "(USA) Asset Protection Associate - All DC/FC-1st Shift (Mon - Thurs, 9am-7pm)",
-      "company": "Sam's Club",
+      "title": "Security Officer Part Time Driver",
+      "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": "21–24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/usa-asset-protection-associate-all-dc-fc-1st-shift-mon-thurs-9am-7pm-at-sam-s-club-4427860181",
+      "pay": "14.79 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Driver/-in-Baytown,TX?jid=bde29885daa251e2",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Supervisor",
+      "company": "Zephyr One Security LLC",
+      "location": "Baytown, TX",
+      "pay": "30K a year",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1686eea1a346d17e",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Access Control Driver",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-control-driver-at-allied-universal-4440343956",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Patrol & Access Control Officer; Driving",
+      "title": "Security Officer Patrol Driver Relief",
       "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": "17,908–23,419 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/baytown/texas/security/5275910436/e/",
-      "via": "via Learn4Good"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-relief-at-allied-universal-4440365015",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Driving Role",
+      "title": "Security Officer Customer Service Driver Patrol",
       "company": "Allied Universal",
       "location": "Baytown, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jobs.aus.com/job/baytown/security-officer-driving-role/22950/97628504032",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Unarmed Security Guard",
-      "company": "PalAmerican Security",
-      "location": "Baytown, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.indeed.com/viewjob?jk=13b9e960bd1551cb",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Roving Security Driver – Industrial Site, Baytown; Unarmed",
-      "company": "Alliedbarton Security Services",
-      "location": "Baytown, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/baytown/texas/security/5271580215/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-driver-patrol-at-allied-universal-4440354376",
+      "via": "via LinkedIn"
     }
   ]
 }

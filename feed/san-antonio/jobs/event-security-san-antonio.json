@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/event-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Event Security Officer – Concerts, College Football & Major Events (Level 2 Required)",
+      "title": "Unarmed Event Security Officer | College Football & Concerts | $17/hr| Level 2 License",
       "company": "A & Associates",
       "location": "San Antonio, TX",
-      "pay": "17 an hour",
+      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.simplyhired.com/job/dopjeigK1lE_0D20KmH7CNv3gHzRl4ZVH7ta5NEBVHqcctHzbyEggw",
-      "via": "via SimplyHired"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=935f400dade46359",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Hiring Event 7/9/2026",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Castroville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-hiring-event-7-9-2026-at-securitas-security-services-usa-inc-4435988810",
+      "via": "via LinkedIn"
     },
     {
       "title": "Security Officer Hiring Event in San Antonio",
@@ -37,24 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Hiring Event 7/9/2026",
-      "company": "Securitas",
-      "location": "Castroville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.ihiresecurity.com/jobs/view/526828664",
-      "via": "via IHireSecurity"
-    },
-    {
-      "title": "Security Officer Hiring Event 7/9/2026",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Castroville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-hiring-event-7-9-2026-at-securitas-security-services-usa-inc-4431988609",
-      "via": "via LinkedIn"
+      "title": "Level 2 Unarmed Event Security",
+      "company": "A & Associates",
+      "location": "Universal City, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.simplyhired.com/job/e0RjvTnEoBoLruSLzzF76uBYcbPmT-t_-duBwrtgjZmyJDtXWomZeg",
+      "via": "via SimplyHired"
     }
   ]
 }

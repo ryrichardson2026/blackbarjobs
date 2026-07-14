@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security Site Supervisor (Clearance Required)",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://salutemyjob.com/jobs/armed-security-site-supervisor-clearance-required-fort-worth-texas/2873245454-2/",
+      "via": "via SaluteMyJob"
+    },
     {
       "title": "Armed Cleared Security Officer at Allied Universal Fort Worth, TX",
       "company": "Allied Universal",
@@ -20,21 +30,11 @@
       "title": "Armed Security Officers- All Shifts",
       "company": "Prosegur",
       "location": "Fort Worth, TX",
-      "pay": null,
+      "pay": "23–32 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Prosegur/Job/Armed-Security-Officers-All-Shifts/-in-Fort-Worth,TX?jid=e6837976a5cd5e54",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Part Time Armed Guard Texas",
-      "company": "D F W Security Protective Force LLC",
-      "location": "Fort Worth, TX",
-      "pay": "26.77 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/D-F-W-Security-Protective-Force/Job/Part-Time-Armed-Guard-Texas/-in-Fort-Worth,TX?jid=7625e371a4839fea",
-      "via": "via ZipRecruiter"
+      "apply_link": "https://www.indeed.com/viewjob?jk=47c6699d472816e6",
+      "via": "via Indeed"
     },
     {
       "title": "Armed Security Officer - Campus Patrol & Access Control",
@@ -47,14 +47,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Armed Security Site Supervisor",
+      "title": "Armed Security Flex Officer - Cleared Position",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Full-time and Part-time",
       "posted_date": "2026-07-06",
-      "apply_link": "https://us.trabajo.org/job-9000-f87c970a46cd036d1ad9caa8e64514a2",
-      "via": "via Trabajo.org"
+      "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
+      "via": "via SaluteMyJob"
     }
   ]
 }

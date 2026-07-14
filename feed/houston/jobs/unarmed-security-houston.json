@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Houston,TX?jid=948fa4f8ad436596",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Unarmed Security Officer: CCTV & Incident Response",
       "company": "DeKalb Health",
@@ -17,6 +27,26 @@
       "via": "via Learn4Good"
     },
     {
+      "title": "Security Officer Unarmed Patrol",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed-patrol/22950/97628501712",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Unarmed Loss-Prevention & Customer Safety Lead",
+      "company": "Buffalo Exchange",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-loss-prevention-customer-safety-lead-buffalo-exchange-houston--lensa-7428_970496ccd71bbb570729c433d6309c5e7883c5a29c5f329c78d198023c738b3a",
+      "via": "via BeBee"
+    },
+    {
       "title": "Security Officer Flex (Unarmed)",
       "company": "Tarian",
       "location": "Houston, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://careers.tariangroup.com/events/jobs/23206?lang=en-us",
       "via": "via Tarian Group"
-    },
-    {
-      "title": "Unarmed Security Officers- All Shifts Available",
-      "company": "Security Engineers, Inc",
-      "location": "Houston, TX",
-      "pay": "16 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://securityengineers.joblinkapply.com/job/4b4e8109-48d9-4633-bbbd-e92f29a0334a",
-      "via": "via Securityengineers"
-    },
-    {
-      "title": "Unarmed Security Officer- Full Time Floater",
-      "company": "Security Engineers, Inc",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b2acfe5b9740e667",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed & Unarmed Security Guard — Protect & Prevent",
-      "company": "Fast Guard Service",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-protect-prevent--houston--e595a64562611991c1429eaf218cae510",
-      "via": "via JobLeads"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/hotel-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -15,6 +15,16 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-hotel-emma-at-silver-ventures-4438305666",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Loss Prevention Officer (Hotel Emma)",
+      "company": "Silver Ventures LLC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ffe7ecc349e43a2a",
+      "via": "via Indeed"
     },
     {
       "title": "Frontline Hotel Security: Protect Guests & Property",
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-30",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5246504980/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "On-Call Hotel Security & Loss Prevention Officer",
-      "company": "Hyatt Group",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-27",
-      "apply_link": "https://salutemyjob.com/jobs/on-call-hotel-security-loss-prevention-officer-san-antonio-texas/2843447905-2/",
-      "via": "via SaluteMyJob"
     }
   ]
 }

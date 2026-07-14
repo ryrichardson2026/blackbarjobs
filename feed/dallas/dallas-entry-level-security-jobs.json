@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/dallas-entry-level-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via Jooble"
     },
     {
-      "title": "Entry-Level Campus Safety",
-      "company": "The University of Texas Southwestern Medical Center",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://us.trabajo.org/job-972-8fcf3d817b6f2ee6b8e9e06bbe884994",
-      "via": "via Trabajo.org"
-    },
-    {
       "title": "Entry-Level Juvenile Detention Officer - Youth Care & Safety",
       "company": "Dallasact",
       "location": "Dallas, TX",
@@ -47,14 +37,24 @@
       "via": "via BeBee"
     },
     {
-      "title": "Security Officer Secure Entry Specialist",
-      "company": "Allied Universal",
+      "title": "Entry-Level Campus Safety",
+      "company": "The University of Texas Southwestern Medical Center",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-secure-entry-specialist/22950/97437396256",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://us.trabajo.org/job-972-8fcf3d817b6f2ee6b8e9e06bbe884994",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Entry-Level Campus Safety & Security Officer",
+      "company": "The University of Texas Southwestern Medical Center",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.jobleads.com/us/job/entry-level-campus-safety-security-officer--dallas--e319b8876ad9e96e286ec919a0758ce78",
+      "via": "via JobLeads"
     }
   ]
 }

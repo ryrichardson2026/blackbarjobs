@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Security Advisor - Executive Protection",
+      "company": "Chevron",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://careers.chevron.com/job/houston/security-advisor-executive-protection/38138/97741162896",
+      "via": "via Chevron Careers"
+    },
     {
       "title": "Security Director - Southwest at The Security Executive Council Houston, TX",
       "company": "The Security Executive Council",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1305086/executive-protection-officer/",
       "via": "via Careers In Government"
-    },
-    {
-      "title": "Security Receptionist",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Houston, TX",
-      "pay": "16–17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-receptionist-at-securitas-security-services-usa-inc-4436649136",
-      "via": "via LinkedIn"
     }
   ]
 }

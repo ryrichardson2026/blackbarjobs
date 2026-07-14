@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.888205+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/airport-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Transportation Security Officer",
-      "company": "TSA",
-      "location": "Chicago, IL (O'Hare)",
-      "pay": "22-25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Airport Screener",
-      "company": "Prospect Airport Services",
-      "location": "Chicago, IL (Midway)",
-      "pay": "17-19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Aviation Security Officer",
-      "company": "Allied Universal",
+      "title": "Managing Director - Global Aviation Security & Facilitation",
+      "company": "United Airlines",
       "location": "Chicago, IL",
-      "pay": "19-21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://careers.united.com/us/en/job/WHQ00026586/Managing-Director-Global-Aviation-Security-Facilitation",
+      "via": "via United Airlines Jobs"
     },
     {
-      "title": "Terminal Security Officer",
-      "company": "Securitas",
-      "location": "Chicago, IL (O'Hare)",
-      "pay": "19-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Cargo Access Officer",
-      "company": "GardaWorld",
+      "title": "Aviation Security Operations Lead",
+      "company": "City of Chicago",
       "location": "Chicago, IL",
-      "pay": "20-22 an hour",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/aviation-security-operations-lead-city-of-chicago-chicago--lensa-7428_730765d4bd7a4f707e599217c4e693d65501ee75e109a57734af5a8022ee4ac2",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Federal Air Marshal - TSA Law Enforcement Career",
+      "company": "Airport Security Careers",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://salutemyjob.com/jobs/federal-air-marshal-tsa-law-enforcement-career-chicago-illinois/2869858900-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Hiring Licensed Security Officer- UNION Benefits- O'HARE AIRPORT",
+      "company": "Lincoln Security Services LLC",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "apply_link": "https://www.indeed.com/viewjob?jk=ae6780e14efd4b57",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer-Near O'hare Airport",
+      "company": "P4 Security Solutions",
+      "location": "Chicago, IL",
+      "pay": "19.75 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.glassdoor.com/job-listing/security-officer-near-o-hare-airport-p4-security-solutions-JV_IC1128808_KO0,36_KE37,58.htm?jl=1010192749859",
+      "via": "via Glassdoor"
     }
   ]
 }

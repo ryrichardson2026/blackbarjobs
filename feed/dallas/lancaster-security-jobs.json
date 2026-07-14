@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/lancaster-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Security-Officer/-in-Lancaster,TX?jid=2dbe3675d5a4fd2a",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Security Operations Manager - Full-time",
       "company": "Kronos",
@@ -17,14 +27,14 @@
       "via": "via Digitalhire"
     },
     {
-      "title": "Security Officer Aerospace Facility",
-      "company": "Allied Universal",
+      "title": "Armed Security Officer — Flexible Part‑Time Shifts",
+      "company": "Alliedbarton Security Services",
       "location": "Lancaster, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.aus.com/job/lancaster/security-officer-aerospace-facility/22950/97573585088",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/6791567808094587221",
+      "via": "via Jooble"
     },
     {
       "title": "Security Officer - Lancaster",
@@ -32,29 +42,19 @@
       "location": "Lancaster, TX",
       "pay": "16 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-08",
       "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-(Lancaster)/-in-Lancaster,TX?jid=77dae964de9adfd7",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Unarmed Security Officer",
+      "title": "Security Professional - Customer Service",
       "company": "Metro One Loss Prevention Services Group (Guard Division), Inc.",
-      "location": "Lancaster, TX",
-      "pay": "26–27 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=564e6acda8b39af3",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer",
-      "company": "Weiser Security Services",
       "location": "Lancaster, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Security-Officer/-in-Lancaster,TX?jid=2dbe3675d5a4fd2a",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/rjdp/-4917428501268475925",
+      "via": "via Jooble"
     }
   ]
 }

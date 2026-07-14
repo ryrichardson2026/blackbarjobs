@@ -1,60 +1,60 @@
 {
-  "generated": "2026-07-09T23:03:55.916899+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/manufacturing-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 0,
   "jobs": [
     {
-      "title": "Manufacturing Security Officer",
-      "company": "Allied Universal",
+      "title": "Unarmed Security Guard - 2nd and 3rd shifts - Weekly Pay and Benefits",
+      "company": "A & A Security Group Inc",
+      "location": "Joliet, IL",
+      "pay": "18.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=3fa1a4e9d5177211",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Guard: Part-Time",
+      "company": "Silver Star Protection Group",
       "location": "Chicago, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-guard-part-time-at-silver-star-protection-group-4440371526",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Plant Gate Officer",
-      "company": "Securitas",
-      "location": "Cicero, IL",
-      "pay": "20-22 an hour",
+      "title": "Security Sergeant - University Police",
+      "company": "University of Illinois Chicago",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-sergeant-university-police-at-university-of-illinois-chicago-4440378581",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Industrial Plant Security Officer",
-      "company": "GardaWorld",
-      "location": "Franklin Park, IL",
-      "pay": "20-23 an hour",
+      "title": "Armed Security Guard (Full-Time or On-Call Only)",
+      "company": "GardaWorld Federal Services",
+      "location": "Burbank, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-guard-full-time-or-on-call-only-at-gardaworld-federal-services-4440513159",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Overnight Plant Security Officer",
-      "company": "Sunstates Security",
-      "location": "Elk Grove Village, IL",
-      "pay": "19-21 an hour",
+      "title": "Account Manager - Data Center",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Food Plant Security Officer",
-      "company": "Titan Security Group",
-      "location": "Aurora, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/account-manager-data-center-at-securitas-security-services-usa-inc-4437642930",
+      "via": "via LinkedIn"
     }
   ]
 }

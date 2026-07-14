@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.913644+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/data-center-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Data Center Security Officer",
-      "company": "Allied Universal",
-      "location": "Elk Grove Village, IL",
-      "pay": "21-24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Access Control Officer",
-      "company": "Securitas",
-      "location": "Aurora, IL",
-      "pay": "20-22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Data Center Console Operator",
-      "company": "GardaWorld",
+      "title": "Account Manager - Data Center",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "Chicago, IL",
-      "pay": "23-26 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/account-manager-data-center-at-securitas-security-services-usa-inc-4437642930",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Overnight Data Center Security Officer",
-      "company": "Sunstates Security",
-      "location": "Northlake, IL",
-      "pay": "22-24 an hour",
+      "title": "Account Manager - Data Center",
+      "company": "Securitas Security Services",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172557/?location=Chicago%2525252525252C+IL%2525252525252C+United+States&locationId=300000016770136&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
+      "via": "via Cloud Sign In"
     },
     {
-      "title": "Security Officer - Data Center",
-      "company": "Marksman Titan Security",
-      "location": "DeKalb, IL",
-      "pay": "20-23 an hour",
+      "title": "Data Center Security Officer L1 - Access, CCTV & Response",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://bebee.com/us/jobs/data-center-security-officer-l1-access-cctv-response-ntt-global-data-centers-americas-inc-chicago-il--appcast-7428_cb5c755eeca315d2cda12db563bd9c7c7114f7e28eaad427063ba9a3f0b7a44d",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Data Center Security Officer I - On-Site",
+      "company": "Dormont Manufacturing Company",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.whatjobs.com/jobs/data-center-security-officer-i/chicago-illinois?id=2860549077",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Data Center Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://www.blackbarjobs.com/chicago/jobs/data-center-security-chicago",
+      "via": "via The Job Network For Security Officers"
     }
   ]
 }

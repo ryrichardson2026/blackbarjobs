@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-university-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,12 +7,42 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Campus Safety Patrol & Visitor Support",
+      "company": "Pasadena Independent School District",
+      "location": "South Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/-2944860681536667472",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Campus Safety Reserve Officer",
+      "company": "Spring Branch ISD",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/3397893006404371518",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Campus Safety Patrol Officer - Protect Students",
+      "company": "Young World Physical Education",
+      "location": "Houston, TX",
+      "pay": "63,857–88,115 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/-7060855220371915556",
+      "via": "via Jooble"
+    },
+    {
       "title": "Campus Safety Officer",
       "company": "New Caney Independent School District",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/campus-safety-officer-at-new-caney-independent-school-district-4439312121",
       "via": "via LinkedIn"
     },
@@ -22,39 +52,9 @@
       "location": "Houston, TX",
       "pay": "25–30 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.glassdoor.com/job-listing/security-site-supervisor-%E2%80%93-private-school-campus-janissary-JV_IC1140171_KO0,48_KE49,58.htm?jl=1010195677486",
-      "via": "via Glassdoor"
-    },
-    {
-      "title": "Campus Police Operations Leader",
-      "company": "The Chronicle Of Higher Education, Inc.",
-      "location": "Houston, TX",
-      "pay": "98K–129K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/campus-police-operations-leader--houston--e7fb06d76b28c4461326e473abb0030b1",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Campus Police & Safety Leader | Tuition Reimbursement",
-      "company": "Texas Southern University",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/campus-police-safety-leader-tuition-reimbursement--houston--e794994b97d77836a07be090f0793d983",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Houston,TX?jid=b54703d986bf6ccd",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=5d92feaa3499a5a4",
+      "via": "via Indeed"
     }
   ]
 }

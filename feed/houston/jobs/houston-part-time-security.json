@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-part-time-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Part-Time Security Officer; Driver Presence - Houston",
+      "title": "Security Officer Part Time Driver",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": "12–17 an hour",
+      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276471644/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-driver-at-allied-universal-4440342942",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer​/Part-Time",
-      "company": "Advancedsentryllc",
-      "location": "Houston, TX",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276760883/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Desk Driver Jobs",
-      "company": "Allied Universal",
+      "title": "Armed Security Officer - Part-Time Driver (Flexible Shifts)",
+      "company": "Alliedbarton Security Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.clearancejobs.com/jobs/9022385/security-officer-enhanced-part-time-desk-driver",
-      "via": "via Clearance Jobs"
-    },
-    {
-      "title": "Dynamic Part-Time Event Staff - Arena & Concerts (Flexible)",
-      "company": "S.A.F.E. Management",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://bebee.com/us/jobs/dynamic-part-time-event-staff-arena-concerts-flexible-safe-management-houston--lensa-7428_3da88996157a588f7cdaffb20898d8b3d49252937a8f2ab64ed149e7a89a0101",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Part-Time Security Officer: Flexible Shifts & Growth",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-security-officer-flexible-shifts-growth--houston--e0738ef81fd5a45147657de57644ee0d1",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-part-time-driver-flexible-shifts--houston--ef7e576245cf0191ba4a0ede9ce616ad5",
       "via": "via JobLeads"
+    },
+    {
+      "title": "Part-Time Security Officer: Retail Patrol & Service",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "20,664–28,929 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5282773850/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Full and Part-Time Evening and Weekend Security Officers",
+      "company": "IIdon Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/-7479999745606938743",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Part-Time Licensed Security Officer - Flexible Shifts",
+      "company": "Star Protection Agency (TX)",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/part-time-licensed-security-officer-flexible-shifts-star-protection-agency-tx-houston--lensa-7428_41afc5220ecd2cb69a7affb50ea27e79096bf7de455ee04527d108c064a98081",
+      "via": "via BeBee"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/allen-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Monitor- Bond Funded",
+      "company": "Allen Independent School District",
+      "location": "Allen, TX",
+      "pay": "16.75–19.77 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=f05294d04a3fb48d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Security Clearance",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/allen-tx/security-officer-patrol-security-clearance-900843/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
       "title": "Security Officer Enhanced Part Time Patrol Presence",
       "company": "Allied Universal",
       "location": "Allen, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-patrol-presence-at-allied-universal-4439535348",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4ef5b94e1f8a436f",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Full Time & Part Time Security Officers - Flexible",
+      "company": "Alliedbarton Security Services",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/-4405863861521388291",
+      "via": "via Jooble"
     },
     {
       "title": "Armed Level 3 Security Officer",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://www.indeed.com/viewjob?jk=1232194133c8283c",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer - Retail (Evening shift)",
-      "company": "United Protective Services",
-      "location": "Allen, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/United-Protective-Services/Job/Security-Officer-Retail-Evening-Shift/-in-Allen,TX?jid=cce9a57d6f7143c1",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Retail Security Officer - Evening Patrol & Growth",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "37K–41K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-retail-security-officer-evening-patrol-growth--allen--e901186ba39a509fbc5d08d1db22eb3a1",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Behavior Detection Officer (BDO) - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Allen, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/behavior-detection-officer-bdo/allen-texas?id=2862867490",
-      "via": "via WhatJobs"
     }
   ]
 }

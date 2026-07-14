@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/construction-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 3,
+  "exact": 4,
   "jobs": [
+    {
+      "title": "Construction Site Security Lead",
+      "company": "Kids For The Future",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://bebee.com/us/jobs/construction-site-security-lead-kids-for-the-future-san-antonio--lensa-7428_207560311f1d53a489ff29808f4603c859ec5a92e296e361a452057d646ea2af",
+      "via": "via BeBee"
+    },
     {
       "title": "Data Center Construction Security Tech — TS/Poly",
       "company": "Kids for the Future",
@@ -37,23 +47,13 @@
       "via": "via Careers In Government"
     },
     {
-      "title": "Level III Campus Security Officer; School",
-      "company": "Valorforces",
+      "title": "Security Officer - Medical Facilities Patrol",
+      "company": "Allied Universal",
       "location": "San Antonio, TX",
-      "pay": "24,796–27,552 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Installer",
-      "company": "Johnson Controls",
-      "location": "San Antonio, TX",
-      "pay": "26–34 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-installer-at-johnson-controls-4436636182",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-medical-facilities-patrol-at-allied-universal-4440344883",
       "via": "via LinkedIn"
     }
   ]

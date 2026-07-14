@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/entry-level-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -37,6 +37,16 @@
       "via": "via Jooble"
     },
     {
+      "title": "Border Patrol Agent - Entry Level",
+      "company": "U.S. Customs and Border Protection",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/border-patrol-agent-entry-level-at-u-s-customs-and-border-protection-4438235413",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Entry-Level Security Officer — Training & Benefits",
       "company": "Securitas Global Clients America",
       "location": "San Antonio, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/entry-level-security-officer-training-benefits--san-antonio--e07a17fe7e9c0348f36603c2c664f8039",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer - Entry Control Point",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-entry-control-point/22950/97481244336",
-      "via": "via Allied Universal"
     }
   ]
 }

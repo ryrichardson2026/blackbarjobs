@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/mckinney-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -17,6 +17,16 @@
       "via": "via Indeed"
     },
     {
+      "title": "Security Officer Driver Patrol with Security Clearance",
+      "company": "Allied Universal",
+      "location": "McKinney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://salutemyjob.com/jobs/security-officer-driver-patrol-with-security-clearance-mckinney-texas/2871556294-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
       "title": "CTT Instructor - Security",
       "company": "Serrato Corporation",
       "location": "McKinney, TX",
@@ -27,34 +37,24 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer (Unarmed)",
-      "company": "Tarian",
-      "location": "McKinney, TX",
-      "pay": "17.75 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-(Unarmed)/-in-Mckinney,TX?jid=f86bbaf8605eff42",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Flex Officer Manufacturing Facility - Clearance Required",
-      "company": "Allied Universal",
+      "title": "Security Officer (Hiring Immediately)",
+      "company": "Prysmian",
       "location": "McKinney, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/mckinney-tx/security-flex-officer-manufacturing-facility-clearance-required-179137/",
-      "via": "via Women For Hire- Job Board"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.whatjobs.com/jobs/security-officer-hiring-immediately/mckinney-texas?id=2875962786",
+      "via": "via WhatJobs"
     },
     {
-      "title": "Campus Safety, Security & Transportation Leader",
-      "company": "Serrato Corporation",
+      "title": "Municipal Court Security & Warrants Deputy",
+      "company": "City of McKinney",
       "location": "McKinney, TX",
-      "pay": null,
+      "pay": "50K–70K a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/campus-safety-security-transportation-leader-serrato-corporation-mckinney-tx-united-states--appcast-7428_a10686348124da8c30a9a7e0ecbbeb8892afa2add1c185a84be2b28af0f4caf1",
-      "via": "via BeBee"
+      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-warrants-deputy--mckinney--e66c22b1d0453975924b107ae3a5465f2",
+      "via": "via JobLeads"
     }
   ]
 }

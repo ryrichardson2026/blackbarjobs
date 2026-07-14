@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-private-event-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security - Toyota Center",
+      "company": "BEST Crowd Management",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-toyota-center-at-best-crowd-management-4437218218",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Licensed Special Event Security - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1226246065",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Houston Event Staff & Security",
+      "company": "5 STAR Event Services",
+      "location": "Houston, TX",
+      "pay": "10–16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Concert Event Security Specialist",
+      "company": "Live Nation Entertainment",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.whatjobs.com/jobs/concert-event-security-specialist/houston-texas?id=2877192786",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Dynamic Part-Time Event Staff - Arena & Concerts (Flexible)",
       "company": "S.A.F.E. Management",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://bebee.com/us/jobs/dynamic-part-time-event-staff-arena-concerts-flexible-safe-management-houston--lensa-7428_3da88996157a588f7cdaffb20898d8b3d49252937a8f2ab64ed149e7a89a0101",
       "via": "via BeBee"
-    },
-    {
-      "title": "Licensed Event Security - Houston Rockets",
-      "company": "BEST Crowd Management",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/licensed-event-security-houston-rockets-at-best-crowd-management-4434841323",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Usher/Event Staff - Houston Miller Outdoor Theater",
-      "company": "5 STAR Event Services",
-      "location": "Houston, TX",
-      "pay": "11–13 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Usher-Event-Staff-Houston-Miller-Outdoor-Theater/-in-Houston,TX?jid=a767a8b5f2f3b316",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Licensed Special Event Security",
-      "company": "Andy Frain Services",
-      "location": "North Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-north-houston-tx--3d3addee-1d38-454b-9505-8d61d72981db?mstr_dist=true",
-      "via": "via Monster"
-    },
-    {
-      "title": "Armed Event Security Officer — Training & Growth",
-      "company": "City Security Services LTD",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.jobleads.com/us/job/armed-event-security-officer-training-growth--houston--e538d8866456b341e5621a3b92fd45e5b",
-      "via": "via JobLeads"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.883411+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/overnight-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Overnight Security Officer",
-      "company": "Allied Universal",
+      "title": "Part-Time Campus Security Officer - Night Shift; Tech Campus",
+      "company": "Alliedbarton Security Services",
       "location": "Chicago, IL",
-      "pay": "20-22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5282053341/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Data Center Security Officer",
-      "company": "Securitas",
-      "location": "Aurora, IL",
-      "pay": "21-23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Overnight Warehouse Security Officer",
-      "company": "Sunstates Security",
-      "location": "Joliet, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Night Shift Officer",
-      "company": "GardaWorld",
+      "title": "Night Patrol Lead Healthcare Security | Career Growth",
+      "company": "Alliedbarton Security Services",
       "location": "Chicago, IL",
-      "pay": "19-20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/night-patrol-lead-healthcare-security-career-growth--chicago--ee1151c5888f76a64c629ef5669ba0529",
+      "via": "via JobLeads"
     },
     {
-      "title": "Overnight Hospital Security Officer",
-      "company": "Titan Security Group",
+      "title": "Security Officers - Night Shift",
+      "company": "KATES DETECTIVE & SECURITY AGENCY INC",
       "location": "Chicago, IL",
-      "pay": "20-22 an hour",
+      "pay": "16.60–17.00 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/rjdp/-6740562738533949074",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Overnight Security & Loss Prevention - Luxury Downtown Hotel",
+      "company": "RadNet",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/overnight-security-loss-prevention-luxury-downtown-hotel-radnet-chicago--lensa-7428_6bb40ece8fb943551ed9cbe29f34f4462e777d75f52e94cdea737ce3df9e542e",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Night-Shift Surveillance Guard – Part-Time with Benefits",
+      "company": "Garda World Security",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-surveillance-guard-part-time-with-benefits--chicago--e35cc58824b522951bc7ad1ca55fc7d36",
+      "via": "via JobLeads"
     }
   ]
 }

@@ -1,60 +1,60 @@
 {
-  "generated": "2026-07-09T23:03:55.934995+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/security-officer-naperville",
   "market": "Chicago",
-  "target": "city-role",
+  "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
     {
       "title": "Security Officer",
+      "company": "Confidential",
+      "location": "Naperville, IL",
+      "pay": "22.50–24.50 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a545f69885bb428d",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officers Licensed - 2 -3 Shifts- Recognized Top Workplace - Aurora",
+      "company": "Marksman Security",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-licensed-2-3-shifts-recognized-top-workplace-aurora-at-marksman-security-4440043627",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Floating Security Officer",
+      "company": "Apex3 and Premier Security",
+      "location": "Naperville, IL",
+      "pay": "34K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/floating-security-officer-full-time-naperville-oakbrook--naperville--e1311b63e688f41bf38f17d6d3dd9e3ae",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Healthcare Security Officer - Per Diem",
+      "company": "Dormont Manufacturing Company",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-healthcare-security-officer-per-diem-dormont-manufacturing-company-naperville--lensa-7428_56e7fffdb3b86daf4aaaabb9863965c082a2a63dfb82de123d90aceeb9ea477b",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Flexible Part-Time Security Officer: Earn More with Shifts",
       "company": "Allied Universal",
       "location": "Naperville, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Corporate Security Officer",
-      "company": "Titan Security Group",
-      "location": "Naperville, IL",
-      "pay": "20-22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Hospital Security Officer",
-      "company": "Securitas",
-      "location": "Naperville, IL",
-      "pay": "19-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Retail Loss Prevention Officer",
-      "company": "GardaWorld",
-      "location": "Naperville, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Residential Security Officer",
-      "company": "Monterrey Security",
-      "location": "Naperville, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/5301345216416004335",
+      "via": "via Jooble"
     }
   ]
 }

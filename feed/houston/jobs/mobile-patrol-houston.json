@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/mobile-patrol-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Mobile Patrol at GardaWorld Houston, TX",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "pay": "14 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://wynnsgrainandspice.com/office/job/security-officer-mobile-patrol-at-gardaworld-houston-tx-QVJYa1E1d1k4czhXT3NpNzY5TUwxMzk4L0E9PQ==",
+      "via": "via Wynn's Grain And Spice"
+    },
+    {
+      "title": "Security Officer Armed Patrol Driver Clearance Required",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-patrol-driver-clearance-required-at-allied-universal-4439801472",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Part-Time Security Officer: Retail Patrol & Service",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "20,664–28,929 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5282773850/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Officer Patrol Documentation Specialist",
       "company": "Allied Universal",
@@ -17,44 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Full Time Driving Patrol Role",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-driving-patrol-role-at-allied-universal-4438896546",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Guard Mobile Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
+      "title": "Campus Safety Patrol & Visitor Support",
+      "company": "Pasadena Independent School District",
+      "location": "South Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-mobile-patrol-driver-at-allied-universal-4438894672",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer-Mobile Crew",
-      "company": "DSI Security Services",
-      "location": "Houston, TX",
-      "pay": "17.08 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-(South-East-Mobile-Crew)/-in-Houston,TX?jid=726acfbd0c965e6f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Retail Patrol -Valid Drivers License Required",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.nexxt.com/jobs/security-officer-retail-patrol-valid-drivers-license-required-houston-tx-3314548306-job.html",
-      "via": "via Nexxt"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/-2944860681536667472",
+      "via": "via Jooble"
     }
   ]
 }

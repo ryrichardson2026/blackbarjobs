@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/full-time-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,12 +7,42 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "2nd & 3rd Shift Unarmed Security Officer - Full-Time (Austin)",
+      "company": "North America Security & Select Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/2nd-3rd-shift-unarmed-security-officer-full-time-austin-north-america-security-select-services-austi--lensa-7428_9b08a686c95a800d97ed30f16db39cec102cd60246e01568b577881865f33674",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Full Time Security Officer Needed for University (Security) (Hiring Immediately)",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-needed/austin-texas?id=2878788879",
+      "via": "via WhatJobs"
+    },
+    {
+      "title": "Part & Full Time Security Officers (Overnight Shifts)",
+      "company": "Inter-Con Security",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/rjdp/-7584421858352739066",
+      "via": "via Jooble"
+    },
+    {
       "title": "Full Time Security Officer Needed for University Environment",
       "company": "GuardTexas",
       "location": "Austin, TX",
       "pay": "18–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
       "via": "via Indeed"
     },
@@ -24,36 +54,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
       "apply_link": "https://jooble.org/jdp/-4609899027704061571",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Personnel Needed – Full Time – Austin, TX",
-      "company": "Inter-Con Security",
-      "location": "Austin, TX",
-      "pay": "17.56–21.93 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1522942b6702e3c2",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Overnight Vehicle Patrol Officer - Full-Time 3rd Shift",
-      "company": "IIdon Security",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/overnight-vehicle-patrol-officer?id=2822699067",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Part & Full Time Security Officers (Overnight Shifts)",
-      "company": "Inter-Con Security",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jooble.org/rjdp/-7584421858352739066",
       "via": "via Jooble"
     }
   ]

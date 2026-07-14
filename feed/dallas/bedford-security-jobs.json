@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/bedford-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Administrative Specialist",
+      "company": "AAA Security Guard Services",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://us.trabajo.org/job-4023-53156628d892eededd02aa19a8f82a04",
+      "via": "via Trabajo.org"
+    },
     {
       "title": "Administrative Specialist",
       "company": "AAA Security Guard Services, LLC",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://www.jobleads.com/us/job/administrative-specialist-part-time--bedford--e5a78d00645128f4dcdc78dcee43df9da",
       "via": "via JobLeads"
+    },
+    {
+      "title": "Administrative & Operations Coordinator",
+      "company": "AAA Security Guard Services, LLC",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jooble.org/jdp/-1377202507400332358",
+      "via": "via Jooble"
     },
     {
       "title": "Security Officer - Full Time , Rotating at Texas Health Resources Bedford, TX",
@@ -27,16 +47,6 @@
       "via": "via Aotvintage.com"
     },
     {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/bedford/texas/security/5258623315/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Security Guard; shifts",
       "company": "Excelsior Defense",
       "location": "Bedford, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.learn4good.com/jobs/bedford/texas/security/5258623863/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Administrative & Operations Coordinator",
-      "company": "AAA Security Guard Services, LLC",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://jooble.org/jdp/-1377202507400332358",
-      "via": "via Jooble"
     }
   ]
 }

@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/dallas-residential-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security & Community Patrol Specialist – Dallas (6a–2p, M–F)",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/security-community-patrol-specialist-dallas-6a-2p-m-f--dallas--eef309a2d9a495ef9645b95dc9a256fd8",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Texas Night-Shift Residential Security Specialist",
+      "company": "Surefox Consulting LLC",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://bebee.com/us/jobs/texas-night-shift-residential-security-specialist-surefox-consulting-llc-dallas--lensa-7428_111921c8985971cb0cb76017b0bcb4b3a173d4f257e6a7d00951a08bfa60c498",
+      "via": "via BeBee"
+    },
     {
       "title": "Security Officer Community Patrol Associate",
       "company": "Allied Universal",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-25",
       "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5223815212/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Residential Security Agent",
-      "company": "Surefox North America, Inc.",
-      "location": "Dallas, TX",
-      "pay": "45 an hour",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/Surefox-North-America-Inc/Job/Residential-Security-Agent/-in-Dallas,TX?jid=fd3701ff040a9f5c",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Armed Security Officer – 55+ Residential Community (North Dallas) $17/hr · hrs/week",
-      "company": "D & N Global Security, PLLC",
-      "location": "Dallas, TX",
-      "pay": "3,120 a month",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/armed-security-officer-55-residential-community-north-dallas-17-hr-hrs-week-d-n-global-security-pllc--theirstack-680772871",
-      "via": "via BeBee"
     }
   ]
 }

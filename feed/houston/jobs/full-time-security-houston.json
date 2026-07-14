@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/full-time-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,14 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Full Time Driving Patrol Role",
-      "company": "Allied Universal",
+      "title": "Part & Full Time Security Officers (Overnight Shifts)",
+      "company": "Inter-Con Security",
       "location": "Houston, TX",
-      "pay": "17 an hour",
+      "pay": "17.00–18.75 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-driving-patrol-role-at-allied-universal-4438896546",
-      "via": "via LinkedIn"
+      "apply_link": "https://jooble.org/rjdp/2532481280897207675",
+      "via": "via Jooble"
     },
     {
       "title": "Licensed Guard Full-Time",
@@ -37,24 +37,24 @@
       "via": "via Jooble"
     },
     {
-      "title": "Security Professional Overnight Full Time Flex",
-      "company": "iidon Security Associates, Inc.",
+      "title": "Security Professional Full Time Second Shift",
+      "company": "TriCorps Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/rjdp/6112273973365502545",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer Full Time Driving Patrol Role",
+      "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/rjdp/-5993525221709971151",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Unarmed Security Officer- Full Time Floater",
-      "company": "Security Engineers, Inc",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b2acfe5b9740e667",
-      "via": "via Indeed"
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-full-time-driving-patrol-role/22950/97586096336",
+      "via": "via Allied Universal"
     }
   ]
 }

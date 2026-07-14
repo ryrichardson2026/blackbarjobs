@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/corporate-campus-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Site Supervisor – Corporate Office",
+      "company": "Securitas Security Services",
+      "location": "Irving, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172504",
+      "via": "via Cloud Sign In"
+    },
     {
       "title": "Security Site Supervisor – Corporate Office",
       "company": "Securitas Global Clients America",
@@ -17,6 +27,26 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Night Shift Physical Security Specialist I – Corporate Security",
+      "company": "Prosegur",
+      "location": "Irving, TX",
+      "pay": "55K–65K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-physical-security-specialist-i-corporate-security--irving--e8ab9344e700d840c903b942ff9ff43de",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Corporate Security Officer - Flexible Shifts & Growth",
+      "company": "United-Security-Inc",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://us.jobrapido.com/jobpreview/8783521015129964544",
+      "via": "via Jobrapido"
+    },
+    {
       "title": "Security Officer Corporate Office",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-corporate-office/22950/97573580896",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Security Officer Corporate Building",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-corporate-building/22950/97534874944",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Armed Security Officer - Corporate Office",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.aus.com/job/richardson/armed-security-officer-corporate-office/22950/97525090000",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Executive Protection Agent - Corporate (Day Shift) at Crisis24 Dallas, TX",
-      "company": "Crisis24",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://logowizards.com/work/job/executive-protection-agent-corporate-day-shift-at-crisis24-dallas-tx-aGtlKzRPWDQvVXRrN3JCOEs4MUZWa1JtZFE9PQ==",
-      "via": "via Logowizards"
     }
   ]
 }

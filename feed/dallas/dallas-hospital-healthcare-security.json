@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/dallas-hospital-healthcare-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Commissioned Security Officer / JPS Hospital",
+      "company": "USAPD",
+      "location": "Fort Worth, TX",
+      "pay": "21.50–23.75 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=36cf049621e083b1",
+      "via": "via Indeed"
+    },
     {
       "title": "Part Time Receptionist/Data Entry - Medical Office",
       "company": "Generations Geriatric Mental Health",
@@ -17,34 +27,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Healthcare Security Officer — Part-Time",
-      "company": "Allied Universal",
-      "location": "DeSoto, TX",
-      "pay": "18–21 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/desoto/texas/security/5276406465/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Hospital Security Officer: Protect Patients & Patrol",
+      "title": "Hospital Security Officer – On-Call & Patrols",
       "company": "Dormont Manufacturing Co",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/jdp/-4091560866707354294",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Medical Records Clerk / Senior Data Entry Operator",
-      "company": "Resource Logistics, Inc.",
-      "location": "Framingham, MA",
-      "pay": "18–20 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=fadd9d8b0c79c540",
-      "via": "via Indeed"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4372069670576979968",
+      "via": "via Jobrapido"
     },
     {
       "title": "Hospital Public Safety Officer with Sign-On Bonus",
@@ -52,9 +42,19 @@
       "location": "Dallas, TX",
       "pay": "40K–60K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-03",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.jobleads.com/us/job/hospital-public-safety-officer-with-sign-on-bonus--dallas--eff27c6fa76901688684e227a2351ddfb",
       "via": "via JobLeads"
+    },
+    {
+      "title": "Night Patrol & Driving Security Officer (Healthcare)",
+      "company": "Allied Universal",
+      "location": "Frisco, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/682002751731782543",
+      "via": "via Jooble"
     }
   ]
 }

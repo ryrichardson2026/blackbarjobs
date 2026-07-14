@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/league-city-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security",
+      "company": "Andy Frain Services",
+      "location": "League City, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1274000140",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Lead / Supervisory Transportation Security Officer - No ExperienceRequiredforEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
+      "location": "League City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/league-city-texas?id=2865874278",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Licensed Special Event Security",
       "company": "Andy Frain Services",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://www.snagajob.com/jobs/1242586439",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required for Entry-Level TSA Care",
-      "company": "TSA Career Placement",
-      "location": "League City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-for-entry-level-tsa-care-lea/2847291571-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "US Navy",
-      "location": "League City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.jobilize.com/job/us-tx-league-military-security-officer-navy-hiring-now-job-immediately",
-      "via": "via Jobilize"
     }
   ]
 }

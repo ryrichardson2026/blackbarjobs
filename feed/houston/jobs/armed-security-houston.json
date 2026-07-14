@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/armed-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "(Pooled) Security Operations Liaison (ARMED)",
-      "company": "Texans Can Academies",
+      "title": "7Unarmed /2 Armed Postions (Active Card Holders Only) Security Officers",
+      "company": "Texas Counties Division Patrol LLC",
+      "location": "Houston, TX",
+      "pay": "16–18 an hour",
+      "schedule": "Full-time, Part-time, and Contractor",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.simplyhired.com/job/UGkyK9OJ67Dhwd28tETykccAwW4mUpvs6DXxnUaWV_Rx3rwie7myTw",
+      "via": "via SimplyHired"
+    },
+    {
+      "title": "Security Officer Armed Patrol Driver Clearance Required",
+      "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/pooled-security-operations-liaison-armed-at-texans-can-academies-4438658770",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-patrol-driver-clearance-required-at-allied-universal-4439801472",
       "via": "via LinkedIn"
     },
     {
-      "title": "Armed Security Officer - Overnight & Evening Shift",
-      "company": "CITY SECURITY CO INC",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://us.jobrapido.com/jobpreview/424476718137344000",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Armed Response",
-      "company": "Allied Universal",
+      "title": "Armed Security Officers",
+      "company": "Sunstates Security",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-armed-response/22950/97573591312",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100408/Armed-Security-Officers",
+      "via": "via Sunstates Security Jobs"
     },
     {
-      "title": "Armed Mobile Patrol Officer – Part-Time; Houston",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": "25,003–35,610 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5267597220/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed & Unarmed Security Guard — Protect & Prevent",
-      "company": "Fast Guard Service",
+      "title": "Armed Security Officer - Part-Time Driver (Flexible Shifts)",
+      "company": "Alliedbarton Security Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/armed-unarmed-security-guard-protect-prevent--houston--e595a64562611991c1429eaf218cae510",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-part-time-driver-flexible-shifts--houston--ef7e576245cf0191ba4a0ede9ce616ad5",
       "via": "via JobLeads"
+    },
+    {
+      "title": "Elite Armed Level III Officer — Houston Convention Center",
+      "company": "TriCorps",
+      "location": "Houston, TX",
+      "pay": "22,041–30,307 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5281866112/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

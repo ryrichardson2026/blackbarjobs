@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/arlington-event-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Event Security Specialist",
+      "company": "Dormont Manufacturing Co",
+      "location": "Arlington, TX",
+      "pay": "12–16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/arlington/texas/security/5281456737/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Dallas, TX Event Security Processing Req",
       "company": "BEST Crowd Management",
       "location": "Arlington, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://us.trabajo.org/job-4023-77273b2d7c468e65fa795a3f3a5f8c04",
       "via": "via Trabajo.org"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.jobleads.com/us/job/licensed-event-security-guard-at-t-stadium--arlington--eeae9a1f2301933c43c5b77b5cc90cc1b",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Hiring Event - On-The-Spot Job Offers!! - Texas Health Frisco - Public Safety Security Officers - Wednesday December 11, 2024 9am-2pm at MSCCN Arlington, TX",
-      "company": "MSCCN",
-      "location": "Arlington, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://elysiumsalon.com/samples/job/hiring-event-on-the-spot-job-offers-texas-health-frisco-public-safety-security-officers-wednesday-december-11-2024-9am-2pm-at-msccn-arlington-tx-RmNVdm1RR2pnaXJaUFh5M0ZnajhZbFFCU0E9PQ==",
-      "via": "via Elysium Salon"
     }
   ]
 }

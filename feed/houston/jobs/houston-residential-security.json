@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-residential-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Mobile Patrol Officer - Apartment Community Security",
+      "company": "signal-careers",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/-8500094569023084386",
+      "via": "via Jooble"
+    },
     {
       "title": "Security Flex Officer- Residential",
       "company": "Allied Universal",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-residential-at-allied-universal-4437747109",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Mobile Patrol Officer - Apartment Community Security",
-      "company": "signal-careers",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/mobile-patrol-officer-apartment-community-security--houston--e7a66b153973f68108827cdf1d7344d92",
-      "via": "via JobLeads"
     },
     {
       "title": "Residential Security Officer",
@@ -37,16 +37,6 @@
       "via": "via The Job Network For Security Officers"
     },
     {
-      "title": "Seeking high-profile Level 4 residential officers",
-      "company": "360 Group International, Inc.",
-      "location": "Houston, TX",
-      "pay": "38 an hour",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/Ol7ic1vSiA8KH6zyoYFOtR5iyyZn4xAtXYOtaxLTpBfvIDqr2XI-Wg",
-      "via": "via SimplyHired"
-    },
-    {
       "title": "Residential Surveillance Agent",
       "company": "PINKERTON | Comprehensive Risk Management",
       "location": "Houston, TX",
@@ -55,6 +45,16 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1301863/residential-surveillance-agent/",
       "via": "via Careers In Government"
+    },
+    {
+      "title": "Seeking high-profile Level 4 residential officers",
+      "company": "360 Group International, Inc.",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=ee494daf46f3d625",
+      "via": "via Indeed"
     }
   ]
 }

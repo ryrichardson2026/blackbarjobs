@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.900638+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/campus-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Campus Security Officer",
-      "company": "Allied Universal",
+      "title": "Security Sergeant - University Police",
+      "company": "University of Illinois Chicago",
       "location": "Chicago, IL",
-      "pay": "19-21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-sergeant-university-police-at-university-of-illinois-chicago-4440378581",
+      "via": "via LinkedIn"
     },
     {
-      "title": "University Security Officer",
-      "company": "Securitas",
-      "location": "Evanston, IL",
-      "pay": "20-22 an hour",
+      "title": "Campus Security Officer — Center",
+      "company": "Dormont Manufacturing Co",
+      "location": "Chicago, IL",
+      "pay": "20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5280829004/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Public Safety Officer",
-      "company": "Titan Security Group",
+      "title": "Part-Time Campus Security Officer - Night Shift; Tech Campus",
+      "company": "Alliedbarton Security Services",
       "location": "Chicago, IL",
-      "pay": "20-23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5282053341/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Campus Patrol Officer",
-      "company": "GardaWorld",
+      "title": "Campus Security Officer - Part-Time with CPR/First Aid",
+      "company": "The Chronicle of Higher Education",
       "location": "Chicago, IL",
-      "pay": "19-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/campus-security-officer-part-time-with-cpr-first-aid-the-chronicle-of-higher-education-chicago--lensa-7428_0c9dd461f68732615ff40910336d9406aff097afbfeecf49007375e8d5cef35b",
+      "via": "via BeBee"
     },
     {
-      "title": "Community Safety Officer",
-      "company": "Allied Universal",
+      "title": "Overnight Campus Safety Officer",
+      "company": "Roosevelt University",
       "location": "Chicago, IL",
-      "pay": "19-20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/overnight-campus-safety-officer-roosevelt-university-chicago--lensa-7428_96b1c6ec633ce2e7ab96783634f83345ae6a9e44c86aab79e7b77f0e225faaba",
+      "via": "via BeBee"
     }
   ]
 }

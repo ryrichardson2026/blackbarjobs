@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/pasadena-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,34 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Part Time Armed Driver",
+      "title": "Level 2 Non Commissioned Officer",
+      "company": "Security King LLC",
+      "location": "Pasadena, TX",
+      "pay": "15 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Security-King/Job/Level-2-Non-Commissioned-Officer/-in-Remote,US?jid=0f8335f81486d35e",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer TWIC Part Time Driver",
       "company": "Allied Universal",
       "location": "Pasadena, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-armed-driver-at-allied-universal-4439528709",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-twic-part-time-driver-at-allied-universal-4440360170",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Part Time Patrol",
-      "company": "Allied Universal",
+      "title": "Part-Time TWIC Level 2 Security Officer | Flexible Shifts",
+      "company": "Danner's Incorparated",
       "location": "Pasadena, TX",
-      "pay": "17 an hour",
+      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-patrol-at-allied-universal-4438580681",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Flex Security Officer (Unarmed)",
-      "company": "Tarian",
-      "location": "Pasadena, TX",
-      "pay": "15.94 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Flex-Security-Officer-(Unarmed)/-in-Pasadena,TX?jid=823d12f8d532cca9",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/part-time-twic-level-2-security-officer-flexible-shifts-danners-incorparated-pasadena--lensa-7428_a32bcb59b9b8a55726975448b9d68ed03dc3fc18387c4777d24bbc505f955691",
+      "via": "via BeBee"
     },
     {
       "title": "Security Officers (S)",
@@ -42,19 +42,19 @@
       "location": "Pasadena, TX",
       "pay": "13–19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4263023186",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4436600398",
       "via": "via LinkedIn"
     },
     {
-      "title": "Overnight Patrol Security Officer at GardaWorld Pasadena, TX",
-      "company": "GardaWorld",
+      "title": "Security Officer Part Time Armed Driver",
+      "company": "Allied Universal",
       "location": "Pasadena, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://allproasset.com/work/job/overnight-patrol-security-officer-at-gardaworld-pasadena-tx-QmdnNWpNOUhGMU02a3hqU2dzOTVOY3Rv",
-      "via": "via All Pro Asset Solutions"
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.aus.com/job/pasadena/security-officer-part-time-armed-driver/22950/97628503952",
+      "via": "via Allied Universal"
     }
   ]
 }

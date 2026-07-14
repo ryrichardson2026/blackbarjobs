@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/loss-prevention-houston",
   "market": "Houston",
   "target": "city-role",
@@ -37,16 +37,6 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Loss Prevention",
-      "company": "Nter Talent",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://us.trabajo.org/job-5632-ec4e0ed33f7e56b15faae98d4403fe68",
-      "via": "via Trabajo.org"
-    },
-    {
       "title": "Loss Prevention Coordinator",
       "company": "Prime Communications",
       "location": "Houston, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-06-30",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-coordinator-at-prime-communications-4422603667",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Asset Loss Prevention Officer",
+      "company": "Metro One LPSG",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://us.trabajo.org/job-5632-094bde486d859d0b7f7f5cedd50bb9de",
+      "via": "via Trabajo.org"
     }
   ]
 }

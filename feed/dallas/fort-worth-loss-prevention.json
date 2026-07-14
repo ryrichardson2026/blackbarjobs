@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/fort-worth-loss-prevention",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Asset Protection Outlet Associate - Park Lane",
-      "company": "BLOOMINGDALE'S",
-      "location": "Dallas, TX",
+      "title": "Store Security & Loss Prevention Pro",
+      "company": "Ross Stores",
+      "location": "Irving, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/store-security-loss-prevention-pro--irving--ec63f298ce0538996a44ad9b6db1ce396",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Loss Prevention & Security Officer",
+      "company": "LH Arlington Operating Company, LLC",
+      "location": "Arlington, TX",
       "pay": null,
       "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/6020812645194530816",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "Loss Prevention Specialist",
+      "company": "Albertsons Companies",
+      "location": "Arlington, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-specialist-at-albertsons-companies-4439379819?refId=dtkia7X2owDvH3%2BoONqRmw%3D%3D&trackingId=lit3EyJpB6gxBLwmI3pHQQ%3D%3D",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Loss Prevention Team Lead — Training & Security",
+      "company": "Goodwill Industries of the Palm Beaches & Treasure Coast",
+      "location": "Lake Worth, TX",
+      "pay": "50K–70K a year",
+      "schedule": "Full-time",
       "posted_date": "2026-07-09",
-      "apply_link": "https://us.fashionjobs.com/job/bloomingdale-s/Asset-protection-outlet-associate-park-lane,11605486.html",
-      "via": "via Fashion Jobs"
+      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-team-lead-training-security--lake-worth--e67b102bb08237da9e47e176f71e3a339",
+      "via": "via JobLeads"
     },
     {
       "title": "Loss Prevention Security Officer",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.jobilize.com/job/us-tx-frisco-loss-prevention-security-officer-omni-hotels-hiring-now",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Asset Protection Investigator",
-      "company": "Yesway",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-investigator-at-yesway-4437342241",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Asset Protection Specialist – Dock & Security",
-      "company": "Marksman Security",
-      "location": "Irving, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/asset-protection-specialist-dock-security--irving--e930d79997592ac6b96901b1a2c4c52a5",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security & Loss Prevention Specialist",
-      "company": "Target",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/security-loss-prevention-specialist-target-dallas--lensa-7428_b2ede378377ebe0796017945a1236bc3c109b88badb41c14eeea505dbacac4a0",
-      "via": "via BeBee"
     }
   ]
 }

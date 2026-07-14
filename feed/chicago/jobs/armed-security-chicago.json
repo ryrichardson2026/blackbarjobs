@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T23:03:55.881876+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/armed-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Armed Security Officer",
-      "company": "Securitas",
+      "title": "Armed Guard: Part-Time",
+      "company": "Silver Star Protection Group",
       "location": "Chicago, IL",
-      "pay": "23-25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-guard-part-time-at-silver-star-protection-group-4440371526",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Armed Dispensary Officer",
-      "company": "GardaWorld",
+      "title": "Armed Public Safety Officer — Hospital Night Shift",
+      "company": "Hugh Chatham Health",
       "location": "Chicago, IL",
-      "pay": "24-26 an hour",
+      "pay": "33.2K–49.8K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5278339124/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Armed Bank Security Officer",
+      "title": "Armed Security Officer – Parking Garages | Downtown Chicago, IL (3rd Shift/Overnight)",
+      "company": "ChiTown Guards",
+      "location": "Chicago, IL",
+      "pay": "19–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ceb16c91d9ba6447",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Part-Time Security (Chicago Regional Office)",
+      "company": "St. Moritz Security",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://salutemyjob.com/jobs/armed-part-time-security-chicago-regional-office-chicago-illinois/2868034709-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer Armed Patrol Driver",
       "company": "Allied Universal",
       "location": "Chicago, IL",
-      "pay": "23-25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Armed Officer",
-      "company": "Titan Security Group",
-      "location": "Chicago, IL",
-      "pay": "22-24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Armed Government Site Officer",
-      "company": "Sunstates Security",
-      "location": "Chicago, IL",
-      "pay": "25-28 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.aus.com/job/chicago/security-officer-armed-patrol-driver/22950/97620196288",
+      "via": "via Allied Universal"
     }
   ]
 }

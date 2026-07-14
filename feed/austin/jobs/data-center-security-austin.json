@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/data-center-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
-  "exact": 2,
+  "exact": 3,
   "jobs": [
+    {
+      "title": "Data Center Security Officer",
+      "company": "BlackBarJobs",
+      "location": "Austin, TX",
+      "pay": "18–26 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.blackbarjobs.com/austin/jobs/data-center-security-austin",
+      "via": "via The Job Network For Security Officers"
+    },
     {
       "title": "Data Center Security Specialist - Austin",
       "company": "CoreWeave",
@@ -27,34 +37,24 @@
       "via": "via Monster"
     },
     {
-      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
-      "company": "Ranger Protection Agency",
-      "location": "Austin, TX",
-      "pay": "23 an hour",
+      "title": "Physical Security & Compliance Specialist",
+      "company": "Compal",
+      "location": "Georgetown, TX",
+      "pay": "82K–105K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Patrol Response",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-at-allied-universal-4439378792",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/physical-security-compliance-specialist-at-compal-4440090371",
       "via": "via LinkedIn"
     },
     {
-      "title": "Full Time Security Officer Needed for University Environment",
-      "company": "GuardTexas",
+      "title": "Global Events Security Manager",
+      "company": "Securitas Security Services",
       "location": "Austin, TX",
-      "pay": "18–19 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
-      "via": "via Indeed"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172560",
+      "via": "via Cloud Sign In"
     }
   ]
 }

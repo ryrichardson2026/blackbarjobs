@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Armed Security Officer Flex - Data Center",
+      "company": "Allied Universal",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/north-richland-hills-tx/armed-security-officer-flex-data-center-781014/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
       "title": "Security Officer Data Center",
       "company": "Allied Universal",
       "location": "Plano, TX",
       "pay": "22.15 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Data-Center/-in-Plano,TX?jid=3c06d53cd11e5fe5",
       "via": "via ZipRecruiter"
     },
@@ -27,6 +37,16 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Security Officer Data Center",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-data-center/22950/97581701440",
+      "via": "via Allied Universal"
+    },
+    {
       "title": "Armed Security Officer Data Center - Clearance Required",
       "company": "Allied Universal",
       "location": "Justin, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://jobs.womenforhire.com/job/usa/justin-tx/armed-security-officer-data-center-clearance-required-093162/",
       "via": "via GetHiredToday | Largest Job Board For Women - Women For Hire"
-    },
-    {
-      "title": "Allied Universal is hiring: Armed Security Officer Flex - Data Center in Fort Worth",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.recruit.net/job/allied-universal-is-armed-security-jobs/4FE0401258566A3C",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "Armed Security Officer Data Center - Clearance Required",
-      "company": "Allied Universal",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/bedford-tx/armed-security-officer-data-center-clearance-required-163757/",
-      "via": "via Women For Hire- Job Board"
     }
   ]
 }

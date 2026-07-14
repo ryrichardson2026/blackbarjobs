@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
@@ -27,6 +27,16 @@
       "via": "via Learn4Good"
     },
     {
+      "title": "Surveillance Investigator",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-08",
+      "apply_link": "https://jobs.aus.com/job/houston/surveillance-investigator/22950/97581702512",
+      "via": "via Allied Universal"
+    },
+    {
       "title": "Security Officer Facility Monitor",
       "company": "Allied Universal",
       "location": "Houston, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.jobleads.com/us/job/weekend-security-patrol-surveillance-part-time--houston--e41cdce8bf141ce307f34a551d7184330",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Control Operator: Security Monitoring",
-      "company": "Prevail Security Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://us.trabajo.org/job-5632-b761310d6056efb9f4c9650e9ae8353e",
-      "via": "via Trabajo.org"
     }
   ]
 }

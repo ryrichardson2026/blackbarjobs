@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/retail-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Retail Armed Patrol Officer — Part-Time Shifts",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/5128843623278682269",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Security Professional - Retail Part Time",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/rjdp/6867334856368836417",
+      "via": "via Jooble"
+    },
     {
       "title": "Part-Time Armed Patrol Officer – Retail Safety Pro",
       "company": "Allied Universal",
@@ -27,34 +47,14 @@
       "via": "via Recruit.net"
     },
     {
-      "title": "Part-Time Armed Driver Patrol — Retail Security",
-      "company": "Alliedbarton Security Services",
+      "title": "Armed Retail Patrol Specialist — Part-Time, $22/hr",
+      "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-armed-driver-patrol-retail-security--san-antonio--ecf20c05b99d17b970959fc7b989d911e",
+      "apply_link": "https://www.jobleads.com/us/job/armed-retail-patrol-specialist-part-time-22-hr--san-antonio--ebe77019011bd6f927c3664b0cb74c4fb",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer – Retail Corporate Office",
-      "company": "Allied Universal – San Antonio",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/san-antonio/allied-universal-8211-san-antonio/security-officer-retail-corporate-office/",
-      "via": "via Security Guards Only"
-    },
-    {
-      "title": "Retail Security Officer",
-      "company": "BlackBarJobs",
-      "location": "San Antonio, TX",
-      "pay": "15–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/retail-security-san-antonio",
-      "via": "via The Job Network For Security Officers"
     }
   ]
 }

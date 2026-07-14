@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/houston-level-2-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Level II Security Guard - Part-Time Staff, Flexible Hours",
+      "company": "S.A.F.E. Management",
+      "location": "Houston, TX",
+      "pay": "16–22 an hour",
+      "schedule": null,
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/jdp/6649836951690754224",
+      "via": "via Jooble"
+    },
     {
       "title": "Level II Security Guard – Part-Time",
       "company": "S.A.F.E. Management",
@@ -27,6 +37,16 @@
       "via": "via ZipRecruiter"
     },
     {
+      "title": "Weekend Rover Level II Security National Accounts",
+      "company": "St Moritz Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-27",
+      "apply_link": "https://www.jobilize.com/job/us-tx-houston-weekend-rover-level-ii-security-national-accounts-st",
+      "via": "via Jobilize"
+    },
+    {
       "title": "Level 2 Security Officer",
       "company": "BlackBarJobs",
       "location": "Houston, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-06-26",
       "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-level-2-security",
       "via": "via The Job Network For Security Officers"
-    },
-    {
-      "title": "Security Guard – Level II Certification -187 days",
-      "company": "Katy Independent School District",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/katy-independent-school-district/security-guard-level-ii-certification-187-days-2/",
-      "via": "via Security Guards Only"
-    },
-    {
-      "title": "Security officer of level 2",
-      "company": "Presidential Staffing Solutions, LLC",
-      "location": "Houston, TX",
-      "pay": "17–20 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=8f9e8598236578eb",
-      "via": "via Indeed"
     }
   ]
 }

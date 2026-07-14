@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/dallas-level-3-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "W2 - Armed Commissioned Security Officer/Level 3",
-      "company": "Tiger Solutions Group",
+      "title": "Level 3 Security Officer",
+      "company": "Tactical Unit and Investigations",
       "location": "Dallas, TX",
-      "pay": "21–23 an hour",
+      "pay": "18 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=49570ae135169088",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.indeed.com/viewjob?jk=bfefbedccafb3fa3",
       "via": "via Indeed"
+    },
+    {
+      "title": "Level 3 Security Officer - Commission & Non-Commission (Dallas)",
+      "company": "TRI SHIELD SECURITY & INVESTIGATIONS LLC",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/level-3-security-officer-commission-non-commission-dallas-tri-shield-security-investigations-llc-dal--lensa-7428_c39c2f90d1a282c9e16712b9681e26a71eda027ef5b1d6954c068c949f027ed6",
+      "via": "via BeBee"
     },
     {
       "title": "Level 3 Commissioned Officer Weekends",
@@ -22,39 +32,29 @@
       "location": "Dallas, TX",
       "pay": "18–20 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=942e968267acbb71",
       "via": "via Indeed"
     },
     {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
-      "location": "Lake Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Lake-Dallas,TX?jid=923717ba1818ffab",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "2 Full-Time Level 3 Warehouse Officers needed in Dallas",
-      "company": "Congregational Security Inc.",
+      "title": "W2 - Armed Commissioned Security Officer/Level 3",
+      "company": "Tiger Solutions Group",
       "location": "Dallas, TX",
-      "pay": "23–25 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.indeed.com/viewjob?jk=25348896f417937b",
+      "pay": "21–23 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.indeed.com/viewjob?jk=49570ae135169088",
       "via": "via Indeed"
     },
     {
-      "title": "Level 3 Security Officer – Commission & Non-Commission (Dallas)",
-      "company": "TRI SHIELD SECURITY & INVESTIGATIONS LLC",
+      "title": "Level 3 ATM Armed Security Officer at Zona Facta Dallas, TX",
+      "company": "Zona Facta",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://www.jobleads.com/us/job/level-3-security-officer-commission-non-commission-dallas--dallas--e55eeb035994148d4f3fce643e3d6df80",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-08",
+      "apply_link": "https://romatileny.com/job-search/job/level-3-atm-armed-security-officer-at-zona-facta-dallas-tx-dWl1QVI3UTRqdXJpYnorejlqalQ4WU0vUHc9PQ==",
+      "via": "via Roma Tile & Marble"
     }
   ]
 }

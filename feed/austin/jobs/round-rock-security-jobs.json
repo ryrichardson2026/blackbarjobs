@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/round-rock-security-jobs",
   "market": "Austin",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Part-Time Enhanced Security Officer",
+      "company": "Alliedbarton Security Services",
+      "location": "Round Rock, TX",
+      "pay": "20.19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/round-rock/texas/security/5281567086/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer - Weekly Pay, Benefits & Advancement",
+      "company": "Secureone Security Services Inc",
+      "location": "Round Rock, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-weekly-pay-benefits-advancement--round-rock--e359a8842aa16740b197982e58d96a065",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Round Rock, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Round-Rock,TX?jid=559ef5599bb589d8",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Loss Prevention Security Officer",
       "company": "Marriott International, Inc",
@@ -17,44 +47,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
+      "title": "Security Officer Part Time Unarmed Patrols",
+      "company": "Allied Universal",
       "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Round-Rock,TX?jid=559ef5599bb589d8",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer PRN",
-      "company": "St. David's North Austin Medical Center",
-      "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.ziprecruiter.com/c/HCA-Healthcare/Job/Security-Officer-PRN/-in-Round-Rock,TX?jid=8ab445cd59af6e9b",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Resort Security Officer (Hiring Immediately)",
-      "company": "Kalahari Resorts and Conventions",
-      "location": "Round Rock, TX",
-      "pay": null,
+      "pay": "20.19 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/resort-security-officer-hiring-immediately/round-rock-texas?id=2864456390",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "PARKING LOT SECURITY GUARD",
-      "company": "Round Rock Independent School District",
-      "location": "Round Rock, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=dff50a29620aba4b",
-      "via": "via Indeed"
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Unarmed-Patrols/-in-Round-Rock,TX?jid=9f7dc3f7700d034e",
+      "via": "via ZipRecruiter"
     }
   ]
 }

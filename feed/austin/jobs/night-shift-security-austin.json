@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "austin/jobs/night-shift-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
-      "company": "Allied Universal",
+      "title": "Security Mobile Patrol Officers Overnight Monday-Thursday",
+      "company": "ACT Security Group",
       "location": "Austin, TX",
-      "pay": "20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=8127dd6b45ecbdc6",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Night Security Officer",
+      "company": "Premier Security Solutions",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://odettebrainly.vercel.app/?jobs=en-job-night-security-officer-1783927901385",
+      "via": "via Vercel"
+    },
+    {
+      "title": "Senior Hospital Security Officer; Night Shift",
+      "company": "FALL CREEK FARM & NURSERY",
+      "location": "Austin, TX",
+      "pay": "3,800–4,837 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5281444334/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Night Vehicle Patrol Security Officer - Full-Time",
-      "company": "Iidon Security Associates",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/jdp/-4609899027704061571",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security - Night (Hiring Immediately)",
+      "title": "Night Security Officer — Hotel Safety & Guest Care",
       "company": "White Lodging",
       "location": "Austin, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-night-hiring-immediately/austin-texas?id=2864435549",
-      "via": "via WhatJobs"
+      "schedule": null,
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/2383170536619256835",
+      "via": "via Jooble"
     },
     {
-      "title": "Over Night Security (Part Time) (Hiring Immediately)",
-      "company": "Provincial Senior Living",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/over-night-security-part-time/austin-texas?id=2864440161",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Officer Evening/Night Shifts, CPR/First Aid Ready",
-      "company": "Silver Shield",
+      "title": "Overnight Security Officer Hotel Safety & Guest Care",
+      "company": "HYATT Hotels",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officer-evening-night-shifts-cpr-first/austin-texas?id=2868267921",
-      "via": "via WhatJobs"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5362741741831061504",
+      "via": "via Jobrapido"
     }
   ]
 }

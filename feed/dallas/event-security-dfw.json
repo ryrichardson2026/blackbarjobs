@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/event-security-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Dallas, TX Event Security Processing Req",
-      "company": "BEST Crowd Management",
+      "title": "Event Security Specialist",
+      "company": "Dormont Manufacturing Co",
       "location": "Arlington, TX",
+      "pay": "12–16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/arlington/texas/security/5281456737/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Event Security Staff - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1205254371",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Event Security Staff - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Ennis, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1259395557",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Arena Event Security Guard (Part Time)",
+      "company": "Dickies Arena",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
       "posted_date": "2026-07-11",
-      "apply_link": "https://us.trabajo.org/job-4023-77273b2d7c468e65fa795a3f3a5f8c04",
-      "via": "via Trabajo.org"
+      "apply_link": "https://bebee.com/us/jobs/arena-event-security-guard-part-time-dickies-arena-fort-worth--lensa-7428_9147b2030fd2db4071c2fc78e7db6599a048f63b8f1d4a5c9c0419a120a7d569",
+      "via": "via BeBee"
     },
     {
       "title": "Security Officer Virtual Hiring Event 7/14/2026",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-virtual-hiring-event-7-14-2026-at-securitas-security-services-usa-inc-4435991636",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Virtual Hiring Event 7/14/2026",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Justin, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-virtual-hiring-event-7-14-2026-at-securitas-security-services-usa-inc-4435648144",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Arena Event Security Guard Part-Time",
-      "company": "Trail Drive Management Corp",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Security Officer Virtual Hiring Event 7/14/2026",
-      "company": "Securitas Security Services",
-      "location": "Justin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/172414?utm_medium=search+engine&utm_source=google",
-      "via": "via Cloud Sign In"
     }
   ]
 }

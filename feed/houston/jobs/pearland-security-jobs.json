@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/pearland-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Campus Safety Monitor: De-Escalation & Security",
+      "company": "Pearland ISD",
+      "location": "Pearland, TX",
+      "pay": "14–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/pearland/texas/security/5281331049/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Part-Time Lobby Security Pro — Flexible Shift Options",
+      "company": "Allied Universal",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5787828330292051968",
+      "via": "via Jobrapido"
+    },
+    {
       "title": "Flex Security Officer (Taser)",
       "company": "Tarian",
       "location": "Pearland, TX",
       "pay": null,
       "schedule": null,
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-10",
       "apply_link": "https://careers.tariangroup.com/careers-home/jobs/23394?lang=en-us",
       "via": "via Tarian Group"
     },
@@ -27,34 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Part Time Route Driver",
+      "title": "Security Professional - Driving Patrol",
       "company": "Allied Universal",
       "location": "Pearland, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-route-driver-at-allied-universal-4438853260",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Campus Security Monitor #4238",
-      "company": "Pearland ISD",
-      "location": "Pearland, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Full-time and Contractor",
       "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/campus-security-monitor-%234238-at-pearland-isd-4438549525",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Event Security",
-      "company": "Andy Frain Services",
-      "location": "Pearland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.monster.com/job-openings/event-security-pearland-tx--21128896-1f51-43be-87b4-6c0337fccd14?mstr_dist=true",
-      "via": "via Monster"
+      "apply_link": "https://jooble.org/rjdp/1932528300328749720",
+      "via": "via Jooble"
     }
   ]
 }

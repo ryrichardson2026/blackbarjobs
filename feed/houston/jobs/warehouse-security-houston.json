@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "houston/jobs/warehouse-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Warehouse Security & Access Control Specialist",
-      "company": "Bloomingdale's Inc.",
-      "location": "Tomball, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/warehouse-security-access-control-specialist--tomball--ec434892c1088d8e8d8b5c6d34fbab08b",
-      "via": "via JobLeads"
-    },
     {
       "title": "Security Professional Flex Officer- Warehouse PT",
       "company": "Allied Universal",
@@ -27,14 +17,14 @@
       "via": "via Allied Universal"
     },
     {
-      "title": "Security Officer​/Warehouse",
-      "company": "St. Moritz Security Services",
-      "location": "Katy, TX",
-      "pay": "16.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/katy/texas/security/5259381334/e/",
-      "via": "via Learn4Good"
+      "title": "Industrial/Warehouse Security (TWIC CARD)",
+      "company": "GuardTexas – Houston",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/guardtexas-8211-houston/industrial-warehouse-security-twic-card/",
+      "via": "via Security Guards Only"
     },
     {
       "title": "Security Officer - Warehouse",
@@ -47,14 +37,24 @@
       "via": "via Adzuna"
     },
     {
-      "title": "Industrial/Warehouse Security (TWIC CARD)",
-      "company": "GuardTexas – Houston",
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/guardtexas-8211-houston/industrial-warehouse-security-twic-card/",
-      "via": "via Security Guards Only"
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
+      "via": "via GardaWorld - GardaWorld Security"
+    },
+    {
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-01",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
+      "via": "via GardaWorld - GardaWorld Security"
     }
   ]
 }

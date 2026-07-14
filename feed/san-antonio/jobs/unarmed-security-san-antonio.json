@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "san-antonio/jobs/unarmed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,13 +7,33 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Retail Security Officer Job at Marksman Security LLC in San Antonio",
-      "company": "Marksman Security LLC",
+      "title": "Unarmed Event Security Officer | College Football & Concerts | $17/hr| Level 2 License",
+      "company": "A & Associates",
       "location": "San Antonio, TX",
       "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=935f400dade46359",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Officer; TX Level II – Access Control",
+      "company": "Prosegur Security USA, Inc",
+      "location": "San Antonio, TX",
+      "pay": "30K–42K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.recruit.net/job/unarmed-retail-security-officer-at-jobs/3FE479F88708F241",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5283610685/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Security Officer (FLEX) Job at Marksman Security in San Antonio",
+      "company": "Marksman Security",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-flex-at-jobs/3EAAC2E411DFF1BB",
       "via": "via Recruit.net"
     },
     {
@@ -22,39 +42,19 @@
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
+      "posted_date": "2026-07-11",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Guard - Part Time Unarmed Patrol",
+      "title": "Part-Time Unarmed Security Officer: Flexible Shifts",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/security-guard-part-time-unarmed-patrol/22950/97586094784",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Unarmed Asset Protection Officer - Flexible Shifts",
-      "company": "Inter-Con Security",
-      "location": "San Antonio, TX",
-      "pay": "30K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-asset-protection-officer-flexible-shifts--san-antonio--e7173a6644f9bf190b19654f97222a3d7",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Security Officer — Public Space Patrol & Service",
-      "company": "Marksman",
-      "location": "San Antonio, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5264336398/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/-4500205760430661734",
+      "via": "via Jooble"
     }
   ]
 }

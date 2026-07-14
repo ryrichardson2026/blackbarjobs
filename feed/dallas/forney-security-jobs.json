@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-11T15:06:03.776490+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "dallas/forney-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer",
+      "company": "United Protective Services",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e789ec4a78629ba2",
+      "via": "via Indeed"
+    },
     {
       "title": "Armed Security Officer Elite Route Patrol Driver",
       "company": "Allied Universal",
@@ -22,9 +32,9 @@
       "location": "Forney, TX",
       "pay": "16.25 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.glassdoor.com/job-listing/school-resource-security-officer-united-protective-services-JV_IC1139991_KO0,32_KE33,59.htm?jl=1010195611838",
-      "via": "via Glassdoor"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.indeed.com/viewjob?jk=dcd10d674a4415d2",
+      "via": "via Indeed"
     },
     {
       "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
@@ -37,24 +47,14 @@
       "via": "via WhatJobs"
     },
     {
-      "title": "Temp Security Officer (Hiring Immediately)",
-      "company": "GardaWorld",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/temp-security-officer-hiring-immediately/forney-texas?id=2864456201",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "US Navy",
+      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
+      "company": "Airport Security Careers",
       "location": "Forney, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.jobilize.com/job/us-tx-forney-military-security-officer-navy-hiring-now-job-immediately",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/forney-texas?id=2865657547",
+      "via": "via WhatJobs"
     }
   ]
 }

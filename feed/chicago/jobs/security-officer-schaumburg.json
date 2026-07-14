@@ -1,60 +1,60 @@
 {
-  "generated": "2026-07-09T23:03:55.938289+00:00",
+  "generated": "2026-07-14T15:54:47.387148+00:00",
   "page": "chicago/jobs/security-officer-schaumburg",
   "market": "Chicago",
-  "target": "city-role",
+  "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer",
+      "title": "Security Officer - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Schaumburg, IL",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1265577653",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Part Time Retail Security Specialist",
+      "company": "Andy Frain",
+      "location": "Schaumburg, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-retail-security-specialist-schaumburg-illinois/2871221575-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Weekend Security Officer - Tech/Telecom Campus (PT)",
       "company": "Allied Universal",
       "location": "Schaumburg, IL",
-      "pay": "19-21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/weekend-security-officer-tech-telecom-campus-pt--schaumburg--eaedac8c135db6d25c9036fc63570ff5c",
+      "via": "via JobLeads"
     },
     {
-      "title": "Retail Loss Prevention Officer",
-      "company": "Securitas",
+      "title": "Unarmed Security Officer: Customer-Focused Patrol",
+      "company": "Prosegur Security USA, Inc",
       "location": "Schaumburg, IL",
-      "pay": "20-22 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-customer-focused-patrol-prosegur-security-usa-inc-schaumburg--lensa-7428_d0025129436372dae89795ee72cb289d255df7d322c23bfd9131de065f5c559a",
+      "via": "via BeBee"
     },
     {
-      "title": "Corporate Security Officer",
-      "company": "Titan Security Group",
+      "title": "Entry-Level Police Officer: Protect, Patrol, Serve",
+      "company": "Village of Schaumburg",
       "location": "Schaumburg, IL",
-      "pay": "20-22 an hour",
+      "pay": "80,472–97,860 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Mall Security Officer",
-      "company": "GardaWorld",
-      "location": "Schaumburg, IL",
-      "pay": "18-20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
-    },
-    {
-      "title": "Event Security Officer",
-      "company": "Monterrey Security",
-      "location": "Schaumburg, IL",
-      "pay": "18-21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.blackbarjobs.com/chicago",
-      "via": "via BlackBarJobs"
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jooble.org/jdp/1394471852957149281",
+      "via": "via Jooble"
     }
   ]
 }
