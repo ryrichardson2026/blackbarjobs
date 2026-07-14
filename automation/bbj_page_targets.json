@@ -1,9 +1,9 @@
 {
-  "pages": 244,
+  "pages": 226,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
-      "path": "dallas/event-security-dfw.html",
+      "path": "dallas/jobs/dallas-event-security.html",
       "market": "DFW",
       "role": "event",
       "city": null,
@@ -14,7 +14,7 @@
     },
     {
       "key": "dallas/forney-security-jobs",
-      "path": "dallas/forney-security-jobs.html",
+      "path": "dallas/jobs/forney-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "forney",
@@ -25,7 +25,7 @@
     },
     {
       "key": "dallas/dallas-festival-security",
-      "path": "dallas/dallas-festival-security.html",
+      "path": "dallas/jobs/dallas-festival-security.html",
       "market": "DFW",
       "role": "festival",
       "city": "dallas",
@@ -47,7 +47,7 @@
     },
     {
       "key": "dallas/dallas-surveillance-security",
-      "path": "dallas/dallas-surveillance-security.html",
+      "path": "dallas/jobs/dallas-surveillance-security.html",
       "market": "DFW",
       "role": "surveillance",
       "city": "dallas",
@@ -58,7 +58,7 @@
     },
     {
       "key": "dallas/unarmed-security-dfw",
-      "path": "dallas/unarmed-security-dfw.html",
+      "path": "dallas/jobs/dallas-unarmed-security.html",
       "market": "DFW",
       "role": "unarmed",
       "city": null,
@@ -69,7 +69,7 @@
     },
     {
       "key": "dallas/overnight-security-dfw",
-      "path": "dallas/overnight-security-dfw.html",
+      "path": "dallas/jobs/dallas-overnight-security.html",
       "market": "DFW",
       "role": "overnight",
       "city": null,
@@ -80,7 +80,7 @@
     },
     {
       "key": "dallas/rowlett-security-jobs",
-      "path": "dallas/rowlett-security-jobs.html",
+      "path": "dallas/jobs/rowlett-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "rowlett",
@@ -91,7 +91,7 @@
     },
     {
       "key": "dallas/carrollton-security-jobs",
-      "path": "dallas/carrollton-security-jobs.html",
+      "path": "dallas/jobs/carrollton-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "carrollton",
@@ -102,7 +102,7 @@
     },
     {
       "key": "dallas/uptown-dallas-security",
-      "path": "dallas/uptown-dallas-security.html",
+      "path": "dallas/jobs/uptown-dallas-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -112,19 +112,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/entry-level-security-jobs-dfw",
-      "path": "dallas/entry-level-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "entry-level",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/fort-worth-loss-prevention",
-      "path": "dallas/fort-worth-loss-prevention.html",
+      "path": "dallas/jobs/fort-worth-loss-prevention-security.html",
       "market": "DFW",
       "role": "loss-prevention",
       "city": "fort-worth",
@@ -135,7 +124,7 @@
     },
     {
       "key": "dallas/dallas-venue-security",
-      "path": "dallas/dallas-venue-security.html",
+      "path": "dallas/jobs/dallas-venue-security.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -146,7 +135,7 @@
     },
     {
       "key": "dallas/dallas-high-value-asset-security",
-      "path": "dallas/dallas-high-value-asset-security.html",
+      "path": "dallas/jobs/dallas-high-value-asset-security.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -157,7 +146,7 @@
     },
     {
       "key": "dallas/dallas-university-security",
-      "path": "dallas/dallas-university-security.html",
+      "path": "dallas/jobs/dallas-university-security.html",
       "market": "DFW",
       "role": "university",
       "city": "dallas",
@@ -168,7 +157,7 @@
     },
     {
       "key": "dallas/full-time-security-jobs-dfw",
-      "path": "dallas/full-time-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-full-time-security.html",
       "market": "DFW",
       "role": "full-time",
       "city": null,
@@ -179,7 +168,7 @@
     },
     {
       "key": "dallas/garland-security-jobs",
-      "path": "dallas/garland-security-jobs.html",
+      "path": "dallas/jobs/garland-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "garland",
@@ -190,7 +179,7 @@
     },
     {
       "key": "dallas/dallas-part-time-security",
-      "path": "dallas/dallas-part-time-security.html",
+      "path": "dallas/jobs/dallas-part-time-security.html",
       "market": "DFW",
       "role": "part-time",
       "city": "dallas",
@@ -201,7 +190,7 @@
     },
     {
       "key": "dallas/irving-overnight-security-jobs",
-      "path": "dallas/irving-overnight-security-jobs.html",
+      "path": "dallas/jobs/irving-overnight-security.html",
       "market": "DFW",
       "role": "overnight",
       "city": "irving",
@@ -212,7 +201,7 @@
     },
     {
       "key": "dallas/data-center-security-jobs-dfw",
-      "path": "dallas/data-center-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-data-center-security.html",
       "market": "DFW",
       "role": "data-center",
       "city": null,
@@ -223,7 +212,7 @@
     },
     {
       "key": "dallas/mckinney-security-jobs",
-      "path": "dallas/mckinney-security-jobs.html",
+      "path": "dallas/jobs/mckinney-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "mckinney",
@@ -234,7 +223,7 @@
     },
     {
       "key": "dallas/fort-worth-hospital-security",
-      "path": "dallas/fort-worth-hospital-security.html",
+      "path": "dallas/jobs/fort-worth-hospital-security.html",
       "market": "DFW",
       "role": "hospital-healthcare",
       "city": "fort-worth",
@@ -245,7 +234,7 @@
     },
     {
       "key": "dallas/loss-prevention-dfw",
-      "path": "dallas/loss-prevention-dfw.html",
+      "path": "dallas/jobs/dallas-loss-prevention-security.html",
       "market": "DFW",
       "role": "loss-prevention",
       "city": null,
@@ -256,7 +245,7 @@
     },
     {
       "key": "dallas/allen-security-jobs",
-      "path": "dallas/allen-security-jobs.html",
+      "path": "dallas/jobs/allen-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "allen",
@@ -267,7 +256,7 @@
     },
     {
       "key": "dallas/security-jobs-fort-worth",
-      "path": "dallas/security-jobs-fort-worth.html",
+      "path": "dallas/jobs/fort-worth-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "fort-worth",
@@ -278,7 +267,7 @@
     },
     {
       "key": "dallas/midlothian-security-jobs",
-      "path": "dallas/midlothian-security-jobs.html",
+      "path": "dallas/jobs/midlothian-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "midlothian",
@@ -289,7 +278,7 @@
     },
     {
       "key": "dallas/north-richland-hills-security-jobs",
-      "path": "dallas/north-richland-hills-security-jobs.html",
+      "path": "dallas/jobs/north-richland-hills-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "north-richland-hills",
@@ -322,7 +311,7 @@
     },
     {
       "key": "dallas/dallas-bar-club-security",
-      "path": "dallas/dallas-bar-club-security.html",
+      "path": "dallas/jobs/dallas-bar-club-security.html",
       "market": "DFW",
       "role": "bar-club",
       "city": "dallas",
@@ -332,30 +321,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-loss-prevention",
-      "path": "dallas/dallas-loss-prevention.html",
-      "market": "DFW",
-      "role": "loss-prevention",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/dallas-overnight-security",
-      "path": "dallas/dallas-overnight-security.html",
-      "market": "DFW",
-      "role": "overnight",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/dallas-private-event-security",
-      "path": "dallas/dallas-private-event-security.html",
+      "path": "dallas/jobs/dallas-private-event-security.html",
       "market": "DFW",
       "role": "event",
       "city": "dallas",
@@ -366,7 +333,7 @@
     },
     {
       "key": "dallas/dallas-hospital-healthcare-security",
-      "path": "dallas/dallas-hospital-healthcare-security.html",
+      "path": "dallas/jobs/dallas-hospital-healthcare-security.html",
       "market": "DFW",
       "role": "hospital-healthcare",
       "city": "dallas",
@@ -377,7 +344,7 @@
     },
     {
       "key": "dallas/euless-security-jobs",
-      "path": "dallas/euless-security-jobs.html",
+      "path": "dallas/jobs/euless-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "euless",
@@ -388,7 +355,7 @@
     },
     {
       "key": "dallas/rockwall-security-jobs",
-      "path": "dallas/rockwall-security-jobs.html",
+      "path": "dallas/jobs/rockwall-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "rockwall",
@@ -399,7 +366,7 @@
     },
     {
       "key": "dallas/security-officer-jobs-dallas",
-      "path": "dallas/security-officer-jobs-dallas.html",
+      "path": "dallas/jobs/dallas-officer-security.html",
       "market": "DFW",
       "role": "security-officer",
       "city": "dallas",
@@ -410,7 +377,7 @@
     },
     {
       "key": "dallas/dallas-level-2-security",
-      "path": "dallas/dallas-level-2-security.html",
+      "path": "dallas/jobs/dallas-level-2-security.html",
       "market": "DFW",
       "role": "level-2",
       "city": "dallas",
@@ -421,7 +388,7 @@
     },
     {
       "key": "dallas/medical-district-dallas-security",
-      "path": "dallas/medical-district-dallas-security.html",
+      "path": "dallas/jobs/medical-district-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -432,7 +399,7 @@
     },
     {
       "key": "dallas/bedford-security-jobs",
-      "path": "dallas/bedford-security-jobs.html",
+      "path": "dallas/jobs/bedford-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "bedford",
@@ -443,7 +410,7 @@
     },
     {
       "key": "dallas/dallas-office-building-security",
-      "path": "dallas/dallas-office-building-security.html",
+      "path": "dallas/jobs/dallas-office-building-security.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -454,7 +421,7 @@
     },
     {
       "key": "dallas/dallas-airport-security",
-      "path": "dallas/dallas-airport-security.html",
+      "path": "dallas/jobs/dallas-airport-security.html",
       "market": "DFW",
       "role": "airport-tsa",
       "city": "dallas",
@@ -465,7 +432,7 @@
     },
     {
       "key": "dallas/hotel-security-jobs-dfw",
-      "path": "dallas/hotel-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-hotel-security.html",
       "market": "DFW",
       "role": "hotel",
       "city": null,
@@ -476,7 +443,7 @@
     },
     {
       "key": "dallas/dallas-security-jobs-hiring-immediately",
-      "path": "dallas/dallas-security-jobs-hiring-immediately.html",
+      "path": "dallas/jobs/dallas-hiring-immediately-security.html",
       "market": "DFW",
       "role": "hiring-immediately",
       "city": "dallas",
@@ -487,7 +454,7 @@
     },
     {
       "key": "dallas/dallas-entry-level-security-jobs",
-      "path": "dallas/dallas-entry-level-security-jobs.html",
+      "path": "dallas/jobs/dallas-entry-level-security.html",
       "market": "DFW",
       "role": "entry-level",
       "city": "dallas",
@@ -498,7 +465,7 @@
     },
     {
       "key": "dallas/mansfield-security-jobs",
-      "path": "dallas/mansfield-security-jobs.html",
+      "path": "dallas/jobs/mansfield-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "mansfield",
@@ -509,7 +476,7 @@
     },
     {
       "key": "dallas/dallas-armed-overnight-security",
-      "path": "dallas/dallas-armed-overnight-security.html",
+      "path": "dallas/jobs/dallas-armed-overnight-security.html",
       "market": "DFW",
       "role": "armed-overnight",
       "city": "dallas",
@@ -520,7 +487,7 @@
     },
     {
       "key": "dallas/lewisville-security-jobs",
-      "path": "dallas/lewisville-security-jobs.html",
+      "path": "dallas/jobs/lewisville-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "lewisville",
@@ -530,19 +497,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-armed-security",
-      "path": "dallas/dallas-armed-security.html",
-      "market": "DFW",
-      "role": "armed",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/dallas-sporting-event-security",
-      "path": "dallas/dallas-sporting-event-security.html",
+      "path": "dallas/jobs/dallas-sporting-event-security.html",
       "market": "DFW",
       "role": "event",
       "city": "dallas",
@@ -553,7 +509,7 @@
     },
     {
       "key": "dallas/fort-worth-overnight-security-jobs",
-      "path": "dallas/fort-worth-overnight-security-jobs.html",
+      "path": "dallas/jobs/fort-worth-overnight-security.html",
       "market": "DFW",
       "role": "overnight",
       "city": "fort-worth",
@@ -564,7 +520,7 @@
     },
     {
       "key": "dallas/dallas-no-experience-security-jobs",
-      "path": "dallas/dallas-no-experience-security-jobs.html",
+      "path": "dallas/jobs/dallas-no-experience-security.html",
       "market": "DFW",
       "role": "no-experience",
       "city": "dallas",
@@ -574,19 +530,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-warehouse-security",
-      "path": "dallas/dallas-warehouse-security.html",
-      "market": "DFW",
-      "role": "warehouse",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/design-district-dallas-security",
-      "path": "dallas/design-district-dallas-security.html",
+      "path": "dallas/jobs/design-district-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -597,20 +542,9 @@
     },
     {
       "key": "dallas/mobile-patrol-security-jobs-dfw",
-      "path": "dallas/mobile-patrol-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-mobile-patrol-security.html",
       "market": "DFW",
       "role": "mobile-patrol",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/no-experience-security-jobs-dfw",
-      "path": "dallas/no-experience-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "no-experience",
       "city": null,
       "city_major": false,
       "target_type": "role",
@@ -641,7 +575,7 @@
     },
     {
       "key": "dallas/fort-worth-no-experience-security",
-      "path": "dallas/fort-worth-no-experience-security.html",
+      "path": "dallas/jobs/fort-worth-no-experience-security.html",
       "market": "DFW",
       "role": "no-experience",
       "city": "fort-worth",
@@ -652,7 +586,7 @@
     },
     {
       "key": "dallas/fort-worth-armed-security",
-      "path": "dallas/fort-worth-armed-security.html",
+      "path": "dallas/jobs/fort-worth-armed-security.html",
       "market": "DFW",
       "role": "armed",
       "city": "fort-worth",
@@ -663,7 +597,7 @@
     },
     {
       "key": "dallas/arlington-event-security-jobs",
-      "path": "dallas/arlington-event-security-jobs.html",
+      "path": "dallas/jobs/arlington-event-security.html",
       "market": "DFW",
       "role": "event",
       "city": "arlington",
@@ -674,7 +608,7 @@
     },
     {
       "key": "dallas/fort-worth-event-security",
-      "path": "dallas/fort-worth-event-security.html",
+      "path": "dallas/jobs/fort-worth-event-security.html",
       "market": "DFW",
       "role": "event",
       "city": "fort-worth",
@@ -684,46 +618,13 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-unarmed-security",
-      "path": "dallas/dallas-unarmed-security.html",
-      "market": "DFW",
-      "role": "unarmed",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/warehouse-security-jobs-dfw",
-      "path": "dallas/warehouse-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-warehouse-security.html",
       "market": "DFW",
       "role": "warehouse",
       "city": null,
       "city_major": false,
       "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/level-2-security-jobs-dfw",
-      "path": "dallas/level-2-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "level-2",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/dallas-mobile-patrol",
-      "path": "dallas/dallas-mobile-patrol.html",
-      "market": "DFW",
-      "role": "mobile-patrol",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -735,17 +636,6 @@
       "city": null,
       "city_major": false,
       "target_type": "general",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/part-time-security-jobs-dfw",
-      "path": "dallas/part-time-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "part-time",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -773,7 +663,7 @@
     },
     {
       "key": "dallas/hospital-security-jobs-dfw",
-      "path": "dallas/hospital-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-hospital-security.html",
       "market": "DFW",
       "role": "hospital-healthcare",
       "city": null,
@@ -784,7 +674,7 @@
     },
     {
       "key": "dallas/dallas-school-security",
-      "path": "dallas/dallas-school-security.html",
+      "path": "dallas/jobs/dallas-school-security.html",
       "market": "DFW",
       "role": "school",
       "city": "dallas",
@@ -794,30 +684,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-construction-security",
-      "path": "dallas/dallas-construction-security.html",
-      "market": "DFW",
-      "role": "construction",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/dallas-hotel-security",
-      "path": "dallas/dallas-hotel-security.html",
-      "market": "DFW",
-      "role": "hotel",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/tsa-airport-security-dfw",
-      "path": "dallas/tsa-airport-security-dfw.html",
+      "path": "dallas/jobs/dallas-tsa-airport-security.html",
       "market": "DFW",
       "role": "airport-tsa",
       "city": null,
@@ -828,7 +696,7 @@
     },
     {
       "key": "dallas/dallas-executive-protection",
-      "path": "dallas/dallas-executive-protection.html",
+      "path": "dallas/jobs/dallas-executive-protection-security.html",
       "market": "DFW",
       "role": "executive-protection",
       "city": "dallas",
@@ -850,7 +718,7 @@
     },
     {
       "key": "dallas/armed-security-dfw",
-      "path": "dallas/armed-security-dfw.html",
+      "path": "dallas/jobs/dallas-armed-security.html",
       "market": "DFW",
       "role": "armed",
       "city": null,
@@ -861,7 +729,7 @@
     },
     {
       "key": "dallas/dallas-government-security",
-      "path": "dallas/dallas-government-security.html",
+      "path": "dallas/jobs/dallas-government-security.html",
       "market": "DFW",
       "role": "government",
       "city": "dallas",
@@ -872,7 +740,7 @@
     },
     {
       "key": "dallas/richardson-security-jobs",
-      "path": "dallas/richardson-security-jobs.html",
+      "path": "dallas/jobs/richardson-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "richardson",
@@ -883,7 +751,7 @@
     },
     {
       "key": "dallas/frisco-unarmed-security-jobs",
-      "path": "dallas/frisco-unarmed-security-jobs.html",
+      "path": "dallas/jobs/frisco-unarmed-security.html",
       "market": "DFW",
       "role": "unarmed",
       "city": "frisco",
@@ -893,30 +761,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/armed-security-jobs",
-      "path": "dallas/armed-security-jobs.html",
-      "market": "DFW",
-      "role": "armed",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/dallas-retail-security",
-      "path": "dallas/dallas-retail-security.html",
-      "market": "DFW",
-      "role": "retail",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/mesquite-security-jobs",
-      "path": "dallas/mesquite-security-jobs.html",
+      "path": "dallas/jobs/mesquite-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "mesquite",
@@ -927,7 +773,7 @@
     },
     {
       "key": "dallas/night-shift-security-jobs-dfw",
-      "path": "dallas/night-shift-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-night-shift-security.html",
       "market": "DFW",
       "role": "night-shift",
       "city": null,
@@ -938,7 +784,7 @@
     },
     {
       "key": "dallas/dallas-corporate-security",
-      "path": "dallas/dallas-corporate-security.html",
+      "path": "dallas/jobs/dallas-corporate-security.html",
       "market": "DFW",
       "role": "corporate",
       "city": "dallas",
@@ -949,7 +795,7 @@
     },
     {
       "key": "dallas/irving-unarmed-security",
-      "path": "dallas/irving-unarmed-security.html",
+      "path": "dallas/jobs/irving-unarmed-security.html",
       "market": "DFW",
       "role": "unarmed",
       "city": "irving",
@@ -960,7 +806,7 @@
     },
     {
       "key": "dallas/grapevine-security-jobs",
-      "path": "dallas/grapevine-security-jobs.html",
+      "path": "dallas/jobs/grapevine-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "grapevine",
@@ -971,7 +817,7 @@
     },
     {
       "key": "dallas/fort-worth-unarmed-security",
-      "path": "dallas/fort-worth-unarmed-security.html",
+      "path": "dallas/jobs/fort-worth-unarmed-security.html",
       "market": "DFW",
       "role": "unarmed",
       "city": "fort-worth",
@@ -982,7 +828,7 @@
     },
     {
       "key": "dallas/retail-security-jobs-dfw",
-      "path": "dallas/retail-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-retail-security.html",
       "market": "DFW",
       "role": "retail",
       "city": null,
@@ -993,7 +839,7 @@
     },
     {
       "key": "dallas/cedar-hill-security-jobs",
-      "path": "dallas/cedar-hill-security-jobs.html",
+      "path": "dallas/jobs/cedar-hill-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "cedar-hill",
@@ -1004,7 +850,7 @@
     },
     {
       "key": "dallas/corporate-campus-security-jobs-dfw",
-      "path": "dallas/corporate-campus-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-corporate-campus-security.html",
       "market": "DFW",
       "role": "corporate",
       "city": null,
@@ -1025,30 +871,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/dallas-event-security",
-      "path": "dallas/dallas-event-security.html",
-      "market": "DFW",
-      "role": "event",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/school-security-jobs-dfw",
-      "path": "dallas/school-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "school",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/plano-unarmed-security-jobs",
-      "path": "dallas/plano-unarmed-security-jobs.html",
+      "path": "dallas/jobs/plano-unarmed-security.html",
       "market": "DFW",
       "role": "unarmed",
       "city": "plano",
@@ -1059,7 +883,7 @@
     },
     {
       "key": "dallas/grand-prairie-overnight-security-jobs",
-      "path": "dallas/grand-prairie-overnight-security-jobs.html",
+      "path": "dallas/jobs/grand-prairie-overnight-security.html",
       "market": "DFW",
       "role": "overnight",
       "city": "grand-prairie",
@@ -1070,7 +894,7 @@
     },
     {
       "key": "dallas/lancaster-security-jobs",
-      "path": "dallas/lancaster-security-jobs.html",
+      "path": "dallas/jobs/lancaster-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "lancaster",
@@ -1081,7 +905,7 @@
     },
     {
       "key": "dallas/dallas-industrial-security",
-      "path": "dallas/dallas-industrial-security.html",
+      "path": "dallas/jobs/dallas-industrial-security.html",
       "market": "DFW",
       "role": "industrial",
       "city": "dallas",
@@ -1092,7 +916,7 @@
     },
     {
       "key": "dallas/dallas-parking-security",
-      "path": "dallas/dallas-parking-security.html",
+      "path": "dallas/jobs/dallas-parking-security.html",
       "market": "DFW",
       "role": "parking",
       "city": "dallas",
@@ -1102,19 +926,8 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/airport-security-jobs-dfw",
-      "path": "dallas/airport-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "airport-tsa",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/downtown-dallas-security",
-      "path": "dallas/downtown-dallas-security.html",
+      "path": "dallas/jobs/downtown-dallas-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "dallas",
@@ -1125,7 +938,7 @@
     },
     {
       "key": "dallas/att-stadium-security-jobs",
-      "path": "dallas/att-stadium-security-jobs.html",
+      "path": "dallas/jobs/dallas-att-stadium-security.html",
       "market": "DFW",
       "role": "sporting-event",
       "city": null,
@@ -1136,7 +949,7 @@
     },
     {
       "key": "dallas/dallas-level-3-security",
-      "path": "dallas/dallas-level-3-security.html",
+      "path": "dallas/jobs/dallas-level-3-security.html",
       "market": "DFW",
       "role": "level-3",
       "city": "dallas",
@@ -1147,7 +960,7 @@
     },
     {
       "key": "dallas/dallas-weekend-security-jobs",
-      "path": "dallas/dallas-weekend-security-jobs.html",
+      "path": "dallas/jobs/dallas-weekend-security.html",
       "market": "DFW",
       "role": "weekend",
       "city": "dallas",
@@ -1158,7 +971,7 @@
     },
     {
       "key": "dallas/construction-security-jobs-dfw",
-      "path": "dallas/construction-security-jobs-dfw.html",
+      "path": "dallas/jobs/dallas-construction-security.html",
       "market": "DFW",
       "role": "construction",
       "city": null,
@@ -1169,23 +982,12 @@
     },
     {
       "key": "dallas/denton-security-jobs",
-      "path": "dallas/denton-security-jobs.html",
+      "path": "dallas/jobs/denton-security-jobs.html",
       "market": "DFW",
       "role": null,
       "city": "denton",
       "city_major": true,
       "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/level-3-security-jobs-dfw",
-      "path": "dallas/level-3-security-jobs-dfw.html",
-      "market": "DFW",
-      "role": "level-3",
-      "city": null,
-      "city_major": false,
-      "target_type": "role",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -2301,17 +2103,6 @@
       "has_feed_block": true
     },
     {
-      "key": "security-jobs-austin",
-      "path": "security-jobs-austin.html",
-      "market": "Austin",
-      "role": null,
-      "city": null,
-      "city_major": false,
-      "target_type": "general",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "security-jobs-san-antonio",
       "path": "security-jobs-san-antonio.html",
       "market": "San Antonio",
@@ -2386,6 +2177,17 @@
       "city_major": false,
       "target_type": "role",
       "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "dallas/index",
+      "path": "dallas/index.html",
+      "market": "DFW",
+      "role": null,
+      "city": null,
+      "city_major": false,
+      "target_type": "general",
+      "container": "indexJobFeed",
       "has_feed_block": true
     },
     {
