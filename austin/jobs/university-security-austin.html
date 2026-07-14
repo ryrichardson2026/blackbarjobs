@@ -358,6 +358,39 @@
     }
     @media(min-width:640px){ .sticky-bar { display:none!important; } }
   }
+
+/* ── MODERN HERO-EMBEDDED FEED (reformat 2026-07-14) ── */
+.hero-content { padding: 90px 16px 24px; justify-content: flex-start; }
+.hero-text-col { display: flex; flex-direction: column; }
+.hero-stat-row { display: none; }
+.form-card { background: var(--white); border-radius: 16px; padding: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.35); margin-top: 18px; }
+.form-card-title { font-family:'Barlow Condensed',sans-serif; font-size:1.05rem; font-weight:700; color:var(--navy-deep); letter-spacing:0.02em; margin-bottom:10px; text-transform:uppercase; }
+.hero-feed { display:flex; flex-direction:column; margin-bottom:12px; border-top:2px solid var(--navy-deep); border-bottom:1px solid #c8cdd4; }
+.hf-row { display:flex; align-items:flex-start; gap:10px; padding:5px 0; border-bottom:1px solid #e2e5ea; background:transparent; }
+.hf-row:last-child { border-bottom:none; }
+.hf-body { flex:1; min-width:0; }
+.hf-title { font-family:'Barlow Condensed',sans-serif; font-size:0.95rem; font-weight:800; color:var(--navy-deep); line-height:1.15; letter-spacing:0.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-meta { display:flex; align-items:center; gap:0; margin-top:1px; flex-wrap:nowrap; font-size:0.68rem; color:var(--muted); font-family:'Barlow',sans-serif; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-company { font-weight:600; color:var(--charcoal); }
+.hf-sep { margin:0 4px; color:#c8cdd4; }
+.hf-location { color:var(--muted); }
+.hf-tag { display:inline-block; font-size:0.6rem; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); border:1px solid #c8cdd4; padding:1px 4px; border-radius:2px; margin-left:5px; white-space:nowrap; flex-shrink:0; }
+.hf-apply { flex-shrink:0; align-self:center; padding:5px 11px; background:var(--navy-deep); color:var(--gold); font-family:'Barlow Condensed',sans-serif; font-size:0.72rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; border:1.5px solid var(--navy-deep); border-radius:2px; cursor:pointer; text-decoration:none; display:inline-block; transition:background 0.12s,color 0.12s; white-space:nowrap; }
+.hf-apply:hover { background:var(--navy-light); border-color:var(--navy-light); }
+.hf-loading { text-align:center; padding:16px 0; font-size:0.8rem; color:var(--muted); font-weight:500; }
+.hf-error { font-size:0.75rem; color:var(--muted); padding:10px 0; text-align:center; }
+@media (min-width: 640px) {
+  .hero-content { display:grid; grid-template-columns:1fr 420px; align-items:center; gap:48px; max-width:1200px; margin:0 auto; padding:0 48px; justify-content:initial; }
+  .hero-text-col { justify-content:center; }
+  .hero h1 { text-align:left; }
+  .hero-image-overlay { background: linear-gradient(105deg, rgba(0,8,20,0.82) 0%, rgba(0,8,20,0.55) 45%, rgba(0,8,20,0.25) 100%); }
+  .hero .hero-sub { text-align:left; font-size:1.1rem; max-width:420px; margin-bottom:0; }
+  .hero-stat-row { display:flex; gap:32px; margin-top:32px; }
+  .hero-stat { display:flex; flex-direction:column; gap:2px; }
+  .hero-stat-num { font-family:'Barlow Condensed',sans-serif; font-size:1.8rem; font-weight:800; color:var(--gold); line-height:1; }
+  .hero-stat-label { font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.45); }
+  .form-card { max-width:420px; width:100%; border-radius:20px; padding:28px 24px 22px; background:rgba(255,255,255,0.97); box-shadow:0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08); margin-top:0; }
+}
 </style>
 </head>
 <body>
@@ -370,30 +403,29 @@
 </nav>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero" id="heroAnchor">
   <div class="hero-image-wrap">
     <img src="/images/overnight-security-hero.jpg" alt="University Security Officer jobs Austin TX" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-badge">Austin, TX</div>
-    <h1>University Security Jobs in<br><em>Austin, TX</em></h1>
-    <p class="hero-sub">University and campus security positions across Austin — UT Austin's UTPD civilian Guard path, the UTPD Police Cadet paid 28-week academy, ACC District Police 'Bats to Badges' free law enforcement training with $47,840+ during training, St. Edward's University Police Officer, and contracted campus patrol through Allied Universal.</p>
-    <div class="hero-ctas">
-      <a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:inline-block;text-align:center;text-decoration:none;padding:14px 28px;">See More Jobs →</a>
+    <div class="hero-text-col">
+      <div class="hero-badge">Austin, TX</div>
+      <h1>Find the Latest <em>University Security Officer Jobs</em> in Austin</h1>
+      <p class="hero-sub">University and campus security positions across Austin — UT Austin's UTPD civilian Guard path, the UTPD Police Cadet paid 28-week academy, ACC District Police 'Bats to Badges' free law enforcement training with $47,840+ during training, St. Edward's University Police Officer, and contracted campus patrol through Allied Universal.</p>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="hero-stat-num">Live</span><span class="hero-stat-label">Updated Feed</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">Austin</span><span class="hero-stat-label">Metro Coverage</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">Free</span><span class="hero-stat-label">Job Alerts</span></div>
+      </div>
+    </div>
+    <div class="form-card" id="signup">
+      <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent University Security Openings</div>
+      <div class="hero-feed" id="indexJobFeed" data-baked="1"><!--BBJ_BAKE_START--><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.whatjobs.com%2Fjobs%2Ffull-time-security-officer-needed%2Faustin-texas%3Fid%3D2878788879')"><div class="hf-body"><div class="hf-title">Full Time Security Officer Needed for University (Security) (Hiring Immediately)</div><div class="hf-meta">GuardTexas &nbsp;&middot;&nbsp; Austin, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 3 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.indeed.com%2Fviewjob%3Fjk%3Dd302b1aaea2fca43')"><div class="hf-body"><div class="hf-title">Full Time Security Officer Needed for University Environment</div><div class="hf-meta">GuardTexas &nbsp;&middot;&nbsp; Austin, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 4 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.learn4good.com%2Fjobs%2Faustin%2Ftexas%2Fsecurity%2F5276779088%2Fe%2F')"><div class="hf-body"><div class="hf-title">Unarmed Security Officer: Tech Campus Patrol; Night Shifts</div><div class="hf-meta">Allied Universal &nbsp;&middot;&nbsp; Austin, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 5 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.jobleads.com%2Fus%2Fjob%2Funiversity-police-officer-patrol-investigations-safety--austin--e85b6d49e0be265ab3c26592bb9711508')"><div class="hf-body"><div class="hf-title">University Police Officer: Patrol, Investigations &amp; Safety</div><div class="hf-meta">St.Edward&#39;s University &nbsp;&middot;&nbsp; Austin, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 6 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fbebee.com%2Fus%2Fjobs%2Fnight-security-officer-pediatric-hospital-campus-texas-childrens-hospital-austin--lensa-7428_0f4a4b1de3a396de7cbc8b2750e9798e62190eb5b2147db53992e9b93752df2f')"><div class="hf-body"><div class="hf-title">Night Security Officer - Pediatric Hospital Campus</div><div class="hf-meta">Texas Children&#39;s Hospital &nbsp;&middot;&nbsp; Austin, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 6 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><!--BBJ_BAKE_END--></div>
+      <a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">See More Jobs &rarr;</a>
     </div>
   </div>
 </section>
-
-<!-- LIVE FEED — off-white -->
-<div class="section-offwhite" id="live-jobs">
-  <div class="section-divider" style="margin-top:0;"><span>Live Openings</span></div>
-  <div class="section-wrap">
-    <h2>Recent University Security Officer Openings</h2>
-    <div id="jobRows" style="min-height:80px;border-top:2px solid var(--navy-deep);border-bottom:1px solid #c8cdd4;" data-baked="1"><!--BBJ_BAKE_START--><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.indeed.com%2Fviewjob%3Fjk%3Dd302b1aaea2fca43"><div class="jf-body"><div class="jf-title">Full Time Security Officer Needed for University Environment</div><div class="jf-meta"><span class="jf-company">GuardTexas</span><span class="jf-sep">&middot;</span><span class="jf-loc">Austin, TX</span><span class="jf-pay">18–19 an hour</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 2 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.learn4good.com%2Fjobs%2Faustin%2Ftexas%2Fsecurity%2F5276779088%2Fe%2F"><div class="jf-body"><div class="jf-title">Unarmed Security Officer: Tech Campus Patrol; Night Shifts</div><div class="jf-meta"><span class="jf-company">Allied Universal</span><span class="jf-sep">&middot;</span><span class="jf-loc">Austin, TX</span><span class="jf-pay">20 an hour</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 4 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.jobleads.com%2Fus%2Fjob%2Funiversity-police-officer-patrol-investigations-safety--austin--e85b6d49e0be265ab3c26592bb9711508"><div class="jf-body"><div class="jf-title">University Police Officer: Patrol, Investigations &amp; Safety</div><div class="jf-meta"><span class="jf-company">St.Edward&#39;s University</span><span class="jf-sep">&middot;</span><span class="jf-loc">Austin, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 5 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.learn4good.com%2Fjobs%2Faustin%2Ftexas%2Fsecurity%2F5265051943%2Fe%2F"><div class="jf-body"><div class="jf-title">Night-Shift Part-Time Unarmed Security Officer–Tech Campus</div><div class="jf-meta"><span class="jf-company">Allied Universal</span><span class="jf-sep">&middot;</span><span class="jf-loc">Austin, TX</span><span class="jf-pay">40K–52K a year</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted Jul 6</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fus.jobrapido.com%2Fjobpreview%2F4703406812412510208"><div class="jf-body"><div class="jf-title">Unarmed Security Patrol – Tech Campus, Growth &amp; Benefits</div><div class="jf-meta"><span class="jf-company">Allied Universal</span><span class="jf-sep">&middot;</span><span class="jf-loc">Austin, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted Jul 6</span></div></div><a class="jf-apply">View</a></div><!--BBJ_BAKE_END--></div>
-    <a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:inline-block;text-align:center;text-decoration:none;padding:14px 28px;">See More Jobs →</a>
-  </div>
-</div>
 
 <!-- FAQ — white -->
 <div class="section-white">
@@ -422,7 +454,6 @@
 
 <!-- ROLE OVERVIEW + DUTIES — white two-col -->
 <div class="two-col-light">
-  <div class="section-divider"><span>Overview &amp; Duties</span></div>
   <div class="two-col-inner">
     <div class="section-wrap">
       <div class="section-divider"><span>Role Overview</span></div>
@@ -465,7 +496,6 @@
 
 <!-- REQUIREMENTS + SCHEDULES — navy-mid two-col-dark -->
 <div class="two-col-dark">
-  <div class="section-divider"><span>Requirements &amp; Schedules</span></div>
   <div class="two-col-inner">
     <div class="section-wrap">
       <div class="section-divider"><span>Requirements</span></div>

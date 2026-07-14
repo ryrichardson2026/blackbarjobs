@@ -254,6 +254,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .hero-img-wrap, .hero-image-wrap { display: none !important; }
   .hero { min-height: 0 !important; background: #000814 !important; }
 }
+
+/* ── MODERN HERO-EMBEDDED FEED (reformat 2026-07-14) ── */
+.hero-content { padding: 90px 16px 24px; justify-content: flex-start; }
+.hero-text-col { display: flex; flex-direction: column; }
+.hero-stat-row { display: none; }
+.form-card { background: var(--white); border-radius: 16px; padding: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.35); margin-top: 18px; }
+.form-card-title { font-family:'Barlow Condensed',sans-serif; font-size:1.05rem; font-weight:700; color:var(--navy-deep); letter-spacing:0.02em; margin-bottom:10px; text-transform:uppercase; }
+.hero-feed { display:flex; flex-direction:column; margin-bottom:12px; border-top:2px solid var(--navy-deep); border-bottom:1px solid #c8cdd4; }
+.hf-row { display:flex; align-items:flex-start; gap:10px; padding:5px 0; border-bottom:1px solid #e2e5ea; background:transparent; }
+.hf-row:last-child { border-bottom:none; }
+.hf-body { flex:1; min-width:0; }
+.hf-title { font-family:'Barlow Condensed',sans-serif; font-size:0.95rem; font-weight:800; color:var(--navy-deep); line-height:1.15; letter-spacing:0.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-meta { display:flex; align-items:center; gap:0; margin-top:1px; flex-wrap:nowrap; font-size:0.68rem; color:var(--muted); font-family:'Barlow',sans-serif; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-company { font-weight:600; color:var(--charcoal); }
+.hf-sep { margin:0 4px; color:#c8cdd4; }
+.hf-location { color:var(--muted); }
+.hf-tag { display:inline-block; font-size:0.6rem; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); border:1px solid #c8cdd4; padding:1px 4px; border-radius:2px; margin-left:5px; white-space:nowrap; flex-shrink:0; }
+.hf-apply { flex-shrink:0; align-self:center; padding:5px 11px; background:var(--navy-deep); color:var(--gold); font-family:'Barlow Condensed',sans-serif; font-size:0.72rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; border:1.5px solid var(--navy-deep); border-radius:2px; cursor:pointer; text-decoration:none; display:inline-block; transition:background 0.12s,color 0.12s; white-space:nowrap; }
+.hf-apply:hover { background:var(--navy-light); border-color:var(--navy-light); }
+.hf-loading { text-align:center; padding:16px 0; font-size:0.8rem; color:var(--muted); font-weight:500; }
+.hf-error { font-size:0.75rem; color:var(--muted); padding:10px 0; text-align:center; }
+@media (min-width: 640px) {
+  .hero-content { display:grid; grid-template-columns:1fr 420px; align-items:center; gap:48px; max-width:1200px; margin:0 auto; padding:0 48px; justify-content:initial; }
+  .hero-text-col { justify-content:center; }
+  .hero h1 { text-align:left; }
+  .hero-image-overlay { background: linear-gradient(105deg, rgba(0,8,20,0.82) 0%, rgba(0,8,20,0.55) 45%, rgba(0,8,20,0.25) 100%); }
+  .hero .hero-sub { text-align:left; font-size:1.1rem; max-width:420px; margin-bottom:0; }
+  .hero-stat-row { display:flex; gap:32px; margin-top:32px; }
+  .hero-stat { display:flex; flex-direction:column; gap:2px; }
+  .hero-stat-num { font-family:'Barlow Condensed',sans-serif; font-size:1.8rem; font-weight:800; color:var(--gold); line-height:1; }
+  .hero-stat-label { font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.45); }
+  .form-card { max-width:420px; width:100%; border-radius:20px; padding:28px 24px 22px; background:rgba(255,255,255,0.97); box-shadow:0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08); margin-top:0; }
+}
 </style>
 <link rel="canonical" href="https://www.blackbarjobs.com/dallas/jobs/dallas-university-security">
 <!-- Microsoft Clarity -->
@@ -302,20 +335,26 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <!-- End Google Tag Manager (noscript) -->
 <div class="sticky-bar" id="stickyBar"><a href="#" onclick="bbjAlertOpen();return false;" class="btn-primary" style="display:inline-block;text-align:center;text-decoration:none;padding:14px 28px;">Get Security Job Alerts</a></div>
 <nav><a class="nav-logo" href="/"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span><span class="nav-security">| Security</span></a></nav>
-<section class="hero">
-<div class="hero-image-wrap"><img alt="Campus security officer at a Dallas university" src="/images/unarmed-security-hero.jpg"/><div class="hero-image-overlay"></div></div>
-<div class="hero-content">
-<div class="hero-badge">Dallas, TX</div>
-<h1>University &amp; College Security<br/><em>Jobs in Dallas</em></h1>
-<p class="hero-sub">Get alerted about campus security openings across Dallas-area universities and colleges — SMU, UT Dallas, Dallas Baptist University, Brookhaven College, and more.</p>
-<div class="hero-ctas"><a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">See More Jobs →</a></div>
-</div>
+<section class="hero" id="heroAnchor">
+  <div class="hero-image-wrap"><img alt="Campus security officer at a Dallas university" src="/images/unarmed-security-hero.jpg"/><div class="hero-image-overlay"></div></div>
+  <div class="hero-content">
+    <div class="hero-text-col">
+      <div class="hero-badge">Dallas, TX</div>
+      <h1>Find the Latest <em>University Security Officer Jobs</em> in Dallas&ndash;Fort Worth</h1>
+      <p class="hero-sub">Get alerted about campus security openings across Dallas-area universities and colleges — SMU, UT Dallas, Dallas Baptist University, Brookhaven College, and more.</p>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="hero-stat-num">Live</span><span class="hero-stat-label">Updated Feed</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">DFW</span><span class="hero-stat-label">Metro Coverage</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">Free</span><span class="hero-stat-label">Job Alerts</span></div>
+      </div>
+    </div>
+    <div class="form-card" id="signup">
+      <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent University Security Openings</div>
+      <div class="hero-feed" id="indexJobFeed" data-baked="1"><!--BBJ_BAKE_START--><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.indeed.com%2Fviewjob%3Fjk%3D3a9601be1b496d9b')"><div class="hf-body"><div class="hf-title">Campus Safety Officer Full-Time Dallas School Security</div><div class="hf-meta">Young World Physical Education &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 4 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.jobleads.com%2Fus%2Fjob%2Fcampus-police-officer-ii-patrol-protect-serve--dallas--e407c4c99a2744bb6861e313c3d119dde')"><div class="hf-body"><div class="hf-title">Campus Police Officer II: Patrol, Protect &amp; Serve</div><div class="hf-meta">University of North Texas - Dallas &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 5 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fcampus-security-officer-at-the-episcopal-school-of-dallas-4438680832')"><div class="hf-body"><div class="hf-title">Campus Security Officer</div><div class="hf-meta">The Episcopal School of Dallas &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 5 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fjooble.org%2Fjdp%2F4932942812438691768')"><div class="hf-body"><div class="hf-title">School Resource Officer — Campus Safety Leader</div><div class="hf-meta">Young World Physical Education &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 6 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply('https%3A%2F%2Fbebee.com%2Fus%2Fjobs%2Flead-security-officer-campus-safety-resident-support-the-legacy-senior-communities-dallas-tx-united---appcast-7428_1811118d3272900e5217bbbac70d34fa68f62e58f310db2af7b570ecc149d25d')"><div class="hf-body"><div class="hf-title">Lead Security Officer: Campus Safety &amp; Resident Support</div><div class="hf-meta">The Legacy Senior Communities &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; <span style="color:#1a6b2e;font-weight:600;">Posted 6 days ago</span></div></div><div style="display:flex;align-items:center;gap:6px;flex-shrink:0;"><span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span><span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span></div></div><!--BBJ_BAKE_END--></div>
+      <a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">See More Jobs &rarr;</a>
+    </div>
+  </div>
 </section>
-<div class="form-card" id="signup">
-<div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">Recent Security Openings</div>
-<div class="hero-feed" id="jobRows" data-baked="1"><!--BBJ_BAKE_START--><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.indeed.com%2Fviewjob%3Fjk%3D3a9601be1b496d9b"><div class="jf-body"><div class="jf-title">Campus Safety Officer Full-Time Dallas School Security</div><div class="jf-meta"><span class="jf-company">Young World Physical Education</span><span class="jf-sep">&middot;</span><span class="jf-loc">Dallas, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 3 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fcampus-security-officer-at-the-episcopal-school-of-dallas-4438680832"><div class="jf-body"><div class="jf-title">Campus Security Officer</div><div class="jf-meta"><span class="jf-company">The Episcopal School of Dallas</span><span class="jf-sep">&middot;</span><span class="jf-loc">Dallas, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 4 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fus.trabajo.org%2Fjob-972-8fcf3d817b6f2ee6b8e9e06bbe884994"><div class="jf-body"><div class="jf-title">Entry-Level Campus Safety</div><div class="jf-meta"><span class="jf-company">The University of Texas Southwestern Medical Center</span><span class="jf-sep">&middot;</span><span class="jf-loc">Dallas, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted 6 days ago</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.jobleads.com%2Fus%2Fjob%2Fcampus-police-officer-public-safety-growth--dallas--e4cc8e6b2800d797bb474de9a521bca67"><div class="jf-body"><div class="jf-title">Campus Police Officer — Public Safety &amp; Growth</div><div class="jf-meta"><span class="jf-company">The University of Texas Southwestern Medical Center</span><span class="jf-sep">&middot;</span><span class="jf-loc">Dallas, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted Jul 6</span></div></div><a class="jf-apply">View</a></div><div class="jf-row" style="cursor:pointer;" onclick="bbjHandleApply(this)" data-url="https%3A%2F%2Fwww.ziprecruiter.com%2Fc%2FValor-Force%2FJob%2FExperienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)%2F-in-Lake-Dallas%2CTX%3Fjid%3D923717ba1818ffab"><div class="jf-body"><div class="jf-title">Experienced Level III Commissioned Security Officer (School Campus Assignment)</div><div class="jf-meta"><span class="jf-company">Valor Force</span><span class="jf-sep">&middot;</span><span class="jf-loc">Lake Dallas, TX</span><span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">Posted Jul 6</span></div></div><a class="jf-apply">View</a></div><!--BBJ_BAKE_END--></div>
-<a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">See More Jobs →</a>
-</div>
 <div class="section-light"><div class="section-divider" style="margin-top:0;"><span>FAQ</span></div>
 <div class="section-wrap"><h2>Frequently Asked Questions</h2><div class="faq-list"> <div class="faq-item">
 <div class="faq-q" onclick="toggleFaq(this)">What university security jobs are hiring in Dallas?<span class="faq-icon">+</span></div>
@@ -351,8 +390,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <span class="industry-tag">Residential Security</span>
 <span class="industry-tag">Academic Calendar</span>
 <span class="industry-tag">Community-Oriented</span></div></div></div>
-<div class="two-col-section"><div class="section-divider"><span>Overview &amp; Duties</span></div>
-<div class="two-col-inner">
+<div class="two-col-section"><div class="two-col-inner">
 <div class="section-wrap"><div class="section-divider"><span>Role Overview</span></div><h2>What Campus Security Jobs Are Available in Dallas?</h2><p>University security in Dallas spans several role types. Larger programs at SMU and UT Dallas employ campus security officers as part of formal departments with patrol vehicles, dispatch, and tiered career paths. Smaller campuses contract through guard firms for access control, event staffing, and overnight patrol.</p><p>Residential security at campuses with on-campus housing involves overnight patrol, managing noise complaints, and responding to student welfare situations. Event security spikes during homecoming, graduation, athletic events, and concerts. Parking enforcement and vehicle patrol round out the campus security portfolio.</p><p>University security is well-suited for candidates who want a community-oriented role with predictable academic calendar scheduling. Officers who build tenure at major Dallas campuses often advance into campus police roles or transition into law enforcement — university security is a documented stepping stone to law enforcement careers in Dallas.</p></div>
 <div class="section-wrap"><div class="section-divider"><span>Duties</span></div><h2>Common Duties &amp; Responsibilities</h2><ul class="duty-list"> <li>Conduct vehicle and foot patrol of campus grounds, residential areas, and parking facilities</li>
 <li>Respond to student welfare concerns, behavioral incidents, and campus emergencies</li>
@@ -372,8 +410,7 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <div class="pay-card"><div class="pay-card-label">Lead / Senior</div><div class="pay-card-rate">$24–32/hr</div><div class="pay-card-annual">~$50k–67k/yr</div></div>
 </div></div></div>
 <div class="mid-cta-wrap"><a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;text-align:center;text-decoration:none;max-width:360px;margin:0 auto;">See More Jobs →</a></div>
-<div class="two-col-dark"><div class="section-divider"><span>Requirements &amp; Schedules</span></div>
-<div class="two-col-inner">
+<div class="two-col-dark"><div class="two-col-inner">
 <div class="section-wrap"><div class="section-divider"><span>Requirements</span></div><h2>What You Need</h2><ul class="duty-list"> <li>Valid Texas Level 2 Security License required</li>
 <li>Community-oriented approach — campus security involves daily interaction with students</li>
 <li>Prior security, military, law enforcement, or youth-oriented service experience all relevant</li>

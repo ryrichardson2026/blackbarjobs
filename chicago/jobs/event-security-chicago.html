@@ -139,7 +139,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 
 /* ── SECTIONS ── */
 .sec-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 12px; }
-.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; }
+.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 .sec-divider span { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
 .sec-wrap { padding: 0 20px 22px; }
 .sec-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.45rem, 4vw, 1.85rem); font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
@@ -148,7 +148,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 .sec-wrap ul li { font-size: 0.94rem; line-height: 1.5; margin-bottom: 7px; }
 
 .sec-light { background: var(--white); padding: 18px 0 22px; }
-.sec-light .sec-divider span { color: var(--muted); }
+.sec-light .sec-divider span { color: var(--gold); }
 .sec-light .sec-divider::before, .sec-light .sec-divider::after { background: var(--border); }
 .sec-light h2 { color: var(--navy); }
 .sec-light p, .sec-light li { color: var(--char); }
@@ -1195,10 +1195,17 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .skeleton-btn { width: 46px; height: 28px; border-radius: 8px; flex-shrink: 0; }
   @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
 
+
+@media (min-width: 640px) {
+  .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: start; }
+  .two-col-inner .sec-wrap { padding: 0 40px 32px; }
+  .two-col-inner .sec-wrap:first-child { padding-right: 28px; }
+  .two-col-inner .sec-wrap:last-child { padding-left: 28px; }
+}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org/", "@type": "JobPosting", "title": "Event Security Officer", "description": "Event security officer positions across Chicago at stadiums, arenas, festivals, and conventions. Flexible and part-time friendly. PERC card required for most roles.", "identifier": {"@type": "PropertyValue", "name": "BlackBarJobs", "value": "event-security-chicago"}, "datePosted": "2026-07-01", "validThrough": "2026-12-31", "employmentType": "FULL_TIME", "hiringOrganization": {"@type": "Organization", "name": "BlackBarJobs", "sameAs": "https://www.blackbarjobs.com", "logo": "https://www.blackbarjobs.com/favicon.png"}, "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Chicago", "addressRegion": "IL", "postalCode": "60601", "addressCountry": "US"}}, "url": "https://www.blackbarjobs.com/chicago/jobs/event-security-chicago"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "BlackBarJobs", "item": "https://www.blackbarjobs.com"}, {"@type": "ListItem", "position": 2, "name": "Chicago Security Jobs", "item": "https://www.blackbarjobs.com/chicago"}, {"@type": "ListItem", "position": 3, "name": "Event Security Officer", "item": "https://www.blackbarjobs.com/chicago/jobs/event-security-chicago"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is event security in Chicago part-time?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. Many event roles are flexible or part-time, built around game days, festivals, and conventions. That makes them a common way to enter the industry or earn on the side."}}, {"@type": "Question", "name": "What venues hire event security in Chicago?", "acceptedAnswer": {"@type": "Answer", "text": "The United Center, Soldier Field, Wrigley Field, Guaranteed Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago and a steady concert and convention schedule."}}, {"@type": "Question", "name": "Do I need a PERC card for event security?", "acceptedAnswer": {"@type": "Answer", "text": "Most event security roles in Illinois require a PERC card and the 20-hour training. Confirm with the specific employer, since requirements can vary by venue and assignment."}}, {"@type": "Question", "name": "Is event security a good first security job?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is one of the most beginner-friendly entry points. The work builds hours and experience you can carry into full-time unarmed, overnight, or specialized roles."}}, {"@type": "Question", "name": "When is event security busiest in Chicago?", "acceptedAnswer": {"@type": "Answer", "text": "Demand comes in waves around the sports calendar, festival season in summer, and the convention schedule at McCormick Place. Night and weekend availability gets you the most work."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is event security in Chicago part-time?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. Many event roles are flexible or part-time, built around game days, festivals, and conventions. That makes them a common way to enter the industry or earn on the side."}}, {"@type": "Question", "name": "What venues hire event security in Chicago?", "acceptedAnswer": {"@type": "Answer", "text": "The United Center, Soldier Field, Wrigley Field, Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago and a steady concert and convention schedule."}}, {"@type": "Question", "name": "Do I need a PERC card for event security?", "acceptedAnswer": {"@type": "Answer", "text": "Most event security roles in Illinois require a PERC card and the 20-hour training. Confirm with the specific employer, since requirements can vary by venue and assignment."}}, {"@type": "Question", "name": "Is event security a good first security job?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is one of the most beginner-friendly entry points. The work builds hours and experience you can carry into full-time unarmed, overnight, or specialized roles."}}, {"@type": "Question", "name": "When is event security busiest in Chicago?", "acceptedAnswer": {"@type": "Answer", "text": "Demand comes in waves around the sports calendar, festival season in summer, and the convention schedule at McCormick Place. Night and weekend availability gets you the most work."}}]}</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -1241,12 +1248,11 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   <div class="sec-divider" style="margin-top:0;"><span>Overview</span></div>
   <div class="sec-wrap">
     <h2>Event Security Officer Jobs in Chicago: Flexible and Beginner-Friendly</h2>
-    <p>Chicago has one of the busiest event calendars in the country. Between the United Center, Soldier Field, Wrigley Field, Guaranteed Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago and a heavy concert and convention schedule, event work runs almost year-round.</p><p>Event roles are often part-time and flexible, which makes them one of the easiest ways into the industry. Many officers work events around another job or use them to build hours toward full-time security work.</p>
+    <p>Chicago has one of the busiest event calendars in the country. Between the United Center, Soldier Field, Wrigley Field, Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago in Grant Park and a heavy concert and convention schedule, event work runs almost year-round. Monterrey Security is the best-known local specialist in large-venue and event staffing, and the nationals fill out stadium, arena, and festival crews alongside it.</p><p>Event roles are often part-time and flexible, which makes them one of the easiest ways into the industry. Many officers work events around another job or use them to build hours toward full-time security work.</p>
   </div>
 </div>
 <!-- ROLE + DUTIES -->
 <div class="two-col-light" style="background:#fff;padding-top:18px;">
-  <div class="sec-divider"><span>Overview &amp; Duties</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Role Overview</span></div>
@@ -1278,7 +1284,6 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 </div>
 <!-- REQUIREMENTS + GETTING STARTED -->
 <div style="background:#001D3D;padding-top:18px;">
-  <div class="sec-divider"><span>Requirements &amp; Getting Started</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Requirements</span></div>
@@ -1335,7 +1340,7 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
         What venues hire event security in Chicago?
         <div class="faq-chevron">▼</div>
       </div>
-      <div class="faq-a">The United Center, Soldier Field, Wrigley Field, Guaranteed Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago and a steady concert and convention schedule.</div>
+      <div class="faq-a">The United Center, Soldier Field, Wrigley Field, Rate Field, and McCormick Place, plus festivals like Lollapalooza and Taste of Chicago and a steady concert and convention schedule.</div>
     </div>
 
     <div class="faq-item">

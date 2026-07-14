@@ -139,7 +139,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 
 /* ── SECTIONS ── */
 .sec-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 12px; }
-.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; }
+.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 .sec-divider span { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
 .sec-wrap { padding: 0 20px 22px; }
 .sec-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.45rem, 4vw, 1.85rem); font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
@@ -148,7 +148,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 .sec-wrap ul li { font-size: 0.94rem; line-height: 1.5; margin-bottom: 7px; }
 
 .sec-light { background: var(--white); padding: 18px 0 22px; }
-.sec-light .sec-divider span { color: var(--muted); }
+.sec-light .sec-divider span { color: var(--gold); }
 .sec-light .sec-divider::before, .sec-light .sec-divider::after { background: var(--border); }
 .sec-light h2 { color: var(--navy); }
 .sec-light p, .sec-light li { color: var(--char); }
@@ -1195,6 +1195,13 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .skeleton-btn { width: 46px; height: 28px; border-radius: 8px; flex-shrink: 0; }
   @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
 
+
+@media (min-width: 640px) {
+  .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: start; }
+  .two-col-inner .sec-wrap { padding: 0 40px 32px; }
+  .two-col-inner .sec-wrap:first-child { padding-right: 28px; }
+  .two-col-inner .sec-wrap:last-child { padding-left: 28px; }
+}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org/", "@type": "JobPosting", "title": "Airport Security Officer", "description": "Airport security officer positions across Chicago at O'Hare and Midway. Includes TSA Transportation Security Officer roles, private screeners, and airline and terminal security.", "identifier": {"@type": "PropertyValue", "name": "BlackBarJobs", "value": "airport-security-chicago"}, "datePosted": "2026-07-01", "validThrough": "2026-12-31", "employmentType": "FULL_TIME", "hiringOrganization": {"@type": "Organization", "name": "BlackBarJobs", "sameAs": "https://www.blackbarjobs.com", "logo": "https://www.blackbarjobs.com/favicon.png"}, "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Chicago", "addressRegion": "IL", "postalCode": "60601", "addressCountry": "US"}}, "url": "https://www.blackbarjobs.com/chicago/jobs/airport-security-chicago"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "BlackBarJobs", "item": "https://www.blackbarjobs.com"}, {"@type": "ListItem", "position": 2, "name": "Chicago Security Jobs", "item": "https://www.blackbarjobs.com/chicago"}, {"@type": "ListItem", "position": 3, "name": "Airport Security Officer", "item": "https://www.blackbarjobs.com/chicago/jobs/airport-security-chicago"}]}</script>
@@ -1241,12 +1248,11 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   <div class="sec-divider" style="margin-top:0;"><span>Overview</span></div>
   <div class="sec-wrap">
     <h2>Chicago Airport Security: O'Hare and Midway, Federal Pay, Year-Round Hiring</h2>
-    <p>Chicago runs two major commercial airports: O'Hare International (ORD), one of the busiest airports in the world and a United and American hub, and Midway International (MDW), a Southwest hub. TSA staffs a large Transportation Security Officer workforce at both, hiring year-round.</p><p>The federal benefits package, including FEHB health coverage, FERS retirement, TSP, paid leave, and locality pay, makes TSA Officer roles at ORD and MDW among the best-compensated security positions in the metro. Band D pay starts around 22 to 25 dollars an hour with full federal benefits, and the three to six month process rewards candidates who want long-term stability.</p>
+    <p>Chicago runs two major commercial airports: O'Hare International (ORD), one of the busiest airports in the world and a United and American hub, and Midway International (MDW), a Southwest hub. TSA staffs a large Transportation Security Officer workforce at both and hires year-round, with federal pay and benefits that run above most entry security work. Alongside TSA, private aviation-security contractors like Prospect Airport Services handle checkpoint exit lanes, access control, and secured-area screening, and the airlines and ground handlers add more posts.</p><p>The federal benefits package, including FEHB health coverage, FERS retirement, TSP, paid leave, and locality pay, makes TSA Officer roles at ORD and MDW among the best-compensated security positions in the metro. Band D pay starts around 22 to 25 dollars an hour with full federal benefits, and the three to six month process rewards candidates who want long-term stability.</p>
   </div>
 </div>
 <!-- ROLE + DUTIES -->
 <div class="two-col-light" style="background:#fff;padding-top:18px;">
-  <div class="sec-divider"><span>Overview &amp; Duties</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Role Overview</span></div>
@@ -1279,7 +1285,6 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
 </div>
 <!-- REQUIREMENTS + GETTING STARTED -->
 <div style="background:#001D3D;padding-top:18px;">
-  <div class="sec-divider"><span>Requirements &amp; Getting Started</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Requirements</span></div>

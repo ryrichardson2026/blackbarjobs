@@ -139,7 +139,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 
 /* ── SECTIONS ── */
 .sec-divider { display: flex; align-items: center; gap: 12px; padding: 0 20px; margin: 0 0 12px; }
-.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; }
+.sec-divider::before, .sec-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 .sec-divider span { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
 .sec-wrap { padding: 0 20px 22px; }
 .sec-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.45rem, 4vw, 1.85rem); font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
@@ -148,7 +148,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: var(
 .sec-wrap ul li { font-size: 0.94rem; line-height: 1.5; margin-bottom: 7px; }
 
 .sec-light { background: var(--white); padding: 18px 0 22px; }
-.sec-light .sec-divider span { color: var(--muted); }
+.sec-light .sec-divider span { color: var(--gold); }
 .sec-light .sec-divider::before, .sec-light .sec-divider::after { background: var(--border); }
 .sec-light h2 { color: var(--navy); }
 .sec-light p, .sec-light li { color: var(--char); }
@@ -1195,6 +1195,13 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   .skeleton-btn { width: 46px; height: 28px; border-radius: 8px; flex-shrink: 0; }
   @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
 
+
+@media (min-width: 640px) {
+  .two-col-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: start; }
+  .two-col-inner .sec-wrap { padding: 0 40px 32px; }
+  .two-col-inner .sec-wrap:first-child { padding-right: 28px; }
+  .two-col-inner .sec-wrap:last-child { padding-left: 28px; }
+}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org/", "@type": "JobPosting", "title": "Hospital Security Officer", "description": "Hospital and healthcare security officer positions across Chicago. Emergency department, patient-watch, access control, and de-escalation roles at major health systems. PERC card required.", "identifier": {"@type": "PropertyValue", "name": "BlackBarJobs", "value": "hospital-security-chicago"}, "datePosted": "2026-07-01", "validThrough": "2026-12-31", "employmentType": "FULL_TIME", "hiringOrganization": {"@type": "Organization", "name": "BlackBarJobs", "sameAs": "https://www.blackbarjobs.com", "logo": "https://www.blackbarjobs.com/favicon.png"}, "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Chicago", "addressRegion": "IL", "postalCode": "60601", "addressCountry": "US"}}, "url": "https://www.blackbarjobs.com/chicago/jobs/hospital-security-chicago"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "BlackBarJobs", "item": "https://www.blackbarjobs.com"}, {"@type": "ListItem", "position": 2, "name": "Chicago Security Jobs", "item": "https://www.blackbarjobs.com/chicago"}, {"@type": "ListItem", "position": 3, "name": "Hospital Security Officer", "item": "https://www.blackbarjobs.com/chicago/jobs/hospital-security-chicago"}]}</script>
@@ -1241,12 +1248,11 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   <div class="sec-divider" style="margin-top:0;"><span>Overview</span></div>
   <div class="sec-wrap">
     <h2>Hospital Security Officer Jobs in Chicago: Steady Healthcare Demand</h2>
-    <p>Chicago's large health systems, including Rush, Advocate, Northwestern Medicine, and University of Chicago Medicine, hire security heavily, both in-house and through contractors. Healthcare security runs 24/7 and is one of the steadiest corners of the market.</p><p>The work rewards calm, strong de-escalation, and comfort in a clinical setting. Emergency department and behavioral health posts can be demanding, and they often pay at the higher end of the range to match.</p>
+    <p>Chicago's large health systems hire security heavily, both in-house and through contractors, and healthcare runs 24/7, making it one of the steadiest corners of the market. Northwestern Memorial in Streeterville staffs its downtown campus through Allied Universal, while Rush University Medical Center on the Near West Side and UChicago Medicine on the South Side, including Comer Children's, run large in-house public-safety departments. Lurie Children's, Cook County Health's Stroger Hospital, UI Health, Advocate, and Loyola all carry steady security headcount, so both the contract and in-house paths are open.</p><p>The work rewards calm, strong de-escalation, and comfort in a clinical setting. Emergency department and behavioral health posts can be demanding, and they often pay at the higher end of the range to match.</p>
   </div>
 </div>
 <!-- ROLE + DUTIES -->
 <div class="two-col-light" style="background:#fff;padding-top:18px;">
-  <div class="sec-divider"><span>Overview &amp; Duties</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Role Overview</span></div>
@@ -1272,13 +1278,12 @@ footer a { color: rgba(255,255,255,0.28); text-decoration: underline; }
   <div class="sec-divider"><span>Compensation</span></div>
   <div class="sec-wrap">
     <h2>What This Role Pays in Chicago</h2>
-    <p style="color:rgba(255,255,255,0.5);margin-bottom:20px;">Chicago hospital security typically pays 19 to 23 dollars an hour. Emergency department and behavioral health posts pay at the higher end, and in-house health-system roles often add benefits.</p>
+    <p style="color:rgba(255,255,255,0.5);margin-bottom:20px;">Chicago hospital security typically pays $19 to $23 an hour. Northwestern Memorial starts officers around $19.80 with about $2 more for overnights, and Rush's unarmed roles run roughly $18.50 to $23.25. Emergency department and behavioral health posts pay at the higher end, and in-house health-system roles usually add hospital benefits.</p>
     <div class="pay-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px;"><div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:18px 16px;"><div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:8px;">Entry Level</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:2.1rem;font-weight:800;color:#FFC300;line-height:1;">$19-20/hr</div><div style="font-size:0.72rem;color:rgba(255,195,0,0.7);margin-top:5px;">~$40k-42k/yr</div></div><div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:18px 16px;"><div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:8px;">Experienced</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:2.1rem;font-weight:800;color:#FFC300;line-height:1;">$21-23/hr</div><div style="font-size:0.72rem;color:rgba(255,195,0,0.7);margin-top:5px;">~$44k-48k/yr</div></div><div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:18px 16px;"><div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:8px;">Lead / Supervisor</div><div style="font-family:'Barlow Condensed',sans-serif;font-size:2.1rem;font-weight:800;color:#FFC300;line-height:1;">$24-28/hr</div><div style="font-size:0.72rem;color:rgba(255,195,0,0.7);margin-top:5px;">~$50k-58k/yr</div></div></div>
   </div>
 </div>
 <!-- REQUIREMENTS + GETTING STARTED -->
 <div style="background:#001D3D;padding-top:18px;">
-  <div class="sec-divider"><span>Requirements &amp; Getting Started</span></div>
   <div class="two-col-inner">
     <div class="sec-wrap">
       <div class="sec-divider"><span>Requirements</span></div>
