@@ -1,5 +1,5 @@
 {
-  "pages": 226,
+  "pages": 232,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -2485,6 +2485,72 @@
       "city_major": false,
       "target_type": "city",
       "container": "jobRows",
+      "has_feed_block": true
+    },
+    {
+      "key": "dallas/jobs/holiday-security-jobs-dfw",
+      "path": "dallas/jobs/holiday-security-jobs-dfw.html",
+      "market": "DFW",
+      "role": "overnight",
+      "city": "dallas",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "houston/jobs/holiday-security-jobs-houston",
+      "path": "houston/jobs/holiday-security-jobs-houston.html",
+      "market": "Houston",
+      "role": "overnight",
+      "city": "houston",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "san-antonio/jobs/holiday-security-jobs-san-antonio",
+      "path": "san-antonio/jobs/holiday-security-jobs-san-antonio.html",
+      "market": "San Antonio",
+      "role": "overnight",
+      "city": "san-antonio",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "austin/jobs/holiday-security-jobs-austin",
+      "path": "austin/jobs/holiday-security-jobs-austin.html",
+      "market": "Austin",
+      "role": "overnight",
+      "city": "austin",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "chicago/jobs/holiday-security-jobs-chicago",
+      "path": "chicago/jobs/holiday-security-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "overnight",
+      "city": "chicago",
+      "city_major": true,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true
+    },
+    {
+      "key": "holiday-security-jobs",
+      "path": "holiday-security-jobs.html",
+      "market": "DFW",
+      "role": "general",
+      "city": null,
+      "city_major": false,
+      "target_type": "general",
+      "container": "indexJobFeed",
       "has_feed_block": true
     }
   ]
