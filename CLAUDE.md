@@ -91,7 +91,7 @@ New-page build order (the process every new landing/role page passes through):
 1. Register the target in automation/bbj_page_targets.json (key MUST byte-match the page's BBJ_FEED_KEY). Use emit_target_entry(cfg) / upsert_target_entry(cfg) rather than hand-editing; a key mismatch 404s the feed silently.
 2. Snapshot: python automation/bbj_feed_snapshot.py --market <M> --out feed  -> writes feed/<key>.json.
 3. generate_page(cfg) -> HTML with cards already baked (bake runs at build). If the feed did not exist at step 2, the page ships an empty container and the JS fills it live; re-generate (or run bbj_feed_bake.py) once the feed exists.
-4. Add the page's <loc> to sitemap.xml. bbj_feed_bake.py only BUMPS lastmod on URLs already in the map; it does NOT add new URLs, so a new page is invisible to the sitemap until you add it (this is why new pages have shipped missing from the map).
+4. Add the page's <loc> to sitemap.xml. Use sitemap_upsert(cfg) (one call: adds the <url> block, or refreshes <lastmod> if already present; idempotent). bbj_feed_bake.py only BUMPS lastmod on URLs already in the map; it does NOT add new URLs, so a new page is invisible to the sitemap until you add it (this is why new pages have shipped missing from the map).
 5. Audit before push: bbj_feed_target_check.py (0 missing), bbj_link_audit.py (0 broken/orphan), bbj_page_check.py.
 
 ## 9. Markets

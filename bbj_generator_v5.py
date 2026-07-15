@@ -959,7 +959,7 @@ def next_steps(cfg, feed_key=None, baked_note=None):
         '       python automation/bbj_feed_snapshot.py --market "' + market + '" --out feed',
         snap_hint,
         "  3. Add this page to sitemap.xml (bake does NOT add new URLs):",
-        "       <loc>" + loc + "</loc>",
+        "       call sitemap_upsert(cfg)  -- or add <loc>" + loc + "</loc>",
         "  4. Audit before shipping:",
         "       python bbj_feed_target_check.py     (expect 0 missing)",
         "       python bbj_link_audit.py            (0 broken / 0 orphan)",
@@ -1018,5 +1018,45 @@ def upsert_target_entry(cfg, targets_path="automation/bbj_page_targets.json"):
     data["pages"] = len(targets)
     p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return action, data["pages"]
+
+def sitemap_upsert(cfg, sitemap_path="sitemap.xml", lastmod=None,
+                   changefreq=None, priority=None):
+    """Opt-in: add this page's <url> block to sitemap.xml, or refresh its <lastmod>
+    if the <loc> is already there. This is the step bbj_feed_bake.py can't do — it
+    only bumps lastmod on existing URLs, never adds new ones. Idempotent: re-running
+    on a present page just updates lastmod. <loc> = canonical (BASE_URL + slug), so it
+    matches the page's own <link rel=canonical>. Returns ('added'|'updated', loc).
+    Defaults: changefreq weekly, priority 0.8; override via args or cfg
+    ['sitemap_changefreq'] / ['sitemap_priority']."""
+    loc        = BASE_URL + cfg["slug"]
+    lastmod    = lastmod    or date.today().isoformat()
+    changefreq = changefreq or cfg.get("sitemap_changefreq", "weekly")
+    priority   = priority   or cfg.get("sitemap_priority", "0.8")
+    p = Path(sitemap_path)
+    sm = p.read_text(encoding="utf-8", newline="")
+
+    # Already present? refresh its <lastmod> in place (idempotent), preserve all else.
+    if ("<loc>" + loc + "</loc>") in sm:
+        block_re = re.compile(
+            r"(<url>\s*<loc>" + re.escape(loc) + r"</loc>\s*<lastmod>)(.*?)(</lastmod>)", re.S)
+        new_sm, n = block_re.subn(lambda m: m.group(1) + lastmod + m.group(3), sm)
+        if n:
+            if new_sm != sm:
+                p.write_text(new_sm, encoding="utf-8", newline="")
+            return "updated", loc
+        # loc present but no <lastmod> in that block -> fall through and append fresh.
+
+    block = ("  <url>\n"
+             "    <loc>" + loc + "</loc>\n"
+             "    <lastmod>" + lastmod + "</lastmod>\n"
+             "    <changefreq>" + changefreq + "</changefreq>\n"
+             "    <priority>" + str(priority) + "</priority>\n"
+             "  </url>\n")
+    i = sm.rfind("</urlset>")
+    if i == -1:
+        raise SystemExit("BUILD BLOCKED — sitemap has no </urlset>: " + str(sitemap_path))
+    new_sm = sm[:i] + block + sm[i:]
+    p.write_text(new_sm, encoding="utf-8", newline="")
+    return "added", loc
 
 print("BBJ Generator v5 loaded. Interlinking validation active. Feed baked on build.")
