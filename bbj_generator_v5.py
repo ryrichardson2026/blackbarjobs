@@ -99,7 +99,7 @@ def validate_interlinking(cfg):
     issues = []
 
     # RULE 1: Market hub link
-    hub_map = {"Houston": HOUSTON_HUB, "DFW": DFW_HUB, "San Antonio": SA_HUB, "Austin": AUSTIN_HUB}
+    hub_map = {"Houston": HOUSTON_HUB, "DFW": DFW_HUB, "San Antonio": SA_HUB, "Austin": AUSTIN_HUB, "Chicago": "/chicago"}
     hub = hub_map.get(market, DFW_HUB)
     if hub not in hrefs and slug != hub:
         issues.append(f"RULE 1: Missing market hub link ({hub}) in related_links")
@@ -281,7 +281,7 @@ PAGE_CSS = """
   .section-offwhite .section-divider::before,
   .section-offwhite .section-divider::after { background: var(--border); }
   .section-white    .section-divider span,
-  .section-offwhite .section-divider span   { color: var(--muted); }
+  .section-offwhite .section-divider span   { color: var(--gold-muted); }
   .section-dark  .section-divider::before,
   .section-dark  .section-divider::after,
   .section-mid   .section-divider::before,
@@ -327,6 +327,7 @@ PAGE_CSS = """
 
   /* ── TWO-COL LAYOUTS ── */
   .two-col-light { background: var(--white); padding-top: 18px; }
+  .two-col-light .section-divider span { color: var(--gold-muted); }
   .two-col-dark  { background: var(--navy-mid); padding-top: 18px; }
   .two-col-dark .section-wrap h2 { color: var(--white); }
   .two-col-dark .section-wrap p  { color: rgba(255,255,255,0.6); }
@@ -439,6 +440,66 @@ PAGE_CSS = """
     @media(max-width:639px){ body { padding-bottom: 74px; } }
     @media(min-width:640px){ .sticky-bar { display:none!important; } }
   }
+
+  /* === BBJ Live Feed (hero-embedded) === */
+  .form-card{background:var(--white);border-radius:16px;padding:16px;box-shadow:0 8px 40px rgba(0,0,0,0.35);}
+  .form-card-title{font-family:'Barlow Condensed',sans-serif;font-size:1.05rem;font-weight:700;color:var(--navy-deep);letter-spacing:0.02em;margin-bottom:10px;text-transform:uppercase;}
+  .hero-feed{display:flex;flex-direction:column;margin-bottom:12px;border-top:2px solid var(--navy-deep);border-bottom:1px solid #c8cdd4;}
+  .hf-row{display:flex;align-items:flex-start;gap:10px;padding:5px 0;border-bottom:1px solid #e2e5ea;background: transparent; cursor: pointer;}
+  .hf-row:last-child{border-bottom:none;}
+  .hf-body{flex:1;min-width:0;}
+  .hf-title{font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;font-weight:800;color:var(--navy-deep);line-height:1.15;letter-spacing:0.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .hf-meta{display:flex;align-items:center;gap:0;margin-top:1px;flex-wrap:nowrap;font-size:0.68rem;color:var(--muted);font-family:'Barlow',sans-serif;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .hf-apply{flex-shrink:0;align-self:center;padding:5px 11px;background:var(--navy-deep);color:var(--gold);font-family:'Barlow Condensed',sans-serif;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;border:1.5px solid var(--navy-deep);border-radius:2px;cursor:pointer;text-decoration:none;display:inline-block;transition:background 0.12s,color 0.12s;white-space:nowrap;}
+  .hf-apply:hover{background:var(--navy-light);border-color:var(--navy-light);}
+  .hf-error{font-size:0.75rem;color:var(--muted);padding:10px 0;text-align:center;}
+  .skeleton-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid #e2e5ea;}
+  .skeleton-row:last-child{border-bottom:none;}
+  .skeleton-body{flex:1;min-width:0;}
+  .skeleton-line{background:linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.4s infinite;border-radius:4px;}
+  .skeleton-title{height:13px;width:75%;margin-bottom:6px;}
+  .skeleton-meta{height:10px;width:50%;}
+  .skeleton-btn{width:46px;height:28px;border-radius:8px;flex-shrink:0;}
+  @keyframes shimmer{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+
+/* -- MOBILE: hide hero image, collapse height -- */
+@media (max-width: 639px) {
+  .hero-img-wrap, .hero-image-wrap { display: none !important; }
+  .hero { min-height: 0 !important; background: #000814 !important; }
+}
+
+/* -- MODERN HERO-EMBEDDED FEED -- */
+.hero-content { padding: 90px 16px 24px; justify-content: flex-start; }
+.hero-text-col { display: flex; flex-direction: column; }
+.hero-stat-row { display: none; }
+.form-card { background: var(--white); border-radius: 16px; padding: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.35); margin-top: 18px; }
+.form-card-title { font-family:'Barlow Condensed',sans-serif; font-size:1.05rem; font-weight:700; color:var(--navy-deep); letter-spacing:0.02em; margin-bottom:10px; text-transform:uppercase; }
+.hero-feed { display:flex; flex-direction:column; margin-bottom:12px; border-top:2px solid var(--navy-deep); border-bottom:1px solid #c8cdd4; }
+.hf-row { display:flex; align-items:flex-start; gap:10px; padding:5px 0; border-bottom:1px solid #e2e5ea; background:transparent; }
+.hf-row:last-child { border-bottom:none; }
+.hf-body { flex:1; min-width:0; }
+.hf-title { font-family:'Barlow Condensed',sans-serif; font-size:0.95rem; font-weight:800; color:var(--navy-deep); line-height:1.15; letter-spacing:0.01em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-meta { display:flex; align-items:center; gap:0; margin-top:1px; flex-wrap:nowrap; font-size:0.68rem; color:var(--muted); font-family:'Barlow',sans-serif; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.hf-company { font-weight:600; color:var(--charcoal); }
+.hf-sep { margin:0 4px; color:#c8cdd4; }
+.hf-location { color:var(--muted); }
+.hf-tag { display:inline-block; font-size:0.6rem; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); border:1px solid #c8cdd4; padding:1px 4px; border-radius:2px; margin-left:5px; white-space:nowrap; flex-shrink:0; }
+.hf-apply { flex-shrink:0; align-self:center; padding:5px 11px; background:var(--navy-deep); color:var(--gold); font-family:'Barlow Condensed',sans-serif; font-size:0.72rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; border:1.5px solid var(--navy-deep); border-radius:2px; cursor:pointer; text-decoration:none; display:inline-block; transition:background 0.12s,color 0.12s; white-space:nowrap; }
+.hf-apply:hover { background:var(--navy-light); border-color:var(--navy-light); }
+.hf-loading { text-align:center; padding:16px 0; font-size:0.8rem; color:var(--muted); font-weight:500; }
+.hf-error { font-size:0.75rem; color:var(--muted); padding:10px 0; text-align:center; }
+@media (min-width: 640px) {
+  .hero-content { display:grid; grid-template-columns:1fr 420px; align-items:center; gap:48px; max-width:1200px; margin:0 auto; padding:0 48px; justify-content:initial; }
+  .hero-text-col { justify-content:center; }
+  .hero h1 { text-align:left; }
+  .hero-image-overlay { background: linear-gradient(105deg, rgba(0,8,20,0.82) 0%, rgba(0,8,20,0.55) 45%, rgba(0,8,20,0.25) 100%); }
+  .hero .hero-sub { text-align:left; font-size:1.1rem; max-width:420px; margin-bottom:0; }
+  .hero-stat-row { display:flex; gap:32px; margin-top:32px; }
+  .hero-stat { display:flex; flex-direction:column; gap:2px; }
+  .hero-stat-num { font-family:'Barlow Condensed',sans-serif; font-size:1.8rem; font-weight:800; color:var(--gold); line-height:1; }
+  .hero-stat-label { font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.45); }
+  .form-card { max-width:420px; width:100%; border-radius:20px; padding:28px 24px 22px; background:rgba(255,255,255,0.97); box-shadow:0 24px 64px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.08); margin-top:0; }
+}
 """
 
 # ── Schema ────────────────────────────────────────────────────────
@@ -463,10 +524,23 @@ def jobposting_schema(cfg):
             "maxValue":cfg.get("pay_max",22),"unitText":"HOUR"}},
         "url":f"{BASE_URL}{cfg['slug']}"}, indent=2)
 
+def collection_schema(cfg):
+    # Hub/directory pages: an ItemList of the metro pages, not a single JobPosting.
+    items = [{"@type":"ListItem","position":i+1,"name":label,"url":f"{BASE_URL}{href}"}
+             for i,(href,_emoji,label) in enumerate(cfg["related_links"])]
+    return json.dumps({"@context":"https://schema.org","@type":"CollectionPage",
+        "name":cfg["role"],"description":cfg["meta_desc"],"url":f"{BASE_URL}{cfg['slug']}",
+        "mainEntity":{"@type":"ItemList","itemListElement":items}}, indent=2)
+
 def breadcrumb_schema(cfg):
     market = cfg.get("market","Houston")
-    hub_slug_map = {"Houston": "/houston", "DFW": "/dallas", "San Antonio": "/san-antonio", "Austin": "/austin"}
-    hub_name_map = {"Houston": "Houston Security Jobs", "DFW": "DFW Security Jobs", "San Antonio": "San Antonio Security Jobs", "Austin": "Austin Security Jobs"}
+    if cfg.get("hub_mode"):
+        return json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+            {"@type":"ListItem","position":1,"name":"BlackBarJobs","item":BASE_URL},
+            {"@type":"ListItem","position":2,"name":cfg["role"],"item":f"{BASE_URL}{cfg['slug']}"}
+        ]}, indent=2)
+    hub_slug_map = {"Houston": "/houston", "DFW": "/dallas", "San Antonio": "/san-antonio", "Austin": "/austin", "Chicago": "/chicago"}
+    hub_name_map = {"Houston": "Houston Security Jobs", "DFW": "DFW Security Jobs", "San Antonio": "San Antonio Security Jobs", "Austin": "Austin Security Jobs", "Chicago": "Chicago Security Jobs"}
     hub_slug = hub_slug_map.get(market, "/dallas")
     hub_name = hub_name_map.get(market, "DFW Security Jobs")
     return json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -547,6 +621,12 @@ def generate_page(cfg):
     hero_alt    = cfg.get("hero_alt", f"{role} jobs {city} {region}")
     browse_url  = cfg.get("browse_url","/job-board")
     alert_city  = cfg.get("alert_city", city)
+    # Hero-embedded feed tokens (golden template)
+    metro_display   = cfg.get("metro_display", city)          # H1 city label, e.g. "Dallas-Fort Worth"
+    metro_abbr      = cfg.get("metro_abbr", city)             # hero stat label, e.g. "DFW"
+    feed_card_title = cfg.get("feed_card_title", f"Recent {role} Openings")
+    # H1: default golden format, or a per-page override (e.g. trailing "No Experience Required" qualifier)
+    h1_html = cfg.get("h1_override") or ('Find the Latest <em>' + cfg["h1_em"] + '</em> in ' + metro_display)
 
     # Feed key = slug without leading slash (e.g. "austin/jobs/armed-security-austin").
     # bbj-feed.js fetches /feed/<feed_key>.json; the overlay derives the metro from it too.
@@ -554,7 +634,7 @@ def generate_page(cfg):
     res_map = {"Houston": HOUSTON_RESOURCES, "DFW": DFW_RESOURCES, "San Antonio": SA_RESOURCES, "Austin": AUSTIN_RESOURCES}
     ft_map  = {"Houston": HOUSTON_FOOTER,    "DFW": DFW_FOOTER,    "San Antonio": SA_FOOTER,    "Austin": AUSTIN_FOOTER}
     resources = cfg.get("resources", res_map.get(market, DFW_RESOURCES))
-    ftlinks   = footer_html(ft_map.get(market, DFW_FOOTER))
+    ftlinks   = footer_html(cfg.get("footer_links", ft_map.get(market, DFW_FOOTER)))
 
     faqs        = cfg["faqs"]
     demand_h2   = cfg["demand_h2"]
@@ -570,6 +650,12 @@ def generate_page(cfg):
     requirements= cfg["requirements"]
     schedules   = cfg["schedules"]
     related     = cfg["related_links"]
+
+    # ── Hub-mode overrides (national/directory pages); default to metro behavior ──
+    badge       = cfg.get("badge_override", f"{city}, {region}")
+    related_h2  = cfg.get("related_h2", f"More Security Jobs in {city}")
+    browse_label= cfg.get("browse_label", f"All {city} Security Jobs")
+    page_schema = collection_schema(cfg) if cfg.get("hub_mode") else jobposting_schema(cfg)
 
     # ── Interlinking validation ────────────────────────────────
     _issues = validate_interlinking(cfg)
@@ -614,7 +700,7 @@ def generate_page(cfg):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">{faq_schema(faqs)}</script>
-<script type="application/ld+json">{jobposting_schema(cfg)}</script>
+<script type="application/ld+json">{page_schema}</script>
 <script type="application/ld+json">{breadcrumb_schema(cfg)}</script>
 <style>{PAGE_CSS}</style>
 </head>
@@ -627,31 +713,30 @@ def generate_page(cfg):
   <a class="nav-logo" href="/"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span></a>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
+<!-- HERO (hero-embedded feed) -->
+<section class="hero" id="heroAnchor">
   <div class="hero-image-wrap">
     <img src="{hero_img}" alt="{hero_alt}" loading="eager">
     <div class="hero-image-overlay"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-badge">{city}, TX</div>
-    <h1>{cfg["h1_main"]}<br><em>{cfg["h1_em"]}</em></h1>
-    <p class="hero-sub">{cfg["hero_sub"]}</p>
-    <div class="hero-ctas">
-      <a class="btn-primary" href="{browse_url}">Browse All Jobs →</a>
+    <div class="hero-text-col">
+      <div class="hero-badge">{badge}</div>
+      <h1>{h1_html}</h1>
+      <p class="hero-sub">{cfg["hero_sub"]}</p>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="hero-stat-num">Live</span><span class="hero-stat-label">Updated Feed</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">{metro_abbr}</span><span class="hero-stat-label">Metro Coverage</span></div>
+        <div class="hero-stat"><span class="hero-stat-num">Free</span><span class="hero-stat-label">Job Alerts</span></div>
+      </div>
+    </div>
+    <div class="form-card" id="signup">
+      <div class="form-card-title" style="text-align:center;letter-spacing:0.04em;">{feed_card_title}</div>
+      <div class="hero-feed" id="indexJobFeed"></div>
+      <a href="#" onclick="bbjAccOpen();return false;" class="btn-primary" style="display:block;width:100%;text-align:center;margin-top:10px;">See More Jobs →</a>
     </div>
   </div>
 </section>
-
-<!-- LIVE FEED - off-white -->
-<div class="section-offwhite" id="live-jobs">
-  {sec_div("Live Openings", mt0=True)}
-  <div class="section-wrap">
-    <h2>Recent {role} Openings</h2>
-    <div id="jobRows" style="min-height:80px;border-top:2px solid var(--navy-deep);"></div>
-    <a class="btn-primary" href="{browse_url}" style="display:inline-block;max-width:260px;margin-top:16px;text-align:center;">Browse All Jobs →</a>
-  </div>
-</div>
 
 <!-- FAQ - white -->
 <div class="section-white">
@@ -673,7 +758,6 @@ def generate_page(cfg):
 
 <!-- ROLE OVERVIEW + DUTIES - white two-col -->
 <div class="two-col-light">
-  {sec_div("Overview &amp; Duties")}
   <div class="two-col-inner">
     <div class="section-wrap">
       {sec_div("Role Overview")}
@@ -692,7 +776,7 @@ def generate_page(cfg):
 <div class="section-dark">
   {sec_div("Compensation")}
   <div class="section-wrap">
-    <h2>Typical Pay in {city}, TX</h2>
+    <h2>Typical Pay in {city}, {region}</h2>
     <p style="color:rgba(255,255,255,0.5);margin-bottom:20px;">{pay_intro}</p>
     {pay_grid(pay_entry, pay_exp, pay_lead)}
   </div>
@@ -706,7 +790,6 @@ def generate_page(cfg):
 
 <!-- REQUIREMENTS + SCHEDULES - navy-mid two-col-dark -->
 <div class="two-col-dark">
-  {sec_div("Requirements &amp; Schedules")}
   <div class="two-col-inner">
     <div class="section-wrap">
       {sec_div("Requirements")}
@@ -725,7 +808,7 @@ def generate_page(cfg):
 <div class="section-dark">
   {sec_div("Related Roles")}
   <div class="section-wrap">
-    <h2>More Security Jobs in {city}</h2>
+    <h2>{related_h2}</h2>
     {related_grid(related)}
   </div>
 </div>
@@ -735,14 +818,14 @@ def generate_page(cfg):
   {sec_div("Guides &amp; Resources")}
   <div class="section-wrap">
     {resource_list(resources)}
-    <a class="btn-primary" href="{browse_url}" style="display:inline-block;margin-top:18px;max-width:320px;text-align:center;">Browse All {city} Security Jobs →</a>
+    <a class="btn-primary" href="{browse_url}" style="display:inline-block;margin-top:18px;max-width:320px;text-align:center;">Browse {browse_label} →</a>
   </div>
 </div>
 
 <!-- ALERT - navy-deep -->
 <div class="alert-wrap" id="alerts" data-nosnippet>
   <h2>Don't See The Right <span>Security Job</span> Yet?</h2>
-  <p>New openings posted regularly across {alert_city}, TX. Get notified the moment something matches.</p>
+  <p>New openings posted regularly across {alert_city}, {region}. Get notified the moment something matches.</p>
   <div class="alert-form" id="alertForm">
     <div class="alert-field"><span class="alert-field-icon">📍</span><input type="text" id="a-zip" placeholder="ZIP Code" inputmode="numeric" maxlength="5" pattern="[0-9]*"></div>
     <div class="alert-field"><span class="alert-field-icon">📱</span><input type="tel" id="a-ph" placeholder="Mobile Number" inputmode="tel"></div>
@@ -762,7 +845,7 @@ def generate_page(cfg):
 <footer>
   <div class="footer-links">{ftlinks}</div>
   <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
-  <p>Security job alerts for professionals across Texas.</p>
+  <p>Security job alerts for professionals across the US.</p>
   <p><a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
 </footer>
 
