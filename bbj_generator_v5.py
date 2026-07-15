@@ -16,9 +16,40 @@ v5 CHANGES — Interlinking enforcement:
 
 import json
 import re
+import sys
 import warnings
 from datetime import date
 from pathlib import Path
+
+# Reuse the feed baker's card renderers so baked-on-build cards stay BYTE-IDENTICAL
+# to the live js/bbj-feed.js layer (single source of truth, no drift). bbj_feed_bake.py
+# is a sibling at repo root; add this file's dir to sys.path so the import resolves no
+# matter what cwd the external build driver runs from.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from bbj_feed_bake import bake_page, BakeError
+
+# Repo-root feed dir. Baked cards are read from feed/<BBJ_FEED_KEY>.json here.
+FEED_DIR = Path(__file__).resolve().parent / "feed"
+
+# ══════════════════════════════════════════════════════════════════
+# NEW-PAGE BUILD ORDER (the "process" a new page must pass through)
+# ══════════════════════════════════════════════════════════════════
+# generate_page() now BAKES the job feed into the HTML on build (see the tail of
+# generate_page + the bake hook), so a new page ships with real job cards in the
+# raw HTML — provided feed/<key>.json already exists. Full order for a NEW page:
+#
+#   1. Add the target to automation/bbj_page_targets.json (key MUST byte-match the
+#      page's BBJ_FEED_KEY). Use emit_target_entry(cfg) / upsert_target_entry(cfg)
+#      below to avoid hand-editing errors.
+#   2. Snapshot:  python automation/bbj_feed_snapshot.py --market <M> --out feed
+#      -> writes feed/<key>.json.
+#   3. generate_page(cfg) -> HTML with cards already baked (bake hook runs here).
+#      If the feed does not exist yet, the container ships EMPTY and js/bbj-feed.js
+#      fills it live; re-run after step 2 to bake.
+#   4. Add the page's <loc> to sitemap.xml (bbj_feed_bake.py only BUMPS lastmod on
+#      URLs already present; it does NOT add new URLs).
+#   5. Audit: bbj_feed_target_check.py, bbj_link_audit.py, bbj_page_check.py.
+# ══════════════════════════════════════════════════════════════════
 
 # ══════════════════════════════════════════════════════════════════
 # INTERLINKING RULES
@@ -871,6 +902,72 @@ function toggleFaq(el){{el.parentElement.classList.toggle('open');}}
 </html>"""
 
     assert_output_guardrails(html, slug)
+
+    # ── Bake the job feed into the HTML on build (Lever 1, now at generation time) ──
+    # Splice real job cards into the #indexJobFeed container between BBJ_BAKE markers,
+    # reusing bbj_feed_bake.bake_page so the markup matches js/bbj-feed.js exactly.
+    # Default on; set cfg["bake"]=False to emit the empty container (JS fills it live).
+    if cfg.get("bake", True):
+        try:
+            html, _changed, _note = bake_page(html, feed_key, str(FEED_DIR), date.today())
+        except BakeError as e:
+            # Missing feed = a new page not yet snapshotted -> ship the empty container
+            # (js/bbj-feed.js fills it live; re-run after the snapshot to bake). Any other
+            # BakeError (mojibake, structural) is real corruption -> fail the build loudly.
+            if "feed file missing" in str(e):
+                print(f"   [feed] {slug}: no feed yet ({feed_key}.json); shipping empty feed, JS will fill it.")
+            else:
+                raise SystemExit(f"BUILD BLOCKED — {slug}: feed bake failed: {e}")
+
     return html
 
-print("BBJ Generator v5 loaded. Interlinking validation active.")
+# ── New-page registration helpers (reduce manual bbj_page_targets.json errors) ──
+def emit_target_entry(cfg):
+    """Return the bbj_page_targets.json entry for this page, derived from cfg.
+
+    'key' is derived from the same feed_key the page emits as BBJ_FEED_KEY, so the
+    two can never drift (the mismatch that silently 404s a feed). The snapshot-only
+    fields — feed_role / target_type / city_major / feed_city — drive job matching in
+    bbj_feed_snapshot.py and are distinct from the human-facing cfg['role'] label, so
+    set them in cfg for correct matching (feed_city should be a lowercase location
+    token like 'dallas'; target_type is role | city | city-role | general)."""
+    slug     = cfg["slug"]
+    feed_key = cfg.get("feed_key", slug.lstrip("/"))
+    city_tok = cfg.get("feed_city")
+    if city_tok is None and not cfg.get("hub_mode"):
+        city_tok = (cfg.get("city") or "").strip().lower() or None
+    return {
+        "key":            feed_key,
+        "path":           cfg.get("path", slug.lstrip("/") + ".html"),
+        "market":         cfg.get("market", "Houston"),
+        "role":           cfg.get("feed_role"),
+        "city":           city_tok,
+        "city_major":     bool(cfg.get("city_major", False)),
+        "target_type":    cfg.get("target_type", "general"),
+        "container":      "indexJobFeed",
+        "has_feed_block": True,
+    }
+
+def upsert_target_entry(cfg, targets_path="automation/bbj_page_targets.json"):
+    """Opt-in: add/replace this page's entry in the manifest by key, keep 'pages' in
+    sync, and write it back. Idempotent — re-running on an existing key replaces in
+    place. Returns ('added'|'updated', total_pages). Call from the build driver; the
+    generator never writes the manifest on its own."""
+    entry = emit_target_entry(cfg)
+    p = Path(targets_path)
+    data = json.loads(p.read_text(encoding="utf-8"))
+    targets = data.get("targets", [])
+    for i, t in enumerate(targets):
+        if t.get("key") == entry["key"]:
+            targets[i] = entry
+            action = "updated"
+            break
+    else:
+        targets.append(entry)
+        action = "added"
+    data["targets"] = targets
+    data["pages"] = len(targets)
+    p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return action, data["pages"]
+
+print("BBJ Generator v5 loaded. Interlinking validation active. Feed baked on build.")

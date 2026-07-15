@@ -79,11 +79,18 @@ Enforcement:
 - RESOLVED (2026-07-08): bbj_generator_v5.py no longer emits an inline fetch(WEBHOOK), an inline gtag conversion, or a submitAlert() block. Generated pages now load js/bbj-register-overlay.js and fire registration only via bbjAlertOpen()/bbjAccOpen() and the shared dataLayer events, caught by GTM. Regenerating pages is safe on the tracking front. Do NOT reintroduce inline webhook/conversion fires into the template.
 
 ## 8. Tooling and audits
-- bbj_generator_v5.py: page generator. SEO/meta/schema contract, page-type detection, interlinking gate. Each page emits BBJ_FEED_KEY (= slug without leading slash) and loads js/bbj-feed.js; the visible-job cap and apply gating live in that shared script. Also bakes in two output guardrails: no internal <a href> may carry a utm_ param, and the favicon set must be present, or the build blocks.
+- bbj_generator_v5.py: page generator. SEO/meta/schema contract, page-type detection, interlinking gate. Each page emits BBJ_FEED_KEY (= slug without leading slash) and loads js/bbj-feed.js; the visible-job cap and apply gating live in that shared script. Also bakes in two output guardrails: no internal <a href> may carry a utm_ param, and the favicon set must be present, or the build blocks. It is a LIBRARY (defines generate_page(cfg); no in-repo caller/driver), so build-affecting logic lives inside the module. generate_page now BAKES the job feed into the HTML on build by reusing bbj_feed_bake.bake_page (cards are byte-identical to the live js/bbj-feed.js layer); default on, cfg["bake"]=False to skip. If feed/<key>.json does not exist yet the container ships EMPTY and the JS fills it live; only a real feed error (mojibake/structural) blocks the build. Helpers emit_target_entry(cfg) / upsert_target_entry(cfg) derive the bbj_page_targets.json entry from the same feed_key the page emits, so the manifest key can never drift from BBJ_FEED_KEY.
 - bbj_page_check.py: audits every page for correct wiring (GTM, shared overlay, BBJ_FEED_KEY + bbj-feed.js, auth scripts) and flags leftover old systems (submitAlert, inline conversion/webhook, CSV feeds), wrong-metro copy, and em-dashes. Run after tracking/overlay/feed changes.
 - bbj_link_audit.py: cross-checks pages, internal links, and sitemaps; reports broken links, dead sitemap URLs, pages missing from the map, orphans, and dead links. Run before every push.
 - bbj_feed_target_check.py: guardrail. For every page carrying a BBJ_FEED_KEY, verifies feed/<KEY>.json exists in the repo; lists offenders and exits non-zero so a landing page can never ship showing zero jobs (a missing feed 404s silently). Run before every push, and always after adding a new page target or landing page.
 - Feeds: static per-page JSON snapshots at /feed/<BBJ_FEED_KEY>.json (searchapi.io ingest + Supabase), rendered by js/bbj-feed.js. The old Google Sheets CSV feed (PUB_BASE + MASTER_* GIDs) is retired.
+
+New-page build order (the process every new landing/role page passes through):
+1. Register the target in automation/bbj_page_targets.json (key MUST byte-match the page's BBJ_FEED_KEY). Use emit_target_entry(cfg) / upsert_target_entry(cfg) rather than hand-editing; a key mismatch 404s the feed silently.
+2. Snapshot: python automation/bbj_feed_snapshot.py --market <M> --out feed  -> writes feed/<key>.json.
+3. generate_page(cfg) -> HTML with cards already baked (bake runs at build). If the feed did not exist at step 2, the page ships an empty container and the JS fills it live; re-generate (or run bbj_feed_bake.py) once the feed exists.
+4. Add the page's <loc> to sitemap.xml. bbj_feed_bake.py only BUMPS lastmod on URLs already in the map; it does NOT add new URLs, so a new page is invisible to the sitemap until you add it (this is why new pages have shipped missing from the map).
+5. Audit before push: bbj_feed_target_check.py (0 missing), bbj_link_audit.py (0 broken/orphan), bbj_page_check.py.
 
 ## 9. Markets
 - Live: DFW, Houston.
