@@ -85,6 +85,8 @@ Enforcement:
 - bbj_feed_target_check.py: guardrail. For every page carrying a BBJ_FEED_KEY, verifies feed/<KEY>.json exists in the repo; lists offenders and exits non-zero so a landing page can never ship showing zero jobs (a missing feed 404s silently). Run before every push, and always after adding a new page target or landing page.
 - Feeds: static per-page JSON snapshots at /feed/<BBJ_FEED_KEY>.json (searchapi.io ingest + Supabase), rendered by js/bbj-feed.js. The old Google Sheets CSV feed (PUB_BASE + MASTER_* GIDs) is retired.
 
+After generating ANY page, generate_page() prints a tailored next_steps(cfg) checklist (real key, market, sitemap <loc>, exact commands, and whether cards baked). ALWAYS relay that checklist to the user as the page's "next steps" so no manual step is left to guess. Silence it only with cfg["print_next_steps"]=False.
+
 New-page build order (the process every new landing/role page passes through):
 1. Register the target in automation/bbj_page_targets.json (key MUST byte-match the page's BBJ_FEED_KEY). Use emit_target_entry(cfg) / upsert_target_entry(cfg) rather than hand-editing; a key mismatch 404s the feed silently.
 2. Snapshot: python automation/bbj_feed_snapshot.py --market <M> --out feed  -> writes feed/<key>.json.

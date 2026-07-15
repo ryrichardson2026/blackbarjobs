@@ -907,19 +907,68 @@ function toggleFaq(el){{el.parentElement.classList.toggle('open');}}
     # Splice real job cards into the #indexJobFeed container between BBJ_BAKE markers,
     # reusing bbj_feed_bake.bake_page so the markup matches js/bbj-feed.js exactly.
     # Default on; set cfg["bake"]=False to emit the empty container (JS fills it live).
+    baked_note = None
     if cfg.get("bake", True):
         try:
-            html, _changed, _note = bake_page(html, feed_key, str(FEED_DIR), date.today())
+            html, _changed, baked_note = bake_page(html, feed_key, str(FEED_DIR), date.today())
         except BakeError as e:
             # Missing feed = a new page not yet snapshotted -> ship the empty container
             # (js/bbj-feed.js fills it live; re-run after the snapshot to bake). Any other
             # BakeError (mojibake, structural) is real corruption -> fail the build loudly.
             if "feed file missing" in str(e):
-                print(f"   [feed] {slug}: no feed yet ({feed_key}.json); shipping empty feed, JS will fill it.")
+                baked_note = None
             else:
                 raise SystemExit(f"BUILD BLOCKED — {slug}: feed bake failed: {e}")
 
+    # Always surface the remaining manual steps so nothing is forgotten after a build.
+    if cfg.get("print_next_steps", True):
+        print(next_steps(cfg, feed_key, baked_note))
+
     return html
+
+# ── Post-build reminder: the manual steps that remain after a page is generated ──
+def next_steps(cfg, feed_key=None, baked_note=None):
+    """Return the remaining-steps checklist for this page, with the real key, market,
+    sitemap <loc>, and commands filled in. generate_page() prints this after every
+    build (cfg["print_next_steps"]=False to silence) so nothing is left to guess.
+    baked_note is bake_page()'s note ('5/5 jobs' / 'EMPTY') or None when no feed
+    existed yet."""
+    slug     = cfg["slug"]
+    feed_key = feed_key or cfg.get("feed_key", slug.lstrip("/"))
+    market   = cfg.get("market", "Houston")
+    path     = cfg.get("path", slug.lstrip("/") + ".html")
+    loc      = BASE_URL + slug
+    if baked_note and baked_note != "EMPTY":
+        status   = "cards baked into HTML (%s)" % baked_note
+        snap_hint = "   (feed already exists; snapshot only needed to refresh)"
+    else:
+        status   = "NO cards baked yet -- empty container shipped, JS fills it live"
+        snap_hint = "   (REQUIRED: creates feed/%s.json, then re-generate to bake)" % feed_key
+    L = [
+        "",
+        "=" * 66,
+        "NEXT STEPS  -  " + slug,
+        "=" * 66,
+        "  page file : " + path,
+        "  feed key  : " + feed_key,
+        "  status    : " + status,
+        "",
+        "  1. Register the target (key MUST byte-match the feed key above):",
+        "       automation/bbj_page_targets.json  -- or call upsert_target_entry(cfg)",
+        "  2. Snapshot the feed:",
+        '       python automation/bbj_feed_snapshot.py --market "' + market + '" --out feed',
+        snap_hint,
+        "  3. Add this page to sitemap.xml (bake does NOT add new URLs):",
+        "       <loc>" + loc + "</loc>",
+        "  4. Audit before shipping:",
+        "       python bbj_feed_target_check.py     (expect 0 missing)",
+        "       python bbj_link_audit.py            (0 broken / 0 orphan)",
+        "       python bbj_page_check.py",
+        "  5. Commit on a branch, then push/merge (deploy gate).",
+        "=" * 66,
+        "",
+    ]
+    return "\n".join(L)
 
 # ── New-page registration helpers (reduce manual bbj_page_targets.json errors) ──
 def emit_target_entry(cfg):
