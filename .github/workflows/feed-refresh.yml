@@ -31,14 +31,32 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python automation/bbj_feed_snapshot.py --targets automation/bbj_page_targets.json --out feed
 
-      - name: Commit and push refreshed feed
+      # Bake the just-refreshed feed into the static HTML so crawlable cards stay in
+      # sync with feed/*.json (keeps Lever 1 fresh and the audit's bake-lag check ~0).
+      # walk-dir bakes every page by its own BBJ_FEED_KEY (manifest-independent, so it
+      # covers DFW/Austin whose manifests are stale). No secrets: it only transforms
+      # local feed JSON into HTML. --no-sitemap keeps the commit scoped to feed + pages.
+      - name: Bake feed into static HTML
+        run: python bbj_feed_bake.py --repo . --walk-dir . --market all --no-sitemap
+
+      - name: Commit and push refreshed feed + baked pages
         run: |
           git config user.name "bbj-feed-bot"
           git config user.email "actions@users.noreply.github.com"
           git add feed
-          if git diff --staged --quiet; then
-            echo "No feed changes this run."
-          else
-            git commit -m "chore: scheduled feed refresh"
-            git push
+          git add -u
+          # git add -u self-scopes to exactly what the refresh + bake changed (feed JSON
+          # + baked .html), so a new market is covered with no path list to maintain.
+          # Guard (not a filter): if anything OTHER than feed/ or a .html is staged, stop
+          # loudly rather than sweep it in. --no-sitemap on the bake keeps sitemap.xml out.
+          staged=$(git diff --cached --name-only)
+          bad=$(echo "$staged" | grep -vE '^(feed/|.*\.html$)' || true)
+          if [ -n "$bad" ]; then
+            echo "Unexpected staged files:"; echo "$bad"; exit 1
           fi
+          # Idempotent bake + unchanged feeds can legitimately stage nothing: clean no-op.
+          if git diff --cached --quiet; then
+            echo "No changes to commit"; exit 0
+          fi
+          git commit -m "chore: scheduled feed refresh + bake"
+          git push
