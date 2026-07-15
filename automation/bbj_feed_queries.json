@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-09T06:37:31Z",
-  "feed_pages": 232,
-  "distinct_queries": 197,
-  "pages_per_query": 1.213,
+  "feed_pages": 231,
+  "distinct_queries": 196,
+  "pages_per_query": 1.214,
   "queries": [
     {
       "key": "DFW::security officer jobs Dallas TX",
@@ -428,16 +428,6 @@
       "qtype": "city-role",
       "pages": [
         "dallas/jobs/dallas-government-security.html"
-      ]
-    },
-    {
-      "key": "DFW::hiring immediately security officer jobs Dallas TX",
-      "metro": "DFW",
-      "role": "hiring-immediately",
-      "query": "hiring immediately security officer jobs Dallas TX",
-      "qtype": "city-role",
-      "pages": [
-        "dallas/dallas-security-jobs-hiring-immediately.html"
       ]
     },
     {

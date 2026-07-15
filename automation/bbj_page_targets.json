@@ -1,5 +1,5 @@
 {
-  "pages": 232,
+  "pages": 231,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -438,17 +438,6 @@
       "city": null,
       "city_major": false,
       "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/dallas-security-jobs-hiring-immediately",
-      "path": "dallas/jobs/dallas-hiring-immediately-security.html",
-      "market": "DFW",
-      "role": "hiring-immediately",
-      "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
       "container": "jobRows",
       "has_feed_block": true
     },
