@@ -1,0 +1,28 @@
+name: health-audit
+on:
+  schedule:
+    - cron: "0 15 * * 2,4,6"   # 15:00 UTC Tue/Thu/Sat, 1h after feed-refresh (14:00 UTC)
+  workflow_dispatch: {}
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt || true
+      - name: Run health audit
+        id: audit
+        continue-on-error: true
+        run: python bbj_link_audit.py --ci --report health-report.json
+      - name: Alert on failure
+        if: steps.audit.outcome == 'failure'
+        run: |
+          curl -sS -X POST "${{ secrets.MAKE_ALERT_WEBHOOK }}" \
+            -H "Content-Type: application/json" \
+            --data-binary @health-report.json
+      - name: Mark run failed
+        if: steps.audit.outcome == 'failure'
+        run: exit 1

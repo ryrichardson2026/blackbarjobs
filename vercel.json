@@ -310,7 +310,7 @@
     },
     {
       "source": "/jobs/dallas-security-jobs-hiring-immediately",
-      "destination": "/dallas/jobs/dallas-hiring-immediately-security",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
       "permanent": true
     },
     {
@@ -845,7 +845,12 @@
     },
     {
       "source": "/dallas/dallas-security-jobs-hiring-immediately",
-      "destination": "/dallas/jobs/dallas-hiring-immediately-security",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/dallas-hiring-immediately-security",
+      "destination": "/dallas/jobs/dallas-entry-level-security",
       "permanent": true
     },
     {
