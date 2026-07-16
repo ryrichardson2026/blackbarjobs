@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/fort-worth-hospital-security",
   "market": "DFW",
   "target": "city-role",
@@ -10,11 +10,31 @@
       "title": "Commissioned Security Officer / JPS Hospital",
       "company": "USAPD",
       "location": "Fort Worth, TX",
-      "pay": "21.50–23.75 an hour",
+      "pay": "20–22 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=36cf049621e083b1",
       "via": "via Indeed"
+    },
+    {
+      "title": "Hospital Police Officer: Protect, Patrol, Investigate",
+      "company": "Baylor Scott & White Health",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/6376664695900768445",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Compassionate Healthcare Security Officer",
+      "company": "Cook Children's",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.whatjobs.com/jobs/compassionate-healthcare-security-officer/fort-worth-texas?id=2867864228",
+      "via": "via WhatJobs"
     },
     {
       "title": "Security Shift Supervisor Unarmed Medical Supplier at Allied Universal Fort Worth, TX",
@@ -27,16 +47,6 @@
       "via": "via Susie Skarford Photography"
     },
     {
-      "title": "Hospital Police Officer: Protect, Patrol, Investigate",
-      "company": "Baylor Scott & White Health",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://jooble.org/jdp/6376664695900768445",
-      "via": "via Jooble"
-    },
-    {
       "title": "Hospital Public Safety Officer – Patrol & De‑Escalation",
       "company": "Texas Health Resources",
       "location": "Fort Worth, TX",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/texas-health-resources/fort-worth/hospital-public-safety-officer-patrol-de%E2%80%91escalation-82655675/",
       "via": "via Talents By Vaia"
-    },
-    {
-      "title": "Baylor University Medical Center",
-      "company": "Baylor University Medical Center",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://staging.careersingovernment.com/job/1292851/security-officer-2-fort-worth/",
-      "via": "via Careers In Government"
     }
   ]
 }

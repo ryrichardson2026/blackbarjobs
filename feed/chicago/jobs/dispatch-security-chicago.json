@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/dispatch-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 0,
   "jobs": [
     {
-      "title": "Unarmed Security Guard - 2nd and 3rd shifts - Weekly Pay and Benefits",
-      "company": "A & A Security Group Inc",
-      "location": "Joliet, IL",
-      "pay": "18.50 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3fa1a4e9d5177211",
+      "title": "Security Officer Enhanced Part Time Area Watch",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "25 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-area-watch-at-allied-universal-4441293350",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security/Loss Prevention Officer",
+      "company": "O'Brien & Associates",
+      "location": "Naperville, IL",
+      "pay": "19–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e6f91d9da8feed85",
       "via": "via Indeed"
     },
     {
-      "title": "Armed Guard: Part-Time",
-      "company": "Silver Star Protection Group",
-      "location": "Chicago, IL",
-      "pay": null,
+      "title": "Security Officer - Full Time - Overnights",
+      "company": "Allied Universal",
+      "location": "Carol Stream, IL",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-overnights-at-allied-universal-4441289512",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Flex - Warehouse Site",
+      "company": "Allied Universal",
+      "location": "University Park, IL",
+      "pay": "19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-guard-part-time-at-silver-star-protection-group-4440371526",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-flex-warehouse-site-at-allied-universal-4441400157",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Sergeant - University Police",
-      "company": "University of Illinois Chicago",
-      "location": "Chicago, IL",
+      "title": "Security Officer",
+      "company": "American Security Services LLC",
+      "location": "Schaumburg, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-sergeant-university-police-at-university-of-illinois-chicago-4440378581",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Guard (Full-Time or On-Call Only)",
-      "company": "GardaWorld Federal Services",
-      "location": "Burbank, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-guard-full-time-or-on-call-only-at-gardaworld-federal-services-4440513159",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Account Manager - Data Center",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/account-manager-data-center-at-securitas-security-services-usa-inc-4437642930",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/American-Security-Services/Job/Security-Officer/-in-Schaumburg,IL?jid=ebab9dd2bdb78c21",
+      "via": "via ZipRecruiter"
     }
   ]
 }

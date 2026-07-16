@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/warehouse-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Professional Flex Officer- Warehouse PT",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jobs.aus.com/job/houston/security-professional-flex-officer-warehouse-pt/22950/97445655248",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Security Professional Flex Officer- Warehouse PT",
       "company": "Allied Universal",
@@ -35,16 +45,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://www.adzuna.com/details/5787671499",
       "via": "via Adzuna"
-    },
-    {
-      "title": "Security Officer - Warehouse",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
-      "via": "via GardaWorld - GardaWorld Security"
     },
     {
       "title": "Security Officer - Warehouse",

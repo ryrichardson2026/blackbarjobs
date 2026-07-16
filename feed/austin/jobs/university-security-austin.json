@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Event Staff - College Sports Events",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-staff-college-sports-events-at-allied-universal-4440969430",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Full Time Security Officer Needed for University (Security) (Hiring Immediately)",
       "company": "GuardTexas",
@@ -17,6 +37,16 @@
       "via": "via WhatJobs"
     },
     {
+      "title": "Full Time Security Officer Needed for University Environment (Security)",
+      "company": "GuardTexas",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.tealhq.com/job/security-officer_7ea1a5d959f09cf427f988a741e66461493ee",
+      "via": "via Teal"
+    },
+    {
       "title": "Full Time Security Officer Needed for University Environment",
       "company": "GuardTexas",
       "location": "Austin, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
       "via": "via Indeed"
-    },
-    {
-      "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "University Police Officer: Patrol, Investigations & Safety",
-      "company": "St.Edward's University",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/university-police-officer-patrol-investigations-safety--austin--e85b6d49e0be265ab3c26592bb9711508",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Night Security Officer - Pediatric Hospital Campus",
-      "company": "Texas Children's Hospital",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/night-security-officer-pediatric-hospital-campus-texas-childrens-hospital-austin--lensa-7428_0f4a4b1de3a396de7cbc8b2750e9798e62190eb5b2147db53992e9b93752df2f",
-      "via": "via BeBee"
     }
   ]
 }

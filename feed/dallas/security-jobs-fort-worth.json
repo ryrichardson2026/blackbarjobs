@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/security-jobs-fort-worth",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Fort Worth, TX Need LVL 2 Security Guard",
-      "company": "Twin City Security",
+      "title": "Security Officer - Retail",
+      "company": "Prosegur",
       "location": "Fort Worth, TX",
-      "pay": "16–18 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f3bb38114cf36b80",
+      "pay": "16.45–17.51 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=021165506d490bf7",
       "via": "via Indeed"
     },
     {
-      "title": "Commissioned Security Officer / JPS Hospital",
-      "company": "USAPD",
+      "title": "Licensed Security OPEN HOUSE Ft. Worth, TX",
+      "company": "Parrish Security Group",
       "location": "Fort Worth, TX",
-      "pay": "21.50–23.75 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=36cf049621e083b1",
-      "via": "via Indeed"
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Parrish-Security-Group/Job/Licensed-Security-OPEN-HOUSE-Ft.-Worth,-TX/-in-Fort-Worth,TX?jid=9b1a334e2c9e77c2",
+      "via": "via ZipRecruiter"
     },
     {
-      "title": "Roving Security Officer – Tech Campus (Full-Time)",
-      "company": "Alliedbarton Security Services",
+      "title": "Security Officer Distribution Center",
+      "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/roving-security-officer-tech-campus-full-time--fort-worth--e86d1f8d258b334089c5ab8c99778daec",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part-Time Roving Security Officer with DoD Secret Clearance",
-      "company": "Alliedbarton Security Services",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-roving-security-officer-with-dod-secret-clearance--fort-worth--e14b8b0a8c50bcd417feca618bfd81287",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-distribution-center-at-allied-universal-4441289516",
+      "via": "via LinkedIn"
     },
     {
       "title": "Security Officer Warehouse",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
-      "pay": null,
+      "pay": "20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440350471",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440901940",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Relief Security Officer (Part-Time)",
+      "company": "Radisson Hotel",
+      "location": "Fort Worth, TX",
+      "pay": "18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=f083534c639aeba4",
+      "via": "via Indeed"
     }
   ]
 }

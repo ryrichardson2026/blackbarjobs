@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-corporate-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Corporate Security Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/corporate-security-specialist-at-allied-universal-4440920101",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Corporate Building",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-corporate-building/22950/97805229648",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Corporate Security Officer - 2nd/3rd/Swing Shifts, $18/hr + Benefits",
+      "company": "IIdon Security Associates",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/corporate-security-officer-2nd-3rd-swing-shifts-18-hr-benefits--dallas--e6701f32dac69def21261c6909ab217e0",
+      "via": "via JobLeads"
+    },
     {
       "title": "Corporate Security Officer - Flexible Shifts & Growth",
       "company": "United-Security-Inc",
@@ -17,16 +47,6 @@
       "via": "via Jobrapido"
     },
     {
-      "title": "Elite Security Officer - Corporate Campus (Dallas)",
-      "company": "IIdon Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
-      "via": "via BeBee"
-    },
-    {
       "title": "Executive Protection Agent - Corporate (Day Shift) at Crisis24 Dallas, TX",
       "company": "Crisis24",
       "location": "Dallas, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://logowizards.com/work/job/executive-protection-agent-corporate-day-shift-at-crisis24-dallas-tx-aGtlKzRPWDQvVXRrN3JCOEs4MUZWa1JtZFE9PQ==",
       "via": "via Logowizards"
-    },
-    {
-      "title": "Elite Security Officer - Corporate Campus (Dallas)",
-      "company": "IIdon Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://bebee.com/us/jobs/elite-security-officer-corporate-campus-dallas-iidon-security-dallas-tx-united-states--appcast-7428_1fb4306fb1fc15f646445215753b02a5711fd23208cf27c2797bacc6732af20f",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Corporate Security Specialist",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5243611750/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full and Part-Time Evening and Weekend Security Officers",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "pay": "17–19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/4018440731385040261",
+      "via": "via Jooble"
+    },
     {
       "title": "Weekend Security Officer - Part Time",
       "company": "United Protective Services",
@@ -25,16 +35,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5264317807/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Weekend Armed Security Specialist - $20/hr + Daily Pay",
-      "company": "Cascadia Global Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://bebee.com/us/jobs/weekend-armed-security-specialist-20-hr-daily-pay-cascadia-global-security-dallas-tx-united-states--appcast-7428_14b61e40119b70b4ab47343d972771e7ad81ff36deac3ccb68dea423d0354e35",
-      "via": "via BeBee"
     },
     {
       "title": "Weekend Armed Security Holiday Coverage",

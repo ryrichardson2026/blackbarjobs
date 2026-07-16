@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/airport-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -12,9 +12,19 @@
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-16",
       "apply_link": "https://careers.united.com/us/en/job/WHQ00026586/Managing-Director-Global-Aviation-Security-Facilitation",
       "via": "via United Airlines Jobs"
+    },
+    {
+      "title": "Aviation Security Guard: Aircraft Access & Safety",
+      "company": "Alliance Ground International",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/aviation-security-guard-aircraft-access-safety--chicago--e0383943ab5ba3e9f4bbe597954e7488e",
+      "via": "via JobLeads"
     },
     {
       "title": "Aviation Security Operations Lead",
@@ -37,24 +47,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Hiring Licensed Security Officer- UNION Benefits- O'HARE AIRPORT",
-      "company": "Lincoln Security Services LLC",
+      "title": "Security Agent - O’Hare Airport",
+      "company": "ACTS-Aviation Security Inc",
       "location": "Chicago, IL",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=ae6780e14efd4b57",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer-Near O'hare Airport",
-      "company": "P4 Security Solutions",
-      "location": "Chicago, IL",
-      "pay": "19.75 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.glassdoor.com/job-listing/security-officer-near-o-hare-airport-p4-security-solutions-JV_IC1128808_KO0,36_KE37,58.htm?jl=1010192749859",
-      "via": "via Glassdoor"
+      "schedule": null,
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/4236052838975557999",
+      "via": "via Jooble"
     }
   ]
 }

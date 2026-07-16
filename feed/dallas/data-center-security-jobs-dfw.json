@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Night Shift Security Officer - Data Center Access & CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Garland, TX",
+      "pay": "17–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5287793206/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Data Center Security Officer at Securitas Group Richardson, TX",
+      "company": "Securitas Group",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://accutemponline.com/joblib/job/data-center-security-officer-at-securitas-group-richardson-tx-RkROa1liQUxIcldwOGpXMlpJWmdKRXBlTFE9PQ==",
+      "via": "via Accutemponline.com"
+    },
     {
       "title": "Armed Security Officer Flex - Data Center",
       "company": "Allied Universal",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/data-center-security-officer-at-securitas-security-services-usa-inc-4435999456",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Data Center",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-data-center/22950/97581701440",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Armed Security Officer Data Center - Clearance Required",
-      "company": "Allied Universal",
-      "location": "Justin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/justin-tx/armed-security-officer-data-center-clearance-required-093162/",
-      "via": "via GetHiredToday | Largest Job Board For Women - Women For Hire"
     }
   ]
 }

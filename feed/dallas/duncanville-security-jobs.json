@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/duncanville-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/aci2jivy4ce8-8544b90ee300eaeeba1e5aef6a0-22e6d",
+      "via": "via Marriott Jobs - Vacancies Loop"
+    },
     {
       "title": "Security Officer - Warehouse",
       "company": "GardaWorld Security Services U.S.",
@@ -17,26 +27,6 @@
       "via": "via IHireSecurity"
     },
     {
-      "title": "Security Officer- Armed Supervisor at GardaWorld Corporation Duncanville, TX",
-      "company": "GardaWorld Corporation",
-      "location": "Duncanville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://classicelectrictattoos.com/library/job/security-officer-armed-supervisor-at-gardaworld-corporation-duncanville-tx-TnE4NEJIRi9QU2tLdTZzS25COEpYZ1ZsdGc9PQ==",
-      "via": "via Classic Electric Tattoo"
-    },
-    {
-      "title": "Military Security Officer - Now Hiring",
-      "company": "U.S. Navy",
-      "location": "Duncanville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242584841",
-      "via": "via Snagajob"
-    },
-    {
       "title": "Military Security Officer - Now Hiring",
       "company": "U.S. Navy",
       "location": "Duncanville, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-01",
       "apply_link": "https://classicelectrictattoos.com/library/job/security-officer-armed-supervisor-at-gardaworld-corporation-duncanville-tx-TnE4NEJIRi9QU2tLdTZzS25COEpYZ1ZsdGc9PQ==",
       "via": "via Classic Electric Tattoo"
+    },
+    {
+      "title": "Airport Checkpoint Screener; TSA",
+      "company": "Airport Security",
+      "location": "Duncanville, TX",
+      "pay": "45,760–65,341 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-06-29",
+      "apply_link": "https://www.learn4good.com/jobs/duncanville/texas/entertainment/5240238987/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

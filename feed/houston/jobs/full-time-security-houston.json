@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/full-time-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Licensed Guard Full-Time",
+      "company": "Andy Frain Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Andy-Frain-Services/Job/Licensed-Guard-Full-Time/-in-Houston,TX?jid=51d9057bb3524f42",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Campus Security Officer — Full-Time Patrol & Emergency Response",
+      "company": "Houston Community College",
+      "location": "Houston, TX",
+      "pay": "36K–52K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/campus-security-officer-full-time-patrol-emergency-response--houston--e5fb43a461fe0e0a55a60969ea8d75c0e",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer: Patrols, Training & Growth - Full-Time",
+      "company": "Prevail Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-patrols-training-growth-full-time--houston--e472f4c9dbd5bc62397aadf360a416451",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Security Officer- Full Time (HOUS47)",
+      "company": "SEI, Inc. Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.whatjobs.com/jobs/unarmed-security-officer-full-time/houston-texas?id=2880850921",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Part & Full Time Security Officers (Overnight Shifts)",
       "company": "Inter-Con Security",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://jooble.org/rjdp/2532481280897207675",
       "via": "via Jooble"
-    },
-    {
-      "title": "Licensed Guard Full-Time",
-      "company": "Andy Frain Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Andy-Frain-Services/Job/Licensed-Guard-Full-Time/-in-Houston,TX?jid=51d9057bb3524f42",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Full-Time Overnight Security Officers",
-      "company": "Tiffany & Co.",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/rjdp/1146704532879587699",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Professional Full Time Second Shift",
-      "company": "TriCorps Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/rjdp/6112273973365502545",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer Full Time Driving Patrol Role",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-full-time-driving-patrol-role/22950/97586096336",
-      "via": "via Allied Universal"
     }
   ]
 }

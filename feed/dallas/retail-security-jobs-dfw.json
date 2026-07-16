@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/retail-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Retail",
+      "company": "Prosegur",
+      "location": "Fort Worth, TX",
+      "pay": "16.45–17.51 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=021165506d490bf7",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Luxury Retail Officer (Dallas Regional Office)",
+      "company": "St. Moritz Security Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.adzuna.com/details/5802657437",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Retail Security Officer | Arlington, TX",
+      "company": "Marksman Security LLC",
+      "location": "Arlington, TX",
+      "pay": "16.75 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Now-Hiring:-Retail-Security-Officer-%7C-Arlington,-TX/-in-Arlington,TX?jid=8a338f20220906d9",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "🚨 Full-Time: Retail Security Officer | Frisco, TX",
       "company": "Marksman Security",
@@ -17,44 +47,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Professional - Retail Part Time",
-      "company": "Metro One Security",
-      "location": "Dallas, TX",
-      "pay": "18–23 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/rjdp/-1195959806764860144",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Evening Retail Security Officer: Patrol & Badge Verifier",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/evening-retail-security-officer-patrol-badge-verifier--sunnyvale--e1c80f97934219661c3ddbd9b03b9a6c3",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Retail Security Site Supervisor: Weekend & Holiday Coverage",
+      "title": "Retail Security Lead & Shift Supervisor",
       "company": "Marksman Security",
-      "location": "Rowlett, TX",
-      "pay": null,
+      "location": "Rockwall, TX",
+      "pay": "23,866–33,992 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/retail-security-site-supervisor-weekend-holiday-coverage-marksman-security-rowlett-tx-united-states--appcast-7428_9aa37e592d702e0159ebfb30665a93b895a3065436cd9cbc69290cda68a8a2b3",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Retail Security Officer",
-      "company": "Marksman Security",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/full-time-retail-security-officer-mesquite-tx--garland--eb343af93098133020e0ee072e36fb799",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.learn4good.com/jobs/rockwall/texas/security/5286211606/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

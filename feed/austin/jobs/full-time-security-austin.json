@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/full-time-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Guard Full Time Facility",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-facility-at-allied-universal-4441294340",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Level II Security Officer - Supportive Housing Community (Mueller Area) | Full-Time | Austin, TX",
+      "company": "STRATEGIC SECURITY SERVICES TX LLC",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/STRATEGIC-SECURITY-SERVICES-TX/Job/Level-II-Security-Officer-Supportive-Housing-Community-(Mueller-Area)-%7C-Full-Time-%7C-Austin,-TX/-in-Austin,TX?jid=03f0d5383fa9e1cb",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "2nd & 3rd Shift Unarmed Security Officer - Full-Time (Austin)",
       "company": "North America Security & Select Services",
@@ -15,16 +35,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://bebee.com/us/jobs/2nd-3rd-shift-unarmed-security-officer-full-time-austin-north-america-security-select-services-austi--lensa-7428_9b08a686c95a800d97ed30f16db39cec102cd60246e01568b577881865f33674",
       "via": "via BeBee"
-    },
-    {
-      "title": "Full Time Security Officer Needed for University (Security) (Hiring Immediately)",
-      "company": "GuardTexas",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-needed/austin-texas?id=2878788879",
-      "via": "via WhatJobs"
     },
     {
       "title": "Part & Full Time Security Officers (Overnight Shifts)",
@@ -37,24 +47,14 @@
       "via": "via Jooble"
     },
     {
-      "title": "Full Time Security Officer Needed for University Environment",
+      "title": "Full Time Security Officer Needed for University (Security) (Hiring Immediately)",
       "company": "GuardTexas",
       "location": "Austin, TX",
-      "pay": "18–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Night Vehicle Patrol Security Officer - Full-Time",
-      "company": "Iidon Security Associates",
-      "location": "Austin, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/jdp/-4609899027704061571",
-      "via": "via Jooble"
+      "schedule": "Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-needed/austin-texas?id=2878788879",
+      "via": "via WhatJobs"
     }
   ]
 }

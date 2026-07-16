@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Enhanced Part Time Credentialing",
+      "title": "Field Security Officer",
       "company": "Allied Universal",
       "location": "Katy, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=05eb84535eaa1aaa",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/0eep75l2iaya-5404c771918ec1-575980945-cff4c4688",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Level III security officer",
+      "company": "Staffast",
+      "location": "Katy, TX",
+      "pay": "17.00–18.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=f9bed1010b3413d4",
       "via": "via Indeed"
     },
     {
-      "title": "Access Control Security Officer (Night Shift)",
+      "title": "Public Safety Officer",
       "company": "Allied Universal",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/8718471021012713472",
-      "via": "via Jobrapido"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/or6ab73cnltj-e4dae355-b6ba6c191b53d919fa3-6a555",
+      "via": "via Elite Hire Portal"
     },
     {
-      "title": "School Security Professional",
-      "company": "Katy Independent School District",
+      "title": "Flexible Security Officer",
+      "company": "Allied Universal",
       "location": "Katy, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/-4711321634866950074",
-      "via": "via Jooble"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/f91momta76c3-d7c9c43fdffc-83ae2e1468ce2c0e4-a4b",
+      "via": "via Elite Hire Portal"
     },
     {
-      "title": "Now Hiring Security Officers",
-      "company": "Houston Methodist",
+      "title": "Security Officer Enhanced Part Time Credentialing",
+      "company": "Allied Universal",
       "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/-4733843054909139256",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Professional Unarmed Security Officer - Katy",
-      "company": "Marksman Security",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/professional-unarmed-security-officer-katy-at-marksman-security-4439346617",
+      "pay": "15 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-credentialing-at-allied-universal-4440352437",
       "via": "via LinkedIn"
     }
   ]

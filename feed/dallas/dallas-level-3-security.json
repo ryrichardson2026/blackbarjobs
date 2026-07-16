@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-level-3-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Level III Residential Security Officer (Full-Time)",
+      "company": "United Security and Defense Solutions",
+      "location": "Dallas, TX",
+      "pay": "23–24 an hour",
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eaf884884378c254",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Level 3, Wylie, TX (Weekends)",
+      "company": "Walden Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://careers.waldensecurity.com/dallas-tx/security-officer-level-3-wylie-tx-weekends/61B318A8F1B84178A201AED3305B3201/job/",
+      "via": "via Walden Security"
+    },
     {
       "title": "Level 3 Security Officer",
       "company": "Tactical Unit and Investigations",
@@ -33,28 +53,8 @@
       "pay": "18–20 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=942e968267acbb71",
-      "via": "via Indeed"
-    },
-    {
-      "title": "W2 - Armed Commissioned Security Officer/Level 3",
-      "company": "Tiger Solutions Group",
-      "location": "Dallas, TX",
-      "pay": "21–23 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=49570ae135169088",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Level 3 ATM Armed Security Officer at Zona Facta Dallas, TX",
-      "company": "Zona Facta",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://romatileny.com/job-search/job/level-3-atm-armed-security-officer-at-zona-facta-dallas-tx-dWl1QVI3UTRqdXJpYnorejlqalQ4WU0vUHc9PQ==",
-      "via": "via Roma Tile & Marble"
+      "apply_link": "https://www.simplyhired.com/job/KQmcT2atJbkJ5H9UvOPednfSKPDikI0L4IYk1p6D7T-buRMUqcgNZg",
+      "via": "via SimplyHired"
     }
   ]
 }

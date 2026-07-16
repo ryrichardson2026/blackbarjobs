@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/houston-university-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,14 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Campus Safety Patrol & Visitor Support",
-      "company": "Pasadena Independent School District",
-      "location": "South Houston, TX",
-      "pay": null,
+      "title": "Campus Security Officer — Full-Time Patrol & Emergency Response",
+      "company": "Houston Community College",
+      "location": "Houston, TX",
+      "pay": "36K–52K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/-2944860681536667472",
-      "via": "via Jooble"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/campus-security-officer-full-time-patrol-emergency-response--houston--e5fb43a461fe0e0a55a60969ea8d75c0e",
+      "via": "via JobLeads"
     },
     {
       "title": "Campus Safety Reserve Officer",
@@ -24,6 +24,16 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-11",
       "apply_link": "https://jooble.org/jdp/3397893006404371518",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Campus Safety Patrol & Visitor Support",
+      "company": "Pasadena Independent School District",
+      "location": "South Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/-2944860681536667472",
       "via": "via Jooble"
     },
     {
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.linkedin.com/jobs/view/campus-safety-officer-at-new-caney-independent-school-district-4439312121",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Site Supervisor – Private School Campus",
-      "company": "Janissary",
-      "location": "Houston, TX",
-      "pay": "25–30 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=5d92feaa3499a5a4",
-      "via": "via Indeed"
     }
   ]
 }

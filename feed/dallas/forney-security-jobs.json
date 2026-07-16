@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/forney-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,42 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/iw9w7pdblezt-17179f800cbc0f46-af55-2d581cf615bd",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Forney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/9foatgs0iv7q-f2c779a5b6c38f1a6-503856fb992e859",
+      "via": "via Marriott Jobs - Vacancies Loop"
+    },
+    {
+      "title": "Forney ISD Security Officer Job Fair",
+      "company": "United Protective Services",
+      "location": "Forney, TX",
+      "pay": "16.25 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://unitedprotective.joblinkapply.com/job/e7d96923-cc5d-475d-9687-b09f418b9931",
+      "via": "via Unitedprotective"
+    },
+    {
       "title": "Security Officer",
       "company": "United Protective Services",
       "location": "Forney, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=e789ec4a78629ba2",
       "via": "via Indeed"
     },
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://www.learn4good.com/jobs/forney/texas/security/5277779310/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "School Resource Security Officer",
-      "company": "United Protective Services",
-      "location": "Forney, TX",
-      "pay": "16.25 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=dcd10d674a4415d2",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
-      "company": "Airport Security Careers",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/forney-texas?id=2865657547",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Careers",
-      "company": "Airport Security Careers",
-      "location": "Forney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/lead-supervisory-transportation-security/forney-texas?id=2865657547",
-      "via": "via WhatJobs"
     }
   ]
 }

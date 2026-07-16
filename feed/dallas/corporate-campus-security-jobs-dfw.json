@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/corporate-campus-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Corporate Security Specialist",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/corporate-security-specialist-at-allied-universal-4440920101",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Corporate Building",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-corporate-building/22950/97805229648",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Corporate Security Officer - 2nd/3rd/Swing Shifts, $18/hr + Benefits",
+      "company": "IIdon Security Associates",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/corporate-security-officer-2nd-3rd-swing-shifts-18-hr-benefits--dallas--e6701f32dac69def21261c6909ab217e0",
+      "via": "via JobLeads"
+    },
     {
       "title": "Security Site Supervisor – Corporate Office",
       "company": "Securitas Security Services",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.linkedin.com/jobs/view/security-site-supervisor-%E2%80%93-corporate-office-at-securitas-global-clients-america-4439363464",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Night Shift Physical Security Specialist I – Corporate Security",
-      "company": "Prosegur",
-      "location": "Irving, TX",
-      "pay": "55K–65K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/night-shift-physical-security-specialist-i-corporate-security--irving--e8ab9344e700d840c903b942ff9ff43de",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Corporate Security Officer - Flexible Shifts & Growth",
-      "company": "United-Security-Inc",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://us.jobrapido.com/jobpreview/8783521015129964544",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Security Officer Corporate Office",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-corporate-office/22950/97573580896",
-      "via": "via Allied Universal"
     }
   ]
 }

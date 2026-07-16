@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/mckinney-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Level II Security Officers – Family Entertainment Venue (Part Time - Weekends and Evenings)",
-      "company": "Ophion Tactical Security LLC",
+      "title": "Unarmed Flex Security Officer",
+      "company": "Overton Security",
       "location": "McKinney, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=5d52d737f471cbd2",
+      "pay": "22 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=86e284e7e9f6fcb7",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Driver Patrol with Security Clearance",
+      "title": "Security Officer Access Gate Attendant",
       "company": "Allied Universal",
       "location": "McKinney, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://salutemyjob.com/jobs/security-officer-driver-patrol-with-security-clearance-mckinney-texas/2871556294-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "CTT Instructor - Security",
-      "company": "Serrato Corporation",
-      "location": "McKinney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/ctt-instructor-security-at-serrato-corporation-4439351057",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-gate-attendant-at-allied-universal-4441298230",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer (Hiring Immediately)",
-      "company": "Prysmian",
+      "title": "Information System Security Officer",
+      "company": "Prattwhitney",
       "location": "McKinney, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officer-hiring-immediately/mckinney-texas?id=2875962786",
-      "via": "via WhatJobs"
+      "pay": "70K–90K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/skillbridge-intern-dod-information-system-security-officer-mckinney-texas--mckinney--e736c3e669118981556a4fa7f80d69bad",
+      "via": "via JobLeads"
     },
     {
-      "title": "Municipal Court Security & Warrants Deputy",
-      "company": "City of McKinney",
+      "title": "Security Officer Unarmed",
+      "company": "Tarian",
       "location": "McKinney, TX",
-      "pay": "50K–70K a year",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/municipal-court-security-warrants-deputy--mckinney--e66c22b1d0453975924b107ae3a5465f2",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobilize.com/job/us-tx-mckinney-security-officer-unarmed-tarian-hiring-now-job-immediately",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Armed Security Officer: Patrol, Access Control & Response",
+      "company": "Prysmian Group",
+      "location": "McKinney, TX",
+      "pay": "23.50–33.00 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/jdp/3133095232799254306",
+      "via": "via Jooble"
     }
   ]
 }

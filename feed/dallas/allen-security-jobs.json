@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/allen-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Patrol with Active Clearance",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/allen-tx/security-officer-patrol-with-active-clearance-140611/",
+      "via": "via Women For Hire- Job Board"
+    },
+    {
       "title": "Security Monitor- Bond Funded",
       "company": "Allen Independent School District",
       "location": "Allen, TX",
       "pay": "16.75–19.77 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=f05294d04a3fb48d",
       "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Enhanced Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Enhanced-Part-Time-Patrol/-in-Allen,TX?jid=3203bb36fe2b57be",
+      "via": "via ZipRecruiter"
     },
     {
       "title": "Security Officer Patrol Security Clearance",
@@ -27,16 +47,6 @@
       "via": "via Women For Hire- Job Board"
     },
     {
-      "title": "Security Officer Enhanced Part Time Patrol Presence",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=4ef5b94e1f8a436f",
-      "via": "via Indeed"
-    },
-    {
       "title": "Full Time & Part Time Security Officers - Flexible",
       "company": "Alliedbarton Security Services",
       "location": "Allen, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://jooble.org/rjdp/-4405863861521388291",
       "via": "via Jooble"
-    },
-    {
-      "title": "Armed Level 3 Security Officer",
-      "company": "Jet Security LLC",
-      "location": "Allen, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1232194133c8283c",
-      "via": "via Indeed"
     }
   ]
 }

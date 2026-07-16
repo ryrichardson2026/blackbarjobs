@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Level III Armed Protection Officer (Fort Worth, Haslet, TX)",
+      "company": "National Security & Protective Services, Inc.",
+      "location": "Fort Worth, TX",
+      "pay": "19.11 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=9509c91ba4259033",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Officers",
+      "company": "Prosegur",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=33788efd6df0cfb3",
+      "via": "via Indeed"
+    },
+    {
       "title": "Armed Security Site Supervisor (Clearance Required)",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
+      "posted_date": "2026-07-12",
       "apply_link": "https://salutemyjob.com/jobs/armed-security-site-supervisor-clearance-required-fort-worth-texas/2873245454-2/",
       "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Fort Worth Armed Patrol Officer - Night Shift & Benefits",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-10",
+      "apply_link": "https://jooble.org/jdp/-2057675667257343510",
+      "via": "via Jooble"
     },
     {
       "title": "Armed Cleared Security Officer at Allied Universal Fort Worth, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://weequahicalumni.org/library/job/armed-cleared-security-officer-at-allied-universal-fort-worth-tx-dUpwcWZRdmdNVnkxTlp0VUMvd0JjSnhVVHc9PQ==",
       "via": "via Weequahic High School Alumni Association"
-    },
-    {
-      "title": "Armed Security Officers- All Shifts",
-      "company": "Prosegur",
-      "location": "Fort Worth, TX",
-      "pay": "23–32 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=47c6699d472816e6",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed Security Officer - Campus Patrol & Access Control",
-      "company": "Alliedbarton Security Services",
-      "location": "Fort Worth, TX",
-      "pay": "21,593–30,754 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5264545927/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Security Flex Officer - Cleared Position",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://salutemyjob.com/jobs/armed-security-flex-officer-cleared-position-fort-worth-texas/2861470370-2/",
-      "via": "via SaluteMyJob"
     }
   ]
 }

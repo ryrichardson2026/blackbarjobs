@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/holiday-security-jobs-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Access Control Officer FT: Night",
-      "company": "SITEMETRIC LLC",
-      "location": "San Antonio, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=ab38f1b14237a666",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Professional--Part Time Weekend and Night",
-      "company": "Patriot Group International",
+      "title": "Security Professional (weekend/overnight shift)",
+      "company": "VIA Metropolitan Transit",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/rjdp/8101918312988072747",
+      "schedule": null,
+      "posted_date": "2026-07-14",
+      "apply_link": "https://jooble.org/rjdp/-2951115780809700188",
       "via": "via Jooble"
     },
     {
-      "title": "La Mansion | Loss Prevention Officer Overnight",
-      "company": "Omni Hotels & Resorts",
+      "title": "State Hospital Night Security Officer",
+      "company": "Texas Health and Human Services",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=018c8f35885d0087",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Outdoor Security Patrol — Evening/Night Shifts",
-      "company": "San Antonio Museum of Art",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/state-hospital-night-security-officer--san-antonio--ec2ec9c113059d9e72768b1008080d8e0",
       "via": "via JobLeads"
     },
     {
-      "title": "Police (Security) Dispatchers (Swing/Night Shift Only)",
-      "company": "University of the Incarnate Word",
+      "title": "Overnight Parking Lot Security - Part-Time Direct Dep",
+      "company": "U.S. PROTECTION SECURITY SERVICES",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/8219600178285152193",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/overnight-parking-lot-security-part-time-direct-dep--san-antonio--e6cea9238678666ea122f867b76e8e7cf",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officers - Night Shift",
+      "company": "Southside Independent School District",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/-5909072313559129459",
       "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer Evening/Night Shifts, CPR/First Aid Ready",
+      "company": "Silver Shield",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-evening-night-shifts-cpr-first-aid-ready-silver-shield-san-antonio--lensa-7428_a55b2df73d3cb78020a68dec084d5e160a42da329d46eea0fa6e2131e3778d3f",
+      "via": "via BeBee"
     }
   ]
 }

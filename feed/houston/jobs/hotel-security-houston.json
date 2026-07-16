@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/hotel-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Part-Time Hotel Security Officer",
+      "company": "Hilton",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-hotel-security-officer-houston-texas/2875813773-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
       "title": "Evening Security Officer — Luxury Hotel PM Shift",
       "company": "Thompson Hotels",
       "location": "Houston, TX",
       "pay": "30K–50K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-12",
       "apply_link": "https://www.jobleads.com/us/job/evening-security-officer-luxury-hotel-pm-shift--houston--e8539f8d8197cbf59e9eae350e75733a2",
       "via": "via JobLeads"
     },
@@ -22,7 +32,7 @@
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
+      "posted_date": "2026-07-11",
       "apply_link": "https://bebee.com/us/jobs/luxury-hotel-security-officer-guest-safety-service-houstonian-houston--lensa-7428_304a6cc7e3bb07a985be6409a3f9f6d4fe2a0a2a6d7662449af702ce349f90ca",
       "via": "via BeBee"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://www.whatjobs.com/jobs/evening-hotel-security-officer/houston-texas?id=2859532598",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Luxury Hotel Security Officer — VIP Safety & Advancement",
-      "company": "The Post Oak",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4771626629833162752",
-      "via": "via Jobrapido"
     }
   ]
 }

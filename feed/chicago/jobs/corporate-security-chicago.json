@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/corporate-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Head of Corporate Security",
+      "company": "Kraft Heinz",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/head-of-corporate-security-at-kraft-heinz-4439981000",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Manager, Corporate Security Manager, Corporate Security with verification",
       "company": "Secure Options Consulting, LLC",
@@ -27,6 +37,16 @@
       "via": "via Trabajo.org"
     },
     {
+      "title": "Senior Corporate Security & Risk Officer",
+      "company": "Dormont Manufacturing Company",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://bebee.com/us/jobs/senior-corporate-security-risk-officer-dormont-manufacturing-company-chicago--lensa-7428_3089fc714365262b70b44ffaf2b753073caa6da565fd17905c9acccf4ab87962",
+      "via": "via BeBee"
+    },
+    {
       "title": "Executive Protection & Corporate Security Training Manager",
       "company": "Constellation Brands",
       "location": "Chicago, IL",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.linkedin.com/jobs/view/executive-protection-corporate-security-training-manager-at-constellation-brands-4416778638",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Corporate Security Agent",
-      "company": "Crisis24",
-      "location": "Chicago, IL",
-      "pay": "79,040 a year",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://tallo.com/talent/job/law-and-public-safety/security-officer/il/chicago/corporate-security-agent-351a2347",
-      "via": "via Tallo"
-    },
-    {
-      "title": "Security Officer – Downtown Corporate Site",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/allied-universal/security-officer-downtown-corporate-site-20991559/",
-      "via": "via Talents By Vaia"
     }
   ]
 }

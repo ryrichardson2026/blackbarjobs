@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/industrial-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 2,
+  "exact": 3,
   "jobs": [
-    {
-      "title": "Mid-Level Industrial Security Specialist",
-      "company": "Boeing",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.tealhq.com/job/industrial-security-specialist_7ea1ad879ee7a9ff6e4c36f69800ae3192c40",
-      "via": "via Teal"
-    },
     {
       "title": "Industrial Security Specialist with Security Clearance",
       "company": "Boeing",
@@ -27,34 +17,44 @@
       "via": "via BeBee"
     },
     {
-      "title": "Security Officer - Medical Facilities Patrol",
+      "title": "Mid-Level Industrial Security Specialist",
+      "company": "Boeing",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.tealhq.com/job/industrial-security-specialist_7ea1ad879ee7a9ff6e4c36f69800ae3192c40",
+      "via": "via Teal"
+    },
+    {
+      "title": "Industrial Security Specialist - Security Clearance Required",
+      "company": "Boeing",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/industrial-security-specialist-security-clearance-required-boeing-san-antonio--dc-5F222DAA9E90A139A478C6F5633A4855",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Part Time Peace Officer",
+      "company": "Trinity",
+      "location": "Olmos Park, TX",
+      "pay": "23.97–29.96 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Trinity/Job/Part-Time-Peace-Officer/-in-Olmos-Park,TX?jid=3a9a814aac5b2fbe",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Part Time Field Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-medical-facilities-patrol-at-allied-universal-4440344883",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Amazon is hiring: Program Security Officer, US Amazon Dedicated Cloud Security in San Antonio",
-      "company": "amazon",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.recruit.net/job/amazon-is-program-security-officer-jobs/158E6779AB77D2E5",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
       "via": "via Recruit.net"
-    },
-    {
-      "title": "Sergeant (Day-Shift)",
-      "company": "SeaWorld Parks & Entertainment",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/sergeant-day-shift-at-seaworld-parks-entertainment-4439488305",
-      "via": "via LinkedIn"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/data-center-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 3,
+  "exact": 4,
   "jobs": [
+    {
+      "title": "Data Center Concierge Officer",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/data-center-concierge-officer/c0cab9c9-a243-499b-a99b-080bc1152acf",
+      "via": "via GardaWorld - GardaWorld Security"
+    },
     {
       "title": "Data Center Security & Patrol Specialist",
       "company": "Securitas Global Clients America",
@@ -37,24 +47,14 @@
       "via": "via Cloud Sign In"
     },
     {
-      "title": "Level 2 Non Commissioned Officer",
-      "company": "Security King LLC",
-      "location": "Pasadena, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Security-King/Job/Level-2-Non-Commissioned-Officer/-in-Remote,US?jid=0f8335f81486d35e",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Part Time Driver",
-      "company": "Allied Universal",
-      "location": "Baytown, TX",
-      "pay": "14.79 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Driver/-in-Baytown,TX?jid=bde29885daa251e2",
-      "via": "via ZipRecruiter"
+      "title": "Security Site Lead",
+      "company": "Fluidstack",
+      "location": "Houston, TX",
+      "pay": "200K–250K a year",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-site-lead-at-fluidstack-4440261244",
+      "via": "via LinkedIn"
     }
   ]
 }

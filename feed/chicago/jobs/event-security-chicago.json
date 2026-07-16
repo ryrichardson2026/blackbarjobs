@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/event-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Part-Time Unarmed Security Pro — Event Coverage",
+      "company": "Extrity Services",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-unarmed-security-pro-event-coverage--chicago--e60ab9896cc24671993c028a38189350e",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Event Security / Parking Support",
+      "company": "Federal Protection Agency, Inc",
+      "location": "East Chicago, IN",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/24-per-hour-event-security-parking-support-east-chicago-in--east-chicago--e410798ccfcf5fdccefa6c2d16b18a032",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Event Security Officer",
+      "company": "Andy Frain Services",
+      "location": "Chicago Ridge, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://salutemyjob.com/jobs/event-security-officer-chicago-ridge-illinois/2872383924-2/",
+      "via": "via SaluteMyJob"
+    },
     {
       "title": "Event Security Officer",
       "company": "Andy Frain Services",
@@ -17,44 +47,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "$24 Per Hour - Event Security / Parking Support – (EAST CHICAGO, IN)",
-      "company": "Federal Protection Agency, Inc",
-      "location": "East Chicago, IN",
-      "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0e9380bb1922fd93",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Event Venue Security Specialist",
-      "company": "Dormont Manufacturing Co",
+      "title": "Weekly Pay, Flexible-Shift Event Security (PERC)",
+      "company": "RadNet, Inc.",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/event-venue-security-specialist--chicago--e2b7a32a9ca00c1ae55db84cf0cf14751",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Event Security at Soldier Field — Flexible Shifts & Growth",
-      "company": "P4 Security Solutions",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobleads.com/us/job/event-security-at-soldier-field-flexible-shifts-growth--chicago--ebd66680811e6165bb242f18b12b0c995",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Event Security Guard at LEGION SECURITY CONSULTANTS INC Chicago, IL",
-      "company": "LEGION SECURITY CONSULTANTS INC",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://nationalsecurityky.com/joblib/job/event-security-guard-at-legion-security-consultants-inc-chicago-il-RkxtWHpKTVNUU2RsdXJsT0o1YXZqeFowenc9PQ==",
-      "via": "via National Security Services"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/-2306392325723071495",
+      "via": "via Jooble"
     }
   ]
 }

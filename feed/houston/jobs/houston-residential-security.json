@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/houston-residential-security",
   "market": "Houston",
   "target": "city-role",
@@ -37,6 +37,16 @@
       "via": "via The Job Network For Security Officers"
     },
     {
+      "title": "Seeking high-profile Level 4 residential officers",
+      "company": "360 Group International, Inc.",
+      "location": "Houston, TX",
+      "pay": "38 an hour",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.simplyhired.com/job/Ol7ic1vSiA8KH6zyoYFOtR5iyyZn4xAtXYOtaxLTpBfvIDqr2XI-Wg",
+      "via": "via SimplyHired"
+    },
+    {
       "title": "Residential Surveillance Agent",
       "company": "PINKERTON | Comprehensive Risk Management",
       "location": "Houston, TX",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1301863/residential-surveillance-agent/",
       "via": "via Careers In Government"
-    },
-    {
-      "title": "Seeking high-profile Level 4 residential officers",
-      "company": "360 Group International, Inc.",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=ee494daf46f3d625",
-      "via": "via Indeed"
     }
   ]
 }

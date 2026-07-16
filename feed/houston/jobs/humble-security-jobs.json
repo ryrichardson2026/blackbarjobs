@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/humble-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/wpv4od58biie-83c8e40d9ce3a83ac88320c2-ae36d9ad",
+      "via": "via Marriott Jobs - Vacancies Loop"
+    },
+    {
+      "title": "Field Security Officer",
+      "company": "Allied Universal",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/eci76pbs4i3g-a6a9c1c0604dc-676de8f1a-88531f80ac",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Retail Security Officer - Customer Service & Patrol",
+      "company": "Marksman",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobilize.com/job/us-tx-humble-retail-security-officer-customer-service-patrol-marksman",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Security Professional - No Experience Necessary",
+      "company": "Securitas Security Services USA",
+      "location": "Humble, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/846244918646685854",
+      "via": "via Jooble"
+    },
     {
       "title": "Licensed Special Event Security - Now Hiring",
       "company": "Andy Frain Services",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.snagajob.com/jobs/1226245929",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Security Officers (N)",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Humble, TX",
-      "pay": "13–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-n-at-securitas-security-services-usa-inc-4435987801",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Campus Safety Officer",
-      "company": "New Caney Independent School District",
-      "location": "Humble, TX",
-      "pay": "13.53 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/New-Caney-Independent-School-District/Job/Campus-Safety-Officer/-in-Houston,TX?jid=ee3a436c4c5bdd07",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Professional - No Experience Necessary",
-      "company": "Securitas Security Services USA",
-      "location": "Humble, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/rjdp/846244918646685854",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Armed Security Patrol Driver – Part-Time",
-      "company": "Allied Universal",
-      "location": "Humble, TX",
-      "pay": "18K–21K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-patrol-driver-part-time--humble--e5f1b06c4c8f7e15615940452f3363a27",
-      "via": "via JobLeads"
     }
   ]
 }

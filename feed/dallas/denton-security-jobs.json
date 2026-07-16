@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/denton-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Flex Officer - Shopping Center",
+      "company": "Allied Universal",
+      "location": "Denton, TX",
+      "pay": "17 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Event Security Staff - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Denton, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.snagajob.com/jobs/1259394735?searchResponseId=53594d63-249f-4bb6-85b9-e5e9098a2f53",
+      "via": "via Snagajob"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Denton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Denton,TX?jid=9206dd75a47ea04b",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer: Patrol, Customer Service, Flexible Schedules",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Denton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4733496185057181696",
+      "via": "via Jobrapido"
+    },
     {
       "title": "Access Control Officer FT: Night",
       "company": "SITEMETRIC LLC",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://www.glassdoor.com/job-listing/access-control-officer-ft-night-sitemetric-JV_IC1139980_KO0,31_KE32,42.htm?jl=1010197229712",
       "via": "via Glassdoor"
-    },
-    {
-      "title": "Security Officer: Patrol, Customer Service, Flexible Schedules",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Denton, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-patrol-customer-service-flexible-schedules--denton--ed5c0185c58dc9513abe5b927d9028e1d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "On-Site Security & Safety Specialist",
-      "company": "Defense Mechanics Inc",
-      "location": "Denton, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/on-site-security-safety-specialist-defense-mechanics-inc-denton--lensa-7428_ba0dba8e0caf4b7508998eb8cecbe2f6c0f6c28ea8422abe30fe4b3cf9f5feb1",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
-      "location": "Denton, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Denton,TX?jid=9206dd75a47ea04b",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officers",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Denton, TX",
-      "pay": "14–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4435996449",
-      "via": "via LinkedIn"
     }
   ]
 }

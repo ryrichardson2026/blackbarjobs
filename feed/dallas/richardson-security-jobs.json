@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/richardson-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Cleared (Clearance Required - Unarmed)",
+      "title": "Security Officer Customer Service",
       "company": "Allied Universal",
       "location": "Richardson, TX",
-      "pay": null,
+      "pay": "18 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-cleared-clearance-required-unarmed-at-allied-universal-4440350476",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-at-allied-universal-4441289505",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer with Active Clearance",
-      "company": "Allied Universal",
+      "title": "3rd Shift High Rise Security Officer (Dallas Regional Office)",
+      "company": "St. Moritz Security Services",
       "location": "Richardson, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-at-allied-universal-4440355326",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.adzuna.com/details/5802818169",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Security Officer Customer Care",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-care-at-allied-universal-4440920100",
       "via": "via LinkedIn"
     },
     {
-      "title": "Level 3 Security Officer (Part-Time)",
-      "company": "Shield Security & Training Solutions LLC",
+      "title": "Security Officer Patrol Technology Associate",
+      "company": "Allied Universal",
       "location": "Richardson, TX",
-      "pay": "25–30 an hour",
+      "pay": "19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.indeed.com/viewjob?jk=432b98fea0698735",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-technology-associate-at-allied-universal-4440877119",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "3rd Shift High Rise Security Officer",
+      "company": "St. Moritz Security Services",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c6de0fd032077031",
       "via": "via Indeed"
-    },
-    {
-      "title": "Flexible Part-Time Lobby Security Host & Earn More Shifts",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/457147469206126592",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Police Officer: Patrol, Investigations & Community Impact",
-      "company": "City of Richardson Texas",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/9008876880649122910",
-      "via": "via Jooble"
     }
   ]
 }

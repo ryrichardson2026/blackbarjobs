@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/school-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -37,16 +37,6 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "School Safety Officer - Campus Patrol",
-      "company": "Northside ISD",
-      "location": "San Antonio, TX",
-      "pay": "45K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5269085501/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
       "location": "San Antonio, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-San-Antonio,TX?jid=245c3c80ccdcb23c",
       "via": "via ZipRecruiter"
+    },
+    {
+      "title": "School Campus Police Officer",
+      "company": "Young World Physical Education",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-06-30",
+      "apply_link": "https://us.trabajo.org/job-5632-82ae9664a85ad69dfed391fbc5d13dd2",
+      "via": "via Trabajo.org"
     }
   ]
 }

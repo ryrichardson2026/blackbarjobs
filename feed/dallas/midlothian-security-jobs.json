@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/midlothian-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,13 +7,23 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Hospital Security Officer – On-Call & Patrols",
-      "company": "Dormont Manufacturing Co",
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4372069670576979968",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Midlothian,TX?jid=c338f9bd91f29060",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Hospital Security Officer - On-Call & Patrols",
+      "company": "Dormont Manufacturing Company",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://us.jobrapido.com/jobpreview/1513187155998932992",
       "via": "via Jobrapido"
     },
     {
@@ -27,34 +37,24 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "EMT Security Guard: Emergency Care & Access Control",
-      "company": "Gerdau Long Steel North America",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://bebee.com/us/jobs/emt-security-guard-emergency-care-access-control-gerdau-long-steel-north-america-midlothian--lensa-7428_56b08ba872fd17ca42a3ede1fb01e28a35158fa773efa8f2e53d09b9fd7c2708",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Responsive Security Officer — Flexible Shifts, DailyPay, Growth",
-      "company": "GardaWorld",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/responsive-security-officer-flexible-shifts-dailypay-growth--midlothian--e22612f15c8df71dcd48f70d121f11b3a",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Hospital Security Officer: Protect Patients & Patrol",
+      "title": "Hospital Security Officer – On-Call & Patrols",
       "company": "Dormont Manufacturing Co",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/jdp/-4091560866707354294",
-      "via": "via Jooble"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4372069670576979968",
+      "via": "via Jobrapido"
+    },
+    {
+      "title": "EMT Security Guard - Plant Safety & Medical Response",
+      "company": "Gerdau",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/emt-security-guard-plant-safety-medical-response-gerdau-midlothian--lensa-7428_ff567f8bdc6b06bd6fbb10bcedcd0e7f5eb809ef9bdbbe7a9e3b979186241286",
+      "via": "via BeBee"
     }
   ]
 }

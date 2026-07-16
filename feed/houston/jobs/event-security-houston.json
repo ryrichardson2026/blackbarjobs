@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/event-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "(Armed) Security Officer/ Event Halls",
+      "company": "Miller\"s Security",
+      "location": "Houston, TX",
+      "pay": "18–20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1cc165a851e23b1c",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Houston Event Staff & Security",
+      "company": "5 STAR Event Services",
+      "location": "Houston, TX",
+      "pay": "10–16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Event Security - Toyota Center",
       "company": "BEST Crowd Management",
@@ -27,16 +47,6 @@
       "via": "via Snagajob"
     },
     {
-      "title": "Houston Event Staff & Security",
-      "company": "5 STAR Event Services",
-      "location": "Houston, TX",
-      "pay": "10–16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
-      "via": "via ZipRecruiter"
-    },
-    {
       "title": "Concert Event Security Specialist",
       "company": "Live Nation Entertainment",
       "location": "Houston, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.whatjobs.com/jobs/concert-event-security-specialist/houston-texas?id=2877192786",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Dynamic Part-Time Event Staff - Arena & Concerts (Flexible)",
-      "company": "S.A.F.E. Management",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://bebee.com/us/jobs/dynamic-part-time-event-staff-arena-concerts-flexible-safe-management-houston--lensa-7428_3da88996157a588f7cdaffb20898d8b3d49252937a8f2ab64ed149e7a89a0101",
-      "via": "via BeBee"
     }
   ]
 }

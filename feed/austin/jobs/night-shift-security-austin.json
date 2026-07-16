@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/night-shift-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Mobile Patrol Officers Overnight Monday-Thursday",
-      "company": "ACT Security Group",
+      "title": "Night Patrol Security Officer",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://salutemyjob.com/jobs/night-patrol-security-officer-austin-texas/2876821157-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer - Night Patrol",
+      "company": "GardaWorld",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=8127dd6b45ecbdc6",
-      "via": "via Indeed"
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---night-patrol/15b69c79-8c54-45fb-ae55-877d7bd79b57",
+      "via": "via GardaWorld - GardaWorld Security"
     },
     {
       "title": "Night Security Officer",
@@ -27,34 +37,24 @@
       "via": "via Vercel"
     },
     {
-      "title": "Senior Hospital Security Officer; Night Shift",
-      "company": "FALL CREEK FARM & NURSERY",
-      "location": "Austin, TX",
-      "pay": "3,800–4,837 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5281444334/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Night Security Officer — Hotel Safety & Guest Care",
-      "company": "White Lodging",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/2383170536619256835",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Overnight Security Officer Hotel Safety & Guest Care",
-      "company": "HYATT Hotels",
+      "title": "Security Mobile Patrol Officers Overnight Monday-Thursday",
+      "company": "ACT Security Group",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/5362741741831061504",
-      "via": "via Jobrapido"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.indeed.com/viewjob?jk=8127dd6b45ecbdc6",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security - Night",
+      "company": "White Lodging Careers",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://careers.whitelodging.com/jobs/17804532-security-night",
+      "via": "via White Lodging Careers"
     }
   ]
 }

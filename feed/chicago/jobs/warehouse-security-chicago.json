@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/warehouse-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Flex - Warehouse Site",
+      "company": "Allied Universal",
+      "location": "University Park, IL",
+      "pay": "19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-flex-warehouse-site-at-allied-universal-4441400157",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Warehouse",
+      "company": "Allied Universal",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4441295361",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Securitas Global Clients America is hiring: Warehouse Security Officer in Joliet",
       "company": "Securitas Global Clients America",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.ziprecruiter.com/c/Securitas-Services/Job/Warehouse-Security-Officer/-in-Joliet,IL?jid=43396c60c12e6a82",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Warehouse Security Officers Needed Weekly Pay!!",
-      "company": "Securitas Security Services USA",
-      "location": "Joliet, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/rjdp/499737785408137693",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Warehouse Security Officer",
-      "company": "Securitas",
-      "location": "Wilmington, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://lensa.com/job-v1/securitas/wilmington-il/security-officer/2c7de77d7a91b4c319556b70ff2f319a",
-      "via": "via Lensa"
     }
   ]
 }

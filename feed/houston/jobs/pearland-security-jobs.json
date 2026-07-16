@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/pearland-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Field Security Officer",
+      "company": "Allied Universal",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/dpxt24rakeoe-4954e0-342a-2a0d29e8908af9bc369b5d",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/6alaf7r28afi-539cc03bf1f42741ad584f2-c13a5-856c",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Security Patrol Driver Part Time Flex",
+      "company": "Alliedbarton Security Services",
+      "location": "Pearland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://jooble.org/rjdp/-3771847063576059677",
+      "via": "via Jooble"
+    },
     {
       "title": "Campus Safety Monitor: De-Escalation & Security",
       "company": "Pearland ISD",
@@ -17,44 +47,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Part-Time Lobby Security Pro — Flexible Shift Options",
-      "company": "Allied Universal",
+      "title": "Required Warehouse Security Officer in Pearland TX",
+      "company": "TownTasks",
       "location": "Pearland, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/5787828330292051968",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Flex Security Officer (Taser)",
-      "company": "Tarian",
-      "location": "Pearland, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-10",
-      "apply_link": "https://careers.tariangroup.com/careers-home/jobs/23394?lang=en-us",
-      "via": "via Tarian Group"
-    },
-    {
-      "title": "Level 2/3 Security Officer: Full Time",
-      "company": "MLG PROTECTION SERVICES, LLC",
-      "location": "Pearland, TX",
-      "pay": "14.00–16.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1951496e776eb3d0",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Professional - Driving Patrol",
-      "company": "Allied Universal",
-      "location": "Pearland, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/rjdp/1932528300328749720",
-      "via": "via Jooble"
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://towntasks.com/jobs/required-warehouse-security-officer-in-pearland-tx-4612",
+      "via": "via TownTasks"
     }
   ]
 }

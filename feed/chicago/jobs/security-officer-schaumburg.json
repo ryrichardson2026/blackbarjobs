@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/security-officer-schaumburg",
   "market": "Chicago",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer",
+      "company": "American Security Services LLC",
+      "location": "Schaumburg, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/American-Security-Services/Job/Security-Officer/-in-Schaumburg,IL?jid=ebab9dd2bdb78c21",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Field Security Officer",
+      "company": "Allied Universal",
+      "location": "Schaumburg, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/0bqjif2dalip-35fa3-33b826-35b05720a707970226dd4",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Retail Security Officer",
+      "company": "Andy Frain Services",
+      "location": "Schaumburg, IL",
+      "pay": "17.51 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.ziprecruiter.com/c/Andy-Frain-Services/Job/Retail-Security-Officer/-in-Schaumburg,IL?jid=6c935d6e51e6d715",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Entry Level Security Specialist",
+      "company": "Illinois Professional Group",
+      "location": "Schaumburg, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://illinoisprofessionalgroup.com/careers/entry-level-security-specialist-schaumburg/",
+      "via": "via Illinois Professional Group"
+    },
     {
       "title": "Security Officer - Now Hiring",
       "company": "Andy Frain Services",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.snagajob.com/jobs/1265577653",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Part Time Retail Security Specialist",
-      "company": "Andy Frain",
-      "location": "Schaumburg, IL",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://salutemyjob.com/jobs/part-time-retail-security-specialist-schaumburg-illinois/2871221575-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Weekend Security Officer - Tech/Telecom Campus (PT)",
-      "company": "Allied Universal",
-      "location": "Schaumburg, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/weekend-security-officer-tech-telecom-campus-pt--schaumburg--eaedac8c135db6d25c9036fc63570ff5c",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Security Officer: Customer-Focused Patrol",
-      "company": "Prosegur Security USA, Inc",
-      "location": "Schaumburg, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-customer-focused-patrol-prosegur-security-usa-inc-schaumburg--lensa-7428_d0025129436372dae89795ee72cb289d255df7d322c23bfd9131de065f5c559a",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Entry-Level Police Officer: Protect, Patrol, Serve",
-      "company": "Village of Schaumburg",
-      "location": "Schaumburg, IL",
-      "pay": "80,472–97,860 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/jdp/1394471852957149281",
-      "via": "via Jooble"
     }
   ]
 }

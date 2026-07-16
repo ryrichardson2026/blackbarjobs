@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/construction-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
-  "exact": 5,
+  "exact": 4,
   "jobs": [
     {
       "title": "Construction Site Security Manager",
@@ -37,16 +37,6 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Construction Security Manager - Varies Locations",
-      "company": "GardaWorld",
-      "location": "Wilmer, TX (+1 other)",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-24",
-      "apply_link": "https://www.talent.com/view?id=625438250188015106",
-      "via": "via Talent.com"
-    },
-    {
       "title": "Construction Site Safety / Security - Data Center Construction",
       "company": "Turner & Townsend",
       "location": "Dallas, TX",
@@ -55,6 +45,16 @@
       "posted_date": null,
       "apply_link": "https://www.tealhq.com/job/construction-site-safety-security_7ea1ab1c2fb902fee2648f71bcd03522f845b",
       "via": "via Teal"
+    },
+    {
+      "title": "Security Flex Officer - Shopping Center",
+      "company": "Allied Universal",
+      "location": "Denton, TX",
+      "pay": "17 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
+      "via": "via LinkedIn"
     }
   ]
 }

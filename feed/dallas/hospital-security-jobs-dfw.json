@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/hospital-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,14 +7,34 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Flex Officer - Hospital",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://jobs.aus.com/job/desoto/security-flex-officer-hospital/22950/97852614928",
+      "via": "via Allied Universal"
+    },
+    {
       "title": "Commissioned Security Officer / JPS Hospital",
       "company": "USAPD",
       "location": "Fort Worth, TX",
-      "pay": "21.50–23.75 an hour",
+      "pay": "20–22 an hour",
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=36cf049621e083b1",
       "via": "via Indeed"
+    },
+    {
+      "title": "Hospital Security Officer - On-Call & Patrols",
+      "company": "Dormont Manufacturing Company",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://us.jobrapido.com/jobpreview/1513187155998932992",
+      "via": "via Jobrapido"
     },
     {
       "title": "Part Time Receptionist/Data Entry - Medical Office",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://us.jobrapido.com/jobpreview/4372069670576979968",
       "via": "via Jobrapido"
-    },
-    {
-      "title": "Hospital Public Safety Officer with Sign-On Bonus",
-      "company": "Baylor Scott & White Health",
-      "location": "Dallas, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/hospital-public-safety-officer-with-sign-on-bonus--dallas--eff27c6fa76901688684e227a2351ddfb",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Night Patrol & Driving Security Officer (Healthcare)",
-      "company": "Allied Universal",
-      "location": "Frisco, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/682002751731782543",
-      "via": "via Jooble"
     }
   ]
 }

@@ -1,31 +1,11 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/tsa-airport-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
-      "company": "Airport Security Careers",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-for/2869171175-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Lead / Supervisory Transportation Security Officer - No Experience Required forEntry-Level TSA Caree",
-      "company": "Airport Security Careers",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://salutemyjob.com/jobs/lead-supervisory-transportation-security-officer-no-experience-required-forentry-level-tsa-caree-dal/2869169555-2/",
-      "via": "via SaluteMyJob"
-    },
     {
       "title": "TSA Security Inspector - No Experience Required",
       "company": "Airport Security Careers",
@@ -55,6 +35,26 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://jooble.org/jdp/1530295189209451662",
       "via": "via Jooble"
+    },
+    {
+      "title": "Security Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "19.77 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Airport/-in-Dallas,TX?jid=d458bd79f7af7e75",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-airport-allied-universal-grapevine--fj-2242813565",
+      "via": "via BeBee"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/hospital-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "State Hospital Night Security Officer",
+      "company": "Texas Health and Human Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/state-hospital-night-security-officer--san-antonio--ec2ec9c113059d9e72768b1008080d8e0",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Security Officer - Medical Facilities Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-medical-facilities-patrol-at-allied-universal-4440344883",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-medical-facilities-patrol/22950/97760331136",
+      "via": "via Allied Universal"
     },
     {
       "title": "Healthcare Police Officer I-IV: Protect Patients",
@@ -44,16 +54,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-09",
       "apply_link": "https://www.jobleads.com/us/job/armed-hospital-security-officer-day-shift--san-antonio--ecf939ae110e77146d4bfd8ca80bc1b64",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Detention Hospital Officer — Secure Medical Oversight",
-      "company": "GEO Corrections & Detentions",
-      "location": "San Antonio, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/detention-hospital-officer-secure-medical-oversight--san-antonio--ebd81661994b8e65f11e716b534be7686",
       "via": "via JobLeads"
     }
   ]

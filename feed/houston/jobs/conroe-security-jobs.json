@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/conroe-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Agent Job at Allied Universal in Conroe",
+      "title": "Security Officer Enhanced Part Time Badge Check",
+      "company": "Allied Universal",
+      "location": "Conroe, TX",
+      "pay": "14 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-badge-check-at-allied-universal-4441298241",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Field Security Officer",
       "company": "Allied Universal",
       "location": "Conroe, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.recruit.net/job/security-officer-patrol-agent-at-jobs/B265F6727242131A",
-      "via": "via Recruit.net"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/ir1a23safqy8-4c61d11-f11e46d-4f4367712c801b0a98",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "On-Site Security & Patrol Specialist",
+      "company": "Weiser Security Services, Inc.",
+      "location": "Conroe, TX",
+      "pay": "28K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/on-site-security-patrol-specialist--conroe--e499f6a539137add5b0248a921f79420c",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer Roving Patrol",
+      "company": "Allied Universal",
+      "location": "Conroe, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://jobs.aus.com/job/conroe/security-officer-roving-patrol/22950/97848341856",
+      "via": "via Allied Universal"
     },
     {
       "title": "Hospital Security Officer (NCSO) - Patient Safety",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-ncso-patient-safety-texas-childrens-hospital-conroe--lensa-7428_ec497bb46dd89b3eed1a4d1f0a15eb535ac5bd7962d9640da1817bc320bca9ea",
       "via": "via BeBee"
-    },
-    {
-      "title": "Event Security",
-      "company": "Andy Frain Services",
-      "location": "Conroe, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.snagajob.com/jobs/1273999862",
-      "via": "via Snagajob"
-    },
-    {
-      "title": "Security Officers (N)",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Conroe, TX",
-      "pay": "13–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-n-at-securitas-security-services-usa-inc-4436600368",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
-      "location": "Conroe, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Conroe,TX?jid=8faaf10aea0a56f5",
-      "via": "via ZipRecruiter"
     }
   ]
 }

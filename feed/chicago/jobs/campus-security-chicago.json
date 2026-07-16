@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/campus-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -12,9 +12,19 @@
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.linkedin.com/jobs/view/security-sergeant-university-police-at-university-of-illinois-chicago-4440378581",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Campus Security Officer (Part-Time) Job at Chicago Cubs in Chicago",
+      "company": "Chicago Cubs",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.recruit.net/job/campus-security-officer-at-chicago-jobs/1B221BCBA90EB26F",
+      "via": "via Recruit.net"
     },
     {
       "title": "Campus Security Officer — Center",
@@ -44,16 +54,6 @@
       "schedule": "Part-time",
       "posted_date": "2026-07-11",
       "apply_link": "https://bebee.com/us/jobs/campus-security-officer-part-time-with-cpr-first-aid-the-chronicle-of-higher-education-chicago--lensa-7428_0c9dd461f68732615ff40910336d9406aff097afbfeecf49007375e8d5cef35b",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Overnight Campus Safety Officer",
-      "company": "Roosevelt University",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/overnight-campus-safety-officer-roosevelt-university-chicago--lensa-7428_96b1c6ec633ce2e7ab96783634f83345ae6a9e44c86aab79e7b77f0e225faaba",
       "via": "via BeBee"
     }
   ]

@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/rockwall-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "Rockwall, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/rriy0dux6thc-3ad699957-928bd8e6dd7bd579719-04ae",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Retail Security Lead & Shift Supervisor",
+      "company": "Marksman Security",
+      "location": "Rockwall, TX",
+      "pay": "23,866–33,992 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.learn4good.com/jobs/rockwall/texas/security/5286211606/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "TCOLE Certified Police Officer",
       "company": "City of Fate",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://www.ziprecruiter.com/c/DSI-Security-Services/Job/Security-Officer-(Rockwall)/-in-Rockwall,TX?jid=66d81d11d75417c4",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer - Rockwall (Hiring Immediately)",
-      "company": "DSI Security",
-      "location": "Rockwall, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officer-rockwall-hiring/rockwall-texas?id=2864438644",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Retail Security Supervisor",
-      "company": "Marksman Security",
-      "location": "Rockwall, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/now-hiring-retail-security-supervisor-mesquite-tx--rockwall--eb9be9d3e764ea667a26722c1bdc7c671",
-      "via": "via JobLeads"
     }
   ]
 }

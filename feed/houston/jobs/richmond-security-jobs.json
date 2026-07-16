@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/richmond-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Area Rounds",
-      "company": "Allied Universal",
+      "title": "Security Guard PT & FT shifts available",
+      "company": "Excelsior Defense",
       "location": "Richmond, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-area-rounds-at-allied-universal-4439498779",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.jobilize.com/job/us-tx-richmond-security-guard-pt-ft-shifts-available-excelsior-defense",
+      "via": "via Jobilize"
+    },
+    {
+      "title": "Security Officers; S",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Richmond, TX",
+      "pay": "32K–42K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.learn4good.com/jobs/richmond/texas/security/5285381185/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Event Security",
@@ -27,6 +37,16 @@
       "via": "via Snagajob"
     },
     {
+      "title": "Security Officer Area Rounds",
+      "company": "Allied Universal",
+      "location": "Richmond, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jobs.aus.com/job/richmond/security-officer-area-rounds/22950/97764564848",
+      "via": "via Allied Universal"
+    },
+    {
       "title": "School Safety Officer at Andy Frain Services Richmond, TX",
       "company": "Andy Frain Services",
       "location": "Richmond, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://studentcrosscanadaphotographyexhibit.com/career/job/school-safety-officer-at-andy-frain-services-richmond-tx-NWZrWWYvYTV0OVpIQ2dDZTNpbU11WHhOOXc9PQ==",
       "via": "via Studentcrosscanadaphotographyexhibit.com"
-    },
-    {
-      "title": "Security Officers",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Richmond, TX",
-      "pay": "32K–42K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/security-officers-s--richmond--e43175a05ed143f88645c336da87b62a6",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officers (S)",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Richmond, TX",
-      "pay": "13–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4435995508",
-      "via": "via LinkedIn"
     }
   ]
 }

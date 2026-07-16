@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/unarmed-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officers- Active Secret Clearance Required",
+      "company": "Sunstates Security",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100442/Unarmed-Security-Officers-Active-Secret-Clearance-Required",
+      "via": "via Sunstates Security Jobs"
+    },
     {
       "title": "Security Guard - Licensed Unarmed",
       "company": "TITAN Global Enterprises Inc",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://us.jobrapido.com/jobpreview/2769640324744609792",
       "via": "via Jobrapido"
-    },
-    {
-      "title": "Unarmed Security Officer: Tech Campus Patrol; Night Shifts",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": "20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5276779088/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

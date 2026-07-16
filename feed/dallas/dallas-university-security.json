@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-university-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full-Time Campus Security Officer (Unarmed, Shiftwork Required)",
+      "company": "The Episcopal School of Dallas",
+      "location": "Dallas, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=8caf4ef9e650c988",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Entry-Level Campus Safety & Security Officer",
+      "company": "The University of Texas Southwestern Medical Center",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/entry-level-campus-safety-security-officer--dallas--e319b8876ad9e96e286ec919a0758ce78",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Campus Police Officer II: Patrol & Investigations",
+      "company": "University of North Texas at Dallas",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/jdp/562242577173761017",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Commissioned Campus Security Officer - Protect & Serve",
+      "company": "Dallas Independent School District",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-commissioned-campus-security-officer-protect-serve-independent",
+      "via": "via Jobilize"
+    },
     {
       "title": "Campus Safety Officer Full-Time Dallas School Security",
       "company": "Young World Physical Education",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=3a9601be1b496d9b",
       "via": "via Indeed"
-    },
-    {
-      "title": "Campus Police Officer II: Patrol, Protect & Serve",
-      "company": "University of North Texas - Dallas",
-      "location": "Dallas, TX",
-      "pay": "40K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/campus-police-officer-ii-patrol-protect-serve--dallas--e407c4c99a2744bb6861e313c3d119dde",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Campus Security Officer",
-      "company": "The Episcopal School of Dallas",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/campus-security-officer-at-the-episcopal-school-of-dallas-4438680832",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "School Resource Officer — Campus Safety Leader",
-      "company": "Young World Physical Education",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/jdp/4932942812438691768",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Lead Security Officer: Campus Safety & Resident Support",
-      "company": "The Legacy Senior Communities",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/lead-security-officer-campus-safety-resident-support-the-legacy-senior-communities-dallas-tx-united---appcast-7428_1811118d3272900e5217bbbac70d34fa68f62e58f310db2af7b570ecc149d25d",
-      "via": "via BeBee"
     }
   ]
 }

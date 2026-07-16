@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/houston-part-time-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Part Time Driver",
-      "company": "Allied Universal",
+      "title": "Level 3 & Level 4 Security Officers (Part-Time)",
+      "company": "PPI Security",
+      "location": "Houston, TX",
+      "pay": "30–35 an hour",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ce744ec5ec96edb1",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Specialist Part-Time",
+      "company": "Georgia Production Partnership (GPP)",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-driver-at-allied-universal-4440342942",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-specialist-part-time-at-georgia-production-partnership-gpp-4438433257",
       "via": "via LinkedIn"
     },
     {
-      "title": "Armed Security Officer - Part-Time Driver (Flexible Shifts)",
-      "company": "Alliedbarton Security Services",
+      "title": "Part-Time Hotel Security Officer",
+      "company": "Hilton",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Part-time",
       "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-part-time-driver-flexible-shifts--houston--ef7e576245cf0191ba4a0ede9ce616ad5",
-      "via": "via JobLeads"
+      "apply_link": "https://salutemyjob.com/jobs/part-time-hotel-security-officer-houston-texas/2875813773-2/",
+      "via": "via SaluteMyJob"
     },
     {
-      "title": "Part-Time Security Officer: Retail Patrol & Service",
-      "company": "Allied Universal",
+      "title": "Part-Time Commissioned Security Officer",
+      "company": "iidon Security Associates, Inc.",
       "location": "Houston, TX",
-      "pay": "20,664–28,929 a year",
+      "pay": "15–25 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5282773850/e/",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5286342915/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Full and Part-Time Evening and Weekend Security Officers",
-      "company": "IIdon Security",
+      "title": "Security Officer Part Time Driver",
+      "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://jooble.org/rjdp/-7479999745606938743",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Part-Time Licensed Security Officer - Flexible Shifts",
-      "company": "Star Protection Agency (TX)",
-      "location": "Houston, TX",
-      "pay": null,
+      "pay": "15 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/part-time-licensed-security-officer-flexible-shifts-star-protection-agency-tx-houston--lensa-7428_41afc5220ecd2cb69a7affb50ea27e79096bf7de455ee04527d108c064a98081",
-      "via": "via BeBee"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-driver-at-allied-universal-4440342942",
+      "via": "via LinkedIn"
     }
   ]
 }

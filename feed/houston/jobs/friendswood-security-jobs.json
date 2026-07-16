@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/friendswood-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Flexible Security Officer",
+      "company": "Allied Universal",
+      "location": "Friendswood, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/lpa13s8fadgh-10f8fa0b29a568e4d1f13-48257-0fd600",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Field Security Officer",
+      "company": "Allied Universal",
+      "location": "Friendswood, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/ora5bb8tfq52-3bd5-4b0bfc-a7ac8d88918659a6d79339",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Retail Security Officer — Customer-First Guard & Growth",
       "company": "Marksman",
@@ -14,16 +34,6 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-12",
       "apply_link": "https://www.learn4good.com/jobs/friendswood/texas/security/5282137825/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Asset Protection Detective, Baybrook",
-      "company": "Macy's",
-      "location": "Friendswood, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/friendswood/texas/retail/5283230375/e/",
       "via": "via Learn4Good"
     },
     {
@@ -42,19 +52,9 @@
       "location": "Friendswood, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-12",
       "apply_link": "https://www.jobleads.com/us/job/retail-security-patrol-driver-full-time-growth-benefits--friendswood--e9b127d2bd0dfe77473de8a824bfbc84c",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Guard (Armed/Unarmed)",
-      "company": "Fast Guard Security Service",
-      "location": "Friendswood, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://motorjobs.com/en/job/security-guard-armed-unarmed-1350",
-      "via": "via Motor Jobs"
     }
   ]
 }

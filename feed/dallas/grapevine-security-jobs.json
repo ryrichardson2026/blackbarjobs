@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/grapevine-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "FULL-TIME: UNARMED SECURITY OFFICER: MON-FRI: 3PM-11PM",
+      "company": "Ameritex Guard Services Inc",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eee97606d8711718",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part-Time Security Officer (Level 2)",
+      "company": "First Responder Protective Services",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.whatjobs.com/jobs/part-time-security-officer-level-2/grapevine-texas?id=2883106503",
+      "via": "via WhatJobs"
+    },
     {
       "title": "Part-Time Security Officer Level 2",
       "company": "First Responder Protective Services",
@@ -27,16 +47,6 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Security Officer (Variable)",
-      "company": "Meow Wolf",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=5d24efc8fa91b1ff",
-      "via": "via Indeed"
-    },
-    {
       "title": "Security Specialist - Part Time",
       "company": "Security Industry Specialists, Inc.",
       "location": "Grapevine, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://jooble.org/jdp/-8004927640038590461",
       "via": "via Jooble"
-    },
-    {
-      "title": "Security Attendant",
-      "company": "Great Wolf Lodge",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-attendant-at-great-wolf-lodge-4437487396",
-      "via": "via LinkedIn"
     }
   ]
 }

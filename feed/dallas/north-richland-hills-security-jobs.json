@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/north-richland-hills-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Flex Officer - Financial Firm",
+      "company": "Allied Universal",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-financial-firm-at-allied-universal-4441286606",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Armed Security Officer Flex - Data Center",
       "company": "Allied Universal",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.whatjobs.com/jobs/security-officer-part-time-unarmed-hiring/north-richland-hills-texas?id=2864455925",
       "via": "via WhatJobs"
-    },
-    {
-      "title": "Security Guard; shifts",
-      "company": "Excelsior Defense",
-      "location": "North Richland Hills, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/north-richland-hills/texas/security/5258623883/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

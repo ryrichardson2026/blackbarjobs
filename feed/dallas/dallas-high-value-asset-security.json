@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-high-value-asset-security",
   "market": "DFW",
   "target": "city",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Armed Mobile Patrol Security Officer F/T, P/T positions available $21 an Hour",
-      "company": "Enforce Security",
-      "location": "Dallas, TX",
-      "pay": "19–21 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e82dd56652918598",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Auto Auction",
+      "title": "Security Officer Asset Management Firm",
       "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": null,
+      "pay": "22 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-auto-auction-at-allied-universal-4440359188",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-asset-management-firm-at-allied-universal-4441287531",
       "via": "via LinkedIn"
     },
     {
-      "title": "Part Time Security Officer, Irving TX",
-      "company": "Walden Security",
+      "title": "Security Officer - Dallas TX",
+      "company": "North America Security & Select Services",
       "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://careers.waldensecurity.com/dallas-tx/part-time-security-officer-irving-tx/8E2C35C19CCA47F1BF4F80ADC834DC36/job/",
-      "via": "via Walden Security"
-    },
-    {
-      "title": "Security Officer Fitness Center",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-fitness-center-at-allied-universal-4440357234",
-      "via": "via LinkedIn"
+      "pay": "15–16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=56ac45a4293369a4",
+      "via": "via Indeed"
     },
     {
       "title": "Security Officer Discovery District",
       "company": "Allied Universal",
       "location": "Dallas, TX",
+      "pay": "21 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-discovery-district-at-allied-universal-4441286621",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer - On Call",
+      "company": "GardaWorld",
+      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-discovery-district-at-allied-universal-4440083322",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-on-call-at-gardaworld-4440267801",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Customer Care",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-care-at-allied-universal-4441291452",
       "via": "via LinkedIn"
     }
   ]

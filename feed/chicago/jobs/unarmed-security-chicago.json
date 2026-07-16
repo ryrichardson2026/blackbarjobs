@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/unarmed-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer (Unarmed) North Ave full/part time",
+      "company": "Krimson Security & Fingerprinting",
+      "location": "Chicago, IL",
+      "pay": "18.50 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a86c5a15ee1484d1",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Part-Time Unarmed Security Pro — Event Coverage",
+      "company": "Extrity Services",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-unarmed-security-pro-event-coverage--chicago--e60ab9896cc24671993c028a38189350e",
+      "via": "via JobLeads"
+    },
     {
       "title": "Unarmed Patrol Officer - Part-Time",
       "company": "Allied Universal",
@@ -17,44 +37,24 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Mobile Security Patrol — Unarmed & Customer-Focused",
-      "company": "Kates Detective Agency",
-      "location": "Chicago, IL",
-      "pay": "16.60–17.00 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/8325614553678179574",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Mobile Security Officer (Unarmed) – Chicago Shifts",
-      "company": "KATES DETECTIVE & SECURITY AGENCY INC",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/mobile-security-officer-unarmed-chicago-shifts--chicago--ed852acf1b265add214a4fc7c7165b9dc",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Foot Patrol Security Guard - Part Time #003SSA",
-      "company": "Stark Security Inc.",
-      "location": "Chicago, IL",
-      "pay": "19 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.linkedin.com/jobs/view/unarmed-foot-patrol-security-guard-part-time-%23003ssa-at-stark-security-inc-4437855747",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Shift Supervisor - Unarmed",
+      "title": "Campus Security Officer - Part-Time (Unarmed, Evenings)",
       "company": "Allied Universal",
       "location": "Chicago, IL",
       "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/2625373180107498934",
+      "via": "via Jooble"
+    },
+    {
+      "title": "Part-Time Unarmed Security Guard — Paid Uniforms & Benefits",
+      "company": "Stark Security Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://jobs.aus.com/job/chicago/shift-supervisor-unarmed/22950/97489301536",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-unarmed-security-guard-paid-uniforms-benefits--chicago--efb98f047bd8d6721e03820e9c2f0c59d",
+      "via": "via JobLeads"
     }
   ]
 }

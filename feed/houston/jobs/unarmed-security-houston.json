@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Level II Security Officer | Houston, TX | PTO & Benefits",
+      "company": "TriCorps",
+      "location": "Houston, TX",
+      "pay": "39K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-level-ii-security-officer-houston-tx-pto-benefits--houston--e2408107cc26467eb0eee1030ecf00b38",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Security Officer Unarmed Badge Verification",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed-badge-verification/22950/97752422512",
+      "via": "via Allied Universal"
+    },
     {
       "title": "Unarmed Security Officer",
       "company": "Weiser Security Services",
@@ -17,6 +37,16 @@
       "via": "via ZipRecruiter"
     },
     {
+      "title": "Unarmed Security Officer- Full Time (HOUS47)",
+      "company": "SEI, Inc. Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://www.whatjobs.com/jobs/unarmed-security-officer-full-time/houston-texas?id=2880850921",
+      "via": "via WhatJobs"
+    },
+    {
       "title": "Unarmed Security Officer: CCTV & Incident Response",
       "company": "DeKalb Health",
       "location": "Houston, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276383297/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Officer Unarmed Patrol",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed-patrol/22950/97628501712",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Unarmed Loss-Prevention & Customer Safety Lead",
-      "company": "Buffalo Exchange",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-loss-prevention-customer-safety-lead-buffalo-exchange-houston--lensa-7428_970496ccd71bbb570729c433d6309c5e7883c5a29c5f329c78d198023c738b3a",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Security Officer Flex (Unarmed)",
-      "company": "Tarian",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-08",
-      "apply_link": "https://careers.tariangroup.com/events/jobs/23206?lang=en-us",
-      "via": "via Tarian Group"
     }
   ]
 }

@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/hotel-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Hotel Security Officer",
+      "company": "Hilton",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://jobs.edinburghcityfc.com/jobs/hotel-security-officer-dallas-texas/2875884875-2/",
+      "via": "via Edinburgh City FC"
+    },
+    {
+      "title": "Allied Universal is hiring: Security Officer Hotel in Fort Worth",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.recruit.net/job/allied-universal-is-security-officer-jobs/AE08D636FE3C164A",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Security Agent (Hotel Swexan)",
+      "company": "Harwood International",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-agent-hotel-swexan-at-harwood-international-4441248008",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Hotel Loss Prevention & Guest Safety Specialist",
+      "company": "Fairmont Hotels & Resorts",
+      "location": "Dallas, TX",
+      "pay": "42K–66K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/hotel-loss-prevention-guest-safety-specialist--dallas--e5d38f88d66805b763318399d1053a0a5",
+      "via": "via JobLeads"
+    },
     {
       "title": "Security Guard– Luxury Hotel",
       "company": "Coastal International Security, Inc.",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.linkedin.com/jobs/view/security-guard%E2%80%93-luxury-hotel-at-coastal-international-security-inc-4439757277",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Hotel Security & Safety Specialist",
-      "company": "Loews Hotels, LLC.",
-      "location": "Arlington, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-security-safety-specialist--arlington--e797e3d4650c6134f8aadf7d8297a8f1d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Hotel Security Officer - Luxury Hotel",
-      "company": "Coastal International Security",
-      "location": "Fort Worth, TX",
-      "pay": "19.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Coastal-International-Security/Job/Hotel-Security-Officer-Luxury-Hotel/-in-Fort-Worth,TX?jid=f6871c70feb8b81c",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Hotel Security Officer – Luxury Hotel",
-      "company": "Coastal International Security, Inc",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://sidehustles.com/job/hotel-security-officer-luxury-hotel-daaba496/",
-      "via": "via SideHustles.com"
-    },
-    {
-      "title": "Hotel Security Officer: Protect Guests, Elevate Service",
-      "company": "Hilton",
-      "location": "Dallas, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-security-officer-protect-guests-elevate-service--dallas--edbe307ff21649eda4005e440a7eb5cca",
-      "via": "via JobLeads"
     }
   ]
 }

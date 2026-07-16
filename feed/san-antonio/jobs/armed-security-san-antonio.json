@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/armed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Armed Retail Patrol Specialist - Part-Time, Flexible Shifts",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/armed-retail-patrol-specialist-part-time-flexible-shifts--san-antonio--ed316f041dd694c2c0e5b8b8e3f735d93",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Guard Driver Enhanced Part Time",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0066c9af329a7f67",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Officer – Part-Time, Flexible Shifts & Growth",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-part-time-flexible-shifts-growth--san-antonio--e77f826e6126cc1a942c53eba3165f0c6",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Armed Security Officer: Flexible Scheduling & Training",
+      "company": "Inter-Con Security",
+      "location": "San Antonio, TX",
+      "pay": "30K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-flexible-scheduling-training--san-antonio--e129240635d91f82e44c25176974a4fd3",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Armed Guard II - FT Schedule",
       "company": "Defense Consulting Services",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=4560aa15c0e2096c",
       "via": "via Indeed"
-    },
-    {
-      "title": "Armed Security Officer - Security Clearance Required",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-required-at-allied-universal-4440356245",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Lead – Part-Time; Nights & Weekends",
-      "company": "Event-Risk-Inc",
-      "location": "San Antonio, TX",
-      "pay": "30 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5281807611/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Retail Armed Patrol Officer — Part-Time Shifts",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/5128843623278682269",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Armed Security Officer - Shopping Center Patrol",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/armed-security-officer-shopping-center-patrol/22950/97674761840",
-      "via": "via Allied Universal"
     }
   ]
 }

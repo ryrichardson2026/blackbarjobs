@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/loss-prevention-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Retail Security Guard – Loss Prevention & Safety",
+      "company": "Rainbow USA",
+      "location": "Houston, TX",
+      "pay": "28K–42K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-guard-loss-prevention-safety--houston--e988176cef1db19f05ee96e84df14a11b",
+      "via": "via JobLeads"
+    },
     {
       "title": "Asset Protection Associate",
       "company": "Walmart",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-04",
       "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4436962607",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Overnight Guest-Safety & Loss Prevention Officer",
-      "company": "Omni Hotels & Resorts",
-      "location": "Houston, TX",
-      "pay": "30K–45K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.jobleads.com/us/job/overnight-guest-safety-loss-prevention-officer--houston--e45e024f95c0a2f7576733e2aba76ad4b",
-      "via": "via JobLeads"
     },
     {
       "title": "Loss Prevention Officer; Part Time",
@@ -37,14 +37,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Loss Prevention Coordinator",
-      "company": "Prime Communications",
+      "title": "Overnight Guest-Safety & Loss Prevention Officer",
+      "company": "Omni Hotels & Resorts",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "30K–45K a year",
       "schedule": "Full-time",
       "posted_date": "2026-06-30",
-      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-coordinator-at-prime-communications-4422603667",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.jobleads.com/us/job/overnight-guest-safety-loss-prevention-officer--houston--e45e024f95c0a2f7576733e2aba76ad4b",
+      "via": "via JobLeads"
     },
     {
       "title": "Asset Loss Prevention Officer",

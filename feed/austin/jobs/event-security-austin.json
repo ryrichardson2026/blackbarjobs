@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Event Staff - College Sports Events",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-staff-college-sports-events-at-allied-universal-4440969430",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Event Security Guard",
+      "company": "A2A Sécurité",
+      "location": "Austin, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-s%C3%A9curit%C3%A9-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
+      "via": "via Glassdoor"
+    },
     {
       "title": "Event Security Specialist — Crowd Control & Access",
       "company": "Viking Tactical Security Group",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-07",
       "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5271960022/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Part-time Event Security Staff",
-      "company": "Saint Leo University",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://lensa.com/job-v1/saint-leo-university/austin-tx/event-security-part-time/0bc583fd09862eb6c9e79dcb5430484f",
-      "via": "via Lensa"
-    },
-    {
-      "title": "Part-time Event Security Staff",
-      "company": "Saint Leo University",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://lensa.com/job-v1/saint-leo-university/austin-tx/event-security-part-time/0bc583fd09862eb6c9e79dcb5430484f",
-      "via": "via Lensa"
-    },
-    {
-      "title": "Event Safety Officer",
-      "company": "Allied Universal® Event Services",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://salutemyjob.com/jobs/event-safety-officer-austin-texas/2849436929-2/",
-      "via": "via SaluteMyJob"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:48.786835+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "san-antonio/jobs/military-base-security-san-antonio",
   "market": "San Antonio",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Medical Facilities Patrol",
+      "title": "Security Officer Part Time Field Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-medical-facilities-patrol-at-allied-universal-4440344883",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Amazon is hiring: Program Security Officer, US Amazon Dedicated Cloud Security in San Antonio",
-      "company": "amazon",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.recruit.net/job/amazon-is-program-security-officer-jobs/158E6779AB77D2E5",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
       "via": "via Recruit.net"
     },
     {
-      "title": "Sergeant (Day-Shift)",
-      "company": "SeaWorld Parks & Entertainment",
+      "title": "DPS - THP - Security Specialist - 6234",
+      "company": "Texas Commission on Environmental Quality",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/sergeant-day-shift-at-seaworld-parks-entertainment-4439488305",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/dps-thp-security-specialist-6234-at-texas-commission-on-environmental-quality-4438485409",
       "via": "via LinkedIn"
     },
     {
-      "title": "Armed Guard II - FT Schedule",
-      "company": "Defense Consulting Services",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=4560aa15c0e2096c",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed Security Officer - Security Clearance Required",
+      "title": "Cleared Security Shift Supervisor - Active Clearance Requried",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-required-at-allied-universal-4440356245",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/cleared-security-shift-supervisor-active-clearance-requried-at-allied-universal-4440922052",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "DPS - THP - Security Supervisor - 1581",
+      "company": "Texas Commission on Environmental Quality",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/dps-thp-security-supervisor-1581-at-texas-commission-on-environmental-quality-4440209628",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Holiday Security",
+      "company": "BlackBarJobs",
+      "location": "San Antonio, TX",
+      "pay": "13–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/holiday-security-jobs-san-antonio",
+      "via": "via The Job Network For Security Officers"
     }
   ]
 }

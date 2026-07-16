@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-15T17:42:56.424167+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "chicago/jobs/security-officer-naperville",
   "market": "Chicago",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security/Loss Prevention Officer",
+      "company": "O'Brien & Associates",
+      "location": "Naperville, IL",
+      "pay": "19–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e6f91d9da8feed85",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Flexible Security Officer",
+      "company": "Allied Universal",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/3tipembvi0ac-377368801908b0c-e27-08b6e7844aa053",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Field Security Officer",
+      "company": "Allied Universal",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://elitehireportal.com/joblistingpage/q35qbxhrcxml-5c3a0-260c6eb7a902d9fb94-0e7014fde",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Security Officer",
       "company": "Confidential",
@@ -17,44 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officers Licensed - 2 -3 Shifts- Recognized Top Workplace - Aurora",
-      "company": "Marksman Security",
+      "title": "Night Lead Public Safety Officer — Hospital Security",
+      "company": "Endeavor Health",
       "location": "Naperville, IL",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-13",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-licensed-2-3-shifts-recognized-top-workplace-aurora-at-marksman-security-4440043627",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Floating Security Officer",
-      "company": "Apex3 and Premier Security",
-      "location": "Naperville, IL",
-      "pay": "34K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/floating-security-officer-full-time-naperville-oakbrook--naperville--e1311b63e688f41bf38f17d6d3dd9e3ae",
+      "apply_link": "https://www.jobleads.com/us/job/night-lead-public-safety-officer-hospital-security--naperville--e9155ed4bdc74fc290a987acb91d85351",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Healthcare Security Officer - Per Diem",
-      "company": "Dormont Manufacturing Company",
-      "location": "Naperville, IL",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-healthcare-security-officer-per-diem-dormont-manufacturing-company-naperville--lensa-7428_56e7fffdb3b86daf4aaaabb9863965c082a2a63dfb82de123d90aceeb9ea477b",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Flexible Part-Time Security Officer: Earn More with Shifts",
-      "company": "Allied Universal",
-      "location": "Naperville, IL",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/5301345216416004335",
-      "via": "via Jooble"
     }
   ]
 }

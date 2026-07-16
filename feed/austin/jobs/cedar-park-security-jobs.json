@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/jobs/cedar-park-security-jobs",
   "market": "Austin",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://elitehireportal.com/joblistingpage/oaw9abaqh480-519d96b96d60dd-faa000d4d-1a7543079",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Dynamic Security Specialist - Crisis Response",
+      "company": "Target",
+      "location": "Cedar Park, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/dynamic-security-specialist-crisis-response--cedar-park--ea0bd3bcb526618b822bb0cced63ed46f",
+      "via": "via JobLeads"
+    },
     {
       "title": "Security Officer PRN",
       "company": "St. David's North Austin Medical Center",
@@ -15,16 +35,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.ziprecruiter.com/c/HCA-Healthcare/Job/Security-Officer-PRN/-in-Cedar-Park,TX?jid=373582dae9aac999",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Armed",
-      "company": "Ascension",
-      "location": "Cedar Park, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4438386880",
-      "via": "via LinkedIn"
     },
     {
       "title": "Now Hiring Security Officers for Government Contractor",
@@ -37,24 +47,14 @@
       "via": "via Jooble"
     },
     {
-      "title": "Contractor Program Security Officer - DoD/IC, TS/SCI",
-      "company": "jobs.frontdoordefense.com - Jobboard",
-      "location": "Cedar Park, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/jdp/-425059599262593745",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Loss Prevention Security Officer",
-      "company": "Marriott International, Inc",
+      "title": "Security Officer Armed",
+      "company": "Ascension",
       "location": "Cedar Park, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://salutemyjob.com/jobs/loss-prevention-security-officer-cedar-park-texas/2866895788-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-at-ascension-4438386880",
+      "via": "via LinkedIn"
     }
   ]
 }

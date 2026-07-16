@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/corporate-campus-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -15,16 +15,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://www.wellsfargojobs.com/fr/jobs/r-558532/associate-corporate-security-guard/",
       "via": "via Wells Fargo"
-    },
-    {
-      "title": "Corporate Security Officer",
-      "company": "Securitas",
-      "location": "Houston, TX",
-      "pay": "16–18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=89af29cc26de280e",
-      "via": "via Indeed"
     },
     {
       "title": "Corporate Security Officer",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://jooble.org/jdp/1696989969378206269",
       "via": "via Jooble"
+    },
+    {
+      "title": "Corporate Security Officer (Full Time - Houston, TX)",
+      "company": "The Home Depot",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://staging.careersingovernment.com/job/1304034/corporate-security-officer-full-time-houston/",
+      "via": "via Careers In Government"
     }
   ]
 }

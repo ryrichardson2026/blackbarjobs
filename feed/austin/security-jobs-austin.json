@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:52.217205+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "austin/security-jobs-austin",
   "market": "Austin",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Global Events Security Manager",
-      "company": "Securitas Security Services",
+      "title": "Security Officer Driving Role Patrols",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "22 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172560",
-      "via": "via Cloud Sign In"
-    },
-    {
-      "title": "Industrial Security Specialist, Mid",
-      "company": "Booz Allen Hamilton",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/industrial-security-specialist-mid-at-booz-allen-hamilton-4432012393",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driving-role-patrols-at-allied-universal-4441400186",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Mobile Patrol Officers Overnight Monday-Thursday",
-      "company": "ACT Security Group",
+      "title": "Security Guard Full Time Facility",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=8127dd6b45ecbdc6",
-      "via": "via Indeed"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-facility-at-allied-universal-4441294340",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Guard - Licensed Unarmed",
-      "company": "TITAN Global Enterprises Inc",
+      "title": "Security Officer Patrol Driver",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": "17–20 an hour",
+      "pay": "22 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3057f21f5d8edcee",
-      "via": "via Indeed"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-at-allied-universal-4441282792",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Night Security Officer",
-      "company": "Premier Security Solutions",
+      "title": "Level II Security Officer - Supportive Housing Community (Mueller Area) | Full-Time | Austin, TX",
+      "company": "STRATEGIC SECURITY SERVICES TX LLC",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://odettebrainly.vercel.app/?jobs=en-job-night-security-officer-1783927901385",
-      "via": "via Vercel"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/STRATEGIC-SECURITY-SERVICES-TX/Job/Level-II-Security-Officer-Supportive-Housing-Community-(Mueller-Area)-%7C-Full-Time-%7C-Austin,-TX/-in-Austin,TX?jid=03f0d5383fa9e1cb",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Unarmed Security Officers- Active Secret Clearance Required",
+      "company": "Sunstates Security",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100442/Unarmed-Security-Officers-Active-Secret-Clearance-Required",
+      "via": "via Sunstates Security Jobs"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:45.173435+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "houston/jobs/the-woodlands-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer",
+      "company": "Patriot Security EOC",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=de16f399614257dc",
+      "via": "via Indeed"
+    },
     {
       "title": "Security Specialist Part-Time",
       "company": "ESPN",
@@ -17,6 +27,26 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Security Specialist Part-Time",
+      "company": "The Walt Disney Company",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-specialist-part-time-at-the-walt-disney-company-4439481407",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "On-Site Security & Safety Specialist (Part‑Time)",
+      "company": "The Walt Disney Company",
+      "location": "The Woodlands, TX",
+      "pay": "28K–38K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/on-site-security-safety-specialist-part-time--the-woodlands--ee4434bdba514edf61b38a13493c7659f",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Evening/Overnight Patrol Security Officer",
       "company": "United Protective Services",
       "location": "The Woodlands, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://us.trabajo.org/job-4023-354d74568067f9cdac6d340fc4b547a1",
       "via": "via Trabajo.org"
-    },
-    {
-      "title": "Seasonal Hotel Security Officer — On-Site Patrol & Safety",
-      "company": "HEI Hotels",
-      "location": "The Woodlands, TX",
-      "pay": "17,047–24,280 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5278888351/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Event Security - Shell Energy Stadium",
-      "company": "BEST Crowd Management",
-      "location": "The Woodlands, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/BEST-Crowd-Management/Job/Event-Security-Shell-Energy-Stadium/-in-The-Woodlands,TX?jid=90b48a5a606e36f3",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "VP of Corporate Security",
-      "company": "Target Hospitality",
-      "location": "The Woodlands, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=27f2376c7d7edf34",
-      "via": "via Indeed"
     }
   ]
 }

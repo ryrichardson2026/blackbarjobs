@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/garland-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Cleared Supervisor",
+      "title": "Night Shift Security Officer - Data Center Access & CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Garland, TX",
+      "pay": "17–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5287793206/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Event Security Concert",
       "company": "Allied Universal",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-concert-at-allied-universal-4440873184",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Retail Security Officer | Mesquite, TX",
+      "company": "Marksman Security",
+      "location": "Garland, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5286092621/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Guard Enhanced Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://bebee.com/us/jobs/security-guard-enhanced-part-time-patrol-allied-universal-garland--techmap_us_securitycareers-alliedbarton_1631286",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Mobile Security Officer - Full-Time (Plano) | $50 Sign-On",
+      "company": "Marksman Security",
       "location": "Garland, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-12",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/garland-tx/security-officer-cleared-supervisor-029241/",
-      "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Security Officers - Full-Time (Night Shift)",
-      "company": "NTT Data",
-      "location": "Garland, TX",
-      "pay": "17.00–21.20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/8905920738320972264",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Retail Security Officer",
-      "company": "Marksman Security",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/full-time-retail-security-officer-mesquite-tx--garland--eb343af93098133020e0ee072e36fb799",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Retail Security Lead — Growth, PTO & Health Benefits",
-      "company": "Marksman Security",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-lead-growth-pto-health-benefits--garland--ea3fc60d9da0ad143610aa234e47ec95b",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force- #C19105",
-      "location": "Garland, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a6bfda3ff798141a",
-      "via": "via Indeed"
+      "apply_link": "https://bebee.com/us/jobs/mobile-security-officer-full-time-plano-50-sign-on-marksman-security-garland--lensa-7428_4f7e189684d07609bf55c62f1d0c585e997fcdcf1689ed5bf2034715f75b08e5",
+      "via": "via BeBee"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/dallas-industrial-security",
   "market": "DFW",
   "target": "city-role",
@@ -12,8 +12,18 @@
       "location": "Grand Prairie, TX",
       "pay": null,
       "schedule": "Contractor",
-      "posted_date": "2026-07-10",
+      "posted_date": "2026-07-14",
       "apply_link": "https://bebee.com/us/jobs/industrial-security-rep-csso-with-security-clearance-lockheed-martin-grand-prairie-tx-united-states--oneredce-8340_8935031",
+      "via": "via BeBee"
+    },
+    {
+      "title": "EMT Security Guard - Plant Safety & Medical Response",
+      "company": "Gerdau",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/emt-security-guard-plant-safety-medical-response-gerdau-midlothian--lensa-7428_ff567f8bdc6b06bd6fbb10bcedcd0e7f5eb809ef9bdbbe7a9e3b979186241286",
       "via": "via BeBee"
     },
     {
@@ -32,9 +42,9 @@
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.indeed.com/viewjob?jk=7e60a6cfa51e1536",
-      "via": "via Indeed"
+      "posted_date": "2026-06-29",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-clearance-required-industrial-facility/22950/97143254400",
+      "via": "via Allied Universal"
     },
     {
       "title": "Industrial Security Officer",
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-25",
       "apply_link": "https://www.monster.com/job-openings/industrial-security-officer-arlington-tx--596fae62-95f5-472b-b318-63944da8c019",
       "via": "via Monster"
-    },
-    {
-      "title": "Specialist, Industrial Security",
-      "company": "L3Harris Technologies",
-      "location": "Plano, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-24",
-      "apply_link": "https://www.linkedin.com/jobs/view/specialist-industrial-security-at-l3harris-technologies-4432583130",
-      "via": "via LinkedIn"
     }
   ]
 }

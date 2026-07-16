@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-15T17:42:41.059867+00:00",
+  "generated": "2026-07-16T16:03:49.227448+00:00",
   "page": "dallas/plano-unarmed-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Patrol, DoD Clearance, Aerospace Site",
+      "company": "Allied Universal",
+      "location": "Plano, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-patrol-dod-clearance-aerospace-site--plano--e5a806e70f15b4281b42b7e753fb0e80e",
+      "via": "via JobLeads"
+    },
     {
       "title": "Unarmed Security Officer",
       "company": "Metro One LPSG Inc",
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-30",
       "apply_link": "https://arabisht.fahemdev.com/job-positions/job/unarmed-security-guard-at-all-nation-security-services-inc-plano-tx-TlF0SHhLak53Q2ErNnFMaHRYVG9CUWZvZUE9PQ==",
       "via": "via FahemDev"
-    },
-    {
-      "title": "Unarmed Security Officer - Full Time - 1st shift- $22.50/hr | Sunstates Security | Handshake",
-      "company": "Sunstates Security",
-      "location": "Plano, TX",
-      "pay": "22.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://app.joinhandshake.com/public/jobs/10230379",
-      "via": "via Handshake"
     }
   ]
 }
