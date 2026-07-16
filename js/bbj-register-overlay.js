@@ -27,6 +27,39 @@
     };
   })();
 
+  // ── Geo-aware license copy: switches the license question set by detected state ──
+  window.bbjLicState = window.bbjLicState || function(v){
+    v = (v || '').toLowerCase();
+    if (/chicago|illinois|\bil\b|naperville|aurora|joliet|schaumburg|evanston|cicero|rockford|peoria|springfield/.test(v)) return 'IL';
+    if (/dallas|fort worth|ft worth|dfw|houston|san antonio|austin|texas|\btx\b|el paso|arlington|plano|irving|garland/.test(v)) return 'TX';
+    return '';
+  };
+  window.BBJ_LIC = window.BBJ_LIC || {
+    TX: { label: 'Texas Security License', q: 'Do you hold a Texas DPS security license?',
+      opts: [['','Select level'],['level2','Level 2 \u2014 Non-Commissioned (Unarmed)'],['level3','Level 3 \u2014 Commissioned (Armed)'],['both','Both Level 2 and Level 3']] },
+    IL: { label: 'Illinois Security License', q: 'Do you have an Illinois PERC card (security license)?',
+      opts: [['','Select type'],['perc','PERC card (unarmed)'],['perc_fcc','PERC plus Firearm Control Card (armed)']] },
+    '': { label: 'Security Officer License', q: 'Do you hold a security officer license in your state?',
+      opts: [['','Select one'],['unarmed','Unarmed license'],['armed','Armed license'],['both','Both']] }
+  };
+  window.bbjWireLicense = window.bbjWireLicense || function(cityEl, labelEl, qEl, selEl){
+    if (!cityEl || !selEl) return;
+    var cur = '__init__';
+    function apply(){
+      var st = window.bbjLicState(cityEl.value);
+      if (st === cur) return; cur = st;
+      var c = window.BBJ_LIC[st] || window.BBJ_LIC[''];
+      if (labelEl) labelEl.textContent = c.label;
+      if (qEl) qEl.textContent = c.q;
+      var prev = selEl.value;
+      selEl.innerHTML = c.opts.map(function(o){ return '<option value="' + o[0] + '">' + o[1] + '</option>'; }).join('');
+      for (var i = 0; i < selEl.options.length; i++){ if (selEl.options[i].value === prev){ selEl.value = prev; break; } }
+    }
+    cityEl.addEventListener('input', apply);
+    cityEl.addEventListener('change', apply);
+    apply();
+  };
+
   // ── CSS ──────────────────────────────────────────────────────
   var css = [
     '#bbjRegOvr{display:none;position:fixed;inset:0;z-index:5000;background:rgba(0,8,20,0.75);align-items:flex-end;justify-content:center;}',
@@ -106,6 +139,9 @@
       '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="field-label">Email</label>',
       '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
+      '<label class="field-label">City or Region</label>',
+      '<input id="bbjCityRegion" type="text" placeholder="e.g. Houston or DFW" autocomplete="address-level2" list="bbjMetros">',
+      '<datalist id="bbjMetros"><option value="Dallas"></option><option value="Fort Worth"></option><option value="Houston"></option><option value="San Antonio"></option><option value="Austin"></option><option value="Chicago"></option></datalist>',
       '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
       '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
       '<div class="chip-grid">',
@@ -145,8 +181,8 @@
         '<div><label class="field-label">City</label><input id="bbjCity" type="text" placeholder="Dallas" autocomplete="address-level2"></div>',
         '<div><label class="field-label">State</label><input id="bbjState" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2"></div>',
       '</div>',
-      '<span class="section-label">Texas Security License</span>',
-      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>',
+      '<span class="section-label" id="bbjLicLabel">Texas Security License</span>',
+      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;" id="bbjLicQ">Do you hold a Texas DPS security license?</p>',
       '<div class="toggle-row">',
         '<div class="toggle-btn" id="bbjLicYes">Yes, I\'m licensed</div>',
         '<div class="toggle-btn" id="bbjLicNo">Not yet</div>',
@@ -156,7 +192,7 @@
         '<select id="bbjLicLevel"><option value="">Select level</option><option value="level2">Level 2 &#x2014; Non-Commissioned (Unarmed)</option><option value="level3">Level 3 &#x2014; Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>',
       '</div>',
       '<div class="reveal-block" id="bbjLicHelpBlock">',
-        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Would you like help finding a training facility in your area?</label>',
+        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Do you want help getting licensed in your state?</label>',
         '<div class="toggle-row">',
           '<div class="toggle-btn" id="bbjHelpY">Yes</div>',
           '<div class="toggle-btn" id="bbjHelpN">No</div>',
@@ -316,6 +352,14 @@
     // Wire X button
     document.getElementById('bbjRegX').addEventListener('click', function(){ bbjRegClose(); });
 
+    // Geo-aware license copy (driven by the Step 1 city/region field)
+    window.bbjWireLicense(
+      document.getElementById('bbjCityRegion'),
+      document.getElementById('bbjLicLabel'),
+      document.getElementById('bbjLicQ'),
+      document.getElementById('bbjLicLevel')
+    );
+
     // Chips
     var chipAll = document.getElementById('bbjChipAll');
     if (chipAll) {
@@ -340,11 +384,13 @@
       var name  = document.getElementById('bbjFirstName').value.trim();
       var email = document.getElementById('bbjEmail').value.trim();
       var phoneEl = document.getElementById('bbjPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
+      var cityRegion = document.getElementById('bbjCityRegion').value.trim();
       var errEl = document.getElementById('bbjErr1');
       errEl.style.display = 'none';
 
       if (!name || !email) { errEl.textContent = 'Please enter your name and email.'; errEl.style.display = 'block'; return; }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = 'Please enter a valid email address.'; errEl.style.display = 'block'; return; }
+      if (!cityRegion) { errEl.textContent = 'Please enter your city or region.'; errEl.style.display = 'block'; return; }
       if (_sms === 'yes' && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number.'; errEl.style.display = 'block'; return; }
 
       this.disabled = true; this.textContent = 'Setting up alerts...';
@@ -352,7 +398,7 @@
       var roles = {};
       document.querySelectorAll('#bbjRegCard .chip.selected').forEach(function(c){ roles[c.dataset.role] = true; });
 
-      _step1Data = { first_name: name, email: email, phone: phone, roles: roles, sms_opt: _sms === 'yes' };
+      _step1Data = { first_name: name, email: email, phone: phone, city_region: cityRegion, roles: roles, sms_opt: _sms === 'yes' };
 
       // Supabase signUp with temp password
       var tempPass = 'BBJt_' + Math.random().toString(36).slice(2,10) + Math.random().toString(36).slice(2,4) + '!';
@@ -361,7 +407,7 @@
         try {
           var result = await sbClient.auth.signUp({
             email: email, password: tempPass,
-            options: { data: { first_name: name, phone: phone.replace(/\D/g,''), roles: roles, sms_notifications: _sms === 'yes', step: 1 } }
+            options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, roles: roles, sms_notifications: _sms === 'yes', step: 1 } }
           });
           if (result.error && result.error.message !== 'User already registered') {
             errEl.textContent = result.error.message;
@@ -376,7 +422,7 @@
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr('overlay_step1'), { type: 'candidate', first_name: name, email: email,
-            phone: phone.replace(/\D/g,''), sms_consent: _sms === 'yes', roles: roles,
+            phone: phone.replace(/\D/g,''), city_region: cityRegion, sms_consent: _sms === 'yes', roles: roles,
             source: 'overlay_step1', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
@@ -408,8 +454,9 @@
       this.disabled = true; this.textContent = 'Creating account...';
 
       var licLevel  = document.getElementById('bbjLicLevel').value;
-      var helpTrain = document.getElementById('bbjHelpTrain').checked;
-      var helpJobs  = document.getElementById('bbjHelpJobs').checked;
+      var licJur    = window.bbjLicState((_step1Data.city_region) || '');
+      var helpTrain = document.getElementById('bbjHelpY') && document.getElementById('bbjHelpY').classList.contains('selected');
+      var helpJobs  = false;
 
       // Supabase updateUser with real password + profile
       var sbClient = _sb();
@@ -420,7 +467,7 @@
             data: { first_name: _step1Data.first_name, phone: _step1Data.phone,
               city: city, state: state, roles: _step1Data.roles,
               sms_notifications: _step1Data.sms_opt, license_status: _lic,
-              license_level: licLevel, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 2 }
+              license_level: licLevel, license_jurisdiction: licJur, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 2 }
           });
           if (upd.error) {
             errEl.textContent = upd.error.message;
@@ -436,7 +483,7 @@
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: _step1Data.first_name,
             email: _step1Data.email, phone: _step1Data.phone, city: city, state: state,
-            license_status: _lic, license_level: licLevel, help_training: helpTrain,
+            license_status: _lic, license_level: licLevel, license_jurisdiction: licJur, help_training: helpTrain,
             help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
@@ -525,6 +572,9 @@
       '<input id="bbjAccName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="acc-label">Email</label>',
       '<input id="bbjAccEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
+      '<label class="acc-label">City or Region</label>',
+      '<input id="bbjAccCityRegion" type="text" placeholder="e.g. Houston or DFW" autocomplete="address-level2" list="bbjAccMetros">',
+      '<datalist id="bbjAccMetros"><option value="Dallas"></option><option value="Fort Worth"></option><option value="Houston"></option><option value="San Antonio"></option><option value="Austin"></option><option value="Chicago"></option></datalist>',
       '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
       '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
       '<div class="acc-chips">',
@@ -544,8 +594,8 @@
         '<input id="bbjAccPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">',
       '</div>',
       '<hr>',
-      '<span class="acc-section-label">Texas Security License</span>',
-      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;">Do you hold a Texas DPS security license?</p>',
+      '<span class="acc-section-label" id="bbjAccLicLabel">Texas Security License</span>',
+      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;" id="bbjAccLicQ">Do you hold a Texas DPS security license?</p>',
       '<div class="acc-toggles">',
         '<div class="acc-toggle" id="bbjAccLicY">Yes, I\'m licensed</div>',
         '<div class="acc-toggle" id="bbjAccLicN">Not yet</div>',
@@ -555,7 +605,7 @@
         '<select id="bbjAccLicSel"><option value="">Select level</option><option value="level2">Level 2 &#x2014; Non-Commissioned (Unarmed)</option><option value="level3">Level 3 &#x2014; Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>',
       '</div>',
       '<div class="acc-reveal" id="bbjAccLicHelp">',
-        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Would you like help finding a training facility in your area?</label>',
+        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Do you want help getting licensed in your state?</label>',
         '<div class="acc-toggles">',
           '<div class="acc-toggle" id="bbjAccHelpY">Yes</div>',
           '<div class="acc-toggle" id="bbjAccHelpN">No</div>',
@@ -634,6 +684,14 @@
     document.getElementById('bbjAccX').addEventListener('click', function(){ bbjAccClose(); });
     document.getElementById('bbjAccSubmitBtn').addEventListener('click', function(){ bbjAccSubmit(); });
 
+    // Geo-aware license copy (driven by the city/region field on this card)
+    window.bbjWireLicense(
+      document.getElementById('bbjAccCityRegion'),
+      document.getElementById('bbjAccLicLabel'),
+      document.getElementById('bbjAccLicQ'),
+      document.getElementById('bbjAccLicSel')
+    );
+
     var ca = document.getElementById('bbjAccChipAll');
     if(ca) {
       ca.addEventListener('click', function(){
@@ -657,17 +715,20 @@
     var name  = document.getElementById('bbjAccName').value.trim();
     var email = document.getElementById('bbjAccEmail').value.trim();
     var phoneEl = document.getElementById('bbjAccPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
+    var cityRegion = document.getElementById('bbjAccCityRegion').value.trim();
     var errEl = document.getElementById('bbjAccErr');
     errEl.style.display = 'none';
 
     if(!name){ errEl.textContent='Please enter your first name.'; errEl.style.display='block'; document.getElementById('bbjAccName').focus(); return; }
     if(!email||!email.includes('@')){ errEl.textContent='Please enter a valid email address.'; errEl.style.display='block'; document.getElementById('bbjAccEmail').focus(); return; }
+    if(!cityRegion){ errEl.textContent='Please enter your city or region.'; errEl.style.display='block'; document.getElementById('bbjAccCityRegion').focus(); return; }
 
     var btn = document.getElementById('bbjAccSubmitBtn');
     btn.disabled = true;
 
     var roles = Array.from(document.querySelectorAll('#bbjAccCard .acc-chip.selected')).map(function(c){return c.dataset.role;}).join(',');
     var licLevel   = (document.getElementById('bbjAccLicSel')||{}).value||'';
+    var licJur     = window.bbjLicState(cityRegion);
     var helpTrain  = document.getElementById('bbjAccHelpY') && document.getElementById('bbjAccHelpY').classList.contains('selected');
     var helpJobs   = false;
 
@@ -684,9 +745,9 @@
       if(sb) {
         sb.auth.signUp({
           email: email, password: tempPass,
-          options: { data: { first_name: name, phone: phone.replace(/\D/g,''), roles: roles,
+          options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, roles: roles,
             sms_notifications: _accSms==='yes', license_status: _accLic,
-            license_level: licLevel, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 1 } }
+            license_level: licLevel, license_jurisdiction: licJur, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 1 } }
         });
       }
     } catch(e) {}
@@ -695,8 +756,8 @@
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
       method:'POST', headers:{'Content-Type':'application/json'},
       body:JSON.stringify(Object.assign(bbjAttr('browse_jobs_overlay'), { type:'candidate_access', first_name:name, email:email,
-        phone:phone.replace(/\D/g,''), roles:roles, sms_opt:_accSms,
-        license_status:_accLic, license_level:licLevel,
+        phone:phone.replace(/\D/g,''), city_region:cityRegion, roles:roles, sms_opt:_accSms,
+        license_status:_accLic, license_level:licLevel, license_jurisdiction:licJur,
         help_training:helpTrain, help_jobs:helpJobs,
         source:window.location.href, trigger:'browse_jobs_overlay',
         ts:new Date().toISOString(), consent:true,

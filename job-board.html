@@ -616,7 +616,7 @@ window.addEventListener("load", function(){
   /* ───────────────── CONFIG ───────────────── */
   // Job source: static /feed/board.json (all active jobs), written by bbj_feed_snapshot.py. Google Sheet retired.
   var PAGE_SIZE = 10;
-  var FREE_VIEWS = 1;       // free job views before the gate appears (gate on the 2nd)
+  var FREE_VIEWS = 2;       // free job views before the gate appears (2 free, gate on the 3rd click)
 
   /* ───────────────── STATE ───────────────── */
   var ALL_JOBS = [];
@@ -625,22 +625,39 @@ window.addEventListener("load", function(){
   var pendingUrl = '';
   var pendingJob = null;
   var registered = false;
-  if(document.cookie.indexOf('bbj_registered=1')!==-1){
-    registered=true;
-    document.addEventListener('DOMContentLoaded',function(){
-      var nc=document.querySelector('.nav-cta');
-      if(nc)nc.style.display='none';
-      document.querySelectorAll('.hero-btn.gold').forEach(function(b){b.style.display='none';});
-    });
+  function bbjHasSupabaseSession(){
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k && /^sb-.*-auth-token$/.test(k) && localStorage.getItem(k)) return true;
+      }
+    } catch(e){}
+    return false;
+  }
+  function bbjHideRegCtas(){
+    var nc = document.querySelector('.nav-cta');
+    if(nc) nc.style.display = 'none';
+    document.querySelectorAll('.hero-btn.gold').forEach(function(b){ b.style.display = 'none'; });
+  }
+  // Live registration check — re-read on every call. An in-session signup (the overlay
+  // sets bbj_registered=1) unlocks immediately, so a returning/just-registered user is
+  // never re-gated or asked to register/login again.
+  function isRegistered(){
+    return registered
+      || document.cookie.indexOf('bbj_registered=1') !== -1
+      || bbjHasSupabaseSession();
+  }
+  if (isRegistered()) {
+    registered = true;
+    document.addEventListener('DOMContentLoaded', bbjHideRegCtas);
   }
   var sbClient = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
   if (sbClient) {
     sbClient.auth.getSession().then(function(res){
       if (res.data && res.data.session) {
         registered = true;
-        var nc = document.querySelector('.nav-cta');
-        if(nc) nc.style.display='none';
-        document.querySelectorAll('.hero-btn.gold').forEach(function(b){b.style.display='none';});
+        try { document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax'; } catch(e){}
+        bbjHideRegCtas();
       }
     });
   }
@@ -1008,7 +1025,7 @@ window.addEventListener("load", function(){
     pendingJob = job || null;
     pendingUrl = ((job && job.apply_link) || '').trim();
     if (!pendingUrl) return;
-    if (registered) { goToJob(); return; }
+    if (isRegistered()) { goToJob(); return; }
     var v = getViews();
     if (v < FREE_VIEWS) { setViews(v + 1); goToJob(); }
     else { openGate(); }
@@ -1031,10 +1048,12 @@ window.addEventListener("load", function(){
     if (pendingUrl) {
       try { sessionStorage.setItem('bbj_pending_job', pendingUrl); } catch(e) {}
     }
-    var returnUrl = '/register.html?return=job-board';
+    // Inline overlay — same 2-click gate as the landing pages.
+    // Falls back to the register page only if the overlay script failed to load.
+    if (typeof bbjAccOpen === 'function') { bbjAccOpen(); return; }
     var btn = document.getElementById('gateCtaBtn');
     var loginLink = document.getElementById('gateLoginLink');
-    if (btn) btn.href = returnUrl;
+    if (btn) btn.href = '/register.html?return=job-board';
     if (loginLink) loginLink.href = '/login.html?return=job-board';
     document.getElementById('gateModal').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -1045,18 +1064,13 @@ window.addEventListener("load", function(){
 
   /* ───────────────── ALERTS MODAL ───────────────── */
   function openAlerts() {
+    // Already registered/signed in — never gate; send to dashboard.
+    if (isRegistered()) { window.location.href = '/dashboard.html'; return; }
+    // Inline alerts overlay — same flow as the landing pages.
+    // Falls back to the modal only if the overlay script failed to load.
+    if (typeof bbjAlertOpen === 'function') { bbjAlertOpen(); return; }
     var btn = document.getElementById('alertsCtaBtn');
-    if (btn && sbClient) {
-      sbClient.auth.getSession().then(function(res){
-        if (res.data && res.data.session) {
-          btn.href = '/dashboard.html';
-          btn.textContent = 'Manage My Alerts →';
-        } else {
-          btn.href = '/register.html';
-          btn.textContent = 'Create Free Account →';
-        }
-      });
-    }
+    if (btn) { btn.href = '/register.html'; btn.textContent = 'Create Free Account →'; }
     document.getElementById('alertsModal').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
@@ -1283,6 +1297,7 @@ window.addEventListener("load", function(){
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
 <script src="/js/bbj-auth-nav.js"></script>
+<script src="/js/bbj-register-overlay.js"></script>
 <script>
 /* Dynamic board header: reflect the metro from ?city/?metro/?location or UTM (e.g. Chicago from a chi page). Neutral default. */
 (function(){
