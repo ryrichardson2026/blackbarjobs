@@ -14,6 +14,21 @@
   ],
   "redirects": [
     {
+      "source": "/illinois/illinois-perc-card-guide",
+      "destination": "/illinois/illinois-security-license-requirements",
+      "permanent": true
+    },
+    {
+      "source": "/illinois/how-to-become-security-officer-illinois",
+      "destination": "/illinois/illinois-security-license-requirements",
+      "permanent": true
+    },
+    {
+      "source": "/illinois/armed-security-license-illinois",
+      "destination": "/illinois/illinois-security-license-requirements",
+      "permanent": true
+    },
+    {
       "source": "/jobs/houston/unarmed-security-houston",
       "destination": "/houston/jobs/unarmed-security-houston",
       "permanent": true
