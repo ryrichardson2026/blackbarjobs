@@ -28,6 +28,24 @@
   })();
 
   // ── Geo-aware license copy: switches the license question set by detected state ──
+  // Page market from the URL path (authority for region prefill).
+  // First path segment -> served metro + its state, or null (root/national -> ask).
+  // NOT sourced from BBJ_FEED_KEY: the root homepage is Dallas-keyed but must stay neutral.
+  window.bbjPageMarket = window.bbjPageMarket || function(){
+    var seg = (location.pathname || '').toLowerCase().replace(/^\/+|\/+$/g, '').split('/')[0];
+    var METRO = { 'dallas':{metro:'Dallas',state:'TX'}, 'fort-worth':{metro:'Fort Worth',state:'TX'},
+      'houston':{metro:'Houston',state:'TX'}, 'san-antonio':{metro:'San Antonio',state:'TX'},
+      'austin':{metro:'Austin',state:'TX'}, 'chicago':{metro:'Chicago',state:'IL'} };
+    var STATE = { 'texas':{metro:'Dallas',state:'TX'}, 'illinois':{metro:'Chicago',state:'IL'} };
+    return METRO[seg] || STATE[seg] || null;
+  };
+  // Split a region dropdown value "Metro|ST" into its parts.
+  window.bbjParseRegion = window.bbjParseRegion || function(v){
+    v = v || ''; var i = v.lastIndexOf('|');
+    return i === -1 ? { metro: v, state: '' } : { metro: v.slice(0, i), state: v.slice(i + 1) };
+  };
+  // Dead fallback: the old free-text regex. License copy no longer comes from typed
+  // text, so this is retained for reference only and is never the driver.
   window.bbjLicState = window.bbjLicState || function(v){
     v = (v || '').toLowerCase();
     if (/chicago|illinois|\bil\b|naperville|aurora|joliet|schaumburg|evanston|cicero|rockford|peoria|springfield/.test(v)) return 'IL';
@@ -42,11 +60,15 @@
     '': { label: 'Security Officer License', q: 'Do you hold a security officer license in your state?',
       opts: [['','Select one'],['unarmed','Unarmed license'],['armed','Armed license'],['both','Both']] }
   };
-  window.bbjWireLicense = window.bbjWireLicense || function(cityEl, labelEl, qEl, selEl){
-    if (!cityEl || !selEl) return;
+  // Wire the region dropdown to the license question: parse the state from the
+  // selected value, set copy from BBJ_LIC[state], and show/hide the license
+  // section based on whether a region has been chosen.
+  window.bbjWireLicense = window.bbjWireLicense || function(regionEl, labelEl, qEl, selEl, sectionEl){
+    if (!regionEl || !selEl) return;
     var cur = '__init__';
     function apply(){
-      var st = window.bbjLicState(cityEl.value);
+      if (sectionEl) sectionEl.style.display = regionEl.value ? '' : 'none';
+      var st = window.bbjParseRegion(regionEl.value).state;
       if (st === cur) return; cur = st;
       var c = window.BBJ_LIC[st] || window.BBJ_LIC[''];
       if (labelEl) labelEl.textContent = c.label;
@@ -55,9 +77,20 @@
       selEl.innerHTML = c.opts.map(function(o){ return '<option value="' + o[0] + '">' + o[1] + '</option>'; }).join('');
       for (var i = 0; i < selEl.options.length; i++){ if (selEl.options[i].value === prev){ selEl.value = prev; break; } }
     }
-    cityEl.addEventListener('input', apply);
-    cityEl.addEventListener('change', apply);
+    regionEl.addEventListener('change', apply);
     apply();
+  };
+  // Prefill a region dropdown from the page's market. Returns true if a market
+  // was matched (dropdown set), false if the page must ask (root/national).
+  window.bbjPrefillRegion = window.bbjPrefillRegion || function(regionEl){
+    if (!regionEl) return false;
+    var m = window.bbjPageMarket();
+    if (!m) return false;
+    var want = m.metro + '|' + m.state;
+    for (var i = 0; i < regionEl.options.length; i++){
+      if (regionEl.options[i].value === want){ regionEl.value = want; return true; }
+    }
+    return false;
   };
 
   // ── CSS ──────────────────────────────────────────────────────
@@ -139,9 +172,17 @@
       '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="field-label">Email</label>',
       '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
-      '<label class="field-label">City or Region</label>',
-      '<input id="bbjCityRegion" type="text" placeholder="e.g. Houston or DFW" autocomplete="address-level2" list="bbjMetros">',
-      '<datalist id="bbjMetros"><option value="Dallas"></option><option value="Fort Worth"></option><option value="Houston"></option><option value="San Antonio"></option><option value="Austin"></option><option value="Chicago"></option></datalist>',
+      '<label class="field-label">Region</label>',
+      '<select id="bbjCityRegion">',
+        '<option value="">What\'s your region?</option>',
+        '<option value="Dallas|TX">Dallas, TX</option>',
+        '<option value="Fort Worth|TX">Fort Worth, TX</option>',
+        '<option value="Houston|TX">Houston, TX</option>',
+        '<option value="San Antonio|TX">San Antonio, TX</option>',
+        '<option value="Austin|TX">Austin, TX</option>',
+        '<option value="Chicago|IL">Chicago, IL</option>',
+        '<option value="other|">Other / not listed</option>',
+      '</select>',
       '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
       '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
       '<div class="chip-grid">',
@@ -181,6 +222,7 @@
         '<div><label class="field-label">City</label><input id="bbjCity" type="text" placeholder="Dallas" autocomplete="address-level2"></div>',
         '<div><label class="field-label">State</label><input id="bbjState" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2"></div>',
       '</div>',
+      '<div id="bbjLicSection">',
       '<span class="section-label" id="bbjLicLabel">Texas Security License</span>',
       '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;" id="bbjLicQ">Do you hold a Texas DPS security license?</p>',
       '<div class="toggle-row">',
@@ -197,6 +239,7 @@
           '<div class="toggle-btn" id="bbjHelpY">Yes</div>',
           '<div class="toggle-btn" id="bbjHelpN">No</div>',
         '</div>',
+      '</div>',
       '</div>',
       '<hr>',
       '<label class="field-label">Create a Password</label>',
@@ -352,12 +395,15 @@
     // Wire X button
     document.getElementById('bbjRegX').addEventListener('click', function(){ bbjRegClose(); });
 
-    // Geo-aware license copy (driven by the Step 1 city/region field)
+    // Geo-aware license copy (driven by the Step 1 region dropdown)
+    var bbjRegionSel = document.getElementById('bbjCityRegion');
+    window.bbjPrefillRegion(bbjRegionSel);
     window.bbjWireLicense(
-      document.getElementById('bbjCityRegion'),
+      bbjRegionSel,
       document.getElementById('bbjLicLabel'),
       document.getElementById('bbjLicQ'),
-      document.getElementById('bbjLicLevel')
+      document.getElementById('bbjLicLevel'),
+      document.getElementById('bbjLicSection')
     );
 
     // Chips
@@ -384,13 +430,14 @@
       var name  = document.getElementById('bbjFirstName').value.trim();
       var email = document.getElementById('bbjEmail').value.trim();
       var phoneEl = document.getElementById('bbjPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
-      var cityRegion = document.getElementById('bbjCityRegion').value.trim();
+      var reg = window.bbjParseRegion(document.getElementById('bbjCityRegion').value);
+      var region_metro = reg.metro, license_state = reg.state, cityRegion = region_metro;
       var errEl = document.getElementById('bbjErr1');
       errEl.style.display = 'none';
 
       if (!name || !email) { errEl.textContent = 'Please enter your name and email.'; errEl.style.display = 'block'; return; }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = 'Please enter a valid email address.'; errEl.style.display = 'block'; return; }
-      if (!cityRegion) { errEl.textContent = 'Please enter your city or region.'; errEl.style.display = 'block'; return; }
+      if (!cityRegion) { errEl.textContent = 'Please select your region.'; errEl.style.display = 'block'; return; }
       if (_sms === 'yes' && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number.'; errEl.style.display = 'block'; return; }
 
       this.disabled = true; this.textContent = 'Setting up alerts...';
@@ -398,7 +445,7 @@
       var roles = {};
       document.querySelectorAll('#bbjRegCard .chip.selected').forEach(function(c){ roles[c.dataset.role] = true; });
 
-      _step1Data = { first_name: name, email: email, phone: phone, city_region: cityRegion, roles: roles, sms_opt: _sms === 'yes' };
+      _step1Data = { first_name: name, email: email, phone: phone, city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, sms_opt: _sms === 'yes' };
 
       // Supabase signUp with temp password
       var tempPass = 'BBJt_' + Math.random().toString(36).slice(2,10) + Math.random().toString(36).slice(2,4) + '!';
@@ -407,7 +454,7 @@
         try {
           var result = await sbClient.auth.signUp({
             email: email, password: tempPass,
-            options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, roles: roles, sms_notifications: _sms === 'yes', step: 1 } }
+            options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, sms_notifications: _sms === 'yes', step: 1 } }
           });
           if (result.error && result.error.message !== 'User already registered') {
             errEl.textContent = result.error.message;
@@ -422,7 +469,7 @@
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr('overlay_step1'), { type: 'candidate', first_name: name, email: email,
-            phone: phone.replace(/\D/g,''), city_region: cityRegion, sms_consent: _sms === 'yes', roles: roles,
+            phone: phone.replace(/\D/g,''), city_region: cityRegion, region_metro: region_metro, license_state: license_state, sms_consent: _sms === 'yes', roles: roles,
             source: 'overlay_step1', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
@@ -454,7 +501,9 @@
       this.disabled = true; this.textContent = 'Creating account...';
 
       var licLevel  = document.getElementById('bbjLicLevel').value;
-      var licJur    = window.bbjLicState((_step1Data.city_region) || '');
+      var region_metro = _step1Data.region_metro || '';
+      var license_state = _step1Data.license_state || '';
+      var licJur    = license_state;
       var helpTrain = document.getElementById('bbjHelpY') && document.getElementById('bbjHelpY').classList.contains('selected');
       var helpJobs  = false;
 
@@ -465,7 +514,7 @@
           var upd = await sbClient.auth.updateUser({
             password: password,
             data: { first_name: _step1Data.first_name, phone: _step1Data.phone,
-              city: city, state: state, roles: _step1Data.roles,
+              city: city, state: state, roles: _step1Data.roles, region_metro: region_metro, license_state: license_state,
               sms_notifications: _step1Data.sms_opt, license_status: _lic,
               license_level: licLevel, license_jurisdiction: licJur, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 2 }
           });
@@ -483,6 +532,7 @@
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: _step1Data.first_name,
             email: _step1Data.email, phone: _step1Data.phone, city: city, state: state,
+            region_metro: region_metro, license_state: license_state,
             license_status: _lic, license_level: licLevel, license_jurisdiction: licJur, help_training: helpTrain,
             help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
@@ -572,9 +622,17 @@
       '<input id="bbjAccName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="acc-label">Email</label>',
       '<input id="bbjAccEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
-      '<label class="acc-label">City or Region</label>',
-      '<input id="bbjAccCityRegion" type="text" placeholder="e.g. Houston or DFW" autocomplete="address-level2" list="bbjAccMetros">',
-      '<datalist id="bbjAccMetros"><option value="Dallas"></option><option value="Fort Worth"></option><option value="Houston"></option><option value="San Antonio"></option><option value="Austin"></option><option value="Chicago"></option></datalist>',
+      '<label class="acc-label">Region</label>',
+      '<select id="bbjAccCityRegion">',
+        '<option value="">What\'s your region?</option>',
+        '<option value="Dallas|TX">Dallas, TX</option>',
+        '<option value="Fort Worth|TX">Fort Worth, TX</option>',
+        '<option value="Houston|TX">Houston, TX</option>',
+        '<option value="San Antonio|TX">San Antonio, TX</option>',
+        '<option value="Austin|TX">Austin, TX</option>',
+        '<option value="Chicago|IL">Chicago, IL</option>',
+        '<option value="other|">Other / not listed</option>',
+      '</select>',
       '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
       '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
       '<div class="acc-chips">',
@@ -594,6 +652,7 @@
         '<input id="bbjAccPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">',
       '</div>',
       '<hr>',
+      '<div id="bbjAccLicSection">',
       '<span class="acc-section-label" id="bbjAccLicLabel">Texas Security License</span>',
       '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;" id="bbjAccLicQ">Do you hold a Texas DPS security license?</p>',
       '<div class="acc-toggles">',
@@ -610,6 +669,7 @@
           '<div class="acc-toggle" id="bbjAccHelpY">Yes</div>',
           '<div class="acc-toggle" id="bbjAccHelpN">No</div>',
         '</div>',
+      '</div>',
       '</div>',
       '<button class="acc-btn" id="bbjAccSubmitBtn">Get Access &#x2192;</button>',
       '<p class="acc-tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
@@ -684,12 +744,15 @@
     document.getElementById('bbjAccX').addEventListener('click', function(){ bbjAccClose(); });
     document.getElementById('bbjAccSubmitBtn').addEventListener('click', function(){ bbjAccSubmit(); });
 
-    // Geo-aware license copy (driven by the city/region field on this card)
+    // Geo-aware license copy (driven by the region dropdown on this card)
+    var accRegionSel = document.getElementById('bbjAccCityRegion');
+    window.bbjPrefillRegion(accRegionSel);
     window.bbjWireLicense(
-      document.getElementById('bbjAccCityRegion'),
+      accRegionSel,
       document.getElementById('bbjAccLicLabel'),
       document.getElementById('bbjAccLicQ'),
-      document.getElementById('bbjAccLicSel')
+      document.getElementById('bbjAccLicSel'),
+      document.getElementById('bbjAccLicSection')
     );
 
     var ca = document.getElementById('bbjAccChipAll');
@@ -715,20 +778,21 @@
     var name  = document.getElementById('bbjAccName').value.trim();
     var email = document.getElementById('bbjAccEmail').value.trim();
     var phoneEl = document.getElementById('bbjAccPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
-    var cityRegion = document.getElementById('bbjAccCityRegion').value.trim();
+    var accReg = window.bbjParseRegion(document.getElementById('bbjAccCityRegion').value);
+    var region_metro = accReg.metro, license_state = accReg.state, cityRegion = region_metro;
     var errEl = document.getElementById('bbjAccErr');
     errEl.style.display = 'none';
 
     if(!name){ errEl.textContent='Please enter your first name.'; errEl.style.display='block'; document.getElementById('bbjAccName').focus(); return; }
     if(!email||!email.includes('@')){ errEl.textContent='Please enter a valid email address.'; errEl.style.display='block'; document.getElementById('bbjAccEmail').focus(); return; }
-    if(!cityRegion){ errEl.textContent='Please enter your city or region.'; errEl.style.display='block'; document.getElementById('bbjAccCityRegion').focus(); return; }
+    if(!cityRegion){ errEl.textContent='Please select your region.'; errEl.style.display='block'; document.getElementById('bbjAccCityRegion').focus(); return; }
 
     var btn = document.getElementById('bbjAccSubmitBtn');
     btn.disabled = true;
 
     var roles = Array.from(document.querySelectorAll('#bbjAccCard .acc-chip.selected')).map(function(c){return c.dataset.role;}).join(',');
     var licLevel   = (document.getElementById('bbjAccLicSel')||{}).value||'';
-    var licJur     = window.bbjLicState(cityRegion);
+    var licJur     = license_state;
     var helpTrain  = document.getElementById('bbjAccHelpY') && document.getElementById('bbjAccHelpY').classList.contains('selected');
     var helpJobs   = false;
 
@@ -745,9 +809,9 @@
       if(sb) {
         sb.auth.signUp({
           email: email, password: tempPass,
-          options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, roles: roles,
+          options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles,
             sms_notifications: _accSms==='yes', license_status: _accLic,
-            license_level: licLevel, license_jurisdiction: licJur, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 1 } }
+            license_level: licLevel, license_jurisdiction: licJur, help_training: helpTrain, step: 1 } }
         });
       }
     } catch(e) {}
@@ -756,7 +820,7 @@
     fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
       method:'POST', headers:{'Content-Type':'application/json'},
       body:JSON.stringify(Object.assign(bbjAttr('browse_jobs_overlay'), { type:'candidate_access', first_name:name, email:email,
-        phone:phone.replace(/\D/g,''), city_region:cityRegion, roles:roles, sms_opt:_accSms,
+        phone:phone.replace(/\D/g,''), city_region:cityRegion, region_metro:region_metro, license_state:license_state, roles:roles, sms_opt:_accSms,
         license_status:_accLic, license_level:licLevel, license_jurisdiction:licJur,
         help_training:helpTrain, help_jobs:helpJobs,
         source:window.location.href, trigger:'browse_jobs_overlay',

@@ -76,9 +76,17 @@ select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
       <label class="field-label">Email</label>
       <input id="email" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">
 
-      <label class="field-label">City or Region</label>
-      <input id="city_region" type="text" placeholder="e.g. Houston or DFW" autocomplete="address-level2" list="bbjMetros">
-      <datalist id="bbjMetros"><option value="Dallas"></option><option value="Fort Worth"></option><option value="Houston"></option><option value="San Antonio"></option><option value="Austin"></option><option value="Chicago"></option></datalist>
+      <label class="field-label">Region</label>
+      <select id="city_region">
+        <option value="">What's your region?</option>
+        <option value="Dallas|TX">Dallas, TX</option>
+        <option value="Fort Worth|TX">Fort Worth, TX</option>
+        <option value="Houston|TX">Houston, TX</option>
+        <option value="San Antonio|TX">San Antonio, TX</option>
+        <option value="Austin|TX">Austin, TX</option>
+        <option value="Chicago|IL">Chicago, IL</option>
+        <option value="other|">Other / not listed</option>
+      </select>
 
       <label class="field-label" style="font-size:0.88rem;font-weight:700;color:var(--charcoal);text-transform:none;letter-spacing:0;">What type of security jobs?</label>
       <p style="font-size:0.78rem;color:var(--muted);margin-bottom:10px;">Select all that apply.</p>
@@ -101,6 +109,7 @@ select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
       </div>
 
       <hr>
+      <div id="licSection">
       <span class="section-label" id="licLabel">Texas Security License</span>
       <p style="font-size:0.82rem;color:var(--muted);margin-bottom:10px;" id="licQ">Do you hold a Texas DPS security license?</p>
       <div class="toggle-row">
@@ -123,6 +132,7 @@ select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
           <div class="toggle-btn" id="help-no" onclick="setHelp('no')">No</div>
         </div>
       </div>
+      </div>
 
       <button class="submit-btn" id="submitBtn" onclick="submitAccess()">Get Access →</button>
       <p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>
@@ -143,7 +153,24 @@ var smsValue = '';
 var licenseValue = '';
 var helpValue = '';
 
-// ── Geo-aware license copy: switches the license question set by detected state ──
+// ── Page market from the URL path (authority for region prefill) ──
+// First path segment -> served metro + its state, or null (root/national -> ask).
+// NOT sourced from BBJ_FEED_KEY: the root homepage is Dallas-keyed but must stay neutral.
+function bbjPageMarket(){
+  var seg = (location.pathname || '').toLowerCase().replace(/^\/+|\/+$/g, '').split('/')[0];
+  var METRO = { 'dallas':{metro:'Dallas',state:'TX'}, 'fort-worth':{metro:'Fort Worth',state:'TX'},
+    'houston':{metro:'Houston',state:'TX'}, 'san-antonio':{metro:'San Antonio',state:'TX'},
+    'austin':{metro:'Austin',state:'TX'}, 'chicago':{metro:'Chicago',state:'IL'} };
+  var STATE = { 'texas':{metro:'Dallas',state:'TX'}, 'illinois':{metro:'Chicago',state:'IL'} };
+  return METRO[seg] || STATE[seg] || null;
+}
+// Split a region dropdown value "Metro|ST" into its parts.
+function bbjParseRegion(v){
+  v = v || ''; var i = v.lastIndexOf('|');
+  return i === -1 ? { metro: v, state: '' } : { metro: v.slice(0, i), state: v.slice(i + 1) };
+}
+// Dead fallback: the old free-text regex, retained for reference only. License copy
+// now comes from the region dropdown's state, never from parsing typed text.
 function bbjLicState(v){
   v = (v || '').toLowerCase();
   if (/chicago|illinois|\bil\b|naperville|aurora|joliet|schaumburg|evanston|cicero|rockford|peoria|springfield/.test(v)) return 'IL';
@@ -159,14 +186,24 @@ var BBJ_LIC = {
     opts: [['','Select one'],['unarmed','Unarmed license'],['armed','Armed license'],['both','Both']] }
 };
 (function(){
-  var cityEl = document.getElementById('city_region');
+  var regionEl = document.getElementById('city_region');
   var labelEl = document.getElementById('licLabel');
   var qEl = document.getElementById('licQ');
   var selEl = document.getElementById('license_level');
-  if (!cityEl || !selEl) return;
+  var sectionEl = document.getElementById('licSection');
+  if (!regionEl || !selEl) return;
+  // Prefill from the page's market; leave on "ask" if root/national.
+  var m = bbjPageMarket();
+  if (m) {
+    var want = m.metro + '|' + m.state;
+    for (var j = 0; j < regionEl.options.length; j++){
+      if (regionEl.options[j].value === want){ regionEl.value = want; break; }
+    }
+  }
   var cur = '__init__';
   function apply(){
-    var st = bbjLicState(cityEl.value);
+    if (sectionEl) sectionEl.style.display = regionEl.value ? '' : 'none';
+    var st = bbjParseRegion(regionEl.value).state;
     if (st === cur) return; cur = st;
     var c = BBJ_LIC[st] || BBJ_LIC[''];
     if (labelEl) labelEl.textContent = c.label;
@@ -175,8 +212,7 @@ var BBJ_LIC = {
     selEl.innerHTML = c.opts.map(function(o){ return '<option value="' + o[0] + '">' + o[1] + '</option>'; }).join('');
     for (var i = 0; i < selEl.options.length; i++){ if (selEl.options[i].value === prev){ selEl.value = prev; break; } }
   }
-  cityEl.addEventListener('input', apply);
-  cityEl.addEventListener('change', apply);
+  regionEl.addEventListener('change', apply);
   apply();
 })();
 
@@ -240,7 +276,8 @@ function setHelp(val) {
 function submitAccess() {
   var name  = document.getElementById('first_name').value.trim();
   var email = document.getElementById('email').value.trim();
-  var city_region = document.getElementById('city_region').value.trim();
+  var _reg = bbjParseRegion(document.getElementById('city_region').value);
+  var region_metro = _reg.metro, license_state = _reg.state, city_region = region_metro;
   var phone = document.getElementById('phone').value.trim();
   var errEl = document.getElementById('errMsg');
   errEl.style.display = 'none';
@@ -258,7 +295,7 @@ function submitAccess() {
     return;
   }
   if (!city_region) {
-    errEl.textContent = 'Please enter your city or region.';
+    errEl.textContent = 'Please select your region.';
     errEl.style.display = 'block';
     document.getElementById('city_region').focus();
     return;
@@ -284,12 +321,14 @@ function submitAccess() {
       first_name: name,
       email: email,
       city_region: city_region,
+      region_metro: region_metro,
+      license_state: license_state,
       phone: phone.replace(/\D/g, ''),
       roles: roles,
       sms_opt: smsValue,
       license_status: licenseValue,
       license_level: document.getElementById('license_level').value,
-      license_jurisdiction: bbjLicState(city_region),
+      license_jurisdiction: license_state,
       help_training: (helpValue === 'yes'),
       help_jobs: false,
       source: window.location.href,
