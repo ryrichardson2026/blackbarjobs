@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/unarmed-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Marksman Security",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.adzuna.com/details/5804840555",
+      "via": "via Adzuna"
+    },
     {
       "title": "Unarmed Flex Security Officer",
       "company": "Overton Security",
@@ -17,43 +27,33 @@
       "via": "via Indeed"
     },
     {
-      "title": "FULL-TIME: UNARMED SECURITY OFFICER: MON-FRI: 3PM-11PM",
-      "company": "Ameritex Guard Services Inc",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
+      "title": "TX Unarmed Guard",
+      "company": "Secure Source International",
+      "location": "Fort Worth, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Part-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=eee97606d8711718",
-      "via": "via Indeed"
+      "apply_link": "https://www.simplyhired.com/job/9iXcfQklKb7b3tWwMGWFWtUl645J8K9Li6Cdp--lZb1SBlgOD6QjIw",
+      "via": "via SimplyHired"
     },
     {
-      "title": "Armed and Unarmed Security Officer Hiring Event - 11.19.2024 - 11AM - 3PM - $16/hr and up (#96) at MSCCN Dallas, TX",
-      "company": "MSCCN",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
+      "title": "Texas Unarmed Security Guard",
+      "company": "Secure Source International",
+      "location": "Burleson, TX",
+      "pay": "22 an hour",
+      "schedule": "Part-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://paisagismocomestivel.com/vacancy/job/armed-and-unarmed-security-officer-hiring-event-11192024-11am-3pm-dollar-16hr-and-up-96-at-msccn-dallas-tx-Y0dTMDRtb3d6WTRJd01pTmVKTmVoK1BFOFE9PQ==",
-      "via": "via Paisagismocomestivel.com"
+      "apply_link": "https://www.ziprecruiter.com/c/Secure-Source-International/Job/Texas-Unarmed-Security-Guard/-in-Burleson,TX?jid=9238f7a7dea38453",
+      "via": "via ZipRecruiter"
     },
     {
-      "title": "Unarmed Security Officer- Overnight",
+      "title": "Unarmed Security Officer",
       "company": "Metro One Loss Prevention Services Group (Guard Division), Inc.",
-      "location": "Mesquite, TX",
-      "pay": "16–20 an hour",
+      "location": "Richardson, TX",
+      "pay": "22.00–22.43 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.indeed.com/viewjob?jk=25faade2c734a630",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Full-Time Campus Security Officer (Unarmed, Shiftwork Required)",
-      "company": "The Episcopal School of Dallas",
-      "location": "Dallas, TX",
-      "pay": "17 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=8caf4ef9e650c988",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=97f1da4ddacaa0a9",
       "via": "via Indeed"
     }
   ]

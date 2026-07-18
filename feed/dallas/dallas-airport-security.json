@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-airport-security",
   "market": "DFW",
   "target": "city-role",
@@ -17,14 +17,24 @@
       "via": "via Jooble"
     },
     {
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
+      "location": "Dallas, TX",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Security Officer - Airport",
       "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": "19.77 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Airport/-in-Dallas,TX?jid=d458bd79f7af7e75",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-airport/22950/97437397824",
+      "via": "via Allied Universal"
     },
     {
       "title": "Airport Checkpoint Screener; TSA",
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-29",
       "apply_link": "https://www.jobleads.com/us/job/aviation-security-officer-part-time-with-paid-training--dallas--e20e8f9e10316adaa459d7e149df2fa51",
       "via": "via JobLeads"
-    },
-    {
-      "title": "TSA Airport Security Officer",
-      "company": "Airport Security Careers",
-      "location": "Dallas, TX",
-      "pay": "48,637–59,966 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-28",
-      "apply_link": "https://workingjobfinder.com/tsa-airport-security-officer-dallas-tx",
-      "via": "via TSA Airport Security Jobs Hiring Now"
     }
   ]
 }

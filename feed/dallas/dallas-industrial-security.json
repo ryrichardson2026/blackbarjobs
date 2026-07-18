@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-industrial-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Industrial Security Specialist: ACSSO (9/80 Schedule)",
+      "company": "Harris Geospatial Solutions",
+      "location": "Plano, TX",
+      "pay": "110K–150K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/industrial-security-specialist-acsso-9-80-schedule--plano--ef9bdc257ca666ee6d17d731a958aa2a4",
+      "via": "via JobLeads"
+    },
     {
       "title": "Industrial Security Rep / CSSO with Security Clearance",
       "company": "Lockheed Martin",
@@ -45,16 +55,6 @@
       "posted_date": "2026-06-29",
       "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-clearance-required-industrial-facility/22950/97143254400",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Industrial Security Officer",
-      "company": "GD Information Technology",
-      "location": "Arlington, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.monster.com/job-openings/industrial-security-officer-arlington-tx--596fae62-95f5-472b-b318-63944da8c019",
-      "via": "via Monster"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/warehouse-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -12,7 +12,7 @@
       "location": "University Park, IL",
       "pay": "19 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-flex-warehouse-site-at-allied-universal-4441400157",
       "via": "via LinkedIn"
     },
@@ -22,9 +22,19 @@
       "location": "Joliet, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4441295361",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Securitas Global Clients America is hiring: Warehouse Security Officer in Joliet",
+      "company": "Securitas Global Clients America",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.recruit.net/job/securitas-global-clients-america-is-jobs/5205A7F098BCD6C1",
+      "via": "via Recruit.net"
     },
     {
       "title": "Securitas Global Clients America is hiring: Warehouse Security Officer in Joliet",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://jooble.org/rjdp/-2671205516922902941",
       "via": "via Jooble"
-    },
-    {
-      "title": "Warehouse Security Officer",
-      "company": "Securitas Services",
-      "location": "Joliet, IL",
-      "pay": "18.71 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.ziprecruiter.com/c/Securitas-Services/Job/Warehouse-Security-Officer/-in-Joliet,IL?jid=43396c60c12e6a82",
-      "via": "via ZipRecruiter"
     }
   ]
 }

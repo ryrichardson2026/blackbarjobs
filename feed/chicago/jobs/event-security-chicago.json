@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/event-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security & Parking Support - East Chicago",
+      "company": "Federal Protection Agency, Inc",
+      "location": "East Chicago, IN",
+      "pay": "24 an hour",
+      "schedule": "Contractor",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/east-chicago/indiana/security/5290783619/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Event Security Officer- The Chicago Theatre",
+      "company": "MSG Entertainment Holdings, LLC",
+      "location": "Chicago, IL",
+      "pay": "19.30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/MSG-Entertainment-Holdings,-LLC/Job/Event-Security-Officer-The-Chicago-Theatre/-in-Chicago,IL?jid=10a6d742f24f06c5",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "24/7 Security Services Event Staff",
+      "company": "Chicagoland Speedway",
+      "location": "Chicago, IL",
+      "pay": "31.2K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://bebee.com/us/jobs/24-7-security-services-event-staff-chicagoland-speedway-chicago--ss-us-8ctaao",
+      "via": "via BeBee"
+    },
     {
       "title": "Part-Time Unarmed Security Pro — Event Coverage",
       "company": "Extrity Services",
@@ -17,26 +47,6 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Event Security / Parking Support",
-      "company": "Federal Protection Agency, Inc",
-      "location": "East Chicago, IN",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/24-per-hour-event-security-parking-support-east-chicago-in--east-chicago--e410798ccfcf5fdccefa6c2d16b18a032",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Event Security Officer",
-      "company": "Andy Frain Services",
-      "location": "Chicago Ridge, IL",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://salutemyjob.com/jobs/event-security-officer-chicago-ridge-illinois/2872383924-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
       "title": "Event Security Officer",
       "company": "Andy Frain Services",
       "location": "Chicago Heights, IL",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://salutemyjob.com/jobs/event-security-officer-chicago-heights-illinois/2872379760-2/",
       "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Weekly Pay, Flexible-Shift Event Security (PERC)",
-      "company": "RadNet, Inc.",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/-2306392325723071495",
-      "via": "via Jooble"
     }
   ]
 }

@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/armed-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security Guard - Part-Time PTO",
+      "company": "Silver Star Protection Group",
+      "location": "Chicago, IL",
+      "pay": "23,419–27,552 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5295499281/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Security Officer – Patrol, Access Control & Response",
+      "company": "Allied Universal Janitorial Services",
+      "location": "Chicago, IL",
+      "pay": "16–22 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5290079607/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Benford Protection Group LLC is hiring: Armed Security Officer in Chicago",
       "company": "Benford Protection Group LLC",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.linkedin.com/jobs/view/armed-driver-guard-at-loomis-us-4441255013",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Pro: On-Call Patrol",
-      "company": "Extrity Services",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://us.trabajo.org/job-3991-5e49c9f18145994868d50b75cb522c65",
-      "via": "via Trabajo.org"
-    },
-    {
-      "title": "Armed Security Officer: Leadership Growth & Training",
-      "company": "Benford Protection Group LLC",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-leadership-growth-training--chicago--eb986c2cc11d486cffd4a6798b3343c7b",
-      "via": "via JobLeads"
     }
   ]
 }

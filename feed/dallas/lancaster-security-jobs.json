@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/lancaster-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/3oc0acp2zcnj-b6053a19dcf-2122e1c7d7625ca2e5d90",
+      "via": "via Marriott Jobs - Vacancies Loop"
+    },
+    {
+      "title": "Security Operations Manager at GardaWorld Security Services U.S. Lancaster, TX",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Lancaster, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://leotrombetta.com/gig/job/security-operations-manager-at-gardaworld-security-services-us-lancaster-tx-bVF3UjgyM1hXRndRTlNST3loeTA4WXpsTGc9PQ==",
+      "via": "via Leo Trombetta"
+    },
     {
       "title": "Public Safety Officer",
       "company": "Allied Universal",
@@ -27,33 +47,13 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Security Operations Manager - Full-time",
-      "company": "Kronos",
+      "title": "Paid WEEKLY! Full Time Security Officers",
+      "company": "Metro One Loss Prevention Services Group",
       "location": "Lancaster, TX",
-      "pay": null,
+      "pay": "26–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jobs.digitalhire.com/job-listing/opening/785ura1VccqNcRDirY2svH",
-      "via": "via Digitalhire"
-    },
-    {
-      "title": "Security Officer",
-      "company": "Weiser Security Services",
-      "location": "Lancaster, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Security-Officer/-in-Lancaster,TX?jid=2dbe3675d5a4fd2a",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officers (Part & Full-Time Shifts)",
-      "company": "Alliedbarton Security Services",
-      "location": "Lancaster, TX",
-      "pay": null,
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/3210949568884346411",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://jooble.org/rjdp/5945431973099707003",
       "via": "via Jooble"
     }
   ]

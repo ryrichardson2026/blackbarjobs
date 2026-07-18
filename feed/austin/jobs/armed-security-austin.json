@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "austin/jobs/armed-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed School Safety Officer",
+      "company": "Senturian One Security",
+      "location": "Austin, TX",
+      "pay": "23–24 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.glassdoor.com/job-listing/armed-school-safety-officer-senturian-one-security-JV_IC1139761_KO0,27_KE28,50.htm?jl=1010203093117",
+      "via": "via Glassdoor"
+    },
+    {
+      "title": "Emergency Response Security Officer (Armed)",
+      "company": "Armored Guards Operation Services",
+      "location": "Austin, TX",
+      "pay": "45–60 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=7c50cbc7119cd92a",
+      "via": "via Indeed"
+    },
     {
       "title": "Armed Security Officers All shifts",
       "company": "Sunstates Security",
@@ -17,43 +37,23 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Armed Security Specialist — Night Shift, Austin",
-      "company": "Cascadia Global Security / Cascadia Off-Duty",
+      "title": "Armed Security Officer - Flexible Scheduling & Growth",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "35K–55K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-specialist-night-shift-austin--austin--eab53747d77544a880575c27b08cc5eef",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-flexible-scheduling-growth--austin--ebed9692f3c348c69eccdc5f1ff6ce7cb",
       "via": "via JobLeads"
     },
     {
-      "title": "ARMED Mobile Patrol Officer - 50HRS/WK OVERNIGHTS - Take Home Patrol Vehicle",
-      "company": "Ranger Protection Agency",
+      "title": "Armed Campus Security Patrol Specialist II",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": "23 an hour",
+      "pay": "62K–72K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d0d445dc826bc994",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Commissioned ( Armed) Security Officer Needed",
-      "company": "GuardTexas",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=972d15c09d78b154",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Elite FPS Protective Security Officer (Armed)",
-      "company": "Dormont Manufacturing Co",
-      "location": "Austin, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/elite-fps-protective-security-officer-armed--austin--ef7e348878b9ffaa2f298e2f616b293fe",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/armed-campus-security-patrol-specialist-ii--austin--e03bcd10d29c636b2228f811d4b7939fa",
       "via": "via JobLeads"
     }
   ]

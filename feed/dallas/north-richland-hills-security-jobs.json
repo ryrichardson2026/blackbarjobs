@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/north-richland-hills-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,14 +7,44 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Safety and Security Associate",
+      "company": "Allied Universal",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/n7dqfboleh09-35d286e2b5ff50c-6816157-32382fbcef",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/ssrfw5qabo3h-d0593db-9da8203ade8e4e351417-661f4",
+      "via": "via Elite Hire Portal"
+    },
+    {
       "title": "Security Flex Officer - Financial Firm",
       "company": "Allied Universal",
       "location": "North Richland Hills, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-financial-firm-at-allied-universal-4441286606",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://jobs.aus.com/job/north-richland-hills/security-flex-officer-financial-firm/22950/97848329104",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Detention Center Security Officer: Night & Weekend Shifts",
+      "company": "GardaWorld Federal Services",
+      "location": "North Richland Hills, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://jooble.org/jdp/-12400568816696639",
+      "via": "via Jooble"
     },
     {
       "title": "Armed Security Officer Flex - Data Center",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-13",
       "apply_link": "https://jobs.womenforhire.com/job/usa/north-richland-hills-tx/armed-security-officer-flex-data-center-781014/",
       "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Safety and Security Coordinator",
-      "company": "Addison Group",
-      "location": "North Richland Hills, TX",
-      "pay": "80K–110K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Addison-Group/Job/Safety-and-Security-Coordinator/-in-North-Richland-Hills,TX?jid=b120adc918d9f5ed",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Lifeguard: Safeguard Guests & Respond Fast",
-      "company": "Nrhtx",
-      "location": "North Richland Hills, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/-5064582839743674738",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer Part-Time (Unarmed) (Hiring Immediately)",
-      "company": "Tarian",
-      "location": "North Richland Hills, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/security-officer-part-time-unarmed-hiring/north-richland-hills-texas?id=2864455925",
-      "via": "via WhatJobs"
     }
   ]
 }

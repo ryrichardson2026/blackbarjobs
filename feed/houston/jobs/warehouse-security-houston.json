@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/warehouse-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -10,21 +10,21 @@
       "title": "Security Professional Flex Officer- Warehouse PT",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "17.04 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jobs.aus.com/job/houston/security-professional-flex-officer-warehouse-pt/22950/97445655248",
-      "via": "via Allied Universal"
+      "posted_date": "2026-07-06",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Professional-Flex-Officer-Warehouse-PT/-in-Houston,TX?jid=46b47b881cfc6bac",
+      "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Professional Flex Officer- Warehouse PT",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
+      "title": "Security Officer - Warehouse",
+      "company": "GardaWorld",
+      "location": "North Houston, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://jobs.aus.com/job/houston/security-professional-flex-officer-warehouse-pt/22950/97445655248",
-      "via": "via Allied Universal"
+      "schedule": "Full-time",
+      "posted_date": "2026-07-03",
+      "apply_link": "https://www.adzuna.com/details/5787671499",
+      "via": "via Adzuna"
     },
     {
       "title": "Industrial/Warehouse Security (TWIC CARD)",
@@ -39,22 +39,22 @@
     {
       "title": "Security Officer - Warehouse",
       "company": "GardaWorld",
-      "location": "North Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-03",
-      "apply_link": "https://www.adzuna.com/details/5787671499",
-      "via": "via Adzuna"
-    },
-    {
-      "title": "Security Officer - Warehouse",
-      "company": "GardaWorld",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-01",
       "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---warehouse/dab9d4ba-1498-4109-a521-387ae142feb9",
       "via": "via GardaWorld - GardaWorld Security"
+    },
+    {
+      "title": "Security Guard Patrol- Warehouse",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "2.5K a month",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/security-guard-patrol-warehouse-allied-universal-us-tx-houston--theirstack-731677025",
+      "via": "via BeBee"
     }
   ]
 }

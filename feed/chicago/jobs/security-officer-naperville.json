@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/security-officer-naperville",
   "market": "Chicago",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Safety and Security Associate",
+      "company": "Allied Universal",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/ipvrh1a12d6f-0eae-54482c8cd1d5fa864a1b-4b9d2614",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "UNARMED Security Officer Job at Gamma Team Security Inc in Naperville",
+      "company": "Gamma Team Security Inc",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-at-gamma-jobs/11D4FECADFB8D7F4",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Security Officer - Patrol Driver - Overnights",
+      "company": "Allied Universal",
+      "location": "Naperville, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-overnights-at-allied-universal-4442402193",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Hospital Security Officer",
+      "company": "UW Health",
+      "location": "Naperville, IL",
+      "pay": "50K–70K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/south-naperville-willcounty/illinois/entertainment/5293227039/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Security/Loss Prevention Officer",
       "company": "O'Brien & Associates",
       "location": "Naperville, IL",
       "pay": "19–21 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.indeed.com/viewjob?jk=e6f91d9da8feed85",
       "via": "via Indeed"
-    },
-    {
-      "title": "Flexible Security Officer",
-      "company": "Allied Universal",
-      "location": "Naperville, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/3tipembvi0ac-377368801908b0c-e27-08b6e7844aa053",
-      "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Field Security Officer",
-      "company": "Allied Universal",
-      "location": "Naperville, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/q35qbxhrcxml-5c3a0-260c6eb7a902d9fb94-0e7014fde",
-      "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Security Officer",
-      "company": "Confidential",
-      "location": "Naperville, IL",
-      "pay": "22.50–24.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a545f69885bb428d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Night Lead Public Safety Officer — Hospital Security",
-      "company": "Endeavor Health",
-      "location": "Naperville, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.jobleads.com/us/job/night-lead-public-safety-officer-hospital-security--naperville--e9155ed4bdc74fc290a987acb91d85351",
-      "via": "via JobLeads"
     }
   ]
 }

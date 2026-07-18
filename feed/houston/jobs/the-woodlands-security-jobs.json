@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/the-woodlands-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officers (N)",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-n-at-securitas-security-services-usa-inc-4439239521",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Security Officer",
       "company": "Patriot Security EOC",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-16",
       "apply_link": "https://www.indeed.com/viewjob?jk=de16f399614257dc",
       "via": "via Indeed"
+    },
+    {
+      "title": "Seasonal Security Officer On-Site at Luxury Resort",
+      "company": "The Hotel at Avalon",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/seasonal-security-officer-on-site-at-luxury-resort-the-hotel-at-avalon-the-woodlands--lensa-7428_17c1eb839175406ece5f67d25ac9fcb6afa647dcbbb1ee57c8bfc2a801301197",
+      "via": "via BeBee"
     },
     {
       "title": "Security Specialist Part-Time",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-13",
       "apply_link": "https://www.linkedin.com/jobs/view/security-specialist-part-time-at-the-walt-disney-company-4439481407",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "On-Site Security & Safety Specialist (Part‑Time)",
-      "company": "The Walt Disney Company",
-      "location": "The Woodlands, TX",
-      "pay": "28K–38K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/on-site-security-safety-specialist-part-time--the-woodlands--ee4434bdba514edf61b38a13493c7659f",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Evening/Overnight Patrol Security Officer",
-      "company": "United Protective Services",
-      "location": "The Woodlands, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.trabajo.org/job-4023-354d74568067f9cdac6d340fc4b547a1",
-      "via": "via Trabajo.org"
     }
   ]
 }

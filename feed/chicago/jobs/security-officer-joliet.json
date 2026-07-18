@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/security-officer-joliet",
   "market": "Chicago",
   "target": "city",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Part-Time Security Officer",
+      "company": "Andy Frain Services",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-security-officer-joliet-illinois/2877621179-2/",
+      "via": "via SaluteMyJob"
+    },
+    {
+      "title": "Security Officer , Paid Training",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Joliet, IL",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-paid-training-securitas-security-services-usa-inc-joliet--lensa-7428_d0b45311953a22bc03efaf2012797d4d7a2956d0dade7835e2ac6bb18c1f4b20",
+      "via": "via BeBee"
+    },
+    {
       "title": "Security Officer Warehouse",
       "company": "Allied Universal",
       "location": "Joliet, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4441295361",
       "via": "via LinkedIn"
     },
@@ -27,34 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer, FT",
-      "company": "Carnegie Library of Pittsburgh",
+      "title": "Event Security Officer: Nights & Weekends",
+      "company": "Dormont Manufacturing Company",
       "location": "Joliet, IL",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
-      "apply_link": "https://www.adzuna.com/details/5800803977",
-      "via": "via Adzuna"
-    },
-    {
-      "title": "Security Officer Dispatch- 2nd Shift",
-      "company": "Hollywood Casino Joliet",
-      "location": "Joliet, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-dispatch-2nd-shift-at-hollywood-casino-joliet-4440874263",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer – Multi-Site Protection & Response",
-      "company": "Alliedbarton Security Services",
-      "location": "Joliet, IL",
-      "pay": "37K–41K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-multi-site-protection-response--joliet--ec589ace8524ce61f74d541081de805d5",
-      "via": "via JobLeads"
+      "apply_link": "https://bebee.com/us/jobs/event-security-officer-nights-weekends-dormont-manufacturing-company-joliet--lensa-7428_33b75ac6f3c15d7d28b5ef07fcfee875c62c847cd878b9cb941a5b834b55d47a",
+      "via": "via BeBee"
     }
   ]
 }

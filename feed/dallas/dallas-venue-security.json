@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-venue-security",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Asset Management Firm",
-      "company": "Allied Universal",
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
       "location": "Dallas, TX",
-      "pay": "22 an hour",
+      "pay": "14–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-asset-management-firm-at-allied-universal-4441287531",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer - Dallas TX",
-      "company": "North America Security & Select Services",
+      "title": "Security Officer Badge Review",
+      "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": "15–16 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=56ac45a4293369a4",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-review-at-allied-universal-4442433568",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officers - Dallas Office Building",
+      "company": "D&L Entertainment",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=53235639f3635b80",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Discovery District",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "21 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-discovery-district-at-allied-universal-4441286621",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer - On Call",
-      "company": "GardaWorld",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-on-call-at-gardaworld-4440267801",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Customer Care",
-      "company": "Allied Universal",
+      "title": "Regular Part Time Security Guard/Saturday & Sunday 7:00AM-7:00PM/ $16.12/hr. (Dallas, TX 75231) [DRIVER'S LICENSE REQUIRED]",
+      "company": "Admiral Security Services",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-care-at-allied-universal-4441291452",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/regular-part-time-security-guard-saturday-sunday-7-00am-7-00pm-%2416-12-hr-dallas-tx-75231-driver-s-license-required-at-admiral-security-services-4441392377",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Overnight Shift - Security Officer - Golf Cart Patrol 75230",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=aa1bcbd1f5c42fed",
+      "via": "via Indeed"
     }
   ]
 }

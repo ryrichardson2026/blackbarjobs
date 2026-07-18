@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-school-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "School Security Guard (184 day) at Paulding County School District Dallas, TX",
+      "company": "Paulding County School District",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "http://simonhudsonimages.com/library/job/school-security-guard-184-day-at-paulding-county-school-district-dallas-tx-eUk1U2NyZG80aHNDbjhwdTNMWTdrdlozRHc9PQ==",
+      "via": "via Simonhudsonimages.com"
+    },
     {
       "title": "Campus Safety Officer Full-Time Dallas School Security",
       "company": "Young World Physical Education",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Lake-Dallas,TX?jid=923717ba1818ffab",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "School Safety & Security Officer",
-      "company": "ESC Region 11",
-      "location": "Lake Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://jooble.org/jdp/2158475992858946881",
-      "via": "via Jooble"
     }
   ]
 }

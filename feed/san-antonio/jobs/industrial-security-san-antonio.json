@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/industrial-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 3,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Industrial Security Officer Hour Shifts + OT",
+      "company": "Gregg Protection Services",
+      "location": "San Antonio, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5296424995/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Industrial Security Specialist II: DoD/NISPOM Expert",
+      "company": "Boeing",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/industrial-security-specialist-ii-dod-nispom-expert-boeing-san-antonio--lensa-7428_91ab32d25c5caad7f217e7e5e3ee47900ea8099afdae5daa422bc6c1b3a8d2b7",
+      "via": "via BeBee"
+    },
     {
       "title": "Industrial Security Specialist with Security Clearance",
       "company": "Boeing",
@@ -35,26 +55,6 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/industrial-security-specialist-security-clearance-required-boeing-san-antonio--dc-5F222DAA9E90A139A478C6F5633A4855",
       "via": "via BeBee"
-    },
-    {
-      "title": "Part Time Peace Officer",
-      "company": "Trinity",
-      "location": "Olmos Park, TX",
-      "pay": "23.97–29.96 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Trinity/Job/Part-Time-Peace-Officer/-in-Olmos-Park,TX?jid=3a9a814aac5b2fbe",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Part Time Field Patrol",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
-      "via": "via Recruit.net"
     }
   ]
 }

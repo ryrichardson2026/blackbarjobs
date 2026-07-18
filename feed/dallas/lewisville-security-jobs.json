@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/lewisville-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officers",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Lewisville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4439247127",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Asset Protection Officer",
       "company": "Marriott",
@@ -37,24 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Unarmed Patrol Driver Detail",
-      "company": "Allied Universal",
-      "location": "Lewisville, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-unarmed-patrol-driver-detail/22950/97796790064",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Security Officer Driving Role Monitor",
-      "company": "Allied Universal",
+      "title": "Security Officer Job at Silver Shield in Lewisville",
+      "company": "Silver Shield",
       "location": "Lewisville, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-13",
-      "apply_link": "https://jobs.aus.com/job/lewisville/security-officer-driving-role-monitor/22950/97796789760",
-      "via": "via Allied Universal"
+      "apply_link": "https://www.recruit.net/job/security-officer-at-silver-shield-jobs/B9486231279D66BF",
+      "via": "via Recruit.net"
     }
   ]
 }

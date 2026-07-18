@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/loss-prevention-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
+      "location": "San Antonio, TX",
+      "pay": "17–30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4441959121",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Full-Time Loss Prevention Supervisor",
+      "company": "KOHLS",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://careers.kohls.com/job/R471400/Full-Time-Loss-Prevention-Supervisor",
+      "via": "via Kohls Careers"
+    },
     {
       "title": "Asset Protection Investigator — Safety, Investigations & Security",
       "company": "Walmart",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=ffe7ecc349e43a2a",
       "via": "via Indeed"
-    },
-    {
-      "title": "La Mansion | Loss Prevention Officer Overnight",
-      "company": "Omni Hotels & Resorts",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=018c8f35885d0087",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Loss Prevention Officer",
-      "company": "Marriott",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.ziprecruiter.com/c/Marriott/Job/Loss-Prevention-Officer/-in-San-Antonio,TX?jid=1aa7e6e748b37abc",
-      "via": "via ZipRecruiter"
     }
   ]
 }

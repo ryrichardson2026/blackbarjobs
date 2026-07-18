@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/fort-worth-loss-prevention",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Loss Prevention Officer- 2nd Shift",
+      "company": "Omni Hotels & Resorts",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-2nd-shift-at-omni-hotels-resorts-4440797986",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Loss Prevention Officer",
+      "company": "Omni Fort Worth",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.hcareers.com/jobs/4354806-loss-prevention-officer",
+      "via": "via Hcareers"
+    },
+    {
+      "title": "Loss Prevention - Part-time",
+      "company": "Silver Creek Materials",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.mcafeeinstitute.com/jobs/loss-prevention-part-time-fort-worth-tx",
+      "via": "via McAfee Institute"
+    },
+    {
+      "title": "Loss Prevention & Safety Specialist — Outdoor Patrol (PT)",
+      "company": "Silver Creek Materials",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-safety-specialist-outdoor-patrol-pt--fort-worth--ec3aa0b8439e357085acc3f2febdf604c",
+      "via": "via JobLeads"
+    },
     {
       "title": "Loss Prevention & Safety Lead",
       "company": "Ross Stores, Inc.",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://bebee.com/us/jobs/loss-prevention-safety-lead-ross-stores-inc-fort-worth--lensa-7428_b3fd1fe941a6210f95cadc7642ee414fe3f07d0870843a98af678a3a0ebcad10",
       "via": "via BeBee"
-    },
-    {
-      "title": "Front-Store Loss Prevention & Customer Security Associate",
-      "company": "Hunter Super Techs - TurnPoint",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://bebee.com/us/jobs/front-store-loss-prevention-customer-security-associate-hunter-super-techs-turnpoint-fort-worth--lensa-7428_28c2a668ba391563483055b63dcfb3e9a1928e676d8cd3e51064a93cd5279395",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Asset Protection Investigator",
-      "company": "Yesway",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-investigator-at-yesway-4437342241",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Loss Prevention Detective",
-      "company": "TJX",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.talent.com/view?id=617322151843402405",
-      "via": "via Talent.com"
-    },
-    {
-      "title": "Overnight Loss Prevention Officer",
-      "company": "Corporate Office",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.tealhq.com/job/overnight-loss-prevention-officer_7ea1ab78553da04851cc3a95e2fbc97a1b482",
-      "via": "via Teal"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/bedford-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,32 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Bedford, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/9y3cf7a5haee-adf303542195e2bc318ca6620fa6-6119",
+      "via": "via Marriott Jobs - Vacancies Loop"
+    },
+    {
+      "title": "Security Workforce Scheduler",
+      "company": "Aaaguards",
+      "location": "Bedford, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/bedford/texas/security/5291379299/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Public Safety Officer",
       "company": "Allied Universal",
       "location": "Bedford, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://elitehireportal.com/joblistingpage/18felyaa074h-1d17e431b65-c1a5005575-32783e152f0",
       "via": "via Elite Hire Portal"
     },
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://www.jobleads.com/us/job/administrative-specialist-part-time--bedford--e5a78d00645128f4dcdc78dcee43df9da",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Administrative & Operations Coordinator",
-      "company": "AAA Security Guard Services, LLC",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/jdp/-1377202507400332358",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer - Full Time , Rotating at Texas Health Resources Bedford, TX",
-      "company": "Texas Health Resources",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://aotvintage.com/gig/job/security-officer-full-time-rotating-at-texas-health-resources-bedford-tx-ak12RmdhQThZNjF4bE5yOUdQOURPZHRqY3c9PQ==",
-      "via": "via Aotvintage.com"
     }
   ]
 }

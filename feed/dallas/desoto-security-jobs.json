@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/desoto-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Driver Enhanced Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-enhanced-part-time-patrol-at-allied-universal-4441137733",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Part Time Patrol Driver",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-patrol-driver-at-allied-universal-4441144573",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Security Flex Officer - Hospital",
       "company": "Allied Universal",
@@ -17,6 +37,16 @@
       "via": "via Allied Universal"
     },
     {
+      "title": "Flexible Part-Time Healthcare Security Officer",
+      "company": "Allied Universal",
+      "location": "DeSoto, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/flexible-part-time-healthcare-security-officer--desoto--e87ad0e740994e73a02de25163d3cbf4e",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Security Officer Patrol Driver Required",
       "company": "Allied Universal",
       "location": "DeSoto, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-13",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-required-at-allied-universal-4439416646",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Part-Time Clinical Security Officer — Flexible Shifts",
-      "company": "Alliedbarton Security Services",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-clinical-security-officer-flexible-shifts--desoto--e1558e10df539cb4036e88d2878fee1e7",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer Full Time Unarmed Driver",
-      "company": "Allied Universal",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-unarmed-driver-at-allied-universal-4438964549",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security, Security Officer",
-      "company": "Rainbow Shops",
-      "location": "DeSoto, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.learn4good.com/jobs/desoto/texas/retail/5277955737/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

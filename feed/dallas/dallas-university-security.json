@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-university-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Campus Police Officer II: Patrol, Protect & Serve",
+      "company": "University of North Texas - Dallas",
+      "location": "Dallas, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/campus-police-officer-ii-patrol-protect-serve--dallas--e407c4c99a2744bb6861e313c3d119dde",
+      "via": "via JobLeads"
+    },
     {
       "title": "Full-Time Campus Security Officer (Unarmed, Shiftwork Required)",
       "company": "The Episcopal School of Dallas",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://www.jobilize.com/job/us-tx-dallas-commissioned-campus-security-officer-protect-serve-independent",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Campus Safety Officer Full-Time Dallas School Security",
-      "company": "Young World Physical Education",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=3a9601be1b496d9b",
-      "via": "via Indeed"
     }
   ]
 }

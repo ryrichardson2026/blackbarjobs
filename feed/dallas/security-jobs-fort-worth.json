@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/security-jobs-fort-worth",
   "market": "DFW",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer - Retail",
-      "company": "Prosegur",
+      "title": "Security Guards & VIP Protection",
+      "company": "Onlinepi",
       "location": "Fort Worth, TX",
-      "pay": "16.45–17.51 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=021165506d490bf7",
-      "via": "via Indeed"
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5296356812/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Licensed Security OPEN HOUSE Ft. Worth, TX",
-      "company": "Parrish Security Group",
+      "title": "Federal Security Manager",
+      "company": "QTS Data Centers",
       "location": "Fort Worth, TX",
-      "pay": "18 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Parrish-Security-Group/Job/Licensed-Security-OPEN-HOUSE-Ft.-Worth,-TX/-in-Fort-Worth,TX?jid=9b1a334e2c9e77c2",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/federal-security-manager-at-qts-data-centers-4442176222",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Distribution Center",
+      "title": "Security Officer Screening Coordinator",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-screening-coordinator-at-allied-universal-4442402192",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Safety and Security Associate",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-distribution-center-at-allied-universal-4441289516",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/ds1ied4oh8a7-0bd6d4-ce4f8df9a7aa1309c-f08044c19",
+      "via": "via Elite Hire Portal"
     },
     {
-      "title": "Security Officer Warehouse",
-      "company": "Allied Universal",
+      "title": "Security Officers",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "Fort Worth, TX",
-      "pay": "20 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440901940",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4439234785",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Relief Security Officer (Part-Time)",
-      "company": "Radisson Hotel",
-      "location": "Fort Worth, TX",
-      "pay": "18 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f083534c639aeba4",
-      "via": "via Indeed"
     }
   ]
 }

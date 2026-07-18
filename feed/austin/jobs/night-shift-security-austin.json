@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "austin/jobs/night-shift-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Night Patrol Security Officer",
-      "company": "GardaWorld Security Services U.S.",
+      "title": "Security Guard Overnight",
+      "company": "Crescent Hotels & Resorts",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://salutemyjob.com/jobs/night-patrol-security-officer-austin-texas/2876821157-2/",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-overnight-at-crescent-hotels-resorts-4439270124",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer - Day/Night Shifts at Critical Site (Liberty, TX)",
+      "company": "BaRupOn LLC",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://salutemyjob.com/jobs/security-officer-day-night-shifts-at-critical-site-liberty-tx-austin-texas/2878304627-2/",
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Security Officer - Night Patrol",
-      "company": "GardaWorld",
+      "title": "Federal Security Officer - Night Shift",
+      "company": "U.S. Department of Homeland Security",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "52K–78K a month",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---night-patrol/15b69c79-8c54-45fb-ae55-877d7bd79b57",
-      "via": "via GardaWorld - GardaWorld Security"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://classy-cascaron-b7297a.netlify.app/?jobs=en-job-federal-security-officer-night-shift-1781088269277",
+      "via": "via Netlify"
     },
     {
-      "title": "Night Security Officer",
-      "company": "Premier Security Solutions",
+      "title": "Overnight Security Officer — Hotel Safety & Guest Care",
+      "company": "Hyatt Hotels Corporation",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "20,664–27,552 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://odettebrainly.vercel.app/?jobs=en-job-night-security-officer-1783927901385",
-      "via": "via Vercel"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5290707589/e/",
+      "via": "via Learn4Good"
     },
     {
-      "title": "Security Mobile Patrol Officers Overnight Monday-Thursday",
-      "company": "ACT Security Group",
+      "title": "Senior Hospital Security Officer — Night Shift & Crisis Response",
+      "company": "Texas Health and Human Services",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=8127dd6b45ecbdc6",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security - Night",
-      "company": "White Lodging Careers",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://careers.whitelodging.com/jobs/17804532-security-night",
-      "via": "via White Lodging Careers"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.jobleads.com/us/job/senior-hospital-security-officer-night-shift-crisis-response--austin--e906eb73673d30ad6499b1c97e28323b7",
+      "via": "via JobLeads"
     }
   ]
 }

@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-residential-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Certified Police Officer — Patrol & Community Safety",
+      "company": "City of Missouri City, TX",
+      "location": "Missouri City, TX",
+      "pay": "72,961–84,612 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/3832103596723855749",
+      "via": "via Jooble"
+    },
     {
       "title": "Mobile Patrol Officer - Apartment Community Security",
       "company": "signal-careers",
@@ -20,41 +30,31 @@
       "title": "Security Flex Officer- Residential",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "16 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-07",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-residential-at-allied-universal-4437747109",
-      "via": "via LinkedIn"
+      "apply_link": "https://career.io/job/security-flex-officer-residential-cypress-allied-universal-ccb519017ae18c1f966ee71349449461",
+      "via": "via Career.io"
     },
     {
-      "title": "Residential Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Houston, TX",
-      "pay": "14–18 an hour",
+      "title": "Night Security Officer: Community Patrol",
+      "company": "Allied Universal",
+      "location": "The Woodlands, TX",
+      "pay": "20,664–22,041 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-residential-security",
-      "via": "via The Job Network For Security Officers"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://us.trabajo.org/job-2283-fe38a99a0d171c6013eeaa1ca353eae8",
+      "via": "via Trabajo.org"
     },
     {
-      "title": "Seeking high-profile Level 4 residential officers",
-      "company": "360 Group International, Inc.",
-      "location": "Houston, TX",
-      "pay": "38 an hour",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/Ol7ic1vSiA8KH6zyoYFOtR5iyyZn4xAtXYOtaxLTpBfvIDqr2XI-Wg",
-      "via": "via SimplyHired"
-    },
-    {
-      "title": "Residential Surveillance Agent",
-      "company": "PINKERTON | Comprehensive Risk Management",
-      "location": "Houston, TX",
-      "pay": null,
+      "title": "Residential Security Officer – Driving Patrol & Career",
+      "company": "Allied Universal",
+      "location": "The Woodlands, TX",
+      "pay": "17,047–24,280 a year",
       "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://staging.careersingovernment.com/job/1301863/residential-surveillance-agent/",
-      "via": "via Careers In Government"
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5269118105/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

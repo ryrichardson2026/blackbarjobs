@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/mobile-patrol-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,24 +7,34 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol with Active Clearance",
-      "company": "Allied Universal",
-      "location": "Rowlett, TX",
+      "title": "Overnight Shift - Security Officer - Golf Cart Patrol 75230",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/rowlett-tx/security-officer-patrol-with-active-clearance-634850/",
-      "via": "via Women For Hire- Job Board"
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=aa1bcbd1f5c42fed",
+      "via": "via Indeed"
     },
     {
-      "title": "Security Officer Patrol with Active Clearance",
+      "title": "Security Officer Patrol",
       "company": "Allied Universal",
       "location": "Allen, TX",
-      "pay": null,
+      "pay": "18 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/allen-tx/security-officer-patrol-with-active-clearance-140611/",
-      "via": "via Women For Hire- Job Board"
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4441695313",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Officer – Patrol & Protection Specialist",
+      "company": "Downtown Boulder Partnership",
+      "location": "Fort Worth, TX",
+      "pay": "55K–64K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-patrol-protection-specialist--fort-worth--edd998d1ce7b311974beb2142ddf91b0d",
+      "via": "via JobLeads"
     },
     {
       "title": "Security Officer Full Time Patrol Screening",
@@ -32,29 +42,19 @@
       "location": "Mesquite, TX",
       "pay": "18.54 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
+      "posted_date": "2026-07-16",
       "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer Site Patrol Specialist",
+      "title": "Security Officer Site Patrol",
       "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Site-Patrol-Specialist/-in-Mesquite,TX?jid=f1f97de97fce246b",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Full Time Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": "18 an hour",
+      "location": "Fort Worth, TX",
+      "pay": "19.50 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-screening-at-allied-universal-4440874143",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5295888575/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

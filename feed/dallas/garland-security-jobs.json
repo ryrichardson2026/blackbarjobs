@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/garland-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Staff Concerts",
+      "company": "Allied Universal",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-staff-concerts-at-allied-universal-4441982248",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "4233 - Security Supervisor",
+      "company": "NTT Global Data Centers",
+      "location": "Garland, TX",
+      "pay": "87.1K–124K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=b38a8ab098e327f1",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Retail Security Lead Growth, PTO & Health Benefits",
+      "company": "Marksman Security",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/retail-security-lead-growth-pto-health-benefits-marksman-security-garland--lensa-7428_dff41516175986828a63289279c77fa952522b8d1ef89ee304e89c938920cae1",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Event Security Concerts",
+      "company": "Allied Universal® Event Services",
+      "location": "Garland, TX",
+      "pay": "17.50 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.indeed.com/viewjob?jk=87bfc94ab1dabfde",
+      "via": "via Indeed"
+    },
     {
       "title": "Night Shift Security Officer - Data Center Access & CCTV",
       "company": "NTT Global Data Centers Americas, Inc.",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5287793206/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Event Security Concert",
-      "company": "Allied Universal",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/event-security-concert-at-allied-universal-4440873184",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Retail Security Officer | Mesquite, TX",
-      "company": "Marksman Security",
-      "location": "Garland, TX",
-      "pay": "21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5286092621/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Guard Enhanced Part Time Patrol",
-      "company": "Allied Universal",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://bebee.com/us/jobs/security-guard-enhanced-part-time-patrol-allied-universal-garland--techmap_us_securitycareers-alliedbarton_1631286",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Mobile Security Officer - Full-Time (Plano) | $50 Sign-On",
-      "company": "Marksman Security",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://bebee.com/us/jobs/mobile-security-officer-full-time-plano-50-sign-on-marksman-security-garland--lensa-7428_4f7e189684d07609bf55c62f1d0c585e997fcdcf1689ed5bf2034715f75b08e5",
-      "via": "via BeBee"
     }
   ]
 }

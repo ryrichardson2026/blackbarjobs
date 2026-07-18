@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/armed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed High End Retail Officer River Oaks District",
+      "company": "St. Moritz Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=29bbc1cdc2798ba3",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Mobile Patrol Specialist Part-Time",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "26,174–34,440 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5289603935/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Security Officer: Elite Team, Flexible Schedule",
+      "company": "Advanced Tactical Solutions LLC",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/armed-security-officer-elite-team-flexible-schedule-advanced-tactical-solutions-llc-houston--lensa-7428_26787c8bc07b70c55f5fd1dc0ff4e221161c0217b87310c31be0e744519a0c22",
+      "via": "via BeBee"
+    },
     {
       "title": "Armed Security Officer; Level 3 Licensed",
       "company": "Securitas Global Clients America",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.simplyhired.com/job/UGkyK9OJ67Dhwd28tETykccAwW4mUpvs6DXxnUaWV_Rx3rwie7myTw",
       "via": "via SimplyHired"
-    },
-    {
-      "title": "Security Officer Armed Patrol Driver Clearance Required",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-armed-patrol-driver-clearance-required-at-allied-universal-4440502405",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "(Armed) Security Officer/ Event Halls",
-      "company": "Miller\"s Security",
-      "location": "Houston, TX",
-      "pay": "18–20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1cc165a851e23b1c",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed Security Officers",
-      "company": "Sunstates Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100408/Armed-Security-Officers",
-      "via": "via Sunstates Security Jobs"
     }
   ]
 }

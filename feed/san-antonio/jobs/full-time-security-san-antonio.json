@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/full-time-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Full-Time Loss Prevention Supervisor",
+      "company": "KOHLS",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://careers.kohls.com/job/R471400/Full-Time-Loss-Prevention-Supervisor",
+      "via": "via Kohls Careers"
+    },
+    {
+      "title": "Full Time Security Officer",
+      "company": "United Protective Services",
+      "location": "San Antonio, TX",
+      "pay": "15–16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=14158b7dcf6489a2",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Campus Safety Officer 3rd Shift (Full-Time)",
+      "company": "The Chronicle of Higher Education",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://bebee.com/us/jobs/campus-safety-officer-3rd-shift-full-time-the-chronicle-of-higher-education-san-antonio--lensa-7428_33d7d073d67418c118c95703a61ee72d295f52ed8243ac2ee217bae55a3fc604",
+      "via": "via BeBee"
+    },
     {
       "title": "Campus Safety Officer — 3rd Shift (Full-Time)",
       "company": "The Chronicle Of Higher Education, Inc.",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://jooble.org/rjdp/5784519605763430695",
       "via": "via Jooble"
-    },
-    {
-      "title": "Campus Security Officer | Full-Time, Benefits",
-      "company": "San Antonio Academy of Texas",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://bebee.com/us/jobs/campus-security-officer-full-time-benefits-san-antonio-academy-of-texas-san-antonio--lensa-7428_15532a01d391c9ea65051bfd38abc8a56f455de3ed667a35e9a41cf87f10e159",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Part & Full Time Security Officers (Overnight Shifts)",
-      "company": "SENTRYSIX International",
-      "location": "San Antonio, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://jooble.org/rjdp/-7045560574675408978",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Campus Security Officer | Full-Time, Benefits",
-      "company": "SAN-Antonio-Academy-of-Texas",
-      "location": "San Antonio, TX",
-      "pay": "35K–50K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/campus-security-officer-full-time-benefits--san-antonio--e01c4b6280b0fb3806ca1146f84cded7f",
-      "via": "via JobLeads"
     }
   ]
 }

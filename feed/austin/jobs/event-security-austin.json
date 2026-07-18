@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,14 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Event Security - College Sporting Events",
-      "company": "Allied Universal",
+      "title": "Event Security Pro Paid Training",
+      "company": "Alliedbarton Security Services",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "16 an hour",
+      "schedule": "Part-time and Internship",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5292534165/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal® Event Services",
+      "location": "Austin, TX",
+      "pay": "18–22 an hour",
       "schedule": "Part-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.indeed.com/viewjob?jk=74f7611130499526",
+      "via": "via Indeed"
     },
     {
       "title": "Event Staff - College Sports Events",
@@ -27,6 +37,16 @@
       "via": "via LinkedIn"
     },
     {
+      "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Event Security Guard",
       "company": "A2A Sécurité",
       "location": "Austin, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-s%C3%A9curit%C3%A9-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
       "via": "via Glassdoor"
-    },
-    {
-      "title": "Event Security Specialist — Crowd Control & Access",
-      "company": "Viking Tactical Security Group",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/event-security-specialist-crowd-control-access--austin--e17c1e56e7f55ff9fce6464444f86b9b5",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Event Security Pro Paid Training",
-      "company": "Alliedbarton Security Services",
-      "location": "Austin, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time and Internship",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5271960022/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

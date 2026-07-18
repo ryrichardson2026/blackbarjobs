@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/loss-prevention-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security/Loss Prevention Officer",
+      "company": "O'Brien & Associates",
+      "location": "Chicago, IL",
+      "pay": "19–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c791b161db2e248c",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Loss Prevention Officer",
+      "company": "Marriott",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://careers.marriott.com/loss-prevention-officer/job/DA12AEA93547D1F89F02CC40F188F8EE",
+      "via": "via Marriott Careers"
+    },
+    {
+      "title": "Loss Prevention and Safety Manager",
+      "company": "SpeedX",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-and-safety-manager-at-speedx-4429987832",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Regional Loss Prevention Advisor",
       "company": "PINKERTON | Comprehensive Risk Management",
@@ -17,43 +47,13 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security / Loss Prevention Associate",
-      "company": "Gangnam Market",
-      "location": "Chicago, IL",
-      "pay": "17.02–25.00 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.indeed.com/viewjob?jk=9441c0f31abf41cd",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Asset Protection Manager: Loss Prevention & Investigations",
-      "company": "Freelanceshop",
-      "location": "Chicago Ridge, IL",
-      "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://bebee.com/us/jobs/asset-protection-manager-loss-prevention-investigations-freelanceshop-chicago-ridge--lensa-7428_3f90ccf6625ef071842ffd3e02b4eaaabbec08a18c9076e29e8d2eba74436d88",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Risk & Collections Leader: Fraud, CECL & Loss Prevention",
-      "company": "First Northern Credit Union",
+      "title": "Loss Prevention Specialist - (Chicago)",
+      "company": "FAST RETAILING CO., LTD.",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/risk-collections-leader-fraud-cecl-loss-prevention-first-northern-credit-union-chicago--lensa-7428_45aeb668451d94062dd7a7b8694b12adfacd0a676cada242578fd2ca7cc5bef2",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Overnight Security & Loss Prevention - Luxury Downtown Hotel",
-      "company": "RadNet",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/overnight-security-loss-prevention-luxury-downtown-hotel-radnet-chicago--lensa-7428_6bb40ece8fb943551ed9cbe29f34f4462e777d75f52e94cdea737ce3df9e542e",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/loss-prevention-specialist-chicago-fast-retailing-co-ltd-chicago--lensa-7428_ac1c0e2f32aa64aa65dc2fe4b62a92ff736b4806ec97b3678abe5e7ae470a2ad",
       "via": "via BeBee"
     }
   ]

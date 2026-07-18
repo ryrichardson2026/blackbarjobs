@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/unarmed-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Chicago Campus Security: Unarmed Exterior Patrol",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5294884368/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Security Officer (Unarmed) North Ave full/part time",
       "company": "Krimson Security & Fingerprinting",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-15",
       "apply_link": "https://www.indeed.com/viewjob?jk=a86c5a15ee1484d1",
       "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security , Benefits & Growth",
+      "company": "Inter-Con Security",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-security-benefits-growth-inter-con-security-chicago--lensa-7428_add400079beb6b052950ca3ac142b5e0ec9ee89bc48098db2d687711259bf669",
+      "via": "via BeBee"
     },
     {
       "title": "Part-Time Unarmed Security Pro — Event Coverage",
@@ -27,16 +47,6 @@
       "via": "via JobLeads"
     },
     {
-      "title": "Unarmed Patrol Officer - Part-Time",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": "20–22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5281283838/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Campus Security Officer - Part-Time (Unarmed, Evenings)",
       "company": "Allied Universal",
       "location": "Chicago, IL",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://jooble.org/jdp/2625373180107498934",
       "via": "via Jooble"
-    },
-    {
-      "title": "Part-Time Unarmed Security Guard — Paid Uniforms & Benefits",
-      "company": "Stark Security Inc.",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-unarmed-security-guard-paid-uniforms-benefits--chicago--efb98f047bd8d6721e03820e9c2f0c59d",
-      "via": "via JobLeads"
     }
   ]
 }

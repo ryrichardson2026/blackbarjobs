@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/att-stadium-security-jobs",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Stadium Experience Team Member",
+      "company": "BEST Crowd Management",
+      "location": "Arlington, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/stadium-experience-team-member-at-best-crowd-management-4439619027",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Stadium Event Security Specialist (Evenings/Weekends)",
+      "company": "BEST Crowd Management",
+      "location": "Arlington, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/stadium-event-security-specialist-evenings-weekends-best-crowd-management-arlington--lensa-7428_8a632072eecd776621cba54af84f115886c1839b7d87869bdc21c2f4790a1b84",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Arena Event Security Guard Part-Time",
+      "company": "Trail Drive Management Corp",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
+      "via": "via Jobilize"
+    },
     {
       "title": "Arena Event Security Guard (Part Time)",
       "company": "Dickies Arena",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-dickies-hiring",
       "via": "via Jobilize"
-    },
-    {
-      "title": "Arena Event Security Guard Part-Time",
-      "company": "Trail Drive Management Corp",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Event Security Lead - Arena Safety & Crowd Management",
-      "company": "Cowtown Coliseum",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://bebee.com/us/jobs/event-security-lead-arena-safety-crowd-management-cowtown-coliseum-fort-worth--lensa-7428_d74ba6a1555ec9928be349f7043a4afa969b459ae75e24d937cdbe639ad44343",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Stadium Event Security Specialist; Evenings​/Weekends",
-      "company": "BEST Crowd Management",
-      "location": "Arlington, TX",
-      "pay": "22,041–23,419 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/arlington/texas/security/5267611903/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

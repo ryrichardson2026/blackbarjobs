@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/denton-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,24 +7,24 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Flex Officer - Shopping Center",
-      "company": "Allied Universal",
+      "title": "Security Officers",
+      "company": "Securitas Security Services USA, Inc.",
       "location": "Denton, TX",
-      "pay": "17 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4439237496",
       "via": "via LinkedIn"
     },
     {
-      "title": "Event Security Staff - Now Hiring",
-      "company": "Andy Frain Services",
+      "title": "Security Officer; Unarmed",
+      "company": "Defense Mechanics Inc",
       "location": "Denton, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.snagajob.com/jobs/1259394735?searchResponseId=53594d63-249f-4bb6-85b9-e5e9098a2f53",
-      "via": "via Snagajob"
+      "pay": "28K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/denton/texas/security/5292638102/e/",
+      "via": "via Learn4Good"
     },
     {
       "title": "Unarmed Security Officer",
@@ -32,29 +32,29 @@
       "location": "Denton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Denton,TX?jid=9206dd75a47ea04b",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer: Patrol, Customer Service, Flexible Schedules",
-      "company": "Securitas Security Services USA, Inc.",
+      "title": "Security Officer: Patrol, Monitor, Respond Weekly Pay",
+      "company": "First Coast Security",
       "location": "Denton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4733496185057181696",
-      "via": "via Jobrapido"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-patrol-monitor-respond-weekly-pay-first-coast-security-denton--lensa-7428_0823c32b0c7942a14c337d130c32c1fc62c04352d72af709763ee11721d3cc90",
+      "via": "via BeBee"
     },
     {
-      "title": "Access Control Officer FT: Night",
-      "company": "SITEMETRIC LLC",
+      "title": "Security Officer | Growth, Training & Benefits",
+      "company": "First Coast Security",
       "location": "Denton, TX",
-      "pay": "18 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.glassdoor.com/job-listing/access-control-officer-ft-night-sitemetric-JV_IC1139980_KO0,31_KE32,42.htm?jl=1010197229712",
-      "via": "via Glassdoor"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-growth-training-benefits-first-coast-security-denton--lensa-7428_ba78cca587e2788937586e1298fc06ce895dd151af8930ef555605e8034b3640",
+      "via": "via BeBee"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/security-training-schools-san-antonio",
   "market": "San Antonio",
   "target": "city",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Part Time Field Patrol",
+      "title": "Tarian Healthcare Security Officer (Taser)",
+      "company": "Tarian",
+      "location": "San Antonio, TX",
+      "pay": "18.27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Tarian-Healthcare-Security-Officer-(Taser)/-in-San-Antonio,TX?jid=b9e014fed869c941",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Industrial Security Officer Hour Shifts + OT",
+      "company": "Gregg Protection Services",
+      "location": "San Antonio, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5296424995/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Cleared Security Operations Center Officer",
       "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://us.trabajo.org/job-4023-733411b691d5da837e411217de6b0b57",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
+      "location": "San Antonio, TX",
+      "pay": "17–30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4441959121",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Uniformed Armed Associate- Uniform Armed Secu",
+      "company": "Event Risk Inc",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
-      "via": "via Recruit.net"
-    },
-    {
-      "title": "DPS - THP - Security Specialist - 6234",
-      "company": "Texas Commission on Environmental Quality",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/dps-thp-security-specialist-6234-at-texas-commission-on-environmental-quality-4438485409",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Cleared Security Shift Supervisor - Active Clearance Requried",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "pay": "27 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/cleared-security-shift-supervisor-active-clearance-requried-at-allied-universal-4440922052",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "DPS - THP - Security Supervisor - 1581",
-      "company": "Texas Commission on Environmental Quality",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/dps-thp-security-supervisor-1581-at-texas-commission-on-environmental-quality-4440209628",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Holiday Security",
-      "company": "BlackBarJobs",
-      "location": "San Antonio, TX",
-      "pay": "13–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/holiday-security-jobs-san-antonio",
-      "via": "via The Job Network For Security Officers"
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0a577000e7ebe1a6",
+      "via": "via Indeed"
     }
   ]
 }

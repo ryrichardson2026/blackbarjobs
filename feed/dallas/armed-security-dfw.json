@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/armed-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Security officer",
+      "company": "Vets Securing America",
+      "location": "Benbrook, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=81be675711615bc9",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Armed Security Officer – Patrol & Protection Specialist",
+      "company": "Downtown Boulder Partnership",
+      "location": "Fort Worth, TX",
+      "pay": "55K–64K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-patrol-protection-specialist--fort-worth--edd998d1ce7b311974beb2142ddf91b0d",
+      "via": "via JobLeads"
+    },
     {
       "title": "FULL-TIME: ARMED SECURITY OFFICER: THURS-MON: 9PM-5AM",
       "company": "Ameritex Guard Services Inc",
@@ -17,44 +37,24 @@
       "via": "via Indeed"
     },
     {
-      "title": "Armed and Unarmed Security Officer Hiring Event - 11.19.2024 - 11AM - 3PM - $16/hr and up (#96) at MSCCN Dallas, TX",
-      "company": "MSCCN",
-      "location": "Dallas, TX",
+      "title": "Armed Security - Cash Transport",
+      "company": "GardaWorld",
+      "location": "Richardson, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://paisagismocomestivel.com/vacancy/job/armed-and-unarmed-security-officer-hiring-event-11192024-11am-3pm-dollar-16hr-and-up-96-at-msccn-dallas-tx-Y0dTMDRtb3d6WTRJd01pTmVKTmVoK1BFOFE9PQ==",
-      "via": "via Paisagismocomestivel.com"
-    },
-    {
-      "title": "Level III Armed Protection Officer (Fort Worth, Haslet, TX)",
-      "company": "National Security & Protective Services, Inc.",
-      "location": "Fort Worth, TX",
-      "pay": "19.11 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=9509c91ba4259033",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Residential Executive Protection Officer - Armed",
-      "company": "Aecon Global Security Inc",
-      "location": "Dallas, TX",
-      "pay": "28–45 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5287761533/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Security Officer Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Cleburne, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-driver-at-allied-universal-4440867394",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-cash-transport-at-gardaworld-4440755901",
       "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Security Guard",
+      "company": "Metro Crime Detection Agency (MCDA) C26221801",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eeff697a72cb85aa",
+      "via": "via Indeed"
     }
   ]
 }

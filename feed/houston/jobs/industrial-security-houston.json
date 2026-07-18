@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/industrial-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Industrial Security Officer- 77038",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4a09ffc9c4475dad",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Access Control Driver - Industrial Security (Houston)",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/access-control-driver-industrial-security-houston--houston--ea9f700af90e3a48a7deb543e11e16883",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Industrial Security Officer - Morning Part-Time",
+      "company": "Citysecurityservices",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-11",
+      "apply_link": "https://jooble.org/jdp/663999315315998134",
+      "via": "via Jooble"
+    },
     {
       "title": "TWIC Security Officer - Industrial Site (Houston)",
       "company": "Star Protection Agency (TX)",
@@ -17,26 +47,6 @@
       "via": "via BeBee"
     },
     {
-      "title": "TWIC Security Officer – Industrial Site (Houston)",
-      "company": "Star Protection Agency",
-      "location": "Channelview, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobleads.com/us/job/twic-security-officer-industrial-site-houston--channelview--eca12a46bb81d9375898e00f55008e8a7",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Roving Security Driver – Industrial Site, Baytown; Unarmed",
-      "company": "Alliedbarton Security Services",
-      "location": "Baytown, TX",
-      "pay": "14 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/baytown/texas/security/5271580215/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Industrial/Warehouse Security (TWIC CARD)",
       "company": "GuardTexas – Houston",
       "location": "Houston, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-03",
       "apply_link": "https://www.securityguardsonly.com/jobs/us/houston/guardtexas-8211-houston/industrial-warehouse-security-twic-card/",
       "via": "via Security Guards Only"
-    },
-    {
-      "title": "TWIC Industrial Officers",
-      "company": "Star Protection Agency LLC",
-      "location": "Houston, TX",
-      "pay": "13–14 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=6fd5ede9f2c7a2d8",
-      "via": "via Indeed"
     }
   ]
 }

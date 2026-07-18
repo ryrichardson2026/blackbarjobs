@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/tsa-airport-security-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Flex Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
+      "via": "via LinkedIn"
+    },
     {
       "title": "TSA Security Inspector - No Experience Required",
       "company": "Airport Security Careers",
@@ -37,24 +47,14 @@
       "via": "via Jooble"
     },
     {
-      "title": "Security Officer - Airport",
-      "company": "Allied Universal",
+      "title": "Airport Security Officer – Jet Bridge & Ramp Patrol",
+      "company": "Maximus Global Services",
       "location": "Dallas, TX",
-      "pay": "19.77 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Airport/-in-Dallas,TX?jid=d458bd79f7af7e75",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer - Airport",
-      "company": "Allied Universal",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
+      "pay": "30K–45K a year",
+      "schedule": "Full-time and Part-time",
       "posted_date": "2026-07-05",
-      "apply_link": "https://bebee.com/us/jobs/security-officer-airport-allied-universal-grapevine--fj-2242813565",
-      "via": "via BeBee"
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5261122962/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

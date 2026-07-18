@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/rowlett-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/hajrpo9c422l-ff704767daab5-4497-c717be6b97574fe",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Security Officer Patrol with Active Clearance",
       "company": "Allied Universal",
@@ -15,6 +25,16 @@
       "posted_date": "2026-07-16",
       "apply_link": "https://jobs.womenforhire.com/job/usa/rowlett-tx/security-officer-patrol-with-active-clearance-634850/",
       "via": "via Women For Hire- Job Board"
+    },
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Rowlett, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/aa6eoy6ie9u5-c688e68aad9ee6-1129d8d3be3c21ba7c",
+      "via": "via Marriott Jobs - Vacancies Loop"
     },
     {
       "title": "Public Safety Officer",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.linkedin.com/jobs/view/level-3-security-officers-dfw-area-at-macson-protection-services-4439870687",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Guard PT & FT shifts available",
-      "company": "Excelsior Defense",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobilize.com/job/us-tx-rowlett-security-guard-pt-ft-shifts-available-excelsior-defense",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Event Security Staff",
-      "company": "Andy Frain Services",
-      "location": "Rowlett, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.snagajob.com/jobs/1205254046",
-      "via": "via Snagajob"
     }
   ]
 }

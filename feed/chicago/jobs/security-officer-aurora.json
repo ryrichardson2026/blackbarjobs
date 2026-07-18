@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/security-officer-aurora",
   "market": "Chicago",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
-    {
-      "title": "Public Safety Officer",
-      "company": "Mercy Medical Center",
-      "location": "Aurora, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/public-safety-officer-at-mercy-medical-center-4440379699",
-      "via": "via LinkedIn"
-    },
     {
       "title": "Armed Security Officer Enhanced Part Time Rounds",
       "company": "Allied Universal",
@@ -25,6 +15,16 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://jobs.womenforhire.com/job/usa/aurora-co/armed-security-officer-enhanced-part-time-rounds-801189/",
       "via": "via Women For Hire- Job Board"
+    },
+    {
+      "title": "Public Safety Officer",
+      "company": "Mercy Medical Center",
+      "location": "Aurora, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.linkedin.com/jobs/view/public-safety-officer-at-mercy-medical-center-4440379699",
+      "via": "via LinkedIn"
     },
     {
       "title": "Security Officers Licensed - 2 -3 Shifts- Recognized Top Workplace - Aurora",

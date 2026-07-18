@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/fort-worth-event-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Event Security Guard",
+      "company": "Trail Drive Management Corp.",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-guard-at-trail-drive-management-corp-4441628096",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Arena Event Security Guard Part-Time",
+      "company": "Trail Drive Management Corp",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
+      "via": "via Jobilize"
+    },
     {
       "title": "Arena Event Security Guard (Part Time)",
       "company": "Dickies Arena",
@@ -27,16 +47,6 @@
       "via": "via Jobilize"
     },
     {
-      "title": "Arena Event Security Guard Part-Time",
-      "company": "Trail Drive Management Corp",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobilize.com/job/us-tx-fort-worth-arena-event-security-guard-part-time-trail-drive",
-      "via": "via Jobilize"
-    },
-    {
       "title": "Event Security Lead - Arena Safety & Crowd Management",
       "company": "Cowtown Coliseum",
       "location": "Fort Worth, TX",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://bebee.com/us/jobs/event-security-lead-arena-safety-crowd-management-cowtown-coliseum-fort-worth--lensa-7428_d74ba6a1555ec9928be349f7043a4afa969b459ae75e24d937cdbe639ad44343",
       "via": "via BeBee"
-    },
-    {
-      "title": "Arena Event Security Guard",
-      "company": "Dickies Arena",
-      "location": "Fort Worth, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://www.jobleads.com/us/job/arena-event-security-guard-part-time--fort-worth--e6c43a3e754c199de57532036ff380b06",
-      "via": "via JobLeads"
     }
   ]
 }

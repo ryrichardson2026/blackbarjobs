@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "austin/jobs/university-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -8,13 +8,23 @@
   "jobs": [
     {
       "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal® Event Services",
+      "location": "Austin, TX",
+      "pay": "18–22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=74f7611130499526",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Officer: Tech Campus Patrol (Night Shifts)",
       "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
-      "schedule": "Part-time",
+      "schedule": "Full-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
-      "via": "via LinkedIn"
+      "apply_link": "https://jooble.org/jdp/-7610239167730681839",
+      "via": "via Jooble"
     },
     {
       "title": "Event Staff - College Sports Events",
@@ -27,34 +37,24 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Full Time Security Officer Needed for University (Security) (Hiring Immediately)",
-      "company": "GuardTexas",
+      "title": "Event Security - College Sporting Events",
+      "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.whatjobs.com/jobs/full-time-security-officer-needed/austin-texas?id=2878788879",
-      "via": "via WhatJobs"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Full Time Security Officer Needed for University Environment (Security)",
-      "company": "GuardTexas",
+      "title": "Armed Campus Security Patrol Specialist II",
+      "company": "Allied Universal",
       "location": "Austin, TX",
-      "pay": null,
+      "pay": "62K–72K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.tealhq.com/job/security-officer_7ea1a5d959f09cf427f988a741e66461493ee",
-      "via": "via Teal"
-    },
-    {
-      "title": "Full Time Security Officer Needed for University Environment",
-      "company": "GuardTexas",
-      "location": "Austin, TX",
-      "pay": "18–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d302b1aaea2fca43",
-      "via": "via Indeed"
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/armed-campus-security-patrol-specialist-ii--austin--e03bcd10d29c636b2228f811d4b7939fa",
+      "via": "via JobLeads"
     }
   ]
 }

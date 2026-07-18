@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/warehouse-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -19,42 +19,42 @@
     {
       "title": "Security Officer Distribution Center",
       "company": "Allied Universal",
-      "location": "Fort Worth, TX",
+      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-distribution-center-at-allied-universal-4441289516",
-      "via": "via LinkedIn"
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-distribution-center/22950/97929114064",
+      "via": "via Allied Universal"
     },
     {
       "title": "Security Officer Warehouse",
       "company": "Allied Universal",
       "location": "Sunnyvale, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440625467",
-      "via": "via LinkedIn"
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a5be6b2a298c7c1c",
+      "via": "via Indeed"
     },
     {
-      "title": "Security Officer Warehouse",
+      "title": "Security Officer Distribution Center",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
-      "pay": "20 an hour",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-warehouse-at-allied-universal-4440901940",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.indeed.com/viewjob?jk=671fc81002a031c2",
+      "via": "via Indeed"
     },
     {
-      "title": "Site Supervisor - Warehouse",
+      "title": "Security Officer Secure Entrance Distribution Center",
       "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "20 an hour",
+      "location": "Dallas, TX",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/site-supervisor-warehouse-at-allied-universal-4440912380",
-      "via": "via LinkedIn"
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-secure-entrance-distribution-center/22950/97884944400",
+      "via": "via Allied Universal"
     }
   ]
 }

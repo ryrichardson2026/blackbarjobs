@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/baytown-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Security Officer Enhanced Part Time Driver Circuit",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=54c32446361e5fb6",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Security Officer Patrol Driver Customer Care",
+      "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-customer-care-at-allied-universal-4442135563",
+      "via": "via LinkedIn"
+    },
+    {
       "title": "Level 3 & Level 4 Security Officers (Baytown, TX)",
       "company": "PPi Security",
       "location": "Baytown, TX",
-      "pay": "20–30 an hour",
+      "pay": "3,467–5,200 a month",
       "schedule": "Contractor",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=748867b7ac2efca6",
-      "via": "via Indeed"
+      "apply_link": "https://bebee.com/us/jobs/level-3-level-4-security-officers-baytown-tx-ppi-security-baytown-tx--t7xk-765906332",
+      "via": "via BeBee"
     },
     {
-      "title": "Flexible Security Officer",
+      "title": "Security Officer Driver Visitor Screening",
       "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": null,
+      "pay": "15.95 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://elitehireportal.com/joblistingpage/5ecjl8pf5e8f-02a-2bd11b0d2ff690b5b56d7b961-8467",
-      "via": "via Elite Hire Portal"
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Driver-Visitor-Screening/-in-Baytown,TX?jid=ecf78feb0a094b88",
+      "via": "via ZipRecruiter"
     },
     {
-      "title": "Field Security Officer",
+      "title": "Security Officer Credential Check Driver",
       "company": "Allied Universal",
       "location": "Baytown, TX",
-      "pay": null,
+      "pay": "17.09 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/4a1tak2ecrm2-23ec610fa-86bdac1-b1e87272eed65b13",
-      "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Security Supervisor",
-      "company": "Zephyr One Security LLC",
-      "location": "Baytown, TX",
-      "pay": "30K a year",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=1686eea1a346d17e",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Part-Time Weekend Unarmed Security Officer - Baytown TX",
-      "company": "Maximal Security Services",
-      "location": "Baytown, TX",
-      "pay": "16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Maximal-Security-Services/Job/Part-Time-Weekend-Unarmed-Security-Officer-Baytown-TX/-in-Baytown,TX?jid=67db836444ac941f",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Credential-Check-Driver/-in-Baytown,TX?jid=1f26cd7a4858f1ba",
       "via": "via ZipRecruiter"
     }
   ]

@@ -1,11 +1,51 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/unarmed-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Unarmed Night-Shift Security Driver Patrol",
+      "company": "Houston Dose",
+      "location": "Houston, TX",
+      "pay": "19,286–22,041 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5293520261/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Unarmed Security Officer Job at The Root Restaurant & Bar in Houston",
+      "company": "The Root Restaurant & Bar",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-at-root-jobs/B20730A360358DDA",
+      "via": "via Recruit.net"
+    },
+    {
+      "title": "Security Guard Unarmed Patrol Detail",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://jobs.aus.com/job/houston/security-guard-unarmed-patrol-detail/22950/97892860224",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Houston,TX?jid=948fa4f8ad436596",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Unarmed Level II Security Officer | Houston, TX | PTO & Benefits",
       "company": "TriCorps",
@@ -15,46 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.jobleads.com/us/job/unarmed-level-ii-security-officer-houston-tx-pto-benefits--houston--e2408107cc26467eb0eee1030ecf00b38",
       "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer Unarmed Badge Verification",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://jobs.aus.com/job/houston/security-officer-unarmed-badge-verification/22950/97752422512",
-      "via": "via Allied Universal"
-    },
-    {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-Houston,TX?jid=948fa4f8ad436596",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Security Officer- Full Time (HOUS47)",
-      "company": "SEI, Inc. Security",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.whatjobs.com/jobs/unarmed-security-officer-full-time/houston-texas?id=2880850921",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Unarmed Security Officer: CCTV & Incident Response",
-      "company": "DeKalb Health",
-      "location": "Houston, TX",
-      "pay": "22.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5276383297/e/",
-      "via": "via Learn4Good"
     }
   ]
 }

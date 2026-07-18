@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/pasadena-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officers (S)",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Pasadena, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-s-at-securitas-security-services-usa-inc-4439234766",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Armed Driver Patrol Officer - Part-Time",
+      "company": "Allied Universal",
+      "location": "Pasadena, TX",
+      "pay": "21,025–29,945 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/pasadena/texas/security/5293758488/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Flexible Security Officer",
       "company": "Allied Universal",
@@ -17,14 +37,14 @@
       "via": "via Elite Hire Portal"
     },
     {
-      "title": "Field Security Officer",
-      "company": "Allied Universal",
+      "title": "Security Officer FT, Days/Evenings/Nights",
+      "company": "Huntington Health",
       "location": "Pasadena, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/aqn5hc3kal6e-7ff1523d96943cc-b7013fcf86bf0-b0cc",
-      "via": "via Elite Hire Portal"
+      "apply_link": "https://www.tealhq.com/job/security-officer_7ea1afb19b947d96c2c324e7deccae963a93d",
+      "via": "via Teal"
     },
     {
       "title": "Public Safety Officer",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-15",
       "apply_link": "https://elitehireportal.com/joblistingpage/6lltg8ha17ya-fef3-e1fc30eac2d7ca4aa4e7c5-5670c2",
       "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Level 2 Non Commissioned Officer",
-      "company": "Security King LLC",
-      "location": "Pasadena, TX",
-      "pay": "15 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Security-King/Job/Level-2-Non-Commissioned-Officer/-in-Remote,US?jid=0f8335f81486d35e",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer TWIC Part Time Driver",
-      "company": "Allied Universal",
-      "location": "Pasadena, TX",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-twic-part-time-driver-at-allied-universal-4440360170",
-      "via": "via LinkedIn"
     }
   ]
 }

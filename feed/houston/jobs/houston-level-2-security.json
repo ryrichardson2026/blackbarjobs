@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-level-2-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Overnight Level II Rover",
+      "company": "St. Moritz Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=43bf657a7cac9035",
+      "via": "via Indeed"
+    },
     {
       "title": "Security Guard - Level II Certification",
       "company": "Katy Independent School District",
@@ -27,6 +37,16 @@
       "via": "via JobLeads"
     },
     {
+      "title": "Unarmed Level II Security Officer | Houston, TX | PTO & Benefits",
+      "company": "TriCorps",
+      "location": "Houston, TX",
+      "pay": "39K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-level-ii-security-officer-houston-tx-pto-benefits--houston--e2408107cc26467eb0eee1030ecf00b38",
+      "via": "via JobLeads"
+    },
+    {
       "title": "Level II Security Guard - Part-Time Staff, Flexible Hours",
       "company": "S.A.F.E. Management",
       "location": "Houston, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://bebee.com/us/jobs/level-ii-security-guard-part-time-staff-flexible-hours-safe-management-houston--lensa-7428_d8b7771790e4a8a8ae7b003916e39e600cc7c9a492ef989a5d8aa6405a7399f9",
       "via": "via BeBee"
-    },
-    {
-      "title": "Level II Security Guard – Part-Time",
-      "company": "S.A.F.E. Management",
-      "location": "Houston, TX",
-      "pay": "16–22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/entertainment/5269659469/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Security Guard - Level II Certification -187 days",
-      "company": "Katy Independent School District",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.ziprecruiter.com/c/Katy-Independent-School-District/Job/Security-Guard-Level-II-Certification-187-days/-in-Houston,TX?jid=aadc20134d5225cf",
-      "via": "via ZipRecruiter"
     }
   ]
 }

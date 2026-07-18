@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/hotel-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Guest-Focused Security Officer - Hotel",
+      "company": "The Facilities Group",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/guest-focused-security-officer-hotel-the-facilities-group-chicago--lensa-7428_17d94c1e85dfe4a0da2a1417837454819fdfa2fb349805ee884a4f9e6e74ad15",
+      "via": "via BeBee"
+    },
     {
       "title": "Hotel is hiring: Security Officer in Chicago",
       "company": "Hotel",
@@ -27,6 +37,16 @@
       "via": "via BeBee"
     },
     {
+      "title": "Hotel Security Officer | Guest Safety & Incident Response",
+      "company": "Hyatt",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-11",
+      "apply_link": "https://bebee.com/us/jobs/hotel-security-officer-guest-safety-incident-response-hyatt-chicago--lensa-7428_6fdf1b775cab3af5e69d418d6ee9bfb322f47a462bfa6726169cf99420571fd2",
+      "via": "via BeBee"
+    },
+    {
       "title": "Door Concierge / Hospitality Security Staff - Late Nights, Evenings",
       "company": "Gus' Sip & Dip",
       "location": "Chicago, IL",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://www.indeed.com/viewjob?jk=0b8f87daf4d8aac6",
       "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer — CPR/First Aid Certified (Luxury Hotel)",
-      "company": "Sage Restaurant Group",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-cpr-first-aid-certified-luxury-hotel--chicago--e1ce3edc78b1ac166dcdf27fadec21f56",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Seasonal Security Officer - DoubleTree by Hilton Hotel Chicago Magnificent Mile",
-      "company": "Hilton Worldwide Holdings Inc",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.monster.com/job-openings/seasonal-security-officer-doubletree-by-hilton-hotel-chicago-magnificent-mile-chicago-il--93d12745-4d03-4065-bcb7-9c4b58076a14",
-      "via": "via Monster"
     }
   ]
 }

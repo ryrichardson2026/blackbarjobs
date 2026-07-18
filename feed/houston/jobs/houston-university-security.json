@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-university-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Campus Safety & Security Officer — Part-Time",
+      "company": "Houston City College",
+      "location": "Houston, TX",
+      "pay": "19,286–24,796 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5289616263/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Campus Security Officer; Part-Time – Protect & Assist",
+      "company": "Houston Community College",
+      "location": "Houston, TX",
+      "pay": "14–22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5290174590/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Assistant Chief of Police — Campus Safety Leader",
+      "company": "Texas Southern University",
+      "location": "Houston, TX",
+      "pay": "98K–129K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/assistant-chief-of-police-campus-safety-leader--houston--eaa75125fe53ffb497f74f600cbffaef7",
+      "via": "via JobLeads"
+    },
     {
       "title": "Campus Security Officer — Full-Time Patrol & Emergency Response",
       "company": "Houston Community College",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-11",
       "apply_link": "https://jooble.org/jdp/3397893006404371518",
       "via": "via Jooble"
-    },
-    {
-      "title": "Campus Safety Patrol & Visitor Support",
-      "company": "Pasadena Independent School District",
-      "location": "South Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/-2944860681536667472",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Campus Safety Patrol Officer - Protect Students",
-      "company": "Young World Physical Education",
-      "location": "Houston, TX",
-      "pay": "63,857–88,115 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/jdp/-7060855220371915556",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Campus Safety Officer",
-      "company": "New Caney Independent School District",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/campus-safety-officer-at-new-caney-independent-school-district-4439312121",
-      "via": "via LinkedIn"
     }
   ]
 }

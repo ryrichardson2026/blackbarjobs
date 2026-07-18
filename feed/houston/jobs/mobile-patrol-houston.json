@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/mobile-patrol-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Patrol Response Specialist",
+      "title": "Security Officer Customer Service Driver Patrol",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": "14 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-specialist-at-allied-universal-4441290437",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-driver-patrol-at-allied-universal-4441940324",
       "via": "via LinkedIn"
     },
     {
-      "title": "Shopping Center Patrol Driver — Security Officer",
-      "company": "Alliedbarton Security Services",
+      "title": "Unarmed Night-Shift Security Driver Patrol",
+      "company": "Houston Dose",
       "location": "Houston, TX",
-      "pay": "36K–42K a year",
+      "pay": "19,286–22,041 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5287740520/e/",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5293520261/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Security Officer Perimeter Patrol",
+      "title": "Night Patrol Concierge — Customer-Focused Security",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Perimeter-Patrol/-in-Houston,TX?jid=9e0aaf38dcd8c544",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Guard Vehicle Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-vehicle-patrol-driver-at-allied-universal-4440863510",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Flexible Shift Security Officer: Patrol, Access & Safety",
-      "company": "Security Engineers, Inc",
-      "location": "Houston, TX",
-      "pay": null,
+      "pay": "21,042 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/flexible-shift-security-officer-patrol-access-safety--houston--e7e7a84109d4c5212d14f3005470ae45c",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5293636065/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Security Officer Enhanced Part Time Patrol Unit",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-patrol-unit/22950/97937258576",
+      "via": "via Allied Universal"
+    },
+    {
+      "title": "Armed Mobile Patrol Specialist Part-Time",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "26,174–34,440 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5289603935/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

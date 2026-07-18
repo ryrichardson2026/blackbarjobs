@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/katy-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Patrol Driver Role",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-driver-role-at-allied-universal-4442125926",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Safety and Security Associate",
+      "company": "Allied Universal",
+      "location": "Katy, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/3acr09ozp0tb-d1db4-621ec425df6640f775b02c-2f692",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Field Security Officer",
       "company": "Allied Universal",
@@ -27,34 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Public Safety Officer",
-      "company": "Allied Universal",
+      "title": "Healthcare Security Officer: Patient & Asset Protection",
+      "company": "Houston Methodist",
       "location": "Katy, TX",
-      "pay": null,
+      "pay": "30K–45K a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/or6ab73cnltj-e4dae355-b6ba6c191b53d919fa3-6a555",
-      "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Flexible Security Officer",
-      "company": "Allied Universal",
-      "location": "Katy, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/f91momta76c3-d7c9c43fdffc-83ae2e1468ce2c0e4-a4b",
-      "via": "via Elite Hire Portal"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Credentialing",
-      "company": "Allied Universal",
-      "location": "Katy, TX",
-      "pay": "15 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-credentialing-at-allied-universal-4440352437",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patient-asset-protection--katy--e1779f7c1d021fff1740c8924282e8ab9",
+      "via": "via JobLeads"
     }
   ]
 }

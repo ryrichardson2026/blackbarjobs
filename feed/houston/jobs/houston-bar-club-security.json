@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-bar-club-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 2,
+  "exact": 3,
   "jobs": [
+    {
+      "title": "Unarmed Security Officer Job at The Root Restaurant & Bar in Houston",
+      "company": "The Root Restaurant & Bar",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.recruit.net/job/unarmed-security-officer-at-root-jobs/B20730A360358DDA",
+      "via": "via Recruit.net"
+    },
     {
       "title": "Security Officer - Bouncer - Must have Retail / Bouncer experience",
       "company": "NARROW SECURITY",
@@ -27,34 +37,24 @@
       "via": "via Craigslist"
     },
     {
-      "title": "Security Site Lead",
-      "company": "Fluidstack",
-      "location": "Houston, TX",
-      "pay": "200K–250K a year",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-site-lead-at-fluidstack-4440261244",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Level 3 & Level 4 Security Officers (Baytown, TX)",
-      "company": "PPi Security",
-      "location": "Baytown, TX",
-      "pay": "20–30 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=748867b7ac2efca6",
+      "title": "Security Officer Evening Shift (Round One)",
+      "company": "Professional Security Consultants",
+      "location": "Humble, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=dc09735196fbc5a3",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Patrol Response Specialist",
-      "company": "Allied Universal",
+      "title": "Central Parkway Security Officer77092",
+      "company": "Prevail Security Services",
       "location": "Houston, TX",
-      "pay": "14 an hour",
+      "pay": "15.00–15.50 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-specialist-at-allied-universal-4441290437",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a7f1319507889217",
+      "via": "via Indeed"
     }
   ]
 }

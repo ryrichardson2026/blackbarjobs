@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/carrollton-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officers",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Carrollton, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4439234683",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Security Flex Officer Logistics Facility",
       "company": "Allied Universal",
@@ -17,14 +27,14 @@
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer - No Experience Needed | Weekly Pay",
-      "company": "Securitas Security Services USA, Inc.",
+      "title": "Security Officer Access Services Specialist",
+      "company": "Allied Universal",
       "location": "Carrollton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/7086064040404844544",
-      "via": "via Jobrapido"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://jobs.aus.com/job/carrollton/security-officer-access-services-specialist/22950/97943373504",
+      "via": "via Allied Universal"
     },
     {
       "title": "Patrol Security Officer with Security Clearance",
@@ -37,24 +47,14 @@
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Security Officers",
+      "title": "Security Officer - No Experience Needed | Weekly Pay",
       "company": "Securitas Security Services USA, Inc.",
-      "location": "Carrollton, TX",
-      "pay": "14–19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officers-at-securitas-security-services-usa-inc-4435997470",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
-      "company": "Valor Force",
       "location": "Carrollton, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Carrollton,TX?jid=ba61f97420b206e0",
-      "via": "via ZipRecruiter"
+      "posted_date": "2026-07-11",
+      "apply_link": "https://us.jobrapido.com/jobpreview/7086064040404844544",
+      "via": "via Jobrapido"
     }
   ]
 }

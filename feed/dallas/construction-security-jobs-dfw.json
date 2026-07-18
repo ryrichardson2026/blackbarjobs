@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/construction-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
-  "exact": 4,
+  "exact": 3,
   "jobs": [
+    {
+      "title": "Regional Construction Site Security Lead",
+      "company": "Turner & Townsend",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/regional-construction-site-security-lead-turner-townsend-dallas--lensa-7428_cee5cfb0c495473e9f78aa2e019ef47b68ee8184951c0386f049d5cef144838c",
+      "via": "via BeBee"
+    },
     {
       "title": "Construction Site Security Manager",
       "company": "Turner & Townsend",
@@ -15,26 +25,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://simplify.jobs/p/ebcc327b-15b3-4893-a5bb-7741122ab668/Construction-Site-Security-Manager",
       "via": "via Simplify"
-    },
-    {
-      "title": "Construction Flex Security Officer at Garda World Security Corporation Flower Mound, TX",
-      "company": "Garda World Security Corporation",
-      "location": "Flower Mound, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://moraltheologian.com/career/job/construction-flex-security-officer-at-garda-world-security-corporation-flower-mound-tx-UTNOWDZzTzducHp6WnRTMU5OSHNEb1habUE9PQ==",
-      "via": "via Moral Theologian"
-    },
-    {
-      "title": "Regional Construction Site Security Manager",
-      "company": "Turner & Townsend",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/regional-construction-site-security-manager-at-turner-townsend-4432677440",
-      "via": "via LinkedIn"
     },
     {
       "title": "Construction Site Safety / Security - Data Center Construction",
@@ -47,13 +37,23 @@
       "via": "via Teal"
     },
     {
-      "title": "Security Flex Officer - Shopping Center",
+      "title": "Security Flex Officer - Airport",
       "company": "Allied Universal",
-      "location": "Denton, TX",
-      "pay": "17 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
+      "location": "Grapevine, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
+      "location": "Dallas, TX",
+      "pay": "14–27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
       "via": "via LinkedIn"
     }
   ]

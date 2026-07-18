@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/overnight-warehouse-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -7,53 +7,53 @@
   "exact": 0,
   "jobs": [
     {
-      "title": "Security Site Lead",
-      "company": "Fluidstack",
-      "location": "Houston, TX",
-      "pay": "200K–250K a year",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-site-lead-at-fluidstack-4440261244",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Level 3 & Level 4 Security Officers (Baytown, TX)",
-      "company": "PPi Security",
-      "location": "Baytown, TX",
-      "pay": "20–30 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=748867b7ac2efca6",
+      "title": "Security Officer Evening Shift (Round One)",
+      "company": "Professional Security Consultants",
+      "location": "Humble, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=dc09735196fbc5a3",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Patrol Response Specialist",
-      "company": "Allied Universal",
+      "title": "Central Parkway Security Officer77092",
+      "company": "Prevail Security Services",
       "location": "Houston, TX",
-      "pay": "14 an hour",
+      "pay": "15.00–15.50 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-response-specialist-at-allied-universal-4441290437",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a7f1319507889217",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Unarmed Security Guard",
+      "company": "All Nation Security Services, Inc.",
+      "location": "Willis, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.ziprecruiter.com/c/All-Nation-Security-Services/Job/Unarmed-Security-Guard/-in-Willis,TX?jid=07efc238dfd0234b",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
+      "location": "League City, TX",
+      "pay": "17–30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4423341346",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Visitor Management",
-      "company": "Allied Universal",
+      "title": "Industrial Security Officer- 77038",
+      "company": "United Protective Services",
       "location": "Houston, TX",
-      "pay": "14 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-visitor-management-at-allied-universal-4441293344",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Level 3 & Level 4 Security Officers (Part-Time)",
-      "company": "PPI Security",
-      "location": "Houston, TX",
-      "pay": "30–35 an hour",
-      "schedule": "Contractor",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=ce744ec5ec96edb1",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=4a09ffc9c4475dad",
       "via": "via Indeed"
     }
   ]

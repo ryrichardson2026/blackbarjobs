@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/sugar-land-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Unarmed Security Guard: Patrols, Dispatch",
+      "company": "J Holdings",
+      "location": "Sugar Land, TX",
+      "pay": "32K–46K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/sugar-land/texas/security/5290109946/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Flexible Security Officer",
       "company": "Allied Universal",
       "location": "Sugar Land, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://elitehireportal.com/joblistingpage/d70io9ipc3o5-da6cb0e0b3-74d987d255fb66-e420d0c1",
       "via": "via Elite Hire Portal"
     },
@@ -27,6 +37,16 @@
       "via": "via Elite Hire Portal"
     },
     {
+      "title": "Retail Security Officer",
+      "company": "Marksman Security LLC",
+      "location": "Sugar Land, TX",
+      "pay": "15.81 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security-LLC/Job/Retail-Security-Officer/-in-Sugar-Land,TX?jid=4e4c67a0c1c57184",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Security Officer Driver Patrol",
       "company": "Allied Universal",
       "location": "Sugar Land, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-14",
       "apply_link": "https://www.linkedin.com/jobs/view/security-officer-driver-patrol-at-allied-universal-4440863486",
       "via": "via LinkedIn"
-    },
-    {
-      "title": "Hospital Security Officer – Patient-Centric Safety",
-      "company": "Memorial Hermann Health System",
-      "location": "Sugar Land, TX",
-      "pay": "20,664–30,307 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.learn4good.com/jobs/sugar-land/texas/security/5286165454/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Hospital Security Officer: Patrol, Dispatch & Surveillance",
-      "company": "CHI",
-      "location": "Sugar Land, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.jobleads.com/us/job/hospital-security-officer-patrol-dispatch-surveillance--sugar-land--e2b432f7a93d4216440afa46032ff73d1",
-      "via": "via JobLeads"
     }
   ]
 }

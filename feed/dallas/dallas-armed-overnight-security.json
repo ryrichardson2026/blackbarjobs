@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-armed-overnight-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
-  "exact": 1,
+  "exact": 3,
   "jobs": [
     {
       "title": "Armed Security Officer- Part Time - Overnight Weekends at Walden Security Dallas, TX",
@@ -17,43 +17,43 @@
       "via": "via Mod Media"
     },
     {
-      "title": "Security Flex Officer - Shopping Center",
-      "company": "Allied Universal",
-      "location": "Denton, TX",
-      "pay": "17 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Asset Management Firm",
-      "company": "Allied Universal",
+      "title": "Overnight Armed Security Professional",
+      "company": "Performance One Security",
       "location": "Dallas, TX",
-      "pay": "22 an hour",
+      "pay": "3,120–3,640 a month",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-asset-management-firm-at-allied-universal-4441287531",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/overnight-armed-security-professional-performance-one-security-dallas-tx--theirstack-731535886",
+      "via": "via BeBee"
+    },
+    {
+      "title": "Security Officer- Armed Overnight",
+      "company": "GardaWorld",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/gardaworld/security-officer-armed-overnight-34585087/",
+      "via": "via Talents By Vaia"
+    },
+    {
+      "title": "Security Flex Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer - Retail",
-      "company": "Prosegur",
-      "location": "Fort Worth, TX",
-      "pay": "16.45–17.51 an hour",
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
+      "location": "Dallas, TX",
+      "pay": "14–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=021165506d490bf7",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Customer Service",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-at-allied-universal-4441289505",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
       "via": "via LinkedIn"
     }
   ]

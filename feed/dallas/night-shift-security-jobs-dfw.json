@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/night-shift-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Unarmed Security Officer- Overnight",
-      "company": "Metro One Loss Prevention Services Group (Guard Division), Inc.",
-      "location": "Mesquite, TX",
-      "pay": "16–20 an hour",
+      "title": "Night Security Guard",
+      "company": "TPG Hotels & Resorts",
+      "location": "Highland Park, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.indeed.com/viewjob?jk=25faade2c734a630",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.adzuna.com/details/5805709019",
+      "via": "via Adzuna"
+    },
+    {
+      "title": "Overnight Shift - Security Officer - Golf Cart Patrol 75230",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=aa1bcbd1f5c42fed",
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer (Overnight) - Hilton Anatole",
-      "company": "Hilton",
+      "title": "Night Patrol & Response Driver — Retail Security",
+      "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": null,
+      "pay": "28,288–38,272 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-overnight-hilton-anatole-at-hilton-4432515854",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Night Shift Security Officer - Data Center Access & CCTV",
-      "company": "NTT Global Data Centers Americas, Inc.",
-      "location": "Garland, TX",
-      "pay": "17–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5287793206/e/",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5295570773/e/",
       "via": "via Learn4Good"
     },
     {
-      "title": "Overnight Security Guard — Vigilant Patrol & Safety",
-      "company": "Dunbar Security Solutions",
-      "location": "Fort Worth, TX",
+      "title": "Security (Overnight)",
+      "company": "Peachtree Group",
+      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/overnight-security-guard-vigilant-patrol-safety--fort-worth--e5c0e7faaf06877b4b4d36a84e7c770f4",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-overnight-at-peachtree-group-4441118858",
+      "via": "via LinkedIn"
     },
     {
-      "title": "Part-Time Security Officer; DoD Cleared — Night Patrol",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "23,866–33,992 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5281536076/e/",
+      "title": "Security; Overnight",
+      "company": "Peachtree Hospitality",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/hospitality/5294858367/e/",
       "via": "via Learn4Good"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/index",
   "market": "San Antonio",
   "target": "general",
@@ -7,53 +7,53 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Part Time Peace Officer",
-      "company": "Trinity",
-      "location": "Olmos Park, TX",
-      "pay": "23.97–29.96 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Trinity/Job/Part-Time-Peace-Officer/-in-Olmos-Park,TX?jid=3a9a814aac5b2fbe",
+      "title": "Tarian Healthcare Security Officer (Taser)",
+      "company": "Tarian",
+      "location": "San Antonio, TX",
+      "pay": "18.27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Tarian-Healthcare-Security-Officer-(Taser)/-in-San-Antonio,TX?jid=b9e014fed869c941",
       "via": "via ZipRecruiter"
     },
     {
-      "title": "Security Officer Part Time Field Patrol",
+      "title": "Industrial Security Officer Hour Shifts + OT",
+      "company": "Gregg Protection Services",
+      "location": "San Antonio, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5296424995/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Cleared Security Operations Center Officer",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://us.trabajo.org/job-4023-733411b691d5da837e411217de6b0b57",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Armed Level III Security Officer",
+      "company": "TriCorps",
+      "location": "Seguin, TX",
+      "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
-      "via": "via Recruit.net"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-level-iii-security-officer-at-tricorps-4441377089",
+      "via": "via LinkedIn"
     },
     {
-      "title": "DPS - THP - Security Specialist - 6234",
-      "company": "Texas Commission on Environmental Quality",
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
       "location": "San Antonio, TX",
-      "pay": null,
+      "pay": "17–30 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/dps-thp-security-specialist-6234-at-texas-commission-on-environmental-quality-4438485409",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Retail Security Officer - Full Time - La Cantera/North Star",
-      "company": "Marksman Security",
-      "location": "Leon Valley, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/retail-security-officer-full-time-la-cantera-north-star-at-marksman-security-4441232378",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Retail Security Officer - Full Time - La Cantera/North Star",
-      "company": "Marksman Security",
-      "location": "Lackland Air Force Base",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/retail-security-officer-full-time-la-cantera-north-star-at-marksman-security-4441228705",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4441959121",
       "via": "via LinkedIn"
     }
   ]

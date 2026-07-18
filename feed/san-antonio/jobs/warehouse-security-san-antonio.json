@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/warehouse-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Armed Warehouse Patrol Specialist; Part-Time",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5289779813/e/",
+      "via": "via Learn4Good"
+    },
     {
       "title": "Armed Warehouse Patrol Specialist (Part-Time)",
       "company": "Allied Universal",
@@ -27,14 +37,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Warehouse Security Officer",
-      "company": "BlackBarJobs",
+      "title": "Apply Warehouse Security Officer Job in San Antonio",
+      "company": "TownTasks",
       "location": "San Antonio, TX",
-      "pay": "15–22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/warehouse-security-san-antonio",
-      "via": "via The Job Network For Security Officers"
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://towntasks.com/jobs/apply-warehouse-security-officer-job-in-san-antonio-8168",
+      "via": "via TownTasks"
     },
     {
       "title": "Elite Security Armed Officer- Warehouse",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/elite-security-armed-officer-warehouse-allied-universal-san-antonio-tx-united-states--appcast-10432_2026-1607971",
       "via": "via BeBee"
-    },
-    {
-      "title": "Apply Warehouse Security Officer Job in San Antonio",
-      "company": "TownTasks",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": null,
-      "apply_link": "https://towntasks.com/jobs/apply-warehouse-security-officer-job-in-san-antonio-8168",
-      "via": "via TownTasks"
     }
   ]
 }

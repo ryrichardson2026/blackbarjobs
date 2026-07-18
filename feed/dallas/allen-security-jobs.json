@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/allen-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/06gte1ipf4ld-7af7ef8fa7dfe00-49c330dd09-c4e546c",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Security Officer Patrol",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4441695313",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer",
+      "company": "Monster Energy",
+      "location": "Allen, TX",
+      "pay": "27–36 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ca633a1a761611c5",
+      "via": "via Indeed"
+    },
     {
       "title": "Security Officer Patrol with Active Clearance",
       "company": "Allied Universal",
@@ -17,44 +47,14 @@
       "via": "via Women For Hire- Job Board"
     },
     {
-      "title": "Security Monitor- Bond Funded",
-      "company": "Allen Independent School District",
-      "location": "Allen, TX",
-      "pay": "16.75–19.77 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f05294d04a3fb48d",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Enhanced Part Time Patrol",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Enhanced-Part-Time-Patrol/-in-Allen,TX?jid=3203bb36fe2b57be",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Patrol Security Clearance",
-      "company": "Allied Universal",
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
       "location": "Allen, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/allen-tx/security-officer-patrol-security-clearance-900843/",
-      "via": "via Women For Hire- Job Board"
-    },
-    {
-      "title": "Full Time & Part Time Security Officers - Flexible",
-      "company": "Alliedbarton Security Services",
-      "location": "Allen, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://jooble.org/rjdp/-4405863861521388291",
-      "via": "via Jooble"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/i0eroj69pcnc-fa61c554e4ba0600fe54ba3310e4-12a9",
+      "via": "via Marriott Jobs - Vacancies Loop"
     }
   ]
 }

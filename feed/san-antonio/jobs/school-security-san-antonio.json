@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/school-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -27,16 +27,6 @@
       "via": "via Indeed"
     },
     {
-      "title": "School Safety Officer - Campus Patrol",
-      "company": "Northside ISD",
-      "location": "San Antonio, TX",
-      "pay": "45K–60K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5269085501/e/",
-      "via": "via Learn4Good"
-    },
-    {
       "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
       "company": "Valor Force",
       "location": "San Antonio, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-06-30",
       "apply_link": "https://us.trabajo.org/job-5632-82ae9664a85ad69dfed391fbc5d13dd2",
       "via": "via Trabajo.org"
+    },
+    {
+      "title": "School Campus Security Officer",
+      "company": "SENTRYSIX Defense Group, Inc.",
+      "location": "San Antonio, TX",
+      "pay": "40K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/sentrysix-defense-group-inc/san-antonio/school-campus-security-officer-104224607/",
+      "via": "via Talents By Vaia"
     }
   ]
 }

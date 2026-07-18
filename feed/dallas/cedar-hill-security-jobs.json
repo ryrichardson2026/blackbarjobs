@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/cedar-hill-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Cedar Hill, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://elitehireportal.com/joblistingpage/wu27fe270oel-731b-caf13e2ced5fec3-2ab9334c91516",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Asset Protection Officer",
       "company": "Marriott",
@@ -22,39 +32,29 @@
       "location": "Cedar Hill, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://elitehireportal.com/joblistingpage/bljrscim7ca9-20565f003557a657a-6a30261d4-fcacd9",
       "via": "via Elite Hire Portal"
     },
     {
-      "title": "Unarmed Security Officers",
-      "company": "Sunstates Security",
+      "title": "Supply Chain Security Officer: Patrol & Protect",
+      "company": "JCPenney",
       "location": "Cedar Hill, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.indeed.com/viewjob?jk=8699e6e730bc6445",
-      "via": "via Indeed"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/supply-chain-security-officer-patrol-protect-jcpenney-cedar-hill--lensa-7428_cca20525ff0dcc780385f8782ef3c2d167262f0f0545eadf7ea1c9491663837f",
+      "via": "via BeBee"
     },
     {
-      "title": "Military Security Officer",
-      "company": "US Navy",
+      "title": "Supply Chain Security Officer – Surveillance & Loss Prevention",
+      "company": "JCPenney",
       "location": "Cedar Hill, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/military-security-officer/cedar-hill-texas?id=2861220779",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "Cedar Hill, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/cedar-hill/texas/security/5258623308/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://us.jobrapido.com/jobpreview/3823818263473684480",
+      "via": "via Jobrapido"
     }
   ]
 }

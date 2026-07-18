@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/loss-prevention-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,24 +7,14 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Asset Protection Officer",
-      "company": "Marriott",
-      "location": "Cedar Hill, TX",
-      "pay": null,
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
+      "location": "Dallas, TX",
+      "pay": "14–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://marriott.vacanciesloop.com/jobpage/oxc1ah3lsa5e-11d0eed2f97b6-4c4942c7894e0f31853",
-      "via": "via Marriott Jobs - Vacancies Loop"
-    },
-    {
-      "title": "Asset Protection Officer",
-      "company": "Marriott",
-      "location": "Lewisville, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://marriott.vacanciesloop.com/jobpage/0yd9c5cs7lif-2aaf01cf4255f9754ca70e17-b7037eb4",
-      "via": "via Marriott Jobs - Vacancies Loop"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
+      "via": "via LinkedIn"
     },
     {
       "title": "Asset Protection Officer",
@@ -37,24 +27,34 @@
       "via": "via Marriott Jobs - Vacancies Loop"
     },
     {
-      "title": "Asset Protection Officer",
-      "company": "Marriott",
-      "location": "Forney, TX",
+      "title": "Loss Prevention Officer- 2nd Shift",
+      "company": "Omni Hotels & Resorts",
+      "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://marriott.vacanciesloop.com/jobpage/9foatgs0iv7q-f2c779a5b6c38f1a6-503856fb992e859",
+      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-2nd-shift-at-omni-hotels-resorts-4440797986",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Lake Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/e4sqcc7as91a-724f-7bb26854ef44c0573a1c620d9db0",
       "via": "via Marriott Jobs - Vacancies Loop"
     },
     {
-      "title": "Hotel Loss Prevention & Guest Safety Specialist",
-      "company": "Fairmont Hotels & Resorts",
-      "location": "Dallas, TX",
-      "pay": "42K–66K a year",
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Allen, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/hotel-loss-prevention-guest-safety-specialist--dallas--e5d38f88d66805b763318399d1053a0a5",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/i0eroj69pcnc-fa61c554e4ba0600fe54ba3310e4-12a9",
+      "via": "via Marriott Jobs - Vacancies Loop"
     }
   ]
 }

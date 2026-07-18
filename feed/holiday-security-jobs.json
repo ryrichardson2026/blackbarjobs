@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "holiday-security-jobs",
   "market": "DFW",
   "target": "general",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
-      "title": "Security Flex Officer - Shopping Center",
+      "title": "Security Flex Officer - Airport",
       "company": "Allied Universal",
-      "location": "Denton, TX",
-      "pay": "17 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-shopping-center-at-allied-universal-4441283706",
+      "location": "Grapevine, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer Asset Management Firm",
-      "company": "Allied Universal",
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
       "location": "Dallas, TX",
+      "pay": "14–27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Shift Supervisor - University",
+      "company": "Allied Universal",
+      "location": "Westlake, TX",
       "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-asset-management-firm-at-allied-universal-4441287531",
+      "schedule": "Internship",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-university-at-allied-universal-4442143125",
       "via": "via LinkedIn"
     },
     {
-      "title": "Security Officer - Retail",
-      "company": "Prosegur",
+      "title": "Licensed Event Security Guard",
+      "company": "BEST Crowd Management",
+      "location": "Arlington, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://us.trabajo.org/job-4112-295d7f2b4e69278c64eba6f2ff28d0fa",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Security Guards & VIP Protection",
+      "company": "Onlinepi",
       "location": "Fort Worth, TX",
-      "pay": "16.45–17.51 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=021165506d490bf7",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Customer Service",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-at-allied-universal-4441289505",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer - Dallas TX",
-      "company": "North America Security & Select Services",
-      "location": "Dallas, TX",
-      "pay": "15–16 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=56ac45a4293369a4",
-      "via": "via Indeed"
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5296356812/e/",
+      "via": "via Learn4Good"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/construction-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
     {
       "title": "Construction Site Security Lead",
@@ -15,6 +15,16 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://bebee.com/us/jobs/construction-site-security-lead-kids-for-the-future-san-antonio--lensa-7428_207560311f1d53a489ff29808f4603c859ec5a92e296e361a452057d646ea2af",
       "via": "via BeBee"
+    },
+    {
+      "title": "Data Center Construction Security Tech — TS/Poly",
+      "company": "Kids for the Future",
+      "location": "San Antonio, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-07",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-construction-security-tech-ts-poly--san-antonio--e31d4d82d95d18a15ef9ccf3cbcfa5bf3",
+      "via": "via JobLeads"
     },
     {
       "title": "Data Center Construction Security Tech — TS/Poly",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1299796/level-2-security-officer-6pm-6am/",
       "via": "via Careers In Government"
-    },
-    {
-      "title": "Part Time Peace Officer",
-      "company": "Trinity",
-      "location": "Olmos Park, TX",
-      "pay": "23.97–29.96 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Trinity/Job/Part-Time-Peace-Officer/-in-Olmos-Park,TX?jid=3a9a814aac5b2fbe",
-      "via": "via ZipRecruiter"
     }
   ]
 }

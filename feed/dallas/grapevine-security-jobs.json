@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/grapevine-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Flex Officer - Airport",
+      "company": "Allied Universal",
+      "location": "Grapevine, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
+      "via": "via LinkedIn"
+    },
     {
       "title": "FULL-TIME: UNARMED SECURITY OFFICER: MON-FRI: 3PM-11PM",
       "company": "Ameritex Guard Services Inc",
@@ -17,44 +27,34 @@
       "via": "via Indeed"
     },
     {
-      "title": "Part-Time Security Officer (Level 2)",
-      "company": "First Responder Protective Services",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.whatjobs.com/jobs/part-time-security-officer-level-2/grapevine-texas?id=2883106503",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Part-Time Security Officer Level 2",
-      "company": "First Responder Protective Services",
+      "title": "Unarmed Security",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobilize.com/job/us-tx-grapevine-part-time-security-officer-level-2-first-responder",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://us.trabajo.org/job-4112-721d9f34e2123ec356000b9c88e0c218",
+      "via": "via Trabajo.org"
     },
     {
-      "title": "Evening Surveillance Security Specialist",
-      "company": "GardaWorld",
-      "location": "Grapevine, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/evening-surveillance-security-specialist--grapevine--e220d8e282c93e511f575f805343b6e39",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Specialist - Part Time",
-      "company": "Security Industry Specialists, Inc.",
+      "title": "Unarmed Security - PT Weekends",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
       "location": "Grapevine, TX",
       "pay": null,
       "schedule": null,
-      "posted_date": "2026-07-07",
-      "apply_link": "https://jooble.org/jdp/-8004927640038590461",
-      "via": "via Jooble"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.linkedin.com/jobs/view/unarmed-security-pt-weekends-at-cascadia-global-security-cascadia-off-duty-4441901813",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer - Protect People & Premises (Part-Time)",
+      "company": "PVH (Tommy Hilfiger/Calvin Klein)",
+      "location": "Grapevine, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://bebee.com/us/jobs/security-officer-protect-people-premises-part-time-pvh-tommy-hilfiger-calvin-klein-grapevine--lensa-7428_1725e8faad9ea4373b5eea6467a90732c3d72d3a80290d35f79a2ce2a455a450",
+      "via": "via BeBee"
     }
   ]
 }

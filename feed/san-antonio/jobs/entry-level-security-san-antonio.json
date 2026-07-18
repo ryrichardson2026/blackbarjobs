@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/entry-level-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Entry-Level Security Officer Training & Benefits",
+      "company": "Securitas Global Clients America",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/entry-level-security-officer-training-benefits-securitas-global-clients-america-san-antonio--lensa-7428_806f0bc3c1c3703c4c22a8aa0f2fe3cc4f95ddcb7b20b2854caff9fefff743d3",
+      "via": "via BeBee"
+    },
     {
       "title": "Security Officer – Entry Control Point; Driver",
       "company": "Allied Universal",
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-06",
       "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-entry-control-point/22950/97481244336",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Facility Security Guard I: Patrol, Entry Control & Events",
-      "company": "Oakland University",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://salutemyjob.com/jobs/facility-security-guard-i-patrol-entry-control-events-san-antonio-texas/2858817073-2/",
-      "via": "via SaluteMyJob"
     }
   ]
 }

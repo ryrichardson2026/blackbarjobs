@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/hospital-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Tarian Healthcare Security Officer (Taser)",
+      "company": "Tarian",
+      "location": "San Antonio, TX",
+      "pay": "18.27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Tarian-Healthcare-Security-Officer-(Taser)/-in-San-Antonio,TX?jid=b9e014fed869c941",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Hospital Security Officer - Calm Crisis Responder",
+      "company": "Baptist Health System Inc.",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-calm-crisis-responder-baptist-health-system-inc-san-antonio--lensa-7428_094a34b496b5f30f7363be8ca31766552edd3bff04f9df08d73a1eabedcb0d1e",
+      "via": "via BeBee"
+    },
     {
       "title": "State Hospital Night Security Officer",
       "company": "Texas Health and Human Services",
@@ -17,6 +37,16 @@
       "via": "via JobLeads"
     },
     {
+      "title": "Healthcare Police Officer I-IV: Protect & Serve",
+      "company": "University Health - San Antonio",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://jooble.org/jdp/-8803974697625128572",
+      "via": "via Jooble"
+    },
+    {
       "title": "Security Officer - Medical Facilities Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-medical-facilities-patrol/22950/97760331136",
       "via": "via Allied Universal"
-    },
-    {
-      "title": "Healthcare Police Officer I-IV: Protect Patients",
-      "company": "University Hospital",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/7626513726062170226",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Hospital Security Officer – Calm Crisis Responder",
-      "company": "Baptist Health System",
-      "location": "San Antonio, TX",
-      "pay": "20,664–30,307 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5278307189/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Hospital Security Officer – Day Shift",
-      "company": "Ops Tech Alliance",
-      "location": "San Antonio, TX",
-      "pay": "42K–54K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobleads.com/us/job/armed-hospital-security-officer-day-shift--san-antonio--ecf939ae110e77146d4bfd8ca80bc1b64",
-      "via": "via JobLeads"
     }
   ]
 }

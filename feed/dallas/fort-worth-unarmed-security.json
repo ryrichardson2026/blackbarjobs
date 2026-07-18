@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/fort-worth-unarmed-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "TX Unarmed Guard",
+      "company": "Secure Source International",
+      "location": "Fort Worth, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.simplyhired.com/job/9iXcfQklKb7b3tWwMGWFWtUl645J8K9Li6Cdp--lZb1SBlgOD6QjIw",
+      "via": "via SimplyHired"
+    },
+    {
+      "title": "Weekend Unarmed Security Guard – Flexible PT (Level 2)",
+      "company": "Premier-Protective-Security",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.jobleads.com/us/job/weekend-unarmed-security-guard-flexible-pt-level-2--fort-worth--ea07b9982ab1b2b8e299495102f48429c",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Unarmed Security Officer - Public Safety & Patrol Fort Worth",
+      "company": "Jobr",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-public-safety-patrol-fort-worth-jobr-fort-worth--lensa-7428_ec0a04a3862c75a060d9a2760e5d68dbfc4a4230a0dfc18c0b78243818f0b12f",
+      "via": "via BeBee"
+    },
     {
       "title": "Tech Campus Security Patrol Driver; Unarmed",
       "company": "Allied Universal",
@@ -17,44 +47,14 @@
       "via": "via Learn4Good"
     },
     {
-      "title": "Unarmed Security Officer — Patrol, Access Control & Growth",
-      "company": "Marksman Security LLC",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-patrol-access-control-growth--fort-worth--e7fb89c153abe6c5f4483042cff601700",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Unarmed Security Officer - Public Safety & Patrol Fort Worth",
-      "company": "jobr.pro",
-      "location": "Fort Worth, TX",
-      "pay": "30K–40K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-officer-public-safety-patrol-fort-worth--fort-worth--ee9f435d504f27b8827e7fe5757b47876",
-      "via": "via JobLeads"
-    },
-    {
       "title": "Unarmed Security Officer",
       "company": "Weiser Security Services",
       "location": "Fort Worth, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-14",
       "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security/Job/Unarmed-Security-Officer/-in-Fort-Worth,TX?jid=0c71dede16579233",
       "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Tech Campus Security Patrol Driver (Unarmed)",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.jobleads.com/us/job/tech-campus-security-patrol-driver-unarmed--fort-worth--e36a92a10f13d525d53811c8a1fee3c5c",
-      "via": "via JobLeads"
     }
   ]
 }

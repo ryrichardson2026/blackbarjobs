@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/friendswood-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Friendswood, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://elitehireportal.com/joblistingpage/9ctei1x3rjah-abb138a2-f51149e78706317bf49c-d4f3",
+      "via": "via Elite Hire Portal"
+    },
+    {
       "title": "Flexible Security Officer",
       "company": "Allied Universal",
       "location": "Friendswood, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://elitehireportal.com/joblistingpage/lpa13s8fadgh-10f8fa0b29a568e4d1f13-48257-0fd600",
       "via": "via Elite Hire Portal"
     },
@@ -27,6 +37,16 @@
       "via": "via Elite Hire Portal"
     },
     {
+      "title": "Retail Security Officer Customer-First Guard & Growth",
+      "company": "Marksman",
+      "location": "Friendswood, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/retail-security-officer-customer-first-guard-growth-marksman-friendswood-tx-united-states--appcast-7428_0eb846179b1e3743f65b26f6269da58fdddbc54e0c75fc812d3695a29ebf2904",
+      "via": "via BeBee"
+    },
+    {
       "title": "Retail Security Officer — Customer-First Guard & Growth",
       "company": "Marksman",
       "location": "Friendswood, TX",
@@ -35,26 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.learn4good.com/jobs/friendswood/texas/security/5282137825/e/",
       "via": "via Learn4Good"
-    },
-    {
-      "title": "Event Security",
-      "company": "Andy Frain Services",
-      "location": "Friendswood, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://salutemyjob.com/jobs/event-security-friendswood-texas/2872211405-2/",
-      "via": "via SaluteMyJob"
-    },
-    {
-      "title": "Retail Security Patrol Driver — Full‑Time, Growth & Benefits",
-      "company": "Allied Universal",
-      "location": "Friendswood, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.jobleads.com/us/job/retail-security-patrol-driver-full-time-growth-benefits--friendswood--e9b127d2bd0dfe77473de8a824bfbc84c",
-      "via": "via JobLeads"
     }
   ]
 }

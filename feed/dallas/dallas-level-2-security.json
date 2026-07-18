@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-level-2-security",
   "market": "DFW",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Guard Level II Armed Supervisor",
+      "company": "Koniag",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
+      "via": "via Jobilize"
+    },
     {
       "title": "Security Guard Level II (Armed) Supervisor at Koniag Dallas, TX",
       "company": "Koniag",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-10",
       "apply_link": "https://abyadd.com/vacancies/job/security-guard-level-ii-armed-supervisor-at-koniag-dallas-tx-RDNaVWZDUW0wdzIxdFZqUkJTOVA4MCtxMHc9PQ==",
       "via": "via Abyadd.com"
-    },
-    {
-      "title": "Security Guard Level II Armed Supervisor",
-      "company": "Koniag",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
-      "via": "via Jobilize"
     },
     {
       "title": "Security Guard Level II",
@@ -37,16 +37,6 @@
       "via": "via Trabajo.org"
     },
     {
-      "title": "Security Guard Level II Armed Supervisor",
-      "company": "Koniag",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://www.jobilize.com/job/us-tx-dallas-security-guard-level-ii-armed-supervisor-koniag-hiring",
-      "via": "via Jobilize"
-    },
-    {
       "title": "Part-Time Security Officer (Level 2)",
       "company": "First Responder Protective Services",
       "location": "Dallas, TX",
@@ -55,6 +45,16 @@
       "posted_date": "2026-07-09",
       "apply_link": "https://bebee.com/us/jobs/part-time-security-officer-level-2-first-responder-protective-services-dallas--lensa-2365_ccf3ecca0ea9f0de173d24166724d01301c469f3080d99750891ff256e64c81d",
       "via": "via BeBee"
+    },
+    {
+      "title": "Senior Armed Security Supervisor (Level II)",
+      "company": "Koniag Government Services",
+      "location": "Dallas, TX",
+      "pay": "35K–45K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.jobleads.com/us/job/senior-armed-security-supervisor-level-ii--dallas--ed3504340bf6a46f998c41525a1c49c9d",
+      "via": "via JobLeads"
     }
   ]
 }

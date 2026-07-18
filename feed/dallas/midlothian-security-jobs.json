@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/midlothian-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://elitehireportal.com/joblistingpage/zi2hyd6ehtag-b9701761-3a28f-7d6bf4eb52ee85c0fe6",
+      "via": "via Elite Hire Portal"
+    },
     {
       "title": "Unarmed Security Officer",
       "company": "Weiser Security Services",
@@ -27,33 +37,23 @@
       "via": "via Jobrapido"
     },
     {
-      "title": "Security Officer - Unarmed",
-      "company": "metro one loss prevention services group (guard division), inc.",
+      "title": "Responsive Security Officer Flexible Shifts, DailyPay, Growth",
+      "company": "GardaWorld",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://salutemyjob.com/jobs/security-officer-unarmed-midlothian-texas/2871184514-2/",
-      "via": "via SaluteMyJob"
+      "posted_date": "2026-07-12",
+      "apply_link": "https://bebee.com/us/jobs/responsive-security-officer-flexible-shifts-dailypay-growth-gardaworld-midlothian--lensa-7428_2cde01dd3e2cb5435528558ecac4de1fad4fa5f74b417cc09d6673505b5ef42b",
+      "via": "via BeBee"
     },
     {
-      "title": "Hospital Security Officer – On-Call & Patrols",
-      "company": "Dormont Manufacturing Co",
+      "title": "Responsive Security Officer Flexible Shifts, DailyPay, Growth",
+      "company": "GardaWorld",
       "location": "Midlothian, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4372069670576979968",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "EMT Security Guard - Plant Safety & Medical Response",
-      "company": "Gerdau",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/emt-security-guard-plant-safety-medical-response-gerdau-midlothian--lensa-7428_ff567f8bdc6b06bd6fbb10bcedcd0e7f5eb809ef9bdbbe7a9e3b979186241286",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://bebee.com/us/jobs/responsive-security-officer-flexible-shifts-dailypay-growth-gardaworld-midlothian--lensa-7428_2cde01dd3e2cb5435528558ecac4de1fad4fa5f74b417cc09d6673505b5ef42b",
       "via": "via BeBee"
     }
   ]

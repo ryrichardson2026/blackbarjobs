@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/mckinney-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer",
+      "company": "Monster Energy",
+      "location": "McKinney, TX",
+      "pay": "27–36 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.indeed.com/viewjob?jk=5d15d5e7a64d5450",
+      "via": "via Indeed"
+    },
     {
       "title": "Unarmed Flex Security Officer",
       "company": "Overton Security",
@@ -17,44 +27,34 @@
       "via": "via Indeed"
     },
     {
+      "title": "Security Guard",
+      "company": "Dunbar Security Solutions",
+      "location": "McKinney, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://us.trabajo.org/job-4023-14f0e76380439d8039d55926dabd7432",
+      "via": "via Trabajo.org"
+    },
+    {
+      "title": "Security Officer Driver Patrol Security Clearance",
+      "company": "Allied Universal",
+      "location": "McKinney, TX",
+      "pay": "19.17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Driver-Patrol-Security-Clearance-with-Security-Clearance/-in-Mckinney,TX?jid=0867e45c392f2874",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Security Officer Access Gate Attendant",
       "company": "Allied Universal",
       "location": "McKinney, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-access-gate-attendant-at-allied-universal-4441298230",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Information System Security Officer",
-      "company": "Prattwhitney",
-      "location": "McKinney, TX",
-      "pay": "70K–90K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/skillbridge-intern-dod-information-system-security-officer-mckinney-texas--mckinney--e736c3e669118981556a4fa7f80d69bad",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer Unarmed",
-      "company": "Tarian",
-      "location": "McKinney, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobilize.com/job/us-tx-mckinney-security-officer-unarmed-tarian-hiring-now-job-immediately",
-      "via": "via Jobilize"
-    },
-    {
-      "title": "Armed Security Officer: Patrol, Access Control & Response",
-      "company": "Prysmian Group",
-      "location": "McKinney, TX",
-      "pay": "23.50–33.00 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://jooble.org/jdp/3133095232799254306",
-      "via": "via Jooble"
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.indeed.com/viewjob?jk=5651714cddf8f297",
+      "via": "via Indeed"
     }
   ]
 }

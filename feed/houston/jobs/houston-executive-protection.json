@@ -1,21 +1,11 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-executive-protection",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
-  "exact": 5,
+  "exact": 3,
   "jobs": [
-    {
-      "title": "Security Advisor - Executive Protection",
-      "company": "Chevron",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://careers.chevron.com/job/houston/security-advisor-executive-protection/38138/97741162896",
-      "via": "via Chevron Careers"
-    },
     {
       "title": "Security Director - Southwest at The Security Executive Council Houston, TX",
       "company": "The Security Executive Council",
@@ -25,16 +15,6 @@
       "posted_date": "2026-06-27",
       "apply_link": "https://nsplsecurityforce.com/job-listing/job/security-director-southwest-at-the-security-executive-council-houston-tx-azBzY3k0TjgrZXJXZzdDYi9hcGxuQUNHL2c9PQ==",
       "via": "via NSPL Security Force"
-    },
-    {
-      "title": "Executive Protection Field Agent",
-      "company": "Crisis24",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.linkedin.com/jobs/view/executive-protection-field-agent-at-crisis24-4432505991",
-      "via": "via LinkedIn"
     },
     {
       "title": "Armed Executive Protection Agent (EP)",
@@ -55,6 +35,26 @@
       "posted_date": null,
       "apply_link": "https://staging.careersingovernment.com/job/1305086/executive-protection-officer/",
       "via": "via Careers In Government"
+    },
+    {
+      "title": "Security Officer Evening Shift (Round One)",
+      "company": "Professional Security Consultants",
+      "location": "Humble, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=dc09735196fbc5a3",
+      "via": "via Indeed"
+    },
+    {
+      "title": "Central Parkway Security Officer77092",
+      "company": "Prevail Security Services",
+      "location": "Houston, TX",
+      "pay": "15.00–15.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a7f1319507889217",
+      "via": "via Indeed"
     }
   ]
 }

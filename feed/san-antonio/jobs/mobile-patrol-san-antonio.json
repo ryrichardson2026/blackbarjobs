@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/mobile-patrol-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,54 +7,54 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Armed Security Patrol – Part-Time",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "pay": "17,616–25,089 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5293487840/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Armed Retail Patrol Specialist - Part-Time",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "pay": "26,174–34,440 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5293858368/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Outdoor Security Patrol — Evening/Night Shifts",
+      "company": "San Antonio Museum of Art",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/outdoor-security-patrol-evening-night-shifts--san-antonio--e865f4792d29aa80e787ee68df9e39f8b",
+      "via": "via JobLeads"
+    },
+    {
+      "title": "Outdoor Security Patrol — Evening & Night Shifts",
+      "company": "Samuseum",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5291291210/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Security Officer Part Time Field Patrol",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://www.recruit.net/job/security-officer-field-patrol-jobs/B96BA239BC1D8DCB",
       "via": "via Recruit.net"
-    },
-    {
-      "title": "Part-Time Security & Guest Patrol; Bike",
-      "company": "MUSTANG SECURITY",
-      "location": "San Antonio, TX",
-      "pay": "16,531–27,552 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5288132787/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Retail Security Officer- Patrol at Allied Universal® San Antonio, TX",
-      "company": "Allied Universal®",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://sumafinanciera.mx/opportunity/job/retail-security-officer-patrol-at-allied-universal-r-san-antonio-tx-RkpFTWl5cEtKand4VWVaYWhKWWtxMkZRbkE9PQ==",
-      "via": "via Suma"
-    },
-    {
-      "title": "Flexible Part-Time Security Officer – Mobile Patrol",
-      "company": "Alliedbarton Security Services",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/flexible-part-time-security-officer-mobile-patrol--san-antonio--ea70be70f1f2a5f9b8b24d18c57fd2966",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Flex Guard Patrol",
-      "company": "Alliedbarton Security Services",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/security-flex-guard-patrol-vehicle-patrol--san-antonio--e94861379998107450edc6d11c683e200",
-      "via": "via JobLeads"
     }
   ]
 }

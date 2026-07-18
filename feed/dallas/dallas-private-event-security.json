@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/dallas-private-event-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,12 +7,22 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Event Staff/Security",
+      "company": "Andy Frain Services",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.ziprecruiter.com/c/Andy-Frain-Services/Job/Event-Staff-Security/-in-Dallas,TX?jid=eb9fab0884d6af5c",
+      "via": "via ZipRecruiter"
+    },
+    {
       "title": "Armed and Unarmed Security Officer Hiring Event - 11.19.2024 - 11AM - 3PM - $16/hr and up (#96) at MSCCN Dallas, TX",
       "company": "MSCCN",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://paisagismocomestivel.com/vacancy/job/armed-and-unarmed-security-officer-hiring-event-11192024-11am-3pm-dollar-16hr-and-up-96-at-msccn-dallas-tx-Y0dTMDRtb3d6WTRJd01pTmVKTmVoK1BFOFE9PQ==",
       "via": "via Paisagismocomestivel.com"
     },
@@ -45,16 +55,6 @@
       "posted_date": "2026-07-12",
       "apply_link": "https://www.snagajob.com/jobs/1205254371",
       "via": "via Snagajob"
-    },
-    {
-      "title": "Security Officers-EVENT SECURITY",
-      "company": "Paycom",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://jooble.org/rjdp/-4195520254827835852",
-      "via": "via Jooble"
     }
   ]
 }

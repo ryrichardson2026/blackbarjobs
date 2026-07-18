@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-entry-level-security-jobs",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Entry-Level Security Officer Training Provided & Benefits",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/entry-level-security-officer-training-provided-benefits-securitas-security-services-usa-inc-houston--lensa-7428_1b1eb36ab399b6ebbc0483ceaaa2d81398da8e4cf322d669992cf1f4a34e5c97",
+      "via": "via BeBee"
+    },
     {
       "title": "Entry-Level Security Officer — Training Provided & Benefits",
       "company": "Securitas Security Services USA, Inc.",
@@ -27,16 +37,6 @@
       "via": "via Musk Jobs"
     },
     {
-      "title": "Entry Level Security Officer(South/Southeast Houston) at Securitas, Inc. Houston, TX",
-      "company": "Securitas, Inc.",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://fullyarmed.com/samples/job/entry-level-security-officersouthsoutheast-houston-at-securitas-inc-houston-tx-ZGpFdTRDd2JaY2NwNzBWL3hzTzNEdGZlVVE9PQ==",
-      "via": "via Fully Armed"
-    },
-    {
       "title": "Security Officers - Entry Level 2nd Shift",
       "company": "DSI Security",
       "location": "Houston, TX",
@@ -47,14 +47,14 @@
       "via": "via Jooble"
     },
     {
-      "title": "Security Officer-TWIC REQUIRED Entry Level",
-      "company": "DSI Security",
+      "title": "Entry Level Security Officer(South/Southeast Houston) at Securitas, Inc. Houston, TX",
+      "company": "Securitas, Inc.",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.jobilize.com/job/us-tx-houston-security-officer-twic-required-entry-level-dsi-hiring",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-10",
+      "apply_link": "https://fullyarmed.com/samples/job/entry-level-security-officersouthsoutheast-houston-at-securitas-inc-houston-tx-ZGpFdTRDd2JaY2NwNzBWL3hzTzNEdGZlVVE9PQ==",
+      "via": "via Fully Armed"
     }
   ]
 }

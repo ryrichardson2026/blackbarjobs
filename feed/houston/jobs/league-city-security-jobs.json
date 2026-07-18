@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/league-city-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
+      "location": "League City, TX",
+      "pay": "17–30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4423341346",
+      "via": "via LinkedIn"
+    },
     {
       "title": "Flexible Security Officer",
       "company": "Allied Universal",
@@ -37,24 +47,14 @@
       "via": "via Snagajob"
     },
     {
-      "title": "Evening Armed Guard; PT",
-      "company": "Excelsior Defense",
-      "location": "League City, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-04",
-      "apply_link": "https://www.learn4good.com/jobs/league-city/texas/security/5258623370/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Military Security Officer - Now Hiring",
-      "company": "U.S. Navy",
+      "title": "Licensed Special Event Security",
+      "company": "Andy Frain Services",
       "location": "League City, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242586439",
-      "via": "via Snagajob"
+      "posted_date": "2026-07-05",
+      "apply_link": "https://www.monster.com/job-openings/licensed-special-event-security-league-city-tx--361c944a-39ae-4233-9015-75a2f85eb1e7?mstr_dist=true",
+      "via": "via Monster"
     }
   ]
 }

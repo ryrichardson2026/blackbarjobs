@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/houston-private-event-security",
   "market": "Houston",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Houston Event Staff & Security",
+      "company": "5 STAR Event Services",
+      "location": "Houston, TX",
+      "pay": "10–16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "(Armed) Security Officer/ Event Halls",
       "company": "Miller\"s Security",
@@ -15,16 +25,6 @@
       "posted_date": "2026-07-13",
       "apply_link": "https://www.indeed.com/viewjob?jk=1cc165a851e23b1c",
       "via": "via Indeed"
-    },
-    {
-      "title": "Houston Event Staff & Security",
-      "company": "5 STAR Event Services",
-      "location": "Houston, TX",
-      "pay": "10–16 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.ziprecruiter.com/c/5-STAR-Event-Services/Job/Houston-Event-Staff-&-Security/-in-Houston,TX?jid=f549b31d634358a5",
-      "via": "via ZipRecruiter"
     },
     {
       "title": "Event Security - Toyota Center",
@@ -47,14 +47,14 @@
       "via": "via Snagajob"
     },
     {
-      "title": "Concert Event Security Specialist",
-      "company": "Live Nation Entertainment",
+      "title": "Event Security - Toyota Center",
+      "company": "BEST Crowd Management",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.whatjobs.com/jobs/concert-event-security-specialist/houston-texas?id=2877192786",
-      "via": "via WhatJobs"
+      "schedule": "Part-time",
+      "posted_date": "2026-07-12",
+      "apply_link": "https://www.linkedin.com/jobs/view/event-security-toyota-center-at-best-crowd-management-4437218218",
+      "via": "via LinkedIn"
     }
   ]
 }

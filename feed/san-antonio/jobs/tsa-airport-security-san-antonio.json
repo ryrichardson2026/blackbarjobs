@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/tsa-airport-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Aviation Security Agent Protect Flights (San Antonio)",
+      "company": "ACTS-Aviation Security Inc",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://bebee.com/us/jobs/aviation-security-agent-protect-flights-san-antonio-acts-aviation-security-inc-san-antonio--lensa-7428_f2599e723c88dd5e916c9078cfd751233ad59e49b787208d0093580c82d71391",
+      "via": "via BeBee"
+    },
     {
       "title": "Airport Checkpoint Screener; TSA",
       "company": "Airport Security",
@@ -45,16 +55,6 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/city-of-san-antonio/san-antonio/airport-security-patrol-officer-day-night-shifts-83615453/",
       "via": "via Talents By Vaia"
-    },
-    {
-      "title": "Airport Security Officer",
-      "company": "BlackBarJobs",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/tsa-airport-security-san-antonio",
-      "via": "via The Job Network For Security Officers"
     }
   ]
 }

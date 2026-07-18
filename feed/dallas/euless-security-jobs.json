@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/euless-security-jobs",
   "market": "DFW",
   "target": "city",
@@ -7,12 +7,42 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Public Safety Officer",
+      "company": "Allied Universal",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://elitehireportal.com/joblistingpage/8ee39cfri6h5-94f7b6cdfe776-88b-6fb0e14c15df0993",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Safety Officer",
+      "company": "Allied Universal",
+      "location": "Euless, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://elitehireportal.com/joblistingpage/mt6r0f5r57ee-7264c-d2c06e0-de2a66b31a915e8d1066",
+      "via": "via Elite Hire Portal"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Metro One LPSG,",
+      "location": "Euless, TX",
+      "pay": "23.32 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.glassdoor.com/job-listing/unarmed-security-officer-metro-one-lpsg-JV_IC1139986_KO0,24_KE25,39.htm?jl=1010202076489",
+      "via": "via Glassdoor"
+    },
+    {
       "title": "Security Officers (Part & Full-Time Shifts)",
       "company": "Security Solutions of Texas",
       "location": "Euless, TX",
       "pay": null,
       "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-10",
+      "posted_date": "2026-07-15",
       "apply_link": "https://jooble.org/rjdp/-2793065832669366368",
       "via": "via Jooble"
     },
@@ -25,36 +55,6 @@
       "posted_date": "2026-07-05",
       "apply_link": "https://srbrothers.com/wp-job/job/armed-security-officer-at-christus-health-euless-tx-dEMyRERJc3lUNHBzWTV4dVBYSm9PVTJpNUE9PQ==",
       "via": "via SRB Brothers"
-    },
-    {
-      "title": "Military Security Officer - Now Hiring",
-      "company": "U.S. Navy",
-      "location": "Euless, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-01",
-      "apply_link": "https://www.snagajob.com/jobs/1242581635",
-      "via": "via Snagajob"
-    },
-    {
-      "title": "Security Officer",
-      "company": "BlackBarJobs",
-      "location": "Euless, TX",
-      "pay": "16–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/dallas/jobs/euless-security-jobs",
-      "via": "via The Job Network For Security Officers"
-    },
-    {
-      "title": "Armed Security Officer (Evening Shift) Monday-Friday, Corporate Office Setting",
-      "company": "Stonewall Protection Group",
-      "location": "Euless, TX",
-      "pay": "3,467–3,813 a month",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/armed-security-officer-evening-shift-monday-friday-corporate-office-setting-stonewall-protection-gro--theirstack-689348353",
-      "via": "via BeBee"
     }
   ]
 }

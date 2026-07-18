@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "houston/jobs/tsa-airport-security-houston",
   "market": "Houston",
   "target": "city-role",
@@ -15,16 +15,6 @@
       "posted_date": "2026-07-08",
       "apply_link": "https://jooble.org/jdp/-694406301714244426",
       "via": "via Jooble"
-    },
-    {
-      "title": "Federal Air Marshal - TSA Law Enforcement Career",
-      "company": "Airport Security Careers",
-      "location": "South Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/federal-air-marshal-tsa/south-houston-texas?id=2865648001",
-      "via": "via WhatJobs"
     },
     {
       "title": "Security, Airport Staff & Aviation Operations",
@@ -47,14 +37,24 @@
       "via": "via TSA Airport Security Jobs Hiring Now"
     },
     {
-      "title": "Airport Security Officer",
-      "company": "BlackBarJobs",
+      "title": "TSA Agent – Airport Checkpoint Screener (No Experience Needed)",
+      "company": "Airport Security",
       "location": "Houston, TX",
-      "pay": "16–21 an hour",
+      "pay": "45,760 a year",
       "schedule": "Full-time",
-      "posted_date": "2026-06-26",
-      "apply_link": "https://www.blackbarjobs.com/houston/jobs/houston-airport-security",
-      "via": "via The Job Network For Security Officers"
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/tsa-agent-airport-checkpoint-screener-no-experience-needed-airport-security-houston--dc-300FFFE27F5127E4CA11E953D6CA0778",
+      "via": "via BeBee"
+    },
+    {
+      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "South Houston, TX",
+      "pay": "20–45 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/-6070196354634227873",
+      "via": "via Jooble"
     }
   ]
 }

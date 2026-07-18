@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "chicago/jobs/holiday-security-jobs-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,24 +7,34 @@
   "exact": 5,
   "jobs": [
     {
+      "title": "Night Public Safety Officer - Hospital Security",
+      "company": "Edward Elmhurst Health",
+      "location": "Chicago, IL",
+      "pay": "25,953–37,636 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5290777620/e/",
+      "via": "via Learn4Good"
+    },
+    {
       "title": "Evening and Overnight Security Officer",
       "company": "Andy Frain Services",
       "location": "Chicago Heights, IL",
       "pay": null,
       "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-16",
+      "posted_date": "2026-07-15",
       "apply_link": "https://salutemyjob.com/jobs/evening-and-overnight-security-officer-chicago-heights-illinois/2876817079-2/",
       "via": "via SaluteMyJob"
     },
     {
-      "title": "Security Officers - Overnight Monitoring",
-      "company": "Unconquerable Security Solutions",
+      "title": "Night Shift Public Safety Officer - Hospital Security",
+      "company": "NorthShore University HealthSystem",
       "location": "Chicago, IL",
       "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-14",
-      "apply_link": "https://jooble.org/rjdp/-3448916463179143492",
-      "via": "via Jooble"
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://bebee.com/us/jobs/night-shift-public-safety-officer-hospital-security-northshore-university-healthsystem-chicago--lensa-7428_3b27e491f13f11af854c2e7acbbac7eb8022033d8abecb5ee154e18e192eb40f",
+      "via": "via BeBee"
     },
     {
       "title": "Overnight Security Guard",
@@ -37,24 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "Night Patrol Lead Healthcare Security | Career Growth",
-      "company": "Alliedbarton Security Services",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.jobleads.com/us/job/night-patrol-lead-healthcare-security-career-growth--chicago--ee1151c5888f76a64c629ef5669ba0529",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Part-Time Campus Security Officer - Night Shift; Tech Campus",
-      "company": "Alliedbarton Security Services",
+      "title": "Part-Time Security Officer: Night Patrol at Finance Site",
+      "company": "Allied Universal",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5282053341/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://us.jobrapido.com/jobpreview/1341991821164675072",
+      "via": "via Jobrapido"
     }
   ]
 }

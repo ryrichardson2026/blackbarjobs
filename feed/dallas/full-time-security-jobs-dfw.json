@@ -1,11 +1,41 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/full-time-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer - Full Time , Nights",
+      "company": "Texas Health Resources",
+      "location": "Mansfield, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-nights-at-texas-health-resources-4442155004",
+      "via": "via LinkedIn"
+    },
+    {
+      "title": "Security Officer Full Time Patrol Screening",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Seeking a morning person! - Full-Time Safety and Security Associate/Weekends Off",
+      "company": "Stonewall Protection Group",
+      "location": "Fort Worth, TX",
+      "pay": "3,467 a month",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://bebee.com/us/jobs/seeking-a-morning-person-full-time-safety-and-security-associate-weekends-off-stonewall-protection-g--t7xk-765525060",
+      "via": "via BeBee"
+    },
     {
       "title": "FULL-TIME: UNARMED SECURITY OFFICER: MON-FRI: 3PM-11PM",
       "company": "Ameritex Guard Services Inc",
@@ -17,44 +47,14 @@
       "via": "via Indeed"
     },
     {
-      "title": "FULL-TIME: ARMED SECURITY OFFICER: THURS-MON: 9PM-5AM",
-      "company": "Ameritex Guard Services Inc",
-      "location": "Dallas, TX",
+      "title": "Security Officer - Full Time , Nights",
+      "company": "Texas Health",
+      "location": "Mansfield, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f7ca53475b83ef7b",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Full Time Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Hiring Full-Time Officers | Frisco, TX",
-      "company": "Marksman Security LLC",
-      "location": "Frisco, TX",
-      "pay": "16 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Marksman-Security/Job/Hiring-Full-Time-Officers-%7C-Frisco,-TX/-in-Frisco,TX?jid=fb96502fe615edf5",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Full Time Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Sunnyvale, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-patrol-screening-at-allied-universal-4440874143",
-      "via": "via LinkedIn"
+      "apply_link": "https://jobs.texashealth.org/job/23536557/security-officer-full-time-nights-mansfield-tx/",
+      "via": "via Texas Health Careers - Texas Health Resources"
     }
   ]
 }

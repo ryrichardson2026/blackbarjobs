@@ -1,11 +1,21 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "dallas/mesquite-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Security Officer Full Time Patrol Screening",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
+      "via": "via ZipRecruiter"
+    },
     {
       "title": "Security Officer Warehouse",
       "company": "Allied Universal",
@@ -27,26 +37,6 @@
       "via": "via Indeed"
     },
     {
-      "title": "Security Officer Full Time Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Site Patrol Specialist",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Site-Patrol-Specialist/-in-Mesquite,TX?jid=f1f97de97fce246b",
-      "via": "via ZipRecruiter"
-    },
-    {
       "title": "Security Officer Patrol Screening Specialist",
       "company": "Allied Universal",
       "location": "Mesquite, TX",
@@ -54,6 +44,16 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Screening-Specialist/-in-Mesquite,TX?jid=d2494db905329295",
+      "via": "via ZipRecruiter"
+    },
+    {
+      "title": "Security Officer Patrol Representative",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": "18.54 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Patrol-Representative/-in-Mesquite,TX?jid=778de4261c334164",
       "via": "via ZipRecruiter"
     }
   ]

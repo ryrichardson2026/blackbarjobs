@@ -1,11 +1,31 @@
 {
-  "generated": "2026-07-16T16:03:49.227448+00:00",
+  "generated": "2026-07-18T15:09:49.268849+00:00",
   "page": "san-antonio/jobs/university-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 5,
   "exact": 5,
   "jobs": [
+    {
+      "title": "Campus Security Officer",
+      "company": "SAN-Antonio-Academy-of-Texas",
+      "location": "San Antonio, TX",
+      "pay": "35K–50K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5290889547/e/",
+      "via": "via Learn4Good"
+    },
+    {
+      "title": "Campus Peace Officer: Student Safety",
+      "company": "Young World Physical Education",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://us.trabajo.org/job-3991-befb54476b17239ff90f0d4248b6b702",
+      "via": "via Trabajo.org"
+    },
     {
       "title": "Unarmed Event Security Officer | College Football & Concerts | $17/hr| Level 2 License",
       "company": "A & Associates",
@@ -17,44 +37,24 @@
       "via": "via SimplyHired"
     },
     {
-      "title": "Campus Safety Officer — 3rd Shift",
-      "company": "The Chronicle Of Higher Education, Inc.",
-      "location": "San Antonio, TX",
-      "pay": "31,360–42,428 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5281427904/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Campus Safety Officer — 3rd Shift (Full-Time)",
-      "company": "The Chronicle Of Higher Education, Inc.",
+      "title": "Campus Safety Officer 3rd Shift (Full-Time)",
+      "company": "The Chronicle of Higher Education",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/1178850409003876352",
-      "via": "via Jobrapido"
-    },
-    {
-      "title": "Level III Campus Security Officer; School",
-      "company": "Valorforces",
-      "location": "San Antonio, TX",
-      "pay": "24,796–27,552 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5277518929/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Campus Security Officer | Full-Time, Benefits",
-      "company": "San Antonio Academy of Texas",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://bebee.com/us/jobs/campus-security-officer-full-time-benefits-san-antonio-academy-of-texas-san-antonio--lensa-7428_15532a01d391c9ea65051bfd38abc8a56f455de3ed667a35e9a41cf87f10e159",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://bebee.com/us/jobs/campus-safety-officer-3rd-shift-full-time-the-chronicle-of-higher-education-san-antonio--lensa-7428_33d7d073d67418c118c95703a61ee72d295f52ed8243ac2ee217bae55a3fc604",
       "via": "via BeBee"
+    },
+    {
+      "title": "Campus Safety Officer: Protect Students & Campuses",
+      "company": "Young World Physical Education",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://www.jobleads.com/us/job/campus-safety-officer-protect-students-campuses--san-antonio--ed7977661e81cef2b2552f4f68bc6e716",
+      "via": "via JobLeads"
     }
   ]
 }
