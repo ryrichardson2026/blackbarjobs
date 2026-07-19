@@ -616,7 +616,7 @@ window.addEventListener("load", function(){
   /* ───────────────── CONFIG ───────────────── */
   // Job source: static /feed/board.json (all active jobs), written by bbj_feed_snapshot.py. Google Sheet retired.
   var PAGE_SIZE = 10;
-  var FREE_VIEWS = 2;       // free job views before the gate appears (2 free, gate on the 3rd click)
+  var FREE_VIEWS = 3;       // free job views before the gate appears (3 free, gate on the 4th click)
 
   /* ───────────────── STATE ───────────────── */
   var ALL_JOBS = [];
@@ -626,10 +626,25 @@ window.addEventListener("load", function(){
   var pendingJob = null;
   var registered = false;
   function bbjHasSupabaseSession(){
+    // Validate the token, do NOT trust mere existence: supabase-js writes an
+    // sb-<ref>-auth-token key for anonymous visitors too, so an existence check
+    // reads every guest as logged-in and bypasses the click gate. Require a
+    // parseable session with a real access_token, a user id, and (if stamped) an
+    // expiry in the future.
     try {
       for (var i = 0; i < localStorage.length; i++) {
         var k = localStorage.key(i);
-        if (k && /^sb-.*-auth-token$/.test(k) && localStorage.getItem(k)) return true;
+        if (!k || !/^sb-.*-auth-token$/.test(k)) continue;
+        var raw = localStorage.getItem(k);
+        if (!raw || raw === 'null') continue;
+        var obj;
+        try { obj = JSON.parse(raw); } catch(e) { continue; }   // unparseable -> not a session
+        if (!obj || typeof obj !== 'object') continue;
+        var s = obj.currentSession || obj.session || obj;        // tolerate wrapper shapes
+        if (!s.access_token) continue;                           // "", null, {} all fail here
+        if (!s.user || !s.user.id) continue;                     // needs a real user
+        if (s.expires_at && (s.expires_at * 1000) <= Date.now()) continue;  // expired
+        return true;
       }
     } catch(e){}
     return false;
@@ -1019,7 +1034,7 @@ window.addEventListener("load", function(){
 
   /* ───────────────── APPLY + GATE ───────────────── */
   function getViews() { var m = document.cookie.match(/bbj_views=(\d+)/); return m ? parseInt(m[1],10) : 0; }
-  function setViews(n) { document.cookie = 'bbj_views=' + n + '; path=/; SameSite=Lax'; }
+  function setViews(n) { document.cookie = 'bbj_views=' + n + '; max-age=2592000; path=/; SameSite=Lax'; }
 
   function handleApply(job) {
     pendingJob = job || null;
