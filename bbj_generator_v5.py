@@ -26,7 +26,7 @@ from pathlib import Path
 # is a sibling at repo root; add this file's dir to sys.path so the import resolves no
 # matter what cwd the external build driver runs from.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from bbj_feed_bake import bake_page, BakeError
+from bbj_feed_bake import bake_page, BakeError, SCHEMA_START, SCHEMA_END
 
 # Repo-root feed dir. Baked cards are read from feed/<BBJ_FEED_KEY>.json here.
 FEED_DIR = Path(__file__).resolve().parent / "feed"
@@ -539,21 +539,11 @@ def faq_schema(faqs):
         {"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}
         for q,a in faqs]}, indent=2)
 
-def jobposting_schema(cfg):
-    return json.dumps({"@context":"https://schema.org/","@type":"JobPosting",
-        "title":cfg["role"],"description":cfg["meta_desc"],
-        "identifier":{"@type":"PropertyValue","name":"BlackBarJobs","value":cfg["slug"].strip("/").replace("/","-")},
-        # FLAG: datePosted/validThrough is a stale-date pattern (build date + end-of-year).
-        # Revisit alongside the Google-for-Jobs JobPosting schema work before relying on it.
-        "datePosted":TODAY,"validThrough":f"{date.today().year}-12-31",
-        "employmentType":cfg.get("employment_type","FULL_TIME"),
-        "hiringOrganization":{"@type":"Organization","name":"BlackBarJobs","sameAs":BASE_URL},
-        "jobLocation":{"@type":"Place","address":{"@type":"PostalAddress",
-            "addressLocality":cfg["city"],"addressRegion":cfg.get("region","TX"),"addressCountry":"US"}},
-        "baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{
-            "@type":"QuantitativeValue","minValue":cfg.get("pay_min",15),
-            "maxValue":cfg.get("pay_max",22),"unitText":"HOUR"}},
-        "url":f"{BASE_URL}{cfg['slug']}"}, indent=2)
+# NOTE: the old jobposting_schema(cfg) synthetic per-page JobPosting was removed.
+# Metro pages now carry a BBJ_SCHEMA marker pair that bake_page fills with one real
+# JobPosting per baked card (see bbj_feed_bake.render_job_schema). Do NOT reintroduce
+# a build-time synthetic posting: it froze datePosted and named BlackBarJobs as the
+# hiringOrganization instead of the real employer.
 
 def collection_schema(cfg):
     # Hub/directory pages: an ItemList of the metro pages, not a single JobPosting.
@@ -686,7 +676,15 @@ def generate_page(cfg):
     badge       = cfg.get("badge_override", f"{city}, {region}")
     related_h2  = cfg.get("related_h2", f"More Security Jobs in {city}")
     browse_label= cfg.get("browse_label", f"All {city} Security Jobs")
-    page_schema = collection_schema(cfg) if cfg.get("hub_mode") else jobposting_schema(cfg)
+    # Hub pages keep their CollectionPage/ItemList. Metro job pages no longer emit a
+    # synthetic per-page JobPosting here; they ship an empty BBJ_SCHEMA marker pair
+    # that bake_page fills with one real JobPosting per baked card (refreshes on the
+    # feed cadence instead of freezing at build time). generate_page bakes below, so
+    # a page with a feed leaves this block already populated.
+    if cfg.get("hub_mode"):
+        page_schema_block = f'<script type="application/ld+json">{collection_schema(cfg)}</script>'
+    else:
+        page_schema_block = SCHEMA_START + SCHEMA_END
 
     # ── Interlinking validation ────────────────────────────────
     _issues = validate_interlinking(cfg)
@@ -731,7 +729,7 @@ def generate_page(cfg):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">{faq_schema(faqs)}</script>
-<script type="application/ld+json">{page_schema}</script>
+{page_schema_block}
 <script type="application/ld+json">{breadcrumb_schema(cfg)}</script>
 <style>{PAGE_CSS}</style>
 </head>
