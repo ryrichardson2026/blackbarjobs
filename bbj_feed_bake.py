@@ -230,9 +230,12 @@ def splice_container(html, loc, cards):
 # path emitted one synthetic per-page posting at generation time that never
 # refreshed and named BlackBarJobs (not the employer) as hiringOrganization.
 # Rules baked in here (non-negotiable, see the schema brief):
-#   - Markup mirrors visible content 1:1. One object per rendered card, and the
-#     count-assert below fails the bake if they ever diverge. Zero cards -> zero
-#     objects and no empty array (render_job_schema returns "").
+#   - Markup mirrors visible content: every emitted object maps to a rendered card
+#     (objects are a subset of cards, never a superset; the splice asserts this).
+#     Zero cards -> zero objects and no empty array (render_job_schema returns "").
+#     A card whose feed row is missing a Google-required field keeps its card but is
+#     skipped from the array rather than shipping an invalid or fabricated posting;
+#     the skip is logged in the bake note, never silently capped.
 #   - datePosted comes from the feed's posted_date and nothing else. Never the
 #     bake date / today(); a stale feed date stays stale (dropped upstream).
 #   - Only feed-present fields are emitted. streetAddress / postalCode /
@@ -293,9 +296,21 @@ def plus_days(iso, n):
         return None
     return (d + datetime.timedelta(days=n)).isoformat()
 
+# Google-required JobPosting fields. A job whose feed row lacks any of these can
+# only yield an INVALID posting, and none of them may be fabricated (a missing
+# posted_date must never be re-stamped to the bake date). Such a job keeps its
+# visible card but is skipped from the schema array, so every emitted object still
+# maps 1:1 to a visible card while no invalid or fabricated posting ever ships.
+def _required_ok(j):
+    return all((j.get(k) or "") and str(j.get(k)).strip()
+               for k in ("title", "company", "location", "posted_date", "apply_link"))
+
 def build_job_posting(j):
-    """One JobPosting object from one feed job. Only feed-present fields are
-    emitted; nothing is invented."""
+    """One JobPosting object from one feed job, or None if the job is missing a
+    Google-required field. Only feed-present fields are emitted; nothing is
+    invented."""
+    if not _required_ok(j):
+        return None
     title = ((j.get("title") or "").strip()) or None
     company = ((j.get("company") or "").strip()) or None
     location = j.get("location")
@@ -328,32 +343,53 @@ def build_job_posting(j):
         obj["employmentType"] = et
     return obj
 
-def render_job_schema(jobs):
+def build_job_postings(jobs):
+    """Return (objects, dropped): valid JobPosting dicts plus the count of jobs
+    skipped for missing a Google-required field. objects is always a subset of the
+    rendered cards (one per kept job), never a superset."""
+    objs, dropped = [], 0
+    for j in jobs:
+        o = build_job_posting(j)
+        if o is None:
+            dropped += 1
+        else:
+            objs.append(o)
+    return objs, dropped
+
+def render_job_schema(objs):
     """Return the <script> string for the JobPosting array, or '' when there are no
-    jobs (zero cards -> zero objects, no empty array)."""
-    if not jobs:
+    valid objects (zero objects -> no empty array, no script)."""
+    if not objs:
         return ""
-    arr = [build_job_posting(j) for j in jobs]
-    payload = json.dumps(arr, ensure_ascii=False, separators=(",", ":"))
+    payload = json.dumps(objs, ensure_ascii=False, separators=(",", ":"))
     return '<script type="application/ld+json">' + payload + '</script>'
 
 def splice_schema(html, jobs):
-    """Replace the region between BBJ_SCHEMA markers with a JobPosting array whose
-    object count equals the rendered-card count. Pages with no markers (hub / guide /
-    pillar pages that carry ItemList / Article and must never carry JobPosting) are
-    left untouched. Marker-bounded and idempotent, mirroring splice_container."""
+    """Replace the region between BBJ_SCHEMA markers with a JobPosting array of the
+    valid postings for the baked cards. Returns (new_html, dropped). Pages with no
+    markers (hub / guide / pillar pages that carry ItemList / Article and must never
+    carry JobPosting) are left untouched. Marker-bounded and idempotent, mirroring
+    splice_container.
+
+    Count discipline: every emitted object maps 1:1 to a visible card (objects are a
+    subset of cards), and the emitted-object count equals the count of valid postings.
+    Cards whose feed row is missing a Google-required field keep their card but are
+    skipped from the array (never fabricated, never an invalid posting)."""
     si = html.find(SCHEMA_START)
     ei = html.find(SCHEMA_END)
     if si == -1 and ei == -1:
-        return html                                     # no schema region on this page
+        return html, 0                                  # no schema region on this page
     if si == -1 or ei == -1 or ei < si:
         raise BakeError("unbalanced BBJ_SCHEMA markers")
-    script = render_job_schema(jobs)
+    objs, dropped = build_job_postings(jobs)
+    if len(objs) > len(jobs):                           # objects must be a card subset
+        raise BakeError("schema objects %d exceed cards %d" % (len(objs), len(jobs)))
+    script = render_job_schema(objs)
     n_obj = script.count('"@type":"JobPosting"')        # compact dumps -> exact token
-    if n_obj != len(jobs):                              # guardrail #5: 1 object / card
-        raise BakeError("schema object count %d != cards baked %d" % (n_obj, len(jobs)))
+    if n_obj != len(objs):                              # guardrail #5: count integrity
+        raise BakeError("schema object count %d != valid postings %d" % (n_obj, len(objs)))
     inner_start = si + len(SCHEMA_START)
-    return html[:inner_start] + script + html[ei:]
+    return html[:inner_start] + script + html[ei:], dropped
 
 def bake_page(html, feed_key, feed_dir, bake_date):
     """Return (new_html, changed, note). Raises BakeError on structural trouble."""
@@ -384,9 +420,11 @@ def bake_page(html, feed_key, feed_dir, bake_date):
                             % (n_rendered, len(jobs)))
 
     new_html = splice_container(html, loc, cards)
-    new_html = splice_schema(new_html, jobs)            # JobPosting JSON-LD, if markers
+    new_html, dropped = splice_schema(new_html, jobs)   # JobPosting JSON-LD, if markers
     changed = new_html != html
     note = ("%d/%d jobs" % (len(jobs), len(all_jobs))) if jobs else "EMPTY"
+    if dropped:                                         # log, never silently cap
+        note += " (%d schema-skipped: missing required field)" % dropped
     return new_html, changed, note
 
 # ---- sitemap lastmod bump -------------------------------------------------
