@@ -74,17 +74,17 @@ def market_slug(m):
 def fetch_active_jobs(base, key):
     rest = base.rstrip("/") + "/rest/v1"
     headers = {"apikey": key, "Authorization": "Bearer " + key}
-    cols = "job_hash,title,company,location,market,role,pay,schedule,posted_date,apply_link,via,description"
+    cols = "job_hash,title,company,location,market,role,pay,schedule,posted_date,apply_link,via,description,last_seen_at"
     out, offset, page = [], 0, 1000
     while True:
         url = (f"{rest}/jobs?select={cols}&status=eq.active&suppressed=eq.false"
                f"&order=posted_date.desc.nullslast&limit={page}&offset={offset}")
         try:
             with urlopen(Request(url, headers=headers), timeout=60) as r:
-                batch = json.loads(r.read().decode())
+                batch = json.loads(r.read().decode("utf-8"))
         except HTTPError as e:
             detail = ""
-            try: detail = e.read().decode()[:300]
+            try: detail = e.read().decode("utf-8")[:300]
             except Exception: pass
             print(f"Supabase read error {e.code}: {detail}", file=sys.stderr); sys.exit(1)
         except URLError as e:
@@ -186,12 +186,21 @@ def main():
         elif n_exact == 0:
             summary["fallback_heavy"].append(t["key"])
 
-    # ---- master board feed: ALL active jobs, deduped by apply_link, newest-first ----
-    # Always built from the full active set (fetch is never market-scoped), so a
-    # --market run still refreshes the global board rather than clobbering it.
+    # ---- master board feed: ONLY the most recent live pull, deduped by apply_link ----
+    # board.json = the current pull, NOT cumulative active history. The reference is
+    # the newest last_seen_at across active rows: the latest fetch stamps every job it
+    # saw this run with the same timestamp, so rows last seen before that date were not
+    # in the current pull and are excluded. posted_date is also required — a row with
+    # no posted date has no freshness guarantee and no valid JobPosting.datePosted.
+    _seen = [j.get("last_seen_at") for j in jobs if j.get("last_seen_at")]
+    ref_date = max(_seen)[:10] if _seen else None
     board = []
     seen_apply = set()
     for j in sorted(jobs, key=rank_key):
+        if ref_date and (j.get("last_seen_at") or "")[:10] < ref_date:
+            continue                                    # not in the most recent pull
+        if not j.get("posted_date"):
+            continue                                    # no freshness / no datePosted
         al = j.get("apply_link")
         if al and al in seen_apply:
             continue
@@ -200,14 +209,25 @@ def main():
         row = render_job(j)
         row["market"] = market_slug(j.get("market"))
         board.append(row)
-    with open(os.path.join(args.out, "board.json"), "w", encoding="utf-8") as f:
-        json.dump({"generated": now, "count": len(board), "jobs": board},
-                  f, indent=2, ensure_ascii=False)
+
     _bym = {}
     for r in board:
         _bym[r["market"]] = _bym.get(r["market"], 0) + 1
-    print("Wrote board.json: %d jobs (%s)" %
-          (len(board), ", ".join("%s=%d" % (k, _bym[k]) for k in sorted(_bym))))
+    bym_str = ", ".join("%s=%d" % (k, _bym[k]) for k in sorted(_bym))
+    # Projection BEFORE writing (step 4). A real current pull should land in a sane
+    # band; well outside it means the last_seen_at assumption is off or the pull was
+    # partial, so refuse to overwrite the good board with a bad run.
+    print("board projection: %d rows  (last_seen>=%s, posted_date not null)  [%s]" %
+          (len(board), ref_date, bym_str))
+    if len(board) < 200 or len(board) > 3000:
+        print("STOP: projected board size %d is outside the expected 200-3000 band; "
+              "NOT overwriting board.json (partial pull or wrong assumption). Review first."
+              % len(board), file=sys.stderr)
+    else:
+        with open(os.path.join(args.out, "board.json"), "w", encoding="utf-8") as f:
+            json.dump({"generated": now, "count": len(board), "jobs": board},
+                      f, indent=2, ensure_ascii=False)
+        print("Wrote board.json: %d jobs (%s)" % (len(board), bym_str))
 
     with open(os.path.join(args.out, "_manifest.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
