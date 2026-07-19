@@ -31,12 +31,19 @@ Guardrails (non-negotiable):
   Idempotent: re-running on an already-baked page (same feed, same bake date)
   produces zero git diff.
 
+JobPosting JSON-LD (schema splice, same cadence as the cards):
+  Emit one real JobPosting per baked card into a second marker-bounded region in
+  the <head> (<!--BBJ_SCHEMA_START--> / <!--BBJ_SCHEMA_END-->). Each object's
+  title/employer/location/date come from the same feed job the card is rendered
+  from, so the markup mirrors the visible content 1:1 and refreshes on the same
+  Tue/Thu/Sat cadence. datePosted is the feed's posted_date verbatim (never the
+  bake date). A fifth guardrail count-asserts objects == rendered cards. Pages
+  with no BBJ_SCHEMA markers (hubs / guides / pillars) are left untouched.
+  (Still NOT bumped here: WebPage/CollectionPage dateModified, a separate pass.)
+
 Freshness (Lever 2, only on pages that actually changed this run):
   Bump the page's <lastmod> in sitemap.xml to the bake date. Unchanged pages are
-  never rewritten, so re-runs do not churn timestamps. No JSON-LD dateModified is
-  bumped here: these pages carry no WebPage/CollectionPage node with a
-  dateModified field (only JobPosting.datePosted), and inventing one is a
-  separate schema pass, not a bake concern.
+  never rewritten, so re-runs do not churn timestamps.
 
 Usage (from the repo root):
   python bbj_feed_bake.py --repo . --market "San Antonio" --dry-run
@@ -45,7 +52,7 @@ Usage (from the repo root):
   python bbj_feed_bake.py --repo . --market "San Antonio"                # batch
 """
 
-import argparse, datetime, json, os, re, sys
+import argparse, datetime, hashlib, json, os, re, sys
 from urllib.parse import quote
 
 BASE_URL = "https://www.blackbarjobs.com"
@@ -217,6 +224,137 @@ def splice_container(html, loc, cards):
     new_open = ensure_baked_attr(open_tag)
     return html[:open_start] + new_open + new_inner + html[inner_end:]
 
+# ---- JobPosting schema (Google for Jobs) ----------------------------------
+# One real JobPosting per baked card, spliced between BBJ_SCHEMA markers in the
+# <head> so the JSON-LD refreshes on the SAME cron cadence as the cards. The old
+# path emitted one synthetic per-page posting at generation time that never
+# refreshed and named BlackBarJobs (not the employer) as hiringOrganization.
+# Rules baked in here (non-negotiable, see the schema brief):
+#   - Markup mirrors visible content 1:1. One object per rendered card, and the
+#     count-assert below fails the bake if they ever diverge. Zero cards -> zero
+#     objects and no empty array (render_job_schema returns "").
+#   - datePosted comes from the feed's posted_date and nothing else. Never the
+#     bake date / today(); a stale feed date stays stale (dropped upstream).
+#   - Only feed-present fields are emitted. streetAddress / postalCode /
+#     baseSalary are never synthesized; a "missing recommended field" warning is
+#     acceptable, a fabricated value is not.
+#   - directApply is always false: BBJ outlinks to the employer's apply_link.
+
+SCHEMA_START = "<!--BBJ_SCHEMA_START-->"
+SCHEMA_END = "<!--BBJ_SCHEMA_END-->"
+
+# schedule -> Google employmentType. Emitted ONLY on an exact match; anything
+# else (None, "Per diem", etc.) omits the field rather than guessing.
+EMPLOYMENT_TYPE = {
+    "Full-time": "FULL_TIME",
+    "Part-time": "PART_TIME",
+    "Contractor": "CONTRACTOR",
+    "Temp work": "TEMPORARY",
+    "Internship": "INTERN",
+}
+
+def job_identifier(company, title, location):
+    """Stable per-job id, byte-identical to bbj_feed_fetch.job_hash (company|title|
+    location, lowercased/space-collapsed, sha1[:12]). Reusing the dedupe hash gives
+    Google one identity for the same job across metro pages."""
+    basis = "|".join(re.sub(r"\s+", " ", (x or "").strip().lower())
+                     for x in (company, title, location))
+    return hashlib.sha1(basis.encode()).hexdigest()[:12]
+
+def split_location(loc):
+    """'Houston, TX' -> ('Houston', 'TX'). Region omitted (None) when absent."""
+    if not loc:
+        return None, None
+    parts = [p.strip() for p in str(loc).split(",")]
+    if len(parts) >= 2:
+        return (parts[0] or None), (parts[1] or None)
+    return (parts[0] or None), None
+
+def job_description(j):
+    """A plain-language description restating the job's own visible card fields
+    (title, company, location, schedule). Google requires JobPosting.description,
+    so it can never be empty. This is not synthesized data: it mirrors exactly what
+    the rendered card shows (guardrail: markup mirrors visible content)."""
+    bits = [((j.get("title") or "Security officer position").strip().rstrip(".")) + "."]
+    if j.get("company"):
+        bits.append("Hiring company: " + str(j["company"]).strip() + ".")
+    if j.get("location"):
+        bits.append("Location: " + str(j["location"]).strip() + ".")
+    if j.get("schedule"):
+        bits.append("Schedule: " + str(j["schedule"]).strip() + ".")
+    bits.append("See full details and apply on the employer site.")
+    return " ".join(bits)
+
+def plus_days(iso, n):
+    """ISO date + n days, or None if the input is not a parseable date."""
+    try:
+        d = datetime.date.fromisoformat(str(iso)[:10])
+    except (ValueError, TypeError):
+        return None
+    return (d + datetime.timedelta(days=n)).isoformat()
+
+def build_job_posting(j):
+    """One JobPosting object from one feed job. Only feed-present fields are
+    emitted; nothing is invented."""
+    title = ((j.get("title") or "").strip()) or None
+    company = ((j.get("company") or "").strip()) or None
+    location = j.get("location")
+    locality, region = split_location(location)
+    obj = {
+        "@context": "https://schema.org/",
+        "@type": "JobPosting",
+        "title": title,
+        "description": job_description(j),
+        "identifier": {"@type": "PropertyValue",
+                       "name": company or "BlackBarJobs",
+                       "value": job_identifier(company, title, location)},
+        "hiringOrganization": {"@type": "Organization", "name": company},
+        "jobLocation": {"@type": "Place", "address": {
+            "@type": "PostalAddress",
+            "addressLocality": locality,
+            "addressRegion": region,
+            "addressCountry": "US"}},
+        "directApply": False,
+        "url": j.get("apply_link") or None,
+    }
+    posted = j.get("posted_date")
+    if posted:                                          # never re-stamped
+        obj["datePosted"] = str(posted)[:10]
+        vt = plus_days(posted, 60)                      # validThrough = posted + 60d
+        if vt:
+            obj["validThrough"] = vt
+    et = EMPLOYMENT_TYPE.get((j.get("schedule") or "").strip())
+    if et:
+        obj["employmentType"] = et
+    return obj
+
+def render_job_schema(jobs):
+    """Return the <script> string for the JobPosting array, or '' when there are no
+    jobs (zero cards -> zero objects, no empty array)."""
+    if not jobs:
+        return ""
+    arr = [build_job_posting(j) for j in jobs]
+    payload = json.dumps(arr, ensure_ascii=False, separators=(",", ":"))
+    return '<script type="application/ld+json">' + payload + '</script>'
+
+def splice_schema(html, jobs):
+    """Replace the region between BBJ_SCHEMA markers with a JobPosting array whose
+    object count equals the rendered-card count. Pages with no markers (hub / guide /
+    pillar pages that carry ItemList / Article and must never carry JobPosting) are
+    left untouched. Marker-bounded and idempotent, mirroring splice_container."""
+    si = html.find(SCHEMA_START)
+    ei = html.find(SCHEMA_END)
+    if si == -1 and ei == -1:
+        return html                                     # no schema region on this page
+    if si == -1 or ei == -1 or ei < si:
+        raise BakeError("unbalanced BBJ_SCHEMA markers")
+    script = render_job_schema(jobs)
+    n_obj = script.count('"@type":"JobPosting"')        # compact dumps -> exact token
+    if n_obj != len(jobs):                              # guardrail #5: 1 object / card
+        raise BakeError("schema object count %d != cards baked %d" % (n_obj, len(jobs)))
+    inner_start = si + len(SCHEMA_START)
+    return html[:inner_start] + script + html[ei:]
+
 def bake_page(html, feed_key, feed_dir, bake_date):
     """Return (new_html, changed, note). Raises BakeError on structural trouble."""
     for cid, renderer, empty in (
@@ -246,6 +384,7 @@ def bake_page(html, feed_key, feed_dir, bake_date):
                             % (n_rendered, len(jobs)))
 
     new_html = splice_container(html, loc, cards)
+    new_html = splice_schema(new_html, jobs)            # JobPosting JSON-LD, if markers
     changed = new_html != html
     note = ("%d/%d jobs" % (len(jobs), len(all_jobs))) if jobs else "EMPTY"
     return new_html, changed, note
