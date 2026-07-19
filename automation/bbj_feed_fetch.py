@@ -107,23 +107,57 @@ def job_hash(company, title, location):
                      for x in (company, title, location))
     return hashlib.sha1(basis.encode()).hexdigest()[:12]
 
+# Telltale bytes of UTF-8 text that was mis-decoded as cp1252/latin-1 upstream
+# (searchapi returns some already double-encoded). None of these open a clean
+# English job string: "â€" -> smart quotes/dashes, "Ã"/"Â" -> accented letters.
+_MOJIBAKE_HINT = ("â€", "Ã", "Â")   # â€ , Ã , Â
+
+def repair_mojibake(s):
+    """Repair classic UTF-8-as-cp1252 double-encoding (â€" -> —, Ã© -> é, Â  -> nbsp,
+    etc.) by re-encoding to cp1252 and decoding as UTF-8. Only attempted when a
+    telltale sequence is present, and only kept if the round-trip succeeds cleanly;
+    otherwise the original is returned untouched. A residual U+FFFD means bytes were
+    truly lost upstream and cannot be recovered — the caller drops such rows."""
+    if not s:
+        return s
+    s = str(s)
+    if not any(h in s for h in _MOJIBAKE_HINT):
+        return s
+    try:
+        return s.encode("cp1252").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return s
+
 def normalize(job, qmeta, now_iso, today):
-    title = job.get("title") or ""
-    company = job.get("company_name") or ""
-    location = job.get("location") or ""
+    # Repair mojibake BEFORE hashing, so the dedupe key is computed on clean text
+    # and corrupted variants collapse to one hash instead of splitting.
+    title = repair_mojibake(job.get("title") or "")
+    company = repair_mojibake(job.get("company_name") or "")
+    location = repair_mojibake(job.get("location") or "")
+    pay = repair_mojibake(extract_salary(job))
+    # If any hashed/displayed field still carries a lost byte (U+FFFD) after repair,
+    # skip the row rather than ingest corrupted text (returns None; caller drops it).
+    for fld, val in (("title", title), ("company", company),
+                     ("location", location), ("pay", pay)):
+        if val and "�" in val:
+            print("  SKIP unrepairable mojibake (%s): %r"
+                  % (fld, (title or company or "")[:60]), file=sys.stderr)
+            return None
     det = job.get("detected_extensions") or {}
     apply_link = job.get("apply_link")
     links = job.get("apply_links") or []
     if not apply_link and links:
         apply_link = links[0].get("link")
-    desc = (job.get("description") or "").strip()
+    desc = repair_mojibake((job.get("description") or "").strip())
+    if "�" in desc:
+        desc = ""                                   # drop unrepairable desc, keep row
     if len(desc) > DESC_MAX:
         desc = desc[:DESC_MAX].rsplit(" ", 1)[0] + "..."
     return {
         "job_hash": job_hash(company, title, location),
         "title": title, "company": company, "location": location,
         "market": qmeta["metro"], "role": qmeta["role"], "source_query": qmeta["query"],
-        "via": job.get("via"), "pay": extract_salary(job),
+        "via": job.get("via"), "pay": pay,
         "schedule": det.get("schedule") or det.get("schedule_type"),
         "posted_date": parse_posted(det.get("posted_at"), today),
         "apply_link": apply_link, "sharing_link": job.get("sharing_link"),
@@ -196,7 +230,7 @@ def main():
     print(f"Blocklist terms: {len(blocklist)}  ({', '.join(blocklist) or 'none'})")
 
     seen, buffer = set(), {}
-    raw_total, errors = 0, []
+    raw_total, errors, skipped_mojibake = 0, [], 0
     for i, q in enumerate(queries, 1):
         token, got = None, 0
         for page in range(args.pages):
@@ -205,6 +239,9 @@ def main():
                 errors.append({"query": q["query"], "error": err}); break
             for job in jobs:
                 row = normalize(job, q, now_iso, today)
+                if row is None:                     # dropped: unrepairable mojibake
+                    skipped_mojibake += 1
+                    continue
                 buffer[row["job_hash"]] = row
                 seen.add(row["job_hash"])
             got += len(jobs); raw_total += len(jobs)
@@ -236,7 +273,8 @@ def main():
         f"or=(last_seen_at.lt.{quote(cutoff_seen)},posted_date.lt.{quote(cutoff_post)})",
         {"status": "inactive", "updated_at": now_iso})
 
-    print(f"\nDone. {len(rows)} unique jobs this run, {len(errors)} query errors.")
+    print(f"\nDone. {len(rows)} unique jobs this run, {len(errors)} query errors, "
+          f"{skipped_mojibake} dropped for unrepairable mojibake.")
     print(f"Expiry: inactive if unseen since {cutoff_seen[:10]} or posted before {cutoff_post}.")
     if errors:
         print("First errors:", json.dumps(errors[:3], indent=2))
