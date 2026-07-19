@@ -74,7 +74,7 @@ def market_slug(m):
 def fetch_active_jobs(base, key):
     rest = base.rstrip("/") + "/rest/v1"
     headers = {"apikey": key, "Authorization": "Bearer " + key}
-    cols = "job_hash,title,company,location,market,role,pay,schedule,posted_date,apply_link,via"
+    cols = "job_hash,title,company,location,market,role,pay,schedule,posted_date,apply_link,via,description"
     out, offset, page = [], 0, 1000
     while True:
         url = (f"{rest}/jobs?select={cols}&status=eq.active&suppressed=eq.false"
@@ -142,7 +142,7 @@ def select_for_page(page, market_jobs):
 
 def render_job(j):
     return {k: j.get(k) for k in
-            ("title", "company", "location", "pay", "schedule", "posted_date", "apply_link", "via")}
+            ("title", "company", "location", "pay", "schedule", "posted_date", "apply_link", "via", "description")}
 
 
 def main():

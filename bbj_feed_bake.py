@@ -152,7 +152,7 @@ class BakeError(Exception):
 def assert_no_mojibake(jobs, feed_key):
     """Guardrail #1: refuse to bake if any feed value carries UTF-8 mojibake."""
     for j in jobs:
-        for fld in ("title", "company", "location", "pay", "apply_link"):
+        for fld in ("title", "company", "location", "pay", "apply_link", "description"):
             v = j.get(fld)
             if not v:
                 continue
@@ -274,10 +274,15 @@ def split_location(loc):
     return (parts[0] or None), None
 
 def job_description(j):
-    """A plain-language description restating the job's own visible card fields
-    (title, company, location, schedule). Google requires JobPosting.description,
-    so it can never be empty. This is not synthesized data: it mirrors exactly what
-    the rendered card shows (guardrail: markup mirrors visible content)."""
+    """JobPosting.description. Prefer the real listing description carried in the
+    feed (feed 'description', sourced from the job board and stored at fetch time).
+    Google requires this field, so when the feed has no description fall back to a
+    plain-language restatement of the job's own visible card fields (title, company,
+    location, schedule) rather than leave it empty. Neither path fabricates data:
+    the fallback only mirrors what the rendered card shows."""
+    real = (j.get("description") or "").strip()
+    if real:
+        return real
     bits = [((j.get("title") or "Security officer position").strip().rstrip(".")) + "."]
     if j.get("company"):
         bits.append("Hiring company: " + str(j["company"]).strip() + ".")
