@@ -48,6 +48,10 @@
     var views = parseInt((document.cookie.match(/bbj_views=(\d+)/) || [0, 0])[1], 10);
     if (registered || views < 2) {
       if (!registered) { document.cookie = "bbj_views=" + (views + 1) + ";path=/;SameSite=Lax"; }
+      var a = event && event.currentTarget;       // same tab on mobile, new tab on desktop:
+      if (a && a.tagName === "A") {                // keeps BBJ in the back stack after app hand-off
+        a.target = window.matchMedia("(max-width: 820px)").matches ? "_self" : "_blank";
+      }
       if (isHref) { return true; }                // let the anchor href open the employer
       window.open(url, "_blank"); return false;   // row-body click has no href to follow
     }
@@ -63,6 +67,10 @@
     // gated 3rd view preventDefaults the anchor and opens the register overlay.
     var url = href || "";
     if (!url) return false;
+    var a = event && event.currentTarget;         // same tab on mobile, new tab on desktop
+    if (a && a.tagName === "A") {
+      a.target = window.matchMedia("(max-width: 820px)").matches ? "_self" : "_blank";
+    }
     if (typeof bbjIsRegistered === "function" && bbjIsRegistered()) { return true; }
     window.indexViewsThisSession = (window.indexViewsThisSession || 0) + 1;
     if (window.indexViewsThisSession <= 2) { return true; }
@@ -83,14 +91,14 @@
           (j.pay ? '<span class="jf-pay">' + esc(j.pay) + '</span>' : '') +
           (relPosted(j.posted_date) ? '<span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">' + esc(relPosted(j.posted_date)) + '</span>' : '') +
           '</div></div><a class="jf-apply" href="' + esc(j.apply_link || "") + '"' +
-          ' rel="nofollow sponsored" target="_blank" onclick="return bbjHandleApply(this.href, event)">Apply</a></div>';
+          ' rel="nofollow sponsored noopener" target="_blank" onclick="return bbjHandleApply(this.href, event)">Apply</a></div>';
     }).join("");
   }
 
   function renderIndexFeed(c, jobs) {
     c.innerHTML = jobs.map(function (j) {
       return '<a class="hf-row" href="' + esc(j.apply_link || "") + '"' +
-        ' rel="nofollow sponsored" target="_blank"' +
+        ' rel="nofollow sponsored noopener" target="_blank"' +
         ' style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-decoration:none;color:inherit;"' +
         ' onclick="return handleIndexApply(this.href, event)">' +
         '<div class="hf-body">' +
