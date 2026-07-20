@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-09T06:37:31Z",
-  "feed_pages": 208,
+  "feed_pages": 203,
   "distinct_queries": 173,
-  "pages_per_query": 1.243,
+  "pages_per_query": 1.231,
   "queries": [
     {
       "key": "DFW::security officer jobs Dallas TX",
@@ -851,8 +851,7 @@
       "query": "airport tsa security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/jobs/houston-airport-security.html",
-        "houston/jobs/tsa-airport-security-houston.html"
+        "houston/jobs/houston-airport-security.html"
       ]
     },
     {
@@ -935,7 +934,7 @@
       "query": "entry level security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/jobs/houston-entry-level-security-jobs.html"
+        "houston/jobs/houston-no-experience-security.html"
       ]
     },
     {
@@ -1055,7 +1054,7 @@
       "query": "overnight security officer jobs Houston TX",
       "qtype": "city-role",
       "pages": [
-        "houston/jobs/overnight-security-houston.html"
+        "houston/jobs/houston-night-shift-security.html"
       ]
     },
     {
@@ -1209,7 +1208,6 @@
       "query": "airport tsa security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/jobs/airport-security-san-antonio.html",
         "san-antonio/jobs/tsa-airport-security-san-antonio.html"
       ]
     },
@@ -1240,7 +1238,7 @@
       "query": "entry level security officer jobs San Antonio TX",
       "qtype": "city-role",
       "pages": [
-        "san-antonio/jobs/entry-level-security-san-antonio.html"
+        "san-antonio/jobs/no-experience-security-san-antonio.html"
       ]
     },
     {

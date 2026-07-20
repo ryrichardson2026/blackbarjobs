@@ -50,7 +50,7 @@
     },
     {
       "source": "/jobs/houston/overnight-security-houston",
-      "destination": "/houston/jobs/overnight-security-houston",
+      "destination": "/houston/jobs/houston-night-shift-security",
       "permanent": true
     },
     {
@@ -765,7 +765,7 @@
     },
     {
       "source": "/houston/jobs/houston-overnight-security",
-      "destination": "/houston/jobs/overnight-security-houston",
+      "destination": "/houston/jobs/houston-night-shift-security",
       "permanent": true
     },
     {
@@ -1451,6 +1451,31 @@
     {
       "source": "/dallas/jobs/grand-prairie-overnight-security",
       "destination": "/dallas/jobs/dallas-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/houston-entry-level-security-jobs",
+      "destination": "/houston/jobs/houston-no-experience-security",
+      "permanent": true
+    },
+    {
+      "source": "/san-antonio/jobs/entry-level-security-san-antonio",
+      "destination": "/san-antonio/jobs/no-experience-security-san-antonio",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/tsa-airport-security-houston",
+      "destination": "/houston/jobs/houston-airport-security",
+      "permanent": true
+    },
+    {
+      "source": "/san-antonio/jobs/airport-security-san-antonio",
+      "destination": "/san-antonio/jobs/tsa-airport-security-san-antonio",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/overnight-security-houston",
+      "destination": "/houston/jobs/houston-night-shift-security",
       "permanent": true
     }
   ]
