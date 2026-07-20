@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-09T06:37:31Z",
-  "feed_pages": 231,
-  "distinct_queries": 196,
-  "pages_per_query": 1.214,
+  "feed_pages": 208,
+  "distinct_queries": 173,
+  "pages_per_query": 1.243,
   "queries": [
     {
       "key": "DFW::security officer jobs Dallas TX",
@@ -611,16 +611,6 @@
       ]
     },
     {
-      "key": "DFW::security officer jobs Carrollton TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Carrollton TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/carrollton-security-jobs.html"
-      ]
-    },
-    {
       "key": "DFW::security officer jobs Cedar Hill TX",
       "metro": "DFW",
       "role": "general",
@@ -628,16 +618,6 @@
       "qtype": "city",
       "pages": [
         "dallas/jobs/cedar-hill-security-jobs.html"
-      ]
-    },
-    {
-      "key": "DFW::security officer jobs Denton TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Denton TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/denton-security-jobs.html"
       ]
     },
     {
@@ -661,26 +641,6 @@
       ]
     },
     {
-      "key": "DFW::security officer jobs Euless TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Euless TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/euless-security-jobs.html"
-      ]
-    },
-    {
-      "key": "DFW::security officer jobs Forney TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Forney TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/forney-security-jobs.html"
-      ]
-    },
-    {
       "key": "DFW::security officer jobs Fort Worth TX",
       "metro": "DFW",
       "role": "general",
@@ -688,16 +648,6 @@
       "qtype": "city",
       "pages": [
         "dallas/security-jobs-fort-worth.html"
-      ]
-    },
-    {
-      "key": "DFW::security officer jobs Garland TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Garland TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/garland-security-jobs.html"
       ]
     },
     {
@@ -731,16 +681,6 @@
       ]
     },
     {
-      "key": "DFW::security officer jobs Mansfield TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Mansfield TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/mansfield-security-jobs.html"
-      ]
-    },
-    {
       "key": "DFW::security officer jobs Mckinney TX",
       "metro": "DFW",
       "role": "general",
@@ -761,16 +701,6 @@
       ]
     },
     {
-      "key": "DFW::security officer jobs Midlothian TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Midlothian TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/midlothian-security-jobs.html"
-      ]
-    },
-    {
       "key": "DFW::security officer jobs North Richland Hills TX",
       "metro": "DFW",
       "role": "general",
@@ -788,16 +718,6 @@
       "qtype": "city",
       "pages": [
         "dallas/jobs/richardson-security-jobs.html"
-      ]
-    },
-    {
-      "key": "DFW::security officer jobs Rockwall TX",
-      "metro": "DFW",
-      "role": "general",
-      "query": "security officer jobs Rockwall TX",
-      "qtype": "city",
-      "pages": [
-        "dallas/jobs/rockwall-security-jobs.html"
       ]
     },
     {
@@ -848,16 +768,6 @@
       "qtype": "city-role",
       "pages": [
         "dallas/frisco-unarmed-security-jobs.html"
-      ]
-    },
-    {
-      "key": "DFW::unarmed security officer jobs Irving TX",
-      "metro": "DFW",
-      "role": "unarmed",
-      "query": "unarmed security officer jobs Irving TX",
-      "qtype": "city-role",
-      "pages": [
-        "dallas/jobs/irving-unarmed-security.html"
       ]
     },
     {
@@ -1189,26 +1099,6 @@
       ]
     },
     {
-      "key": "Houston::security officer jobs Baytown TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Baytown TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/baytown-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs Conroe TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Conroe TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/conroe-security-jobs.html"
-      ]
-    },
-    {
       "key": "Houston::security officer jobs Friendswood TX",
       "metro": "Houston",
       "role": "general",
@@ -1216,26 +1106,6 @@
       "qtype": "city",
       "pages": [
         "houston/jobs/friendswood-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs Humble TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Humble TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/humble-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs Katy TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Katy TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/katy-security-jobs.html"
       ]
     },
     {
@@ -1259,26 +1129,6 @@
       ]
     },
     {
-      "key": "Houston::security officer jobs Pasadena TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Pasadena TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/pasadena-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs Pearland TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Pearland TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/pearland-security-jobs.html"
-      ]
-    },
-    {
       "key": "Houston::security officer jobs Richmond TX",
       "metro": "Houston",
       "role": "general",
@@ -1286,26 +1136,6 @@
       "qtype": "city",
       "pages": [
         "houston/jobs/richmond-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs Sugar Land TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs Sugar Land TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/sugar-land-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Houston::security officer jobs The Woodlands TX",
-      "metro": "Houston",
-      "role": "general",
-      "query": "security officer jobs The Woodlands TX",
-      "qtype": "city",
-      "pages": [
-        "houston/jobs/the-woodlands-security-jobs.html"
       ]
     },
     {
@@ -1627,36 +1457,6 @@
       ]
     },
     {
-      "key": "Austin::security officer jobs Cedar Park TX",
-      "metro": "Austin",
-      "role": "general",
-      "query": "security officer jobs Cedar Park TX",
-      "qtype": "city",
-      "pages": [
-        "austin/jobs/cedar-park-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Austin::security officer jobs Georgetown TX",
-      "metro": "Austin",
-      "role": "general",
-      "query": "security officer jobs Georgetown TX",
-      "qtype": "city",
-      "pages": [
-        "austin/jobs/georgetown-security-jobs.html"
-      ]
-    },
-    {
-      "key": "Austin::security officer jobs Round Rock TX",
-      "metro": "Austin",
-      "role": "general",
-      "query": "security officer jobs Round Rock TX",
-      "qtype": "city",
-      "pages": [
-        "austin/jobs/round-rock-security-jobs.html"
-      ]
-    },
-    {
       "key": "Austin::unarmed security officer jobs Austin TX",
       "metro": "Austin",
       "role": "unarmed",
@@ -1974,36 +1774,6 @@
       "qtype": "city-role",
       "pages": [
         "chicago/jobs/overnight-warehouse-security-joliet.html"
-      ]
-    },
-    {
-      "key": "Chicago::security officer Naperville",
-      "metro": "Chicago",
-      "role": "general",
-      "query": "security officer Naperville",
-      "qtype": "city",
-      "pages": [
-        "chicago/jobs/security-officer-naperville.html"
-      ]
-    },
-    {
-      "key": "Chicago::security officer Aurora",
-      "metro": "Chicago",
-      "role": "general",
-      "query": "security officer Aurora",
-      "qtype": "city",
-      "pages": [
-        "chicago/jobs/security-officer-aurora.html"
-      ]
-    },
-    {
-      "key": "Chicago::security officer Schaumburg",
-      "metro": "Chicago",
-      "role": "general",
-      "query": "security officer Schaumburg",
-      "qtype": "city",
-      "pages": [
-        "chicago/jobs/security-officer-schaumburg.html"
       ]
     }
   ]

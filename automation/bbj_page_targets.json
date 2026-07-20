@@ -1,5 +1,5 @@
 {
-  "pages": 231,
+  "pages": 204,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -10,17 +10,6 @@
       "city_major": false,
       "target_type": "role",
       "container": "indexJobFeed",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/forney-security-jobs",
-      "path": "dallas/jobs/forney-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "forney",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
       "has_feed_block": true
     },
     {
@@ -84,17 +73,6 @@
       "market": "DFW",
       "role": null,
       "city": "rowlett",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/carrollton-security-jobs",
-      "path": "dallas/jobs/carrollton-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "carrollton",
       "city_major": false,
       "target_type": "city",
       "container": "jobRows",
@@ -167,33 +145,11 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/garland-security-jobs",
-      "path": "dallas/jobs/garland-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "garland",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/dallas-part-time-security",
       "path": "dallas/jobs/dallas-part-time-security.html",
       "market": "DFW",
       "role": "part-time",
       "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/irving-overnight-security-jobs",
-      "path": "dallas/jobs/irving-overnight-security.html",
-      "market": "DFW",
-      "role": "overnight",
-      "city": "irving",
       "city_major": true,
       "target_type": "city-role",
       "container": "jobRows",
@@ -266,17 +222,6 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/midlothian-security-jobs",
-      "path": "dallas/jobs/midlothian-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "midlothian",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/north-richland-hills-security-jobs",
       "path": "dallas/jobs/north-richland-hills-security-jobs.html",
       "market": "DFW",
@@ -339,28 +284,6 @@
       "city": "dallas",
       "city_major": true,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/euless-security-jobs",
-      "path": "dallas/jobs/euless-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "euless",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/rockwall-security-jobs",
-      "path": "dallas/jobs/rockwall-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "rockwall",
-      "city_major": false,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -449,17 +372,6 @@
       "city": "dallas",
       "city_major": true,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/mansfield-security-jobs",
-      "path": "dallas/jobs/mansfield-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "mansfield",
-      "city_major": false,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -739,17 +651,6 @@
       "has_feed_block": true
     },
     {
-      "key": "dallas/frisco-unarmed-security-jobs",
-      "path": "dallas/jobs/frisco-unarmed-security.html",
-      "market": "DFW",
-      "role": "unarmed",
-      "city": "frisco",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "dallas/mesquite-security-jobs",
       "path": "dallas/jobs/mesquite-security-jobs.html",
       "market": "DFW",
@@ -777,17 +678,6 @@
       "market": "DFW",
       "role": "corporate",
       "city": "dallas",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/irving-unarmed-security",
-      "path": "dallas/jobs/irving-unarmed-security.html",
-      "market": "DFW",
-      "role": "unarmed",
-      "city": "irving",
       "city_major": true,
       "target_type": "city-role",
       "container": "jobRows",
@@ -854,28 +744,6 @@
       "market": "DFW",
       "role": "overnight",
       "city": "plano",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/plano-unarmed-security-jobs",
-      "path": "dallas/jobs/plano-unarmed-security.html",
-      "market": "DFW",
-      "role": "unarmed",
-      "city": "plano",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/grand-prairie-overnight-security-jobs",
-      "path": "dallas/jobs/grand-prairie-overnight-security.html",
-      "market": "DFW",
-      "role": "overnight",
-      "city": "grand-prairie",
       "city_major": true,
       "target_type": "city-role",
       "container": "jobRows",
@@ -966,17 +834,6 @@
       "city": null,
       "city_major": false,
       "target_type": "role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/denton-security-jobs",
-      "path": "dallas/jobs/denton-security-jobs.html",
-      "market": "DFW",
-      "role": null,
-      "city": "denton",
-      "city_major": true,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -1300,17 +1157,6 @@
       "has_feed_block": true
     },
     {
-      "key": "austin/jobs/georgetown-security-jobs",
-      "path": "austin/jobs/georgetown-security-jobs.html",
-      "market": "Austin",
-      "role": null,
-      "city": "georgetown",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "austin/jobs/university-security-austin",
       "path": "austin/jobs/university-security-austin.html",
       "market": "Austin",
@@ -1318,17 +1164,6 @@
       "city": "austin",
       "city_major": true,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "austin/jobs/round-rock-security-jobs",
-      "path": "austin/jobs/round-rock-security-jobs.html",
-      "market": "Austin",
-      "role": null,
-      "city": "round-rock",
-      "city_major": true,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -1373,17 +1208,6 @@
       "city": "austin",
       "city_major": true,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "austin/jobs/cedar-park-security-jobs",
-      "path": "austin/jobs/cedar-park-security-jobs.html",
-      "market": "Austin",
-      "role": null,
-      "city": "cedar-park",
-      "city_major": true,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -1542,17 +1366,6 @@
       "has_feed_block": true
     },
     {
-      "key": "houston/jobs/baytown-security-jobs",
-      "path": "houston/jobs/baytown-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "baytown",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "houston/jobs/hotel-security-houston",
       "path": "houston/jobs/hotel-security-houston.html",
       "market": "Houston",
@@ -1604,17 +1417,6 @@
       "city": "houston",
       "city_major": true,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/katy-security-jobs",
-      "path": "houston/jobs/katy-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "katy",
-      "city_major": true,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
@@ -1693,39 +1495,6 @@
       "city_major": true,
       "target_type": "city-role",
       "container": "indexJobFeed",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/the-woodlands-security-jobs",
-      "path": "houston/jobs/the-woodlands-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "the-woodlands",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/pasadena-security-jobs",
-      "path": "houston/jobs/pasadena-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "pasadena",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/sugar-land-security-jobs",
-      "path": "houston/jobs/sugar-land-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "sugar-land",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
       "has_feed_block": true
     },
     {
@@ -1839,17 +1608,6 @@
       "has_feed_block": true
     },
     {
-      "key": "houston/jobs/pearland-security-jobs",
-      "path": "houston/jobs/pearland-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "pearland",
-      "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "houston/jobs/houston-private-event-security",
       "path": "houston/jobs/houston-private-event-security.html",
       "market": "Houston",
@@ -1933,17 +1691,6 @@
       "role": null,
       "city": "houston",
       "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/humble-security-jobs",
-      "path": "houston/jobs/humble-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "humble",
-      "city_major": false,
       "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
@@ -2076,17 +1823,6 @@
       "role": null,
       "city": "houston",
       "city_major": true,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/conroe-security-jobs",
-      "path": "houston/jobs/conroe-security-jobs.html",
-      "market": "Houston",
-      "role": null,
-      "city": "conroe",
-      "city_major": false,
       "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
@@ -2440,39 +2176,6 @@
       "city": "joliet",
       "city_major": false,
       "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "chicago/jobs/security-officer-naperville",
-      "path": "chicago/jobs/security-officer-naperville.html",
-      "market": "Chicago",
-      "role": null,
-      "city": "naperville",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "chicago/jobs/security-officer-aurora",
-      "path": "chicago/jobs/security-officer-aurora.html",
-      "market": "Chicago",
-      "role": null,
-      "city": "aurora",
-      "city_major": false,
-      "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "chicago/jobs/security-officer-schaumburg",
-      "path": "chicago/jobs/security-officer-schaumburg.html",
-      "market": "Chicago",
-      "role": null,
-      "city": "schaumburg",
-      "city_major": false,
-      "target_type": "city",
       "container": "jobRows",
       "has_feed_block": true
     },
