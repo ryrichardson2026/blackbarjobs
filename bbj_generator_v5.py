@@ -14,6 +14,7 @@ v5 CHANGES — Interlinking enforcement:
 - See INTERLINKING RULES section below for full spec
 """
 
+import html as _html
 import json
 import re
 import sys
@@ -617,6 +618,24 @@ def _is_internal_href(href):
         return "blackbarjobs.com" in h   # our own absolute URLs count as internal
     return True                          # site-relative
 
+# Title tags over ~60 chars get truncated in the SERP: the descriptive tail and
+# the brand suffix never render, killing blue-link CTR. Google reads the full tag
+# for ranking, so length is a CTR problem, not a ranking one. Keep titles two-part:
+#   {Role} {Geo} | BlackBarJobs
+# The count is on the RENDERED title (&amp; is one character), matching what the
+# SERP measures.
+TITLE_MAX = 60
+
+def assert_title_length(title, slug):
+    """Fail the build if a page's <title> would truncate in the SERP (> TITLE_MAX)."""
+    rendered = _html.unescape(title)
+    if len(rendered) > TITLE_MAX:
+        raise SystemExit(
+            f"BUILD BLOCKED — {slug}: title is {len(rendered)} chars, over the "
+            f"{TITLE_MAX}-char SERP cap. Shorten to '{{Role}} {{Geo}} | BlackBarJobs'.\n"
+            f"  title: {rendered}"
+        )
+
 def assert_output_guardrails(html, slug):
     """Fail the build if a regressed past-bug pattern slips into a generated page."""
     # Guardrail A — no internal <a href> may carry a utm_ parameter.
@@ -635,6 +654,7 @@ def generate_page(cfg):
     role        = cfg["role"]
     slug        = cfg["slug"]
     title       = cfg["title"]
+    assert_title_length(title, slug)
     meta_desc   = cfg["meta_desc"]
     canonical   = f"{BASE_URL}{slug}"
     region      = cfg.get("region","TX")
