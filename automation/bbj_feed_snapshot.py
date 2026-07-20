@@ -33,7 +33,7 @@ from urllib.error import HTTPError, URLError
 DEFAULT_SUPABASE_URL = "https://gbtwcawojflrfczswbch.supabase.co"
 DEFAULT_TARGETS = "bbj_page_targets.json"
 DEFAULT_OUT = "feed"
-CAP = 5
+CAP = 10
 CITY_ROLE_RELAX = True   # if a city-role page is thin, allow role-only-in-market before generic fallback
 
 # canonical role -> word-boundary pattern for title matching (unarmed before armed handled by explicit checks)

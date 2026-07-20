@@ -10,7 +10,7 @@ treats a baked container (data-baked="1") as non-destructive.
 For each in-scope page (from bbj_page_targets.json, filtered to a market and to
 files that actually exist):
   1. Read window.BBJ_FEED_KEY from the page HTML.
-  2. Load feed/<KEY>.json, take data.jobs, slice(0,5) (same cap as bbj-feed.js).
+  2. Load feed/<KEY>.json, take data.jobs, slice(0,10) (same cap as bbj-feed.js).
   3. Detect the container: #jobRows (jf-row markup) or #indexJobFeed (hf-row).
   4. Render cards to a string BYTE-IDENTICAL to what bbj-feed.js produces
      (esc / relPosted / encodeURIComponent ported 1:1), or the same EMPTY_*
@@ -415,7 +415,7 @@ def bake_page(html, feed_key, feed_dir, bake_date):
         data = json.load(fh)
     all_jobs = data.get("jobs") or []
     assert_no_mojibake(all_jobs, feed_key)              # guardrail #1
-    jobs = all_jobs[:5]                                 # same cap as bbj-feed.js
+    jobs = all_jobs[:10]                                # same cap as bbj-feed.js
     cards = renderer(jobs, bake_date) if jobs else empty
 
     if jobs:                                            # guardrail #3

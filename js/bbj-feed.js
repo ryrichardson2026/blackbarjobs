@@ -96,7 +96,7 @@
     fetch("/feed/" + KEY + ".json", { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
-        var jobs = (data && data.jobs ? data.jobs : []).slice(0, 5);
+        var jobs = (data && data.jobs ? data.jobs : []).slice(0, 10);
         if (jr) { jobs.length ? renderJobRows(jr, jobs) : (jr.innerHTML = EMPTY_JR); }
         if (idx) { jobs.length ? renderIndexFeed(idx, jobs) : (idx.innerHTML = EMPTY_HF); }
       })
