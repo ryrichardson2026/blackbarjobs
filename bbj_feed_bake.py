@@ -117,7 +117,8 @@ def render_job_rows(jobs, bake_date):
             + (('<span class="jf-sep">&middot;</span><span class="jf-loc">' + esc(j.get("location")) + '</span>') if j.get("location") else '')
             + (('<span class="jf-pay">' + esc(j.get("pay")) + '</span>') if j.get("pay") else '')
             + (('<span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">' + esc(rp) + '</span>') if rp else '')
-            + '</div></div><a class="jf-apply">View</a></div>'
+            + '</div></div><a class="jf-apply" href="' + esc(j.get("apply_link") or "") + '"'
+            ' rel="nofollow sponsored" target="_blank">Apply</a></div>'
         )
     return "".join(out)
 
@@ -127,7 +128,10 @@ def render_index_feed(jobs, bake_date):
         url = enc(j.get("apply_link") or "")
         rp = rel_posted(j.get("posted_date"), bake_date)
         out.append(
-            '<div class="hf-row" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;" onclick="handleIndexApply(\'' + url + '\')">'
+            '<a class="hf-row" href="' + esc(j.get("apply_link") or "") + '"'
+            ' rel="nofollow sponsored" target="_blank"'
+            ' style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-decoration:none;color:inherit;"'
+            ' onclick="handleIndexApply(\'' + url + '\')">'
             '<div class="hf-body">'
             '<div class="hf-title">' + esc(j.get("title")) + '</div>'
             '<div class="hf-meta">' + esc(j.get("company")) + ' &nbsp;&middot;&nbsp; ' + esc(j.get("location"))
@@ -135,8 +139,8 @@ def render_index_feed(jobs, bake_date):
             '</div>'
             '<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">'
             '<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:#1a6b2e;color:#fff;padding:2px 7px;border-radius:3px;">New</span>'
-            '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">View</span>'
-            '</div></div>'
+            '<span style="padding:6px 12px;background:#FFC300;color:#000814;font-family:\'Barlow Condensed\',sans-serif;font-size:0.8rem;font-weight:800;letter-spacing:0.05em;text-transform:uppercase;border-radius:8px;pointer-events:none;">Apply</span>'
+            '</div></a>'
         )
     return "".join(out)
 
