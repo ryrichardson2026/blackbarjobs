@@ -24,7 +24,7 @@ jobs:
         env:
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python automation/bbj_feed_fetch.py --queries automation/bbj_feed_queries.json --staleness-days 14 --max-posted-age 21
+        run: python automation/bbj_feed_fetch.py --queries automation/bbj_feed_queries.json --staleness-days 3 --max-posted-age 7
 
       - name: Build feed snapshot
         env:
