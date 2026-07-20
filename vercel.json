@@ -1317,6 +1317,141 @@
       "source": "/dallas/dallas-job-guide",
       "destination": "/dallas/dallas-security-jobs-guide",
       "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/carrollton-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/garland-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/denton-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/euless-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/midlothian-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/forney-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/mansfield-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/rockwall-security-jobs",
+      "destination": "/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/sugar-land-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/baytown-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/conroe-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/pearland-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/humble-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/pasadena-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/katy-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/houston/jobs/the-woodlands-security-jobs",
+      "destination": "/houston",
+      "permanent": true
+    },
+    {
+      "source": "/austin/jobs/round-rock-security-jobs",
+      "destination": "/austin",
+      "permanent": true
+    },
+    {
+      "source": "/austin/jobs/cedar-park-security-jobs",
+      "destination": "/austin",
+      "permanent": true
+    },
+    {
+      "source": "/austin/jobs/georgetown-security-jobs",
+      "destination": "/austin",
+      "permanent": true
+    },
+    {
+      "source": "/chicago/jobs/security-officer-naperville",
+      "destination": "/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/chicago/jobs/security-officer-schaumburg",
+      "destination": "/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/chicago/jobs/security-officer-aurora",
+      "destination": "/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/plano-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/frisco-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/irving-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/irving-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
+      "permanent": true
+    },
+    {
+      "source": "/dallas/jobs/grand-prairie-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
+      "permanent": true
     }
   ]
 }
