@@ -1,5 +1,5 @@
 {
-  "pages": 204,
+  "pages": 199,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -959,17 +959,6 @@
       "has_feed_block": true
     },
     {
-      "key": "san-antonio/jobs/entry-level-security-san-antonio",
-      "path": "san-antonio/jobs/entry-level-security-san-antonio.html",
-      "market": "San Antonio",
-      "role": "entry-level",
-      "city": "san-antonio",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "san-antonio/jobs/armed-security-san-antonio",
       "path": "san-antonio/jobs/armed-security-san-antonio.html",
       "market": "San Antonio",
@@ -1088,17 +1077,6 @@
       "city_major": true,
       "target_type": "city-role",
       "container": "indexJobFeed",
-      "has_feed_block": true
-    },
-    {
-      "key": "san-antonio/jobs/airport-security-san-antonio",
-      "path": "san-antonio/jobs/airport-security-san-antonio.html",
-      "market": "San Antonio",
-      "role": "airport-tsa",
-      "city": "san-antonio",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
       "has_feed_block": true
     },
     {
@@ -1487,17 +1465,6 @@
       "has_feed_block": true
     },
     {
-      "key": "houston/jobs/tsa-airport-security-houston",
-      "path": "houston/jobs/tsa-airport-security-houston.html",
-      "market": "Houston",
-      "role": "airport-tsa",
-      "city": "houston",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "indexJobFeed",
-      "has_feed_block": true
-    },
-    {
       "key": "houston/jobs/houston-corporate-security",
       "path": "houston/jobs/houston-corporate-security.html",
       "market": "Houston",
@@ -1568,17 +1535,6 @@
       "path": "houston/jobs/houston-armed-overnight-security.html",
       "market": "Houston",
       "role": "armed-overnight",
-      "city": "houston",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/houston-entry-level-security-jobs",
-      "path": "houston/jobs/houston-entry-level-security-jobs.html",
-      "market": "Houston",
-      "role": "entry-level",
       "city": "houston",
       "city_major": true,
       "target_type": "city-role",
@@ -1715,17 +1671,6 @@
       "city_major": true,
       "target_type": "city-role",
       "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/overnight-security-houston",
-      "path": "houston/jobs/overnight-security-houston.html",
-      "market": "Houston",
-      "role": "overnight",
-      "city": "houston",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "indexJobFeed",
       "has_feed_block": true
     },
     {
