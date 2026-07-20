@@ -87,10 +87,12 @@ def parse_posted(raw, ref):
     s = raw.strip().lower()
     if s in ("just posted", "today", "posted today"): return ref.isoformat()
     if s == "yesterday": return (ref - timedelta(days=1)).isoformat()
-    m = re.search(r"(\d+)\+?\s*(hour|day|week|month|year)s?\s*ago", s)
+    m = re.search(r"(\d+)(\+)?\s*(hour|day|week|month|year)s?\s*ago", s)
     if not m: return None
-    n = int(m.group(1))
-    days = {"hour": 0, "day": n, "week": n*7, "month": n*30, "year": n*365}[m.group(2)]
+    n, plus, unit = int(m.group(1)), bool(m.group(2)), m.group(3)
+    if plus or unit in ("month", "year"):
+        return None
+    days = {"hour": 0, "day": n, "week": n * 7}[unit]
     return (ref - timedelta(days=days)).isoformat()
 
 def extract_salary(job):
@@ -180,6 +182,24 @@ class Supa:
         h = dict(self.h); h["Prefer"] = "resolution=merge-duplicates,return=minimal"
         return http("POST", self.rest + "/jobs", headers=h, body=rows)
 
+    def posted_dates(self, hashes):
+        """Return {job_hash: posted_date} for existing rows among `hashes` that carry
+        a non-null posted_date. The in.() filter is chunked at 200 hashes per request.
+        Raises on any failed lookup so the caller can abort rather than overwrite a
+        stored first-observation date with a freshly computed one."""
+        out = {}
+        for i in range(0, len(hashes), 200):
+            chunk = hashes[i:i + 200]
+            q = "job_hash=in.(" + ",".join(quote(x, safe="") for x in chunk) + ")"
+            st, data = http("GET", self.rest + "/jobs?select=job_hash,posted_date&" + q,
+                            headers=self.h)
+            if st >= 300 or not isinstance(data, list):
+                raise RuntimeError("posted_date lookup failed: %s %s" % (st, data))
+            for r in data:
+                if r.get("posted_date"):
+                    out[r["job_hash"]] = r["posted_date"]
+        return out
+
     def patch(self, query, body):
         h = dict(self.h); h["Prefer"] = "return=minimal"
         return http("PATCH", self.rest + "/jobs?" + query, headers=h, body=body)
@@ -251,6 +271,24 @@ def main():
         time.sleep(args.sleep)
 
     rows = list(buffer.values())
+
+    # Preserve the FIRST observation of posted_date. The upsert runs with
+    # resolution=merge-duplicates, which would recompute and overwrite posted_date
+    # every run, so any label that does not age cleanly (e.g. "just posted" seen on
+    # different days) drifts forward. Look up the stored posted_date for the hashes in
+    # this batch and keep the stored non-null value instead of the freshly computed
+    # one. If the lookup fails, abort the upsert rather than risk overwriting good
+    # first-observation dates.
+    try:
+        stored_posted = supa.posted_dates([r["job_hash"] for r in rows])
+    except Exception as e:
+        print(f"posted_date lookup failed, aborting upsert: {e}", file=sys.stderr)
+        sys.exit(1)
+    for r in rows:
+        sp = stored_posted.get(r["job_hash"])
+        if sp:
+            r["posted_date"] = sp
+
     print(f"\nUpserting {len(rows)} unique jobs ({raw_total} raw)...")
     for j in range(0, len(rows), UPSERT_BATCH):
         st, data = supa.upsert(rows[j:j+UPSERT_BATCH])
