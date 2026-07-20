@@ -118,20 +118,19 @@ def render_job_rows(jobs, bake_date):
             + (('<span class="jf-pay">' + esc(j.get("pay")) + '</span>') if j.get("pay") else '')
             + (('<span class="jf-sep">&middot;</span><span class="jf-date" style="color:#1a6b2e;font-weight:600;">' + esc(rp) + '</span>') if rp else '')
             + '</div></div><a class="jf-apply" href="' + esc(j.get("apply_link") or "") + '"'
-            ' rel="nofollow sponsored" target="_blank">Apply</a></div>'
+            ' rel="nofollow sponsored" target="_blank" onclick="return bbjHandleApply(this.href, event)">Apply</a></div>'
         )
     return "".join(out)
 
 def render_index_feed(jobs, bake_date):
     out = []
     for j in jobs:
-        url = enc(j.get("apply_link") or "")
         rp = rel_posted(j.get("posted_date"), bake_date)
         out.append(
             '<a class="hf-row" href="' + esc(j.get("apply_link") or "") + '"'
             ' rel="nofollow sponsored" target="_blank"'
             ' style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-decoration:none;color:inherit;"'
-            ' onclick="handleIndexApply(\'' + url + '\')">'
+            ' onclick="return handleIndexApply(this.href, event)">'
             '<div class="hf-body">'
             '<div class="hf-title">' + esc(j.get("title")) + '</div>'
             '<div class="hf-meta">' + esc(j.get("company")) + ' &nbsp;&middot;&nbsp; ' + esc(j.get("location"))
