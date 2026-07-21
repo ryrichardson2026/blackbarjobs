@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "houston/jobs/armed-security-houston",
   "market": "Houston",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Security Supervisor - Armed",
+      "company": "Admiral Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-supervisor-armed-at-admiral-security-services-4442271117",
+      "via": "via LinkedIn",
+      "description": "Admiral Security Services was established in 1976 and has consistently grown for over four decades. Today, we service hundreds of locations nationally, provide security coverage to millions of square feet of public and private facilities, and are one of the top 10 largest security companies in the United States.<br><br>Now is your opportunity to join our professional security team! If you desire to work for great organization, complete your application today! We offer <strong>GREAT PAY - HEALTH INSURANCE - LIFE INSURANCE - 401 (K) - PAID VACATION<br><br></strong>E/O/E/M/F/D/V<br><br>VA DCJS..."
+    },
+    {
+      "title": "Armed & Unarmed Security Guard — Protect & Prevent",
+      "company": "Fast Guard Service",
+      "location": "Houston, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5299406296/e/",
+      "via": "via Learn4Good",
+      "description": "Career Advancement Opportunities. In this role, your primary responsibility will be to create a safe and secure environment. You will protect our premises, assets, and employees and prevent any illegal activity.Full‑timeJob Description: As an Armored Driver Guard, you work with your team to ensure the safe and secure pickup and delivery of cash, coin, and valuables. Responsibilities—Drive automatic vehicles, maintain vehicle logs, and coordinate with security teams.Full‑timeProgram Manager, Transmission Portfolio Office (TPO). Location: Houston, TX (Onsite). Requires a minimum of 12 years of..."
+    },
+    {
+      "title": "Armed Level III Security Officer — Houston Events & Safety",
+      "company": "TriCorps",
+      "location": "Houston, TX",
+      "pay": "24,796–30,307 a year",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5299503300/e/",
+      "via": "via Learn4Good",
+      "description": "Tri Corps is seeking an Armed Level III Security Officer for the Convention Center in Houston, TX. You will maintain a strong security presence, monitor CCTV and access control, and coordinate with field units and clients to ensure a safe environment.Requirements include a valid Texas PSB Level III License (Armed) and a demonstrated commitment to reliability, professionalism, and sound judgment. This role offers full-time and part-time shifts with medical, dental, and vision coverage, plus paid#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Mobile Patrol Specialist Part-Time, Flexible Shifts",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.jobleads.com/us/job/armed-mobile-patrol-specialist-part-time-flexible-shifts--houston--e011cf7572967441d61332ee97b9e9f9a",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking a Security Officer Armed Mobile Patrol Specialist in Houston, TX. This part-time role involves safeguarding clients across various industries, with a schedule including Friday and Saturday night shifts.</p><p>You will perform armed patrols, respond to incidents, and help with access control and customer assistance, contributing to a safe environment for shoppers and staff.</p>"
+    },
+    {
+      "title": "Armed High-End Retail Security Specialist",
+      "company": "St. Moritz Security Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.jobleads.com/us/job/armed-high-end-retail-security-specialist--houston--e6b76b45568aca96edf100a9721805e9a",
+      "via": "via JobLeads",
+      "description": "<p>St. Moritz Security Services, Inc. is seeking a Commissioned High End Retail Security Officer for the River Oaks District (Houston Regional Office). The role focuses on observing, reporting, and patrolling to ensure a secure environment for clients and visitors.</p><p>Pay is $18.50 per hour with a schedule from Thursday to Sunday, 8:00 AM to 6:00 PM. The position is full-time and requires a valid license/permit, plus strong customer service and reporting skills.</p>"
+    },
+    {
+      "title": "Armed Entry Control Officer — Career Growth & Benefits",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.jobleads.com/us/job/armed-entry-control-officer-career-growth-benefits--houston--e49da4ba21783881b51d8afc6a048fad7",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal in Houston, TX is seeking an Armed Entry Control Security Officer to monitor government site access, verify credentials, and maintain a respectful, safe environment for clients and visitors.</p><p>You will conduct patrols, respond to incidents, document activity, and work a schedule that includes evenings and weekends. Applicants must have relevant security experience, an armed guard card, and meet age and background screening requirements.</p>"
+    },
+    {
+      "title": "Luxury Retail Armed Officer (Houston Regional Office)",
+      "company": "St. Moritz Security Services",
+      "location": "Houston, TX",
+      "pay": "38,480–48,100 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://bebee.com/us/jobs/luxury-retail-armed-officer-houston-regional-office-st-moritz-security-services-houston--ss-us-1y1etj4",
+      "via": "via BeBee",
+      "description": "<h2>Overview</h2>\n<strong>Why St. Moritz?</strong>\n<p>Are you looking for a rewarding career in the security industry? Join St. Moritz Security Services, Inc., a well -established company with over 43 years in the industry.</p>\n<p>No security program can be successfully implemented without quality people to execute the program.</p>\n<p><strong>The ST. MORITZ DIFFERENCE is our PEOPLE.</strong></p>\n<p>From the first level security officer to the CEO, St. Moritz is committed from the top down to provide the highest level of service possible.</p>\n<h2>Job Skills / Requirements</h2>\n<b><strong>Job..."
+    },
+    {
+      "title": "Armed Security Lead — Nights & Weekends, Part‑Time",
+      "company": "Event-Risk-Inc",
+      "location": "Houston, TX",
+      "pay": "28–32 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5296799783/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Armed Security Lead — Nights & Weekends, Part‑Time | $30/hr Event Risk seeks Uniformed Armed Security Associates for part‑time roles in Houston, TX, primarily nights and weekends. Officers ensure safety per Post Orders, handle incidents professionally, and maintain a vigilant security presence at client locations.Qualified candidates hold an active Texas Level III security license and must be able to perform long patrols, communicate clearly, and cooperate with emergency services. Pay is $30/hr with shift-based scheduling.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed High End Retail Officer River Oaks Regional Office",
+      "company": "St Moritz Security",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobilize.com/amp/job/us-tx-houston-armed-high-end-retail-officer-river-oaks-regional-office",
+      "via": "via Jobilize",
+      "description": "<h5>St.<br/>Moritz Security Services </h5><p>Are you looking for a rewarding career in the security industry? Join St.<br/>Moritz Security Services, Inc.<br/>, a well-established company with over 43 years in the industry.<br/>No security program can be successfully implemented without quality people to execute the program.<br/>The ST.<br/>MORITZ DIFFERENCE is our PEOPLE.<br/>From the first level security officer to the CEO, St.<br/>Moritz is committed from the top down to provide the highest level of service possible.<br/></p><h5>Commissioned High End Retail Security Officer..."
+    },
     {
       "title": "Armed High End Retail Officer River Oaks District",
       "company": "St. Moritz Security Services",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-18",
+      "posted_date": "2026-07-17",
       "apply_link": "https://www.indeed.com/viewjob?jk=29bbc1cdc2798ba3",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed Mobile Patrol Specialist Part-Time",
-      "company": "Allied Universal",
-      "location": "Houston, TX",
-      "pay": "26,174–34,440 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5289603935/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Armed Security Officer: Elite Team, Flexible Schedule",
-      "company": "Advanced Tactical Solutions LLC",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://bebee.com/us/jobs/armed-security-officer-elite-team-flexible-schedule-advanced-tactical-solutions-llc-houston--lensa-7428_26787c8bc07b70c55f5fd1dc0ff4e221161c0217b87310c31be0e744519a0c22",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Armed Security Officer; Level 3 Licensed",
-      "company": "Securitas Global Clients America",
-      "location": "Houston, TX",
-      "pay": "17.00–17.50 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5286753696/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "7Unarmed /2 Armed Postions (Active Card Holders Only) Security Officers",
-      "company": "Texas Counties Division Patrol LLC",
-      "location": "Houston, TX",
-      "pay": "16–18 an hour",
-      "schedule": "Full-time, Part-time, and Contractor",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.simplyhired.com/job/UGkyK9OJ67Dhwd28tETykccAwW4mUpvs6DXxnUaWV_Rx3rwie7myTw",
-      "via": "via SimplyHired"
+      "via": "via Indeed",
+      "description": "<div>\n Armed High End Retail Officer River Oaks District \n <p><b><br>\n    Job Title: Commissioned High End Retail Security Officer</b></p>\n <p><b> Location: Houston, TX - River Oaks District</b></p>\n <p><b> Pay: $18.50 per hour</b></p>\n <p><b> Schedule: Thursday - Sunday 8:00 AM - 6:00 PM</b></p>\n <p><b> Primary Purpose and Function</b></p>\n <p>The Security Officer is responsible for providing security services at assigned locations with a focus on observing and reporting. Duties include, but are not limited to monitoring and reporting all activity, conducting foot patrols, vehicular patrols,..."
     }
   ]
 }

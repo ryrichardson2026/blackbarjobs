@@ -1,11 +1,88 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/fort-worth-loss-prevention",
   "market": "DFW",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Loss Prevention - 2nd Shift",
+      "company": "Ace Hardware Corporation",
+      "location": "Wilmer, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-2nd-shift-at-ace-hardware-corporation-4443064388",
+      "via": "via LinkedIn",
+      "description": "<strong>Compensation Details<br><br></strong>$17.00-$21.10<br><br><strong>Why should you join our team?<br><br></strong>We live our values - W.E.L.I.G.H.T (Winning, Excellence, Love, Integrity, Gratitude, Humility, and Teamwork). Gratitude. Humility. Love. You don’t often see values like these in most corporate statements, but Ace is different. These things are important to us. They represent our commitment to the company, our employees, to Ace retailers and to the Ace brand.<br><br><strong>Benefits<br><br></strong>In addition to providing our employees a great culture, Ace also offers..."
+    },
+    {
+      "title": "Asset Protection Associate",
+      "company": "Walmart",
+      "location": "Haslet, TX",
+      "pay": "17–30 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-associate-at-walmart-4442501377",
+      "via": "via LinkedIn",
+      "description": "Hourly Wage: <strong>$17.5 - $30.5 per/hour<br><br></strong><ul><li>The actual hourly rate will equal or exceed the required minimum wage applicable to the job location.<br><br></li></ul><strong>Additional Compensation Includes Annual Or Quarterly Performance Incentives.<br><br></strong>Additional compensation in the form of premiums may be paid in amounts ranging from $0.35 per hour to $3.00 per hour in specific circumstances. Premiums may be based on schedule, facility, season, or specific work performed. Multiple premiums may apply if applicable criteria are met.<br><br>Employment Type:..."
+    },
+    {
+      "title": "Loss Prevention Specialist",
+      "company": "Albertsons",
+      "location": "White Settlement, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.adzuna.com/details/5807138641",
+      "via": "via Adzuna",
+      "description": "<strong>Description</strong><br /><p style=\"\"><strong>A Day in the Life:</strong></p>\n<p style=\"\">As the Loss Prevention Specialist, no one day is ever the same! You are focused on preventing loss and controlling shrink by monitoring various areas of the store for fraud, compliance discrepancies, and other related activities. You work to identify potential concerns through use of our video surveillance and other systems and apprehend in accordance with company policy, local and state laws with safety as the prevailing priority. The Asset Protection Specialist ensures the store is a safe and..."
+    },
+    {
+      "title": "District Loss Prevention Manager Dallas-Fort Worth, TX",
+      "company": "Ollie's Bargain Outlet",
+      "location": "Haltom City, TX",
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://bebee.com/us/jobs/district-loss-prevention-manager-dallas-fort-worth-tx-ollies-bargain-outlet-haltom-city-tx-united-st--resume-27773_U-129880766608",
+      "via": "via BeBee",
+      "description": "<h2>District Loss Prevention Manager Dallas-Fort Worth, TX</h2>Job Category: Asset Protection Requisition Number: DISTR057143\n<p>Posted: July 7, 2026</p>\n<p>Full-Time On-site Irving, TX 75062, USA +1 more locations</p>\n<h2>Job Details</h2><h3>Description</h3>Job Title: District Loss Prevention Manager\n<p>Reports to: Regional Loss Prevention Manager</p>\n<h4>Department: Asset Protection</h4>\n<h4>Exempt Status: Exempt</h4>\n<p>Join our team and live the Ollie-tude! Ollie's Core Values:</p>\n<ul><li>BE A TEAM PLAYER - Associates are expected to be supportive and work together.</li><li>BE CARING -..."
+    },
+    {
+      "title": "Loss Prevention Associate",
+      "company": "Walmart",
+      "location": "Fort Worth, TX",
+      "pay": "17.50–30.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c727b993fcb68550",
+      "via": "via Indeed",
+      "description": "<div>\n Hourly Wage: <b>$17.5 - $30.5 per/hour</b>\n <br>\n <ul>\n  <li>The actual hourly rate will equal or exceed the required minimum wage applicable to the job location.</li>\n </ul>\n <br>\n  Additional compensation includes annual or quarterly performance incentives. \n <br>\n  Additional compensation in the form of premiums may be paid in amounts ranging from $0.35 per hour to $3.00 per hour in specific circumstances. Premiums may be based on schedule, facility, season, or specific work performed. Multiple premiums may apply if applicable criteria are met. \n <br>\n <br>\n <br>\n <p>Employment..."
+    },
+    {
+      "title": "Asset Protection Customer Host",
+      "company": "Walmart",
+      "location": "Dallas, TX",
+      "pay": "14–27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
+      "via": "via LinkedIn",
+      "description": "Hourly Wage: <strong>$14.5 - $27.5 per/hour<br><br></strong><ul><li>The actual hourly rate will equal or exceed the required minimum wage applicable to the job location.<br><br></li></ul><strong>Additional Compensation Includes Annual Or Quarterly Performance Incentives.<br><br></strong>Additional compensation in the form of premiums may be paid in amounts ranging from $0.35 per hour to $3.00 per hour in specific circumstances. Premiums may be based on schedule, facility, season, or specific work performed. Multiple premiums may apply if applicable criteria are met.<br><br>Employment Type:..."
+    },
+    {
+      "title": "ORC Investigator - Field-Driven Loss Prevention Pro",
+      "company": "Triumph Protection Group",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://bebee.com/us/jobs/orc-investigator-field-driven-loss-prevention-pro-triumph-protection-group-dallas--lensa-7428_e9efabb70db9d30720deea14d02eb627b1961a87b9775430c0ffe05d349d035e",
+      "via": "via BeBee",
+      "description": "<p>A leading security firm in Dallas, Texas, is seeking an Organized Retail Crime (ORC) Investigator to monitor theft incidents and collaborate with law enforcement. The ideal candidate will have at least 5 years of experience in loss prevention or law enforcement investigation.</p>\n<p>Responsibilities include conducting surveillance, developing partnerships with agencies, and reporting on theft trends. A high school diploma is required, while a bachelor’s degree is preferred. The role demands professionalism and offers a fast-paced work environment.</p>"
+    },
     {
       "title": "Loss Prevention Officer- 2nd Shift",
       "company": "Omni Hotels & Resorts",
@@ -14,47 +91,30 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-2nd-shift-at-omni-hotels-resorts-4440797986",
-      "via": "via LinkedIn"
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task. Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention.<br><br><strong>Responsibilities<br><br></strong><ul><li>To observe and report on all assignments</li><li>Able to keep accurate records and communicate using radio equipment.</li><li>Record and report any unsafe conditions while patrolling hotel..."
     },
     {
-      "title": "Loss Prevention Officer",
-      "company": "Omni Fort Worth",
-      "location": "Fort Worth, TX",
+      "title": "Asset Protection Officer",
+      "company": "Marriott",
+      "location": "Allen, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.hcareers.com/jobs/4354806-loss-prevention-officer",
-      "via": "via Hcareers"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://marriott.vacanciesloop.com/jobpage/i0eroj69pcnc-fa61c554e4ba0600fe54ba3310e4-12a9",
+      "via": "via Marriott Jobs - Vacancies Loop",
+      "description": "<p><strong>Job Summary:</strong>Asset Protection Officer</p><p>As a Asset Protection Officer at The Westin San Diego Gaslamp Quarter, your primary role revolves around safeguarding the well-being and protection of guests, team members, and property. Your responsibilities include conducting routine patrols, responding to emergencies, overseeing surveillance systems, and upholding safety measures throughout the venue. This position is essential for establishing a secure and inviting environment for all visitors.</p><p><strong>Benefits:</strong></p><ul><li>Health care coverage</li><li>Flexible..."
     },
     {
-      "title": "Loss Prevention - Part-time",
-      "company": "Silver Creek Materials",
-      "location": "Fort Worth, TX",
+      "title": "Lead, Security & Loss Prevention - 2nd Shift",
+      "company": "Fanatics Collectibles",
+      "location": "Sunnyvale, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.mcafeeinstitute.com/jobs/loss-prevention-part-time-fort-worth-tx",
-      "via": "via McAfee Institute"
-    },
-    {
-      "title": "Loss Prevention & Safety Specialist — Outdoor Patrol (PT)",
-      "company": "Silver Creek Materials",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/loss-prevention-safety-specialist-outdoor-patrol-pt--fort-worth--ec3aa0b8439e357085acc3f2febdf604c",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Loss Prevention & Safety Lead",
-      "company": "Ross Stores, Inc.",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://bebee.com/us/jobs/loss-prevention-safety-lead-ross-stores-inc-fort-worth--lensa-7428_b3fd1fe941a6210f95cadc7642ee414fe3f07d0870843a98af678a3a0ebcad10",
-      "via": "via BeBee"
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Fanatics-Collectibles/Job/Lead,-Security-&-Loss-Prevention-2nd-Shift/-in-Sunnyvale,TX?jid=8216d0dbeb21773e",
+      "via": "via ZipRecruiter",
+      "description": "<p><strong>About the Team</strong></p><p>Fanatics Collectibles is a new company operating at the intersection of collectibles, culture, and technology. Backed by world-class investors, operators, and sports & entertainment partners, we are building the global leader in next-generation collectibles. As part of the broader Fanatics ecosystem, we leverage a digital sports platform that spans over 900 sports properties and engages more than 81 million fans. Together, we are reimagining every part of the collectibles experience for fans, partners, and creators.</p><p> </p><p><strong>Role..."
     }
   ]
 }

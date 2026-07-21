@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "san-antonio/jobs/hospital-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 7,
   "jobs": [
+    {
+      "title": "Hotel Security / Loss Prevention Officer - Full Time - Benefits Include Medical, Free Hotel Room Nights, Paid Vacation and MANY MORE!",
+      "company": "Grand Hyatt",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/hotel-security-loss-prevention-officer-full-time-benefits-include-medical-free-hotel-room-nights-paid-vacation-and-many-more%21-at-grand-hyatt-4443385714",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Grand Hyatt San Antonio<br><br></strong><strong>Summary<br><br></strong>At Hyatt, we believe our guests select Hyatt because of our caring and attentive associates who are focused on providing efficient service and meaningful experiences.<br><br>The Loss Prevention Officer plays a vital role in preventing theft and keeping the hotel guests, customers, and colleagues safe. This is a fast-paced position with customer-facing interaction that requires organization and excellent communication skills. The ideal candidate will be able to work afternoons and evenings on any day..."
+    },
     {
       "title": "Tarian Healthcare Security Officer (Taser)",
       "company": "Tarian",
@@ -14,7 +25,30 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-18",
       "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Tarian-Healthcare-Security-Officer-(Taser)/-in-San-Antonio,TX?jid=b9e014fed869c941",
-      "via": "via ZipRecruiter"
+      "via": "via ZipRecruiter",
+      "description": "<strong>Overview</strong><br><br><p>Every Tarian Teammate contributes significantly to our mission. Whether you are a frontline employee or work behind the scenes, you are the reason why Tarian is TRUSTED TO PROTECT. You are a member of a diverse team working in an inclusive and dynamic environment. You will provide direct security and related public services. </p><p> </p><p><strong>Position Summary:</strong></p><p>Supports safety and security operations through patrols, monitoring, access control, and customer assistance, adapting to site-specific requirements and client expectations.</p><p>..."
+    },
+    {
+      "title": "Armed Level III Security Officer – San Antonio | Medical",
+      "company": "TriCorps",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobleads.com/us/job/armed-level-iii-security-officer-san-antonio-medical--san-antonio--e2a8818bc6412d2ee4152a45b59d4dc93",
+      "via": "via JobLeads",
+      "description": "<p>TriCorps is hiring an Armed Level III Security Officer for our San Antonio, TX location. The role involves protecting employees and property, controlling access, and delivering courteous service with a professional presence on site.</p><p>Candidates must hold a valid Texas PSB Level III Armed license and demonstrate reliability, sound judgment, and adaptability across day and night shifts. Full-time and part-time shifts are available, with benefits including medical, dental, and vision coverage.</p>"
+    },
+    {
+      "title": "Healthcare Security Officer — Part-Time Patrol",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "24,796–27,552 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://us.trabajo.org/job-2283-fd35edec893fce44fa7249903007a708",
+      "via": "via Trabajo.org",
+      "description": "Allied Universal is seeking a Part-Time Security Officer for Medical Area Patrol in Windcrest, TX. You will safeguard healthcare facilities, monitor access, and provide excellent customer service to staff, patients, and visitors. As a part-time role, you will build a schedule using the Claim a Shift platform. The position emphasizes a caring, reliable approach, integrity, and teamwork to support a safe environment and high-quality service. J-18808-Ljbffr"
     },
     {
       "title": "Hospital Security Officer - Calm Crisis Responder",
@@ -24,7 +58,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
       "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-calm-crisis-responder-baptist-health-system-inc-san-antonio--lensa-7428_094a34b496b5f30f7363be8ca31766552edd3bff04f9df08d73a1eabedcb0d1e",
-      "via": "via BeBee"
+      "via": "via BeBee",
+      "description": "<p>Baptist Health System in San Antonio, TX is seeking a PRN unarmed Security Officer to maintain a safe environment for staff, patients and visitors. You will monitor facilities, perform patrols by foot or vehicle, manage access control and respond to incidents.\nMinimum qualifications include high school diploma, 2-3 years security or related background, Texas Level II license within 60 days, valid Texas driver’s license, and BLS within 60 days.</p>"
     },
     {
       "title": "State Hospital Night Security Officer",
@@ -34,27 +69,52 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://www.jobleads.com/us/job/state-hospital-night-security-officer--san-antonio--ec2ec9c113059d9e72768b1008080d8e0",
-      "via": "via JobLeads"
+      "via": "via JobLeads",
+      "description": "<p>Texas Health and Human Services is seeking a Security Officer II for San Antonio, TX. You will monitor alarms, conduct patrols, manage access, and respond to emergencies to ensure a safe environment for patients, staff and visitors.</p><p>The role requires communication skills, knowledge of security procedures, and CPR certification. Regular shifts include nights and possible overtime with state hospital duties at San Antonio State Hospital.</p>"
     },
     {
-      "title": "Healthcare Police Officer I-IV: Protect & Serve",
-      "company": "University Health - San Antonio",
-      "location": "San Antonio, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://jooble.org/jdp/-8803974697625128572",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Security Officer - Medical Facilities Patrol",
+      "title": "Flexible Security Officer - Healthcare Shifts",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-medical-facilities-patrol/22950/97760331136",
-      "via": "via Allied Universal"
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/6368739501155646861",
+      "via": "via Jooble",
+      "description": "<p>Allied Universal in San Antonio, Texas, is hiring Security Flex Officers for its healthcare sector. This position offers flexible shifts and the opportunity to gain experience in various industries while ensuring safety and security.\nThe successful candidate will be responsible for performing patrols, maintaining written logs, and responding to emergencies. Candidates must have a high school diploma, be 18 years or older, and pass a background check.\nAllied Universal values diversity and inclusion, providing a welcoming environment for all applicants.\n\n#J-18808-Ljbffr  Allied Universal\n</p>"
+    },
+    {
+      "title": "Courtesy Officer",
+      "company": "The Mood Inc",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/courtesy-officer-at-the-mood-inc-4442243197",
+      "via": "via LinkedIn",
+      "description": "We are looking for a reliable and attentive Courtesy Officer to support the safety, security, and overall guest experience at our property. In this role, you will maintain a visible presence throughout the hotel by conducting regular patrols, monitoring activity in public areas, and identifying potential safety or security concerns.<br><br>The Courtesy Officer is responsible for documenting and reporting suspicious behavior, hazards, and policy violations while helping create a secure and welcoming environment for guests, employees, and visitors. This position operates under an “observe and..."
+    },
+    {
+      "title": "Security Operations Lead (GSOC)",
+      "company": "SWBC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-operations-lead-gsoc-at-swbc-4442212939",
+      "via": "via LinkedIn",
+      "description": "SWBC is seeking a talented individual who will provide hands-on operational leadership for the Global Security Operations Center in a converged cyber and physical security environment.<br><br>This senior individual contributor role is responsible for leading daily security operations activities, coordinating incident response efforts, guiding analysts, managing escalations, and helping ensure consistent execution across monitoring, detection, response, and operational readiness functions.<br><br><strong>Why You'll Love This Role<br><br></strong>This role places you at the center of SWBC's..."
+    },
+    {
+      "title": "Our Lady of the Lake University is hiring: Campus Security Officer in San Antonio",
+      "company": "Our Lady of the Lake University",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.recruit.net/job/our-lady-lake-university-is-jobs/BFCA82F7CB4C831A",
+      "via": "via Recruit.net",
+      "description": "Our Lady of the Lake University is seeking a police officer to maintain a safe campus environment through proactive patrols and law enforcement.<br />The officer will enforce university regulations and local laws, respond to emergencies, and assist the university community.<br />Ideal candidates should have a high school diploma or GED, a Texas peace officer's license, and demonstrate strong communication and interpersonal skills.<br />The role requires a commitment to maintaining safety in a diverse campus community. #J-18808-Ljbffr"
     }
   ]
 }

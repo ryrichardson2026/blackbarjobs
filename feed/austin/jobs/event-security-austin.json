@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 6,
   "jobs": [
+    {
+      "title": "Austin, TX Event Staff Processing Req",
+      "company": "GardaWorld",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://us.trabajo.org/job-4023-554fa4725128c31e96378eddaab644d8",
+      "via": "via Trabajo.org",
+      "description": "Job Title: Event Security Guard Company: BEST Crowd Management Location: Austin, TX Pay: $17 / hr Job Type: Part-time Summary: Join the dedicated and professional team at BEST Crowd Management, a leading provider of crowd management and event security services. With a commitment to excellence and a focus on safety, BEST Crowd Management ensures the success of various events by providing top-notch security solutions. As an Event Security Officer, you will play a critical role in upholding our reputation by ensuring the safety and security of attendees, staff, and property. Responsibilities: -..."
+    },
     {
       "title": "Event Security Pro Paid Training",
       "company": "Alliedbarton Security Services",
@@ -14,37 +25,8 @@
       "schedule": "Part-time and Internship",
       "posted_date": "2026-07-15",
       "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5292534165/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Event Security - College Sporting Events",
-      "company": "Allied Universal® Event Services",
-      "location": "Austin, TX",
-      "pay": "18–22 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.indeed.com/viewjob?jk=74f7611130499526",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Event Staff - College Sports Events",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/event-staff-college-sports-events-at-allied-universal-4440969430",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Event Security - College Sporting Events",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/event-security-college-sporting-events-at-allied-universal-4440970374",
-      "via": "via LinkedIn"
+      "via": "via Learn4Good",
+      "description": "Position: Event Security Pro — Flexible Hours + Paid Training Alliedbarton Security Services is looking to hire Event Security Officers in Austin, Texas for various events including concerts and festivals. The role requires checking bags, enforcing access control, and ensuring guest safety while providing excellent customer service.Enjoy flexible part-time schedules under 30 hours per week, coupled with competitive pay at $16/hr, ongoing training, and opportunities for career growth. Ideal for those seeking an energetic job environment.#J-18808-Ljbffr"
     },
     {
       "title": "Event Security Guard",
@@ -54,7 +36,85 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-s%C3%A9curit%C3%A9-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
-      "via": "via Glassdoor"
+      "via": "via Glassdoor",
+      "description": "<p>A2A Security is seeking a dedicated and professional Event Security Guard to oversee operations in Austin, TX. Role Overview: As an Event Security Guard, you will be responsible for ensuring the safety and security of events, managing access for guests, and maintaining a secure environment. This role is essential in preventing incidents and ensuring compliance with safety regulations. Key Responsibilities: - Manage access control for guests and staff at events. - Monitor event areas for unauthorized access, suspicious activities, and safety hazards. - Respond to incidents and emergencies..."
+    },
+    {
+      "title": "Event Security Professional – Austin Area",
+      "company": "A2A security",
+      "location": "Austin, TX",
+      "pay": "3,120 a month",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/event-security-professional-austin-area-a2a-security-austin-tx--theirstack-733356591",
+      "via": "via BeBee",
+      "description": "<p><strong>Join Our Team as an Event Security Professional in Austin</strong></p>\n<p><strong>Location:</strong> Austin, TX <strong>Company:</strong> A2A Security Agency Inc. <strong>Employment Type:</strong> Part-time / On-call / Flexible schedule including days, evenings, and weekends based on events <strong>Compensation:</strong> $18.00/hour</p>\n<h2><strong>Protecting Events and Ensuring Safety</strong></h2>\nA2A Security Agency Inc. is seeking dedicated, customer-oriented Event Security Professionals to work at a variety of events in Austin, including private, corporate, residential, and..."
+    },
+    {
+      "title": "Security Officer Virtual Hiring Event!",
+      "company": "Securitas Security Services",
+      "location": "Austin, TX",
+      "pay": "19–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.tealhq.com/job/security-officer_7ea1a845e81950725f99bfc89e13720e55fb0",
+      "via": "via Teal",
+      "description": "<p>About the position</p><p>Securitas is a global company that offers the most advanced and sustainable security solutions in the industry, operating in 47 countries with 355,000 employees worldwide and over 150,000 clients. The Security Officer position plays an essential role in maintaining a safe and secure environment for clients by actively monitoring premises, including patrolling various locations. Officers preserve order by enforcing regulations and directives for client sites concerning personnel, visitors, and the area. Frequently, Security Officers provide customer service and..."
+    },
+    {
+      "title": "Security Manager- Event Management 24/7",
+      "company": "BEST Crowd Management",
+      "location": "Austin, TX",
+      "pay": "5,000–5,833 a month",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/security-manager-event-management-24-7-best-crowd-management-austin-tx--theirstack-695308857",
+      "via": "via BeBee",
+      "description": "<p><strong>Event Venue and Security Manager Experience Required</strong></p>\n<p><strong>Pay, Benefits, and Work Location:</strong></p>\n<ul>\n<li><strong>Competitive Salary:</strong> $60,000 - $70,000 / year</li>\n<li><strong>Comprehensive Benefits:</strong> Enjoy health, dental, and vision insurance, 401(k) with company match, paid time off, and more.</li>\n<li><strong>Work Location:</strong> Based in Austin, TX, you’ll be at the heart of our operations.</li>\n</ul>\n<strong>Job Summary:</strong>\nUnder the direction of the Regional Manager, the 24/7 Security Manager ensures proper building..."
+    },
+    {
+      "title": "Security Officer| Full-Time",
+      "company": "Hyatt Regency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-at-hyatt-regency-4443078687",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Hyatt Regency Austin<br><br></strong><strong>Summary<br><br></strong>Nestled along the shores of Lady Bird Lake in the heart of downtown Austin, <strong>Hyatt Regency Austin</strong> is a place where <em>caring for people so they can be their best</em> is more than a purpose—it’s the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service‑oriented Security Officer</strong> to join our dedicated Security Team.<br><br><strong>Position Summary<br><br></strong>The Security Officer is responsible for maintaining a safe and..."
+    },
+    {
+      "title": "Security Officer | Part-Time",
+      "company": "Hyatt Regency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-at-hyatt-regency-4443087365",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Hyatt Regency Austin<br><br></strong><strong>Summary<br><br></strong><strong>Hyatt Regency Austin</strong> is a place where <em>caring for people so they can be their best</em> is more than a purpose—it’s the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service‑oriented Security Officer</strong> to join our dedicated Security Team.<br><br><strong>Position Summary<br><br></strong>The Security Officer is responsible for maintaining a safe and secure environment for hotel guests, employees, and visitors. This role requires..."
+    },
+    {
+      "title": "Security Officer Patrol Surveillance",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-surveillance-at-allied-universal-4442768688",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Surveillance</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Government, and more...."
+    },
+    {
+      "title": "Security Officer Patrol Customer Care",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ee242e3fd5a78362",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Security Officer Patrol Customer Care</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. \n  <br>\n </div>\n <br>\n <h2><b>Job Description</b></h2>\n <p></p>\n <p><br>\n   As a <b>Security Officer Patrol Customer Care</b> in <b>Austin, TX</b>, you will serve and..."
     }
   ]
 }

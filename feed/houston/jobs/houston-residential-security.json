@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "houston/jobs/houston-residential-security",
   "market": "Houston",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 2,
   "jobs": [
     {
-      "title": "Certified Police Officer — Patrol & Community Safety",
-      "company": "City of Missouri City, TX",
-      "location": "Missouri City, TX",
-      "pay": "72,961–84,612 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/3832103596723855749",
-      "via": "via Jooble"
+      "title": "Seeking high-profile Level 4 residential officers",
+      "company": "360 Group International, Inc.",
+      "location": "Houston, TX",
+      "pay": "38 an hour",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.simplyhired.com/job/Ol7ic1vSiA8KH6zyoYFOtR5iyyZn4xAtXYOtaxLTpBfvIDqr2XI-Wg",
+      "via": "via SimplyHired",
+      "description": "<p><i><b>------->>> DO NOT APPLY BEFORE READING ENTIRE POST PLEASE! <<< --------</b></i></p><p><i><b>------->>> DO NOT APPLY BEFORE READING ENTIRE POST PLEASE! <<< --------</b></i></p><p><i><b>If you do not have at least 5 years of high-profile close personal protection and/or residential security experience, your resume will be passed over</b></i></p><p><i><b>Law enforcement and military preferred.</b></i></p><p><i><b>###MUST HAVE HIGH PROFILE RESIDENTIAL/ESTATE SECURITY EXPERIENCE AND/OR CLOSE PERSONAL PROTECTION EXPERIENCE###. <--- if you do not have this experience you're resume will be..."
     },
     {
-      "title": "Mobile Patrol Officer - Apartment Community Security",
-      "company": "signal-careers",
+      "title": "Residential Surveillance Agent",
+      "company": "PINKERTON | Comprehensive Risk Management",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://jooble.org/jdp/-8500094569023084386",
-      "via": "via Jooble"
+      "posted_date": null,
+      "apply_link": "https://staging.careersingovernment.com/job/1301863/residential-surveillance-agent/",
+      "via": "via Careers In Government",
+      "description": "Residential Surveillance Agent 170+ Years Strong. Industry Leader. Global Impact. At Pinkerton, the mission is to protect our clients. To do this, we provide enterprise risk management services and programs specifically designed for each client. Pinkerton employees are one of our most important assets and critical to the delivery of world-class solutions. Bonded together, we share a commitment to integrity, vigilance, and excellence. Pinkerton is an inclusive employer who seeks candidates with diverse backgrounds, experiences, and perspectives to join our network of industry subject matter..."
     },
     {
-      "title": "Security Flex Officer- Residential",
+      "title": "Security Officer- Unarmed Warehouse",
       "company": "Allied Universal",
+      "location": "Baytown, TX",
+      "pay": "17 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-warehouse-at-allied-universal-4443061318",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong><strong>We are looking for dependable Security Guards for immediate hire at our warehouse.<br><br></strong><strong>SITE: Commercial..."
+    },
+    {
+      "title": "Event Security - College Athletics",
+      "company": "Allied Universal® Event Services",
       "location": "Houston, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e0f20d4eb3dce2b8",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Event Security - College Athletics</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Company Overview:\n </div>\n <div>\n  Kick off your exciting career in Event Security with Allied Universal® Event Services, the go-to leader in crowd management and event staffing. Dive into the action at sports stadiums, concerts, festivals, and convention centers, and thrive on the energy of being where it all happens. Join a lively team that services thousands of venues each year, ensuring safety and fun for everyone. Enjoy the perks of flexible part-time work that fits your lifestyle—ideal for..."
+    },
+    {
+      "title": "Security Officer Part Time Driver",
+      "company": "Allied Universal",
+      "location": "Texas City, TX",
+      "pay": "15 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-driver-at-allied-universal-4443050740",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+    },
+    {
+      "title": "Security Officer Armed Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Bellaire, TX",
+      "pay": "22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Armed-Patrol-Driver/-in-Bellaire,TX?jid=2a656fe143d35330",
+      "via": "via ZipRecruiter",
+      "description": "<div>Overview<br/><p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p><br/>Job Description<br/><hr/><p> As a <strong>Security Guard Armed Patrol Driver</strong> in <strong>Bellaire, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join a leading team..."
+    },
+    {
+      "title": "Security Officer Site Monitor",
+      "company": "Allied Universal",
+      "location": "Texas City, TX",
       "pay": "16 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://career.io/job/security-flex-officer-residential-cypress-allied-universal-ccb519017ae18c1f966ee71349449461",
-      "via": "via Career.io"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-site-monitor-at-allied-universal-4443309639",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Site Monitor</strong> in <strong>La Marque, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join..."
     },
     {
-      "title": "Night Security Officer: Community Patrol",
-      "company": "Allied Universal",
-      "location": "The Woodlands, TX",
-      "pay": "20,664–22,041 a year",
+      "title": "Security Supervisor - Armed",
+      "company": "Admiral Security Services",
+      "location": "Houston, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://us.trabajo.org/job-2283-fe38a99a0d171c6013eeaa1ca353eae8",
-      "via": "via Trabajo.org"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-supervisor-armed-at-admiral-security-services-4442271117",
+      "via": "via LinkedIn",
+      "description": "Admiral Security Services was established in 1976 and has consistently grown for over four decades. Today, we service hundreds of locations nationally, provide security coverage to millions of square feet of public and private facilities, and are one of the top 10 largest security companies in the United States.<br><br>Now is your opportunity to join our professional security team! If you desire to work for great organization, complete your application today! We offer <strong>GREAT PAY - HEALTH INSURANCE - LIFE INSURANCE - 401 (K) - PAID VACATION<br><br></strong>E/O/E/M/F/D/V<br><br>VA DCJS..."
     },
     {
-      "title": "Residential Security Officer – Driving Patrol & Career",
-      "company": "Allied Universal",
+      "title": "Armed School Security",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
       "location": "The Woodlands, TX",
-      "pay": "17,047–24,280 a year",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.learn4good.com/jobs/the-woodlands/texas/security/5269118105/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-school-security-at-cascadia-global-security-cascadia-off-duty-4443068859",
+      "via": "via LinkedIn",
+      "description": "<strong>About the position:<br><br></strong><ul><li>Position: Armed School Security Officer</li><li>Location: The Woodlands, TX 77381</li><li>Employment Type: Full-Time</li><li>Pay: $21 per hour</li><li>Shift times: Monday-Friday 7:45 am - 3:45 pm</li><li>Daily pay options are available. Payout as soon as the next day! <br><br></li></ul><strong>This position involves working in a school environment; candidates will be required to undergo additional screenings, training, and background checks.<br><br></strong><strong>About us:<br><br></strong>Cascadia Global Security (CGS) is a veteran-owned,..."
+    },
+    {
+      "title": "Executive Protection - Level IV Houston",
+      "company": "360 Group International Inc.",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/executive-protection-level-iv-houston-at-360-group-international-inc-4442253649",
+      "via": "via LinkedIn",
+      "description": "<p><em>------->>> PLEASE DO NOT APPLY BEFORE READING ENTIRE POST PLEASE! <<< --------</em></p><p><br></p><p><em>Must have high-profile close personal protection and/or residential security experience, your resume will be passed over</em></p><p><em>Law enforcement and military preferred.</em></p><p><em>###MUST HAVE HIGH PROFILE RESIDENTIAL/ESTATE SECURITY EXPERIENCE AND/OR CLOSE PERSONAL PROTECTION EXPERIENCE###. </em></p><p><em>Prefer Military and/or Law Enforcement experience</em></p><p><strong><em>SHIFTS ARE AS FOLLOWS:</em></strong></p><p><strong><em>Monday's and Tuesdays 10:00PM - 6:00AM..."
     }
   ]
 }

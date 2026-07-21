@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/medical-district-dallas-security",
   "market": "DFW",
   "target": "city",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Unarmed Security Guard - Immediate Hiring - First & Second Shift (ZIP 75261)",
+      "company": "AAA Security Guard Services",
+      "location": "Dallas, TX",
+      "pay": "17–18 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=913db437e6a0d3ed",
+      "via": "via Indeed",
+      "description": "<ul>\n <li>Secure premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry</li>\n <li>Prevent losses and damage by reporting irregularities, informing violators of policy and procedures; restraining trespassers</li>\n <li>Complete reports by recording observations, information, occurrences, and surveillance activities; interviewing witnesses; obtaining signatures</li>\n <li>Maintain environment by monitoring and setting building and equipment controls</li>\n <li>Maintain organization's stability and..."
+    },
+    {
+      "title": "Security Officer - Distribution Facility",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1637606/security-officer---distribution-facility/job",
+      "via": "via Allied Universal - ICIMS",
+      "description": "<h2>Overview</h2>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h2>Job Description</h2>\n<p> As a <strong>Security Officer Spanish Speaking Patrol</strong> in <strong>Dallas, TX</strong>, you will serve and safeguard clients in a range of industries such as Manufacturing & Industrial, and more. Join a..."
+    },
+    {
+      "title": "Security Officer - Office Center",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1637187/security-officer---office-center/job",
+      "via": "via Allied Universal - ICIMS",
+      "description": "<h2>Overview</h2>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h2>Job Description</h2>\n<p> As a <strong>Security Officer Full Time Unarmed Guard</strong> in <strong>Dallas, TX</strong>, you will serve and safeguard clients in a range of industries. Join Allied Universal as an Unarmed Patrol Officer..."
+    },
+    {
+      "title": "Night Security Officer - Hotel Patrol & Emergency Response",
+      "company": "TPG Hotels & Resorts",
+      "location": "Dallas, TX",
+      "pay": "40K–55K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5300848101/e/",
+      "via": "via Learn4Good",
+      "description": "TPG Hotels & Resorts in Dallas is seeking an Overnight Security professional to safeguard guests and property. You will patrol exterior areas, monitor premises, control access, and respond to emergencies to ensure safety for employees and guests.The ideal candidate has experience handling emergencies and advising management on security matters, contributing to a secure hotel environment around the clock.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Level 2 Security Officer",
+      "company": "Tactical Protection Services",
+      "location": "Dallas, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.indeed.com/viewjob?jk=f7e30527b68c98f1",
+      "via": "via Indeed",
+      "description": "<p>Looking for a qualified Level 2 Guard for an opening in Uptown Dallas, TX. The shift is from 12p-8p Fri thru Tues with Wed/Thurs off. You will be patrolling in a golf cart and on a bike off/on every other hour. Must be in physical shape to ride a mountain bike and able to deal with the outdoor conditions.</p>\n<ul>\n <li>Must have Level 2 guard card</li>\n <li>Must have experience working security</li>\n <li>Must be professional & ready to work</li>\n <li>Must be punctual</li>\n</ul>\n<p>Tactical Protection Services offers health/dental/vision insurance and a 50% matching 401K up to 6%. Pay..."
+    },
+    {
+      "title": "Police Officer- Dallas",
+      "company": "Baylor Scott & White Health",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://jobs.bswhealth.com/us/en/job/BSWHUS26001413EXTERNALENUS/Police-Officer-Dallas",
+      "via": "via Baylor Scott & White Health Jobs",
+      "description": "<p style=\"-webkit-text-stroke-width:0px;background-color:white;color:rgb(0, 0, 0);font-family:\"Open Sans\", \"Segoe UI\", Frutiger, \"Frutiger Linotype\", \"Dejavu Sans\", \"Helvetica Neue\", Arial, sans-serif;font-size:13.02px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0in 0in 9pt;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\"><span..."
+    },
+    {
+      "title": "Full-Time Armed/Unarmed Security Guard",
+      "company": "Fast Guard Service",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://salutemyjob.com/jobs/full-time-armed-unarmed-security-guard-dallas-texas/2882282258-2/",
+      "via": "via SaluteMyJob",
+      "description": "<p><b>Join Our Team as a Full-Time Security Guard!</b></p> <p>If you are a dedicated and licensed security guard seeking a rewarding full-time position, look no further! Fast Guard Service is excited to welcome you to our dynamic team.</p> <p><b>Position:</b> Full-Time Security Guard</p> <p><b>Location:</b> Hollywood, FL (Travel flexibility required)</p> <p><b>Hours:</b> 40 hours weekly (Full-time is defined as 35+ hours by the Bureau of Labor Statistics)</p> <p><b>Pay:</b> Competitive hourly rate based on your experience</p> <p><b>Key Responsibilities:</b></p> <ul> <li>Conduct security..."
+    },
+    {
+      "title": "Unarmed Security Specialist – Protect & Serve Clients",
+      "company": "Clarion Security LLC",
+      "location": "Dallas, TX",
+      "pay": "38K–52K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-specialist-protect-serve-clients--dallas--eba14e6312e4ebefb7dcdd2288152b340",
+      "via": "via JobLeads",
+      "description": "<p>Clarion Security LLC is seeking an dedicated Unarmed Security Officer to safeguard client properties and personnel. You will enforce site policies, stay vigilant, record incidents, and assist in emergency response while delivering excellent customer service.</p><p>The role requires 18+, valid guard license, ability to operate under various weather conditions, and comfort with lifting and occasional climbing. Military or law enforcement veterans are welcomed.</p>"
+    },
+    {
+      "title": "Level 2 Security Officer - Immediate Hiring in Dallas",
+      "company": "Brosnan Risk Consultants",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.get.it/job/level-2-security-officer-immediate-hiring-in-dallas-in-dallas-tx-at-brosnan-risk-consultants-ga_628876922599768326",
+      "via": "via Get.It",
+      "description": "<p><strong>Description</strong></p>\n\n<p>Brosnan Risk Consultants is actively seeking Level 2 Security Professionals in the Dallas area to work with an international retailer. This role requires open availability and offers advancement opportunities based on abilities and quality of work.</p>\n\n<p><strong>Company Culture and Environment</strong></p>\n\n<p>At Brosnan Risk Consultants, we pride ourselves on promoting a positive and professional work environment. We value our employees and clients above all else, ensuring a culture that fosters respect and collaboration.</p>\n\n<p><strong>Career..."
+    },
     {
       "title": "Asset Protection Customer Host",
       "company": "Walmart",
       "location": "Dallas, TX",
       "pay": "14–27 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-18",
+      "posted_date": "2026-07-17",
       "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officer Badge Review",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badge-review-at-allied-universal-4442433568",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Officers - Dallas Office Building",
-      "company": "D&L Entertainment",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=53235639f3635b80",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Regular Part Time Security Guard/Saturday & Sunday 7:00AM-7:00PM/ $16.12/hr. (Dallas, TX 75231) [DRIVER'S LICENSE REQUIRED]",
-      "company": "Admiral Security Services",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/regular-part-time-security-guard-saturday-sunday-7-00am-7-00pm-%2416-12-hr-dallas-tx-75231-driver-s-license-required-at-admiral-security-services-4441392377",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Overnight Shift - Security Officer - Golf Cart Patrol 75230",
-      "company": "United Protective Services",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=aa1bcbd1f5c42fed",
-      "via": "via Indeed"
+      "via": "via LinkedIn",
+      "description": "Hourly Wage: <strong>$14.5 - $27.5 per/hour<br><br></strong><ul><li>The actual hourly rate will equal or exceed the required minimum wage applicable to the job location.<br><br></li></ul><strong>Additional Compensation Includes Annual Or Quarterly Performance Incentives.<br><br></strong>Additional compensation in the form of premiums may be paid in amounts ranging from $0.35 per hour to $3.00 per hour in specific circumstances. Premiums may be based on schedule, facility, season, or specific work performed. Multiple premiums may apply if applicable criteria are met.<br><br>Employment Type:..."
     }
   ]
 }

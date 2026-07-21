@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 5,
+  "count": 10,
   "exact": 5,
   "jobs": [
     {
@@ -14,7 +14,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://jobs.aus.com/job/richardson/security-officer-data-center/22950/97937256240",
-      "via": "via Allied Universal"
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
     },
     {
       "title": "Night Shift Security Officer - Data Center Access & CCTV",
@@ -24,7 +25,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://www.learn4good.com/jobs/garland/texas/security/5287793206/e/",
-      "via": "via Learn4Good"
+      "via": "via Learn4Good",
+      "description": "NTT Global Data Centers Americas, Inc. seeks a Security Officer Level 1 to join our on-site team in Garland, TX.You will manage access control, monitor CCTV, respond to incidents, and prepare written reports while maintaining a safe, professional environment for employees, clients, and visitors. Requirements include a High School diploma or GED, 6 months security experience, and active certifications such as CSG or CPO within six months.#J-18808-Ljbffr"
     },
     {
       "title": "Data Center Security Officer at Securitas Group Richardson, TX",
@@ -34,27 +36,85 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://accutemponline.com/joblib/job/data-center-security-officer-at-securitas-group-richardson-tx-RkROa1liQUxIcldwOGpXMlpJWmdKRXBlTFE9PQ==",
-      "via": "via Accutemponline.com"
-    },
-    {
-      "title": "Armed Security Officer Flex - Data Center",
-      "company": "Allied Universal",
-      "location": "North Richland Hills, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/north-richland-hills-tx/armed-security-officer-flex-data-center-781014/",
-      "via": "via Women For Hire- Job Board"
+      "via": "via Accutemponline.com",
+      "description": "Data Center Security Officer job at Securitas Group. Richardson, TX. <p>Security Officer\n\nSeeking individuals with computer skills, professional appearance, customer service skills, and a tech/IT or data center background.\n\nWe help make your world a safer place.\n\nSecuritas is a global company offering advanced and sustainable security solutions. We are present in 47 countries, with 355,000 employees and over 150,000 clients worldwide.\n\nThe Security Officer position is crucial in maintaining a safe environment for our clients by actively monitoring premises, patrolling various locations, and..."
     },
     {
       "title": "Data Center Security Officer",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Dallas, TX",
-      "pay": "18–22 an hour",
+      "company": "Salute Mission Critical",
+      "location": "Ennis, TX",
+      "pay": "22–25 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/data-center-security-officer-at-securitas-security-services-usa-inc-4435999456",
-      "via": "via LinkedIn"
+      "posted_date": null,
+      "apply_link": "https://www.monster.com/job-openings/data-center-security-officer-ennis-tx--2fc61440-741b-41a6-890f-3217c5df4b52",
+      "via": "via Monster",
+      "description": "<p>Salute is a leading provider of cutting-edge Data Center Infrastructure Services, dedicated to serving data center clients worldwide. We pride ourselves on delivering sustainable solutions, unparalleled reliability, and outstanding customer service. As we continue to grow, we are seeking a dynamic and experienced Security Officer to join our team and drive our relationships with hyperscale clients to new heights.</p><p>Salute Benefits That Put You First</p><p>We know life doesn't stop when work begins, that's why we offer perks designed to support your well-being, your family, and your..."
+    },
+    {
+      "title": "Data Center Security Officers- $23.00/hr (#96)",
+      "company": "Sunstates Security",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/data-center-security-officers-2300-hr-96-sunstates-security-fort-worth--ss-us-ohohk0",
+      "via": "via BeBee",
+      "description": "<h2>Overview</h2>\nBecome part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener..."
+    },
+    {
+      "title": "Security Officer with Active Clearance Concierge",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-concierge-at-allied-universal-4443058450",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer with Active Clearance Concierge</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Armed Security Officer - Security Clearance",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-at-allied-universal-4443050743",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Vehicle Patrol Security Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Armed Security Officer Patrol Specialist",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": "18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-specialist-at-allied-universal-4442765828",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Patrol Specialist</strong> in <strong>Carrollton, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls,..."
+    },
+    {
+      "title": "Custom Protection Flex Officer - Financial Firm",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/custom-protection-flex-officer-financial-firm-at-allied-universal-4443066230",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Custom Protection Officer (CPO) Flex Officer. The Custom Protection Officer Flex Officer will conduct armed and/or unarmed foot..."
+    },
+    {
+      "title": "HR Coordinator / HR Assistant",
+      "company": "AAA Security Guard Services",
+      "location": "Bedford, TX",
+      "pay": "18–24 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=889dbbc91c872be2",
+      "via": "via Indeed",
+      "description": "<p><b>Job Summary</b><br>\n  We are seeking a dynamic and detail-oriented Admin / HR Coordinator to join our team and drive excellence in human resources and administrative functions. This pivotal role involves supporting talent acquisition, employee onboarding, benefits administration, while ensuring compliance with employment laws and fostering a positive workplace culture. The ideal candidate will be proactive, highly organized, and possess excellent communication skills to facilitate smooth HR operations and organizational effectiveness.</p>\n<p><b>Responsibilities</b></p>\n<ul>\n <li>Manage..."
     }
   ]
 }

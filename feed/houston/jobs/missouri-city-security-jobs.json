@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "houston/jobs/missouri-city-security-jobs",
   "market": "Houston",
   "target": "city",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 3,
   "jobs": [
     {
-      "title": "Safety and Security Associate",
-      "company": "Allied Universal",
+      "title": "Licensed Special Event Security Officer",
+      "company": "Andy Frain Services",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://elitehireportal.com/joblistingpage/5aamfdq9thv9-4e31b-242c2fe0-6b209008b510ce7224c",
-      "via": "via Elite Hire Portal"
+      "posted_date": "2026-07-19",
+      "apply_link": "https://salutemyjob.com/jobs/licensed-special-event-security-officer-missouri-city-texas/2882355735-2/",
+      "via": "via SaluteMyJob",
+      "description": "<p><b>Job Summary:</b><br>Join our dynamic team as a Licensed Special Event Security Officer, where you will play a crucial role in ensuring the safety and security of our events. You will establish relationships with customers, local law enforcement, and fire departments while maintaining a high level of vigilance regarding your surroundings. Your professional demeanor and exceptional customer service will set the standard for security personnel.</p><p><b>Basic Functions:</b></p><ul><li>Control entrances and manage pedestrian and vehicle traffic.</li><li>Conduct patrols of buildings and..."
     },
     {
-      "title": "Public Safety Officer",
-      "company": "Allied Universal",
+      "title": "Security Officer",
+      "company": "Raynord & Vanessa Protective S",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://elitehireportal.com/joblistingpage/eqotpz2rpaf0-ca07af955aa5b8ee4299-c8b4-6301a740",
-      "via": "via Elite Hire Portal"
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Raynord-&-Vanessa-Protective-S/Job/Security-Officer/-in-Missouri-City,TX?jid=5874a179f82cc01c",
+      "via": "via ZipRecruiter",
+      "description": "<div><p> </p><ul><li>Secures premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry.</li><li>Obtains help by sounding alarms.</li><li>Prevents losses and damage by reporting irregularities; informing violators of policy and procedures; restraining trespassers.</li><li>Controls traffic by directing drivers.</li></ul></div>"
     },
     {
-      "title": "Field Security Officer",
-      "company": "Allied Universal",
+      "title": "Professional Unarmed Security Officer - Missouri City, Texas",
+      "company": "Marksman Security",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/t5gdz3qcpkkl-48c3a1-19fd5a72fdf-a10c44c2584e5ca",
-      "via": "via Elite Hire Portal"
+      "posted_date": null,
+      "apply_link": "https://www.linkedin.com/jobs/view/professional-unarmed-security-officer-missouri-city-texas-at-marksman-security-4401521729",
+      "via": "via LinkedIn",
+      "description": "Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well-known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman's customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in providing..."
     },
     {
-      "title": "Flexible Security Officer",
+      "title": "Security Officer- Unarmed Warehouse",
       "company": "Allied Universal",
-      "location": "Missouri City, TX",
-      "pay": null,
+      "location": "Baytown, TX",
+      "pay": "17 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://elitehireportal.com/joblistingpage/i57t1hfxc788-9fd1a40ec2241-c44c1d2b992e2c0-47d3",
-      "via": "via Elite Hire Portal"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-unarmed-warehouse-at-allied-universal-4443061318",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong><strong>We are looking for dependable Security Guards for immediate hire at our warehouse.<br><br></strong><strong>SITE: Commercial..."
     },
     {
-      "title": "Part-Time Security Access Officer | Flexible Shifts & Growth",
+      "title": "Event Security - College Athletics",
+      "company": "Allied Universal® Event Services",
+      "location": "Houston, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e0f20d4eb3dce2b8",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Event Security - College Athletics</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Company Overview:\n </div>\n <div>\n  Kick off your exciting career in Event Security with Allied Universal® Event Services, the go-to leader in crowd management and event staffing. Dive into the action at sports stadiums, concerts, festivals, and convention centers, and thrive on the energy of being where it all happens. Join a lively team that services thousands of venues each year, ensuring safety and fun for everyone. Enjoy the perks of flexible part-time work that fits your lifestyle—ideal for..."
+    },
+    {
+      "title": "Security Officer Part Time Driver",
       "company": "Allied Universal",
-      "location": "Missouri City, TX",
+      "location": "Texas City, TX",
+      "pay": "15 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-driver-at-allied-universal-4443050740",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+    },
+    {
+      "title": "Security Officer Armed Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Bellaire, TX",
+      "pay": "22 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Armed-Patrol-Driver/-in-Bellaire,TX?jid=2a656fe143d35330",
+      "via": "via ZipRecruiter",
+      "description": "<div>Overview<br/><p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p><br/>Job Description<br/><hr/><p> As a <strong>Security Guard Armed Patrol Driver</strong> in <strong>Bellaire, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join a leading team..."
+    },
+    {
+      "title": "Security Officer Site Monitor",
+      "company": "Allied Universal",
+      "location": "Texas City, TX",
+      "pay": "16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-site-monitor-at-allied-universal-4443309639",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Site Monitor</strong> in <strong>La Marque, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join..."
+    },
+    {
+      "title": "Security Supervisor - Armed",
+      "company": "Admiral Security Services",
+      "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.jobleads.com/us/job/part-time-security-access-officer-flexible-shifts-growth--missouri-city--e15f5abb76b0f0329c56ed561efc278b2",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-supervisor-armed-at-admiral-security-services-4442271117",
+      "via": "via LinkedIn",
+      "description": "Admiral Security Services was established in 1976 and has consistently grown for over four decades. Today, we service hundreds of locations nationally, provide security coverage to millions of square feet of public and private facilities, and are one of the top 10 largest security companies in the United States.<br><br>Now is your opportunity to join our professional security team! If you desire to work for great organization, complete your application today! We offer <strong>GREAT PAY - HEALTH INSURANCE - LIFE INSURANCE - 401 (K) - PAID VACATION<br><br></strong>E/O/E/M/F/D/V<br><br>VA DCJS..."
+    },
+    {
+      "title": "Armed School Security",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
+      "location": "The Woodlands, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-school-security-at-cascadia-global-security-cascadia-off-duty-4443068859",
+      "via": "via LinkedIn",
+      "description": "<strong>About the position:<br><br></strong><ul><li>Position: Armed School Security Officer</li><li>Location: The Woodlands, TX 77381</li><li>Employment Type: Full-Time</li><li>Pay: $21 per hour</li><li>Shift times: Monday-Friday 7:45 am - 3:45 pm</li><li>Daily pay options are available. Payout as soon as the next day! <br><br></li></ul><strong>This position involves working in a school environment; candidates will be required to undergo additional screenings, training, and background checks.<br><br></strong><strong>About us:<br><br></strong>Cascadia Global Security (CGS) is a veteran-owned,..."
     }
   ]
 }

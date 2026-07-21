@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "san-antonio/jobs/unarmed-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Unarmed Retail Security Officer Weekend Patrols",
+      "company": "Marksman Security",
+      "location": "Kirby, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://bebee.com/us/jobs/unarmed-retail-security-officer-weekend-patrols-marksman-security-kirby--lensa-7428_7ba077c5fc27bbe9928e98b9e050658f70803e266c5b4de3bd4d2f1aa6708a37",
+      "via": "via BeBee",
+      "description": "<p>Marksman Security is hiring a Retail Unarmed Security Guard in San Antonio. You will conduct extended foot and vehicle patrols, maintain a visible security presence, and protect people and property at North Star or La Cantera.\nIdeal candidates have a valid Texas Level II Guard License and a clean driving record, plus at least one year of customer service and security experience. The schedule includes weekend shifts with pay starting at $16.32 per hour, depending on experience.</p>"
+    },
+    {
+      "title": "Unarmed Security Officer",
+      "company": "Weiser Security Services",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
+      "via": "via ZipRecruiter",
+      "description": "<strong>Description</strong>\n<br>\n<br><strong>Job Summary:</strong>\n<br>\n<br>\nThis position is under the direct supervision of the Account Manager or Branch Manager and is responsible for protection, safeguarding, and security of assets, personnel, customers and visitors to assigned sites.\n<br>\n<br><strong>Job Duties</strong>:\n<br>\n<br>\n1. Protect the interests of the client within the limits of the facility and to protect the lives and property of employees and visitors.\n<br>\n<br>\n2. Observe and report signs of crime or disorder and investigate disturbances.\n<br>\n<br>\n3. Prepare reports on a..."
+    },
     {
       "title": "Security Officer - Unarmed Training Facility Job at Allied Universal in San Antonio",
       "company": "Allied Universal",
@@ -14,7 +36,19 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://www.recruit.net/job/security-officer-unarmed-training-facility-jobs/DA02F828CC71BA1C",
-      "via": "via Recruit.net"
+      "via": "via Recruit.net",
+      "description": "Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose.<br />While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br />Life doesn’t always follow a fixed schedule.<br />That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to supplement their income, gain hands‑on experience, or work toward a..."
+    },
+    {
+      "title": "Unarmed Retail Security Officer — Weekend Patrols",
+      "company": "Marksman Security",
+      "location": "Kirby, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-retail-security-officer-weekend-patrols--kirby--e040b4c10429651f530ad8ef1dfb4274d",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security is hiring a Retail Unarmed Security Guard in San Antonio. You will conduct extended foot and vehicle patrols, maintain a visible security presence, and protect people and property at North Star or La Cantera.</p><p>Ideal candidates have a valid Texas Level II Guard License and a clean driving record, plus at least one year of customer service and security experience. The schedule includes weekend shifts with pay starting at $16.32 per hour, depending on experience.</p>"
     },
     {
       "title": "Unarmed Security Officer: Public Safety & Service",
@@ -24,37 +58,63 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-15",
       "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-public-safety-service-marksman-security-san-antonio--lensa-7428_90ba0e6ceb1c5f80ac1db3b376310558c5a8da5d0021036955b33b247c9816a0",
-      "via": "via BeBee"
+      "via": "via BeBee",
+      "description": "<p>A security service provider in San Antonio is looking for an Unarmed Security Officer. The role involves conducting patrols, engaging with the public, and ensuring safety. Ideal candidates should possess a Texas Level II Guard License, have strong communication skills, and at least one year of security and customer service experience. The position requires working evenings, weekends, and holidays if needed. Join a company dedicated to your growth and success in security services.</p>"
     },
     {
-      "title": "Licensed Unarmed Security Guard (Security)",
+      "title": "Unarmed Security & Safety Officer – Patrol & Response",
+      "company": "Drury Hotels Company, LLC",
+      "location": "San Antonio, TX",
+      "pay": "36K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/drury-hotels-company-llc/san-antonio/unarmed-security-safety-officer-patrol-response-83723813/",
+      "via": "via Talents By Vaia",
+      "description": "A family-owned hotel system is seeking a Safety & Security Officer in San Antonio, Texas. This unarmed position involves maintaining a secure environment for team members and guests through regular patrols and inspections. The ideal candidate will have excellent communication skills, be detail-oriented, and demonstrate integrity. With a commitment to world-class hospitality, the company also offers flexible scheduling, health benefits, and opportunities for career growth. #J-18808-Ljbffr\n\nSalary: USD 36000 - 60000 per year"
+    },
+    {
+      "title": "Unarmed Access Controller Flex Security Officer",
+      "company": "Prosegur",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=7720a83b81506a31",
+      "via": "via Indeed",
+      "description": "<div>\n Unarmed Access Controller Flex Security Officer \n <p><b><i><br>\n     Duties and responsibilities included but not limited to:</i></b></p>\n <ul>\n  <li>Maintaining a safe and secure environment for customers and employees while providing general Unarmed security duties to our clients.</li>\n  <li><b> MUST HAVE a Valid/Current State of Texas Non-Commissioned Level II Security License</b></li>\n  <li>Promote safety by being alert to observe, correct, and report any hazards.</li>\n  <li>Understand and comply with Prosegur and Client requirements, as well as specific post instructions.</li>\n ..."
+    },
+    {
+      "title": "Unarmed Security Guard/ Level II",
+      "company": "MAXIMUS UNIVERSAL PROTECTION LLC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=ef88d8436ee9f7c5",
+      "via": "via Indeed",
+      "description": "<div>\n <p><b>SECURITY OFFICER / SECURITY GUARD DUTIES</b></p>\n <ul>\n  <li>Provide a visual security presence</li>\n  <li>Conduct regular rounds of industrial and commercial premises to deter and detect signs of intrusion and ensure security of doors, windows and gates</li>\n  <li>Promotes positive public relations by offering courteous service to all tenants, visitors, and guests and responding to their requests.</li>\n  <li>Perform checks on windows, doors, gates, stairwells, fire exits, and other areas as assigned by client or that a trespasser may use to gain illegal access, and insure that..."
+    },
+    {
+      "title": "Licensed Unarmed Security (Security)",
       "company": "Inner Parish Security Corporation",
       "location": "San Antonio, TX",
       "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://sanantonio.us.expertini.com/job/licensed-unarmed-security-guard-security-san-antonio-inner-parish-security-corporation-c6c63a9f13f64d25bddda8db39f80959105/",
-      "via": "via Expertini"
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://lensa.com/job-v1/inner-parish-security-corporation/san-antonio-tx/unarmed-security-officer/14b4b39dbbb9597bc772faf7c5933105",
+      "via": "via Lensa",
+      "description": "<p>Licensed Unarmed Security Guard (Security)</p>\n<p>San Antonio, TX, United States of America</p>\n<p>$14.65 - $14.65</p>\n<p>Back Apply Now</p>\n<p>Back</p>\n<p>Apply Now</p>\n<p>Overview</p>\n<p>From our beginning in 1977, IPSC offered security officer patrols, and since then, we have expanded our offerings to include a number of security related services. Whether you are looking to secure your business, home or a government entity, IPSC has a valuable service to offer. IPSC offers armed and unarmed security guard services, patrol services, law enforcement officer services, commercial electronic..."
     },
     {
-      "title": "Unarmed Security Officer",
-      "company": "Weiser Security Services",
+      "title": "Unarmed Access Controller Security Officer",
+      "company": "Prosegur",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.ziprecruiter.com/c/Weiser-Security-Services/Job/Unarmed-Security-Officer/-in-San-Antonio,TX?jid=c57ecf2859212c6f",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Unarmed Event Security Officer | College Football & Concerts | $17/hr| Level 2 License",
-      "company": "A & Associates",
-      "location": "San Antonio, TX",
-      "pay": "17 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.simplyhired.com/job/RLf7U9ZCEpTbHf04q3v-fmqwUI_VA_oTugSJnhWWZYkmCv-j-dc0kw",
-      "via": "via SimplyHired"
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=ad2c727e6fcd139a",
+      "via": "via Indeed",
+      "description": "<div>\n Unarmed Access Controller Security Officer \n <p><b><i><br>\n     Duties and responsibilities included but not limited to:</i></b></p>\n <ul>\n  <li>Maintaining a safe and secure environment for customers and employees while providing general Unarmed security duties to our clients.</li>\n  <li><b> MUST HAVE a Valid/Current State of Texas Non-Commissioned Level II Security License</b></li>\n  <li>Promote safety by being alert to observe, correct, and report any hazards.</li>\n  <li>Understand and comply with Prosegur and Client requirements, as well as specific post instructions.</li>\n ..."
     }
   ]
 }

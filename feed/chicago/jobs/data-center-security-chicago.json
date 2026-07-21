@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "chicago/jobs/data-center-security-chicago",
   "market": "Chicago",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 4,
   "jobs": [
     {
-      "title": "Account Manager - Data Center",
-      "company": "Securitas Security Services USA, Inc.",
+      "title": "Data Center Security Officer - On-Site Access & CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": "27,813–39,743 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5302001714/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Data Center Security Officer I - On-Site Access & CCTV NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 to support site security. Under supervision, you will manage access control, monitor CCTV, and respond to incidents while maintaining thorough written reports.Key tasks include daily identification verification, patrols, system monitoring, and emergency response. A strong customer-service focus and the ability to work a demanding schedule are essential.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Data Center Security Officer — Onsite & Impactful Role",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://us.jobrapido.com/jobpreview/7684872744499937280",
+      "via": "via Jobrapido",
+      "description": "<p>NTT Global Data Centers Americas, Inc. is seeking an experienced Security Officer L1 to reinforce a site security team at our Chicago-area facility. You will manage access control, observe all activities, respond to incidents, and prepare detailed shift reports.</p><p>Collaboration with DCOPS and other departments is essential to maintain smooth operations. The role requires a high school diploma or GED, security certifications, and at least one year in security.</p>\n#J-18808-Ljbffr"
+    },
+    {
+      "title": "Data Center Security Officer: Access, CCTV & Safety",
+      "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
-      "apply_link": "https://www.linkedin.com/jobs/view/account-manager-data-center-at-securitas-security-services-usa-inc-4437642930",
-      "via": "via LinkedIn"
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-officer-access-cctv-safety--chicago--e2572793fa537659a6362ea6246ba1ac3",
+      "via": "via JobLeads",
+      "description": "<p>NTT Global Data Centers Americas, Inc. seeks a Security Officer Level 1 to support security operations at a Chicago-area data center.</p><p>You will enforce access control, monitor CCTV, respond to incidents, and prepare concise written reports while coordinating with the DCOPS team. The role requires effective communication, teamwork, and the ability to work a Wednesday 1pm-7pm shift and a Thursday–Saturday 7am–7pm schedule.</p>"
     },
     {
-      "title": "Security Officer L1 – Data Center Patrol & Surveillance",
-      "company": "NTT Global Data Centers Americas, Inc.",
-      "location": "Chicago, IL",
-      "pay": "27,552–38,572 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5286358014/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Account Manager - Data Center",
-      "company": "Securitas Security Services",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172557/?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30&utm_source=google&weekdayJdUid=1984381utm_mediumutm_medium",
-      "via": "via Cloud Sign In"
-    },
-    {
-      "title": "Data Center Security Officer L1 - Access, CCTV & Response",
+      "title": "Data Center Security Specialist I On-Site",
       "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-06",
-      "apply_link": "https://bebee.com/us/jobs/data-center-security-officer-l1-access-cctv-response-ntt-global-data-centers-americas-inc-chicago-il--appcast-7428_cb5c755eeca315d2cda12db563bd9c7c7114f7e28eaad427063ba9a3f0b7a44d",
-      "via": "via BeBee"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-specialist-i-on-site--chicago--eb8b7335a1aac7d035c61cca376f99291",
+      "via": "via JobLeads",
+      "description": "<p>NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 for a Sunday–Tuesday 7am–7pm shift at our Chicago data center. You will manage access, monitor CCTV, and respond to incidents to protect personnel and property.</p><p>You will collaborate with DCOPS and other teams, complete reports, and uphold security procedures while maintaining a professional client-facing presence and adherence to PPE and safety rules.</p>"
     },
     {
-      "title": "Data Center Security Officer I - On-Site",
-      "company": "Dormont Manufacturing Company",
+      "title": "Security Officer Enhanced Part Time Area Checks",
+      "company": "Allied Universal",
       "location": "Chicago, IL",
-      "pay": null,
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-area-checks-at-allied-universal-4443057478",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+    },
+    {
+      "title": "Security Officer Visitor Reception",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-05",
-      "apply_link": "https://www.whatjobs.com/jobs/data-center-security-officer-i/chicago-illinois?id=2860549077",
-      "via": "via WhatJobs"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-visitor-reception-at-allied-universal-4442774317",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Visitor Reception</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more...."
+    },
+    {
+      "title": "Security Officer Patrol Clearance Required",
+      "company": "Allied Universal",
+      "location": "Rolling Meadows, IL",
+      "pay": "23 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-clearance-required-at-allied-universal-4442767705",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Clearance Required</strong> in <strong>Rolling Meadows, IL</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Security Officer Patrol Compliance",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-at-allied-universal-4443066234",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Compliance</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Hotels & Resorts, and..."
+    },
+    {
+      "title": "Blue Star Off - Duty Officer (Retired)",
+      "company": "Protos Security",
+      "location": "Rosemont, IL",
+      "pay": "35–65 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/blue-star-off-duty-officer-retired-at-protos-security-4442789709",
+      "via": "via LinkedIn",
+      "description": "<strong>Blue Star Security, LLC</strong> is a provider off duty police officer services to private sectors throughout the Chicagoland area and Illinois. We are now hiring <strong>Retired Police Officers </strong><strong>to assist in serving our diverse portfolio of clients which include Fortune 500 companies, small businesses, film production and individuals.<br><br></strong><strong>Requirements<br><br></strong><ul><li>Must be retired police officer. </li><li>Must have Law Enforcement credentials.</li><li>Must work a minimum of 2 shifts a month.<br><br></li></ul><strong>Compensation &..."
+    },
+    {
+      "title": "Blue Star Off - Duty Officer (Active)",
+      "company": "Protos Security",
+      "location": "Rosemont, IL",
+      "pay": "35–65 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/blue-star-off-duty-officer-active-at-protos-security-4442783898",
+      "via": "via LinkedIn",
+      "description": "<strong>Blue Star Security, LLC</strong> is a provider off duty police officer services to private sectors throughout the Chicagoland area and Illinois. We are now hiring <strong>Active Police Officers </strong><strong>to assist in serving our diverse portfolio of clients which include Fortune 500 companies, small businesses, film production and individuals.<br><br></strong><strong>Requirements<br><br></strong><ul><li>Must be an active police officer. </li><li>Must have Law Enforcement credentials.</li><li>Must work a minimum of two shifts a month.<br><br></li></ul><strong>Compensation &..."
     }
   ]
 }

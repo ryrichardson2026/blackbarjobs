@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "san-antonio/jobs/hotel-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 6,
   "jobs": [
     {
-      "title": "Elite Hotel Security Officer: Protect Guests & Property",
-      "company": "Westin Riverwalk, San Antonio",
-      "location": "San Antonio, TX",
-      "pay": "32K–46K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/elite-hotel-security-officer-protect-guests-property--san-antonio--ea7ee45b9bca7d8df641161b766a64e4b",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Hospitality Security Officer: Protect Guests & Safety",
-      "company": "Hilton",
-      "location": "San Antonio, TX",
-      "pay": "26,139–37,229 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5284858923/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "Loss Prevention Officer (Hotel Emma)",
-      "company": "Silver Ventures",
-      "location": "San Antonio, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-officer-hotel-emma-at-silver-ventures-4438305666",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Loss Prevention Officer (Hotel Emma)",
-      "company": "Silver Ventures LLC",
+      "title": "Hotel Security / Loss Prevention Officer - Full Time - Benefits Include Medical, Free Hotel Room Nights, Paid Vacation and MANY MORE!",
+      "company": "Grand Hyatt",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=ffe7ecc349e43a2a",
-      "via": "via Indeed"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/hotel-security-loss-prevention-officer-full-time-benefits-include-medical-free-hotel-room-nights-paid-vacation-and-many-more%21-at-grand-hyatt-4443385714",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Grand Hyatt San Antonio<br><br></strong><strong>Summary<br><br></strong>At Hyatt, we believe our guests select Hyatt because of our caring and attentive associates who are focused on providing efficient service and meaningful experiences.<br><br>The Loss Prevention Officer plays a vital role in preventing theft and keeping the hotel guests, customers, and colleagues safe. This is a fast-paced position with customer-facing interaction that requires organization and excellent communication skills. The ideal candidate will be able to work afternoons and evenings on any day..."
     },
     {
-      "title": "The Gunter Hotel Riverwalk - Safety & Security Supervisor",
-      "company": "Aimbridge Hospitality",
+      "title": "Hotel Security / Loss Prevention Officer - On Call",
+      "company": "Hyatt Group",
       "location": "San Antonio, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-08",
-      "apply_link": "https://www.jobilize.com/job/us-tx-san-antonio-gunter-hotel-riverwalk-safety-security-supervisor",
-      "via": "via Jobilize"
+      "posted_date": "2026-07-17",
+      "apply_link": "https://bebee.com/us/jobs/hotel-security-loss-prevention-officer-on-call-hyatt-group-san-antonio--lensa-7428_ce7cc6468dfb25d7d1630ffde6a2f2ecb1877aad68f3085420b679344aad903a",
+      "via": "via BeBee",
+      "description": "<p>Hotel Security / Loss Prevention Officer - On Call Grand Hyatt San Antonio, TX</p>\n<h4>Security</h4>\n<h4>Hourly/Entry Level Employee</h4>\n<p>On-call/Casual</p>\n<p>$19.00 hourly (USD)</p>\n<p>Summary At Hyatt, we believe our guests select Hyatt because of our caring and attentive associates who are focused on providing efficient service and meaningful experiences.</p>\n<p>The Loss Prevention Officer plays a vital role in preventing theft and keeping hotel guests, customers, and colleagues safe. This fast‑paced position involves customer‑facing interaction and requires strong organizational..."
+    },
+    {
+      "title": "Elevated Level 2 Security Officer — Luxury Boutique Hotel",
+      "company": "Zachry Construction Corporation",
+      "location": "San Antonio, TX",
+      "pay": "43.2K–72K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/zachry-construction-corporation/san-antonio/elevated-level-2-security-officer-luxury-boutique-hotel-83642337/",
+      "via": "via Talents By Vaia",
+      "description": "A luxury hotel security team is seeking a professional Level 2 Security Officer to ensure guest safety and maintain an upscale environment. Responsibilities include monitoring security systems, conducting patrols, and supporting guests with a service-oriented approach. Candidates should have two years of experience in security within luxury hospitality, strong communication skills, and a valid Texas Level 2 security license. Exceptional benefits are offered, including medical and paid leave. #J-18808-Ljbffr\n\nSalary: USD 43200 - 72000 per year"
+    },
+    {
+      "title": "Security Professional - Hotel Patrol - Overnight Shift",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": "31.2K–46.8K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/allied-universal/security-professional-hotel-patrol-overnight-shift-22893104/",
+      "via": "via Talents By Vaia",
+      "description": "<h2>Job Description</h2><div>Job Description<div>Overview<p> Allied Universal®, North America\\'s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse, and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions! </p>Job Description<br /><p> As a..."
+    },
+    {
+      "title": "Security Officer - Downtown Hotel",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.jobilize.com/job/us-tx-san-antonio-security-officer-downtown-hotel-allied-universal",
+      "via": "via Jobilize",
+      "description": "Overview<br/>Allied Universal®, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br/><br/>As a Security Officer Patrol - Downtown Hotel in San Antonio, TX , you will serve and safeguard clients in a range of industries such as Hotels & Resorts, and more. Join a leading team where flexibility meets opportunity. As a Part-Time..."
+    },
+    {
+      "title": "HOTEL SECURITY",
+      "company": "Texas Western Hospitality Group",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=ce17863bba973f2e",
+      "via": "via Indeed",
+      "description": "<b>Our Hotel Security:</b>\n<br>\n Remains knowledgeable of hotel security policies, procedures, rules, and regulations. \n<br>\n<br>\n Remains knowledgeable of emergency procedures, operation of alarm doors, fire alarms, and key orientation. \n<br>\n<br>\n Patrols allocated areas of hotel and property as directed and watch for suspicious, irregular, prohibited, or dangerous activities, situations, or persons, as outlined in hotel policy. \n<br>\n<br>\n Patrol premises to prevent and detect signs of intrusion and ensure the security of doors, windows, and gates. \n<br>\n<br>\n Manages the collection,..."
+    },
+    {
+      "title": "Courtesy Officer",
+      "company": "The Mood Inc",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/courtesy-officer-at-the-mood-inc-4442243197",
+      "via": "via LinkedIn",
+      "description": "We are looking for a reliable and attentive Courtesy Officer to support the safety, security, and overall guest experience at our property. In this role, you will maintain a visible presence throughout the hotel by conducting regular patrols, monitoring activity in public areas, and identifying potential safety or security concerns.<br><br>The Courtesy Officer is responsible for documenting and reporting suspicious behavior, hazards, and policy violations while helping create a secure and welcoming environment for guests, employees, and visitors. This position operates under an “observe and..."
+    },
+    {
+      "title": "Security Operations Lead (GSOC)",
+      "company": "SWBC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-operations-lead-gsoc-at-swbc-4442212939",
+      "via": "via LinkedIn",
+      "description": "SWBC is seeking a talented individual who will provide hands-on operational leadership for the Global Security Operations Center in a converged cyber and physical security environment.<br><br>This senior individual contributor role is responsible for leading daily security operations activities, coordinating incident response efforts, guiding analysts, managing escalations, and helping ensure consistent execution across monitoring, detection, response, and operational readiness functions.<br><br><strong>Why You'll Love This Role<br><br></strong>This role places you at the center of SWBC's..."
+    },
+    {
+      "title": "Our Lady of the Lake University is hiring: Campus Security Officer in San Antonio",
+      "company": "Our Lady of the Lake University",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.recruit.net/job/our-lady-lake-university-is-jobs/BFCA82F7CB4C831A",
+      "via": "via Recruit.net",
+      "description": "Our Lady of the Lake University is seeking a police officer to maintain a safe campus environment through proactive patrols and law enforcement.<br />The officer will enforce university regulations and local laws, respond to emergencies, and assist the university community.<br />Ideal candidates should have a high school diploma or GED, a Texas peace officer's license, and demonstrate strong communication and interpersonal skills.<br />The role requires a commitment to maintaining safety in a diverse campus community. #J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Security Specialist - Local Patrol",
+      "company": "Cascadia Global Security",
+      "location": "San Antonio, TX",
+      "pay": "20–24 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5301613532/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Armed Security Specialist - Local Patrol & Daily Pay Cascadia Global Security is hiring an Armed Security officer in San Antonio, TX. Part-time position requiring use of a company vehicle, valid driver’s license, and the ability to pass a DMV background check.Pay is $22 per hour with daily pay options and immediate hiring. Candidates should be prepared for a physically demanding role with opportunities for advancement and benefits after a probation period.#J-18808-Ljbffr"
     }
   ]
 }

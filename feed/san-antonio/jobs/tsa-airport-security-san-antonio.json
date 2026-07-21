@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "san-antonio/jobs/tsa-airport-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 7,
   "jobs": [
+    {
+      "title": "TSA Airport Security Officer",
+      "company": "Airport Security Careers",
+      "location": "San Antonio, TX",
+      "pay": "48,637–59,966 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://workingjobfinder.com/tsa-airport-security-officer-san-antonio-tx",
+      "via": "via TSA Airport Security Jobs Hiring Now",
+      "description": "<h2><strong>TSA Airport Security Officer</strong></h2>\n\n<h3><strong>Role overview</strong></h3>\n<p>Transportation Security Officers help keep airports safe by screening passengers and baggage at security checkpoints. It's a non-armed role that's part security, part customer service. No prior experience or degree is required, and all training is paid.</p>\n<p>Depending on the airport, you may be hired either directly by TSA or by a private screening company through TSA's Screening Partnership Program (SPP). At SPP airports, screening is still done under TSA oversight and federal security..."
+    },
     {
       "title": "Aviation Security Agent Protect Flights (San Antonio)",
       "company": "ACTS-Aviation Security Inc",
@@ -14,37 +25,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://bebee.com/us/jobs/aviation-security-agent-protect-flights-san-antonio-acts-aviation-security-inc-san-antonio--lensa-7428_f2599e723c88dd5e916c9078cfd751233ad59e49b787208d0093580c82d71391",
-      "via": "via BeBee"
-    },
-    {
-      "title": "Airport Checkpoint Screener; TSA",
-      "company": "Airport Security",
-      "location": "San Antonio, TX",
-      "pay": "45,760–65,341 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/entertainment/5240209943/e/",
-      "via": "via Learn4Good"
-    },
-    {
-      "title": "TSA Airport Security Officer",
-      "company": "Airport Security Careers",
-      "location": "San Antonio, TX",
-      "pay": "48,637–59,966 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-28",
-      "apply_link": "https://workingjobfinder.com/tsa-airport-security-officer-san-antonio-tx",
-      "via": "via TSA Airport Security Jobs Hiring Now"
-    },
-    {
-      "title": "Federal Air Marshal - TSA Law Enforcement Career",
-      "company": "Airport Security Careers",
-      "location": "San Antonio, TX",
-      "pay": "30–60 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/-1304333143875448020",
-      "via": "via Jooble"
+      "via": "via BeBee",
+      "description": "<p>ACTS‑Aviation Security Inc. is hiring an Aviation Security Agent at the San Antonio Airport, San Antonio, TX. The role enforces TSA rules, inspects catering equipment, and may monitor aircraft per security specifications.\nRequires a high school diploma or GED and ability to pass background checks. Benefits include medical, dental & vision insurance, 401K with company matching, and paid vacation & holidays. Must be 18+, hold a valid U.S.</p>"
     },
     {
       "title": "Airport Security Patrol Officer – Day/Night Shifts",
@@ -54,7 +36,85 @@
       "schedule": "Full-time",
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/city-of-san-antonio/san-antonio/airport-security-patrol-officer-day-night-shifts-83615453/",
-      "via": "via Talents By Vaia"
+      "via": "via Talents By Vaia",
+      "description": "A municipal organization in San Antonio is seeking a Security Guard responsible for patrol and security work at city facilities. The role involves monitoring entry points, providing public assistance, and reporting on safety conditions. Candidates should have a high school diploma or GED, experience in security work, and a valid Texas driver’s license. Successful applicants must pass TSA clearance, reflecting the position’s importance in maintaining a secure environment. #J-18808-Ljbffr\n\nSalary: USD 36000 - 60000 per year"
+    },
+    {
+      "title": "Federal Air Marshal - TSA Law Enforcement Career",
+      "company": "Airport Security Careers",
+      "location": "San Antonio, TX",
+      "pay": "30–60 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/-1304333143875448020",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Federal Air Marshals to provide in-flight security on commercial aircraft departing from or arriving in San Antonio. This is a specialized law enforcement role focused on protecting passengers and crew while responding to potential threats. </p><h2> Position Details </h2><ul><li><b> Openings </b> : San Antonio and Nationwide </li><li><b> Starting Pay </b> : $30.00 - $60.00</li><li><b> Annual Compensation </b> : $65,000 - $100,000+</li><li><b> Schedule </b> : Travel-based </li></ul><h2> Perks and Benefits </h2><ul><li> Federal law enforcement benefits..."
+    },
+    {
+      "title": "TSA Security Inspector - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Marion, TX",
+      "pay": "26–48 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/5540282605830993995",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Marion and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Marion and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key..."
+    },
+    {
+      "title": "TSA Security Inspector - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Converse, TX",
+      "pay": "26–48 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/-3667366735032128960",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Converse and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Converse and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2>..."
+    },
+    {
+      "title": "Airport Security Officer",
+      "company": "BlackBarJobs",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.blackbarjobs.com/san-antonio/jobs/tsa-airport-security-san-antonio",
+      "via": "via The Job Network For Security Officers",
+      "description": "Airport security officer positions across San Antonio. Responsibilities include access control, patrol, monitoring, and incident reporting at commercial and residential properties."
+    },
+    {
+      "title": "Hotel Security / Loss Prevention Officer - Full Time - Benefits Include Medical, Free Hotel Room Nights, Paid Vacation and MANY MORE!",
+      "company": "Grand Hyatt",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/hotel-security-loss-prevention-officer-full-time-benefits-include-medical-free-hotel-room-nights-paid-vacation-and-many-more%21-at-grand-hyatt-4443385714",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Grand Hyatt San Antonio<br><br></strong><strong>Summary<br><br></strong>At Hyatt, we believe our guests select Hyatt because of our caring and attentive associates who are focused on providing efficient service and meaningful experiences.<br><br>The Loss Prevention Officer plays a vital role in preventing theft and keeping the hotel guests, customers, and colleagues safe. This is a fast-paced position with customer-facing interaction that requires organization and excellent communication skills. The ideal candidate will be able to work afternoons and evenings on any day..."
+    },
+    {
+      "title": "Courtesy Officer",
+      "company": "The Mood Inc",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Internship",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/courtesy-officer-at-the-mood-inc-4442243197",
+      "via": "via LinkedIn",
+      "description": "We are looking for a reliable and attentive Courtesy Officer to support the safety, security, and overall guest experience at our property. In this role, you will maintain a visible presence throughout the hotel by conducting regular patrols, monitoring activity in public areas, and identifying potential safety or security concerns.<br><br>The Courtesy Officer is responsible for documenting and reporting suspicious behavior, hazards, and policy violations while helping create a secure and welcoming environment for guests, employees, and visitors. This position operates under an “observe and..."
+    },
+    {
+      "title": "Security Operations Lead (GSOC)",
+      "company": "SWBC",
+      "location": "San Antonio, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-operations-lead-gsoc-at-swbc-4442212939",
+      "via": "via LinkedIn",
+      "description": "SWBC is seeking a talented individual who will provide hands-on operational leadership for the Global Security Operations Center in a converged cyber and physical security environment.<br><br>This senior individual contributor role is responsible for leading daily security operations activities, coordinating incident response efforts, guiding analysts, managing escalations, and helping ensure consistent execution across monitoring, detection, response, and operational readiness functions.<br><br><strong>Why You'll Love This Role<br><br></strong>This role places you at the center of SWBC's..."
     }
   ]
 }

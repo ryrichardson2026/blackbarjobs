@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/mobile-patrol-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Armed Security Officer Patrol Specialist",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": "18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-specialist-at-allied-universal-4442765828",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Patrol Specialist</strong> in <strong>Carrollton, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls,..."
+    },
+    {
+      "title": "Security & Safety Officer | Patrol, Reports, Training",
+      "company": "Serrato Corporation",
+      "location": "McKinney, TX",
+      "pay": "40K–60K a year",
+      "schedule": "Internship",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/mckinney/texas/security/5299375881/e/",
+      "via": "via Learn4Good",
+      "description": "Position: 24/7 Security & Safety Officer | Patrol, Reports, Training Serrato Corporation is seeking a dedicated security professional to safeguard a 24/7 center in McKinney, TX. Responsibilities include patrols, enforcing laws, assisting visitors, and handling investigations. The role requires effective communication, reliable judgment, and the ability to work any shift.Candidate must have a high school diploma or equivalent, with security or related experience; an Associate's degree is preferred. Proficiency with MS Office and surveillance equipment is a plus.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Tech Security Patrol Driver; Part-Time",
+      "company": "Alliedbarton Security Services",
+      "location": "Fort Worth, TX",
+      "pay": "23,419–31,684 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5300849162/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Tech Security Patrol Driver (Part-Time) Allied Universal is seeking a part-time Security Officer Patrol Driver in Fort Worth, TX. You will provide customer service, patrol assigned areas, deter incidents, and monitor access points on a technology-focused site.This role offers flexible day/evening shifts with a $19.82 hourly pay and opportunities to grow, train, and access exclusive perks through the Perks Program. Minimum requirements include being at least 21, having a valid Texas driver’s license, and a high school diploma, plus#J-18808-Ljbffr"
+    },
+    {
+      "title": "Night Security Officer - Hotel Patrol & Emergency Response",
+      "company": "TPG Hotels & Resorts",
+      "location": "Dallas, TX",
+      "pay": "40K–55K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5300848101/e/",
+      "via": "via Learn4Good",
+      "description": "TPG Hotels & Resorts in Dallas is seeking an Overnight Security professional to safeguard guests and property. You will patrol exterior areas, monitor premises, control access, and respond to emergencies to ensure safety for employees and guests.The ideal candidate has experience handling emergencies and advising management on security matters, contributing to a secure hotel environment around the clock.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Security Officer - Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Haltom City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-part-time-patrol-at-allied-universal-4441762551",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+    },
+    {
+      "title": "Lateral Police Officer — Patrol, Investigate, Protect",
+      "company": "City of Allen",
+      "location": "Allen, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://jooble.org/jdp/-3426703975240217497",
+      "via": "via Jooble",
+      "description": "<p>The City of Allen Police Department is accepting applications for an Out-of-State Lateral Police Officer. Applicants must meet minimum qualifications and complete the Texas certification process.\nThe role involves patrolling the city, enforcing traffic laws, reporting accidents, investigating crimes, and maintaining positive community relations. Eligibility requires either 30 college credits with two years patrol service or a high school diploma with three years of patrol service, plus Field\n\n#J-18808-Ljbffr  City of Allen\n</p>"
+    },
+    {
+      "title": "Part-Time Driver Patrol Officer",
+      "company": "Allied Universal",
+      "location": "Denton, TX",
+      "pay": "14–20 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.learn4good.com/jobs/denton/texas/security/5296832727/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Part-Time Driver Patrol Officer - Flexible Shifts Allied Universal is seeking a Security Officer – Part Time Enhanced in Denton, TX. This role offers fixed shifts with opportunities to pick up extra shifts through our scheduling platform, designed for reliable base hours and potential up to 40 hours per week.Pay is $17.00 per hour, with part‑time earnings and a focus on customer service, incident response, and site protection at a retail location. Background checks and drug screening are required by policy.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Patrol Driver — Retail Security & Customer Service",
+      "company": "Allied Universal",
+      "location": "Cleburne, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-retail-security-customer-service--cleburne--eef64b90c1eba9587fcd0146b12c47403",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal in the United States is seeking an Armed Security Officer Patrol Driver for a retail location in Cleburne, TX. You will monitor areas, deter incidents, and deliver customer service while supporting daily operations with professionalism and integrity.</p><p>This full-time daytime role offers competitive pay and opportunities for growth within a people‑first culture at Allied Universal.</p>"
+    },
     {
       "title": "Overnight Shift - Security Officer - Golf Cart Patrol 75230",
       "company": "United Protective Services",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Part-time",
-      "posted_date": "2026-07-18",
+      "posted_date": "2026-07-17",
       "apply_link": "https://www.indeed.com/viewjob?jk=aa1bcbd1f5c42fed",
-      "via": "via Indeed"
+      "via": "via Indeed",
+      "description": "<div>\n Overnight Shift - Security Officer - Golf Cart Patrol 75230 \n <p><br>\n   As one of our security officers, you will be the face of safety, security, and excellent customer service that our clients have grown to depend on across Texas and Oklahoma for over 20 years.</p>\n <p><b>Schedule:</b> Saturday & Sunday 11PM - 7AM</p>\n <p></p>\n <p><b><br>\n    Pay:</b> $16.50/hour</p>\n <p></p>\n <p><b><br>\n    Your normal day will consist of...</b></p>\n <ul>\n  <li>Patrolling on a golf cart to prevent vehicle thefts and vagrancy from occurring on the property.</li>\n  <li>Assess and assist with any..."
     },
     {
-      "title": "Security Officer Patrol",
-      "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "18 an hour",
+      "title": "Mobile Security Officer - Full-Time (Plano) | $50 Sign-On",
+      "company": "Marksman Security",
+      "location": "Garland, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-at-allied-universal-4441695313",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Officer – Patrol & Protection Specialist",
-      "company": "Downtown Boulder Partnership",
-      "location": "Fort Worth, TX",
-      "pay": "55K–64K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-patrol-protection-specialist--fort-worth--edd998d1ce7b311974beb2142ddf91b0d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "Security Officer Full Time Patrol Screening",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Full-Time-Patrol-Screening/-in-Mesquite,TX?jid=f8f17e495ece3a80",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Site Patrol",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "19.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5295888575/e/",
-      "via": "via Learn4Good"
+      "posted_date": "2026-07-17",
+      "apply_link": "https://bebee.com/us/jobs/mobile-security-officer-full-time-plano-50-sign-on-marksman-security-garland--lensa-7428_4f7e189684d07609bf55c62f1d0c585e997fcdcf1689ed5bf2034715f75b08e5",
+      "via": "via BeBee",
+      "description": "<p>Marksman Security in Garland, Texas is seeking a Full Time Mobile Security Officer at $18.50/hour. This role requires professionals who deliver exceptional service and maintain a high standard of professionalism at our headquarters location.</p>\n<p>Qualifications include a high school degree, valid state licensing, and at least one year of experience in both security and customer service. This role involves monitoring premises, managing access, and ensuring safety. Join our committed team and become a part of a top workplace recognized by USA Today.</p>"
     }
   ]
 }

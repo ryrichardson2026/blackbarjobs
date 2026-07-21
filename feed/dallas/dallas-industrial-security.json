@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/dallas-industrial-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 9,
   "jobs": [
     {
-      "title": "Industrial Security Specialist: ACSSO (9/80 Schedule)",
-      "company": "Harris Geospatial Solutions",
-      "location": "Plano, TX",
-      "pay": "110K–150K a year",
+      "title": "Night Security Officer Manufacturing Plant",
+      "company": "Trinity Industries",
+      "location": "Fort Worth, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/industrial-security-specialist-acsso-9-80-schedule--plano--ef9bdc257ca666ee6d17d731a958aa2a4",
-      "via": "via JobLeads"
+      "posted_date": "2026-07-18",
+      "apply_link": "https://bebee.com/us/jobs/night-security-officer-manufacturing-plant-trinity-industries-fort-worth--lensa-7428_23ca4ab7463cd1c7dde77350410d1ea8827a0debad394b59e069b11cb7a9c005",
+      "via": "via BeBee",
+      "description": "<p>Trinity Industries, Inc. Corporate Security is seeking a full-time Security Officer for our Ft. Worth, TX plant. This role involves monitoring our property, greeting visitors, assisting with incident investigations, preventing theft and mitigating escalated situations.\nThe position requires English communication, strong customer service, and the ability to document actions clearly. It is a night shift with a comprehensive benefits package and year‑round shift work.</p>"
     },
     {
-      "title": "Industrial Security Rep / CSSO with Security Clearance",
+      "title": "Industrial Security Officer Hour Shifts + OT",
+      "company": "Gregg Protection Services",
+      "location": "Dallas, TX",
+      "pay": "16 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5296365201/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Industrial Security Officer — 12-Hour Shifts + OT Gregg Protection Services is seeking Temporary Security Officers for an industrial facility in Western Pennsylvania to provide professional security services during an essential work stoppage.Starting pay is $16.00 per hour with overtime at $24.00 per hour. Shifts are 12 hours long, day 6:00 AM – 6:00 PM and night 6:00 PM – 6:00 AM, with 84 hours per week and weekly pay around $1,696 including OT.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Night Security Officer – Industrial Plant",
+      "company": "Trinity Structural Towers",
+      "location": "Fort Worth, TX",
+      "pay": "42K–52K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobleads.com/us/job/night-security-officer-industrial-plant--fort-worth--e15ef95348aaeb1f17a16b62943b3439e",
+      "via": "via JobLeads",
+      "description": "<p>Trinity Industries, Inc. is seeking a Security Officer for a full-time night shift at our Ft. Worth plant.</p><p>The role monitors the property, greets visitors, assists with incidents, prevents theft, and coordinates with customers, visitors, and employees. You will work year-round in a manufacturing setting with high noise and machinery; must have a high school education, at least 6 months security experience, and be proficient with Word and Outlook.</p>"
+    },
+    {
+      "title": "Night Security Officer — Manufacturing Plant",
+      "company": "Trinity Industries",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4921235871354585088",
+      "via": "via Jobrapido",
+      "description": "<p>Trinity Industries, Inc. Corporate Security is seeking a full-time Security Officer for our Ft. Worth, TX plant. This role involves monitoring our property, greeting visitors, assisting with incident investigations, preventing theft and mitigating escalated situations.</p><p>The position requires English communication, strong customer service, and the ability to document actions clearly. It is a night shift with a comprehensive benefits package and year‑round shift work.</p>\n#J-18808-Ljbffr"
+    },
+    {
+      "title": "SAP Security Officer - Industrial Security Specialist",
+      "company": "L3Harris",
+      "location": "Plano, TX",
+      "pay": "90K–120K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://www.jobleads.com/us/job/sap-security-officer-industrial-security-specialist--plano--eab46ca24501b6e892399c83d044afd47",
+      "via": "via JobLeads",
+      "description": "<p>L3Harris Technologies is seeking a Specialist, Industrial Security in Plano/Richardson, TX. You will implement and train on National Industrial Security Program requirements within the Agile Development Group.</p><p>The role emphasizes independent decision-making, collaboration with security professionals, and adherence to corporate security policies to protect sensitive information and assets.</p>"
+    },
+    {
+      "title": "Armed Patrol Specialist — Industrial Facility Security",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-specialist-industrial-facility-security--dallas--e7f1f797aa600e069f9ac7c92ee54d4fc",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking a Security Officer Armed Patrol Specialist in Dallas, TX. You will provide on-site security, deter incidents through visible patrols, and assist employees and visitors with professional service.</p><p>The role requires at least 2 years of security or law enforcement experience, Level III Armed Certification in Texas, and a high school diploma. Must be 21+ and able to pass background checks and drug screening.</p>"
+    },
+    {
+      "title": "Flexible Security Officer — Manufacturing & Industrial",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/allied-universal/dallas/flexible-security-officer-manufacturing-industrial-74227406/",
+      "via": "via Talents By Vaia",
+      "description": "A leading security services company is seeking a Flex Security Officer in Dallas, TX. In this part-time role, you will ensure the safety and security of various industrial locations. This involves conducting patrols, responding to incidents with professionalism, and providing exceptional customer service to clients. The position requires fluency in Spanish and a high school diploma. Competitive pay is offered at $18.50 per hour, and you will have access to various growth opportunities and perks. #J-18808-Ljbffr"
+    },
+    {
+      "title": "Industrial Security Rep / CSSO",
+      "company": "Lockheed Martin Corporation",
+      "location": "Grand Prairie, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Lockheed-Martin/Job/Industrial-Security-Rep-CSSO/-in-Grand-Prairie,TX?jid=f969b62c799e5f7b",
+      "via": "via ZipRecruiter",
+      "description": "Lockheed Martin's Missiles and Fire Control (MFC) business, the leading provider and pioneer for superior weapon systems, sensors and services is seeking an Industrial Security Professional / Contractor SAP Security Officer (CSSO) to join the security team in Grand Prairie, TX. You will perform program security duties supporting multiple special access programs.<br><br><p><b>What You Will Be Doing</b></p><br>As the Security Representative you will perform duties as the Alternate Contractor SAP Security Officer (ACSSO) or Contractor SAP Security Officer (CSSO) for multiple complex and growing..."
+    },
+    {
+      "title": "Industrial Security Rep / CSSO",
       "company": "Lockheed Martin",
       "location": "Grand Prairie, TX",
       "pay": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://bebee.com/us/jobs/industrial-security-rep-csso-with-security-clearance-lockheed-martin-grand-prairie-tx-united-states--oneredce-8340_8935031",
-      "via": "via BeBee"
-    },
-    {
-      "title": "EMT Security Guard - Plant Safety & Medical Response",
-      "company": "Gerdau",
-      "location": "Midlothian, TX",
-      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://bebee.com/us/jobs/emt-security-guard-plant-safety-medical-response-gerdau-midlothian--lensa-7428_ff567f8bdc6b06bd6fbb10bcedcd0e7f5eb809ef9bdbbe7a9e3b979186241286",
-      "via": "via BeBee"
+      "posted_date": null,
+      "apply_link": "https://www.lockheedmartinjobs.com/job/grand-prairie/industrial-security-rep-csso/694/95581368640",
+      "via": "via Lockheed Martin",
+      "description": "<br><b>Description:</b>Lockheed Martin’s Missiles and Fire Control (MFC) business, the leading provider and pioneer for superior weapon systems, sensors and services is seeking an Industrial Security Professional / Contractor SAP Security Officer (CSSO) to join the security team in Grand Prairie, TX. You will perform program security duties supporting multiple special access programs.<br><br><p><b>What You Will Be Doing</b></p><br>As the Security Representative you will perform duties as the Alternate Contractor SAP Security Officer (ACSSO) or Contractor SAP Security Officer (CSSO) for..."
     },
     {
-      "title": "Industrial Security Manager",
-      "company": "Boeing",
-      "location": "Dallas, TX",
-      "pay": "130,050–203,550 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-06-30",
-      "apply_link": "https://www.ziprecruiter.com/c/Boeing/Job/Industrial-Security-Manager/-in-Dallas,TX?jid=77ba3bfc36733855",
-      "via": "via ZipRecruiter"
-    },
-    {
-      "title": "Security Officer Clearance Required - Industrial Facility",
+      "title": "Security Officer with Active Clearance Concierge",
       "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-06-29",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-clearance-required-industrial-facility/22950/97143254400",
-      "via": "via Allied Universal"
+      "location": "Irving, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-concierge-at-allied-universal-4443058450",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer with Active Clearance Concierge</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
     }
   ]
 }

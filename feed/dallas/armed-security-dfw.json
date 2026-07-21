@@ -1,20 +1,109 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/armed-security-dfw",
   "market": "DFW",
   "target": "role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
     {
-      "title": "Armed Security officer",
-      "company": "Vets Securing America",
-      "location": "Benbrook, TX",
+      "title": "Armed Security Officer - Security Clearance",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-at-allied-universal-4443050743",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Vehicle Patrol Security Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Armed Security Officer Patrol Specialist",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": "18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-specialist-at-allied-universal-4442765828",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Patrol Specialist</strong> in <strong>Carrollton, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls,..."
+    },
+    {
+      "title": "Full-Time Armed/Unarmed Security Guard",
+      "company": "Fast Guard Service",
+      "location": "Dallas, TX",
       "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=81be675711615bc9",
-      "via": "via Indeed"
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://salutemyjob.com/jobs/full-time-armed-unarmed-security-guard-dallas-texas/2882282258-2/",
+      "via": "via SaluteMyJob",
+      "description": "<p><b>Join Our Team as a Full-Time Security Guard!</b></p> <p>If you are a dedicated and licensed security guard seeking a rewarding full-time position, look no further! Fast Guard Service is excited to welcome you to our dynamic team.</p> <p><b>Position:</b> Full-Time Security Guard</p> <p><b>Location:</b> Hollywood, FL (Travel flexibility required)</p> <p><b>Hours:</b> 40 hours weekly (Full-time is defined as 35+ hours by the Bureau of Labor Statistics)</p> <p><b>Pay:</b> Competitive hourly rate based on your experience</p> <p><b>Key Responsibilities:</b></p> <ul> <li>Conduct security..."
+    },
+    {
+      "title": "Armed Security Officer - Part Time Patrol",
+      "company": "Allied Universal",
+      "location": "Haltom City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-part-time-patrol-at-allied-universal-4441762551",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+    },
+    {
+      "title": "Armed Security Rover - Night Shift; Part-Time",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "19–25 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5296801473/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Armed Security Rover - Night Shift (Part-Time) | $22/Hour Allied Universal, North America’s leading security and facility services company, is seeking an Armed Security Officer Rover in Dallas, TX. This part-time role involves patrolling facilities, responding to incidents, and maintaining a visible security presence to deter incidents and provide excellent customer service.Pay rate is $22.00 per hour with a Fri–Sat overnight schedule. You must have a Level III Armed Certification in Texas, at least 1 year of security experience, and a high school#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Security Officer, Graveyard Shift; Dallas, TX",
+      "company": "AX9 Security, Inc.",
+      "location": "Dallas, TX",
+      "pay": "42K–68K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5296907734/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Armed Security Officer, Graveyard Shift (Dallas, TX) Join AX9 Security Inc. – A Top-Rated Security Company with Proven Growth! Job Title: Armed Security Guard Overview Since  our founding in 2004, AX9 Security, Inc. has emerged as one of the fastest-growing security providers in the nation. We pride ourselves on upholding the highest safety standards while diligently protecting our clients' assets. By joining the AX9 team, you will have the opportunity to advance your career with a leading security company dedicated to your professional growth. We are excited to welcome passionate..."
+    },
+    {
+      "title": "Armed Patrol Driver — Retail Security & Customer Service",
+      "company": "Allied Universal",
+      "location": "Cleburne, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobleads.com/us/job/armed-patrol-driver-retail-security-customer-service--cleburne--eef64b90c1eba9587fcd0146b12c47403",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal in the United States is seeking an Armed Security Officer Patrol Driver for a retail location in Cleburne, TX. You will monitor areas, deter incidents, and deliver customer service while supporting daily operations with professionalism and integrity.</p><p>This full-time daytime role offers competitive pay and opportunities for growth within a people‑first culture at Allied Universal.</p>"
+    },
+    {
+      "title": "Armed Security Guard",
+      "company": "Security Solutions of Texas",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-guard-at-security-solutions-of-texas-4431798320",
+      "via": "via LinkedIn",
+      "description": "$20 per hour<br><br>Dallas, Full-time or Part-time, armed and unarmed<br><br>Various shifts<br><br>Security Solutions of Texas is hiring for a Part-Time Position in Dallas.<br><br>The Security Guard protects the client and assigned property from any criminal activity or trespassing.<br><br>The ideal candidate will have strong written and verbal communication, excellent observational skills, and previous surveillance experience, preferably in a law enforcement environment. This person should be able to remain calm in high-pressure situations while exhibiting patience and superb attention to..."
+    },
+    {
+      "title": "(1099 Contract) Overnight Armed Security Officer (Weekends/Part-time; $19.00/hr)",
+      "company": "AllStar Security Group, LLC",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Part-time and Contractor",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ba17a9f4953c2a59",
+      "via": "via Indeed",
+      "description": "<p><b>Independent Contractor (1099)- </b>We are seeking a Security Officer with a <b>VALID</b> <b>LEVEL 3 </b> security license for a site in Garland. This post is <b>8pm-8am</b>, Sat and Sun @ $19.00/hr with payday every two weeks via direct deposit. Additional hours may be available.</p>\n<p><b>Responsibilities:</b></p>\n<p>Monitor premises to prevent theft, trespassers or any suspicious activity.</p>\n<p>Thoroughly examine doors, windows, and gates to ensure proper function and security.</p>\n<p>Report any facility issues such as fire hazards and leaking water pipes.</p>\n<p>Request emergency..."
     },
     {
       "title": "Armed Security Officer – Patrol & Protection Specialist",
@@ -24,37 +113,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-patrol-protection-specialist--fort-worth--edd998d1ce7b311974beb2142ddf91b0d",
-      "via": "via JobLeads"
-    },
-    {
-      "title": "FULL-TIME: ARMED SECURITY OFFICER: THURS-MON: 9PM-5AM",
-      "company": "Ameritex Guard Services Inc",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=f7ca53475b83ef7b",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Armed Security - Cash Transport",
-      "company": "GardaWorld",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-cash-transport-at-gardaworld-4440755901",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Armed Security Guard",
-      "company": "Metro Crime Detection Agency (MCDA) C26221801",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.indeed.com/viewjob?jk=eeff697a72cb85aa",
-      "via": "via Indeed"
+      "via": "via JobLeads",
+      "description": "<p>City Center Security is seeking Uniformed Security Officers for its Patrol Division in Fort Worth, TX. The role focuses on maintaining a strong security presence, responding to incidents, and protecting client properties across downtown Fort Worth.</p><p>Officers will undergo state licensing training to become Armed Security Officers and Personal Protection Officers, with 8‑hour rotating shifts around the clock and potential overtime.</p>"
     }
   ]
 }

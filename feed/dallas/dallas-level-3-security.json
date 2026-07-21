@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/dallas-level-3-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
-    {
-      "title": "Level III Residential Security Officer (Full-Time)",
-      "company": "United Security and Defense Solutions",
-      "location": "Dallas, TX",
-      "pay": "23–24 an hour",
-      "schedule": "Full-time and Contractor",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.indeed.com/viewjob?jk=eaf884884378c254",
-      "via": "via Indeed"
-    },
-    {
-      "title": "Security Officer Level 3, Wylie, TX (Weekends)",
-      "company": "Walden Security",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://careers.waldensecurity.com/dallas-tx/security-officer-level-3-wylie-tx-weekends/61B318A8F1B84178A201AED3305B3201/job/",
-      "via": "via Walden Security"
-    },
-    {
-      "title": "Level 3 Security Officer",
-      "company": "Tactical Unit and Investigations",
-      "location": "Dallas, TX",
-      "pay": "18 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-12",
-      "apply_link": "https://www.indeed.com/viewjob?jk=bfefbedccafb3fa3",
-      "via": "via Indeed"
-    },
     {
       "title": "Level 3 Security Officer - Commission & Non-Commission (Dallas)",
       "company": "TRI SHIELD SECURITY & INVESTIGATIONS LLC",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-16",
       "apply_link": "https://bebee.com/us/jobs/level-3-security-officer-commission-non-commission-dallas-tri-shield-security-investigations-llc-dal--lensa-7428_c39c2f90d1a282c9e16712b9681e26a71eda027ef5b1d6954c068c949f027ed6",
-      "via": "via BeBee"
+      "via": "via BeBee",
+      "description": "<p>TRI SHIELD SECURITY & INVESTIGATIONS LLC is hiring Security Officers for full-time non-commission and commission roles in Dallas, Texas. Candidates must have a positive attitude, customer service experience, and be safety-focused.</p>\n<p>Responsibilities include patrolling, inspecting buildings, and interacting with police and guests.</p>\n<p>Requirements include a high school diploma, minimum age of 21, and passing a background check. Starting pay ranges from $16.00 to $18.00 per hour with benefits including paid vacation and bonuses.</p>"
     },
     {
-      "title": "Level 3 Commissioned Officer Weekends",
-      "company": "Servant Anchor Security Services",
+      "title": "IMMEDIATE OPENINGS: Level 3 Security Officer (Patrol Division) starting at $18/hr + overtime",
+      "company": "Special Response Group",
       "location": "Dallas, TX",
-      "pay": "18–20 an hour",
+      "pay": "18–25 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.simplyhired.com/job/sqQhd9Gl6GMD2kBjk27CEvs7Bw3T1X0HQJpJwEG1F_QwZLKGJgVcsA",
+      "via": "via SimplyHired",
+      "description": "<p><b>Security Officer- Patrol Division</b></p><p>Special Response Group Security is currently hiring a full-time LEVEL 3 Security Officer for our Patrol Division in the <b>evening/night shift </b>and offer a starting pay rate of <b>$18hr+ depending on experience:</b></p><p>Special Response Group Security is seeking qualified candidates to join our DFW team. The Security Patrol Officer protects properties by patrolling the location in our company provided vehicle and monitors for theft, violence, safety issues, and/or disturbances through observation and reporting.</p><p>REQUIREMENTS/DUTIES..."
+    },
+    {
+      "title": "Armed Level 3 -Dallas Tx-",
+      "company": "Unified Protective Services, Inc",
+      "location": "Dallas, TX",
+      "pay": "4,160 a month",
       "schedule": "Part-time",
-      "posted_date": "2026-07-10",
-      "apply_link": "https://www.simplyhired.com/job/KQmcT2atJbkJ5H9UvOPednfSKPDikI0L4IYk1p6D7T-buRMUqcgNZg",
-      "via": "via SimplyHired"
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/armed-level-3-dallas-tx-unified-protective-services-inc-dallas-tx--theirstack-689293919",
+      "via": "via BeBee",
+      "description": "<p><strong>Armed Security Officer Level 3 – Dallas, TX</strong></p>\n<p><strong>Location:</strong> Dallas, TX</p>\n<p><strong>Employment Type:</strong> Part-Time</p>\n<p><strong>Schedule:</strong> Friday – Sunday</p>\n<p>We are currently seeking a professional and dependable <strong>Level 3 Armed Security Officer</strong> for a part-time position in Dallas, TX. The ideal candidate will maintain a strong security presence while providing excellent customer service and ensuring the safety of the assigned property.</p>\n<h4><strong>Requirements:</strong></h4>\n<ul>\n<li><strong>Active Level 3 Security..."
+    },
+    {
+      "title": "IMMEDIATE OPENINGS – NOW HIRING LEVEL III SECURITY OFFICERS (ONSITE)",
+      "company": "Special Response Group",
+      "location": "Dallas, TX",
+      "pay": "2,947–3,120 a month",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/immediate-openings-now-hiring-level-iii-security-officers-onsite-special-response-group-dallas-tx--theirstack-696282546",
+      "via": "via BeBee",
+      "description": "<p>IMMEDIATE OPENINGS – NOW HIRING LEVEL III SECURITY OFFICERS (ONSITE)</p>\n<p>Special Response Group Security is actively hiring 4 dependable and professional Level III Security Officers to join our growing DFW team immediately. This is a full-time onsite evening/night shift position with starting pay at $17+ per hour based on experience.</p>\n<p>As a Security Officer, you will help protect client properties through vehicle and foot patrols while monitoring for safety concerns, suspicious activity, theft, disturbances, and unauthorized access.</p>\n<h4>Job..."
+    },
+    {
+      "title": "(Level III) - Commissioned Security Guard",
+      "company": "AAA Security Guard Services, LLC",
+      "location": "Dallas, TX",
+      "pay": "18–19 an hour",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=54c07fda69c471e0",
+      "via": "via Indeed",
+      "description": "<div>\n <div>\n  <div>\n   <b>GREAT Hiring Opportunity</b> for <b>Security Guards Level III-Commissioned! AAA Security Guard Services</b> is your opportunity to work with an elite team of professional officers in the security field. As a professional security officer, your primary responsibility will be to create a safe and secure environment for our clients. You will be required to protect the premises, assets, and employees of our clients. Also, you will be required to prevent any illegal or inappropriate occurrences that may occur. The ideal candidate has knowledge and experience in the..."
+    },
+    {
+      "title": "SECURITY GUARDS (Commissioned /Level III) - Dallas 75230",
+      "company": "AAA Security Guard Services",
+      "location": "Dallas, TX",
+      "pay": "17.50–19.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://career.io/job/security-guards-commissioned-level-iii-dallas-aaa-security-guard-services-c3e389f48d3e76acda709da2ada11496",
+      "via": "via Career.io",
+      "description": "<div class=\"job-description-container\">\n<div class=\"trix-content\">\n<div>\n<strong>Now Hiring: Level III (Commissioned) Security Guards<br/></strong><br/>\n</div><div>AAA Security Guard Services is seeking highly qualified <strong>Level III Commissioned Security Officers</strong> to join our elite team of professionals. This is an excellent opportunity for experienced officers who are committed to maintaining safe and secure environments for our clients.<br/><br/>\n</div><div>As a Commissioned Security Officer, you will be responsible for protecting client premises, assets, and personnel while..."
+    },
+    {
+      "title": "Elite Security Operator- Level 3 and 4 only",
+      "company": "Wolves Protection Group",
+      "location": "Dallas, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.simplyhired.com/job/6ZlkADzGD5osqB9bfufg8kwsbF43e3-1qJlaeEfs2b5zgWuMKkQrhQ",
+      "via": "via SimplyHired",
+      "description": "<p><b>Overview</b><br/>At Wolves Protection Group, we do not hire “guards” — we recruit operators. Our team is built on discipline, precision, and the relentless pursuit of excellence. Every member carries the responsibility of protecting lives, property, and our reputation with unwavering professionalism. We are seeking dedicated and vigilant Elite Security Operator to join our team. The ideal candidate will be responsible for maintaining a safe and secure environment for our clients, employees, and visitors. This role requires a proactive approach to security, including monitoring premises,..."
+    },
+    {
+      "title": "Security Officer Level 3, Part Time Weekends",
+      "company": "Walden Security",
+      "location": "Dallas, TX",
+      "pay": "45,760 a year",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://tallo.com/talent/job/law-and-public-safety/security-officer/tx/dallas/security-officer-level-3-part-2aae66fe",
+      "via": "via Tallo",
+      "description": "Security Officer Level 3, Part Time Weekends Walden Security - 3.5 Dallas, TX Job Details Part-time $22 an hour 1 day ago Benefits Health savings account Health insurance Dental insurance Tuition reimbursement Paid time off Employee assistance program Vision insurance Flexible schedule Life insurance Qualifications High school diploma or <h5>GED Armed Security License Full Job Description What You Will Do:</h5> $22 per hour Our Security Officers protect the Industrial or Commercial property of our clients against fire, vandalism and illegal entry. Our clients range from Class-A Office..."
+    },
+    {
+      "title": "Now Hiring: Level 3 Armed Security Officer - Overnights & Weekends",
+      "company": "Verified Response Security & Investigations",
+      "location": "Dallas, TX",
+      "pay": "36K–60K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/verified-response-security-investigations/now-hiring-level-3-armed-security-officer-overnights-weekends-37714780/",
+      "via": "via Talents By Vaia",
+      "description": "<h2>Job Description</h2><div>Job Description<div><p> </p><p>Now Hiring: Level 3 Armed Security Officers for Overnights & Weekends</p><p><strong>Join a Trusted Name in Texas Security – 20+ Years Strong</strong></p><p>Verified Response Security & Investigations (VRSI) is growing, and we’re seeking <strong>dedicated, professional Level 3 Commissioned Officers</strong> to join our team in both full-time and part-time roles.</p><p>If you\\'re passionate about community safety and professionalism, we want to hear from you.</p><p> </p><p>️ About Us</p><p>For over two decades, VRSI has been a..."
+    },
+    {
+      "title": "Level 3 Patrol Officer (Full-time /overnight)",
+      "company": "Smith Protective Services",
+      "location": "Dallas, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=d9f6e0da03646f38",
+      "via": "via Indeed",
+      "description": "<p><b>Job description</b></p>\n<p>We are seeking qualified Armed Security Officers to oversee the surveillance of our facilities and ensure the safety of our employees and visitors. Your duties will include identifying any suspicious activities and preventing acts of vandalism, theft, or other criminal actions. A security officer should be thoroughly trained in surveillance techniques and managing offenders. The preferred candidate will command respect and authority while demonstrating exceptional observational skills. The objective is to assist the organization in maintaining a secure and..."
     }
   ]
 }

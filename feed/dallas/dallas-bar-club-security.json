@@ -1,60 +1,120 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "dallas/dallas-bar-club-security",
   "market": "DFW",
   "target": "city-role",
-  "count": 5,
-  "exact": 2,
+  "count": 10,
+  "exact": 0,
   "jobs": [
     {
-      "title": "Elite Club Security Officer - Evenings & Weekends",
-      "company": "Northwood Club",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-02",
-      "apply_link": "https://jooble.org/jdp/268664344446449255",
-      "via": "via Jooble"
-    },
-    {
-      "title": "Bouncer",
-      "company": "TradeJobsWorkforce",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://staging.careersingovernment.com/job/1254990/bouncer/",
-      "via": "via Careers In Government"
-    },
-    {
-      "title": "Security Flex Officer - Airport",
+      "title": "Security Officer with Active Clearance Concierge",
       "company": "Allied Universal",
-      "location": "Grapevine, TX",
+      "location": "Irving, TX",
       "pay": "19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-airport-at-allied-universal-4442145021",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-concierge-at-allied-universal-4443058450",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer with Active Clearance Concierge</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
     },
     {
-      "title": "Asset Protection Customer Host",
-      "company": "Walmart",
-      "location": "Dallas, TX",
-      "pay": "14–27 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/asset-protection-customer-host-at-walmart-4442409602",
-      "via": "via LinkedIn"
-    },
-    {
-      "title": "Security Shift Supervisor - University",
+      "title": "Armed Security Officer - Security Clearance",
       "company": "Allied Universal",
-      "location": "Westlake, TX",
-      "pay": "22 an hour",
+      "location": "Fort Worth, TX",
+      "pay": "27 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-at-allied-universal-4443050743",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Vehicle Patrol Security Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Armed Security Officer Patrol Specialist",
+      "company": "Allied Universal",
+      "location": "Carrollton, TX",
+      "pay": "18 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-specialist-at-allied-universal-4442765828",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Patrol Specialist</strong> in <strong>Carrollton, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls,..."
+    },
+    {
+      "title": "Custom Protection Flex Officer - Financial Firm",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/custom-protection-flex-officer-financial-firm-at-allied-universal-4443066230",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Custom Protection Officer (CPO) Flex Officer. The Custom Protection Officer Flex Officer will conduct armed and/or unarmed foot..."
+    },
+    {
+      "title": "HR Coordinator / HR Assistant",
+      "company": "AAA Security Guard Services",
+      "location": "Bedford, TX",
+      "pay": "18–24 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=889dbbc91c872be2",
+      "via": "via Indeed",
+      "description": "<p><b>Job Summary</b><br>\n  We are seeking a dynamic and detail-oriented Admin / HR Coordinator to join our team and drive excellence in human resources and administrative functions. This pivotal role involves supporting talent acquisition, employee onboarding, benefits administration, while ensuring compliance with employment laws and fostering a positive workplace culture. The ideal candidate will be proactive, highly organized, and possess excellent communication skills to facilitate smooth HR operations and organizational effectiveness.</p>\n<p><b>Responsibilities</b></p>\n<ul>\n <li>Manage..."
+    },
+    {
+      "title": "Overnight Security Officer",
+      "company": "LE001 Sizemore, Inc.",
+      "location": "Waxahachie, TX",
+      "pay": "28K–42K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.jobleads.com/us/job/overnight-security-officer-hutto-tx--waxahachie--e5a88883bf6de462557c0d83f6d16323f",
+      "via": "via JobLeads",
+      "description": "<div><h3>Job Summary</h3><p>The Security Officer will be responsible for maintaining overall security of the assigned facility by enforcing access control, observing, correcting, and reporting violations of applicable rules and regulations. The officer supports Sizemore’s core values of Flexibility, Improvement, Reliability, Safety, and Teamwork in daily performance.</p><h3>Responsibilities</h3><ul><li>Maintain a safe and secure environment for customers and employees by patrolling and monitoring premises and personnel.</li><li>Document security activity with Daily Activity Report (DAR) and..."
+    },
+    {
+      "title": "Unarmed Security Guard - Immediate Hiring - First & Second Shift (ZIP 75261)",
+      "company": "AAA Security Guard Services",
+      "location": "Dallas, TX",
+      "pay": "17–18 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=913db437e6a0d3ed",
+      "via": "via Indeed",
+      "description": "<ul>\n <li>Secure premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry</li>\n <li>Prevent losses and damage by reporting irregularities, informing violators of policy and procedures; restraining trespassers</li>\n <li>Complete reports by recording observations, information, occurrences, and surveillance activities; interviewing witnesses; obtaining signatures</li>\n <li>Maintain environment by monitoring and setting building and equipment controls</li>\n <li>Maintain organization's stability and..."
+    },
+    {
+      "title": "Security Shift Supervisor Unarmed",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "pay": "21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-unarmed-at-allied-universal-4442772473",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
+    },
+    {
+      "title": "Court Security Officer",
+      "company": "Constellis",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/court-security-officer-at-constellis-4442204035",
+      "via": "via LinkedIn",
+      "description": "<strong>Position Summary<br><br></strong>A Court Security Officer (CSO) is a specialized security position providing protective services at or around United State Federal Court Houses or other areas as assigned under a contract to the U.S. Marshals Service (USMS). CSO's in this classification generally provide security services under some limited supervision from a Lead CSO and the District Supervisor who reports to the Contract Manager (CM). This is a union position.<br><br>The CSO position is able to perform a variety of fixed-post, mobile, or foot patrols while maintaining situational..."
+    },
+    {
+      "title": "Security Officer Financial Institution",
+      "company": "Allied Universal",
+      "location": "Coppell, TX",
+      "pay": null,
       "schedule": "Internship",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-university-at-allied-universal-4442143125",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-financial-institution-at-allied-universal-4442759877",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a Security Officer, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, Healthcare, Education, Government and..."
     }
   ]
 }

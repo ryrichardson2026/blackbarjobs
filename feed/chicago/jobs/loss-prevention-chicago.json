@@ -1,20 +1,21 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "chicago/jobs/loss-prevention-chicago",
   "market": "Chicago",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
     {
-      "title": "Security/Loss Prevention Officer",
-      "company": "O'Brien & Associates",
+      "title": "Loss Prevention Specialist - (Chicago)",
+      "company": "FAST RETAILING Co.",
       "location": "Chicago, IL",
-      "pay": "19–21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=c791b161db2e248c",
-      "via": "via Indeed"
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.monster.com/job-openings/loss-prevention-specialist-chicago-chicago-il--e108a79d-76ac-4ba1-a65e-01b022aeaa52",
+      "via": "via Monster",
+      "description": "<p>FAST RETAILING CO., LTD. in Chicago, IL is seeking a Loss Prevention Agent responsible for implementing loss prevention and safety programs, training store staff on policy, and monitoring for shoplifting and safety incidents.You will prepare incident reports, support investigations, and help with audits and inventory counts while maintaining confidentiality and responding to alarm calls as needed. This is a full-time role with a flexible schedule including nights and weekends.#J-18808-Ljbffr</p><br><p><b>Skills:</b><br>Inventory Management, Loss Prevention, Reporting Skills, Safety..."
     },
     {
       "title": "Loss Prevention Officer",
@@ -24,7 +25,8 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-18",
       "apply_link": "https://careers.marriott.com/loss-prevention-officer/job/DA12AEA93547D1F89F02CC40F188F8EE",
-      "via": "via Marriott Careers"
+      "via": "via Marriott Careers",
+      "description": "<div class='description'><p><div> <p><strong>POSITION SUMMARY</strong></p> <p></p> <p>Patrol all areas of the property; assist guests with room access. Monitor Closed Circuit Televisions, perimeter alarm system, duress alarms, and fire life safety system. Lock property entrances when required. Conduct daily physical hazard inspections. Respond to accidents, contact EMS or administer first aid/CPR as required. Assist guests/employees during emergency situations. Notify appropriate individuals in the event of accidents, attacks, or other incidents. Defuse guest/employee disturbances. Call for..."
     },
     {
       "title": "Loss Prevention and Safety Manager",
@@ -34,27 +36,85 @@
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-and-safety-manager-at-speedx-4429987832",
-      "via": "via LinkedIn"
+      "via": "via LinkedIn",
+      "description": "<p><strong>About the role:</strong></p><p>We are seeking a highly motivated and detail-oriented Loss Prevention and Safety Manager to oversee our loss prevention and safety programs across logistics operations. The ideal candidate will have a strong investigative background within a logistics, warehouse, or distribution environment, with demonstrated expertise in conducting interviews, leading audits, and managing safety compliance initiatives. This role requires a strong understanding of OSHA standards and how to implement operational changes to support a safe and secure work environment...."
     },
     {
-      "title": "Regional Loss Prevention Advisor",
-      "company": "PINKERTON | Comprehensive Risk Management",
+      "title": "Regional Loss Prevention Leader – 75% Travel",
+      "company": "Torrid",
       "location": "Chicago, IL",
-      "pay": "105K a year",
+      "pay": "80K–105K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.linkedin.com/jobs/view/regional-loss-prevention-advisor-at-pinkerton-comprehensive-risk-management-4419209403",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/regional-loss-prevention-leader-75-travel--chicago--e5f61c455f046d5bb6050a563085e4a49",
+      "via": "via JobLeads",
+      "description": "Torrid is looking for a Regional Loss Prevention Manager to oversee loss prevention strategies for about 200 stores in the Chicago area. The ideal candidate will possess over 5 years of leadership experience in loss prevention, demonstrate strong analytical capabilities, and be ready to travel up to 75%. In this role, you will collaborate with store teams to implement effective loss prevention programs while cultivating a culture of safety and accountability. A comprehensive benefits package and competitive compensation await the right candidate."
     },
     {
-      "title": "Loss Prevention Specialist - (Chicago)",
-      "company": "FAST RETAILING CO., LTD.",
+      "title": "Manager, Asset Protection",
+      "company": "Macy's",
+      "location": "Chicago, IL",
+      "pay": "50K–75K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.jobzmall.com/macy-s/job/manager-asset-protection-29",
+      "via": "via JobzMall",
+      "description": "<p>Macy's is looking for an experienced, motivated, and inspirational Manager of Asset Protection to join our team. The ideal candidate for this role will have a proven track record of success in asset protection as well as strong interpersonal and organizational skills. The Manager of Asset Protection will be responsible for creating and executing strategies to protect our assets, reduce losses, and create a safe shopping experience for our customers.Qualifications for this role include:• 5+ years of experience in asset protection, loss prevention, and/or security• Proven track record of..."
+    },
+    {
+      "title": "Retail Asset Protection Specialist (Loss Prevention) - Chicago",
+      "company": "The RealReal",
+      "location": "Chicago, IL",
+      "pay": "20.00–25.07 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/RealReal/Job/Retail-Asset-Protection-Specialist-(Loss-Prevention)-Chicago/-in-Chicago,IL?jid=7d8e333deb294f22",
+      "via": "via ZipRecruiter",
+      "description": "<strong><b>About The Role</b></strong>\n<br>\nReporting to Sr. Manager, Retail and Sales Asset Protection, the Asset Protection Specialist is an integral role in our retail stores. With key responsibilities including security, Asset Protection, and general wellbeing of facilities, employees, and clients, as well as overlooking operational functions and inventory control.\n<br>\n<br><strong><b>What You Get To Do Everyday</b></strong>\n<br>\n<ul>\n <li>Support safety and security processes and procedures, including business continuity plans</li>\n <li>Utilize CCTV to review video for safety and..."
+    },
+    {
+      "title": "Loss Prevention Associate",
+      "company": "Walmart",
+      "location": "Chicago, IL",
+      "pay": "20.50–33.50 an hour",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=9c0d673bb7c9e4b7",
+      "via": "via Indeed",
+      "description": "<div>\n Hourly Wage: <b>$20.5 - $33.5 per/hour</b>\n <br>\n <ul>\n  <li>The actual hourly rate will equal or exceed the required minimum wage applicable to the job location.</li>\n </ul>\n <br>\n  Additional compensation includes annual or quarterly performance incentives. \n <br>\n  Additional compensation in the form of premiums may be paid in amounts ranging from $0.35 per hour to $3.00 per hour in specific circumstances. Premiums may be based on schedule, facility, season, or specific work performed. Multiple premiums may apply if applicable criteria are met. \n <br>\n <br>\n <br>\n <p>Employment..."
+    },
+    {
+      "title": "Area Loss Prevention Manager",
+      "company": "Ross Stores",
+      "location": "Chicago, IL",
+      "pay": "94K–140K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.jobzmall.com/ross-stores/job/area-loss-prevention-manager-4",
+      "via": "via JobzMall",
+      "description": "<p>Are you a highly experienced and driven Loss Prevention professional looking for a new and exciting opportunity? Look no further! Ross Stores is seeking a dynamic and passionate individual to join our team as an Area Loss Prevention Manager. As the Area Loss Prevention Manager, you will play a vital role in protecting our assets and ensuring the safety and security of our customers and employees. With your expertise and leadership, you will help us maintain a secure environment and minimize losses for our stores in your designated area. If you possess strong analytical skills, excellent..."
+    },
+    {
+      "title": "Loss Prevention Associate II",
+      "company": "TJX Companies",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://bebee.com/us/jobs/loss-prevention-specialist-chicago-fast-retailing-co-ltd-chicago--lensa-7428_ac1c0e2f32aa64aa65dc2fe4b62a92ff736b4806ec97b3678abe5e7ae470a2ad",
-      "via": "via BeBee"
+      "posted_date": null,
+      "apply_link": "https://jobs.tjx.com/global/en/job/REQ74173/Loss-Prevention-Associate-II",
+      "via": "via TJX Companies",
+      "description": "Marshalls<div><p style=\"text-align:left\">At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development. Whether you’re working in our four global Home Offices, Distribution Centers or Retail Stores—TJ Maxx, Marshalls, Homegoods, Homesense, Sierra, Winners, and TK Maxx, you’ll find abundant opportunities to learn, thrive, and make an impact. Come join our TJX family—a Fortune 100 company and the world’s leading off-price retailer.<span>..."
+    },
+    {
+      "title": "Regional Loss Prevention Advisor",
+      "company": "Pinkerton",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=0eb28001f53cbfb9",
+      "via": "via Indeed",
+      "description": "<div>\n Overview: \n <p><b> 170+ Years Strong. Industry Leader. Global Impact.</b><br>\n   At Pinkerton, the mission is to protect our clients. To do this, we provide enterprise risk management services and programs specifically designed for each client. Pinkerton employees are one of our most important assets and critical to the delivery of world-class solutions. Bonded together, we share a commitment to integrity, vigilance, and excellence.</p>\n <p></p>\n <p><br>\n   Pinkerton is an inclusive employer who seeks candidates with diverse backgrounds, experiences, and perspectives to join our team..."
     }
   ]
 }

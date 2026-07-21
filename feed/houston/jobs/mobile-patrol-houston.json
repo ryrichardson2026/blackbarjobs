@@ -1,40 +1,98 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "houston/jobs/mobile-patrol-houston",
   "market": "Houston",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 10,
   "jobs": [
     {
-      "title": "Security Officer Customer Service Driver Patrol",
+      "title": "Foot Patrol Security Officer - 77005",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=1d7f25449cb69c34",
+      "via": "via Indeed",
+      "description": "<b>Job Description:</b>\n<br>\n This is a high visibility patrol position. The general overall duties of this assignment require providing outstanding customer service to all customers, act as a visible deterrence, and help ensure a safe and secure environment to all patrons and guests. This is an excellent opportunity to begin your career with United Protective Services and work for a management team that wants to see you succeed! \n<br>\n<br><b>SCHEDULE:</b>\n<br>\n Saturday - 6a-2p \n<br>\n<br>\n Sunday - OFF \n<br>\n<br>\n Monday - OFF \n<br>\n<br>\n Tuesday - 7a-3p \n<br>\n<br>\n Wednesday - 7a-3p..."
+    },
+    {
+      "title": "Mobile Security Officer: Patrol & Driving; PT, Houston",
+      "company": "Allied Universal",
+      "location": "Houston, TX",
+      "pay": "17,908–23,419 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5300940429/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Mobile Security Officer: Patrol & Driving (PT, Houston) Allied Universal, North America’s leading security and facility services company, seeks a Part-Time Security Officer in Houston, TX. This driving post offers active duties, patrols, incident reporting, and strong teamwork within a manufacturing and industrial setting.You’ll provide customer service, verify credentials, respond to alarms, and follow site procedures while maintaining safety and integrity across shifts. Apply today to join a respected security team.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Armed Mobile Patrol Specialist Part-Time, Flexible Shifts",
       "company": "Allied Universal",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-17",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-customer-service-driver-patrol-at-allied-universal-4441940324",
-      "via": "via LinkedIn"
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.jobleads.com/us/job/armed-mobile-patrol-specialist-part-time-flexible-shifts--houston--e011cf7572967441d61332ee97b9e9f9a",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking a Security Officer Armed Mobile Patrol Specialist in Houston, TX. This part-time role involves safeguarding clients across various industries, with a schedule including Friday and Saturday night shifts.</p><p>You will perform armed patrols, respond to incidents, and help with access control and customer assistance, contributing to a safe environment for shoppers and staff.</p>"
+    },
+    {
+      "title": "Patrol Security Officer - Unarmed at Allied Universal® Houston, TX",
+      "company": "Allied Universal®",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://modmedia.com.au/list/job/patrol-security-officer-unarmed-at-allied-universal-r-houston-tx-aU42cnpHZVJVcE5Vb3NUaSt1WWpMdXlPVlE9PQ==",
+      "via": "via Mod Media",
+      "description": "Patrol Security Officer - Unarmed job at Allied Universal®. Houston, TX. <h3> Job Description </h3><p> Job Description <p> Overview <p> Allied Universal®, North America's leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental and vision coverage, life insurance, retirement plan, employee assistance programs, company discounts, perks and more for..."
+    },
+    {
+      "title": "Campus Safety Patrol Officer – Protect Students",
+      "company": "Young World Physical Education",
+      "location": "Houston, TX",
+      "pay": "63K–89K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-18",
+      "apply_link": "https://www.jobleads.com/us/job/campus-safety-patrol-officer-protect-students--houston--ec70f2b87d4e8802f72687440c8952833",
+      "via": "via JobLeads",
+      "description": "<p>Young World Physical Education in Houston, Texas, is seeking a Patrol Police Officer. This full-time role involves protecting students and staff, enforcing laws, and maintaining safety within Alief ISD.</p><p>The ideal candidate must hold a high school diploma or GED and a Texas Peace Officer License. Responsibilities include patrolling the district, responding to emergencies, and collaborating with other police agencies.</p><p>The position offers a competitive salary ranging from $63,857 to $88,115 based on experience and is expected to work 260 days a year.</p>"
+    },
+    {
+      "title": "Unarmed Security Supervisor – Lead Patrol & Access (TX)",
+      "company": "Triple Canopy",
+      "location": "Houston, TX",
+      "pay": "55K–75K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/unarmed-security-supervisor-lead-patrol-access-tx--houston--e3590f3e8f8914e10748b7b2f98e87910",
+      "via": "via JobLeads",
+      "description": "<p>Triple Canopy is seeking a Supervisor to oversee security officers, manage patrols and access control, and coordinate investigations on assigned shifts in Houston, TX. The role involves planning, scheduling, supervising field operations, and maintaining client relations.</p><p>The ideal candidate will have strong writing skills, valid security licenses, and experience in law enforcement or security. Must be able to work day and night shifts, lift up to 50 lbs, and pass background checks.</p>"
     },
     {
       "title": "Unarmed Night-Shift Security Driver Patrol",
       "company": "Houston Dose",
       "location": "Houston, TX",
-      "pay": "19,286–22,041 a year",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5293520261/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://bebee.com/us/jobs/unarmed-night-shift-security-driver-patrol-houston-dose-houston-tx-united-states--appcast-7428_ee9dd409fc70976c622a65b0b7fd3444160013fc22a7c2aa56e05b5313fc47ac",
+      "via": "via BeBee",
+      "description": "<p>Join Houston Dose as a Full Time Security Officer Driver Patrol in Houston, TX. In this role, you will safeguard clients in industries like Food and Beverage while conducting routine patrols and supporting access activities.\nThe ideal candidate will have a valid driver's license and experience in customer service. Benefits include access to smart tools, career growth opportunities, and comprehensive financial health benefits.</p>"
     },
     {
-      "title": "Night Patrol Concierge — Customer-Focused Security",
-      "company": "Allied Universal",
+      "title": "Healthcare Security Officer: Patrol, Respond, Protect",
+      "company": "CHI",
       "location": "Houston, TX",
-      "pay": "21,042 a year",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-16",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5293636065/e/",
-      "via": "via Learn4Good"
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patrol-respond-protect--houston--e76b75141880327b29141c8960d9d9c52",
+      "via": "via JobLeads",
+      "description": "A leading healthcare provider is seeking a Security Officer in Houston, Texas. In this role, you will monitor and ensure the safety and security of employees, patients, and visitors. Your responsibilities will include patrolling the facility, responding to suspicious activities, and collaborating with different departments. Ideal candidates will have at least one year of experience in security and a valid Texas Driver's License. The position offers a pay range of $15.00 to $20.54 per hour."
     },
     {
       "title": "Security Officer Enhanced Part Time Patrol Unit",
@@ -44,17 +102,19 @@
       "schedule": "Part-time",
       "posted_date": "2026-07-16",
       "apply_link": "https://jobs.aus.com/job/houston/security-officer-enhanced-part-time-patrol-unit/22950/97937258576",
-      "via": "via Allied Universal"
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
     },
     {
-      "title": "Armed Mobile Patrol Specialist Part-Time",
+      "title": "Security Officer Patrol Presence",
       "company": "Allied Universal",
       "location": "Houston, TX",
-      "pay": "26,174–34,440 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5289603935/e/",
-      "via": "via Learn4Good"
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://jobs.aus.com/job/houston/security-officer-patrol-presence/22950/97929113264",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
     }
   ]
 }

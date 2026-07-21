@@ -1,30 +1,21 @@
 {
-  "generated": "2026-07-18T15:09:49.268849+00:00",
+  "generated": "2026-07-21T15:51:48.226271+00:00",
   "page": "austin/jobs/no-experience-security-austin",
   "market": "Austin",
   "target": "city-role",
-  "count": 5,
-  "exact": 5,
+  "count": 10,
+  "exact": 4,
   "jobs": [
     {
-      "title": "Behavior Detection Officer (BDO) - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Georgetown, TX",
-      "pay": null,
+      "title": "Security Officer - All Shifts, No Experience",
+      "company": "Statewide Patrol",
+      "location": "Austin, TX",
+      "pay": "30K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/behavior-detection-officer-bdo/georgetown-texas?id=2865657725",
-      "via": "via WhatJobs"
-    },
-    {
-      "title": "Behavior Detection Officer (BDO) - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Georgetown, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-07",
-      "apply_link": "https://www.whatjobs.com/jobs/behavior-detection-officer-bdo/georgetown-texas?id=2865657725",
-      "via": "via WhatJobs"
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.jobleads.com/us/job/security-officer-all-shifts-no-experience--austin--e9a371541b258fe4025b894d4c3fc2cb8",
+      "via": "via JobLeads",
+      "description": "<p>Statewide Patrol in Austin is looking for Security Officers to join their team. The position offers full-time roles with shifts available throughout Austin and surrounding areas. Candidates must be 18 years or older, have reliable transportation, a working smartphone, and a clean criminal background.</p><p>A retention bonus of $300 is offered for qualifying employees. This is a great opportunity for those looking to start a career in security.</p>"
     },
     {
       "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
@@ -34,17 +25,8 @@
       "schedule": "Full-time",
       "posted_date": null,
       "apply_link": "https://jooble.org/jdp/6037696783098362100",
-      "via": "via Jooble"
-    },
-    {
-      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Dale, TX",
-      "pay": "20–45 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/8071659314898925617",
-      "via": "via Jooble"
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in Round Rock and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Round Rock and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career..."
     },
     {
       "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
@@ -54,7 +36,85 @@
       "schedule": "Full-time",
       "posted_date": null,
       "apply_link": "https://jooble.org/jdp/-6682781050003842937",
-      "via": "via Jooble"
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in Manor and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Manor and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career advancement..."
+    },
+    {
+      "title": "Behavior Detection Officer (BDO) - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "Pflugerville, TX",
+      "pay": "23–45 an hour",
+      "schedule": null,
+      "posted_date": null,
+      "apply_link": "https://jooble.org/jdp/-3045430952344014001",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Behavior Detection Officers (BDOs) to work inside airport terminals in Pflugerville. These professionals focus on identifying suspicious behavior and preventing potential threats before they occur. No prior experience is required and training is provided. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Pflugerville and Nationwide </li><li><b> Starting Pay </b> : $23.00 - $45.00</li><li><b> Annual Compensation </b> : $48,000 - $70,000+</li><li><b> Schedule </b> : Shift-based </li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and..."
+    },
+    {
+      "title": "Security Officer| Full-Time",
+      "company": "Hyatt Regency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-at-hyatt-regency-4443078687",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Hyatt Regency Austin<br><br></strong><strong>Summary<br><br></strong>Nestled along the shores of Lady Bird Lake in the heart of downtown Austin, <strong>Hyatt Regency Austin</strong> is a place where <em>caring for people so they can be their best</em> is more than a purpose—it’s the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service‑oriented Security Officer</strong> to join our dedicated Security Team.<br><br><strong>Position Summary<br><br></strong>The Security Officer is responsible for maintaining a safe and..."
+    },
+    {
+      "title": "Security Officer | Part-Time",
+      "company": "Hyatt Regency",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-at-hyatt-regency-4443087365",
+      "via": "via LinkedIn",
+      "description": "<strong>Organization- Hyatt Regency Austin<br><br></strong><strong>Summary<br><br></strong><strong>Hyatt Regency Austin</strong> is a place where <em>caring for people so they can be their best</em> is more than a purpose—it’s the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service‑oriented Security Officer</strong> to join our dedicated Security Team.<br><br><strong>Position Summary<br><br></strong>The Security Officer is responsible for maintaining a safe and secure environment for hotel guests, employees, and visitors. This role requires..."
+    },
+    {
+      "title": "Security Officer Patrol Surveillance",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-surveillance-at-allied-universal-4442768688",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Surveillance</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Government, and more...."
+    },
+    {
+      "title": "Security Officer Patrol Customer Care",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=ee242e3fd5a78362",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Security Officer Patrol Customer Care</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. \n  <br>\n </div>\n <br>\n <h2><b>Job Description</b></h2>\n <p></p>\n <p><br>\n   As a <b>Security Officer Patrol Customer Care</b> in <b>Austin, TX</b>, you will serve and..."
+    },
+    {
+      "title": "Security Liaison",
+      "company": "Saronic Technologies",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-liaison-at-saronic-technologies-4440190924",
+      "via": "via LinkedIn",
+      "description": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.<br><br><strong>Job Overview:<br><br></strong>We're seeking a Security Liaison responsible for ensuring the safety, security, and compliance of all visitors, vendors, contractors, and other non-authorized personnel while on company property. This position serves as an authorized escort, providing continuous oversight and guidance to ensure adherence to company security policies, safety..."
+    },
+    {
+      "title": "Armed Security - Cash Transport",
+      "company": "GardaWorld",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-cash-transport-at-gardaworld-4442248143",
+      "via": "via LinkedIn",
+      "description": "GardaWorld is shaping the future of cash management! We provide our clients with solutions in every phase of their cash supply chain, including secured transportation, cash management, cash vault processing, forecasting, ATM, and cash recycler services. We are equipped with the largest fleet of armored vehicles in the industry, sophisticated technology, and an expansive network of experienced employees and innovative partners. We process, manage, and move over $8B in cash every day while delivering 24/7 client support and logistical expertise.<br><br><strong>Pay Range: </strong>$20.00 -..."
     }
   ]
 }
