@@ -567,8 +567,8 @@ window.addEventListener("load", function(){
 <p class="modal-fine" style="text-align:center;">Already have an account? <a href="/login.html">Sign in</a></p>
 </div>
 </div>
-<!-- JobPosting structured data (schema.org / Google for Jobs) — injected from the live feed -->
-<div id="jsonld" style="display:none"><script type="application/ld+json">{
+<!-- Static structured data (WebSite + FAQPage). Kept OUT of #jsonld so the feed injector cannot overwrite it. -->
+<div id="jsonld-static" style="display:none"><script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "BlackBarJobs",
@@ -612,6 +612,8 @@ window.addEventListener("load", function(){
     }
   ]
 }</script></div>
+<!-- JobPosting structured data (schema.org / Google for Jobs) — injected from the live feed. Starts EMPTY. -->
+<div id="jsonld" style="display:none"></div>
 <script>
   /* ───────────────── CONFIG ───────────────── */
   // Job source: static /feed/board.json (all active jobs), written by bbj_feed_snapshot.py. Google Sheet retired.
@@ -1126,9 +1128,9 @@ window.addEventListener("load", function(){
     var loc = parseLoc(job.location || job.city || '');
     var desc = (job.description && job.description.trim())
       ? job.description.trim()
-      : (esc(job.title) + (job.company ? ' with ' + esc(job.company) : '') + (job.location ? ' in ' + esc(job.location) : '') + '. '
-         + ((job.job_type || '').trim() ? esc(job.job_type) + ' security position. ' : 'Security officer position. ')
-         + ((job.pay || '').trim() ? 'Pay: ' + esc(job.pay) + '. ' : '')
+      : (job.title + (job.company ? ' with ' + job.company : '') + (job.location ? ' in ' + job.location : '') + '. '
+         + ((job.job_type || '').trim() ? job.job_type + ' security position. ' : 'Security officer position. ')
+         + ((job.pay || '').trim() ? 'Pay: ' + job.pay + '. ' : '')
          + 'Apply now through BlackBarJobs.');
     var obj = {
       '@context': 'https://schema.org/',
@@ -1150,13 +1152,14 @@ window.addEventListener("load", function(){
   function injectJsonLd(jobs) {
     var box = document.getElementById('jsonld');
     if (!box) return;
-    var out = '';
+    box.textContent = '';
     jobs.forEach(function(j){
       var obj = buildJobPosting(j); if (!obj) return;
-      var json = JSON.stringify(obj).replace(/</g, '\\u003c');
-      out += '<script type="application/ld+json">' + json + '<\/script>';
+      var s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.textContent = JSON.stringify(obj);
+      box.appendChild(s);
     });
-    box.innerHTML = out;
   }
 
   /* ───────────────── BOOT (merge + de-dupe all tabs) ───────────────── */
