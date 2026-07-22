@@ -437,7 +437,6 @@
 
       if (!name || !email) { errEl.textContent = 'Please enter your name and email.'; errEl.style.display = 'block'; return; }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = 'Please enter a valid email address.'; errEl.style.display = 'block'; return; }
-      if (!cityRegion) { errEl.textContent = 'Please select your region.'; errEl.style.display = 'block'; return; }
       if (_sms === 'yes' && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number.'; errEl.style.display = 'block'; return; }
 
       this.disabled = true; this.textContent = 'Setting up alerts...';
@@ -785,7 +784,6 @@
 
     if(!name){ errEl.textContent='Please enter your first name.'; errEl.style.display='block'; document.getElementById('bbjAccName').focus(); return; }
     if(!email||!email.includes('@')){ errEl.textContent='Please enter a valid email address.'; errEl.style.display='block'; document.getElementById('bbjAccEmail').focus(); return; }
-    if(!cityRegion){ errEl.textContent='Please select your region.'; errEl.style.display='block'; document.getElementById('bbjAccCityRegion').focus(); return; }
 
     var btn = document.getElementById('bbjAccSubmitBtn');
     btn.disabled = true;
