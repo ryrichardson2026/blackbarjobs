@@ -211,7 +211,6 @@
         '<div class="success-title">You\'re on the list!</div>',
         '<p class="success-sub">We\'ll notify you the moment new security jobs post in your area.</p>',
         '<button class="submit-btn" id="bbjShowStep2Btn" style="margin-bottom:14px;">Browse All Jobs &#x2192;</button>',
-        '<a class="signin-link" href="/job-board" style="display:block;margin-top:8px;">Skip &#x2014; Browse jobs now</a>',
       '</div>',
     '</div>',
     '<div id="bbjStep2" style="display:none;">',

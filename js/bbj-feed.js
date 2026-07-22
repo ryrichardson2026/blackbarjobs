@@ -60,21 +60,21 @@
     return false;
   };
 
-  window.indexViewsThisSession = window.indexViewsThisSession || 0;
   window.handleIndexApply = window.handleIndexApply || function (href, event) {
-    // href is the anchor's resolved apply URL. Allowed views (registered, or the
-    // first two this session) let the href navigate natively (return true); the
-    // gated 3rd view preventDefaults the anchor and opens the register overlay.
+    // Board feed is fully gated: 0 free views. Registered users open the employer
+    // natively (return true); everyone else is walled and the register overlay opens
+    // so the real <a href> stays crawlable without ever bypassing the gate.
     var url = href || "";
     if (!url) return false;
-    var a = event && event.currentTarget;         // same tab on mobile, new tab on desktop
-    if (a && a.tagName === "A") {
-      a.target = window.matchMedia("(max-width: 820px)").matches ? "_self" : "_blank";
+    var registered = document.cookie.indexOf("bbj_registered=1") !== -1;
+    if (registered) {
+      var a = event && event.currentTarget;       // same tab on mobile, new tab on desktop
+      if (a && a.tagName === "A") {
+        a.target = window.matchMedia("(max-width: 820px)").matches ? "_self" : "_blank";
+      }
+      return true;
     }
-    if (typeof bbjIsRegistered === "function" && bbjIsRegistered()) { return true; }
-    window.indexViewsThisSession = (window.indexViewsThisSession || 0) + 1;
-    if (window.indexViewsThisSession <= 2) { return true; }
-    if (event) event.preventDefault();
+    if (event) event.preventDefault();            // gate: stop the anchor navigating
     if (typeof bbjAccOpen === "function") { bbjAccOpen(); } else { window.open(url, "_blank"); }
     return false;
   };
