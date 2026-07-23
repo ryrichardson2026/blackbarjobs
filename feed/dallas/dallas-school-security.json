@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-21T15:51:48.226271+00:00",
+  "generated": "2026-07-23T16:11:17.430309+00:00",
   "page": "dallas/dallas-school-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
-  "exact": 9,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Armed Security Officers for School Security",
+      "company": "Senturian One Security",
+      "location": "Duncanville, TX",
+      "pay": "21–24 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.indeed.com/viewjob?jk=abbbd8b817f74d87",
+      "via": "via Indeed",
+      "description": "<p>NOW HIRING: Armed Security Officers, School Security Assignments</p>\n<p>Senturian One Ltd Co Security is now accepting applications from experienced, professional Armed Security Officers who currently meet the required licensing and training qualifications for available school security and other contract assignments.</p>\n<p>Qualified officers may also receive:</p>\n<p>· Additional ISD differential pay Site-specific differential pay Opportunities for special events and additional work</p>\n<p>Minimum Qualifications</p>\n<p>Applicants should currently possess:</p>\n<p>· Active Texas Level III..."
+    },
+    {
+      "title": "School Monitor; Grades: PK",
+      "company": "Dallas Independent School District",
+      "location": "Anywhere",
+      "pay": "30K–42K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-20",
+      "apply_link": "https://www.learn4good.com/jobs/online_remote/security/5303864820/e/",
+      "via": "via Learn4Good",
+      "description": "Position: School Monitor (Grades: PK-8) Job DescriptionMonitor student behavior and enforce school rules related to student code of conductResolve conflict or confrontation between students and report disturbances to immediate supervisorInvestigate complaints, disturbances, or violationsControl traffic and parking on campus groundsRegister student vehicles and maintain accurate records of registrationDocument, record and report vandalism and car accidents and prepare activity reports for theftAssist law enforcement personnel as neededGive directions or escort students, authorized visitors,..."
+    },
     {
       "title": "School Security Guard (184 day) at Paulding County School District Dallas, TX",
       "company": "Paulding County School District",
@@ -29,26 +51,37 @@
       "description": "<p><b>About the Opportunity</b></p>\n<p>We are seeking <b>professional, disciplined, and experienced Level III Commissioned Security Officers</b> to support school-based safety and protection. This role is ideal for officers who take pride in their appearance, communication, and tactical readiness — and who want to work in a mission-driven environment that values professionalism and leadership.</p>\n<p>If you want to make a meaningful impact on campus safety while working alongside educators, families, and law enforcement, this is the position for you.</p>\n<p><b>What You’ll Do</b></p>\n<p>As a..."
     },
     {
-      "title": "Campus Auxiliary Officer Pool (26-27 SY)-School Safety & Operations",
-      "company": "Irving Independent School District",
-      "location": "Irving, TX",
-      "pay": "18.27–26.85 an hour",
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Garland, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=7d440aa83236b5d9",
-      "via": "via Indeed",
-      "description": "<div>\n <p><b>IRVING ISD </b></p>\n <p><b>CAMPUS AUXILIARY OFFICER JOB DESCRIPTION<br></b></p>\n <p></p>\n <div>\n  <div>\n   <div>\n    <div>\n     <p><b>Job Title: </b>Campus Auxiliary Officer<br></p>\n    </div>\n    <div>\n     <p><b>Exemption Status: </b>Nonexempt<br></p>\n    </div>\n   </div>\n   <br>\n   <div>\n    <div>\n     <p><b>Reports To: </b>Campus Security Officer Lead<br></p>\n    </div>\n    <div>\n     <p><b>Funding Source: </b>General Fund<br></p>\n    </div>\n   </div>\n   <br>\n   <div>\n    <div>\n     <p><b>Dept/School: </b>School Safety and Operations<br></p>\n    </div>\n    <div>\n    ..."
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Garland,TX?jid=a8704dfaaa894314",
+      "via": "via ZipRecruiter",
+      "description": "<div>Experienced Level III Commissioned Security Officer (School Campus Assignment)<br><br><p><b><strong>About the Opportunity</strong></b></p><p>We are seeking <b><strong>professional, disciplined, and experienced Level III Commissioned Security Officers</strong></b> to support school-based safety and protection. This role is ideal for officers who take pride in their appearance, communication, and tactical readiness — and who want to work in a mission-driven environment that values professionalism and leadership.</p><p>If you want to make a meaningful impact on campus safety while working..."
     },
     {
-      "title": "Armed Security Officer Pool (26-27 SY)- School Safety and Operations",
-      "company": "Irving Independent School District",
-      "location": "Irving, TX",
-      "pay": "30.72–45.51 an hour",
+      "title": "Experienced Level III Commissioned Security Officer (School Campus Assignment)",
+      "company": "Valor Force",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Richardson,TX?jid=a8059083e00ee0ae",
+      "via": "via ZipRecruiter",
+      "description": "<div>Experienced Level III Commissioned Security Officer (School Campus Assignment)<br><br><p><b><strong>About the Opportunity</strong></b></p><p>We are seeking <b><strong>professional, disciplined, and experienced Level III Commissioned Security Officers</strong></b> to support school-based safety and protection. This role is ideal for officers who take pride in their appearance, communication, and tactical readiness — and who want to work in a mission-driven environment that values professionalism and leadership.</p><p>If you want to make a meaningful impact on campus safety while working..."
+    },
+    {
+      "title": "Campus Security Guard - Assigned Secondary School (2026-2027)",
+      "company": "Prosper Independent School District",
+      "location": "Prosper, TX",
+      "pay": "27,956 a month",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=79bfd9c6a0f0449f",
-      "via": "via Indeed",
-      "description": "<div>\n <p><b>IRVING INDEPENDENT SCHOOL DISTRICT </b></p>\n <p><b>ARMED SECURITY OFFICER </b></p>\n <p><b>JOB DESCRIPTION</b></p>\n <p></p>\n <p><br></p>\n <p></p>\n <p><b>REPORTS TO: </b>Director of Safety and Security <b>PAY GRADE: </b>Facilities 10<br></p>\n <p></p>\n <p><b>DEPARTMENT: </b>Safety and Security <b>DATE REVISED: </b>August 2023<br></p>\n <p></p>\n <p><i>This position is eligible for a Letter of Assurance<br></i></p>\n <p></p>\n <p><b>PRIMARY PURPOSE: </b>Under general direction, provide for a safe and secure school environment, foster an optimal learning environment and act as a deterrent..."
+      "apply_link": "https://www.ziprecruiter.com/c/Prosper-Independent-School-District/Job/Campus-Security-Guard-Assigned-Secondary-School-(2026-2027)/-in-Prosper,TX?jid=51b00bae537d55df",
+      "via": "via ZipRecruiter",
+      "description": "<strong>Minimum Salary: $27,956/Days: 185</strong>\n<br>\n<br><strong>Primary Purpose: </strong>\n<br>\n<br>\nUnder general supervision, provide security and protection for students, staff and visitors and prevents property loss due to theft or vandalism.\n<br>\n<br><strong>Qualifications: </strong>\n<br>\n<br><strong>Education/Certification: </strong>\n<br>\n<br>\nHigh School Diploma or GED Clear and valid Texas driver's license\n<br>\n<br><strong>Special Knowledge/Skills:</strong>\n<br>\n<br>\nAbility to clearly and accurately record information\n<br>\n<br>\nAbility to follow verbal and written..."
     },
     {
       "title": "Campus Security Guard - Assigned Secondary School (2026-2027)",
@@ -73,28 +106,6 @@
       "description": "<ul><li>Attend classes and maintain comprehensive notebooks of subjects covered in classes </li><li> Prepare research papers </li><li> Complete homework assignments </li><li> Participate in the physical training program, firearms training program, defensive tactics program and practical problems </li><li> Participate in classroom discussions and group projects </li><li> Complies with assignments and instructions given by the RPA as well as the Dallas ISD Police Department Chief of Police or designee </li><li> Adhere to all NCTCOG RPA rules and regulations; Dallas ISD policies and procedures,..."
     },
     {
-      "title": "School District Peace Officer (235 Days): 2025-2026 School Year",
-      "company": "Dallas Independent School District",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.linkedin.com/jobs/view/school-district-peace-officer-235-days-2025-2026-school-year-at-dallas-independent-school-district-4270949113",
-      "via": "via LinkedIn",
-      "description": "<ul><li>Patrol assigned campus(es) and/or patrol routes walking or driving within district jurisdiction </li><li> Respond to all calls from campus(es) concerning crisis situations, accidents, and reports of crime </li><li> Investigate all criminal offenses that occur within district's jurisdiction </li><li> Collect and preserve evidence for criminal investigations including witness statements and physical evidence </li><li> Perform all other tasks and duties as assigned </li><li>Accredited High School Diploma or equivalent (U.S.A. equivalency)</li><li>Texas Peace Officer License issued by..."
-    },
-    {
-      "title": "School Security Officer",
-      "company": "Denton Independent School District",
-      "location": "Addison, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.monster.com/job-openings/school-security-officer-addison-tx--76f7be7a-1417-42f4-ba66-5b483bfcd5a3",
-      "via": "via Monster",
-      "description": "<p>Reports to: Director of Safety and Security and Campus Principal</p><p>Wage/Hour Status: Exempt</p><p>Pay Family: Professional/Administrators</p><p>Pay Grade: 03</p><p>Minimum Salary: $62,877</p><p>Duty Days: 187 days per year</p><p>Primary Purpose:</p><p>Provides armed security in the event of an active threat to the campus. Responsible for the safety and security operation of the campus to ensure the welfare of students, staff, and visitors. Coordinates with the campus principals to implement, evaluate and improve campus safety and security protocols. Collaborates with campus leadership..."
-    },
-    {
       "title": "School Safety Guard",
       "company": "ROCKWALL INDEPENDENT SCHOOL DISTRICT PUBLIC FACILITY CORPORATION",
       "location": "Rockwall, TX",
@@ -104,17 +115,6 @@
       "apply_link": "https://www.monster.com/job-openings/school-safety-guard-rockwall-tx--20bf3bf5-40a4-4111-9e87-3c7792110263",
       "via": "via Monster",
       "description": "<p>please visit <a rel=\"nofollow\">https://skyfin.rockwallisd.org/scripts/cgiip.exe/WService=wsFin/rappljoblst484.w/260601002</a> for raw_description</p><br><p><b>About the Company:</b><br>ROCKWALL INDEPENDENT SCHOOL DISTRICT PUBLIC FACILITY CORPORATION</p><br><br>"
-    },
-    {
-      "title": "Security Officer with Active Clearance Concierge",
-      "company": "Allied Universal",
-      "location": "Irving, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-concierge-at-allied-universal-4443058450",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer with Active Clearance Concierge</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
     }
   ]
 }

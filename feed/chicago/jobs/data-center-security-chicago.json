@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-21T15:51:48.226271+00:00",
+  "generated": "2026-07-23T16:11:17.430309+00:00",
   "page": "chicago/jobs/data-center-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
-  "exact": 4,
+  "exact": 7,
   "jobs": [
+    {
+      "title": "Account Manager Data Center",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Chicago, IL",
+      "pay": "75K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.jobleads.com/us/job/account-manager-data-center--chicago--e54683dfaeee969c98e55b95ac937d300",
+      "via": "via JobLeads",
+      "description": "<div><h3>Data Center Account Manager – Full Time – Chicago, IL</h3>\n<p>We offer a full benefits package, PTO, weekly pay, and more!</p>\n<p>$75,000/Year</p>\n<p>We help make your world a safer place.</p>\n<p>Are you a motivated and experienced security professional looking for the next step in your career? The Downtown Chicago Area has an exciting opportunity for an Account Manager! We are seeking a personable, dedicated individual to supervise a team of security officers to ensure operational effectiveness.</p>\n<p>The ideal candidate will be equipped in handling scheduling, payroll processing,..."
+    },
     {
       "title": "Data Center Security Officer - On-Site Access & CCTV",
       "company": "NTT Global Data Centers Americas, Inc.",
@@ -27,6 +38,17 @@
       "apply_link": "https://us.jobrapido.com/jobpreview/7684872744499937280",
       "via": "via Jobrapido",
       "description": "<p>NTT Global Data Centers Americas, Inc. is seeking an experienced Security Officer L1 to reinforce a site security team at our Chicago-area facility. You will manage access control, observe all activities, respond to incidents, and prepare detailed shift reports.</p><p>Collaboration with DCOPS and other departments is essential to maintain smooth operations. The role requires a high school diploma or GED, security certifications, and at least one year in security.</p>\n#J-18808-Ljbffr"
+    },
+    {
+      "title": "Senior Data Center Construction Safety Lead",
+      "company": "Compliance Management International",
+      "location": "Lombard, IL",
+      "pay": "125K–140K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://www.jobleads.com/us/job/senior-data-center-construction-safety-lead--lombard--ec73192b727345f37a26cb1372dcea7f4",
+      "via": "via JobLeads",
+      "description": "Compliance Management International (CMI) is hiring a Construction Safety Professional in Lombard, Illinois. This role ensures safety standards on data center construction projects by mentoring staff and leading safety initiatives. Candidates should have over 5 years of construction safety experience, particularly in mission-critical facilities. Knowledge of OSHA standards and excellent communication skills are essential. Salary ranges from $125,000 to $140,000 USD. Full-time benefits included."
     },
     {
       "title": "Data Center Security Officer: Access, CCTV & Safety",
@@ -51,70 +73,48 @@
       "description": "<p>NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 for a Sunday–Tuesday 7am–7pm shift at our Chicago data center. You will manage access, monitor CCTV, and respond to incidents to protect personnel and property.</p><p>You will collaborate with DCOPS and other teams, complete reports, and uphold security procedures while maintaining a professional client-facing presence and adherence to PPE and safety rules.</p>"
     },
     {
-      "title": "Security Officer Enhanced Part Time Area Checks",
+      "title": "Account Manager - Data Center",
+      "company": "Securitas Security Services",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-13",
+      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172557/?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30&utm_source=google&weekdayJdUid=1984381utm_mediumutm_medium",
+      "via": "via Cloud Sign In",
+      "description": "<p style=\"line-height: 150%;\"><span><strong><u>Data Center Account Manager – Full Time – Chicago, IL</u></strong></span></p><p style=\"line-height: 150%;\"><i><span>We offer a full benefits package, PTO, weekly pay, and more!</span></i></p><p style=\"line-height: 150%;\"><span><strong>Rate:</strong> $75,000/Year</span></p><p style=\"line-height: 150%;\"><span><strong>We help make your world a safer place.</strong></span></p><p style=\"line-height: 150%;\"><span>Are you a motivated and experienced security professional looking for the next step in your career? The Downtown Chicago Area has an exciting..."
+    },
+    {
+      "title": "Security Officer - Full Time",
+      "company": "Sonesta International Hotels",
+      "location": "Norridge, IL",
+      "pay": "19–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.ziprecruiter.com/c/Sonesta-International-Hotels/Job/Security-Officer-Full-Time/-in-Norridge,IL?jid=3782be63534cf3dd",
+      "via": "via ZipRecruiter",
+      "description": "<p><b>We're Sonesta International Hotels.</b><br/>The 8th largest hotel company in the U.S.-and growing fast.</p><p></p><p>An epic blend of full-service and focused hotels in major cities, Sonesta's uniquely diverse portfolio of owned, managed, and franchised properties makes us everywhere you want to be. Driven by the human side of hospitality, we deliver service with passion, loyalty with purpose, and experiences that truly connect.</p><p></p><p><b>Together We Thrive</b>-bringing quality, value, and amazing hospitality to every guest, every stay, across 1000+ properties in eight countries..."
+    },
+    {
+      "title": "Security Officer - Exterior Campus",
       "company": "Allied Universal",
       "location": "Chicago, IL",
-      "pay": "20 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-area-checks-at-allied-universal-4443057478",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
-    },
-    {
-      "title": "Security Officer Visitor Reception",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": "19 an hour",
+      "pay": "22 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-visitor-reception-at-allied-universal-4442774317",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-exterior-campus-at-allied-universal-4443814068",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Visitor Reception</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more...."
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer - Exterior Campus</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Education, and more. Join..."
     },
     {
-      "title": "Security Officer Patrol Clearance Required",
-      "company": "Allied Universal",
-      "location": "Rolling Meadows, IL",
-      "pay": "23 an hour",
+      "title": "Public Safety Officer I - Armed (Full Time, 3rd Shift)",
+      "company": "Advocate Health Care",
+      "location": "Oak Lawn, IL",
+      "pay": "22.90–34.35 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-clearance-required-at-allied-universal-4442767705",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.linkedin.com/jobs/view/public-safety-officer-i-armed-full-time-3rd-shift-at-advocate-health-care-4441070289",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Clearance Required</strong> in <strong>Rolling Meadows, IL</strong>, you will serve and safeguard clients in a range of industries such as..."
-    },
-    {
-      "title": "Security Officer Patrol Compliance",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-compliance-at-allied-universal-4443066234",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Compliance</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Hotels & Resorts, and..."
-    },
-    {
-      "title": "Blue Star Off - Duty Officer (Retired)",
-      "company": "Protos Security",
-      "location": "Rosemont, IL",
-      "pay": "35–65 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/blue-star-off-duty-officer-retired-at-protos-security-4442789709",
-      "via": "via LinkedIn",
-      "description": "<strong>Blue Star Security, LLC</strong> is a provider off duty police officer services to private sectors throughout the Chicagoland area and Illinois. We are now hiring <strong>Retired Police Officers </strong><strong>to assist in serving our diverse portfolio of clients which include Fortune 500 companies, small businesses, film production and individuals.<br><br></strong><strong>Requirements<br><br></strong><ul><li>Must be retired police officer. </li><li>Must have Law Enforcement credentials.</li><li>Must work a minimum of 2 shifts a month.<br><br></li></ul><strong>Compensation &..."
-    },
-    {
-      "title": "Blue Star Off - Duty Officer (Active)",
-      "company": "Protos Security",
-      "location": "Rosemont, IL",
-      "pay": "35–65 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/blue-star-off-duty-officer-active-at-protos-security-4442783898",
-      "via": "via LinkedIn",
-      "description": "<strong>Blue Star Security, LLC</strong> is a provider off duty police officer services to private sectors throughout the Chicagoland area and Illinois. We are now hiring <strong>Active Police Officers </strong><strong>to assist in serving our diverse portfolio of clients which include Fortune 500 companies, small businesses, film production and individuals.<br><br></strong><strong>Requirements<br><br></strong><ul><li>Must be an active police officer. </li><li>Must have Law Enforcement credentials.</li><li>Must work a minimum of two shifts a month.<br><br></li></ul><strong>Compensation &..."
+      "description": "<strong>It's More Than a Job, It's a Calling!<br><br></strong><strong>Position: Public Safety Officer I - Armed<br><br></strong><strong>Location: Christ Medical Center; Oak Lawn, IL.<br><br></strong><strong>Full Time; 3rd Shift<br><br></strong><strong>~Hours of 10pm-6am<br><br></strong><strong>Major Responsibilities<br><br></strong><ul><li>Provides security services with professionalism, fairness, and compassion in even challenging circumstances and in accordance with policies, procedures, and training. Inspires confidence in patients, visitors, and team members by presenting a professional,..."
     }
   ]
 }

@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-21T15:51:48.226271+00:00",
+  "generated": "2026-07-23T16:11:17.430309+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
-  "exact": 5,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Security Officer - Data Center",
+      "company": "GardaWorld",
+      "location": "Midlothian, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-data-center-at-gardaworld-4443449241",
+      "via": "via LinkedIn",
+      "description": "GardaWorld Security Services is Now Hiring a Surveillance Security Officer!<br><br><strong>Ready to suit up as a Surveillance Security Guard?<br><br></strong>What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.<br><br>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.<br><br><strong>What’s In It For..."
+    },
+    {
+      "title": "Federal Security Lead – Onsite Data Center Security",
+      "company": "Quality Technology Services, LLC",
+      "location": "Fort Worth, TX",
+      "pay": "95K–125K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.jobleads.com/us/job/federal-security-lead-onsite-data-center-security--fort-worth--e9420e66e0e2421ce6895029e752fa879",
+      "via": "via JobLeads",
+      "description": "<p>Quality Technology Services, LLC in Fort Worth, TX is seeking a Federal Security Manager I to oversee on-site security for a 24x7 data center environment. This role reports to the Regional Manager, Federal Security and supports compliance with National Industrial Security Program and government regulations.</p><p>The position requires on-site work, frontline supervision of security staff, and dynamic incident response, access control, CCTV, and audits.</p>"
+    },
     {
       "title": "Security Officer Data Center",
       "company": "Allied Universal",
@@ -16,6 +38,17 @@
       "apply_link": "https://jobs.aus.com/job/richardson/security-officer-data-center/22950/97937256240",
       "via": "via Allied Universal",
       "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
+    },
+    {
+      "title": "Data Center Security Shift Manager",
+      "company": "Wells Fargo",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-16",
+      "apply_link": "https://www.ziprecruiter.com/c/Wells-Fargo/Job/Data-Center-Security-Shift-Manager/-in-Garland,TX?jid=00cc3e947d177097",
+      "via": "via ZipRecruiter",
+      "description": "<p><b>About this role:</b></p><p>Wells Fargo is seeking a Data Center Security Shift Manager in Garland, TX.</p><p><br/><b><b>In this role, you will:</b></b></p><ul><li><p>Supervise varying levels of professionals in consulting and risk-based security products and services based on defined protocols, tasks and processes to ensure timely completion, quality and compliance Corporate Security</p></li><li><p>Identify opportunities for developing, recommending, and implementing physical security equipment standards and policies to minimize the associated risks of criminal incidents against company..."
     },
     {
       "title": "Night Shift Security Officer - Data Center Access & CCTV",
@@ -40,15 +73,26 @@
       "description": "Data Center Security Officer job at Securitas Group. Richardson, TX. <p>Security Officer\n\nSeeking individuals with computer skills, professional appearance, customer service skills, and a tech/IT or data center background.\n\nWe help make your world a safer place.\n\nSecuritas is a global company offering advanced and sustainable security solutions. We are present in 47 countries, with 355,000 employees and over 150,000 clients worldwide.\n\nThe Security Officer position is crucial in maintaining a safe environment for our clients by actively monitoring premises, patrolling various locations, and..."
     },
     {
-      "title": "Data Center Security Officer",
-      "company": "Salute Mission Critical",
-      "location": "Ennis, TX",
-      "pay": "22–25 an hour",
+      "title": "Security Officer Data Center",
+      "company": "Allied Universal",
+      "location": "Plano, TX",
+      "pay": "22.15 an hour",
       "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.monster.com/job-openings/data-center-security-officer-ennis-tx--2fc61440-741b-41a6-890f-3217c5df4b52",
-      "via": "via Monster",
-      "description": "<p>Salute is a leading provider of cutting-edge Data Center Infrastructure Services, dedicated to serving data center clients worldwide. We pride ourselves on delivering sustainable solutions, unparalleled reliability, and outstanding customer service. As we continue to grow, we are seeking a dynamic and experienced Security Officer to join our team and drive our relationships with hyperscale clients to new heights.</p><p>Salute Benefits That Put You First</p><p>We know life doesn't stop when work begins, that's why we offer perks designed to support your well-being, your family, and your..."
+      "posted_date": "2026-07-10",
+      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Data-Center/-in-Plano,TX?jid=3c06d53cd11e5fe5",
+      "via": "via ZipRecruiter",
+      "description": "Overview<p>Company Overview: </p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p>Job Description<p>Allied Universal is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of industries such as Healthcare, Education, Finance and..."
+    },
+    {
+      "title": "Security Officer Data Center",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-09",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-data-center/22950/97581701440",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Company Overview: </span></p><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</span></p><br><br><p style='margin: 0px;'><span..."
     },
     {
       "title": "Data Center Security Officers- $23.00/hr (#96)",
@@ -62,59 +106,15 @@
       "description": "<h2>Overview</h2>\nBecome part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener..."
     },
     {
-      "title": "Security Officer with Active Clearance Concierge",
-      "company": "Allied Universal",
-      "location": "Irving, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-with-active-clearance-concierge-at-allied-universal-4443058450",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer with Active Clearance Concierge</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
-    },
-    {
-      "title": "Armed Security Officer - Security Clearance",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "27 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-security-clearance-at-allied-universal-4443050743",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Vehicle Patrol Security Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
-    },
-    {
-      "title": "Armed Security Officer Patrol Specialist",
+      "title": "Security Officer Flex Data Center",
       "company": "Allied Universal",
       "location": "Carrollton, TX",
-      "pay": "18 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/armed-security-officer-patrol-specialist-at-allied-universal-4442765828",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Armed Patrol Specialist</strong> in <strong>Carrollton, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls,..."
-    },
-    {
-      "title": "Custom Protection Flex Officer - Financial Firm",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "21 an hour",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/custom-protection-flex-officer-financial-firm-at-allied-universal-4443066230",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Custom Protection Officer (CPO) Flex Officer. The Custom Protection Officer Flex Officer will conduct armed and/or unarmed foot..."
-    },
-    {
-      "title": "HR Coordinator / HR Assistant",
-      "company": "AAA Security Guard Services",
-      "location": "Bedford, TX",
-      "pay": "18–24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.indeed.com/viewjob?jk=889dbbc91c872be2",
-      "via": "via Indeed",
-      "description": "<p><b>Job Summary</b><br>\n  We are seeking a dynamic and detail-oriented Admin / HR Coordinator to join our team and drive excellence in human resources and administrative functions. This pivotal role involves supporting talent acquisition, employee onboarding, benefits administration, while ensuring compliance with employment laws and fostering a positive workplace culture. The ideal candidate will be proactive, highly organized, and possess excellent communication skills to facilitate smooth HR operations and organizational effectiveness.</p>\n<p><b>Responsibilities</b></p>\n<ul>\n <li>Manage..."
+      "posted_date": null,
+      "apply_link": "https://www.monster.com/job-openings/security-officer-flex-data-center-carrollton-tx--350a230f-1a3d-4864-b605-4c01eac8d4e8",
+      "via": "via Monster",
+      "description": "<p>Security Officer Flex Data Center</p><p>Carrollton, Texas Position Type: Full Time Shift Type: Afternoon, Evening, Morning, Overnight Req ID: 2026-1586260 Pay Rate: USD $22.15/Hr. Work Days Available: Friday, Monday, Saturday, Sunday, Thursday, Tuesday, Wednesday Date posted: 05/05/2026</p><p>Apply Now Save Job</p><p>Company Overview:</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that..."
     }
   ]
 }

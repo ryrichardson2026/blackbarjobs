@@ -1,9 +1,8 @@
 {
-  "generated": "2026-07-21T15:51:48.226271+00:00",
+  "generated": "2026-07-23T16:11:17.430309+00:00",
   "pages": 199,
   "empty": [],
   "fallback_heavy": [
-    "dallas/dallas-festival-security",
     "dallas/dallas-bar-club-security",
     "san-antonio/jobs/construction-security-san-antonio",
     "san-antonio/jobs/residential-security-san-antonio",
@@ -13,7 +12,7 @@
     "austin/jobs/overnight-warehouse-security-austin",
     "dallas/overnight-warehouse-security-dfw",
     "houston/jobs/overnight-warehouse-security-houston",
-    "san-antonio/jobs/armed-overnight-security-san-antonio",
+    "san-antonio/jobs/data-center-security-san-antonio",
     "san-antonio/jobs/overnight-warehouse-security-san-antonio",
     "chicago/jobs/dispatch-security-chicago",
     "chicago/jobs/manufacturing-security-chicago",
