@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-23T16:11:17.430309+00:00",
+  "generated": "2026-07-25T15:26:01.657532+00:00",
   "page": "austin/jobs/event-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Event Staff/Security",
+      "company": "5 STAR Event Services",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://us.trabajo.org/job-4111-116de23af7c434dbd37b077339ae4e6e",
+      "via": "via Trabajo.org",
+      "description": "Job DetailsJob Location: Central Texas - Austin, TX 78744Position Type: Part TimeEducation Level: High SchoolTravel Percentage: NoneJob Shift: AnyJob Category: Customer ServiceEVENT SECURITY/EVENT STAFF (PT) 5 STAR Event Services is adding to our Security & Guest Services team for upcoming events in the Austin, TX Metroplex. Get paid to work awesome events Check out our current Event Calendar here: www.5starstaff.com/calendar Description: Event Staff/Security Guards are responsible for the safety and comfort of all clients, guests and other employees. Duties: Enforce and uphold the integrity..."
+    },
     {
       "title": "Event Security Specialist — Part-Time",
       "company": "Allied Universal",
@@ -63,23 +74,23 @@
     },
     {
       "title": "Event Security Guard",
-      "company": "A2A Security",
-      "location": "Austin, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-security-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
-      "via": "via Glassdoor",
-      "description": "<p>A2A Security is seeking a dedicated and professional Event Security Guard to oversee operations in Austin, TX. Role Overview: As an Event Security Guard, you will be responsible for ensuring the safety and security of events, managing access for guests, and maintaining a secure environment. This role is essential in preventing incidents and ensuring compliance with safety regulations. Key Responsibilities: - Manage access control for guests and staff at events. - Monitor event areas for unauthorized access, suspicious activities, and safety hazards. - Respond to incidents and emergencies..."
-    },
-    {
-      "title": "Event Security Guard",
       "company": "A2A Sécurité",
       "location": "Austin, TX",
       "pay": "18 an hour",
       "schedule": "Full-time",
       "posted_date": "2026-07-14",
       "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-s%C3%A9curit%C3%A9-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
+      "via": "via Glassdoor",
+      "description": "<p>A2A Security is seeking a dedicated and professional Event Security Guard to oversee operations in Austin, TX. Role Overview: As an Event Security Guard, you will be responsible for ensuring the safety and security of events, managing access for guests, and maintaining a secure environment. This role is essential in preventing incidents and ensuring compliance with safety regulations. Key Responsibilities: - Manage access control for guests and staff at events. - Monitor event areas for unauthorized access, suspicious activities, and safety hazards. - Respond to incidents and emergencies..."
+    },
+    {
+      "title": "Event Security Guard",
+      "company": "A2A Security",
+      "location": "Austin, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.glassdoor.com/job-listing/event-security-guard-a2a-security-JV_IC1139761_KO0,20_KE21,33.htm?jl=1010200955298",
       "via": "via Glassdoor",
       "description": "<p>A2A Security is seeking a dedicated and professional Event Security Guard to oversee operations in Austin, TX. Role Overview: As an Event Security Guard, you will be responsible for ensuring the safety and security of events, managing access for guests, and maintaining a secure environment. This role is essential in preventing incidents and ensuring compliance with safety regulations. Key Responsibilities: - Manage access control for guests and staff at events. - Monitor event areas for unauthorized access, suspicious activities, and safety hazards. - Respond to incidents and emergencies..."
     },
@@ -104,17 +115,6 @@
       "apply_link": "https://www.jobleads.com/us/job/college-sports-event-security-flexible-part-time--austin--eb3c2784f3f2240f9d05ef5aac279f77f",
       "via": "via JobLeads",
       "description": "<p>Allied Universal® Event Services in Austin is hiring Event Security Officers for college sports events, with pay at $22/hr for college events and $18/hr for all other events. This role emphasizes safety, guest service, and enforcing venue policies.</p><p>You will screen bags, verify IDs, guide guests, and respond to incidents while maintaining a positive guest experience. Part-time schedules offer flexibility for students, retirees, or others seeking dynamic event work in Texas.</p>"
-    },
-    {
-      "title": "Event Security Specialist — Crowd Control & Access",
-      "company": "Viking Tactical Security Group",
-      "location": "Austin, TX",
-      "pay": "27,552–41,328 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-11",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5290602726/e/",
-      "via": "via Learn4Good",
-      "description": "Viking Tactical Security Group is seeking competent Security Officers (Level II and III) to work from April 22nd to 27th, 2024 in Stephenville, Texas. Responsibilities include controlling entrance, checking tickets, and maintaining order at the event.Applicants must be at least 21 years old, have 2 years of security experience, and possess a valid Texas security guard card. Positions require standing for long hours and reliable transportation.#J-18808-Ljbffr"
     }
   ]
 }

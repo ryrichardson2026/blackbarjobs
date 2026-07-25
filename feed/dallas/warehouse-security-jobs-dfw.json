@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T16:11:17.430309+00:00",
+  "generated": "2026-07-25T15:26:01.657532+00:00",
   "page": "dallas/warehouse-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,15 +7,37 @@
   "exact": 10,
   "jobs": [
     {
+      "title": "Security Flex Officer - Warehouse",
+      "company": "Allied Universal",
+      "location": "Wilmer, TX",
+      "pay": "15 an hour",
+      "schedule": "Internship",
+      "posted_date": "2026-07-25",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-warehouse-at-allied-universal-4445265417",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of..."
+    },
+    {
+      "title": "Security Shift Supervisor Distribution Center",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-distribution-center-at-allied-universal-4444765086",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
+    },
+    {
       "title": "Security Officer - Distribution Facility",
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Part-time",
       "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-distribution-facility-at-allied-universal-4443519778",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Spanish Speaking Patrol</strong> in <strong>Dallas, TX</strong>, you will serve and safeguard clients in a range of industries such as Manufacturing &..."
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-distribution-facility/22950/98100243392",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
     },
     {
       "title": "Security Officer Warehouse",
@@ -40,17 +62,6 @@
       "description": "Overview<p> Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>Job Description<p> As a <strong>Security Officer Patrol Steward</strong> in <strong>Sunnyvale, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join a leading team where flexibility meets..."
     },
     {
-      "title": "Security Officer Secure Entrance Distribution Center",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-15",
-      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-secure-entrance-distribution-center/22950/97884944400",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
-    },
-    {
       "title": "Security Officer Warehouse",
       "company": "Allied Universal",
       "location": "Sunnyvale, TX",
@@ -60,6 +71,17 @@
       "apply_link": "https://www.indeed.com/viewjob?jk=a5be6b2a298c7c1c",
       "via": "via Indeed",
       "description": "<div>\n <p>Security Officer Warehouse</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. \n  <br>\n </div>\n <br>\n <h2><b>Job Description</b></h2>\n <p></p>\n <p><br>\n   As a <b>Security Officer Patrol Steward</b> in <b>Sunnyvale, TX</b>, you will serve and safeguard..."
+    },
+    {
+      "title": "Security Officer Secure Entrance Distribution Center",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-15",
+      "apply_link": "https://jobs.aus.com/job/dallas/security-officer-secure-entrance-distribution-center/22950/97884944400",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
     },
     {
       "title": "Security Officer Distribution Center",
@@ -93,28 +115,6 @@
       "apply_link": "https://towntasks.com/jobs/apply-warehouse-security-officer-job-in-dallas-4635",
       "via": "via TownTasks",
       "description": "<div>\n<p><strong>Job Overview:</strong> Join our team as a Security Officer at a warehouse in Dallas, Texas. You will be responsible for maintaining a safe and secure environment for all employees, visitors, and assets.</p>\n\n<p><strong>Job Details:</strong> As a Security Officer at our warehouse in Dallas, Texas, you will patrol the premises, monitor surveillance cameras, and respond to any security incidents or alarms.</p>\n\n<h3>Responsibilities:</h3>\n<ul>\n<li>Conduct regular patrols to ensure the security of the warehouse</li>\n<li>Monitor surveillance cameras and alarms</li>\n<li>Respond to..."
-    },
-    {
-      "title": "Security Officer- Distribution Center - Part Time",
-      "company": "Allied Universal",
-      "location": "Dallas, TX",
-      "pay": "32,885 a year",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.sorce.jobs/jobs/security-officer-distribution-center-part-time-allied-universal-j1_93nBAZPawQIKU_XlAnnIUeappGjDsh3z-mF_Ig9LqhfS-pYl",
-      "via": "via Sorce",
-      "description": "<p>Job Description Job Description Overview Company Overview: Allied Universal®, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. Job Description As a Security Officer - Distribution Center - Part Time in Dallas, TX, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more. Join a..."
-    },
-    {
-      "title": "Security Supervisor - Warehouse",
-      "company": "Gardaworld",
-      "location": "Fort Worth, TX",
-      "pay": "23.50–29.00 an hour",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.careerbuilder.com/job-details/security-supervisor-warehouse-fort-worth-tx--62690c22-c977-41ab-b4ed-567167dc51a3",
-      "via": "via CareerBuilder",
-      "description": "<p>GardaWorld Security Services is Now Hiring a Security Supervisor! </p><p>Ready to suit up as a Security Supervisor? </p><p>What matters most in a role like this is your ability to read the environment, anticipate risk, and act accordingly. Tell us about how your keen sense of observation is one of your greatest strengths. </p><p>GardaWorld Security Services is looking for Supervisors to fulfill different assignments for our clients. </p><p>What’s in it for you: </p><ul><li><p>Site Location: White Settlement, TX </p></li></ul><ul><li><p>Set schedule: Monday - Wednesday 10:00pm - 6:00am /..."
     }
   ]
 }

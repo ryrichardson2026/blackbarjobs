@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-23T16:11:17.430309+00:00",
+  "generated": "2026-07-25T15:26:01.657532+00:00",
   "page": "chicago/jobs/data-center-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
-  "exact": 7,
+  "exact": 9,
   "jobs": [
+    {
+      "title": "Data Center Security Officer L1 – Access, CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": "27,813–39,743 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://us.trabajo.org/job-2283-d3c9a3213d3a0a1ee8911b928cabb987",
+      "via": "via Trabajo.org",
+      "description": "NTT Global Data Centers Americas, Inc. is hiring a Security Officer Level 1 to ensure the safety of personnel and property at a Chicago facility. This role involves monitoring security systems, conducting patrols, and responding to incidents while adhering to strict security protocols. The ideal candidate should possess a high school diploma, at least one year of security experience, and be able to work flexible hours, including weekends. Competitive compensation and benefits packages are provided, including potential bonuses. J-18808-Ljbffr"
+    },
+    {
+      "title": "Data Center Security Officer - On-Site Access & CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": "27,813–39,743 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5302001714/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Data Center Security Officer I - On-Site Access & CCTV NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 to support site security. Under supervision, you will manage access control, monitor CCTV, and respond to incidents while maintaining thorough written reports.Key tasks include daily identification verification, patrols, system monitoring, and emergency response. A strong customer-service focus and the ability to work a demanding schedule are essential.#J-18808-Ljbffr"
+    },
     {
       "title": "Account Manager Data Center",
       "company": "Securitas Security Services USA, Inc.",
@@ -18,15 +40,15 @@
       "description": "<div><h3>Data Center Account Manager – Full Time – Chicago, IL</h3>\n<p>We offer a full benefits package, PTO, weekly pay, and more!</p>\n<p>$75,000/Year</p>\n<p>We help make your world a safer place.</p>\n<p>Are you a motivated and experienced security professional looking for the next step in your career? The Downtown Chicago Area has an exciting opportunity for an Account Manager! We are seeking a personable, dedicated individual to supervise a team of security officers to ensure operational effectiveness.</p>\n<p>The ideal candidate will be equipped in handling scheduling, payroll processing,..."
     },
     {
-      "title": "Data Center Security Officer - On-Site Access & CCTV",
+      "title": "Data Center Security Officer - On-Site, Client-Facing",
       "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
-      "pay": "27,813–39,743 a year",
+      "pay": null,
       "schedule": "Full-time",
       "posted_date": "2026-07-19",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5302001714/e/",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5301984223/e/",
       "via": "via Learn4Good",
-      "description": "Position: Data Center Security Officer I - On-Site Access & CCTV NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 to support site security. Under supervision, you will manage access control, monitor CCTV, and respond to incidents while maintaining thorough written reports.Key tasks include daily identification verification, patrols, system monitoring, and emergency response. A strong customer-service focus and the ability to work a demanding schedule are essential.#J-18808-Ljbffr"
+      "description": "Position: Data Center Security Officer I - On-Site, Client-Facing NTT Global Data Centers Americas, Inc. is seeking a Security Officer L1 to join the on-site team in Illinois. You will work under the Security Supervisor to protect personnel and property, control access, monitor CCTV, and respond to incidents.The role requires clear client-facing communication and the ability to follow procedures in a fast-paced environment. Preferred candidates have at least one year in security, experience with access-control and CCTV, and active CSG or CPO certifications or#J-18808-Ljbffr"
     },
     {
       "title": "Data Center Security Officer — Onsite & Impactful Role",
@@ -51,17 +73,6 @@
       "description": "Compliance Management International (CMI) is hiring a Construction Safety Professional in Lombard, Illinois. This role ensures safety standards on data center construction projects by mentoring staff and leading safety initiatives. Candidates should have over 5 years of construction safety experience, particularly in mission-critical facilities. Knowledge of OSHA standards and excellent communication skills are essential. Salary ranges from $125,000 to $140,000 USD. Full-time benefits included."
     },
     {
-      "title": "Data Center Security Officer: Access, CCTV & Safety",
-      "company": "NTT Global Data Centers Americas, Inc.",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/data-center-security-officer-access-cctv-safety--chicago--e2572793fa537659a6362ea6246ba1ac3",
-      "via": "via JobLeads",
-      "description": "<p>NTT Global Data Centers Americas, Inc. seeks a Security Officer Level 1 to support security operations at a Chicago-area data center.</p><p>You will enforce access control, monitor CCTV, respond to incidents, and prepare concise written reports while coordinating with the DCOPS team. The role requires effective communication, teamwork, and the ability to work a Wednesday 1pm-7pm shift and a Thursday–Saturday 7am–7pm schedule.</p>"
-    },
-    {
       "title": "Data Center Security Specialist I On-Site",
       "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
@@ -71,6 +82,17 @@
       "apply_link": "https://www.jobleads.com/us/job/data-center-security-specialist-i-on-site--chicago--eb8b7335a1aac7d035c61cca376f99291",
       "via": "via JobLeads",
       "description": "<p>NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 for a Sunday–Tuesday 7am–7pm shift at our Chicago data center. You will manage access, monitor CCTV, and respond to incidents to protect personnel and property.</p><p>You will collaborate with DCOPS and other teams, complete reports, and uphold security procedures while maintaining a professional client-facing presence and adherence to PPE and safety rules.</p>"
+    },
+    {
+      "title": "Data Center Security Officer: Access, CCTV & Safety",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-officer-access-cctv-safety--chicago--e2572793fa537659a6362ea6246ba1ac3",
+      "via": "via JobLeads",
+      "description": "<p>NTT Global Data Centers Americas, Inc. seeks a Security Officer Level 1 to support security operations at a Chicago-area data center.</p><p>You will enforce access control, monitor CCTV, respond to incidents, and prepare concise written reports while coordinating with the DCOPS team. The role requires effective communication, teamwork, and the ability to work a Wednesday 1pm-7pm shift and a Thursday–Saturday 7am–7pm schedule.</p>"
     },
     {
       "title": "Account Manager - Data Center",
@@ -84,37 +106,15 @@
       "description": "<p style=\"line-height: 150%;\"><span><strong><u>Data Center Account Manager – Full Time – Chicago, IL</u></strong></span></p><p style=\"line-height: 150%;\"><i><span>We offer a full benefits package, PTO, weekly pay, and more!</span></i></p><p style=\"line-height: 150%;\"><span><strong>Rate:</strong> $75,000/Year</span></p><p style=\"line-height: 150%;\"><span><strong>We help make your world a safer place.</strong></span></p><p style=\"line-height: 150%;\"><span>Are you a motivated and experienced security professional looking for the next step in your career? The Downtown Chicago Area has an exciting..."
     },
     {
-      "title": "Security Officer - Full Time",
-      "company": "Sonesta International Hotels",
-      "location": "Norridge, IL",
-      "pay": "19–20 an hour",
+      "title": "Alarm Monitoring Operator / Central Station Alarm Dispatcher",
+      "company": "EMERGENCY 24 INC",
+      "location": "Des Plaines, IL",
+      "pay": "18–20 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.ziprecruiter.com/c/Sonesta-International-Hotels/Job/Security-Officer-Full-Time/-in-Norridge,IL?jid=3782be63534cf3dd",
+      "posted_date": "2026-07-25",
+      "apply_link": "https://www.ziprecruiter.com/c/EMERGENCY-24/Job/Alarm-Monitoring-Operator-Central-Station-Alarm-Dispatcher/-in-Des-Plaines,IL?jid=ef42ecf8a8f1b2c0",
       "via": "via ZipRecruiter",
-      "description": "<p><b>We're Sonesta International Hotels.</b><br/>The 8th largest hotel company in the U.S.-and growing fast.</p><p></p><p>An epic blend of full-service and focused hotels in major cities, Sonesta's uniquely diverse portfolio of owned, managed, and franchised properties makes us everywhere you want to be. Driven by the human side of hospitality, we deliver service with passion, loyalty with purpose, and experiences that truly connect.</p><p></p><p><b>Together We Thrive</b>-bringing quality, value, and amazing hospitality to every guest, every stay, across 1000+ properties in eight countries..."
-    },
-    {
-      "title": "Security Officer - Exterior Campus",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-exterior-campus-at-allied-universal-4443814068",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer - Exterior Campus</strong> in <strong>Chicago, IL</strong>, you will serve and safeguard clients in a range of industries such as Education, and more. Join..."
-    },
-    {
-      "title": "Public Safety Officer I - Armed (Full Time, 3rd Shift)",
-      "company": "Advocate Health Care",
-      "location": "Oak Lawn, IL",
-      "pay": "22.90–34.35 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.linkedin.com/jobs/view/public-safety-officer-i-armed-full-time-3rd-shift-at-advocate-health-care-4441070289",
-      "via": "via LinkedIn",
-      "description": "<strong>It's More Than a Job, It's a Calling!<br><br></strong><strong>Position: Public Safety Officer I - Armed<br><br></strong><strong>Location: Christ Medical Center; Oak Lawn, IL.<br><br></strong><strong>Full Time; 3rd Shift<br><br></strong><strong>~Hours of 10pm-6am<br><br></strong><strong>Major Responsibilities<br><br></strong><ul><li>Provides security services with professionalism, fairness, and compassion in even challenging circumstances and in accordance with policies, procedures, and training. Inspires confidence in patients, visitors, and team members by presenting a professional,..."
+      "description": "About Emergency24<p>Emergency24 has been a trusted leader in emergency response and professional monitoring services for over five decades. We are proud to be a family-owned and operated company headquartered in the Chicago suburbs. With a strong commitment to reliability, integrity, and service, we’ve earned the trust of clients and partners nationwide.</p> The Opportunity<p>Emergency24 is seeking an Alarm Monitoring Dispatcher Emergency Responses to serve as the first point of contact during emergencies. In this role, you’ll play a vital part in protecting lives and property by responding..."
     }
   ]
 }

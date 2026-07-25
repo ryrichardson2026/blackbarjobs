@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-23T16:11:17.430309+00:00",
+  "generated": "2026-07-25T15:26:01.657532+00:00",
   "page": "dallas/dallas-industrial-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
-  "exact": 9,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Industrial Security Specialist",
+      "company": "Raytheon",
+      "location": "McKinney, TX",
+      "pay": "60K–80K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://www.jobleads.com/us/job/industrial-security-specialist-mckinney-tx--mckinney--efa48ae557c3a0f192ede019e43642abc",
+      "via": "via JobLeads",
+      "description": "<div><p><b>Location:</b> US-TX-MCKINNEY-513WA ~ 2501 W University Dr ~ WING A BLDG</p></br><p><b>Date Posted:</b> 2026-06-01</p></br><p><b>Country:</b> United States of America</p></br><p><b>Position Role Type:</b> Onsite</p></br><p><b>U.S. Citizenship and Security Clearance:</b> U.S. citizenship required with an active and transferable DoD Top Secret security clearance prior to start.</p></br><p>The Industrial Security Specialist will support the Document Control team by interpreting and applying DoD policies, guidance, and procedures to ensure compliance across a large, cleared employee..."
+    },
     {
       "title": "Night Security Officer Manufacturing Plant",
       "company": "Trinity Industries",
@@ -85,17 +96,6 @@
     },
     {
       "title": "Industrial Security Rep / CSSO",
-      "company": "Lockheed Martin Corporation",
-      "location": "Grand Prairie, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/Lockheed-Martin/Job/Industrial-Security-Rep-CSSO/-in-Grand-Prairie,TX?jid=f969b62c799e5f7b",
-      "via": "via ZipRecruiter",
-      "description": "Lockheed Martin's Missiles and Fire Control (MFC) business, the leading provider and pioneer for superior weapon systems, sensors and services is seeking an Industrial Security Professional / Contractor SAP Security Officer (CSSO) to join the security team in Grand Prairie, TX. You will perform program security duties supporting multiple special access programs.<br><br><p><b>What You Will Be Doing</b></p><br>As the Security Representative you will perform duties as the Alternate Contractor SAP Security Officer (ACSSO) or Contractor SAP Security Officer (CSSO) for multiple complex and growing..."
-    },
-    {
-      "title": "Industrial Security Rep / CSSO",
       "company": "Lockheed Martin",
       "location": "Grand Prairie, TX",
       "pay": null,
@@ -106,15 +106,15 @@
       "description": "<br><b>Description:</b>Lockheed Martin’s Missiles and Fire Control (MFC) business, the leading provider and pioneer for superior weapon systems, sensors and services is seeking an Industrial Security Professional / Contractor SAP Security Officer (CSSO) to join the security team in Grand Prairie, TX. You will perform program security duties supporting multiple special access programs.<br><br><p><b>What You Will Be Doing</b></p><br>As the Security Representative you will perform duties as the Alternate Contractor SAP Security Officer (ACSSO) or Contractor SAP Security Officer (CSSO) for..."
     },
     {
-      "title": "Security Officer Patrol Sentry",
-      "company": "Allied Universal",
-      "location": "Plano, TX",
-      "pay": "19 an hour",
+      "title": "Industrial Security Rep / CSSO",
+      "company": "Lockheed Martin Corporation",
+      "location": "Grand Prairie, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-sentry-at-allied-universal-4444238104",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Sentry</strong> in <strong>Plano, TX</strong>, you will serve and safeguard clients in a range of industries such as Financial Institutions, and..."
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Lockheed-Martin/Job/Industrial-Security-Rep-CSSO/-in-Grand-Prairie,TX?jid=f969b62c799e5f7b",
+      "via": "via ZipRecruiter",
+      "description": "Lockheed Martin's Missiles and Fire Control (MFC) business, the leading provider and pioneer for superior weapon systems, sensors and services is seeking an Industrial Security Professional / Contractor SAP Security Officer (CSSO) to join the security team in Grand Prairie, TX. You will perform program security duties supporting multiple special access programs.<br><br><p><b>What You Will Be Doing</b></p><br>As the Security Representative you will perform duties as the Alternate Contractor SAP Security Officer (ACSSO) or Contractor SAP Security Officer (CSSO) for multiple complex and growing..."
     }
   ]
 }

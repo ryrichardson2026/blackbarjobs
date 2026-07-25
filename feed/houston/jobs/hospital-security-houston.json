@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-23T16:11:17.430309+00:00",
+  "generated": "2026-07-25T15:26:01.657532+00:00",
   "page": "houston/jobs/hospital-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Compassionate Security Officer — Southeast Hospital; Day Shift",
+      "company": "Memorial Hermann Health System",
+      "location": "Houston, TX",
+      "pay": "36K–48K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5308433640/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Compassionate Security Officer — Southeast Hospital (Day Shift) Memorial Hermann Health System is seeking a Security Officer for the Southeast region (days) to help protect patients, visitors, and staff at Memorial Hermann Hospital campuses. The role involves patrolling, controlling access, documenting incidents, and responding to emergencies while adhering to hospital policies.Qualified candidates will hold a High School Diploma or GED, be Commissioned Security Officers licensed by the Texas DPS, and obtain CPR certification within 90 days.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Compassionate Security Officer — Southeast Hospital (Day Shift)",
+      "company": "Memorial Hermann Health System",
+      "location": "Houston, TX",
+      "pay": "36K–48K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-20",
+      "apply_link": "https://www.jobleads.com/us/job/compassionate-security-officer-southeast-hospital-day-shift--houston--e20be4ef9ecfe728c72ffad26ea6ed32e",
+      "via": "via JobLeads",
+      "description": "<p>Memorial Hermann Health System is seeking a Security Officer for the Southeast region (days) to help protect patients, visitors, and staff at Memorial Hermann Hospital campuses. The role involves patrolling, controlling access, documenting incidents, and responding to emergencies while adhering to hospital policies.</p><p>Qualified candidates will hold a High School Diploma or GED, be Commissioned Security Officers licensed by the Texas DPS, and obtain CPR certification within 90 days.</p>"
+    },
     {
       "title": "Hospital Security Officer Safeguard Patients & Staff",
       "company": "Houston Dose",
@@ -93,28 +115,6 @@
       "apply_link": "https://www.jobleads.com/us/job/hospital-security-operations-leader--houston--e2bd4f62a13bb0d25c31a15fb80a0b88c",
       "via": "via JobLeads",
       "description": "<p>Memorial Hermann Health System is seeking a Security Supervisor to protect and promote safety across a hospital campus. You will oversee shift security operations, coordinate with nursing leadership, and mentor staff to ensure rapid response to incidents.</p><p>The role requires 2+ years of supervisory security experience, relevant Texas licensing, and CPR certification within 90 days. You will ensure policy adherence, manage equipment, and support service excellence for patients, visitors, and staff.</p>"
-    },
-    {
-      "title": "Healthcare Campus Public Safety Officer",
-      "company": "UT MD Anderson",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-09",
-      "apply_link": "https://jooble.org/jdp/6839298858957059560",
-      "via": "via Jooble",
-      "description": "<p>UT MD Anderson in Houston is hiring a Public Safety Officer to maintain a safe and secure environment for patients, families, and staff. This full-time role involves monitoring the campus, assisting individuals, and enforcing rules and regulations.\nKey requirements include a high school diploma, one year of relevant experience, and a Texas driver's license. Employees benefit from competitive pay, medical coverage, PTO, and retirement plans, making this an excellent opportunity for those looking to grow in healthcare security.\n\n#J-18808-Ljbffr  UT MD Anderson\n</p>"
-    },
-    {
-      "title": "Level III Hospital Security",
-      "company": "IGS security Group",
-      "location": "Houston, TX",
-      "pay": "2,427–2,947 a month",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/level-iii-hospital-security-igs-security-group-houston-tx--theirstack-696559969",
-      "via": "via BeBee",
-      "description": "<h4>Level III Hospital Security</h4>\nWe are currently seeking motivated and vigilant Level III Hospital Security Officers to join our dynamic team. In this vital role, you will be responsible for maintaining a safe environment within hospital premises by monitoring access points, conducting surveillance, and responding swiftly to incidents. Your proactive approach will help ensure the safety of patients, staff, visitors, and property while upholding the highest standards of security professionalism. Responsibilities\n<ul>\n<li>Monitor hospital entrances and exits to authorize access for staff,..."
     }
   ]
 }
