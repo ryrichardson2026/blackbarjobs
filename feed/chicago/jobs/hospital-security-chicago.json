@@ -1,11 +1,55 @@
 {
-  "generated": "2026-07-25T15:26:01.657532+00:00",
+  "generated": "2026-07-28T16:24:09.883827+00:00",
   "page": "chicago/jobs/hospital-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Armed Hospital Security Officer – Campus Patrol",
+      "company": "Rush University Medical Center",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-26",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5313979719/e/",
+      "via": "via Learn4Good",
+      "description": "A reputable healthcare facility in Chicago is seeking an Armed Security Officer to provide protection for persons and property. The role includes conducting patrols, responding to emergencies, and maintaining safety standards. Candidates should have a high school diploma and a valid driver’s license, with preference given to those with prior security experience. This position requires the ability to work various shifts, including weekends. #J-18808-Ljbffr"
+    },
+    {
+      "title": "Hospital Security Leader - Evening/Night Shift",
+      "company": "HESNI Inc",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-25",
+      "apply_link": "https://salutemyjob.com/jobs/hospital-security-leader-evening-night-shift-chicago-illinois/2892357130-2/",
+      "via": "via SaluteMyJob",
+      "description": "<P>A leading children's hospital in Chicago seeks a Security Services Manager to oversee and coordinate security activities. This position includes responsibilities such as emergency management, staff training, and ensuring compliance with safety regulations. The ideal candidate will have three years of management experience in security services, excellent communication skills, and proficiency in relevant software. Comprehensive benefits are offered, and the pay range is $70,720.00 to $115,627.20 annually. #J-18808-Ljbffr</P>"
+    },
+    {
+      "title": "Hospital Security Officer & Shuttle Driver",
+      "company": "Itlearn360",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-25",
+      "apply_link": "https://salutemyjob.com/jobs/hospital-security-officer-shuttle-driver-chicago-illinois/2892357333-2/",
+      "via": "via SaluteMyJob",
+      "description": "<P>A children's healthcare facility in Chicago seeks a Security Officer/Driver responsible for maintaining the safety of patients and staff. This role involves patrolling facilities, operating shuttle services, and managing visitor interactions. Candidates should have a high school diploma, customer service experience, and a valid driver's license. A focus on patient care makes this environment unique. Competitive benefits offered. #J-18808-Ljbffr</P>"
+    },
+    {
+      "title": "Evening Healthcare Security Officer – Patient Safety",
+      "company": "Saint Mary of Nazareth Hospital",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-24",
+      "apply_link": "https://www.jobleads.com/us/job/evening-healthcare-security-officer-patient-safety--chicago--e2c884a4c8d2e7ce3871ba0c50c90e90c",
+      "via": "via JobLeads",
+      "description": "<p>Saint Mary of Nazareth Hospital is seeking a Security Officer to join our Evening shift in Chicago, IL. This full-time role focuses on surveillance, rounds, policy enforcement, and coordinating responses to safety concerns for patients, staff, and visitors.</p><p>Responsibilities include electronic surveillance, rounds, enforcement of safety policies, and collaboration with care teams. We offer a comprehensive benefits package including medical, dental, vision, 401K, tuition reimbursement and paid</p>"
+    },
     {
       "title": "Hospital Security Officer; Unarmed - Training & Growth",
       "company": "Allied Universal",
@@ -40,17 +84,6 @@
       "description": "<p>Ascension Saint Joseph in Chicago, IL seeks a Security Officer for night shift, full-time duties. You will maintain a safe environment, patrol premises, and respond to security threats while ensuring compliance with policies.</p><p>Required are a valid driver's license and basic certifications; prior security or related experience is preferred. The facility offers comprehensive benefits and a supportive work culture.</p>"
     },
     {
-      "title": "Healthcare Security Officer – Per Diem",
-      "company": "Edward Elmhurst Health",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-20",
-      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-per-diem--chicago--ece184debfea5f43f423f264aec93aedf",
-      "via": "via JobLeads",
-      "description": "<p>Endeavor Health seeks a part-time Per Diem Public Safety Officer for Swedish Hospital in Chicago, IL. The role involves unarmed security, patrols, incident reporting, and assisting with police investigations as needed. You will welcome patients and staff, provide directions, and help escort duties when possible.</p><p>Requires a High School Diploma or GED, and a valid Illinois FOID within 90 days. CPR certification within 90 days, and a valid driver’s license are also required.</p>"
-    },
-    {
       "title": "Evening Security Officer Healthcare Campus",
       "company": "Ascension",
       "location": "Chicago, IL",
@@ -62,6 +95,17 @@
       "description": "<p>Ascension Health is seeking a Security Staff member for evening shifts in Chicago, IL. You will maintain a safe environment for patients and visitors, investigate incidents, and enforce regulations. A High School diploma or equivalent and a valid driver's license are required, along with preferred certifications like BLS and a Security Guard credential. Enjoy full-time hours with competitive pay and comprehensive health benefits, all in a mission-driven environment.</p>"
     },
     {
+      "title": "Healthcare Security Officer – Per Diem",
+      "company": "Edward Elmhurst Health",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-20",
+      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-per-diem--chicago--ece184debfea5f43f423f264aec93aedf",
+      "via": "via JobLeads",
+      "description": "<p>Endeavor Health seeks a part-time Per Diem Public Safety Officer for Swedish Hospital in Chicago, IL. The role involves unarmed security, patrols, incident reporting, and assisting with police investigations as needed. You will welcome patients and staff, provide directions, and help escort duties when possible.</p><p>Requires a High School Diploma or GED, and a valid Illinois FOID within 90 days. CPR certification within 90 days, and a valid driver’s license are also required.</p>"
+    },
+    {
       "title": "Security Supervisor – Pediatric Hospital Leadership",
       "company": "SwiftCruit",
       "location": "Chicago, IL",
@@ -71,50 +115,6 @@
       "apply_link": "https://www.jobleads.com/us/job/security-supervisor-pediatric-hospital-leadership--chicago--ef090cfd87104b2379e911bdb48390d1f",
       "via": "via JobLeads",
       "description": "<p>Lurie Children’s Hospital of Chicago is seeking a Security Officer Supervisor to lead front-line teams on site, ensuring a safe environment for patients, families, staff and volunteers. The role includes training cadets, directing assignments, and enforcing hospital policies while maintaining excellent service standards.</p><p>Responsibilities encompass patrols, incident reporting, access control, dispatch operations, and emergency response across the Medical Center campus.</p>"
-    },
-    {
-      "title": "Hospital Security Supervisor: Lead, Respond & Protect",
-      "company": "Ann & Robert H. Lurie Children's Hospital of Chicago",
-      "location": "Chicago, IL",
-      "pay": "23,866–33,992 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-17",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5297149961/e/",
-      "via": "via Learn4Good",
-      "description": "Ann & Robert H. Lurie Children’s Hospital of Chicago is seeking a Front-Line Security Supervisor to lead Security Officer teams, deliver training, and enforce hospital policies.The role includes on-foot patrols, emergency response, and coordination with clinical staff to ensure patient and staff safety. The position requires a minimum of three years hospital security experience, IAHSS supervisory training, and a valid Illinois driver’s license.#J-18808-Ljbffr"
-    },
-    {
-      "title": "Hospital Security Officer (Unarmed) - Training & Growth",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-17",
-      "apply_link": "https://www.jobleads.com/us/job/hospital-security-officer-unarmed-training-growth--chicago--ecbd3fa1cc1b75052647df6f9a45f4454",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal, North America’s leading security and facility services company, is hiring a Security Officer for Northwestern Memorial Hospital Downtown Chicago.</p><p>Responsibilities include patrols, screening, de-escalation, incident response, and ensuring safety for patients and staff. Pay ranges from $19.80 to $23.30 per hour, with a $2 increase for overnight shifts, plus benefits such as medical, dental, vision, 401k, and life insurance.</p>"
-    },
-    {
-      "title": "Healthcare Security Officer-Hyde Park-Swing schedule",
-      "company": "P4 Security Solutions",
-      "location": "Chicago, IL",
-      "pay": "3,987 a month",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://bebee.com/us/jobs/healthcare-security-officer-hyde-park-swing-schedule-p4-security-solutions-chicago-il--t7xk-765965636",
-      "via": "via BeBee",
-      "description": "<p>Healthcare Security Officer-Hyde Park-Swing schedule</p>\n<p><strong>Schedule: Wednesday 3pm-11pm & Thursday/Friday 7am-7pm</strong></p>\n<p><strong>Full-time 32hrs</strong></p>\n<h4><strong>Position Overview:</strong></h4>\nHealthcare Security Officers are assigned to hospital entry points and other high-traffic areas where they operate weapons detection systems and/or magnetometers. Officers provide a welcoming presence while ensuring a safe, secure, and efficient screening process for all who enter the facility.\n<h4><strong>Key Responsibilities:</strong></h4>\n<ul>\n<li>Operate weapons..."
-    },
-    {
-      "title": "Hospital Security Professional - Full Time",
-      "company": "Saint Anthony Hospital",
-      "location": "Chicago, IL",
-      "pay": "39K–47K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://jooble.org/rjdp/-6148099948462831709",
-      "via": "via Jooble",
-      "description": "<p>Position Title: Security Officer – Security Department</p>\r\n<p>Full Time</p>\r\n<p>Day Shift</p>\r\n<p>Saint Anthony Hospital is a diverse and community‑centric organization. Our employees deliver on our mission by providing excellent customer service and patient care.</p>\r\n<p>Provides security for patients, employees, and visitors. Protects hospital buildings, assets, and premises.</p>\r\n<p>Patrols hospital buildings and premises to prevent fire, theft, vandalism, and intruders. Reports on safety and/or fire hazards or security violations. Secures and/or unlocks offices and facilities...."
     }
   ]
 }

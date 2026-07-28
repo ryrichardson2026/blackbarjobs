@@ -1,11 +1,33 @@
 {
-  "generated": "2026-07-25T15:26:01.657532+00:00",
+  "generated": "2026-07-28T16:24:09.883827+00:00",
   "page": "dallas/dallas-parking-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
-  "exact": 3,
+  "exact": 4,
   "jobs": [
+    {
+      "title": "Parking Garage Security Officer (Highland Park)",
+      "company": "Allied",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-27",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e8f53402c2005959",
+      "via": "via Indeed",
+      "description": "<p>Type: Parking Garage Security Officer</p>\n<p>Location: Highland Park, Dallas</p>\n<p>Rate: $18 per hour</p>\n<p>Job: Part-time 36 hours per week</p>\n<p>Shifts: Fridays through Tuesdays (shifts vary between the hours of 2pm-11pm)</p>\n<p>Start: Immediate</p>\n<p>Requirements:</p>\n<p>Valid Level II Unarmed Security License</p>\n<p><b>Description:</b></p>\n<p>Allied Consulting & Security Services is looking for a competent Security Officer to undertake the surveillance of our premises and protection of our staff and visitors. You will be responsible for detecting any suspicious behavior and..."
+    },
+    {
+      "title": "Event Operations Supervisor - Parking & Security",
+      "company": "SP Plus Corporation",
+      "location": "Fort Worth, TX",
+      "pay": "26K–36K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/retail/5309210667/e/",
+      "via": "via Learn4Good",
+      "description": "SP+ Fort Worth is seeking a reliable parking attendant to manage lot operations and cash handling. You will verify shift transactions, respond to customer issues, maintain order, and assist security personnel during your shift.This role emphasizes punctuality, English literacy, and adaptability to changing conditions. A high school diploma and a valid driver’s license are preferred; cashier or parking experience is welcome.#J-18808-Ljbffr"
+    },
     {
       "title": "Parking Lot Security Officer",
       "company": "RPC Company",
@@ -18,103 +40,81 @@
       "description": "<div><p><b><strong>Job Overview</strong></b></p><p>6am - 6pm Thursday - Sunday</p><p>6am - 6pm Monday - Thursday</p><p>We are seeking a dedicated Parking Lot Security Officer to join our security team, responsible for maintaining a safe and secure environment within parking facilities. This role involves monitoring access points, patrolling the premises, and ensuring the safety of all visitors, staff, and property. The ideal candidate will possess strong observational skills, a proactive approach to security, and excellent customer service abilities. This position offers an opportunity to..."
     },
     {
-      "title": "Security Officer PTO & Parking",
-      "company": "Hyatt Regency",
-      "location": "Frisco, TX",
-      "pay": "32K–48K a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.learn4good.com/jobs/frisco/texas/security/5286754812/e/",
-      "via": "via Learn4Good",
-      "description": "Position: Security Officer – Flexible Hours, PTO & Free Parking Hyatt Regency Frisco - Dallas is seeking a Security Officer to safeguard guests and employees and to uphold the hotel’s safety standards. The role requires flexible availability across AM/PM shifts, weekends and holidays, with strong observation and reporting abilities.The ideal candidate will have a genuine guest-service mindset, basic computer skills, and prior security experience preferred. You will work as part of a team in a dynamic hospitality environment to ensure a secure, welcoming#J-18808-Ljbffr"
-    },
-    {
-      "title": "Parking Enforcement Agent - Futt Time M-F / PT- Sat & Sun- Day or Evening Shift",
-      "company": "Premeir Parking Enforcemnt",
-      "location": "Dallas, TX",
-      "pay": "180–260 a day",
-      "schedule": "Full-time and Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/c_WfehYN5rT4h2jPjxbNwimBLO0A3ayE3c1w7xrUvNDmofLwJlr32Q",
+      "title": "Parking Lot Security Officer",
+      "company": "RPC Staffing",
+      "location": "Arlington, TX",
+      "pay": "18–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-22",
+      "apply_link": "https://www.simplyhired.com/job/21035-G_L5aZJaHNh5P9dlYKZD8VdoJWCQPjDHjpAuBAe1LA3AHZSw",
       "via": "via SimplyHired",
-      "description": "<p>Full Time M-F (10:30-6:30) Days</p><p>Full Time M-F (5PM-1am)</p><p>Part Time Opening Sat & Sun (10:00AM-5:00PM) and 1 Part Time Opening Sat & Sun (5PMM-12AM)</p><p>Postion ailable for hardworking and motivated individuals. This job consists of auditing prepaid parking lots in Dallas to ensure parking patrons have paid to park.</p><p><b>Responsibilities and Duties</b></p><p>Individuals that have not paid will have their vehicle immobilized (boot applied to wheel of vehicle) and charged a fee to have the boot removed. It is critical that we have technicians who are able to handle upset..."
+      "description": "<p><b>Job Overview</b></p><p>6am - 6pm Thursday - Sunday</p><p>6am - 6pm Monday - Thursday</p><p>We are seeking a dedicated Parking Lot Security Officer to join our security team, responsible for maintaining a safe and secure environment within parking facilities. This role involves monitoring access points, patrolling the premises, and ensuring the safety of all visitors, staff, and property. The ideal candidate will possess strong observational skills, a proactive approach to security, and excellent customer service abilities. This position offers an opportunity to contribute significantly..."
     },
     {
-      "title": "Security Officer - Locksmith",
+      "title": "Security Officer Vehicle Patrol Driver Security Clearance",
       "company": "Allied Universal",
-      "location": "Grand Prairie, TX",
-      "pay": "28 an hour",
+      "location": "McKinney, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-28",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-vehicle-patrol-driver-security-clearance-at-allied-universal-4445403735",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Vehicle Patrol Driver Security Clearance</strong> in <strong>McKinney, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Armed Security Officer (Part-Time)",
+      "company": "National Cinema Security",
+      "location": "Frisco, TX",
+      "pay": "23–25 an hour",
       "schedule": "Part-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-locksmith-at-allied-universal-4445271271",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>The <strong>Locksmith</strong> is responsible for the installation, repair, remodeling, and maintenance of manual and automated locks, locking systems and security devices, computerized..."
+      "posted_date": "2026-07-28",
+      "apply_link": "https://www.indeed.com/viewjob?jk=2afc0afa7fa43d82",
+      "via": "via Indeed",
+      "description": "<p>National Cinema Security is recruiting for Level 3 Commissioned Officers in the Frisco area. We are the premier Armed Security provider for most of the large movie chains in the United States. All of our work is part time. Most of our regular shifts are Fridays thru Sundays. We start our shifts at 1800 and work until the close of a theater which is typically between 0100 and 0200. <b>ALL THESE POSITIONS ARE PART TIME.</b></p>\n<p>Please read the qualifications below as they are <b>REQUIRED</b> and not preferred.</p>\n<p>1. Candidate must have a Level 3 Commissioned Officer Card issued thru..."
     },
     {
-      "title": "Security Flex Officer - Warehouse",
-      "company": "Allied Universal",
-      "location": "Wilmer, TX",
-      "pay": "15 an hour",
-      "schedule": "Internship",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-flex-officer-warehouse-at-allied-universal-4445265417",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of..."
-    },
-    {
-      "title": "Loss Prevention Manager",
-      "company": "Sabre Industries, Inc.",
-      "location": "Alvarado, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/loss-prevention-manager-at-sabre-industries-inc-4444606640",
-      "via": "via LinkedIn",
-      "description": "<strong>Brief Description<br><br></strong>At Sabre Industries, we engineer structures America can count on. We reliably build a better world together; one customer, one team, and one community at a time.<br><br>Our teams live out the organization’s core values of integrity, commitment, innovation, and connection. That’s how we continuously exceed our high standards of enterprise excellence—by creating a space for our engaged employees to thrive.<br><br>With consistent hiring opportunities nationwide and countless career levels, chances are the next big step on your career path starts here. We..."
-    },
-    {
-      "title": "Asset Protection Security Officer",
-      "company": "Home Depot",
-      "location": "Bedford, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://hiringly.directhireloop.com/joblistingpage/3ei76ffdaj4g-e144c648dc-ced4b0d93eb3-b3d2a24-a30",
-      "via": "via Direct Hire Loop",
-      "description": "<p><strong>Company Overview</strong>:</p><p>The Asset Protection Security Officer is responsible for safeguarding company assets by preventing theft, fraud, and other financial losses, while ensuring adherence to safety and environmental standards at one or multiple store locations. This role is vital in creating a secure and safe environment for both customers and associates.</p><p><strong>Role and Responsibilities</strong>:</p><p>As an Asset Protection Security Officer, you will identify potential risks, implement security procedures, and support operational and safety objectives within the..."
-    },
-    {
-      "title": "Security Officer- Badging Admin",
-      "company": "GardaWorld",
+      "title": "Hotel Security Officer – Luxury Hotel",
+      "company": "Coastal International Security",
       "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-badging-admin-at-gardaworld-4444605223",
-      "via": "via LinkedIn",
-      "description": "GardaWorld Security Services is Now Hiring a Badging Security Officer!<br><br><strong>Ready to suit up as a Badging Officer?<br><br></strong>What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.<br><br>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.<br><br><strong>What’s In It For You<br><br></strong><ul><li>Site..."
+      "pay": "40,560–50,700 a year",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-28",
+      "apply_link": "https://bebee.com/us/jobs/hotel-security-officer-luxury-hotel-coastal-international-security-fort-worth--ss-us-h3kt2o",
+      "via": "via BeBee",
+      "description": "<p><strong>Company:</strong> Coastal International Security, Inc.</p>\n<p><strong>Location:</strong> Fort Worth, TX 76107 (Cultural District)</p>\n<p><strong>Compensation:</strong> $19.50/hr</p>\n<p><strong>Job Type:</strong> Part-Time</p>\n<p><strong>Schedule:</strong> Friday & Saturday | 6:00 PM - 2:00 AM</p>\n<h4>About the Role</h4>\nThis position is ideal for candidates who understand that appearance, tone, and demeanor are just as important as vigilance and sound judgment. If you carry yourself with confidence, treat every guest interaction as an opportunity to elevate the experience, and take..."
     },
     {
-      "title": "Security Officer",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Midlothian, TX",
-      "pay": null,
+      "title": "Security Officer Site Patrol Clearance Required",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-at-securitas-security-services-usa-inc-4441860158",
+      "posted_date": "2026-07-28",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-site-patrol-clearance-required-at-allied-universal-4445420503",
       "via": "via LinkedIn",
-      "description": "We help make your world a safer place.<br><br>Securitas is a global company that offers the most advanced and sustainable security solutions in the industry. We are located in 47 countries and have 355,000 employees worldwide and over 150,000 clients.<br><br>Securitas plays an essential role for our clients and in society. The<strong> Security Officer</strong> position helps maintain a safe and secure environment for our clients by actively monitoring the premises, including patrolling a variety of locations. They preserve order while enforcing regulations and directives for a client site..."
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Site Patrol Clearance Required</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
     },
     {
-      "title": "Asset Protection Security Officer",
-      "company": "Home Depot",
-      "location": "Mesquite, TX",
-      "pay": null,
+      "title": "Security Officer Patrol Services",
+      "company": "Allied Universal",
+      "location": "Allen, TX",
+      "pay": "22 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-07-24",
-      "apply_link": "https://hiringly.directhireloop.com/joblistingpage/dy4h3ia76de2-c1915fdf90-0142-706ec3fa90-05b18988",
-      "via": "via Direct Hire Loop",
-      "description": "<p><strong>Company Overview</strong>:</p><p>The Asset Protection Security Officer is responsible for safeguarding company assets by preventing theft, fraud, and other financial losses, while ensuring adherence to safety and environmental standards at one or multiple store locations. This role is vital in creating a secure and safe environment for both customers and associates.</p><p><strong>Role and Responsibilities</strong>:</p><p>As an Asset Protection Security Officer, you will identify potential risks, implement security procedures, and support operational and safety objectives within the..."
+      "posted_date": "2026-07-28",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-services-at-allied-universal-4445198871",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Services</strong> in <strong>Allen, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more...."
+    },
+    {
+      "title": "Commissioned Security Officer / JPS Hospital",
+      "company": "USAPD",
+      "location": "Dallas, TX",
+      "pay": "20–22 an hour",
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-07-28",
+      "apply_link": "https://www.indeed.com/viewjob?jk=b18366831beb36ff",
+      "via": "via Indeed",
+      "description": "<p><b>Job Summary</b><br>\n  We are seeking a vigilant and proactive Level 3 Security Professional to join our dynamic team. In this role, you will be responsible for maintaining a safe environment by monitoring premises, managing access points, and responding swiftly to incidents. Your expertise in surveillance, conflict management, and emergency response will be vital in protecting property, assets, and personnel.</p>\n<p><b>Duties</b></p>\n<ul>\n <li>Detect suspicious activity or security breaches.</li>\n <li>Control access for employees, visitors, contractors, and vendors by verifying..."
     }
   ]
 }

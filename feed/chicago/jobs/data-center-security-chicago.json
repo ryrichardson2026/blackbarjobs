@@ -1,21 +1,43 @@
 {
-  "generated": "2026-07-25T15:26:01.657532+00:00",
+  "generated": "2026-07-28T16:24:09.883827+00:00",
   "page": "chicago/jobs/data-center-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
-  "exact": 9,
+  "exact": 10,
   "jobs": [
     {
-      "title": "Data Center Security Officer L1 – Access, CCTV",
+      "title": "Data Center Security Operations Lead",
+      "company": "Amazon Web Services (AWS)",
+      "location": "Chicago, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-operations-lead--chicago--ec66dc0f40d0c620beedfb9fa8604bed9",
+      "via": "via JobLeads",
+      "description": "<p>Amazon Data Services, Inc. is seeking a Data Center Security Specialist to join our Infrastructure Operations team in Chicago.</p><p>You will help manage and improve site security operations across our data centers, collaborating with security vendors and internal teams to uphold the highest standards of physical security. Basic qualifications include 2+ years overseeing security operations and working with security vendors.</p>"
+    },
+    {
+      "title": "Data Center Security Officer I",
       "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
-      "pay": "27,813–39,743 a year",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-21",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-officer-i--chicago--e14c62ce436500f587b4fa68c91a23693",
+      "via": "via JobLeads",
+      "description": "<p>NTT Global Data Centers Americas, Inc. is seeking an on-site Security Officer L1 to protect personnel and property at a data center. You will manage access control, monitor CCTV, respond to incidents, and complete written reports in a client-facing role.</p><p>The role requires strong observation and communication skills, the ability to multi-task, and adherence to security procedures. A valid driver’s license and ability to work a 1pm-7pm shift midweek is essential.</p>"
+    },
+    {
+      "title": "Data Center Security Officer — Onsite & Impactful",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": "27,552–39,950 a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-19",
-      "apply_link": "https://us.trabajo.org/job-2283-d3c9a3213d3a0a1ee8911b928cabb987",
-      "via": "via Trabajo.org",
-      "description": "NTT Global Data Centers Americas, Inc. is hiring a Security Officer Level 1 to ensure the safety of personnel and property at a Chicago facility. This role involves monitoring security systems, conducting patrols, and responding to incidents while adhering to strict security protocols. The ideal candidate should possess a high school diploma, at least one year of security experience, and be able to work flexible hours, including weekends. Competitive compensation and benefits packages are provided, including potential bonuses. J-18808-Ljbffr"
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5300746598/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Data Center Security Officer — Onsite & Impactful Role NTT Global Data Centers Americas, Inc. is seeking an experienced Security Officer L1 to reinforce a site security team at our Chicago-area facility. You will manage access control, observe all activities, respond to incidents, and prepare detailed shift reports.Collaboration with DCOPS and other departments is essential to maintain smooth operations. The role requires a high school diploma or GED, security certifications, and at least one year in security.#J-18808-Ljbffr"
     },
     {
       "title": "Data Center Security Officer - On-Site Access & CCTV",
@@ -27,6 +49,17 @@
       "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5302001714/e/",
       "via": "via Learn4Good",
       "description": "Position: Data Center Security Officer I - On-Site Access & CCTV NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 to support site security. Under supervision, you will manage access control, monitor CCTV, and respond to incidents while maintaining thorough written reports.Key tasks include daily identification verification, patrols, system monitoring, and emergency response. A strong customer-service focus and the ability to work a demanding schedule are essential.#J-18808-Ljbffr"
+    },
+    {
+      "title": "Data Center Security Officer L1 – Access, CCTV",
+      "company": "NTT Global Data Centers Americas, Inc.",
+      "location": "Chicago, IL",
+      "pay": "27,813–39,743 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-19",
+      "apply_link": "https://us.trabajo.org/job-2283-d3c9a3213d3a0a1ee8911b928cabb987",
+      "via": "via Trabajo.org",
+      "description": "NTT Global Data Centers Americas, Inc. is hiring a Security Officer Level 1 to ensure the safety of personnel and property at a Chicago facility. This role involves monitoring security systems, conducting patrols, and responding to incidents while adhering to strict security protocols. The ideal candidate should possess a high school diploma, at least one year of security experience, and be able to work flexible hours, including weekends. Competitive compensation and benefits packages are provided, including potential bonuses. J-18808-Ljbffr"
     },
     {
       "title": "Account Manager Data Center",
@@ -62,28 +95,6 @@
       "description": "<p>NTT Global Data Centers Americas, Inc. is seeking an experienced Security Officer L1 to reinforce a site security team at our Chicago-area facility. You will manage access control, observe all activities, respond to incidents, and prepare detailed shift reports.</p><p>Collaboration with DCOPS and other departments is essential to maintain smooth operations. The role requires a high school diploma or GED, security certifications, and at least one year in security.</p>\n#J-18808-Ljbffr"
     },
     {
-      "title": "Senior Data Center Construction Safety Lead",
-      "company": "Compliance Management International",
-      "location": "Lombard, IL",
-      "pay": "125K–140K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-17",
-      "apply_link": "https://www.jobleads.com/us/job/senior-data-center-construction-safety-lead--lombard--ec73192b727345f37a26cb1372dcea7f4",
-      "via": "via JobLeads",
-      "description": "Compliance Management International (CMI) is hiring a Construction Safety Professional in Lombard, Illinois. This role ensures safety standards on data center construction projects by mentoring staff and leading safety initiatives. Candidates should have over 5 years of construction safety experience, particularly in mission-critical facilities. Knowledge of OSHA standards and excellent communication skills are essential. Salary ranges from $125,000 to $140,000 USD. Full-time benefits included."
-    },
-    {
-      "title": "Data Center Security Specialist I On-Site",
-      "company": "NTT Global Data Centers Americas, Inc.",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://www.jobleads.com/us/job/data-center-security-specialist-i-on-site--chicago--eb8b7335a1aac7d035c61cca376f99291",
-      "via": "via JobLeads",
-      "description": "<p>NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 for a Sunday–Tuesday 7am–7pm shift at our Chicago data center. You will manage access, monitor CCTV, and respond to incidents to protect personnel and property.</p><p>You will collaborate with DCOPS and other teams, complete reports, and uphold security procedures while maintaining a professional client-facing presence and adherence to PPE and safety rules.</p>"
-    },
-    {
       "title": "Data Center Security Officer: Access, CCTV & Safety",
       "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
@@ -95,26 +106,15 @@
       "description": "<p>NTT Global Data Centers Americas, Inc. seeks a Security Officer Level 1 to support security operations at a Chicago-area data center.</p><p>You will enforce access control, monitor CCTV, respond to incidents, and prepare concise written reports while coordinating with the DCOPS team. The role requires effective communication, teamwork, and the ability to work a Wednesday 1pm-7pm shift and a Thursday–Saturday 7am–7pm schedule.</p>"
     },
     {
-      "title": "Account Manager - Data Center",
-      "company": "Securitas Security Services",
+      "title": "Data Center Security Specialist I On-Site",
+      "company": "NTT Global Data Centers Americas, Inc.",
       "location": "Chicago, IL",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-13",
-      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172557/?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30&utm_source=google&weekdayJdUid=1984381utm_mediumutm_medium",
-      "via": "via Cloud Sign In",
-      "description": "<p style=\"line-height: 150%;\"><span><strong><u>Data Center Account Manager – Full Time – Chicago, IL</u></strong></span></p><p style=\"line-height: 150%;\"><i><span>We offer a full benefits package, PTO, weekly pay, and more!</span></i></p><p style=\"line-height: 150%;\"><span><strong>Rate:</strong> $75,000/Year</span></p><p style=\"line-height: 150%;\"><span><strong>We help make your world a safer place.</strong></span></p><p style=\"line-height: 150%;\"><span>Are you a motivated and experienced security professional looking for the next step in your career? The Downtown Chicago Area has an exciting..."
-    },
-    {
-      "title": "Alarm Monitoring Operator / Central Station Alarm Dispatcher",
-      "company": "EMERGENCY 24 INC",
-      "location": "Des Plaines, IL",
-      "pay": "18–20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-25",
-      "apply_link": "https://www.ziprecruiter.com/c/EMERGENCY-24/Job/Alarm-Monitoring-Operator-Central-Station-Alarm-Dispatcher/-in-Des-Plaines,IL?jid=ef42ecf8a8f1b2c0",
-      "via": "via ZipRecruiter",
-      "description": "About Emergency24<p>Emergency24 has been a trusted leader in emergency response and professional monitoring services for over five decades. We are proud to be a family-owned and operated company headquartered in the Chicago suburbs. With a strong commitment to reliability, integrity, and service, we’ve earned the trust of clients and partners nationwide.</p> The Opportunity<p>Emergency24 is seeking an Alarm Monitoring Dispatcher Emergency Responses to serve as the first point of contact during emergencies. In this role, you’ll play a vital part in protecting lives and property by responding..."
+      "posted_date": "2026-07-14",
+      "apply_link": "https://www.jobleads.com/us/job/data-center-security-specialist-i-on-site--chicago--eb8b7335a1aac7d035c61cca376f99291",
+      "via": "via JobLeads",
+      "description": "<p>NTT Global Data Centers Americas, Inc. is seeking a Security Officer Level 1 for a Sunday–Tuesday 7am–7pm shift at our Chicago data center. You will manage access, monitor CCTV, and respond to incidents to protect personnel and property.</p><p>You will collaborate with DCOPS and other teams, complete reports, and uphold security procedures while maintaining a professional client-facing presence and adherence to PPE and safety rules.</p>"
     }
   ]
 }
