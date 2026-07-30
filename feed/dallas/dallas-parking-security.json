@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-28T16:24:09.883827+00:00",
+  "generated": "2026-07-30T16:09:57.362544+00:00",
   "page": "dallas/dallas-parking-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
-  "exact": 4,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Parking Security Professional",
+      "company": "Erickson Senior Living",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Part-time and Contractor",
+      "posted_date": "2026-07-28",
+      "apply_link": "https://jooble.org/rjdp/-5505860200929764078",
+      "via": "via Jooble",
+      "description": "<p>In this role you will staff the Gatehouse entrance to the community and deliver exceptional customer service and hospitality, while fostering an environment of safety and security.</p>\r\n<p>A culture of diversity, inclusion, equity and belonging, which builds on our mission, vision and values</p>\r\n<p>Medical, dental and vision packages, including an annual reimbursement for qualified wellness expenses, personal health coaching and telemedicine options</p>\r\n<p>Onsite medical centers, providing wellness visits and sick care for all team members over 18 years of age</p>\r\n<p>30% discount on..."
+    },
     {
       "title": "Parking Garage Security Officer (Highland Park)",
       "company": "Allied",
@@ -16,6 +27,17 @@
       "apply_link": "https://www.indeed.com/viewjob?jk=e8f53402c2005959",
       "via": "via Indeed",
       "description": "<p>Type: Parking Garage Security Officer</p>\n<p>Location: Highland Park, Dallas</p>\n<p>Rate: $18 per hour</p>\n<p>Job: Part-time 36 hours per week</p>\n<p>Shifts: Fridays through Tuesdays (shifts vary between the hours of 2pm-11pm)</p>\n<p>Start: Immediate</p>\n<p>Requirements:</p>\n<p>Valid Level II Unarmed Security License</p>\n<p><b>Description:</b></p>\n<p>Allied Consulting & Security Services is looking for a competent Security Officer to undertake the surveillance of our premises and protection of our staff and visitors. You will be responsible for detecting any suspicious behavior and..."
+    },
+    {
+      "title": "Parking Lot Security Officer",
+      "company": "RPC Company",
+      "location": "Arlington, TX",
+      "pay": "18–21 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-23",
+      "apply_link": "https://www.ziprecruiter.com/c/RPC/Job/Parking-Lot-Security-Officer/-in-Arlington,TX?jid=1c138d6273bb7392",
+      "via": "via ZipRecruiter",
+      "description": "<div><p><b><strong>Job Overview</strong></b></p><p>6am - 6pm Thursday - Sunday</p><p>6am - 6pm Monday - Thursday</p><p>We are seeking a dedicated Parking Lot Security Officer to join our security team, responsible for maintaining a safe and secure environment within parking facilities. This role involves monitoring access points, patrolling the premises, and ensuring the safety of all visitors, staff, and property. The ideal candidate will possess strong observational skills, a proactive approach to security, and excellent customer service abilities. This position offers an opportunity to..."
     },
     {
       "title": "Event Operations Supervisor - Parking & Security",
@@ -30,17 +52,6 @@
     },
     {
       "title": "Parking Lot Security Officer",
-      "company": "RPC Company",
-      "location": "Arlington, TX",
-      "pay": "18–21 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.ziprecruiter.com/c/RPC/Job/Parking-Lot-Security-Officer/-in-Arlington,TX?jid=1c138d6273bb7392",
-      "via": "via ZipRecruiter",
-      "description": "<div><p><b><strong>Job Overview</strong></b></p><p>6am - 6pm Thursday - Sunday</p><p>6am - 6pm Monday - Thursday</p><p>We are seeking a dedicated Parking Lot Security Officer to join our security team, responsible for maintaining a safe and secure environment within parking facilities. This role involves monitoring access points, patrolling the premises, and ensuring the safety of all visitors, staff, and property. The ideal candidate will possess strong observational skills, a proactive approach to security, and excellent customer service abilities. This position offers an opportunity to..."
-    },
-    {
-      "title": "Parking Lot Security Officer",
       "company": "RPC Staffing",
       "location": "Arlington, TX",
       "pay": "18–21 an hour",
@@ -51,70 +62,59 @@
       "description": "<p><b>Job Overview</b></p><p>6am - 6pm Thursday - Sunday</p><p>6am - 6pm Monday - Thursday</p><p>We are seeking a dedicated Parking Lot Security Officer to join our security team, responsible for maintaining a safe and secure environment within parking facilities. This role involves monitoring access points, patrolling the premises, and ensuring the safety of all visitors, staff, and property. The ideal candidate will possess strong observational skills, a proactive approach to security, and excellent customer service abilities. This position offers an opportunity to contribute significantly..."
     },
     {
-      "title": "Security Officer Vehicle Patrol Driver Security Clearance",
-      "company": "Allied Universal",
-      "location": "McKinney, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-vehicle-patrol-driver-security-clearance-at-allied-universal-4445403735",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Vehicle Patrol Driver Security Clearance</strong> in <strong>McKinney, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
-    },
-    {
-      "title": "Armed Security Officer (Part-Time)",
-      "company": "National Cinema Security",
-      "location": "Frisco, TX",
-      "pay": "23–25 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2afc0afa7fa43d82",
-      "via": "via Indeed",
-      "description": "<p>National Cinema Security is recruiting for Level 3 Commissioned Officers in the Frisco area. We are the premier Armed Security provider for most of the large movie chains in the United States. All of our work is part time. Most of our regular shifts are Fridays thru Sundays. We start our shifts at 1800 and work until the close of a theater which is typically between 0100 and 0200. <b>ALL THESE POSITIONS ARE PART TIME.</b></p>\n<p>Please read the qualifications below as they are <b>REQUIRED</b> and not preferred.</p>\n<p>1. Candidate must have a Level 3 Commissioned Officer Card issued thru..."
-    },
-    {
-      "title": "Hotel Security Officer – Luxury Hotel",
-      "company": "Coastal International Security",
-      "location": "Fort Worth, TX",
-      "pay": "40,560–50,700 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://bebee.com/us/jobs/hotel-security-officer-luxury-hotel-coastal-international-security-fort-worth--ss-us-h3kt2o",
-      "via": "via BeBee",
-      "description": "<p><strong>Company:</strong> Coastal International Security, Inc.</p>\n<p><strong>Location:</strong> Fort Worth, TX 76107 (Cultural District)</p>\n<p><strong>Compensation:</strong> $19.50/hr</p>\n<p><strong>Job Type:</strong> Part-Time</p>\n<p><strong>Schedule:</strong> Friday & Saturday | 6:00 PM - 2:00 AM</p>\n<h4>About the Role</h4>\nThis position is ideal for candidates who understand that appearance, tone, and demeanor are just as important as vigilance and sound judgment. If you carry yourself with confidence, treat every guest interaction as an opportunity to elevate the experience, and take..."
-    },
-    {
-      "title": "Security Officer Site Patrol Clearance Required",
+      "title": "Security Officer Entry Verification",
       "company": "Allied Universal",
       "location": "Richardson, TX",
       "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-site-patrol-clearance-required-at-allied-universal-4445420503",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-30",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-entry-verification-at-allied-universal-4446822848",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Site Patrol Clearance Required</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Entry Verification</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Financial..."
     },
     {
-      "title": "Security Officer Patrol Services",
+      "title": "Security Officer Enhanced Part Time Patrol Documentation",
       "company": "Allied Universal",
-      "location": "Allen, TX",
-      "pay": "22 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-patrol-services-at-allied-universal-4445198871",
+      "location": "Coppell, TX",
+      "pay": "19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-30",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-patrol-documentation-at-allied-universal-4446822847",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Patrol Services</strong> in <strong>Allen, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more...."
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
     },
     {
-      "title": "Commissioned Security Officer / JPS Hospital",
-      "company": "USAPD",
+      "title": "Security Guard Part Time Visitor Reception",
+      "company": "Allied Universal",
+      "location": "Plano, TX",
+      "pay": "19 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-30",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-part-time-visitor-reception-at-allied-universal-4446897152",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Guard Part Time Visitor Reception</strong> in <strong>Plano, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom,..."
+    },
+    {
+      "title": "Security Guard Full Time Guest Reception",
+      "company": "Allied Universal",
+      "location": "Plano, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-30",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-guest-reception-at-allied-universal-4446890390",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Guard Full Time Guest Reception</strong> in <strong>Plano, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom,..."
+    },
+    {
+      "title": "Security Officer - Front Desk Reception",
+      "company": "Allied Universal",
       "location": "Dallas, TX",
-      "pay": "20–22 an hour",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b18366831beb36ff",
-      "via": "via Indeed",
-      "description": "<p><b>Job Summary</b><br>\n  We are seeking a vigilant and proactive Level 3 Security Professional to join our dynamic team. In this role, you will be responsible for maintaining a safe environment by monitoring premises, managing access points, and responding swiftly to incidents. Your expertise in surveillance, conflict management, and emergency response will be vital in protecting property, assets, and personnel.</p>\n<p><b>Duties</b></p>\n<ul>\n <li>Detect suspicious activity or security breaches.</li>\n <li>Control access for employees, visitors, contractors, and vendors by verifying..."
+      "pay": "21 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-07-30",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-front-desk-reception-at-allied-universal-4446842077",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Alarm Panel Patrol</strong> in <strong>Dallas, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense,..."
     }
   ]
 }

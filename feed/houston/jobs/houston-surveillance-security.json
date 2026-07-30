@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-28T16:24:09.883827+00:00",
+  "generated": "2026-07-30T16:09:57.362544+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Surveillance Security Officer: Vigilant Screen Monitor",
+      "company": "Garda World Security",
+      "location": "Houston, TX",
+      "pay": "30K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-07-25",
+      "apply_link": "https://www.jobleads.com/us/job/surveillance-security-officer-vigilant-screen-monitor--houston--efb693acd58aa34a1a9100b2c20a96b04",
+      "via": "via JobLeads",
+      "description": "<p>Garda World Security in Houston is seeking a Surveillance Security Officer responsible for monitoring surveillance systems, detecting threats, and maintaining safety across various environments. Candidates should have exceptional observation skills and attention to detail.</p><p>This role is crucial for preventing issues before they escalate, ensuring a secure environment for clients and the public. Ideal candidates have prior experience in security roles and are ready to take on this important responsibility.</p>"
+    },
     {
       "title": "Security Officers - Overnight Monitoring",
       "company": "Securitas Security Services USA",
@@ -73,17 +84,6 @@
       "description": "<p>Green City Security is seeking a daytime security officer for a part-time role in Houston, TX 77049. The position is unarmed and operates on Saturdays and Sundays from 12 PM to 8 PM, with a pay rate of $15.50 per hour.</p><p>We are a Human-Powered company emphasizing HONESTY, INTEGRITY, JOY, AND PROFESSIONALISM, committed to protecting clients, employees, and shareholders with trained officers and up-to-date technology.</p>"
     },
     {
-      "title": "Field Surveillance Security Supervisor — Watch & Respond",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-17",
-      "apply_link": "https://jooble.org/jdp/-3645967231900692677",
-      "via": "via Jooble",
-      "description": "<p>GardaWorld is seeking to hire a Surveillance Security Supervisor in Houston, TX. The role involves monitoring security systems, documenting incidents, and ensuring the safety of premises...\nThe ideal candidate will have strong report-writing skills, a valid driver's license, and at least 1 year of experience in a similar role. Competitive hourly wage and comprehensive benefits package are available.\n\n#J-18808-Ljbffr  GardaWorld\n</p>"
-    },
-    {
       "title": "Security Officer - Access Control, CCTV & Quick Response",
       "company": "United Protective Services",
       "location": "Houston, TX",
@@ -95,26 +95,26 @@
       "description": "<p>United Protective Services in Houston, TX is seeking a vigilant Security Officer to help protect people and property. This full-time role requires reliable, responsible individuals who can monitor access, respond to alarms, and document incidents accurately.</p><p>You will work on-site, operate CCTV, and enforce company policies while delivering professional service. Benefits include health coverage and paid training to support your security career.</p>"
     },
     {
-      "title": "Data Center Surveillance Officer",
+      "title": "Field Surveillance Security Supervisor — Watch & Respond",
       "company": "GardaWorld",
       "location": "Houston, TX",
       "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/data-center-surveillance-officer/c0cab9c9-a243-499b-a99b-080bc1152acf",
-      "via": "via GardaWorld - GardaWorld Security",
-      "description": "<p>GardaWorld Security Services is Now Hiring Data Center Security Officers!</p><p><b>** Must be 21 or older with a valid driver's license and clean driving record**</b></p><p><b>Ready to suit up as a Data Center Security Officer?</b></p><p>What matters most about this role is your exceptional customer service skills, exceptional communications skillset, proficient computer skills and flexibility.</p><p>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations center, call centers, parking gatehouses,..."
+      "schedule": "Full-time",
+      "posted_date": "2026-07-17",
+      "apply_link": "https://jooble.org/jdp/-3645967231900692677",
+      "via": "via Jooble",
+      "description": "<p>GardaWorld is seeking to hire a Surveillance Security Supervisor in Houston, TX. The role involves monitoring security systems, documenting incidents, and ensuring the safety of premises...\nThe ideal candidate will have strong report-writing skills, a valid driver's license, and at least 1 year of experience in a similar role. Competitive hourly wage and comprehensive benefits package are available.\n\n#J-18808-Ljbffr  GardaWorld\n</p>"
     },
     {
-      "title": "Industrial Security Officer - Morning Access Control & CCTV",
-      "company": "CITY SECURITY CO INC",
+      "title": "Surveillance Camera Operator",
+      "company": "Zaladium Analytics",
       "location": "Houston, TX",
-      "pay": null,
+      "pay": "35K–40K a year",
       "schedule": "Full-time",
-      "posted_date": "2026-07-14",
-      "apply_link": "https://bebee.com/us/jobs/industrial-security-officer-morning-access-control-cctv-city-security-co-inc-houston--lensa-7428_2f7bf22300448f9f2d19db8a0573b531e3164985d5479fc06aa687e3d103c0f0",
-      "via": "via BeBee",
-      "description": "<p>City Security Services is seeking a Security Officer for an industrial environment in Houston, Texas. The role involves verifying access credentials, monitoring CCTV, and providing exceptional customer service while ensuring safety.\nApplicants should hold or be able to obtain a Level 2 security license, have reliable attendance, and must be available for morning shifts. This position offers competitive pay at $16/hr and opportunities for training and career advancement.</p>"
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Zaladium-Analytics/Job/Surveillance-Camera-Operator/-in-Houston,TX?jid=281fcc1a83b6de87",
+      "via": "via ZipRecruiter",
+      "description": "<div><p>Zaladium Analytics is a fast-growing security technology company specializing in the deployment and monitoring of advanced security cameras and environmental sensors. Due to recent growth we have an immediate opening for a full time SURVEILLANCE CAMERA OPERATOR to join our team.</p><p>If you are looking for a challenging career with a solid company and have the skills and “can do” positive attitude, we want to hear from you!</p><p>Job Description: Monitor security cameras and respond to alerts and incidents observed.</p><p>Duties and Responsibilities include the following but are NOT..."
     }
   ]
 }
