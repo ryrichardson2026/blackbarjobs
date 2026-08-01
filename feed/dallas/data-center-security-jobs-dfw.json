@@ -1,11 +1,22 @@
 {
-  "generated": "2026-07-30T16:09:57.362544+00:00",
+  "generated": "2026-08-01T15:14:39.454033+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Armed Security Flex Officer - Data Center",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-07-29",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/armed-security-flex-officer-data-center/22950/98527959648",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Company Overview: </span></p><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</span></p><br><br><p style='margin-bottom: .0001pt;'><span..."
+    },
     {
       "title": "Staff Data Center Area Security Manager, Compliance, Safety, and Risk Management",
       "company": "Google",
@@ -51,50 +62,6 @@
       "description": "<p>QTS Realty Trust is seeking a Federal Security Manager I to provide a visible, on-site security presence across a data center facility in Fort Worth, TX. The role ensures safe operations, enforces security policies, manages access control, CCTV, and incident response, and supports audits and reporting.</p><p>Responsibilities include supervising contracted security staff, coordinating with law enforcement, conducting training, and maintaining safety drills and emergency plans in a 24x7 environment.</p>"
     },
     {
-      "title": "Federal Security Lead – Onsite Data Center Security",
-      "company": "Quality Technology Services, LLC",
-      "location": "Fort Worth, TX",
-      "pay": "95K–125K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.jobleads.com/us/job/federal-security-lead-onsite-data-center-security--fort-worth--e9420e66e0e2421ce6895029e752fa879",
-      "via": "via JobLeads",
-      "description": "<p>Quality Technology Services, LLC in Fort Worth, TX is seeking a Federal Security Manager I to oversee on-site security for a 24x7 data center environment. This role reports to the Regional Manager, Federal Security and supports compliance with National Industrial Security Program and government regulations.</p><p>The position requires on-site work, frontline supervision of security staff, and dynamic incident response, access control, CCTV, and audits.</p>"
-    },
-    {
-      "title": "Security Officer Data Center",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Data-Center/-in-Richardson,TX?jid=acecd89c485a8186",
-      "via": "via ZipRecruiter",
-      "description": "Overview<p> Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>Job Description<p> As a <strong>Security Officer Patrol Rounds</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. Join Allied Universal as an Unarmed Patrol..."
-    },
-    {
-      "title": "Data Center Security Shift Manager",
-      "company": "Wells Fargo",
-      "location": "Garland, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-16",
-      "apply_link": "https://www.ziprecruiter.com/c/Wells-Fargo/Job/Data-Center-Security-Shift-Manager/-in-Garland,TX?jid=00cc3e947d177097",
-      "via": "via ZipRecruiter",
-      "description": "<p><b>About this role:</b></p><p>Wells Fargo is seeking a Data Center Security Shift Manager in Garland, TX.</p><p><br/><b><b>In this role, you will:</b></b></p><ul><li><p>Supervise varying levels of professionals in consulting and risk-based security products and services based on defined protocols, tasks and processes to ensure timely completion, quality and compliance Corporate Security</p></li><li><p>Identify opportunities for developing, recommending, and implementing physical security equipment standards and policies to minimize the associated risks of criminal incidents against company..."
-    },
-    {
-      "title": "Security Officer Patrol Data Center",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.careerbuilder.com/job-details/security-officer-patrol-data-center-richardson-tx--f7fd67a5-c928-40cb-aa93-0dd5662896cb",
-      "via": "via CareerBuilder",
-      "description": "<p>Security Officer Patrol Data Center</p><p>Richardson, Texas Position Type: Full Time Shift Type: Overnight Req ID: 2026-1600313 Work Days Available: Monday, Tuesday, Wednesday, Thursday, Friday Date posted: 05/26/2026</p><p>Apply Save Job</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a..."
-    },
-    {
       "title": "Security Officer Flex Data Center",
       "company": "Allied Universal",
       "location": "Carrollton, TX",
@@ -115,6 +82,39 @@
       "apply_link": "https://www.tealhq.com/job/data-center-security-officer_7ea1a506e088b1761dfc48f86477dbc73e695",
       "via": "via Teal",
       "description": "<p>About the position</p><p>Sunstates Security is currently hiring Data Center Security Officers in the Roanoke, TX area. These positions will be Full-time/ Part-time & All shifts. These positions offer a pay rate of \\$23.00/hr paid weekly. Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!</p><p>Responsibilities</p><ul><li>A Security Officer may perform a multitude of..."
+    },
+    {
+      "title": "Security Officer Patrol Data Center",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.careerbuilder.com/job-details/security-officer-patrol-data-center-richardson-tx--f7fd67a5-c928-40cb-aa93-0dd5662896cb",
+      "via": "via CareerBuilder",
+      "description": "<p>Security Officer Patrol Data Center</p><p>Richardson, Texas Position Type: Full Time Shift Type: Overnight Req ID: 2026-1600313 Work Days Available: Monday, Tuesday, Wednesday, Thursday, Friday Date posted: 05/26/2026</p><p>Apply Save Job</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a..."
+    },
+    {
+      "title": "Data Center Security Officers- $23.00/hr (#96)",
+      "company": "Sunstates Security",
+      "location": "Fort Worth, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/data-center-security-officers-2300-hr-96-sunstates-security-fort-worth--ss-us-ohohk0",
+      "via": "via BeBee",
+      "description": "<h2>Overview</h2>\nBecome part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener..."
+    },
+    {
+      "title": "Construction Site Safety / Security - Data Center Construction",
+      "company": "Turner & Townsend",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.tealhq.com/job/construction-site-safety-security_7ea1ab1c2fb902fee2648f71bcd03522f845b",
+      "via": "via Teal",
+      "description": "<p>About the position</p><p>Turner & Townsend is a global professional services company with over 22,000 people in more than 60 countries, specializing in real estate, infrastructure, energy, and natural resources. They offer capabilities in programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero, and digital solutions. Majority-owned by CBRE Group, Inc., Turner & Townsend and CBRE collaborate to provide premier programme, project, and cost management offerings globally. Turner & Townsend is seeking an experienced..."
     }
   ]
 }

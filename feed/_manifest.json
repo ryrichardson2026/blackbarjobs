@@ -1,12 +1,16 @@
 {
-  "generated": "2026-07-30T16:09:57.362544+00:00",
+  "generated": "2026-08-01T15:14:39.454033+00:00",
   "pages": 199,
   "empty": [],
   "fallback_heavy": [
     "dallas/dallas-bar-club-security",
+    "houston/jobs/houston-bar-club-security",
+    "houston/jobs/houston-construction-security",
     "houston/jobs/houston-festival-security",
     "houston/jobs/houston-armed-overnight-security",
+    "houston/jobs/construction-security-houston",
     "austin/jobs/armed-overnight-security-austin",
+    "austin/jobs/industrial-security-austin",
     "austin/jobs/overnight-warehouse-security-austin",
     "dallas/overnight-warehouse-security-dfw",
     "houston/jobs/overnight-warehouse-security-houston",
@@ -14,6 +18,7 @@
     "san-antonio/jobs/overnight-warehouse-security-san-antonio",
     "chicago/jobs/dispatch-security-chicago",
     "chicago/jobs/manufacturing-security-chicago",
+    "chicago/jobs/industrial-security-chicago",
     "chicago/jobs/overnight-warehouse-security-joliet"
   ]
 }
