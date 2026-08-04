@@ -1,9 +1,13 @@
 {
-  "generated": "2026-08-01T15:14:39.454033+00:00",
+  "generated": "2026-08-04T16:30:32.533975+00:00",
   "pages": 199,
   "empty": [],
   "fallback_heavy": [
+    "dallas/dallas-festival-security",
     "dallas/dallas-bar-club-security",
+    "dallas/construction-security-jobs-dfw",
+    "san-antonio/jobs/construction-security-san-antonio",
+    "san-antonio/jobs/residential-security-san-antonio",
     "houston/jobs/houston-bar-club-security",
     "houston/jobs/houston-construction-security",
     "houston/jobs/houston-festival-security",

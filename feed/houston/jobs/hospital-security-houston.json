@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-01T15:14:39.454033+00:00",
+  "generated": "2026-08-04T16:30:32.533975+00:00",
   "page": "houston/jobs/hospital-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Lead Hospital Security Officer - Part Time",
+      "company": "The GEO Group, Inc.",
+      "location": "Houston, TX",
+      "pay": "40K–54K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-02",
+      "apply_link": "https://www.jobleads.com/us/job/lead-hospital-security-officer-part-time--houston--e5d3a2b1bda48c91752c8b902fd9173de",
+      "via": "via JobLeads",
+      "description": "<p>The GEO Group, Inc. is seeking a Lead Hospital Officer in Houston to supervise detainees in a hospital setting under established procedures. This role requires strong leadership, adherence to security protocols, and coordinating with hospital and GEO teams.</p><p>You will uphold safety, follow restraint protocols, and complete required paperwork while respecting contracts and applicable laws. The position supports GEO's mission to deliver rehabilitation services.</p>"
+    },
     {
       "title": "Surveillance Security - Hospital",
       "company": "GardaWorld",
@@ -49,17 +60,6 @@
       "apply_link": "https://www.jobleads.com/us/job/night-hospital-security-officer-visitor-access-control--houston--e93d1e687185211d2d694d6657d02f495",
       "via": "via JobLeads",
       "description": "<p>Texas Children's Hospital in Houston is seeking a full-time night shift NCSO Security Officer to maintain a safe environment for patients, visitors and staff.</p><p>You will staff posts, monitor access, document logs, and respond to emergencies, working as a visible deterrent and coordinating with security leadership.</p><p>Candidates should have a High School diploma, BLS, NCSO and Texas Driver's License, with a year of security or related experience.</p>"
-    },
-    {
-      "title": "Hospital Security Officer: Patient Safety & Care",
-      "company": "Memorial Hermann Health System",
-      "location": "Houston, TX",
-      "pay": "20,664–30,307 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-26",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5314054248/e/",
-      "via": "via Learn4Good",
-      "description": "Memorial Hermann Health System is looking for a Security Officer to protect hospital campuses and promote safe, secure environments for patients, staff, and visitors. You will monitor areas, control access, and respond to incidents with professionalism and empathy.The role requires licensing as a Texas commissioned security officer, CPR/BLS certification within 90 days if not current, and strong English communication.#J-18808-Ljbffr"
     },
     {
       "title": "Healthcare Security",
@@ -112,9 +112,9 @@
       "pay": "42K–68K a year",
       "schedule": "Full-time",
       "posted_date": "2026-07-21",
-      "apply_link": "https://www.jobleads.com/us/job/healthcare-security-officer-patient-safety-champion--houston--e4533cfc286051b245c97acdaa53e3221",
-      "via": "via JobLeads",
-      "description": "<p>Houston Methodist is seeking a Security Officer to maintain a safe environment for patients, staff and visitors by patrolling hospital premises, monitoring surveillance and access points, and assisting with personal protection and emergency response.</p><p>This role requires the ability to communicate effectively, multi-task under pressure, and adhere to HIPAA and safety policies. Applicants should have a high school diploma and security-related experience, plus the licenses listed in the job postings.</p>"
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5319616519/e/",
+      "via": "via Learn4Good",
+      "description": "Houston Methodist is seeking a Security Officer to maintain a safe environment for patients, staff and visitors by patrolling hospital premises, monitoring surveillance and access points, and assisting with personal protection and emergency response.This role requires the ability to communicate effectively, multi-task under pressure, and adhere to HIPAA and safety policies. Applicants should have a high school diploma and security-related experience, plus the licenses listed in the job postings.#J-18808-Ljbffr"
     }
   ]
 }

@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-01T15:14:39.454033+00:00",
+  "generated": "2026-08-04T16:30:32.533975+00:00",
   "page": "austin/jobs/full-time-security-austin",
   "market": "Austin",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Security Professional - Full Time",
+      "company": "Security Watch, Inc.",
+      "location": "Austin, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-07-31",
+      "apply_link": "https://jooble.org/rjdp/-2064025762038805067",
+      "via": "via Jooble",
+      "description": "<p>Protective Security Officer</p>\r\n<p>Job Description: As a Protective Security Officer, you will be responsible for maintaining the safety and security of federally owned, leased, or occupied facilities protected by the Federal Protective Service. This includes monitoring surveillance equipment, inspecting buildings and access points, permitting entry, and responding to emergencies. Key Responsibilities: • Maintain a secure environment by monitoring and controlling access to the facility. • Conduct regular patrols of the premises to ensure safety and security. • Respond promptly to alarms,..."
+    },
     {
       "title": "Security Officer Full Time Visitor Intake",
       "company": "Allied Universal",
@@ -38,17 +49,6 @@
       "apply_link": "https://jobs.aus.com/job/austin/security-guard-full-time-patrol/22950/98487841088",
       "via": "via Allied Universal",
       "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
-    },
-    {
-      "title": "Security Officer| Full-Time",
-      "company": "Hyatt Regency",
-      "location": "Austin, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-at-hyatt-regency-4443078687",
-      "via": "via LinkedIn",
-      "description": "<strong>Organization- Hyatt Regency Austin<br><br></strong><strong>Summary<br><br></strong>Nestled along the shores of Lady Bird Lake in the heart of downtown Austin, <strong>Hyatt Regency Austin</strong> is a place where <em>caring for people so they can be their best</em> is more than a purpose—it’s the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service‑oriented Security Officer</strong> to join our dedicated Security Team.<br><br><strong>Position Summary<br><br></strong>The Security Officer is responsible for maintaining a safe and..."
     },
     {
       "title": "Security Officer| Full-Time",
@@ -106,15 +106,15 @@
       "description": "a { text-decoration: none; color: #464feb; } tr th, tr td { border: 1px solid #e6e6e6; } tr th { background-color: #f5f5f5; } Nestled along the shores of Lady Bird Lake in the heart of downtown Austin, <strong>Hyatt Regency Austin</strong> is a place where caring for people so they can be their best is more than a purpose-it's the foundation of everything we do. We are currently seeking a <strong>professional, dependable, and service-oriented Security Officer</strong> to join our dedicated Security Team.\n<br>\n<br><b>Position Summary</b>\n<br>\n<br>\nThe Security Officer is responsible for..."
     },
     {
-      "title": "Level 3 Security Officer - Full-Time",
-      "company": "Jet Security LLC",
+      "title": "Armed Government Patrol Officer - Full-Time Austin",
+      "company": "Allied Universal",
       "location": "Austin, TX",
       "pay": null,
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=6bcd541eee9aee8f",
-      "via": "via Indeed",
-      "description": "<p>Job Title: Level 3 Security Officer</p>\n<p>THIS IS A LEVEL 3 ARMED POSITION - YOU MUST HAVE AN ACTIVE LEVEL 3 GUARD CARD TO APPLY - DUTY BELT, LEVEL 3 HOLSTER & WEAPON ALSO REQUIRED!</p>\n<p>Monday - Friday Day Shift</p>\n<p><b>Please text for more information 832-657-4767 - must include the word \"AUSTIN\" at the beginning of your text!</b></p>\n<p>Job Summary:<br>\n  We are seeking a dedicated Security Officer to ensure the safety and security of our premises. As a Security Officer, you will play a crucial role in maintaining a secure environment for our employees, visitors, and assets and..."
+      "apply_link": "https://talents.vaia.com/companies/allied-universal/austin/armed-government-patrol-officer-full-time-austin-70489545/",
+      "via": "via Talents By Vaia",
+      "description": "A leading security firm in Austin, TX is hiring an Armed Security Officer to safeguard clients in various industries. Responsibilities include conducting patrols, responding to incidents, and providing excellent customer service. The position requires an armed guard license and a valid driver\\'s license. Candidates should possess a high school diploma or equivalent. The job offers full-time hours, competitive pay, and benefits like health insurance and career growth opportunities. #J-18808-Ljbffr"
     }
   ]
 }
