@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-04T16:30:32.533975+00:00",
+  "generated": "2026-08-08T14:47:00.636931+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
-  "exact": 7,
+  "exact": 6,
   "jobs": [
+    {
+      "title": "Security Officer Data Center",
+      "company": "Allied Universal",
+      "location": "Garland, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://www.indeed.com/viewjob?jk=c954bd62dee4622b",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Security Officer Data Center</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Company Overview:\n </div>\n <div>\n  Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n </div>\n <h2><b><br>\n    Job Description</b></h2>\n <p><br>\n   As a Security Officer, you will serve and safeguard clients in a range of..."
+    },
     {
       "title": "Armed Security Flex Officer - Data Center",
       "company": "Allied Universal",
@@ -16,28 +27,6 @@
       "apply_link": "https://jobs.aus.com/job/fort-worth/armed-security-flex-officer-data-center/22950/98527959648",
       "via": "via Allied Universal",
       "description": "<br><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Company Overview: </span></p><p style='margin: 0px;'><span style='font-family: verdana, geneva; font-size: 10pt;'>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</span></p><br><br><p style='margin-bottom: .0001pt;'><span..."
-    },
-    {
-      "title": "Staff Data Center Area Security Manager, Compliance, Safety, and Risk Management",
-      "company": "Google",
-      "location": "Midlothian, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-24",
-      "apply_link": "https://www.linkedin.com/jobs/view/staff-data-center-area-security-manager-compliance-safety-and-risk-management-at-google-4444327550",
-      "via": "via LinkedIn",
-      "description": "This role is not eligible for U.S. immigration sponsorship.<br><br>Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <strong>Midlothian, TX, USA; Austin, TX, USA</strong>.<strong>Minimum qualifications:<br><br></strong><ul><li>10 years of experience managing, sourcing, or procuring business resources and vendors.</li><li>10 years of experience leading operational or project based work and tasks, and developing and deploying processes to mitigate risk.</li><li>10 years of experience coordinating or leading security, and..."
-    },
-    {
-      "title": "Federal Security Lead - Onsite Data Center Security",
-      "company": "Quality Technology Services, LLC",
-      "location": "Fort Worth, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://bebee.com/us/jobs/federal-security-lead-onsite-data-center-security-quality-technology-services-llc-fort-worth--lensa-7428_5dc332a0bb61da59a380af1c027bf1db65c2331f73bcf6f7086de91d3e797fc4",
-      "via": "via BeBee",
-      "description": "<p>Quality Technology Services, LLC in Fort Worth, TX is seeking a Federal Security Manager I to oversee on-site security for a 24x7 data center environment. This role reports to the Regional Manager, Federal Security and supports compliance with National Industrial Security Program and government regulations.\nThe position requires on-site work, frontline supervision of security staff, and dynamic incident response, access control, CCTV, and audits.</p>"
     },
     {
       "title": "Data Center Security Officer",
@@ -84,37 +73,48 @@
       "description": "<p>Security Officer Patrol Data Center</p><p>Richardson, Texas Position Type: Full Time Shift Type: Overnight Req ID: 2026-1600313 Work Days Available: Monday, Tuesday, Wednesday, Thursday, Friday Date posted: 05/26/2026</p><p>Apply Save Job</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a..."
     },
     {
-      "title": "Security Officer Part Time Loss Prevention Patrol",
+      "title": "Security Shift Supervisor - Warehouse",
       "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Loss-Prevention-Patrol/-in-Mesquite,TX?jid=32b332eb019ec8da",
-      "via": "via ZipRecruiter",
-      "description": "<div>Overview<br/><p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p><br/>Job Description<br/><hr/><p> As a <strong>Security Officer Part Time Loss Prevention Patrol</strong> in <strong>Sunnyvale, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join..."
+      "location": "Denton, TX",
+      "pay": "22 an hour",
+      "schedule": "Internship",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-warehouse-at-allied-universal-4450396642",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
     },
     {
-      "title": "Armed Guard / Fort Worth NIGHTS",
-      "company": "TACTICAL SYSTEMS NETWORK, LLC",
+      "title": "Security Officer Cargo Facility",
+      "company": "Allied Universal",
       "location": "Fort Worth, TX",
-      "pay": "22–24 an hour",
+      "pay": "19 an hour",
       "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d3970fd59e6833bb",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-cargo-facility-at-allied-universal-4450506160",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Mobile Patrol Driver</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Security Officer Dispatch",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-dispatch-at-allied-universal-4450501923",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Dispatch Incident Intake</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Commercial Real..."
+    },
+    {
+      "title": "On Site Security Supervisor",
+      "company": "Security Solutions of America",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eb8cb0f547cd8803",
       "via": "via Indeed",
-      "description": "<p>BE a PART of our ELITE SECURITY TEAM!</p>\n<p><b>ABOUT US: </b>We are high-level professionals who value our role as protectors <b>serving people</b>. We care about one another and reward consistency, hard work, and a servant mindset.</p>\n<p>We seek candidates to fill the critical role of ARMED, UNIFORMED SECURITY OFFICER in Dallas, TX. This role is essential in keeping others safe, so we ask for a commitment to working scheduled shifts, <i>including weekends</i>, and we often stand or walk for extended periods.</p>\n<p><b>This job is not easy, but it is essential.</b> <b>We reward hard..."
-    },
-    {
-      "title": "Hotel Safety & Loss Prevention Lead",
-      "company": "Omni Hotels & Resorts",
-      "location": "Fort Worth, TX",
-      "pay": "42K–52K a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5333373365/e/",
-      "via": "via Learn4Good",
-      "description": "Omni Hotels & Resorts in Fort Worth, TX seeks a Loss Prevention Officer to oversee safety and incident recording under the Director of Loss Prevention. You will help enforce hotel policies, patrol property, and document tasks to ensure guest and staff security.Responsibilities include observing assignments, maintaining accurate records, and using radios for team communication. Night, weekend, and holiday availability is required.#J-18808-Ljbffr"
+      "description": "<div>\n On Site Security Supervisor \n <p><br>\n   Ideals Candidates Must:</p>\n <p>Strong Leadership Skills</p>\n <p>Security Supervisory Experience</p>\n <p>Excellent Attendance</p>\n <p>Ability to Work Independently while Maintaining a High Level of Professionalism</p>\n <p>Applicants must have 2-3 years security supervisory experience, active Texas Guard License, clear background check and drug test, clear MVR.</p>\n <p>Schedule: Monday-Friday 6a-2p</p>\n <p><b><br>\n    Security Solution of America (SSA) </b>is one of the fastest growing security guard and patrol companies in the U.S. Our company..."
     }
   ]
 }

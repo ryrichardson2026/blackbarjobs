@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-04T16:30:32.533975+00:00",
+  "generated": "2026-08-08T14:47:00.636931+00:00",
   "page": "dallas/duncanville-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 10,
-  "exact": 7,
+  "exact": 5,
   "jobs": [
+    {
+      "title": "Military Security Officer",
+      "company": "U.S. Navy",
+      "location": "Duncanville, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://www.learn4good.com/jobs/duncanville/texas/security/5343964439/e/",
+      "via": "via Learn4Good",
+      "description": "Job Title: Security & Law Enforcement (Master-at-Arms)Category / Component:Enlisted ActiveThis role is open to both entry-level applicants and candidates with prior experience. Those with a background in Law Enforcement, Corrections/Parole, or as a Security Practitioner may qualify for direct-entry consideration at an advanced paygrade (E-4 to E-6) depending on experience.OverviewMaster-at-Arms (MA) Sailors provide the Navys core security, anti-terrorism, and law enforcement capability, protecting people, installations, ships, and strategic assets at home and abroad. They conduct force..."
+    },
     {
       "title": "Retail Security Officer - Weekend/Afternoon (Dallas Division - 5)",
       "company": "United Protective Services",
@@ -27,28 +38,6 @@
       "apply_link": "https://www.breakroom.cc/en-us/jobs/listing/44824801-united-protective-services-retail-security-officer-weekend",
       "via": "via Breakroom",
       "description": "<strong>Overview</strong><br /><br />At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed. <br /><br /><strong>Job Skills / Requirements</strong><br /><br /><b><strong>Employment Type: Part-Time</strong></b><br /><br /><b><strong>Schedule: </strong></b><br /><br />Saturday - 3:00pm-11:00pm<br /><br />Sunday - 3:00pm-11:00pm<br /><br /><b><strong>Pay Rate: $20.00</strong></b><br /><br..."
-    },
-    {
-      "title": "Armed Security Officers for School Security",
-      "company": "Senturian One Security",
-      "location": "Duncanville, TX",
-      "pay": "21–24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-21",
-      "apply_link": "https://www.indeed.com/viewjob?jk=abbbd8b817f74d87",
-      "via": "via Indeed",
-      "description": "<p>NOW HIRING: Armed Security Officers, School Security Assignments</p>\n<p>Senturian One Ltd Co Security is now accepting applications from experienced, professional Armed Security Officers who currently meet the required licensing and training qualifications for available school security and other contract assignments.</p>\n<p>Qualified officers may also receive:</p>\n<p>· Additional ISD differential pay Site-specific differential pay Opportunities for special events and additional work</p>\n<p>Minimum Qualifications</p>\n<p>Applicants should currently possess:</p>\n<p>· Active Texas Level III..."
-    },
-    {
-      "title": "Retail Security Officer",
-      "company": "Marksman Security",
-      "location": "Duncanville, TX",
-      "pay": null,
-      "schedule": null,
-      "posted_date": "2026-07-21",
-      "apply_link": "https://jooble.org/jdp/679537469272751986",
-      "via": "via Jooble",
-      "description": "<p> Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well‑known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman’s customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in..."
     },
     {
       "title": "Operations Administrative Coordinator",
@@ -73,48 +62,59 @@
       "description": "<h2> Role Overview </h2><p> TSA is hiring Behavior Detection Officers (BDOs) to work inside airport terminals in Duncanville. These professionals focus on identifying suspicious behavior and preventing potential threats before they occur. No prior experience is required and training is provided. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Duncanville and Nationwide </li><li><b> Starting Pay </b> : $23.00 - $45.00</li><li><b> Annual Compensation </b> : $48,000 - $70,000+</li><li><b> Schedule </b> : Shift-based </li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and..."
     },
     {
-      "title": "Security Officer- Armed Overnight",
-      "company": "GardaWorld",
-      "location": "Duncanville, TX",
+      "title": "Security Shift Supervisor - Warehouse",
+      "company": "Allied Universal",
+      "location": "Denton, TX",
+      "pay": "22 an hour",
+      "schedule": "Internship",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-warehouse-at-allied-universal-4450396642",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
+    },
+    {
+      "title": "Security Officer Cargo Facility",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "pay": "19 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-cargo-facility-at-allied-universal-4450506160",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Mobile Patrol Driver</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
+    },
+    {
+      "title": "Security Officer Dispatch",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-dispatch-at-allied-universal-4450501923",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Dispatch Incident Intake</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Commercial Real..."
+    },
+    {
+      "title": "On Site Security Supervisor",
+      "company": "Security Solutions of America",
+      "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/gardaworld/security-officer-armed-overnight-34585087/",
-      "via": "via Talents By Vaia",
-      "description": "<p>Armed Surveillance Security Officer</p><p>GardaWorld Security Services is now hiring an Armed Surveillance Security Officer! Must have current Level 3 card in hand and valid DL.</p><p>Ready to suit up as an Armed Surveillance Security Guard? What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call..."
-    },
-    {
-      "title": "Security Officer Part Time Loss Prevention Patrol",
-      "company": "Allied Universal",
-      "location": "Mesquite, TX",
-      "pay": "18.54 an hour",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.ziprecruiter.com/c/Allied-Universal/Job/Security-Officer-Part-Time-Loss-Prevention-Patrol/-in-Mesquite,TX?jid=32b332eb019ec8da",
-      "via": "via ZipRecruiter",
-      "description": "<div>Overview<br/><p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p><br/>Job Description<br/><hr/><p> As a <strong>Security Officer Part Time Loss Prevention Patrol</strong> in <strong>Sunnyvale, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join..."
-    },
-    {
-      "title": "Armed Guard / Fort Worth NIGHTS",
-      "company": "TACTICAL SYSTEMS NETWORK, LLC",
-      "location": "Fort Worth, TX",
-      "pay": "22–24 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.indeed.com/viewjob?jk=d3970fd59e6833bb",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eb8cb0f547cd8803",
       "via": "via Indeed",
-      "description": "<p>BE a PART of our ELITE SECURITY TEAM!</p>\n<p><b>ABOUT US: </b>We are high-level professionals who value our role as protectors <b>serving people</b>. We care about one another and reward consistency, hard work, and a servant mindset.</p>\n<p>We seek candidates to fill the critical role of ARMED, UNIFORMED SECURITY OFFICER in Dallas, TX. This role is essential in keeping others safe, so we ask for a commitment to working scheduled shifts, <i>including weekends</i>, and we often stand or walk for extended periods.</p>\n<p><b>This job is not easy, but it is essential.</b> <b>We reward hard..."
+      "description": "<div>\n On Site Security Supervisor \n <p><br>\n   Ideals Candidates Must:</p>\n <p>Strong Leadership Skills</p>\n <p>Security Supervisory Experience</p>\n <p>Excellent Attendance</p>\n <p>Ability to Work Independently while Maintaining a High Level of Professionalism</p>\n <p>Applicants must have 2-3 years security supervisory experience, active Texas Guard License, clear background check and drug test, clear MVR.</p>\n <p>Schedule: Monday-Friday 6a-2p</p>\n <p><b><br>\n    Security Solution of America (SSA) </b>is one of the fastest growing security guard and patrol companies in the U.S. Our company..."
     },
     {
-      "title": "Hotel Safety & Loss Prevention Lead",
-      "company": "Omni Hotels & Resorts",
-      "location": "Fort Worth, TX",
-      "pay": "42K–52K a year",
+      "title": "Event Security Planner",
+      "company": "University of Texas at Dallas",
+      "location": "Richardson, TX",
+      "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5333373365/e/",
-      "via": "via Learn4Good",
-      "description": "Omni Hotels & Resorts in Fort Worth, TX seeks a Loss Prevention Officer to oversee safety and incident recording under the Director of Loss Prevention. You will help enforce hotel policies, patrol property, and document tasks to ensure guest and staff security.Responsibilities include observing assignments, maintaining accurate records, and using radios for team communication. Night, weekend, and holiday availability is required.#J-18808-Ljbffr"
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.indeed.com/viewjob?jk=47cf15ee8332ac0b",
+      "via": "via Indeed",
+      "description": "<div>\n Job Summary \n <div>\n  To provide skilled administrative, operational, and program support related to police and security services for new programs and campus events as the University Police Department’s Event Coordinator. Requires the ability to comprehend and implement policies and procedures, show strong initiative and work independently or with a group to make decisions relative to routine office operations. Requires the ability to exercise judgment within areas of delegated responsibility. Requires the ability to make sound decisions within university guidelines as well as..."
     }
   ]
 }

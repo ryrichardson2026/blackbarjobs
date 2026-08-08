@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-04T16:30:32.533975+00:00",
+  "generated": "2026-08-08T14:47:00.636931+00:00",
   "page": "houston/jobs/houston-surveillance-security",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "TWIC-Certified Security Officer | CCTV & Incident Response",
+      "company": "Star Protection Agency (TX)",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-08-03",
+      "apply_link": "https://bebee.com/us/jobs/twic-certified-security-officer-cctv-incident-response-star-protection-agency-tx-houston--lifeworq-aaf00231-c650-46bd-9f18-3d008699708a",
+      "via": "via BeBee",
+      "description": "<p>A security service provider based in Channelview, Texas, is seeking TWIC Officers to ensure the safety and security of their facilities. Applicants must possess a valid TWIC certificate, with experience in law enforcement or security preferred. Responsibilities include monitoring entrances, patrolling premises, and responding to security incidents. This position offers both full-time and part-time opportunities, with a requirement for relocation to Channelview before starting work.</p>"
+    },
     {
       "title": "Data Center Surveillance Specialist",
       "company": "GardaWorld",
@@ -84,37 +95,26 @@
       "description": "<p>Security Officer</p>\r\n<p>We help make your world a safer place. Securitas is a global company that offers the most advanced and sustainable security solutions in the industry.</p>\r\n<p>Responsibilities</p>\r\n<p>Maintain a safe and secure environment for clients by actively monitoring premises.</p>\r\n<p>Patrol a variety of locations and preserve order while enforcing regulations and directives.</p>\r\n<p>Provide customer service and information to clients’ employees and customers.</p>\r\n<p>Respond to incidents and coordinate with local law‑enforcement or emergency services when..."
     },
     {
-      "title": "Elite Pool Monitor - Part-Time Weekend Security",
-      "company": "Green City Security",
+      "title": "Surveillance Camera Operator",
+      "company": "Zaladium Analytics",
       "location": "Houston, TX",
-      "pay": "17,047–24,280 a year",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-24",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5310687554/e/",
-      "via": "via Learn4Good",
-      "description": "Green City Security is seeking a part-time daytime security officer in Houston, TX 77049 for the weekend shift from 12 PM to 8 PM. The position is unarmed and focuses on security presence, access control, and safety across the site.Responsibilities include patrolling, monitoring entrances, and maintaining order while delivering customer service to clients and staff. The role requires a Level II Non-Commissioned license and relevant DPS certificates; transportation and a smartphone are essential.#J-18808-Ljbffr"
+      "pay": "35K–40K a year",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Zaladium-Analytics/Job/Surveillance-Camera-Operator/-in-Houston,TX?jid=281fcc1a83b6de87",
+      "via": "via ZipRecruiter",
+      "description": "<div><p>Zaladium Analytics is a fast-growing security technology company specializing in the deployment and monitoring of advanced security cameras and environmental sensors. Due to recent growth we have an immediate opening for a full time SURVEILLANCE CAMERA OPERATOR to join our team.</p><p>If you are looking for a challenging career with a solid company and have the skills and “can do” positive attitude, we want to hear from you!</p><p>Job Description: Monitor security cameras and respond to alerts and incidents observed.</p><p>Duties and Responsibilities include the following but are NOT..."
     },
     {
-      "title": "Full-Time Security Guard – Patrol & Surveillance",
-      "company": "Security Solutions of Texas",
+      "title": "Security Officer - Surveillance",
+      "company": "GardaWorld",
       "location": "Houston, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-24",
-      "apply_link": "https://www.jobleads.com/us/job/full-time-security-guard-patrol-surveillance--houston--ed46671a79f6d5f63416af3a2ec4a7428",
-      "via": "via JobLeads",
-      "description": "<p>Security Solutions of Texas in the Greater Houston Area is hiring for a full-time Security Guard. The role protects client property from criminal activity and trespassing, requiring vigilance and reliable transportation.</p><p>Ideal candidates will have strong written and verbal communication, sharp observation skills, and surveillance experience. The position is a 1099 contractor with pay levels and room for experience.</p>"
-    },
-    {
-      "title": "Surveillance Security Supervisor — Lead Threat Detection",
-      "company": "GardaWorld",
-      "location": "Houston, TX",
-      "pay": "18 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-23",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5313220016/e/",
-      "via": "via Learn4Good",
-      "description": "Garda World Security Services is Now Hiring a Surveillance Security Supervisor! Ready to suit up as a Surveillance Security Supervisor? What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail. As a Security Supervisor– Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc. What’s In It For You Site Location: Houston, TXSet schedule: Open..."
+      "posted_date": null,
+      "apply_link": "https://securityjobsus.garda.com/search/jobdetails/security-officer---surveillance/2b17cbd2-c291-4748-982a-c7f0e2735813",
+      "via": "via GardaWorld - GardaWorld Security",
+      "description": "<p>GardaWorld Security Services is Now Hiring a Surveillance Security Officer!</p><p> </p><p><strong>Ready to suit up as a Surveillance Security Guard?</strong></p><p>What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.</p><p><strong>What’s in it for..."
     }
   ]
 }
