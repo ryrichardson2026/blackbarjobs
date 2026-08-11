@@ -1,11 +1,55 @@
 {
-  "generated": "2026-08-08T14:47:00.636931+00:00",
+  "generated": "2026-08-11T15:15:58.433103+00:00",
   "page": "chicago/jobs/overnight-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "title": "Security Professional (weekend/overnight shift)",
+      "company": "Justice Cannabis Co.",
+      "location": "Berwyn, IL",
+      "pay": null,
+      "schedule": null,
+      "posted_date": "2026-08-07",
+      "apply_link": "https://jooble.org/rjdp/-1561295081378710596",
+      "via": "via Jooble",
+      "description": "<p>Security Officer<br/>The Security Officer is responsible for maintaining a secure and safe environment at all Justice Cannabis Co. facilities.<br/>Reporting to the Security Manager, this role ensures compliance with state regulations, monitors security systems, conducts routine patrols, and provides excellent service to team members, customers, and visitors.<br/>This role works closely with local leadership and Human Resources to address and investigate occurrences within the facility.<br/>This security position requires flexibility to work shifts during all hours of operation, with..."
+    },
+    {
+      "title": "Security Professional (weekend/overnight shift)",
+      "company": "GUARDIAN SECURITY SERVICES, INC",
+      "location": "Evanston, IL",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-07",
+      "apply_link": "https://jooble.org/rjdp/4689641299355184206",
+      "via": "via Jooble",
+      "description": "<p>Security Officers needed in Evanston from 8:00 pm to 6:00 am at $19.25 per hour</p>\r\n<p>We are seeking dependable and professional Security Officers to join our team for overnight coverage from 8:00 PM to 6:00 AM. This role focuses on maintaining a safe, welcoming, and wellmonitored environment, ensuring policy compliance, and responding promptly to any safety concerns or unusual activity. Officers will provide courteous assistance and help uphold a secure atmosphere throughout the night. If you take pride in professional conduct and helping others, we encourage you to..."
+    },
+    {
+      "title": "Security Professional Overnight Full Time Flex",
+      "company": "Harvard Maintenance",
+      "location": "Cicero, IL",
+      "pay": null,
+      "schedule": "Full-time and Contractor",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://jooble.org/rjdp/-5388873543186168482",
+      "via": "via Jooble",
+      "description": "<p>Security Officer - 37358<br/>Job Site Location</p>\r\n<p>Flex Schedule - Rotating Morning, Evening, and Overnight Shifts - Open Scheduling Availability Required<br/>Harvard Protection Services is one of the fastest growing, privately owned providers of high-quality security services in the United States. Our reputation has been earned among our employees and clients for our responsiveness, engaged leadership, and personal care for every employee and client we serve. Our Security Officers support Harvard Protection in our goal of providing best in class security and life safety services. Our..."
+    },
+    {
+      "title": "Per Diem Night Hospital Security Officer",
+      "company": "2300 Montefiore Nyack Hospital",
+      "location": "Joliet, IL",
+      "pay": "25,003–35,610 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-04",
+      "apply_link": "https://www.jobleads.com/us/job/per-diem-night-hospital-security-officer--joliet--e3679a92fb17f520bc58678c0be692003",
+      "via": "via JobLeads",
+      "description": "<p>Montefiore Nyack Hospital in Nyack, NY is seeking a Security Officer to patrol the premises, monitor surveillance, and coordinate with other departments to prevent losses and damages. Works with minimal supervision and supports hospital operations during night shifts and weekends.</p><p>Requirements include a High School Diploma, 1-3 years hospital security experience, CPR and First Aid, and the NY Department of State Security Guard license. Per diem, part-time and full-time options available.</p>"
+    },
     {
       "title": "Night Security Officer — Visitor Safety & Access",
       "company": "Obama Foundation",
@@ -16,6 +60,39 @@
       "apply_link": "https://us.jobrapido.com/jobpreview/6332466089351446528",
       "via": "via Jobrapido",
       "description": "<p>Obama Foundation is seeking a Security Officer for the Obama Presidential Center in Chicago. The role involves safeguarding guests, staff, and property, patrolling assigned areas, and responding to security concerns during each shift.</p><p>The position reports to a Security Supervisor and requires strong observation, communication, and emergency response skills for evenings (1:00am–9:30am) at the Jackson Park site.</p>\n#J-18808-Ljbffr"
+    },
+    {
+      "title": "Night-Shift Healthcare Security Officer (Part-Time)",
+      "company": "Olympia Fields Hospital",
+      "location": "Olympia Fields, IL",
+      "pay": "26K–37K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-02",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-healthcare-security-officer-part-time--olympia-fields--e20f7bad002c8327e5b42170363a50b71",
+      "via": "via JobLeads",
+      "description": "<p>Olympia Fields Hospital is seeking a part-time night security officer to monitor and safeguard the facility at 20201 South Crawford Ave, Olympia Fields, IL. The role includes electronic surveillance, routine rounds, and coordinating responses to incidents affecting patients, staff, and visitors.</p><p>The position requires a high school diploma or equivalent, a state driver’s license, and driving history check. Benefits and a comprehensive Total Rewards package are offered, with compensation estimated</p>"
+    },
+    {
+      "title": "Part & Full Time Security Officers (Overnight Shifts)",
+      "company": "Blue Line Security Solutions LLC",
+      "location": "Joliet, IL",
+      "pay": "19–20 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-02",
+      "apply_link": "https://jooble.org/rjdp/5728098804045572035",
+      "via": "via Jooble",
+      "description": "<p>Job Title: Unarmed Security OfficerLocation: Joliet, ILJob Type: Part time (Possible Full-time availability)Schedule: Overnight shiftSalary: $19.00-$20.00 An HourWe are seeking a vigilant and reliable individual to join our team as an Unarmed Security Officer. The primary responsibility of this role is to ensure the safety and security of our client's premises, personnel, and assets. The ideal candidate will demonstrate strong observational skills, effective communication abilities, and the capability to handle potentially stressful situations with professionalism and..."
+    },
+    {
+      "title": "Overnight Unarmed Security Officer - Seasonal Patrol",
+      "company": "Blue Line Security Solutions LLC",
+      "location": "Mokena, IL",
+      "pay": "27,552–33,062 a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-01",
+      "apply_link": "https://www.jobleads.com/us/job/overnight-unarmed-security-officer-seasonal-patrol--mokena--somonauk-township--ef69765d4582d3a899b95890c494ee001",
+      "via": "via JobLeads",
+      "description": "<p>Blue Line Security Solutions LLC is seeking an Unarmed Security Officer for a Seasonal overnight role in Somonauk, IL 60552. The position requires patrolling, monitoring cameras, responding to incidents, and maintaining secure premises.</p><p>Responsibilities include report writing, assisting visitors and staff, and coordinating with law enforcement as needed. A 20-hour state security certification and PERC Card are required, along with a HS diploma and valid license.</p>"
     },
     {
       "title": "Hyatt Hotels Corporation is hiring: Security Officer - Overnight in Chicago",
@@ -38,83 +115,6 @@
       "apply_link": "https://www.indeed.com/viewjob?jk=514d8da1f7142b5f",
       "via": "via Indeed",
       "description": "<div>\n <p><b>Exceptional Hospitality Starts with You </b></p>\n <p>Picture yourself brightening someone’s day. When you join our Hotels team, that’s exactly what you’ll do every time you come to work! As a <b>Security Officer </b>, and facility safety – you’re spreading the light and warmth of hospitality by delivering memorable experiences that make the stay for every guest.</p>\n</div>\n<br>\n<div>\n <p>Here's what you'll do during a typical day:</p>\n <ul>\n  <li><b>Conduct security patrols: </b>Monitor interior and exterior hotel premises to identify and address safety and security risks,..."
-    },
-    {
-      "title": "Security Overnight *** Mobile Patrol***",
-      "company": "STS Security Inc",
-      "location": "Chicago, IL",
-      "pay": "18.50 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-27",
-      "apply_link": "https://www.indeed.com/viewjob?jk=2e0e7320cd9f6db5",
-      "via": "via Indeed",
-      "description": "<p><b>Job Summary</b></p>\n<p>We are seeking a vigilant and dedicated Security Overnight Officer to safeguard our bustling plaza during nighttime hours. In this dynamic role, you will be responsible for maintaining a secure environment through proactive surveillance, access control, and incident management. Your presence will ensure the safety of visitors, staff, and property while upholding the highest standards of security compliance. This position offers an exciting opportunity to apply your security expertise in a fast-paced setting, contributing to a safe and welcoming atmosphere around..."
-    },
-    {
-      "title": "Security Officers - Overnight Monitoring",
-      "company": "Pete's Fresh Market",
-      "location": "Chicago, IL",
-      "pay": "15–20 an hour",
-      "schedule": null,
-      "posted_date": "2026-07-26",
-      "apply_link": "https://jooble.org/rjdp/-1301308278347126099",
-      "via": "via Jooble",
-      "description": "<p>Job Title: Security Officer<br/>Major Department: Safety & Loss Prevention<br/>Minor Department: Safety & Loss Prevention<br/>Store Manager<br/>Pete's Fresh Market (PFM) is a family owned and operated supermarket and one of the leading independent grocers in the greater Chicagoland area. With 17 established locations and more on the way, the ideal candidate will implement loss prevention procedures to safeguard company assets, prevent and minimize theft, and reduce shortages and fraud. Value, Aesthetic, Quality, and Service.</p>\r\n<p>monitoring surveillance equipment; inspecting buildings,..."
-    },
-    {
-      "title": "Night Security Patrol Supervisor – Healthcare Campus",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-26",
-      "apply_link": "https://www.jobleads.com/us/job/night-security-patrol-supervisor-healthcare-campus--chicago--ecd5ff68bb1bdae2c44d8064d7f0fe7a1",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal is hiring a Full-Time Security Officer in Chicago, Illinois. This role involves providing customer service, responding to incidents, conducting patrols, and ensuring security protocols are followed within a healthcare location.</p><p>The ideal candidate should have supervisory experience, at least one year in law enforcement or equivalent security experience, and be compliant with background checks and drug screening. The position offers access to financial and health benefits, as well as opportunities for career growth.</p>"
-    },
-    {
-      "title": "Security Officer, FT Overnight - Hilton Chicago O\\'Hare Airport",
-      "company": "Hilton",
-      "location": "Chicago, IL",
-      "pay": "39K–54K a year",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/hilton/security-officer-ft-overnight-hilton-chicago-ohare-airport-28398392/",
-      "via": "via Talents By Vaia",
-      "description": "<div><h2>Security and Loss Prevention</h2><p>Located within Chicago O\\'Hare International Airport (ORD), our O\\'Hare Hilton hotel is the only hotel with underground walkways to all domestic terminals and a train to downtown Chicago. Now seeking highly motivated people with a heart for service to join our Security Team!</p><p>If you believe that a friendly smile and hospitality are your greatest strengths, we want to talk to you! Full-time overnights 11pm to 7am - 5 days a week. Weekends and holidays required. Starting pay is $19 per hour, paid-time off, and full benefits.</p><p>What will I be..."
-    },
-    {
-      "title": "Security Supervisor overnight",
-      "company": "Marriott International",
-      "location": "Chicago, IL",
-      "pay": "5,027 a month",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/security-supervisor-overnight-marriott-international-chicago-il--theirstack-736397255",
-      "via": "via BeBee",
-      "description": "<h4>Description</h4>\n<strong>Vinayaka Hospitality</strong> was founded in 2008 on a foundation of innovation, intelligence, and compassion. Our team takes pride in combining a passion for hospitality with practical hotel management. By collaborating with renowned brands like Hilton, Marriott, and Hyatt, we efficiently manage 11 properties across diverse locations. Committed to ongoing growth, we actively seek opportunities and are dedicated to helping both our team and hotels thrive. We remain responsive and proactive in our strategies for sales, marketing, and revenue, ensuring swift..."
-    },
-    {
-      "title": "FLSD/Security Officer (Hotel) - PM/Overnight (Temporary)",
-      "company": "Sonesta",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": null,
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/sonesta/flsd-security-officer-hotel-pm-overnight-temporary-33018166/",
-      "via": "via Talents By Vaia",
-      "description": "<div><h2>Security Officer</h2><p>The Security Officer is responsible for the safety and security of all our guests, employees, and visitors of the hotel. They are responsible for protection of all hotel assets, ensuring that hotel security policies and procedures in accordance with Sonesta Hotels International corporate guidelines are enforced and that the hotel is in full compliance to all local, state, and federal regulations. The Security officer also performs hotel security functions, to include fire prevention, safety, investigation, and resolution of guest and employee complaints..."
-    },
-    {
-      "title": "Part Time Overnight Security Concierge",
-      "company": "Life Time Inc",
-      "location": "Chicago, IL",
-      "pay": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.monster.com/job-openings/part-time-overnight-security-concierge-chicago-il--e6dc001a-ccbe-4455-b438-4c13212b004c",
-      "via": "via Monster",
-      "description": "<p>Position Summary</p><p>The Security Concierge serves as a general security presence in the facility (internal/external) to prevent crimes and report suspicious activity.</p><p>Job Duties and Responsibilities</p><ul><li>Greets members in a welcoming manner while answering questions and assisting as needed</li><li>Educates member and team members by explaining precautionary measures</li><li>Patrols all areas of the parking lot as instructed and serves as a general security presence and visible deterrent to crime</li><li>Internal patrol of each facility will be required to ensure perimeter..."
     }
   ]
 }

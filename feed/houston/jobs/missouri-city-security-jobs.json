@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-08T14:47:00.636931+00:00",
+  "generated": "2026-08-11T15:15:58.433103+00:00",
   "page": "houston/jobs/missouri-city-security-jobs",
   "market": "Houston",
   "target": "city",
   "count": 10,
-  "exact": 10,
+  "exact": 8,
   "jobs": [
     {
       "title": "Event Security - Shell Energy Stadium",
@@ -18,15 +18,15 @@
       "description": "<P><SPAN>Job Title: Event Security - Shell Energy Stadium</SPAN></P><P><SPAN>Company: BEST Crowd Management</SPAN></P><P><SPAN>Location: Houston, TX</SPAN></P><P><SPAN>Pay: $15 / hr</SPAN></P><P><SPAN>Job Type: Part-time</SPAN></P><P><BR></P><P><SPAN>Summary:</SPAN></P><P><SPAN>Join the dedicated and professional team at BEST Crowd Management, a leading provider of crowd management and event security services. With a commitment to excellence and a focus on safety, BEST Crowd Management ensures the success of various events by providing top-notch security solutions. As an Event Security..."
     },
     {
-      "title": "Security Officer Unarmed",
-      "company": "Allied Universal",
+      "title": "Security Officers (Part & Full-Time Shifts)",
+      "company": "AUS Inc",
       "location": "Missouri City, TX",
       "pay": null,
-      "schedule": "Full-time",
+      "schedule": "Full-time and Contractor",
       "posted_date": "2026-08-04",
-      "apply_link": "https://jobs.aus.com/job/missouri-city/security-officer-unarmed/22950/98819668464",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
+      "apply_link": "https://jooble.org/rjdp/-2039751878266191618",
+      "via": "via Jooble",
+      "description": "<p>Security Officer – Part Time Enhanced<br/>Allied Universal®, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br/>That's why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to supplement their income, gain hands-on experience, or work toward a full-time career..."
     },
     {
       "title": "LIFEGUARDS NEEDED ASAP!!!",
@@ -40,15 +40,26 @@
       "description": "<p><b>Description:</b></p>\r\n<p><b>Job Summary:</b><br/>This position is responsible for ensuring the safety of patrons by preventing and responding to emergencies.<br/>.<br/><b>Essential Duties and Responsibilities:</b></p>\r\n<p>CREATES WOW by: anticipating needs and wants, being prepared, being continuously enthusiastic, executing flawlessly and doing it now<br/>Maintains safe pool environment, prevents injuries, and minimizes/eliminates hazardous situations established and recommended by the American Red Cross<br/>Maintains constant surveillance of patrons in the facility; acts immediately..."
     },
     {
+      "title": "Security Officer Unarmed",
+      "company": "Allied Universal",
+      "location": "Missouri City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-04",
+      "apply_link": "https://jobs.aus.com/job/missouri-city/security-officer-unarmed/22950/98819668464",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
+    },
+    {
       "title": "Security Officer Enhanced Part Time Visitor Processing",
       "company": "Allied Universal",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Part-time",
       "posted_date": "2026-08-04",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-enhanced-part-time-visitor-processing-at-allied-universal-4448825293",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to..."
+      "apply_link": "https://www.indeed.com/viewjob?jk=3934ab40b6ed7b56",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Security Officer Enhanced Part Time Visitor Processing</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. \n  <br>\n </div>\n <br>\n <h2><b>Job Description</b></h2>\n <p></p>\n <p><br>\n   Life doesn’t always follow a fixed schedule. That’s why we created the..."
     },
     {
       "title": "Security Officer Visitor Processing",
@@ -62,59 +73,48 @@
       "description": "<h3>Overview</h3>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h3>Job Description</h3>\n<p> Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to supplement their income, gain..."
     },
     {
-      "title": "Security Officer Armed Driver Part Time",
-      "company": "Allied Universal",
-      "location": "Missouri City, TX",
-      "pay": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-31",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/missouri-city-tx/security-officer-armed-driver-part-time-746056/",
-      "via": "via Women For Hire- Job Board",
-      "description": "<h2>Overview</h2><br /><p><span> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br /><h2>Job Description</h2><br /><hr /><p><span> Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals..."
-    },
-    {
-      "title": "Night Security Officer — Access Control & Growth",
-      "company": "Allied Universal",
-      "location": "Missouri City, TX",
-      "pay": "19,286–24,796 a year",
-      "schedule": "Full-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.learn4good.com/jobs/missouri-city/texas/security/5323427200/e/",
-      "via": "via Learn4Good",
-      "description": "Allied Universal is seeking a Security Officer to protect a logistics/distribution site in Missouri City, TX. The role involves monitoring access, verifying credentials, and supporting daily operations with professional customer service.As a Full Time position, you will work rotating day/night shifts with comprehensive benefits including health and retirement programs. Applicants should have 2+ years of security experience and a high school diploma or equivalent.#J-18808-Ljbffr"
-    },
-    {
-      "title": "Courtesy Officer",
-      "company": "RPM Living",
+      "title": "Security Officer",
+      "company": "Raynord & Vanessa Protective S",
       "location": "Missouri City, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.linkedin.com/jobs/view/courtesy-officer-at-rpm-living-4446814782",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Raynord-&-Vanessa-Protective-S/Job/Security-Officer/-in-Missouri-City,TX?jid=5874a179f82cc01c",
+      "via": "via ZipRecruiter",
+      "description": "<div><p> </p><ul><li>Secures premises and personnel by patrolling property; monitoring surveillance equipment; inspecting buildings, equipment, and access points; permitting entry.</li><li>Obtains help by sounding alarms.</li><li>Prevents losses and damage by reporting irregularities; informing violators of policy and procedures; restraining trespassers.</li><li>Controls traffic by directing drivers.</li></ul></div>"
+    },
+    {
+      "title": "Security Guard",
+      "company": "Excelsior Defense",
+      "location": "Missouri City, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://us.trabajo.org/job-28607-7dbd83b253f1c7050fb54e5873a9a02a",
+      "via": "via Trabajo.org",
+      "description": "[Security Officer / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As a Security Guard you'll: Patrol premises regularly to maintain order and establish presence; Monitor and authorize entrance of vehicles or people in the property; Remove wrongdoers or trespassers from the area; Secure all exits, doors and windows after end of operations; Check surveillance cameras periodically to identify disruptions or unlawful acts; Investigate people for suspicious activity or possessions; Respond to alarms by investigating and assessing the situation; Provide assistance to..."
+    },
+    {
+      "title": "Advanced Tactical Solutions LLC is hiring: Security Officer in Houston",
+      "company": "Advanced Tactical Solutions LLC",
+      "location": "Houston, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.recruit.net/job/advanced-tactical-solutions-llc-is-jobs/AEC0D1A0E2D1D2CF",
+      "via": "via Recruit.net",
+      "description": "JOB DESCRIPTION<br />Job Description<br />We are seeking professional and highly skilled Armed Security Officers to join our elite team.<br />The ideal candidate will demonstrate exceptional situational awareness, strong communication skills, and a commitment to protecting clients, personnel, and property with integrity and professionalism.<br />Responsibilities<br />* Maintain a visible armed presence to deter and prevent unauthorized activity, theft, or disturbances.<br />* Monitor premises through patrols, body cams, and surveillance systems.<br />* Respond promptly to alarms, incidents,..."
+    },
+    {
+      "title": "Security Guard Full Time Unarmed Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Sugar Land, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-unarmed-patrol-driver-at-allied-universal-4452190764",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>At RPM, we’re in the business of extraordinary. We believe people-first is the way to success which is why we provide top industry pay, comprehensive benefits, and a path of upward mobility via career training and education. Join us and start your extraordinary journey today.<br><br><strong>Position Summary<br><br></strong>The Courtesy Officer must be a law enforcement officer who provides superior customer service, possesses detailed knowledge of Company policy and procedures and performs essential functions as they relate to the accessibility of the..."
-    },
-    {
-      "title": "Security Officer Full Time",
-      "company": "Allied Universal",
-      "location": "Missouri City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-28",
-      "apply_link": "https://jobs.aus.com/job/missouri-city/security-officer-full-time/22950/98392144080",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,..."
-    },
-    {
-      "title": "Military Security Officer",
-      "company": "U.S. Navy",
-      "location": "Missouri City, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-27",
-      "apply_link": "https://www.learn4good.com/jobs/missouri-city/texas/security/5315306568/e/",
-      "via": "via Learn4Good",
-      "description": "Job Title: Security & Law Enforcement (Master-at-Arms)Category / Component:Enlisted ActiveThis role is open to both entry-level applicants and candidates with prior experience. Those with a background in Law Enforcement, Corrections/Parole, or as a Security Practitioner may qualify for direct-entry consideration at an advanced paygrade (E-4 to E-6) depending on experience.OverviewMaster-at-Arms (MA) Sailors provide the Navys core security, anti-terrorism, and law enforcement capability, protecting people, installations, ships, and strategic assets at home and abroad. They conduct force..."
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Guard Full Time Unarmed Patrol Driver</strong> in <strong>Sugar Land, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
     }
   ]
 }

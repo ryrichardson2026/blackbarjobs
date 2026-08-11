@@ -1,11 +1,22 @@
 {
-  "generated": "2026-08-08T14:47:00.636931+00:00",
+  "generated": "2026-08-11T15:15:58.433103+00:00",
   "page": "dallas/dallas-level-2-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
-  "exact": 9,
+  "exact": 10,
   "jobs": [
+    {
+      "title": "Level II Flex Officer Alvarado, TX",
+      "company": "St. Moritz Security Services &#8211; Dallas",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.securityguardsonly.com/jobs/us/dallas/st-moritz-security-services-8211-dallas/level-ii-flex-officer-alvarado-tx/",
+      "via": "via Security Guards Only",
+      "description": "<div>Level II Flex Officer Alvarado, TX</p>\n<p><b><br />\nFlex Level II Officer</b></p>\n<p><b><br />\n Shift:</b> <b>All Shifts</b></p>\n<p><b><br />\n Pay Rate: $17.00 HR</b></p>\n</p>\n<p><b><br />\n Security&rsquo;s Primary Purpose and Function</b></p>\n<p>\nThe Security Officer is responsible for providing security services at assigned locations with a focus on observing and reporting. Duties include, but are not limited to:</p>\n<ul>\n<li>\nmonitoring and reporting all activity,conducting foot patrols, vehicular patrols, golf cart patrols, and/or bicycle patrol of applicable interior and/or exterior..."
+    },
     {
       "title": "Weekend Only Unarmed Security Officer (Level II) – North Dallas $20/hour | Saturday & Sunday Only |",
       "company": "Security Reconnaissance Team Inc",
@@ -84,6 +95,17 @@
       "description": "PacArctic LLC, a Koniag Government Services company, is seeking a Security Guard Level II (Armed) to support PAC and our government at Dallas, TX. This position is for a Future New Business Opportunity. \n<br>\n<br>\n This position is covered under the Service Contract Act. We offer competitive compensation and an extraordinary benefits package including health, dental and vision insurance, 401K with company matching, paid holidays, paid Vacation, paid sick leave and more. \n<br>\n The Guard Level II Supervisor is an armed security leadership position whose principal duty is security, responsible..."
     },
     {
+      "title": "Level II Unarmed Protective Service Officer (Texas Health Hospitals Dallas)",
+      "company": "National Security & Protective Services, Inc.",
+      "location": "Dallas, TX",
+      "pay": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/national-security-protective-services-inc/dallas/level-ii-unarmed-protective-service-officer-texas-health-hospitals-dallas-125351670/",
+      "via": "via Talents By Vaia",
+      "description": "Observes and reports activities and incidents, providing security and safety for client, property, personnel, & visitors.Use X-Ray Machine and conduct bag checks.Conduct checks for irregularities in and around the hospital grounds.Assist and/or Supplement Hospital and Campus Police Officers.Enforce rules, regulations, and directives for the site pertaining to personnel, visitors, and premises.Checks for unsafe conditions, hazards, unlocked doors, security violations, blocked entrances and exits, mechanical problems, and unauthorized persons.Daily phone app logs and GPS reports are..."
+    },
+    {
       "title": "Level 2 & Level 3 Security Officer – Armed and Unarmed",
       "company": "Shift Temp",
       "location": "Dallas, TX",
@@ -93,28 +115,6 @@
       "apply_link": "https://shift-temp.com/jobs/level-2-level-3-security-officer-armed-and-unarmed/",
       "via": "via Shift Temp",
       "description": "<!-- wp:paragraph -->\n<p><strong>Responsibilities:</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><!-- wp:list-item -->\n<li><strong>Armed Officers:</strong><!-- wp:list -->\n<ul><!-- wp:list-item -->\n<li>Maintain a visible presence to deter illegal and inappropriate actions.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Enforce security procedures and respond to threats or emergencies.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Handle firearms responsibly and in adherence to regulations.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></li>\n<!-- /wp:list-item..."
-    },
-    {
-      "title": "Security Guard Level II (Armed) Supervisor",
-      "company": "Koniag Government Services",
-      "location": "Highland Park, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.adzuna.com/details/5606862159",
-      "via": "via Adzuna",
-      "description": "PacArctic LLC, a Koniag Government Services company, is seeking a Security Guard Level II (Armed) to support PAC and our government at Dallas, TX. _This position is for a Future New Business Opportunity._ This position is covered under the Service Contract Act. We offer competitive compensation and an extraordinary benefits package including health, dental and vision insurance, 401K with company matching, paid holidays, paid Vacation, paid sick leave and more. The Guard Level II Supervisor is an armed security leadership position whose principal duty is security, responsible for overseeing..."
-    },
-    {
-      "title": "Security Shift Supervisor - Warehouse",
-      "company": "Allied Universal",
-      "location": "Denton, TX",
-      "pay": "22 an hour",
-      "schedule": "Internship",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-warehouse-at-allied-universal-4450396642",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
     }
   ]
 }

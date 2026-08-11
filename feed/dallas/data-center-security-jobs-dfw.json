@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-08T14:47:00.636931+00:00",
+  "generated": "2026-08-11T15:15:58.433103+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
-  "exact": 6,
+  "exact": 7,
   "jobs": [
     {
       "title": "Security Officer Data Center",
@@ -16,6 +16,17 @@
       "apply_link": "https://www.indeed.com/viewjob?jk=c954bd62dee4622b",
       "via": "via Indeed",
       "description": "<div>\n <p>Security Officer Data Center</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Company Overview:\n </div>\n <div>\n  Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n </div>\n <h2><b><br>\n    Job Description</b></h2>\n <p><br>\n   As a Security Officer, you will serve and safeguard clients in a range of..."
+    },
+    {
+      "title": "Datacenter Site Security Lead",
+      "company": "Securitas US Business Unit",
+      "location": "Dallas, TX",
+      "pay": "70K–110K a year",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-03",
+      "apply_link": "https://www.jobleads.com/us/job/datacenter-site-security-lead--dallas--e6920c8ad2bd7d20afd8061f7e1383845",
+      "via": "via JobLeads",
+      "description": "<p>Securitas US Business Unit in Dallas is seeking a Site Security Manager to lead a 24/7 datacenter security operations team, ensuring a safe, compliant environment and meeting client expectations. Reporting to a Campus Security Manager, you will build a cohesive, high‑performing team across shifts and sites.</p><p>You will coordinate with campus leaders, manage SOC systems, audits, and documentation, and mentor staff while delivering proactive security services and continuous improvements.</p>"
     },
     {
       "title": "Armed Security Flex Officer - Data Center",
@@ -62,59 +73,48 @@
       "description": "<h2>Overview</h2>\nBecome part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener..."
     },
     {
-      "title": "Security Officer Patrol Data Center",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.careerbuilder.com/job-details/security-officer-patrol-data-center-richardson-tx--f7fd67a5-c928-40cb-aa93-0dd5662896cb",
-      "via": "via CareerBuilder",
-      "description": "<p>Security Officer Patrol Data Center</p><p>Richardson, Texas Position Type: Full Time Shift Type: Overnight Req ID: 2026-1600313 Work Days Available: Monday, Tuesday, Wednesday, Thursday, Friday Date posted: 05/26/2026</p><p>Apply Save Job</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a..."
-    },
-    {
-      "title": "Security Shift Supervisor - Warehouse",
-      "company": "Allied Universal",
-      "location": "Denton, TX",
-      "pay": "22 an hour",
-      "schedule": "Internship",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-shift-supervisor-warehouse-at-allied-universal-4450396642",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will..."
-    },
-    {
-      "title": "Security Officer Cargo Facility",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "pay": "19 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-cargo-facility-at-allied-universal-4450506160",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Mobile Patrol Driver</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as..."
-    },
-    {
-      "title": "Security Officer Dispatch",
-      "company": "Allied Universal",
-      "location": "Richardson, TX",
-      "pay": "20 an hour",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-dispatch-at-allied-universal-4450501923",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Dispatch Incident Intake</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Commercial Real..."
-    },
-    {
-      "title": "On Site Security Supervisor",
-      "company": "Security Solutions of America",
+      "title": "Data Center Security Officer",
+      "company": "Securitas Security Services",
       "location": "Dallas, TX",
       "pay": null,
       "schedule": "Full-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.indeed.com/viewjob?jk=eb8cb0f547cd8803",
-      "via": "via Indeed",
-      "description": "<div>\n On Site Security Supervisor \n <p><br>\n   Ideals Candidates Must:</p>\n <p>Strong Leadership Skills</p>\n <p>Security Supervisory Experience</p>\n <p>Excellent Attendance</p>\n <p>Ability to Work Independently while Maintaining a High Level of Professionalism</p>\n <p>Applicants must have 2-3 years security supervisory experience, active Texas Guard License, clear background check and drug test, clear MVR.</p>\n <p>Schedule: Monday-Friday 6a-2p</p>\n <p><b><br>\n    Security Solution of America (SSA) </b>is one of the fastest growing security guard and patrol companies in the U.S. Our company..."
+      "posted_date": null,
+      "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/169543?utm_medium=search+engine&utm_source=google",
+      "via": "via Cloud Sign In",
+      "description": "<p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"><strong>Security Officer</strong></span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"bcx9\"> </span><br><span class=\"bcx9\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">We help make your world a safer place.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">Securitas is a global company that offers the most advanced and sustainable..."
+    },
+    {
+      "title": "Security Officer Part Time Mobile Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Denton, TX",
+      "pay": "20 an hour",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-part-time-mobile-patrol-driver-at-allied-universal-4451480022",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Mobile Patrol Driver</strong> in <strong>Denton, TX</strong>, you will serve and safeguard clients in a range of industries. Join a leading team..."
+    },
+    {
+      "title": "Security Officer Full Time Driver",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "pay": "18 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-full-time-driver-at-allied-universal-4452195694",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Driver</strong> in <strong>Richardson, TX</strong>, you will serve and safeguard clients in a range of industries such as Commercial Real Estate,..."
+    },
+    {
+      "title": "Security Officer Mobile Response Driver",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "pay": "16 an hour",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-mobile-response-driver-at-allied-universal-4451473960",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Mobile Response Driver</strong> in <strong>Dallas, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and..."
     }
   ]
 }
