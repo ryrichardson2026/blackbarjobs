@@ -1,5 +1,5 @@
 {
-  "pages": 199,
+  "pages": 195,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -604,17 +604,6 @@
       "city_major": true,
       "target_type": "city-role",
       "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "dallas/job-board",
-      "path": "dallas/job-board.html",
-      "market": "DFW",
-      "role": null,
-      "city": null,
-      "city_major": false,
-      "target_type": "general",
-      "container": null,
       "has_feed_block": true
     },
     {
@@ -1256,17 +1245,6 @@
       "has_feed_block": true
     },
     {
-      "key": "houston/jobs/houston-construction-security",
-      "path": "houston/jobs/houston-construction-security.html",
-      "market": "Houston",
-      "role": "construction",
-      "city": "houston",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
       "key": "houston/jobs/data-center-security-houston",
       "path": "houston/jobs/data-center-security-houston.html",
       "market": "Houston",
@@ -1381,17 +1359,6 @@
       "path": "houston/jobs/houston-sporting-event-security.html",
       "market": "Houston",
       "role": "event",
-      "city": "houston",
-      "city_major": true,
-      "target_type": "city-role",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "houston/jobs/houston-hospital-security",
-      "path": "houston/jobs/houston-hospital-security.html",
-      "market": "Houston",
-      "role": "hospital-healthcare",
       "city": "houston",
       "city_major": true,
       "target_type": "city-role",
@@ -1769,17 +1736,6 @@
       "city": "houston",
       "city_major": true,
       "target_type": "city",
-      "container": "jobRows",
-      "has_feed_block": true
-    },
-    {
-      "key": "security-jobs-san-antonio",
-      "path": "security-jobs-san-antonio.html",
-      "market": "San Antonio",
-      "role": null,
-      "city": null,
-      "city_major": false,
-      "target_type": "general",
       "container": "jobRows",
       "has_feed_block": true
     },

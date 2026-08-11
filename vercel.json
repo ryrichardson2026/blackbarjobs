@@ -155,7 +155,7 @@
     },
     {
       "source": "/jobs/carrollton-security-jobs",
-      "destination": "/dallas/jobs/carrollton-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -380,7 +380,7 @@
     },
     {
       "source": "/jobs/denton-security-jobs",
-      "destination": "/dallas/jobs/denton-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -410,7 +410,7 @@
     },
     {
       "source": "/jobs/euless-security-jobs",
-      "destination": "/dallas/jobs/euless-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -420,7 +420,7 @@
     },
     {
       "source": "/jobs/forney-security-jobs",
-      "destination": "/dallas/jobs/forney-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -460,7 +460,7 @@
     },
     {
       "source": "/jobs/frisco-unarmed-security-jobs",
-      "destination": "/dallas/jobs/frisco-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
@@ -470,12 +470,12 @@
     },
     {
       "source": "/jobs/garland-security-jobs",
-      "destination": "/dallas/jobs/garland-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
       "source": "/jobs/grand-prairie-overnight-security-jobs",
-      "destination": "/dallas/jobs/grand-prairie-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
@@ -495,17 +495,17 @@
     },
     {
       "source": "/jobs/irving-overnight-security",
-      "destination": "/dallas/jobs/irving-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
       "source": "/jobs/irving-overnight-security-jobs",
-      "destination": "/dallas/jobs/irving-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
       "source": "/jobs/irving-unarmed-security",
-      "destination": "/dallas/jobs/irving-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
@@ -545,7 +545,7 @@
     },
     {
       "source": "/jobs/mansfield-security-jobs",
-      "destination": "/dallas/jobs/mansfield-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -565,7 +565,7 @@
     },
     {
       "source": "/jobs/midlothian-security-jobs",
-      "destination": "/dallas/jobs/midlothian-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -610,7 +610,7 @@
     },
     {
       "source": "/jobs/plano-unarmed-security-jobs",
-      "destination": "/dallas/jobs/plano-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
@@ -625,7 +625,7 @@
     },
     {
       "source": "/jobs/rockwall-security-jobs",
-      "destination": "/dallas/jobs/rockwall-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -784,6 +784,11 @@
       "permanent": true
     },
     {
+      "source": "/jobs/houston/tsa-airport-security-houston",
+      "destination": "/houston/jobs/houston-airport-security",
+      "permanent": true
+    },
+    {
       "source": "/jobs/houston/:slug*",
       "destination": "/houston/jobs/:slug*",
       "permanent": true
@@ -805,7 +810,7 @@
     },
     {
       "source": "/dallas/carrollton-security-jobs",
-      "destination": "/dallas/jobs/carrollton-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1005,7 +1010,7 @@
     },
     {
       "source": "/dallas/denton-security-jobs",
-      "destination": "/dallas/jobs/denton-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1020,12 +1025,12 @@
     },
     {
       "source": "/dallas/euless-security-jobs",
-      "destination": "/dallas/jobs/euless-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
       "source": "/dallas/forney-security-jobs",
-      "destination": "/dallas/jobs/forney-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1060,17 +1065,17 @@
     },
     {
       "source": "/dallas/frisco-unarmed-security-jobs",
-      "destination": "/dallas/jobs/frisco-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
       "source": "/dallas/garland-security-jobs",
-      "destination": "/dallas/jobs/garland-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
       "source": "/dallas/grand-prairie-overnight-security-jobs",
-      "destination": "/dallas/jobs/grand-prairie-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
@@ -1080,12 +1085,12 @@
     },
     {
       "source": "/dallas/irving-overnight-security-jobs",
-      "destination": "/dallas/jobs/irving-overnight-security",
+      "destination": "/dallas/jobs/dallas-overnight-security",
       "permanent": true
     },
     {
       "source": "/dallas/irving-unarmed-security",
-      "destination": "/dallas/jobs/irving-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
@@ -1100,7 +1105,7 @@
     },
     {
       "source": "/dallas/mansfield-security-jobs",
-      "destination": "/dallas/jobs/mansfield-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1120,7 +1125,7 @@
     },
     {
       "source": "/dallas/midlothian-security-jobs",
-      "destination": "/dallas/jobs/midlothian-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1130,7 +1135,7 @@
     },
     {
       "source": "/dallas/plano-unarmed-security-jobs",
-      "destination": "/dallas/jobs/plano-unarmed-security",
+      "destination": "/dallas/jobs/dallas-unarmed-security",
       "permanent": true
     },
     {
@@ -1140,7 +1145,7 @@
     },
     {
       "source": "/dallas/rockwall-security-jobs",
-      "destination": "/dallas/jobs/rockwall-security-jobs",
+      "destination": "/dallas",
       "permanent": true
     },
     {
@@ -1476,6 +1481,21 @@
     {
       "source": "/houston/jobs/overnight-security-houston",
       "destination": "/houston/jobs/houston-night-shift-security",
+      "permanent": true
+    },
+    {
+      "source": "/root/security-guard-salary-texas",
+      "destination": "/texas/security-guard-salary-texas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/security-training-schools-dfw",
+      "destination": "/dallas/security-training-schools-dfw",
+      "permanent": true
+    },
+    {
+      "source": "/san-antonio/jobs/universal-city-security-jobs",
+      "destination": "/san-antonio",
       "permanent": true
     }
   ]
