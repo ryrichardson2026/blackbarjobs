@@ -40,6 +40,7 @@ jobs:
         run: python bbj_feed_bake.py --repo . --walk-dir . --market all --no-sitemap
 
       - name: Commit and push refreshed feed + baked pages
+        id: commit
         run: |
           git config user.name "bbj-feed-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -56,7 +57,39 @@ jobs:
           fi
           # Idempotent bake + unchanged feeds can legitimately stage nothing: clean no-op.
           if git diff --cached --quiet; then
-            echo "No changes to commit"; exit 0
+            echo "No changes to commit"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           git commit -m "chore: scheduled feed refresh + bake"
           git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      # Tell Google's Indexing API which pages changed this run so recrawl is
+      # prompted instead of waiting weeks (indexed count fell 398 -> 296 while
+      # pages rebaked without being recrawled). Only pages carrying JobPosting
+      # qualify, which every BBJ hub/role page does. The ping script reads the
+      # .html files changed in the just-pushed commit, resolves each to its
+      # canonical URL, HEAD-checks it is live 200, and submits URL_UPDATED.
+      #
+      # Guards: runs only when the bake actually committed (no-op runs skip it),
+      # and only if GOOGLE_INDEXING_KEY exists, so this step is safe to merge
+      # before the GCP/Search-Console setup is finished. continue-on-error means
+      # an indexing hiccup never fails the feed pipeline.
+      - name: Notify Google Indexing API of changed pages
+        if: steps.commit.outputs.committed == 'true'
+        continue-on-error: true
+        env:
+          GOOGLE_INDEXING_KEY: ${{ secrets.GOOGLE_INDEXING_KEY }}
+        run: |
+          if [ -z "$GOOGLE_INDEXING_KEY" ]; then
+            echo "GOOGLE_INDEXING_KEY not set; skipping indexing ping"; exit 0
+          fi
+          python -m pip install --quiet google-auth
+          # The pushed commit must be LIVE before Google is told, or Googlebot
+          # fetches a stale page and the quota is wasted. Vercel builds this
+          # static site in ~15-60s; 120s is a safe deploy margin (documented
+          # delay, per the brief's "add a delay step and document it").
+          echo "Waiting 120s for Vercel to deploy the pushed commit..."
+          sleep 120
+          python automation/bbj_indexing_ping.py --range HEAD~1..HEAD
