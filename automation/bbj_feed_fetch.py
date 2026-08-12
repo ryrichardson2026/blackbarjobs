@@ -346,11 +346,14 @@ class Supa:
                   "Content-Type": "application/json"}
 
     def blocklist(self):
-        """Return [(term, vertical)] pairs. A NULL vertical means the term applies to
-        ALL verticals; a set vertical scopes suppression to matching jobs only (so the
-        security blocklist never touches warehouse rows, and vice-versa)."""
-        st, data = http("GET", self.rest + "/feed_blocklist?select=term,vertical", headers=self.h)
-        return [(r["term"], r.get("vertical")) for r in (data or [])] if isinstance(data, list) else []
+        """Return [(term, vertical, field)] triples. NULL vertical means the term
+        applies to ALL verticals; a set vertical scopes suppression to matching jobs
+        only (so the security blocklist never touches warehouse rows, and vice-versa).
+        field is 'title' or 'company' — which column the term is matched against, so a
+        staffing FIRM (which lives in company, not the title) can be suppressed."""
+        st, data = http("GET", self.rest + "/feed_blocklist?select=term,vertical,field", headers=self.h)
+        return ([(r["term"], r.get("vertical"), r.get("field") or "title")
+                 for r in (data or [])] if isinstance(data, list) else [])
 
     def upsert(self, rows):
         h = dict(self.h); h["Prefer"] = "resolution=merge-duplicates,return=minimal"
@@ -426,7 +429,7 @@ def main():
     now_iso = run_start.isoformat()
     today = date.today()
     blocklist = supa.blocklist()
-    _bl_show = ", ".join(f"{t}[{v or 'all'}]" for t, v in blocklist)
+    _bl_show = ", ".join(f"{t}[{v or 'all'}/{fld}]" for t, v, fld in blocklist)
     print(f"Blocklist terms: {len(blocklist)}  ({_bl_show or 'none'})")
 
     seen, buffer = set(), {}
@@ -478,10 +481,12 @@ def main():
     supa.patch(f"status=eq.inactive&suppressed=eq.false&last_seen_at=gte.{quote(now_iso)}",
                {"status": "active", "updated_at": now_iso})
 
-    for term, vert in blocklist:
-        # NULL vertical -> suppress the matching title in every vertical; a set
-        # vertical -> only rows of that vertical, so cross-vertical bleed is impossible.
-        q = f"suppressed=eq.false&title=ilike.*{quote(term)}*"
+    for term, vert, field in blocklist:
+        # Match against title or company (whitelist the column so a bad field value can
+        # never inject into the filter). NULL vertical -> suppress in every vertical; a
+        # set vertical -> only that vertical's rows, so cross-vertical bleed is impossible.
+        col = field if field in ("title", "company") else "title"
+        q = f"suppressed=eq.false&{col}=ilike.*{quote(term)}*"
         if vert:
             q += f"&vertical=eq.{quote(vert)}"
         supa.patch(q, {"suppressed": True, "updated_at": now_iso})
