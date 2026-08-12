@@ -220,6 +220,31 @@ def parse_pay(raw):
     return {"min": lo, "max": hi, "currency": "USD", "unit": unit}
 
 
+# ---- pay from the job DESCRIPTION (fallback when the structured salary field is empty) ---
+# ~59% of warehouse postings publish no structured salary, but many state pay in the
+# description text ("$18.50/hour", "$36,000-$48,000 a year"). A leading $ is REQUIRED so
+# "8 hour shift" / "2 weeks PTO" / "401(k)" can never read as pay; parse_pay's plausibility
+# bands reject whatever slips through. First valid match wins (pay is usually stated once,
+# near the top).
+_DESC_PAY_RE = re.compile(
+    r"\$\s?\d[\d,]*(?:\.\d+)?\s*[kK]?"                                    # $amount (opt K)
+    r"(?:\s*(?:-|–|—|to|and)\s*\$?\s?\d[\d,]*(?:\.\d+)?\s*[kK]?)?"  # opt range
+    r"\s*(?:per|an?|/|a)?\s*"                                             # opt lead-in
+    r"(?:hourly|hour|hrs?|yearly|year|yr|annually|annual|weekly|week|monthly|month|daily|day)",
+    re.I)
+
+def pay_from_description(desc):
+    """-> (phrase, parsed_pay_dict) mined from the description, or (None, None)."""
+    if not desc:
+        return None, None
+    for m in _DESC_PAY_RE.finditer(desc):
+        phrase = m.group(0).strip()
+        pp = parse_pay(phrase)
+        if pp:
+            return phrase, pp
+    return None, None
+
+
 # ---- apply-link ranking (Task 4) -----------------------------------------------
 # 64% of apply clicks currently land on other job boards; ~9% reach an employer.
 # Rank employer-owned domain > ATS domain > everything else, over the WHOLE pool
@@ -315,6 +340,10 @@ def normalize(job, qmeta, now_iso, today):
     if len(desc) > DESC_MAX:
         desc = desc[:DESC_MAX].rsplit(" ", 1)[0] + "..."
     pp = parse_pay(pay)                             # structured salary, or None
+    if pp is None:                                  # fallback: mine pay from the description
+        phrase, dpp = pay_from_description(desc)
+        if dpp:
+            pay, pp = phrase, dpp
     return {
         "job_hash": job_hash(company, title, location),
         "title": title, "company": company, "location": location,
