@@ -172,6 +172,10 @@
       '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="field-label">Email</label>',
       '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
+      '<div class="field-row">',
+        '<div><label class="field-label">ZIP Code</label><input id="bbjZip" type="text" placeholder="60601" inputmode="numeric" maxlength="5" pattern="[0-9]*" autocomplete="postal-code"></div>',
+        '<div><label class="field-label">Mobile <span style="color:#a0aab4;font-weight:400;">(optional)</span></label><input id="bbjPhone" type="tel" placeholder="(312) 000-0000" inputmode="tel" autocomplete="tel"></div>',
+      '</div>',
       '<label class="field-label">Region</label>',
       '<select id="bbjCityRegion">',
         '<option value="">What\'s your region?</option>',
@@ -183,24 +187,25 @@
         '<option value="Chicago|IL">Chicago, IL</option>',
         '<option value="other|">Other / not listed</option>',
       '</select>',
-      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">What type of security jobs?</label>',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">What kind of work?</label>',
+      '<div class="toggle-row" id="bbjVertToggle" style="margin-bottom:12px;">',
+        '<div class="toggle-btn" data-vert="security" id="bbjVertSec">Security</div>',
+        '<div class="toggle-btn" data-vert="warehouse" id="bbjVertWh">Warehouse</div>',
+      '</div>',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">Roles you can work</label>',
       '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
-      '<div class="chip-grid">',
-        '<div class="chip" data-role="all" id="bbjChipAll">All Types</div>',
-        '<div class="chip" data-role="unarmed">Unarmed</div>',
-        '<div class="chip" data-role="armed">Armed</div>',
-        '<div class="chip" data-role="overnight">Overnight</div>',
-        '<div class="chip" data-role="event">Event</div>',
+      '<div class="chip-grid" id="bbjRoleChips"></div>',
+      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin:6px 0 4px;display:block;">Shift preference</label>',
+      '<div class="chip-grid" id="bbjShiftChips">',
+        '<div class="chip" data-shift="day">Day / Flexible</div>',
+        '<div class="chip" data-shift="overnight">Overnight</div>',
+        '<div class="chip" data-shift="weekend">Weekend</div>',
+        '<div class="chip" data-shift="part-time">Part-time</div>',
       '</div>',
-      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Receive SMS alerts for new jobs?</label>',
-      '<div class="toggle-row" style="margin-top:6px;">',
-        '<div class="toggle-btn" id="bbjSmsYes">Yes</div>',
-        '<div class="toggle-btn" id="bbjSmsNo">No thanks</div>',
-      '</div>',
-      '<div class="reveal-block" id="bbjPhoneBlock">',
-        '<label class="field-label">Mobile Number</label>',
-        '<input id="bbjPhone" type="tel" placeholder="(214) 000-0000" inputmode="tel" autocomplete="tel">',
-      '</div>',
+      '<div id="bbjCredWrap" style="margin-top:6px;"></div>',
+      '<label class="help-opt" style="display:flex;gap:8px;align-items:flex-start;margin:12px 0 4px;font-size:0.82rem;color:#5a6474;cursor:pointer;">',
+        '<input type="checkbox" id="bbjSmsOpt"> <span>Text me new job alerts (SMS). Msg &amp; data rates may apply.</span>',
+      '</label>',
       '<button class="submit-btn" id="bbjStep1Btn">Get Job Alerts</button>',
       '<p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
       '<p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>',
@@ -215,32 +220,8 @@
     '</div>',
     '<div id="bbjStep2" style="display:none;">',
       '<h2 class="auth-title" style="font-size:1.6rem;">Complete Your Profile</h2>',
-      '<p class="auth-sub">Register for BlackBarJobs &#x2014; get access to more jobs. Free to sign up. No resume required.</p>',
+      '<p class="auth-sub">Create a password to save your profile and unlock every listing. Free, no resume.</p>',
       '<div id="bbjErr2" class="err-msg"></div>',
-      '<div class="field-row">',
-        '<div><label class="field-label">City</label><input id="bbjCity" type="text" placeholder="Dallas" autocomplete="address-level2"></div>',
-        '<div><label class="field-label">State</label><input id="bbjState" type="text" placeholder="TX" autocomplete="address-level1" maxlength="2"></div>',
-      '</div>',
-      '<div id="bbjLicSection">',
-      '<span class="section-label" id="bbjLicLabel">Texas Security License</span>',
-      '<p style="font-size:0.82rem;color:#5a6474;margin-bottom:10px;" id="bbjLicQ">Do you hold a Texas DPS security license?</p>',
-      '<div class="toggle-row">',
-        '<div class="toggle-btn" id="bbjLicYes">Yes, I\'m licensed</div>',
-        '<div class="toggle-btn" id="bbjLicNo">Not yet</div>',
-      '</div>',
-      '<div class="reveal-block" id="bbjLicLevelBlock">',
-        '<label class="field-label">License Level</label>',
-        '<select id="bbjLicLevel"><option value="">Select level</option><option value="level2">Level 2 &#x2014; Non-Commissioned (Unarmed)</option><option value="level3">Level 3 &#x2014; Commissioned (Armed)</option><option value="both">Both Level 2 and Level 3</option></select>',
-      '</div>',
-      '<div class="reveal-block" id="bbjLicHelpBlock">',
-        '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">Do you want help getting licensed in your state?</label>',
-        '<div class="toggle-row">',
-          '<div class="toggle-btn" id="bbjHelpY">Yes</div>',
-          '<div class="toggle-btn" id="bbjHelpN">No</div>',
-        '</div>',
-      '</div>',
-      '</div>',
-      '<hr>',
       '<label class="field-label">Create a Password</label>',
       '<input id="bbjPassword" type="password" placeholder="Min. 8 characters" autocomplete="new-password">',
       '<button class="submit-btn" id="bbjStep2Btn">Create Account &amp; View Jobs</button>',
@@ -252,7 +233,7 @@
 
 
   // ── STATE ────────────────────────────────────────────────────
-  var _sms = '', _lic = '', _step1Data = {};
+  var _step1Data = {}, _regVert = 'security';
 
   // ── HELPERS ──────────────────────────────────────────────────
   function _sb() {
@@ -350,25 +331,53 @@
     document.body.style.overflow = '';
   };
 
-  window.bbjSetSms = function(val) {
-    _sms = val;
-    document.getElementById('bbjSmsYes').classList.toggle('selected', val === 'yes');
-    document.getElementById('bbjSmsNo').classList.toggle('selected', val === 'no');
-    document.getElementById('bbjPhoneBlock').classList.toggle('visible', val === 'yes');
-    if (val !== 'yes') document.getElementById('bbjPhone').value = '';
+  // ── Vertical-aware role + credential controls (Task 4) ──────────
+  // Role capability and credentials differ by vertical; a toggle swaps them. Adding a
+  // vertical is one REG_TAXONOMY entry + one _renderCred branch — matches the peer model.
+  var REG_TAXONOMY = {
+    security:  { roles:[['unarmed','Unarmed'],['armed','Armed'],['patrol','Patrol'],['event','Event'],['loss-prevention','Loss Prevention'],['hospital','Hospital'],['tsa','TSA / Airport']] },
+    warehouse: { roles:[['forklift','Forklift'],['package-handler','Package Handler'],['associate','Warehouse Associate']] }
   };
-
-  window.bbjSetLic = function(val) {
-    _lic = val;
-    document.getElementById('bbjLicYes').classList.toggle('selected', val === 'yes');
-    document.getElementById('bbjLicNo').classList.toggle('selected', val === 'no');
-    document.getElementById('bbjLicLevelBlock').classList.toggle('visible', val === 'yes');
-    document.getElementById('bbjLicHelpBlock').classList.toggle('visible', val === 'no');
-  };
-
-  window.bbjSetHelp = function(val) {
-    document.getElementById('bbjHelpY').classList.toggle('selected', val==='yes');
-    document.getElementById('bbjHelpN').classList.toggle('selected', val==='no');
+  function _regVertical() {
+    try {
+      var p = window.BBJ_BOARD_PRESET;
+      if (p && (p.vertical === 'security' || p.vertical === 'warehouse')) return p.vertical;
+      var k = (window.BBJ_FEED_KEY || '').toLowerCase();
+      if (/warehouse|forklift|package|associate/.test(k)) return 'warehouse';
+      if (k) return 'security';
+    } catch (e) {}
+    return 'security';
+  }
+  function _renderRoleChips(v) {
+    var host = document.getElementById('bbjRoleChips'); if (!host) return;
+    var roles = (REG_TAXONOMY[v] || REG_TAXONOMY.security).roles;
+    host.innerHTML = '<div class="chip" data-role="all" id="bbjChipAll">All Types</div>' +
+      roles.map(function(r){ return '<div class="chip" data-role="'+r[0]+'">'+r[1]+'</div>'; }).join('');
+  }
+  function _renderCred(v) {
+    var host = document.getElementById('bbjCredWrap'); if (!host) return;
+    if (v === 'warehouse') {
+      host.innerHTML = '<label class="field-label">Certifications</label>'
+        + '<div class="chip-grid" id="bbjCredChips">'
+        + '<div class="chip" data-cred="forklift">Forklift</div>'
+        + '<div class="chip" data-cred="reach-truck">Reach Truck</div>'
+        + '<div class="chip" data-cred="osha">OSHA</div>'
+        + '<div class="chip" data-cred="none">None yet</div></div>';
+    } else {
+      host.innerHTML = '<label class="field-label">Security license</label>'
+        + '<select id="bbjCred"><option value="">Not licensed / not sure</option>'
+        + '<option value="level2">Level 2 (Unarmed)</option>'
+        + '<option value="level3">Level 3 (Armed)</option>'
+        + '<option value="both">Both Level 2 and Level 3</option></select>';
+    }
+  }
+  window.bbjSetRegVertical = function(v) {
+    _regVert = (v === 'warehouse') ? 'warehouse' : 'security';
+    var s = document.getElementById('bbjVertSec'), w = document.getElementById('bbjVertWh');
+    if (s) s.classList.toggle('selected', _regVert === 'security');
+    if (w) w.classList.toggle('selected', _regVert === 'warehouse');
+    _renderRoleChips(_regVert);
+    _renderCred(_regVert);
   };
 
   window.bbjShowStep2 = function() {
@@ -380,47 +389,38 @@
   // ── INIT LISTENERS ───────────────────────────────────────────
   document.addEventListener('DOMContentLoaded', function() {
 
-    // Wire SMS toggles
-    document.getElementById('bbjSmsYes').addEventListener('click', function(){ bbjSetSms('yes'); });
-    document.getElementById('bbjSmsNo').addEventListener('click', function(){ bbjSetSms('no'); });
-    // Wire License toggles
-    document.getElementById('bbjLicYes').addEventListener('click', function(){ bbjSetLic('yes'); });
-    document.getElementById('bbjLicNo').addEventListener('click', function(){ bbjSetLic('no'); });
-    // Wire Help toggles
-    document.getElementById('bbjHelpY').addEventListener('click', function(){ bbjSetHelp('yes'); });
-    document.getElementById('bbjHelpN').addEventListener('click', function(){ bbjSetHelp('no'); });
-    // Wire success Browse button
+    // Wire the vertical toggle (swaps the role + credential controls)
+    document.getElementById('bbjVertSec').addEventListener('click', function(){ bbjSetRegVertical('security'); });
+    document.getElementById('bbjVertWh').addEventListener('click', function(){ bbjSetRegVertical('warehouse'); });
+    // Success Browse button + close X
     document.getElementById('bbjShowStep2Btn').addEventListener('click', function(){ bbjShowStep2(); });
-    // Wire X button
     document.getElementById('bbjRegX').addEventListener('click', function(){ bbjRegClose(); });
 
-    // Geo-aware license copy (driven by the Step 1 region dropdown)
-    var bbjRegionSel = document.getElementById('bbjCityRegion');
-    window.bbjPrefillRegion(bbjRegionSel);
-    window.bbjWireLicense(
-      bbjRegionSel,
-      document.getElementById('bbjLicLabel'),
-      document.getElementById('bbjLicQ'),
-      document.getElementById('bbjLicLevel'),
-      document.getElementById('bbjLicSection')
-    );
+    // Region prefill (metro context) from the page path
+    window.bbjPrefillRegion(document.getElementById('bbjCityRegion'));
 
-    // Chips
-    var chipAll = document.getElementById('bbjChipAll');
-    if (chipAll) {
-      chipAll.addEventListener('click', function() {
-        var chips = document.querySelectorAll('#bbjRegCard .chip');
-        var allOn = this.classList.contains('selected');
-        chips.forEach(function(c){ c.classList.remove('selected'); });
-        if (!allOn) this.classList.add('selected');
-      });
-    }
-    document.querySelectorAll('#bbjRegCard .chip:not(#bbjChipAll)').forEach(function(c) {
-      c.addEventListener('click', function() {
-        this.classList.toggle('selected');
-        var anyOn = Array.from(document.querySelectorAll('#bbjRegCard .chip:not(#bbjChipAll)')).some(function(x){ return x.classList.contains('selected'); });
-        document.getElementById('bbjChipAll').classList.toggle('selected', !anyOn);
-      });
+    // Initialize vertical from page context -> renders role + credential chips
+    bbjSetRegVertical(_regVertical());
+
+    // Delegated chip selection: role / shift / credential chips are re-rendered when the
+    // vertical toggles, so a static per-chip listener would go stale. One delegated
+    // handler on the card covers all current and future chips.
+    var regCard = document.getElementById('bbjRegCard');
+    if (regCard) regCard.addEventListener('click', function(e) {
+      var chip = e.target.closest ? e.target.closest('.chip') : null;
+      if (!chip || !regCard.contains(chip)) return;
+      var grid = chip.parentElement;
+      if (chip.id === 'bbjChipAll') {                 // "All Types" is exclusive of the rest
+        var on = chip.classList.contains('selected');
+        grid.querySelectorAll('.chip').forEach(function(c){ c.classList.remove('selected'); });
+        if (!on) chip.classList.add('selected');
+        return;
+      }
+      chip.classList.toggle('selected');
+      if (grid && grid.id === 'bbjRoleChips') {        // keep the role grid's "All" in sync
+        var anyOn = Array.prototype.some.call(grid.querySelectorAll('.chip:not(#bbjChipAll)'), function(x){ return x.classList.contains('selected'); });
+        var all = document.getElementById('bbjChipAll'); if (all) all.classList.toggle('selected', !anyOn);
+      }
     });
 
     // ── STEP 1 SUBMIT ─────────────────────────────────────────
@@ -428,22 +428,39 @@
     if (btn1) btn1.addEventListener('click', async function() {
       var name  = document.getElementById('bbjFirstName').value.trim();
       var email = document.getElementById('bbjEmail').value.trim();
-      var phoneEl = document.getElementById('bbjPhone'); var phone = phoneEl ? phoneEl.value.trim() : '';
+      var zip   = (document.getElementById('bbjZip').value || '').trim();
+      var phone = (document.getElementById('bbjPhone').value || '').trim();
+      var smsOpt = !!(document.getElementById('bbjSmsOpt') && document.getElementById('bbjSmsOpt').checked);
       var reg = window.bbjParseRegion(document.getElementById('bbjCityRegion').value);
       var region_metro = reg.metro, license_state = reg.state, cityRegion = region_metro;
       var errEl = document.getElementById('bbjErr1');
       errEl.style.display = 'none';
 
-      if (!name || !email) { errEl.textContent = 'Please enter your name and email.'; errEl.style.display = 'block'; return; }
+      // Required: email + ZIP. Name and phone are optional (phone captured when given).
+      if (!email) { errEl.textContent = 'Please enter your email.'; errEl.style.display = 'block'; return; }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = 'Please enter a valid email address.'; errEl.style.display = 'block'; return; }
-      if (_sms === 'yes' && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number.'; errEl.style.display = 'block'; return; }
+      if (!/^\d{5}$/.test(zip)) { errEl.textContent = 'Please enter your 5-digit ZIP code.'; errEl.style.display = 'block'; return; }
+      if (phone && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number, or leave it blank.'; errEl.style.display = 'block'; return; }
 
       this.disabled = true; this.textContent = 'Setting up alerts...';
 
+      // Role capability (vertical-scoped), shift preference, and credentials.
       var roles = {};
-      document.querySelectorAll('#bbjRegCard .chip.selected').forEach(function(c){ roles[c.dataset.role] = true; });
+      document.querySelectorAll('#bbjRoleChips .chip.selected').forEach(function(c){ roles[c.dataset.role] = true; });
+      var shift = {};
+      document.querySelectorAll('#bbjShiftChips .chip.selected').forEach(function(c){ shift[c.dataset.shift] = true; });
+      var credentials;
+      if (_regVert === 'warehouse') {
+        credentials = {};
+        document.querySelectorAll('#bbjCredChips .chip.selected').forEach(function(c){ credentials[c.dataset.cred] = true; });
+      } else {
+        var credSel = document.getElementById('bbjCred'); credentials = credSel ? credSel.value : '';
+      }
+      var phoneDigits = phone.replace(/\D/g,'');
 
-      _step1Data = { first_name: name, email: email, phone: phone, city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, sms_opt: _sms === 'yes' };
+      _step1Data = { first_name: name, email: email, zip: zip, phone: phoneDigits, vertical: _regVert,
+        city_region: cityRegion, region_metro: region_metro, license_state: license_state,
+        roles: roles, shift: shift, credentials: credentials, sms_opt: smsOpt };
 
       // Supabase signUp with temp password
       var tempPass = 'BBJt_' + Math.random().toString(36).slice(2,10) + Math.random().toString(36).slice(2,4) + '!';
@@ -452,7 +469,7 @@
         try {
           var result = await sbClient.auth.signUp({
             email: email, password: tempPass,
-            options: { data: { first_name: name, phone: phone.replace(/\D/g,''), city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, sms_notifications: _sms === 'yes', step: 1 } }
+            options: { data: { first_name: name, zip: zip, phone: phoneDigits, vertical: _regVert, city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, shift: shift, credentials: credentials, sms_notifications: smsOpt, step: 1 } }
           });
           if (result.error && result.error.message !== 'User already registered') {
             errEl.textContent = result.error.message;
@@ -467,7 +484,8 @@
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr('overlay_step1'), { type: 'candidate', first_name: name, email: email,
-            phone: phone.replace(/\D/g,''), city_region: cityRegion, region_metro: region_metro, license_state: license_state, sms_consent: _sms === 'yes', roles: roles,
+            zip: zip, phone: phoneDigits, vertical: _regVert, city_region: cityRegion, region_metro: region_metro, license_state: license_state,
+            roles: roles, shift: shift, credentials: credentials, sms_consent: smsOpt,
             source: 'overlay_step1', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
@@ -487,34 +505,27 @@
     // ── STEP 2 SUBMIT ─────────────────────────────────────────
     var btn2 = document.getElementById('bbjStep2Btn');
     if (btn2) btn2.addEventListener('click', async function() {
-      var city     = document.getElementById('bbjCity').value.trim();
-      var state    = document.getElementById('bbjState').value.trim().toUpperCase();
       var password = document.getElementById('bbjPassword').value;
       var errEl    = document.getElementById('bbjErr2');
       errEl.style.display = 'none';
 
-      if (!city || !state || !password) { errEl.textContent = 'Please fill in all fields.'; errEl.style.display = 'block'; return; }
+      if (!password) { errEl.textContent = 'Please create a password.'; errEl.style.display = 'block'; return; }
       if (password.length < 8) { errEl.textContent = 'Password must be at least 8 characters.'; errEl.style.display = 'block'; return; }
 
       this.disabled = true; this.textContent = 'Creating account...';
 
-      var licLevel  = document.getElementById('bbjLicLevel').value;
-      var region_metro = _step1Data.region_metro || '';
-      var license_state = _step1Data.license_state || '';
-      var licJur    = license_state;
-      var helpTrain = document.getElementById('bbjHelpY') && document.getElementById('bbjHelpY').classList.contains('selected');
-      var helpJobs  = false;
+      var d = _step1Data;   // profile captured in step 1 (zip, phone, roles, shift, credentials, vertical)
 
-      // Supabase updateUser with real password + profile
+      // Supabase updateUser with real password + the step-1 profile
       var sbClient = _sb();
       if (sbClient) {
         try {
           var upd = await sbClient.auth.updateUser({
             password: password,
-            data: { first_name: _step1Data.first_name, phone: _step1Data.phone,
-              city: city, state: state, roles: _step1Data.roles, region_metro: region_metro, license_state: license_state,
-              sms_notifications: _step1Data.sms_opt, license_status: _lic,
-              license_level: licLevel, license_jurisdiction: licJur, help_training: (document.getElementById("bbjHelpY")||{}).classList&&document.getElementById("bbjHelpY").classList.contains("selected")||false, step: 2 }
+            data: { first_name: d.first_name, zip: d.zip, phone: d.phone, vertical: d.vertical,
+              region_metro: d.region_metro, license_state: d.license_state,
+              roles: d.roles, shift: d.shift, credentials: d.credentials,
+              sms_notifications: d.sms_opt, step: 2 }
           });
           if (upd.error) {
             errEl.textContent = upd.error.message;
@@ -528,11 +539,11 @@
       try {
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: _step1Data.first_name,
-            email: _step1Data.email, phone: _step1Data.phone, city: city, state: state,
-            region_metro: region_metro, license_state: license_state,
-            license_status: _lic, license_level: licLevel, license_jurisdiction: licJur, help_training: helpTrain,
-            help_jobs: helpJobs, source: 'overlay_step2', ts: new Date().toISOString(),
+          body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: d.first_name,
+            email: d.email, zip: d.zip, phone: d.phone, vertical: d.vertical,
+            region_metro: d.region_metro, license_state: d.license_state,
+            roles: d.roles, shift: d.shift, credentials: d.credentials,
+            source: 'overlay_step2', ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
         });
@@ -694,8 +705,14 @@
     }).catch(function(){});
   })();
 
-  // Public open — overrides the alias set in alerts overlay
-  window.bbjAccOpen = function() {
+  // LEGACY: this used to override bbjAccOpen so the apply-click gate opened the old
+  // "Get Access" card (bbjAccCard) — a second, accreted signup form with no ZIP,
+  // SMS-gated phone, and security-only roles. Task 4 unifies on the single restored
+  // form (bbjRegCard): bbjAccOpen now stays aliased to bbjRegOpen (set above), so the
+  // gate AND the alerts CTA both open the one form that captures zip/phone/vertical/
+  // roles/shift/credentials. This opener is kept (renamed, dead) to avoid touching the
+  // rest of bbjAccCard; nothing calls it.
+  window._bbjAccCardOpenLegacy = function() {
     document.getElementById('bbjAccForm').style.display = 'block';
     document.getElementById('bbjAccLoader').style.display = 'none';
     document.getElementById('bbjAccErr').style.display = 'none';
