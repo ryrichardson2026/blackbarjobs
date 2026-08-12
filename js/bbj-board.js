@@ -247,12 +247,29 @@
 
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
+  // Clean display pay: prefer the structured pay_min/max/unit (parsed + validated at
+  // ingest) so the card never shows the raw string's upstream mojibake (e.g. "36K�48K").
+  // Falls back to the raw string only when it's present AND clean; '' when there's no pay.
+  var PAY_UNIT_SUFFIX = { HOUR:'/hr', DAY:'/day', WEEK:'/wk', MONTH:'/mo', YEAR:'/yr' };
+  function fmtMoney(v){ return v >= 1000 ? '$' + Math.round(v/1000) + 'K' : '$' + (v % 1 === 0 ? v : v.toFixed(2)); }
+  function displayPay(job){
+    var unit = (job.pay_unit || '').toUpperCase();
+    if (job.pay_min != null && PAY_UNIT_SUFFIX[unit]) {
+      var suf = PAY_UNIT_SUFFIX[unit], lo = fmtMoney(job.pay_min);
+      return (job.pay_max != null && job.pay_max !== job.pay_min)
+        ? lo + '–' + fmtMoney(job.pay_max) + suf : lo + suf;
+    }
+    var raw = (job.pay || '').trim();
+    return (raw && raw.indexOf('�') === -1) ? raw : '';   // hide unrepairable mojibake
+  }
+
   function cardHTML(job) {
     var tags = '';
     if (isNew(job)) tags += '<span class="jb-tag new">New</span>';
     if (job._roles[0]) tags += '<span class="jb-tag role">' + esc(roleLabel(job._roles[0])) + '</span>';
     if ((job.job_type||'').trim()) tags += '<span class="jb-tag">' + esc(job.job_type) + '</span>';
-    if ((job.pay||'').trim()) tags += '<span class="jb-tag pay">$ ' + esc(job.pay) + '</span>';
+    var payTxt = displayPay(job);
+    if (payTxt) tags += '<span class="jb-tag pay">' + esc(payTxt) + '</span>';
     var via = (job.via||'').replace(/^via\s+/i,'').trim();
     if (via) tags += '<span class="jb-tag via">' + esc(via) + '</span>';
     var loc = esc(job.location || job.city || '');
