@@ -74,95 +74,49 @@
 <script>window.BBJ_BOARD_PRESET = {"vertical": "warehouse", "metro": "chicago", "shift": "overnight"};</script>
 <script>window.BBJ_FEED_KEY="chicago/warehouse/overnight-warehouse-jobs";</script>
 <!-- FILTER BAR -->
-<div class="filters" id="board">
-<div class="filters-inner">
-<div class="filter-search-wrap">
-<svg fill="none" height="17" viewbox="0 0 20 20" width="17"><circle cx="9" cy="9" r="6" stroke="#a0aab4" stroke-width="1.6"></circle><path d="M14 14l3.5 3.5" stroke="#a0aab4" stroke-linecap="round" stroke-width="1.6"></path></svg>
-<input autocomplete="off" id="searchInput" placeholder="Search job title or company…" type="text"/>
+<div class="rail" id="board">
+<div class="rail-in">
+<div class="search">
+<svg viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+<input autocomplete="off" id="searchInput" placeholder="Search job title or company" type="text"/>
 </div>
-<div class="chip-label">Location</div>
-<div class="chip-scroll chip-scroll--loc" id="locationChips">
-<div class="chip active" data-loc="">All Locations</div>
-</div>
-<div class="chip-label">Vertical</div>
-<div class="chip-scroll" id="verticalChips">
-<div class="chip active" data-vertical="">All</div>
-<div class="chip" data-vertical="security">Security</div>
-<div class="chip" data-vertical="warehouse">Warehouse</div>
-</div>
-<div class="chip-label">Role</div>
-<div class="chip-scroll" id="roleChips">
-<div class="chip active" data-role="">All Roles</div>
-</div>
-<div class="chip-label">Shift &amp; attribute</div>
-<div class="chip-scroll" id="shiftChips">
-<div class="chip active" data-shift="">Any</div>
-<div class="chip" data-shift="overnight">Overnight</div>
-<div class="chip" data-shift="weekend">Weekend</div>
-<div class="chip" data-shift="part-time">Part-time</div>
-<div class="chip" data-shift="full-time">Full-time</div>
-<div class="chip" data-shift="no-experience">No Experience</div>
+<div class="selectwrap"><select id="locSelect" aria-label="Location"><option value="">All locations</option></select></div>
+<div class="selectwrap"><select id="vertSelect" aria-label="Category"><option value="">All categories</option></select></div>
+<div class="selectwrap" id="shiftWrap"><select id="shiftSelect" aria-label="Shift"><option value="">Any shift</option></select></div>
+<button type="button" class="moretoggle" id="moreBtn" onclick="openDrawer()">Filters<span class="dot" id="moreDot">0</span></button>
 </div>
 </div>
-</div>
-<!-- HUB PRESET CONTEXT BAR (shown only when a deep link pre-sets filters) -->
-<div id="contextBar" style="display:none;"></div>
-<!-- RESULTS BAR -->
-<div class="results-bar">
-<div class="results-count" id="resultsCount">Loading openings…</div>
-<div class="results-right">
-<button class="clear-btn" id="clearBtn" onclick="clearFilters()">Clear filters</button>
-<button type="button" class="morefilters-btn" id="moreFiltersBtn" onclick="openFilterSheet()"><svg fill="none" height="14" viewbox="0 0 18 18" width="14"><path d="M2 5h14M5 9h8M7 13h4" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"></path></svg>More filters<span class="mf-badge" id="mfBadge" style="display:none;">0</span></button>
-</div>
-</div>
-<!-- MORE FILTERS SHEET -->
-<div class="modal-overlay" id="filterSheet" onclick="if(event.target===this)closeFilterSheet()">
-<div class="modal-sheet filter-sheet">
-<div class="fs-head">
-<div class="fs-title">More filters</div>
-<button type="button" class="fs-close" aria-label="Close" onclick="closeFilterSheet()"><svg fill="none" height="18" viewbox="0 0 20 20" width="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path></svg></button>
-</div>
-<div class="fs-label">Date posted</div>
-<div class="seg-row" id="postedSeg">
-<div class="seg active" data-posted="">Any time</div>
-<div class="seg" data-posted="week">This week</div>
-<div class="seg" data-posted="3">Past 3 days</div>
-<div class="seg" data-posted="1">Today</div>
-</div>
-<div class="fs-label">Sort by</div>
-<div class="seg-row" id="sortSeg">
-<div class="seg active" data-sort="newest">Newest</div>
-<div class="seg" data-sort="pay">Highest pay</div>
-<div class="seg" data-sort="company">Company A–Z</div>
-</div>
-<div class="pay-toggle fs-pay" id="payToggle" onclick="togglePay()">
-<span style="display:flex;align-items:center;gap:7px;"><span class="pay-box"><svg fill="none" height="11" viewbox="0 0 16 16" width="11"><path d="M3 8.5l3.5 3.5 6.5-7" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg></span>Pay listed only</span>
-</div>
-<div class="fs-actions">
-<button type="button" class="fs-clear" onclick="clearFilters()">Clear</button>
-<button type="button" class="fs-apply" onclick="closeFilterSheet()">Show results</button>
+<div class="wrap">
+<!-- ACTIVE FILTER PILLS -->
+<div class="active" id="active"></div>
+<!-- RESULTS META -->
+<div class="meta">
+<div class="count" id="resultsCount">Loading openings…</div>
+<div class="sort">
+<button type="button" id="sortNew" aria-pressed="true" onclick="setSort('newest')">Newest</button>
+<button type="button" id="sortPay" aria-pressed="false" onclick="setSort('pay')">Highest pay</button>
 </div>
 </div>
-</div>
-<!-- FEED -->
-<div class="feed" id="feed">
-<div class="skeleton-card"><div class="sk-line" style="height:18px;width:78%"></div><div class="sk-line" style="height:12px;width:55%"></div><div class="sk-line" style="height:22px;width:40%"></div><div class="sk-line" style="height:40px;width:100%"></div></div>
-<div class="skeleton-card"><div class="sk-line" style="height:18px;width:65%"></div><div class="sk-line" style="height:12px;width:48%"></div><div class="sk-line" style="height:22px;width:52%"></div><div class="sk-line" style="height:40px;width:100%"></div></div>
-<div class="skeleton-card"><div class="sk-line" style="height:18px;width:72%"></div><div class="sk-line" style="height:12px;width:50%"></div><div class="sk-line" style="height:22px;width:36%"></div><div class="sk-line" style="height:40px;width:100%"></div></div>
-<div class="skeleton-card"><div class="sk-line" style="height:18px;width:60%"></div><div class="sk-line" style="height:12px;width:58%"></div><div class="sk-line" style="height:22px;width:44%"></div><div class="sk-line" style="height:40px;width:100%"></div></div>
-</div>
-<div class="load-more-wrap" id="loadMoreWrap" style="display:none;">
+<!-- JOB ROWS -->
+<ul class="rows" id="rows">
+<li class="row"><div class="rowmain"><div class="rowtitle" style="opacity:.25">Loading openings…</div><div class="rowsub" style="opacity:.2">&nbsp;</div></div></li>
+</ul>
+<div id="loadMoreWrap" style="display:none;">
 <button class="load-more" id="loadMoreBtn" onclick="loadMore()">Load more jobs</button>
 </div>
-
-<!-- PAY (dynamic, computed from this hub's live feed) -->
-<div class="hub-pay">
-  <div class="hub-section">
-    <h2>Typical Warehouse Pay in Chicago, IL</h2>
-    <p class="intro">What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.</p>
-    <!--BBJ_PAY_START--><div class="pay-grid"><div class="pay-card"><div class="pay-card-label">Typical Low</div><div class="pay-card-rate">$9/hr</div></div><div class="pay-card"><div class="pay-card-label">Median</div><div class="pay-card-rate">$22/hr</div></div><div class="pay-card"><div class="pay-card-label">Typical High</div><div class="pay-card-rate">$45/hr</div></div></div><p class="pay-card-annual" style="margin-top:12px;color:rgba(255,195,0,0.75);">Based on the 23 of 30 current listings that publish pay. Hourly-equivalent.</p><!--BBJ_PAY_END-->
-  </div>
+<!-- PAY PANEL (general board: filled client-side when a vertical+metro is active; hubs bake it) -->
+<section id="payWrap"><div class="paypanel" data-pay-vertical="warehouse" data-pay-metro="chicago" data-pay-title="Typical Warehouse Pay in Chicago, IL"><!--BBJ_PAY_START--><h2>Typical Warehouse Pay in Chicago, IL</h2><p class="note">Hourly-equivalent pay across 86 of 127 current listings that publish a rate.</p><div class="range"><div class="rangebar"><div class="rangefill" style="left:26.3%;right:28.1%"></div><div class="rangemid" style="left:48.1%"></div></div><div class="rangelabels"><div class="rl lo"><div class="v">$13</div><div class="k">Low</div></div><div class="rl mid"><div class="v">$20</div><div class="k">Median /hr</div></div><div class="rl hi"><div class="v">$28</div><div class="k">High</div></div></div></div><!--BBJ_PAY_END--></div></section>
 </div>
+<!-- FILTER DRAWER -->
+<div class="scrim" id="scrim" onclick="closeDrawer()"></div>
+<aside class="drawer" id="drawer" aria-label="Filters">
+<div class="drawer-head"><h2>Filters</h2><button type="button" aria-label="Close" onclick="closeDrawer()">&times;</button></div>
+<div class="drawer-body" id="drawerBody"></div>
+<div class="drawer-foot">
+<button type="button" class="btn-clear" onclick="clearFilters()">Clear</button>
+<button type="button" class="btn-apply" onclick="closeDrawer()">Show results</button>
+</div>
+</aside>
 
 <!-- CONTENT: overview, requirements, FAQ, related -->
 <div class="hub-content">

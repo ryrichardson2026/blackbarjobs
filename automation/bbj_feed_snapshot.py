@@ -81,7 +81,7 @@ def fetch_active_jobs(base, key):
     rest = base.rstrip("/") + "/rest/v1"
     headers = {"apikey": key, "Authorization": "Bearer " + key}
     cols = ("job_hash,title,company,location,market,role,vertical,pay,pay_min,pay_max,pay_unit,"
-            "schedule,posted_date,apply_link,via,description,last_seen_at")
+            "schedule,posted_date,apply_link,via,description,job_highlights,last_seen_at")
     out, offset, page = [], 0, 1000
     while True:
         url = (f"{rest}/jobs?select={cols}&status=eq.active&suppressed=eq.false"
@@ -162,7 +162,7 @@ def render_job(j):
     return {k: j.get(k) for k in
             ("title", "company", "location", "vertical", "role",
              "pay", "pay_min", "pay_max", "pay_unit",
-             "schedule", "posted_date", "apply_link", "via", "description")}
+             "schedule", "posted_date", "apply_link", "via", "description", "job_highlights")}
 
 
 def main():

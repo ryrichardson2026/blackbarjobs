@@ -61,15 +61,15 @@
       }
     });
   }
-  var filters = { q: '', loc: '', vertical: '', role: '', shift: '', pay: false, posted: '', sort: 'newest' };
+  // reqs (multi) + payMin (hourly-equiv floor) are new drawer axes; the rest is unchanged.
+  var filters = { q: '', loc: '', vertical: '', role: '', shift: '', reqs: [], payMin: 0, pay: false, posted: '', sort: 'newest' };
   // URL-derived presets from a hub deep link; clearFilters() resets to THESE, never to
   // an empty (all-verticals) state, so clearing never drops a warehouse visitor onto
   // security jobs. Populated by applyUrlFilters().
   var PRESET = { loc: '', vertical: '', role: '', shift: '' };
   var DEFAULT_LOC = '';
   var METRO_FRIENDLY = { 'DFW': 'Dallas–Fort Worth', 'Houston': 'Houston', 'Austin': 'Austin', 'San Antonio': 'San Antonio', 'El Paso': 'El Paso', 'Chicago': 'Chicago' };
-  var TYPE_OPTS = [ {v:'',label:'Any Schedule'}, {v:'full-time',label:'Full-time'}, {v:'part-time',label:'Part-time'} ];
-  var POSTED_OPTS = [ {v:'',label:'Any Time'}, {v:'week',label:'Posted This Week'}, {v:'3',label:'Past 3 Days'}, {v:'1',label:'Posted Today'} ];
+  var POSTED_OPTS = [ {v:'',label:'Any time'}, {v:'1',label:'Today'}, {v:'3',label:'Past 3 days'}, {v:'week',label:'This week'} ];
 
   // Hourly-equivalent so "Highest pay" ranks an $90k/yr role above a $20/hr one.
   var PAY_TO_HOURLY = { HOUR:1, DAY:1/8, WEEK:1/40, MONTH:12/2080, YEAR:1/2080 };
@@ -127,6 +127,13 @@
     { key:'full-time',     label:'Full-time',     title:/full[\s-]?time/,  jt:'full' },
     { key:'no-experience', label:'No Experience', title:/no experience|no[\s-]?exp|entry[\s-]?level|will train/ }
   ];
+  // Requirements axis (multi-select) — derived from title + job_highlights text.
+  var REQS = [
+    { key:'noexp',         label:'No experience',    re:/no experience|no[\s-]?exp\b|entry[\s-]?level|will train|no prior experience/i },
+    { key:'forklift-cert', label:'Forklift certified', re:/forklift certif|certified forklift|forklift (?:license|operator certif)|certified to operate a forklift/i },
+    { key:'diploma',       label:'HS diploma / GED', re:/high school (?:diploma|graduate)|\bged\b|diploma or equivalent/i }
+  ];
+  function reqLabel(key){ for(var i=0;i<REQS.length;i++){ if(REQS[i].key===key) return REQS[i].label; } return key; }
   function allRoles(){ var out=[]; Object.keys(TAXONOMY).forEach(function(v){ TAXONOMY[v].roles.forEach(function(r){ out.push(r); }); }); return out; }
   function rolesForVertical(v){ return (v && TAXONOMY[v]) ? TAXONOMY[v].roles : allRoles(); }
 
@@ -151,6 +158,14 @@
     });
     return out;
   }
+  // full searchable text incl. job_highlights (drives Requirements derivation)
+  function jobText(job){
+    var t = (job.title || '') + ' ' + (job.company || '');
+    var b = job.job_highlights;
+    if (Array.isArray(b)) b.forEach(function(x){ (x && x.items || []).forEach(function(it){ t += ' ' + it; }); });
+    return t.toLowerCase();
+  }
+  function deriveReqs(job){ var t = jobText(job); return REQS.filter(function(r){ return r.re.test(t); }).map(function(r){ return r.key; }); }
   function roleLabel(key) {
     var all = allRoles(), i;
     for (i=0;i<all.length;i++){ if(all[i].key===key) return all[i].label; }
@@ -189,6 +204,12 @@
     if (isNaN(t)) return false;
     return (Date.now() - t) <= (10 * 24 * 60 * 60 * 1000);
   }
+  // "New" badge in the mock is TODAY only.
+  function isToday(job) {
+    var t = Date.parse(job.posted || job.date_pulled || '');
+    if (isNaN(t)) return false;
+    return (Date.now() - t) < (24 * 60 * 60 * 1000);
+  }
   function postedTime(job) {
     var t = Date.parse(job.posted || job.date_pulled || '');
     return isNaN(t) ? 0 : t;
@@ -198,6 +219,17 @@
     if (!t) return false;
     return (Date.now() - t) <= (days * 24 * 60 * 60 * 1000);
   }
+  function agoLabel(job){
+    var t = postedTime(job); if(!t) return '';
+    var days = Math.floor((Date.now() - t) / 864e5);
+    if (days <= 0) return 'today';
+    if (days === 1) return '1 day ago';
+    if (days < 7) return days + ' days ago';
+    if (days < 14) return '1 week ago';
+    if (days < 30) return Math.floor(days/7) + ' weeks ago';
+    if (days < 60) return '1 month ago';
+    return Math.floor(days/30) + ' months ago';
+  }
 
   /* ───────────────── MATCHERS ───────────────── */
   function postedDays(v){ return v === 'week' ? 7 : (v === '3' ? 3 : (v === '1' ? 1 : 0)); }
@@ -206,7 +238,12 @@
   function locMatch(job, val){ if(!val) return true; if(val.indexOf('metro:')===0) return job._metro === val.slice(6); if(val.indexOf('loc:')===0){ var rest=val.slice(4), s=rest.indexOf('::'); if(s===-1) return job._locCity === rest; return job._metro === rest.slice(0,s) && job._locCity === rest.slice(s+2); } return true; }
   function verticalMatch(job){ return !filters.vertical || job._vertical === filters.vertical; }
   function shiftMatch(job){ return !filters.shift || (job._shifts||[]).indexOf(filters.shift) !== -1; }
-  function payMatch(job){ return !filters.pay || (job.pay_min != null) || !!(job.pay||'').trim(); }
+  function reqMatch(job){ if(!filters.reqs.length) return true; var r = job._reqs||[]; return filters.reqs.every(function(k){ return r.indexOf(k) !== -1; }); }
+  function payMatch(job){
+    if(filters.pay && !((job.pay_min != null) || !!(job.pay||'').trim())) return false;
+    if(filters.payMin){ var v = payValue(job); if(!(v >= filters.payMin)) return false; }
+    return true;
+  }
   function postedMatch(job){ if(!filters.posted) return true; var d = postedDays(filters.posted); return !d || withinDays(job, d); }
   function roleMatch(job){ return !filters.role || job._roles.indexOf(filters.role) !== -1; }
 
@@ -216,6 +253,7 @@
       if(except !== 'loc' && !locMatch(job, filters.loc)) return false;
       if(except !== 'vertical' && !verticalMatch(job)) return false;
       if(except !== 'shift' && !shiftMatch(job)) return false;
+      if(except !== 'req' && !reqMatch(job)) return false;
       if(except !== 'pay' && !payMatch(job)) return false;
       if(except !== 'posted' && !postedMatch(job)) return false;
       if(except !== 'role' && !roleMatch(job)) return false;
@@ -228,90 +266,191 @@
     FILTERED = jobsMatching(null);
     sortJobs(FILTERED);
     shown = 0;
-    renderFeed(true);
-    updateResultsBar();
+    renderRows(true);
+    updateMeta();
+    renderActive();
+    renderPayPanel();
     var corrected = refreshFacets();
     if (corrected && !repass) applyFilters(true);
-  }
-
-  function updateResultsBar() {
-    var el = document.getElementById('resultsCount');
-    var n = FILTERED.length;
-    var sortLabel = filters.sort === 'pay' ? 'highest pay' : (filters.sort === 'company' ? 'company A–Z' : 'newest first');
-    el.innerHTML = '<b>' + n + '</b> ' + (n === 1 ? 'open position' : 'open positions') + ' · ' + sortLabel;
-    var anyFilter = filters.q || filters.pay || filters.posted ||
-      (filters.loc !== PRESET.loc) || (filters.vertical !== PRESET.vertical) ||
-      (filters.role !== PRESET.role) || (filters.shift !== PRESET.shift);
-    document.getElementById('clearBtn').classList.toggle('show', !!anyFilter);
   }
 
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
   // Clean display pay: prefer the structured pay_min/max/unit (parsed + validated at
-  // ingest) so the card never shows the raw string's upstream mojibake (e.g. "36K�48K").
-  // Falls back to the raw string only when it's present AND clean; '' when there's no pay.
-  var PAY_UNIT_SUFFIX = { HOUR:'/hr', DAY:'/day', WEEK:'/wk', MONTH:'/mo', YEAR:'/yr' };
+  // ingest) so the row never shows the raw string's upstream mojibake (e.g. "36K�48K").
+  var PAY_UNIT_WORD = { HOUR:'per hour', DAY:'per day', WEEK:'per week', MONTH:'per month', YEAR:'per year' };
   function fmtMoney(v){ return v >= 1000 ? '$' + Math.round(v/1000) + 'K' : '$' + (v % 1 === 0 ? v : v.toFixed(2)); }
-  function displayPay(job){
+  // -> { big:'$18–$22', unit:'per hour' } or null when there's no clean pay.
+  function displayPaySplit(job){
     var unit = (job.pay_unit || '').toUpperCase();
-    if (job.pay_min != null && PAY_UNIT_SUFFIX[unit]) {
-      var suf = PAY_UNIT_SUFFIX[unit], lo = fmtMoney(job.pay_min);
-      return (job.pay_max != null && job.pay_max !== job.pay_min)
-        ? lo + '–' + fmtMoney(job.pay_max) + suf : lo + suf;
+    if (job.pay_min != null && PAY_UNIT_WORD[unit]) {
+      var lo = fmtMoney(job.pay_min);
+      var big = (job.pay_max != null && job.pay_max !== job.pay_min) ? lo + '–' + fmtMoney(job.pay_max) : lo;
+      return { big: big, unit: PAY_UNIT_WORD[unit] };
     }
     var raw = (job.pay || '').trim();
-    return (raw && raw.indexOf('�') === -1) ? raw : '';   // hide unrepairable mojibake
+    if (raw && raw.indexOf('�') === -1) return { big: raw, unit: '' };
+    return null;   // hide unrepairable mojibake / no pay
   }
 
-  function cardHTML(job) {
-    var tags = '';
-    if (isNew(job)) tags += '<span class="jb-tag new">New</span>';
-    if (job._roles[0]) tags += '<span class="jb-tag role">' + esc(roleLabel(job._roles[0])) + '</span>';
-    if ((job.job_type||'').trim()) tags += '<span class="jb-tag">' + esc(job.job_type) + '</span>';
-    var payTxt = displayPay(job);
-    if (payTxt) tags += '<span class="jb-tag pay">' + esc(payTxt) + '</span>';
-    var via = (job.via||'').replace(/^via\s+/i,'').trim();
-    if (via) tags += '<span class="jb-tag via">' + esc(via) + '</span>';
-    var loc = esc(job.location || job.city || '');
-    // Real crawlable <a href> to the employer (the crawl path to job pages). The gate
-    // lives in the onclick: return true lets the href navigate on an allowed view.
+  // One plain-prose line from job_highlights: a responsibility · a qualification.
+  // Row closes up cleanly (returns '') when highlights are absent (~5%).
+  function cleanItem(s){
+    s = (s||'').replace(/�/g,'').replace(/\s+/g,' ').trim();
+    if(!s) return '';
+    if(/more items?\(s\)/i.test(s)) return '';                 // "19 more items(s)" noise
+    if(s.length < 14) return '';                               // headers like "SAP"
+    if(/[:]\s*$/.test(s)) return '';                           // section header ending with ':'
+    if(s === s.toUpperCase() && /^[A-Z0-9 /&,.-]+$/.test(s)) return '';  // ALLCAPS header
+    // capitalized words joined by / or & with no sentence body ("Background / Experience / Skills")
+    if(s.split(' ').length <= 6 && /^[A-Za-z][\w.-]*(?:\s*[/&]\s*[A-Za-z][\w.-]*)+$/.test(s)) return '';
+    s = s.replace(/^job summary:\s*/i,'').replace(/^summary:\s*/i,'');
+    if(s.length > 150) s = s.slice(0,148).replace(/\s+\S*$/,'') + '…';
+    return s;
+  }
+  function highlightParts(job){
+    var blocks = job.job_highlights;
+    if(!Array.isArray(blocks) || !blocks.length) return null;
+    function pick(names){
+      for(var i=0;i<blocks.length;i++){
+        var t = ((blocks[i] && blocks[i].title) || '').toLowerCase();
+        if(names.some(function(n){ return t.indexOf(n) !== -1; })){
+          var items = (blocks[i] && blocks[i].items) || [];
+          for(var k=0;k<items.length;k++){ var c = cleanItem(items[k]); if(c) return c; }
+        }
+      }
+      return '';
+    }
+    var resp = pick(['responsibilit','duties','summary','what you']);
+    var qual = pick(['qualif','require','skills','experience']);
+    if(resp && qual && resp !== qual) return { a: resp, b: qual };
+    var one = resp || qual;
+    return one ? { a: one, b: '' } : null;
+  }
+
+  var SHIFT_CLASS = { 'overnight':'night', 'weekend':'wknd', 'part-time':'part', 'full-time':'full', 'no-experience':'noexp' };
+  function rowHTML(job) {
     var href = esc((job.apply_link || '').trim()) || '#';
-    return '<a class="jb-card" href="' + href + '" target="_blank" rel="nofollow sponsored noopener" data-i="' + job._i + '" aria-label="View and apply: ' + esc(job.title) + '" onclick="return bbjCardApply(this, event)">' +
-      '<div class="jb-head">' +
-        '<div class="jb-title">' + esc(job.title) + '</div>' +
-        '<div class="jb-sub"><b>' + esc(job.company || 'Employer') + '</b>' + (loc ? ' · ' + loc : '') + '</div>' +
-      '</div>' +
-      '<div class="jb-tags">' + tags + '</div>' +
-      '<span class="jb-apply">View &amp; Apply →</span>' +
-    '</a>';
+    var loc = esc(job.location || job.city || '');
+    var age = agoLabel(job);
+    var sub = (isToday(job) ? '<span class="new">New</span>' : '') +
+      '<b>' + esc(job.company || 'Employer') + '</b>' +
+      (loc ? ' · ' + loc : '') + (age ? ' · ' + age : '');
+    var hp = highlightParts(job);
+    var hl = hp ? '<div class="hl">' + esc(hp.a) + (hp.b ? '<span>·</span>' + esc(hp.b) : '') + '</div>' : '';
+    var tags = '';
+    (job._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tag ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
+    if(job._roles[0]) tags += '<span class="tag">' + esc(roleLabel(job._roles[0])) + '</span>';
+    var pp = displayPaySplit(job);
+    var pay = pp
+      ? '<div class="pay"><b>' + esc(pp.big) + '</b>' + (pp.unit ? '<i>' + esc(pp.unit) + '</i>' : '') + '</div>'
+      : '<div class="pay none"><b>Pay not listed</b></div>';
+    var linkAttrs = ' target="_blank" rel="noopener noreferrer" data-i="' + job._i + '" onclick="return bbjCardApply(this, event)"';
+    return '<li class="row">' +
+        '<div class="rowmain">' +
+          '<div class="rowtitle"><a href="' + href + '"' + linkAttrs + '>' + esc(job.title) + '</a></div>' +
+          '<div class="rowsub">' + sub + '</div>' +
+          hl +
+          (tags ? '<div class="tags">' + tags + '</div>' : '') +
+        '</div>' +
+        pay +
+        '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
+      '</li>';
   }
 
-  function renderFeed(reset) {
-    var feed = document.getElementById('feed');
-    if (reset) feed.innerHTML = '';
+  function renderRows(reset) {
+    var rows = document.getElementById('rows');
+    if(!rows) return;
     if (!FILTERED.length) {
-      feed.innerHTML = '<div class="feed-msg" style="grid-column:1/-1;">' +
+      rows.innerHTML = '<li class="feed-msg">' +
         '<div class="fm-title">No matching jobs right now</div>' +
-        '<div class="fm-sub">Try clearing a filter — or get alerted the moment a match posts.</div>' +
-        '<a href="#" class="hero-btn gold" onclick="openAlerts();return false;" style="display:inline-flex;color:var(--navy-deep);">Get Job Alerts →</a>' +
-      '</div>';
-      document.getElementById('loadMoreWrap').style.display = 'none';
+        '<div class="fm-sub">Try clearing a filter, or get alerted the moment a match posts.</div>' +
+        '<a href="#" class="view" onclick="openAlerts();return false;" style="display:inline-block;margin-top:14px;padding:11px 26px;">Get Job Alerts</a>' +
+      '</li>';
+      var lm0 = document.getElementById('loadMoreWrap'); if(lm0) lm0.style.display = 'none';
       return;
     }
     var next = FILTERED.slice(shown, shown + PAGE_SIZE);
-    var html = next.map(cardHTML).join('');
-    if (reset) feed.innerHTML = html; else feed.insertAdjacentHTML('beforeend', html);
+    var html = next.map(rowHTML).join('');
+    if (reset) rows.innerHTML = html; else rows.insertAdjacentHTML('beforeend', html);
     shown += next.length;
-    document.getElementById('loadMoreWrap').style.display = (shown < FILTERED.length) ? 'block' : 'none';
-    document.getElementById('loadMoreBtn').textContent = 'Load more jobs (' + (FILTERED.length - shown) + ' more)';
+    var lm = document.getElementById('loadMoreWrap');
+    if(lm) lm.style.display = (shown < FILTERED.length) ? 'block' : 'none';
+    var lb = document.getElementById('loadMoreBtn');
+    if(lb) lb.textContent = 'Load more jobs (' + (FILTERED.length - shown) + ' more)';
+  }
+  function loadMore() { renderRows(false); }
+
+  function updateMeta() {
+    var el = document.getElementById('resultsCount');
+    if(el){
+      var n = FILTERED.length;
+      el.innerHTML = n + ' <span>' + (n === 1 ? 'open position' : 'open positions') + '</span>';
+    }
+    // "Filters" badge = active drawer filters
+    var badge = (!PRESET.role && filters.role ? 1 : 0) +
+                (filters.shift && filters.shift !== PRESET.shift ? 1 : 0) +
+                filters.reqs.length + (filters.payMin ? 1 : 0) + (filters.pay ? 1 : 0) + (filters.posted ? 1 : 0);
+    var dot = document.getElementById('moreDot'), mb = document.getElementById('moreBtn');
+    if(dot) dot.textContent = badge;
+    if(mb) mb.classList.toggle('has', badge > 0);
+    // sort buttons
+    var sn = document.getElementById('sortNew'), sp = document.getElementById('sortPay');
+    if(sn) sn.setAttribute('aria-pressed', filters.sort === 'newest');
+    if(sp) sp.setAttribute('aria-pressed', filters.sort === 'pay');
   }
 
-  function loadMore() { renderFeed(false); }
+  /* ───────────────── ACTIVE PILLS ───────────────── */
+  function metroFromLoc(v){
+    if(!v) return '';
+    if(v.indexOf('metro:')===0) return metroLabel(v.slice(6));
+    if(v.indexOf('loc:')===0){ var rest=v.slice(4).split('::'); return rest[1] || metroLabel(rest[0]); }
+    return v;
+  }
+  function lockedPill(label){ return '<span class="pill locked">' + esc(label) + '</span>'; }
+  function userPill(label, g, v){
+    return '<span class="pill">' + esc(label) +
+      '<button type="button" aria-label="Remove filter" onclick="removeFilter(\'' + g + '\',\'' + esc(v).replace(/'/g,'') + '\')">×</button></span>';
+  }
+  function renderActive(){
+    var el = document.getElementById('active'); if(!el) return;
+    var html = '';
+    // locked preset context (no remove control)
+    if(PRESET.vertical && TAXONOMY[PRESET.vertical]) html += lockedPill(TAXONOMY[PRESET.vertical].label);
+    if(PRESET.loc) html += lockedPill(metroFromLoc(PRESET.loc));
+    if(PRESET.role) html += lockedPill(roleLabel(PRESET.role));
+    if(PRESET.shift) html += lockedPill(roleLabel(PRESET.shift));
+    // user-added filters (removable)
+    var user = [];
+    if(filters.q) user.push(userPill('“' + filters.q + '”', 'q', ''));
+    if(filters.vertical && filters.vertical !== PRESET.vertical && TAXONOMY[filters.vertical]) user.push(userPill(TAXONOMY[filters.vertical].label, 'vertical', ''));
+    if(filters.loc && filters.loc !== PRESET.loc) user.push(userPill(metroFromLoc(filters.loc), 'loc', ''));
+    if(filters.role && filters.role !== PRESET.role) user.push(userPill(roleLabel(filters.role), 'role', ''));
+    if(filters.shift && filters.shift !== PRESET.shift) user.push(userPill(roleLabel(filters.shift), 'shift', ''));
+    filters.reqs.forEach(function(r){ user.push(userPill(reqLabel(r), 'req', r)); });
+    if(filters.payMin) user.push(userPill('$' + filters.payMin + '+/hr', 'paymin', ''));
+    if(filters.pay) user.push(userPill('Pay listed', 'pay', ''));
+    if(filters.posted) user.push(userPill(postedLabel(filters.posted), 'posted', ''));
+    html += user.join('');
+    if(user.length) html += '<button type="button" class="clearall" onclick="clearFilters()">Clear filters</button>';
+    el.innerHTML = html;
+  }
+  function postedLabel(v){ for(var i=0;i<POSTED_OPTS.length;i++){ if(POSTED_OPTS[i].v===v) return POSTED_OPTS[i].label; } return v; }
+  function removeFilter(g, v){
+    if(g==='q'){ filters.q=''; var si=document.getElementById('searchInput'); if(si) si.value=''; }
+    else if(g==='vertical'){ filters.vertical = PRESET.vertical || ''; if(!rolesForVertical(filters.vertical).some(function(r){return r.key===filters.role;})) filters.role = PRESET.role || ''; }
+    else if(g==='loc'){ filters.loc = PRESET.loc || DEFAULT_LOC; }
+    else if(g==='role'){ filters.role = PRESET.role || ''; }
+    else if(g==='shift'){ filters.shift = PRESET.shift || ''; }
+    else if(g==='req'){ var i=filters.reqs.indexOf(v); if(i!==-1) filters.reqs.splice(i,1); }
+    else if(g==='paymin'){ filters.payMin = 0; }
+    else if(g==='pay'){ filters.pay = false; }
+    else if(g==='posted'){ filters.posted = ''; }
+    syncRail();
+    applyFilters();
+  }
 
-  // Cards are real <a href> anchors now: click and keyboard-Enter both fire the
-  // anchor's onclick (bbjCardApply), so no delegated feed listener is needed.
-
-  /* ───────────────── DYNAMIC FACETS (auto-update from sheet) ───────────────── */
+  /* ───────────────── LOCATION FACET HELPERS ───────────────── */
   function metrosFrom(base){
     var m = {};
     base.forEach(function(j){
@@ -328,11 +467,11 @@
   }
   function buildLocationOptions(base){
     var m = metrosFrom(base), names = metroOrder(m), html = '';
-    html += '<option value="">All Locations ('+base.length+')</option>';
+    html += '<option value="">All locations ('+base.length+')</option>';
     names.forEach(function(name){
       var friendly = METRO_FRIENDLY[name] || (name + ' Area');
       html += '<optgroup label="'+esc(friendly)+'">';
-      html += '<option value="metro:'+esc(name)+'">'+esc(name)+' Metro \u2014 all ('+m[name].count+')</option>';
+      html += '<option value="metro:'+esc(name)+'">'+esc(name)+' — all ('+m[name].count+')</option>';
       var locs = Object.keys(m[name].cities).sort(function(a,b){ return m[name].cities[a].city.localeCompare(m[name].cities[b].city); });
       locs.forEach(function(L){ var c = m[name].cities[L]; html += '<option value="loc:'+esc(name)+'::'+esc(L)+'">'+esc(c.city)+' ('+c.count+')</option>'; });
       html += '</optgroup>';
@@ -344,199 +483,159 @@
     for(i=0;i<keys.length;i++){ if(keys[i].toLowerCase() === String(name).toLowerCase()) return METRO_FRIENDLY[keys[i]]; }
     return String(name).replace(/\S+/g, function(w){ return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase(); });
   }
-  function buildLocationChips(){
-    var m = metrosFrom(ALL_JOBS), names = metroOrder(m);
-    var html = '<div class="chip active" data-loc="">All Locations</div>';
-    names.forEach(function(name){
-      var label = metroLabel(name);
-      html += '<div class="chip" data-loc="metro:'+esc(name)+'">'+esc(label)+'</div>';
+
+  /* ───────────────── RAIL DROPDOWNS ───────────────── */
+  function buildVerticalOptions(base){
+    var counts = { security:0, warehouse:0 };
+    base.forEach(function(j){ if(counts[j._vertical] != null) counts[j._vertical]++; });
+    var html = '<option value="">All categories ('+base.length+')</option>';
+    Object.keys(TAXONOMY).forEach(function(v){ html += '<option value="'+v+'">'+esc(TAXONOMY[v].label)+' ('+counts[v]+')</option>'; });
+    return html;
+  }
+  function buildShiftOptions(base){
+    var html = '<option value="">Any shift</option>';   // NEVER defaults to full-time
+    SHIFTS.forEach(function(s){
+      var n = base.filter(function(j){ return (j._shifts||[]).indexOf(s.key) !== -1; }).length;
+      html += '<option value="'+s.key+'">'+esc(s.label)+' ('+n+')</option>';
     });
-    var el = document.getElementById('locationChips');
-    if(el) el.innerHTML = html;
+    return html;
   }
-  function pickDefaultLoc(base){
-    if(DEFAULT_LOC === '') return '';
-    var m = metrosFrom(base);
-    if(DEFAULT_LOC.indexOf('metro:')===0 && m[DEFAULT_LOC.slice(6)]) return DEFAULT_LOC;
-    var names = metroOrder(m);
-    return names.length ? ('metro:'+names[0]) : '';
-  }
-  function rebuildSelect(id, opts, countFn, key){
-    var sel = document.getElementById(id), corrected = false;
-    sel.innerHTML = opts.map(function(o){
-      var n = countFn(o.v);
-      var dis = (o.v !== '' && n === 0) ? ' disabled' : '';
-      var label = o.label + (o.v !== '' ? ' ('+n+')' : '');
-      return '<option value="'+o.v+'"'+dis+'>'+esc(label)+'</option>';
-    }).join('');
-    if(filters[key] && countFn(filters[key]) === 0){ filters[key] = ''; corrected = true; }
-    sel.value = filters[key];
-    return corrected;
+  function syncRail(){
+    var ls = document.getElementById('locSelect');   if(ls){ ls.value = filters.loc || '';         ls.disabled = !!PRESET.loc; }
+    var vs = document.getElementById('vertSelect');  if(vs){ vs.value = filters.vertical || '';    vs.disabled = !!PRESET.vertical; }
+    var ss = document.getElementById('shiftSelect'); if(ss){ ss.value = filters.shift || '';       ss.disabled = !!PRESET.shift; }
   }
   function refreshFacets(){
     var corrected = false;
-
-    // LOCATION — metro chips, updated live (counts drive disable + active)
-    var locBase = jobsMatching('loc');
-    var wantLoc = locChipValue();
-    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(chip){
-      var v = chip.getAttribute('data-loc');
-      var n = (v === '') ? locBase.length : locBase.filter(function(j){ return j._metro === v.slice(6); }).length;
-      var dead = (n === 0 && v !== '');
-      chip.classList.toggle('disabled', dead);
-      chip.classList.toggle('active', v === wantLoc && !dead);
-      if(dead && v === wantLoc){ filters.loc = ''; corrected = true; }
-    });
-    if(!document.querySelector('#locationChips .chip.active')){
-      var allLoc = document.querySelector('#locationChips .chip[data-loc=""]');
-      if(allLoc) allLoc.classList.add('active');
-    }
-
-    // VERTICAL chips (primary axis A)
-    var vertBase = jobsMatching('vertical');
-    [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(chip){
-      var v = chip.getAttribute('data-vertical');
-      var n = (v==='') ? vertBase.length : vertBase.filter(function(j){ return j._vertical===v; }).length;
-      var dead = (n===0 && v!=='');
-      chip.classList.toggle('disabled', dead);
-      chip.classList.toggle('active', v===filters.vertical && !dead);
-      if(dead && filters.vertical===v){ filters.vertical=''; corrected = true; }
-    });
-    if(!document.querySelector('#verticalChips .chip.active')){ var v0=document.querySelector('#verticalChips .chip[data-vertical=""]'); if(v0) v0.classList.add('active'); }
-
-    // SHIFT & attribute chips (primary axis B, cross-vertical)
-    var shiftBase = jobsMatching('shift');
-    [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(chip){
-      var s = chip.getAttribute('data-shift');
-      var n = (s==='') ? shiftBase.length : shiftBase.filter(function(j){ return (j._shifts||[]).indexOf(s)!==-1; }).length;
-      var dead = (n===0 && s!=='');
-      chip.classList.toggle('disabled', dead);
-      chip.classList.toggle('active', s===filters.shift && !dead);
-      if(dead && filters.shift===s){ filters.shift=''; corrected = true; }
-    });
-    if(!document.querySelector('#shiftChips .chip.active')){ var sh0=document.querySelector('#shiftChips .chip[data-shift=""]'); if(sh0) sh0.classList.add('active'); }
-
-    // DATE POSTED (sheet segments)
-    var postedBase = jobsMatching('posted');
-    [].forEach.call(document.querySelectorAll('#postedSeg .seg'), function(seg){
-      var v = seg.getAttribute('data-posted');
-      var n; if(v===''){ n = postedBase.length; } else { var d = postedDays(v); n = postedBase.filter(function(j){ return d && withinDays(j, d); }).length; }
-      var dead = (n===0 && v!=='');
-      seg.classList.toggle('disabled', dead);
-      seg.classList.toggle('active', v===filters.posted && !dead);
-      if(dead && filters.posted===v){ filters.posted=''; corrected = true; }
-    });
-    if(!document.querySelector('#postedSeg .seg.active')){ var p0=document.querySelector('#postedSeg .seg[data-posted=""]'); if(p0) p0.classList.add('active'); }
-
-    // ROLE CHIPS
-    var roleBase = jobsMatching('role');
-    var allChip = document.querySelector('#roleChips .chip[data-role=""]');
-    [].forEach.call(document.querySelectorAll('#roleChips .chip'), function(chip){
-      var r = chip.getAttribute('data-role');
-      var n = (r==='') ? roleBase.length : roleBase.filter(function(j){ return j._roles.indexOf(r)!==-1; }).length;
-      var dead = (n === 0 && r !== '');
-      chip.classList.toggle('disabled', dead);
-      if(dead && filters.role === r){ filters.role=''; chip.classList.remove('active'); if(allChip) allChip.classList.add('active'); corrected = true; }
-    });
-
-    // PAY
-    var payBase = jobsMatching('pay');
-    var paidN = payBase.filter(function(j){ return !!(j.pay||'').trim(); }).length;
-    var payT = document.getElementById('payToggle');
-    payT.classList.toggle('disabled', paidN === 0);
-    if(paidN === 0 && filters.pay){ filters.pay = false; corrected = true; }
-    payT.classList.toggle('on', filters.pay);
-
-    // SORT (sheet segments — never disabled)
-    [].forEach.call(document.querySelectorAll('#sortSeg .seg'), function(seg){
-      seg.classList.toggle('active', seg.getAttribute('data-sort')===filters.sort);
-    });
-
-    // MORE-FILTERS badge — active secondary filters only
-    var badgeN = (filters.posted?1:0) + (filters.pay?1:0) + (filters.sort!=='newest'?1:0);
-    var mb = document.getElementById('mfBadge');
-    if(mb){ mb.textContent = badgeN; mb.style.display = badgeN>0 ? 'inline-block' : 'none'; }
-
+    // LOCATION options (counts reflect everything except loc itself)
+    var ls = document.getElementById('locSelect');
+    if(ls){ ls.innerHTML = buildLocationOptions(jobsMatching('loc')); ls.value = filters.loc || ''; if(ls.value !== (filters.loc||'')){ /* selection vanished */ } }
+    // VERTICAL options
+    var vs = document.getElementById('vertSelect');
+    if(vs){ vs.innerHTML = buildVerticalOptions(jobsMatching('vertical')); vs.value = filters.vertical || ''; }
+    // SHIFT options
+    var ss = document.getElementById('shiftSelect');
+    if(ss){ ss.innerHTML = buildShiftOptions(jobsMatching('shift')); ss.value = filters.shift || ''; }
+    syncRail();
     return corrected;
   }
 
+  /* ───────────────── DRAWER ───────────────── */
+  function optHTML(g, v, label, pressed){
+    return '<button type="button" class="opt" data-g="'+g+'" data-v="'+esc(v)+'" aria-pressed="'+(pressed?'true':'false')+'">'+esc(label)+'</button>';
+  }
+  function renderDrawer(){
+    var body = document.getElementById('drawerBody'); if(!body) return;
+    var base = jobsMatching(null), html = '';
+    // ROLE — hidden when a hub locks the role
+    if(!PRESET.role){
+      var roles = rolesForVertical(filters.vertical);
+      html += '<div class="fgroup"><div class="flabel">Role</div><div class="opts">';
+      html += optHTML('role','', 'Any role', !filters.role);
+      roles.forEach(function(r){ html += optHTML('role', r.key, r.label, filters.role===r.key); });
+      html += '</div></div>';
+    }
+    // SHIFT (mirrors the rail dropdown)
+    if(!PRESET.shift){
+      html += '<div class="fgroup"><div class="flabel">Shift &amp; schedule</div><div class="opts">';
+      html += optHTML('shift','', 'Any shift', !filters.shift);
+      SHIFTS.forEach(function(s){ html += optHTML('shift', s.key, s.label, filters.shift===s.key); });
+      html += '</div></div>';
+    }
+    // REQUIREMENTS (multi)
+    html += '<div class="fgroup"><div class="flabel">Requirements</div><div class="opts">';
+    REQS.forEach(function(r){ html += optHTML('req', r.key, r.label, filters.reqs.indexOf(r.key)!==-1); });
+    html += '</div></div>';
+    // PAY
+    html += '<div class="fgroup"><div class="flabel">Pay</div><div class="opts">';
+    [18,22,26].forEach(function(n){ html += optHTML('paymin', String(n), '$'+n+'+/hr', filters.payMin===n); });
+    html += optHTML('pay','on','Pay listed only', filters.pay);
+    html += '</div></div>';
+    // POSTED
+    html += '<div class="fgroup"><div class="flabel">Date posted</div><div class="opts">';
+    POSTED_OPTS.forEach(function(o){ if(o.v==='') return; html += optHTML('posted', o.v, o.label, filters.posted===o.v); });
+    html += '</div></div>';
+    body.innerHTML = html;
+  }
+  function openDrawer(){ renderDrawer(); document.getElementById('drawer').classList.add('open'); document.getElementById('scrim').classList.add('open'); document.body.style.overflow='hidden'; }
+  function closeDrawer(){ document.getElementById('drawer').classList.remove('open'); document.getElementById('scrim').classList.remove('open'); document.body.style.overflow=''; }
+
   /* ───────────────── FILTER HANDLERS ───────────────── */
-  document.getElementById('searchInput').addEventListener('input', function(e){
-    filters.q = e.target.value; applyFilters();
-  });
-  document.getElementById('locationChips').addEventListener('click', function(e){
-    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
-    filters.loc = chip.getAttribute('data-loc');
-    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
-    chip.classList.add('active');
+  function wire(id, ev, fn){ var el = document.getElementById(id); if(el) el.addEventListener(ev, fn); }
+  wire('searchInput','input', function(e){ filters.q = e.target.value; applyFilters(); });
+  wire('locSelect','change', function(e){ filters.loc = e.target.value; applyFilters(); });
+  wire('vertSelect','change', function(e){
+    filters.vertical = e.target.value;
+    if(!rolesForVertical(filters.vertical).some(function(r){ return r.key===filters.role; })) filters.role = '';
     applyFilters();
   });
-  function segHandler(containerId, attr, key){
-    document.getElementById(containerId).addEventListener('click', function(e){
-      var seg = e.target.closest('.seg'); if (!seg || seg.classList.contains('disabled')) return;
-      filters[key] = seg.getAttribute(attr);
-      [].forEach.call(this.querySelectorAll('.seg'), function(s){ s.classList.remove('active'); });
-      seg.classList.add('active');
+  wire('shiftSelect','change', function(e){ filters.shift = e.target.value; applyFilters(); });
+  (function(){
+    var db = document.getElementById('drawerBody');
+    if(!db) return;
+    db.addEventListener('click', function(e){
+      var b = e.target.closest('.opt'); if(!b) return;
+      var g = b.getAttribute('data-g'), v = b.getAttribute('data-v');
+      if(g==='req'){ var i=filters.reqs.indexOf(v); if(i===-1) filters.reqs.push(v); else filters.reqs.splice(i,1); }
+      else if(g==='pay'){ filters.pay = !filters.pay; }
+      else if(g==='paymin'){ var n=parseInt(v,10); filters.payMin = (filters.payMin===n) ? 0 : n; }
+      else if(g==='role'){ filters.role = v; }
+      else if(g==='shift'){ filters.shift = v; }
+      else if(g==='posted'){ filters.posted = v; }
+      renderDrawer();
       applyFilters();
     });
-  }
-  segHandler('postedSeg', 'data-posted', 'posted');
-  segHandler('sortSeg', 'data-sort', 'sort');
-  function openFilterSheet(){ document.getElementById('filterSheet').classList.add('open'); document.body.style.overflow='hidden'; }
-  function closeFilterSheet(){ document.getElementById('filterSheet').classList.remove('open'); document.body.style.overflow=''; }
-  function togglePay() {
-    filters.pay = !filters.pay;
-    document.getElementById('payToggle').classList.toggle('on', filters.pay);
-    applyFilters();
-  }
-  // Role chips are rebuilt from TAXONOMY whenever the vertical changes, so the role
-  // set always matches the chosen vertical (armed for security, forklift for warehouse).
-  function buildRoleChips(vertical){
-    var roles = rolesForVertical(vertical);
-    var html = '<div class="chip'+(filters.role===''?' active':'')+'" data-role="">All Roles</div>';
-    roles.forEach(function(r){
-      html += '<div class="chip'+(filters.role===r.key?' active':'')+'" data-role="'+r.key+'">'+esc(r.label)+'</div>';
-    });
-    var el = document.getElementById('roleChips');
-    if(el) el.innerHTML = html;
-  }
-  document.getElementById('verticalChips').addEventListener('click', function(e){
-    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
-    filters.vertical = chip.getAttribute('data-vertical');
-    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
-    chip.classList.add('active');
-    // a role that isn't part of the new vertical no longer applies — drop it
-    if(!rolesForVertical(filters.vertical).some(function(r){ return r.key===filters.role; })) filters.role = '';
-    buildRoleChips(filters.vertical);
-    applyFilters();
-  });
-  document.getElementById('roleChips').addEventListener('click', function(e){
-    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
-    filters.role = chip.getAttribute('data-role');
-    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
-    chip.classList.add('active');
-    applyFilters();
-  });
-  document.getElementById('shiftChips').addEventListener('click', function(e){
-    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
-    filters.shift = chip.getAttribute('data-shift');
-    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
-    chip.classList.add('active');
-    applyFilters();
-  });
+  })();
+  function setSort(s){ filters.sort = s; updateMeta(); applyFilters(); }
+
   function clearFilters() {
     // Reset to the hub PRESET (or the neutral all-verticals state if no preset), NOT to
     // an empty state — so clearing on a warehouse hub never reveals security jobs.
     filters = { q:'', loc:(PRESET.loc||DEFAULT_LOC), vertical:(PRESET.vertical||''),
-                role:(PRESET.role||''), shift:(PRESET.shift||''), pay:false, posted:'', sort:'newest' };
-    document.getElementById('searchInput').value = '';
-    document.getElementById('payToggle').classList.remove('on');
-    buildRoleChips(filters.vertical);
-    [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-vertical')===filters.vertical); });
-    [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-shift')===filters.shift); });
-    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-loc')===(filters.loc||'')); });
+                role:(PRESET.role||''), shift:(PRESET.shift||''), reqs:[], payMin:0, pay:false, posted:'', sort:'newest' };
+    var si = document.getElementById('searchInput'); if(si) si.value = '';
+    syncRail();
     applyFilters();
-    window.scrollTo({ top: document.getElementById('board').offsetTop - 60, behavior: 'smooth' });
+    var b = document.getElementById('board');
+    if(b) window.scrollTo({ top: b.offsetTop - 60, behavior: 'smooth' });
+  }
+
+  /* ───────────────── PAY PANEL (general board only; hubs bake it) ───────────────── */
+  function pctl(sorted, p){ if(!sorted.length) return 0; var idx = Math.min(sorted.length-1, Math.max(0, Math.round((p/100)*(sorted.length-1)))); return sorted[idx]; }
+  function payRangeStats(set){
+    var vals = set.map(payValue).filter(function(v){ return v > 0; }).sort(function(a,b){ return a-b; });
+    if(vals.length < 4) return null;
+    return { n: vals.length, total: set.length,
+             lo: pctl(vals,10), q1: pctl(vals,25), med: pctl(vals,50), q3: pctl(vals,75), hi: pctl(vals,90) };
+  }
+  function money0(v){ return '$' + Math.round(v); }
+  function payRangeHTML(st, title){
+    var span = (st.hi - st.lo) || 1;
+    var fL = Math.max(0, (st.q1 - st.lo) / span * 100);
+    var fR = Math.max(0, (st.hi - st.q3) / span * 100);
+    var mid = Math.min(100, Math.max(0, (st.med - st.lo) / span * 100));
+    return '<h2>' + esc(title) + '</h2>' +
+      '<p class="note">Hourly-equivalent pay across ' + st.n + ' of ' + st.total + ' current listings that publish a rate.</p>' +
+      '<div class="range"><div class="rangebar">' +
+        '<div class="rangefill" style="left:' + fL.toFixed(1) + '%;right:' + fR.toFixed(1) + '%"></div>' +
+        '<div class="rangemid" style="left:' + mid.toFixed(1) + '%"></div>' +
+      '</div><div class="rangelabels">' +
+        '<div class="rl lo"><div class="v">' + money0(st.lo) + '</div><div class="k">Low</div></div>' +
+        '<div class="rl mid"><div class="v">' + money0(st.med) + '</div><div class="k">Median /hr</div></div>' +
+        '<div class="rl hi"><div class="v">' + money0(st.hi) + '</div><div class="k">High</div></div>' +
+      '</div></div>';
+  }
+  function renderPayPanel(){
+    if(window.BBJ_BOARD_PRESET) return;   // hubs ship a baked panel; never overwrite it
+    var wrap = document.getElementById('payWrap'); if(!wrap) return;
+    var metro = locChipValue();
+    if(!filters.vertical || !metro){ wrap.style.display = 'none'; return; }
+    var set = ALL_JOBS.filter(function(j){ return j._vertical === filters.vertical && ('metro:'+j._metro) === metro; });
+    var st = payRangeStats(set);
+    if(!st){ wrap.style.display = 'none'; return; }
+    var label = (TAXONOMY[filters.vertical] ? TAXONOMY[filters.vertical].label : '') + ' pay in ' + metroLabel(metro.slice(6));
+    document.getElementById('payPanel').innerHTML = payRangeHTML(st, label);
+    wrap.style.display = '';
   }
 
   /* ───────────────── APPLY + GATE ───────────────── */
@@ -555,7 +654,7 @@
       page_url: window.location.href
     });
   }
-  // Card anchor onclick. Return true to let the href open the employer (crawlable) on an
+  // Row anchor onclick. Return true to let the href open the employer (crawlable) on an
   // allowed view (registered, or the first FREE_VIEWS this session); otherwise block the
   // navigation and open the gate. Mirrors handleIndexApply() in js/bbj-feed.js.
   window.bbjCardApply = function(el, event){
@@ -585,7 +684,7 @@
     document.getElementById('gateModal').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
-  function closeGate() { document.getElementById('gateModal').classList.remove('open'); document.body.style.overflow=''; }
+  function closeGate() { var g=document.getElementById('gateModal'); if(g) g.classList.remove('open'); document.body.style.overflow=''; }
   function toggleGateSms() {}
   function submitGate() {}
 
@@ -598,13 +697,13 @@
     if (typeof bbjAlertOpen === 'function') { bbjAlertOpen(); return; }
     var btn = document.getElementById('alertsCtaBtn');
     if (btn) { btn.href = '/register.html'; btn.textContent = 'Create Free Account →'; }
-    document.getElementById('alertsModal').classList.add('open');
+    var a=document.getElementById('alertsModal'); if(a) a.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
-  function closeAlerts() { document.getElementById('alertsModal').classList.remove('open'); document.body.style.overflow=''; }
+  function closeAlerts() { var a=document.getElementById('alertsModal'); if(a) a.classList.remove('open'); document.body.style.overflow=''; }
   function submitAlerts() {}
 
-  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') { closeGate(); closeAlerts(); } });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') { closeGate(); closeAlerts(); closeDrawer(); } });
 
   /* ───────────────── JOB POSTING STRUCTURED DATA (schema.org / Google for Jobs) ───────────────── */
   function parseLoc(loc) {
@@ -703,19 +802,6 @@
     for(i=0;i<names.length;i++){ if(hint.indexOf(names[i].toLowerCase()) !== -1) return 'metro:'+names[i]; var fr=(METRO_FRIENDLY[names[i]]||'').toLowerCase(); if(fr && hint.indexOf(fr) !== -1) return 'metro:'+names[i]; }
     return null;
   }
-  function renderContextBar(){
-    var el = document.getElementById('contextBar'); if(!el) return;
-    var parts = [];
-    if(PRESET.vertical) parts.push(TAXONOMY[PRESET.vertical] ? TAXONOMY[PRESET.vertical].label : PRESET.vertical);
-    if(PRESET.loc){ var lv=PRESET.loc; var name = lv.indexOf('metro:')===0 ? lv.slice(6) : (lv.indexOf('loc:')===0 ? lv.slice(4).split('::').pop() : lv); parts.push(metroLabel(name)); }
-    if(PRESET.role) parts.push(roleLabel(PRESET.role));
-    if(PRESET.shift) parts.push(roleLabel(PRESET.shift));
-    if(!parts.length){ el.style.display='none'; return; }
-    el.style.cssText = 'display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 16px;background:#fff7e0;border-bottom:1px solid #f0d98a;font-size:0.85rem;';
-    el.innerHTML = '<span style="font-weight:700;color:#7a5b00;">Showing</span>' +
-      parts.map(function(x){ return '<span style="background:#001D3D;color:#FFC300;font-weight:700;border-radius:999px;padding:3px 10px;">'+esc(x)+'</span>'; }).join('') +
-      '<a href="/job-board" style="margin-left:auto;color:#001D3D;font-weight:700;text-decoration:underline;">View all jobs →</a>';
-  }
 
   function applyUrlFilters(){
     var p; try { p = new URLSearchParams(window.location.search); } catch(e){ p = new URLSearchParams(''); }
@@ -765,11 +851,7 @@
     if(locVal){ filters.loc = locVal; PRESET.loc = locVal; changed = true; }
 
     if(changed){
-      var pt=document.getElementById('payToggle'); if(pt) pt.classList.toggle('on', filters.pay);
-      [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-vertical')===filters.vertical); });
-      buildRoleChips(filters.vertical);
-      [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-shift')===filters.shift); });
-      renderContextBar();
+      syncRail();
       applyFilters();
     }
   }
@@ -789,11 +871,14 @@
       // richest description across the duplicates
       var desc = ''; g.forEach(function(x){ if((x.description||'').length > desc.length) desc = x.description; });
       if(desc) base.description = desc;
+      // richest job_highlights across the duplicates
+      g.forEach(function(x){ if(Array.isArray(x.job_highlights) && (!Array.isArray(base.job_highlights) || x.job_highlights.length > base.job_highlights.length)) base.job_highlights = x.job_highlights; });
       base._vertical = (base.vertical || 'security').toLowerCase();   // board.json vertical; legacy rows default to security
       // roles (vertical-scoped): title-derived + the stored role slug of every dup this job merged
       base._roles = deriveRoles(base);
       g.forEach(function(x){ var r = roleFromString(x.role || x.role_category, base._vertical); if(r && base._roles.indexOf(r) === -1) base._roles.unshift(r); });
       base._shifts = deriveShifts(base);                              // cross-vertical shift+attribute axis
+      base._reqs = deriveReqs(base);                                  // requirements axis (title + highlights)
       base._tabs = g.length;
       base._metro = (base.city||'').trim() || 'Other';
       base._loc = (base.location||'').trim();
@@ -804,8 +889,6 @@
     ALL_JOBS.forEach(function(j, i){ j._i = i; });
     DEFAULT_LOC = '';                 // All Locations by default (national master board)
     filters.loc = DEFAULT_LOC;
-    buildLocationChips();             // metro chips from live feed data
-    buildRoleChips(filters.vertical); // role chips from TAXONOMY (all roles until a vertical is picked)
     // On a hub page (BBJ_BOARD_PRESET set) the crawlable JobPosting schema is baked into
     // the <head> for the hub's own jobs; do NOT also inject 1800+ postings for every
     // board job. On /job-board (no preset) inject the full set as before.
@@ -835,7 +918,9 @@
       pay_max: (j.pay_max != null ? j.pay_max : null),
       pay_unit: j.pay_unit || '',
       via: j.via || '',
-      schedule: j.schedule || ''
+      schedule: j.schedule || '',
+      job_highlights: (Array.isArray(j.job_highlights) ? j.job_highlights : null),
+      description: j.description || ''
     };
   }
 
@@ -848,8 +933,9 @@
         boot(jobs);
       })
       .catch(function(){
-        document.getElementById('feed').innerHTML = '<div class="feed-msg" style="grid-column:1/-1;"><div class="fm-title">Couldn\'t load openings</div><div class="fm-sub">Please refresh in a moment, or get job alerts and we\'ll come to you.</div><a href="#" class="hero-btn gold" onclick="openAlerts();return false;" style="display:inline-flex;color:var(--navy-deep);">Get Job Alerts →</a></div>';
-        document.getElementById('resultsCount').textContent = 'Listings temporarily unavailable';
+        var rows = document.getElementById('rows');
+        if(rows) rows.innerHTML = '<li class="feed-msg"><div class="fm-title">Couldn\'t load openings</div><div class="fm-sub">Please refresh in a moment, or get job alerts and we\'ll come to you.</div><a href="#" class="view" onclick="openAlerts();return false;" style="display:inline-block;margin-top:14px;padding:11px 26px;">Get Job Alerts</a></li>';
+        var rc = document.getElementById('resultsCount'); if(rc) rc.textContent = 'Listings temporarily unavailable';
       });
   }
   loadFeed();

@@ -27,7 +27,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO))
-from bbj_feed_bake import (build_job_postings, render_job_schema, pay_stats, render_pay_html,
+from bbj_feed_bake import (build_job_postings, render_job_schema, pay_range_stats, render_pay_range,
                            SCHEMA_START, SCHEMA_END, PAY_START, PAY_END)
 import bbj_hub_gate as gate
 
@@ -98,6 +98,18 @@ def load_feed_jobs(feed_dir, feed_key):
     return (json.loads(fp.read_text(encoding="utf-8")).get("jobs") or [])
 
 
+def load_metro_pay_set(feed_dir, vertical, metro):
+    """The FULL vertical+metro set from board.json (the honest pay sample), not the hub's
+    ~30-job feed. All Chicago warehouse hubs therefore share one metro-wide pay band."""
+    fp = Path(feed_dir) / "board.json"
+    if not fp.exists():
+        return []
+    jobs = json.loads(fp.read_text(encoding="utf-8")).get("jobs") or []
+    metro = (metro or "").lower()
+    return [j for j in jobs
+            if j.get("vertical") == vertical and (j.get("market") or "").lower() == metro]
+
+
 HUB_CSS = """
   .hub-band{background:linear-gradient(135deg,#000814,#001D3D);color:#fff;padding:34px 20px 30px;}
   .hub-band-inner{max-width:1100px;margin:0 auto;}
@@ -139,9 +151,25 @@ def build_hub(cfg, feed_dir, board_html):
 
     objs, _dropped = build_job_postings(feed_jobs)
     baked_schema = SCHEMA_START + render_job_schema(objs) + SCHEMA_END
-    pay_block = PAY_START + render_pay_html(pay_stats(feed_jobs)) + PAY_END
 
     preset = preset_for(cfg)
+
+    # Baked range-bar pay panel across the FULL Chicago warehouse set (not this hub's feed),
+    # spliced into the board skeleton's #payWrap. data-* attrs let the cron recompute the
+    # identical metro-wide band on refresh (bbj_feed_bake.splice_pay reads board.json).
+    pay_vertical = preset.get("vertical", "warehouse")
+    pay_metro = preset.get("metro", "chicago")
+    pay_title = cfg.get("pay_h2", "Typical Warehouse Pay in Chicago, IL")
+    metro_set = load_metro_pay_set(feed_dir, pay_vertical, pay_metro)
+    pay_inner = render_pay_range(pay_range_stats(metro_set), pay_title)
+    baked_paywrap = ('<section id="payWrap"><div class="paypanel" data-pay-vertical="%s" '
+                     'data-pay-metro="%s" data-pay-title="%s">%s%s%s</div></section>'
+                     % (esc(pay_vertical), esc(pay_metro), esc(pay_title),
+                        PAY_START, pay_inner, PAY_END))
+    filters_block = filters_block.replace(
+        '<section id="payWrap" style="display:none;"><div class="paypanel" id="payPanel"></div></section>',
+        baked_paywrap)
+
     h1 = "Find the Latest <em>%s</em> in Chicago" % esc(cfg["role"])
     intro = esc(cfg.get("hero_sub", ""))
 
@@ -204,15 +232,6 @@ def build_hub(cfg, feed_dir, board_html):
 <script>window.BBJ_BOARD_PRESET = {json.dumps(preset)};</script>
 <script>window.BBJ_FEED_KEY="{feed_key}";</script>
 {filters_block}
-
-<!-- PAY (dynamic, computed from this hub's live feed) -->
-<div class="hub-pay">
-  <div class="hub-section">
-    <h2>{esc(cfg.get("pay_h2", "Typical Warehouse Pay in Chicago, IL"))}</h2>
-    <p class="intro">{esc(cfg.get("pay_intro", ""))}</p>
-    {pay_block}
-  </div>
-</div>
 
 <!-- CONTENT: overview, requirements, FAQ, related -->
 <div class="hub-content">

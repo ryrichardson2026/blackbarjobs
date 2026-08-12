@@ -449,16 +449,98 @@ def render_pay_html(stats):
             % (stats["n"], stats["total"]))
     return grid + note
 
-def splice_pay(html, jobs):
-    """Fill the BBJ_PAY marker region with pay stats from the feed. No markers ->
-    untouched (every security page). Marker-bounded + idempotent, like splice_schema."""
+# ---- range-bar pay panel (board redesign) ---------------------------------
+# Horizontal range bar computed across the FULL metro set for a vertical (not just the
+# hub's rendered feed): black fill = interquartile band, yellow tick = median, low /
+# median / high labeled beneath, plus an honest sample-size note. Matches the board CSS
+# (.paypanel / .range / .rangebar / .rangefill / .rangemid / .rangelabels).
+EMPTY_PAY_LIGHT = ('<p class="note">Pay varies by employer and shift. '
+                   'Most listings show pay once you apply.</p>')
+
+def _pctl(sorted_vals, p):
+    if not sorted_vals:
+        return 0.0
+    idx = int(round((p / 100.0) * (len(sorted_vals) - 1)))
+    return sorted_vals[max(0, min(len(sorted_vals) - 1, idx))]
+
+def pay_range_stats(jobs):
+    """p10/p25/p50/p75/p90 of hourly-equivalent pay across jobs that publish structured
+    pay. None when fewer than 4 usable rows (too thin to draw an honest band)."""
+    vals = []
+    for j in jobs:
+        pmin = j.get("pay_min"); unit = (j.get("pay_unit") or "").upper()
+        if pmin is None or unit not in _PAY_PER_HOUR:
+            continue
+        f = _PAY_PER_HOUR[unit]; pmax = j.get("pay_max")
+        lo = pmin * f; hi = (pmax if pmax is not None else pmin) * f
+        if hi < lo:
+            lo, hi = hi, lo
+        vals.append((lo + hi) / 2.0)
+    if len(vals) < 4:
+        return None
+    vals.sort()
+    return {"lo": _pctl(vals, 10), "q1": _pctl(vals, 25), "med": _pctl(vals, 50),
+            "q3": _pctl(vals, 75), "hi": _pctl(vals, 90), "n": len(vals), "total": len(jobs)}
+
+def _money0(v):
+    return "$%d" % int(round(v))   # whole-dollar band labels read cleaner than "$27.7"
+
+def render_pay_range(stats, title):
+    if not stats:
+        return "<h2>%s</h2>%s" % (esc(title), EMPTY_PAY_LIGHT)
+    span = (stats["hi"] - stats["lo"]) or 1.0
+    fL = max(0.0, (stats["q1"] - stats["lo"]) / span * 100)
+    fR = max(0.0, (stats["hi"] - stats["q3"]) / span * 100)
+    mid = min(100.0, max(0.0, (stats["med"] - stats["lo"]) / span * 100))
+    return (
+        '<h2>%s</h2>'
+        '<p class="note">Hourly-equivalent pay across %d of %d current listings that publish a rate.</p>'
+        '<div class="range"><div class="rangebar">'
+        '<div class="rangefill" style="left:%.1f%%;right:%.1f%%"></div>'
+        '<div class="rangemid" style="left:%.1f%%"></div>'
+        '</div><div class="rangelabels">'
+        '<div class="rl lo"><div class="v">%s</div><div class="k">Low</div></div>'
+        '<div class="rl mid"><div class="v">%s</div><div class="k">Median /hr</div></div>'
+        '<div class="rl hi"><div class="v">%s</div><div class="k">High</div></div>'
+        '</div></div>'
+    ) % (esc(title), stats["n"], stats["total"], fL, fR, mid,
+         esc(_money0(stats["lo"])), esc(_money0(stats["med"])), esc(_money0(stats["hi"])))
+
+# A hub's paypanel carries data-pay-vertical / -metro / -title so the cron recomputes the
+# SAME metro-wide band on refresh (build == cron); board.json is the metro sample source.
+_PAY_META_RE = re.compile(
+    r'data-pay-vertical="([^"]*)"[^>]*data-pay-metro="([^"]*)"(?:[^>]*data-pay-title="([^"]*)")?')
+
+def _load_board_metro(feed_dir, vertical, metro):
+    p = os.path.join(feed_dir or ".", "board.json")
+    if not os.path.exists(p):
+        return None
+    with open(p, encoding="utf-8") as fh:
+        jobs = (json.load(fh).get("jobs") or [])
+    metro = (metro or "").lower()
+    return [j for j in jobs
+            if j.get("vertical") == vertical and (j.get("market") or "").lower() == metro]
+
+def splice_pay(html, jobs, feed_dir=None):
+    """Fill the BBJ_PAY marker region. No markers -> untouched (every security page).
+    When the paypanel is tagged with data-pay-vertical/-metro, the band is computed across
+    the full metro set from board.json; otherwise it falls back to the passed feed jobs.
+    Marker-bounded + idempotent, like splice_schema."""
     si = html.find(PAY_START); ei = html.find(PAY_END)
     if si == -1 and ei == -1:
         return html, False
     if si == -1 or ei == -1 or ei < si:
         raise BakeError("unbalanced BBJ_PAY markers")
     inner_start = si + len(PAY_START)
-    new_html = html[:inner_start] + render_pay_html(pay_stats(jobs)) + html[ei:]
+    m = _PAY_META_RE.search(html, 0, si)
+    if m and feed_dir:
+        vertical, metro = m.group(1), m.group(2)
+        title = m.group(3) or "Typical Pay"
+        metro_jobs = _load_board_metro(feed_dir, vertical, metro)
+        inner = render_pay_range(pay_range_stats(metro_jobs or []), title)
+    else:
+        inner = render_pay_range(pay_range_stats(jobs), "Typical Pay")
+    new_html = html[:inner_start] + inner + html[ei:]
     return new_html, (new_html != html)
 
 
@@ -502,7 +584,7 @@ def bake_page(html, feed_key, feed_dir, bake_date):
         new_html = splice_container(html, loc, cards)
 
     new_html, dropped = splice_schema(new_html, jobs)   # JobPosting JSON-LD, if markers
-    new_html, _pay_changed = splice_pay(new_html, jobs) # dynamic pay section, if markers
+    new_html, _pay_changed = splice_pay(new_html, jobs, feed_dir) # dynamic pay section, if markers
     changed = new_html != html
     if marker_only:
         note = "markers-only (%d schema, pay)" % len(jobs)
