@@ -396,20 +396,29 @@ window.addEventListener("load", function(){
 <div class="chip-scroll chip-scroll--loc" id="locationChips">
 <div class="chip active" data-loc="">All Locations</div>
 </div>
-<div class="chip-label">Security type</div>
+<div class="chip-label">Vertical</div>
+<div class="chip-scroll" id="verticalChips">
+<div class="chip active" data-vertical="">All</div>
+<div class="chip" data-vertical="security">Security</div>
+<div class="chip" data-vertical="warehouse">Warehouse</div>
+</div>
+<div class="chip-label">Role</div>
 <div class="chip-scroll" id="roleChips">
 <div class="chip active" data-role="">All Roles</div>
-<div class="chip" data-role="armed">Armed</div>
-<div class="chip" data-role="unarmed">Unarmed</div>
-<div class="chip" data-role="overnight">Overnight</div>
-<div class="chip" data-role="patrol">Patrol</div>
-<div class="chip" data-role="event">Event</div>
-<div class="chip" data-role="frontdesk">Front Desk</div>
-<div class="chip" data-role="hospital">Hospital / Healthcare</div>
-<div class="chip" data-role="lossprevention">Loss Prevention</div>
+</div>
+<div class="chip-label">Shift &amp; attribute</div>
+<div class="chip-scroll" id="shiftChips">
+<div class="chip active" data-shift="">Any</div>
+<div class="chip" data-shift="overnight">Overnight</div>
+<div class="chip" data-shift="weekend">Weekend</div>
+<div class="chip" data-shift="part-time">Part-time</div>
+<div class="chip" data-shift="full-time">Full-time</div>
+<div class="chip" data-shift="no-experience">No Experience</div>
 </div>
 </div>
 </div>
+<!-- HUB PRESET CONTEXT BAR (shown only when a deep link pre-sets filters) -->
+<div id="contextBar" style="display:none;"></div>
 <!-- RESULTS BAR -->
 <div class="results-bar">
 <div class="results-count" id="resultsCount">Loading openings…</div>
@@ -424,12 +433,6 @@ window.addEventListener("load", function(){
 <div class="fs-head">
 <div class="fs-title">More filters</div>
 <button type="button" class="fs-close" aria-label="Close" onclick="closeFilterSheet()"><svg fill="none" height="18" viewbox="0 0 20 20" width="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path></svg></button>
-</div>
-<div class="fs-label">Schedule</div>
-<div class="seg-row" id="schedSeg">
-<div class="seg active" data-sched="">Any</div>
-<div class="seg" data-sched="full-time">Full-time</div>
-<div class="seg" data-sched="part-time">Part-time</div>
 </div>
 <div class="fs-label">Date posted</div>
 <div class="seg-row" id="postedSeg">
@@ -512,7 +515,7 @@ window.addEventListener("load", function(){
 <div style="display:flex;flex-direction:column;gap:16px;">
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">What security officer jobs are listed on this board?</div>
-<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Every active listing on this board is a security officer role: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across every market we cover and updated continuously. No unrelated industries, no spam listings.</p>
+<p style="font-size:0.87rem;color:#444;line-height:1.65;margin:0;">Most listings on this board are security officer roles: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions, plus warehouse and logistics roles now live in select markets. Filter by vertical, role, shift, pay, and city. Jobs are pulled directly from employer postings across every market we cover and updated continuously. No spam listings.</p>
 </div>
 <div style="border-top:1px solid #e2e5ea;padding-top:14px;">
 <div style="font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:800;color:#001D3D;margin-bottom:6px;">Which markets does BlackBarJobs cover?</div>
@@ -580,10 +583,10 @@ window.addEventListener("load", function(){
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What security officer jobs are listed on this board?",
+      "name": "What jobs are listed on this board?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every active listing on this board is a security officer role: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions. Jobs are pulled directly from employer and staffing firm postings across every market we cover and updated continuously."
+        "text": "Most listings on this board are security officer roles: armed, unarmed, overnight, event, mobile patrol, loss prevention, hospital, and TSA positions, plus warehouse and logistics roles now live in select markets. Filter by vertical, role, shift, pay, and city. Jobs are pulled directly from employer postings across every market we cover and updated continuously. No spam listings."
       }
     },
     {
@@ -678,16 +681,30 @@ window.addEventListener("load", function(){
       }
     });
   }
-  var filters = { q: '', loc: '', type: '', pay: false, role: '', posted: '', sort: 'newest' };
+  var filters = { q: '', loc: '', vertical: '', role: '', shift: '', pay: false, posted: '', sort: 'newest' };
+  // URL-derived presets from a hub deep link; clearFilters() resets to THESE, never to
+  // an empty (all-verticals) state, so clearing never drops a warehouse visitor onto
+  // security jobs. Populated by applyUrlFilters().
+  var PRESET = { loc: '', vertical: '', role: '', shift: '' };
   var DEFAULT_LOC = '';
   var METRO_FRIENDLY = { 'DFW': 'Dallas–Fort Worth', 'Houston': 'Houston', 'Austin': 'Austin', 'San Antonio': 'San Antonio', 'El Paso': 'El Paso', 'Chicago': 'Chicago' };
   var TYPE_OPTS = [ {v:'',label:'Any Schedule'}, {v:'full-time',label:'Full-time'}, {v:'part-time',label:'Part-time'} ];
   var POSTED_OPTS = [ {v:'',label:'Any Time'}, {v:'week',label:'Posted This Week'}, {v:'3',label:'Past 3 Days'}, {v:'1',label:'Posted Today'} ];
 
+  // Hourly-equivalent so "Highest pay" ranks an $90k/yr role above a $20/hr one.
+  var PAY_TO_HOURLY = { HOUR:1, DAY:1/8, WEEK:1/40, MONTH:12/2080, YEAR:1/2080 };
   function payValue(job) {
-    var nums = (job.pay || '').match(/\d+(\.\d+)?/g);
+    var unit = (job.pay_unit || '').toUpperCase();
+    if (job.pay_min != null && PAY_TO_HOURLY[unit]) {
+      var amt = (job.pay_max != null ? job.pay_max : job.pay_min);
+      return amt * PAY_TO_HOURLY[unit];
+    }
+    // fallback for the ~65% without structured pay: parse the string, and if a number
+    // looks annual (>= 1000) convert to hourly so it doesn't dwarf real hourly rows.
+    var nums = (job.pay || '').replace(/,/g,'').match(/\d+(\.\d+)?/g);
     if (!nums) return -1;
-    return Math.max.apply(null, nums.map(parseFloat));
+    var mx = Math.max.apply(null, nums.map(parseFloat));
+    return mx >= 1000 ? mx / 2080 : mx;
   }
   function sortJobs(arr) {
     if (filters.sort === 'pay') {
@@ -699,30 +716,86 @@ window.addEventListener("load", function(){
     }
   }
 
-  /* ───────────────── CSV PARSE ───────────────── */
+  /* ───────────────── TAXONOMY (single source of truth) ─────────────────
+     Two axes: (1) vertical + role, (2) cross-vertical shift + attribute.
+     Every role and shift is defined ONCE here; deriveRoles / deriveShifts /
+     roleLabel / roleFromString / shiftFromString all read this object. This
+     replaces the four functions that used to disagree (deriveRoles,
+     roleFromCategory, roleKeyword, roleLabel). `title` matches a job's
+     title+company; `slug` matches a hub deep-link (?role=armed-security-dfw). */
+  var TAXONOMY = {
+    security: { label:'Security', roles:[
+      { key:'unarmed',        label:'Unarmed',         title:/\bun-?armed\b/,                                   slug:/unarmed/ },
+      { key:'armed',          label:'Armed',           title:/\barmed\b/,                                       slug:/\barmed/ },
+      { key:'patrol',         label:'Patrol',          title:/patrol|mobile|response agent|roving/,             slug:/mobile-patrol|patrol/ },
+      { key:'event',          label:'Event',           title:/\bevent|concert|stadium|venue|game day/,          slug:/event|festival|sporting/ },
+      { key:'frontdesk',      label:'Front Desk',      title:/front desk|lobby|concierge|gatehouse|access control|access gate|reception|console|dispatch/, slug:/front-?desk|dispatch|concierge/ },
+      { key:'hospital',       label:'Healthcare',      title:/hospital|medical|health|children|clinic|patient/, slug:/hospital|healthcare|medical/ },
+      { key:'lossprevention', label:'Loss Prevention', title:/loss prevention|asset protection|\blp\b|retail|grocery|store|shopping/, slug:/loss-prevention|asset-protection/ },
+      { key:'tsa',            label:'TSA / Airport',   title:/\btsa\b|airport|aviation/,                        slug:/tsa|airport|aviation/ }
+    ]},
+    warehouse: { label:'Warehouse', roles:[
+      { key:'forklift',        label:'Forklift',            title:/forklift|lift truck|reach truck|cherry picker|order picker/, slug:/forklift/ },
+      { key:'package-handler', label:'Package Handler',     title:/package handler|package|parcel|sorter|loader|unloader|\bdock\b/, slug:/package-handler/ },
+      { key:'associate',       label:'Warehouse Associate', title:/warehouse associate|warehouse worker|warehouse|picker|packer|material handler|distribution|fulfillment/, slug:/warehouse-associate|warehouse-general|warehouse/ }
+    ]}
+  };
+  var SHIFTS = [
+    { key:'overnight',     label:'Overnight',     title:/overnight|graveyard|11:00\s*pm|11pm|3:00pm-11|10pm|grave shift|\bnight\b/ },
+    { key:'weekend',       label:'Weekend',       title:/weekend|saturday|sunday/ },
+    { key:'part-time',     label:'Part-time',     title:/part[\s-]?time/,  jt:'part' },
+    { key:'full-time',     label:'Full-time',     title:/full[\s-]?time/,  jt:'full' },
+    { key:'no-experience', label:'No Experience', title:/no experience|no[\s-]?exp|entry[\s-]?level|will train/ }
+  ];
+  function allRoles(){ var out=[]; Object.keys(TAXONOMY).forEach(function(v){ TAXONOMY[v].roles.forEach(function(r){ out.push(r); }); }); return out; }
+  function rolesForVertical(v){ return (v && TAXONOMY[v]) ? TAXONOMY[v].roles : allRoles(); }
 
-  /* ───────────────── ROLE DERIVATION ───────────────── */
   function deriveRoles(job) {
     var t = ((job.title || '') + ' ' + (job.company || '')).toLowerCase();
-    var roles = [];
+    var v = job._vertical || job.vertical || '';
+    var pool = (v && TAXONOMY[v]) ? TAXONOMY[v].roles : allRoles();
     var unarmed = /\bun-?armed\b/.test(t);
-    if (unarmed) roles.push('unarmed');
-    if (/\barmed\b/.test(t) && !unarmed) roles.push('armed');
-    if (/(overnight|night|graveyard|11:00\s*pm|11pm|3:00pm-11|10pm|grave shift)/.test(t)) roles.push('overnight');
-    if (/(patrol|mobile|response agent|roving)/.test(t)) roles.push('patrol');
-    if (/\bevent|concert|stadium|venue|game day/.test(t)) roles.push('event');
-    if (/(front desk|lobby|concierge|gatehouse|access control|access gate|reception|console|dispatch)/.test(t)) roles.push('frontdesk');
-    if (/(hospital|medical|health|children|clinic|patient)/.test(t)) roles.push('hospital');
-    if (/(loss prevention|asset protection|\blp\b|retail|grocery|store|shopping)/.test(t)) roles.push('lossprevention');
+    var roles = [];
+    pool.forEach(function(r){
+      if (r.key === 'armed' && unarmed) return;        // unarmed-before-armed guard
+      if (r.title.test(t)) roles.push(r.key);
+    });
     return roles;
   }
-
-  function jobTypeKey(job) {
-    var t = (job.job_type || '').toLowerCase();
-    var keys = [];
-    if (t.indexOf('full') !== -1) keys.push('full-time');
-    if (t.indexOf('part') !== -1) keys.push('part-time');
-    return keys;
+  function deriveShifts(job) {
+    var t = ((job.title || '') + ' ' + (job.company || '')).toLowerCase();
+    var jt = (job.schedule || job.job_type || '').toLowerCase();
+    var out = [];
+    SHIFTS.forEach(function(s){
+      if (s.title.test(t) || (s.jt && jt.indexOf(s.jt) !== -1)) out.push(s.key);
+    });
+    return out;
+  }
+  function roleLabel(key) {
+    var all = allRoles(), i;
+    for (i=0;i<all.length;i++){ if(all[i].key===key) return all[i].label; }
+    for (i=0;i<SHIFTS.length;i++){ if(SHIFTS[i].key===key) return SHIFTS[i].label; }
+    return key;
+  }
+  // slug or free text -> role key, optionally scoped to one vertical's roles
+  function roleFromString(s, vertical) {
+    s = (s||'').toLowerCase(); if(!s) return null;
+    var pool = (vertical && TAXONOMY[vertical]) ? TAXONOMY[vertical].roles : allRoles(), i;
+    for (i=0;i<pool.length;i++){ if(pool[i].slug.test(s)) return pool[i].key; }
+    for (i=0;i<pool.length;i++){ if(pool[i].title.test(s)) return pool[i].key; }
+    return null;
+  }
+  function shiftFromString(s) {
+    s = (s||'').toLowerCase(); if(!s) return null;
+    for (var i=0;i<SHIFTS.length;i++){ if(SHIFTS[i].title.test(s)) return SHIFTS[i].key; }
+    return null;
+  }
+  // security signal wins over warehouse so "warehouse-security" resolves to security
+  function verticalFromString(s) {
+    s = (s||'').toLowerCase(); if(!s) return null;
+    if (/security|guard|officer|patrol|unarmed|\barmed/.test(s)) return 'security';
+    if (/warehouse|forklift|package|parcel|logistics|distribution|fulfillment/.test(s)) return 'warehouse';
+    return null;
   }
 
   /* ───────────────── DATES ───────────────── */
@@ -751,8 +824,9 @@ window.addEventListener("load", function(){
   function qMatch(job){ var q = filters.q.toLowerCase().trim(); if(!q) return true; return ((job.title||'')+' '+(job.company||'')).toLowerCase().indexOf(q) !== -1; }
   function locChipValue(){ var v = filters.loc||''; if(v.indexOf('metro:')===0) return v; if(v.indexOf('loc:')===0){ var rest=v.slice(4), s=rest.indexOf('::'); return 'metro:'+(s===-1?rest:rest.slice(0,s)); } return ''; }
   function locMatch(job, val){ if(!val) return true; if(val.indexOf('metro:')===0) return job._metro === val.slice(6); if(val.indexOf('loc:')===0){ var rest=val.slice(4), s=rest.indexOf('::'); if(s===-1) return job._locCity === rest; return job._metro === rest.slice(0,s) && job._locCity === rest.slice(s+2); } return true; }
-  function typeMatch(job){ return !filters.type || jobTypeKey(job).indexOf(filters.type) !== -1; }
-  function payMatch(job){ return !filters.pay || !!(job.pay||'').trim(); }
+  function verticalMatch(job){ return !filters.vertical || job._vertical === filters.vertical; }
+  function shiftMatch(job){ return !filters.shift || (job._shifts||[]).indexOf(filters.shift) !== -1; }
+  function payMatch(job){ return !filters.pay || (job.pay_min != null) || !!(job.pay||'').trim(); }
   function postedMatch(job){ if(!filters.posted) return true; var d = postedDays(filters.posted); return !d || withinDays(job, d); }
   function roleMatch(job){ return !filters.role || job._roles.indexOf(filters.role) !== -1; }
 
@@ -760,7 +834,8 @@ window.addEventListener("load", function(){
     return ALL_JOBS.filter(function(job){
       if(except !== 'q' && !qMatch(job)) return false;
       if(except !== 'loc' && !locMatch(job, filters.loc)) return false;
-      if(except !== 'type' && !typeMatch(job)) return false;
+      if(except !== 'vertical' && !verticalMatch(job)) return false;
+      if(except !== 'shift' && !shiftMatch(job)) return false;
       if(except !== 'pay' && !payMatch(job)) return false;
       if(except !== 'posted' && !postedMatch(job)) return false;
       if(except !== 'role' && !roleMatch(job)) return false;
@@ -784,15 +859,13 @@ window.addEventListener("load", function(){
     var n = FILTERED.length;
     var sortLabel = filters.sort === 'pay' ? 'highest pay' : (filters.sort === 'company' ? 'company A–Z' : 'newest first');
     el.innerHTML = '<b>' + n + '</b> ' + (n === 1 ? 'open position' : 'open positions') + ' · ' + sortLabel;
-    var anyFilter = filters.q || (filters.loc !== DEFAULT_LOC) || filters.type || filters.pay || filters.role || filters.posted;
+    var anyFilter = filters.q || filters.pay || filters.posted ||
+      (filters.loc !== PRESET.loc) || (filters.vertical !== PRESET.vertical) ||
+      (filters.role !== PRESET.role) || (filters.shift !== PRESET.shift);
     document.getElementById('clearBtn').classList.toggle('show', !!anyFilter);
   }
 
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-
-  function roleLabel(r) {
-    return ({armed:'Armed',unarmed:'Unarmed',overnight:'Overnight',patrol:'Patrol',event:'Event',frontdesk:'Front Desk',hospital:'Healthcare',lossprevention:'Loss Prevention'})[r] || r;
-  }
 
   function cardHTML(job) {
     var tags = '';
@@ -931,17 +1004,29 @@ window.addEventListener("load", function(){
       if(allLoc) allLoc.classList.add('active');
     }
 
-    // SCHEDULE (sheet segments)
-    var typeBase = jobsMatching('type');
-    [].forEach.call(document.querySelectorAll('#schedSeg .seg'), function(seg){
-      var v = seg.getAttribute('data-sched');
-      var n = (v==='') ? typeBase.length : typeBase.filter(function(j){ return jobTypeKey(j).indexOf(v)!==-1; }).length;
+    // VERTICAL chips (primary axis A)
+    var vertBase = jobsMatching('vertical');
+    [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(chip){
+      var v = chip.getAttribute('data-vertical');
+      var n = (v==='') ? vertBase.length : vertBase.filter(function(j){ return j._vertical===v; }).length;
       var dead = (n===0 && v!=='');
-      seg.classList.toggle('disabled', dead);
-      seg.classList.toggle('active', v===filters.type && !dead);
-      if(dead && filters.type===v){ filters.type=''; corrected = true; }
+      chip.classList.toggle('disabled', dead);
+      chip.classList.toggle('active', v===filters.vertical && !dead);
+      if(dead && filters.vertical===v){ filters.vertical=''; corrected = true; }
     });
-    if(!document.querySelector('#schedSeg .seg.active')){ var s0=document.querySelector('#schedSeg .seg[data-sched=""]'); if(s0) s0.classList.add('active'); }
+    if(!document.querySelector('#verticalChips .chip.active')){ var v0=document.querySelector('#verticalChips .chip[data-vertical=""]'); if(v0) v0.classList.add('active'); }
+
+    // SHIFT & attribute chips (primary axis B, cross-vertical)
+    var shiftBase = jobsMatching('shift');
+    [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(chip){
+      var s = chip.getAttribute('data-shift');
+      var n = (s==='') ? shiftBase.length : shiftBase.filter(function(j){ return (j._shifts||[]).indexOf(s)!==-1; }).length;
+      var dead = (n===0 && s!=='');
+      chip.classList.toggle('disabled', dead);
+      chip.classList.toggle('active', s===filters.shift && !dead);
+      if(dead && filters.shift===s){ filters.shift=''; corrected = true; }
+    });
+    if(!document.querySelector('#shiftChips .chip.active')){ var sh0=document.querySelector('#shiftChips .chip[data-shift=""]'); if(sh0) sh0.classList.add('active'); }
 
     // DATE POSTED (sheet segments)
     var postedBase = jobsMatching('posted');
@@ -980,7 +1065,7 @@ window.addEventListener("load", function(){
     });
 
     // MORE-FILTERS badge — active secondary filters only
-    var badgeN = (filters.type?1:0) + (filters.posted?1:0) + (filters.pay?1:0) + (filters.sort!=='newest'?1:0);
+    var badgeN = (filters.posted?1:0) + (filters.pay?1:0) + (filters.sort!=='newest'?1:0);
     var mb = document.getElementById('mfBadge');
     if(mb){ mb.textContent = badgeN; mb.style.display = badgeN>0 ? 'inline-block' : 'none'; }
 
@@ -1007,7 +1092,6 @@ window.addEventListener("load", function(){
       applyFilters();
     });
   }
-  segHandler('schedSeg', 'data-sched', 'type');
   segHandler('postedSeg', 'data-posted', 'posted');
   segHandler('sortSeg', 'data-sort', 'sort');
   function openFilterSheet(){ document.getElementById('filterSheet').classList.add('open'); document.body.style.overflow='hidden'; }
@@ -1017,19 +1101,52 @@ window.addEventListener("load", function(){
     document.getElementById('payToggle').classList.toggle('on', filters.pay);
     applyFilters();
   }
+  // Role chips are rebuilt from TAXONOMY whenever the vertical changes, so the role
+  // set always matches the chosen vertical (armed for security, forklift for warehouse).
+  function buildRoleChips(vertical){
+    var roles = rolesForVertical(vertical);
+    var html = '<div class="chip'+(filters.role===''?' active':'')+'" data-role="">All Roles</div>';
+    roles.forEach(function(r){
+      html += '<div class="chip'+(filters.role===r.key?' active':'')+'" data-role="'+r.key+'">'+esc(r.label)+'</div>';
+    });
+    var el = document.getElementById('roleChips');
+    if(el) el.innerHTML = html;
+  }
+  document.getElementById('verticalChips').addEventListener('click', function(e){
+    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
+    filters.vertical = chip.getAttribute('data-vertical');
+    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
+    chip.classList.add('active');
+    // a role that isn't part of the new vertical no longer applies — drop it
+    if(!rolesForVertical(filters.vertical).some(function(r){ return r.key===filters.role; })) filters.role = '';
+    buildRoleChips(filters.vertical);
+    applyFilters();
+  });
   document.getElementById('roleChips').addEventListener('click', function(e){
-    var chip = e.target.closest('.chip'); if (!chip) return;
+    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
     filters.role = chip.getAttribute('data-role');
     [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
     chip.classList.add('active');
     applyFilters();
   });
+  document.getElementById('shiftChips').addEventListener('click', function(e){
+    var chip = e.target.closest('.chip'); if (!chip || chip.classList.contains('disabled')) return;
+    filters.shift = chip.getAttribute('data-shift');
+    [].forEach.call(this.querySelectorAll('.chip'), function(c){ c.classList.remove('active'); });
+    chip.classList.add('active');
+    applyFilters();
+  });
   function clearFilters() {
-    filters = { q:'', loc:DEFAULT_LOC, type:'', pay:false, role:'', posted:'', sort:'newest' };
+    // Reset to the hub PRESET (or the neutral all-verticals state if no preset), NOT to
+    // an empty state — so clearing on a warehouse hub never reveals security jobs.
+    filters = { q:'', loc:(PRESET.loc||DEFAULT_LOC), vertical:(PRESET.vertical||''),
+                role:(PRESET.role||''), shift:(PRESET.shift||''), pay:false, posted:'', sort:'newest' };
     document.getElementById('searchInput').value = '';
     document.getElementById('payToggle').classList.remove('on');
-    [].forEach.call(document.querySelectorAll('#roleChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-role')===''); });
-    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-loc')===''); });
+    buildRoleChips(filters.vertical);
+    [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-vertical')===filters.vertical); });
+    [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-shift')===filters.shift); });
+    [].forEach.call(document.querySelectorAll('#locationChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-loc')===(filters.loc||'')); });
     applyFilters();
     window.scrollTo({ top: document.getElementById('board').offsetTop - 60, behavior: 'smooth' });
   }
@@ -1101,6 +1218,16 @@ window.addEventListener("load", function(){
     var parts = (loc || '').split(',').map(function(s){ return s.trim(); });
     return { city: parts[0] || '', region: parts[1] || '', country: 'US' };
   }
+  // Prefer the structured pay_min/max/unit from the feed; more accurate than string parse.
+  function structuredSalary(job) {
+    if (job.pay_min == null || !job.pay_unit) return null;
+    var unit = ({HOUR:'HOUR',DAY:'DAY',WEEK:'WEEK',MONTH:'MONTH',YEAR:'YEAR'})[String(job.pay_unit).toUpperCase()];
+    if (!unit) return null;
+    var qv = { '@type':'QuantitativeValue', unitText: unit };
+    if (job.pay_max != null && job.pay_max !== job.pay_min) { qv.minValue = job.pay_min; qv.maxValue = job.pay_max; }
+    else { qv.value = job.pay_min; }
+    return { '@type':'MonetaryAmount', currency:'USD', value: qv };
+  }
   function parseSalary(pay) {
     if (!pay || !pay.trim()) return null;
     var unit = /year|annual|\/yr|yr\b/i.test(pay) ? 'YEAR' : (/week/i.test(pay) ? 'WEEK' : (/month/i.test(pay) ? 'MONTH' : 'HOUR'));
@@ -1144,7 +1271,7 @@ window.addEventListener("load", function(){
     };
     if (posted) { obj.datePosted = posted; obj.validThrough = addDaysISO(posted, 60); }
     var et = empType(job.job_type); if (et) obj.employmentType = et;
-    var sal = parseSalary(job.pay); if (sal) obj.baseSalary = sal;
+    var sal = structuredSalary(job) || parseSalary(job.pay); if (sal) obj.baseSalary = sal;
     if (job.apply_link) obj.url = job.apply_link;
     return obj;
   }
@@ -1164,32 +1291,8 @@ window.addEventListener("load", function(){
 
   /* ───────────────── BOOT (merge + de-dupe all tabs) ───────────────── */
   function normApply(u){ return (u||'').trim().toLowerCase().replace(/\/+$/,''); }
-  function roleFromCategory(rc){
-    rc = (rc||'').toLowerCase().trim();
-    if(!rc) return null;
-    // match by role PREFIX so any metro suffix works: armed-dfw, overnight-houston, event-san-antonio, etc.
-    var defs = [
-      ['unarmed','unarmed'], ['armed','armed'], ['overnight','overnight'], ['event','event'],
-      ['mobile-patrol','patrol'], ['patrol','patrol'], ['loss-prevention','lossprevention'],
-      ['hospital','hospital'], ['healthcare','hospital'], ['front-desk','frontdesk'], ['frontdesk','frontdesk'], ['tsa','tsa']
-    ];
-    for(var i=0;i<defs.length;i++){ if(rc.indexOf(defs[i][0]) === 0) return defs[i][1]; }
-    return null;                               // e.g. "index-dfw" -> null (rely on title)
-  }
 
   /* ───────────────── DEEP LINKS (UTM / query params) ───────────────── */
-  function roleKeyword(s){
-    s = (s||'').toLowerCase();
-    if(/unarmed/.test(s)) return 'unarmed';
-    if(/armed/.test(s)) return 'armed';
-    if(/loss[\s_-]?prevention|asset[\s_-]?protection|\blp\b/.test(s)) return 'lossprevention';
-    if(/overnight|graveyard|\bnight\b/.test(s)) return 'overnight';
-    if(/patrol|mobile/.test(s)) return 'patrol';
-    if(/front[\s_-]?desk|concierge|lobby|gatehouse/.test(s)) return 'frontdesk';
-    if(/hospital|healthcare|medical/.test(s)) return 'hospital';
-    if(/\bevent\b|concert|venue|stadium/.test(s)) return 'event';
-    return null;
-  }
   function resolveLocation(s){
     if(!s) return null;
     s = String(s).trim().toLowerCase(); if(!s) return null;
@@ -1207,16 +1310,26 @@ window.addEventListener("load", function(){
     for(i=0;i<names.length;i++){ if(hint.indexOf(names[i].toLowerCase()) !== -1) return 'metro:'+names[i]; var fr=(METRO_FRIENDLY[names[i]]||'').toLowerCase(); if(fr && hint.indexOf(fr) !== -1) return 'metro:'+names[i]; }
     return null;
   }
+  function renderContextBar(){
+    var el = document.getElementById('contextBar'); if(!el) return;
+    var parts = [];
+    if(PRESET.vertical) parts.push(TAXONOMY[PRESET.vertical] ? TAXONOMY[PRESET.vertical].label : PRESET.vertical);
+    if(PRESET.loc){ var lv=PRESET.loc; var name = lv.indexOf('metro:')===0 ? lv.slice(6) : (lv.indexOf('loc:')===0 ? lv.slice(4).split('::').pop() : lv); parts.push(metroLabel(name)); }
+    if(PRESET.role) parts.push(roleLabel(PRESET.role));
+    if(PRESET.shift) parts.push(roleLabel(PRESET.shift));
+    if(!parts.length){ el.style.display='none'; return; }
+    el.style.cssText = 'display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 16px;background:#fff7e0;border-bottom:1px solid #f0d98a;font-size:0.85rem;';
+    el.innerHTML = '<span style="font-weight:700;color:#7a5b00;">Showing</span>' +
+      parts.map(function(x){ return '<span style="background:#001D3D;color:#FFC300;font-weight:700;border-radius:999px;padding:3px 10px;">'+esc(x)+'</span>'; }).join('') +
+      '<a href="/job-board" style="margin-left:auto;color:#001D3D;font-weight:700;text-decoration:underline;">View all jobs →</a>';
+  }
+
   function applyUrlFilters(){
     var p; try { p = new URLSearchParams(window.location.search); } catch(e){ return; }
     var changed = false;
 
     var q = p.get('q') || p.get('search');
     if(q){ filters.q = q; var si=document.getElementById('searchInput'); if(si) si.value = q; changed = true; }
-
-    var sched = (p.get('schedule') || p.get('type') || '').toLowerCase();
-    if(sched.indexOf('full') !== -1){ filters.type='full-time'; changed=true; }
-    else if(sched.indexOf('part') !== -1){ filters.type='part-time'; changed=true; }
 
     var posted = (p.get('posted') || '').toLowerCase();
     if(posted==='week'||posted==='7'){ filters.posted='week'; changed=true; }
@@ -1226,19 +1339,36 @@ window.addEventListener("load", function(){
     if(/^(1|true|yes)$/i.test(p.get('pay')||'')){ filters.pay = true; changed=true; }
 
     var sort = (p.get('sort')||'').toLowerCase();
-    if(sort==='pay'||sort==='company'||sort==='newest'){ filters.sort=sort; var ss=document.getElementById('sortSelect'); if(ss) ss.value=sort; changed=true; }
+    if(sort==='pay'||sort==='company'||sort==='newest'){ filters.sort=sort; changed=true; }
 
-    var hint = [p.get('role'), p.get('city'), p.get('metro'), p.get('location'), p.get('utm_campaign'), p.get('utm_content'), p.get('utm_term')].filter(Boolean).join(' ').toLowerCase();
+    var roleParam = p.get('role') || '';
+    var hint = [roleParam, p.get('city'), p.get('metro'), p.get('location'), p.get('utm_campaign'), p.get('utm_content'), p.get('utm_term')].filter(Boolean).join(' ').toLowerCase();
 
-    var role = roleKeyword(p.get('role')) || roleKeyword(hint);
-    if(role){ filters.role = role; changed=true; }
+    // VERTICAL — explicit ?vertical, else inferred from the role slug / hint (security wins)
+    var vertical = (p.get('vertical')||'').toLowerCase();
+    if(!(vertical in TAXONOMY)) vertical = verticalFromString(roleParam) || verticalFromString(hint) || '';
+    if(vertical){ filters.vertical = vertical; PRESET.vertical = vertical; changed = true; }
 
+    // ROLE — scoped to the resolved vertical so "warehouse-security" never -> warehouse associate
+    var role = roleFromString(roleParam, filters.vertical) || roleFromString(hint, filters.vertical);
+    if(role){ filters.role = role; PRESET.role = role; changed = true; }
+
+    // SHIFT & attribute — explicit ?schedule full/part, else derived from the hint
+    var sched = (p.get('schedule') || p.get('type') || '').toLowerCase();
+    var shift = sched.indexOf('full')!==-1 ? 'full-time' : (sched.indexOf('part')!==-1 ? 'part-time' : null);
+    if(!shift) shift = shiftFromString(roleParam) || shiftFromString(hint);
+    if(shift){ filters.shift = shift; PRESET.shift = shift; changed = true; }
+
+    // LOCATION — metro/city to the two-level loc value
     var locVal = resolveLocation(p.get('metro') || p.get('city') || p.get('location')) || resolveLocationFromHint(hint);
-    if(locVal){ filters.loc = locVal; changed=true; }
+    if(locVal){ filters.loc = locVal; PRESET.loc = locVal; changed = true; }
 
     if(changed){
       var pt=document.getElementById('payToggle'); if(pt) pt.classList.toggle('on', filters.pay);
-      [].forEach.call(document.querySelectorAll('#roleChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-role')===filters.role); });
+      [].forEach.call(document.querySelectorAll('#verticalChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-vertical')===filters.vertical); });
+      buildRoleChips(filters.vertical);
+      [].forEach.call(document.querySelectorAll('#shiftChips .chip'), function(c){ c.classList.toggle('active', c.getAttribute('data-shift')===filters.shift); });
+      renderContextBar();
       applyFilters();
     }
   }
@@ -1258,9 +1388,11 @@ window.addEventListener("load", function(){
       // richest description across the duplicates
       var desc = ''; g.forEach(function(x){ if((x.description||'').length > desc.length) desc = x.description; });
       if(desc) base.description = desc;
-      // union of roles: title-derived + the role_category of every tab this job appeared in
+      base._vertical = (base.vertical || 'security').toLowerCase();   // board.json vertical; legacy rows default to security
+      // roles (vertical-scoped): title-derived + the stored role slug of every dup this job merged
       base._roles = deriveRoles(base);
-      g.forEach(function(x){ var r = roleFromCategory(x.role_category); if(r && base._roles.indexOf(r) === -1) base._roles.unshift(r); });
+      g.forEach(function(x){ var r = roleFromString(x.role || x.role_category, base._vertical); if(r && base._roles.indexOf(r) === -1) base._roles.unshift(r); });
+      base._shifts = deriveShifts(base);                              // cross-vertical shift+attribute axis
       base._tabs = g.length;
       base._metro = (base.city||'').trim() || 'Other';
       base._loc = (base.location||'').trim();
@@ -1272,9 +1404,10 @@ window.addEventListener("load", function(){
     DEFAULT_LOC = '';                 // All Locations by default (national master board)
     filters.loc = DEFAULT_LOC;
     buildLocationChips();             // metro chips from live feed data
+    buildRoleChips(filters.vertical); // role chips from TAXONOMY (all roles until a vertical is picked)
     injectJsonLd(ALL_JOBS);
     applyFilters();
-    applyUrlFilters();                // deep-link via UTM / query params (?role=unarmed&city=houston)
+    applyUrlFilters();                // deep-link via UTM / query params (?vertical=warehouse&role=forklift&city=chicago)
   }
 
   /* ───────────────── FEED LOADER (master static JSON) ───────────────── */
@@ -1290,8 +1423,13 @@ window.addEventListener("load", function(){
       company: j.company || '',
       location: loc,
       city: (j.market || (loc.split(',')[0] || '')).trim(),  // metro grouping
+      vertical: (j.vertical || '').toLowerCase(),
+      role: j.role || '',
       posted: j.posted_date || '',
       pay: j.pay || '',
+      pay_min: (j.pay_min != null ? j.pay_min : null),
+      pay_max: (j.pay_max != null ? j.pay_max : null),
+      pay_unit: j.pay_unit || '',
       via: j.via || '',
       schedule: j.schedule || ''
     };
@@ -1326,13 +1464,20 @@ window.addEventListener("load", function(){
       var c = ((p.get('utm_campaign')||'') + ' ' + (p.get('utm_content')||'') + ' ' + (p.get('role')||'')).toLowerCase();
       ['chicago','houston','austin','dallas','dfw','san antonio'].forEach(function(k){ if(c.indexOf(k)!==-1 && !raw) raw = k; });
     }
-    if(!raw) return;
+    // Vertical from ?vertical or inferred from role/utm hint (security signal wins)
+    var hintStr = ((p.get('vertical')||'')+' '+(p.get('role')||'')+' '+(p.get('utm_campaign')||'')+' '+(p.get('utm_content')||'')).toLowerCase();
+    var vert = (p.get('vertical')||'').toLowerCase();
+    if(vert!=='warehouse' && vert!=='security') vert = /security|guard|officer|patrol|unarmed|armed/.test(hintStr) ? 'security' : (/warehouse|forklift|package|logistics|distribution|fulfillment/.test(hintStr) ? 'warehouse' : '');
+    var noun = vert==='warehouse' ? 'Warehouse Jobs' : (vert==='security' ? 'Security Officer Jobs' : '');
+    if(!raw && !noun) return;
     var map = {'chicago':'Chicago','dfw':'Dallas\u2013Fort Worth','dallas':'Dallas\u2013Fort Worth','houston':'Houston','austin':'Austin','san antonio':'San Antonio','san-antonio':'San Antonio'};
-    var name = map[raw.toLowerCase()] || raw.replace(/\b\w/g, function(m){ return m.toUpperCase(); });
+    var name = raw ? (map[raw.toLowerCase()] || raw.replace(/\b\w/g, function(m){ return m.toUpperCase(); })) : '';
+    var label = noun || 'Security Officer Jobs';
+    var inName = name ? (' in ' + name) : '';
     var eb = document.getElementById('boardEyebrow'), h1 = document.getElementById('boardH1');
-    if(eb) eb.textContent = name + ' Security Job Board';
-    if(h1) h1.innerHTML = 'Security Officer Jobs in ' + name + " - <em>See Who's Hiring Now</em>";
-    try{ document.title = 'Security Officer Jobs in ' + name + ' | BlackBarJobs'; }catch(e){}
+    if(eb) eb.textContent = (name ? name + ' ' : '') + (vert==='warehouse' ? 'Warehouse Job Board' : 'Security Job Board');
+    if(h1) h1.innerHTML = label + inName + " - <em>See Who's Hiring Now</em>";
+    try{ document.title = label + inName + ' | BlackBarJobs'; }catch(e){}
   }catch(e){}
 })();
 </script>
