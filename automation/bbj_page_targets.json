@@ -1,5 +1,5 @@
 {
-  "pages": 195,
+  "pages": 201,
   "targets": [
     {
       "key": "dallas/event-security-dfw",
@@ -2145,6 +2145,84 @@
       "target_type": "general",
       "container": "indexJobFeed",
       "has_feed_block": true
+    },
+    {
+      "key": "chicago/warehouse-jobs-chicago",
+      "path": "chicago/warehouse-jobs-chicago.html",
+      "market": "Chicago",
+      "role": null,
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
+    },
+    {
+      "key": "chicago/warehouse-associate-jobs-chicago",
+      "path": "chicago/warehouse-associate-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "warehouse-associate",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
+    },
+    {
+      "key": "chicago/forklift-operator-jobs-chicago",
+      "path": "chicago/forklift-operator-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "forklift",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
+    },
+    {
+      "key": "chicago/package-handler-jobs-chicago",
+      "path": "chicago/package-handler-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "package-handler",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
+    },
+    {
+      "key": "chicago/overnight-warehouse-jobs-chicago",
+      "path": "chicago/overnight-warehouse-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "overnight",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
+    },
+    {
+      "key": "chicago/part-time-warehouse-jobs-chicago",
+      "path": "chicago/part-time-warehouse-jobs-chicago.html",
+      "market": "Chicago",
+      "role": "part-time",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 30
     }
   ]
 }

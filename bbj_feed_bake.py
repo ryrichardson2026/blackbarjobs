@@ -63,6 +63,12 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 # replaces only what is between these, so cards never nest or duplicate.
 BAKE_START = "<!--BBJ_BAKE_START-->"
 BAKE_END = "<!--BBJ_BAKE_END-->"
+# Dynamic pay section (Task 2): a marker pair the generator emits in the pay section
+# of a hub that opts into dynamic_pay. bake fills it with pay stats computed from the
+# same feed as the cards, refreshing on the Tue/Thu/Sat cadence. Pages without the
+# markers (all security pages) are untouched.
+PAY_START = "<!--BBJ_PAY_START-->"
+PAY_END = "<!--BBJ_PAY_END-->"
 
 # Classic UTF-8-decoded-as-Latin-1 corruption sequences. None of these ever
 # appear in clean English job data; a real en-dash is U+2013, not "â€".
@@ -399,8 +405,66 @@ def splice_schema(html, jobs):
     inner_start = si + len(SCHEMA_START)
     return html[:inner_start] + script + html[ei:], dropped
 
+# ---- dynamic pay section (Task 2) -----------------------------------------
+# Convert every structured pay to an hourly-equivalent so a hub of mixed hourly /
+# annual / weekly postings yields one comparable low / median / high band. Mirrors the
+# board's PAY_TO_HOURLY (2080 hrs/yr, 40/wk, 8/day, 173.3/mo).
+_PAY_PER_HOUR = {"HOUR": 1.0, "DAY": 1/8, "WEEK": 1/40, "MONTH": 12/2080, "YEAR": 1/2080}
+EMPTY_PAY = ('<p class="pay-card-annual" style="color:rgba(255,255,255,0.6);">'
+             'Pay varies by employer and shift. Most listings show pay once you apply.</p>')
+
+def pay_stats(jobs):
+    """low / median / high hourly-equivalent across the jobs that publish structured
+    pay, plus how many of how many did. None when no job carries usable pay."""
+    mids, lows, highs, withpay = [], [], [], 0
+    for j in jobs:
+        pmin = j.get("pay_min"); unit = (j.get("pay_unit") or "").upper()
+        if pmin is None or unit not in _PAY_PER_HOUR:
+            continue
+        f = _PAY_PER_HOUR[unit]
+        pmax = j.get("pay_max")
+        lo = pmin * f; hi = (pmax if pmax is not None else pmin) * f
+        if hi < lo: lo, hi = hi, lo
+        lows.append(lo); highs.append(hi); mids.append((lo + hi) / 2.0); withpay += 1
+    if not mids:
+        return None
+    mids.sort()
+    med = mids[len(mids)//2] if len(mids) % 2 else (mids[len(mids)//2 - 1] + mids[len(mids)//2]) / 2.0
+    return {"low": min(lows), "median": med, "high": max(highs), "n": withpay, "total": len(jobs)}
+
+def render_pay_html(stats):
+    """Pay cards (reusing the page's .pay-grid/.pay-card CSS) + an honest coverage note.
+    EMPTY_PAY when no structured pay exists for this hub."""
+    if not stats:
+        return EMPTY_PAY
+    def hr(x): return "$%d/hr" % int(round(x))
+    def card(label, val):
+        return ('<div class="pay-card"><div class="pay-card-label">%s</div>'
+                '<div class="pay-card-rate">%s</div></div>' % (esc(label), esc(val)))
+    grid = ('<div class="pay-grid">' + card("Typical Low", hr(stats["low"]))
+            + card("Median", hr(stats["median"])) + card("Typical High", hr(stats["high"]))
+            + '</div>')
+    note = ('<p class="pay-card-annual" style="margin-top:12px;color:rgba(255,195,0,0.75);">'
+            'Based on the %d of %d current listings that publish pay. Hourly-equivalent.</p>'
+            % (stats["n"], stats["total"]))
+    return grid + note
+
+def splice_pay(html, jobs):
+    """Fill the BBJ_PAY marker region with pay stats from the feed. No markers ->
+    untouched (every security page). Marker-bounded + idempotent, like splice_schema."""
+    si = html.find(PAY_START); ei = html.find(PAY_END)
+    if si == -1 and ei == -1:
+        return html, False
+    if si == -1 or ei == -1 or ei < si:
+        raise BakeError("unbalanced BBJ_PAY markers")
+    inner_start = si + len(PAY_START)
+    new_html = html[:inner_start] + render_pay_html(pay_stats(jobs)) + html[ei:]
+    return new_html, (new_html != html)
+
+
 def bake_page(html, feed_key, feed_dir, bake_date):
     """Return (new_html, changed, note). Raises BakeError on structural trouble."""
+    loc = None
     for cid, renderer, empty in (
         ("jobRows", render_job_rows, EMPTY_JR),
         ("indexJobFeed", render_index_feed, EMPTY_HF),
@@ -408,8 +472,11 @@ def bake_page(html, feed_key, feed_dir, bake_date):
         loc = find_container(html, cid)
         if loc:
             break
-    else:
-        raise BakeError("no #jobRows or #indexJobFeed container found")
+    # A board-based hub has NO card container (the board renders cards live) but DOES
+    # carry BBJ_SCHEMA / BBJ_PAY markers. Refresh those from the feed and skip cards.
+    marker_only = loc is None
+    if marker_only and SCHEMA_START not in html and PAY_START not in html:
+        raise BakeError("no #jobRows/#indexJobFeed container and no BBJ_SCHEMA/BBJ_PAY markers")
 
     feed_path = os.path.join(feed_dir, feed_key + ".json")
     if not os.path.exists(feed_path):
@@ -418,19 +485,29 @@ def bake_page(html, feed_key, feed_dir, bake_date):
         data = json.load(fh)
     all_jobs = data.get("jobs") or []
     assert_no_mojibake(all_jobs, feed_key)              # guardrail #1
-    jobs = all_jobs[:10]                                # same cap as bbj-feed.js
-    cards = renderer(jobs, bake_date) if jobs else empty
+    # Bake the whole feed the snapshot wrote (already capped per page: 10 for security,
+    # up to 30 for warehouse hubs). The slice is a runaway safety ceiling, not the cap;
+    # matches the same ceiling in js/bbj-feed.js so baked == live.
+    jobs = all_jobs[:60]
 
-    if jobs:                                            # guardrail #3
-        n_rendered = cards.count('class="' + ROW_CLASS[cid] + '"')
-        if n_rendered != len(jobs):
-            raise BakeError("render count %d != jobs baked %d"
-                            % (n_rendered, len(jobs)))
+    if marker_only:
+        new_html = html                                 # no cards to splice on a hub
+    else:
+        cards = renderer(jobs, bake_date) if jobs else empty
+        if jobs:                                        # guardrail #3
+            n_rendered = cards.count('class="' + ROW_CLASS[cid] + '"')
+            if n_rendered != len(jobs):
+                raise BakeError("render count %d != jobs baked %d"
+                                % (n_rendered, len(jobs)))
+        new_html = splice_container(html, loc, cards)
 
-    new_html = splice_container(html, loc, cards)
     new_html, dropped = splice_schema(new_html, jobs)   # JobPosting JSON-LD, if markers
+    new_html, _pay_changed = splice_pay(new_html, jobs) # dynamic pay section, if markers
     changed = new_html != html
-    note = ("%d/%d jobs" % (len(jobs), len(all_jobs))) if jobs else "EMPTY"
+    if marker_only:
+        note = "markers-only (%d schema, pay)" % len(jobs)
+    else:
+        note = ("%d/%d jobs" % (len(jobs), len(all_jobs))) if jobs else "EMPTY"
     if dropped:                                         # log, never silently cap
         note += " (%d schema-skipped: missing required field)" % dropped
     return new_html, changed, note
@@ -457,8 +534,10 @@ def enumerate_walk(repo, walk_dir):
             if not KEY_RE.search(html):
                 skipped.append(rel + "  (no BBJ_FEED_KEY)")
                 continue
-            if 'id="jobRows"' not in html and 'id="indexJobFeed"' not in html:
-                skipped.append(rel + "  (no feed container)")
+            has_container = 'id="jobRows"' in html or 'id="indexJobFeed"' in html
+            has_markers = SCHEMA_START in html or PAY_START in html   # board-based hubs
+            if not has_container and not has_markers:
+                skipped.append(rel + "  (no feed container / markers)")
                 continue
             scope.append({"path": rel})
     scope.sort(key=lambda t: t["path"])

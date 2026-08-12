@@ -27,7 +27,7 @@ from pathlib import Path
 # is a sibling at repo root; add this file's dir to sys.path so the import resolves no
 # matter what cwd the external build driver runs from.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from bbj_feed_bake import bake_page, BakeError, SCHEMA_START, SCHEMA_END
+from bbj_feed_bake import bake_page, BakeError, SCHEMA_START, SCHEMA_END, PAY_START, PAY_END
 
 # Repo-root feed dir. Baked cards are read from feed/<BBJ_FEED_KEY>.json here.
 FEED_DIR = Path(__file__).resolve().parent / "feed"
@@ -563,8 +563,10 @@ def breadcrumb_schema(cfg):
         ]}, indent=2)
     hub_slug_map = {"Houston": "/houston", "DFW": "/dallas", "San Antonio": "/san-antonio", "Austin": "/austin", "Chicago": "/chicago"}
     hub_name_map = {"Houston": "Houston Security Jobs", "DFW": "DFW Security Jobs", "San Antonio": "San Antonio Security Jobs", "Austin": "Austin Security Jobs", "Chicago": "Chicago Security Jobs"}
-    hub_slug = hub_slug_map.get(market, "/dallas")
-    hub_name = hub_name_map.get(market, "DFW Security Jobs")
+    # Vertical hubs override the mid-breadcrumb so a warehouse page nests under the
+    # warehouse metro hub, not the security market hub. Security pages omit -> defaults.
+    hub_slug = cfg.get("breadcrumb_hub_slug", hub_slug_map.get(market, "/dallas"))
+    hub_name = cfg.get("breadcrumb_hub_name", hub_name_map.get(market, "DFW Security Jobs"))
     return json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"BlackBarJobs","item":BASE_URL},
         {"@type":"ListItem","position":2,"name":hub_name,"item":f"{BASE_URL}{hub_slug}"},
@@ -684,9 +686,10 @@ def generate_page(cfg):
     role_body   = cfg["role_body"]
     duties      = cfg["duties"]
     pay_intro   = cfg["pay_intro"]
-    pay_entry   = cfg["pay_entry"]
-    pay_exp     = cfg["pay_exp"]
-    pay_lead    = cfg["pay_lead"]
+    # Static pay tiers are optional when a hub computes pay from its feed (dynamic_pay).
+    pay_entry   = cfg.get("pay_entry", ("", ""))
+    pay_exp     = cfg.get("pay_exp", ("", ""))
+    pay_lead    = cfg.get("pay_lead", ("", ""))
     mid_cta     = cfg["mid_cta_text"]
     requirements= cfg["requirements"]
     schedules   = cfg["schedules"]
@@ -696,6 +699,16 @@ def generate_page(cfg):
     badge       = cfg.get("badge_override", f"{city}, {region}")
     related_h2  = cfg.get("related_h2", f"More Security Jobs in {city}")
     browse_label= cfg.get("browse_label", f"All {city} Security Jobs")
+    # ── Vertical-aware copy tokens (default to the security wording, so existing
+    #    security pages are byte-unchanged; warehouse hubs pass their own strings) ──
+    alert_cta      = cfg.get("alert_cta", "Get Security Job Alerts")
+    alert_h2_html  = cfg.get("alert_h2_html", "Don't See The Right <span>Security Job</span> Yet?")
+    footer_tagline = cfg.get("footer_tagline", "Security job alerts for professionals across the US.")
+    pay_h2         = cfg.get("pay_h2", f"Typical Pay in {city}, {region}")
+    # Warehouse hubs compute pay from their live feed (bake fills the BBJ_PAY markers);
+    # security pages keep the static three-tier grid.
+    pay_block      = (PAY_START + PAY_END) if cfg.get("dynamic_pay") \
+                     else pay_grid(pay_entry, pay_exp, pay_lead)
     # Hub pages keep their CollectionPage/ItemList. Metro job pages no longer emit a
     # synthetic per-page JobPosting here; they ship an empty BBJ_SCHEMA marker pair
     # that bake_page fills with one real JobPosting per baked card (refreshes on the
@@ -756,7 +769,7 @@ def generate_page(cfg):
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<div class="sticky-bar" id="stickyBar"><a href="#" onclick="bbjAlertOpen();return false;">Get Security Job Alerts</a></div>
+<div class="sticky-bar" id="stickyBar"><a href="#" onclick="bbjAlertOpen();return false;">{alert_cta}</a></div>
 
 <nav>
   <a class="nav-logo" href="/"><span class="logo-bb">BlackBar<span class="logo-gold">Jobs</span></span></a>
@@ -825,9 +838,9 @@ def generate_page(cfg):
 <div class="section-dark">
   {sec_div("Compensation")}
   <div class="section-wrap">
-    <h2>Typical Pay in {city}, {region}</h2>
+    <h2>{pay_h2}</h2>
     <p style="color:rgba(255,255,255,0.5);margin-bottom:20px;">{pay_intro}</p>
-    {pay_grid(pay_entry, pay_exp, pay_lead)}
+    {pay_block}
   </div>
 </div>
 
@@ -873,7 +886,7 @@ def generate_page(cfg):
 
 <!-- ALERT - navy-deep -->
 <div class="alert-wrap" id="alerts" data-nosnippet>
-  <h2>Don't See The Right <span>Security Job</span> Yet?</h2>
+  <h2>{alert_h2_html}</h2>
   <p>New openings posted regularly across {alert_city}, {region}. Get notified the moment something matches.</p>
   <div class="alert-form" id="alertForm">
     <div class="alert-field"><span class="alert-field-icon">📍</span><input type="text" id="a-zip" placeholder="ZIP Code" inputmode="numeric" maxlength="5" pattern="[0-9]*"></div>
@@ -894,7 +907,7 @@ def generate_page(cfg):
 <footer>
   <div class="footer-links">{ftlinks}</div>
   <div class="footer-logo">BlackBar<span>Jobs</span>.com</div>
-  <p>Security job alerts for professionals across the US.</p>
+  <p>{footer_tagline}</p>
   <p><a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a></p>
 </footer>
 
@@ -1003,7 +1016,7 @@ def emit_target_entry(cfg):
     city_tok = cfg.get("feed_city")
     if city_tok is None and not cfg.get("hub_mode"):
         city_tok = (cfg.get("city") or "").strip().lower() or None
-    return {
+    entry = {
         "key":            feed_key,
         "path":           cfg.get("path", slug.lstrip("/") + ".html"),
         "market":         cfg.get("market", "Houston"),
@@ -1014,6 +1027,13 @@ def emit_target_entry(cfg):
         "container":      "indexJobFeed",
         "has_feed_block": True,
     }
+    # Vertical + per-page cap drive snapshot selection (vertical-scoped) and feed size.
+    # Omitted for security pages so their manifest entries are byte-unchanged.
+    if cfg.get("vertical"):
+        entry["vertical"] = cfg["vertical"]
+    if cfg.get("cap"):
+        entry["cap"] = int(cfg["cap"])
+    return entry
 
 def upsert_target_entry(cfg, targets_path="automation/bbj_page_targets.json"):
     """Opt-in: add/replace this page's entry in the manifest by key, keep 'pages' in

@@ -54,6 +54,12 @@ ROLE_PATTERNS = {
  "part-time": r"\bpart[\s-]?time\b", "full-time": r"\bfull[\s-]?time\b", "weekend": r"\bweekend\b",
  "night-shift": r"\bnight\b|\bovernight\b", "level-2": r"\blevel\s*2\b|\blevel\s*ii\b",
  "level-3": r"\blevel\s*3\b|\blevel\s*iii\b", "hiring-immediately": r"\bimmediate", "security-officer": r".",
+ # ── Warehouse vertical roles (Task 2). Matched within vertical=warehouse only, so
+ #    broad tokens like "associate" can't pull security jobs. ──
+ "forklift": r"\bforklift\b|\blift\s*truck\b|\breach\s*truck\b|\bcherry\s*picker\b|\border\s*picker\b",
+ "package-handler": r"\bpackage\b|\bparcel\b|\bsorter\b|\bhandler\b|\bloader\b|\bunloader\b|\bdock\b",
+ "warehouse-associate": r"\bwarehouse\b|\bassociate\b|\bpicker\b|\bpacker\b|\bmaterial\s*handler\b|\bdistribution\b|\bfulfillment\b|\bwarehouse\s*worker\b",
+ "warehouse-general": r".",
 }
 def role_re(role):
     pat = ROLE_PATTERNS.get(role)
@@ -114,6 +120,14 @@ def select_for_page(page, market_jobs):
     role = page.get("role"); city = city_str(page.get("city"))
     tt = page.get("target_type")
     rre = role_re(role) if role else None
+    cap = int(page.get("cap") or CAP)                    # per-page cap (warehouse hubs = 30)
+
+    # Vertical scope FIRST: a warehouse hub must never pull security jobs (and the
+    # metro hub's city match would otherwise sweep in Chicago security). Rows without a
+    # vertical default to security. Pages with no vertical set keep the old behavior.
+    vert = page.get("vertical")
+    if vert:
+        market_jobs = [j for j in market_jobs if (j.get("vertical") or "security") == vert]
 
     def title_ok(j): return bool(rre and rre.search(j.get("title") or ""))
     def city_ok(j): return bool(city and city in (j.get("location") or "").lower())
@@ -124,20 +138,20 @@ def select_for_page(page, market_jobs):
         exact = [j for j in market_jobs if city_ok(j)]
     elif tt == "city-role":
         exact = [j for j in market_jobs if title_ok(j) and city_ok(j)]
-        if CITY_ROLE_RELAX and len(exact) < CAP:
+        if CITY_ROLE_RELAX and len(exact) < cap:
             have = {j["job_hash"] for j in exact}
             exact += [j for j in market_jobs if title_ok(j) and j["job_hash"] not in have]
     else:  # general
         exact = list(market_jobs)
 
     exact.sort(key=rank_key)
-    chosen = exact[:CAP]
+    chosen = exact[:cap]
     n_exact = len(chosen)
 
-    if len(chosen) < CAP:  # top up from the metro pool
+    if len(chosen) < cap:  # top up from the (vertical-scoped) metro pool
         have = {j["job_hash"] for j in chosen}
         pool = sorted([j for j in market_jobs if j["job_hash"] not in have], key=rank_key)
-        chosen += pool[: CAP - len(chosen)]
+        chosen += pool[: cap - len(chosen)]
     return chosen, n_exact
 
 

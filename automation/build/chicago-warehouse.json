@@ -1,0 +1,1345 @@
+[
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/warehouse-jobs-chicago",
+    "feed_key": "chicago/warehouse-jobs-chicago",
+    "path": "chicago/warehouse-jobs-chicago.html",
+    "hub_tier": "metro",
+    "target_type": "city",
+    "feed_role": null,
+    "cap": 30,
+    "role": "Warehouse Jobs",
+    "h1_em": "Warehouse Jobs",
+    "title": "Warehouse Jobs in Chicago | BlackBarJobs",
+    "meta_desc": "Find warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Jobs",
+    "breadcrumb_hub_slug": "/chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Warehouse Hiring in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/warehouse-associate-jobs-chicago",
+    "feed_key": "chicago/warehouse-associate-jobs-chicago",
+    "path": "chicago/warehouse-associate-jobs-chicago.html",
+    "hub_tier": "role",
+    "target_type": "city-role",
+    "feed_role": "warehouse-associate",
+    "cap": 30,
+    "role": "Warehouse Associate Jobs",
+    "h1_em": "Warehouse Associate Jobs",
+    "title": "Warehouse Associate Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find warehouse associate jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New warehouse associate openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-associate",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Warehouse Associate Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do warehouse associate jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every warehouse associate opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/forklift-operator-jobs-chicago",
+    "feed_key": "chicago/forklift-operator-jobs-chicago",
+    "path": "chicago/forklift-operator-jobs-chicago.html",
+    "hub_tier": "role",
+    "target_type": "city-role",
+    "feed_role": "forklift",
+    "cap": 30,
+    "role": "Forklift Operator Jobs",
+    "h1_em": "Forklift Operator Jobs",
+    "title": "Forklift Operator Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find forklift operator jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New forklift operator openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=forklift-operator",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Forklift Operator Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "Forklift or powered equipment experience helps",
+      "OSHA-aligned certification for some roles (some train on site)",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do forklift operator jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ],
+      [
+        "Do I need a forklift certification?",
+        "Some forklift roles train and certify on site; others want a current OSHA-aligned certification. Each listing states what it requires."
+      ]
+    ],
+    "mid_cta_text": "See every forklift operator opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/package-handler-jobs-chicago",
+    "feed_key": "chicago/package-handler-jobs-chicago",
+    "path": "chicago/package-handler-jobs-chicago.html",
+    "hub_tier": "role",
+    "target_type": "city-role",
+    "feed_role": "package-handler",
+    "cap": 30,
+    "role": "Package Handler Jobs",
+    "h1_em": "Package Handler Jobs",
+    "title": "Package Handler Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find package handler jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New package handler openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=package-handler",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Package Handler Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do package handler jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every package handler opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/overnight-warehouse-jobs-chicago",
+    "feed_key": "chicago/overnight-warehouse-jobs-chicago",
+    "path": "chicago/overnight-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "overnight",
+    "cap": 30,
+    "role": "Overnight Warehouse Jobs",
+    "h1_em": "Overnight Warehouse Jobs",
+    "title": "Overnight Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find overnight warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New overnight warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=overnight-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Overnight Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do overnight warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every overnight warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/part-time-warehouse-jobs-chicago",
+    "feed_key": "chicago/part-time-warehouse-jobs-chicago",
+    "path": "chicago/part-time-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "part-time",
+    "cap": 30,
+    "role": "Part-Time Warehouse Jobs",
+    "h1_em": "Part-Time Warehouse Jobs",
+    "title": "Part-Time Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find part time warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New part time warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=part-time-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Part-Time Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do part time warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every part time warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/night-shift-warehouse-jobs-chicago",
+    "feed_key": "chicago/night-shift-warehouse-jobs-chicago",
+    "path": "chicago/night-shift-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "night-shift",
+    "cap": 30,
+    "role": "Night Shift Warehouse Jobs",
+    "h1_em": "Night Shift Warehouse Jobs",
+    "title": "Night Shift Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find night shift warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New night shift warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=night-shift-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Night Shift Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do night shift warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every night shift warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/weekend-warehouse-jobs-chicago",
+    "feed_key": "chicago/weekend-warehouse-jobs-chicago",
+    "path": "chicago/weekend-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "weekend",
+    "cap": 30,
+    "role": "Weekend Warehouse Jobs",
+    "h1_em": "Weekend Warehouse Jobs",
+    "title": "Weekend Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find weekend warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New weekend warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=weekend-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Weekend Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do weekend warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every weekend warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/no-experience-warehouse-jobs-chicago",
+    "feed_key": "chicago/no-experience-warehouse-jobs-chicago",
+    "path": "chicago/no-experience-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "no-experience",
+    "cap": 30,
+    "role": "No Experience Warehouse Jobs",
+    "h1_em": "No Experience Warehouse Jobs",
+    "title": "No Experience Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find no experience warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New no experience warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=no-experience-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "No Experience Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do no experience warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every no experience warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/entry-level-warehouse-jobs-chicago",
+    "feed_key": "chicago/entry-level-warehouse-jobs-chicago",
+    "path": "chicago/entry-level-warehouse-jobs-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "entry-level",
+    "cap": 30,
+    "role": "Entry Level Warehouse Jobs",
+    "h1_em": "Entry Level Warehouse Jobs",
+    "title": "Entry Level Warehouse Jobs Chicago | BlackBarJobs",
+    "meta_desc": "Find entry level warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New entry level warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=entry-level-warehouse",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Entry Level Warehouse Jobs in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do entry level warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every entry level warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/warehouse-jobs-hiring-immediately-chicago",
+    "feed_key": "chicago/warehouse-jobs-hiring-immediately-chicago",
+    "path": "chicago/warehouse-jobs-hiring-immediately-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "hiring-immediately",
+    "cap": 30,
+    "role": "Warehouse Jobs Hiring Now",
+    "h1_em": "Warehouse Jobs Hiring Now",
+    "title": "Warehouse Jobs Hiring Now Chicago | BlackBarJobs",
+    "meta_desc": "Find warehouse hiring immediately jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New warehouse hiring immediately openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-jobs-hiring-immediately",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Warehouse Jobs Hiring Now in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do warehouse hiring immediately jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every warehouse hiring immediately opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  },
+  {
+    "market": "Chicago",
+    "vertical": "warehouse",
+    "region": "IL",
+    "city": "Chicago",
+    "feed_city": "chicago",
+    "slug": "/chicago/warehouse-jobs-that-pay-weekly-chicago",
+    "feed_key": "chicago/warehouse-jobs-that-pay-weekly-chicago",
+    "path": "chicago/warehouse-jobs-that-pay-weekly-chicago.html",
+    "hub_tier": "modifier",
+    "target_type": "city-role",
+    "feed_role": "pay-weekly",
+    "cap": 30,
+    "role": "Warehouse Jobs Weekly Pay",
+    "h1_em": "Warehouse Jobs Weekly Pay",
+    "title": "Warehouse Jobs Weekly Pay Chicago | BlackBarJobs",
+    "meta_desc": "Find weekly pay warehouse jobs in Chicago. Current openings with pay and shift, updated continuously. Free job alerts.",
+    "hero_sub": "New weekly pay warehouse openings across Chicago, updated continuously. Real pay and shift on every listing, apply in one click.",
+    "skip_interlink_gate": true,
+    "dynamic_pay": true,
+    "pay_h2": "Typical Warehouse Pay in Chicago, IL",
+    "pay_intro": "What these roles pay in Chicago, computed from the current openings on this page. Hourly-equivalent so hourly and salaried listings compare.",
+    "alert_cta": "Get Warehouse Job Alerts",
+    "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
+    "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
+    "breadcrumb_hub_name": "Chicago Warehouse Jobs",
+    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-jobs-that-pay-weekly",
+    "browse_label": "Chicago Warehouse Jobs",
+    "related_h2": "More Warehouse Jobs in Chicago",
+    "demand_h2": "Warehouse Jobs Weekly Pay in Chicago",
+    "demand_body": "<p>Chicago and the surrounding metro run one of the densest warehouse and distribution corridors in the country, from the I-55 and I-80 lanes out to the Joliet and Elwood intermodal yards. Openings turn over every week across picking, packing, loading, and equipment roles.</p>",
+    "role_h2": "What the Work Involves",
+    "role_body": "<p>Most roles move product on a set shift: receiving, picking orders, packing, staging, and loading trucks to a rate and accuracy target. Equipment roles pay more and may ask for certification.</p>",
+    "duties": [
+      "Receive, pick, pack, and stage product",
+      "Load and unload trailers safely",
+      "Hit shift rate and accuracy targets",
+      "Keep the dock and aisles clean and organized"
+    ],
+    "requirements": [
+      "18 or older",
+      "Reliable transportation to the facility",
+      "Able to lift and stand for a full shift"
+    ],
+    "schedules": [
+      "Day, overnight, and night shift",
+      "Weekend and part time options",
+      "Full time with overtime during peak"
+    ],
+    "faqs": [
+      [
+        "Do weekly pay warehouse jobs in Chicago need experience?",
+        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+      ],
+      [
+        "What shifts are available?",
+        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+      ]
+    ],
+    "mid_cta_text": "See every weekly pay warehouse opening in Chicago in one place, with pay and shift up front.",
+    "footer_links": [
+      [
+        "/chicago",
+        "Chicago Jobs"
+      ],
+      [
+        "/job-board",
+        "All Jobs"
+      ]
+    ],
+    "resources": [
+      [
+        "/chicago",
+        "Chicago Jobs Hub"
+      ],
+      [
+        "/job-board",
+        "Browse All Openings"
+      ]
+    ],
+    "related_links": [
+      [
+        "/chicago/warehouse-jobs-chicago",
+        "🏢",
+        "All Warehouse Jobs"
+      ],
+      [
+        "/chicago/warehouse-associate-jobs-chicago",
+        "📦",
+        "Warehouse Associate"
+      ],
+      [
+        "/chicago/forklift-operator-jobs-chicago",
+        "🚜",
+        "Forklift Operator"
+      ],
+      [
+        "/chicago/package-handler-jobs-chicago",
+        "📦",
+        "Package Handler"
+      ],
+      [
+        "/chicago/overnight-warehouse-jobs-chicago",
+        "🌙",
+        "Overnight Warehouse"
+      ],
+      [
+        "/chicago/part-time-warehouse-jobs-chicago",
+        "🕒",
+        "Part-Time Warehouse"
+      ]
+    ]
+  }
+]

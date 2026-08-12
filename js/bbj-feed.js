@@ -126,7 +126,10 @@
     fetch("/feed/" + KEY + ".json", { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) {
-        var jobs = (data && data.jobs ? data.jobs : []).slice(0, 10);
+        // Render the whole feed the snapshot wrote (it is already capped per page:
+        // 10 for security pages, up to 30 for warehouse hubs). The slice is just a
+        // runaway safety ceiling, not the product cap.
+        var jobs = (data && data.jobs ? data.jobs : []).slice(0, 60);
         if (jr) { jobs.length ? renderJobRows(jr, jobs) : (jr.innerHTML = EMPTY_JR); }
         if (idx) { jobs.length ? renderIndexFeed(idx, jobs) : (idx.innerHTML = EMPTY_HF); }
       })

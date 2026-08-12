@@ -140,9 +140,19 @@ def main():
     ap.add_argument("--register", action="store_true", help="upsert the feed target into the manifest")
     ap.add_argument("--sitemap", action="store_true", help="add/refresh the page's sitemap <loc>")
     ap.add_argument("--out-dir", help="write under this dir instead of the repo root (preview)")
+    ap.add_argument("--gate", metavar="FEED_DIR",
+                    help="run the build-time hub gate against feeds in FEED_DIR; build "
+                         "ONLY hubs that pass (min-match + same-tier dedup), report the rest")
     args = ap.parse_args()
 
     cfgs = load_cfgs(args.config)
+
+    if args.gate:
+        import bbj_hub_gate as gate
+        results = gate.evaluate(cfgs, args.gate)
+        ok, _blocked = gate.print_report(results)
+        cfgs = [r["cfg"] for r in ok]          # blocked hubs are never written
+
     print("Building %d page(s) from %s%s"
           % (len(cfgs), args.config, "" if args.write else "  [DRY-RUN]"))
     for cfg in cfgs:
