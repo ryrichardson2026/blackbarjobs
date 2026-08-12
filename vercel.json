@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/js/(.*)",
+      "source": "/js/(.*)\\.js",
       "headers": [
         {
           "key": "Content-Type",
@@ -13,6 +13,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/js/bbj-board.css",
+      "destination": "/css/bbj-board.css",
+      "permanent": true
+    },
     {
       "source": "/illinois/illinois-perc-card-guide",
       "destination": "/illinois/illinois-security-license-requirements",

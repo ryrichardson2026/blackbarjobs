@@ -182,7 +182,7 @@ def build_hub(cfg, feed_dir, board_html):
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{ADS_ID}');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/js/bbj-board.css">
+<link rel="stylesheet" href="/css/bbj-board.css">
 <style>{HUB_CSS}</style>
 <script type="application/ld+json">{faqpage_jsonld(faqs)}</script>
 {baked_schema}
