@@ -319,6 +319,10 @@ def normalize(job, qmeta, now_iso, today):
         "job_hash": job_hash(company, title, location),
         "title": title, "company": company, "location": location,
         "market": qmeta["metro"], "role": qmeta["role"], "source_query": qmeta["query"],
+        # Vertical is set from the QUERY, never inferred from the title (a warehouse
+        # job at a hospital would misclassify). Existing security queries omit it and
+        # take the 'security' default; warehouse queries carry "vertical":"warehouse".
+        "vertical": qmeta.get("vertical", "security"),
         "via": clean_text(job.get("via")), "pay": pay,
         "pay_min": pp["min"] if pp else None,
         "pay_max": pp["max"] if pp else None,
@@ -342,8 +346,11 @@ class Supa:
                   "Content-Type": "application/json"}
 
     def blocklist(self):
-        st, data = http("GET", self.rest + "/feed_blocklist?select=term", headers=self.h)
-        return [r["term"] for r in (data or [])] if isinstance(data, list) else []
+        """Return [(term, vertical)] pairs. A NULL vertical means the term applies to
+        ALL verticals; a set vertical scopes suppression to matching jobs only (so the
+        security blocklist never touches warehouse rows, and vice-versa)."""
+        st, data = http("GET", self.rest + "/feed_blocklist?select=term,vertical", headers=self.h)
+        return [(r["term"], r.get("vertical")) for r in (data or [])] if isinstance(data, list) else []
 
     def upsert(self, rows):
         h = dict(self.h); h["Prefer"] = "resolution=merge-duplicates,return=minimal"
@@ -376,7 +383,9 @@ def main():
     ap = argparse.ArgumentParser(description="BBJ Phase 2 fetch + upsert")
     ap.add_argument("--queries", default=DEFAULT_QUERIES)
     ap.add_argument("--pages", type=int, default=3)
-    ap.add_argument("--market", help="filter to one metro (DFW/Houston/San Antonio/Austin)")
+    ap.add_argument("--market", help="filter to one metro (DFW/Houston/San Antonio/Austin/Chicago)")
+    ap.add_argument("--vertical", help="filter to one vertical (security/warehouse); "
+                    "queries with no vertical default to 'security'")
     ap.add_argument("--limit", type=int, help="cap number of queries (testing)")
     ap.add_argument("--sleep", type=float, default=1.0)
     ap.add_argument("--staleness-days", type=int, default=14)
@@ -389,6 +398,9 @@ def main():
     queries = spec["queries"]
     if args.market:
         queries = [q for q in queries if q["metro"].lower() == args.market.lower()]
+    if args.vertical:
+        queries = [q for q in queries
+                   if q.get("vertical", "security").lower() == args.vertical.lower()]
     if args.limit:
         queries = queries[: args.limit]
     if not queries:
@@ -414,7 +426,8 @@ def main():
     now_iso = run_start.isoformat()
     today = date.today()
     blocklist = supa.blocklist()
-    print(f"Blocklist terms: {len(blocklist)}  ({', '.join(blocklist) or 'none'})")
+    _bl_show = ", ".join(f"{t}[{v or 'all'}]" for t, v in blocklist)
+    print(f"Blocklist terms: {len(blocklist)}  ({_bl_show or 'none'})")
 
     seen, buffer = set(), {}
     raw_total, errors, skipped_mojibake = 0, [], 0
@@ -465,9 +478,13 @@ def main():
     supa.patch(f"status=eq.inactive&suppressed=eq.false&last_seen_at=gte.{quote(now_iso)}",
                {"status": "active", "updated_at": now_iso})
 
-    for term in blocklist:
-        supa.patch(f"suppressed=eq.false&title=ilike.*{quote(term)}*",
-                   {"suppressed": True, "updated_at": now_iso})
+    for term, vert in blocklist:
+        # NULL vertical -> suppress the matching title in every vertical; a set
+        # vertical -> only rows of that vertical, so cross-vertical bleed is impossible.
+        q = f"suppressed=eq.false&title=ilike.*{quote(term)}*"
+        if vert:
+            q += f"&vertical=eq.{quote(vert)}"
+        supa.patch(q, {"suppressed": True, "updated_at": now_iso})
     if blocklist:
         print("Applied blocklist suppression.")
 

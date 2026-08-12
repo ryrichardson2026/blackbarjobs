@@ -1773,6 +1773,96 @@
       "pages": [
         "chicago/jobs/overnight-warehouse-security-joliet.html"
       ]
+    },
+    {
+      "key": "Chicago::warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "warehouse-general",
+      "query": "warehouse jobs Chicago",
+      "qtype": "city",
+      "pages": []
+    },
+    {
+      "key": "Chicago::warehouse associate jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "warehouse-associate",
+      "query": "warehouse associate jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::forklift operator jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "forklift",
+      "query": "forklift operator jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::package handler jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "package-handler",
+      "query": "package handler jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::overnight warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "overnight",
+      "query": "overnight warehouse jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::night shift warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "night-shift",
+      "query": "night shift warehouse jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::weekend warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "weekend",
+      "query": "weekend warehouse jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::part time warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "part-time",
+      "query": "part time warehouse jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::entry level warehouse jobs Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "entry-level",
+      "query": "entry level warehouse jobs Chicago",
+      "qtype": "city-role",
+      "pages": []
+    },
+    {
+      "key": "Chicago::warehouse jobs hiring immediately Chicago",
+      "metro": "Chicago",
+      "vertical": "warehouse",
+      "role": "hiring-immediately",
+      "query": "warehouse jobs hiring immediately Chicago",
+      "qtype": "city-role",
+      "pages": []
     }
   ]
 }
