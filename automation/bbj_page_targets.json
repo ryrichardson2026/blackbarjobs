@@ -2147,8 +2147,8 @@
       "has_feed_block": true
     },
     {
-      "key": "chicago/warehouse-jobs-chicago",
-      "path": "chicago/warehouse-jobs-chicago.html",
+      "key": "chicago/warehouse/warehouse-jobs",
+      "path": "chicago/warehouse/warehouse-jobs.html",
       "market": "Chicago",
       "role": null,
       "city": "chicago",
@@ -2160,8 +2160,8 @@
       "cap": 30
     },
     {
-      "key": "chicago/warehouse-associate-jobs-chicago",
-      "path": "chicago/warehouse-associate-jobs-chicago.html",
+      "key": "chicago/warehouse/warehouse-associate-jobs",
+      "path": "chicago/warehouse/warehouse-associate-jobs.html",
       "market": "Chicago",
       "role": "warehouse-associate",
       "city": "chicago",
@@ -2173,8 +2173,8 @@
       "cap": 30
     },
     {
-      "key": "chicago/forklift-operator-jobs-chicago",
-      "path": "chicago/forklift-operator-jobs-chicago.html",
+      "key": "chicago/warehouse/forklift-operator-jobs",
+      "path": "chicago/warehouse/forklift-operator-jobs.html",
       "market": "Chicago",
       "role": "forklift",
       "city": "chicago",
@@ -2186,8 +2186,8 @@
       "cap": 30
     },
     {
-      "key": "chicago/package-handler-jobs-chicago",
-      "path": "chicago/package-handler-jobs-chicago.html",
+      "key": "chicago/warehouse/package-handler-jobs",
+      "path": "chicago/warehouse/package-handler-jobs.html",
       "market": "Chicago",
       "role": "package-handler",
       "city": "chicago",
@@ -2199,8 +2199,8 @@
       "cap": 30
     },
     {
-      "key": "chicago/overnight-warehouse-jobs-chicago",
-      "path": "chicago/overnight-warehouse-jobs-chicago.html",
+      "key": "chicago/warehouse/overnight-warehouse-jobs",
+      "path": "chicago/warehouse/overnight-warehouse-jobs.html",
       "market": "Chicago",
       "role": "overnight",
       "city": "chicago",
@@ -2212,8 +2212,8 @@
       "cap": 30
     },
     {
-      "key": "chicago/part-time-warehouse-jobs-chicago",
-      "path": "chicago/part-time-warehouse-jobs-chicago.html",
+      "key": "chicago/warehouse/part-time-warehouse-jobs",
+      "path": "chicago/warehouse/part-time-warehouse-jobs.html",
       "market": "Chicago",
       "role": "part-time",
       "city": "chicago",

@@ -5,9 +5,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/warehouse-jobs-chicago",
-    "feed_key": "chicago/warehouse-jobs-chicago",
-    "path": "chicago/warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/warehouse-jobs",
+    "feed_key": "chicago/warehouse/warehouse-jobs",
+    "path": "chicago/warehouse/warehouse-jobs.html",
     "hub_tier": "metro",
     "target_type": "city",
     "feed_role": null,
@@ -82,27 +82,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -114,9 +114,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/warehouse-associate-jobs-chicago",
-    "feed_key": "chicago/warehouse-associate-jobs-chicago",
-    "path": "chicago/warehouse-associate-jobs-chicago.html",
+    "slug": "/chicago/warehouse/warehouse-associate-jobs",
+    "feed_key": "chicago/warehouse/warehouse-associate-jobs",
+    "path": "chicago/warehouse/warehouse-associate-jobs.html",
     "hub_tier": "role",
     "target_type": "city-role",
     "feed_role": "warehouse-associate",
@@ -134,7 +134,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-associate",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -191,27 +191,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -223,9 +223,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/forklift-operator-jobs-chicago",
-    "feed_key": "chicago/forklift-operator-jobs-chicago",
-    "path": "chicago/forklift-operator-jobs-chicago.html",
+    "slug": "/chicago/warehouse/forklift-operator-jobs",
+    "feed_key": "chicago/warehouse/forklift-operator-jobs",
+    "path": "chicago/warehouse/forklift-operator-jobs.html",
     "hub_tier": "role",
     "target_type": "city-role",
     "feed_role": "forklift",
@@ -243,7 +243,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=forklift-operator",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -305,27 +305,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -337,9 +337,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/package-handler-jobs-chicago",
-    "feed_key": "chicago/package-handler-jobs-chicago",
-    "path": "chicago/package-handler-jobs-chicago.html",
+    "slug": "/chicago/warehouse/package-handler-jobs",
+    "feed_key": "chicago/warehouse/package-handler-jobs",
+    "path": "chicago/warehouse/package-handler-jobs.html",
     "hub_tier": "role",
     "target_type": "city-role",
     "feed_role": "package-handler",
@@ -357,7 +357,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=package-handler",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -414,27 +414,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -446,9 +446,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/overnight-warehouse-jobs-chicago",
-    "feed_key": "chicago/overnight-warehouse-jobs-chicago",
-    "path": "chicago/overnight-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/overnight-warehouse-jobs",
+    "feed_key": "chicago/warehouse/overnight-warehouse-jobs",
+    "path": "chicago/warehouse/overnight-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "overnight",
@@ -466,7 +466,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=overnight-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -523,27 +523,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -555,9 +555,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/part-time-warehouse-jobs-chicago",
-    "feed_key": "chicago/part-time-warehouse-jobs-chicago",
-    "path": "chicago/part-time-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/part-time-warehouse-jobs",
+    "feed_key": "chicago/warehouse/part-time-warehouse-jobs",
+    "path": "chicago/warehouse/part-time-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "part-time",
@@ -575,7 +575,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=part-time-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -632,27 +632,27 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ]
@@ -664,9 +664,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/night-shift-warehouse-jobs-chicago",
-    "feed_key": "chicago/night-shift-warehouse-jobs-chicago",
-    "path": "chicago/night-shift-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/night-shift-warehouse-jobs",
+    "feed_key": "chicago/warehouse/night-shift-warehouse-jobs",
+    "path": "chicago/warehouse/night-shift-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "night-shift",
@@ -684,7 +684,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=night-shift-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -741,32 +741,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -778,9 +778,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/weekend-warehouse-jobs-chicago",
-    "feed_key": "chicago/weekend-warehouse-jobs-chicago",
-    "path": "chicago/weekend-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/weekend-warehouse-jobs",
+    "feed_key": "chicago/warehouse/weekend-warehouse-jobs",
+    "path": "chicago/warehouse/weekend-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "weekend",
@@ -798,7 +798,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=weekend-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -855,32 +855,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -892,9 +892,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/no-experience-warehouse-jobs-chicago",
-    "feed_key": "chicago/no-experience-warehouse-jobs-chicago",
-    "path": "chicago/no-experience-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/no-experience-warehouse-jobs",
+    "feed_key": "chicago/warehouse/no-experience-warehouse-jobs",
+    "path": "chicago/warehouse/no-experience-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "no-experience",
@@ -912,7 +912,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=no-experience-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -969,32 +969,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -1006,9 +1006,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/entry-level-warehouse-jobs-chicago",
-    "feed_key": "chicago/entry-level-warehouse-jobs-chicago",
-    "path": "chicago/entry-level-warehouse-jobs-chicago.html",
+    "slug": "/chicago/warehouse/entry-level-warehouse-jobs",
+    "feed_key": "chicago/warehouse/entry-level-warehouse-jobs",
+    "path": "chicago/warehouse/entry-level-warehouse-jobs.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "entry-level",
@@ -1026,7 +1026,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=entry-level-warehouse",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -1083,32 +1083,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -1120,9 +1120,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/warehouse-jobs-hiring-immediately-chicago",
-    "feed_key": "chicago/warehouse-jobs-hiring-immediately-chicago",
-    "path": "chicago/warehouse-jobs-hiring-immediately-chicago.html",
+    "slug": "/chicago/warehouse/warehouse-jobs-hiring-immediately",
+    "feed_key": "chicago/warehouse/warehouse-jobs-hiring-immediately",
+    "path": "chicago/warehouse/warehouse-jobs-hiring-immediately.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "hiring-immediately",
@@ -1140,7 +1140,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-jobs-hiring-immediately",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -1197,32 +1197,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
@@ -1234,9 +1234,9 @@
     "region": "IL",
     "city": "Chicago",
     "feed_city": "chicago",
-    "slug": "/chicago/warehouse-jobs-that-pay-weekly-chicago",
-    "feed_key": "chicago/warehouse-jobs-that-pay-weekly-chicago",
-    "path": "chicago/warehouse-jobs-that-pay-weekly-chicago.html",
+    "slug": "/chicago/warehouse/warehouse-jobs-that-pay-weekly",
+    "feed_key": "chicago/warehouse/warehouse-jobs-that-pay-weekly",
+    "path": "chicago/warehouse/warehouse-jobs-that-pay-weekly.html",
     "hub_tier": "modifier",
     "target_type": "city-role",
     "feed_role": "pay-weekly",
@@ -1254,7 +1254,7 @@
     "alert_h2_html": "Don't See The Right <span>Warehouse Job</span> Yet?",
     "footer_tagline": "Warehouse and logistics job alerts across Chicago.",
     "breadcrumb_hub_name": "Chicago Warehouse Jobs",
-    "breadcrumb_hub_slug": "/chicago/warehouse-jobs-chicago",
+    "breadcrumb_hub_slug": "/chicago/warehouse/warehouse-jobs",
     "browse_url": "/job-board?vertical=warehouse&metro=chicago&role=warehouse-jobs-that-pay-weekly",
     "browse_label": "Chicago Warehouse Jobs",
     "related_h2": "More Warehouse Jobs in Chicago",
@@ -1311,32 +1311,32 @@
     ],
     "related_links": [
       [
-        "/chicago/warehouse-jobs-chicago",
+        "/chicago/warehouse/warehouse-jobs",
         "🏢",
         "All Warehouse Jobs"
       ],
       [
-        "/chicago/warehouse-associate-jobs-chicago",
+        "/chicago/warehouse/warehouse-associate-jobs",
         "📦",
         "Warehouse Associate"
       ],
       [
-        "/chicago/forklift-operator-jobs-chicago",
+        "/chicago/warehouse/forklift-operator-jobs",
         "🚜",
         "Forklift Operator"
       ],
       [
-        "/chicago/package-handler-jobs-chicago",
+        "/chicago/warehouse/package-handler-jobs",
         "📦",
         "Package Handler"
       ],
       [
-        "/chicago/overnight-warehouse-jobs-chicago",
+        "/chicago/warehouse/overnight-warehouse-jobs",
         "🌙",
         "Overnight Warehouse"
       ],
       [
-        "/chicago/part-time-warehouse-jobs-chicago",
+        "/chicago/warehouse/part-time-warehouse-jobs",
         "🕒",
         "Part-Time Warehouse"
       ]
