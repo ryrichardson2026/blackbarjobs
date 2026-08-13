@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/warehouse-jobs-that-pay-weekly",
   "market": "Chicago",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 18,
   "jobs": [
     {
+      "job_hash": "a5302906bef6",
       "title": "Flexible Part-Time:Receiving Associate-Chicago",
       "company": "FedEx Supply Chain",
       "location": "Chicago, IL",
@@ -66,6 +67,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2449fd28dc66",
       "title": "Part-Time Package Handler - Warehouse (FedEx Packages) at Trans One, Inc. Chicago, IL",
       "company": "Trans One, Inc.",
       "location": "Chicago, IL",
@@ -122,6 +124,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ba47f3364005",
       "title": "UPS Part-Time Second Job Warehouse Associate — Evening Hours",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -169,6 +172,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ce2b856f5a7a",
       "title": "Chicago,IL:Fedex Package Handler at Fedex Ground | Hiring",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -223,6 +227,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dccaf746bb1a",
       "title": "Warehouse Associate(Part-Time)@ UPS-North Chicago",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -268,6 +273,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "89b78ef47ed9",
       "title": "Student-Friendly Part-Time Fedex Package Handler in Chicago",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -323,6 +329,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "37bfe35d7505",
       "title": "Hiring in North Chicago:Warehouse Associate(Part-Time)",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -365,6 +372,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "f91469ab4381",
       "title": "[Part-Time] Warehouse Associate-Chicago Heights",
       "company": "UPS",
       "location": "Chicago Heights, IL",
@@ -412,6 +420,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0953860dbc20",
       "title": "Airport Warehouse Agent (Cargo)",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -488,6 +497,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed7f6d5d8a0a",
       "title": "Dockworker / Forklift Operator, Full-time",
       "company": "ArcBest",
       "location": "Chicago, IL",
@@ -555,6 +565,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "9da080f90da7",
       "title": "Warehouse Production Associate",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -624,6 +635,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7458e53a13b5",
       "title": "Warehouse Package Handler — Immediate Openings",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -650,6 +662,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ff67987521dc",
       "title": "Warehouse Associate – Record Center Specialist",
       "company": "RightStone",
       "location": "Chicago, IL",
@@ -700,6 +713,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3e9c7e4f10fb",
       "title": "Night Shift Inventory Clerk – Warehouse (Weekly Pay)",
       "company": "Ryder System, Inc.",
       "location": "Romeoville, IL",
@@ -726,6 +740,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed955968a02b",
       "title": "Package Handler - Part Time (Warehouse like)",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -783,6 +798,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4de0434aaddb",
       "title": "Forklift Operator - 2nd Shift",
       "company": "Tradebe",
       "location": "Chicago, IL",
@@ -851,6 +867,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "76ad50c2f2c5",
       "title": "Warehouse Forklift Operator",
       "company": "Ryder",
       "location": "Chicago, IL",
@@ -898,6 +915,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2a99aa927506",
       "title": "Shorr West Chicago - WH - $17.60",
       "company": "Shorr - West Chicago",
       "location": "St. Charles, IL",

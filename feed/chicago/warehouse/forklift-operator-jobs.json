@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/forklift-operator-jobs",
   "market": "Chicago",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 27,
   "jobs": [
     {
+      "job_hash": "a44e66c51132",
       "title": "Forklift Driver-1st Shift",
       "company": "Ferrara",
       "location": "Itasca, IL",
@@ -75,6 +76,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7f36f5cc1c7e",
       "title": "Relogistics Services is hiring: FORKLIFT OPERATOR in Chicago",
       "company": "Relogistics Services",
       "location": "Chicago, IL",
@@ -134,6 +136,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "95a2e33b9aa2",
       "title": "Forklift Certified Warehouse Associate – Chicago",
       "company": "Fairweather, LLC",
       "location": "Chicago, IL",
@@ -167,6 +170,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "cde379cee1e0",
       "title": "Material Handler / Forklift Operator",
       "company": "Graphic Packaging International",
       "location": "Chicago, IL",
@@ -290,6 +294,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3c170f21ff86",
       "title": "Forklift Operator/Garbage room - 1st shift (INDST) Job at OSI Group in West Chicago",
       "company": "OSI Group",
       "location": "West Chicago, IL",
@@ -353,6 +358,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5bb82fa68cf8",
       "title": "Safety-First Forklift Operator – Material Handling",
       "company": "KIK Consumer Products Inc.",
       "location": "Chicago, IL",
@@ -384,6 +390,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "77674c2d3474",
       "title": "Shipping & Receiving Specialist - Forklift Operator",
       "company": "Tomenson Machine Works Inc",
       "location": "West Chicago, IL",
@@ -442,6 +449,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed7f6d5d8a0a",
       "title": "Dockworker / Forklift Operator, Full-time",
       "company": "ArcBest",
       "location": "Chicago, IL",
@@ -509,6 +517,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d3007c805b6c",
       "title": "Forklift Operator - Pallet Manufacturing Job at 48forty Solutions and Relogistics Services in Chicago",
       "company": "48forty Solutions and Relogistics Services",
       "location": "Chicago, IL",
@@ -570,6 +579,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "65d5fc442258",
       "title": "Rotating Warehouse Associate: Forklift, Picking",
       "company": "Conexus Food Solutions",
       "location": "Chicago, IL",
@@ -608,6 +618,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2e57eae95960",
       "title": "Part-Time Forklift Operator — Weekend/Evening Shifts",
       "company": "R+L Carriers",
       "location": "Chicago, IL",
@@ -634,6 +645,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2446d02babf6",
       "title": "Night Shift Warehouse Specialist — Forklift & Shipping",
       "company": "FHLB Des Moines",
       "location": "Woodridge, IL",
@@ -666,6 +678,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "30e362da3ec0",
       "title": "Forklift Operator - Full-Time, Fast-Paced + Great Benefits",
       "company": "R+L Carriers",
       "location": "Chicago, IL",
@@ -698,6 +711,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4c2ec0b7578d",
       "title": "Night Warehouse Generalist: Forklift & RF Ops",
       "company": "Lineage",
       "location": "Chicago, IL",
@@ -731,6 +745,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2eee0edd5db1",
       "title": "Packager — Forklift Operator for Rotating Shifts",
       "company": "Innophos",
       "location": "Chicago, IL",
@@ -758,6 +773,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "38afe0f236a4",
       "title": "Order Picker-Warehouse Person",
       "company": "HireTalent",
       "location": "North Chicago, IL",
@@ -809,6 +825,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "14f5c8b84577",
       "title": "2nd Shift Production Operator — Forklift & Packaging",
       "company": "Batory Foods",
       "location": "Chicago, IL",
@@ -841,6 +858,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "49e4f7d2eebd",
       "title": "Forklift Operator (Day Shift) pay start at $23.45 hr.",
       "company": "Graham Packaging Company",
       "location": "West Chicago, IL",
@@ -924,6 +942,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4dc4e5671c48",
       "title": "Forklift Operator",
       "company": "R&T Logistics Inc.",
       "location": "Franklin Park, IL",
@@ -977,6 +996,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dac4de360770",
       "title": "Forklift Operator",
       "company": "XPO",
       "location": "Chicago Heights, IL",
@@ -1038,6 +1058,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "67be1f30b67a",
       "title": "Inbound Forklift Operator",
       "company": "US6469 Sysco Payroll, Division of Sysco Resources Services, LLC",
       "location": "Chicago, IL",
@@ -1096,6 +1117,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "61b9f9432375",
       "title": "Night-Shift Forklift Operator: Efficient Warehouse Pro",
       "company": "Core-Mark",
       "location": "Chicago, IL",
@@ -1122,6 +1144,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ec075d5e4f85",
       "title": "Forklift Operator: Fast-Paced, Safety‑Focused Warehouse",
       "company": "Westerndupagechamber",
       "location": "Chicago, IL",
@@ -1147,6 +1170,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4de0434aaddb",
       "title": "Forklift Operator - 2nd Shift",
       "company": "Tradebe",
       "location": "Chicago, IL",
@@ -1215,6 +1239,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "01b5c79ee3b3",
       "title": "Shipping Material Handler — Forklift Operator (Afternoon)",
       "company": "Sharon Tube Company",
       "location": "Chicago, IL",
@@ -1252,6 +1277,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "76ad50c2f2c5",
       "title": "Warehouse Forklift Operator",
       "company": "Ryder",
       "location": "Chicago, IL",
@@ -1299,6 +1325,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1c6926fac9ff",
       "title": "Forklift Driver",
       "company": "FXI",
       "location": "West Chicago, IL",

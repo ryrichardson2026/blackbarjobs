@@ -165,7 +165,7 @@ def render_job(j):
     # hub pages can filter on the two axes and compare pay across units. Old readers
     # ignore the extra keys; the visible card fields are unchanged.
     return {k: j.get(k) for k in
-            ("title", "company", "location", "vertical", "role",
+            ("job_hash", "title", "company", "location", "vertical", "role",
              "pay", "pay_min", "pay_max", "pay_unit",
              "schedule", "posted_date", "apply_link", "via", "description", "job_highlights")}
 

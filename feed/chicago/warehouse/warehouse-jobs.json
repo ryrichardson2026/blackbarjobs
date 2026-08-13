@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/warehouse-jobs",
   "market": "Chicago",
   "target": "city",
@@ -7,6 +7,7 @@
   "exact": 148,
   "jobs": [
     {
+      "job_hash": "5bba9637fd5a",
       "title": "Warehouse Associate",
       "company": "Uline",
       "location": "Waukegan, IL",
@@ -61,6 +62,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e4b8318dec65",
       "title": "Order Selector - Overnights",
       "company": "Uline",
       "location": "Waukegan, IL",
@@ -111,6 +113,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7265f79262e9",
       "title": "Warehouse Associate - Overnights",
       "company": "Uline",
       "location": "Waukegan, IL",
@@ -162,6 +165,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a44e66c51132",
       "title": "Forklift Driver-1st Shift",
       "company": "Ferrara",
       "location": "Itasca, IL",
@@ -230,6 +234,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "03790610b352",
       "title": "General Warehouse Laborer",
       "company": "Coca Cola",
       "location": "West Chicago, IL",
@@ -311,6 +316,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "21c2585785da",
       "title": "Shipping and Receiving Associate",
       "company": "SPS",
       "location": "Schaumburg, IL",
@@ -375,6 +381,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "534e5e692e17",
       "title": "Package Handler",
       "company": "Coca Cola",
       "location": "Chicago Ridge, IL",
@@ -445,6 +452,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "01bf2185f858",
       "title": "Stock Inventory Associate",
       "company": "Target",
       "location": "Chicago, IL",
@@ -504,6 +512,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7f36f5cc1c7e",
       "title": "Relogistics Services is hiring: FORKLIFT OPERATOR in Chicago",
       "company": "Relogistics Services",
       "location": "Chicago, IL",
@@ -563,6 +572,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "05332a374b1c",
       "title": "Warehouse Associate (Part-time, Flex)",
       "company": "Cardinal Health",
       "location": "Elgin, IL",
@@ -631,6 +641,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a1c2d7faee09",
       "title": "Customer Site Warehouse Support",
       "company": "Fastenal",
       "location": "Chicago, IL",
@@ -686,6 +697,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "95a2e33b9aa2",
       "title": "Forklift Certified Warehouse Associate – Chicago",
       "company": "Fairweather, LLC",
       "location": "Chicago, IL",
@@ -719,6 +731,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "740dc001aced",
       "title": "Warehouse Associate – Picking, Packing & Fulfillment",
       "company": "Alice & Wonder",
       "location": "Chicago, IL",
@@ -829,6 +842,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7f1e68348eb3",
       "title": "Warehouse Assistant 2 - Seasonal",
       "company": "Kehoe Designs Inc",
       "location": "Chicago, IL",
@@ -914,6 +928,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "cde379cee1e0",
       "title": "Material Handler / Forklift Operator",
       "company": "Graphic Packaging International",
       "location": "Chicago, IL",
@@ -1037,6 +1052,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3c170f21ff86",
       "title": "Forklift Operator/Garbage room - 1st shift (INDST) Job at OSI Group in West Chicago",
       "company": "OSI Group",
       "location": "West Chicago, IL",
@@ -1100,6 +1116,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b45413cbbcdf",
       "title": "Sr Analyst, Warehouse Management Systems",
       "company": "Lactalis USA",
       "location": "Chicago, IL",
@@ -1168,6 +1185,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3dd44bbaa5fd",
       "title": "Warehouse Associate (Trade Shows & Events)",
       "company": "Jack Morton Worldwide",
       "location": "Chicago, IL",
@@ -1225,6 +1243,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2ad4200f5a6b",
       "title": "UPS Night Sort Warehouse Associate",
       "company": "UPS",
       "location": "West Chicago, IL",
@@ -1271,6 +1290,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a5302906bef6",
       "title": "Flexible Part-Time:Receiving Associate-Chicago",
       "company": "FedEx Supply Chain",
       "location": "Chicago, IL",
@@ -1330,6 +1350,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "31b9d5f77d0f",
       "title": "Shipping/Receiving Dock - 2nd Shift",
       "company": "South Chicago Packing LLC",
       "location": "Chicago, IL",
@@ -1392,6 +1413,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0dffab5a26e6",
       "title": "Elmhurst Part-time Twilight Shift Warehouse Associate | Hiring",
       "company": "UPS",
       "location": "Elmhurst, IL",
@@ -1436,6 +1458,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2449fd28dc66",
       "title": "Part-Time Package Handler - Warehouse (FedEx Packages) at Trans One, Inc. Chicago, IL",
       "company": "Trans One, Inc.",
       "location": "Chicago, IL",
@@ -1492,6 +1515,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "544b7c8945cf",
       "title": "Chicago Full-time Overnight Warehouse Associate | Hiring",
       "company": "Amazon",
       "location": "Chicago, IL",
@@ -1538,6 +1562,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ba47f3364005",
       "title": "UPS Part-Time Second Job Warehouse Associate — Evening Hours",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -1585,6 +1610,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ccb248c503af",
       "title": "Part-Time Warehouse Associate: $22.75–$26/hr + Shift Diff",
       "company": "Roundel",
       "location": "Chicago, IL",
@@ -1623,6 +1649,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ce2b856f5a7a",
       "title": "Chicago,IL:Fedex Package Handler at Fedex Ground | Hiring",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -1677,6 +1704,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "aace7096388e",
       "title": "Warehouse Associate",
       "company": "Axelon",
       "location": "North Chicago, IL",
@@ -1719,6 +1747,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a930edc7c90e",
       "title": "3rd Shift Loader (10pm - 6:30am) Sun - Thurs Night",
       "company": "Dollar Tree Stores",
       "location": "Joliet, IL",
@@ -1767,6 +1796,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "66ebdaba9cde",
       "title": "Flexible Night Sort Warehouse Associate(Chicago Heights)",
       "company": "UPS",
       "location": "Chicago Heights, IL",
@@ -1813,6 +1843,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dccaf746bb1a",
       "title": "Warehouse Associate(Part-Time)@ UPS-North Chicago",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -1858,6 +1889,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "eaefa427a24d",
       "title": "Warehouse-Order Puller (Bilingual -Spanish/English) at El Milagro Inc. Chicago, IL",
       "company": "El Milagro Inc.",
       "location": "Chicago, IL",
@@ -1929,6 +1961,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5bb82fa68cf8",
       "title": "Safety-First Forklift Operator – Material Handling",
       "company": "KIK Consumer Products Inc.",
       "location": "Chicago, IL",
@@ -1960,6 +1993,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "89b78ef47ed9",
       "title": "Student-Friendly Part-Time Fedex Package Handler in Chicago",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -2015,6 +2049,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c698c0caa65c",
       "title": "Warehouse Associate Union - Night Shift (IL) Woodridge, IL Posted today",
       "company": "Sysco",
       "location": "Woodridge, IL",
@@ -2069,6 +2104,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "25bd985b438a",
       "title": "Evening Warehouse Specialist",
       "company": "RXinsider LTD.",
       "location": "Elgin, IL",
@@ -2095,6 +2131,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ff68c5bc7da0",
       "title": "Warehouse Assistant",
       "company": "Coca Cola",
       "location": "Chicago Ridge, IL",
@@ -2160,6 +2197,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "37bfe35d7505",
       "title": "Hiring in North Chicago:Warehouse Associate(Part-Time)",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -2202,6 +2240,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e70197516443",
       "title": "Remote-First Warehouse Associate: Shipping & Fulfillment",
       "company": "Aspinity",
       "location": "Chicago, IL",
@@ -2228,6 +2267,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "83809106407c",
       "title": "East Chicago Night Shift Sortation Warehouse Associate with $20-$23/hr",
       "company": "Amazon",
       "location": "East Chicago, IN",
@@ -2284,6 +2324,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "f91469ab4381",
       "title": "[Part-Time] Warehouse Associate-Chicago Heights",
       "company": "UPS",
       "location": "Chicago Heights, IL",
@@ -2331,6 +2372,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4dd61a93e84",
       "title": "Amazon Warehouse - Shopper / Order Fulfillment Associate $17-$23/hr",
       "company": "amazon",
       "location": "East Chicago, IN",
@@ -2372,6 +2414,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5dfd887740da",
       "title": "Warehouse Assistant",
       "company": "Coca Cola",
       "location": "North Chicago, IL",
@@ -2437,6 +2480,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4d6b4d67cbd",
       "title": "Delivery and Warehouse Associate - UOVO Wine Chicago, IL",
       "company": "UOVO Wine",
       "location": "Chicago, IL",
@@ -2506,6 +2550,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "366f570dc86b",
       "title": "Material Handler I - 3rd Shift",
       "company": "Maker's Pride",
       "location": "Bolingbrook, IL",
@@ -2577,6 +2622,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "935e3a6a435c",
       "title": "General Warehouse Laborer",
       "company": "Coca Cola",
       "location": "North Chicago, IL",
@@ -2658,6 +2704,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d7f4834e8dc0",
       "title": "Apply Now:Twilight Shift Warehouse Associate in Lombard | Hiring",
       "company": "UPS",
       "location": "Lombard, IL",
@@ -2700,6 +2747,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0d5cfdddd1f4",
       "title": "Warehouse Package Handler",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -2753,6 +2801,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1e16c8d2405c",
       "title": "Warehouse Package Handler",
       "company": "Target",
       "location": "North Chicago, IL",
@@ -2806,6 +2855,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "61685dccc6b2",
       "title": "Warehouse Team Member",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -2866,6 +2916,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b22323c26a4c",
       "title": "Warehouse Receiver",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -2925,6 +2976,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b88aa9faa702",
       "title": "Warehouse Inventory Specialist",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -2984,6 +3036,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "77674c2d3474",
       "title": "Shipping & Receiving Specialist - Forklift Operator",
       "company": "Tomenson Machine Works Inc",
       "location": "West Chicago, IL",
@@ -3042,6 +3095,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "8b6dea0e44c0",
       "title": "Warehouse Material Handler",
       "company": "Target",
       "location": "West Chicago, IL",
@@ -3101,6 +3155,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "18071284e7d3",
       "title": "Distribution Center Technician",
       "company": "Aldi",
       "location": "East Chicago, IN",
@@ -3184,6 +3239,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3fa87490841b",
       "title": "Warehouse Associate - Hiring Immediately",
       "company": "Target",
       "location": "West Chicago, IL",
@@ -3243,6 +3299,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "43d057a70071",
       "title": "Warehouse Loader",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -3303,6 +3360,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "207356969624",
       "title": "Warehouse Specialist",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -3356,6 +3414,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "46c45242dc48",
       "title": "Weekend Evening Warehouse Lead I",
       "company": "NOW Foods",
       "location": "Bloomingdale, IL",
@@ -3388,6 +3447,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "94b3403ff983",
       "title": "Warehouse Production Worker",
       "company": "Target",
       "location": "North Chicago, IL",
@@ -3441,6 +3501,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "62fc5133a4a4",
       "title": "Warehouse Production Worker",
       "company": "Target",
       "location": "West Chicago, IL",
@@ -3494,6 +3555,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d3b7489dafae",
       "title": "Warehouse Sorter",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -3553,6 +3615,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d27ffcadee81",
       "title": "Part-Time Outside Yard & Receiving",
       "company": "Menards",
       "location": "Bolingbrook, IL",
@@ -3593,6 +3656,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2638984cac90",
       "title": "Overnight Second-Shift Warehouse Associate — Teamster",
       "company": "M. J. Kellner Foodservice",
       "location": "Chicago, IL",
@@ -3625,6 +3689,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4cbbd04ac87a",
       "title": "Warehouse Associate - Overnights",
       "company": "Uline, Inc.",
       "location": "Highwood, IL",
@@ -3691,6 +3756,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "eefad96f91dc",
       "title": "Warehouse Worker - 2nd Shift",
       "company": "M. J. Kellner Foodservice",
       "location": "Chicago, IL",
@@ -3768,6 +3834,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0953860dbc20",
       "title": "Airport Warehouse Agent (Cargo)",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -3844,6 +3911,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed7f6d5d8a0a",
       "title": "Dockworker / Forklift Operator, Full-time",
       "company": "ArcBest",
       "location": "Chicago, IL",
@@ -3911,6 +3979,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "9da080f90da7",
       "title": "Warehouse Production Associate",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -3980,6 +4049,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d3007c805b6c",
       "title": "Forklift Operator - Pallet Manufacturing Job at 48forty Solutions and Relogistics Services in Chicago",
       "company": "48forty Solutions and Relogistics Services",
       "location": "Chicago, IL",
@@ -4041,6 +4111,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7dc085d7dc3d",
       "title": "Warehouse Operations Leader",
       "company": "Creative Innovation Inc",
       "location": "Chicago, IL",
@@ -4074,6 +4145,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a1be12a80c65",
       "title": "Retail Warehouse & Production Specialist – Growth",
       "company": "Savers",
       "location": "Chicago, IL",
@@ -4106,6 +4178,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "65d5fc442258",
       "title": "Rotating Warehouse Associate: Forklift, Picking",
       "company": "Conexus Food Solutions",
       "location": "Chicago, IL",
@@ -4144,6 +4217,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2273376f1f83",
       "title": "Chicago Warehouse Ops Lead - Freight Forwarding",
       "company": "Accelerated Global Solutions",
       "location": "Chicago, IL",
@@ -4177,6 +4251,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1fced7fb7eb5",
       "title": "Part-Time Warehouse Equipment Operator",
       "company": "S&S Activewear",
       "location": "Lockport, IL",
@@ -4208,6 +4283,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "75a536d8681e",
       "title": "Overnight Warehouse Associate - Chicago, IL - $1,500 Sign-on Bonus",
       "company": "Logistics Pro Solutions",
       "location": "Chicago, IL",
@@ -4261,6 +4337,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2e57eae95960",
       "title": "Part-Time Forklift Operator — Weekend/Evening Shifts",
       "company": "R+L Carriers",
       "location": "Chicago, IL",
@@ -4287,6 +4364,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2446d02babf6",
       "title": "Night Shift Warehouse Specialist — Forklift & Shipping",
       "company": "FHLB Des Moines",
       "location": "Woodridge, IL",
@@ -4319,6 +4397,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "059608651235",
       "title": "Package Handler - Chicago North - Multiple shifts available",
       "company": "OnTrac",
       "location": "Des Plaines, IL",
@@ -4373,6 +4452,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3937aaaa2f6b",
       "title": "Night Shift Warehouse Dock Associate — $22.50/hr + Benefits",
       "company": "Penske Logistics",
       "location": "Bolingbrook, IL",
@@ -4405,6 +4485,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "38e5f2961503",
       "title": "Warehouse Worker (First Shift)",
       "company": "US Colorworks",
       "location": "Chicago, IL",
@@ -4456,6 +4537,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "57d1967b329e",
       "title": "Lead Warehouse Associate - Operations Team Lead",
       "company": "Wesco",
       "location": "Chicago, IL",
@@ -4488,6 +4570,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bd3b3f432929",
       "title": "Warehouse Generalist- 3rd shift",
       "company": "Lineage Logistics",
       "location": "Chicago, IL",
@@ -4546,6 +4629,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4de33ead1ea6",
       "title": "Vice President, Solution Sales - Distribution & Fulfillment (P/LS)",
       "company": "Echo Global Logistics",
       "location": "Chicago Heights, IL",
@@ -4608,6 +4692,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7458e53a13b5",
       "title": "Warehouse Package Handler — Immediate Openings",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -4634,6 +4719,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e916d0ff8a4c",
       "title": "Weekend Package Handler - Fast-Paced Warehouse, $1 Extra",
       "company": "OnTrac",
       "location": "Romeoville, IL",
@@ -4666,6 +4752,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "cf4615cb8cfa",
       "title": "Warehouse Manager",
       "company": "Walmart",
       "location": "Oak Lawn, IL",
@@ -4684,6 +4771,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5e5ec3f89efc",
       "title": "Warehouse Lead",
       "company": "Coca Cola",
       "location": "Chicago Heights, IL",
@@ -4760,6 +4848,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "edc50e7bb876",
       "title": "NPW-Auto Parts Warehouse Associate I",
       "company": "National Performance Warehouse",
       "location": "Chicago, IL",
@@ -4822,6 +4911,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b1bf18a6c183",
       "title": "Logistics / Packaging Handler",
       "company": "Greif",
       "location": "West Chicago, IL",
@@ -4872,6 +4962,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ec5e4509beb3",
       "title": "Warehouse Associate - 2nd Shift - Days Off: Tuesdays & Wednesdays",
       "company": "Home Chef",
       "location": "Chicago, IL",
@@ -4941,6 +5032,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "63ed84ba8b21",
       "title": "Part-Time Warehouse & Shipping Specialist",
       "company": "e3 Diagnostics",
       "location": "Arlington Heights, IL",
@@ -4973,6 +5065,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "30e362da3ec0",
       "title": "Forklift Operator - Full-Time, Fast-Paced + Great Benefits",
       "company": "R+L Carriers",
       "location": "Chicago, IL",
@@ -5005,6 +5098,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4c2ec0b7578d",
       "title": "Night Warehouse Generalist: Forklift & RF Ops",
       "company": "Lineage",
       "location": "Chicago, IL",
@@ -5038,6 +5132,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "11be4475332c",
       "title": "General Labor - Overnight Shift",
       "company": "Ferrara",
       "location": "Bellwood, IL",
@@ -5099,6 +5194,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c1351ff75ad8",
       "title": "Janitorial Specialist (Warehouse Setting)",
       "company": "Confidential",
       "location": "Chicago, IL",
@@ -5164,6 +5260,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2eee0edd5db1",
       "title": "Packager — Forklift Operator for Rotating Shifts",
       "company": "Innophos",
       "location": "Chicago, IL",
@@ -5191,6 +5288,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "38afe0f236a4",
       "title": "Order Picker-Warehouse Person",
       "company": "HireTalent",
       "location": "North Chicago, IL",
@@ -5242,6 +5340,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "402aa1de907c",
       "title": "Order Puller, 3rd Shift",
       "company": "Behr Paint Company",
       "location": "Chicago Heights, IL",
@@ -5306,6 +5405,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c78bc22a78d6",
       "title": "Seasonal Warehouse Associate - 111th St",
       "company": "Richards Building Supply Co.",
       "location": "Chicago, IL",
@@ -5368,6 +5468,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a977d16ad853",
       "title": "Warehouse Order Selector - Sysco (Now Hiring)",
       "company": "Sysco",
       "location": "Chicago, IL",
@@ -5422,6 +5523,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4a83a9d4a01",
       "title": "Warehouse Package Handler - Full Time",
       "company": "Cadogan Tate Fine Art",
       "location": "Chicago, IL",
@@ -5475,6 +5577,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bc37e9445cd7",
       "title": "Freight Handler (Night Shift/3rd Shift)",
       "company": "Roadrunner Transportation Systems Inc",
       "location": "Chicago, IL",
@@ -5538,6 +5641,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0eb3218e5b95",
       "title": "Night Shift Warehouse Dock Associate – Loading & Staging",
       "company": "Penske",
       "location": "Bolingbrook, IL",
@@ -5570,6 +5674,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "14f5c8b84577",
       "title": "2nd Shift Production Operator — Forklift & Packaging",
       "company": "Batory Foods",
       "location": "Chicago, IL",
@@ -5602,6 +5707,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "49e4f7d2eebd",
       "title": "Forklift Operator (Day Shift) pay start at $23.45 hr.",
       "company": "Graham Packaging Company",
       "location": "West Chicago, IL",
@@ -5685,6 +5791,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dc94c9e95a37",
       "title": "Warehouse Supervisor - Chicago O’Hare International Airport Distribution Center",
       "company": "Hudson by Avolta",
       "location": "Elk Grove Village, IL",
@@ -5753,6 +5860,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ff67987521dc",
       "title": "Warehouse Associate – Record Center Specialist",
       "company": "RightStone",
       "location": "Chicago, IL",
@@ -5803,6 +5911,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "285d0079fd1a",
       "title": "Warehouse Shipper- Start Immediately!",
       "company": "Whole Foods",
       "location": "Chicago, IL",
@@ -5821,6 +5930,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "8757ad57099d",
       "title": "Warehouse Management Trainee - Overnights",
       "company": "Uline",
       "location": "Waukegan, IL",
@@ -5878,6 +5988,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d7a4583b0688",
       "title": "Evening Warehouse Associate: Mail Sorting & Unloading",
       "company": "Total Staffing Solutions",
       "location": "Franklin Park, IL",
@@ -5904,6 +6015,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3e9c7e4f10fb",
       "title": "Night Shift Inventory Clerk – Warehouse (Weekly Pay)",
       "company": "Ryder System, Inc.",
       "location": "Romeoville, IL",
@@ -5930,6 +6042,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4dc4e5671c48",
       "title": "Forklift Operator",
       "company": "R&T Logistics Inc.",
       "location": "Franklin Park, IL",
@@ -5983,6 +6096,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dac4de360770",
       "title": "Forklift Operator",
       "company": "XPO",
       "location": "Chicago Heights, IL",
@@ -6044,6 +6158,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "67be1f30b67a",
       "title": "Inbound Forklift Operator",
       "company": "US6469 Sysco Payroll, Division of Sysco Resources Services, LLC",
       "location": "Chicago, IL",
@@ -6102,6 +6217,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1cfd81842b90",
       "title": "Part-Time Warehouse Material Handler - Grow with an Employee-Owned Team",
       "company": "Graybar",
       "location": "Joliet, IL",
@@ -6134,6 +6250,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "61b9f9432375",
       "title": "Night-Shift Forklift Operator: Efficient Warehouse Pro",
       "company": "Core-Mark",
       "location": "Chicago, IL",
@@ -6160,6 +6277,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "18c5e3027357",
       "title": "Warehouse Person I (2nd Shift)",
       "company": "Home Chef",
       "location": "Chicago, IL",
@@ -6178,6 +6296,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed955968a02b",
       "title": "Package Handler - Part Time (Warehouse like)",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -6235,6 +6354,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b45f2cd7bac7",
       "title": "Seasonal Peak Warehouse Sorter—Immediate Hire|Flexible|Chicago",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -6276,6 +6396,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e378e54666aa",
       "title": "3AM Warehouse Coordinator – Inventory & Logistics",
       "company": "UNFI",
       "location": "Joliet, IL",
@@ -6307,6 +6428,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "f3563feca806",
       "title": "Night Warehouse Supervisor: Lead 100+ Produce Team",
       "company": "Midwest-Foods",
       "location": "Chicago, IL",
@@ -6344,6 +6466,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "923fe88fc3dd",
       "title": "Chicago Contract:UPS Preload Package Handler",
       "company": "United Parcel Service (UPS)",
       "location": "Chicago, IL",
@@ -6406,6 +6529,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4bb4294fcaa",
       "title": "Urgent Hire in Chicago:Fedex Package Handler",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -6457,6 +6581,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ec075d5e4f85",
       "title": "Forklift Operator: Fast-Paced, Safety‑Focused Warehouse",
       "company": "Westerndupagechamber",
       "location": "Chicago, IL",
@@ -6482,6 +6607,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7958bb3227a0",
       "title": "Warehouse / Delivery Staff",
       "company": "Bowery & Bash",
       "location": "Chicago, IL",
@@ -6546,6 +6672,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4de0434aaddb",
       "title": "Forklift Operator - 2nd Shift",
       "company": "Tradebe",
       "location": "Chicago, IL",
@@ -6614,6 +6741,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b37d6c2a3475",
       "title": "Warehouse Person - Part Time",
       "company": "Ameristar Casino Hotel East Chicago",
       "location": "East Chicago, IN",
@@ -6660,6 +6788,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "47b6e327d9c9",
       "title": "Warehouse Order Selector",
       "company": "US0024 Sysco Chicago, Inc.",
       "location": "Des Plaines, IL",
@@ -6713,6 +6842,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5f85c4b1a1d2",
       "title": "Weekend Evening Warehouse Lead — Mentor & Improve",
       "company": "NOW Foods",
       "location": "Bloomingdale, IL",
@@ -6740,6 +6870,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bb57e8d591de",
       "title": "Union Warehouse Associate - 3rd Shift",
       "company": "Ferguson",
       "location": "Addison, IL",
@@ -6799,6 +6930,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "01b5c79ee3b3",
       "title": "Shipping Material Handler — Forklift Operator (Afternoon)",
       "company": "Sharon Tube Company",
       "location": "Chicago, IL",
@@ -6836,6 +6968,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bd6b74afa601",
       "title": "Warehouse Associate - Jewel Distribution Center-Melrose Park - Melrose Park",
       "company": "Skills for Chicago",
       "location": "Melrose Park, IL",
@@ -6884,6 +7017,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "18834bb9a96b",
       "title": "General Labor-3rd Shift",
       "company": "International Paper",
       "location": "Bedford Park, IL",
@@ -6944,6 +7078,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2502e4b8533c",
       "title": "Evening Warehouse Handler — Pack, Load & Move",
       "company": "Milwaukee Succeeds",
       "location": "Waukegan, IL",
@@ -6975,6 +7110,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3fb436b00194",
       "title": "Weekend Warehouse Material Handler (12-hour Shifts)",
       "company": "NOW Foods",
       "location": "Bloomingdale, IL",
@@ -7007,6 +7143,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "496faf275627",
       "title": "Warehouse Associate - Overnights",
       "company": "Uline",
       "location": "Elmwood Park, IL",
@@ -7056,6 +7193,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e9c6188c214a",
       "title": "Night-Shift Rotating Warehouse Operator",
       "company": "JazzHR",
       "location": "Chicago, IL",
@@ -7088,6 +7226,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "76ad50c2f2c5",
       "title": "Warehouse Forklift Operator",
       "company": "Ryder",
       "location": "Chicago, IL",
@@ -7135,6 +7274,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "efe5f34b4eb9",
       "title": "Warehouse Associate",
       "company": "Floor & Decor",
       "location": "Chicago, IL",
@@ -7216,6 +7356,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "43b20c146d58",
       "title": "[\"Warehouse & Mail Operations Specialist\",\"Warehouse & Mail Operations Specialist\"]",
       "company": "Publicis Groupe",
       "location": "Chicago, IL",
@@ -7248,6 +7389,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5571d6efa535",
       "title": "CDL A Yard Jockey/Package Handler",
       "company": "Shipoom Chicago",
       "location": "Westmont, IL",
@@ -7307,6 +7449,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0fb2378c2ed8",
       "title": "Entry Level Warehouse Worker",
       "company": "Aldi",
       "location": "East Chicago, IN",
@@ -7390,6 +7533,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "024f27acb3c3",
       "title": "Supervisor, Distribution (Overnight)",
       "company": "HD Supply",
       "location": "Northlake, IL",
@@ -7462,6 +7606,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dfd58a0a6459",
       "title": "Warehouse Assistant",
       "company": "Potbelly Sandwich Works",
       "location": "Chicago, IL",
@@ -7541,6 +7686,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2a99aa927506",
       "title": "Shorr West Chicago - WH - $17.60",
       "company": "Shorr - West Chicago",
       "location": "St. Charles, IL",
@@ -7602,6 +7748,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bdaed0c3997d",
       "title": "3PL Pick & Pack Warehouse Associate",
       "company": "SHIPSTARS 3PL",
       "location": "Waukegan, IL",
@@ -7657,6 +7804,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1c6926fac9ff",
       "title": "Forklift Driver",
       "company": "FXI",
       "location": "West Chicago, IL",

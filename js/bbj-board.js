@@ -288,6 +288,7 @@
     updateMeta();
     renderActive();
     renderPayPanel();
+    syncHubContext();
     var corrected = refreshFacets();
     if (corrected && !repass) applyFilters(true);
   }
@@ -371,16 +372,20 @@
     var tags = '';
     (job._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tg ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
     if(job._roles[0]) tags += '<span class="tg">' + esc(roleLabel(job._roles[0])) + '</span>';
-    var linkAttrs = ' target="_blank" rel="noopener noreferrer" data-i="' + job._i + '" onclick="return bbjCardApply(this, event)"';
+    // View is a real, crawlable anchor to ?job={hash8} (same-page param the JS reads to open
+    // the overlay; becomes /job/... when the standalone page ships). The apply-click gate no
+    // longer fires here -- it fires on the overlay's Apply button (highest intent).
+    var jobParam = job.job_hash ? '?job=' + esc(String(job.job_hash).slice(0, 8)) : '#';
+    var openAttrs = ' data-i="' + job._i + '"';   // .jopen is the overlay hook (no styling)
     // Card order: New -> title -> company -> pay -> description -> tags -> View (per reference).
     return '<li class="card">' +
         newflag +
-        '<h3 class="ct"><a href="' + href + '"' + linkAttrs + '>' + esc(job.title) + '</a></h3>' +
+        '<h3 class="ct"><a class="jopen" href="' + jobParam + '"' + openAttrs + '>' + esc(job.title) + '</a></h3>' +
         '<div class="cs">' + sub + '</div>' +
         pay +
         desc +
         '<div class="ctags">' + tags + '</div>' +
-        '<a class="cview" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View job</a>' +
+        '<a class="cview jopen" href="' + jobParam + '"' + openAttrs + ' aria-label="View: ' + esc(job.title) + '">View job</a>' +
       '</li>';
   }
 
@@ -445,11 +450,12 @@
   function renderActive(){
     var el = document.getElementById('active'); if(!el) return;
     var html = '';
-    // locked preset context (no remove control)
-    if(PRESET.vertical && TAXONOMY[PRESET.vertical]) html += lockedPill(TAXONOMY[PRESET.vertical].label);
-    if(PRESET.loc) html += lockedPill(metroFromLoc(PRESET.loc));
-    if(PRESET.role) html += lockedPill(roleLabel(PRESET.role));
-    if(PRESET.shift) html += lockedPill(roleLabel(PRESET.shift));
+    // Hub context pill, shown only while the axis is still at its preset value. Once the user
+    // overrides it, the removable user pill below shows instead (removeFilter reverts to preset).
+    if(PRESET.vertical && filters.vertical===PRESET.vertical && TAXONOMY[PRESET.vertical]) html += lockedPill(TAXONOMY[PRESET.vertical].label);
+    if(PRESET.loc && filters.loc===PRESET.loc) html += lockedPill(metroFromLoc(PRESET.loc));
+    if(PRESET.role && filters.role===PRESET.role) html += lockedPill(roleLabel(PRESET.role));
+    if(PRESET.shift && filters.shift===PRESET.shift) html += lockedPill(roleLabel(PRESET.shift));
     // user-added filters (removable)
     var user = [];
     if(filters.q) user.push(userPill('“' + filters.q + '”', 'q', ''));
@@ -532,9 +538,12 @@
     return html;
   }
   function syncRail(){
-    var ls = document.getElementById('locSelect');   if(ls){ ls.value = filters.loc || '';         ls.disabled = !!PRESET.loc; }
-    var vs = document.getElementById('vertSelect');  if(vs){ vs.value = filters.vertical || '';    vs.disabled = !!PRESET.vertical; }
-    var ss = document.getElementById('shiftSelect'); if(ss){ ss.value = filters.shift || '';       ss.disabled = !!PRESET.shift; }
+    // D: vertical + metro (and shift) are freely changeable from any hub. The preset is NOT
+    // a lock -- it only sets the initial state and the Clear target (clearFilters resets to
+    // it, so Clear can never wipe the hub's identity into an empty all-verticals state).
+    var ls = document.getElementById('locSelect');   if(ls){ ls.value = filters.loc || '';       ls.disabled = false; }
+    var vs = document.getElementById('vertSelect');  if(vs){ vs.value = filters.vertical || '';  vs.disabled = false; }
+    var ss = document.getElementById('shiftSelect'); if(ss){ ss.value = filters.shift || '';     ss.disabled = false; }
   }
   function refreshFacets(){
     var corrected = false;
@@ -656,8 +665,32 @@
         '<div class="rl hi"><div class="v">' + money0(st.hi) + '</div><div class="k">High</div></div>' +
       '</div></div>';
   }
+  function minWageLine(mslug){
+    var w = MIN_WAGE[mslug]; if(!w) return '';
+    return '<p class="note" style="margin-top:14px">For reference, ' + esc(w.city) + "'s minimum wage is $" +
+      w.rate.toFixed(2) + ' an hour and the ' + esc(w.state) + ' state minimum is $' + w.stateRate.toFixed(2) + '.</p>';
+  }
   function renderPayPanel(){
-    if(window.BBJ_BOARD_PRESET) return;   // hubs ship a baked panel; never overwrite it
+    if(window.BBJ_BOARD_PRESET){
+      // Hub: the baked metro-wide panel is the default (DG2). Recompute from the current
+      // selection only after the user moves off the preset; restore the baked panel on return.
+      var wrapH = document.getElementById('payWrap'); if(!wrapH) return;
+      var inner = wrapH.querySelector('.paypanel'); if(!inner) return;
+      if(isDefaultState()){ var b = inner.getAttribute('data-baked'); if(b != null) inner.innerHTML = b; return; }
+      if(inner.getAttribute('data-baked') == null) inner.setAttribute('data-baked', inner.innerHTML);  // stash baked once
+      var mslug = curMetroSlug();
+      var vlabel = (TAXONOMY[filters.vertical] && TAXONOMY[filters.vertical].label) || (filters.vertical || 'these');
+      var title = vlabel + ' pay for this selection' + (mslug ? ' in ' + metroLabel(mslug) : '');
+      var stH = payRangeStats(FILTERED);
+      if(!stH || stH.n < 15){
+        var have = stH ? stH.n : FILTERED.map(payValue).filter(function(v){ return v > 0; }).length;
+        inner.innerHTML = '<h2>' + esc(title) + '</h2><p class="note">Only ' + have +
+          ' of ' + FILTERED.length + ' listings in this selection publish pay, so a reliable range is not shown.</p>';
+        return;
+      }
+      inner.innerHTML = payRangeHTML(stH, title) + minWageLine(mslug);
+      return;
+    }
     var wrap = document.getElementById('payWrap'); if(!wrap) return;
     var metro = locChipValue();
     if(!filters.vertical || !metro){ wrap.style.display = 'none'; return; }
@@ -926,6 +959,7 @@
     if (!window.BBJ_BOARD_PRESET) injectJsonLd(ALL_JOBS);
     applyFilters();
     applyUrlFilters();                // deep-link via UTM / query params (?vertical=warehouse&role=forklift&city=chicago)
+    if(window.bbjOpenJobFromURL) window.bbjOpenJobFromURL();   // ?job={hash8} deep link -> open the overlay
   }
 
   /* ───────────────── FEED LOADER (master static JSON) ───────────────── */
@@ -936,6 +970,7 @@
     var loc = (j.location || '').trim();
     return {
       active: 'yes',                                  // snapshot only contains live jobs
+      job_hash: j.job_hash || '',                     // stable id for ?job= (and the future /job/ path)
       apply_link: j.apply_link || '',
       title: j.title || '',
       company: j.company || '',
@@ -969,4 +1004,138 @@
         var rc = document.getElementById('resultsCount'); if(rc) rc.textContent = 'Listings temporarily unavailable';
       });
   }
+  /* ═══════════ JOB DETAIL OVERLAY (?job=) + DYNAMIC HUB CONTEXT (D) ═══════════ */
+  var HUB_PRESET = window.BBJ_BOARD_PRESET || null;
+  var MIN_WAGE = {
+    chicago:      { city:'Chicago',     rate:17.05, state:'Illinois', stateRate:15.00 },
+    dallas:       { city:'Dallas',      rate:7.25,  state:'Texas',    stateRate:7.25 },
+    houston:      { city:'Houston',     rate:7.25,  state:'Texas',    stateRate:7.25 },
+    austin:       { city:'Austin',      rate:7.25,  state:'Texas',    stateRate:7.25 },
+    'san-antonio':{ city:'San Antonio', rate:7.25,  state:'Texas',    stateRate:7.25 }
+  };
+  function curMetroSlug(){ var m = locChipValue(); return m ? m.slice(6).toLowerCase().replace(/\s+/g,'-') : ''; }
+  function isDefaultState(){
+    if(!HUB_PRESET) return false;
+    return (filters.vertical||'') === (HUB_PRESET.vertical||'')
+        && curMetroSlug()        === (HUB_PRESET.metro||'').toLowerCase()
+        && (filters.role||'')    === (HUB_PRESET.role||'')
+        && (filters.shift||'')   === (HUB_PRESET.shift||'')
+        && !(filters.reqs && filters.reqs.length) && !filters.pay && !filters.payMin && !filters.posted && !filters.q;
+  }
+  function hubLinkFor(mslug){ return '/' + (mslug || (HUB_PRESET && HUB_PRESET.metro) || '').toLowerCase(); }
+
+  // Prose-collapse (mandatory alongside the unlock): when vertical or metro leaves the baked
+  // context the employer/hiring/ladder/unions/pay-by-role/FAQ sections would be lying, so they
+  // collapse behind a link to the matching metro hub. The pay panel recomputes (renderPayPanel).
+  function syncHubContext(){
+    if(!HUB_PRESET) return;
+    var hubc = document.querySelector('.hubc'); if(!hubc) return;
+    var inner = hubc.querySelector('.in') || hubc;
+    var mslug = curMetroSlug();
+    var moved = ((filters.vertical||'') !== (HUB_PRESET.vertical||''))
+             || (mslug && mslug !== (HUB_PRESET.metro||'').toLowerCase());
+    var secs = hubc.querySelectorAll('.sec');
+    var notice = document.getElementById('hubCtxNotice');
+    if(moved){
+      for(var i=0;i<secs.length;i++) secs[i].style.display = 'none';
+      if(!notice){ notice = document.createElement('div'); notice.id = 'hubCtxNotice'; notice.className = 'hub-ctx-notice'; inner.insertBefore(notice, inner.firstChild); }
+      notice.style.display = '';
+      notice.innerHTML = 'The guides below (who is hiring, pay by role, getting hired, the pay ladder, benefits and FAQ) describe ' +
+        esc(HUB_PRESET.vertical||'') + ' work in ' + esc(metroLabel(HUB_PRESET.metro||'')) + '. ' +
+        'You have changed the vertical or metro, so they no longer fit this selection. ' +
+        '<a href="' + hubLinkFor(mslug) + '">Go to the ' + esc(metroLabel(mslug || HUB_PRESET.metro)) + ' hub</a> for figures that match.';
+    } else {
+      for(var k=0;k<secs.length;k++) secs[k].style.display = '';
+      if(notice) notice.style.display = 'none';
+    }
+  }
+
+  // ---- overlay ----
+  var _ov = document.createElement('div');
+  _ov.className = 'jscrim'; _ov.id = 'jscrim';
+  _ov.innerHTML =
+    '<div class="jsheet" id="jsheet" role="dialog" aria-modal="true" aria-labelledby="jtitle">' +
+      '<div class="jhead"><div class="jh-t"><h2 id="jtitle"></h2><div class="jh-s" id="jsub"></div></div>' +
+      '<button class="jclose" id="jclose" type="button" aria-label="Close job details">&times;</button></div>' +
+      '<div class="jbody" id="jbody"></div><div class="jsrc" id="jsrc"></div>' +
+      '<div class="jfoot"><button class="jback" id="jback" type="button">Go back</button>' +
+      '<a class="japply" id="japply" href="#" rel="nofollow sponsored noopener" target="_blank">Apply</a></div></div>';
+  document.body.appendChild(_ov);
+  var _jLastFocus = null;
+  function overlayOpen(){ return _ov.classList.contains('open'); }
+  function hash8(j){ return (j && j.job_hash ? String(j.job_hash) : '').slice(0,8); }
+  function jobByHash(h){ for(var i=0;i<ALL_JOBS.length;i++){ if(hash8(ALL_JOBS[i]) === h) return ALL_JOBS[i]; } return null; }
+  function hlItems(j, names){
+    var out = [], b = j.job_highlights;
+    if(!Array.isArray(b)) return out;
+    for(var i=0;i<b.length;i++){
+      var t = ((b[i] && b[i].title) || '').toLowerCase();
+      if(names.some(function(n){ return t.indexOf(n) !== -1; })){
+        (b[i].items || []).forEach(function(it){ it = (it||'').replace(/�/g,'').trim(); if(it) out.push(it); });
+      }
+    }
+    return out.slice(0,8);
+  }
+  function descParas(s){
+    s = (s||'').replace(/�/g,'').trim();
+    var parts = s.split(/\n{2,}/).map(function(p){ p = p.trim(); return p ? '<p>' + esc(p).replace(/\n/g,'<br>') + '</p>' : ''; }).join('');
+    return parts || '<p>' + esc(s) + '</p>';
+  }
+  function openJob(j, push){
+    if(!j) return;
+    _jLastFocus = document.activeElement;
+    _ov.querySelector('#jtitle').textContent = j.title || '';
+    var jmeta = [esc(j._loc || j.location || ''), agoLabel(j)].filter(Boolean).join(' · ');
+    _ov.querySelector('#jsub').innerHTML = '<b>' + esc(j.company || 'Employer') + '</b>' + (jmeta ? ' · ' + jmeta : '');
+    var pp = displayPaySplit(j);
+    var payHTML = pp ? '<div class="jpay">' + esc(pp.big) + (pp.unit ? '<i>' + esc(pp.unit) + '</i>' : '') + '</div>' : '';
+    var tags = ''; (j._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tg ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
+    if(j._roles && j._roles[0]) tags += '<span class="tg">' + esc(roleLabel(j._roles[0])) + '</span>';
+    var resp = hlItems(j, ['responsibilit','duties','summary','what you']);
+    var qual = hlItems(j, ['qualif','require','skills','experience','benefit']);
+    _ov.querySelector('#jbody').innerHTML =
+      (payHTML ? '<div class="jmeta">' + payHTML + '</div>' : '') +
+      (tags ? '<div class="jtags">' + tags + '</div>' : '') +
+      (resp.length ? '<div class="jsub">What you would do</div><ul>' + resp.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
+      (qual.length ? '<div class="jsub">What they are asking for</div><ul>' + qual.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
+      (j.description ? '<div class="jsub">Full description</div><div class="jdesc">' + descParas(j.description) + '</div>' : '');
+    _ov.querySelector('#jsrc').textContent = j.via ? ('Posting ' + j.via + '. Applying opens the employer site in a new tab.') : 'Applying opens the employer site in a new tab.';
+    var ap = _ov.querySelector('#japply'); ap.href = (j.apply_link || '#'); ap.setAttribute('data-i', j._i);
+    _ov.classList.add('open'); document.body.classList.add('jlock');
+    _ov.querySelector('#jclose').focus();
+    var h = hash8(j);
+    if(push && h) history.pushState({ job:h }, '', '?job=' + h);
+  }
+  function closeJob(fromPop){
+    if(!overlayOpen()) return;
+    _ov.classList.remove('open'); document.body.classList.remove('jlock');
+    if(_jLastFocus && _jLastFocus.focus) _jLastFocus.focus();
+    if(!fromPop && /[?&]job=/.test(location.search)) history.pushState({}, '', location.pathname);
+  }
+  // apply-click gate fires HERE (highest intent -- the leakage fix)
+  _ov.querySelector('#japply').addEventListener('click', function(e){ return bbjCardApply(this, e); });
+  _ov.querySelector('#jclose').addEventListener('click', function(){ closeJob(); });
+  _ov.querySelector('#jback').addEventListener('click', function(){ closeJob(); });
+  _ov.addEventListener('click', function(e){ if(e.target === _ov) closeJob(); });   // guarded scrim (clicks inside the sheet don't dismiss)
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlayOpen()) closeJob(); });
+  (function(){
+    var rowsEl = document.getElementById('rows');
+    if(rowsEl) rowsEl.addEventListener('click', function(e){
+      var a = e.target.closest ? e.target.closest('a.jopen') : null;
+      if(!a) return;
+      if(e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;   // let new-tab / modified clicks through
+      e.preventDefault();
+      openJob(ALL_JOBS[+a.getAttribute('data-i')], true);
+    });
+  })();
+  window.addEventListener('popstate', function(){
+    var m = /[?&]job=([a-z0-9]+)/i.exec(location.search);
+    if(m){ var j = jobByHash(m[1]); if(j) openJob(j, false); else closeJob(true); }
+    else closeJob(true);
+  });
+  window.bbjOpenJobFromURL = function(){
+    var m = /[?&]job=([a-z0-9]+)/i.exec(location.search);
+    if(m){ var j = jobByHash(m[1]); if(j) openJob(j, false); }
+  };
+
   loadFeed();

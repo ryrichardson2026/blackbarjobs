@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/package-handler-jobs",
   "market": "Chicago",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 22,
   "jobs": [
     {
+      "job_hash": "534e5e692e17",
       "title": "Package Handler",
       "company": "Coca Cola",
       "location": "Chicago Ridge, IL",
@@ -77,6 +78,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "31b9d5f77d0f",
       "title": "Shipping/Receiving Dock - 2nd Shift",
       "company": "South Chicago Packing LLC",
       "location": "Chicago, IL",
@@ -139,6 +141,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2449fd28dc66",
       "title": "Part-Time Package Handler - Warehouse (FedEx Packages) at Trans One, Inc. Chicago, IL",
       "company": "Trans One, Inc.",
       "location": "Chicago, IL",
@@ -195,6 +198,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ce2b856f5a7a",
       "title": "Chicago,IL:Fedex Package Handler at Fedex Ground | Hiring",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -249,6 +253,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a930edc7c90e",
       "title": "3rd Shift Loader (10pm - 6:30am) Sun - Thurs Night",
       "company": "Dollar Tree Stores",
       "location": "Joliet, IL",
@@ -297,6 +302,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "89b78ef47ed9",
       "title": "Student-Friendly Part-Time Fedex Package Handler in Chicago",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -352,6 +358,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0d5cfdddd1f4",
       "title": "Warehouse Package Handler",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -405,6 +412,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1e16c8d2405c",
       "title": "Warehouse Package Handler",
       "company": "Target",
       "location": "North Chicago, IL",
@@ -458,6 +466,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "43d057a70071",
       "title": "Warehouse Loader",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -518,6 +527,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d3b7489dafae",
       "title": "Warehouse Sorter",
       "company": "Target",
       "location": "Chicago Ridge, IL",
@@ -577,6 +587,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "059608651235",
       "title": "Package Handler - Chicago North - Multiple shifts available",
       "company": "OnTrac",
       "location": "Des Plaines, IL",
@@ -631,6 +642,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3937aaaa2f6b",
       "title": "Night Shift Warehouse Dock Associate — $22.50/hr + Benefits",
       "company": "Penske Logistics",
       "location": "Bolingbrook, IL",
@@ -663,6 +675,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7458e53a13b5",
       "title": "Warehouse Package Handler — Immediate Openings",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -689,6 +702,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "e916d0ff8a4c",
       "title": "Weekend Package Handler - Fast-Paced Warehouse, $1 Extra",
       "company": "OnTrac",
       "location": "Romeoville, IL",
@@ -721,6 +735,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2eee0edd5db1",
       "title": "Packager — Forklift Operator for Rotating Shifts",
       "company": "Innophos",
       "location": "Chicago, IL",
@@ -748,6 +763,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4a83a9d4a01",
       "title": "Warehouse Package Handler - Full Time",
       "company": "Cadogan Tate Fine Art",
       "location": "Chicago, IL",
@@ -801,6 +817,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0eb3218e5b95",
       "title": "Night Shift Warehouse Dock Associate – Loading & Staging",
       "company": "Penske",
       "location": "Bolingbrook, IL",
@@ -833,6 +850,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed955968a02b",
       "title": "Package Handler - Part Time (Warehouse like)",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -890,6 +908,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b45f2cd7bac7",
       "title": "Seasonal Peak Warehouse Sorter—Immediate Hire|Flexible|Chicago",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -931,6 +950,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "923fe88fc3dd",
       "title": "Chicago Contract:UPS Preload Package Handler",
       "company": "United Parcel Service (UPS)",
       "location": "Chicago, IL",
@@ -993,6 +1013,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4bb4294fcaa",
       "title": "Urgent Hire in Chicago:Fedex Package Handler",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -1044,6 +1065,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "5571d6efa535",
       "title": "CDL A Yard Jockey/Package Handler",
       "company": "Shipoom Chicago",
       "location": "Westmont, IL",

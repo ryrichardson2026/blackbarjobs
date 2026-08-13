@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/warehouse-jobs-hiring-immediately",
   "market": "Chicago",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 16,
   "jobs": [
     {
+      "job_hash": "21c2585785da",
       "title": "Shipping and Receiving Associate",
       "company": "SPS",
       "location": "Schaumburg, IL",
@@ -71,6 +72,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a5302906bef6",
       "title": "Flexible Part-Time:Receiving Associate-Chicago",
       "company": "FedEx Supply Chain",
       "location": "Chicago, IL",
@@ -130,6 +132,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "544b7c8945cf",
       "title": "Chicago Full-time Overnight Warehouse Associate | Hiring",
       "company": "Amazon",
       "location": "Chicago, IL",
@@ -176,6 +179,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "3fa87490841b",
       "title": "Warehouse Associate - Hiring Immediately",
       "company": "Target",
       "location": "West Chicago, IL",
@@ -235,6 +239,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d27ffcadee81",
       "title": "Part-Time Outside Yard & Receiving",
       "company": "Menards",
       "location": "Bolingbrook, IL",
@@ -275,6 +280,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0953860dbc20",
       "title": "Airport Warehouse Agent (Cargo)",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -351,6 +357,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "9da080f90da7",
       "title": "Warehouse Production Associate",
       "company": "Simos",
       "location": "Chicago, IL",
@@ -420,6 +427,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "75a536d8681e",
       "title": "Overnight Warehouse Associate - Chicago, IL - $1,500 Sign-on Bonus",
       "company": "Logistics Pro Solutions",
       "location": "Chicago, IL",
@@ -473,6 +481,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7458e53a13b5",
       "title": "Warehouse Package Handler — Immediate Openings",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -499,6 +508,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a977d16ad853",
       "title": "Warehouse Order Selector - Sysco (Now Hiring)",
       "company": "Sysco",
       "location": "Chicago, IL",
@@ -553,6 +563,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ff67987521dc",
       "title": "Warehouse Associate – Record Center Specialist",
       "company": "RightStone",
       "location": "Chicago, IL",
@@ -603,6 +614,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "285d0079fd1a",
       "title": "Warehouse Shipper- Start Immediately!",
       "company": "Whole Foods",
       "location": "Chicago, IL",
@@ -621,6 +633,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed955968a02b",
       "title": "Package Handler - Part Time (Warehouse like)",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -678,6 +691,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b45f2cd7bac7",
       "title": "Seasonal Peak Warehouse Sorter—Immediate Hire|Flexible|Chicago",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -719,6 +733,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "47b6e327d9c9",
       "title": "Warehouse Order Selector",
       "company": "US0024 Sysco Chicago, Inc.",
       "location": "Des Plaines, IL",
@@ -772,6 +787,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2a99aa927506",
       "title": "Shorr West Chicago - WH - $17.60",
       "company": "Shorr - West Chicago",
       "location": "St. Charles, IL",

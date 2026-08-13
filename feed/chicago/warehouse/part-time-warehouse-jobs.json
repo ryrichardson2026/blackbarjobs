@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T22:45:49.582604+00:00",
+  "generated": "2026-08-13T23:05:47.113832+00:00",
   "page": "chicago/warehouse/part-time-warehouse-jobs",
   "market": "Chicago",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 35,
   "jobs": [
     {
+      "job_hash": "21c2585785da",
       "title": "Shipping and Receiving Associate",
       "company": "SPS",
       "location": "Schaumburg, IL",
@@ -71,6 +72,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "05332a374b1c",
       "title": "Warehouse Associate (Part-time, Flex)",
       "company": "Cardinal Health",
       "location": "Elgin, IL",
@@ -139,6 +141,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "740dc001aced",
       "title": "Warehouse Associate – Picking, Packing & Fulfillment",
       "company": "Alice & Wonder",
       "location": "Chicago, IL",
@@ -249,6 +252,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2ad4200f5a6b",
       "title": "UPS Night Sort Warehouse Associate",
       "company": "UPS",
       "location": "West Chicago, IL",
@@ -295,6 +299,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a5302906bef6",
       "title": "Flexible Part-Time:Receiving Associate-Chicago",
       "company": "FedEx Supply Chain",
       "location": "Chicago, IL",
@@ -354,6 +359,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "0dffab5a26e6",
       "title": "Elmhurst Part-time Twilight Shift Warehouse Associate | Hiring",
       "company": "UPS",
       "location": "Elmhurst, IL",
@@ -398,6 +404,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2449fd28dc66",
       "title": "Part-Time Package Handler - Warehouse (FedEx Packages) at Trans One, Inc. Chicago, IL",
       "company": "Trans One, Inc.",
       "location": "Chicago, IL",
@@ -454,6 +461,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ba47f3364005",
       "title": "UPS Part-Time Second Job Warehouse Associate — Evening Hours",
       "company": "UPS",
       "location": "Chicago, IL",
@@ -501,6 +509,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ccb248c503af",
       "title": "Part-Time Warehouse Associate: $22.75–$26/hr + Shift Diff",
       "company": "Roundel",
       "location": "Chicago, IL",
@@ -539,6 +548,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ce2b856f5a7a",
       "title": "Chicago,IL:Fedex Package Handler at Fedex Ground | Hiring",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -593,6 +603,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "66ebdaba9cde",
       "title": "Flexible Night Sort Warehouse Associate(Chicago Heights)",
       "company": "UPS",
       "location": "Chicago Heights, IL",
@@ -639,6 +650,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "dccaf746bb1a",
       "title": "Warehouse Associate(Part-Time)@ UPS-North Chicago",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -684,6 +696,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "89b78ef47ed9",
       "title": "Student-Friendly Part-Time Fedex Package Handler in Chicago",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -739,6 +752,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "37bfe35d7505",
       "title": "Hiring in North Chicago:Warehouse Associate(Part-Time)",
       "company": "UPS",
       "location": "North Chicago, IL",
@@ -781,6 +795,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "83809106407c",
       "title": "East Chicago Night Shift Sortation Warehouse Associate with $20-$23/hr",
       "company": "Amazon",
       "location": "East Chicago, IN",
@@ -837,6 +852,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "f91469ab4381",
       "title": "[Part-Time] Warehouse Associate-Chicago Heights",
       "company": "UPS",
       "location": "Chicago Heights, IL",
@@ -884,6 +900,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d7f4834e8dc0",
       "title": "Apply Now:Twilight Shift Warehouse Associate in Lombard | Hiring",
       "company": "UPS",
       "location": "Lombard, IL",
@@ -926,6 +943,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "d27ffcadee81",
       "title": "Part-Time Outside Yard & Receiving",
       "company": "Menards",
       "location": "Bolingbrook, IL",
@@ -966,6 +984,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "a1be12a80c65",
       "title": "Retail Warehouse & Production Specialist – Growth",
       "company": "Savers",
       "location": "Chicago, IL",
@@ -998,6 +1017,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1fced7fb7eb5",
       "title": "Part-Time Warehouse Equipment Operator",
       "company": "S&S Activewear",
       "location": "Lockport, IL",
@@ -1029,6 +1049,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2e57eae95960",
       "title": "Part-Time Forklift Operator — Weekend/Evening Shifts",
       "company": "R+L Carriers",
       "location": "Chicago, IL",
@@ -1055,6 +1076,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7458e53a13b5",
       "title": "Warehouse Package Handler — Immediate Openings",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -1081,6 +1103,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "cf4615cb8cfa",
       "title": "Warehouse Manager",
       "company": "Walmart",
       "location": "Oak Lawn, IL",
@@ -1099,6 +1122,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "63ed84ba8b21",
       "title": "Part-Time Warehouse & Shipping Specialist",
       "company": "e3 Diagnostics",
       "location": "Arlington Heights, IL",
@@ -1131,6 +1155,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "285d0079fd1a",
       "title": "Warehouse Shipper- Start Immediately!",
       "company": "Whole Foods",
       "location": "Chicago, IL",
@@ -1149,6 +1174,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "1cfd81842b90",
       "title": "Part-Time Warehouse Material Handler - Grow with an Employee-Owned Team",
       "company": "Graybar",
       "location": "Joliet, IL",
@@ -1181,6 +1207,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "ed955968a02b",
       "title": "Package Handler - Part Time (Warehouse like)",
       "company": "Federal Express Corporation",
       "location": "Chicago, IL",
@@ -1238,6 +1265,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "923fe88fc3dd",
       "title": "Chicago Contract:UPS Preload Package Handler",
       "company": "United Parcel Service (UPS)",
       "location": "Chicago, IL",
@@ -1300,6 +1328,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "c4bb4294fcaa",
       "title": "Urgent Hire in Chicago:Fedex Package Handler",
       "company": "FedEx Ground",
       "location": "Chicago, IL",
@@ -1351,6 +1380,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "7958bb3227a0",
       "title": "Warehouse / Delivery Staff",
       "company": "Bowery & Bash",
       "location": "Chicago, IL",
@@ -1415,6 +1445,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "4de0434aaddb",
       "title": "Forklift Operator - 2nd Shift",
       "company": "Tradebe",
       "location": "Chicago, IL",
@@ -1483,6 +1514,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "b37d6c2a3475",
       "title": "Warehouse Person - Part Time",
       "company": "Ameristar Casino Hotel East Chicago",
       "location": "East Chicago, IN",
@@ -1529,6 +1561,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "2502e4b8533c",
       "title": "Evening Warehouse Handler — Pack, Load & Move",
       "company": "Milwaukee Succeeds",
       "location": "Waukegan, IL",
@@ -1560,6 +1593,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "efe5f34b4eb9",
       "title": "Warehouse Associate",
       "company": "Floor & Decor",
       "location": "Chicago, IL",
@@ -1641,6 +1675,7 @@
       "market": "chicago"
     },
     {
+      "job_hash": "bdaed0c3997d",
       "title": "3PL Pick & Pack Warehouse Associate",
       "company": "SHIPSTARS 3PL",
       "location": "Waukegan, IL",
