@@ -167,6 +167,13 @@
       if (s.wh && v !== 'warehouse') return;              // warehouse-only attributes
       if (s.title.test(t) || (s.jt && jt.indexOf(s.jt) !== -1)) out.push(s.key);
     });
+    // part-time and full-time are mutually exclusive; a description mentioning both would
+    // otherwise tag both. Resolve by the structured schedule/job_type, or drop both if unclear.
+    if (out.indexOf('part-time') !== -1 && out.indexOf('full-time') !== -1) {
+      out = out.filter(function(k){ return k !== 'part-time' && k !== 'full-time'; });
+      if (jt.indexOf('part') !== -1) out.push('part-time');
+      else if (jt.indexOf('full') !== -1) out.push('full-time');
+    }
     return out;
   }
   // full searchable text incl. job_highlights (drives Requirements derivation)
@@ -315,6 +322,9 @@
     if(s === s.toUpperCase() && /^[A-Z0-9 /&,.-]+$/.test(s)) return '';  // ALLCAPS header
     // capitalized words joined by / or & with no sentence body ("Background / Experience / Skills")
     if(s.split(' ').length <= 6 && /^[A-Za-z][\w.-]*(?:\s*[/&]\s*[A-Za-z][\w.-]*)+$/.test(s)) return '';
+    // logistics boilerplate mis-filed under Responsibilities/Qualifications (schedule, pay,
+    // location...): reads identically across an employer's postings, so skip to the next item
+    if(/^(schedule|shift|hours|pay|compensation|salary|wage|location|address|start date|benefits)\b/i.test(s)) return '';
     s = s.replace(/^job summary:\s*/i,'').replace(/^summary:\s*/i,'');
     if(s.length > 150) s = s.slice(0,148).replace(/\s+\S*$/,'') + '…';
     return s;
@@ -344,8 +354,8 @@
     var href = esc((job.apply_link || '').trim()) || '#';
     var loc = esc(job.location || job.city || '');
     var age = agoLabel(job);
-    var sub = (isToday(job) ? '<span class="new">New</span>' : '') +
-      '<b>' + esc(job.company || 'Employer') + '</b>' +
+    var newflag = isToday(job) ? '<div class="newflag">New</div>' : '';
+    var sub = '<b>' + esc(job.company || 'Employer') + '</b>' +
       (loc ? ' · ' + loc : '') + (age ? ' · ' + age : '');
     var hp = highlightParts(job);
     var hl = hp ? '<div class="hl">' + esc(hp.a) + (hp.b ? '<span>·</span>' + esc(hp.b) : '') + '</div>' : '';
@@ -353,21 +363,22 @@
     (job._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tag ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
     if(job._roles[0]) tags += '<span class="tag">' + esc(roleLabel(job._roles[0])) + '</span>';
     var pp = displayPaySplit(job);
+    // Pay is its own line, de-emphasized. When there is no pay, the line is omitted entirely
+    // (no "Pay not listed" placeholder) so the card just closes up.
     var pay = pp
-      ? '<div class="pay"><b>' + esc(pp.big) + '</b>' + (pp.unit ? '<i>' + esc(pp.unit) + '</i>' : '') + '</div>'
-      : '<div class="pay none"><b>Pay not listed</b></div>';
+      ? '<div class="pay">' + esc(pp.big) + (pp.unit ? ' <i>' + esc(pp.unit) + '</i>' : '') + '</div>'
+      : '';
     var linkAttrs = ' target="_blank" rel="noopener noreferrer" data-i="' + job._i + '" onclick="return bbjCardApply(this, event)"';
     return '<li class="row">' +
         '<div class="rowmain">' +
+          newflag +
           '<div class="rowtitle"><a href="' + href + '"' + linkAttrs + '>' + esc(job.title) + '</a></div>' +
           '<div class="rowsub">' + sub + '</div>' +
           hl +
           (tags ? '<div class="tags">' + tags + '</div>' : '') +
-        '</div>' +
-        '<div class="rowfoot">' +
           pay +
-          '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
         '</div>' +
+        '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
       '</li>';
   }
 
