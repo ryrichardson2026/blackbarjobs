@@ -51,12 +51,44 @@
     ],
     "faqs": [
       [
-        "Do warehouse jobs in Chicago need experience?",
-        "Many do not. Entry level and no experience roles are common, and this page lists current openings, some of which hire without prior warehouse work."
+        "Do I need experience to get a warehouse job in Chicago?",
+        "Often no. Entry-level and no-experience roles are common in Chicago warehousing, and warehouse associate is the usual way in. Employers here screen for reliability, shift availability, and transportation before they screen for experience."
+      ],
+      [
+        "How much do warehouse jobs pay in Chicago?",
+        "The median across the {pay_n} of {pay_total} current listings that publish pay is about {pay_median} an hour, with most falling between {pay_low} and {pay_high}. Forklift operators run around {forklift_median}. These figures are computed from this board, not estimated."
+      ],
+      [
+        "Which pays more, the city or the suburbs?",
+        "It varies by employer more than by town, and this board does not carry enough priced listings in any one suburb to publish an honest area-by-area number. As a rule the outlying distribution corridors along I-55 and I-80 pay competitively but are harder to reach without a car."
+      ],
+      [
+        "Do I need a car?",
+        "For city facilities, often not: many are reachable by CTA or Metra. For the I-55 and I-80 distribution corridors, in practice yes, and overnight shifts in particular can end before transit runs frequently. A few large employers run shuttles from transit stops, so it is worth asking."
       ],
       [
         "What shifts are available?",
-        "Openings span day, overnight, night, and weekend schedules across the Chicago metro. Filter the full board to the shift you want."
+        "All of them. Chicago distribution runs around the clock, and this board carries first, second, overnight, weekend, and part-time roles. Overnight and weekend openings tend to fill more slowly, which means less competition if your schedule is flexible."
+      ],
+      [
+        "How long does it take to get hired?",
+        "Two to three weeks from application to first shift is typical. Hiring events at large distribution centers can compress that to a few days, and autumn peak hiring moves faster still."
+      ],
+      [
+        "Will I be drug tested?",
+        "Frequently, yes. Illinois protects lawful off-duty use under the Right to Privacy in the Workplace Act, but the Cannabis Regulation and Tax Act still lets employers run zero-tolerance policies, test, and withdraw an offer over a positive result, which a 2024 court decision affirmed. Powered-equipment roles are the most likely to test. Ask to see the written policy before you accept."
+      ],
+      [
+        "Do warehouse jobs come with benefits?",
+        "Full-time roles at larger employers generally do: health coverage after 30 to 90 days, a 401(k) with a partial match, and accrued paid time off, on top of the up to 40 hours of paid leave Illinois requires. Part-time and seasonal roles usually carry less."
+      ],
+      [
+        "Is it worth getting forklift certified first?",
+        "Usually not at your own expense. Most Chicago employers pay for it after hire, and an online course alone does not certify you because OSHA also requires a hands-on employer evaluation. Completing the classroom portion first saves an employer four to eight hours of training, which is a real edge. Forklift roles on this board run around {forklift_median} at the median."
+      ],
+      [
+        "What is the work physically like?",
+        "Standing and walking for a full shift, lifting in the 25 to 50 pound range depending on the role, and working to a tracked rate. Buildings are frequently not climate controlled. Equipment, inventory, and shipping roles involve much less repetitive lifting than picking and packing."
       ]
     ],
     "mid_cta_text": "See every warehouse opening in Chicago in one place, with pay and shift up front.",
@@ -106,7 +138,57 @@
         "🕒",
         "Part-Time Warehouse"
       ]
-    ]
+    ],
+    "pay_content_h2": "What warehouse work pays in Chicago",
+    "alert_band_h2": "Sign up for <em>warehouse job alerts</em>",
+    "alert_band_sub": "Get notified when new warehouse jobs open across Chicago.",
+    "hiring_steps": [
+      [
+        "Apply online",
+        "Most Chicago warehouse employers use a short form, not a resume upload. Ten minutes."
+      ],
+      [
+        "Phone screen or text",
+        "Usually within two to five days. They confirm your shift availability, whether you can lift the stated weight, and how you will get to the facility."
+      ],
+      [
+        "On-site interview or hiring event",
+        "Often a walk-through of the floor. Larger distribution centers run open hiring events where you can interview the same day you show up."
+      ],
+      [
+        "Background check and drug screen",
+        "Standard at most large facilities. Cannabis is legal in Illinois, but employers can still test and can withdraw an offer over a positive result."
+      ],
+      [
+        "Start date",
+        "Two weeks from application is typical. Peak season can be days."
+      ]
+    ],
+    "ladder": [
+      [
+        "Warehouse associate",
+        "Entry"
+      ],
+      [
+        "Forklift operator",
+        "3–12 months"
+      ],
+      [
+        "Lead / trainer",
+        "1–2 years"
+      ],
+      [
+        "Shift supervisor",
+        "2–4 years"
+      ],
+      [
+        "Operations / inventory manager",
+        "4+ years"
+      ]
+    ],
+    "cert_body": "<p>Median pay is shown for the steps this board currently prices. Lead and supervisor roles appear less often and rarely publish a rate, so they are left blank rather than estimated.</p><h3>Forklift certification</h3><p>OSHA requires certification to operate a powered industrial truck, and on this board a forklift role runs about {forklift_median} an hour at the median. The classroom portion takes one to four hours and costs roughly $40 to $60 online, but that alone does not certify you: OSHA also requires a hands-on evaluation by your employer in the actual workplace. Most Chicago employers pay for the whole process once you are hired, so paying out of pocket first is rarely necessary. Completing the classroom portion first still saves an employer four to eight hours of training time, which is a real edge over another applicant. Certification is valid for three years and is specific to the class of equipment you trained on.</p>",
+    "shifts_body": "<h3>Shift differentials</h3><p>Overnight and second shift usually pay a dollar to three dollars more per hour than days. If your schedule is flexible, nights are the quickest way to raise your hourly rate without changing employers.</p><h3>Weekly pay</h3><p>Roughly a third of Chicago warehouse employers pay weekly rather than every two weeks, and third-party logistics firms are more likely to than manufacturers. Listings that pay weekly usually say so.</p><h3>Benefits</h3><p>Full-time roles at larger employers typically include health coverage after 30 to 90 days, a 401(k) with some match, and paid time off that accrues by hours worked. Illinois also requires up to 40 hours of paid leave a year under the Paid Leave for All Workers Act. Part-time and seasonal roles usually carry less, though a few large distributors extend partial benefits to part-timers.</p><h3>Union warehouses</h3><p>Chicago has real union presence in warehousing and distribution, particularly at freight carriers, grocery distribution, and some cold storage. Teamsters Local 705, with about 17,000 members locally, and Local 710, with about 12,000 to 13,500 across Illinois, Indiana, and Iowa, both represent warehouse and dock work in the metro. Union facilities generally pay above the medians on this page and have defined step increases, but they hire less often and fill by seniority. Listings do not always state union status, so it is a fair question on the phone screen.</p>",
+    "work_body": "<p>Most warehouse roles keep you on your feet the entire shift, in a building that is often not climate controlled, moving product to a rate and accuracy target the system tracks. Lifting requirements are stated in each listing and usually fall between 25 and 50 pounds. Cold storage pays more because the environment is genuinely harder.</p><p>The physical demand is real, but it varies by role more than people expect. Equipment operation, inventory control, and shipping and receiving involve far less repetitive lifting than picking and packing. If lifting is a constraint, filter toward forklift and inventory roles and read the stated requirements rather than assuming.</p><p>Warehousing is also more mixed than the rest of the sector: nationally it runs about 66% men to 34% women, the least male-dominated part of transportation and warehousing. Turnover across the industry averages about 36%, which is why openings are constant and employers screen for reliability first. On a walk-through it is reasonable to ask about crew composition, locker and break facilities, and how overnight shifts are staffed.</p>"
   },
   {
     "market": "Chicago",

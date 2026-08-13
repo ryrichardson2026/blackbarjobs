@@ -506,6 +506,71 @@ def render_pay_range(stats, title):
     ) % (esc(title), stats["n"], stats["total"], fL, fR, mid,
          esc(_money0(stats["lo"])), esc(_money0(stats["med"])), esc(_money0(stats["hi"])))
 
+# ---- hub content stats (by-role pay, employers) ---------------------------
+# Feed-computed values for the researched hub sections. Every number a hub renders is
+# either produced here from the metro set (board.json) or drawn from the verified-facts
+# list in the builder. NEVER invented. Sections whose data is too thin are omitted, not
+# padded (content spec: "omit rather than fill").
+
+def _job_hourly_mid(j):
+    """Hourly-equivalent midpoint of a job's structured pay, or None if unusable."""
+    pmin = j.get("pay_min"); unit = (j.get("pay_unit") or "").upper()
+    if pmin is None or unit not in _PAY_PER_HOUR:
+        return None
+    f = _PAY_PER_HOUR[unit]; pmax = j.get("pay_max")
+    lo = pmin * f; hi = (pmax if pmax is not None else pmin) * f
+    if hi < lo:
+        lo, hi = hi, lo
+    return (lo + hi) / 2.0
+
+def _median(vals):
+    vals = sorted(vals); n = len(vals)
+    if not n:
+        return None
+    return vals[n//2] if n % 2 else (vals[n//2 - 1] + vals[n//2]) / 2.0
+
+def role_pay_rows(jobs, display_map, min_priced=5):
+    """[(label, openings, median_hourly)] for each role whose PRICED subset has at least
+    min_priced jobs, ordered by opening count desc. display_map: feed role key -> label;
+    roles absent from the map (modifiers like 'overnight') are skipped so the by-role table
+    stays job-types only. Roles with a thin priced subset are dropped (honest median)."""
+    by_role = {}
+    for j in jobs:
+        r = j.get("role")
+        if r not in display_map:
+            continue
+        by_role.setdefault(r, {"total": 0, "priced": []})
+        by_role[r]["total"] += 1
+        m = _job_hourly_mid(j)
+        if m is not None:
+            by_role[r]["priced"].append(m)
+    rows = []
+    for r, d in by_role.items():
+        if len(d["priced"]) < min_priced:
+            continue
+        rows.append((display_map[r], d["total"], _median(d["priced"])))
+    rows.sort(key=lambda t: -t[1])
+    return rows
+
+def employer_rows(jobs, n=6, blocklist=None):
+    """(rows, unique_count, top_share_pct): top-n employers by open count for the honest
+    'who is hiring' table, plus the fragmentation figures. blocklist drops names the ingest
+    layer missed (defensive; the feed is already staffing-filtered)."""
+    block = {b.strip().lower() for b in (blocklist or [])}
+    counts = {}
+    total = 0
+    for j in jobs:
+        co = (j.get("company") or "").strip()
+        if not co or co.lower() in block:
+            continue
+        counts[co] = counts.get(co, 0) + 1
+        total += 1
+    if not counts:
+        return [], 0, 0
+    ordered = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+    top_share = round(ordered[0][1] / total * 100) if total else 0
+    return ordered[:n], len(counts), top_share
+
 # A hub's paypanel carries data-pay-vertical / -metro / -title so the cron recomputes the
 # SAME metro-wide band on refresh (build == cron); board.json is the metro sample source.
 _PAY_META_RE = re.compile(

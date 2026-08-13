@@ -255,3 +255,68 @@
   .success-ic { width: 64px; height: 64px; margin: 0 auto 16px; }
   .success-wrap h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.7rem; font-weight: 800; color: var(--navy-deep); margin-bottom: 6px; }
   .success-wrap p { font-size: 0.9rem; color: var(--muted); margin-bottom: 16px; }
+
+  /* ==========================================================================
+     HUB CONTENT (below the board): end rule, alert band, and the researched
+     content sections — pay tables, employers, ladders, prose, FAQ, related.
+     Ported from the hub design mock onto the board tokens. All server-rendered
+     (crawlable): see DG2. Scoped under .hubc so it can't leak into the board.
+     ========================================================================== */
+  .hub-endrule { max-width:1180px; margin:2px auto 0; padding:2px 20px 26px; display:flex; align-items:center; gap:14px; }
+  .hub-endrule::before, .hub-endrule::after { content:""; flex:1; height:1px; background:var(--rule); }
+  .hub-endrule span { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:0.82rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted-2); white-space:nowrap; }
+
+  .hub-alertband { background:var(--ink); color:#fff; padding:34px 0; }
+  .hub-alertband .in { max-width:1180px; margin:0 auto; padding:0 20px; }
+  .hub-alertband h2 { font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1.72rem; line-height:1.12; letter-spacing:-0.012em; }
+  .hub-alertband h2 em { font-style:normal; color:var(--signal); }
+  .hub-alertband p { color:#AEB5BD; margin-top:8px; font-size:0.95rem; max-width:48ch; }
+  .hub-alertband .abtn { margin-top:18px; height:50px; padding:0 34px; cursor:pointer; border:0; background:var(--signal); color:var(--ink); font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1rem; letter-spacing:0.07em; text-transform:uppercase; }
+  .hub-alertband .abtn:hover { background:#fff; }
+  .hub-alertband .afine { color:#7C858E; font-size:0.8rem; margin-top:12px; }
+
+  .hubc { background:var(--paper); padding:36px 0 8px; }
+  .hubc .in { max-width:1180px; margin:0 auto; padding:0 20px; }
+  .hubc .sec { padding:26px 0; border-top:1px solid var(--rule); }
+  .hubc .sec:first-child { border-top:0; padding-top:6px; }
+  .hubc .sec h2 { font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1.5rem; line-height:1.14; letter-spacing:-0.012em; color:var(--navy-mid); margin-bottom:10px; }
+  .hubc .sec h3 { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.08rem; letter-spacing:0.01em; color:var(--navy-mid); margin:18px 0 6px; }
+  .hubc .sec p { margin-bottom:11px; max-width:68ch; color:var(--ink-2); }
+  .hubc .lede { color:var(--muted); font-size:0.9rem; margin-bottom:16px; }
+
+  .hubc .dtable { width:100%; border-collapse:collapse; margin:6px 0 4px; font-size:0.92rem; }
+  .hubc .dtable th { text-align:left; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:0.78rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); padding:0 10px 8px 0; border-bottom:2px solid var(--ink); }
+  .hubc .dtable th:last-child, .hubc .dtable td:last-child { text-align:right; padding-right:0; }
+  .hubc .dtable td { padding:11px 10px 11px 0; border-bottom:1px solid var(--rule); color:var(--ink-2); }
+  .hubc .dtable td b { font-family:'Barlow Condensed',sans-serif; font-size:1.06rem; font-weight:800; }
+  .hubc .dtable tr:last-child td { border-bottom:0; }
+  .hubc .dtable .sub { display:block; color:var(--muted); font-size:0.82rem; }
+
+  .hubc .ladder { list-style:none; counter-reset:s; margin-top:4px; padding:0; }
+  .hubc .ladder li { counter-increment:s; position:relative; padding:0 0 18px 40px; }
+  .hubc .ladder li::before { content:counter(s,decimal-leading-zero); position:absolute; left:0; top:1px; font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:0.92rem; color:var(--muted-2); letter-spacing:0.04em; }
+  .hubc .ladder li::after { content:""; position:absolute; left:11px; top:22px; bottom:2px; width:1px; background:var(--rule); }
+  .hubc .ladder li:last-child { padding-bottom:0; }
+  .hubc .ladder li:last-child::after { display:none; }
+  .hubc .ladder b { font-family:'Barlow Condensed',sans-serif; font-size:1.06rem; font-weight:700; display:block; color:var(--navy-mid); }
+  .hubc .ladder span { color:var(--muted); font-size:0.9rem; }
+
+  .hubc .faq details { border-bottom:1px solid var(--rule); }
+  .hubc .faq details:first-of-type { border-top:1px solid var(--rule); }
+  .hubc .faq summary { cursor:pointer; list-style:none; padding:15px 34px 15px 0; position:relative; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.1rem; color:var(--navy-mid); }
+  .hubc .faq summary::-webkit-details-marker { display:none; }
+  .hubc .faq summary::after { content:""; position:absolute; right:6px; top:22px; width:9px; height:9px; border-right:2px solid var(--muted); border-bottom:2px solid var(--muted); transform:rotate(45deg); transition:transform .15s; }
+  .hubc .faq details[open] summary::after { transform:rotate(-135deg); top:25px; }
+  .hubc .faq .ans { padding:0 0 16px; color:var(--ink-2); max-width:68ch; }
+  .hubc .faq .ans p { margin-bottom:9px; }
+
+  .hubc .related { display:flex; flex-wrap:wrap; gap:8px; margin-top:4px; }
+  .hubc .related a { text-decoration:none; color:var(--ink-2); border:1px solid var(--rule); padding:8px 14px; font-size:0.9rem; font-family:'Barlow Condensed',sans-serif; font-weight:700; }
+  .hubc .related a:hover { border-color:var(--ink); color:var(--ink); }
+
+  @media (min-width:700px) {
+    .hub-alertband { padding:44px 0; }
+    .hub-alertband h2 { font-size:2.1rem; }
+    .hubc { padding:44px 0 12px; }
+    .hubc .sec h2 { font-size:1.7rem; }
+  }

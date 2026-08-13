@@ -383,10 +383,14 @@
 
   function updateMeta() {
     var el = document.getElementById('resultsCount');
+    var n = FILTERED.length;
     if(el){
-      var n = FILTERED.length;
       el.innerHTML = n + ' <span>' + (n === 1 ? 'open position' : 'open positions') + '</span>';
     }
+    // Keep the hub "End of N openings" rule in sync with the live filtered count (present
+    // only on baked hub pages). Guarded, so the general board is unaffected.
+    var er = document.getElementById('endCount');
+    if(er){ er.textContent = n; }
     // "Filters" badge = active drawer filters
     var badge = (!PRESET.role && filters.role ? 1 : 0) +
                 (filters.shift && filters.shift !== PRESET.shift ? 1 : 0) +

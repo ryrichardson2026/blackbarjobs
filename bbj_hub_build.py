@@ -28,6 +28,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO))
 from bbj_feed_bake import (build_job_postings, render_job_schema, pay_range_stats, render_pay_range,
+                           role_pay_rows, employer_rows,
                            SCHEMA_START, SCHEMA_END, PAY_START, PAY_END)
 import bbj_hub_gate as gate
 
@@ -110,36 +111,79 @@ def load_metro_pay_set(feed_dir, vertical, metro):
             if j.get("vertical") == vertical and (j.get("market") or "").lower() == metro]
 
 
-HUB_CSS = """
-  .hub-band{background:linear-gradient(135deg,#000814,#001D3D);color:#fff;padding:34px 20px 30px;}
-  .hub-band-inner{max-width:1100px;margin:0 auto;}
-  .hub-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#FFC300;margin-bottom:8px;}
-  .hub-band h1{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.08;margin:0 0 8px;}
-  .hub-band h1 em{color:#FFC300;font-style:normal;}
-  .hub-band p{color:rgba(255,255,255,0.78);font-size:1rem;line-height:1.55;max-width:640px;margin:0;}
-  .hub-section{max-width:1100px;margin:0 auto;padding:0 20px;}
-  .hub-pay{background:#000814;padding:34px 0 38px;margin-top:8px;}
-  .hub-pay h2,.hub-content h2{font-family:'Barlow Condensed',sans-serif;font-weight:800;letter-spacing:0.01em;}
-  .hub-pay h2{color:#fff;font-size:1.6rem;margin:0 0 6px;}
-  .hub-pay p.intro{color:rgba(255,255,255,0.6);font-size:0.92rem;margin:0 0 18px;max-width:640px;}
-  .pay-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:640px;}
-  .pay-card{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:12px;padding:16px 14px;}
-  .pay-card-label{font-size:0.64rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:8px;}
-  .pay-card-rate{font-family:'Barlow Condensed',sans-serif;font-size:2rem;font-weight:800;color:#FFC300;line-height:1;}
-  .pay-card-annual{font-size:0.72rem;}
-  .hub-content{padding:36px 0 10px;}
-  .hub-content h2{color:#001D3D;font-size:1.5rem;margin:0 0 14px;}
-  .hub-content h3{font-family:'Barlow Condensed',sans-serif;font-weight:800;color:#001D3D;font-size:1.1rem;margin:22px 0 10px;}
-  .hub-content p{color:#333;font-size:0.95rem;line-height:1.7;max-width:720px;margin:0 0 12px;}
-  .hub-ul{list-style:none;padding:0;margin:0 0 8px;display:flex;flex-direction:column;gap:8px;max-width:720px;}
-  .hub-ul li{display:flex;gap:10px;font-size:0.95rem;color:#333;line-height:1.5;}
-  .hub-ul li::before{content:'';width:6px;height:6px;border-radius:50%;background:#FFC300;flex-shrink:0;margin-top:8px;}
-  .hub-faq-q{font-family:'Barlow Condensed',sans-serif;font-weight:800;color:#001D3D;font-size:1.02rem;margin:18px 0 6px;}
-  .hub-faq-a{color:#444;font-size:0.9rem;line-height:1.65;max-width:720px;margin:0;}
-  .hub-mesh{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px;}
-  .hub-mesh a{font-family:'Barlow Condensed',sans-serif;font-size:0.85rem;font-weight:700;color:#001D3D;background:#f7f8fa;border:1px solid #d0d5dd;border-radius:8px;padding:8px 14px;text-decoration:none;}
-  .hub-mesh a:hover{border-color:#FFC300;}
-"""
+# Job-role display labels for the by-role pay table (job TYPES only; shift/attribute
+# "roles" like overnight are deliberately excluded so the table stays honest).
+WH_ROLE_DISPLAY = {
+    "forklift":            "Forklift operator",
+    "package-handler":     "Package handler",
+    "warehouse-associate": "Warehouse associate",
+    "warehouse-general":   "General warehouse",
+}
+
+# Defensive employer blocklist (the ingest layer already filters staffing firms; this only
+# catches names it missed). Kept small on purpose.
+WH_EMPLOYER_BLOCKLIST = []
+
+MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def bake_date(feed_dir):
+    """'as of' date stated on the page, read from board.json's generated stamp so the
+    figures and the date always agree. Falls back to empty (section omits the date)."""
+    p = Path(feed_dir) / "board.json"
+    if not p.exists():
+        return ""
+    stamp = (json.loads(p.read_text(encoding="utf-8")).get("generated") or "")[:10]
+    try:
+        y, m, d = stamp.split("-")
+        return "%s %d" % (MONTHS[int(m)], int(d))
+    except Exception:
+        return ""
+
+
+def _money(v):
+    return "$%.2f" % v if v is not None else ""
+
+
+def render_dtable(headers, rows):
+    """Generic data table. rows = list of tuples; a cell may be (main, sub) for a stacked
+    label, or a plain string/number. Empty rows -> '' so the caller can omit the section."""
+    if not rows:
+        return ""
+    head = "".join("<th>%s</th>" % esc(h) for h in headers)
+    body = ""
+    for r in rows:
+        tds = ""
+        for c in r:
+            if isinstance(c, tuple):
+                main, sub = c
+                tds += '<td>%s<span class="sub">%s</span></td>' % (esc(main), esc(sub))
+            elif isinstance(c, dict) and "b" in c:      # {"b": bold value}
+                tds += "<td><b>%s</b></td>" % esc(c["b"])
+            else:
+                tds += "<td>%s</td>" % esc(c)
+        body += "<tr>%s</tr>" % tds
+    return ('<table class="dtable"><thead><tr>%s</tr></thead><tbody>%s</tbody></table>'
+            % (head, body))
+
+
+def render_ladder(steps):
+    """Numbered process/role ladder. steps = list of (title, detail)."""
+    if not steps:
+        return ""
+    lis = "".join("<li><b>%s</b><span>%s</span></li>" % (esc(t), esc(d)) for t, d in steps)
+    return '<ol class="ladder">%s</ol>' % lis
+
+
+def render_faq(faqs):
+    """Collapsible FAQ matching the mock (<details>/<summary>). Returns '' if none."""
+    if not faqs:
+        return ""
+    items = "".join(
+        '<details><summary>%s</summary><div class="ans"><p>%s</p></div></details>'
+        % (esc(q), esc(a)) for q, a in faqs)
+    return '<div class="faq">%s</div>' % items
 
 
 def build_hub(cfg, feed_dir, board_html):
@@ -173,17 +217,128 @@ def build_hub(cfg, feed_dir, board_html):
     h1 = "Find the Latest <em>%s</em> in Chicago" % esc(cfg["role"])
     intro = esc(cfg.get("hero_sub", ""))
 
-    # content-below sections
-    reqs = "".join("<li>%s</li>" % esc(r) for r in cfg.get("requirements", []))
-    duties = "".join("<li>%s</li>" % esc(d) for d in cfg.get("duties", []))
-    faqs = cfg.get("faqs", [])
-    faq_html = "".join('<div class="hub-faq-q">%s</div><p class="hub-faq-a">%s</p>' % (esc(q), esc(a))
-                       for q, a in faqs)
-    mesh = "".join('<a href="%s">%s %s</a>' % (esc(h), e, esc(l))
-                   for h, e, l in cfg.get("related_links", []))
+    # ---- feed-computed content values (metro set = board.json, the honest sample) -------
+    as_of = bake_date(feed_dir)
+    pstats = pay_range_stats(metro_set)
+    pay_n = pstats["n"] if pstats else 0
+    pay_total = pstats["total"] if pstats else len(metro_set)
+    role_rows = role_pay_rows(metro_set, WH_ROLE_DISPLAY)                 # [(label, openings, median)]
+    role_median_by_label = {lbl: med for lbl, _cnt, med in role_rows}
+    emp_rows, emp_unique, emp_top_share = employer_rows(
+        metro_set, n=6, blocklist=WH_EMPLOYER_BLOCKLIST)
+    n_open = len(feed_jobs)
 
-    role_body = cfg.get("role_body", "")
-    demand_body = cfg.get("demand_body", "")
+    # Bake-time tokens so config prose/FAQ carries the page's OWN computed numbers and never
+    # goes stale (content spec: "answer with the page's own computed numbers"). A token whose
+    # value is unavailable resolves to an empty string; write config so that reads cleanly.
+    def _m0(v):
+        return "$%d" % int(round(v)) if v is not None else ""
+    fk_med = role_median_by_label.get("Forklift operator")
+    subst = {
+        "{as_of}": as_of,
+        "{open}": str(n_open),
+        "{pay_n}": str(pay_n), "{pay_total}": str(pay_total),
+        "{pay_median}": _m0(pstats["med"]) if pstats else "",
+        "{pay_low}": _m0(pstats["lo"]) if pstats else "",
+        "{pay_high}": _m0(pstats["hi"]) if pstats else "",
+        "{forklift_median}": _m0(fk_med),
+        "{employers}": str(emp_unique),
+    }
+
+    def fill(s):
+        s = "" if s is None else str(s)
+        for k, v in subst.items():
+            s = s.replace(k, v)
+        return s
+
+    faqs = [(fill(q), fill(a)) for q, a in cfg.get("faqs", [])]
+
+    # ---- section: pay by role (range bar itself is baked above in #payWrap) --------------
+    pay_h2 = cfg.get("pay_content_h2", "What warehouse work pays in Chicago")
+    default_lede = (
+        "Hourly equivalent, computed from the %d of %d current Chicago warehouse listings "
+        "that publish pay. Salaried roles convert at 2,080 hours.%s For reference, Chicago's "
+        "minimum wage is $17.05 an hour and the Illinois state minimum is $15.00."
+        % (pay_n, pay_total, (" As of %s." % as_of) if as_of else ""))
+    pay_lede = fill(cfg.get("pay_lede", default_lede))
+    role_table = render_dtable(
+        ["Role", "Openings", "Median"],
+        [(lbl, cnt, {"b": _money(med)}) for lbl, cnt, med in role_rows])
+    pay_sec = ""
+    if role_table or pay_lede:
+        pay_sec = ('<section class="sec"><h2>%s</h2><p class="lede">%s</p>%s%s</section>'
+                   % (esc(pay_h2), esc(pay_lede), role_table, fill(cfg.get("pay_extra", ""))))
+
+    # ---- section: who is hiring ----------------------------------------------------------
+    emp_sec = ""
+    if emp_rows:
+        emp_table = render_dtable(["Employer", "Open"],
+                                  [(co, {"b": cnt}) for co, cnt in emp_rows])
+        frag = ("Chicago warehouse hiring is spread across many employers. %d different "
+                "companies have current openings here and no single one is more than %d%% of "
+                "them, so applying to several places at once is normal and turning one offer "
+                "down rarely closes the others." % (emp_unique, emp_top_share))
+        emp_sec = ('<section class="sec"><h2>Who is hiring right now</h2>'
+                   '<p class="lede">Employers with the most open warehouse roles on this board '
+                   'today.</p>%s<p>%s</p></section>' % (emp_table, esc(frag)))
+
+    # ---- section: getting hired (process ladder) -----------------------------------------
+    hire_sec = ""
+    hire_ladder = render_ladder([(s[0], s[1]) for s in cfg.get("hiring_steps", [])])
+    if hire_ladder:
+        hire_sec = ('<section class="sec"><h2>Getting hired</h2>'
+                    '<p class="lede">What the process usually looks like from applying to your '
+                    'first shift.</p>%s</section>' % hire_ladder)
+
+    # ---- section: moving up (role ladder + certification economics) ----------------------
+    # Ladder rows: [label, time]. Median pay is injected ONLY for roles the feed prices;
+    # steps above the feed (lead, supervisor, ops) show "—" rather than an invented figure.
+    move_sec = ""
+    ladder_cfg = cfg.get("ladder", [])
+    if ladder_cfg:
+        lrows = []
+        for label, tim in ladder_cfg:
+            med = role_median_by_label.get(label)
+            # Blank (not an em-dash: house style bans them) where the board does not price
+            # the step; the section note explains the blanks.
+            lrows.append((label, tim, {"b": _money(med)} if med is not None else ""))
+        move_table = render_dtable(["Step", "Typical time", "Median"], lrows)
+        move_sec = ('<section class="sec"><h2>Moving up</h2>'
+                    '<p class="lede">Warehouse work has a clear ladder, and most of it is '
+                    'learned on the job rather than in a classroom.</p>%s%s</section>'
+                    % (move_table, fill(cfg.get("cert_body", ""))))
+
+    # ---- prose sections (verified facts; per-hub differentiated via config) --------------
+    shifts_sec = ('<section class="sec"><h2>Shifts, pay structure and benefits</h2>%s</section>'
+                  % fill(cfg["shifts_body"])) if cfg.get("shifts_body") else ""
+    work_sec = ('<section class="sec"><h2>What the work is actually like</h2>%s</section>'
+                % fill(cfg["work_body"])) if cfg.get("work_body") else ""
+
+    # ---- FAQ (also emitted as FAQPage in <head>) -----------------------------------------
+    faq_sec = ('<section class="sec faq-sec"><h2>Common questions</h2>%s</section>'
+               % render_faq(faqs)) if faqs else ""
+
+    # ---- related hubs --------------------------------------------------------------------
+    mesh = "".join('<a href="%s">%s</a>' % (esc(h), esc(l)) for h, _e, l in cfg.get("related_links", []))
+    related_sec = ('<section class="sec"><h2>%s</h2><div class="related">%s</div></section>'
+                   % (esc(cfg.get("related_h2", "More warehouse jobs in Chicago")), mesh)) if mesh else ""
+
+    content_sections = "".join([pay_sec, emp_sec, hire_sec, move_sec, shifts_sec,
+                                work_sec, faq_sec, related_sec])
+
+    # Baked count is a no-JS fallback; bbj-board.js syncs #endCount to the live filtered
+    # count on load so this rule and the board's own meta count always agree.
+    endrule = ('<div class="hub-endrule"><span>End of '
+               '<span id="endCount">%d</span> openings</span></div>' % n_open) if n_open else ""
+    alert_h2 = cfg.get("alert_band_h2", 'Sign up for <em>job alerts</em>')
+    alert_sub = esc(cfg.get("alert_band_sub",
+                    "Get notified when new warehouse jobs open in Chicago."))
+    alertband = (
+        '<section class="hub-alertband"><div class="in">'
+        '<h2>%s</h2><p>%s</p>'
+        '<button class="abtn" type="button" onclick="openAlerts();return false;">Get alerts</button>'
+        '<p class="afine">Free. Unsubscribe any time.</p>'
+        '</div></section>' % (alert_h2, alert_sub))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -211,7 +366,6 @@ def build_hub(cfg, feed_dir, board_html):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/bbj-board.css">
-<style>{HUB_CSS}</style>
 <script type="application/ld+json">{faqpage_jsonld(faqs)}</script>
 {baked_schema}
 <script type="application/ld+json">{breadcrumb_jsonld(cfg)}</script>
@@ -222,9 +376,9 @@ def build_hub(cfg, feed_dir, board_html):
 <a class="nav-logo" href="/">BlackBar<span>Jobs</span></a>
 <a class="nav-cta" href="#" onclick="openAlerts();return false;">Get Alerts</a>
 </nav>
-<header class="hub-band">
-<div class="hub-band-inner">
-<div class="hub-eyebrow">Chicago Warehouse Jobs</div>
+<header class="board-hero">
+<div class="board-hero-inner">
+<div class="board-eyebrow">Chicago Warehouse Jobs</div>
 <h1>{h1}</h1>
 <p>{intro}</p>
 </div>
@@ -232,23 +386,13 @@ def build_hub(cfg, feed_dir, board_html):
 <script>window.BBJ_BOARD_PRESET = {json.dumps(preset)};</script>
 <script>window.BBJ_FEED_KEY="{feed_key}";</script>
 {filters_block}
+{endrule}
+{alertband}
 
-<!-- CONTENT: overview, requirements, FAQ, related -->
-<div class="hub-content">
-  <div class="hub-section">
-    <h2>{esc(cfg.get("role", "Warehouse Jobs"))} in Chicago</h2>
-    {demand_body}
-    {role_body}
-    <h3>What You Need</h3>
-    <ul class="hub-ul">{reqs}</ul>
-    <h3>Common Duties</h3>
-    <ul class="hub-ul">{duties}</ul>
-    <h3>Frequently Asked Questions</h3>
-    {faq_html}
-    <h3>More Warehouse Jobs in Chicago</h3>
-    <div class="hub-mesh">{mesh}</div>
-  </div>
-</div>
+<!-- CONTENT: researched, feed-computed sections (all server-rendered — DG2) -->
+<div class="hubc"><div class="in">
+{content_sections}
+</div></div>
 
 <footer>
 <div class="footer-links"><a href="/">Home</a><span> · </span><a href="/chicago">Chicago Jobs</a><span> · </span><a href="/job-board">All Jobs</a></div>
