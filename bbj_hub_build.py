@@ -338,15 +338,13 @@ def build_hub(cfg, feed_dir, board_html):
     # count on load so this rule and the board's own meta count always agree.
     endrule = ('<div class="hub-endrule"><span>End of '
                '<span id="endCount">%d</span> openings</span></div>' % n_open) if n_open else ""
+    # Thin, one-line, centered gold band (styled in bbj-board.css). Headline + CTA only.
     alert_h2 = cfg.get("alert_band_h2", 'Sign up for <em>job alerts</em>')
-    alert_sub = esc(cfg.get("alert_band_sub",
-                    "Get notified when new warehouse jobs open in Chicago."))
     alertband = (
         '<section class="hub-alertband"><div class="in">'
-        '<h2>%s</h2><p>%s</p>'
+        '<h2>%s</h2>'
         '<button class="abtn" type="button" onclick="openAlerts();return false;">Get alerts</button>'
-        '<p class="afine">Free. Unsubscribe any time.</p>'
-        '</div></section>' % (alert_h2, alert_sub))
+        '</div></section>' % alert_h2)
 
     return f"""<!DOCTYPE html>
 <html lang="en">

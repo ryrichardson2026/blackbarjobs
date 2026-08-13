@@ -266,14 +266,14 @@
   .hub-endrule::before, .hub-endrule::after { content:""; flex:1; height:1px; background:var(--rule); }
   .hub-endrule span { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:0.82rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted-2); white-space:nowrap; }
 
-  .hub-alertband { background:var(--ink); color:#fff; padding:34px 0; }
-  .hub-alertband .in { max-width:1180px; margin:0 auto; padding:0 20px; }
-  .hub-alertband h2 { font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1.72rem; line-height:1.12; letter-spacing:-0.012em; }
-  .hub-alertband h2 em { font-style:normal; color:var(--signal); }
-  .hub-alertband p { color:#AEB5BD; margin-top:8px; font-size:0.95rem; max-width:48ch; }
-  .hub-alertband .abtn { margin-top:18px; height:50px; padding:0 34px; cursor:pointer; border:0; background:var(--signal); color:var(--ink); font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1rem; letter-spacing:0.07em; text-transform:uppercase; }
-  .hub-alertband .abtn:hover { background:#fff; }
-  .hub-alertband .afine { color:#7C858E; font-size:0.8rem; margin-top:12px; }
+  /* Thin gold band: one centered line + a contrasting navy CTA, leading into the pay
+     section below. Dark text on gold for AA contrast; button is navy (not gold-on-gold). */
+  .hub-alertband { background:var(--signal); color:var(--navy-deep); padding:16px 20px; }
+  .hub-alertband .in { max-width:1180px; margin:0 auto; display:flex; align-items:center; justify-content:center; gap:12px 22px; flex-wrap:wrap; text-align:center; }
+  .hub-alertband h2 { font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1.3rem; line-height:1.15; letter-spacing:-0.005em; color:var(--navy-deep); }
+  .hub-alertband h2 em { font-style:normal; color:var(--navy-deep); }
+  .hub-alertband .abtn { height:42px; padding:0 26px; cursor:pointer; border:0; background:var(--navy-deep); color:#fff; font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:0.9rem; letter-spacing:0.07em; text-transform:uppercase; }
+  .hub-alertband .abtn:hover { background:var(--navy-mid); }
 
   .hubc { background:var(--paper); padding:36px 0 8px; }
   .hubc .in { max-width:1180px; margin:0 auto; padding:0 20px; }
@@ -315,8 +315,8 @@
   .hubc .related a:hover { border-color:var(--ink); color:var(--ink); }
 
   @media (min-width:700px) {
-    .hub-alertband { padding:44px 0; }
-    .hub-alertband h2 { font-size:2.1rem; }
+    .hub-alertband { padding:18px 20px; }
+    .hub-alertband h2 { font-size:1.5rem; }
     .hubc { padding:44px 0 12px; }
     .hubc .sec h2 { font-size:1.7rem; }
   }
