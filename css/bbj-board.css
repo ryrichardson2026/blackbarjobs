@@ -14,7 +14,7 @@
     --border: #e2e5ea;
     --green: #1a6b2e;
     --ink:#0B0D10; --ink-2:#1C2126; --muted-2:#9AA1AA;
-    --hair:#E4E7EB; --paper:#FFFFFF; --wash:#F7F8F9; --signal:#FFC300; --fresh:#0F7B3E; --rule:#D6DAE0;
+    --hair:#E4E7EB; --paper:#FFFFFF; --wash:#F7F8F9; --field:#F1F3F5; --signal:#FFC300; --fresh:#0F7B3E; --rule:#D6DAE0;
     --night:#2B3A67; --night-bg:#EDF0F7; --wknd:#7A3B2E; --wknd-bg:#F8EFEC; --part:#4A5A2E; --part-bg:#F1F4EA;
     --full:#3A4249; --full-bg:#EFF1F3; --noexp:#6B4A15; --noexp-bg:#FAF2E4;
   }
@@ -22,7 +22,7 @@
   html { scroll-behavior: smooth; }
   body {
     font-family: 'Barlow', sans-serif;
-    background: var(--paper);
+    background: var(--field);   /* light grey page so the white cards separate and the dark filter rail transitions into the results */
     color: var(--charcoal);
     font-size: 16px;
     line-height: 1.6;
@@ -92,7 +92,7 @@
   .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 
   /* ── FILTER RAIL (dark, sticky below the fixed nav) ── */
-  .rail{position:sticky;top:49px;z-index:100;background:var(--ink);padding:12px 0;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+  .rail{position:sticky;top:49px;z-index:100;background:var(--ink);padding:12px 0;box-shadow:0 3px 8px rgba(0,0,0,.12)}
   .rail-in{max-width:1180px;margin:0 auto;padding:0 20px;display:flex;gap:8px;align-items:center}
   .search{flex:1 1 auto;position:relative;min-width:0}
   .search input{width:100%;height:44px;background:#20262C;border:1px solid #2E353C;border-radius:3px;color:#fff;font-family:'Barlow',sans-serif;font-size:0.95rem;padding:0 14px 0 40px;outline:none}
@@ -116,8 +116,12 @@
     .moretoggle{order:3;flex:1 1 100%;justify-content:center}
   }
 
+  /* ── RESULTS SECTION HEADER (updates with vertical + location) ── */
+  .board-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.5rem;line-height:1.12;letter-spacing:-0.012em;color:var(--navy-mid);padding:18px 0 0}
+  @media(min-width:700px){ .board-title{font-size:1.75rem} }
+
   /* ── ACTIVE FILTER PILLS ── */
-  .active{padding:14px 0 0;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+  .active{padding:10px 0 0;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
   .active:empty{display:none}
   .pill{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--hair);border-radius:100px;padding:5px 8px 5px 13px;font-size:0.83rem;font-weight:500;color:var(--ink-2);background:var(--paper)}
   .pill.locked{border-color:var(--ink);background:var(--ink);color:#fff;padding-right:13px}

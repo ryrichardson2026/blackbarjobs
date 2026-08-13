@@ -422,6 +422,13 @@
     // only on baked hub pages). Guarded, so the general board is unaffected.
     var er = document.getElementById('endCount');
     if(er){ er.textContent = n; }
+    // Results section header: "{Vertical} Jobs in {Location}", tracking the current selection.
+    var bt = document.getElementById('boardTitle');
+    if(bt){
+      var vLabel = (filters.vertical && TAXONOMY[filters.vertical]) ? TAXONOMY[filters.vertical].label : '';
+      var locLabel = metroFromLoc(filters.loc);
+      bt.textContent = (vLabel ? vLabel + ' Jobs' : 'All Jobs') + (locLabel ? ' in ' + locLabel : '');
+    }
     // "Filters" badge = active drawer filters
     var badge = (!PRESET.role && filters.role ? 1 : 0) +
                 (filters.shift && filters.shift !== PRESET.shift ? 1 : 0) +
