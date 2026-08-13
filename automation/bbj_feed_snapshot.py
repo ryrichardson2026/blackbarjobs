@@ -171,6 +171,9 @@ def main():
     ap.add_argument("--out", default=DEFAULT_OUT)
     ap.add_argument("--market", help="filter to one metro")
     ap.add_argument("--url", default=os.environ.get("SUPABASE_URL", DEFAULT_SUPABASE_URL))
+    ap.add_argument("--override", action="store_true",
+                    help="force writing board.json even if it drops >20%% below the previous "
+                         "committed version (use only when a real inventory drop is expected)")
     args = ap.parse_args()
 
     key = os.environ.get("SUPABASE_SERVICE_KEY")
@@ -206,21 +209,20 @@ def main():
         elif n_exact == 0:
             summary["fallback_heavy"].append(t["key"])
 
-    # ---- master board feed: ONLY the most recent live pull, deduped by apply_link ----
-    # board.json = the current pull, NOT cumulative active history. The reference is
-    # the newest last_seen_at across active rows: the latest fetch stamps every job it
-    # saw this run with the same timestamp, so rows last seen before that date were not
-    # in the current pull and are excluded. posted_date is also required — a row with
-    # no posted date has no freshness guarantee and no valid JobPosting.datePosted.
-    _seen = [j.get("last_seen_at") for j in jobs if j.get("last_seen_at")]
-    ref_date = max(_seen)[:10] if _seen else None
+    # ---- master board feed: METHOD B — every active job with a posted_date, deduped ----
+    # NO last_seen_at freshness filter. The ingest runs Tue/Thu/Sat and only re-stamps the
+    # query slice it fetched that run, so a job seen Tuesday keeps a Tuesday last_seen until
+    # its slice re-runs Thursday. The previous method (last_seen == the single newest date)
+    # therefore dropped every still-live job whose slice had not re-run yet — a property of
+    # incremental ingest, not of job availability. That silently cut the live board ~40-45%
+    # on EVERY cron (see the Jul-21-onward collapse). Freshness is already enforced upstream
+    # by bbj_feed_fetch.py (--staleness-days marks truly-dead jobs inactive), so "active +
+    # posted_date" is the correct set. posted_date stays required (valid JobPosting.datePosted).
     board = []
     seen_apply = set()
     for j in sorted(jobs, key=rank_key):
-        if ref_date and (j.get("last_seen_at") or "")[:10] < ref_date:
-            continue                                    # not in the most recent pull
         if not j.get("posted_date"):
-            continue                                    # no freshness / no datePosted
+            continue                                    # no datePosted / no freshness stamp
         al = j.get("apply_link")
         if al and al in seen_apply:
             continue
@@ -234,20 +236,36 @@ def main():
     for r in board:
         _bym[r["market"]] = _bym.get(r["market"], 0) + 1
     bym_str = ", ".join("%s=%d" % (k, _bym[k]) for k in sorted(_bym))
-    # Projection BEFORE writing (step 4). A real current pull should land in a sane
-    # band; well outside it means the last_seen_at assumption is off or the pull was
-    # partial, so refuse to overwrite the good board with a bad run.
-    print("board projection: %d rows  (last_seen>=%s, posted_date not null)  [%s]" %
-          (len(board), ref_date, bym_str))
-    if len(board) < 200 or len(board) > 3000:
-        print("STOP: projected board size %d is outside the expected 200-3000 band; "
-              "NOT overwriting board.json (partial pull or wrong assumption). Review first."
-              % len(board), file=sys.stderr)
-    else:
-        with open(os.path.join(args.out, "board.json"), "w", encoding="utf-8") as f:
-            json.dump({"generated": now, "count": len(board), "jobs": board},
-                      f, indent=2, ensure_ascii=False)
-        print("Wrote board.json: %d jobs (%s)" % (len(board), bym_str))
+
+    # ---- write guard: never silently ship a shrunken board -------------------------------
+    # (a) sane absolute band, and (b) NEVER write a board.json more than 20% below the
+    # previous committed version without --override. A drop that large is a bad/partial pull
+    # or a filter regression, and this exact class of failure went unnoticed for a month.
+    # Refuse loudly and exit non-zero so the workflow fails visibly instead of committing it.
+    board_path = os.path.join(args.out, "board.json")
+    prev_count = None
+    if os.path.exists(board_path):
+        try:
+            prev_count = len(json.load(open(board_path, encoding="utf-8")).get("jobs") or [])
+        except Exception:
+            prev_count = None
+    print("board projection: %d rows  (method B: active + posted_date, deduped)  [%s]  prev=%s"
+          % (len(board), bym_str, prev_count))
+    floor = int(prev_count * 0.8) if prev_count else None
+    refuse = None
+    if len(board) < 200 or len(board) > 5000:
+        refuse = "size %d is outside the sane 200-5000 band" % len(board)
+    elif floor is not None and len(board) < floor and not args.override:
+        refuse = ("size %d is >20%% below the previous committed board (%d rows; floor %d). "
+                  "This is the silent-cut failure mode; pass --override only if the drop is real."
+                  % (len(board), prev_count, floor))
+    if refuse:
+        print("STOP: refusing to write board.json — %s" % refuse, file=sys.stderr)
+        sys.exit(1)
+    with open(board_path, "w", encoding="utf-8") as f:
+        json.dump({"generated": now, "count": len(board), "jobs": board},
+                  f, indent=2, ensure_ascii=False)
+    print("Wrote board.json: %d jobs (%s)" % (len(board), bym_str))
 
     with open(os.path.join(args.out, "_manifest.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
