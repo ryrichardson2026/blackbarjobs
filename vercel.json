@@ -14,6 +14,16 @@
   ],
   "redirects": [
     {
+      "source": "/chicago/chicago-index",
+      "destination": "/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/register-access",
+      "destination": "/register",
+      "permanent": true
+    },
+    {
       "source": "/js/bbj-board.css",
       "destination": "/css/bbj-board.css",
       "permanent": true
