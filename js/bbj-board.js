@@ -364,8 +364,10 @@
           hl +
           (tags ? '<div class="tags">' + tags + '</div>' : '') +
         '</div>' +
-        pay +
-        '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
+        '<div class="rowfoot">' +
+          pay +
+          '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
+        '</div>' +
       '</li>';
   }
 
