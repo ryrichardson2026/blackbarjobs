@@ -355,30 +355,32 @@
     var loc = esc(job.location || job.city || '');
     var age = agoLabel(job);
     var newflag = isToday(job) ? '<div class="newflag">New</div>' : '';
-    var sub = '<b>' + esc(job.company || 'Employer') + '</b>' +
-      (loc ? ' · ' + loc : '') + (age ? ' · ' + age : '');
-    var hp = highlightParts(job);
-    var hl = hp ? '<div class="hl">' + esc(hp.a) + (hp.b ? '<span>·</span>' + esc(hp.b) : '') + '</div>' : '';
-    var tags = '';
-    (job._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tag ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
-    if(job._roles[0]) tags += '<span class="tag">' + esc(roleLabel(job._roles[0])) + '</span>';
+    // .cs b is display:block, so company is line 1 and "location · age" is line 2.
+    var meta = [loc, age].filter(Boolean).join(' · ');
+    var sub = '<b>' + esc(job.company || 'Employer') + '</b>' + meta;
     var pp = displayPaySplit(job);
-    // Pay is its own line, de-emphasized. When there is no pay, the line is omitted entirely
-    // (no "Pay not listed" placeholder) so the card just closes up.
+    // Pay on its own line; omitted (empty .cpay, zero margins) when absent — no placeholder.
     var pay = pp
-      ? '<div class="pay">' + esc(pp.big) + (pp.unit ? ' <i>' + esc(pp.unit) + '</i>' : '') + '</div>'
-      : '';
+      ? '<div class="cpay"><b>' + esc(pp.big) + '</b>' + (pp.unit ? '<i>' + esc(pp.unit) + '</i>' : '') + '</div>'
+      : '<div class="cpay empty"></div>';
+    var hp = highlightParts(job);
+    // Reserved-height .cdesc always renders (empty when no highlights) so cards stay uniform.
+    var desc = hp
+      ? '<p class="cdesc">' + esc(hp.a) + (hp.b ? '<span>·</span>' + esc(hp.b) : '') + '</p>'
+      : '<p class="cdesc"></p>';
+    var tags = '';
+    (job._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tg ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
+    if(job._roles[0]) tags += '<span class="tg">' + esc(roleLabel(job._roles[0])) + '</span>';
     var linkAttrs = ' target="_blank" rel="noopener noreferrer" data-i="' + job._i + '" onclick="return bbjCardApply(this, event)"';
-    return '<li class="row">' +
-        '<div class="rowmain">' +
-          newflag +
-          '<div class="rowtitle"><a href="' + href + '"' + linkAttrs + '>' + esc(job.title) + '</a></div>' +
-          '<div class="rowsub">' + sub + '</div>' +
-          hl +
-          (tags ? '<div class="tags">' + tags + '</div>' : '') +
-          pay +
-        '</div>' +
-        '<a class="view" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View</a>' +
+    // Card order: New -> title -> company -> pay -> description -> tags -> View (per reference).
+    return '<li class="card">' +
+        newflag +
+        '<h3 class="ct"><a href="' + href + '"' + linkAttrs + '>' + esc(job.title) + '</a></h3>' +
+        '<div class="cs">' + sub + '</div>' +
+        pay +
+        desc +
+        '<div class="ctags">' + tags + '</div>' +
+        '<a class="cview" href="' + href + '"' + linkAttrs + ' aria-label="View and apply: ' + esc(job.title) + '">View job</a>' +
       '</li>';
   }
 
