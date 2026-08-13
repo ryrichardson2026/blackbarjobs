@@ -22,6 +22,7 @@ import os, re, csv, argparse, sys
 GTM_ID              = "GTM-TP9JXK39"
 SHARED_OVERLAY_JS   = "/js/bbj-register-overlay.js"
 FEED_JS             = "/js/bbj-feed.js"
+BOARD_JS            = "/js/bbj-board.js"   # board-based hubs (warehouse) use this instead
 FEED_KEY            = "BBJ_FEED_KEY"
 AUTH_SCRIPTS        = [
     "@supabase/supabase-js",
@@ -111,8 +112,10 @@ def check_page(path, relpath):
     if has_feed_intent(html):
         if "output=csv" in html:
             issues.append(("FIX", "feed", "Job feed is still on the OLD system (Google Sheet CSV)"))
-        if FEED_KEY not in html or FEED_JS not in html:
-            issues.append(("FIX", "feed", "Job feed missing the new setup (BBJ_FEED_KEY + bbj-feed.js)"))
+        # A page is correctly wired if it carries BBJ_FEED_KEY and loads EITHER the feed
+        # renderer (bbj-feed.js) or the board renderer (bbj-board.js, used by hub pages).
+        if FEED_KEY not in html or (FEED_JS not in html and BOARD_JS not in html):
+            issues.append(("FIX", "feed", "Job feed missing the new setup (BBJ_FEED_KEY + bbj-feed.js/bbj-board.js)"))
 
     # 4) NO wrong-metro copy (the classic: "DFW" leaking onto a Houston/Austin/SA page)
     metro = detect_metro(html, relpath)

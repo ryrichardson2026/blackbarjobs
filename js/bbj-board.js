@@ -125,7 +125,12 @@
     { key:'weekend',       label:'Weekend',       title:/weekend|saturday|sunday/ },
     { key:'part-time',     label:'Part-time',     title:/part[\s-]?time/,  jt:'part' },
     { key:'full-time',     label:'Full-time',     title:/full[\s-]?time/,  jt:'full' },
-    { key:'no-experience', label:'No Experience', title:/no experience|no[\s-]?exp|entry[\s-]?level|will train/ }
+    { key:'no-experience', label:'No Experience', title:/no experience|no[\s-]?exp|entry[\s-]?level|will train/ },
+    // Warehouse-only attributes (wh:true). deriveShifts skips them for other verticals, so
+    // they never appear on the security board. They match the description (see deriveShifts),
+    // which is where "pays weekly" / "hiring immediately" actually live.
+    { key:'hiring-immediately', label:'Hiring immediately', title:/immediate|hiring now|now hiring|urgently hiring|start (?:today|now|this week)/, wh:true },
+    { key:'pay-weekly',    label:'Weekly pay',    title:/weekly pay|paid weekly|pays? weekly|weekly paycheck|paid every week/, wh:true }
   ];
   // Requirements axis (multi-select) — derived from title + job_highlights text.
   var REQS = [
@@ -150,10 +155,16 @@
     return roles;
   }
   function deriveShifts(job) {
+    var v = job._vertical || job.vertical || '';
     var t = ((job.title || '') + ' ' + (job.company || '')).toLowerCase();
+    // Warehouse shift/attribute matching is description-aware (board parity with the Python
+    // feed deriver): "weekend", "pays weekly", "hiring immediately" live in the description,
+    // not the title. Other verticals stay title+company only, so security is unchanged.
+    if (v === 'warehouse') t += ' ' + (job.description || '').toLowerCase();
     var jt = (job.schedule || job.job_type || '').toLowerCase();
     var out = [];
     SHIFTS.forEach(function(s){
+      if (s.wh && v !== 'warehouse') return;              // warehouse-only attributes
       if (s.title.test(t) || (s.jt && jt.indexOf(s.jt) !== -1)) out.push(s.key);
     });
     return out;
@@ -500,6 +511,7 @@
     var html = '<option value="">Any shift</option>';   // NEVER defaults to full-time
     SHIFTS.forEach(function(s){
       var n = base.filter(function(j){ return (j._shifts||[]).indexOf(s.key) !== -1; }).length;
+      if (s.wh && n === 0) return;                        // hide warehouse-only attrs off-context
       html += '<option value="'+s.key+'">'+esc(s.label)+' ('+n+')</option>';
     });
     return html;
@@ -543,7 +555,7 @@
     if(!PRESET.shift){
       html += '<div class="fgroup"><div class="flabel">Shift &amp; schedule</div><div class="opts">';
       html += optHTML('shift','', 'Any shift', !filters.shift);
-      SHIFTS.forEach(function(s){ html += optHTML('shift', s.key, s.label, filters.shift===s.key); });
+      SHIFTS.forEach(function(s){ if(s.wh && filters.vertical!=='warehouse') return; html += optHTML('shift', s.key, s.label, filters.shift===s.key); });
       html += '</div></div>';
     }
     // REQUIREMENTS (multi)

@@ -60,6 +60,11 @@ ROLE_PATTERNS = {
  "package-handler": r"\bpackage\b|\bparcel\b|\bsorter\b|\bhandler\b|\bloader\b|\bunloader\b|\bdock\b",
  "warehouse-associate": r"\bwarehouse\b|\bassociate\b|\bpicker\b|\bpacker\b|\bmaterial\s*handler\b|\bdistribution\b|\bfulfillment\b|\bwarehouse\s*worker\b",
  "warehouse-general": r".",
+ # Warehouse modifier hubs (Task 2). night-shift / entry-level intentionally near the
+ # overnight / no-experience patterns; the build-time gate dedups if a set is a duplicate.
+ "night-shift": r"\bnight\s*shift\b|\bnights\b|\bovernight\b|\bgraveyard\b",
+ "hiring-immediately": r"\bimmediate|\bhiring\s*now\b|\bstart\s*(today|now|this\s*week)\b|\bnow\s*hiring\b",
+ "pay-weekly": r"\bweekly\s*pay\b|\bpaid\s*weekly\b|\bpay(s)?\s*weekly\b|\bweekly\s*paycheck\b",
 }
 def role_re(role):
     pat = ROLE_PATTERNS.get(role)

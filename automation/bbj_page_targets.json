@@ -2157,7 +2157,7 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
     },
     {
       "key": "chicago/warehouse/warehouse-associate-jobs",
@@ -2170,7 +2170,7 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
     },
     {
       "key": "chicago/warehouse/forklift-operator-jobs",
@@ -2183,7 +2183,7 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
     },
     {
       "key": "chicago/warehouse/package-handler-jobs",
@@ -2196,7 +2196,7 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
     },
     {
       "key": "chicago/warehouse/overnight-warehouse-jobs",
@@ -2209,7 +2209,7 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
     },
     {
       "key": "chicago/warehouse/part-time-warehouse-jobs",
@@ -2222,7 +2222,46 @@
       "container": "indexJobFeed",
       "has_feed_block": true,
       "vertical": "warehouse",
-      "cap": 30
+      "cap": 200
+    },
+    {
+      "key": "chicago/warehouse/weekend-warehouse-jobs",
+      "path": "chicago/warehouse/weekend-warehouse-jobs.html",
+      "market": "Chicago",
+      "role": "weekend",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 200
+    },
+    {
+      "key": "chicago/warehouse/warehouse-jobs-hiring-immediately",
+      "path": "chicago/warehouse/warehouse-jobs-hiring-immediately.html",
+      "market": "Chicago",
+      "role": "hiring-immediately",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 200
+    },
+    {
+      "key": "chicago/warehouse/warehouse-jobs-that-pay-weekly",
+      "path": "chicago/warehouse/warehouse-jobs-that-pay-weekly.html",
+      "market": "Chicago",
+      "role": "pay-weekly",
+      "city": "chicago",
+      "city_major": false,
+      "target_type": "city-role",
+      "container": "indexJobFeed",
+      "has_feed_block": true,
+      "vertical": "warehouse",
+      "cap": 200
     }
   ]
 }

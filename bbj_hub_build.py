@@ -42,6 +42,9 @@ FEEDROLE_TO_PRESET = {
     "package-handler":     ("role", "package-handler"),
     "overnight":           ("shift", "overnight"),
     "part-time":           ("shift", "part-time"),
+    "weekend":             ("shift", "weekend"),
+    "hiring-immediately":  ("shift", "hiring-immediately"),
+    "pay-weekly":          ("shift", "pay-weekly"),
 }
 
 
@@ -191,9 +194,17 @@ def build_hub(cfg, feed_dir, board_html):
     slug = cfg["slug"]; title = cfg["title"]; meta = cfg["meta_desc"]
     canonical = BASE_URL + slug
     feed_key = cfg.get("feed_key", slug.lstrip("/"))
-    feed_jobs = load_feed_jobs(feed_dir, feed_key)
+    fp = Path(feed_dir) / (feed_key + ".json")
+    feed = json.loads(fp.read_text(encoding="utf-8")) if fp.exists() else {}
+    feed_jobs = feed.get("jobs") or []
+    feed_exact = int(feed.get("exact") or 0)
 
-    objs, _dropped = build_job_postings(feed_jobs)
+    # Bake JobPosting schema (the Google Jobs channel) from the hub's RELEVANT jobs. The
+    # metro hub takes the whole feed; role/modifier hubs take only their exact matches
+    # (jobs[:exact]) so a hub's schema is never padded with off-topic top-up jobs. The
+    # visible board loads board.json and filters by preset, so this never thins the display.
+    schema_jobs = feed_jobs if cfg.get("hub_tier") == "metro" else feed_jobs[:feed_exact]
+    objs, _dropped = build_job_postings(schema_jobs)
     baked_schema = SCHEMA_START + render_job_schema(objs) + SCHEMA_END
 
     preset = preset_for(cfg)
@@ -291,18 +302,15 @@ def build_hub(cfg, feed_dir, board_html):
                     'first shift.</p>%s</section>' % hire_ladder)
 
     # ---- section: moving up (role ladder + certification economics) ----------------------
-    # Ladder rows: [label, time]. Median pay is injected ONLY for roles the feed prices;
-    # steps above the feed (lead, supervisor, ops) show "—" rather than an invented figure.
+    # Ladder rows: [label, time]. Deliberately NO per-step median column: current per-role
+    # medians on a thin metro sample are noisy and can invert the progression (a forklift
+    # sample can read below associate), which would make "Moving up" show a pay cut. Current
+    # pay lives in the by-role table above; the ladder shows the steps and typical time only.
     move_sec = ""
     ladder_cfg = cfg.get("ladder", [])
     if ladder_cfg:
-        lrows = []
-        for label, tim in ladder_cfg:
-            med = role_median_by_label.get(label)
-            # Blank (not an em-dash: house style bans them) where the board does not price
-            # the step; the section note explains the blanks.
-            lrows.append((label, tim, {"b": _money(med)} if med is not None else ""))
-        move_table = render_dtable(["Step", "Typical time", "Median"], lrows)
+        lrows = [(label, tim) for label, tim in ladder_cfg]
+        move_table = render_dtable(["Step", "Typical time"], lrows)
         move_sec = ('<section class="sec"><h2>Moving up</h2>'
                     '<p class="lede">Warehouse work has a clear ladder, and most of it is '
                     'learned on the job rather than in a classroom.</p>%s%s</section>'
