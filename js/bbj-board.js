@@ -1078,15 +1078,42 @@
     for(var i=0;i<b.length;i++){
       var t = ((b[i] && b[i].title) || '').toLowerCase();
       if(names.some(function(n){ return t.indexOf(n) !== -1; })){
-        (b[i].items || []).forEach(function(it){ it = (it||'').replace(/�/g,'').trim(); if(it) out.push(it); });
+        (b[i].items || []).forEach(function(it){ var c = cleanItem(it); if(c) out.push(c); });   // same filter as the card row
       }
     }
     return out.slice(0,8);
   }
-  function descParas(s){
-    s = (s||'').replace(/�/g,'').trim();
-    var parts = s.split(/\n{2,}/).map(function(p){ p = p.trim(); return p ? '<p>' + esc(p).replace(/\n/g,'<br>') + '</p>' : ''; }).join('');
-    return parts || '<p>' + esc(s) + '</p>';
+  // Allowlist sanitizer for the scraped description HTML: keep only basic formatting tags
+  // (no attributes), drop <script>/<style>/<iframe> and their content, unwrap <a> (keep text
+  // -- outbound links inside a scraped posting shouldn't be clickable), collapse <br> runs.
+  var _DESC_ALLOW = { P:1, BR:1, UL:1, OL:1, LI:1, STRONG:1, EM:1, B:1, I:1 };
+  var _DESC_DROP  = { SCRIPT:1, STYLE:1, IFRAME:1, NOSCRIPT:1, TEMPLATE:1, HEAD:1 };
+  function sanitizeDesc(html){
+    if(!html) return '';
+    var doc;
+    try { doc = new DOMParser().parseFromString('<div id="_r">' + String(html).replace(/�/g,'') + '</div>', 'text/html'); }
+    catch(e){ return '<p>' + esc(String(html)) + '</p>'; }
+    function walk(node){
+      var out = '', kids = node.childNodes, i, c;
+      for(i = 0; i < kids.length; i++){
+        c = kids[i];
+        if(c.nodeType === 3){ out += esc(c.nodeValue); }
+        else if(c.nodeType === 1){
+          var tag = c.tagName;
+          if(_DESC_DROP[tag]) continue;                 // drop element + its content
+          var inner = walk(c);
+          if(tag === 'BR') out += '<br>';
+          else if(_DESC_ALLOW[tag]) out += '<' + tag.toLowerCase() + '>' + inner + '</' + tag.toLowerCase() + '>';
+          else out += inner;                            // disallowed tag (incl A): keep text, drop the tag
+        }
+      }
+      return out;
+    }
+    var root = doc.getElementById('_r');
+    var clean = walk(root || doc.body);
+    clean = clean.replace(/(?:\s*<br>\s*){2,}/g, '<br>');   // collapse double-break "wall of gaps"
+    clean = clean.replace(/(<\/(?:ul|ol|p)>)\s*<br>/gi, '$1').replace(/<br>\s*(<(?:ul|ol|p)>)/gi, '$1');
+    return clean.trim();
   }
   function openJob(j, push){
     if(!j) return;
@@ -1095,17 +1122,18 @@
     var jmeta = [esc(j._loc || j.location || ''), agoLabel(j)].filter(Boolean).join(' · ');
     _ov.querySelector('#jsub').innerHTML = '<b>' + esc(j.company || 'Employer') + '</b>' + (jmeta ? ' · ' + jmeta : '');
     var pp = displayPaySplit(j);
-    var payHTML = pp ? '<div class="jpay">' + esc(pp.big) + (pp.unit ? '<i>' + esc(pp.unit) + '</i>' : '') + '</div>' : '';
+    var payHTML = pp ? '<div class="jpay">' + esc(pp.big) + (pp.unit ? ' <i>' + esc(pp.unit) + '</i>' : '') + '</div>' : '';
     var tags = ''; (j._shifts||[]).forEach(function(s){ var c = SHIFT_CLASS[s]; if(c) tags += '<span class="tg ' + c + '">' + esc(roleLabel(s)) + '</span>'; });
     if(j._roles && j._roles[0]) tags += '<span class="tg">' + esc(roleLabel(j._roles[0])) + '</span>';
     var resp = hlItems(j, ['responsibilit','duties','summary','what you']);
-    var qual = hlItems(j, ['qualif','require','skills','experience','benefit']);
+    var qual = hlItems(j, ['qualif','require','skills','experience']);   // NOT 'benefit' -- keeps pay/benefits lines out of this list
+    var descHTML = sanitizeDesc(j.description);
     _ov.querySelector('#jbody').innerHTML =
       (payHTML ? '<div class="jmeta">' + payHTML + '</div>' : '') +
       (tags ? '<div class="jtags">' + tags + '</div>' : '') +
       (resp.length ? '<div class="jsub">What you would do</div><ul>' + resp.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
       (qual.length ? '<div class="jsub">What they are asking for</div><ul>' + qual.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') +
-      (j.description ? '<div class="jsub">Full description</div><div class="jdesc">' + descParas(j.description) + '</div>' : '');
+      (descHTML ? '<div class="jsub">Full description</div><div class="jdesc">' + descHTML + '</div>' : '');
     _ov.querySelector('#jsrc').textContent = j.via ? ('Posting ' + j.via + '. Applying opens the employer site in a new tab.') : 'Applying opens the employer site in a new tab.';
     var ap = _ov.querySelector('#japply'); ap.href = (j.apply_link || '#'); ap.setAttribute('data-i', j._i);
     _ov.classList.add('open'); document.body.classList.add('jlock');
