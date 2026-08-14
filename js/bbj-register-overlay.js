@@ -160,72 +160,41 @@
   card.innerHTML = [
     '<div id="bbjRegCard">',
     '<button id="bbjRegX" onclick="bbjRegClose()">&#x2715;</button>',
-    '<div class="step-bar">',
-      '<div class="step-dot active" id="bbjDot1"></div>',
-      '<div class="step-dot" id="bbjDot2"></div>',
-    '</div>',
     '<div id="bbjStep1">',
-      '<h2 class="auth-title">Get Job Alerts</h2>',
-      '<p class="auth-sub">Free. No resume required. Get notified the moment new openings post.</p>',
+      '<h2 class="auth-title" id="bbjRegTitle">Get notified when new jobs post</h2>',
+      '<p class="auth-sub" id="bbjRegSub">Free. No resume. Create your account so your access sticks, even on a new device.</p>',
       '<div id="bbjErr1" class="err-msg"></div>',
-      '<label class="field-label">First Name</label>',
-      '<input id="bbjFirstName" type="text" placeholder="First name" autocomplete="given-name">',
       '<label class="field-label">Email</label>',
       '<input id="bbjEmail" type="email" placeholder="you@email.com" inputmode="email" autocomplete="email">',
       '<div class="field-row">',
         '<div><label class="field-label">ZIP Code</label><input id="bbjZip" type="text" placeholder="60601" inputmode="numeric" maxlength="5" pattern="[0-9]*" autocomplete="postal-code"></div>',
-        '<div><label class="field-label">Mobile <span style="color:#a0aab4;font-weight:400;">(optional)</span></label><input id="bbjPhone" type="tel" placeholder="(312) 000-0000" inputmode="tel" autocomplete="tel"></div>',
+        '<div><label class="field-label">Password</label><input id="bbjPassword" type="password" placeholder="Min. 8 characters" autocomplete="new-password"></div>',
       '</div>',
-      '<label class="field-label">Region</label>',
-      '<select id="bbjCityRegion">',
-        '<option value="">What\'s your region?</option>',
-        '<option value="Dallas|TX">Dallas, TX</option>',
-        '<option value="Fort Worth|TX">Fort Worth, TX</option>',
-        '<option value="Houston|TX">Houston, TX</option>',
-        '<option value="San Antonio|TX">San Antonio, TX</option>',
-        '<option value="Austin|TX">Austin, TX</option>',
-        '<option value="Chicago|IL">Chicago, IL</option>',
-        '<option value="other|">Other / not listed</option>',
-      '</select>',
-      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:6px;display:block;">What kind of work?</label>',
-      '<div class="toggle-row" id="bbjVertToggle" style="margin-bottom:12px;">',
-        '<div class="toggle-btn" data-vert="security" id="bbjVertSec">Security</div>',
-        '<div class="toggle-btn" data-vert="warehouse" id="bbjVertWh">Warehouse</div>',
-      '</div>',
-      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin-bottom:4px;display:block;">Roles you can work</label>',
-      '<p style="font-size:0.78rem;color:#5a6474;margin-bottom:10px;">Select all that apply.</p>',
-      '<div class="chip-grid" id="bbjRoleChips"></div>',
-      '<label style="font-size:0.88rem;font-weight:700;color:#1a1a1a;margin:6px 0 4px;display:block;">Shift preference</label>',
+      '<label class="field-label">Shift preference</label>',
       '<div class="chip-grid" id="bbjShiftChips">',
         '<div class="chip" data-shift="day">Day / Flexible</div>',
         '<div class="chip" data-shift="overnight">Overnight</div>',
         '<div class="chip" data-shift="weekend">Weekend</div>',
         '<div class="chip" data-shift="part-time">Part-time</div>',
       '</div>',
-      '<div id="bbjCredWrap" style="margin-top:6px;"></div>',
-      '<label class="help-opt" style="display:flex;gap:8px;align-items:flex-start;margin:12px 0 4px;font-size:0.82rem;color:#5a6474;cursor:pointer;">',
+      '<label class="help-opt" style="display:flex;gap:8px;align-items:flex-start;margin:4px 0;font-size:0.82rem;color:#5a6474;cursor:pointer;">',
         '<input type="checkbox" id="bbjSmsOpt"> <span>Text me new job alerts (SMS). Msg &amp; data rates may apply.</span>',
       '</label>',
-      '<button class="submit-btn" id="bbjStep1Btn">Get Job Alerts</button>',
-      '<p class="tcpa">By submitting you agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
+      '<div class="reveal-block" id="bbjMobileWrap">',
+        '<label class="field-label">Mobile number</label>',
+        '<input id="bbjPhone" type="tel" placeholder="(312) 000-0000" inputmode="tel" autocomplete="tel">',
+      '</div>',
+      '<button class="submit-btn" id="bbjStep1Btn">Create Account</button>',
+      '<p class="tcpa">By submitting you create a free account and agree to receive job alerts by email and SMS if opted in. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
       '<p class="signin-link">Already have an account? <a href="/login.html">Sign in</a></p>',
     '</div>',
     '<div id="bbjLoader"><div id="bbjLoaderSpinner"></div><div id="bbjLoaderTxt">One moment...</div></div>',
     '<div id="bbjSuccess" style="display:none;">',
       '<div class="success-wrap">',
-        '<div class="success-title">You\'re on the list!</div>',
-        '<p class="success-sub">We\'ll notify you the moment new security jobs post in your area.</p>',
-        '<button class="submit-btn" id="bbjShowStep2Btn" style="margin-bottom:14px;">Browse All Jobs &#x2192;</button>',
+        '<div class="success-title" id="bbjSuccTitle">You\'re all set!</div>',
+        '<p class="success-sub" id="bbjSuccSub">Your account is ready. We\'ll email you when new jobs post in your area.</p>',
+        '<div id="bbjSuccBtnWrap"></div>',
       '</div>',
-    '</div>',
-    '<div id="bbjStep2" style="display:none;">',
-      '<h2 class="auth-title" style="font-size:1.6rem;">Complete Your Profile</h2>',
-      '<p class="auth-sub">Create a password to save your profile and unlock every listing. Free, no resume.</p>',
-      '<div id="bbjErr2" class="err-msg"></div>',
-      '<label class="field-label">Create a Password</label>',
-      '<input id="bbjPassword" type="password" placeholder="Min. 8 characters" autocomplete="new-password">',
-      '<button class="submit-btn" id="bbjStep2Btn">Create Account &amp; View Jobs</button>',
-      '<p class="tcpa">Free forever. <a href="https://www.termsfeed.com/live/e651a49f-d387-4d53-baa2-d069b9f9677f" target="_blank">Privacy Policy</a>.</p>',
     '</div>',
     '</div>'
   ].join('');
@@ -233,7 +202,7 @@
 
 
   // ── STATE ────────────────────────────────────────────────────
-  var _step1Data = {}, _regVert = 'security';
+  var _step1Data = {}, _regVert = 'security', _regMode = 'job_alert';
 
   // ── HELPERS ──────────────────────────────────────────────────
   function _sb() {
@@ -312,19 +281,30 @@
   window.bbjShowBrowseSplash = bbjShowBrowseSplash;
   document.addEventListener('DOMContentLoaded', bbjMorphCtas);
 
-  window.bbjRegOpen = function() {
+  // Two contexts share one form; only the heading and the record's source differ.
+  //   apply_gate  -> fired by an Apply click (bbjAccOpen); success continues to the job.
+  //   job_alert   -> fired by a "Get alerts" CTA (bbjAlertOpen); success is "you're set".
+  var _REG_COPY = {
+    apply_gate: { title: 'One step before you apply',
+      sub: 'Free account, no resume. Create it once and your access follows you to any device.' },
+    job_alert: { title: 'Get notified when new jobs post',
+      sub: 'Free. No resume. Create your account so your access sticks, even on a new device.' }
+  };
+  window.bbjRegOpen = function(mode) {
+    _regMode = (mode === 'apply_gate') ? 'apply_gate' : 'job_alert';
+    var copy = _REG_COPY[_regMode];
+    var t = document.getElementById('bbjRegTitle'); if (t) t.textContent = copy.title;
+    var s = document.getElementById('bbjRegSub');   if (s) s.textContent = copy.sub;
     document.getElementById('bbjStep1').style.display   = 'block';
     document.getElementById('bbjLoader').style.display  = 'none';
     document.getElementById('bbjSuccess').style.display = 'none';
-    document.getElementById('bbjStep2').style.display   = 'none';
     document.getElementById('bbjErr1').style.display    = 'none';
-    _setDots(1);
     document.getElementById('bbjRegOvr').classList.add('open');
     document.body.style.overflow = 'hidden';
-    setTimeout(function(){ document.getElementById('bbjFirstName').focus(); }, 350);
+    setTimeout(function(){ var e = document.getElementById('bbjEmail'); if (e) e.focus(); }, 350);
   };
-  window.bbjAlertOpen = window.bbjRegOpen;
-  window.bbjAccOpen   = window.bbjRegOpen;
+  window.bbjAlertOpen = function(){ window.bbjRegOpen('job_alert'); };
+  window.bbjAccOpen   = function(){ window.bbjRegOpen('apply_gate'); };
 
   window.bbjRegClose = function() {
     document.getElementById('bbjRegOvr').classList.remove('open');
@@ -389,18 +369,15 @@
   // ── INIT LISTENERS ───────────────────────────────────────────
   document.addEventListener('DOMContentLoaded', function() {
 
-    // Wire the vertical toggle (swaps the role + credential controls)
-    document.getElementById('bbjVertSec').addEventListener('click', function(){ bbjSetRegVertical('security'); });
-    document.getElementById('bbjVertWh').addEventListener('click', function(){ bbjSetRegVertical('warehouse'); });
-    // Success Browse button + close X
-    document.getElementById('bbjShowStep2Btn').addEventListener('click', function(){ bbjShowStep2(); });
     document.getElementById('bbjRegX').addEventListener('click', function(){ bbjRegClose(); });
 
-    // Region prefill (metro context) from the page path
-    window.bbjPrefillRegion(document.getElementById('bbjCityRegion'));
-
-    // Initialize vertical from page context -> renders role + credential chips
-    bbjSetRegVertical(_regVertical());
+    // SMS opt-in reveals the mobile field. Region and vertical are derived from the
+    // page at submit time, so those inputs no longer live in the form.
+    var smsBox = document.getElementById('bbjSmsOpt'), mobileWrap = document.getElementById('bbjMobileWrap');
+    if (smsBox && mobileWrap) smsBox.addEventListener('change', function(){
+      mobileWrap.classList.toggle('visible', smsBox.checked);
+      if (smsBox.checked) { var ph = document.getElementById('bbjPhone'); if (ph) ph.focus(); }
+    });
 
     // Delegated chip selection: role / shift / credential chips are re-rendered when the
     // vertical toggles, so a static per-chip listener would go stale. One delegated
@@ -423,136 +400,102 @@
       }
     });
 
-    // ── STEP 1 SUBMIT ─────────────────────────────────────────
+    // Success splash copy + action button, keyed by which context opened the modal.
+    // apply_gate continues to the employer application the gate stashed; job_alert
+    // just confirms and offers the board.
+    function _renderSuccess(source){
+      var titleEl = document.getElementById('bbjSuccTitle');
+      var subEl   = document.getElementById('bbjSuccSub');
+      var wrap    = document.getElementById('bbjSuccBtnWrap');
+      var btnCss  = 'display:block;box-sizing:border-box;width:100%;margin-top:6px;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;';
+      if (titleEl) titleEl.textContent = "You're all set!";
+      if (source === 'apply_gate') {
+        var url = '';
+        try { url = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
+        if (subEl) subEl.textContent = 'Your account is ready. Continue to your application, it opens in a new tab.';
+        if (wrap) wrap.innerHTML = url
+          ? '<a href="' + url.replace(/"/g,'&quot;') + '" target="_blank" rel="noopener" onclick="bbjRegClose()" style="' + btnCss + '">Continue to your application →</a>'
+          : '<a href="' + bbjBrowseUrl() + '" style="' + btnCss + '">Browse jobs →</a>';
+      } else {
+        if (subEl) subEl.textContent = "Your account is ready. We'll email you when new jobs post in your area.";
+        if (wrap) wrap.innerHTML = '<a href="' + bbjBrowseUrl() + '" style="' + btnCss + '">Browse jobs →</a>';
+      }
+    }
+
+    // ── SUBMIT (single step, creates the account) ─────────────
     var btn1 = document.getElementById('bbjStep1Btn');
     if (btn1) btn1.addEventListener('click', async function() {
-      var name  = document.getElementById('bbjFirstName').value.trim();
-      var email = document.getElementById('bbjEmail').value.trim();
-      var zip   = (document.getElementById('bbjZip').value || '').trim();
-      var phone = (document.getElementById('bbjPhone').value || '').trim();
-      var smsOpt = !!(document.getElementById('bbjSmsOpt') && document.getElementById('bbjSmsOpt').checked);
-      var reg = window.bbjParseRegion(document.getElementById('bbjCityRegion').value);
-      var region_metro = reg.metro, license_state = reg.state, cityRegion = region_metro;
-      var errEl = document.getElementById('bbjErr1');
+      var email    = document.getElementById('bbjEmail').value.trim();
+      var zip      = (document.getElementById('bbjZip').value || '').trim();
+      var password = document.getElementById('bbjPassword').value || '';
+      var smsOpt   = !!(document.getElementById('bbjSmsOpt') && document.getElementById('bbjSmsOpt').checked);
+      var phoneEl  = document.getElementById('bbjPhone');
+      var phone    = smsOpt ? ((phoneEl && phoneEl.value) || '').trim() : '';
+      var errEl    = document.getElementById('bbjErr1');
       errEl.style.display = 'none';
 
-      // Required: email + ZIP. Name and phone are optional (phone captured when given).
+      // Required: email, ZIP, password. Mobile is required only when SMS is opted in.
       if (!email) { errEl.textContent = 'Please enter your email.'; errEl.style.display = 'block'; return; }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errEl.textContent = 'Please enter a valid email address.'; errEl.style.display = 'block'; return; }
       if (!/^\d{5}$/.test(zip)) { errEl.textContent = 'Please enter your 5-digit ZIP code.'; errEl.style.display = 'block'; return; }
-      if (phone && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Please enter a valid mobile number, or leave it blank.'; errEl.style.display = 'block'; return; }
+      if (password.length < 8) { errEl.textContent = 'Password must be at least 8 characters.'; errEl.style.display = 'block'; return; }
+      if (smsOpt && phone.replace(/\D/g,'').length < 10) { errEl.textContent = 'Enter a valid mobile number for text alerts, or uncheck SMS.'; errEl.style.display = 'block'; return; }
 
-      this.disabled = true; this.textContent = 'Setting up alerts...';
+      var btn = this;
+      btn.disabled = true; btn.textContent = 'Creating account...';
 
-      // Role capability (vertical-scoped), shift preference, and credentials.
-      var roles = {};
-      document.querySelectorAll('#bbjRoleChips .chip.selected').forEach(function(c){ roles[c.dataset.role] = true; });
+      // Vertical + region are derived from the page (fields removed from the form).
+      var vertical = _regVertical();
+      var pm = (typeof window.bbjPageMarket === 'function') ? (window.bbjPageMarket() || {}) : {};
+      var region_metro = pm.metro || '', license_state = pm.state || '';
       var shift = {};
       document.querySelectorAll('#bbjShiftChips .chip.selected').forEach(function(c){ shift[c.dataset.shift] = true; });
-      var credentials;
-      if (_regVert === 'warehouse') {
-        credentials = {};
-        document.querySelectorAll('#bbjCredChips .chip.selected').forEach(function(c){ credentials[c.dataset.cred] = true; });
-      } else {
-        var credSel = document.getElementById('bbjCred'); credentials = credSel ? credSel.value : '';
-      }
       var phoneDigits = phone.replace(/\D/g,'');
+      var source = _regMode;   // 'apply_gate' | 'job_alert'
 
-      _step1Data = { first_name: name, email: email, zip: zip, phone: phoneDigits, vertical: _regVert,
-        city_region: cityRegion, region_metro: region_metro, license_state: license_state,
-        roles: roles, shift: shift, credentials: credentials, sms_opt: smsOpt };
+      var profile = { zip: zip, phone: phoneDigits, vertical: vertical,
+        region_metro: region_metro, license_state: license_state,
+        shift: shift, sms_notifications: smsOpt, source: source };
 
-      // Supabase signUp with temp password
-      var tempPass = 'BBJt_' + Math.random().toString(36).slice(2,10) + Math.random().toString(36).slice(2,4) + '!';
+      // Create the account with the real password (no email-confirmation step).
       var sbClient = _sb();
       if (sbClient) {
         try {
           var result = await sbClient.auth.signUp({
-            email: email, password: tempPass,
-            options: { data: { first_name: name, zip: zip, phone: phoneDigits, vertical: _regVert, city_region: cityRegion, region_metro: region_metro, license_state: license_state, roles: roles, shift: shift, credentials: credentials, sms_notifications: smsOpt, step: 1 } }
+            email: email, password: password,
+            options: { data: Object.assign({}, profile) }
           });
           if (result.error && result.error.message !== 'User already registered') {
             errEl.textContent = result.error.message;
             errEl.style.display = 'block';
-            this.disabled = false; this.textContent = 'Get Job Alerts'; return;
+            btn.disabled = false; btn.textContent = 'Create Account'; return;
           }
         } catch(e) {}
       }
 
-      // Webhook
+      // Lead webhook (Make -> MailerLite). source distinguishes apply gate vs alerts.
       try {
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(Object.assign(bbjAttr('overlay_step1'), { type: 'candidate', first_name: name, email: email,
-            zip: zip, phone: phoneDigits, vertical: _regVert, city_region: cityRegion, region_metro: region_metro, license_state: license_state,
-            roles: roles, shift: shift, credentials: credentials, sms_consent: smsOpt,
-            source: 'overlay_step1', ts: new Date().toISOString(),
+          body: JSON.stringify(Object.assign(bbjAttr(source), { type: 'candidate', email: email,
+            zip: zip, phone: phoneDigits, vertical: vertical, region_metro: region_metro, license_state: license_state,
+            shift: shift, sms_consent: smsOpt, source: source, ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
-            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
+            consent_text: 'By submitting you create a free account and agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
         });
       } catch(e) {}
 
       document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
-      window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'alert_signup' });
-
-      _showLoader('One moment...');
-      setTimeout(function() {
-        _hideLoader();
-        document.getElementById('bbjSuccess').style.display = 'block';
-      }, 1500);
-    });
-
-    // ── STEP 2 SUBMIT ─────────────────────────────────────────
-    var btn2 = document.getElementById('bbjStep2Btn');
-    if (btn2) btn2.addEventListener('click', async function() {
-      var password = document.getElementById('bbjPassword').value;
-      var errEl    = document.getElementById('bbjErr2');
-      errEl.style.display = 'none';
-
-      if (!password) { errEl.textContent = 'Please create a password.'; errEl.style.display = 'block'; return; }
-      if (password.length < 8) { errEl.textContent = 'Password must be at least 8 characters.'; errEl.style.display = 'block'; return; }
-
-      this.disabled = true; this.textContent = 'Creating account...';
-
-      var d = _step1Data;   // profile captured in step 1 (zip, phone, roles, shift, credentials, vertical)
-
-      // Supabase updateUser with real password + the step-1 profile
-      var sbClient = _sb();
-      if (sbClient) {
-        try {
-          var upd = await sbClient.auth.updateUser({
-            password: password,
-            data: { first_name: d.first_name, zip: d.zip, phone: d.phone, vertical: d.vertical,
-              region_metro: d.region_metro, license_state: d.license_state,
-              roles: d.roles, shift: d.shift, credentials: d.credentials,
-              sms_notifications: d.sms_opt, step: 2 }
-          });
-          if (upd.error) {
-            errEl.textContent = upd.error.message;
-            errEl.style.display = 'block';
-            this.disabled = false; this.textContent = 'Create Account & View Jobs'; return;
-          }
-        } catch(e) {}
-      }
-
-      // Webhook with full profile
-      try {
-        fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-          method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(Object.assign(bbjAttr('overlay_step2'), { type: 'candidate_profile', first_name: d.first_name,
-            email: d.email, zip: d.zip, phone: d.phone, vertical: d.vertical,
-            region_metro: d.region_metro, license_state: d.license_state,
-            roles: d.roles, shift: d.shift, credentials: d.credentials,
-            source: 'overlay_step2', ts: new Date().toISOString(),
-            consent: true, consent_timestamp: new Date().toISOString(),
-            consent_text: 'By submitting you agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
-        });
-      } catch(e) {}
-
-      window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'account_created' });
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'account_created' });
+      window.dataLayer.push({ event: source === 'apply_gate' ? 'bbj_access_signup' : 'alert_signup' });
 
       _showLoader('Creating your account...');
-      setTimeout(function() { bbjShowBrowseSplash('bbjLoaderSpinner', 'bbjLoaderTxt'); }, 700);
+      setTimeout(function() {
+        _hideLoader();
+        _renderSuccess(source);
+        document.getElementById('bbjSuccess').style.display = 'block';
+      }, 1200);
     });
 
   });
