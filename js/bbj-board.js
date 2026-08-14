@@ -728,6 +728,16 @@
   // Row anchor onclick. Return true to let the href open the employer (crawlable) on an
   // allowed view (registered, or the first FREE_VIEWS this session); otherwise block the
   // navigation and open the gate. Mirrors handleIndexApply() in js/bbj-feed.js.
+  // Strip utm_* params so the stored destination is the clean employer URL.
+  function stripUtm(u){
+    try {
+      var url = new URL(u, location.href), kill = [];
+      url.searchParams.forEach(function(val, k){ if(/^utm_/i.test(k)) kill.push(k); });
+      kill.forEach(function(k){ url.searchParams.delete(k); });
+      return url.toString();
+    } catch(e){ return u; }
+  }
+  function gateDismissed(){ try { return sessionStorage.getItem('bbj_gate_dismissed') === '1'; } catch(e){ return false; } }
   window.bbjCardApply = function(el, event){
     var i = parseInt(el.getAttribute('data-i'), 10);
     pendingJob = ALL_JOBS[i] || null;
@@ -736,6 +746,9 @@
     if (isRegistered()) { pushApplyDL(); return true; }
     var v = getViews();
     if (v < FREE_VIEWS) { setViews(v + 1); pushApplyDL(); return true; }
+    // The gate is a prompt, not a wall: once it has been shown and dismissed this
+    // session, a second Apply click goes straight through to the employer.
+    if (gateDismissed()) { pushApplyDL(); return true; }
     if (event) event.preventDefault();
     openGate();
     return false;
@@ -743,9 +756,14 @@
 
   function openGate() {
     if (pendingUrl) {
-      try { sessionStorage.setItem('bbj_pending_job', pendingUrl); } catch(e) {}
+      try { sessionStorage.setItem('bbj_pending_job', stripUtm(pendingUrl)); } catch(e) {}
+      // Scope the signup record to the job being applied to.
+      try { sessionStorage.setItem('bbj_pending_ctx', JSON.stringify({
+        vertical: (pendingJob && pendingJob._vertical) || '',
+        metro: (pendingJob && pendingJob._metro) || ''
+      })); } catch(e) {}
     }
-    // Inline overlay — same 2-click gate as the landing pages.
+    // Inline overlay — same gate as the landing pages.
     // Falls back to the register page only if the overlay script failed to load.
     if (typeof bbjAccOpen === 'function') { bbjAccOpen(); return; }
     var btn = document.getElementById('gateCtaBtn');

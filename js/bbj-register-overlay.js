@@ -215,20 +215,14 @@
   }
 
   function _showLoader(txt) {
-    document.getElementById('bbjStep1').style.display    = 'none';
-    document.getElementById('bbjSuccess').style.display  = 'none';
-    document.getElementById('bbjStep2').style.display    = 'none';
+    var s1 = document.getElementById('bbjStep1'); if (s1) s1.style.display = 'none';
+    var su = document.getElementById('bbjSuccess'); if (su) su.style.display = 'none';
     document.getElementById('bbjLoaderTxt').textContent  = txt || 'One moment...';
     document.getElementById('bbjLoader').style.display   = 'block';
   }
 
   function _hideLoader() {
     document.getElementById('bbjLoader').style.display = 'none';
-  }
-
-  function _setDots(n) {
-    document.getElementById('bbjDot1').className = 'step-dot ' + (n > 1 ? 'done' : 'active');
-    document.getElementById('bbjDot2').className = 'step-dot ' + (n >= 2 ? 'active' : '');
   }
 
   // ── PUBLIC API ───────────────────────────────────────────────
@@ -285,9 +279,9 @@
   //   apply_gate  -> fired by an Apply click (bbjAccOpen); success continues to the job.
   //   job_alert   -> fired by a "Get alerts" CTA (bbjAlertOpen); success is "you're set".
   var _REG_COPY = {
-    apply_gate: { title: 'One step before you apply',
+    apply_gate: { title: 'One step before you apply', btn: 'Create Account & Apply',
       sub: 'Free account, no resume. Create it once and your access follows you to any device.' },
-    job_alert: { title: 'Get notified when new jobs post',
+    job_alert: { title: 'Get notified when new jobs post', btn: 'Create Account',
       sub: 'Free. No resume. Create your account so your access sticks, even on a new device.' }
   };
   window.bbjRegOpen = function(mode) {
@@ -295,6 +289,7 @@
     var copy = _REG_COPY[_regMode];
     var t = document.getElementById('bbjRegTitle'); if (t) t.textContent = copy.title;
     var s = document.getElementById('bbjRegSub');   if (s) s.textContent = copy.sub;
+    var b = document.getElementById('bbjStep1Btn'); if (b) { b.textContent = copy.btn; b.disabled = false; }
     document.getElementById('bbjStep1').style.display   = 'block';
     document.getElementById('bbjLoader').style.display  = 'none';
     document.getElementById('bbjSuccess').style.display = 'none';
@@ -309,6 +304,13 @@
   window.bbjRegClose = function() {
     document.getElementById('bbjRegOvr').classList.remove('open');
     document.body.style.overflow = '';
+    // Dismissing the apply gate without finishing must not trap the user: mark it so
+    // the next Apply click passes straight through (bbj-board.js reads this).
+    try {
+      if (_regMode === 'apply_gate' && document.cookie.indexOf('bbj_registered=1') === -1) {
+        sessionStorage.setItem('bbj_gate_dismissed', '1');
+      }
+    } catch(e){}
   };
 
   // ── Vertical-aware role + credential controls (Task 4) ──────────
@@ -360,12 +362,6 @@
     _renderCred(_regVert);
   };
 
-  window.bbjShowStep2 = function() {
-    document.getElementById('bbjSuccess').style.display = 'none';
-    document.getElementById('bbjStep2').style.display   = 'block';
-    _setDots(2);
-  };
-
   // ── INIT LISTENERS ───────────────────────────────────────────
   document.addEventListener('DOMContentLoaded', function() {
 
@@ -400,26 +396,23 @@
       }
     });
 
-    // Success splash copy + action button, keyed by which context opened the modal.
-    // apply_gate continues to the employer application the gate stashed; job_alert
-    // just confirms and offers the board.
-    function _renderSuccess(source){
+    var _BTN_CSS = 'display:block;box-sizing:border-box;width:100%;margin-top:6px;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;';
+    // Alerts success splash: confirm and offer the board. (The apply gate does NOT
+    // use this — it opens the employer application and returns to the job overlay.)
+    function _renderAlertSuccess(){
       var titleEl = document.getElementById('bbjSuccTitle');
       var subEl   = document.getElementById('bbjSuccSub');
       var wrap    = document.getElementById('bbjSuccBtnWrap');
-      var btnCss  = 'display:block;box-sizing:border-box;width:100%;margin-top:6px;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;';
       if (titleEl) titleEl.textContent = "You're all set!";
-      if (source === 'apply_gate') {
-        var url = '';
-        try { url = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
-        if (subEl) subEl.textContent = 'Your account is ready. Continue to your application, it opens in a new tab.';
-        if (wrap) wrap.innerHTML = url
-          ? '<a href="' + url.replace(/"/g,'&quot;') + '" target="_blank" rel="noopener" onclick="bbjRegClose()" style="' + btnCss + '">Continue to your application →</a>'
-          : '<a href="' + bbjBrowseUrl() + '" style="' + btnCss + '">Browse jobs →</a>';
-      } else {
-        if (subEl) subEl.textContent = "Your account is ready. We'll email you when new jobs post in your area.";
-        if (wrap) wrap.innerHTML = '<a href="' + bbjBrowseUrl() + '" style="' + btnCss + '">Browse jobs →</a>';
-      }
+      if (subEl)   subEl.textContent = "Your account is ready. We'll email you when new jobs post in your area.";
+      if (wrap)    wrap.innerHTML = '<a href="' + bbjBrowseUrl() + '" style="' + _BTN_CSS + '">Browse jobs →</a>';
+    }
+    // Open the stashed employer application in a new tab (best effort; blocked popups
+    // fall back to the job overlay's own Apply, which now passes straight through).
+    function _openPendingApply(){
+      var url = ''; try { url = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
+      if (url) { try { window.open(url, '_blank', 'noopener,noreferrer'); } catch(e){} }
+      return url;
     }
 
     // ── SUBMIT (single step, creates the account) ─────────────
@@ -444,20 +437,26 @@
       var btn = this;
       btn.disabled = true; btn.textContent = 'Creating account...';
 
-      // Vertical + region are derived from the page (fields removed from the form).
+      var source = _regMode;   // 'apply_gate' | 'job_alert'
+      // Region + vertical are derived from the page. For the apply gate, scope the
+      // record to the SPECIFIC job the user is applying to (stashed by bbj-board.js).
       var vertical = _regVertical();
       var pm = (typeof window.bbjPageMarket === 'function') ? (window.bbjPageMarket() || {}) : {};
       var region_metro = pm.metro || '', license_state = pm.state || '';
+      var ctx = {}; try { ctx = JSON.parse(sessionStorage.getItem('bbj_pending_ctx') || '{}') || {}; } catch(e){}
+      var recVertical = (source === 'apply_gate' && ctx.vertical) ? ctx.vertical : vertical;
+      var recMetro    = (source === 'apply_gate' && ctx.metro)    ? ctx.metro    : region_metro;
       var shift = {};
       document.querySelectorAll('#bbjShiftChips .chip.selected').forEach(function(c){ shift[c.dataset.shift] = true; });
       var phoneDigits = phone.replace(/\D/g,'');
-      var source = _regMode;   // 'apply_gate' | 'job_alert'
 
-      var profile = { zip: zip, phone: phoneDigits, vertical: vertical,
+      var profile = { zip: zip, phone: phoneDigits, vertical: recVertical, metro: recMetro,
         region_metro: region_metro, license_state: license_state,
         shift: shift, sms_notifications: smsOpt, source: source };
 
-      // Create the account with the real password (no email-confirmation step).
+      // Create the account with the real password (no email-confirmation step). If the
+      // email already has an account, sign them in with what they typed so the session
+      // is real; either way we proceed so the user is never trapped at the gate.
       var sbClient = _sb();
       if (sbClient) {
         try {
@@ -465,10 +464,14 @@
             email: email, password: password,
             options: { data: Object.assign({}, profile) }
           });
-          if (result.error && result.error.message !== 'User already registered') {
-            errEl.textContent = result.error.message;
-            errEl.style.display = 'block';
-            btn.disabled = false; btn.textContent = 'Create Account'; return;
+          if (result.error) {
+            if (/already registered/i.test(result.error.message)) {
+              try { await sbClient.auth.signInWithPassword({ email: email, password: password }); } catch(e) {}
+            } else {
+              errEl.textContent = result.error.message;
+              errEl.style.display = 'block';
+              btn.disabled = false; btn.textContent = _REG_COPY[source].btn; return;
+            }
           }
         } catch(e) {}
       }
@@ -478,7 +481,8 @@
         fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(Object.assign(bbjAttr(source), { type: 'candidate', email: email,
-            zip: zip, phone: phoneDigits, vertical: vertical, region_metro: region_metro, license_state: license_state,
+            zip: zip, phone: phoneDigits, vertical: recVertical, metro: recMetro,
+            region_metro: region_metro, license_state: license_state,
             shift: shift, sms_consent: smsOpt, source: source, ts: new Date().toISOString(),
             consent: true, consent_timestamp: new Date().toISOString(),
             consent_text: 'By submitting you create a free account and agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
@@ -486,16 +490,22 @@
       } catch(e) {}
 
       document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
+      try { sessionStorage.removeItem('bbj_gate_dismissed'); } catch(e){}
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ event: 'account_created' });
       window.dataLayer.push({ event: source === 'apply_gate' ? 'bbj_access_signup' : 'alert_signup' });
 
-      _showLoader('Creating your account...');
-      setTimeout(function() {
-        _hideLoader();
-        _renderSuccess(source);
+      if (source === 'apply_gate') {
+        // Open the employer application and return to the job overlay (close the modal,
+        // revealing it underneath). If the popup is blocked, the user is back on the job
+        // overlay where Apply now passes straight through (they're registered).
+        _openPendingApply();
+        bbjRegClose();
+      } else {
+        document.getElementById('bbjStep1').style.display = 'none';
+        _renderAlertSuccess();
         document.getElementById('bbjSuccess').style.display = 'block';
-      }, 1200);
+      }
     });
 
   });
