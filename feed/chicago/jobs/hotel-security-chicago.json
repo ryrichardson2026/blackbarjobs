@@ -1,12 +1,98 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "chicago/jobs/hotel-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
-  "exact": 7,
+  "exact": 10,
   "jobs": [
     {
+      "job_hash": "d33202f09e0d",
+      "title": "Unarmed Hotel Security Officer | Full-Time with Growth & Benefits",
+      "company": "Allied Universal",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "23K–30K a year",
+      "pay_min": 23000.0,
+      "pay_max": 30000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5361731042/e/",
+      "via": "via Learn4Good",
+      "description": "Allied Universal, North America’s leading security and facilities services company, seeks a Security Officer for a full-time unarmed patrol role in Chicago, IL. You will provide exceptional guest service, monitor access points, and report incidents to maintain safety and a welcoming environment.The position requires at least one year of security experience, a high school diploma, and ability to pass background checks and drug screening. Shift schedule includes evenings and weekends.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "The position requires at least one year of security experience, a high school diploma, and ability to pass background checks and drug screening"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will provide exceptional guest service, monitor access points, and report incidents to maintain safety and a welcoming environment",
+            "Shift schedule includes evenings and weekends"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c22166e233f4",
+      "title": "Security Manager Hotel",
+      "company": "CSI International",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "hotel",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.jobilize.com/amp/job/us-il-chicago-security-manager-hotel-csi-international-hiring-now",
+      "via": "via Jobilize",
+      "description": "<h5>Security Manager </h5><p>United Security delivers integrated security solutions for high-profile businesses, properties, and events.<br/>With nearly 100 years of experience, we've built a reputation as one of the most trusted and established security providers in the country.<br/>Our team takes pride in professionalism, reliability, and protecting what matters most to our clients.<br/></p><p>Security Manager Job Summary:<br/> We're seeking motivated individuals - people that are interested in developing a long-term career in the security field.<br/>This is for a Manager role at a high-profile location, where professionalism, situational awareness, and presentation are essential.<br/>At United Security, strong performance is noticed and rewarded, with opportunities for more consistent scheduling, increased hours and pay advancement.<br/>We believe in promoting from within and supporting those who want to grow with us.<br/></p><h5>Security Manager Job Responsibilities:<br/> </h5><ul><li>Provide a welcoming environment and provide needed services for guests </li><li>Ensure security officers are on post, in proper uniform and following post orders.<br/></li><li>Ensure proper enforcement of policies and protocols of United Security Services and those of our clients.<br/></li><li>Intervenes, when necessary, in resolving personnel problems and guides counseling of security </li><li>Ensures the efficient, effective, and compliant operations of designated site.<br/></li><li>Perform a variety of security checks and follow post orders as directed by the establishment </li><li>Scheduling </li><li>Payroll and recruitment duties </li><li>Other responsibilities may apply </li></ul><h5>Security Manager Requirements:<br/> </h5><ul><li>PERC Card required </li><li>Willingness to submit to a background check </li><li>Some Managerial experience required (preferably in hospitality or security.<br/>Previous law enforcement or military experience is suitable as well) </li><li>Ability to stand up and walk for 8 hours </li><li>Ability to lead and train Security Guards </li><li>Some flexible availability- shift hours may vary due to occupancy and needs </li></ul><p>United Service Companies is committed to fostering, cultivating, and preserving a culture of diversity and inclusion.<br/>We provide equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws.<br/>Our commitment extends beyond preventing discrimination and harassment; it's about creating an environment where diverse backgrounds and perspectives are valued.<br/>We believe in the power of our people, the ideas they bring, and what we can accomplish together.<br/></p><p>Consistent with the Americans with Disabilities Act (ADA), all state & federal requirements, it is the policy of United Service Companies to provide reasonable accommodation when requested by a qualified applicant or employee with a disability, unless such accommodation would cause an undue hardship.<br/>United Service Companies also provides reasonable accommodations as required under the Pregnant Workers Fairness Act (PWFA) for limitations related to pregnancy, childbirth, or related medical conditions.<br/>The policy regarding requests for reasonable accommodation applies to all aspects of employment, including the application process.<br/>If reasonable accommodation is needed, please contact the Recruitment Team ***.<br/></p><p>Days Vary - 9AM-5PM </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "PERC Card required",
+            "Willingness to submit to a background check",
+            "Some Managerial experience required (preferably in hospitality or security",
+            "Previous law enforcement or military experience is suitable as well)",
+            "Ability to stand up and walk for 8 hours",
+            "Ability to lead and train Security Guards",
+            "Some flexible availability- shift hours may vary due to occupancy and needs",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "At United Security, strong performance is noticed and rewarded, with opportunities for more consistent scheduling, increased hours and pay advancement"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Provide a welcoming environment and provide needed services for guests",
+            "Ensure security officers are on post, in proper uniform and following post orders",
+            "Ensure proper enforcement of policies and protocols of United Security Services and those of our clients",
+            "Intervenes, when necessary, in resolving personnel problems and guides counseling of security",
+            "Ensures the efficient, effective, and compliant operations of designated site",
+            "Perform a variety of security checks and follow post orders as directed by the establishment",
+            "Scheduling",
+            "Payroll and recruitment duties",
+            "Other responsibilities may apply",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "b09a3c7f3998",
       "title": "Luxury Hotel Security Supervisor — Lead & Protect",
       "company": "Hilton",
       "location": "Chicago, IL",
@@ -18,11 +104,27 @@
       "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-07",
-      "apply_link": "https://us.jobrapido.com/jobpreview/1044450540030787584",
+      "apply_link": "https://www.jobleads.com/us/job/luxury-hotel-security-supervisor-lead-protect--chicago--eb57b835b6782fa0cad9afb7a90bd3def",
       "via": "via JobLeads",
-      "description": "<p>Waldorf Astoria Chicago is seeking a Security Supervisor to join our team in Chicago's Gold Coast. You will oversee security operations, patrol premises, and support emergency responses to ensure guest safety and a secure environment.</p><p>As part of Hilton, you will lead a security team, investigate incidents, promote safety protocols, and provide reliable security coverage as needed. Competitive benefits apply, and travel perks for eligible associates are available.</p>"
+      "description": "<p>Waldorf Astoria Chicago is seeking a Security Supervisor to join our team in Chicago's Gold Coast. You will oversee security operations, patrol premises, and support emergency responses to ensure guest safety and a secure environment.</p><p>As part of Hilton, you will lead a security team, investigate incidents, promote safety protocols, and provide reliable security coverage as needed. Competitive benefits apply, and travel perks for eligible associates are available.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Competitive benefits apply, and travel perks for eligible associates are available"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will oversee security operations, patrol premises, and support emergency responses to ensure guest safety and a secure environment",
+            "As part of Hilton, you will lead a security team, investigate incidents, promote safety protocols, and provide reliable security coverage as needed"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "3c9c6e9da0d7",
       "title": "Hotel Security & Safety Specialist — Protect Guests & Assets",
       "company": "Sonesta International Hotels Corporation",
       "location": "Cicero, IL",
@@ -36,9 +138,69 @@
       "posted_date": "2026-08-03",
       "apply_link": "https://www.learn4good.com/jobs/cicero/illinois/security/5334875295/e/",
       "via": "via Learn4Good",
-      "description": "Sonesta International Hotels Corporation is hiring a Security Officer at Sonesta Chicago O'Hare Airport in Rosemont, IL. The role ensures guest, employee, and asset safety, enforcing security policies and procedures in line with corporate guidelines.The position requires physical fitness, clear communication, and the ability to respond to emergencies. Weekend and holiday shifts are included, with competitive hourly pay and strong benefits.#J-18808-Ljbffr"
+      "description": "Sonesta International Hotels Corporation is hiring a Security Officer at Sonesta Chicago O'Hare Airport in Rosemont, IL. The role ensures guest, employee, and asset safety, enforcing security policies and procedures in line with corporate guidelines.The position requires physical fitness, clear communication, and the ability to respond to emergencies. Weekend and holiday shifts are included, with competitive hourly pay and strong benefits.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "The position requires physical fitness, clear communication, and the ability to respond to emergencies"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Weekend and holiday shifts are included, with competitive hourly pay and strong benefits",
+            "#J-18808-Ljbffr"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role ensures guest, employee, and asset safety, enforcing security policies and procedures in line with corporate guidelines"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "7fd4dc71b83f",
+      "title": "Hotel Security & Safety Specialist — Protect Guests & Assets",
+      "company": "Sonesta International Hotels Corporation",
+      "location": "Waukegan, IL",
+      "vertical": "security",
+      "role": "hotel",
+      "pay": "26,174–27,552 a year",
+      "pay_min": 26174.0,
+      "pay_max": 27552.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-03",
+      "apply_link": "https://www.learn4good.com/jobs/waukegan/illinois/security/5335062315/e/",
+      "via": "via Learn4Good",
+      "description": "Sonesta International Hotels Corporation is hiring a Security Officer at Sonesta Chicago O'Hare Airport in Rosemont, IL. The role ensures guest, employee, and asset safety, enforcing security policies and procedures in line with corporate guidelines.The position requires physical fitness, clear communication, and the ability to respond to emergencies. Weekend and holiday shifts are included, with competitive hourly pay and strong benefits.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "The position requires physical fitness, clear communication, and the ability to respond to emergencies"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Weekend and holiday shifts are included, with competitive hourly pay and strong benefits",
+            "#J-18808-Ljbffr"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role ensures guest, employee, and asset safety, enforcing security policies and procedures in line with corporate guidelines"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "3eb8efdd2bcc",
       "title": "Seasonal Security Officer - DoubleTree by Hilton Hotel Chicago Magnificent Mile",
       "company": "HILTON",
       "location": "Chicago, IL",
@@ -52,25 +214,41 @@
       "posted_date": "2026-08-02",
       "apply_link": "https://talents.vaia.com/companies/hilton-hotels/security-officer-doubletree-by-hilton-hotel-chicago-magnificent-mile-5892188/",
       "via": "via BeBee",
-      "description": "<h4><strong>Job Identification:</strong> 214055</h4>\n<p><strong>Job Category:</strong> Safety and Security</p>\n<h4><strong>Job Schedule:</strong> Full time</h4>\n<h4><strong>Salary</strong> $23/USD/Hourly</h4>\n<p><strong>Equal Opportunity Employer</strong> EOE, including disability/vets</p>\n<p><strong>Exceptional Hospitality Starts with You</strong></p>\n<p>Picture yourself brightening someone's day. When you join our Hotels team, that's exactly what you'll do every time you come to work! As a <strong>Security Officer</strong> , and facility safety - you're spreading the light and warmth of hospitality by delivering memorable experiences that make the stay for every guest.</p>\n<p>Here's what you'll do during a typical day:</p>\n<ul>\n<li>\n<strong>Conduct security patrols:</strong> Monitor interior and exterior hotel premises to identify and address safety and security risks, security threats, and undesirable conditions\n<p></li>\n<li>\n<strong>Assist with investigations:</strong> Conduct preliminary incident investigations to gather relevant information, document findings, and ensure accurate reporting of security incidents</p>\n<p></li>\n<li>\n<strong>Maintain accurate documentation:</strong> Prepare and ensure the accuracy of security reports and records</p>\n<p></li>\n<li>\n<strong>Respond to emergencies:</strong> Assist in handling safety hazards, fires, medical incidents, and security threats</p>\n<p></li>\n<li>\n<strong>Provide exceptional guest assistance:</strong> Respond to guest inquiries and concerns with professionalism and efficiency</p>\n<p></li>\n</ul>\n<strong>What It Takes to Make the Stay</strong></p>\n<p>At Hilton, our core values define what it takes to succeed here and guide the qualities we look for in every team member:</p>\n<p>A passion for spreading the light and warmth of <strong>Hospitality</strong> . Acting with <strong>Integrity</strong> and always doing the right thing. Inspiring others through <strong>Leadership</strong> . A belief that <strong>Teamwork</</strong></p>"
+      "description": "<h4><strong>Job Identification:</strong> 214055</h4>\n<p><strong>Job Category:</strong> Safety and Security</p>\n<h4><strong>Job Schedule:</strong> Full time</h4>\n<h4><strong>Salary</strong> $23/USD/Hourly</h4>\n<p><strong>Equal Opportunity Employer</strong> EOE, including disability/vets</p>\n<p><strong>Exceptional Hospitality Starts with You</strong></p>\n<p>Picture yourself brightening someone's day. When you join our Hotels team, that's exactly what you'll do every time you come to work! As a <strong>Security Officer</strong> , and facility safety - you're spreading the light and warmth of hospitality by delivering memorable experiences that make the stay for every guest.</p>\n<p>Here's what you'll do during a typical day:</p>\n<ul>\n<li>\n<strong>Conduct security patrols:</strong> Monitor interior and exterior hotel premises to identify and address safety and security risks, security threats, and undesirable conditions\n<p></li>\n<li>\n<strong>Assist with investigations:</strong> Conduct preliminary incident investigations to gather relevant information, document findings, and ensure accurate reporting of security incidents</p>\n<p></li>\n<li>\n<strong>Maintain accurate documentation:</strong> Prepare and ensure the accuracy of security reports and records</p>\n<p></li>\n<li>\n<strong>Respond to emergencies:</strong> Assist in handling safety hazards, fires, medical incidents, and security threats</p>\n<p></li>\n<li>\n<strong>Provide exceptional guest assistance:</strong> Respond to guest inquiries and concerns with professionalism and efficiency</p>\n<p></li>\n</ul>\n<strong>What It Takes to Make the Stay</strong></p>\n<p>At Hilton, our core values define what it takes to succeed here and guide the qualities we look for in every team member:</p>\n<p>A passion for spreading the light and warmth of <strong>Hospitality</strong> . Acting with <strong>Integrity</strong> and always doing the right thing. Inspiring others through <strong>Leadership</strong> . A belief that <strong>Teamwork</</strong></p>",
+      "job_highlights": [
+        {
+          "items": [
+            "A passion for spreading the light and warmth of Hospitality",
+            "Acting with Integrity and always doing the right thing",
+            "Inspiring others through Leadership",
+            "A belief that Teamwork",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary $23/USD/Hourly",
+            "Equal Opportunity Employer EOE, including disability/vets"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer , and facility safety - you're spreading the light and warmth of hospitality by delivering memorable experiences that make the stay for every guest",
+            "Conduct security patrols: Monitor interior and exterior hotel premises to identify and address safety and security risks, security threats, and undesirable conditions",
+            "Assist with investigations: Conduct preliminary incident investigations to gather relevant information, document findings, and ensure accurate reporting of security incidents",
+            "Maintain accurate documentation: Prepare and ensure the accuracy of security reports and records",
+            "Respond to emergencies: Assist in handling safety hazards, fires, medical incidents, and security threats",
+            "Provide exceptional guest assistance: Respond to guest inquiries and concerns with professionalism and efficiency",
+            "3 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Hotel Security Pro: Growth Path & Perks",
-      "company": "Embassy Suites by Hilton Chicago Downtown River North",
-      "location": "Chicago, IL",
-      "vertical": "security",
-      "role": "hotel",
-      "pay": "43.2K–72K a year",
-      "pay_min": 43200.0,
-      "pay_max": 72000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/embassy-suites-by-hilton-chicago-downtown-river-north/chicago/hotel-security-pro-growth-path-perks-82921517/",
-      "via": "via Talents By Vaia",
-      "description": "A leading hotel chain in Chicago is seeking a Security Officer to deter criminal activity, implement emergency responses, and provide excellent customer service. Responsibilities include monitoring video surveillance, conducting investigations into security matters, and collaborating with hotel departments for safe operations. Ideal candidates will have prior experience in a similar role and possess strong interpersonal and communication skills. This full-time position offers a competitive pay rate and various benefits, including travel discounts and a management development program. #J-18808-Ljbffr\n\nSalary: USD 43200 - 72000 per year"
-    },
-    {
+      "job_hash": "786f0d57a585",
       "title": "Shift Supervisor - Downtown Hotel",
       "company": "Allied Universal",
       "location": "Chicago, IL",
@@ -84,9 +262,11 @@
       "posted_date": null,
       "apply_link": "https://hiringcafe.com/job/shift-supervisor-downtown-hotel-allied-universal-chicago-illinois-9lkttw07v2cg7qtl",
       "via": "via HiringCafe",
-      "description": "<p><span>Allied Universal®, North America’s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental and vision coverage, life insurance, retirement plan, employee assistance programs, company discounts, perks and more for most full-time positions!</span></p> <h3><strong>Shift Supervisor – Hotel Unarmed</strong></h3><p><em><strong>At a glance:..."
+      "description": "<p><span>Allied Universal®, North America’s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental and vision coverage, life insurance, retirement plan, employee assistance programs, company discounts, perks and more for most full-time positions!</span></p> <h3><strong>Shift Supervisor – Hotel Unarmed</strong></h3><p><em><strong>At a glance:...",
+      "job_highlights": null
     },
     {
+      "job_hash": "7f30b222752f",
       "title": "Bar - Nightclub - Restaurant - Hotel Security Guards and Officers",
       "company": "Allstar Security and Consulting FL",
       "location": "Chicago, IL",
@@ -100,9 +280,97 @@
       "posted_date": null,
       "apply_link": "https://www.simplyhired.com/job/oXn8hG3v_9a-KqRlIvheqyf69iMQHqoW9FLB6WQs-f0n85GBfdvcvA",
       "via": "via SimplyHired",
-      "description": "<p>Allstar Security and Consulting FL is looking for experienced, hospitable, and professional security officers for* <i>upscale nightclubs, restaurants, hotels, and lounges.</i>*</p><ul><li>We pay very competitive rates in our industry.</li><li>We pay weekly and <b>ALWAYS</b> pay on time.</li></ul><p><b>Job Description:</b></p><ul><li>Observe and report suspicious activities and persons</li><li>Follow directions of Security Supervisor and Venue Manager</li><li>Respond to alarms and security related incidents</li><li>Write incident reports and maintain daily logs</li><li>Provide needed assistance to customers, co-workers, and client management</li><li>Follow all Company Rules and Regulations</li><li>Enforce all social distancing guidelines put in place by clients, local, state and federal authorities</li></ul><p><b>Qualifications:</b></p><ul><li>High School Diploma or GED Required</li><li>PERC Card</li><li>Be able to provide hospitality and customer service in a professional manner</li><li>Must have excellent communication skills</li><li>Ability to stand on feet for extended time periods</li><li>1 year experience in security or a security related field.</li><li>Be able to work in a positive team based environment</li></ul><p>If you are interested in becoming a part of the team, apply here or call (312) 763-9726‬.</p><p>Job Types: Full-time, Part-time</p><p>Pay: $18.00 - $21.00 per hour</p><p>Benefits:</p><ul><li>Flexible schedule</li><li>Parental leave</li></ul><p>Schedule:</p><ul><li>10 hour shift</li><li>4 hour shift</li><li>8 hour shift</li><li>Day shift</li><li>Holidays</li><li>Night shift</li><li>Overnight shift</li><li>Weekends as needed</li><li>Weekends only</li></ul><p>Experience:</p><ul><li>Security: 1 year (Preferred)</li></ul><p>License/Certification:</p><ul><li>PERC Card (Required)</li></ul><p>Ability to Relocate:</p><ul><li>Chicago, IL: Relocate before starting work (Required)</li></ul><p>Work Location: In person</p>"
+      "description": "<p>Allstar Security and Consulting FL is looking for experienced, hospitable, and professional security officers for* <i>upscale nightclubs, restaurants, hotels, and lounges.</i>*</p><ul><li>We pay very competitive rates in our industry.</li><li>We pay weekly and <b>ALWAYS</b> pay on time.</li></ul><p><b>Job Description:</b></p><ul><li>Observe and report suspicious activities and persons</li><li>Follow directions of Security Supervisor and Venue Manager</li><li>Respond to alarms and security related incidents</li><li>Write incident reports and maintain daily logs</li><li>Provide needed assistance to customers, co-workers, and client management</li><li>Follow all Company Rules and Regulations</li><li>Enforce all social distancing guidelines put in place by clients, local, state and federal authorities</li></ul><p><b>Qualifications:</b></p><ul><li>High School Diploma or GED Required</li><li>PERC Card</li><li>Be able to provide hospitality and customer service in a professional manner</li><li>Must have excellent communication skills</li><li>Ability to stand on feet for extended time periods</li><li>1 year experience in security or a security related field.</li><li>Be able to work in a positive team based environment</li></ul><p>If you are interested in becoming a part of the team, apply here or call (312) 763-9726‬.</p><p>Job Types: Full-time, Part-time</p><p>Pay: $18.00 - $21.00 per hour</p><p>Benefits:</p><ul><li>Flexible schedule</li><li>Parental leave</li></ul><p>Schedule:</p><ul><li>10 hour shift</li><li>4 hour shift</li><li>8 hour shift</li><li>Day shift</li><li>Holidays</li><li>Night shift</li><li>Overnight shift</li><li>Weekends as needed</li><li>Weekends only</li></ul><p>Experience:</p><ul><li>Security: 1 year (Preferred)</li></ul><p>License/Certification:</p><ul><li>PERC Card (Required)</li></ul><p>Ability to Relocate:</p><ul><li>Chicago, IL: Relocate before starting work (Required)</li></ul><p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "High School Diploma or GED Required",
+            "PERC Card",
+            "Be able to provide hospitality and customer service in a professional manner",
+            "Must have excellent communication skills",
+            "Ability to stand on feet for extended time periods",
+            "1 year experience in security or a security related field",
+            "Be able to work in a positive team based environment",
+            "PERC Card (Required)",
+            "Chicago, IL: Relocate before starting work (Required)",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We pay very competitive rates in our industry",
+            "We pay weekly and ALWAYS pay on time",
+            "Pay: $18.00 - $21.00 per hour",
+            "Flexible schedule",
+            "Parental leave",
+            "10 hour shift",
+            "4 hour shift",
+            "8 hour shift",
+            "Night shift",
+            "Overnight shift",
+            "Weekends as needed",
+            "Weekends only",
+            "9 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Observe and report suspicious activities and persons",
+            "Follow directions of Security Supervisor and Venue Manager",
+            "Respond to alarms and security related incidents",
+            "Write incident reports and maintain daily logs",
+            "Provide needed assistance to customers, co-workers, and client management",
+            "Follow all Company Rules and Regulations",
+            "Enforce all social distancing guidelines put in place by clients, local, state and federal authorities",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "80492d911913",
+      "title": "Hotel Security Pro: Growth Path & Perks",
+      "company": "Embassy Suites by Hilton Chicago Downtown River North",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "hotel",
+      "pay": "43.2K–72K a year",
+      "pay_min": 43200.0,
+      "pay_max": 72000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/embassy-suites-by-hilton-chicago-downtown-river-north/chicago/hotel-security-pro-growth-path-perks-82921517/",
+      "via": "via Talents By Vaia",
+      "description": "A leading hotel chain in Chicago is seeking a Security Officer to deter criminal activity, implement emergency responses, and provide excellent customer service. Responsibilities include monitoring video surveillance, conducting investigations into security matters, and collaborating with hotel departments for safe operations. Ideal candidates will have prior experience in a similar role and possess strong interpersonal and communication skills. This full-time position offers a competitive pay rate and various benefits, including travel discounts and a management development program. #J-18808-Ljbffr\n\nSalary: USD 43200 - 72000 per year",
+      "job_highlights": [
+        {
+          "items": [
+            "Ideal candidates will have prior experience in a similar role and possess strong interpersonal and communication skills"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "This full-time position offers a competitive pay rate and various benefits, including travel discounts and a management development program",
+            "#J-18808-Ljbffr",
+            "Salary: USD 43200 - 72000 per year"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Responsibilities include monitoring video surveillance, conducting investigations into security matters, and collaborating with hotel departments for safe operations"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "07eb83fe4146",
       "title": "Security Officer (Hotel - Part time)",
       "company": "United Security Services",
       "location": "Chicago, IL",
@@ -116,55 +384,41 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/united-security-services/chicago/security-officer-hotel-part-time-115342709/",
       "via": "via Talents By Vaia",
-      "description": "<h2>Job Description</h2><div>Job Description<div><div><div><p>Security Officer/Doorman (Part-Time/ Hotel) </p><p>About Us:<br />United Security delivers integrated security solutions for high-profile businesses, properties, and events. With nearly 100 years of experience, we’ve built a reputation as one of the most trusted and established security providers in the country. Our team takes pride in professionalism, reliability, and protecting what matters most to our clients.</p><p><br />Security Officer Summary:<br />We’re seeking motivated individuals who are interested in developing a long-term career in the security field. This position begins as a part-time role, with schedules that may vary based on operational needs, and serves as an entry point into our organization. <br />At United Security, strong performance is noticed and rewarded, with opportunities for more consistent scheduling, increased hours, pay advancement, and potential eligibility for full-time positions and benefits. We believe in promoting from within and supporting those who want to grow with us. </p><p>Security Officer Job Responsibilities:</p><ul><li>Provide a welcoming environment and provide needed services for guests</li><li>Patrol guest areas for suspicious activities and unauthorized people</li><li>Communicate effectively with guests while maintaining excellent hospitality and interpersonal skills</li><li>Perform a variety of security checks and follow post orders as directed by theestablishment</li><li>Investigate incidents and create reports by recording observations, occurrences, and surveillance activities</li><li>Have a professional appearance and demeanor</li><li>Other responsibilities may apply</li></ul><p>Security Officer Requirements:</p><ul><li>PERC Card required (No Exceptions)</li><li>Willingness to submit to a background check</li><li>Prior Customer Service or Hospitality experience</li><li>Clean and professional appearance</li><li>Flexible availability</li><li>Ability to stand up and walk for 8 hours</li><li>A Black Suit is required and not provided for this position</li></ul><p>Security Officer Preferred Qualifications:</p></div><div><ul><li>Securityexperience</li><li>Ex-law enforcement</li><li>Military service</li></ul><p>Suitable candidates will be contacted to come to our office for in-person interviews. <br /></p><p> </p><p>United Service Companies is committed to fostering, cultivating, and preserving a culture of diversity and inclusion. We provide equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. Our commitment extends beyond preventing discrimination and harassment; it’s about creating an environment where diverse backgrounds and perspectives are valued. We believe in the power of our people, the ideas they bring, and what we can accomplish together.</p><p> </p><p>Consistent with the Americans with Disabilities Act (ADA), all state & federal requirements, it is the policy of United Service Companies to provide reasonable accommodation when requested by a qualified applicant or employee with a disability, unless such accommodation would cause an undue hardship. United Service Companies also provides reasonable accommodations as required under the Pregnant Workers Fairness Act (PWFA) for limitations related to pregnancy, childbirth, or related medical conditions. The policy regarding requests for reasonable accommodation applies to all aspects of employment, including the application process. If reasonable accommodation is needed, please contact the Recruitment Team 813-425-1985.</p></div></div></div></div>"
-    },
-    {
-      "title": "Warehouse Associate",
-      "company": "Uline",
-      "location": "Waukegan, IL",
-      "vertical": "warehouse",
-      "role": "overnight",
-      "pay": "26–36 an hour",
-      "pay_min": 26.0,
-      "pay_max": 36.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.ziprecruiter.com/c/New-Haven-Companies/Job/Warehouse-Associate/-in-Waukegan,IL?jid=b1ebc5dfe519b83b",
-      "via": "via LinkedIn",
-      "description": "<strong>Earn $26 - $36 per hour depending on shift and experience<br><br></strong><strong>Wisconsin Distribution Center<br><br></strong><strong>12885 104th St. Pleasant Prairie, WI 53158<br><br></strong>Go-getters wanted! Looking to join a top-tier team? Join Uline as a Warehouse Associate for job stability, training and the opportunity to build a long-term career with a growing company. Don’t wait, apply now!<br><br><strong>Multiple Full-Time Shifts Available<br><br></strong><ul><li> Day Shift: Monday - Friday, 10:30 AM - 7 PM | $26-$32/hr </li><li> Mid Shift: Monday - Friday, 2 PM - 10:30 PM | $28-$34/hr </li><li> Overnight Shift: Sunday - Thursday, 9 PM - 5:30 AM | $30-$36/hr <br><br></li></ul><strong>Why Warehouse at Uline?<br><br></strong><ul><li> Great Pay and Benefits: Competitive pay and comprehensive benefits to support your future and well-being. </li><li> Stability You Can Count On: Consistent full-time hours with overtime opportunities available. </li><li> We Invest in You: Hands-on training, top-tier facilities and an on-site fitness center to support your success. <br><br></li></ul><strong>Position Responsibilities<br><br></strong><ul><li>Unload shipments from suppliers, ensuring accuracy and quality. </li><li>Load outbound trailers with Uline product for our customers. </li><li>Give it your all - EVERY DAY! <br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>High school diploma or equivalent. </li><li>Frequently move packages weighing up to 50 - 70 lbs. </li><li>Comfortable on warehouse equipment at heights up to 30 feet. <br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Complete health insurance coverage and 401(k) with 6% employer match that starts day one! </li><li>Multiple bonus programs. </li><li>Paid holidays and generous paid time off. </li><li>Tuition Assistance Program that covers professional continuing education. <br><br></li></ul><strong>About Uline<br><br></strong>Uline, a family-owned company, is North America’s leading distributor of shipping, industrial, and packaging materials with over 9,800 employees across 14 locations.<br><br>Uline is a drug-free workplace. All new hires must complete a pre-employment hair follicle drug screening.<br><br>EEO/AA Employer/Vet/Disabled<br><br>(#IN-DCWHMS)<br><br>#ZR-DCWH<br><br>Our employees make the difference and we are committed to offering exceptional benefits and perks! Explore https://www.uline.jobs/#working-here_blankUline.jobs to learn more!<br><br>"
-    },
-    {
-      "title": "Armed Security Officer- 1st Shift",
-      "company": "S&C Electric Company",
-      "location": "Chicago, IL",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": "49,040–61,300 a year",
-      "pay_min": 49040.0,
-      "pay_max": 61300.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=5f4557e32fe3b3f0",
-      "via": "via LinkedIn",
-      "description": "<strong>Job Description<br><br></strong>As an S&C Electric team member, you’ll work on projects that have real-world impact. You’ll help transform the grid for resilient and reliable power worldwide. S&C has more than a 100-year history of innovation and has been 100% employee-owned since 2012. We continue this legacy as a trusted, forward-thinking leader in the electrical industry. You will advance a safer, more reliable, and more resilient electrical grid. Our products help the grid adapt to severe weather and transition to clean energy. We’re big enough to be a respected industry leader but small enough for you to impact our company directly. Our commitment gives you opportunities to impact on and off the job positively.<br><br>Join S&C to make an impact on tomorrow’s energy challenges and become an employee-owner!<br><br><strong>Hours <br><br></strong><ul><li>8:00 am – 4:30 pm<br><br></li></ul><strong>Compensation<br><br></strong>At S&C, we are dedicated to providing competitive and equitable compensation for all our team members, and we are committed to transparency in our pay practices. <strong>The estimated annual base salary range for this position is $49,040 - $61,300.</strong> Individual pay within this salary range is determined by several compensable factors, including performance, knowledge, job-related skills and experience, and relevant education or training. This role is also eligible for S&C’s annual incentive plan (AIP), subject to eligibility criteria.<br><br><strong>Join Our Team as a Security Officer!<br><br></strong>S&C Electric Company is seeking a dynamic individual to coordinate our security function. As a Security Officer, you’ll be crucial in ensuring smooth operations and supporting our diverse team. Officers perform duties in three main categories, including patrolling the S&C Ridge Boulevard Industrial Campus facility, working in the Global Security Operations Center (GSOC), and operating the security gatehouses.<br><br><strong>Key Responsibilities<br><br></strong><ul><li>Utilize strong, written communication skills by creating clear and accurate incident and field activity reports in a timely manner.</li><li>Conduct and document events/ investigations with close attention to detail; gather and summarize statements and facts for records.</li><li>Perform routine and scheduled patrols of the S&C Campus to: regulate traffic and parking, ensure team member safety, respond to emergencies/incidents.</li><li>Act as first responders to critical and emergent situations including: medical emergencies, fires, hazardous material releases/spills, unauthorized personnel on campus, confined space rescues, severe weather, and building evacuations.</li><li>Certify and maintain required certification in the use of self-contained breathing apparatus and/or respirators.</li><li>Monitor fire, building supervisory, high-voltage supply, intrusion alarm, and closed-circuit video systems while assigned to the Global Security Operations Center (GSOC).</li><li>Monitor entry/exit and access to S&C Campus, with attention to detail for guiding team members, vehicles, visitors, and contractors. Maintain accurate logs and records of all commercial-related entrants.</li><li>Issue temporary identification badges and parking permits to authorized individuals.</li><li>Coordinate logistics of commercial deliveries and shipments from the GSOC.</li><li>Operate communication systems by serving as radio dispatchers and telephone switchboard operators during off-hours.</li><li>Directly identifying and addressing safety, trespassing and workplace violence concerns, which may include, but is not limited to, the detaining of threatening individuals for police resolution.</li><li>Safely remove unauthorized individuals from the campus using various de-escalation techniques.</li><li>Maintaining licensing and certifications for essential training and equipment necessary to perform job duties. (PERC, FOID, DL)</li><li>Maintain regular and punctual attendance.</li><li>Attend in-person or virtual meetings as requested or required.</li><li>Communicate effectively and respectfully with others.</li><li>Drive a car or other vehicle.</li><li>Understand and comply with all applicable Company policies and rules.</li><li>Other responsibilities as assigned.<br><br></li></ul><strong>What You’ll Need To Succeed<br><br></strong><ul><li>High School diploma or acceptable General Educational Development (GED), some college preferred.</li><li>Illinois Driver’s License and Illinois Firearms Owner’s Identification Card.</li><li>Good verbal and written communication skills; proficiency with personal computers.</li><li>State of Illinois Security Officer 40-Hour Training Program for armed security</li><li>A Permanent Employee Registration Card (PERC) and ability to successfully obtain the Firearm Authorization Card (FAC) issued from the State of Illinois, Department of Financial and Professional Regulation.</li><li>4 years of security or related background. Industrial security, law enforcement, or military experience preferred.</li><li>Strong verbal and written communication skills</li><li>Strong computer and technological skills</li><li>Conflict resolution skills</li><li>De-escalation and high stress management skills</li><li>Understanding laws and regulations pertaining to armed security work</li><li>Understanding signals of distress or impairment in others<br><br></li></ul><strong>Preferred<br><br></strong><ul><li>Associates Degree in Security, Criminal Justice, Law Enforcement, or related field.</li><li>Any advanced National Incident Management System (NIMS) training.</li><li>Handcuffing certification.</li><li>De-escalation training i.e., Crisis Prevention Institute (CPI) or Crisis Intervention (CIT) Training certifications<br><br></li></ul><strong>Major Physical Demands<br><br></strong><ul><li>Frequently required to stand and perform tasks for 2-4 hours at a time approximately [5] days per work week.</li><li>Frequently required to remain in a stationary position and perform desk-based for 2-4 hours at a time approximately [5] days per work week.</li><li>Frequently required to walk moderate distances up to [1-2 miles on campus while patrolling] [frequency – e.g., multiple times each day]</li><li>Occasionally required to solo lift and/or carry items ranging in weight from 5 to 40 lb, and team lift and carry items or other team members to safety, exercising sound judgment to employ manual handling or machine lifts where required and risk assessments, if appropriate.</li><li>Occasionally required to position self to perform tasks involving but not limited to reaching, twisting, rotating, and pushing/pulling.</li><li>Occasionally required to use hand-eye coordination to control both hands and arms for a full range of motion to operate equipment/machinery/power tools/office productivity equipment.</li><li>Frequently ascending or descending ladders/stairs/scaffolding/ramps/poles.</li><li>Frequently required to observe details at close range, including depth perception, peripheral vision, and the ability to differentiate between colors.</li><li>Continuously required to talk and hear in person and by phone/conference calls. </li><li>Frequently required to travel (up to 10%) and work extended hours when necessary.<br><br></li></ul>S&C Electric is committed to equal-opportunity employment. All employees and applicants will be considered without regard to age, color, disability, gender, national origin, race, religion, sexual orientation, gender identity, protected veteran status, or any other classification protected by federal, state, or local law. If you are an individual with a disability and need an accommodation to complete the application, please email us at TAsupport@sandc.com .<br><br><strong>No fixed deadline<br><br></strong><strong>#SC25<br><br></strong><strong>About Us<br><br></strong>In 1909, S&C Electric Company transformed the delivery of safe, reliable electricity with the..."
-    },
-    {
-      "title": "Armed Security Officer - Olympia Fields",
-      "company": "Guardian Security Services, Inc.",
-      "location": "Hazel Crest, IL",
-      "vertical": "security",
-      "role": "hospital-healthcare",
-      "pay": "$19.00 - 20.00 per hour",
-      "pay_min": 19.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Internship",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.ziprecruiter.com/c/Guardian-Security-Services/Job/Armed-Security-Officer-Olympia-Fields/-in-Hazel-Crest,IL?jid=01e27c67f48e4468",
-      "via": "via LinkedIn",
-      "description": "<ul><li>Guardian Security Services Careers </li><li>Hazel Crest </li><li>Armed Security Officer - Olympia Fields <br><br></li></ul>Armed Security Officer - Olympia Fields<br><br>SMS Email Messenger Facebook Twitter LinkedIn Whatsapp<br><br>\" data-original-title=\"\" title=\"\">ShareApply<br><br>Part-time<br><br>High school degree<br><br>$19.00 - 20.00 per hour<br><br><strong>Part-Time Armed Position, 3–4-day shifts per week. <br><br></strong>Are you a highly skilled and motivated individual looking for a dynamic role in the protective and security industry? Do you thrive in an environment where your dedication and commitment are valued? If yes, then Guardian Security Services is the perfect place for you! Come and join our team!<br><br>At Guardian Security Services, we believe in making smart investments, and that starts with investing in our people. As a Security Officer, you will play a crucial role in ensuring the safety and security of our clients.<br><br><strong>About Us<br><br></strong>Guardian Security Services, a family-owned company, has been proudly serving the Chicagoland area for over fifty years. We work diligently to find our team members opportunities close to<br><br>home, and a schedule that works best for you to provide a healthy work life balance. Join the Guardian family where your efforts and hard work will be recognized, along with opportunities for career advancement and coupled with a comprehensive benefits package and competitive wages!<br><br><strong>Why Join Us<br><br></strong><ul><li>Daily Pay, get paid when you want!</li><li>Roth IRA for retirement savings.</li><li>Health Insurance, Dental and Vision.</li><li>Virtual Urgent Care</li><li>Virtual Primary Care Services</li><li>Virtual Behavioral Health</li><li>Prescription Benefit</li><li>Payments for qualified out-of-pocket hospital expenses</li><li>Health Management Coaching</li><li>Personal Pathfinder Assessment</li><li>Laboratory and Genomic Screenings</li><li>Behavioral Change Workshops and Paths</li><li>Emotional Well-Being Solutions</li><li>Digital Coaching</li><li>Professional Tax Consulting Services<br><br></li></ul><strong>Your Responsibilities<br><br></strong><ul><li>Understands and maintains general post instructions for that assigned post.</li><li>Maintain practical knowledge of all additional and emergency post instructions that are called for by the client</li><li>Proven ability to deal with challenging situations while remaining calm and professional at all times.</li><li>Maintain access control procedures set by management.</li><li>Document and report any property damage and special occurrences.</li><li>Respond to incidents and document the event accurately.</li><li>Ability to stand/sit/walk for long periods of time.</li><li>Provide excellent Customer Service, Public Relation interactions and have an Impeccable image at all times.<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>Part-Time Day shifts to include Saturdays.</li><li>Strong attention to detail and excellent observation skills</li><li>Ability to remain calm and composed in all situations.</li><li>Good communication and interpersonal skills</li><li>Must be a minimum 21 years of age.</li><li>Possess a High School Diploma/GED or military service record.</li><li>Must have a valid Permanent Employee Registration Card (PERC) or willing to apply for one.</li><li>Must have a 20-hour training certificate or complete within in 30 days of employment.</li><li>Must have a 40-hour training certificate.</li><li>Must have a FOID Card</li><li>Must be able to acquire a Firearm Control Card through Guardian Security Services.</li><li>All applicants must complete a pre-employment screening process.</li><li>Maintain an impeccable image and adhere to our professional military grooming standards, which includes:</li><li>Must have mature demeanor, personality and attitude.</li><li>Must possess strong customer service skills, public relation skills and the ability to interact well with people of diverse cultures and backgrounds.</li><li>Possess strong communication skills, both verbally, written and non-verbal.</li><li>Must maintain a working telephone at all times.</li><li>Must have reliable means of transportation.<br><br></li></ul>If you are ready to take on this exciting and rewarding opportunity, apply now! Join our team at Guardian Security Services and become part of a dedicated and enthusiastic workforce committed to making a difference in the security industry.<br><br>Work schedule<br><br><ul><li>8 hour shift</li><li>Weekend availability</li><li>Day shift<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Paid time off</li><li>Health insurance</li><li>Dental insurance</li><li>Vision insurance</li><li>Referral program</li><li>Employee discount</li><li>Paid training<br><br></li></ul>Guardian Security Services - Hazel Crest<br><br>Hazel Crest, IL, 60429<br><br>Apply"
+      "description": "<h2>Job Description</h2><div>Job Description<div><div><div><p>Security Officer/Doorman (Part-Time/ Hotel) </p><p>About Us:<br />United Security delivers integrated security solutions for high-profile businesses, properties, and events. With nearly 100 years of experience, we’ve built a reputation as one of the most trusted and established security providers in the country. Our team takes pride in professionalism, reliability, and protecting what matters most to our clients.</p><p><br />Security Officer Summary:<br />We’re seeking motivated individuals who are interested in developing a long-term career in the security field. This position begins as a part-time role, with schedules that may vary based on operational needs, and serves as an entry point into our organization. <br />At United Security, strong performance is noticed and rewarded, with opportunities for more consistent scheduling, increased hours, pay advancement, and potential eligibility for full-time positions and benefits. We believe in promoting from within and supporting those who want to grow with us. </p><p>Security Officer Job Responsibilities:</p><ul><li>Provide a welcoming environment and provide needed services for guests</li><li>Patrol guest areas for suspicious activities and unauthorized people</li><li>Communicate effectively with guests while maintaining excellent hospitality and interpersonal skills</li><li>Perform a variety of security checks and follow post orders as directed by theestablishment</li><li>Investigate incidents and create reports by recording observations, occurrences, and surveillance activities</li><li>Have a professional appearance and demeanor</li><li>Other responsibilities may apply</li></ul><p>Security Officer Requirements:</p><ul><li>PERC Card required (No Exceptions)</li><li>Willingness to submit to a background check</li><li>Prior Customer Service or Hospitality experience</li><li>Clean and professional appearance</li><li>Flexible availability</li><li>Ability to stand up and walk for 8 hours</li><li>A Black Suit is required and not provided for this position</li></ul><p>Security Officer Preferred Qualifications:</p></div><div><ul><li>Securityexperience</li><li>Ex-law enforcement</li><li>Military service</li></ul><p>Suitable candidates will be contacted to come to our office for in-person interviews. <br /></p><p> </p><p>United Service Companies is committed to fostering, cultivating, and preserving a culture of diversity and inclusion. We provide equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. Our commitment extends beyond preventing discrimination and harassment; it’s about creating an environment where diverse backgrounds and perspectives are valued. We believe in the power of our people, the ideas they bring, and what we can accomplish together.</p><p> </p><p>Consistent with the Americans with Disabilities Act (ADA), all state & federal requirements, it is the policy of United Service Companies to provide reasonable accommodation when requested by a qualified applicant or employee with a disability, unless such accommodation would cause an undue hardship. United Service Companies also provides reasonable accommodations as required under the Pregnant Workers Fairness Act (PWFA) for limitations related to pregnancy, childbirth, or related medical conditions. The policy regarding requests for reasonable accommodation applies to all aspects of employment, including the application process. If reasonable accommodation is needed, please contact the Recruitment Team 813-425-1985.</p></div></div></div></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "PERC Card required (No Exceptions)",
+            "Willingness to submit to a background check",
+            "Prior Customer Service or Hospitality experience",
+            "Clean and professional appearance",
+            "Flexible availability",
+            "Ability to stand up and walk for 8 hours",
+            "A Black Suit is required and not provided for this position",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "At United Security, strong performance is noticed and rewarded, with opportunities for more consistent scheduling, increased hours, pay advancement, and potential eligibility for full-time positions and benefits"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Provide a welcoming environment and provide needed services for guests",
+            "Patrol guest areas for suspicious activities and unauthorized people",
+            "Communicate effectively with guests while maintaining excellent hospitality and interpersonal skills",
+            "Perform a variety of security checks and follow post orders as directed by theestablishment",
+            "Investigate incidents and create reports by recording observations, occurrences, and surveillance activities",
+            "Have a professional appearance and demeanor",
+            "Other responsibilities may apply",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

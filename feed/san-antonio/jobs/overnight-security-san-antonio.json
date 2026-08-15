@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "san-antonio/jobs/overnight-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
@@ -7,11 +7,12 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "4b6dbc3b922c",
       "title": "Security Professional--Part Time Weekend and Night",
       "company": "BST SENIOR LIVING WEST INC",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "armed",
+      "role": "night-shift",
       "pay": "$14.50 Hourly",
       "pay_min": 14.5,
       "pay_max": null,
@@ -20,9 +21,55 @@
       "posted_date": "2026-08-11",
       "apply_link": "https://jooble.org/rjdp/-801154116710343298",
       "via": "via Jooble",
-      "description": "<p>Job Details</p>\r\n<p>Job Location: Blue Skies East - San Antonio, TX 78227</p>\r\n<p>Position Type: Part Time</p>\r\n<p>Salary Range: $14.50 Hourly</p>\r\n<p>Job Shift: Weekends and Holidays</p>\r\n<p>Join Our Team at Blue Skies of Texas Senior Living Community!</p>\r\n<p>Become a part of our independent living experience. At Blue Skies, we're not just about providing exceptional care; we're about creating a vibrant, diverse community where everyone thrives. Where your unique talents and perspectives are not only valued but recognized. Blue Skies is a community where your contributions make a real difference, without the worry of late-night shifts. From engaging activities to personalized care, we're dedicated to empowering both our residents and our staff to live their best lives.</p>\r\n<p>We are committed to providing our team with the support they need. At Blue Skies of Texas, we offer medical, dental, and vision benefits! Some of our unique benefits we offer are:</p>\r\n<p>Employee Assistance Program</p>\r\n<p>Employee Referral Bonus Program</p>\r\n<p>A generous PTO program</p>\r\n<p>Employee Appreciation Bonus (twice a year)</p>\r\n<p>We are looking for dedicated professionals like yourself to be a part of our Resident Services team.</p>\r\n<p>What you will do in this role: Makes interior and exterior rounds of Blue Skies of Texas facilities and grounds, either walking or driving company vehicle or golf cart, to include checking basic plant mechanical operations such as ensuring the boiler is operational; promptly reports any deficiencies to Supervisor, management and the Maintenance Department</p>\r\n<p>Observes and responds to the presence of unauthorized persons or vehicles; investigates and acts according to standard procedures outlined by Supervisor.</p>\r\n<p>Directs and controls traffic and parking for large functions.</p>\r\n<p>Transports residents, employees, and others, as directed, from place of request to main building as needed.</p>\r\n<p>Acts as First Responder and responds to problems and emergencies according to established instructions and procedures; exercises good judgment as the situation requires.</p>\r\n<p>Expedites entry and departure of emergency vehicles and responds to emergencies as prescribed in the Emergency Action Book.</p>\r\n<p>Submits comprehensive incident reports of any non-routine events occurring during shift.</p>\r\n<p>Consults with Supervisor on any situation involving exception to policies or procedures.</p>\r\n<p>Regulates access to Blue Skies of Texas facilities by vehicles and persons on foot entering the premises at the main gate; follows directions given by resident, Supervisor, or management regarding restricted entry or expected arrival of guests.</p>\r\n<p>Issues “visitor passes” as appropriate and maintains a log of entry and departure of all visitors.</p>\r\n<p>Informs residents and staff of the arrival of visitors or guests.</p>\r\n<p>Operates gate when appropriate.</p>\r\n<p>Performs security checks of vehicles and of employee personal items in accordance with Blue Skies of Texas policy, to include purchases made at Blue Skies of Texas and Thrift Stores.</p>\r\n<p>Makes minor repairs such as unstopping toilets or sinks, resetting smoke detectors and replacing batteries, changing light bulbs, etc., when maintenance personnel are not on duty.</p>\r\n<p>Performs duties as a Front Desk Clerk as needed.</p>\r\n<p>Performs other duties as assigned by Supervisor.</p>\r\n<p>QualificationsQualifications: Required: High school diploma or equivalent.</p>\r\n<p>Required: At least one years worth of experience as a Security Guard, Courtesy Officer, or Front Desk Clerk preferred.</p>\r\n<p>Required: Must possess a current, valid Texas drivers license with good driving record and remain insurable by Blue Skies carriers required.</p>\r\n<p>Required: Possess current cardiopulmonary resuscitation (CPR), automated external defibrillator (AED), and First Aid certifications is required.</p>\r\n<p>In 1970, the first of our two campuses opened in San Antonio. Air Force Village I was followed in 1987 by Air Force Village II. For decades, our campuses created a community for officers of the armed forces - a retirement lifestyle rich with camaraderie and the shared common bond. We began by providing support to the widows of those who have served, and that legacy continues. In 2014, we expanded our eligibility to embrace a wider range of retired seniors, including those from civilian careers. With this change, a new name - Blue Skies of Texas - was added, and the campuses were renamed Blue Skies East and Blue Skies West. Continuing to offer modern residences and a range of senior-focused services and amenities, the Air Force Village legacy we cherish carries forward in Blue Skies of Texas.</p>\r\n<p>#J-18808-Ljbffr</p>"
+      "description": "<p>Job Details</p>\r\n<p>Job Location: Blue Skies East - San Antonio, TX 78227</p>\r\n<p>Position Type: Part Time</p>\r\n<p>Salary Range: $14.50 Hourly</p>\r\n<p>Job Shift: Weekends and Holidays</p>\r\n<p>Join Our Team at Blue Skies of Texas Senior Living Community!</p>\r\n<p>Become a part of our independent living experience. At Blue Skies, we're not just about providing exceptional care; we're about creating a vibrant, diverse community where everyone thrives. Where your unique talents and perspectives are not only valued but recognized. Blue Skies is a community where your contributions make a real difference, without the worry of late-night shifts. From engaging activities to personalized care, we're dedicated to empowering both our residents and our staff to live their best lives.</p>\r\n<p>We are committed to providing our team with the support they need. At Blue Skies of Texas, we offer medical, dental, and vision benefits! Some of our unique benefits we offer are:</p>\r\n<p>Employee Assistance Program</p>\r\n<p>Employee Referral Bonus Program</p>\r\n<p>A generous PTO program</p>\r\n<p>Employee Appreciation Bonus (twice a year)</p>\r\n<p>We are looking for dedicated professionals like yourself to be a part of our Resident Services team.</p>\r\n<p>What you will do in this role: Makes interior and exterior rounds of Blue Skies of Texas facilities and grounds, either walking or driving company vehicle or golf cart, to include checking basic plant mechanical operations such as ensuring the boiler is operational; promptly reports any deficiencies to Supervisor, management and the Maintenance Department</p>\r\n<p>Observes and responds to the presence of unauthorized persons or vehicles; investigates and acts according to standard procedures outlined by Supervisor.</p>\r\n<p>Directs and controls traffic and parking for large functions.</p>\r\n<p>Transports residents, employees, and others, as directed, from place of request to main building as needed.</p>\r\n<p>Acts as First Responder and responds to problems and emergencies according to established instructions and procedures; exercises good judgment as the situation requires.</p>\r\n<p>Expedites entry and departure of emergency vehicles and responds to emergencies as prescribed in the Emergency Action Book.</p>\r\n<p>Submits comprehensive incident reports of any non-routine events occurring during shift.</p>\r\n<p>Consults with Supervisor on any situation involving exception to policies or procedures.</p>\r\n<p>Regulates access to Blue Skies of Texas facilities by vehicles and persons on foot entering the premises at the main gate; follows directions given by resident, Supervisor, or management regarding restricted entry or expected arrival of guests.</p>\r\n<p>Issues “visitor passes” as appropriate and maintains a log of entry and departure of all visitors.</p>\r\n<p>Informs residents and staff of the arrival of visitors or guests.</p>\r\n<p>Operates gate when appropriate.</p>\r\n<p>Performs security checks of vehicles and of employee personal items in accordance with Blue Skies of Texas policy, to include purchases made at Blue Skies of Texas and Thrift Stores.</p>\r\n<p>Makes minor repairs such as unstopping toilets or sinks, resetting smoke detectors and replacing batteries, changing light bulbs, etc., when maintenance personnel are not on duty.</p>\r\n<p>Performs duties as a Front Desk Clerk as needed.</p>\r\n<p>Performs other duties as assigned by Supervisor.</p>\r\n<p>QualificationsQualifications: Required: High school diploma or equivalent.</p>\r\n<p>Required: At least one years worth of experience as a Security Guard, Courtesy Officer, or Front Desk Clerk preferred.</p>\r\n<p>Required: Must possess a current, valid Texas drivers license with good driving record and remain insurable by Blue Skies carriers required.</p>\r\n<p>Required: Possess current cardiopulmonary resuscitation (CPR), automated external defibrillator (AED), and First Aid certifications is required.</p>\r\n<p>In 1970, the first of our two campuses opened in San Antonio. Air Force Village I was followed in 1987 by Air Force Village II. For decades, our campuses created a community for officers of the armed forces - a retirement lifestyle rich with camaraderie and the shared common bond. We began by providing support to the widows of those who have served, and that legacy continues. In 2014, we expanded our eligibility to embrace a wider range of retired seniors, including those from civilian careers. With this change, a new name - Blue Skies of Texas - was added, and the campuses were renamed Blue Skies East and Blue Skies West. Continuing to offer modern residences and a range of senior-focused services and amenities, the Air Force Village legacy we cherish carries forward in Blue Skies of Texas.</p>\r\n<p>#J-18808-Ljbffr</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "QualificationsQualifications: Required: High school diploma or equivalent",
+            "Required: Must possess a current, valid Texas drivers license with good driving record and remain insurable by Blue Skies carriers required",
+            "Required: Possess current cardiopulmonary resuscitation (CPR), automated external defibrillator (AED), and First Aid certifications is required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary Range: $14.50 Hourly",
+            "Job Shift: Weekends and Holidays",
+            "At Blue Skies of Texas, we offer medical, dental, and vision benefits!",
+            "Employee Assistance Program",
+            "Employee Referral Bonus Program",
+            "A generous PTO program",
+            "Employee Appreciation Bonus (twice a year)",
+            "4 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "What you will do in this role: Makes interior and exterior rounds of Blue Skies of Texas facilities and grounds, either walking or driving company vehicle or golf cart, to include checking basic plant mechanical operations such as ensuring the boiler is operational; promptly reports any deficiencies to Supervisor, management and the Maintenance Department",
+            "Observes and responds to the presence of unauthorized persons or vehicles; investigates and acts according to standard procedures outlined by Supervisor",
+            "Directs and controls traffic and parking for large functions",
+            "Transports residents, employees, and others, as directed, from place of request to main building as needed",
+            "Acts as First Responder and responds to problems and emergencies according to established instructions and procedures; exercises good judgment as the situation requires",
+            "Expedites entry and departure of emergency vehicles and responds to emergencies as prescribed in the Emergency Action Book",
+            "Submits comprehensive incident reports of any non-routine events occurring during shift",
+            "Consults with Supervisor on any situation involving exception to policies or procedures",
+            "Regulates access to Blue Skies of Texas facilities by vehicles and persons on foot entering the premises at the main gate; follows directions given by resident, Supervisor, or management regarding restricted entry or expected arrival of guests",
+            "Issues “visitor passes” as appropriate and maintains a log of entry and departure of all visitors",
+            "Informs residents and staff of the arrival of visitors or guests",
+            "Operates gate when appropriate",
+            "Performs security checks of vehicles and of employee personal items in accordance with Blue Skies of Texas policy, to include purchases made at Blue Skies of Texas and Thrift Stores",
+            "Makes minor repairs such as unstopping toilets or sinks, resetting smoke detectors and replacing batteries, changing light bulbs, etc., when maintenance personnel are not on duty",
+            "Performs duties as a Front Desk Clerk as needed",
+            "Performs other duties as assigned by Supervisor",
+            "13 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "e433300e1c0a",
       "title": "Armed Security Officer – Overnight, Growth & Benefits",
       "company": "Premier Protective Security, Inc.",
       "location": "San Antonio, TX",
@@ -36,9 +83,100 @@
       "posted_date": "2026-08-08",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5335055354/e/",
       "via": "via JobLeads",
-      "description": "<p>Premier Protective Security (PPS) is seeking Armed Level 3 Commissioned Security Guards in San Antonio, TX. Must be licensed as an Armed Level 3 Guard in Texas, with a clean driver’s license and insurance, and able to stand/patrol for long periods. You must own a personal firearm to carry on the job. Salary is $18.25 per hour.</p><p>Overnight shift from 6pm to 6am. Multiple positions and locations available. Responsibilities include monitoring premises, enforcing regulations, and providing client</p>"
+      "description": "<p>Premier Protective Security (PPS) is seeking Armed Level 3 Commissioned Security Guards in San Antonio, TX. Must be licensed as an Armed Level 3 Guard in Texas, with a clean driver’s license and insurance, and able to stand/patrol for long periods. You must own a personal firearm to carry on the job. Salary is $18.25 per hour.</p><p>Overnight shift from 6pm to 6am. Multiple positions and locations available. Responsibilities include monitoring premises, enforcing regulations, and providing client</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be licensed as an Armed Level 3 Guard in Texas, with a clean driver’s license and insurance, and able to stand/patrol for long periods",
+            "You must own a personal firearm to carry on the job"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary is $18.25 per hour",
+            "Overnight shift from 6pm to 6am"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Responsibilities include monitoring premises, enforcing regulations, and providing client"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "7f1022af6ed4",
+      "title": "Security Officer- Overnight with weekend availability",
+      "company": "Six Flags",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "overnight",
+      "pay": "$14.75/hr",
+      "pay_min": 14.75,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-06",
+      "apply_link": "https://jobs.sixflags.com/job/san-antonio/security-officer-overnight-with-weekend-availability/42509/98905049440",
+      "via": "via TeamWork Online",
+      "description": "<p>Overview</p><p><strong>Security Officer- Overnight (Texas Level 2 Certified) </strong></p><p> </p><p><strong>Job Type:</strong> Seasonal<br><strong>Pay Rate:</strong> $14.75/hr.<br><strong>Category:</strong> Public Safety<br><strong>Location</strong>: Six Flags Fiesta Texas in San Antonio, Texas</p><p> </p><p><strong>WHAT WE PROVIDE:</strong></p><p> </p><p>This is a seasonal overnight Security Officer position at Six Flags Fiesta Texas, in San Antonio, TX. It features a competitive <strong>hourly rate of $14.75</strong> (with an additional $1 per hour for working the hours between 12am-8am) with perks such as: <strong>Free entry</strong> to any Six Flags Park for all employees and a guest with each visit, additional complimentary tickets for friends and family, discount on food and merchandise for all employees, flexible scheduling, Dayforce Wallet access for earned wage access, and bi-weekly pay. </p><p>Responsibilities</p><p>Join the exhilarating world of Six Flags Fiesta Texas as an Overnight Security Officer, where you'll be the fearless protector of our vibrant park! With your State of Texas Level 2 license, you'll embark on thrilling patrols, ensuring the safety and security of our premises. From swiftly responding to security incidents to expertly screening guests at the front gate, you'll be at the heart of our security operations, upholding our commitment to excellence. With every assignment tackled with precision and passion, you'll play a pivotal role in creating unforgettable experiences for our guests and maintaining the highest standards of safety throughout the park.</p><p> </p><p><strong>HOW YOU WILL DO IT:</strong></p><ul><li><strong>Gate Security:</strong> Employ meticulous verification processes to ensure only authorized personnel and vehicles access the park, verifying identification and passes with precision.</li><li><strong>Confidentiality:</strong> Demonstrate unwavering commitment to confidentiality by carefully safeguarding sensitive information encountered during patrols or incidents, upholding the trust placed in you.</li><li><strong>Rapid Response:</strong> Be ready to spring into action at a moment's notice, responding promptly and decisively to security-related incidents within the park to mitigate risks and ensure the safety of guests and staff.</li><li><strong>Documentation:</strong> Utilize your exceptional communication skills to write clear, concise, and comprehensive reports detailing incidents and the actions taken, ensuring transparency and accountability.</li><li><strong>Law Enforcement Compliance:</strong> Execute your duties with a firm commitment to upholding local, state, and federal laws on park property, ensuring a safe and compliant environment for all.</li><li><strong>Asset Protection:</strong> Exercise vigilance and proactive measures to safeguard company assets, property, and facilities against potential threats and illegal activities, acting as a steadfast guardian of the park's resources.</li><li><strong>Traffic Control (as required):</strong> Assume control of traffic operations with precision and efficiency, managing vehicular flow and ensuring the safety of guests during peak times and special events.</li><li><strong>Patrol Proficiency:</strong> Conduct thorough and systematic vehicle and bike patrols throughout the park, covering all areas to detect and deter potential security threats effectively.</li><li><strong>Collaborative Approach:</strong> Foster strong partnerships with on-duty law enforcement personnel, facilitating seamless cooperation and coordination in maintaining park security and responding to incidents.</li><li><strong>Dispatch Operations (as needed):</strong> Demonstrate proficiency in managing communications and resources as a dispatch operator when required, orchestrating responses and resolutions during emergencies with skill and composure.</li><li><strong>Task Completion:</strong> Embrace a proactive attitude towards task completion, readily taking on any additional assignments delegated by management with dedication and efficiency.</li><li><strong>Policy Adherence:</strong> Adhere strictly to Six Flags Fiesta Texas handbook policies at all times, setting the standard for professionalism and conduct while ensuring compliance with park regulations and protocols.</li></ul><p>Qualifications</p><ul><li><strong>Must be at least 18 years of age.</strong></li><li><strong>Must be available to work overnight from 12 A.M.- 8 A.M.</strong></li><li>Must be a high school graduate or possess GED.</li><li>Must posses a valid Drivers License.</li><li><strong>Must have a valid Texas Level 2 Security License.</strong></li><li>Must be able to stand and walk for extended periods of time in South Texas Weather.</li><li>Must be willing and able to perform foot and bike patrols.</li><li>Must be willing and able to perform foot and bike patrols.</li><li>Must be able to climb a 50' tower.</li><li>Previous security related experience preferred.</li><li>Able to work efficiently in a fast-paced environment.</li><li>Organized with the ability to multi-task.</li><li>Safety conscious, mature, reliable and dependable.</li><li>Outgoing and friendly demeanor.</li><li>Ability to communicate effectively, both oral and written.</li><li>Must be able to work flexible shifts including but not limited to overtime, weekends and some holidays.</li></ul><p> </p><p><strong>OTHER NOTES</strong></p><ul><li>May perform other duties beyond scope of above as necessary to support the park as a whole</li><li>Reports to the Public Safety Department Leadership </li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be at least 18 years of age",
+            "Must be available to work overnight from 12 A.M.- 8 A.M",
+            "Must be a high school graduate or possess GED",
+            "Must posses a valid Drivers License",
+            "Must have a valid Texas Level 2 Security License",
+            "Must be able to stand and walk for extended periods of time in South Texas Weather",
+            "Must be willing and able to perform foot and bike patrols",
+            "Must be willing and able to perform foot and bike patrols",
+            "Must be able to climb a 50' tower",
+            "Able to work efficiently in a fast-paced environment",
+            "Organized with the ability to multi-task",
+            "Safety conscious, mature, reliable and dependable",
+            "Outgoing and friendly demeanor",
+            "Ability to communicate effectively, both oral and written",
+            "Must be able to work flexible shifts including but not limited to overtime, weekends and some holidays",
+            "12 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $14.75/hr",
+            "It features a competitive hourly rate of $14.75 (with an additional $1 per hour for working the hours between 12am-8am) with perks such as: Free entry to any Six Flags Park for all employees and a guest with each visit, additional complimentary tickets for friends and family, discount on food and merchandise for all employees, flexible scheduling, Dayforce Wallet access for earned wage access, and bi-weekly pay"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "From swiftly responding to security incidents to expertly screening guests at the front gate, you'll be at the heart of our security operations, upholding our commitment to excellence",
+            "With every assignment tackled with precision and passion, you'll play a pivotal role in creating unforgettable experiences for our guests and maintaining the highest standards of safety throughout the park",
+            "Gate Security: Employ meticulous verification processes to ensure only authorized personnel and vehicles access the park, verifying identification and passes with precision",
+            "Confidentiality: Demonstrate unwavering commitment to confidentiality by carefully safeguarding sensitive information encountered during patrols or incidents, upholding the trust placed in you",
+            "Rapid Response: Be ready to spring into action at a moment's notice, responding promptly and decisively to security-related incidents within the park to mitigate risks and ensure the safety of guests and staff",
+            "Documentation: Utilize your exceptional communication skills to write clear, concise, and comprehensive reports detailing incidents and the actions taken, ensuring transparency and accountability",
+            "Law Enforcement Compliance: Execute your duties with a firm commitment to upholding local, state, and federal laws on park property, ensuring a safe and compliant environment for all",
+            "Asset Protection: Exercise vigilance and proactive measures to safeguard company assets, property, and facilities against potential threats and illegal activities, acting as a steadfast guardian of the park's resources",
+            "Traffic Control (as required): Assume control of traffic operations with precision and efficiency, managing vehicular flow and ensuring the safety of guests during peak times and special events",
+            "Patrol Proficiency: Conduct thorough and systematic vehicle and bike patrols throughout the park, covering all areas to detect and deter potential security threats effectively",
+            "Collaborative Approach: Foster strong partnerships with on-duty law enforcement personnel, facilitating seamless cooperation and coordination in maintaining park security and responding to incidents",
+            "Dispatch Operations (as needed): Demonstrate proficiency in managing communications and resources as a dispatch operator when required, orchestrating responses and resolutions during emergencies with skill and composure",
+            "Task Completion: Embrace a proactive attitude towards task completion, readily taking on any additional assignments delegated by management with dedication and efficiency",
+            "Policy Adherence: Adhere strictly to Six Flags Fiesta Texas handbook policies at all times, setting the standard for professionalism and conduct while ensuring compliance with park regulations and protocols",
+            "May perform other duties beyond scope of above as necessary to support the park as a whole",
+            "12 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "1ce03cf7099c",
       "title": "Overnight Security Pro - TX Level 2 Licensed",
       "company": "Canada's Wonderland",
       "location": "San Antonio, TX",
@@ -52,25 +190,19 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://www.jobleads.com/us/job/overnight-security-pro-tx-level-2-licensed--san-antonio--ed54224b819c94dc953e7066389060e5e",
       "via": "via JobLeads",
-      "description": "<p>Six Flags Fiesta Texas in San Antonio, TX is seeking an Overnight Security Officer with a Texas Level 2 license. This seasonal role covers overnight shifts 12 A.M.–8 A.M., with base pay of $14.75 per hour plus an extra $1 per hour for overnight hours.</p><p>Benefits include free park entry for you and a guest, additional tickets for friends and family, employee discounts, flexible scheduling, Dayforce Wallet wage access, and bi-weekly pay.</p>"
+      "description": "<p>Six Flags Fiesta Texas in San Antonio, TX is seeking an Overnight Security Officer with a Texas Level 2 license. This seasonal role covers overnight shifts 12 A.M.–8 A.M., with base pay of $14.75 per hour plus an extra $1 per hour for overnight hours.</p><p>Benefits include free park entry for you and a guest, additional tickets for friends and family, employee discounts, flexible scheduling, Dayforce Wallet wage access, and bi-weekly pay.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This seasonal role covers overnight shifts 12 A.M.–8 A.M., with base pay of $14.75 per hour plus an extra $1 per hour for overnight hours",
+            "Benefits include free park entry for you and a guest, additional tickets for friends and family, employee discounts, flexible scheduling, Dayforce Wallet wage access, and bi-weekly pay"
+          ],
+          "title": "Benefits"
+        }
+      ]
     },
     {
-      "title": "Security Officer- Overnight with weekend availability",
-      "company": "Six Flags",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "residential",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://jobs.sixflags.com/job/san-antonio/security-officer-overnight-with-weekend-availability/42509/98905049440",
-      "via": "via TeamWork Online",
-      "description": "<p>Overview</p><p><strong>Security Officer- Overnight (Texas Level 2 Certified) </strong></p><p> </p><p><strong>Job Type:</strong> Seasonal<br><strong>Pay Rate:</strong> $14.75/hr.<br><strong>Category:</strong> Public Safety<br><strong>Location</strong>: Six Flags Fiesta Texas in San Antonio, Texas</p><p> </p><p><strong>WHAT WE PROVIDE:</strong></p><p> </p><p>This is a seasonal overnight Security Officer position at Six Flags Fiesta Texas, in San Antonio, TX. It features a competitive <strong>hourly rate of $14.75</strong> (with an additional $1 per hour for working the hours between 12am-8am) with perks such as: <strong>Free entry</strong> to any Six Flags Park for all employees and a guest with each visit, additional complimentary tickets for friends and family, discount on food and merchandise for all employees, flexible scheduling, Dayforce Wallet access for earned wage access, and bi-weekly pay. </p><p>Responsibilities</p><p>Join the exhilarating world of Six Flags Fiesta Texas as an Overnight Security Officer, where you'll be the fearless protector of our vibrant park! With your State of Texas Level 2 license, you'll embark on thrilling patrols, ensuring the safety and security of our premises. From swiftly responding to security incidents to expertly screening guests at the front gate, you'll be at the heart of our security operations, upholding our commitment to excellence. With every assignment tackled with precision and passion, you'll play a pivotal role in creating unforgettable experiences for our guests and maintaining the highest standards of safety throughout the park.</p><p> </p><p><strong>HOW YOU WILL DO IT:</strong></p><ul><li><strong>Gate Security:</strong> Employ meticulous verification processes to ensure only authorized personnel and vehicles access the park, verifying identification and passes with precision.</li><li><strong>Confidentiality:</strong> Demonstrate unwavering commitment to confidentiality by carefully safeguarding sensitive information encountered during patrols or incidents, upholding the trust placed in you.</li><li><strong>Rapid Response:</strong> Be ready to spring into action at a moment's notice, responding promptly and decisively to security-related incidents within the park to mitigate risks and ensure the safety of guests and staff.</li><li><strong>Documentation:</strong> Utilize your exceptional communication skills to write clear, concise, and comprehensive reports detailing incidents and the actions taken, ensuring transparency and accountability.</li><li><strong>Law Enforcement Compliance:</strong> Execute your duties with a firm commitment to upholding local, state, and federal laws on park property, ensuring a safe and compliant environment for all.</li><li><strong>Asset Protection:</strong> Exercise vigilance and proactive measures to safeguard company assets, property, and facilities against potential threats and illegal activities, acting as a steadfast guardian of the park's resources.</li><li><strong>Traffic Control (as required):</strong> Assume control of traffic operations with precision and efficiency, managing vehicular flow and ensuring the safety of guests during peak times and special events.</li><li><strong>Patrol Proficiency:</strong> Conduct thorough and systematic vehicle and bike patrols throughout the park, covering all areas to detect and deter potential security threats effectively.</li><li><strong>Collaborative Approach:</strong> Foster strong partnerships with on-duty law enforcement personnel, facilitating seamless cooperation and coordination in maintaining park security and responding to incidents.</li><li><strong>Dispatch Operations (as needed):</strong> Demonstrate proficiency in managing communications and resources as a dispatch operator when required, orchestrating responses and resolutions during emergencies with skill and composure.</li><li><strong>Task Completion:</strong> Embrace a proactive attitude towards task completion, readily taking on any additional assignments delegated by management with dedication and efficiency.</li><li><strong>Policy Adherence:</strong> Adhere strictly to Six Flags Fiesta Texas handbook policies at all times, setting the standard for professionalism and conduct while ensuring compliance with park regulations and protocols.</li></ul><p>Qualifications</p><ul><li><strong>Must be at least 18 years of age.</strong></li><li><strong>Must be available to work overnight from 12 A.M.- 8 A.M.</strong></li><li>Must be a high school graduate or possess GED.</li><li>Must posses a valid Drivers License.</li><li><strong>Must have a valid Texas Level 2 Security License.</strong></li><li>Must be able to stand and walk for extended periods of time in South Texas Weather.</li><li>Must be willing and able to perform foot and bike patrols.</li><li>Must be willing and able to perform foot and bike patrols.</li><li>Must be able to climb a 50' tower.</li><li>Previous security related experience preferred.</li><li>Able to work efficiently in a fast-paced environment.</li><li>Organized with the ability to multi-task.</li><li>Safety conscious, mature, reliable and dependable.</li><li>Outgoing and friendly demeanor.</li><li>Ability to communicate effectively, both oral and written.</li><li>Must be able to work flexible shifts including but not limited to overtime, weekends and some holidays.</li></ul><p> </p><p><strong>OTHER NOTES</strong></p><ul><li>May perform other duties beyond scope of above as necessary to support the park as a whole</li><li>Reports to the Public Safety Department Leadership </li></ul>"
-    },
-    {
+      "job_hash": "510bef42d5a1",
       "title": "Hospital Security Officer – Night Shift (Unarmed",
       "company": "Tenet Healthcare",
       "location": "San Antonio, TX",
@@ -84,9 +216,29 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5344630270/e/",
       "via": "via Learn4Good",
-      "description": "Position: Hospital Security Officer – Night Shift (Unarmed) Westover Hills Baptist Hospital is seeking a Security Officer 1 (Unarmed) to help maintain a safe, secure environment for employees, patients and visitors. The role involves patrolling, responding to incidents, and enforcing access control with a strong commitment to customer service.Minimum requirements include a high school diploma or GED, 2–3 years in security, and the ability to obtain required state licenses.#J-18808-Ljbffr"
+      "description": "Position: Hospital Security Officer – Night Shift (Unarmed) Westover Hills Baptist Hospital is seeking a Security Officer 1 (Unarmed) to help maintain a safe, secure environment for employees, patients and visitors. The role involves patrolling, responding to incidents, and enforcing access control with a strong commitment to customer service.Minimum requirements include a high school diploma or GED, 2–3 years in security, and the ability to obtain required state licenses.#J-18808-Ljbffr",
+      "job_highlights": null
     },
     {
+      "job_hash": "510bef42d5a1",
+      "title": "Hospital Security Officer – Night Shift (Unarmed",
+      "company": "Tenet Healthcare",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": "42K–52K a year",
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5344630270/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Hospital Security Officer – Night Shift (Unarmed) Westover Hills Baptist Hospital is seeking a Security Officer 1 (Unarmed) to help maintain a safe, secure environment for employees, patients and visitors. The role involves patrolling, responding to incidents, and enforcing access control with a strong commitment to customer service.Minimum requirements include a high school diploma or GED, 2–3 years in security, and the ability to obtain required state licenses.#J-18808-Ljbffr",
+      "job_highlights": null
+    },
+    {
+      "job_hash": "abcaf59a3d58",
       "title": "Security Professional - Hotel Patrol - Overnight Shift at Allied Universal San Antonio, TX",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
@@ -100,9 +252,69 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://adelinewaco.com/job-library/job/security-professional-hotel-patrol-overnight-shift-at-allied-universal-san-antonio-tx-K01ROG9xMjVIL0xPeGJ3bHZ3WWo2UHRkTmc9PQ==",
       "via": "via Adeline Home",
-      "description": "Security Professional - Hotel Patrol - Overnight Shift job at Allied Universal. San Antonio, TX. <p> Allied Universal, North Americas leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse, and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions! </p><p> As a <b> Security Professional - Hotel Patrol - Overnight Shift </b> in <b> New Braunfels, TX </b> , you will serve and safeguard clients in a range of industries such as Hotels & Resorts and more . </p><p> As a Patrol Unarmed Officer with Allied Universal at a hotel and resort location, you will play a key role in helping to create a secure and welcoming environment for guests, staff, and visitors. Your responsibilities will include conducting regular patrols throughout the property, maintaining a visible presence to help to deter security-related incidents, and responding promptly to any situations that arise. You will also provide outstanding customer service, assisting guests with inquiries and offering support as needed. This position requires driving as part of your patrol duties, so a valid driver's license is necessary. At Allied Universal, we value teamwork, integrity, and a people-first approach, empowering you to make a positive impact every day while working in a dynamic hospitality setting. </p><p><b> Position Type: Full Time </b></p><p><b> Pay Rate: $15.00 / Hour </b></p><p><b> Job Schedule: </b></p><p> Day  Time </p><b> Tue </b><p>09:30 PM - 05:30 AM </p><b> Wed </b><p>09:30 PM - 05:30 AM </p><b> Thur </b><p>09:30 PM - 05:30 AM </p><b> Fri </b><p>09:30 PM - 05:30 AM </p><b> Sat </b><p>09:30 PM - 05:30 AM </p><p><b> What Youll Do: </b></p><ul><li> Use our proprietary scheduling platform to claim open shifts at client sites </li><li> Support operations across a range of environments including commercial real estate, healthcare, and education </li><li> Receive site-specific training and guidance from experienced teams </li><li> Deliver consistent, professional security presence and customer service </li><li> Be ready to fill in at short notice when urgent needs arise </li></ul><p><b> Responsibilities: </b></p><ul><li> Provide customer service to guests and staff by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities at the hotel and resort location. </li><li> Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times. </li><li> Conduct regular and random patrols around the hotel property and its perimeter to help to deter unauthorized activity and/or suspicious behavior. </li><li> Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances. </li><li> Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and site-specific protocols. </li><li> Assist guests and staff with security-related concerns and/or questions, providing information and support as needed. </li><li> Collaborate with hotel management and local authorities as required during incidents and/or emergencies. </li></ul><p><b> What Were Looking For: </b></p><ul><li> Availability across various days and shifts </li><li> Reliability and ability to adapt to different post assignments </li><li> A desire to gain broad experience and grow within the company </li><li> Interest in transitioning into full-time roles when available </li></ul><p><b> Minimum Requirements: </b></p><ul><li> A valid drivers license is required for positions that involve driving and must meet Allied Universal Driver Policy requirements. </li><li> A Guard Card or security-related license is preferred. </li><li> Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles. </li><li> Possess a high school diploma or equivalent. </li><li> As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. </li><li> Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws. </li><li> As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law. </li><li> Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment. </li><li> A valid drivers license will be required for driving positions only. </li></ul><p><b> Why Join Us: </b></p><ul><li> Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle. </li><li> Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs. </li><li> Smart Tools: Access exclusive technology for real-time shift visibility and claiming. </li><li> Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees. </li><li> Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program. </li></ul><p><b> Allied Universal is an Equal Opportunity Employer. </b> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status, or any other basis protected by law. For more information:  . </p><p> If you have any questions regarding Equal Employment Opportunity, Affirmative Action, Diversity and Inclusion, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit:  . </p>Allied Universal"
+      "description": "Security Professional - Hotel Patrol - Overnight Shift job at Allied Universal. San Antonio, TX. <p> Allied Universal, North Americas leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse, and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions! </p><p> As a <b> Security Professional - Hotel Patrol - Overnight Shift </b> in <b> New Braunfels, TX </b> , you will serve and safeguard clients in a range of industries such as Hotels & Resorts and more . </p><p> As a Patrol Unarmed Officer with Allied Universal at a hotel and resort location, you will play a key role in helping to create a secure and welcoming environment for guests, staff, and visitors. Your responsibilities will include conducting regular patrols throughout the property, maintaining a visible presence to help to deter security-related incidents, and responding promptly to any situations that arise. You will also provide outstanding customer service, assisting guests with inquiries and offering support as needed. This position requires driving as part of your patrol duties, so a valid driver's license is necessary. At Allied Universal, we value teamwork, integrity, and a people-first approach, empowering you to make a positive impact every day while working in a dynamic hospitality setting. </p><p><b> Position Type: Full Time </b></p><p><b> Pay Rate: $15.00 / Hour </b></p><p><b> Job Schedule: </b></p><p> Day  Time </p><b> Tue </b><p>09:30 PM - 05:30 AM </p><b> Wed </b><p>09:30 PM - 05:30 AM </p><b> Thur </b><p>09:30 PM - 05:30 AM </p><b> Fri </b><p>09:30 PM - 05:30 AM </p><b> Sat </b><p>09:30 PM - 05:30 AM </p><p><b> What Youll Do: </b></p><ul><li> Use our proprietary scheduling platform to claim open shifts at client sites </li><li> Support operations across a range of environments including commercial real estate, healthcare, and education </li><li> Receive site-specific training and guidance from experienced teams </li><li> Deliver consistent, professional security presence and customer service </li><li> Be ready to fill in at short notice when urgent needs arise </li></ul><p><b> Responsibilities: </b></p><ul><li> Provide customer service to guests and staff by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities at the hotel and resort location. </li><li> Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times. </li><li> Conduct regular and random patrols around the hotel property and its perimeter to help to deter unauthorized activity and/or suspicious behavior. </li><li> Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances. </li><li> Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and site-specific protocols. </li><li> Assist guests and staff with security-related concerns and/or questions, providing information and support as needed. </li><li> Collaborate with hotel management and local authorities as required during incidents and/or emergencies. </li></ul><p><b> What Were Looking For: </b></p><ul><li> Availability across various days and shifts </li><li> Reliability and ability to adapt to different post assignments </li><li> A desire to gain broad experience and grow within the company </li><li> Interest in transitioning into full-time roles when available </li></ul><p><b> Minimum Requirements: </b></p><ul><li> A valid drivers license is required for positions that involve driving and must meet Allied Universal Driver Policy requirements. </li><li> A Guard Card or security-related license is preferred. </li><li> Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles. </li><li> Possess a high school diploma or equivalent. </li><li> As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. </li><li> Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws. </li><li> As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law. </li><li> Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment. </li><li> A valid drivers license will be required for driving positions only. </li></ul><p><b> Why Join Us: </b></p><ul><li> Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle. </li><li> Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs. </li><li> Smart Tools: Access exclusive technology for real-time shift visibility and claiming. </li><li> Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees. </li><li> Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program. </li></ul><p><b> Allied Universal is an Equal Opportunity Employer. </b> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status, or any other basis protected by law. For more information:  . </p><p> If you have any questions regarding Equal Employment Opportunity, Affirmative Action, Diversity and Inclusion, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit:  . </p>Allied Universal",
+      "job_highlights": [
+        {
+          "items": [
+            "This position requires driving as part of your patrol duties, so a valid driver's license is necessary",
+            "Reliability and ability to adapt to different post assignments",
+            "A desire to gain broad experience and grow within the company",
+            "Interest in transitioning into full-time roles when available",
+            "A valid drivers license is required for positions that involve driving and must meet Allied Universal Driver Policy requirements",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid drivers license will be required for driving positions only",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions!",
+            "Pay Rate: $15.00 / Hour",
+            "Availability across various days and shifts",
+            "Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle",
+            "Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs",
+            "Smart Tools: Access exclusive technology for real-time shift visibility and claiming",
+            "Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees",
+            "Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Patrol Unarmed Officer with Allied Universal at a hotel and resort location, you will play a key role in helping to create a secure and welcoming environment for guests, staff, and visitors",
+            "Your responsibilities will include conducting regular patrols throughout the property, maintaining a visible presence to help to deter security-related incidents, and responding promptly to any situations that arise",
+            "You will also provide outstanding customer service, assisting guests with inquiries and offering support as needed",
+            "09:30 PM - 05:30 AM",
+            "09:30 PM - 05:30 AM",
+            "09:30 PM - 05:30 AM",
+            "09:30 PM - 05:30 AM",
+            "Use our proprietary scheduling platform to claim open shifts at client sites",
+            "Support operations across a range of environments including commercial real estate, healthcare, and education",
+            "Receive site-specific training and guidance from experienced teams",
+            "Deliver consistent, professional security presence and customer service",
+            "Be ready to fill in at short notice when urgent needs arise",
+            "Provide customer service to guests and staff by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities at the hotel and resort location",
+            "Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times",
+            "Conduct regular and random patrols around the hotel property and its perimeter to help to deter unauthorized activity and/or suspicious behavior",
+            "Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances",
+            "Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and site-specific protocols",
+            "Assist guests and staff with security-related concerns and/or questions, providing information and support as needed",
+            "Collaborate with hotel management and local authorities as required during incidents and/or emergencies",
+            "16 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "d566c9528535",
       "title": "Security Professional Overnight Full Time Flex",
       "company": "United Protective Services",
       "location": "San Antonio, TX",
@@ -116,9 +328,11 @@
       "posted_date": "2026-08-03",
       "apply_link": "https://jooble.org/rjdp/-1066854534071597698",
       "via": "via Jooble",
-      "description": "<p>Flex Security Officer<br/>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed.<br/>Are you a dependable, flexible, and professional individual looking for a career in private security? United Protective Services is currently seeking Security Officers to join our growing San Antonio team. This role is ideal for experienced officers who enjoy variety, flexibility, and supporting multiple sites..."
+      "description": "<p>Flex Security Officer<br/>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed.<br/>Are you a dependable, flexible, and professional individual looking for a career in private security? United Protective Services is currently seeking Security Officers to join our growing San Antonio team. This role is ideal for experienced officers who enjoy variety, flexibility, and supporting multiple sites...",
+      "job_highlights": null
     },
     {
+      "job_hash": "02b04ba7561c",
       "title": "Airport Security Patrol Officer – Day/Night Shifts",
       "company": "City of San Antonio",
       "location": "San Antonio, TX",
@@ -132,9 +346,31 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/city-of-san-antonio/san-antonio/airport-security-patrol-officer-day-night-shifts-83615453/",
       "via": "via Talents By Vaia",
-      "description": "A municipal organization in San Antonio is seeking a Security Guard responsible for patrol and security work at city facilities. The role involves monitoring entry points, providing public assistance, and reporting on safety conditions. Candidates should have a high school diploma or GED, experience in security work, and a valid Texas driver’s license. Successful applicants must pass TSA clearance, reflecting the position’s importance in maintaining a secure environment. #J-18808-Ljbffr\n\nSalary: USD 36000 - 60000 per year"
+      "description": "A municipal organization in San Antonio is seeking a Security Guard responsible for patrol and security work at city facilities. The role involves monitoring entry points, providing public assistance, and reporting on safety conditions. Candidates should have a high school diploma or GED, experience in security work, and a valid Texas driver’s license. Successful applicants must pass TSA clearance, reflecting the position’s importance in maintaining a secure environment. #J-18808-Ljbffr\n\nSalary: USD 36000 - 60000 per year",
+      "job_highlights": [
+        {
+          "items": [
+            "Candidates should have a high school diploma or GED, experience in security work, and a valid Texas driver’s license",
+            "Successful applicants must pass TSA clearance, reflecting the position’s importance in maintaining a secure environment"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary: USD 36000 - 60000 per year"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role involves monitoring entry points, providing public assistance, and reporting on safety conditions"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "c2344b3e3b34",
       "title": "Security Professional - Hotel Patrol - Overnight Shift",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
@@ -148,23 +384,64 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/allied-universal/security-professional-hotel-patrol-overnight-shift-22893104/",
       "via": "via Talents By Vaia",
-      "description": "<h2>Job Description</h2><div>Job Description<div>Overview<p> Allied Universal®, North America\\'s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse, and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions! </p>Job Description<br /><p> As a <strong>Security Professional - Hotel Patrol- Overnight Shift </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Hotels & Resorts and more . </p><p> As a Patrol Unarmed Officer with Allied Universal at a prominent hotel and resort location, you will play a key role in helping to deter security-related incidents and maintaining a welcoming atmosphere for guests and staff. Your responsibilities will include conducting routine patrols throughout the property, remaining highly visible to help to deter unwanted activity, and responding promptly to any security-related concerns. You will also have the opportunity to provide exceptional customer service, assisting guests and staff with inquiries and fostering a positive environment. At Allied Universal, we value agility, reliability, and innovation, and our team-oriented culture puts people first. If you are looking to make a meaningful impact while working in a dynamic hospitality setting, this is the perfect opportunity to join a company that acts with integrity and delivers through teamwork. </p><p><strong>Position Type: Full Time</strong></p><p><strong>Pay Rate: $15.50 / Hour</strong></p><p><strong>Job Schedule:</strong></p>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AMThur10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM<p><strong> What You\\'ll Do: </strong></p><ul><li> Use our proprietary scheduling platform to claim open shifts at client sites </li><li> Support operations across a range of environments including commercial real estate, healthcare, and education </li><li> Receive site-specific training and guidance from experienced teams </li><li> Deliver consistent, professional security presence and customer service </li><li> Be ready to fill in at short notice when urgent needs arise </li></ul><p><strong>Responsibilities:</strong></p><ul><li>Provide customer service to guests and staff by carrying out security-related procedures and site-specific policies, as well as responding to emergency situations when appropriate.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times.</li><li>Conduct regular and random patrols throughout the hotel and resort property, including both interior and exterior areas, to help to deter unauthorized activity and/or suspicious behavior.</li><li>Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances.</li><li>Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and client protocols.</li><li>Assist guests and staff with security-related concerns and provide information or directions as needed.</li><li>Collaborate with hotel and resort management and local authorities as required during incidents or emergencies.</li></ul><p><strong> What We\\'re Looking For: </strong></p><ul><li> Availability across various days and shifts </li><li> Reliability and ability to adapt to different post assignments </li><li> A desire to gain broad experience and grow within the company </li><li> Interest in transitioning into full-time roles when available </li></ul><p><strong>Minimum Requirements:</strong></p><ul><li>Must be at least 21 years of age.</li><li>Customer service experience is preferred.</li><li>Ability to lift up to 20 pounds is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver\\'s license will be required for driving positions only.</li></ul><p><strong> Why Join Us: </strong></p><ul><li> Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle. </li><li> Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs. </li><li> Smart Tools: Access exclusive technology for real-time shift visibility and claiming. </li><li> Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees. </li><li> Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program. </li></ul><br />Closing<p><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status, or any other basis protected by law. For more information: www.aus.com. </p><p> If you have any questions regarding Equal Employment Opportunity, Affirmative Action, Diversity and Inclusion, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.</p>Requisition ID<br><br>2025-1399472</div></div>\n\nSalary: USD 31200 - 46800 per year"
-    },
-    {
-      "title": "Night Shift Security Specialist - Growth, Benefits & Training",
-      "company": "Allied Universal",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "night-shift",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/allied-universal/san-antonio/night-shift-security-specialist-growth-benefits-training-74802589/",
-      "via": "via Talents By Vaia",
-      "description": "A leading security services company in San Antonio, Texas, is seeking individuals for armed security roles. In this position, you will provide customer service while enforcing site-specific policies and ensuring a safe environment. Ideal candidates must have previous military or law enforcement experience and an armed guard license. The role offers flexible scheduling and opportunities for career advancement within the organization. #J-18808-Ljbffr"
+      "description": "<h2>Job Description</h2><div>Job Description<div>Overview<p> Allied Universal®, North America\\'s leading security and facility services company, provides rewarding careers that give you a sense of purpose. While working in a dynamic, diverse, and inclusive workplace, you will be part of a team that fuels a culture that will reflect in our communities and customers we serve. We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions! </p>Job Description<br /><p> As a <strong>Security Professional - Hotel Patrol- Overnight Shift </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Hotels & Resorts and more . </p><p> As a Patrol Unarmed Officer with Allied Universal at a prominent hotel and resort location, you will play a key role in helping to deter security-related incidents and maintaining a welcoming atmosphere for guests and staff. Your responsibilities will include conducting routine patrols throughout the property, remaining highly visible to help to deter unwanted activity, and responding promptly to any security-related concerns. You will also have the opportunity to provide exceptional customer service, assisting guests and staff with inquiries and fostering a positive environment. At Allied Universal, we value agility, reliability, and innovation, and our team-oriented culture puts people first. If you are looking to make a meaningful impact while working in a dynamic hospitality setting, this is the perfect opportunity to join a company that acts with integrity and delivers through teamwork. </p><p><strong>Position Type: Full Time</strong></p><p><strong>Pay Rate: $15.50 / Hour</strong></p><p><strong>Job Schedule:</strong></p>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AMThur10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM<p><strong> What You\\'ll Do: </strong></p><ul><li> Use our proprietary scheduling platform to claim open shifts at client sites </li><li> Support operations across a range of environments including commercial real estate, healthcare, and education </li><li> Receive site-specific training and guidance from experienced teams </li><li> Deliver consistent, professional security presence and customer service </li><li> Be ready to fill in at short notice when urgent needs arise </li></ul><p><strong>Responsibilities:</strong></p><ul><li>Provide customer service to guests and staff by carrying out security-related procedures and site-specific policies, as well as responding to emergency situations when appropriate.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times.</li><li>Conduct regular and random patrols throughout the hotel and resort property, including both interior and exterior areas, to help to deter unauthorized activity and/or suspicious behavior.</li><li>Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances.</li><li>Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and client protocols.</li><li>Assist guests and staff with security-related concerns and provide information or directions as needed.</li><li>Collaborate with hotel and resort management and local authorities as required during incidents or emergencies.</li></ul><p><strong> What We\\'re Looking For: </strong></p><ul><li> Availability across various days and shifts </li><li> Reliability and ability to adapt to different post assignments </li><li> A desire to gain broad experience and grow within the company </li><li> Interest in transitioning into full-time roles when available </li></ul><p><strong>Minimum Requirements:</strong></p><ul><li>Must be at least 21 years of age.</li><li>Customer service experience is preferred.</li><li>Ability to lift up to 20 pounds is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver\\'s license will be required for driving positions only.</li></ul><p><strong> Why Join Us: </strong></p><ul><li> Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle. </li><li> Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs. </li><li> Smart Tools: Access exclusive technology for real-time shift visibility and claiming. </li><li> Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees. </li><li> Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program. </li></ul><br />Closing<p><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status, or any other basis protected by law. For more information: www.aus.com. </p><p> If you have any questions regarding Equal Employment Opportunity, Affirmative Action, Diversity and Inclusion, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.</p>Requisition ID<br><br>2025-1399472</div></div>\n\nSalary: USD 31200 - 46800 per year",
+      "job_highlights": [
+        {
+          "items": [
+            "Reliability and ability to adapt to different post assignments",
+            "A desire to gain broad experience and grow within the company",
+            "Interest in transitioning into full-time roles when available",
+            "Must be at least 21 years of age",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver's license will be required for driving positions only",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We offer medical, dental, and vision coverage, life insurance, retirement plans, employee assistance programs, company discounts, perks, and more for most full-time positions!",
+            "Pay Rate: $15.50 / Hour",
+            "Availability across various days and shifts",
+            "Flexible Scheduling: Choose from a variety of open shifts that align with your availability and lifestyle",
+            "Career Growth: Clear path to full-time roles and ongoing advancement through paid training programs",
+            "Smart Tools: Access exclusive technology for real-time shift visibility and claiming",
+            "Full-Time Benefits: Health insurance, 401(k) plans, and a comprehensive benefits package for full-time employees",
+            "Employee Perks: Enjoy discounts at restaurants, entertainment venues, and more through our perks program",
+            "Salary: USD 31200 - 46800 per year",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Professional - Hotel Patrol- Overnight Shift in San Antonio, TX, you will serve and safeguard clients in a range of industries such as Hotels & Resorts and more",
+            "As a Patrol Unarmed Officer with Allied Universal at a prominent hotel and resort location, you will play a key role in helping to deter security-related incidents and maintaining a welcoming atmosphere for guests and staff",
+            "Your responsibilities will include conducting routine patrols throughout the property, remaining highly visible to help to deter unwanted activity, and responding promptly to any security-related concerns",
+            "You will also have the opportunity to provide exceptional customer service, assisting guests and staff with inquiries and fostering a positive environment",
+            "DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AMThur10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM",
+            "Use our proprietary scheduling platform to claim open shifts at client sites",
+            "Support operations across a range of environments including commercial real estate, healthcare, and education",
+            "Receive site-specific training and guidance from experienced teams",
+            "Deliver consistent, professional security presence and customer service",
+            "Be ready to fill in at short notice when urgent needs arise",
+            "Provide customer service to guests and staff by carrying out security-related procedures and site-specific policies, as well as responding to emergency situations when appropriate",
+            "Respond to incidents and critical situations in a calm, problem-solving manner, maintaining professionalism at all times",
+            "Conduct regular and random patrols throughout the hotel and resort property, including both interior and exterior areas, to help to deter unauthorized activity and/or suspicious behavior",
+            "Monitor entrances, exits, and other key areas to help to deter unauthorized access and/or disturbances",
+            "Document and report any security-related incidents, hazards, or unusual occurrences according to Allied Universal and client protocols",
+            "Assist guests and staff with security-related concerns and provide information or directions as needed",
+            "Collaborate with hotel and resort management and local authorities as required during incidents or emergencies",
+            "14 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

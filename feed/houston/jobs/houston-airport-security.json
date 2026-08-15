@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "houston/jobs/houston-airport-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,6 +7,39 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "a904b31cb9c5",
+      "title": "Airport Security Team Lead (TSA) — Night/Weekend Shifts",
+      "company": "Airport Security Careers",
+      "location": "Pearland, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": "52K–80K a year",
+      "pay_min": 52000.0,
+      "pay_max": 80000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.learn4good.com/jobs/pearland/texas/security/5360808101/e/",
+      "via": "via JobLeads",
+      "description": "<p>Airport Security Careers is promoting leadership opportunities as Transportation Security Officers in Pearland, TX. This role leads security operations, with training provided to prepare you for higher responsibility and oversight within airport screening teams.</p><p>Openings are for Pearland and nationwide opportunities, with a starting pay range and annual compensation reflecting experience. The position emphasizes shift-based schedules including nights and weekends, with growth potential in</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Openings are for Pearland and nationwide opportunities, with a starting pay range and annual compensation reflecting experience",
+            "The position emphasizes shift-based schedules including nights and weekends, with growth potential in"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "This role leads security operations, with training provided to prepare you for higher responsibility and oversight within airport screening teams"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "bb41e073f3fc",
       "title": "Overnight Shuttle Driver - Security Guard at Four Points by Sheraton Houston Airport Houston, TX",
       "company": "Four Points by Sheraton Houston Airport",
       "location": "Houston, TX",
@@ -20,57 +53,29 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://xn--teacompao-s6a.org/job-listing/job/overnight-shuttle-driver-security-guard-at-four-points-by-sheraton-houston-airport-houston-tx-TFhER3drZHViZDFzbTVxTlova0NXQkxDNkE9PQ==",
       "via": "via Teacompaño.org",
-      "description": "Overnight Shuttle Driver - Security Guard job at Four Points by Sheraton Houston Airport. Houston, TX. <p>Join our team at the Four Points by Sheraton Hotel as an Overnight Shuttle Driver/Security Guard.\n\n<b>Responsibilities:</b>\n<ul><li>Deliver on the promise to provide excellent guest service</li><li>Respond to all guest requests for shuttle service in a prompt and courteous manner; assist guests with luggage while boarding and off-loading the vehicle.</li><li>Operate vehicle in accordance with state laws; observe all airport rules pertaining to the shuttle vehicles.</li><li>Explain and..."
+      "description": "Overnight Shuttle Driver - Security Guard job at Four Points by Sheraton Houston Airport. Houston, TX. <p>Join our team at the Four Points by Sheraton Hotel as an Overnight Shuttle Driver/Security Guard.\n\n<b>Responsibilities:</b>\n<ul><li>Deliver on the promise to provide excellent guest service</li><li>Respond to all guest requests for shuttle service in a prompt and courteous manner; assist guests with luggage while boarding and off-loading the vehicle.</li><li>Operate vehicle in accordance with state laws; observe all airport rules pertaining to the shuttle vehicles.</li><li>Explain and...",
+      "job_highlights": null
     },
     {
-      "title": "TSA Security Inspector - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "North Houston, TX",
-      "vertical": "security",
-      "role": "no-experience",
-      "pay": "26–48 an hour",
-      "pay_min": 26.0,
-      "pay_max": 48.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/mail-processor-no-experience-required-postal-hiring-hub-north-houston--dc-F43D616A7AA6FDDDC74EA4C777F3DA9A",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in North Houston and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Houston and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in North Houston </b><p> Help maintain the highest airport security standards. </p>"
-    },
-    {
-      "title": "TSA Security Inspector - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "South Houston, TX",
-      "vertical": "security",
-      "role": "no-experience",
-      "pay": "26–48 an hour",
-      "pay_min": 26.0,
-      "pay_max": 48.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/postal-jobs-assist/mail-processor-no-experience-required-50626029/",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in South Houston and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : South Houston and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in South Houston </b><p> Help maintain the highest airport security standards. </p>"
-    },
-    {
-      "title": "Aviation Security Officer- IAH",
-      "company": "GLOBAL SECURITY CONSULTING GROUP IN",
+      "job_hash": "bb41e073f3fc",
+      "title": "Overnight Shuttle Driver - Security Guard at Four Points by Sheraton Houston Airport Houston, TX",
+      "company": "Four Points by Sheraton Houston Airport",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "airport-tsa",
-      "pay": "16 an hour",
-      "pay_min": 16.0,
+      "role": "night-shift",
+      "pay": null,
+      "pay_min": null,
       "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.monster.com/job-openings/aviation-security-officer-iah-34100-houston-tx--31b076f1-a51f-4724-a6f3-408205d44c8b",
-      "via": "via ZipRecruiter",
-      "description": "<p><strong>Aviation Security Officer – Aviation Security Company</strong></p><p><strong>George Bush Intercontinental Airport- Houston, TX </strong></p><p>Global Elite Group- Providing world-class aviation security through innovation and people committed to excellence. </p><p>Our unarmed security officers are in the forefront of homeland security, safeguarding infrastructure and ensuring seamless and secure operations in many of the largest and busiest airports in the country.  </p><p>Global is an equal opportunity employer.  All applicants will be considered for employment without attention to race, color, religion, sexual orientation, gender identity, national origin, veteran, or disability status.</p><p><strong>Benefits</strong>:</p><ul><li><strong>Pay Rate: $16.00 per hour- part-time</strong></li><li>Medical, Dental, Vision benefits available to qualified full time employees </li><li>Paid training- participate in a world class internationally recognized training program in a federally regulated industry </li><li>Employee engagement, and opportunities for advancement</li><li>Tenure and Performance Recognition Program</li></ul><p><strong>Essential Functions (including but not limited to):<em> </em></strong>Security Officers fulfill the following responsibilities with the main priority of ensuring that we maintain compliance with local and federal regulations:</p><p>Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground:</p><ul><li>Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers’ pre-departure.</li><li>Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered.</li><li>Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft.</li><li>Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights</li></ul><p><strong><em>Qualifications/Requirements:</em></strong></p><p>This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references. Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration</p><p></p><p></p><p></p><p><strong><em>Additional requirements</em></strong></p><ul><li>Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history. Also, must be able to pass a security threat assessment as administered by the TSA</li><li>Must be at least 18 years old</li><li>MUST have a valid State Security License</li><li>Upon hire, must provide proof of legal right to work in the United States</li><li>Must be able to pass all initial and recurrent training classes and exams</li><li>Must have access to reliable transportation</li></ul>"
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://xn--teacompao-s6a.org/job-listing/job/overnight-shuttle-driver-security-guard-at-four-points-by-sheraton-houston-airport-houston-tx-TFhER3drZHViZDFzbTVxTlova0NXQkxDNkE9PQ==",
+      "via": "via Teacompaño.org",
+      "description": "Overnight Shuttle Driver - Security Guard job at Four Points by Sheraton Houston Airport. Houston, TX. <p>Join our team at the Four Points by Sheraton Hotel as an Overnight Shuttle Driver/Security Guard.\n\n<b>Responsibilities:</b>\n<ul><li>Deliver on the promise to provide excellent guest service</li><li>Respond to all guest requests for shuttle service in a prompt and courteous manner; assist guests with luggage while boarding and off-loading the vehicle.</li><li>Operate vehicle in accordance with state laws; observe all airport rules pertaining to the shuttle vehicles.</li><li>Explain and...",
+      "job_highlights": null
     },
     {
+      "job_hash": "11aab9b24180",
       "title": "Aviation Security Officer- IAH (34100) | Houston, TX, USA",
       "company": "GLOBAL ELITE GROUP",
       "location": "Houston, TX",
@@ -84,9 +89,197 @@
       "posted_date": null,
       "apply_link": "https://www.efinancialcareers.com/jobs-USA-TX-Houston-Aviation_Security_Officer-_IAH_34100.id24322412",
       "via": "via EFinancialCareers",
-      "description": "Aviation Security Officer- IAH (34100)\r\n\r\nAviation Security Officer - Aviation Security Company \r\n \r\n George Bush Intercontinental Airport- Houston, TX  \r\n \r\n Global Elite Group- Providing world-class aviation security through innovation and people committed to excellence. \r\n \r\n Our unarmed security officers are in the forefront of homeland security, safeguarding infrastructure and ensuring seamless and secure operations in many of the largest and busiest airports in the country. \r\n \r\n Global is an equal opportunity employer. All applicants will be considered for employment without attention to race, color, religion, sexual orientation, gender identity, national origin, veteran, or disability status. \r\n \r\n Benefits : \r\n  \r\n• Pay Rate: $16.00 per hour- part-time \r\n• Medical, Dental, Vision benefits available to qualified full time employees  \r\n• Paid training- participate in a world class internationally recognized training program in a federally regulated industry  \r\n• Employee engagement, and opportunities for advancement \r\n• Tenure and Performance Recognition Program  \r\n Essential Functions (including but not limited to):  Security Officers fulfill the following responsibilities with the main priority of ensuring that we maintain compliance with local and federal regulations: \r\n \r\n Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground: \r\n  \r\n• Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers' pre-departure. \r\n• Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered. \r\n• Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft. \r\n• Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights  \r\n Qualifications/Requirements: \r\n \r\n This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references. Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration \r\n \r\n Additional requirements \r\n  \r\n• Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history. Also, must be able to pass a security threat assessment as administered by the TSA \r\n• Must be at least 18 years old \r\n• MUST have a valid State Security License \r\n• Upon hire, must provide proof of legal right to work in the United States \r\n• Must be able to pass all initial and recurrent training classes and exams \r\n• Must have access to reliable transportation"
+      "description": "Aviation Security Officer- IAH (34100)\r\n\r\nAviation Security Officer - Aviation Security Company \r\n \r\n George Bush Intercontinental Airport- Houston, TX  \r\n \r\n Global Elite Group- Providing world-class aviation security through innovation and people committed to excellence. \r\n \r\n Our unarmed security officers are in the forefront of homeland security, safeguarding infrastructure and ensuring seamless and secure operations in many of the largest and busiest airports in the country. \r\n \r\n Global is an equal opportunity employer. All applicants will be considered for employment without attention to race, color, religion, sexual orientation, gender identity, national origin, veteran, or disability status. \r\n \r\n Benefits : \r\n  \r\n• Pay Rate: $16.00 per hour- part-time \r\n• Medical, Dental, Vision benefits available to qualified full time employees  \r\n• Paid training- participate in a world class internationally recognized training program in a federally regulated industry  \r\n• Employee engagement, and opportunities for advancement \r\n• Tenure and Performance Recognition Program  \r\n Essential Functions (including but not limited to):  Security Officers fulfill the following responsibilities with the main priority of ensuring that we maintain compliance with local and federal regulations: \r\n \r\n Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground: \r\n  \r\n• Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers' pre-departure. \r\n• Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered. \r\n• Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft. \r\n• Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights  \r\n Qualifications/Requirements: \r\n \r\n This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references. Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration \r\n \r\n Additional requirements \r\n  \r\n• Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history. Also, must be able to pass a security threat assessment as administered by the TSA \r\n• Must be at least 18 years old \r\n• MUST have a valid State Security License \r\n• Upon hire, must provide proof of legal right to work in the United States \r\n• Must be able to pass all initial and recurrent training classes and exams \r\n• Must have access to reliable transportation",
+      "job_highlights": [
+        {
+          "items": [
+            "This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references",
+            "Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration",
+            "Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history",
+            "Also, must be able to pass a security threat assessment as administered by the TSA",
+            "Must be at least 18 years old",
+            "MUST have a valid State Security License",
+            "Upon hire, must provide proof of legal right to work in the United States",
+            "Must be able to pass all initial and recurrent training classes and exams",
+            "Must have access to reliable transportation",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $16.00 per hour- part-time",
+            "Medical, Dental, Vision benefits available to qualified full time employees",
+            "Paid training- participate in a world class internationally recognized training program in a federally regulated industry",
+            "Employee engagement, and opportunities for advancement",
+            "Tenure and Performance Recognition Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground:",
+            "Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers' pre-departure",
+            "Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered",
+            "Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft",
+            "Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "d635f2410b14",
+      "title": "TSA Security Inspector - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "South Houston, TX",
+      "vertical": "security",
+      "role": "no-experience",
+      "pay": "26–48 an hour",
+      "pay_min": 26.0,
+      "pay_max": 48.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://salutemyjob.com/jobs/mail-processor-no-experience-required-south-houston-texas/2926153232-2/",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in South Houston and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : South Houston and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in South Houston </b><p> Help maintain the highest airport security standards. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting Pay : $26.00 - $48.00",
+            "Annual Compensation : $55,000 - $85,000+",
+            "Perks and Benefits",
+            "Paid leave and holidays",
+            "Health coverage",
+            "Retirement plans",
+            "Career growth opportunities",
+            "Practice exams",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSA is hiring Security Inspectors to evaluate airport security systems in South Houston and ensure compliance with federal regulations",
+            "Inspectors conduct audits and assessments to maintain safety standards",
+            "Conduct inspections",
+            "Ensure compliance with TSA standards",
+            "Prepare reports",
+            "Coordinate with airport authorities",
+            "Help maintain the highest airport security standards",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "65a3b76c18e5",
+      "title": "Aviation Security Officer- IAH",
+      "company": "GLOBAL SECURITY CONSULTING GROUP IN",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "industrial",
+      "pay": "16 an hour",
+      "pay_min": 16.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.monster.com/job-openings/aviation-security-officer-iah-34100-houston-tx--31b076f1-a51f-4724-a6f3-408205d44c8b",
+      "via": "via ZipRecruiter",
+      "description": "<p><strong>Aviation Security Officer – Aviation Security Company</strong></p><p><strong>George Bush Intercontinental Airport- Houston, TX </strong></p><p>Global Elite Group- Providing world-class aviation security through innovation and people committed to excellence. </p><p>Our unarmed security officers are in the forefront of homeland security, safeguarding infrastructure and ensuring seamless and secure operations in many of the largest and busiest airports in the country.  </p><p>Global is an equal opportunity employer.  All applicants will be considered for employment without attention to race, color, religion, sexual orientation, gender identity, national origin, veteran, or disability status.</p><p><strong>Benefits</strong>:</p><ul><li><strong>Pay Rate: $16.00 per hour- part-time</strong></li><li>Medical, Dental, Vision benefits available to qualified full time employees </li><li>Paid training- participate in a world class internationally recognized training program in a federally regulated industry </li><li>Employee engagement, and opportunities for advancement</li><li>Tenure and Performance Recognition Program</li></ul><p><strong>Essential Functions (including but not limited to):<em> </em></strong>Security Officers fulfill the following responsibilities with the main priority of ensuring that we maintain compliance with local and federal regulations:</p><p>Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground:</p><ul><li>Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers’ pre-departure.</li><li>Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered.</li><li>Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft.</li><li>Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights</li></ul><p><strong><em>Qualifications/Requirements:</em></strong></p><p>This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references. Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration</p><p></p><p></p><p></p><p><strong><em>Additional requirements</em></strong></p><ul><li>Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history. Also, must be able to pass a security threat assessment as administered by the TSA</li><li>Must be at least 18 years old</li><li>MUST have a valid State Security License</li><li>Upon hire, must provide proof of legal right to work in the United States</li><li>Must be able to pass all initial and recurrent training classes and exams</li><li>Must have access to reliable transportation</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "This position requires you obtain Airport Badging, and The Department of Homeland Security requires an extensive background check to obtain badging which include 10-year verifiable background check, including criminal, employment, credit, education, and personal references",
+            "Also, must be able to pass a Security Threat Assessment as administered by the Transportation Security Administration",
+            "Ability to obtain an airport badge with customs seal: DHS requires a 10-year verifiable background check, including criminal, employment history",
+            "Also, must be able to pass a security threat assessment as administered by the TSA",
+            "Must be at least 18 years old",
+            "MUST have a valid State Security License",
+            "Upon hire, must provide proof of legal right to work in the United States",
+            "Must be able to pass all initial and recurrent training classes and exams",
+            "Must have access to reliable transportation",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $16.00 per hour- part-time",
+            "Medical, Dental, Vision benefits available to qualified full time employees",
+            "Paid training- participate in a world class internationally recognized training program in a federally regulated industry",
+            "Employee engagement, and opportunities for advancement",
+            "Tenure and Performance Recognition Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Aircraft Ramp Access Control: by providing AOA access control & safety oversight while aircraft is on the ground:",
+            "Aircraft Search: by meticulously searching all areas of the aircraft according to company, and federal regulations to ensure the safety of travelers’ pre-departure",
+            "Baggage Security: by surveillance of bag room & baggage make up area to ensure no baggage is stolen or pilfered",
+            "Catering Security: by providing surveillance at the catering kitchen, searching all catering equipment, and ensuring that nothing is tampered with in transit from the facilities to aircraft",
+            "Passenger Verification: by providing exemplary customer service in airport terminal while making sure that all passengers have valid identification and are authorized to board flights",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "3321b69dcb14",
+      "title": "TSA Security Inspector - No Experience Required",
+      "company": "Airport Security Careers",
+      "location": "North Houston, TX",
+      "vertical": "security",
+      "role": "no-experience",
+      "pay": "26–48 an hour",
+      "pay_min": 26.0,
+      "pay_max": 48.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://salutemyjob.com/jobs/mail-processor-no-experience-required-north-houston-texas/2926143221-2/",
+      "via": "via Jooble",
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in North Houston and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Houston and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in North Houston </b><p> Help maintain the highest airport security standards. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting Pay : $26.00 - $48.00",
+            "Annual Compensation : $55,000 - $85,000+",
+            "Perks and Benefits",
+            "Paid leave and holidays",
+            "Health coverage",
+            "Retirement plans",
+            "Career growth opportunities",
+            "Practice exams",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSA is hiring Security Inspectors to evaluate airport security systems in North Houston and ensure compliance with federal regulations",
+            "Inspectors conduct audits and assessments to maintain safety standards",
+            "Conduct inspections",
+            "Ensure compliance with TSA standards",
+            "Prepare reports",
+            "Coordinate with airport authorities",
+            "Help maintain the highest airport security standards",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "ac71353417ac",
       "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
       "company": "Airport Security Careers",
       "location": "South Houston, TX",
@@ -100,9 +293,11 @@
       "posted_date": null,
       "apply_link": "https://jooble.org/jdp/-6790234024025362522",
       "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in South Houston and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : South Houston and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li>..."
+      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in South Houston and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : South Houston and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li>...",
+      "job_highlights": null
     },
     {
+      "job_hash": "11c6a848c836",
       "title": "TSA Agent – Airport Checkpoint Screener (No Experience Needed)",
       "company": "Airport Security",
       "location": "North Houston, TX",
@@ -116,25 +311,52 @@
       "posted_date": null,
       "apply_link": "https://bebee.com/us/jobs/tsa-agent-airport-checkpoint-screener-no-experience-needed-airport-security-north-houston--dc-1668CD5FBF825C9DF2017241D88DAC82",
       "via": "via BeBee",
-      "description": "<p>Transportation Security Officer (TSO) – No Experience Required</p>\n<h4>Airport Security Careers</h4>\n<h4>Role Overview</h4>\n<p>TSA is accepting applications for Transportation Security Officers (TSOs) at airports across the United States. This is the job most travelers already know as TSA Agent, Airport Security Screener, or Checkpoint Screener.</p>\n<p>TSOs are customer facing, non-armed workers who screen passengers and baggage at the security checkpoints, check IDs and boarding passes, help travelers get through security smoothly, as well as assess the area and detect potential threats. No prior security experience is required. TSA provides paid training to get you job-ready.</p>\n<h4>Position Details</h4>\n<h4>Openings: Multiple positions nationwide</h4>\n<p>Starting Pay: $22.00–$44.00, varies by airport needs and experience</p>\n<p>Annual Compensation: $45,760–$65,341+ per year start, plus full federal benefits</p>\n<p>Schedule: Shifts set by the airport (may include nights, weekends, holidays, overtime)</p>\n<h4>Perks and Benefits</h4>\n<p>Paid Time Off: Annual leave, sick leave, and paid federal holidays</p>\n<p>Health Coverage: Medical, dental, vision, and life insurance options</p>\n<p>Retirement Savings: Federal retirement plan + Thrift Savings Plan (TSP) with matching contributions</p>\n<p>Extra Pay: Overtime and premium pay for certain shifts (varies by location)</p>\n<p>Career Growth: Clear promotion paths and opportunities to transfer to other airports</p>\n<h4>Key Responsibilities</h4>\n<p>Checkpoint Screening: Screen passengers, carry-on items, and checked baggage using wands, X-ray machines, and other security technology</p>\n<p>Customer Service: Check IDs and boarding passes, answer questions, and help travelers by answering questions and moving them through lines quickly and efficiently</p>\n<p>Bag & Person Checks: Perform pat-downs and bag searches when alarms go off or items need a closer look</p>\n<p>Security Support: Monitor and control access to secure areas and follow TSA procedures at all times</p>\n<h4>Disclaimer</h4>\n<p>This is not a direct job offer from the Transportation Security Administration (TSA). This posting promotes an independent resource that helps applicants prepare for TSA’s hiring process. The TSA does not charge any fee to apply, but their process requires candidates to pass the TSA Computer-based Test (CBT), which many find confusing and/or difficult. All hiring decisions are made only by TSA. Our goal is to provide the best resources to help with your application and hiring journey.</p>\n<h4>TSA Hiring Process</h4>\n<p>Online application for a TSO role</p>\n<p>TSA CBT exam (X-ray image/object recognition and reading skills)</p>\n<h4>Airport assessment / interview</h4>\n<p>Background investigation, medical screening, and drug test</p>\n<p>Final job offer and training date (if selected by TSA)</p>\n<p>Passing the CBT and doing well at each step greatly improves your chances of being hired.</p>\n<h4>How Our Program Helps</h4>\n<p>Our online prep platform is built for people who want this job but don’t want to guess on the exam or process. For a one-time access fee, you get:</p>\n<p>Step-by-step guide to the TSA TSO hiring process so you know what happens next</p>\n<p>CBT-style practice focused on X-ray image/object recognition and reading questions</p>\n<p>Full-length practice test with explanations so you can see where you stand</p>\n<p>Interview prep tips tailored to TSO roles</p>\n<p>Job finder tool to locate TSA openings near you</p>\n<p>Support by email and chat while you work through the steps</p>\n<p>Apply for TSA TSO Jobs with Confidence</p>\n<p>Airports across the nation are actively hiring, so don’t wait to begin your new career.</p>\n<p>Our program is designed to streamline the hiring process by providing practice tests, application support, and interview guidance. Get ready and apply today.</p>"
+      "description": "<p>Transportation Security Officer (TSO) – No Experience Required</p>\n<h4>Airport Security Careers</h4>\n<h4>Role Overview</h4>\n<p>TSA is accepting applications for Transportation Security Officers (TSOs) at airports across the United States. This is the job most travelers already know as TSA Agent, Airport Security Screener, or Checkpoint Screener.</p>\n<p>TSOs are customer facing, non-armed workers who screen passengers and baggage at the security checkpoints, check IDs and boarding passes, help travelers get through security smoothly, as well as assess the area and detect potential threats. No prior security experience is required. TSA provides paid training to get you job-ready.</p>\n<h4>Position Details</h4>\n<h4>Openings: Multiple positions nationwide</h4>\n<p>Starting Pay: $22.00–$44.00, varies by airport needs and experience</p>\n<p>Annual Compensation: $45,760–$65,341+ per year start, plus full federal benefits</p>\n<p>Schedule: Shifts set by the airport (may include nights, weekends, holidays, overtime)</p>\n<h4>Perks and Benefits</h4>\n<p>Paid Time Off: Annual leave, sick leave, and paid federal holidays</p>\n<p>Health Coverage: Medical, dental, vision, and life insurance options</p>\n<p>Retirement Savings: Federal retirement plan + Thrift Savings Plan (TSP) with matching contributions</p>\n<p>Extra Pay: Overtime and premium pay for certain shifts (varies by location)</p>\n<p>Career Growth: Clear promotion paths and opportunities to transfer to other airports</p>\n<h4>Key Responsibilities</h4>\n<p>Checkpoint Screening: Screen passengers, carry-on items, and checked baggage using wands, X-ray machines, and other security technology</p>\n<p>Customer Service: Check IDs and boarding passes, answer questions, and help travelers by answering questions and moving them through lines quickly and efficiently</p>\n<p>Bag & Person Checks: Perform pat-downs and bag searches when alarms go off or items need a closer look</p>\n<p>Security Support: Monitor and control access to secure areas and follow TSA procedures at all times</p>\n<h4>Disclaimer</h4>\n<p>This is not a direct job offer from the Transportation Security Administration (TSA). This posting promotes an independent resource that helps applicants prepare for TSA’s hiring process. The TSA does not charge any fee to apply, but their process requires candidates to pass the TSA Computer-based Test (CBT), which many find confusing and/or difficult. All hiring decisions are made only by TSA. Our goal is to provide the best resources to help with your application and hiring journey.</p>\n<h4>TSA Hiring Process</h4>\n<p>Online application for a TSO role</p>\n<p>TSA CBT exam (X-ray image/object recognition and reading skills)</p>\n<h4>Airport assessment / interview</h4>\n<p>Background investigation, medical screening, and drug test</p>\n<p>Final job offer and training date (if selected by TSA)</p>\n<p>Passing the CBT and doing well at each step greatly improves your chances of being hired.</p>\n<h4>How Our Program Helps</h4>\n<p>Our online prep platform is built for people who want this job but don’t want to guess on the exam or process. For a one-time access fee, you get:</p>\n<p>Step-by-step guide to the TSA TSO hiring process so you know what happens next</p>\n<p>CBT-style practice focused on X-ray image/object recognition and reading questions</p>\n<p>Full-length practice test with explanations so you can see where you stand</p>\n<p>Interview prep tips tailored to TSO roles</p>\n<p>Job finder tool to locate TSA openings near you</p>\n<p>Support by email and chat while you work through the steps</p>\n<p>Apply for TSA TSO Jobs with Confidence</p>\n<p>Airports across the nation are actively hiring, so don’t wait to begin your new career.</p>\n<p>Our program is designed to streamline the hiring process by providing practice tests, application support, and interview guidance. Get ready and apply today.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This is the job most travelers already know as TSA Agent, Airport Security Screener, or Checkpoint Screener",
+            "No prior security experience is required",
+            "TSA CBT exam (X-ray image/object recognition and reading skills)",
+            "Background investigation, medical screening, and drug test",
+            "Passing the CBT and doing well at each step greatly improves your chances of being hired",
+            "CBT-style practice focused on X-ray image/object recognition and reading questions",
+            "Full-length practice test with explanations so you can see where you stand",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "TSA provides paid training to get you job-ready",
+            "Starting Pay: $22.00–$44.00, varies by airport needs and experience",
+            "Annual Compensation: $45,760–$65,341+ per year start, plus full federal benefits",
+            "Schedule: Shifts set by the airport (may include nights, weekends, holidays, overtime)",
+            "Perks and Benefits",
+            "Paid Time Off: Annual leave, sick leave, and paid federal holidays",
+            "Health Coverage: Medical, dental, vision, and life insurance options",
+            "Retirement Savings: Federal retirement plan + Thrift Savings Plan (TSP) with matching contributions",
+            "Extra Pay: Overtime and premium pay for certain shifts (varies by location)",
+            "Career Growth: Clear promotion paths and opportunities to transfer to other airports",
+            "7 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSOs are customer facing, non-armed workers who screen passengers and baggage at the security checkpoints, check IDs and boarding passes, help travelers get through security smoothly, as well as assess the area and detect potential threats",
+            "Checkpoint Screening: Screen passengers, carry-on items, and checked baggage using wands, X-ray machines, and other security technology",
+            "Customer Service: Check IDs and boarding passes, answer questions, and help travelers by answering questions and moving them through lines quickly and efficiently",
+            "Bag & Person Checks: Perform pat-downs and bag searches when alarms go off or items need a closer look",
+            "Security Support: Monitor and control access to secure areas and follow TSA procedures at all times",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "TSA Security Inspector - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Friendswood, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "26–48 an hour",
-      "pay_min": 26.0,
-      "pay_max": 48.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/postal-hiring-hub/friendswood/mail-processor-no-experience-required-58075247/",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Friendswood and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Friendswood and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in Friendswood </b><p> Help maintain the highest airport security standards. </p>"
-    },
-    {
+      "job_hash": "4a98678eedea",
       "title": "TSA Security Inspector - No Experience Required",
       "company": "Airport Security Careers",
       "location": "Richmond, TX",
@@ -146,25 +368,38 @@
       "pay_unit": "HOUR",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://us.thebigjobsite.com/details/D1F9B68B5E2103B3602FC109371EE092/mail-processor---no-experience-required",
+      "apply_link": "https://salutemyjob.com/jobs/mail-processor-no-experience-required-richmond-texas/2926148594-2/",
       "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in Richmond </b><p> Help maintain the highest airport security standards. </p>"
-    },
-    {
-      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Montgomery, TX",
-      "vertical": "security",
-      "role": "no-experience",
-      "pay": "20–45 an hour",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/-8043014471890244385",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in Montgomery and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Montgomery and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career..."
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in Richmond </b><p> Help maintain the highest airport security standards. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting Pay : $26.00 - $48.00",
+            "Annual Compensation : $55,000 - $85,000+",
+            "Perks and Benefits",
+            "Paid leave and holidays",
+            "Health coverage",
+            "Retirement plans",
+            "Career growth opportunities",
+            "Practice exams",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations",
+            "Inspectors conduct audits and assessments to maintain safety standards",
+            "Conduct inspections",
+            "Ensure compliance with TSA standards",
+            "Prepare reports",
+            "Coordinate with airport authorities",
+            "Help maintain the highest airport security standards",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

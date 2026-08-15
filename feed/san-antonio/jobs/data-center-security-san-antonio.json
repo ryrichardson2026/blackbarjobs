@@ -1,12 +1,13 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "san-antonio/jobs/data-center-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 10,
-  "exact": 5,
+  "exact": 6,
   "jobs": [
     {
+      "job_hash": "3d3240aa4af5",
       "title": "Data Center Tech II (Field) San Antonio TX",
       "company": "Segra",
       "location": "San Antonio, TX",
@@ -20,9 +21,46 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://www.monster.com/job-openings/data-center-tech-ii-field-san-antonio-tx-san-antonio-tx--5c3fdac3-77c8-4c3c-9af8-7363c73cc384",
       "via": "via Indeed",
-      "description": "Segra is searching for a qualified and experienced Field Service Engineer (San Antonio TX) to join us in a full-time capacity. \n<br>\n<br><b>Location Requirement:</b>\n<br>\n The work arrangement for this role is in office onsite 5 days each week. \n<br>\n<br><b>Role Overview:</b>\n<br>\n The Field Service Engineer is responsible for the day-to-day activities of the network, including but not limited to equipment installation & commissioning, circuit/node turn-up & testing, customer premise equipment, (Ethernet Network Interface Devices, Routers, Data Switches, premise Firewalls, IAD’s, Hosted phones, ONT’s, preventive maintenance, and testing/troubleshooting associated with transport infrastructure, switching infrastructure and IP/Data networks. Field Operations personnel will perform “on call” duties as required. The FSE will interact with internal and external customers, service technicians, technical support personnel and other telecom professionals. \n<br>\n<br><b>Qualifications:</b>\n<br>\n<ul>\n <li>Knowledge of Telecom equipment (ex.- Cisco, Ciena, etc.)</li>\n <li>Minimum of 2 years of experience with Telecom equipment</li>\n</ul><b>Preferred Qualifications:</b>\n<br>\n<ul>\n <li>Associate’s degree or technical field (industry related) preferred, and/or a combination of job-related experience.</li>\n <li>Cisco and/or Ciena equipment experience preferred.</li>\n <li>AC/DC core fundamentals; good driving record; Office 365 suite.</li>\n <li>Understanding and use of engineering documents.</li>\n <li>Able to understand and operate advanced industry test sets, DS1-100G, OTDR and fiber scopes.</li>\n <li>Knowledgeable and skilled with DC power to support tertiary power applications.</li>\n <li>Work independently with limited supervision.</li>\n <li>Assumes all routine tasks for major projects and is periodically called upon to make routine decisions.</li>\n</ul><b>About Segra:</b>\n<br>\n Segra owns and operates a wide and dense fiber-optic infrastructure footprint that provides state-of-the-art connectivity, cybersecurity, voice, cloud and colocation solutions, all backed by industry leading service and reliability. Serving over 30,000 connected customer locations, Segra has been providing customer focused solutions for over 125 years. \n<br>\n<br>\n At Segra, we imagine, we engineer and we build a world of opportunities for our customers through fiber-enabled technologies, driven by our customer-first mentality. We invest in the communities we serve by hiring locally, empowering our teams, and continually upgrading our network infrastructure to deliver smarter, stronger technology solutions. \n<br>\n<br><b>Benefits Overview:</b>\n<br>\n Segra offers a very robust benefits package to our full-time employees, some of which include: \n<br>\n<ul>\n <li>Medical, dental, vision insurance</li>\n <li>Life insurance</li>\n <li>401(k) match</li>\n <li>Flexible Spending/Health Savings Accounts</li>\n <li>Tuition and gym reimbursements</li>\n <li>Vacation/PTO, paid holidays, floating holidays</li>\n <li>Volunteer days, parental leave</li>\n <li>Legal, accidental, hospital indemnity, identify theft, pet insurance</li>\n</ul><b>Our Commitment to Equality:</b>\n<br>\n Segra is an equal opportunity employer and prohibits discrimination of any kind. Segra does not discriminate on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. \n<br>\n<br><b>Salary Range:</b>\n<br>\n $23.42 - $29.30 \n<br>\n<br>\n Beyond competitive health and retirement benefits with immediate 401(k) vesting, Segra also invests in your total well-being through programs supporting physical, mental, financial, and social wellness. \n<br>\n<br>\n SEGRA is committed to being an equal opportunity employer. The company does not discriminate on the basis of sex, race, color, creed, national origin, age, religion, sexual orientation, gender identity, gender expression, pregnancy, genetic information, veteran status, disability, or any other characteristic protected by applicable federal, state, or local laws in employment with or treatment once employed in the company. No question on this application is used for the purpose of limiting or eliminating any applicant from consideration for employment on any basis prohibited by applicable local, state or federal law. Individuals with disabilities may be entitled to a reasonable accommodation under the Americans with Disabilities Act and certain state or local laws. Please inform SEGRA’s personnel if you need assistance completing this application or to otherwise participate in the application process. \n<br>\n<br>\n NOTHING IN THIS APPLICATION FOR EMPLOYMENT SHALL CREATE AN EXPRESS OR IMPLIED CONTRACT OF EMPLOYMENT."
+      "description": "Segra is searching for a qualified and experienced Field Service Engineer (San Antonio TX) to join us in a full-time capacity. \n<br>\n<br><b>Location Requirement:</b>\n<br>\n The work arrangement for this role is in office onsite 5 days each week. \n<br>\n<br><b>Role Overview:</b>\n<br>\n The Field Service Engineer is responsible for the day-to-day activities of the network, including but not limited to equipment installation & commissioning, circuit/node turn-up & testing, customer premise equipment, (Ethernet Network Interface Devices, Routers, Data Switches, premise Firewalls, IAD’s, Hosted phones, ONT’s, preventive maintenance, and testing/troubleshooting associated with transport infrastructure, switching infrastructure and IP/Data networks. Field Operations personnel will perform “on call” duties as required. The FSE will interact with internal and external customers, service technicians, technical support personnel and other telecom professionals. \n<br>\n<br><b>Qualifications:</b>\n<br>\n<ul>\n <li>Knowledge of Telecom equipment (ex.- Cisco, Ciena, etc.)</li>\n <li>Minimum of 2 years of experience with Telecom equipment</li>\n</ul><b>Preferred Qualifications:</b>\n<br>\n<ul>\n <li>Associate’s degree or technical field (industry related) preferred, and/or a combination of job-related experience.</li>\n <li>Cisco and/or Ciena equipment experience preferred.</li>\n <li>AC/DC core fundamentals; good driving record; Office 365 suite.</li>\n <li>Understanding and use of engineering documents.</li>\n <li>Able to understand and operate advanced industry test sets, DS1-100G, OTDR and fiber scopes.</li>\n <li>Knowledgeable and skilled with DC power to support tertiary power applications.</li>\n <li>Work independently with limited supervision.</li>\n <li>Assumes all routine tasks for major projects and is periodically called upon to make routine decisions.</li>\n</ul><b>About Segra:</b>\n<br>\n Segra owns and operates a wide and dense fiber-optic infrastructure footprint that provides state-of-the-art connectivity, cybersecurity, voice, cloud and colocation solutions, all backed by industry leading service and reliability. Serving over 30,000 connected customer locations, Segra has been providing customer focused solutions for over 125 years. \n<br>\n<br>\n At Segra, we imagine, we engineer and we build a world of opportunities for our customers through fiber-enabled technologies, driven by our customer-first mentality. We invest in the communities we serve by hiring locally, empowering our teams, and continually upgrading our network infrastructure to deliver smarter, stronger technology solutions. \n<br>\n<br><b>Benefits Overview:</b>\n<br>\n Segra offers a very robust benefits package to our full-time employees, some of which include: \n<br>\n<ul>\n <li>Medical, dental, vision insurance</li>\n <li>Life insurance</li>\n <li>401(k) match</li>\n <li>Flexible Spending/Health Savings Accounts</li>\n <li>Tuition and gym reimbursements</li>\n <li>Vacation/PTO, paid holidays, floating holidays</li>\n <li>Volunteer days, parental leave</li>\n <li>Legal, accidental, hospital indemnity, identify theft, pet insurance</li>\n</ul><b>Our Commitment to Equality:</b>\n<br>\n Segra is an equal opportunity employer and prohibits discrimination of any kind. Segra does not discriminate on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor. \n<br>\n<br><b>Salary Range:</b>\n<br>\n $23.42 - $29.30 \n<br>\n<br>\n Beyond competitive health and retirement benefits with immediate 401(k) vesting, Segra also invests in your total well-being through programs supporting physical, mental, financial, and social wellness. \n<br>\n<br>\n SEGRA is committed to being an equal opportunity employer. The company does not discriminate on the basis of sex, race, color, creed, national origin, age, religion, sexual orientation, gender identity, gender expression, pregnancy, genetic information, veteran status, disability, or any other characteristic protected by applicable federal, state, or local laws in employment with or treatment once employed in the company. No question on this application is used for the purpose of limiting or eliminating any applicant from consideration for employment on any basis prohibited by applicable local, state or federal law. Individuals with disabilities may be entitled to a reasonable accommodation under the Americans with Disabilities Act and certain state or local laws. Please inform SEGRA’s personnel if you need assistance completing this application or to otherwise participate in the application process. \n<br>\n<br>\n NOTHING IN THIS APPLICATION FOR EMPLOYMENT SHALL CREATE AN EXPRESS OR IMPLIED CONTRACT OF EMPLOYMENT.",
+      "job_highlights": [
+        {
+          "items": [
+            "Knowledge of Telecom equipment (ex.- Cisco, Ciena, etc.)",
+            "Minimum of 2 years of experience with Telecom equipment"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Segra offers a very robust benefits package to our full-time employees, some of which include:",
+            "Medical, dental, vision insurance",
+            "Life insurance",
+            "401(k) match",
+            "Flexible Spending/Health Savings Accounts",
+            "Tuition and gym reimbursements",
+            "Vacation/PTO, paid holidays, floating holidays",
+            "Volunteer days, parental leave",
+            "Legal, accidental, hospital indemnity, identify theft, pet insurance",
+            "$23.42 - $29.30",
+            "Beyond competitive health and retirement benefits with immediate 401(k) vesting, Segra also invests in your total well-being through programs supporting physical, mental, financial, and social wellness",
+            "8 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The work arrangement for this role is in office onsite 5 days each week",
+            "The Field Service Engineer is responsible for the day-to-day activities of the network, including but not limited to equipment installation & commissioning, circuit/node turn-up & testing, customer premise equipment, (Ethernet Network Interface Devices, Routers, Data Switches, premise Firewalls, IAD’s, Hosted phones, ONT’s, preventive maintenance, and testing/troubleshooting associated with transport infrastructure, switching infrastructure and IP/Data networks",
+            "Field Operations personnel will perform “on call” duties as required",
+            "The FSE will interact with internal and external customers, service technicians, technical support personnel and other telecom professionals",
+            "1 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "678b344103e8",
       "title": "Data Center Security Admin & Compliance Specialist",
       "company": "CenCore, LLC in",
       "location": "San Antonio, TX",
@@ -34,11 +72,47 @@
       "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/administrative/5351937785/e/",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5777700350731485184",
       "via": "via JobLeads",
-      "description": "<p>CenCore, LLC is seeking an Administrative Officer for POLY (AGC / GRN) (Maintenance) to support security operations at a high‑value data center. You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility.</p><p>Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements.</p>"
+      "description": "<p>CenCore, LLC is seeking an Administrative Officer for POLY (AGC / GRN) (Maintenance) to support security operations at a high‑value data center. You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility.</p><p>Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility",
+            "Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "678b344103e8",
+      "title": "Data Center Security Admin & Compliance Specialist",
+      "company": "CenCore, LLC in",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "data-center",
+      "pay": "55K–85K a year",
+      "pay_min": 55000.0,
+      "pay_max": 85000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5777700350731485184",
+      "via": "via JobLeads",
+      "description": "<p>CenCore, LLC is seeking an Administrative Officer for POLY (AGC / GRN) (Maintenance) to support security operations at a high‑value data center. You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility.</p><p>Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility",
+            "Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "ce87eb81d0eb",
       "title": "ACO Trainer, Security (TS/Polygraph) & Datacenter Training",
       "company": "CenCore, LLC in",
       "location": "San Antonio, TX",
@@ -52,9 +126,24 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5352004106/e/",
       "via": "via JobLeads",
-      "description": "<p>CenCore, LLC is seeking an ACO Trainer - TX (Security) to manage training, licensing, and qualification records for supplier staff at datacenter sites. The role involves regular travel to assess performance, deliver training, and resolve issues, with a focus on security procedures and customer systems.</p><p>Ideal candidates possess U.S. citizenship, a high school diploma or GED, excellent customer service, strong verbal communication, MS Office proficiency, and an active Top-Secret Clearance with</p>"
+      "description": "<p>CenCore, LLC is seeking an ACO Trainer - TX (Security) to manage training, licensing, and qualification records for supplier staff at datacenter sites. The role involves regular travel to assess performance, deliver training, and resolve issues, with a focus on security procedures and customer systems.</p><p>Ideal candidates possess U.S. citizenship, a high school diploma or GED, excellent customer service, strong verbal communication, MS Office proficiency, and an active Top-Secret Clearance with</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Ideal candidates possess U.S. citizenship, a high school diploma or GED, excellent customer service, strong verbal communication, MS Office proficiency, and an active Top-Secret Clearance with"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role involves regular travel to assess performance, deliver training, and resolve issues, with a focus on security procedures and customer systems"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "3ff9e81803a5",
       "title": "Data Center Security Controller (TS/SCI) - 12-Hour Shift",
       "company": "Patriot Group International LLC.",
       "location": "San Antonio, TX",
@@ -68,9 +157,11 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://www.jobleads.com/us/job/data-center-security-controller-ts-sci-12-hour-shift--san-antonio--e1d8d05ce6833710eeffb4408dc874562",
       "via": "via JobLeads",
-      "description": "<p>Patriot Group International LLC. (PGI) seeks a Security Control Room Officer to join our team in the San Antonio, TX area. This full‑time, non‑exempt role requires TS/SCI w/ Poly clearance and a strong commitment to security standards.</p><p>You will monitor access control, video surveillance, and alarm systems, enforce client and PGI policies, and respond to incidents while maintaining procedures and shift readiness under a 12-hour Panama schedule.</p>"
+      "description": "<p>Patriot Group International LLC. (PGI) seeks a Security Control Room Officer to join our team in the San Antonio, TX area. This full‑time, non‑exempt role requires TS/SCI w/ Poly clearance and a strong commitment to security standards.</p><p>You will monitor access control, video surveillance, and alarm systems, enforce client and PGI policies, and respond to incidents while maintaining procedures and shift readiness under a 12-hour Panama schedule.</p>",
+      "job_highlights": null
     },
     {
+      "job_hash": "f6ff134f5b6e",
       "title": "Data Center Security Control Room Officer",
       "company": "Alamo ACE",
       "location": "San Antonio, TX",
@@ -84,87 +175,232 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/alamo-ace/san-antonio/data-center-security-control-room-officer-poly-91329341/",
       "via": "via Talents By Vaia",
-      "description": "A security services provider in San Antonio, TX, seeks a Security Control Room Officer. The role involves monitoring security systems, enforcing access policies, and responding to incidents to ensure data center security. Candidates must have a minimum of one year in security or law enforcement, be at least 21 years old, and possess a high school diploma. A Texas DPS Non-Commissioned Security Officer certification is needed, along with a minimum US Government Top Secret security clearance with poly required. Competitive monthly salary of $4,197 offered. #J-18808-Ljbffr\n\nSalary: USD 50000 per year\n\nExperience: 1 year required"
+      "description": "A security services provider in San Antonio, TX, seeks a Security Control Room Officer. The role involves monitoring security systems, enforcing access policies, and responding to incidents to ensure data center security. Candidates must have a minimum of one year in security or law enforcement, be at least 21 years old, and possess a high school diploma. A Texas DPS Non-Commissioned Security Officer certification is needed, along with a minimum US Government Top Secret security clearance with poly required. Competitive monthly salary of $4,197 offered. #J-18808-Ljbffr\n\nSalary: USD 50000 per year\n\nExperience: 1 year required",
+      "job_highlights": [
+        {
+          "items": [
+            "Candidates must have a minimum of one year in security or law enforcement, be at least 21 years old, and possess a high school diploma",
+            "A Texas DPS Non-Commissioned Security Officer certification is needed, along with a minimum US Government Top Secret security clearance with poly required",
+            "Experience: 1 year required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Competitive monthly salary of $4,197 offered",
+            "#J-18808-Ljbffr",
+            "Salary: USD 50000 per year"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role involves monitoring security systems, enforcing access policies, and responding to incidents to ensure data center security"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "GardaWorld is hiring: Security Guard - Surveillance in San Antonio",
-      "company": "GardaWorld",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.recruit.net/job/gardaworld-is-security-guard-surveillance-jobs/21C80DC8D7D9295B",
-      "via": "via Recruit.net",
-      "description": "GardaWorld Security Services is Now Hiring a Surveillance Security Officer!<br />READY TO SUIT UP AS A SURVEILLANCE SECURITY GUARD?<br />What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens.<br />Tell us about your strong observation skills with attention to detail.<br />As a Security Officer – Surveillance, you will be the person spotting threats before they escape in environments such as a security operations centers, call centers, parking gatehouses, etc.<br />WHAT’S IN IT FOR YOU<br />* Set schedule:<br />* Friday - Sunday 6am-2pm / Monday 5am -2 pm (Full-Time/40 Hours)<br />* Competitive hourly wage of $16.50 (DailyPay is available for GardaWorld employees!)<br />* A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options<br />* Career growth opportunities at GardaWorld<br />* Uniform provided at no cost<br />RESPONSIBILITIES OF SURVEILLANCE SECURITY GUARD<br />* Monitor security systems to detect any suspicious activity<br />* Document observed events and incidents, writing detailed reports<br />* Respond quickly to incidents or potential threats<br />* Conduct regular patrols to ensure the safety of the premises<br />* Control access to secure areas and verify the identities of visitors<br />* Analyze security systems to identify potential vulnerabilities or malfunctions<br />* Collaborate with law enforcement in case of serious situations or emergencies<br />* Ensure the safety and protection of individuals and property<br />QUALIFICATIONS OF A SURVEILLANCE SECURITY GUARD<br />* Be authorized to work in the U.S.<br />* Be able to provide documentation of High School Diploma or GED<br />* Be able to ace (and pass) an extensive screening process<br />* Strong report writing skills<br />* Good eyesight and excellent abilities to maintain focus<br />* Strong proficiency with technology<br />* If you have Security, Military, Law Enforcement experience – even better!<br />* You have a state license if required<br />In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work.<br />This could be more than a job! 26% of our corporate employees started as frontline workers.<br />If you’re ambitious with an entrepreneurial spirit – someone who wants to be a GardaWorld Ambassador – a promising career awaits you!<br />GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.<br />Not the job for you?<br />Make sure to check out all our jobs!<br />We also have tactical, concierge, and even casual roles available.<br />It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws.<br />In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment.<br />This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training.<br />It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.<br />License # B07179<br />#J-18808-Ljbffr"
-    },
-    {
-      "title": "Armed Security Access Control Specialist (Part-Time)",
-      "company": "Defense Consulting Services, LLC",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "data-center",
-      "pay": "28K–40K a year",
-      "pay_min": 28000.0,
-      "pay_max": 40000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-access-control-specialist-part-time--san-antonio--e39460a4315ce0c73899019e0a41bff3a",
-      "via": "via JobLeads",
-      "description": "<p>Defense Consulting Services, LLC is seeking a Part Time Service Worker to support armed access control at a DISA data center in San Antonio, TX. The role requires on-site presence, Level III certification, and 3 years of physical security experience.</p><p>The position is part-time with weekend shifts; compensation is hourly and commensurate with experience. Benefits include a competitive package and equal opportunity employment.</p>"
-    },
-    {
-      "title": "Security Professional--Part Time Weekend and Night",
-      "company": "BST SENIOR LIVING WEST INC",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": "$14.50 Hourly",
-      "pay_min": 14.5,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": null,
-      "posted_date": "2026-08-11",
-      "apply_link": "https://jooble.org/rjdp/-801154116710343298",
-      "via": "via Jooble",
-      "description": "<p>Job Details</p>\r\n<p>Job Location: Blue Skies East - San Antonio, TX 78227</p>\r\n<p>Position Type: Part Time</p>\r\n<p>Salary Range: $14.50 Hourly</p>\r\n<p>Job Shift: Weekends and Holidays</p>\r\n<p>Join Our Team at Blue Skies of Texas Senior Living Community!</p>\r\n<p>Become a part of our independent living experience. At Blue Skies, we're not just about providing exceptional care; we're about creating a vibrant, diverse community where everyone thrives. Where your unique talents and perspectives are not only valued but recognized. Blue Skies is a community where your contributions make a real difference, without the worry of late-night shifts. From engaging activities to personalized care, we're dedicated to empowering both our residents and our staff to live their best lives.</p>\r\n<p>We are committed to providing our team with the support they need. At Blue Skies of Texas, we offer medical, dental, and vision benefits! Some of our unique benefits we offer are:</p>\r\n<p>Employee Assistance Program</p>\r\n<p>Employee Referral Bonus Program</p>\r\n<p>A generous PTO program</p>\r\n<p>Employee Appreciation Bonus (twice a year)</p>\r\n<p>We are looking for dedicated professionals like yourself to be a part of our Resident Services team.</p>\r\n<p>What you will do in this role: Makes interior and exterior rounds of Blue Skies of Texas facilities and grounds, either walking or driving company vehicle or golf cart, to include checking basic plant mechanical operations such as ensuring the boiler is operational; promptly reports any deficiencies to Supervisor, management and the Maintenance Department</p>\r\n<p>Observes and responds to the presence of unauthorized persons or vehicles; investigates and acts according to standard procedures outlined by Supervisor.</p>\r\n<p>Directs and controls traffic and parking for large functions.</p>\r\n<p>Transports residents, employees, and others, as directed, from place of request to main building as needed.</p>\r\n<p>Acts as First Responder and responds to problems and emergencies according to established instructions and procedures; exercises good judgment as the situation requires.</p>\r\n<p>Expedites entry and departure of emergency vehicles and responds to emergencies as prescribed in the Emergency Action Book.</p>\r\n<p>Submits comprehensive incident reports of any non-routine events occurring during shift.</p>\r\n<p>Consults with Supervisor on any situation involving exception to policies or procedures.</p>\r\n<p>Regulates access to Blue Skies of Texas facilities by vehicles and persons on foot entering the premises at the main gate; follows directions given by resident, Supervisor, or management regarding restricted entry or expected arrival of guests.</p>\r\n<p>Issues “visitor passes” as appropriate and maintains a log of entry and departure of all visitors.</p>\r\n<p>Informs residents and staff of the arrival of visitors or guests.</p>\r\n<p>Operates gate when appropriate.</p>\r\n<p>Performs security checks of vehicles and of employee personal items in accordance with Blue Skies of Texas policy, to include purchases made at Blue Skies of Texas and Thrift Stores.</p>\r\n<p>Makes minor repairs such as unstopping toilets or sinks, resetting smoke detectors and replacing batteries, changing light bulbs, etc., when maintenance personnel are not on duty.</p>\r\n<p>Performs duties as a Front Desk Clerk as needed.</p>\r\n<p>Performs other duties as assigned by Supervisor.</p>\r\n<p>QualificationsQualifications: Required: High school diploma or equivalent.</p>\r\n<p>Required: At least one years worth of experience as a Security Guard, Courtesy Officer, or Front Desk Clerk preferred.</p>\r\n<p>Required: Must possess a current, valid Texas drivers license with good driving record and remain insurable by Blue Skies carriers required.</p>\r\n<p>Required: Possess current cardiopulmonary resuscitation (CPR), automated external defibrillator (AED), and First Aid certifications is required.</p>\r\n<p>In 1970, the first of our two campuses opened in San Antonio. Air Force Village I was followed in 1987 by Air Force Village II. For decades, our campuses created a community for officers of the armed forces - a retirement lifestyle rich with camaraderie and the shared common bond. We began by providing support to the widows of those who have served, and that legacy continues. In 2014, we expanded our eligibility to embrace a wider range of retired seniors, including those from civilian careers. With this change, a new name - Blue Skies of Texas - was added, and the campuses were renamed Blue Skies East and Blue Skies West. Continuing to offer modern residences and a range of senior-focused services and amenities, the Air Force Village legacy we cherish carries forward in Blue Skies of Texas.</p>\r\n<p>#J-18808-Ljbffr</p>"
-    },
-    {
-      "title": "Night Access Control Pro: Site Security & Badging",
-      "company": "SITEMETRIC LLC",
-      "location": "Lytle, TX",
-      "vertical": "security",
-      "role": "night-shift",
-      "pay": "20K–29K a year",
-      "pay_min": 20000.0,
-      "pay_max": 29000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://www.jobleads.com/us/job/night-access-control-pro-site-security-badging--lytle--e122ff3201fe33b7a13243f39ca36626f",
-      "via": "via JobLeads",
-      "description": "<p>Sitemetric is seeking a part-time Access Control Officer for night shifts at one or more local job sites in Texas. You will manage worker registration, badging, parking, visitors, and deliveries, and provide hands-on support to keep sites secure and run smoothly.</p><p>The role requires professionalism, attention to detail, and the ability to work closely with customers and Sitemetric teams. A valid Texas Guard Card, strong English communication, and flexibility to adapt to staffing needs are</p>"
-    },
-    {
-      "title": "Security Officer Full Time - Unarmed Mobile Patrol",
+      "job_hash": "c22a63348f06",
+      "title": "Security Officer Full Time - Reception",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "vertical": "security",
       "role": "industrial",
-      "pay": "18 an hour",
-      "pay_min": 18.0,
+      "pay": "17 an hour",
+      "pay_min": 17.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-full-time-unarmed-mobile-patrol/22950/99033602848",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-full-time-reception/22950/99224222448",
       "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed - Mobile Patrol </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Hotels & Resorts, and more. As an Unarmed Security Officer at a premier hospitality location, you will conduct routine patrols, maintain a visible presence to help deter security-related incidents, and provide exceptional customer service to guests and staff. This driving position requires a valid driver's license in accordance with Allied Universal driver policy requirements. Join an agile, reliable, and innovative team that puts people first, works together, and acts with integrity.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $18.54 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeTue10:00 AM - 06:00 PMWed10:00 AM - 06:00 PMThur10:00 AM - 06:00 PMFri10:00 AM - 06:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide exceptional customer service to members, guests, and staff while carrying out security-related procedures, site-specific policies, and emergency response activities.</li><li>Conduct regular and random unarmed patrols of club facilities, guest areas, parking areas, grounds, and perimeter locations to help identify unusual activity or conditions.</li><li>Monitor access points and visitor activity in accordance with site-specific procedures, directing guests and vendors as appropriate.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, contacting appropriate personnel and/or emergency services when needed.</li><li>Document patrols, incidents, observations, and security-related concerns through accurate reports and shift communications.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>A Guard Card/License is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1652747<br><br>"
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time - Reception </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Residential, and more. As a Front Desk Security Professional at a residential location, you will welcome residents and guests, manage access control, monitor activity, and provide outstanding customer service. You will serve as a visible, approachable presence, communicate clearly with residents and staff, and help address security-related concerns. Join Allied Universal’s caring, team-oriented culture, where integrity, reliability, and innovation guide the work we do.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon12:00 AM - 08:00 AMTue12:00 AM - 08:00 AMWed12:00 AM - 08:00 AMThur12:00 AM - 08:00 AMFri12:00 AM - 08:00 AM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to residents, visitors, and/or vendors at a residential front desk by carrying out site-specific procedures and security-related policies.</li><li>Monitor access to the property, greet and screen visitors, verify authorization as required, and maintain visitor and vendor logs.</li><li>Receive calls, deliveries, and resident inquiries; provide directions and communicate concerns to appropriate property personnel.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response procedures.</li><li>Monitor front desk activity and access control systems, document security-related observations, and report unusual activity to appropriate personnel.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Comfortable using a computer or tablet is preferred.</li><li>CPR/First Aid certification is preferred.</li><li>Customer service experience is preferred.</li><li>A Guard Card/License is preferred.</li><li>Access control/badge experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1654966<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $17.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Front Desk Security Professional at a residential location, you will welcome residents and guests, manage access control, monitor activity, and provide outstanding customer service",
+            "You will serve as a visible, approachable presence, communicate clearly with residents and staff, and help address security-related concerns",
+            "Provide customer service to residents, visitors, and/or vendors at a residential front desk by carrying out site-specific procedures and security-related policies",
+            "Monitor access to the property, greet and screen visitors, verify authorization as required, and maintain visitor and vendor logs",
+            "Receive calls, deliveries, and resident inquiries; provide directions and communicate concerns to appropriate property personnel",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response procedures",
+            "Monitor front desk activity and access control systems, document security-related observations, and report unusual activity to appropriate personnel",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "0154e50b8b03",
+      "title": "Security Officer - Part Time Security Screener",
+      "company": "Allied Universal",
+      "location": "New Braunfels, TX",
+      "vertical": "security",
+      "role": "school",
+      "pay": "17 an hour",
+      "pay_min": 17.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1656388/security-officer---part-time-screening-operations/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Security Screener</strong> in <strong>New Braunfels, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As a Screener in a dynamic technology, media, and telecommunications location, you will help maintain a welcoming, professional environment by screening visitors, monitoring access points, and reporting security-related concerns. Your visible presence and exceptional communication skills will help deter incidents while supporting a positive experience for everyone onsite. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Part Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeThur10:00 PM - 06:00 AMSat02:00 PM - 10:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and access screening protocols.</li><li>Screen personnel, visitors, deliveries, and permitted items in accordance with site policies, escalating prohibited or suspicious items through established procedures.</li><li>Monitor entry points and credential presentation, maintain visitor records as required, and help to deter unauthorized access.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response activities and reporting requirements.</li><li>Conduct regular and random patrols of designated screening areas, entrances, and the surrounding business perimeter; working environments and conditions may vary by location.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A guard card or license is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial Benefits: Participate in our retirement savings plan to invest in your future.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1656387<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Pay Rate: $17.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Screener in a dynamic technology, media, and telecommunications location, you will help maintain a welcoming, professional environment by screening visitors, monitoring access points, and reporting security-related concerns",
+            "Your visible presence and exceptional communication skills will help deter incidents while supporting a positive experience for everyone onsite",
+            "DayTimeThur10:00 PM - 06:00 AMSat02:00 PM - 10:00 PM",
+            "Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and access screening protocols",
+            "Screen personnel, visitors, deliveries, and permitted items in accordance with site policies, escalating prohibited or suspicious items through established procedures",
+            "Monitor entry points and credential presentation, maintain visitor records as required, and help to deter unauthorized access",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response activities and reporting requirements",
+            "Conduct regular and random patrols of designated screening areas, entrances, and the surrounding business perimeter; working environments and conditions may vary by location",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "35780c8cec74",
+      "title": "Armed Security Officer - Part-Time Patrol with Flexible Shifts",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "part-time",
+      "pay": "21K–25K a year",
+      "pay_min": 21000.0,
+      "pay_max": 25000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://savvysc.vercel.app/?jobs=en-job-part-time-housekeeper-flexible-shifts-1784473095982",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking an Armed Security Officer - Part Time Patrol in San Antonio, TX to provide reliable security at an assigned site with flexible hours and opportunities to earn more by picking up additional shifts.</p><p>The role emphasizes customer service, vigilant patrols, and adherence to site policies, with a six‑month anchor shift commitment and the option to work varied shifts through our scheduling platform.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role emphasizes customer service, vigilant patrols, and adherence to site policies, with a six‑month anchor shift commitment and the option to work varied shifts through our scheduling platform"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "1b742cda8c68",
+      "title": "🎯 Full-Time Security Officer – La Cantera / North Star",
+      "company": "Marksman Security",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "industrial",
+      "pay": "$16.32/hour",
+      "pay_min": 16.32,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://www.monster.com/job-openings/-full-time-security-officer-la-cantera-north-star-san-antonio-tx--c5499944-74e6-4e6f-b2b7-96a8fb00dd8d",
+      "via": "via LinkedIn",
+      "description": "Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well-known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman's customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in providing unparalleled service and support in all that we do. If you are looking for a meaningful career, a culture of excellence, and the ability to make a difference, we want to talk to you!<br><br>🚨 NOW HIRING: Retail Security Officer! 🚨<br><br><strong>Active Level 2 Guard Card Is REQUIRED<br><br></strong>💲 Pay: Starting at $16.32/hour<br><br><strong>Marksman Security Corporation is accepting applications for a Security Officer in an active and engaging atmosphere. This job entails engaging with the public and responding to any and all calls for service in public right of way. You will be working with a team and supported by a leadership team that sets clear expectations and will help you to succeed and grow.<br><br></strong><strong>Responsibilities:<br><br></strong><ul><li>Conduct vehicle and foot patrols of areas in the public right of way to identify potential safety and security risks</li><li>Maintain a visible presence and engage in professional public interactions</li><li>Document all interactions in a clear and concise written report, ensuring the accuracy and timely submission of required documentation (reports/documents)</li><li>Communicate and pass on all pertinent information to fellow team members, other safety teams, and the client.</li><li>Monitor and/or detect any suspicious behavior to assist in the prevention of vandalism, theft and or other criminal behavior</li><li>Warn violators of infractions e.g., loitering, smoking and or in possession of prohibited items</li><li>Respond to calls of distress, alarms and/or emergencies such as fire, injuries or presence of unauthorized individuals by contacting local first responders</li><li>Identify and report any and all concerns (safety, security breaches, unusual circumstances) in a timely manner</li><li>Ensure all rules/regulations are being enforced and followed</li><li>Other duties to be determined by management<br><br></li></ul><strong>Qualifications:<br><br></strong><ul><li>Must be at least 21 years of age or older</li><li>High school degree or equivalent</li><li>Valid state driver’s license</li><li>Valid Texas Level II Guard License</li><li>Professional demeanor and appearance</li><li>Basic computer skills</li><li>Must be able to multitask and prioritize assigned tasks</li><li>Strong communication skills (verbal and written)</li><li>Minimum of one year of customer service experience</li><li>Minimum of one year of security experience</li><li>Must be able to pass pre-employment screening (background and drug)</li><li>This position will require occasional crawling, crouching, climbing of stairs, kneeling, running, sitting, standing, stooping and walking for extended periods of time!<br><br></li></ul><strong>#IND3</strong>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be at least 21 years of age or older",
+            "High school degree or equivalent",
+            "Valid state driver’s license",
+            "Valid Texas Level II Guard License",
+            "Professional demeanor and appearance",
+            "Basic computer skills",
+            "Must be able to multitask and prioritize assigned tasks",
+            "Strong communication skills (verbal and written)",
+            "Minimum of one year of customer service experience",
+            "Minimum of one year of security experience",
+            "Must be able to pass pre-employment screening (background and drug)",
+            "This position will require occasional crawling, crouching, climbing of stairs, kneeling, running, sitting, standing, stooping and walking for extended periods of time!",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "💲 Pay: Starting at $16.32/hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Active Level 2 Guard Card Is REQUIRED",
+            "This job entails engaging with the public and responding to any and all calls for service in public right of way",
+            "You will be working with a team and supported by a leadership team that sets clear expectations and will help you to succeed and grow",
+            "Conduct vehicle and foot patrols of areas in the public right of way to identify potential safety and security risks",
+            "Maintain a visible presence and engage in professional public interactions",
+            "Document all interactions in a clear and concise written report, ensuring the accuracy and timely submission of required documentation (reports/documents)",
+            "Communicate and pass on all pertinent information to fellow team members, other safety teams, and the client",
+            "Monitor and/or detect any suspicious behavior to assist in the prevention of vandalism, theft and or other criminal behavior",
+            "Warn violators of infractions e.g., loitering, smoking and or in possession of prohibited items",
+            "Respond to calls of distress, alarms and/or emergencies such as fire, injuries or presence of unauthorized individuals by contacting local first responders",
+            "Identify and report any and all concerns (safety, security breaches, unusual circumstances) in a timely manner",
+            "Ensure all rules/regulations are being enforced and followed",
+            "Other duties to be determined by management",
+            "10 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

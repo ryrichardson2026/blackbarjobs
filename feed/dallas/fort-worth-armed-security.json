@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "dallas/fort-worth-armed-security",
   "market": "DFW",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "414db7676f05",
       "title": "Armed Security Specialist - Fort Worth | Growth & Benefits",
       "company": "Cascadia Global Security",
       "location": "Fort Worth, TX",
@@ -20,9 +21,19 @@
       "posted_date": "2026-08-09",
       "apply_link": "https://www.jobleads.com/us/job/armed-security-specialist-fort-worth-growth-benefits--fort-worth--e73fcec0e15f4fb1293301645be5bad21",
       "via": "via BeBee",
-      "description": "<p>Cascadia Global Security is hiring an Armed Security specialist for a full-time position based in Fort Worth, TX. The role requires vigilance and reliability to protect client sites, with a Monday–Wednesday schedule from 9 am to 7:30 pm and a pay rate of $20 per hour.</p>\n<p>You will work in a demanding environment with opportunities for growth and advancement. Requirements include a high school diploma or equivalent, 1 year of security experience (required), 1 year of customer service (preferred), and</p>"
+      "description": "<p>Cascadia Global Security is hiring an Armed Security specialist for a full-time position based in Fort Worth, TX. The role requires vigilance and reliability to protect client sites, with a Monday–Wednesday schedule from 9 am to 7:30 pm and a pay rate of $20 per hour.</p>\n<p>You will work in a demanding environment with opportunities for growth and advancement. Requirements include a high school diploma or equivalent, 1 year of security experience (required), 1 year of customer service (preferred), and</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires vigilance and reliability to protect client sites, with a Monday–Wednesday schedule from 9 am to 7:30 pm and a pay rate of $20 per hour",
+            "You will work in a demanding environment with opportunities for growth and advancement"
+          ],
+          "title": "Benefits"
+        }
+      ]
     },
     {
+      "job_hash": "ae4f7380291a",
       "title": "Armed Mobile Patrol Driver - Part-Time, DoD Secret Clearance",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
@@ -36,9 +47,24 @@
       "posted_date": "2026-08-08",
       "apply_link": "https://www.jobleads.com/us/job/armed-mobile-patrol-driver-part-time-dod-secret-clearance--fort-worth--ec3baa507d7202fe32daa478e3b735147",
       "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking a part-time Security Officer Armed Mobile Patrol Driver with a DoD Secret Clearance for our aerospace and defense site in Fort Worth, TX. You will provide armed security, perform patrols, manage access control, and respond to incidents, working within a dynamic, safety‑conscious team.</p><p>This role offers flexible scheduling, a competitive hourly pay rate of $27.32, and opportunities for training, advancement, and benefits through our Perks program.</p>"
+      "description": "<p>Allied Universal is seeking a part-time Security Officer Armed Mobile Patrol Driver with a DoD Secret Clearance for our aerospace and defense site in Fort Worth, TX. You will provide armed security, perform patrols, manage access control, and respond to incidents, working within a dynamic, safety‑conscious team.</p><p>This role offers flexible scheduling, a competitive hourly pay rate of $27.32, and opportunities for training, advancement, and benefits through our Perks program.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This role offers flexible scheduling, a competitive hourly pay rate of $27.32, and opportunities for training, advancement, and benefits through our Perks program"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will provide armed security, perform patrols, manage access control, and respond to incidents, working within a dynamic, safety‑conscious team"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "2373924d6ad6",
       "title": "Armed Driver Guard",
       "company": "Loomis Armored US, LLC &#8211; Fort Worth",
       "location": "Fort Worth, TX",
@@ -52,9 +78,11 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://www.securityguardsonly.com/jobs/us/fort-worth/loomis-armored-us-llc-8211-fort-worth/armed-driver-guard/",
       "via": "via Security Guards Only",
-      "description": "<p>With a network of nearly 200 branches, Loomis armored transportation, cash management centers, and cash inventory vaults keep cash flowing throughout financial institutions and retail businesses across the US. Loomis prides itself on providing employees with opportunities for career advancement and job satisfaction. In fact, many of our company’s managers, vice presidents, and corporate executives started out in the branches as driver/guards and tellers. Our work can be challenging, but the thousands who have stayed with our company for decades will tell you that if you have the desire to..."
+      "description": "<p>With a network of nearly 200 branches, Loomis armored transportation, cash management centers, and cash inventory vaults keep cash flowing throughout financial institutions and retail businesses across the US. Loomis prides itself on providing employees with opportunities for career advancement and job satisfaction. In fact, many of our company’s managers, vice presidents, and corporate executives started out in the branches as driver/guards and tellers. Our work can be challenging, but the thousands who have stayed with our company for decades will tell you that if you have the desire to...",
+      "job_highlights": null
     },
     {
+      "job_hash": "c608bee9228e",
       "title": "Armed Security Specialist - $30/hr, Growth & Benefits",
       "company": "Alliedbarton Security Services",
       "location": "Fort Worth, TX",
@@ -68,9 +96,11 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://www.jobleads.com/us/job/armed-security-specialist-30-hr-growth-benefits--fort-worth--e3791b85c8dc6c9a8074b6f05514ea3da",
       "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking an Armed Security Officer to protect clients across Commercial Real Estate, Healthcare, Education, Government and more. You will provide vigilant security, respond to incidents, and conduct patrols. Must be at least 21 years old for armed roles and able to pass a background check and drug screen.</p><p>Pay is $30.00 per hour with weekly pay and benefits including health insurance, retirement plans, ongoing training, and career growth opportunities.</p>"
+      "description": "<p>Allied Universal is seeking an Armed Security Officer to protect clients across Commercial Real Estate, Healthcare, Education, Government and more. You will provide vigilant security, respond to incidents, and conduct patrols. Must be at least 21 years old for armed roles and able to pass a background check and drug screen.</p><p>Pay is $30.00 per hour with weekly pay and benefits including health insurance, retirement plans, ongoing training, and career growth opportunities.</p>",
+      "job_highlights": null
     },
     {
+      "job_hash": "6d19129a7b62",
       "title": "Armed Guard / Fort Worth NIGHTS",
       "company": "TACTICAL SYSTEMS NETWORK, LLC",
       "location": "Fort Worth, TX",
@@ -84,41 +114,132 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://www.indeed.com/viewjob?jk=d3970fd59e6833bb",
       "via": "via Indeed",
-      "description": "<p>BE a PART of our ELITE SECURITY TEAM!</p>\n<p><b>ABOUT US: </b>We are high-level professionals who value our role as protectors <b>serving people</b>. We care about one another and reward consistency, hard work, and a servant mindset.</p>\n<p>We seek candidates to fill the critical role of ARMED, UNIFORMED SECURITY OFFICER in Dallas, TX. This role is essential in keeping others safe, so we ask for a commitment to working scheduled shifts, <i>including weekends</i>, and we often stand or walk for extended periods.</p>\n<p><b>This job is not easy, but it is essential.</b> <b>We reward hard..."
+      "description": "<p>BE a PART of our ELITE SECURITY TEAM!</p>\n<p><b>ABOUT US: </b>We are high-level professionals who value our role as protectors <b>serving people</b>. We care about one another and reward consistency, hard work, and a servant mindset.</p>\n<p>We seek candidates to fill the critical role of ARMED, UNIFORMED SECURITY OFFICER in Dallas, TX. This role is essential in keeping others safe, so we ask for a commitment to working scheduled shifts, <i>including weekends</i>, and we often stand or walk for extended periods.</p>\n<p><b>This job is not easy, but it is essential.</b> <b>We reward hard...",
+      "job_highlights": null
     },
     {
-      "title": "Armed Security Guard &#8211; Open Availability",
-      "company": "TACTICAL SYSTEMS NETWORK, LLC",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-07-31",
-      "apply_link": "https://www.securityguardsonly.com/jobs/us/fort-worth/tactical-systems-network-llc/armed-security-guard-open-availability-6/",
-      "via": "via Security Guards Only",
-      "description": "<p>BE a PART of our ELITE SECURITY TEAM!</p>\n<p><b>ABOUT US: </b>We are high-level professionals who value our role as protectors <b>serving people</b>. We care about one another and reward consistency, hard work, and a servant mindset.</p>\n<p>We seek candidates to fill the critical role of ARMED, UNIFORMED SECURITY OFFICER in Dallas, TX. This role is essential in keeping others safe, so we ask for a commitment to working scheduled shifts, <i>including weekends</i>, and we often stand or walk for extended periods.</p>\n<p><b>This job is not easy, but it is essential.</b> <b>We reward hard..."
-    },
-    {
-      "title": "Armed Security Officer - Clearance Required",
+      "job_hash": "9b3952eb942d",
+      "title": "Armed Security Officer (3 Years of Armed Experience Req) Aerospace Firm",
       "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "vertical": "security",
       "role": "general",
-      "pay": null,
-      "pay_min": null,
+      "pay": "$27.32/Hr",
+      "pay_min": 27.32,
       "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.indeed.com/viewjob?jk=acb6d07ca41e4e64",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Officer Armed Patrol Driver Security Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As an Armed Patrol Officer at a leading aerospace and defense location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This driving post supports access control, emergency response, and clear communication while delivering exceptional customer service. Join Allied Universal’s agile, reliable team, where integrity, innovation, and a caring culture guide every shift. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Part Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $30.47 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width:100%; max-width:400px; border-collapse:collapse; border-spacing:0; font-family:'Verdana',sans-serif; font-size:10pt; line-height:1.2;'><thead><tr><th style='text-align:left; padding:0 4px 2px 0;'>Day</th><th style='text-align:left; padding:0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Fri</td><td style='padding:0; white-space:nowrap;'>10:00 PM - 06:00 AM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sun</td><td style='padding:0; white-space:nowrap;'>02:00 PM - 10:00 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, alarms, and critical situations in a calm, professional, problem-solving manner, following established protocols and escalation procedures.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols of aerospace and defense facilities, buildings, access points, parking areas, and perimeter locations to help deter unauthorized activity.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor access control points, verify credentials and visitor authorization, and report suspicious activity, policy violations, or maintenance concerns to appropriate personnel.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Prepare clear and accurate incident reports, maintain required logs, and support compliance with site-specific security-related requirements.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess at least 2 years of security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess at least 3 years of combined law enforcement, military, and/or security-related experience or a college degree.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess an active DoD Secret Clearance.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a Level III Armed Certification in Texas only.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial Benefits:</strong> Participate in our retirement savings..."
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.careerbuilder.com/job-details/armed-security-officer-3-years-of-armed-experience-req-aerospace-firm-fort-worth-tx--2f12bfaf-e76e-40ec-bb9e-c9b16350d137",
+      "via": "via Monster",
+      "description": "<p>Armed Security Officer (3 Years of Armed Experience Req) Aerospace Firm</p><p>Fort Worth, Texas Position Type: Full Time Shift Type: Overnight Req ID: 2026-1583747 Pay Rate: USD $27.32/Hr. Work Days Available: Monday, Tuesday, Friday, Saturday, Sunday Date posted: 04/30/2026</p><p>Apply Now Save Job</p><p>Allied Universal, North America's leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a Security Officer Armed Patrol Driver Security Clearance in Fort Worth, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join Allied Universal as an Armed Patrol Officer at a dynamic aerospace and defense location, where you will conduct routine patrols, maintain a visible presence to help reduce security-related incidents, and deliver exceptional customer service and communication. This armed and driving post offers the chance to support a high-profile environment with agility, reliability, innovation, teamwork, and integrity at the center of every shift.</p><p>Position Type: Full Time</p><p>Pay Rate: $27.32 / Hour</p><p>Job Schedule:</p><p>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMFri10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM</p><p>What You'll Do:</p><ul><li>Provide customer service to employees, visitors, and/or contractors by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities at a defense-focused location.</li><li>Respond to incidents, alarms, and/or critical situations in a calm, problem-solving manner, documenting observations and reporting unusual activity through proper channels.</li><li>Conduct regular and random armed patrols throughout buildings, grounds, parking areas, and perimeter points to help support security-related operations and help to deter unauthorized activity.</li><li>Monitor access points and verify credentials, visitor activity, and/or deliveries in accordance with site protocols and restricted area requirements.</li><li>Support incident response by communicating with site contacts and/or public emergency personnel, preserving order, and following post orders for sensitive environments and changing conditions.</li></ul><p>Minimum Requirements:</p><ul><li>Have 2 or more years of security-related experience.</li><li>Have 3 or more years of combined law enforcement, military, or security-related experience, or possess a college degree.</li><li>Possess an active DoD Secret Clearance.</li><li>Be at least 21 years of age.</li><li>A valid driver's license is required in accordance with Allied Universal driver policy requirements.</li><li>Possess a Texas Level III Armed Certification.</li><li>Be at least 21 years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Participate in industry-specific security training programs.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver's license will be required for driving positions only.</li></ul><p>Why Join Us:</p><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.</li></ul><p>Allied Universal is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com</p><p>.</p><p>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.</p><p>.</p><p>Apply Now Save Job</p><p>After submitting your application, keep an eye out for an email or text with a link to start your HireVue Digital Interview. It's a quick and easy way to move your application forward, and you could even receive an offer in just a few days instead of waiting weeks! Learn more about digital interviews.</p><p>Looking to earn more without giving up flexibility? Allied Universal's Earn More. Your Way. program lets you take control-claim extra shifts, get notified of new opportunities, and increase your earnings when it works for you. Explore your options and learn more today.</p><br><p><b>Skills:</b><br>Aerospace and Defense, Computer Security, Customer Support/Service, DoD Secret Clearance, Documentation, Driver's License, Emergency Response, Federal Laws and Regulations, Incident Response, Legal, Problem Solving Skills, Protective Services, Security Clearance, State Laws and Regulations, Team Player, Training Program</p><br><p><b>undefined:</b><br>Allied Universal</p><br>Allied Universal provides unparalleled service, systems and solutions to the people and business of our communities, and is North America's leading security services provider. With over 140,000 employees, Allied Universal delivers high-quality, tailored solutions, which allows clients to focus on their core business. For more information: 866.825.5433 or <a>www.AUS.com</a>\n<br><br><p><b>Company Size:</b><br>10,000 employees or more</p><br><p><b>Industry:</b><br>Security and Surveillance</p><br><p><b>undefined:</b><br>2016</p><br><p><b>Website:</b><br>http://www.aus.com/Careers</p><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Armed Security Officer (3 Years of Armed Experience Req) Aerospace Firm",
+            "Have 2 or more years of security-related experience",
+            "Have 3 or more years of combined law enforcement, military, or security-related experience, or possess a college degree",
+            "Possess an active DoD Secret Clearance",
+            "Be at least 21 years of age",
+            "A valid driver's license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Texas Level III Armed Certification",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver's license will be required for driving positions only",
+            "Aerospace and Defense, Computer Security, Customer Support/Service, DoD Secret Clearance, Documentation, Driver's License, Emergency Response, Federal Laws and Regulations, Incident Response, Legal, Problem Solving Skills, Protective Services, Security Clearance, State Laws and Regulations, Team Player, Training Program",
+            "13 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $27.32 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "Allied Universal's Earn More",
+            "program lets you take control-claim extra shifts, get notified of new opportunities, and increase your earnings when it works for you",
+            "4 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Armed Patrol Driver Security Clearance in Fort Worth, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more",
+            "Join Allied Universal as an Armed Patrol Officer at a dynamic aerospace and defense location, where you will conduct routine patrols, maintain a visible presence to help reduce security-related incidents, and deliver exceptional customer service and communication",
+            "This armed and driving post offers the chance to support a high-profile environment with agility, reliability, innovation, teamwork, and integrity at the center of every shift",
+            "DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMFri10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM",
+            "Provide customer service to employees, visitors, and/or contractors by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities at a defense-focused location",
+            "Respond to incidents, alarms, and/or critical situations in a calm, problem-solving manner, documenting observations and reporting unusual activity through proper channels",
+            "Conduct regular and random armed patrols throughout buildings, grounds, parking areas, and perimeter points to help support security-related operations and help to deter unauthorized activity",
+            "Monitor access points and verify credentials, visitor activity, and/or deliveries in accordance with site protocols and restricted area requirements",
+            "Support incident response by communicating with site contacts and/or public emergency personnel, preserving order, and following post orders for sensitive environments and changing conditions",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "b5986c30f0a3",
+      "title": "Armed Level III officer",
+      "company": "Imperial Security",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "full-time",
+      "pay": "17–20 an hour",
+      "pay_min": 17.0,
+      "pay_max": 20.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://us.trabajo.org/job-5003-8ba5abe54a78d8cab50917753f475015",
+      "via": "via Indeed",
+      "description": "<p><b>Armed Officers Ft Worth Tx</b></p>\n<p><b>Armed Security $17-$20 per hour</b></p>\n<p><b>Long term employment</b></p>\n<p><b>1st or 2nd shift</b></p>\n<p><b>Must be able to work weekends</b></p>\n<p><b>Must have clean driving record</b></p>\n<p><b>MUST HAVE CURRENT TX ARMED Level III SECURITY LICENSE</b></p>\n<p><b>Must be able to stand for prolonged periods of time</b></p>\n<ul>\n <li><b>Health Insurance</b></li>\n <li><b>Dental and Vision Insurance</b></li>\n <li><b>Weekly Direct Deposit</b></li>\n <li><b>Advancement to supervision</b></li>\n <li><b>Paid vacation after one year</b></li>\n</ul>\n<p><b>Apply in person: Imperial Security Service Inc.</b></p>\n<p><b>2589 NE 33rd St Suite 103, Fort Worth, TX 76111 </b></p>\n<p><b>Or submit resume to schedule interview</b></p>\n<p><b>#C12202</b></p>\n<p><b>We are seeking Armed Level III Security Officers to become an integral part of our team. The selected individual will patrol and secure assigned premises as well as identify risks to staff and patrons.</b></p>\n<p><b>Imperial Security is an Equal Opportunity Employer and Prohibits Discrimination and Harassment of Any Kind. We are committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment.</b></p>\n<p>Job Type: Full-time</p>\n<p>Pay: $17.00 - $20.00 per hour</p>\n<p>Benefits:</p>\n<ul>\n <li>Dental insurance</li>\n <li>Health insurance</li>\n <li>Paid time off</li>\n <li>Vision insurance</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have clean driving record",
+            "MUST HAVE CURRENT TX ARMED Level III SECURITY LICENSE",
+            "Must be able to stand for prolonged periods of time"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Armed Security $17-$20 per hour",
+            "Long term employment",
+            "Health Insurance",
+            "Dental and Vision Insurance",
+            "Weekly Direct Deposit",
+            "Advancement to supervision",
+            "Paid vacation after one year",
+            "Pay: $17.00 - $20.00 per hour",
+            "Dental insurance",
+            "Health insurance",
+            "Paid time off",
+            "Vision insurance",
+            "9 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Must be able to work weekends",
+            "The selected individual will patrol and secure assigned premises as well as identify risks to staff and patrons"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f81dec27e6e7",
       "title": "Armed Security Officers – Weekend & Event Work (Growing Company) (fort worth) by Craigslist in 2026 | ok.com",
       "company": "Craigslist",
       "location": "Fort Worth, TX",
@@ -132,25 +253,76 @@
       "posted_date": null,
       "apply_link": "https://us.ok.com/en/city-fort-worth/cate-security-services/armed-security-officers-%E2%80%93-weekend-%26-event-work-%28growing-company%29-%28fort-worth%29-43845287410796544/",
       "via": "via OK.com",
-      "description": "Summary:\nSeeking professional security officers to join a tight, dependable team with consistent expectations and growth opportunities for v"
+      "description": "Summary:\nSeeking professional security officers to join a tight, dependable team with consistent expectations and growth opportunities for v",
+      "job_highlights": null
     },
     {
-      "title": "Commissioned Security Officer (Armed Guard)",
-      "company": "Presidential Staffing Solutions",
+      "job_hash": "bd16a622dc76",
+      "title": "Armed Security Officer Enhanced Part Time Driver",
+      "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "general",
+      "role": "part-time",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://www.monster.com/job-openings/commissioned-security-officer-armed-guard-fort-worth-tx--b4282845-e545-4000-8b8d-2f0085b41255",
-      "via": "via CareerBuilder",
-      "description": "<div class=\"job-description-container\"><div class=\"trix-content\"><p>We are seeking a Commissioned Security Officer (Armed Guard) to become an integral part of our team. The selected individual will patrol and secure assigned premises as well as identify risks to staff and residents.</p><p>Responsibilities:</p><ul><li>Monitor premises to prevent theft, violence, or infractions of rules</li><li>Thoroughly examine doors, windows, and gates to ensure proper function and security</li><li>Warn violators of premise rules and regulations</li><li>Apprehend or expel persons engaging in suspicious or criminal acts</li><li>Report any facility issues such as fire hazards and leaking water pipes</li><li>Request emergency personnel for high risk situations</li></ul><p>​Qualifications:</p><ul><li>Previous experience in security, law enforcement, or other related fields</li><li>Familiarity with security equipment</li><li>Ability to handle physical workload</li><li>Strong attention to detail</li></ul></div><br><br><br><div class=\"account_description\"><div> </div><div><br>PROVIDING QUALITY STAFFING AND CONSULTING<br>SINCE 2011</div><div><br><br>Based out of San Antonio, Tex​as, our minority women-owned company specializes in all staffing and consulting needs. Whether you’re trying to hire a pharmacist, a respiratory therapist, or skilled and non-skilled laborer, we will staff your company with the best candidate. We bring extensive experience and professionalism and we will personalize our assistance to your needs and concerns. Most of our contracts are with the Army and Air Force as Sub-Contractors.<br><br><br><br>Our staff has a quick turn around and have been able to fill positions within 48 hours with short notice, we have filled hard to fill locations and jobs, and managed over 16 contracts with over 70 employees at a time. Managed call-ins at 24/7 hospitals and ensured shifts were filled, and managed PRNs with notice of less than 24 hours. Also, provided temp laborers for next day jobs.<br><br><br>Our consulting division provides contracting assistance, program managing, application assistance, certification assistance and proposal writing. We are very knowledgeable in a variety of areas and are eager to assist your company's prosperity. <br><br></div></div><br></div><br><p><b>Skills:</b><br>Air Force, Attorney, Consulting, Contract Management, Detail Oriented, Hospital, Law Enforcement, Pharmacy, Project Management Software, Proposal Writing, Regulations, Respiratory Therapy, Risk, Risk Analysis, Security Equipment, Telephone Skills</p><br><p><b>undefined:</b><br>Presidential Staffing Solutions</p><br><br>"
+      "apply_link": "https://www.thejobnetwork.com/job/2d63f514-e5f1-4567-8820-9bbdc0d7ecd7/armed-security-officer-enhanced-part-time-driver",
+      "via": "via TheJobNetwork",
+      "description": "<h3>Job Description</h3>\n<p>Job Description\n<p> Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to supplement their income, gain hands-on experience, or work toward a full-time career with the industry leader. </p>\n<p> As a <strong>Armed Security Officer Enhanced Part Time Driver</strong> in <strong>Fort Worth, TX</strong>, this role is designed to provide reliable, consistent hours at an assigned site with the flexibility for you to earn more by picking-up additional shifts when it works for you. </p>\n<p><strong> Pay Rate: $25.00 / Hour </strong></p>\n<p><strong><strong>Job Schedule:</strong></strong></p>\n<p>DayTimeFri07:00 AM - 05:00 PMSat07:00 AM - 05:00 PM\n<p><strong><strong>How This Role Works:</strong></strong></p>\n<ul>\n<li><strong>Fixed-Shift Commitment (“Anchor Shifts”):</strong> You will be hired for a designated site and weekly shift that serves as your reliable base schedule. This assignment requires a six (6) month commitment.</li>\n<li><strong>Earn More, Claim-A-Shift Program:</strong> In addition to your fixed shift, you may pick-up extra shifts through our scheduling platform, allowing you to increase earnings and gain experience across multiple sites. Work part-time hours this week and full-time the next. It’s all up to you.</li>\n</ul>\n<p> This role is ideal for candidates seeking part-time employment with flexibility, income stability, and opportunities to build-up to a full-time schedule of up to 40 hours per week; always with the option to scale back when needed. </p>\n<p><strong><strong>Responsibilities:</strong></strong></p>\n<ul>\n<li>Provide customer service by carrying out security-related procedures, site-specific policies, and/or emergency response activities appropriate to the location.</li>\n<li>Respond to incidents, disturbances, and critical situations in a calm, problem-solving manner, including situations that may require an armed presence in accordance with post orders.</li>\n<li>Conduct regular and random patrols throughout the store, parking areas, loading zones, and perimeter to help to deter unauthorized activity and/or identify unusual conditions.</li>\n<li>Monitor access points, observe customer and employee traffic, and report suspicious behavior, policy violations, and/or potential hazards to site management and Allied Universal leadership.</li>\n<li>Document incidents, patrol activity, and notable observations in required reports, and communicate clearly with local authorities and/or emergency personnel when needed.</li>\n</ul>\n<p><strong><strong> Minimum Requirements:</strong></strong></p>\n<ul>\n<li>Have 3+ years of combined law enforcement, corrections, and/or military experience, or 5+ years of armed security-related experience.</li>\n<li>Be at least 21 years of age.</li>\n<li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li>\n<li>Possess a Level III Armed Certification in Texas only.</li>\n<li>Be at least 21 years of age for armed roles.</li>\n<li>Possess a high school diploma or equivalent.</li>\n<li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li>\n<li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li>\n<li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li>\n<li>Participate in industry-specific security training programs.</li>\n<li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li>\n<li>A valid driver’s license will be required for driving positions only.</li>\n</ul>\n<p><strong><strong>Why Join Us:</strong></strong></p>\n<ul>\n<li><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</li>\n<li><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</li>\n<li><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</li>\n<li><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</li>\n</ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Have 3+ years of combined law enforcement, corrections, and/or military experience, or 5+ years of armed security-related experience",
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Level III Armed Certification in Texas only",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Armed Security Officer Enhanced Part Time Driver in Fort Worth, TX, this role is designed to provide reliable, consistent hours at an assigned site with the flexibility for you to earn more by picking-up additional shifts when it works for you",
+            "Pay Rate: $25.00 / Hour",
+            "Earn More, Claim-A-Shift Program: In addition to your fixed shift, you may pick-up extra shifts through our scheduling platform, allowing you to increase earnings and gain experience across multiple sites",
+            "Work part-time hours this week and full-time the next",
+            "This role is ideal for candidates seeking part-time employment with flexibility, income stability, and opportunities to build-up to a full-time schedule of up to 40 hours per week; always with the option to scale back when needed",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Fixed-Shift Commitment (“Anchor Shifts”): You will be hired for a designated site and weekly shift that serves as your reliable base schedule",
+            "This assignment requires a six (6) month commitment",
+            "Provide customer service by carrying out security-related procedures, site-specific policies, and/or emergency response activities appropriate to the location",
+            "Respond to incidents, disturbances, and critical situations in a calm, problem-solving manner, including situations that may require an armed presence in accordance with post orders",
+            "Conduct regular and random patrols throughout the store, parking areas, loading zones, and perimeter to help to deter unauthorized activity and/or identify unusual conditions",
+            "Monitor access points, observe customer and employee traffic, and report suspicious behavior, policy violations, and/or potential hazards to site management and Allied Universal leadership",
+            "Document incidents, patrol activity, and notable observations in required reports, and communicate clearly with local authorities and/or emergency personnel when needed",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "b69638ece59f",
       "title": "Armed Security Officer: Training, Growth & Benefits",
       "company": "Alliedbarton Security Services",
       "location": "Fort Worth, TX",
@@ -164,7 +336,27 @@
       "posted_date": null,
       "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/warehouse/5324766875/e/",
       "via": "via Talents By Vaia",
-      "description": "A leading security service company is seeking an Armed Security Officer in Fort Worth, Texas. You will patrol assigned areas, perform building access control, and respond to incidents. Minimum requirements include being at least 21 years old and having a high school diploma or equivalent. The company offers competitive hourly pay, health benefits, and training programs to enhance your career. Join a dynamic and inclusive team that reflects a commitment to safety and community. #J-18808-Ljbffr"
+      "description": "A leading security service company is seeking an Armed Security Officer in Fort Worth, Texas. You will patrol assigned areas, perform building access control, and respond to incidents. Minimum requirements include being at least 21 years old and having a high school diploma or equivalent. The company offers competitive hourly pay, health benefits, and training programs to enhance your career. Join a dynamic and inclusive team that reflects a commitment to safety and community. #J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "Minimum requirements include being at least 21 years old and having a high school diploma or equivalent"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The company offers competitive hourly pay, health benefits, and training programs to enhance your career"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will patrol assigned areas, perform building access control, and respond to incidents"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

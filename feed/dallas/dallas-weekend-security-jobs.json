@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-15T14:34:25.750895+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -7,6 +7,39 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "0d46cc1c9dde",
+      "title": "Part-Time Weekend Warehouse Security Clerk — Weekly Pay",
+      "company": "Ryder System, Inc.",
+      "location": "Haltom City, TX",
+      "vertical": "security",
+      "role": "overnight-warehouse",
+      "pay": "26K–29K a year",
+      "pay_min": 26000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-10",
+      "apply_link": "https://www.learn4good.com/jobs/haltom-city/texas/warehouse/5361024311/e/",
+      "via": "via JobLeads",
+      "description": "<p>Ryder System, Inc. is hiring a Part-Time Guard/Clerk in Haltom City, Texas, with a weekend schedule and weekly pay. The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills.</p><p>The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities. Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities",
+            "Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a4c01de24948",
       "title": "Security Shift Lead – Mesquite, TX (Weekend/Holiday)",
       "company": "Marksman Security LLC",
       "location": "Mesquite, TX",
@@ -18,11 +51,21 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-09",
-      "apply_link": "https://us.jobrapido.com/jobpreview/5970656395068964864",
+      "apply_link": "https://www.learn4good.com/jobs/mesquite/texas/security/5344100769/e/",
       "via": "via BeBee",
-      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property.</p>\n<p>Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>"
+      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property.</p>\n<p>Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions",
+            "Weekend and holiday availability is required"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "82ca0e564c4a",
       "title": "Weekend Only Unarmed Security Officer (Level II) – North Dallas $20/hour | Saturday & Sunday Only |",
       "company": "Security Reconnaissance Team Inc",
       "location": "Dallas, TX",
@@ -36,9 +79,58 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://www.simplyhired.com/job/MoetBvit6EA6Rm5PL-pJ7U14RWaqbZ8I8__-xECtTvelJX0nNj0OWw",
       "via": "via SimplyHired",
-      "description": "<p>Security Reconnaissance Team, Inc. (C13489) is hiring reliable, professional <b>Weekend Only</b> Non-Commissioned / Level II (Unarmed) Security Officers for our North Dallas sites.</p><p>We’re a growing Texas security company that values clear communication, dependability, and strong customer service. If you’re looking for consistent weekend work with competitive pay and a professional team, we’d like to hear from you.</p><p>Available Weekend Shifts</p><ul><li><b>Day Shift</b>: 6:00 AM – 6:00 PM (Saturday + Sunday)</li><li><b>Night Shift</b>: 6:00 PM – 6:00 AM (Saturday + Sunday)</li></ul><p>This is an unarmed, uniformed position.</p><p>What You’ll Do</p><ul><li>Patrol and monitor the property to maintain a safe environment</li><li>Observe and report irregularities, incidents, and activities accurately</li><li>Control access points and inspect buildings/equipment as needed</li><li>Respond appropriately and notify the right people when issues arise</li><li>Complete clear, timely reports</li><li>Uphold client standards and company policies at all times</li></ul><p>Requirements (Must Have)</p><ul><li>Valid Texas Level II Non-Commissioned (Unarmed) Security License</li><li>Minimum age of 21</li><li>Reliable transportation and a working cell phone</li><li>Ability to communicate clearly in English</li><li>Ability to pass a criminal background check</li><li>Drug-free (we are a Drug-Free Workplace)</li><li>Legally authorized to work in the United States</li></ul><p>What We Offer</p><ul><li><b>$20.00 per hour</b></li><li>Bi-weekly pay via direct deposit</li><li>Uniforms provided</li><li>Free continued training (state licensing support, re-qualification, and related skills)</li><li>Supportive team environment with opportunities for additional hours or advancement as available</li><li>Equal opportunity employer – military veterans are strongly encouraged to apply</li></ul><p><b>Job Type</b>: Part-time (Weekend Only)<br/><b>Work Location</b>: In person – North Dallas area (Richardson, TX 75081 and surrounding sites)<br/><b>Schedule</b>: Saturday and Sunday only – choose Day (6 AM–6 PM) or Night (6 PM–6 AM)</p><p>If you meet the requirements and want steady weekend work with a professional security team, apply today. We look forward to reviewing your application.</p><p>Pay: $20.00 per hour</p><p>Benefits:</p><ul><li>Employee discount</li><li>Health insurance</li><li>Referral program</li><li>Vision insurance</li></ul><p>License/Certification:</p><ul><li>Level II or Level III security license (Required)</li></ul><p>Work Location: In person</p>"
+      "description": "<p>Security Reconnaissance Team, Inc. (C13489) is hiring reliable, professional <b>Weekend Only</b> Non-Commissioned / Level II (Unarmed) Security Officers for our North Dallas sites.</p><p>We’re a growing Texas security company that values clear communication, dependability, and strong customer service. If you’re looking for consistent weekend work with competitive pay and a professional team, we’d like to hear from you.</p><p>Available Weekend Shifts</p><ul><li><b>Day Shift</b>: 6:00 AM – 6:00 PM (Saturday + Sunday)</li><li><b>Night Shift</b>: 6:00 PM – 6:00 AM (Saturday + Sunday)</li></ul><p>This is an unarmed, uniformed position.</p><p>What You’ll Do</p><ul><li>Patrol and monitor the property to maintain a safe environment</li><li>Observe and report irregularities, incidents, and activities accurately</li><li>Control access points and inspect buildings/equipment as needed</li><li>Respond appropriately and notify the right people when issues arise</li><li>Complete clear, timely reports</li><li>Uphold client standards and company policies at all times</li></ul><p>Requirements (Must Have)</p><ul><li>Valid Texas Level II Non-Commissioned (Unarmed) Security License</li><li>Minimum age of 21</li><li>Reliable transportation and a working cell phone</li><li>Ability to communicate clearly in English</li><li>Ability to pass a criminal background check</li><li>Drug-free (we are a Drug-Free Workplace)</li><li>Legally authorized to work in the United States</li></ul><p>What We Offer</p><ul><li><b>$20.00 per hour</b></li><li>Bi-weekly pay via direct deposit</li><li>Uniforms provided</li><li>Free continued training (state licensing support, re-qualification, and related skills)</li><li>Supportive team environment with opportunities for additional hours or advancement as available</li><li>Equal opportunity employer – military veterans are strongly encouraged to apply</li></ul><p><b>Job Type</b>: Part-time (Weekend Only)<br/><b>Work Location</b>: In person – North Dallas area (Richardson, TX 75081 and surrounding sites)<br/><b>Schedule</b>: Saturday and Sunday only – choose Day (6 AM–6 PM) or Night (6 PM–6 AM)</p><p>If you meet the requirements and want steady weekend work with a professional security team, apply today. We look forward to reviewing your application.</p><p>Pay: $20.00 per hour</p><p>Benefits:</p><ul><li>Employee discount</li><li>Health insurance</li><li>Referral program</li><li>Vision insurance</li></ul><p>License/Certification:</p><ul><li>Level II or Level III security license (Required)</li></ul><p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Valid Texas Level II Non-Commissioned (Unarmed) Security License",
+            "Minimum age of 21",
+            "Reliable transportation and a working cell phone",
+            "Ability to communicate clearly in English",
+            "Ability to pass a criminal background check",
+            "Drug-free (we are a Drug-Free Workplace)",
+            "Legally authorized to work in the United States",
+            "Level II or Level III security license (Required)",
+            "5 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "If you’re looking for consistent weekend work with competitive pay and a professional team, we’d like to hear from you",
+            "$20.00 per hour",
+            "Bi-weekly pay via direct deposit",
+            "Uniforms provided",
+            "Free continued training (state licensing support, re-qualification, and related skills)",
+            "Supportive team environment with opportunities for additional hours or advancement as available",
+            "Equal opportunity employer – military veterans are strongly encouraged to apply",
+            "Pay: $20.00 per hour",
+            "Employee discount",
+            "Health insurance",
+            "Referral program",
+            "Vision insurance",
+            "9 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Day Shift: 6:00 AM – 6:00 PM (Saturday + Sunday)",
+            "Night Shift: 6:00 PM – 6:00 AM (Saturday + Sunday)",
+            "Patrol and monitor the property to maintain a safe environment",
+            "Observe and report irregularities, incidents, and activities accurately",
+            "Control access points and inspect buildings/equipment as needed",
+            "Respond appropriately and notify the right people when issues arise",
+            "Complete clear, timely reports",
+            "Uphold client standards and company policies at all times",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "981ad8cb24f3",
       "title": "Retail Off-Duty Security Officer - Weekend & Evening Shifts",
       "company": "Marksman Security",
       "location": "Dallas, TX",
@@ -50,11 +142,27 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-06",
-      "apply_link": "https://us.jobrapido.com/jobpreview/3281673165993934848",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/entertainment/5344965134/e/",
       "via": "via BeBee",
-      "description": "<p>Marksman Security LLC is seeking Off Duty Officers for Retail in Dallas, Texas. This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills.\nThe ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays. Candidates must be at least 21 years old and able to pass pre-employment screenings.</p>"
+      "description": "<p>Marksman Security LLC is seeking Off Duty Officers for Retail in Dallas, Texas. This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills.\nThe ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays. Candidates must be at least 21 years old and able to pass pre-employment screenings.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays",
+            "Candidates must be at least 21 years old and able to pass pre-employment screenings"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "2da301d9dcc8",
       "title": "Security Shift Lead - Mesquite, TX (Weekend/Holiday)",
       "company": "Marksman Security",
       "location": "Mesquite, TX",
@@ -68,9 +176,19 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://us.jobrapido.com/jobpreview/4111459198313693184",
       "via": "via BeBee",
-      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property. Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>"
+      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property. Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions",
+            "Weekend and holiday availability is required"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "725852ac871d",
       "title": "Retail Security Officer - Weekend Morning/Afternoon Shift (Dallas Division - 5)",
       "company": "United Protective Services",
       "location": "Dallas, TX",
@@ -84,9 +202,29 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://us.expertini.com/job/retail-security-officer-weekend-morningafternoon-shift-dallas-division-5-dallas-united-protective-services-4ef4949d1b0e40b49db460ba0af19915105/",
       "via": "via Expertini",
-      "description": "Retail Security Officer - Weekend Morning/Afternoon Shift (Dallas Division - 5) <br> <br> Dallas, TX, United States of America <br> <br> $17.00 - $17.00 <br>  <br>  <br>  <br>  <br> <br> Back Apply Now <br> <br> Back <br> <br> Apply Now <br> <br> <br>  <br>  <br> <br> <br>  <br> <br> <br>   Overview <br>  <br>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed. <br>  <br>   Job Skills /..."
+      "description": "Retail Security Officer - Weekend Morning/Afternoon Shift (Dallas Division - 5) <br> <br> Dallas, TX, United States of America <br> <br> $17.00 - $17.00 <br>  <br>  <br>  <br>  <br> <br> Back Apply Now <br> <br> Back <br> <br> Apply Now <br> <br> <br>  <br>  <br> <br> <br>  <br> <br> <br>   Overview <br>  <br>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed. <br>  <br>   Job Skills /...",
+      "job_highlights": null
     },
     {
+      "job_hash": "725852ac871d",
+      "title": "Retail Security Officer - Weekend Morning/Afternoon Shift (Dallas Division - 5)",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://us.expertini.com/job/retail-security-officer-weekend-morningafternoon-shift-dallas-division-5-dallas-united-protective-services-4ef4949d1b0e40b49db460ba0af19915105/",
+      "via": "via Expertini",
+      "description": "Retail Security Officer - Weekend Morning/Afternoon Shift (Dallas Division - 5) <br> <br> Dallas, TX, United States of America <br> <br> $17.00 - $17.00 <br>  <br>  <br>  <br>  <br> <br> Back Apply Now <br> <br> Back <br> <br> Apply Now <br> <br> <br>  <br>  <br> <br> <br>  <br> <br> <br>   Overview <br>  <br>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed. <br>  <br>   Job Skills /...",
+      "job_highlights": null
+    },
+    {
+      "job_hash": "12212f2668f2",
       "title": "Security Professional (weekend/overnight shift)",
       "company": "HIRED Staffing Solutions, Inc.",
       "location": "Farmers Branch, TX",
@@ -100,25 +238,11 @@
       "posted_date": "2026-08-03",
       "apply_link": "https://jooble.org/rjdp/8954374830502755848",
       "via": "via Jooble",
-      "description": "<p>Event Security Job In DFW Area</p>\r\n<p>HSS Security is hiring in the DFW area! Our shifts range from 8 to 12 hours per day. This job pertains to event security with a large crowd. Requirements: Good customer service skills. Must have a working cell phone with data. Work overnight shifts and weekends. The physical and mental requirements of this job may include the following: seeing, hearing, speaking, writing, occasional reaching with hands and arms, stooping, kneeling, crouching, crawling, sitting, standing for both short and long periods, walking, walking up inclines and on uneven..."
+      "description": "<p>Event Security Job In DFW Area</p>\r\n<p>HSS Security is hiring in the DFW area! Our shifts range from 8 to 12 hours per day. This job pertains to event security with a large crowd. Requirements: Good customer service skills. Must have a working cell phone with data. Work overnight shifts and weekends. The physical and mental requirements of this job may include the following: seeing, hearing, speaking, writing, occasional reaching with hands and arms, stooping, kneeling, crouching, crawling, sitting, standing for both short and long periods, walking, walking up inclines and on uneven...",
+      "job_highlights": null
     },
     {
-      "title": "Retail Security Officer - Weekend/Afternoon (Dallas Division - 5)",
-      "company": "United Protective Services",
-      "location": "Duncanville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://bebee.com/us/jobs/retail-security-officer-weekend-afternoon-dallas-division-5-united-protective-services-duncanville--lensa-2365_eedb291406f3ea9feface7a0d8522f96c8d01c8c5f1314cc5a2e666f7df82de2",
-      "via": "via BeBee",
-      "description": "<p>Retail Security Officer - Weekend/Afternoon Shift (Dallas Division - 5)</p>\n<p>Duncanville, TX, United States of America</p>\n<p>$20.00 - $20.00</p>\n<h4>Back Apply Now</h4>\n<h4>Back</h4>\n<h4>Apply Now</h4>\n<h4>Overview</h4>\n<p>At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed.</p>\n<h4>Job Skills / Requirements</h4>\n<p>Employment Type: Part-Time</p>\n<h4>Schedule</h4>\n<p>Saturday -..."
-    },
-    {
+      "job_hash": "f81dec27e6e7",
       "title": "Armed Security Officers – Weekend & Event Work (Growing Company) (fort worth) by Craigslist in 2026 | ok.com",
       "company": "Craigslist",
       "location": "Fort Worth, TX",
@@ -132,9 +256,11 @@
       "posted_date": null,
       "apply_link": "https://us.ok.com/en/city-fort-worth/cate-security-services/armed-security-officers-%E2%80%93-weekend-%26-event-work-%28growing-company%29-%28fort-worth%29-43845287410796544/",
       "via": "via OK.com",
-      "description": "Summary:\nSeeking professional security officers to join a tight, dependable team with consistent expectations and growth opportunities for v"
+      "description": "Summary:\nSeeking professional security officers to join a tight, dependable team with consistent expectations and growth opportunities for v",
+      "job_highlights": null
     },
     {
+      "job_hash": "5983207bbcd1",
       "title": "Security Officer- Weekend Rover",
       "company": "Gardaworld",
       "location": "Plano, TX",
@@ -148,23 +274,57 @@
       "posted_date": null,
       "apply_link": "https://www.monster.com/job-openings/security-officer-weekend-rover-plano-tx--1c6f3a3d-060a-4554-b706-6f9dab8c6992",
       "via": "via Monster",
-      "description": "<b>Security Officer- Part Time Rover</b><br><br>You’ve got the right skills. What you need is the right opportunity to unleash your potential. We agree, and we’re hiring!<br><br>Every day is different at GardaWorld with diverse work assignments and flexible schedules. We are leaders in Professional training programs that cover every aspect of delivering world class security services. And every industry counts on us because we’re the very best at what we do. Perhaps you are, too. <br><br>In our complex world today, GardaWorld stands out as the largest privately owned security services company in the world. We’re experts at protecting people and assets. We’re also growing everywhere and expanding in multiple locations. If you’re a sharp, talented, self-confident individual who excels in customer service, you can build a future here. We give you all the tools you need to expand your skills and grow your career with exceptional opportunities for advancement. You can stand out – and thrive – here, too.<br><br>At GardaWorld, we know your compensation is important, so we provide competitive hourly starting rates for every market we’re in: Plano Texas<br><br><b>Shift: Saturday and Sunday 7am-7pm</b><br><b>Compensation:</b>$17.50 hourly<br><br><br><br><b>About the job:</b><br><ul><li>Security foot and mobile patrols must be willing to walk, drive and ride bike -</li></ul><ul><li>Access control of employees and vendors </li><li> While officers are tasked with providing a safe, secure working environment, they must perform these tasks in a highly professional and courteous manner. </li></ul><ul><li>Prior security experience is not required but must have an aptitude for security. Great culture with excellent benefits extended to officers to include Cigna Base health plan,discounted meals in the onsite cafe and discounts at the on site pharmacy. Annual vacation bonus plan. </li><li>Excellent customer service is always top priority.</li><li>You observe, survey the area, and provide reporting on activity at your assigned location.</li><li>You provide rapid response in critical situations.</li><li>You’re good with reading and writing detailed reports.</li><li>You know when and how to enforce customer procedures, regulations, and standards.</li></ul><br><b>Your background:</b><ul><li>You have a high school education or equivalent (GED)</li><li>You’re able to ace (and pass) an extensive screening process</li><li>Legally authorized to work in the United States</li><li>If you have Security, Military, Corrections, or Law Enforcement experience – even better!</li><li>You have a state security license or ability to obtain one </li><li>At least 21 years of age or older as required by applicable law or contractual requirements</li><li>Valid driver's license with good driving history</li><li>Demonstrate a stable work history</li><li>Have reliable transportation</li><li>Able to walk, stand, and sit for long periods of time</li></ul><br>If you want a real career opportunity where you’re part of a dynamic supportive team that’s dedicated to your success, check us out. We’re a global organization that embraces our cultural diversity and we promote engagement, communication, and sharing ideas across all our teams. At GardaWorld, you’ll have plenty of room to grow - and that’s just for starters. Explore your future with us today. <br><br><br>-<br><b>Work today, get paid today, with DailyPay!</b><br><br>GardaWorld offers DailyPay - a voluntary benefit that allows you to access your pay on day 1 of work.<br><br>If you’re hired for a role at GardaWorld, you’ll never have to wait for a paycheck again! DailyPay’s most used features include:<br><ul><li>PAY: Get instant access to your money as you earn it</li><li>SAVE: Automatically save a portion of every paycheck</li><li>BALANCE ALERTS: Track your real-time earnings & budget for upcoming bills or expenses</li></ul><br><br>License # B07179<br><br><br><br><p><b>Skills:</b><br>Access Control, Budgeting, Customer Support/Service, Diversity, Driver's License, Law Enforcement, Military, Procedure Implementation, Protective Services, Regulations, Reporting Skills, Safety/Work Safety, Training Program</p><br><p><b>undefined:</b><br>Gardaworld</p><br><p>GardaWorld Cash will remain an industry leader in cash management by leveraging the most up-to-date techology available and our decades of experience in the industry to create solutions that give our clients exactly what they need to optimize their business and thrive. We offer modern cash processing for consumer businesses and financial institutions, with a range of products and services that can be used a la carte or bundled into end-to-end solutions that integrate cash and digital revenue streams to enable an optimized treasury operation for any business.</p><br><br><p><b>Company Size:</b><br>10,000 employees or more</p><br><p><b>Industry:</b><br>Banking</p><br><p><b>undefined:</b><br>0</p><br><p><b>Website:</b><br>https://cash.garda.com/</p><br>"
-    },
-    {
-      "title": "Security Officer Weekend Day/Mid Shift Driver",
-      "company": "United Protective Services",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "weekend",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=2ad424d8410c85d0",
-      "via": "via Indeed",
-      "description": "<div>\n Security Officer Weekend Day/Mid Shift Driver \n <p><b><br>\n    Pay: </b>17.00</p>\n <p><b> Schedule:</b> Sat/Sun 7am - 7pm, 7pm - 7am</p>\n <p>Duties/Responsibilities:</p>\n <ul>\n  <li>Security Officer will utilize our electronic tour system to patrol property to ensure safety and security utilizing a company vehicle.</li>\n  <li>Security Officer will ensure all protocols are followed when an incident occurs.</li>\n  <li>Security officer will provide a visual deterrent to ensure property is being secured and any person with no business on the property is asked to leave</li>\n </ul>\n <p>You'd..."
+      "description": "<b>Security Officer- Part Time Rover</b><br><br>You’ve got the right skills. What you need is the right opportunity to unleash your potential. We agree, and we’re hiring!<br><br>Every day is different at GardaWorld with diverse work assignments and flexible schedules. We are leaders in Professional training programs that cover every aspect of delivering world class security services. And every industry counts on us because we’re the very best at what we do. Perhaps you are, too. <br><br>In our complex world today, GardaWorld stands out as the largest privately owned security services company in the world. We’re experts at protecting people and assets. We’re also growing everywhere and expanding in multiple locations. If you’re a sharp, talented, self-confident individual who excels in customer service, you can build a future here. We give you all the tools you need to expand your skills and grow your career with exceptional opportunities for advancement. You can stand out – and thrive – here, too.<br><br>At GardaWorld, we know your compensation is important, so we provide competitive hourly starting rates for every market we’re in: Plano Texas<br><br><b>Shift: Saturday and Sunday 7am-7pm</b><br><b>Compensation:</b>$17.50 hourly<br><br><br><br><b>About the job:</b><br><ul><li>Security foot and mobile patrols must be willing to walk, drive and ride bike -</li></ul><ul><li>Access control of employees and vendors </li><li> While officers are tasked with providing a safe, secure working environment, they must perform these tasks in a highly professional and courteous manner. </li></ul><ul><li>Prior security experience is not required but must have an aptitude for security. Great culture with excellent benefits extended to officers to include Cigna Base health plan,discounted meals in the onsite cafe and discounts at the on site pharmacy. Annual vacation bonus plan. </li><li>Excellent customer service is always top priority.</li><li>You observe, survey the area, and provide reporting on activity at your assigned location.</li><li>You provide rapid response in critical situations.</li><li>You’re good with reading and writing detailed reports.</li><li>You know when and how to enforce customer procedures, regulations, and standards.</li></ul><br><b>Your background:</b><ul><li>You have a high school education or equivalent (GED)</li><li>You’re able to ace (and pass) an extensive screening process</li><li>Legally authorized to work in the United States</li><li>If you have Security, Military, Corrections, or Law Enforcement experience – even better!</li><li>You have a state security license or ability to obtain one </li><li>At least 21 years of age or older as required by applicable law or contractual requirements</li><li>Valid driver's license with good driving history</li><li>Demonstrate a stable work history</li><li>Have reliable transportation</li><li>Able to walk, stand, and sit for long periods of time</li></ul><br>If you want a real career opportunity where you’re part of a dynamic supportive team that’s dedicated to your success, check us out. We’re a global organization that embraces our cultural diversity and we promote engagement, communication, and sharing ideas across all our teams. At GardaWorld, you’ll have plenty of room to grow - and that’s just for starters. Explore your future with us today. <br><br><br>-<br><b>Work today, get paid today, with DailyPay!</b><br><br>GardaWorld offers DailyPay - a voluntary benefit that allows you to access your pay on day 1 of work.<br><br>If you’re hired for a role at GardaWorld, you’ll never have to wait for a paycheck again! DailyPay’s most used features include:<br><ul><li>PAY: Get instant access to your money as you earn it</li><li>SAVE: Automatically save a portion of every paycheck</li><li>BALANCE ALERTS: Track your real-time earnings & budget for upcoming bills or expenses</li></ul><br><br>License # B07179<br><br><br><br><p><b>Skills:</b><br>Access Control, Budgeting, Customer Support/Service, Diversity, Driver's License, Law Enforcement, Military, Procedure Implementation, Protective Services, Regulations, Reporting Skills, Safety/Work Safety, Training Program</p><br><p><b>undefined:</b><br>Gardaworld</p><br><p>GardaWorld Cash will remain an industry leader in cash management by leveraging the most up-to-date techology available and our decades of experience in the industry to create solutions that give our clients exactly what they need to optimize their business and thrive. We offer modern cash processing for consumer businesses and financial institutions, with a range of products and services that can be used a la carte or bundled into end-to-end solutions that integrate cash and digital revenue streams to enable an optimized treasury operation for any business.</p><br><br><p><b>Company Size:</b><br>10,000 employees or more</p><br><p><b>Industry:</b><br>Banking</p><br><p><b>undefined:</b><br>0</p><br><p><b>Website:</b><br>https://cash.garda.com/</p><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Security foot and mobile patrols must be willing to walk, drive and ride bike -",
+            "Prior security experience is not required but must have an aptitude for security",
+            "You know when and how to enforce customer procedures, regulations, and standards",
+            "You have a high school education or equivalent (GED)",
+            "You’re able to ace (and pass) an extensive screening process",
+            "Legally authorized to work in the United States",
+            "If you have Security, Military, Corrections, or Law Enforcement experience – even better!",
+            "You have a state security license or ability to obtain one",
+            "At least 21 years of age or older as required by applicable law or contractual requirements",
+            "Valid driver's license with good driving history",
+            "Demonstrate a stable work history",
+            "Have reliable transportation",
+            "Able to walk, stand, and sit for long periods of time",
+            "License # B07179",
+            "Access Control, Budgeting, Customer Support/Service, Diversity, Driver's License, Law Enforcement, Military, Procedure Implementation, Protective Services, Regulations, Reporting Skills, Safety/Work Safety, Training Program",
+            "12 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "At GardaWorld, we know your compensation is important, so we provide competitive hourly starting rates for every market we’re in: Plano Texas",
+            "Compensation:$17.50 hourly",
+            "Great culture with excellent benefits extended to officers to include Cigna Base health plan,discounted meals in the onsite cafe and discounts at the on site pharmacy",
+            "Annual vacation bonus plan",
+            "Excellent customer service is always top priority",
+            "GardaWorld offers DailyPay - a voluntary benefit that allows you to access your pay on day 1 of work",
+            "If you’re hired for a role at GardaWorld, you’ll never have to wait for a paycheck again!",
+            "PAY: Get instant access to your money as you earn it",
+            "SAVE: Automatically save a portion of every paycheck",
+            "BALANCE ALERTS: Track your real-time earnings & budget for upcoming bills or expenses",
+            "7 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Access control of employees and vendors",
+            "While officers are tasked with providing a safe, secure working environment, they must perform these tasks in a highly professional and courteous manner",
+            "You observe, survey the area, and provide reporting on activity at your assigned location",
+            "You provide rapid response in critical situations",
+            "You’re good with reading and writing detailed reports",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }
