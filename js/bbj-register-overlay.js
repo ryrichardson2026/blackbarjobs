@@ -397,8 +397,9 @@
     });
 
     var _BTN_CSS = 'display:block;box-sizing:border-box;width:100%;margin-top:6px;padding:14px;background:#FFC300;color:#000814;font-family:"Barlow Condensed",sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;text-align:center;text-decoration:none;border-radius:10px;';
-    // Alerts success splash: confirm and offer the board. (The apply gate does NOT
-    // use this — it opens the employer application and returns to the job overlay.)
+    // Alerts success splash: confirm the account and offer the board. The apply gate
+    // uses its own splash below (_renderApplySuccess), which hands the user a real click
+    // to the employer application instead of a popup that mobile always blocks.
     function _renderAlertSuccess(){
       var titleEl = document.getElementById('bbjSuccTitle');
       var subEl   = document.getElementById('bbjSuccSub');
@@ -407,8 +408,25 @@
       if (subEl)   subEl.textContent = "Your account is ready. We'll email you when new jobs post in your area.";
       if (wrap)    wrap.innerHTML = '<a href="' + bbjBrowseUrl() + '" style="' + _BTN_CSS + '">Browse jobs →</a>';
     }
-    // Open the stashed employer application in a new tab (best effort; blocked popups
-    // fall back to the job overlay's own Apply, which now passes straight through).
+    // Apply-gate success splash: confirm the account and hand the user a real click to
+    // reach the employer application. A user-initiated click is never popup-blocked,
+    // which window.open after an await always is on mobile.
+    function _renderApplySuccess(){
+      var titleEl = document.getElementById('bbjSuccTitle');
+      var subEl   = document.getElementById('bbjSuccSub');
+      var wrap    = document.getElementById('bbjSuccBtnWrap');
+      var url = ''; try { url = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
+      if (titleEl) titleEl.textContent = "You're all set!";
+      if (subEl)   subEl.textContent = url
+        ? 'Your account is ready. Continue to your application, it opens in a new tab.'
+        : 'Your account is ready.';
+      if (wrap) wrap.innerHTML = url
+        ? '<a href="' + url.replace(/"/g,'&quot;') + '" target="_blank" rel="noopener noreferrer" onclick="bbjRegClose()" style="' + _BTN_CSS + '">Continue to your application →</a>'
+        : '<a href="' + bbjBrowseUrl() + '" style="' + _BTN_CSS + '">Browse jobs →</a>';
+    }
+    // Retained but unreferenced (Task 1): the apply gate no longer auto-opens the
+    // employer app with window.open (mobile blocks a popup fired after an await). The
+    // success splash's user-initiated "Continue to your application" link replaces it.
     function _openPendingApply(){
       var url = ''; try { url = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
       if (url) { try { window.open(url, '_blank', 'noopener,noreferrer'); } catch(e){} }
@@ -477,17 +495,27 @@
       }
 
       // Lead webhook (Make -> MailerLite). source distinguishes apply gate vs alerts.
-      try {
-        fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
-          method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(Object.assign(bbjAttr(source), { type: 'candidate', email: email,
-            zip: zip, phone: phoneDigits, vertical: recVertical, metro: recMetro,
-            region_metro: region_metro, license_state: license_state,
-            shift: shift, sms_consent: smsOpt, source: source, ts: new Date().toISOString(),
-            consent: true, consent_timestamp: new Date().toISOString(),
-            consent_text: 'By submitting you create a free account and agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
-        });
-      } catch(e) {}
+      // Dedupe (Task 1c): fire at most once per session per email + pending job. The
+      // gate's old popup-block dead-end caused resubmits that double-posted the lead;
+      // this suppresses the duplicate row only. Everything after the fetch (cookie,
+      // dataLayer, success splash) still runs, so the user's path forward is untouched.
+      var _pendJob = ''; try { _pendJob = sessionStorage.getItem('bbj_pending_job') || ''; } catch(e){}
+      var _leadKey = 'bbj_lead_sent:' + email + ':' + _pendJob;
+      var _leadSent = false; try { _leadSent = sessionStorage.getItem(_leadKey) === '1'; } catch(e){}
+      if (!_leadSent) {
+        try {
+          fetch('https://hook.us2.make.com/qv0ynbmsfwf33wknewif43ijdlwif58x', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(Object.assign(bbjAttr(source), { type: 'candidate', email: email,
+              zip: zip, phone: phoneDigits, vertical: recVertical, metro: recMetro,
+              region_metro: region_metro, license_state: license_state,
+              shift: shift, sms_consent: smsOpt, source: source, ts: new Date().toISOString(),
+              consent: true, consent_timestamp: new Date().toISOString(),
+              consent_text: 'By submitting you create a free account and agree to receive job alerts by email and SMS if opted in.', page_url: window.location.href }))
+          });
+        } catch(e) {}
+        try { sessionStorage.setItem(_leadKey, '1'); } catch(e){}
+      }
 
       document.cookie = 'bbj_registered=1; max-age=2592000; path=/; SameSite=Lax';
       try { sessionStorage.removeItem('bbj_gate_dismissed'); } catch(e){}
@@ -495,17 +523,21 @@
       window.dataLayer.push({ event: 'account_created' });
       window.dataLayer.push({ event: source === 'apply_gate' ? 'bbj_access_signup' : 'alert_signup' });
 
+      // Both modes now land on the same success splash (never a silent close). Apply-gate
+      // gets a user-initiated "Continue to your application" link (popup-proof); alerts
+      // get "Browse jobs". This replaces the old apply_gate branch that fired a blocked
+      // window.open then closed the modal on an empty result (the dead-end + resubmit
+      // that double-posted leads).
+      var s1 = document.getElementById('bbjStep1'); if (s1) s1.style.display = 'none';
       if (source === 'apply_gate') {
-        // Open the employer application and return to the job overlay (close the modal,
-        // revealing it underneath). If the popup is blocked, the user is back on the job
-        // overlay where Apply now passes straight through (they're registered).
-        _openPendingApply();
-        bbjRegClose();
+        _renderApplySuccess();
+        // 1b: unlock the page in place so gated CTAs behave as registered without a
+        // manual refresh (bbj_registered cookie is already set above).
+        if (typeof bbjMorphCtas === 'function') bbjMorphCtas();
       } else {
-        document.getElementById('bbjStep1').style.display = 'none';
         _renderAlertSuccess();
-        document.getElementById('bbjSuccess').style.display = 'block';
       }
+      var su = document.getElementById('bbjSuccess'); if (su) su.style.display = 'block';
     });
 
   });
