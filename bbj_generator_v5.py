@@ -541,10 +541,13 @@ def faq_schema(faqs):
         for q,a in faqs]}, indent=2)
 
 # NOTE: the old jobposting_schema(cfg) synthetic per-page JobPosting was removed.
-# Metro pages now carry a BBJ_SCHEMA marker pair that bake_page fills with one real
-# JobPosting per baked card (see bbj_feed_bake.render_job_schema). Do NOT reintroduce
-# a build-time synthetic posting: it froze datePosted and named BlackBarJobs as the
-# hiringOrganization instead of the real employer.
+# Metro pages carry a BBJ_SCHEMA marker pair. As of Task 0 (2026-08-18) bake_page leaves
+# that pair EMPTY (bbj_feed_bake.EMIT_JOBPOSTING = False): JobPosting markup is only
+# permitted on a page containing exactly one job (Google policy; DG7), and every metro /
+# hub page here is a multi-job list page. Do NOT reintroduce a build-time synthetic
+# posting (it froze datePosted and named BlackBarJobs as hiringOrganization), and do NOT
+# flip EMIT_JOBPOSTING back on for these pages. Single, honest JobPosting objects live
+# only on the per-job pages (Task 5).
 
 def collection_schema(cfg):
     # Hub/directory pages: an ItemList of the metro pages, not a single JobPosting.
@@ -709,11 +712,11 @@ def generate_page(cfg):
     # security pages keep the static three-tier grid.
     pay_block      = (PAY_START + PAY_END) if cfg.get("dynamic_pay") \
                      else pay_grid(pay_entry, pay_exp, pay_lead)
-    # Hub pages keep their CollectionPage/ItemList. Metro job pages no longer emit a
-    # synthetic per-page JobPosting here; they ship an empty BBJ_SCHEMA marker pair
-    # that bake_page fills with one real JobPosting per baked card (refreshes on the
-    # feed cadence instead of freezing at build time). generate_page bakes below, so
-    # a page with a feed leaves this block already populated.
+    # Hub pages keep their CollectionPage/ItemList. Metro job pages ship an empty
+    # BBJ_SCHEMA marker pair. As of Task 0 (2026-08-18) bake_page leaves it empty
+    # (EMIT_JOBPOSTING = False): no JobPosting on a multi-job list page (DG7). The
+    # markers stay so the gate is reversible in one line if/when a single-job surface
+    # ever reuses this template.
     if cfg.get("hub_mode"):
         page_schema_block = f'<script type="application/ld+json">{collection_schema(cfg)}</script>'
     else:

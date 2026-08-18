@@ -794,81 +794,18 @@
 
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape') { closeGate(); closeAlerts(); closeDrawer(); } });
 
-  /* ───────────────── JOB POSTING STRUCTURED DATA (schema.org / Google for Jobs) ───────────────── */
+  /* ───────────────── LOCATION HELPER (card rendering) ───────────────── */
   function parseLoc(loc) {
     var parts = (loc || '').split(',').map(function(s){ return s.trim(); });
     return { city: parts[0] || '', region: parts[1] || '', country: 'US' };
   }
-  // Prefer the structured pay_min/max/unit from the feed; more accurate than string parse.
-  function structuredSalary(job) {
-    if (job.pay_min == null || !job.pay_unit) return null;
-    var unit = ({HOUR:'HOUR',DAY:'DAY',WEEK:'WEEK',MONTH:'MONTH',YEAR:'YEAR'})[String(job.pay_unit).toUpperCase()];
-    if (!unit) return null;
-    var qv = { '@type':'QuantitativeValue', unitText: unit };
-    if (job.pay_max != null && job.pay_max !== job.pay_min) { qv.minValue = job.pay_min; qv.maxValue = job.pay_max; }
-    else { qv.value = job.pay_min; }
-    return { '@type':'MonetaryAmount', currency:'USD', value: qv };
-  }
-  function parseSalary(pay) {
-    if (!pay || !pay.trim()) return null;
-    var unit = /year|annual|\/yr|yr\b/i.test(pay) ? 'YEAR' : (/week/i.test(pay) ? 'WEEK' : (/month/i.test(pay) ? 'MONTH' : 'HOUR'));
-    var nums = (pay.match(/\d+(\.\d+)?/g) || []).map(parseFloat);
-    if (!nums.length) return null;
-    var qv = { '@type': 'QuantitativeValue', unitText: unit };
-    if (nums.length >= 2) { qv.minValue = nums[0]; qv.maxValue = nums[1]; } else { qv.value = nums[0]; }
-    return { '@type': 'MonetaryAmount', currency: 'USD', value: qv };
-  }
-  function empType(jt) {
-    var t = (jt || '').toLowerCase(); var arr = [];
-    if (t.indexOf('full') !== -1) arr.push('FULL_TIME');
-    if (t.indexOf('part') !== -1) arr.push('PART_TIME');
-    if (t.indexOf('contract') !== -1) arr.push('CONTRACTOR');
-    if (t.indexOf('temp') !== -1) arr.push('TEMPORARY');
-    if (!arr.length) return undefined;
-    return arr.length === 1 ? arr[0] : arr;
-  }
-  function isoDate(d) { var t = Date.parse(d); return isNaN(t) ? null : new Date(t).toISOString().slice(0, 10); }
-  function addDaysISO(d, days) { var t = Date.parse(d); return isNaN(t) ? null : new Date(t + days * 864e5).toISOString().slice(0, 10); }
-
-  function buildJobPosting(job) {
-    if (!(job.title || '').trim()) return null;
-    var posted = isoDate(job.posted) || isoDate(job.date_pulled);
-    var loc = parseLoc(job.location || job.city || '');
-    var desc = (job.description && job.description.trim())
-      ? job.description.trim()
-      : (job.title + (job.company ? ' with ' + job.company : '') + (job.location ? ' in ' + job.location : '') + '. '
-         + ((job.job_type || '').trim() ? job.job_type + ' security position. ' : 'Security officer position. ')
-         + ((job.pay || '').trim() ? 'Pay: ' + job.pay + '. ' : '')
-         + 'Apply now through BlackBarJobs.');
-    var obj = {
-      '@context': 'https://schema.org/',
-      '@type': 'JobPosting',
-      'title': job.title,
-      'description': desc,
-      'hiringOrganization': { '@type': 'Organization', 'name': job.company || 'Confidential' },
-      'jobLocation': { '@type': 'Place', 'address': { '@type': 'PostalAddress', 'addressLocality': loc.city, 'addressRegion': loc.region, 'addressCountry': 'US' } },
-      'identifier': { '@type': 'PropertyValue', 'name': job.company || 'BlackBarJobs', 'value': job.job_id || job.apply_link || job.title },
-      'directApply': false
-    };
-    if (posted) { obj.datePosted = posted; obj.validThrough = addDaysISO(posted, 60); }
-    var et = empType(job.job_type); if (et) obj.employmentType = et;
-    var sal = structuredSalary(job) || parseSalary(job.pay); if (sal) obj.baseSalary = sal;
-    if (job.apply_link) obj.url = job.apply_link;
-    return obj;
-  }
-
-  function injectJsonLd(jobs) {
-    var box = document.getElementById('jsonld');
-    if (!box) return;
-    box.textContent = '';
-    jobs.forEach(function(j){
-      var obj = buildJobPosting(j); if (!obj) return;
-      var s = document.createElement('script');
-      s.type = 'application/ld+json';
-      s.textContent = JSON.stringify(obj);
-      box.appendChild(s);
-    });
-  }
+  // Task 0 (2026-08-18): the client-side JobPosting injector (buildJobPosting /
+  // injectJsonLd, plus structuredSalary / parseSalary / empType / isoDate / addDaysISO)
+  // was DELETED. The board and homepage are multi-job list pages, and JobPosting markup
+  // is only permitted on a page containing exactly one job (Google policy; DG7). It also
+  // fabricated baseSalary from a pay string and used a 'Confidential' org fallback, both
+  // misrepresentation. There is no injector left to re-enable by any preset change.
+  // Per-job pages (Task 5) render their own single, honest JobPosting server-side.
 
   /* ───────────────── BOOT (merge + de-dupe all tabs) ───────────────── */
   function normApply(u){ return (u||'').trim().toLowerCase().replace(/\/+$/,''); }
@@ -978,10 +915,9 @@
     ALL_JOBS.forEach(function(j, i){ j._i = i; });
     DEFAULT_LOC = '';                 // All Locations by default (national master board)
     filters.loc = DEFAULT_LOC;
-    // On a hub page (BBJ_BOARD_PRESET set) the crawlable JobPosting schema is baked into
-    // the <head> for the hub's own jobs; do NOT also inject 1800+ postings for every
-    // board job. On /job-board (no preset) inject the full set as before.
-    if (!window.BBJ_BOARD_PRESET) injectJsonLd(ALL_JOBS);
+    // Task 0 (2026-08-18): no JobPosting is injected here anymore. The board is a
+    // multi-job list page (DG7). The #jsonld container stays empty; WebSite + FAQPage
+    // in #jsonld-static are the only schema this page carries.
     applyFilters();
     applyUrlFilters();                // deep-link via UTM / query params (?vertical=warehouse&role=forklift&city=chicago)
     if(window.bbjOpenJobFromURL) window.bbjOpenJobFromURL();   // ?job={hash8} deep link -> open the overlay
