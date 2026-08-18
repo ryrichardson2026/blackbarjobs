@@ -18,6 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="/js/supabase-config.js"></script>
+<script src="/js/bbj-taxonomy.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -279,23 +280,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="page-wrap">
 
-  <div class="greeting" id="greeting">Hi there</div>
+  <div class="greeting" id="greeting">Your Job Alerts</div>
   <p class="greeting-sub">Manage your profile and job alerts below.</p>
 
   <!-- Profile -->
   <div class="card">
     <div class="card-title">Profile</div>
-
-    <div class="field-row">
-      <div>
-        <label class="field-label">First Name</label>
-        <input id="first_name" type="text" placeholder="First">
-      </div>
-      <div>
-        <label class="field-label">Last Name</label>
-        <input id="last_name" type="text" placeholder="Last">
-      </div>
-    </div>
 
     <label class="field-label">Email</label>
     <input id="email" type="email" placeholder="you@email.com" style="margin-bottom:10px;" disabled>
@@ -319,34 +309,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="card">
     <div class="card-title">Job Alert Preferences</div>
 
-    <div class="pref-grid">
-      <div class="pref-item" data-pref="unarmed" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Unarmed</span>
-      </div>
-      <div class="pref-item" data-pref="armed" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Armed</span>
-      </div>
-      <div class="pref-item" data-pref="event" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Event Security</span>
-      </div>
-      <div class="pref-item" data-pref="overnight" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Overnight</span>
-      </div>
-      <div class="pref-item" data-pref="mobile_patrol" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Mobile Patrol</span>
-      </div>
-      <div class="pref-item" data-pref="loss_prevention" onclick="togglePref(this)">
-        <div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <span class="pref-label">Loss Prevention</span>
-      </div>
-    </div>
+    <label class="field-label">Roles <span class="optional-tag">(none selected = any role)</span></label>
+    <div class="pref-grid" id="roleGrid"></div>
 
-    <div class="card-title" style="margin-bottom:10px;">Notify me via</div>
+    <label class="field-label" style="margin-top:6px;">Shift preference <span class="optional-tag">(none selected = Any)</span></label>
+    <div class="pref-grid" id="shiftGrid"></div>
+
+    <div class="card-title" style="margin-bottom:10px;margin-top:6px;">Notify me via</div>
     <div class="notif-row">
       <button class="notif-btn" data-notif="email_notifications" onclick="toggleNotif(this)">Email</button>
       <button class="notif-btn" data-notif="sms_notifications" onclick="toggleNotif(this)">SMS</button>
@@ -375,34 +344,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     loadPrefs();
   }
 
+  // The full alert_preferences row loaded for this user, kept so a save preserves the
+  // fields the dashboard does not edit (verticals, metros, zip, source) instead of
+  // blanking them.
+  let _prefRow = null;
+
   async function loadProfile() {
     const meta = currentUser.user_metadata || {};
-    document.getElementById('greeting').textContent = 'Hi ' + (meta.first_name || '');
-    document.getElementById('first_name').value = meta.first_name || '';
-    document.getElementById('last_name').value  = meta.last_name  || '';
-    document.getElementById('email').value       = currentUser.email || '';
-    document.getElementById('phone').value       = meta.phone || '';
-    document.getElementById('city').value        = meta.city  || '';
-    document.getElementById('state').value       = meta.state || '';
+    document.getElementById('email').value = currentUser.email || '';
+    document.getElementById('phone').value = meta.phone || '';
+    document.getElementById('city').value  = meta.city  || '';
+    document.getElementById('state').value = meta.state || '';
+  }
+
+  // One chip renderer for roles and shifts, so the markup (and the board-matched slugs
+  // in data-key) come from a single place. Selected slugs are written back verbatim.
+  function chipHTML(key, label) {
+    return '<div class="pref-item" data-key="' + key + '" onclick="togglePref(this)">'
+      + '<div class="pref-check"><svg width="10" height="8" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.5 8.5L11 1.5" stroke="#000814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>'
+      + '<span class="pref-label">' + label + '</span></div>';
+  }
+  function renderRoleChips(verticals) {
+    const tax = (window.BBJ_TAX && window.BBJ_TAX.verticals) || {};
+    const vkeys = (verticals && verticals.length) ? verticals : Object.keys(tax);
+    const seen = {}, out = [];
+    vkeys.forEach(function (vk) {
+      const v = tax[vk]; if (!v) return;
+      v.roles.forEach(function (r) { if (!seen[r[0]]) { seen[r[0]] = 1; out.push(r); } });
+    });
+    document.getElementById('roleGrid').innerHTML = out.map(function (r) { return chipHTML(r[0], r[1]); }).join('');
+  }
+  function renderShiftChips() {
+    const shifts = (window.BBJ_TAX && window.BBJ_TAX.shifts) || [];
+    document.getElementById('shiftGrid').innerHTML = shifts.map(function (s) { return chipHTML(s[0], s[1]); }).join('');
+  }
+  function markOn(gridId, keys) {
+    (keys || []).forEach(function (k) {
+      const el = document.querySelector('#' + gridId + ' [data-key="' + k + '"]');
+      if (el) el.classList.add('on');
+    });
+  }
+  function selectedKeys(gridId) {
+    return Array.prototype.map.call(
+      document.querySelectorAll('#' + gridId + ' .pref-item.on'),
+      function (el) { return el.getAttribute('data-key'); });
   }
 
   async function loadPrefs() {
-    const { data, error } = await sbClient
+    const { data } = await sbClient
       .from('alert_preferences')
       .select('*')
       .eq('user_id', currentUser.id)
       .single();
 
+    _prefRow = data || null;
+    const verticals = (data && Array.isArray(data.verticals)) ? data.verticals : [];
+    renderRoleChips(verticals);            // render even with no row (shows all verticals)
+    renderShiftChips();
     if (!data) return;
 
-    ['unarmed','armed','event','overnight','mobile_patrol','loss_prevention'].forEach(key => {
-      if (data[key]) {
-        const el = document.querySelector('[data-pref="' + key + '"]');
-        if (el) el.classList.add('on');
-      }
-    });
-
-    ['email_notifications','sms_notifications'].forEach(key => {
+    markOn('roleGrid', Array.isArray(data.roles) ? data.roles : []);
+    // shift_pref is an object {slug:true}; tolerate an array too.
+    const sp = data.shift_pref || {};
+    const shiftKeys = Array.isArray(sp) ? sp : Object.keys(sp).filter(function (k) { return sp[k]; });
+    markOn('shiftGrid', shiftKeys);
+    ['email_notifications', 'sms_notifications'].forEach(function (key) {
       if (data[key]) {
         const el = document.querySelector('[data-notif="' + key + '"]');
         if (el) el.classList.add('on');
@@ -421,14 +427,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     status.textContent = '';
     status.className = 'save-status';
 
-    // Update profile metadata
+    // Update profile metadata. updateUser merges into user_metadata, so omitting
+    // first_name/last_name here leaves any existing values untouched (no name field
+    // on this surface by design).
     const { error: profileError } = await sbClient.auth.updateUser({
       data: {
-        first_name: document.getElementById('first_name').value.trim(),
-        last_name:  document.getElementById('last_name').value.trim(),
-        phone:      document.getElementById('phone').value.trim(),
-        city:       document.getElementById('city').value.trim(),
-        state:      document.getElementById('state').value.trim().toUpperCase(),
+        phone: document.getElementById('phone').value.trim(),
+        city:  document.getElementById('city').value.trim(),
+        state: document.getElementById('state').value.trim().toUpperCase(),
       }
     });
 
@@ -440,15 +446,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       return;
     }
 
-    // Upsert alert preferences
+    // Upsert alert preferences in the migrated jsonb schema. Fields the dashboard does
+    // not edit (verticals, metros, zip, source) are carried over from the loaded row so
+    // a save never blanks what signup captured.
+    const base = _prefRow || {};
+    const shiftPref = {};
+    selectedKeys('shiftGrid').forEach(function (k) { shiftPref[k] = true; });
     const prefs = {
       user_id: currentUser.id,
-      unarmed:             document.querySelector('[data-pref="unarmed"]').classList.contains('on'),
-      armed:               document.querySelector('[data-pref="armed"]').classList.contains('on'),
-      event:               document.querySelector('[data-pref="event"]').classList.contains('on'),
-      overnight:           document.querySelector('[data-pref="overnight"]').classList.contains('on'),
-      mobile_patrol:       document.querySelector('[data-pref="mobile_patrol"]').classList.contains('on'),
-      loss_prevention:     document.querySelector('[data-pref="loss_prevention"]').classList.contains('on'),
+      verticals: Array.isArray(base.verticals) ? base.verticals : [],
+      roles: selectedKeys('roleGrid'),
+      metros: Array.isArray(base.metros) ? base.metros : [],
+      shift_pref: shiftPref,
+      zip: base.zip || null,
+      source: base.source || 'dashboard',
       email_notifications: document.querySelector('[data-notif="email_notifications"]').classList.contains('on'),
       sms_notifications:   document.querySelector('[data-notif="sms_notifications"]').classList.contains('on'),
     };
@@ -465,14 +476,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       return;
     }
 
+    _prefRow = prefs;                       // keep in sync so a second save is consistent
     status.textContent = 'Saved.';
     status.className = 'save-status ok';
     btn.disabled = false;
     btn.textContent = 'Save';
-
-    // Update greeting with new name
-    const newFirst = document.getElementById('first_name').value.trim();
-    if (newFirst) document.getElementById('greeting').textContent = 'Hi ' + newFirst;
   }
 
   document.getElementById('logout-btn').addEventListener('click', async () => {

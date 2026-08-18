@@ -458,6 +458,7 @@
       // email already has an account, sign them in with what they typed so the session
       // is real; either way we proceed so the user is never trapped at the gate.
       var sbClient = _sb();
+      var authUserId = null;                              // captured for the alert_preferences write
       if (sbClient) {
         try {
           var result = await sbClient.auth.signUp({
@@ -466,12 +467,17 @@
           });
           if (result.error) {
             if (/already registered/i.test(result.error.message)) {
-              try { await sbClient.auth.signInWithPassword({ email: email, password: password }); } catch(e) {}
+              try {
+                var si = await sbClient.auth.signInWithPassword({ email: email, password: password });
+                if (si && si.data && si.data.user) authUserId = si.data.user.id;
+              } catch(e) {}
             } else {
               errEl.textContent = result.error.message;
               errEl.style.display = 'block';
               btn.disabled = false; btn.textContent = _REG_COPY[source].btn; return;
             }
+          } else if (result.data && result.data.user) {
+            authUserId = result.data.user.id;
           }
         } catch(e) {}
       }
@@ -494,6 +500,35 @@
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ event: 'account_created' });
       window.dataLayer.push({ event: source === 'apply_gate' ? 'bbj_access_signup' : 'alert_signup' });
+
+      // Persist alert preferences to the migrated jsonb schema (Task 3). Fire-and-forget,
+      // like the webhook. The overlay writes roles:[] ("any role in this vertical"); the user
+      // narrows roles on the dashboard. metros is the board market slug (feed/board.json
+      // job.market) so alerts can match; verticals/metros/shift come from the page + form.
+      // Slugs verified against feed/board.json; the fuller taxonomy lives in js/bbj-taxonomy.js.
+      if (sbClient && authUserId) {
+        var _metroSlug = (function(m){
+          if (!m) return '';
+          m = String(m).split('|')[0].trim();
+          var map = { 'Dallas':'dallas','Fort Worth':'dallas','Houston':'houston','San Antonio':'san-antonio','Austin':'austin','Chicago':'chicago' };
+          if (map[m]) return map[m];
+          var low = m.toLowerCase();
+          return (['dallas','houston','san-antonio','austin','chicago'].indexOf(low) !== -1) ? low : '';
+        })(recMetro);
+        try {
+          sbClient.from('alert_preferences').upsert({
+            user_id: authUserId,
+            verticals: recVertical ? [recVertical] : [],
+            roles: [],
+            metros: _metroSlug ? [_metroSlug] : [],
+            shift_pref: shift,
+            zip: zip,
+            source: source,
+            sms_notifications: smsOpt,
+            email_notifications: true
+          }, { onConflict: 'user_id' });
+        } catch(e) {}
+      }
 
       if (source === 'apply_gate') {
         // Open the employer application and return to the job overlay (close the modal,
