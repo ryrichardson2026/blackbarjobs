@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/houston-private-event-security",
   "market": "Houston",
   "target": "city-role",
@@ -92,6 +92,61 @@
       ]
     },
     {
+      "job_hash": "02b660af1f3c",
+      "title": "Unarmed Event Security - Weekends",
+      "company": "Battle Tested Security",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "festival",
+      "pay": "17–19 an hour",
+      "pay_min": 17.0,
+      "pay_max": 19.0,
+      "pay_unit": "HOUR",
+      "schedule": null,
+      "posted_date": "2026-08-07",
+      "apply_link": "https://www.ziprecruiter.com/c/Battle-Tested-Security/Job/Unarmed-Event-Security-Houston/-in-Houston,TX?jid=4614025572b275be",
+      "via": "via Indeed",
+      "description": "<div>\n <p>Battle Tested Security is a fast growing security event management company headquartered in Baltimore, Maryland and operating in ten markets nationwide. BTS continuously adapts to the ever changing industry for many client bases, local and international, for sporting and music events.</p>\n <p>Utilizing creativity and innovation to ensure that customer service and experience are always at the forefront, BTS provides unparalleled safety and security that inspires athletes, teams, artists, fans, and patrons alike.</p>\n <p>Battle Tested Security is a certified Service Disabled Veteran Owned Small Business (SDVOSB), whose goal is to employ, empower and support the Veteran community. Since its inception in 2016, BTS has employed over 150 Veterans who have benefited from employment, camaraderie, counseling, advanced education opportunities and mental/physical health counseling. We strive to create a relatable environment where Veterans can navigate the challenging transition from Military life to everyday life, building a solid foundation and support system to ensure success. Our vision is to employ as many Veterans as possible to positively affect not only the lives of our Veterans, but the experience for our clients.</p>\n <p>Position Summary:</p>\n <p>A Event Staff provides safety, security, and customer service to the guests, tenants, and staff assigned to events. Event Staff employed by Battle Tested Security will assist local public safety agencies in the performance of their duties in providing service to the surrounding community as it affects the event.</p>\n <p>Essential Functions:</p>\n <ul>\n  <li>\n   <p>Serve as a representative and liaison of Battle Tested Security, while demonstrating a professional, positive, polite and friendly attitude</p></li>\n  <li>\n   <p>Tact and discretion must always be used in all interactions with campus guests and employees</p></li>\n  <li>\n   <p>Patrol on foot and/or motorized vehicle in some cases within and the events surroundings</p></li>\n  <li>\n   <p>Respond quickly to all security needs and calls for service</p></li>\n  <li>\n   <p>Provide customer service to all patrons and employees</p></li>\n  <li>\n   <p>Conduct regular inspections of all patrol and fixed post assignments</p></li>\n  <li>\n   <p>Write reports, conduct staff work, interview victims and witnesses</p></li>\n  <li>\n   <p>Respond to crime scenes and ensure the scene is secured until the arrival of local law enforcement</p></li>\n  <li>\n   <p>Work closely with local public agencies to accomplish the safety and security goals of Battle Tested Security</p></li>\n  <li>\n   <p>Arrive to all shifts on time in proper uniform</p></li>\n  <li>\n   <p>Must be able to stand post, which may require standing or walking for extended periods of time</p></li>\n </ul>\n <ul>\n  <li>\n   <p>A minimum education level of: High School Diploma or its equivalent</p></li>\n  <li>\n   <p>0 - 1 years of related work experience is preferred</p></li>\n  <li>\n   <p>Must qualify for Guard/Security License per State regulation</p></li>\n  <li>\n   <p>Fluency in written and spoken English</p></li>\n  <li>\n   <p>Must obtain a VALID driver's license</p></li>\n  <li>\n   <p>Ability to maintain patron, employee, and company confidentiality</p></li>\n  <li>\n   <p>Ability to memorize, recollect, and quickly retrieve relevant information for incidents</p></li>\n  <li>\n   <p>Ability to work outdoors in various weather conditions for extended time periods up to 12 hours</p></li>\n  <li>\n   <p>Ability to stand and/or walk for extended periods of time, up to 12 hours</p></li>\n  <li>\n   <p>Ability to operate a motorized vehicle</p></li>\n  <li>\n   <p>Able to lift, carry, and/or move up to 50 pounds, as needed</p></li>\n  <li>\n   <p>Must be available to work non-traditional hours including evenings, weekends and holidays</p></li>\n </ul>\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "A minimum education level of: High School Diploma or its equivalent",
+            "Must qualify for Guard/Security License per State regulation",
+            "Fluency in written and spoken English",
+            "Must obtain a VALID driver's license",
+            "Ability to maintain patron, employee, and company confidentiality",
+            "Ability to memorize, recollect, and quickly retrieve relevant information for incidents",
+            "Ability to work outdoors in various weather conditions for extended time periods up to 12 hours",
+            "Ability to stand and/or walk for extended periods of time, up to 12 hours",
+            "Ability to operate a motorized vehicle",
+            "Able to lift, carry, and/or move up to 50 pounds, as needed",
+            "Must be available to work non-traditional hours including evenings, weekends and holidays",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "A Event Staff provides safety, security, and customer service to the guests, tenants, and staff assigned to events",
+            "Event Staff employed by Battle Tested Security will assist local public safety agencies in the performance of their duties in providing service to the surrounding community as it affects the event",
+            "Serve as a representative and liaison of Battle Tested Security, while demonstrating a professional, positive, polite and friendly attitude",
+            "Tact and discretion must always be used in all interactions with campus guests and employees",
+            "Patrol on foot and/or motorized vehicle in some cases within and the events surroundings",
+            "Respond quickly to all security needs and calls for service",
+            "Provide customer service to all patrons and employees",
+            "Conduct regular inspections of all patrol and fixed post assignments",
+            "Write reports, conduct staff work, interview victims and witnesses",
+            "Respond to crime scenes and ensure the scene is secured until the arrival of local law enforcement",
+            "Work closely with local public agencies to accomplish the safety and security goals of Battle Tested Security",
+            "Arrive to all shifts on time in proper uniform",
+            "Must be able to stand post, which may require standing or walking for extended periods of time",
+            "10 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "10b58d7f4e32",
       "title": "Licensed Event Security - Houston Rockets",
       "company": "BEST Crowd Management",
@@ -154,42 +209,6 @@
           "title": "Responsibilities"
         }
       ]
-    },
-    {
-      "job_hash": "e2d585d38da1",
-      "title": "Event Security - Shell Energy Stadium",
-      "company": "BEST Crowd Management",
-      "location": "Missouri City, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-07",
-      "apply_link": "https://salutemyjob.com/jobs/event-security-shell-energy-stadium-missouri-city-texas/2913239331-2/",
-      "via": "via SaluteMyJob",
-      "description": "<P><SPAN>Job Title: Event Security - Shell Energy Stadium</SPAN></P><P><SPAN>Company: BEST Crowd Management</SPAN></P><P><SPAN>Location: Houston, TX</SPAN></P><P><SPAN>Pay: $15 / hr</SPAN></P><P><SPAN>Job Type: Part-time</SPAN></P><P><BR></P><P><SPAN>Summary:</SPAN></P><P><SPAN>Join the dedicated and professional team at BEST Crowd Management, a leading provider of crowd management and event security services. With a commitment to excellence and a focus on safety, BEST Crowd Management ensures the success of various events by providing top-notch security solutions. As an Event Security...",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "255a82728228",
-      "title": "Licensed Event Security - Houston Rockets",
-      "company": "BEST Crowd Management",
-      "location": "Magnolia, TX",
-      "vertical": "security",
-      "role": "level-2",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://bebee.com/us/jobs/licensed-event-security-houston-rockets-best-crowd-management-magnolia--lensa-7428_e77d8b15b3775359cae9029841fec4b9e22c60b2bed9f057fa799b0f5bef99f5",
-      "via": "via BeBee",
-      "description": "<p>Job Title: Licensed Event Security - Houston Rockets</p>\n<p><b><strong>(Texas Private Security License Level 2 or higher required!)</strong></b></p>\n<h4>Company: BEST Crowd Management</h4>\n<p>Location: Toyota Center - Houston, TX</p>\n<h4>Pay: $15 / hr</h4>\n<p>Job Type: Part-time</p>\n<h4>Summary</h4>\n<p>Join the dedicated and professional team at BEST Crowd Management, a leading provider of crowd management and event security services. With a commitment to excellence and a focus on safety, BEST Crowd Management ensures the success of various events by providing top-notch security solutions....",
-      "job_highlights": null
     },
     {
       "job_hash": "35b4f77b8b48",
@@ -292,101 +311,219 @@
       ]
     },
     {
-      "job_hash": "a86e10335f37",
-      "title": "Licensed Event Security - Houston Rockets",
-      "company": "BEST Crowd Management",
-      "location": "Galveston, TX",
+      "job_hash": "7d7b22cf2c6d",
+      "title": "Licensed Special Event Security - Now Hiring",
+      "company": "Andy Frain Services",
+      "location": "Alvin, TX",
       "vertical": "security",
-      "role": "level-2",
+      "role": "general",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
-      "schedule": "Part-time",
+      "schedule": "Full-time and Part-time",
       "posted_date": "2026-08-05",
-      "apply_link": "https://salutemyjob.com/jobs/licensed-event-security-houston-rockets-galveston-texas/2913239333-2/",
-      "via": "via BeBee",
-      "description": "<p>Job Title: Licensed Event Security - Houston Rockets</p>\n<p><b><strong>(Texas Private Security License Level 2 or higher required!)</strong></b></p>\n<h4>Company: BEST Crowd Management</h4>\n<p>Location: Toyota Center - Houston, TX</p>\n<h4>Pay: $15 / hr</h4>\n<p>Job Type: Part-time</p>\n<h4>Summary</h4>\n<p>Join the dedicated and professional team at BEST Crowd Management, a leading provider of crowd management and event security services. With a commitment to excellence and a focus on safety, BEST Crowd Management ensures the success of various events by providing top-notch security solutions. As an Event Security Officer, you will play a critical role in upholding our reputation by ensuring the safety and security of attendees, staff, and property.</p>\n<h4>Responsibilities</h4>\n<ul> <li>Make a positive impact by maintaining a visible and professional presence to the standards of the client as well as BEST. </li><li>Patrolling assigned areas to deter unauthorized activities and ensure the safety of everyone present. </li><li>Monitor access points, conduct bag checks, perform entry screenings, and remain vigilant to any suspicious parties or situations. </li><li>Respond promptly and effectively to any security incidents or emergencies, including medical emergencies, disturbances, or unauthorized entry. </li></ul>",
+      "apply_link": "https://www.snagajob.com/jobs/1243797993",
+      "via": "via Snagajob",
+      "description": "<div><div><strong>Job Summary:</strong><br>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<br><br><strong>Basic Functions:</strong><br>\n<ul>\n<li>Control of entrances and movement of pedestrian and vehicle traffic.</li>\n<li>Patrol of buildings and perimeters.</li>\n<li>Escort of material and personnel.</li>\n<li>Inspection of security and fire exposures.</li>\n<li>Special assignments.</li>\n</ul>\n<strong> Responsibilities: </strong> <br>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<br>\n<ul>\n<li>Be on time and report to post in full uniform.</li>\n<li>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</li>\n<li>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</li>\n<li>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</li>\n<li>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</li>\n<li>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</li>\n<li>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</li>\n<li>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</li>\n<li>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</li>\n<li>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</li>\n<li>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</li>\n</ul>\n<strong>Skills and Abilities:</strong><br>\n<ul>\n<li>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</li>\n<li>Constant and dedicated vigilance.</li>\n<li>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</li>\n<li>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</li>\n<li>Ability to facilitate progressive change, work as part of a team and follow directions.</li>\n<li>Work with a sense of urgency.</li>\n<li>Strong oral and written communications skills.</li>\n</ul>\n<div><em>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</em></div>\n<div> </div>\n</div></div><div><div><strong>Job Summary:</strong><br>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<br><br><strong>Basic Functions:</strong><br>\n<ul>\n<li>Control of entrances and movement of pedestrian and vehicle traffic.</li>\n<li>Patrol of buildings and perimeters.</li>\n<li>Escort of material and personnel.</li>\n<li>Inspection of security and fire exposures.</li>\n<li>Special assignments.</li>\n</ul>\n<strong> Responsibilities: </strong> <br>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<br>\n<ul>\n<li>Be on time and report to post in full uniform.</li>\n<li>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</li>\n<li>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</li>\n<li>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</li>\n<li>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</li>\n<li>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</li>\n<li>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</li>\n<li>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</li>\n<li>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</li>\n<li>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</li>\n<li>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</li>\n</ul>\n<strong>Skills and Abilities:</strong><br>\n<ul>\n<li>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</li>\n<li>Constant and dedicated vigilance.</li>\n<li>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</li>\n<li>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</li>\n<li>Ability to facilitate progressive change, work as part of a team and follow directions.</li>\n<li>Work with a sense of urgency.</li>\n<li>Strong oral and written communications skills.</li>\n</ul>\n<div><em>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</em></div>\n<div> </div>\n</div></div>",
       "job_highlights": [
         {
           "items": [
-            "(Texas Private Security License Level 2 or higher required!)"
+            "A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety",
+            "Constant and dedicated vigilance",
+            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement",
+            "Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously",
+            "Ability to facilitate progressive change, work as part of a team and follow directions",
+            "Work with a sense of urgency",
+            "Strong oral and written communications skills",
+            "This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent",
+            "A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety",
+            "Constant and dedicated vigilance",
+            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement",
+            "Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously",
+            "Ability to facilitate progressive change, work as part of a team and follow directions",
+            "Work with a sense of urgency",
+            "Strong oral and written communications skills",
+            "12 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Pay: $15 / hr"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As an Event Security Officer, you will play a critical role in upholding our reputation by ensuring the safety and security of attendees, staff, and property",
-            "Make a positive impact by maintaining a visible and professional presence to the standards of the client as well as BEST",
-            "Patrolling assigned areas to deter unauthorized activities and ensure the safety of everyone present",
-            "Monitor access points, conduct bag checks, perform entry screenings, and remain vigilant to any suspicious parties or situations",
-            "Respond promptly and effectively to any security incidents or emergencies, including medical emergencies, disturbances, or unauthorized entry",
-            "2 more items(s)"
+            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
+            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
+            "Security Officers must maintain a professional image and always demonstrate excellent customer service",
+            "Control of entrances and movement of pedestrian and vehicle traffic",
+            "Patrol of buildings and perimeters",
+            "Escort of material and personnel",
+            "Inspection of security and fire exposures",
+            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
+            "Reasonable accommodations may be made to allow for certain ADA requirements",
+            "Be on time and report to post in full uniform",
+            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
+            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
+            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
+            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
+            "Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations",
+            "Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment",
+            "Make recommendations to management on better safety and loss prevention processes as identified during daily routine",
+            "Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments",
+            "Ensure continuous and safe operation of all elevators and access doors",
+            "Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment",
+            "Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market",
+            "Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented",
+            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
+            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
+            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
+            "Security Officers must maintain a professional image and always demonstrate excellent customer service",
+            "Control of entrances and movement of pedestrian and vehicle traffic",
+            "Patrol of buildings and perimeters",
+            "Escort of material and personnel",
+            "Inspection of security and fire exposures",
+            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
+            "Reasonable accommodations may be made to allow for certain ADA requirements",
+            "Be on time and report to post in full uniform",
+            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
+            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
+            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
+            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
+            "Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations",
+            "Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment",
+            "Make recommendations to management on better safety and loss prevention processes as identified during daily routine",
+            "Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments",
+            "Ensure continuous and safe operation of all elevators and access doors",
+            "Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment",
+            "Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market",
+            "Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented",
+            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
+            "43 more items(s)"
           ],
           "title": "Responsibilities"
         }
       ]
     },
     {
-      "job_hash": "e1ffbfe2e7b6",
-      "title": "Part-Time Event Staff & Security – Flexible Hours",
-      "company": "5 STAR Event Services",
+      "job_hash": "e4b456d628fa",
+      "title": "Event Security Officer - Flexible Scheduling & Daily Pay",
+      "company": "BEST Crowd Management",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "event",
-      "pay": "15K–21K a year",
-      "pay_min": 15000.0,
-      "pay_max": 21000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-02",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5336458361/e/",
-      "via": "via JobLeads",
-      "description": "<p>5 STAR Event Services is seeking energetic security staff to join our guest services team for upcoming sports and music events in Houston, Texas. This permanent PART TIME, hourly role starts at $13.00 per hour and offers growth as you gain experience.</p><p>Responsibilities include enforcing venue policies, credential checks, guiding guests, and ensuring safe, smooth operations during events. A Level II Security license is provided after completion of required steps.</p>",
+      "role": "weekend",
+      "pay": "13–16 an hour",
+      "pay_min": 13.0,
+      "pay_max": 16.0,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://sephora-best-of-vanilla.vercel.app/?jobs=en-job-federal-security-officer-daily-pay-1781131997958",
+      "via": "via Talents By Vaia",
+      "description": "A leading crowd management company seeks a dedicated Event Security Officer for the Shell Energy Stadium in Houston. This part-time role requires maintaining safety and security during events, ensuring a positive environment for attendees. Candidates should have a high school diploma, a valid Texas Private Security License, and strong observational and communication skills. Flexibility for evening and weekend shifts is essential. Various benefits and career advancement opportunities are offered. #J-18808-Ljbffr\n\nSalary: USD 13 - 16 per hour",
       "job_highlights": [
         {
           "items": [
-            "A Level II Security license is provided after completion of required steps"
+            "Candidates should have a high school diploma, a valid Texas Private Security License, and strong observational and communication skills",
+            "Flexibility for evening and weekend shifts is essential"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "This permanent PART TIME, hourly role starts at $13.00 per hour and offers growth as you gain experience"
+            "Various benefits and career advancement opportunities are offered",
+            "#J-18808-Ljbffr",
+            "Salary: USD 13 - 16 per hour"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "Responsibilities include enforcing venue policies, credential checks, guiding guests, and ensuring safe, smooth operations during events"
+            "This part-time role requires maintaining safety and security during events, ensuring a positive environment for attendees"
           ],
           "title": "Responsibilities"
         }
       ]
     },
     {
-      "job_hash": "ca8c0b8a9389",
-      "title": "Houston (Shell Energy) Event Staff Processing Req",
-      "company": "GardaWorld",
+      "job_hash": "08db105e67c2",
+      "title": "Unarmed Level II Event Security",
+      "company": "TriCorps Security",
       "location": "Houston, TX",
       "vertical": "security",
       "role": "festival",
+      "pay": "16–22 an hour",
+      "pay_min": 16.0,
+      "pay_max": 22.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/TriCorps-Security/Job/Unarmed-Level-II-Event-Security/-in-Houston,TX?jid=40ea88f63b1a5edb",
+      "via": "via Indeed",
+      "description": "An Unarmed Event Security Officer is responsible for maintaining a safe and secure environment during events by monitoring activity, controlling access, and responding to incidents. This role focuses on customer service, crowd management, and ensuring event policies are followed. \n<br>\n<br>\n TriCorps is an integrated security and technology firm specializing in providing cost-effective, world-class services tailored to meet the needs of our clients. \n<br>\n<br>\n Founded in 2000, TriCorps has spent more than twenty-five years delivering physical security, electronic security, and cybersecurity services across the nation. With branch locations in every region we serve, we’re proud to protect clients of every size and industry with integrity and innovation. \n<br>\n<br>\n TriCorps is staffed with some of the most experienced security and technology professionals in the industry. Our leadership team includes former military personnel, retired law enforcement officers, and technology experts who bring hundreds of years of combined experience. \n<br>\n<br>\n At TriCorps, we believe true security goes beyond protection—it’s built on partnership, trust, and excellence. We’re committed to innovation and continual improvement, setting the standard for integrated security and technology through our dedication to clients and our people.",
+      "job_highlights": [
+        {
+          "items": [
+            "An Unarmed Event Security Officer is responsible for maintaining a safe and secure environment during events by monitoring activity, controlling access, and responding to incidents",
+            "This role focuses on customer service, crowd management, and ensuring event policies are followed"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "70b06ecc0c5a",
+      "title": "Licensed Event Security - Houston Rockets - $15 per HOUR",
+      "company": "BEST Crowd Management",
+      "location": "The Woodlands, TX",
+      "vertical": "security",
+      "role": "level-2",
       "pay": "15 an hour",
-      "pay_min": null,
+      "pay_min": 15.0,
       "pay_max": null,
-      "pay_unit": null,
+      "pay_unit": "HOUR",
       "schedule": "Part-time",
       "posted_date": null,
-      "apply_link": "https://career.io/job/houston-shell-energy-event-staff-processing-houston-best-crowd-management-bab809905200bb33959dfd445abc60f8",
-      "via": "via Career.io",
-      "description": "<div><p>Job Title: Shell Energy Stadium Event Security</p><p>Company: BEST Crowd Management</p><p>Location: Houston, TX</p><p>Pay: $15 / hr</p><p>Job Type: Part-time</p><p> </p><p>Summary:</p><p> </p><p>Join the dynamic team at BEST Crowd Management as an Event Staff / Security professional. In this role, you will have a diverse range of responsibilities, combining event staff duties with security tasks to ensure a safe and enjoyable experience for event attendees. We are seeking adaptable individuals with excellent communication skills and a strong commitment to customer service and...",
-      "job_highlights": null
+      "apply_link": "https://oysterlink.com/job-posting/licensed-event-security-houston-rockets/",
+      "via": "via OysterLink",
+      "description": "<div>BEST Crowd Management, a trusted name in the security services industry, operates as a leading provider of crowd management and event security solutions. As a prominent component of BEST, a GardaWorld Company, this establishment commands a reputation for delivering excellence and maintaining strict safety standards at a wide range of public events. Known for its dedication to security and customer service, BEST Crowd Management services various venues and clients, including the popular Toyota Center in Houston, Texas, where the Houston Rockets play their home games. The company emphasizes professionalism, comprehensive training, and adherence to regulatory requirements, ensuring a secure environment for attendees, event staff, and property alike.\n\nThe Licensed Event Security position at BEST Crowd Management offers a rewarding part-time opportunity based at the Toyota Center in Houston, TX. Paying $15 per hour, this role is integral to maintaining the high standards of safety and order required at large-scale events. Qualified candidates are expected to hold a Texas Private Security License Level 2 or higher, underscoring the company's commitment to legal compliance and professional competency. As an Event Security Officer, you will be tasked with maintaining a visible and professional presence that complies with client standards and BEST's internal policies. Your responsibilities will involve patrolling assigned areas to deter unauthorized activities, monitoring access points, conducting security screenings, and responding promptly to any security incidents or emergencies.\n\nThis role is not only about enforcing security measures but also about collaborating effectively with event personnel, emergency services, and law enforcement. You will also play a key role in providing exceptional customer service by assisting attendees and answering their queries. Documentation of all activities and incidents is crucial to maintaining clear communication with company leadership and ensuring a comprehensive security response.\n\nBEST Crowd Management fosters a positive and supportive work environment valuing diversity and inclusion. Flexible scheduling options accommodate personal needs, and the company offers competitive pay with options for daily or weekly pay. Employees benefit from opportunities for career growth and extensive training programs designed to enhance skills and knowledge. This position requires physical stamina, keen observational skills, and excellent communication abilities. There is a strong emphasis on teamwork and collaboration with individuals from varied backgrounds. By joining BEST Crowd Management, you become part of a team dedicated to safety, professionalism, and success in the field of event security services.<br><ul>\n  <li>Be at least 18 years old</li>\n  <li>Hold a high school diploma or equivalent</li>\n  <li>Previous experience in event security, law enforcement, or a related field is advantageous</li>\n  <li>Possess strong physical fitness and the ability to stand or walk for extended periods</li>\n  <li>Exhibit excellent observational and problem-solving skills</li>\n  <li>Demonstrate exceptional communication and interpersonal skills</li>\n  <li>Work effectively in a team and collaborate with individuals from diverse backgrounds</li>\n  <li>Maintain flexibility to work evenings, weekends, and holidays based on event schedules</li>\n  <li>Possess a valid Texas Private Security License Level 2 or higher</li>\n  <li>Successfully pass a background check and drug screening</li>\n</ul><p>OysterLink is a restaurant, hospitality, and hotel job platform.</p></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Qualified candidates are expected to hold a Texas Private Security License Level 2 or higher, underscoring the company's commitment to legal compliance and professional competency",
+            "This position requires physical stamina, keen observational skills, and excellent communication abilities",
+            "There is a strong emphasis on teamwork and collaboration with individuals from varied backgrounds",
+            "Be at least 18 years old",
+            "Hold a high school diploma or equivalent",
+            "Previous experience in event security, law enforcement, or a related field is advantageous",
+            "Possess strong physical fitness and the ability to stand or walk for extended periods",
+            "Exhibit excellent observational and problem-solving skills",
+            "Demonstrate exceptional communication and interpersonal skills",
+            "Work effectively in a team and collaborate with individuals from diverse backgrounds",
+            "Possess a valid Texas Private Security License Level 2 or higher",
+            "Successfully pass a background check and drug screening",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Paying $15 per hour, this role is integral to maintaining the high standards of safety and order required at large-scale events",
+            "Flexible scheduling options accommodate personal needs, and the company offers competitive pay with options for daily or weekly pay",
+            "Employees benefit from opportunities for career growth and extensive training programs designed to enhance skills and knowledge"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As an Event Security Officer, you will be tasked with maintaining a visible and professional presence that complies with client standards and BEST's internal policies",
+            "Your responsibilities will involve patrolling assigned areas to deter unauthorized activities, monitoring access points, conducting security screenings, and responding promptly to any security incidents or emergencies",
+            "This role is not only about enforcing security measures but also about collaborating effectively with event personnel, emergency services, and law enforcement",
+            "You will also play a key role in providing exceptional customer service by assisting attendees and answering their queries",
+            "Documentation of all activities and incidents is crucial to maintaining clear communication with company leadership and ensuring a comprehensive security response",
+            "Maintain flexibility to work evenings, weekends, and holidays based on event schedules",
+            "3 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

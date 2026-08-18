@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "chicago/jobs/holiday-security-jobs-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,12 +7,268 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "be6449d69d8b",
+      "title": "IN Career:Night Sort Warehouse Associate in East Chicago | Hiring",
+      "company": "UPS",
+      "location": "East Chicago, IN",
+      "vertical": "warehouse",
+      "role": "entry-level",
+      "pay": "23.76–27.54 an hour",
+      "pay_min": 23.76,
+      "pay_max": 27.54,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://ups.hicareer.co.com/jobs/east-chicago/in-careernight-sort-warehouse-associate-in-east-9eb00a.html",
+      "via": "via UPS Careers",
+      "description": "<h3>Local Job Overview:  East Chicago</h3><p><strong>Job Title:</strong> Night Sort Warehouse Associate <strong>Company:</strong> UPS <strong>Location:</strong>  East Chicago,  IN</p><p><strong>Salary:</strong> $23-$27/Hour (approx. $30.7k/Year) <strong>Benefits:</strong> A comprehensive benefits package is included. <em>Clear growth pathways at our  East Chicago office.</em></p><h5>Position Scope</h5><p>Core objectives involve <strong>your professional skills</strong> in <strong>Package Logistics</strong>.</p><ul><li>This <strong> East Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>UPS</strong> team in  East Chicago,  IN is growing.</li><li>Benefit from working in <strong> East Chicago</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>While most of the city powers down for the night, UPS powers up. The night sort is the highest-volume, highest-urgency shift in our entire <strong>package center</strong> operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn. If you are a night owl searching for <strong>UPS warehouse jobs</strong> that pair serious overnight pay differentials with the intensity of a world-class sort operation, our night sort shift is the most financially rewarding entry-level window in our entire <strong>logistics careers</strong> portfolio.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"The night sort is not for people who want to ease into their shift — it is full speed from the moment the belt starts. But the overnight differential genuinely adds up to a paycheck that beats every comparable <strong>warehouse job</strong> in this area. I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep. UPS night sort is the best-kept secret in the local job market.\"</em> - Current Night Sort Warehouse Associate, Philadelphia, PA.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our <strong>package center</strong>.</p><ul><li><strong>High-Volume Commercial Sort Processing:</strong> Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed.</li><li><strong>Linehaul Trailer Loading:</strong> Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport.</li><li><strong>Departure Deadline Compliance:</strong> Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all <strong>warehouse jobs</strong> in the UPS network. Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Salary: $23-$27/Hour (approx. $30.7k/Year) Benefits: A comprehensive benefits package is included",
+            "This East Chicago-based role is an excellent opportunity for professionals skilled in relevant skills",
+            "Benefit from working in East Chicago, a key hub for the Package Logistics industry",
+            "I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep",
+            "Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all warehouse jobs in the UPS network",
+            "Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Core objectives involve your professional skills in Package Logistics",
+            "While most of the city powers down for the night, UPS powers up",
+            "The night sort is the highest-volume, highest-urgency shift in our entire package center operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn",
+            "As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our package center",
+            "High-Volume Commercial Sort Processing: Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed",
+            "Linehaul Trailer Loading: Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport",
+            "Departure Deadline Compliance: Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "bf49e1218204",
+      "title": "Chicago Full-time Night Shift Warehouse Unloader(Gig)",
+      "company": "UPS",
+      "location": "Chicago, IL",
+      "vertical": "warehouse",
+      "role": "night-shift",
+      "pay": "20.24–24.20 an hour",
+      "pay_min": 20.24,
+      "pay_max": 24.2,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://ups.hicareer.co.com/jobs/chicago/chicago-full-time-night-shift-warehouse-unloadergig-f1b2ce.html",
+      "via": "via UPS Careers",
+      "description": "<h3>Role Based in Chicago</h3><h4>Key Information</h4><ul><li><strong>Employer:</strong> UPS (Hiring in Chicago)</li><li><strong>Salary:</strong> $20-$24/Hour (approx. $46.2k/Year)</li><li><strong>Benefits:</strong> A competitive compensation package is offered.</li><li><strong>Job Title:</strong> Full-time Night Shift Warehouse Unloader (Gig/Contract)</li><li><em>Flexible contract/gig opportunity in Chicago.</em></li><li><strong>Based in:</strong> Chicago, IL (a vibrant local hub)</li><li>Apply your <strong>your professional skills</strong> skills at our <strong>Chicago</strong> location.</li><li>This <strong>Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>UPS</strong> team in Chicago, IL is growing.</li><li>Benefit from working in <strong>Chicago</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>The night shift unload is the most physically demanding and most financially rewarding entry-level position in the UPS warehouse network. Our Full-Time Night Shift Unloaders are the associates who set the entire sort operation in motion every evening — pulling packages from trailers at sustained speed so that the entire downstream sort, load, and dispatch chain can execute without interruption. If you are seeking <strong>full-time night shift warehouse jobs</strong> that pay a premium for working hours others avoid, reward physical effort with contractually guaranteed union wages, and open the door to one of the most financially powerful blue-collar careers in America, this is the opportunity you have been looking for.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"I specifically wanted a full-time night shift because I do not want to deal with traffic and I am naturally a night person. The UPS overnight differential on top of the full-time union wage makes my take-home pay genuinely outstanding for the skill level required to start. I have been here four years, I make more than most of my college-educated friends, and I am currently in the line for a full-time driver position. <strong>Full-time night shift warehouse jobs</strong> do not get better than this.\"</em> - Current Full-Time Night Shift Unloader, Memphis, TN.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Full-Time Night Shift Warehouse Unloader, you work an 8-hour overnight shift inside our <strong>package center</strong>, leading the high-velocity inbound unload operation that processes all trailers arriving during the night sort window and sets up the entire sort floor for the day ahead.</p><ul><li><strong>High-Speed Trailer Unloading:</strong> Pull packages from fully loaded 53-foot inbound trailers at a sustained rate across a full 8-hour shift, placing every parcel label-side up on the inbound conveyor belt to maintain sort floor throughput targets through the peak overnight window.</li><li><strong>Inbound Freight Verification:</strong> Identify and flag trailer shortages, damaged freight, and hazmat packages at the point of unload before any problem item enters the main sort flow, protecting downstream sort accuracy and compliance.</li><li><strong>Dock Safety Leadership:</strong> Model UPS safety protocols — trailer chocking, dock plate seating, and heavy-lift team technique — for newer associates in the unload area, setting the standard that keeps the night shift injury-free shift after shift.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>UPS Full-Time Night Shift Unloaders earn a significant overnight shift differential stacked on top of the full-time Teamsters union base wage — one of the highest total hourly rates available in the package logistics industry without a CDL. Full medical, dental, and vision benefits, a defined-benefit pension, paid vacation, sick time, paid holidays, and UPS Earn & Learn tuition assistance are all included. Weekly paychecks are direct-deposited every Friday.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Job Title: Full-time Night Shift Warehouse Unloader (Gig/Contract)",
+            "Flexible contract/gig opportunity in Chicago",
+            "This Chicago-based role is an excellent opportunity for professionals skilled in relevant skills",
+            "Our UPS team in Chicago, IL is growing",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary: $20-$24/Hour (approx",
+            "$46.2k/Year)",
+            "Benefits: A competitive compensation package is offered",
+            "Benefit from working in Chicago, a key hub for the Package Logistics industry",
+            "The UPS overnight differential on top of the full-time union wage makes my take-home pay genuinely outstanding for the skill level required to start",
+            "I have been here four years, I make more than most of my college-educated friends, and I am currently in the line for a full-time driver position",
+            "UPS Full-Time Night Shift Unloaders earn a significant overnight shift differential stacked on top of the full-time Teamsters union base wage — one of the highest total hourly rates available in the package logistics industry without a CDL",
+            "Full medical, dental, and vision benefits, a defined-benefit pension, paid vacation, sick time, paid holidays, and UPS Earn & Learn tuition assistance are all included",
+            "Weekly paychecks are direct-deposited every Friday",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Our Full-Time Night Shift Unloaders are the associates who set the entire sort operation in motion every evening — pulling packages from trailers at sustained speed so that the entire downstream sort, load, and dispatch chain can execute without interruption",
+            "As a UPS Full-Time Night Shift Warehouse Unloader, you work an 8-hour overnight shift inside our package center, leading the high-velocity inbound unload operation that processes all trailers arriving during the night sort window and sets up the entire sort floor for the day ahead",
+            "High-Speed Trailer Unloading: Pull packages from fully loaded 53-foot inbound trailers at a sustained rate across a full 8-hour shift, placing every parcel label-side up on the inbound conveyor belt to maintain sort floor throughput targets through the peak overnight window",
+            "Inbound Freight Verification: Identify and flag trailer shortages, damaged freight, and hazmat packages at the point of unload before any problem item enters the main sort flow, protecting downstream sort accuracy and compliance",
+            "Dock Safety Leadership: Model UPS safety protocols — trailer chocking, dock plate seating, and heavy-lift team technique — for newer associates in the unload area, setting the standard that keeps the night shift injury-free shift after shift",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c684704e0a94",
+      "title": "Flexible Night Sort Warehouse Associate(Chicago)",
+      "company": "UPS",
+      "location": "Chicago, IL",
+      "vertical": "warehouse",
+      "role": "part-time",
+      "pay": "22.00–25.50 an hour",
+      "pay_min": 22.0,
+      "pay_max": 25.5,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://ups.hicareer.co.com/jobs/chicago/flexible-night-sort-warehouse-associatechicago-1e6852.html",
+      "via": "via UPS Careers",
+      "description": "<h3>Opportunity in Chicago</h3><h4>At a Glance</h4><ul><li><strong>Based in:</strong> Chicago, IL (a key business district)</li><li><strong>Employer:</strong> UPS (Hiring in Chicago)</li><li><strong>Compensation:</strong> $22-$25/Hour (approx. $28.4k/Year)</li><li><strong>Flexible Role in Chicago:</strong> Night Sort Warehouse Associate</li><li><strong>Benefits:</strong> A competitive compensation package is offered.</li><li>Apply your <strong>your professional skills</strong> skills at our <strong>Chicago</strong> location.</li><li><em>Project-based work with clear objectives.</em></li><li>This <strong>Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>UPS</strong> team in Chicago, IL is growing.</li><li>Benefit from working in <strong>Chicago</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>While most of the city powers down for the night, UPS powers up. The night sort is the highest-volume, highest-urgency shift in our entire <strong>package center</strong> operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn. If you are a night owl searching for <strong>UPS warehouse jobs</strong> that pair serious overnight pay differentials with the intensity of a world-class sort operation, our night sort shift is the most financially rewarding entry-level window in our entire <strong>logistics careers</strong> portfolio.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"The night sort is not for people who want to ease into their shift — it is full speed from the moment the belt starts. But the overnight differential genuinely adds up to a paycheck that beats every comparable <strong>warehouse job</strong> in this area. I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep. UPS night sort is the best-kept secret in the local job market.\"</em> - Current Night Sort Warehouse Associate, Philadelphia, PA.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our <strong>package center</strong>.</p><ul><li><strong>High-Volume Commercial Sort Processing:</strong> Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed.</li><li><strong>Linehaul Trailer Loading:</strong> Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport.</li><li><strong>Departure Deadline Compliance:</strong> Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all <strong>warehouse jobs</strong> in the UPS network. Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Compensation: $22-$25/Hour (approx. $28.4k/Year)",
+            "Flexible Role in Chicago: Night Sort Warehouse Associate",
+            "Benefits: A competitive compensation package is offered",
+            "Apply your your professional skills skills at our Chicago location",
+            "Project-based work with clear objectives",
+            "This Chicago-based role is an excellent opportunity for professionals skilled in relevant skills",
+            "Benefit from working in Chicago, a key hub for the Package Logistics industry",
+            "I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep",
+            "Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all warehouse jobs in the UPS network",
+            "Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility",
+            "7 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "While most of the city powers down for the night, UPS powers up",
+            "The night sort is the highest-volume, highest-urgency shift in our entire package center operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn",
+            "As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our package center",
+            "High-Volume Commercial Sort Processing: Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed",
+            "Linehaul Trailer Loading: Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport",
+            "Departure Deadline Compliance: Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time",
+            "3 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "54b88611e207",
+      "title": "Overnight Building Security Supervisor — Third Shift",
+      "company": "United Center",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "overnight",
+      "pay": "34K–39K a year",
+      "pay_min": 34000.0,
+      "pay_max": 39000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://www.talent.com/view?id=628544437394344748",
+      "via": "via JobLeads",
+      "description": "<p>The United Center in Chicago is seeking a Building Security Supervisor – Third Shift to oversee Security Officers on a night shift, ensuring a safe environment for all team members and guests across the campus.</p><p>This role requires leadership, timely incident reporting, and coordination with management, with a shift from 11 PM to 8 AM, plus opportunities for professional development and benefits.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The United Center in Chicago is seeking a Building Security Supervisor – Third Shift to oversee Security Officers on a night shift, ensuring a safe environment for all team members and guests across the campus",
+            "This role requires leadership, timely incident reporting, and coordination with management, with a shift from 11 PM to 8 AM, plus opportunities for professional development and benefits"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f14b44c0b138",
+      "title": "Night Forklift Operator — Grow with a Food Distributor",
+      "company": "The Chefs' Warehouse",
+      "location": "Chicago, IL",
+      "vertical": "warehouse",
+      "role": "night-shift",
+      "pay": "23K–32K a year",
+      "pay_min": 23000.0,
+      "pay_max": 32000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://www.jobleads.com/us/job/night-forklift-operator-grow-with-a-food-distributor--chicago--e175e6bc35276b3a36699e08b23721d71",
+      "via": "via JobLeads",
+      "description": "<p>The Chefs' Warehouse, a leading broadline food service distributor in Chicago, IL, is seeking a forklift operator. You will put away, drop down, and rotate full pallets using stand-up or sit-down forklifts up to 46 feet high, and maintain orderly racks.</p><p>Responsibilities include picking from upper racks, unloading trailers, moving product to storage, ensuring safety protocols, and recording daily actions with an RF Scan Gun.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You will put away, drop down, and rotate full pallets using stand-up or sit-down forklifts up to 46 feet high, and maintain orderly racks",
+            "Responsibilities include picking from upper racks, unloading trailers, moving product to storage, ensuring safety protocols, and recording daily actions with an RF Scan Gun"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "3529903897c0",
+      "title": "Night Shift Unarmed Security Guard - Full-Time, Benefits",
+      "company": "Stark Security Inc.",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "overnight",
+      "pay": "25K–26K a year",
+      "pay_min": 25000.0,
+      "pay_max": 26000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://www.talent.com/view?id=624601996694982067",
+      "via": "via JobLeads",
+      "description": "<p>Stark Security Inc. is seeking an Unarmed Security Guard for Chicago, IL. The role requires patrolling a fixed post, observing and reporting activity, and enforcing site policies.</p><p>You will provide professional security, document incidents, and support client safety around the clock. This full-time position offers night shifts Wednesday through Saturday, with pay starting at $18 per hour and potential up to $19 per hour, plus benefits like paid uniforms, holiday pay, and a retirement program.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This full-time position offers night shifts Wednesday through Saturday, with pay starting at $18 per hour and potential up to $19 per hour, plus benefits like paid uniforms, holiday pay, and a retirement program"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role requires patrolling a fixed post, observing and reporting activity, and enforcing site policies",
+            "You will provide professional security, document incidents, and support client safety around the clock"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "7dde26956e00",
+      "title": "Night Campus Safety Officer — Union Position",
+      "company": "Roosevelt University",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "university",
+      "pay": "40K–43K a year",
+      "pay_min": 40000.0,
+      "pay_max": 43000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://tonyspeciale.com/job-listing/job/public-safety-officer-night-shift-1100pm-730am-full-time-at-shirley-ryan-abilitylab-chicago-il-MU1pOFpxUWxQdFZZZTZBZjA0MS9ZaTRmdlE9PQ==",
+      "via": "via JobLeads",
+      "description": "<p>Roosevelt University is seeking a full-time Campus Safety Officer for the Chicago Campus midnight shift (10:30PM-7:00AM). The role involves patrolling campus facilities, controlling access, and enforcing safety protocols to protect students, faculty and visitors.</p><p>Responsibilities include managing security incidents, preparing incident reports, and participating in emergency preparedness activities. A union position with health and wellness benefits is provided through the union.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role involves patrolling campus facilities, controlling access, and enforcing safety protocols to protect students, faculty and visitors",
+            "Responsibilities include managing security incidents, preparing incident reports, and participating in emergency preparedness activities"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "9fefe7a4af19",
       "title": "Night Shift Warehouse Team Lead – Entry Level & Growth",
       "company": "MaziCTools",
       "location": "Chicago, IL",
       "vertical": "warehouse",
-      "role": "night-shift",
+      "role": "entry-level",
       "pay": "32K–39K a year",
       "pay_min": 32000.0,
       "pay_max": 39000.0,
@@ -39,6 +295,55 @@
         {
           "items": [
             "You will lead a team, coordinate receiving, inventory, picking, packing, shipping and returns, and ensure accurate timekeeping and safety compliance"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "2a919a5edaff",
+      "title": "Chicago Job:Night Sort Warehouse Associate(Part-time) | Hiring",
+      "company": "UPS",
+      "location": "Chicago, IL",
+      "vertical": "warehouse",
+      "role": "entry-level",
+      "pay": "25.30–29.32 an hour",
+      "pay_min": 25.3,
+      "pay_max": 29.32,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-14",
+      "apply_link": "https://ups.hicareer.co.com/jobs/chicago/chicago-jobnight-sort-warehouse-associatepart-time-hiring-24bb5f.html",
+      "via": "via UPS Careers",
+      "description": "<h3>Role Based in  Chicago</h3><h4>Fast Facts</h4><ul><li><strong>Employer:</strong> UPS (Hiring in  Chicago)</li><li>Apply your <strong>your professional skills</strong> skills at our <strong> Chicago</strong> location.</li><li><strong>Role in  Chicago:</strong> Night Sort Warehouse Associate</li><li><strong>Salary:</strong> $25-$29/Hour (approx. $32.7k/Year)</li><li><em>Stable workload with modern tooling and processes.</em></li><li><strong>Benefits:</strong> Eligible team members receive standard benefits.</li><li><strong>Based in:</strong>  Chicago,  IL (a key business district)</li><li>This <strong> Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>UPS</strong> team in  Chicago,  IL is growing.</li><li>Benefit from working in <strong> Chicago</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>While most of the city powers down for the night, UPS powers up. The night sort is the highest-volume, highest-urgency shift in our entire <strong>package center</strong> operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn. If you are a night owl searching for <strong>UPS warehouse jobs</strong> that pair serious overnight pay differentials with the intensity of a world-class sort operation, our night sort shift is the most financially rewarding entry-level window in our entire <strong>logistics careers</strong> portfolio.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"The night sort is not for people who want to ease into their shift — it is full speed from the moment the belt starts. But the overnight differential genuinely adds up to a paycheck that beats every comparable <strong>warehouse job</strong> in this area. I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep. UPS night sort is the best-kept secret in the local job market.\"</em> - Current Night Sort Warehouse Associate, Philadelphia, PA.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our <strong>package center</strong>.</p><ul><li><strong>High-Volume Commercial Sort Processing:</strong> Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed.</li><li><strong>Linehaul Trailer Loading:</strong> Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport.</li><li><strong>Departure Deadline Compliance:</strong> Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all <strong>warehouse jobs</strong> in the UPS network. Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Stable workload with modern tooling and processes"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary: $25-$29/Hour (approx. $32.7k/Year)",
+            "Benefits: Eligible team members receive standard benefits",
+            "Benefit from working in Chicago, a key hub for the Package Logistics industry",
+            "I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep",
+            "Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all warehouse jobs in the UPS network",
+            "Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "While most of the city powers down for the night, UPS powers up",
+            "The night sort is the highest-volume, highest-urgency shift in our entire package center operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn",
+            "As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our package center",
+            "High-Volume Commercial Sort Processing: Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed",
+            "Linehaul Trailer Loading: Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport",
+            "Departure Deadline Compliance: Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time",
+            "3 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -78,431 +383,6 @@
           "items": [
             "In this full-time position, you will provide security-related services under supervision, ensuring safety for all staff, patients, and visitors",
             "This role includes patrol, incident reporting, and emergency response"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "544b7c8945cf",
-      "title": "Chicago Full-time Overnight Warehouse Associate | Hiring",
-      "company": "Amazon",
-      "location": "Chicago, IL",
-      "vertical": "warehouse",
-      "role": "entry-level",
-      "pay": "21.50–25.00 an hour",
-      "pay_min": 21.5,
-      "pay_max": 25.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://pourcareers.co.com/jobs/chicago/chicago-full-time-overnight-warehouse-associate-hiring-4bba06.html",
-      "via": "via Base Careers",
-      "description": "<h3>Local Job Overview: Chicago</h3><p><strong>Job Title:</strong> Overnight Warehouse Associate (Gig/Contract) <strong>Hiring Organization:</strong> Amazon <strong>Based in:</strong> Chicago, IL (our growing Chicago office)</p><p><strong>Compensation:</strong> $21-$25/Hour (approx. $48.4k/Year) <strong>Benefits:</strong> This role offers competitive pay. <em>Set your own schedule.</em></p><h5>Day-to-Day</h5><p>Core objectives involve <strong>your professional skills</strong> in <strong>Logistics</strong>.</p><ul><li>This <strong>Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>Amazon</strong> team in Chicago, IL is growing.</li><li>Benefit from working in <strong>Chicago</strong>, a key hub for the <strong>Logistics</strong> industry.</li></ul><hr><br><h2><strong>Rule the Night, Fuel the Morning</strong></h2><p>While the rest of the city sleeps, the Amazon network kicks into its highest gear. The night shift is the undisputed powerhouse of our distribution model. Everything accomplished overnight determines the success of the delivery fleet the following morning. If you are a dedicated night owl seeking highly lucrative <strong>Amazon warehouse jobs</strong> with less congestion and massive earning potential, the <strong>Overnight Warehouse Associate</strong> role is your perfect entry into thriving <strong>logistics careers</strong>.</p><h3><strong>Why the Graveyard Shift Dominates</strong></h3><p>Working the overnight shift (typically 6:00 PM to 4:30 AM or similar) offers distinct lifestyle advantages. Your commute is entirely devoid of rush-hour traffic. The warehouse floor, free from daytime administrative tours, feels more focused and tightly knit. The camaraderie among the night crew is legendary within the company. Most importantly, you are financially rewarded for your hours with substantial \"shift differentials\" added directly to your base hourly wage.</p><h4><strong>Core Nightly Objectives</strong></h4><ol><li><strong>High-Octane Order Processing:</strong> Your primary directive is to clear the digital backlog of orders placed during the evening. You will heavily engage in rapid picking and packing operations to ensure all parcels hit the loading dock before the critical dawn dispatch deadlines.</li><li><strong>Sortation and Palletizing:</strong> You will sort the completed, labeled packages by their final zip codes, meticulously stacking them onto pallets and wrapping them securely for the local delivery stations that dispatch at sunrise.</li><li><strong>Facility Reset and Staging:</strong> In the final hours of your shift, you will help reset the massive facility. This includes clearing cardboard debris, sweeping aisles, and fully restocking the packing stations with tape, boxes, and dunnage so the incoming day shift can hit the ground running.</li></ol><h3><strong>Night Shift Rewards and Benefits</strong></h3><p>The financial perks of the night shift are undeniable, but they come paired with Amazon's legendary corporate benefits. You do not sacrifice quality of life for working nights. You receive the exact same Day 1 healthcare, dental, and vision insurance as daytime employees. You gain immediate access to our 401(k) matching program and the incredible Career Choice tuition coverage. If you are 18+, can lift up to 49 pounds, and thrive in the moonlight, apply today.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Compensation: $21-$25/Hour (approx",
-            "$48.4k/Year) Benefits: This role offers competitive pay",
-            "Day-to-Day",
-            "Working the overnight shift (typically 6:00 PM to 4:30 AM or similar) offers distinct lifestyle advantages",
-            "Most importantly, you are financially rewarded for your hours with substantial \"shift differentials\" added directly to your base hourly wage",
-            "The financial perks of the night shift are undeniable, but they come paired with Amazon's legendary corporate benefits",
-            "You do not sacrifice quality of life for working nights",
-            "You receive the exact same Day 1 healthcare, dental, and vision insurance as daytime employees",
-            "You gain immediate access to our 401(k) matching program and the incredible Career Choice tuition coverage",
-            "6 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The warehouse floor, free from daytime administrative tours, feels more focused and tightly knit",
-            "High-Octane Order Processing: Your primary directive is to clear the digital backlog of orders placed during the evening",
-            "You will heavily engage in rapid picking and packing operations to ensure all parcels hit the loading dock before the critical dawn dispatch deadlines",
-            "Sortation and Palletizing: You will sort the completed, labeled packages by their final zip codes, meticulously stacking them onto pallets and wrapping them securely for the local delivery stations that dispatch at sunrise",
-            "Facility Reset and Staging: In the final hours of your shift, you will help reset the massive facility",
-            "This includes clearing cardboard debris, sweeping aisles, and fully restocking the packing stations with tape, boxes, and dunnage so the incoming day shift can hit the ground running",
-            "3 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "2ad4200f5a6b",
-      "title": "UPS Night Sort Warehouse Associate",
-      "company": "UPS",
-      "location": "West Chicago, IL",
-      "vertical": "warehouse",
-      "role": "hiring-immediately",
-      "pay": "23.76–27.54 an hour",
-      "pay_min": 23.76,
-      "pay_max": 27.54,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://ups.pourcareers.co.com/jobs/west-chicago/ups-night-sort-warehouse-associate-6aa254.html",
-      "via": "via UPS Careers",
-      "description": "<h3>Role Based in  West Chicago</h3><h4>Role Essentials</h4><ul><li><strong>Job Title:</strong> Night Sort Warehouse Associate (Flexible Hours in  West Chicago)</li><li><strong>Location:</strong>  West Chicago,  IL</li><li><strong>Hiring:</strong> UPS</li><li>This <strong> West Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>customer service</strong>.</li><li>Our <strong>UPS</strong> team in  West Chicago,  IL is growing.</li><li>Benefit from working in <strong> West Chicago</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><h4>Compensation & Benefits</h4><ul><li><strong>Earnings:</strong> $23-$27/Hour (approx. $26.7k/Year)</li><li><strong>Benefits:</strong> Employee discounts and perks (where applicable).</li><li><em>Excellent work-life balance in  West Chicago.</em></li></ul><h4>Responsibilities</h4><ul><li>Apply your <strong>your professional skills</strong> skills in a flexible <strong> West Chicago</strong> environment.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>While most of the city powers down for the night, UPS powers up. The night sort is the highest-volume, highest-urgency shift in our entire <strong>package center</strong> operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn. If you are a night owl searching for <strong>UPS warehouse jobs</strong> that pair serious overnight pay differentials with the intensity of a world-class sort operation, our night sort shift is the most financially rewarding entry-level window in our entire <strong>logistics careers</strong> portfolio.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"The night sort is not for people who want to ease into their shift — it is full speed from the moment the belt starts. But the overnight differential genuinely adds up to a paycheck that beats every comparable <strong>warehouse job</strong> in this area. I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep. UPS night sort is the best-kept secret in the local job market.\"</em> - Current Night Sort Warehouse Associate, Philadelphia, PA.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our <strong>package center</strong>.</p><ul><li><strong>High-Volume Commercial Sort Processing:</strong> Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed.</li><li><strong>Linehaul Trailer Loading:</strong> Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport.</li><li><strong>Departure Deadline Compliance:</strong> Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all <strong>warehouse jobs</strong> in the UPS network. Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Benefit from working in West Chicago, a key hub for the Package Logistics industry",
-            "Compensation & Benefits",
-            "Earnings: $23-$27/Hour (approx. $26.7k/Year)",
-            "Benefits: Employee discounts and perks (where applicable)",
-            "Excellent work-life balance in West Chicago",
-            "I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep",
-            "Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all warehouse jobs in the UPS network",
-            "Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility",
-            "5 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Apply your your professional skills skills in a flexible West Chicago environment",
-            "While most of the city powers down for the night, UPS powers up",
-            "The night sort is the highest-volume, highest-urgency shift in our entire package center operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn",
-            "As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our package center",
-            "High-Volume Commercial Sort Processing: Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed",
-            "Linehaul Trailer Loading: Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport",
-            "Departure Deadline Compliance: Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "760d58f92016",
-      "title": "Campus Safety Officer - Overnight Shift 6PM-6AM",
-      "company": "Moody Bible Institute",
-      "location": "Chicago, IL",
-      "vertical": "security",
-      "role": "university",
-      "pay": "22 an hour",
-      "pay_min": 22.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://www.tealhq.com/job/public-safety-officer_7ea1a54706b2beaef894d5e1a8115f819cd0f",
-      "via": "via ZipRecruiter",
-      "description": "<p><strong>Location:</strong> Chicago Downtown Campus</p><p><strong>Employment Type:</strong> Full-Time</p><p><strong>Compensation:</strong> $22.00 Hour</p><p>To access a list of benefits for full-time jobs, click here. </p><p><strong>Join a Mission-Driven Team</strong></p><p>Do you have a heart for service, a commitment to safety, and a desire to make a meaningful impact? Moody Bible Institute is seeking a <strong>Public Safety Officer</strong> to help create a secure and welcoming environment for our students, employees, residents, and guests on our Chicago campus. As part of our Public Safety team, you will play a vital role in protecting our community while supporting Moody's mission of equipping people with the truth of God's Word.</p><p><strong>About Us</strong></p><p>Moody Bible Institute is a Christ-centered higher education and media ministry dedicated to equipping people with the truth of God's Word. Through trusted biblical teaching, media, and educational resources, Moody reaches audiences around the world with the gospel and seeks to make a lasting Kingdom impact.</p><p><strong>The Opportunity</strong></p><p>Reporting to the Chief of Public Safety, the Public Safety Officer is responsible for maintaining the safety and security of Moody Bible Institute's Chicago campus through proactive patrols, emergency response, incident management, and community engagement. This role requires sound judgment, professionalism, and a servant-hearted approach to serving others.</p><p><strong>What You’ll Do</strong></p><ul><li>Conduct foot and vehicle patrols to deter and identify security concerns.</li><li>Serve as a primary responder to campus incidents, alarms, emergency calls, and 911 notifications.</li><li>Assess, manage, and secure incident scenes while coordinating with emergency responders and city officials.</li><li>Prepare accurate, timely, and detailed incident reports and related documentation.</li><li>Monitor and oversee part-time staff and dispatch operations during assigned shifts.</li><li>Enforce campus policies, including parking regulations and access control procedures.</li><li>Provide security coverage for campus events and activities.</li><li>Assist students, employees, and visitors by providing information, guidance, and support.</li><li>Issue trespass notices when necessary and respond to unauthorized access concerns.</li><li>Provide security escorts, cash transport support, and executive protection services as assigned.</li><li>Complete additional departmental duties and special assignments as directed.</li></ul><p><strong>Key Qualifications</strong></p><ul><li>Associate degree or two years of related security, public safety, law enforcement, military, or customer service experience.</li><li>Valid driver's license with a satisfactory driving record.</li><li>At least 21 years of age.</li><li>Strong communication, interpersonal, and report-writing skills.</li><li>Ability to remain calm and make sound decisions in emergency situations.</li><li>Authorized to work in the United States without employer sponsorship.</li></ul><p><strong>Preferred Qualifications</strong></p><ul><li>Bachelor’s degree in criminal justice or a related field.</li><li>Illinois PERC Card.</li><li>Illinois FOID Card.</li><li>Experience responding to fire, medical, or security incidents.</li><li>Previous security, law enforcement, campus safety, or military experience.</li></ul><p><strong>Work Environment</strong></p><ul><li>This position is based on Moody Bible Institute's downtown Chicago campus and includes both outdoor and indoor responsibilities.</li><li>Officers regularly patrol campus on foot and in vehicles, respond to emergencies, and interact with a diverse campus community.</li><li>The role requires standing, walking, climbing stairs, and working in varying weather conditions.</li></ul><p><strong>Schedule</strong></p><p>This position follows an overnight shift schedule, consisting of three 12-hour shifts (6:00 p.m. to 6:00 a.m.) per week, with a rotating fourth weekend shift as needed.</p><p><strong>What We Offer</strong></p><ul><li>Mission-driven work that impacts lives for Christ.</li><li>Supportive and collaborative team environment.</li><li>Opportunities for professional development and growth.</li><li>Comprehensive benefits package for eligible employees.</li><li>A vibrant campus community in the heart of downtown Chicago.</li></ul><p><strong>Additional Information</strong></p><ul><li>Candidates must align with Moody Bible Institute’s Christian identity, including signing a Statement of Faith and adhering to Community Standards</li><li>Moody Bible Institute values diversity and seeks team members who engage others in ways that honor its biblical foundation</li><li>Moody complies with applicable nondiscrimination laws and, as a religious institution, requires employees to hold beliefs consistent with its Doctrinal Statement and Community Standards</li></ul><p><strong>Join Us</strong></p><p>If you are a service-oriented professional who values integrity, teamwork, and faith-based ministry, we invite you to apply. Join a team that is committed to protecting our community while advancing Moody's mission of developing people who influence the world for Christ.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Associate degree or two years of related security, public safety, law enforcement, military, or customer service experience",
-            "Valid driver's license with a satisfactory driving record",
-            "At least 21 years of age",
-            "Strong communication, interpersonal, and report-writing skills",
-            "Ability to remain calm and make sound decisions in emergency situations",
-            "Authorized to work in the United States without employer sponsorship",
-            "Candidates must align with Moody Bible Institute’s Christian identity, including signing a Statement of Faith and adhering to Community Standards",
-            "4 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Compensation: $22.00 Hour",
-            "To access a list of benefits for full-time jobs, click here",
-            "Mission-driven work that impacts lives for Christ",
-            "Supportive and collaborative team environment",
-            "Opportunities for professional development and growth",
-            "Comprehensive benefits package for eligible employees",
-            "A vibrant campus community in the heart of downtown Chicago",
-            "4 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Reporting to the Chief of Public Safety, the Public Safety Officer is responsible for maintaining the safety and security of Moody Bible Institute's Chicago campus through proactive patrols, emergency response, incident management, and community engagement",
-            "This role requires sound judgment, professionalism, and a servant-hearted approach to serving others",
-            "Conduct foot and vehicle patrols to deter and identify security concerns",
-            "Serve as a primary responder to campus incidents, alarms, emergency calls, and 911 notifications",
-            "Assess, manage, and secure incident scenes while coordinating with emergency responders and city officials",
-            "Prepare accurate, timely, and detailed incident reports and related documentation",
-            "Monitor and oversee part-time staff and dispatch operations during assigned shifts",
-            "Enforce campus policies, including parking regulations and access control procedures",
-            "Provide security coverage for campus events and activities",
-            "Assist students, employees, and visitors by providing information, guidance, and support",
-            "Issue trespass notices when necessary and respond to unauthorized access concerns",
-            "Provide security escorts, cash transport support, and executive protection services as assigned",
-            "Complete additional departmental duties and special assignments as directed",
-            "This position is based on Moody Bible Institute's downtown Chicago campus and includes both outdoor and indoor responsibilities",
-            "Officers regularly patrol campus on foot and in vehicles, respond to emergencies, and interact with a diverse campus community",
-            "The role requires standing, walking, climbing stairs, and working in varying weather conditions",
-            "This position follows an overnight shift schedule, consisting of three 12-hour shifts (6:00 p.m. to 6:00 a.m.) per week, with a rotating fourth weekend shift as needed",
-            "14 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "66ebdaba9cde",
-      "title": "Flexible Night Sort Warehouse Associate(Chicago Heights)",
-      "company": "UPS",
-      "location": "Chicago Heights, IL",
-      "vertical": "warehouse",
-      "role": "part-time",
-      "pay": "22.00–25.50 an hour",
-      "pay_min": 22.0,
-      "pay_max": 25.5,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://fedex.pourcareers.co.com/jobs/chicago-heights/flexible-night-sort-warehouse-associatechicago-heights-f111c1.html",
-      "via": "via FedEx Careers",
-      "description": "<h3>Opportunity in  Chicago Heights</h3><h4>Key Information</h4><ul><li><strong>Employer:</strong> UPS (Hiring in  Chicago Heights)</li><li><strong>Position:</strong> Night Sort Warehouse Associate (Flexible/Contract,  Chicago Heights)</li><li><strong>Location:</strong>  Chicago Heights,  IL</li><li>This <strong> Chicago Heights</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>UPS</strong> team in  Chicago Heights,  IL is growing.</li><li>Benefit from working in <strong> Chicago Heights</strong>, a key hub for the <strong>Package Logistics</strong> industry.</li></ul><h4>Pay & Perks</h4><ul><li><strong>Pay:</strong> $22-$25/Hour (approx. $28.4k/Year)</li><li><strong>Benefits:</strong> Benefits may be available based on employment type.</li><li><em>Project-based work with clear objectives.</em></li></ul><h4>What You'll Do</h4><ul><li>Apply your <strong>your professional skills</strong> skills at our <strong> Chicago Heights</strong> location.</li></ul><hr><br><h3><strong>About UPS & Our Culture</strong></h3><p>While most of the city powers down for the night, UPS powers up. The night sort is the highest-volume, highest-urgency shift in our entire <strong>package center</strong> operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn. If you are a night owl searching for <strong>UPS warehouse jobs</strong> that pair serious overnight pay differentials with the intensity of a world-class sort operation, our night sort shift is the most financially rewarding entry-level window in our entire <strong>logistics careers</strong> portfolio.</p><h3><strong>What Our Team Says (Employee Reviews)</strong></h3><p><em>\"The night sort is not for people who want to ease into their shift — it is full speed from the moment the belt starts. But the overnight differential genuinely adds up to a paycheck that beats every comparable <strong>warehouse job</strong> in this area. I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep. UPS night sort is the best-kept secret in the local job market.\"</em> - Current Night Sort Warehouse Associate, Philadelphia, PA.</p><h3><strong>Role Overview & Responsibilities</strong></h3><p>As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our <strong>package center</strong>.</p><ul><li><strong>High-Volume Commercial Sort Processing:</strong> Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed.</li><li><strong>Linehaul Trailer Loading:</strong> Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport.</li><li><strong>Departure Deadline Compliance:</strong> Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time.</li></ul><h3><strong>Benefits & Perks</strong></h3><p>Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all <strong>warehouse jobs</strong> in the UPS network. Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Benefit from working in Chicago Heights, a key hub for the Package Logistics industry",
-            "Pay & Perks",
-            "Pay: $22-$25/Hour (approx. $28.4k/Year)",
-            "Benefits: Benefits may be available based on employment type",
-            "Project-based work with clear objectives",
-            "I am home by 3 AM, my days are completely free, and the Earn & Learn program is funding my degree while I sleep",
-            "Night Sort Warehouse Associates earn a substantial overnight shift differential on top of the Teamsters base hourly wage — one of the highest total hourly rates available at the entry level across all warehouse jobs in the UPS network",
-            "Full Teamsters medical, dental, vision, pension, UPS Earn & Learn tuition funding, and paid personal time are included from day one of eligibility",
-            "5 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Apply your your professional skills skills at our Chicago Heights location",
-            "While most of the city powers down for the night, UPS powers up",
-            "The night sort is the highest-volume, highest-urgency shift in our entire package center operation — the window where the day's accumulated commercial and residential pickups are sorted and loaded onto linehaul trailers that must depart on hard schedules before dawn",
-            "As a UPS Night Sort Warehouse Associate, you process the facility's peak nightly commercial pickup volume during the late-night sort window, working at sustained high intensity to clear the sort floor before hard linehaul trailer departure deadlines inside our package center",
-            "High-Volume Commercial Sort Processing: Sort the dense volume of business pickup packages collected by UPS drivers throughout the afternoon, reading destination labels and routing every parcel accurately to its correct outbound trailer lane at peak belt speed",
-            "Linehaul Trailer Loading: Load completed outbound pallets and loose packages onto 53-foot linehaul trailers under hard departure window constraints, maximizing trailer cube while maintaining load quality standards that prevent damage during long-distance transport",
-            "Departure Deadline Compliance: Work with precise awareness of each trailer's hard departure time, prioritizing the loading sequence to ensure every linehaul trailer is sealed, documented, and released to the yard before its scheduled pull time",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "a9c8d6c41e3e",
-      "title": "Clif Bar Warehouse Team Member (Night Shift 600pm - 600am)",
-      "company": "Mondelez International",
-      "location": "Chicago, IL",
-      "vertical": "warehouse",
-      "role": "night-shift",
-      "pay": "23.09 an hour",
-      "pay_min": 23.09,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://bandana.com/jobs/55ebcb35-ca25-4f33-b4b7-127cc0d99fb8",
-      "via": "via Bandana.com",
-      "description": "## Join Us in Leading the Future of Snacking\n\nAre you ready to Make It Happen at Mondelēz International? We’re the team behind iconic brands like Oreo, Ritz, and Chips Ahoy!, and we’re looking for a motivated Warehouse Team Member to join our Indianapolis plant on the night shift.\n\n### What You’ll Do\n\nYou’ll play a hands-on role in our warehouse operations, ensuring materials move safely and efficiently from receiving to production to shipping. Your days will be varied and fast-paced. You'll operate stand-up counterbalance forklifts, reach trucks, and powered pallet jacks, and use SAP-EWM or RF systems to manage everything from put-away to replenishment. Supporting the Vongal palletizer and inline wrapper operations will also be part of your routine — you’ll keep material flowing and address minor jams, escalating bigger issues to maintenance.\n\nYou’ll also:\n- Replenish raw and packaging materials into production areas and dough room kits\n- Handle trailer loading and unloading, following strict dock safety controls (wheel chocks, gladhand locks, dock lights)\n- Use the pallet inverter to transfer materials between wood, plastic, or CHEP pallets\n- Complete all SAP transactions accurately for goods movements, confirming lot codes and quantities\n\n### What Safety & Quality Look Like Here\n\nSafety isn’t just a poster on the wall — it’s how we work. You’ll wear required PPE (safety shoes, hearing protection, high-visibility vest), perform daily pre-use inspections on powered equipment, and tag out any machine that needs service. Every near miss or unsafe condition is reported immediately. Food safety is also critical: you’ll inspect materials for damage or contamination, maintain allergen control, and ensure proper segregation of Good/Hold/Reject items.\n\n### Systems & Inventory Accuracy\n\nYou’ll keep our inventory visible and accurate in real time by executing warehouse transactions in SAP-EWM/ECC. Cycle counts, wall-to-wall inventories, and reconciling physical vs. system counts will be part of your routine. If you spot a discrepancy, you’ll escalate it promptly to inventory control or supervision.\n\n### Continuous Improvement & Teamwork\n\nWe believe in always getting better. You’ll take part in IL6S, Kaizen, and 5S initiatives that improve safety, quality, and efficiency. You’ll keep your workspace clean, organized, and audit-ready, and you’ll communicate regularly with Production, Quality, Maintenance, Planning, and Logistics teams. If you have experience to share, you’ll help train new team members by modeling safe, standardized work practices.\n\n### What You’ll Need\n\n**Required:**\n- High school diploma or GED\n- At least 3 years experience in a warehouse, distribution, or manufacturing environment\n- 2+ years operating Powered Industrial Vehicles (PIV), including stand-up counterbalance and stand-up reach forklifts\n- Familiarity with SAP-EWM or other WMS, plus RFID use\n- Ability to lift up to 50 lbs. and work in a food-grade environment\n- Strong adaptability to take on diverse responsibilities\n\n**Preferred:**\n- Experience with automated palletizing or packaging equipment (Vongal, inline wrappers)\n- Prior work in food manufacturing, 3PL, or consumer goods\n- Knowledge of IL6S, Lean, or 5S principles\n\n### Work Environment & Schedule\n\nThis is a warehouse and production floor setting with variable temperatures, exposed to forklifts, conveyors, palletizers, and moderate noise levels. The night shift runs 6:00pm to 6:00am on a 2-2-3 schedule — you’ll work two days, have two off, then work three, repeating the pattern.\n\n### Compensation & Benefits\n\nThe hourly wage for this position is **$23.09/hr**. You’ll also be eligible for an annual incentive program targeting 5% of your salary. Mondelez International offers a comprehensive benefits package including health insurance, wellness programs, family support resources, life and disability insurance, a 401K retirement savings plan, paid leave, education-related programs, paid holidays and vacation time — many of which are subsidized or fully paid by the company.\n\nMondelez Global LLC is an Equal Opportunity Employer. We welcome all qualified applicants regardless of race, color, religion, sex, national origin, disability, veteran status, or any other protected characteristic.",
-      "job_highlights": [
-        {
-          "items": [
-            "*Required:**",
-            "High school diploma or GED",
-            "At least 3 years experience in a warehouse, distribution, or manufacturing environment",
-            "2+ years operating Powered Industrial Vehicles (PIV), including stand-up counterbalance and stand-up reach forklifts",
-            "Familiarity with SAP-EWM or other WMS, plus RFID use",
-            "Ability to lift up to 50 lbs",
-            "and work in a food-grade environment",
-            "Strong adaptability to take on diverse responsibilities",
-            "Experience with automated palletizing or packaging equipment (Vongal, inline wrappers)",
-            "Prior work in food manufacturing, 3PL, or consumer goods",
-            "Knowledge of IL6S, Lean, or 5S principles",
-            "8 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The hourly wage for this position is **$23.09/hr**",
-            "You’ll also be eligible for an annual incentive program targeting 5% of your salary",
-            "Mondelez International offers a comprehensive benefits package including health insurance, wellness programs, family support resources, life and disability insurance, a 401K retirement savings plan, paid leave, education-related programs, paid holidays and vacation time — many of which are subsidized or fully paid by the company"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You’ll play a hands-on role in our warehouse operations, ensuring materials move safely and efficiently from receiving to production to shipping",
-            "Your days will be varied and fast-paced",
-            "You'll operate stand-up counterbalance forklifts, reach trucks, and powered pallet jacks, and use SAP-EWM or RF systems to manage everything from put-away to replenishment",
-            "Supporting the Vongal palletizer and inline wrapper operations will also be part of your routine — you’ll keep material flowing and address minor jams, escalating bigger issues to maintenance",
-            "Replenish raw and packaging materials into production areas and dough room kits",
-            "Handle trailer loading and unloading, following strict dock safety controls (wheel chocks, gladhand locks, dock lights)",
-            "Use the pallet inverter to transfer materials between wood, plastic, or CHEP pallets",
-            "Complete all SAP transactions accurately for goods movements, confirming lot codes and quantities",
-            "You’ll wear required PPE (safety shoes, hearing protection, high-visibility vest), perform daily pre-use inspections on powered equipment, and tag out any machine that needs service",
-            "Every near miss or unsafe condition is reported immediately",
-            "Food safety is also critical: you’ll inspect materials for damage or contamination, maintain allergen control, and ensure proper segregation of Good/Hold/Reject items",
-            "### Systems & Inventory Accuracy",
-            "You’ll keep our inventory visible and accurate in real time by executing warehouse transactions in SAP-EWM/ECC",
-            "Cycle counts, wall-to-wall inventories, and reconciling physical vs. system counts will be part of your routine",
-            "If you spot a discrepancy, you’ll escalate it promptly to inventory control or supervision",
-            "### Continuous Improvement & Teamwork",
-            "You’ll take part in IL6S, Kaizen, and 5S initiatives that improve safety, quality, and efficiency",
-            "You’ll keep your workspace clean, organized, and audit-ready, and you’ll communicate regularly with Production, Quality, Maintenance, Planning, and Logistics teams",
-            "If you have experience to share, you’ll help train new team members by modeling safe, standardized work practices",
-            "16 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "83809106407c",
-      "title": "East Chicago Night Shift Sortation Warehouse Associate with $20-$23/hr",
-      "company": "Amazon",
-      "location": "East Chicago, IN",
-      "vertical": "warehouse",
-      "role": "part-time",
-      "pay": "20.50–23.50 an hour",
-      "pay_min": 20.5,
-      "pay_max": 23.5,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://pourcareers.co.com/jobs/east-chicago/east-chicago-night-shift-sortation-warehouse-associate-a1ba6d.html",
-      "via": "via Base Careers",
-      "description": "<h3>Role Based in  East Chicago</h3><h4>Key Information</h4><ul><li><strong>Employer:</strong> Amazon (Hiring in  East Chicago)</li><li><strong>Worksite:</strong>  East Chicago,  IN</li><li><strong>Position:</strong> Night Shift Sortation Warehouse Associate (Based in  East Chicago)</li><li>This <strong> East Chicago</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>Amazon</strong> team in  East Chicago,  IN is growing.</li><li>Benefit from working in <strong> East Chicago</strong>, a key hub for the <strong>Logistics</strong> industry.</li></ul><h4>Salary and Benefits</h4><ul><li><strong>Pay:</strong> $20-$23/Hour (approx. $26.3k/Year)</li><li><strong>Benefits:</strong> A comprehensive benefits package is included.</li><li><em>Stable workload with modern tooling and processes.</em></li></ul><h4>What You'll Do</h4><ul><li>This role centers on <strong>your professional skills</strong> within the <strong>Logistics</strong> space in  East Chicago.</li></ul><hr><br><h3><strong>Mastering the Overnight Middle Mile</strong></h3><p>If the fulfillment center is the brain of the operation, the sortation center is the central nervous system. Welcome to the critical \"middle mile\" of the Amazon delivery network. As a <strong>Night Shift Sortation Warehouse Associate</strong>, your primary objective is to group and route thousands of packages during the graveyard hours so they reach the correct local delivery hubs right at dawn. For those seeking highly active, fast-paced <strong>night shift warehouse jobs</strong> that offer intense teamwork and rapid physical movement, this is the ultimate environment.</p><h3><strong>The Overnight Sortation Experience</strong></h3><p>Work in a sort center is fundamentally different from a traditional fulfillment role. You are not picking individual items; you are dealing with sealed, completed packages that are moving rapidly down vast networks of conveyor belts. The atmosphere at night is charged, highly focused, and incredibly team-oriented. When the conveyor belts get heavily loaded during the midnight \"rush,\" you will rely on your night-owl teammates to clear the lines and keep the <strong>supply chain</strong> moving seamlessly.</p><ol><li><strong>Rapid Package Routing:</strong> You will read complex digital routing labels as packages fly down the line, pulling them off the belt and sorting them into specific geographical chutes or designated postal carts.</li><li><strong>Pallet Architecture:</strong> You will become a master of spatial reasoning. Sorting requires building perfectly stable, tightly packed pallets of boxes (often referred to as \"playing Tetris\" by our veteran associates), which are then heavily shrink-wrapped to prevent transit damage.</li><li><strong>Fluid Loading Operations:</strong> Utilizing manual pallet jacks, you will safely transport these massive, wrapped pallets directly into the bellies of outbound 18-wheeler semi-trailers, staging them for the early morning over-the-road drivers.</li></ol><blockquote><p><em>\"The night sort center moves incredibly fast, but the overnight shift premium is what keeps me here. Working the graveyard shift allows me to manage my college classes during the day while still getting access to Amazon's incredible 401(k) matching and tuition assistance. The night crew is like a family.\"</em> - A current Night Sortation Associate.</p></blockquote><h3><strong>Flexibility and Night Shift Rewards</strong></h3><p>We understand that modern life requires flexible schedules. Sortation roles offer some of the most adaptable late-night shifts in the <strong>logistics careers</strong> landscape, including midnight to morning or late evening options. Associates unlock exceptional health, dental, and vision benefits, along with highly competitive shift differentials that significantly boost your base pay when working non-traditional hours. You will need a strong commitment to workplace safety, the ability to lift up to 49 pounds, and a High School diploma or equivalent to join the night team.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Pallet Architecture: You will become a master of spatial reasoning",
-            "Sorting requires building perfectly stable, tightly packed pallets of boxes (often referred to as \"playing Tetris\" by our veteran associates), which are then heavily shrink-wrapped to prevent transit damage",
-            "We understand that modern life requires flexible schedules",
-            "You will need a strong commitment to workplace safety, the ability to lift up to 49 pounds, and a High School diploma or equivalent to join the night team",
-            "1 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Salary and Benefits",
-            "Pay: $20-$23/Hour (approx. $26.3k/Year)",
-            "Benefits: A comprehensive benefits package is included",
-            "Stable workload with modern tooling and processes",
-            "Flexibility and Night Shift Rewards",
-            "Associates unlock exceptional health, dental, and vision benefits, along with highly competitive shift differentials that significantly boost your base pay when working non-traditional hours",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Position: Night Shift Sortation Warehouse Associate (Based in East Chicago)",
-            "This role centers on your professional skills within the Logistics space in East Chicago",
-            "Mastering the Overnight Middle Mile",
-            "As a Night Shift Sortation Warehouse Associate, your primary objective is to group and route thousands of packages during the graveyard hours so they reach the correct local delivery hubs right at dawn",
-            "You are not picking individual items; you are dealing with sealed, completed packages that are moving rapidly down vast networks of conveyor belts",
-            "The atmosphere at night is charged, highly focused, and incredibly team-oriented",
-            "When the conveyor belts get heavily loaded during the midnight \"rush,\" you will rely on your night-owl teammates to clear the lines and keep the supply chain moving seamlessly",
-            "Rapid Package Routing: You will read complex digital routing labels as packages fly down the line, pulling them off the belt and sorting them into specific geographical chutes or designated postal carts",
-            "Fluid Loading Operations: Utilizing manual pallet jacks, you will safely transport these massive, wrapped pallets directly into the bellies of outbound 18-wheeler semi-trailers, staging them for the early morning over-the-road drivers",
-            "6 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "264766613e40",
-      "title": "Campus Safety Officer - Overnight Shift 6PM-6AM",
-      "company": "Moody Publishers",
-      "location": "Chicago, IL",
-      "vertical": "security",
-      "role": "university",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://www.indeed.com/viewjob?jk=efe4057ddb0f20d1",
-      "via": "via Teal",
-      "description": "<p>About the position</p><p>Moody Bible Institute is seeking a Public Safety Officer to help create a secure and welcoming environment for our students, employees, residents, and guests on our Chicago campus. As part of our Public Safety team, you will play a vital role in protecting our community while supporting Moody's mission of equipping people with the truth of God's Word. The Public Safety Officer is responsible for maintaining the safety and security of Moody Bible Institute's Chicago campus through proactive patrols, emergency response, incident management, and community engagement. This role requires sound judgment, professionalism, and a servant-hearted approach to serving others.</p><p>Responsibilities</p><ul><li>Conduct foot and vehicle patrols to deter and identify security concerns.</li><li>Serve as a primary responder to campus incidents, alarms, emergency calls, and 911 notifications.</li><li>Assess, manage, and secure incident scenes while coordinating with emergency responders and city officials.</li><li>Prepare accurate, timely, and detailed incident reports and related documentation.</li><li>Monitor and oversee part-time staff and dispatch operations during assigned shifts.</li><li>Enforce campus policies, including parking regulations and access control procedures.</li><li>Provide security coverage for campus events and activities.</li><li>Assist students, employees, and visitors by providing information, guidance, and support.</li><li>Issue trespass notices when necessary and respond to unauthorized access concerns.</li><li>Provide security escorts, cash transport support, and executive protection services as assigned.</li><li>Complete additional departmental duties and special assignments as directed.</li></ul><p>Requirements</p><ul><li>Associate degree or two years of related security, public safety, law enforcement, military, or customer service experience.</li><li>Valid driver's license with a satisfactory driving record.</li><li>At least 21 years of age.</li><li>Strong communication, interpersonal, and report-writing skills.</li><li>Ability to remain calm and make sound decisions in emergency situations.</li><li>Authorized to work in the United States without employer sponsorship.</li></ul><p>Nice-to-haves</p><ul><li>Bachelor’s degree in criminal justice or a related field.</li><li>Illinois PERC Card.</li><li>Illinois FOID Card.</li><li>Experience responding to fire, medical, or security incidents.</li><li>Previous security, law enforcement, campus safety, or military experience.</li></ul><p>Benefits</p><ul><li>Comprehensive benefits package for eligible employees.</li></ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Associate degree or two years of related security, public safety, law enforcement, military, or customer service experience",
-            "Valid driver's license with a satisfactory driving record",
-            "At least 21 years of age",
-            "Strong communication, interpersonal, and report-writing skills",
-            "Ability to remain calm and make sound decisions in emergency situations",
-            "Authorized to work in the United States without employer sponsorship",
-            "Bachelor’s degree in criminal justice or a related field",
-            "Illinois PERC Card",
-            "Illinois FOID Card",
-            "Experience responding to fire, medical, or security incidents",
-            "Previous security, law enforcement, campus safety, or military experience",
-            "8 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Comprehensive benefits package for eligible employees"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The Public Safety Officer is responsible for maintaining the safety and security of Moody Bible Institute's Chicago campus through proactive patrols, emergency response, incident management, and community engagement",
-            "This role requires sound judgment, professionalism, and a servant-hearted approach to serving others",
-            "Conduct foot and vehicle patrols to deter and identify security concerns",
-            "Serve as a primary responder to campus incidents, alarms, emergency calls, and 911 notifications",
-            "Assess, manage, and secure incident scenes while coordinating with emergency responders and city officials",
-            "Prepare accurate, timely, and detailed incident reports and related documentation",
-            "Monitor and oversee part-time staff and dispatch operations during assigned shifts",
-            "Enforce campus policies, including parking regulations and access control procedures",
-            "Provide security coverage for campus events and activities",
-            "Assist students, employees, and visitors by providing information, guidance, and support",
-            "Issue trespass notices when necessary and respond to unauthorized access concerns",
-            "Provide security escorts, cash transport support, and executive protection services as assigned",
-            "Complete additional departmental duties and special assignments as directed",
-            "10 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "89f6cf2422ba",
-      "title": "Overnight Security Driver Patrol (Healthcare)",
-      "company": "Alliedbarton Security Services",
-      "location": "North Chicago, IL",
-      "vertical": "security",
-      "role": "overnight",
-      "pay": "39K–43K a year",
-      "pay_min": 39000.0,
-      "pay_max": 43000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-09",
-      "apply_link": "https://simplify.jobs/p/e18bceee-40ae-45db-a931-20f681e86813/Security-Officer",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking a Security Officer - Driver Patrol - Overnights in North Chicago, IL. The role involves patrolling healthcare locations, maintaining a visible security presence, and delivering excellent customer service while adhering to company policies.</p><p>Position Type: Full Time. Pay Rate: $19.80 per hour. Work schedule includes overnights and weekend coverage as listed. This role emphasizes safety, professionalism, and teamwork within a healthcare setting.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Pay Rate: $19.80 per hour",
-            "Work schedule includes overnights and weekend coverage as listed"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Position Type: Full Time",
-            "This role emphasizes safety, professionalism, and teamwork within a healthcare setting"
           ],
           "title": "Responsibilities"
         }

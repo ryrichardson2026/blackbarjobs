@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/houston-university-security",
   "market": "Houston",
   "target": "city-role",
@@ -217,43 +217,12 @@
       ]
     },
     {
-      "job_hash": "111b6d2676bb",
-      "title": "Overnight Security Site Lead - Houston Campus",
-      "company": "Securitas Global Clients America",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "overnight",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-01",
-      "apply_link": "https://talents.vaia.com/companies/securitas-global-clients-america/houston/overnight-security-site-lead-houston-campus-145613058/",
-      "via": "via BeBee",
-      "description": "<p>Securitas Global Clients America is seeking a Security Site Supervisor in Houston, TX to oversee security operations on a professional campus. You will supervise a small team of Security Officers, manage schedules, and coordinate with the client to maintain a secure, welcoming environment after hours.\nThe ideal candidate will demonstrate strong leadership, excellent customer service, and experience managing security operations in office or campus settings, with overnight shifts and weekend</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The ideal candidate will demonstrate strong leadership, excellent customer service, and experience managing security operations in office or campus settings, with overnight shifts and weekend"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "You will supervise a small team of Security Officers, manage schedules, and coordinate with the client to maintain a secure, welcoming environment after hours"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "b28fb7bec8ba",
       "title": "Security Officer- Victoria Campus",
       "company": "University of Houston",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "university",
+      "role": "no-experience",
       "pay": "36K–60K a year",
       "pay_min": 36000.0,
       "pay_max": 60000.0,
@@ -338,9 +307,9 @@
       ]
     },
     {
-      "job_hash": "746bed570323",
-      "title": "Lead Public Safety Officer — Healthcare Campus Security",
-      "company": "MD Anderson Cancer Center",
+      "job_hash": "61408a8701e4",
+      "title": "Campus Safety Systems Specialist",
+      "company": "University of Houston System",
       "location": "Houston, TX",
       "vertical": "security",
       "role": "university",
@@ -350,10 +319,50 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/md-anderson-cancer-center/houston/lead-public-safety-officer-healthcare-campus-security-66617948/",
-      "via": "via Talents By Vaia",
-      "description": "A leading cancer care center in Houston is seeking a Senior Public Safety Officer to ensure a secure environment for patients and staff. Responsibilities include patrolling the premises, managing access control, and mentoring Public Safety Officers. A high school diploma and a valid Texas driver\\'s license are required, with a preference for candidates holding an Associate’s Degree and relevant certifications. This full-time role offers a comprehensive benefits package, professional development opportunities, and a supportive team environment. #J-18808-Ljbffr",
-      "job_highlights": null
+      "apply_link": "https://www.indeed.com/viewjob?jk=0a37e016bd6d7562",
+      "via": "via UH System Careers - University Of Houston",
+      "description": "<strong>Department</strong>: Campus Safety Systems\n\n\n<strong>Salary</strong>: $70,800 - $80,550\n\n\n\n<p><strong>Description</strong>:</p>\n<p>The CSS System Specialist is the liaison responsible for the Campus Safety Systems Internet of Things (IoT) devices, the data they create to be processed within our system, integration into our platform, and the day to day maintenance required to keep them functioning. The position involves scoping equipment models, determining equipment placement, programming security systems to process their data, tuning data processing, creating system alerts/actions for operators/admins based on processed data results, testing new equipment, and testing new data processes. Pursuant to the State of Texas Executive Order No. GA-48, this position researches, works on, or has access to critical infrastructure and requires the ability to maintain the security or integrity of the University infrastructure. This position requires personnel be routinely reviewed to determine whether or not criminal history or continuous connections for the government or political apparatus of a foreign adversary might prevent the employee from being able to maintain the security or integrity of the infrastructure.</p>\n<p>1. Program and test CSS systems and hardware, including access control, alarms, emergency telephones, cameras, video management, mobile apps, and their integrations.</p>\n<p>2. Review design documents and specify surveillance locations and hardware.</p>\n<p>3. Provide rough estimates for hardware costs to UIT project managers for project scoping.</p>\n<p>4. Lead the design, implementation, and establishment of operational processes for university departments utilizing CSS systems and hardware.</p>\n<p>5. Evaluate security products and technologies to determine their applicability to the university's physical security needs.</p>\n<p>6. Establish, document, and enforce CSS design standards and operational best practices for campus security services and construction projects.</p>\n<p>7. Perform other job-related duties as assigned.</p>\n<p>MQ: Requires specialized training in basic trades, principles, procedures, practice, routines or techniques in a specific area or trade which might normally be acquired through up to 18 months of education or training beyond the high school level. Vocational competence in the operation of mechanical or electronic equipment may be required.</p>\n<p>Requires a minimum of five (5) years of directly job-related experience.</p>\n<p>Certification/Licensing: CJIS Security and Privacy certification required.</p>\n<p> </p>\n<p><strong>Additional Posting Information:</strong></p>\n<p>Preferred certifications:</p>\n<p>ASIS Certified Protection Professional (CPP)</p>\n<p>ASIS Physical Security Practitioner (PSP)</p>\n<p>PMI Project Management Professional (PMP)</p>\n<p><br>- Department is willing to accept education in lieu of experience. <br>- Department is willing to accept experience in lieu of education.</p>\n\n\n\n\n<p>All positions at the University of Houston-System are security sensitive and will require a criminal history check.</p>\n<p>The University of Houston System and its universities are Equal Opportunity Institutions. Everyone is encouraged to apply.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This position requires personnel be routinely reviewed to determine whether or not criminal history or continuous connections for the government or political apparatus of a foreign adversary might prevent the employee from being able to maintain the security or integrity of the infrastructure",
+            "Program and test CSS systems and hardware, including access control, alarms, emergency telephones, cameras, video management, mobile apps, and their integrations",
+            "MQ: Requires specialized training in basic trades, principles, procedures, practice, routines or techniques in a specific area or trade which might normally be acquired through up to 18 months of education or training beyond the high school level",
+            "Vocational competence in the operation of mechanical or electronic equipment may be required",
+            "Requires a minimum of five (5) years of directly job-related experience",
+            "Certification/Licensing: CJIS Security and Privacy certification required",
+            "ASIS Certified Protection Professional (CPP)",
+            "ASIS Physical Security Practitioner (PSP)",
+            "PMI Project Management Professional (PMP)",
+            "Department is willing to accept education in lieu of experience",
+            "Department is willing to accept experience in lieu of education",
+            "All positions at the University of Houston-System are security sensitive and will require a criminal history check",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary: $70,800 - $80,550"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The position involves scoping equipment models, determining equipment placement, programming security systems to process their data, tuning data processing, creating system alerts/actions for operators/admins based on processed data results, testing new equipment, and testing new data processes",
+            "Pursuant to the State of Texas Executive Order No",
+            "GA-48, this position researches, works on, or has access to critical infrastructure and requires the ability to maintain the security or integrity of the University infrastructure",
+            "Review design documents and specify surveillance locations and hardware",
+            "Provide rough estimates for hardware costs to UIT project managers for project scoping",
+            "Lead the design, implementation, and establishment of operational processes for university departments utilizing CSS systems and hardware",
+            "Evaluate security products and technologies to determine their applicability to the university's physical security needs",
+            "Establish, document, and enforce CSS design standards and operational best practices for campus security services and construction projects",
+            "Perform other job-related duties as assigned",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
       "job_hash": "22b11892f9af",
@@ -429,6 +438,63 @@
             "Work with frequent interruptions",
             "Overtime as needed",
             "13 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "e94999c24741",
+      "title": "Campus Security Guard - Episcopal High School, Houston",
+      "company": "Episcopal High School",
+      "location": "Bellaire, TX",
+      "vertical": "security",
+      "role": "school",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Episcopal-High-School/Job/Campus-Security-Guard-Episcopal-High-School,-Houston/-in-Bellaire,TX?jid=edb60b2377023a34",
+      "via": "via Indeed",
+      "description": "<div>\n <p>The Campus Security Guard supports a safe, secure, and welcoming school environment for students, faculty, staff, and visitors. This position is responsible for monitoring campus activity, enforcing safety procedures, assisting with emergency response, and supporting daily operations and special events in alignment with the school’s mission and values.</p>\n <p></p>\n <p>Job Requirements</p>\n <ul>\n  <li>Maintain a safe and secure campus environment during school hours, before and after school activities, and special events.</li>\n  <li>Monitor campus access points, parking lots, event areas, student arrival and dismissal, and visitor activity.</li>\n  <li>Operate and monitor security systems, including cameras, gate access controls, door access controls, and lockdown systems; assist with basic troubleshooting as needed.</li>\n  <li>Provide leadership and direction to off-duty police officers and contracted security personnel when assigned.</li>\n  <li>Assist the Director of Operations and the Director of Safety & Security with scheduling security coverage for special events.</li>\n  <li>Support faculty and staff parking operations, including assignment of spaces and distribution of parking permits and RFID tags.</li>\n  <li>Direct traffic safely and effectively before and after school and during major campus events.</li>\n  <li>Respond calmly and appropriately to emergencies and safety concerns in accordance with established protocols.</li>\n  <li>Accurately document and report all incidents, accidents, and safety concerns using required procedures and forms.</li>\n  <li>Perform additional duties as assigned by school leadership.</li>\n  <li>Support and uphold the school’s mission, values, and community standards.</li>\n </ul>\n <p></p>\n <p>Knowledge, Skills, and Abilities Required</p>\n <ul>\n  <li>Minimum of four (4) years of security experience.</li>\n  <li>Bachelor’s or Associate Degree</li>\n  <li>Ability to conduct security patrols independently with minimal supervision.</li>\n  <li>Strong verbal and written communication skills.</li>\n  <li>Proficiency or willingness to learn security-related technology, including video monitoring, access control, and alarm systems.</li>\n  <li>Ability to complete routine reports and documentation accurately and on time.</li>\n  <li>Ability to safely operate motor vehicles, both electric and gas-powered.</li>\n  <li>Ability to follow detailed instructions, procedures, and safety protocols.</li>\n  <li>Strong interpersonal skills, flexibility, professionalism, and a customer-service mindset when working with students, families, staff, and visitors.</li>\n  <li>Ability to remain calm, make sound judgments, and act effectively in emergency or high-stress situations.</li>\n  <li>Ability to identify potential safety hazards or security risks and report concerns promptly to appropriate personnel.</li>\n </ul>\n <p></p>\n <p>Working Conditions and Physical Effort</p>\n <ul>\n  <li>Work may involve moderate exposure to outdoor conditions, including heat, cold, and inclement weather.</li>\n  <li>Position requires moderate physical activity, including standing or walking for extended periods and lifting or carrying items up to 50 pounds.</li>\n </ul>\n</div>\n<p></p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Minimum of four (4) years of security experience",
+            "Bachelor’s or Associate Degree",
+            "Ability to conduct security patrols independently with minimal supervision",
+            "Strong verbal and written communication skills",
+            "Proficiency or willingness to learn security-related technology, including video monitoring, access control, and alarm systems",
+            "Ability to complete routine reports and documentation accurately and on time",
+            "Ability to safely operate motor vehicles, both electric and gas-powered",
+            "Ability to follow detailed instructions, procedures, and safety protocols",
+            "Strong interpersonal skills, flexibility, professionalism, and a customer-service mindset when working with students, families, staff, and visitors",
+            "Ability to remain calm, make sound judgments, and act effectively in emergency or high-stress situations",
+            "Ability to identify potential safety hazards or security risks and report concerns promptly to appropriate personnel",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The Campus Security Guard supports a safe, secure, and welcoming school environment for students, faculty, staff, and visitors",
+            "This position is responsible for monitoring campus activity, enforcing safety procedures, assisting with emergency response, and supporting daily operations and special events in alignment with the school’s mission and values",
+            "Maintain a safe and secure campus environment during school hours, before and after school activities, and special events",
+            "Monitor campus access points, parking lots, event areas, student arrival and dismissal, and visitor activity",
+            "Operate and monitor security systems, including cameras, gate access controls, door access controls, and lockdown systems; assist with basic troubleshooting as needed",
+            "Provide leadership and direction to off-duty police officers and contracted security personnel when assigned",
+            "Assist the Director of Operations and the Director of Safety & Security with scheduling security coverage for special events",
+            "Support faculty and staff parking operations, including assignment of spaces and distribution of parking permits and RFID tags",
+            "Direct traffic safely and effectively before and after school and during major campus events",
+            "Respond calmly and appropriately to emergencies and safety concerns in accordance with established protocols",
+            "Accurately document and report all incidents, accidents, and safety concerns using required procedures and forms",
+            "Perform additional duties as assigned by school leadership",
+            "Support and uphold the school’s mission, values, and community standards",
+            "Work may involve moderate exposure to outdoor conditions, including heat, cold, and inclement weather",
+            "Position requires moderate physical activity, including standing or walking for extended periods and lifting or carrying items up to 50 pounds",
+            "12 more items(s)"
           ],
           "title": "Responsibilities"
         }

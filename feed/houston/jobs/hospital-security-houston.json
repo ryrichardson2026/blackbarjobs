@@ -1,11 +1,37 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/hospital-security-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "0fab3ff7544b",
+      "title": "Evening Security Sergeant – Hospital Patrol Lead",
+      "company": "TCH Medical Center",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": "40K–60K a year",
+      "pay_min": 40000.0,
+      "pay_max": 60000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.jobleads.com/us/job/evening-security-sergeant-hospital-patrol-lead--houston--e6ea8c49d2fc0765f484503c1235b372c",
+      "via": "via JobLeads",
+      "description": "<p>Texas Children's Hospital is seeking a full-time Sergeant Security Officer for the evening shift at TCH Pavilion for Women. This role includes field supervision of patrol and standing posts, conducting investigations, and carrying out administrative tasks under the direction of a Commissioned Security Lieutenant or higher.</p><p>The Sergeant supports hospital staff, patients, and visitors by providing a visible security presence, managing access, and ensuring smooth traffic flow.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This role includes field supervision of patrol and standing posts, conducting investigations, and carrying out administrative tasks under the direction of a Commissioned Security Lieutenant or higher",
+            "The Sergeant supports hospital staff, patients, and visitors by providing a visible security presence, managing access, and ensuring smooth traffic flow"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "fb6644932ee7",
       "title": "Site Supervisor - Healthcare Security",
@@ -161,7 +187,7 @@
       "company": "Allied Universal",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "general",
+      "role": "weekend",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
@@ -277,6 +303,37 @@
       ]
     },
     {
+      "job_hash": "7926fe1fa733",
+      "title": "Hospital Security Professional - Full Time",
+      "company": "Texas Children's Hospital",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-09",
+      "apply_link": "https://jooble.org/rjdp/5504800809419823419",
+      "via": "via Jooble",
+      "description": "<p>Texas Children's Hospital in Houston is seeking a full-time night shift NCSO Security Officer to maintain a safe environment for patients, visitors and staff.</p>\r\n<p>You will staff posts, monitor access, document logs, and respond to emergencies, working as a visible deterrent and coordinating with security leadership.</p>\r\n<p>Candidates should have a High School diploma, BLS, NCSO and Texas Driver's License, with a year of security or related experience.</p>\r\n<p>#J-18808-Ljbffr</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Candidates should have a High School diploma, BLS, NCSO and Texas Driver's License, with a year of security or related experience"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will staff posts, monitor access, document logs, and respond to emergencies, working as a visible deterrent and coordinating with security leadership"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "017100ee0ea4",
       "title": "Healthcare Security Executive - Enterprise Safety Leader",
       "company": "The Security Executive Council",
@@ -302,37 +359,6 @@
         {
           "items": [
             "The role involves overseeing security operations, managing budgets, and ensuring compliance with required regulations"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "7926fe1fa733",
-      "title": "Hospital Security Professional - Full Time",
-      "company": "Texas Children's Hospital",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "full-time",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-09",
-      "apply_link": "https://jooble.org/rjdp/5504800809419823419",
-      "via": "via Jooble",
-      "description": "<p>Texas Children's Hospital in Houston is seeking a full-time night shift NCSO Security Officer to maintain a safe environment for patients, visitors and staff.</p>\r\n<p>You will staff posts, monitor access, document logs, and respond to emergencies, working as a visible deterrent and coordinating with security leadership.</p>\r\n<p>Candidates should have a High School diploma, BLS, NCSO and Texas Driver's License, with a year of security or related experience.</p>\r\n<p>#J-18808-Ljbffr</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Candidates should have a High School diploma, BLS, NCSO and Texas Driver's License, with a year of security or related experience"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "You will staff posts, monitor access, document logs, and respond to emergencies, working as a visible deterrent and coordinating with security leadership"
           ],
           "title": "Responsibilities"
         }
@@ -392,37 +418,6 @@
           "items": [
             "CHRISTUS Health in Houston is seeking a Security Supervisor to supervise security officers and assist the Armed Security Manager with daily operations, scheduling, budgeting, policy development, and cross-facility coverage across multiple campuses",
             "This is a working supervisor role requiring hands-on duties and travel as needed"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "1d69beadc000",
-      "title": "Night Security Officer – Hospital & Patient Safety",
-      "company": "Memorial Hermann Health System",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": "42K–54K a year",
-      "pay_min": 42000.0,
-      "pay_max": 54000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-detention-care-oversight-geo-corrections-amp-detentions-houston--pureheal-28528_25298_e6dd6a0ddfc5780569a794306f14b4d1",
-      "via": "via JobLeads",
-      "description": "<p>Memorial Hermann Health System in Houston seeks a Security Officer for the Night shift at TMC/Children's Hospital to help protect patients, visitors and staff. You will patrol, monitor access, respond to emergencies and maintain safety across designated areas.</p><p>The role requires a Commissioned Security Officer license, CPR certification within 90 days, a high school diploma or GED, and the ability to communicate in English and operate security equipment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role requires a Commissioned Security Officer license, CPR certification within 90 days, a high school diploma or GED, and the ability to communicate in English and operate security equipment"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "You will patrol, monitor access, respond to emergencies and maintain safety across designated areas"
           ],
           "title": "Responsibilities"
         }

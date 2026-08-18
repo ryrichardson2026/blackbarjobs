@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "san-antonio/jobs/retail-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 10,
-  "exact": 8,
+  "exact": 9,
   "jobs": [
     {
-      "job_hash": "f4ff97e9bd2b",
-      "title": "Retail Unarmed Security Officer: Public Patrol & Safety",
-      "company": "Marksman Security",
-      "location": "Castle Hills, TX",
+      "job_hash": "abef7c8fa1ab",
+      "title": "Retail Security Pro: Patrol, Engage & Protect",
+      "company": "Marksman",
+      "location": "San Antonio, TX",
       "vertical": "security",
       "role": "unarmed",
       "pay": "19K–26K a year",
@@ -19,7 +19,45 @@
       "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-11",
-      "apply_link": "https://us.jobrapido.com/jobpreview/9007045853541564416",
+      "apply_link": "https://www.jobleads.com/us/job/retail-security-pro-patrol-engage-protect--san-antonio--ecb3b69e63e56de75a453ba8dd9458ce5",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security is seeking a Retail Security Officer in San Antonio, Texas. You will patrol public areas, engage with the public, and respond to incidents with a calm, professional demeanor. You’ll work as part of a team under a supportive leadership group to meet safety objectives and protect people and property.</p><p>The position requires a valid Texas Level II Guard License and an active guard card. Starting pay is $16.32 per hour, with opportunities for advancement.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The position requires a valid Texas Level II Guard License and an active guard card"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Starting pay is $16.32 per hour, with opportunities for advancement"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will patrol public areas, engage with the public, and respond to incidents with a calm, professional demeanor",
+            "You’ll work as part of a team under a supportive leadership group to meet safety objectives and protect people and property"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f4ff97e9bd2b",
+      "title": "Retail Unarmed Security Officer: Public Patrol & Safety",
+      "company": "Marksman Security",
+      "location": "Castle Hills, TX",
+      "vertical": "security",
+      "role": "retail",
+      "pay": "19K–26K a year",
+      "pay_min": 19000.0,
+      "pay_max": 26000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://bebee.com/us/jobs/retail-unarmed-security-officer-public-patrol-safety-marksman-security-castle-hills--lensa-7428_3e4b46db895d8418d051c6811b725d7c45af7aee3eee44463f49a4091591f5a4",
       "via": "via JobLeads",
       "description": "<p>Marksman Security is hiring a Retail Unarmed Security Officer in Texas. You will patrol assigned areas, engage with the public, and report incidents with clear documentation.</p><p>This role requires a positive security presence and the ability to respond to disturbances and emergencies. Qualified candidates will be at least 21, hold a high school diploma or equivalent, a valid Texas Level II Guard License, a valid driver's license, and have strong communication skills.</p>",
       "job_highlights": [
@@ -44,7 +82,7 @@
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "retail",
+      "role": "part-time",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
@@ -132,6 +170,103 @@
             "The role requires an active Level 2 Guard Card and a professional demeanor",
             "You will patrol, maintain visibility, and document all activities with clear reports",
             "Responsibilities include responding to emergencies, coordinating with teammates and clients, and ensuring policy enforcement while safeguarding people and property"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f05cb8e894ca",
+      "title": "Retail Unarmed Security Officer — Protect, Report, Serve",
+      "company": "Marksman Security",
+      "location": "Leon Valley, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "19K–26K a year",
+      "pay_min": 19000.0,
+      "pay_max": 26000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://bebee.com/us/jobs/retail-unarmed-security-officer-protect-report-serve-marksman-security-leon-valley--lensa-7428_dbe61caa311e6d822877df751e21f495edc68a328a7c37be180fc05c935025c2",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security is seeking a Retail Unarmed Security Guard in Texas. The role requires an active Level 2 Guard Card and a professional demeanor. You will patrol, maintain visibility, and document all activities with clear reports.</p><p>Starting pay is $16.32/hour. Responsibilities include responding to emergencies, coordinating with teammates and clients, and ensuring policy enforcement while safeguarding people and property.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting pay is $16.32/hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role requires an active Level 2 Guard Card and a professional demeanor",
+            "You will patrol, maintain visibility, and document all activities with clear reports",
+            "Responsibilities include responding to emergencies, coordinating with teammates and clients, and ensuring policy enforcement while safeguarding people and property"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "863669428698",
+      "title": "Armed Security Officer, Patrol Retail Center",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "mobile-patrol",
+      "pay": "15.50 an hour",
+      "pay_min": 15.5,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://simplify.jobs/p/75c2351a-bf6b-4c75-8d8e-8e43387d268a/Armed-Security-Officer",
+      "via": "via Simplify",
+      "description": "<h3>Overview</h3>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h3>Job Description</h3>\n<p> Life doesn’t always follow a fixed schedule. That’s why we created the Security Officer – Part Time Enhanced position: a flexible, dependable option for individuals looking to supplement their income, gain hands-on experience, or work toward a full-time career with the industry leader. </p>\n<p> As a <strong>Armed Security Officer</strong> - in <strong>San Antonio, TX</strong>, this role is designed to provide reliable, consistent hours at an assigned site with the flexibility for you to earn more by picking-up additional shifts when it works for you. </p>\n<p><strong> Pay Rate: $15.50 / Hour </strong></p>\n<p><strong>Job Schedule:</strong></p>DayTimeWed03:30 PM - 11:30 PM\n<p><strong>How This Role Works:</strong></p>\n<ul>\n<li><strong>Fixed-Shift Commitment (“Anchor Shifts”):</strong> You will be hired for a designated site and weekly shift that serves as your reliable base schedule. This assignment requires a six (6) month commitment.</li>\n<li><strong>Earn More, Claim-A-Shift Program:</strong> In addition to your fixed shift, you may pick-up extra shifts through our scheduling platform, allowing you to increase earnings and gain experience across multiple sites. Work part-time hours this week and full-time the next. It’s all up to you.</li>\n</ul>\n<p> This role is ideal for candidates seeking part-time employment with flexibility, income stability, and opportunities to build-up to a full-time schedule of up to 40 hours per week; always with the option to scale back when needed. </p>\n<p><strong>Responsibilities:</strong></p>\n<ul>\n<li>Provide customer service to clients, customers, and store personnel by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate.</li>\n<li>Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, following established protocols and reporting requirements.</li>\n<li>Conduct regular and random armed patrols throughout retail sales areas, receiving areas, parking lots, and the property perimeter to help deter unauthorized activity.</li>\n<li>Monitor access points, observe customer and employee activity, and report suspicious behavior, hazards, and policy violations to appropriate personnel.</li>\n<li>Maintain accurate activity logs and incident reports, and coordinate with store leadership and first responders as needed.</li>\n</ul>\n<p><strong> Minimum Requirements:</strong></p>\n<ul>\n<li>Be at least 21 years of age.</li>\n<li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li>\n<li>Possess a Level III Armed Certification in Texas only.</li>\n<li>Be at least 21 years of age for armed roles.</li>\n<li>Possess a high school diploma or equivalent.</li>\n<li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li>\n<li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li>\n<li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li>\n<li>Participate in industry-specific security training programs.</li>\n<li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li>\n<li>A valid driver’s license will be required for driving positions only.</li>\n</ul>\n<p><strong>Why Join Us:</strong></p>\n<ul>\n<li><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</li>\n<li><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</li>\n<li><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</li>\n<li><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</li>\n</ul>\n<h3>Closing</h3>\n<p><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com. </p>\n<p> If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802</p>\n<h3>Requisition ID</h3>2026-1647322",
+      "job_highlights": [
+        {
+          "items": [
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Level III Armed Certification in Texas only",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Armed Security Officer - in San Antonio, TX, this role is designed to provide reliable, consistent hours at an assigned site with the flexibility for you to earn more by picking-up additional shifts when it works for you",
+            "Pay Rate: $15.50 / Hour",
+            "Earn More, Claim-A-Shift Program: In addition to your fixed shift, you may pick-up extra shifts through our scheduling platform, allowing you to increase earnings and gain experience across multiple sites",
+            "Work part-time hours this week and full-time the next",
+            "This role is ideal for candidates seeking part-time employment with flexibility, income stability, and opportunities to build-up to a full-time schedule of up to 40 hours per week; always with the option to scale back when needed",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Fixed-Shift Commitment (“Anchor Shifts”): You will be hired for a designated site and weekly shift that serves as your reliable base schedule",
+            "This assignment requires a six (6) month commitment",
+            "Provide customer service to clients, customers, and store personnel by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate",
+            "Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, following established protocols and reporting requirements",
+            "Conduct regular and random armed patrols throughout retail sales areas, receiving areas, parking lots, and the property perimeter to help deter unauthorized activity",
+            "Monitor access points, observe customer and employee activity, and report suspicious behavior, hazards, and policy violations to appropriate personnel",
+            "Maintain accurate activity logs and incident reports, and coordinate with store leadership and first responders as needed",
+            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -264,27 +399,9 @@
       ]
     },
     {
-      "job_hash": "5abebbbaf4fc",
-      "title": "Retail Security & Client Experience Lead",
-      "company": "Tiffany & Co",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "retail",
-      "pay": "32K–45K a year",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-03",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/retail/5334135503/e/",
-      "via": "via Learn4Good",
-      "description": "Tiffany & Co. is seeking a Security Officer to maintain a secure environment for clients and team members while serving as the store's brand ambassador and first point of contact for Tiffany clients.Responsibilities include strengthening sales through client relationships, delivering memorable in-store experiences, and performing security controls and opening/closing procedures in a retail environment.#J-18808-Ljbffr",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "9003ad2e325f",
-      "title": "Elite Security Officer - Level III Armed Retail Store Patrol",
-      "company": "Allied Universal",
+      "job_hash": "6e0386a51678",
+      "title": "Retail Security Officer",
+      "company": "Marksmen Security",
       "location": "San Antonio, TX",
       "vertical": "security",
       "role": "retail",
@@ -292,199 +409,72 @@
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-03",
-      "apply_link": "https://www.indeed.com/viewjob?jk=e7c9cef36889c86f",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Elite Security Officer - Level III Armed Patrol</strong> in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As an Armed Patrol Officer at a retail location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter security-related incidents, and respond to situations with professionalism and sound judgment. This driving position offers the opportunity to deliver exceptional customer service, communicate clearly, and support a welcoming environment. Join Allied Universal, where teamwork, integrity, innovation, and a caring culture put people first. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Part Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $22.00 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width: 100%; max-width: 400px; border-collapse: collapse; border-spacing: 0; font-family: 'Verdana',sans-serif; font-size: 10pt; line-height: 1.2;'><thead><tr><th style='text-align: left; padding: 0 4px 2px 0;'>Day</th><th style='text-align: left; padding: 0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Mon</td><td style='padding: 0; white-space: nowrap;'>10:00 PM - 06:00 AM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Tue</td><td style='padding: 0; white-space: nowrap;'>10:00 PM - 06:00 AM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Wed</td><td style='padding: 0; white-space: nowrap;'>08:30 PM - 06:00 AM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients, customers, and employees by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols throughout the retail location, parking areas, loading zones, and perimeter to help deter unauthorized activity and identify security-related concerns.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, following site procedures and applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor access points and observe customer and employee activity for unusual conditions, reporting security-related incidents to site leadership and Allied Universal management.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Complete accurate reports and maintain required documentation for patrols, incidents, observations, and other assigned duties.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Have at least 3 years of combined law enforcement, corrections, or military experience, or at least 5 years of armed security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a Level III Armed Guard Card. </span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</span></li></ul><hr style='border: none;...",
-      "job_highlights": [
-        {
-          "items": [
-            "Have at least 3 years of combined law enforcement, corrections, or military experience, or at least 5 years of armed security-related experience",
-            "Be at least 21 years of age",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
-            "Possess a Level III Armed Guard Card",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Participate in industry-specific security training programs",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "8 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Pay Rate: $22.00 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As an Armed Patrol Officer at a retail location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter security-related incidents, and respond to situations with professionalism and sound judgment",
-            "This driving position offers the opportunity to deliver exceptional customer service, communicate clearly, and support a welcoming environment",
-            "10:00 PM - 06:00 AM",
-            "08:30 PM - 06:00 AM",
-            "Provide customer service to clients, customers, and employees by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate",
-            "Conduct regular and random armed patrols throughout the retail location, parking areas, loading zones, and perimeter to help deter unauthorized activity and identify security-related concerns",
-            "Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, following site procedures and applicable laws",
-            "Monitor access points and observe customer and employee activity for unusual conditions, reporting security-related incidents to site leadership and Allied Universal management",
-            "Complete accurate reports and maintain required documentation for patrols, incidents, observations, and other assigned duties",
-            "6 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "6e51b50a623d",
-      "title": "Armed Retail Patrol Officer (Level III) - Part-Time",
-      "company": "Alliedbarton Security Services",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "retail",
-      "pay": "30K–33K a year",
-      "pay_min": 30000.0,
-      "pay_max": 33000.0,
-      "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-02",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5346967735/e/",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal is hiring an Elite Security Officer - Level III Armed Patrol in San Antonio, TX. This part-time armed patrol role involves conducting regular vehicle and foot patrols, maintaining a visible presence to deter incidents, and delivering exceptional customer service at a retail location.</p><p>You will respond to incidents with professionalism, comply with site procedures, and complete detailed incident reports. A valid Level III Armed Guard Card and state licensing are required.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "A valid Level III Armed Guard Card and state licensing are required"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "This part-time armed patrol role involves conducting regular vehicle and foot patrols, maintaining a visible presence to deter incidents, and delivering exceptional customer service at a retail location",
-            "You will respond to incidents with professionalism, comply with site procedures, and complete detailed incident reports"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
+      "posted_date": null,
+      "apply_link": "https://us.trabajo.org/job-28607-78dc88e5d6ac8f8360062c2c2bbbeeb9",
+      "via": "via Trabajo.org",
+      "description": "Marksmen Security - - Responsibilities: Conduct vehicle and foot patrols of areas in the public right of way to identify potential safety and security risks; Maintain a visible presence and engage in professional public interactions; Document all interactions in a clear and concise written report, ensuring the accuracy and timely submission of required documentation (reports/documents); Communicate and pass on all pertinent information to fellow team members, other safety teams, and the client.; Monitor and/or detect any suspicious behavior to assist in the prevention of vandalism, theft and or other criminal behavior",
+      "job_highlights": null
     },
     {
-      "job_hash": "c22a63348f06",
-      "title": "Security Officer Full Time - Reception",
-      "company": "Allied Universal",
+      "job_hash": "873fe4300997",
+      "title": "Security Specialist/HARPS Guard I - PT On Call Floater hours",
+      "company": "Defense Consulting Services",
       "location": "San Antonio, TX",
       "vertical": "security",
       "role": "industrial",
-      "pay": "17 an hour",
-      "pay_min": 17.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://jobs.aus.com/job/san-antonio/security-officer-full-time-reception/22950/99224222448",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time - Reception </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Residential, and more. As a Front Desk Security Professional at a residential location, you will welcome residents and guests, manage access control, monitor activity, and provide outstanding customer service. You will serve as a visible, approachable presence, communicate clearly with residents and staff, and help address security-related concerns. Join Allied Universal’s caring, team-oriented culture, where integrity, reliability, and innovation guide the work we do.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon12:00 AM - 08:00 AMTue12:00 AM - 08:00 AMWed12:00 AM - 08:00 AMThur12:00 AM - 08:00 AMFri12:00 AM - 08:00 AM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to residents, visitors, and/or vendors at a residential front desk by carrying out site-specific procedures and security-related policies.</li><li>Monitor access to the property, greet and screen visitors, verify authorization as required, and maintain visitor and vendor logs.</li><li>Receive calls, deliveries, and resident inquiries; provide directions and communicate concerns to appropriate property personnel.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response procedures.</li><li>Monitor front desk activity and access control systems, document security-related observations, and report unusual activity to appropriate personnel.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Comfortable using a computer or tablet is preferred.</li><li>CPR/First Aid certification is preferred.</li><li>Customer service experience is preferred.</li><li>A Guard Card/License is preferred.</li><li>Access control/badge experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1654966<br><br>",
-      "job_highlights": [
-        {
-          "items": [
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "4 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Pay Rate: $17.00 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Front Desk Security Professional at a residential location, you will welcome residents and guests, manage access control, monitor activity, and provide outstanding customer service",
-            "You will serve as a visible, approachable presence, communicate clearly with residents and staff, and help address security-related concerns",
-            "Provide customer service to residents, visitors, and/or vendors at a residential front desk by carrying out site-specific procedures and security-related policies",
-            "Monitor access to the property, greet and screen visitors, verify authorization as required, and maintain visitor and vendor logs",
-            "Receive calls, deliveries, and resident inquiries; provide directions and communicate concerns to appropriate property personnel",
-            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response procedures",
-            "Monitor front desk activity and access control systems, document security-related observations, and report unusual activity to appropriate personnel",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "0154e50b8b03",
-      "title": "Security Officer - Part Time Security Screener",
-      "company": "Allied Universal",
-      "location": "New Braunfels, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": "17 an hour",
-      "pay_min": 17.0,
+      "pay": "17.75 an hour",
+      "pay_min": 17.75,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Part-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1656388/security-officer---part-time-screening-operations/job",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Security Screener</strong> in <strong>New Braunfels, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As a Screener in a dynamic technology, media, and telecommunications location, you will help maintain a welcoming, professional environment by screening visitors, monitoring access points, and reporting security-related concerns. Your visible presence and exceptional communication skills will help deter incidents while supporting a positive experience for everyone onsite. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Part Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeThur10:00 PM - 06:00 AMSat02:00 PM - 10:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and access screening protocols.</li><li>Screen personnel, visitors, deliveries, and permitted items in accordance with site policies, escalating prohibited or suspicious items through established procedures.</li><li>Monitor entry points and credential presentation, maintain visitor records as required, and help to deter unauthorized access.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response activities and reporting requirements.</li><li>Conduct regular and random patrols of designated screening areas, entrances, and the surrounding business perimeter; working environments and conditions may vary by location.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A guard card or license is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial Benefits: Participate in our retirement savings plan to invest in your future.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1656387<br><br>",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.sonicjobs.com/us/jobs/san-antonio/full-time/evs---housekeeper-on-call---randolph-afb-6a4deda52a0e4b7f0ba40c36",
+      "via": "via ZipRecruiter",
+      "description": "<div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div><div><p>Position: <strong>PART-TIME PT Floater hours</strong></p><p><br/></p><p><strong>SCHEDULE: on-call floater hours</strong></p><p><br/></p><p>Specific Tasks. The following tasks are general duties for the HARPS personnel. Contracting Personnel (CP) providing service at JBSA-Lackland and Randolph, AFB shall perform the following tasks below; </p><p></p><p>ESSENTIAL JOB FUNCTIONS: • Monitor all electromagnetic door locks, door contact switches, duress alarms and answer all telephone calls within the HARPS/Information Desk Control Area. This area is defined as the Closed Circuit Television (CCTV) room, and the adjacent administrative area commonly referred to as the Information Desk. • Personnel will monitor the Identipass, Genetech, and Premisys access control systems. • Initial training for these systems will be provided by a company representative of which the system is being provided by. The contractor will then be responsible to train any new CP thereafter. • The government will phase out any of the systems that will eventually no longer be in use. • Operate, observe and evaluate CCTVs within the HARPS/Information Desk Control Area. • Use the Government provided radio system to notify the Facility Management staff and/or the base installation Security Forces on any alarm or police response situations. • Monitor operations and status of overall security network for the MTF from the centralized console. • Operate HARPS/Information Desk intercom system master station at the console to communicate with entry/exit points or incident locations. • Utilize overhead paging system to notify personnel of emergency codes and alarms. Communicate all information in a clear and concise manner. • Operate video recorder and playback at the request of Facility Management personnel. • Maintain security log and activate control devices for interior and exterior doors. • Receive transfer calls from designated wing agencies and take messages or forward calls to appropriate agencies. • Report and initiate an action report log on any emergency situation and provide comprehensive information to responding agencies and Facility Management staff when appropriate. • Maintain up to date roster of on-call and emergency contact personnel for required areas. • The CP report to an appropriate authority (DCS Supervisors, Security Forces, and Facility Managers) any information or circumstances, which may pose a threat to the security of DoD personnel, contractor personnel, resources, and classified or unclassified defense information. • Maintain Chronology of Events, Access Control logs and Alarm Reports at all times. Event logs will be documented in a professional manner utilizing appropriate grammar and punctuation and include all pertinent information covering the parameters of “Who, What, When, and Where.” Event logs will be sent to Facility Management on a daily basis no later than 0800 hrs. These documents are for official use only. • CP shall perform and document physical checks of assigned buildings, rooms and areas when electronic systems are degraded. This includes manual fire watch procedures when fire alarm systems are down and checks of controlled areas such as pharmacies when Intrution Detection Systems (IDS) are degraded. • Act as the information focal point for all medical groups' personnel, patients and visitors on all resource protection activities and the liaison on these issues to the facility management office. </p><p><br/></p><p>Qualifications.</p><div><ol><li>Have 12 months of experience as an alarm monitor or dispatcher, either in the military or civilian sector, within the last 3 years.</li><li>Skills and Knowledge. Must be able to use, at minimum, Access Control System, Genetech, and Microsoft Programs such as Word, Excel, and PowerPoint.</li><li>Shall be capable of sitting for an extended period of time during the course of their 8-hour shift, but are able to get up and move about within the area. CP shall be capable of bending, reaching, and lifting a minimum of 30 pounds to move and retrieve records or equipment, and may require prolonged walking and or standing.</li><li>Personnel must be able to communicate in a clear and concise manner and demonstrate a calm demeanor during high-stress situations</li></ol></div><p><br/></p></div></div></div>",
       "job_highlights": [
         {
           "items": [
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "4 more items(s)"
+            "Have 12 months of experience as an alarm monitor or dispatcher, either in the military or civilian sector, within the last 3 years",
+            "Skills and Knowledge",
+            "Must be able to use, at minimum, Access Control System, Genetech, and Microsoft Programs such as Word, Excel, and PowerPoint",
+            "Shall be capable of sitting for an extended period of time during the course of their 8-hour shift, but are able to get up and move about within the area",
+            "CP shall be capable of bending, reaching, and lifting a minimum of 30 pounds to move and retrieve records or equipment, and may require prolonged walking and or standing",
+            "Personnel must be able to communicate in a clear and concise manner and demonstrate a calm demeanor during high-stress situations",
+            "3 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Pay Rate: $17.00 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Screener in a dynamic technology, media, and telecommunications location, you will help maintain a welcoming, professional environment by screening visitors, monitoring access points, and reporting security-related concerns",
-            "Your visible presence and exceptional communication skills will help deter incidents while supporting a positive experience for everyone onsite",
-            "DayTimeThur10:00 PM - 06:00 AMSat02:00 PM - 10:00 PM",
-            "Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and access screening protocols",
-            "Screen personnel, visitors, deliveries, and permitted items in accordance with site policies, escalating prohibited or suspicious items through established procedures",
-            "Monitor entry points and credential presentation, maintain visitor records as required, and help to deter unauthorized access",
-            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following emergency response activities and reporting requirements",
-            "Conduct regular and random patrols of designated screening areas, entrances, and the surrounding business perimeter; working environments and conditions may vary by location",
-            "5 more items(s)"
+            "Position: PART-TIME PT Floater hours",
+            "SCHEDULE: on-call floater hours",
+            "The following tasks are general duties for the HARPS personnel",
+            "Contracting Personnel (CP) providing service at JBSA-Lackland and Randolph, AFB shall perform the following tasks below;",
+            "Monitor all electromagnetic door locks, door contact switches, duress alarms and answer all telephone calls within the HARPS/Information Desk Control Area",
+            "This area is defined as the Closed Circuit Television (CCTV) room, and the adjacent administrative area commonly referred to as the Information Desk",
+            "Personnel will monitor the Identipass, Genetech, and Premisys access control systems",
+            "Initial training for these systems will be provided by a company representative of which the system is being provided by",
+            "The contractor will then be responsible to train any new CP thereafter",
+            "The government will phase out any of the systems that will eventually no longer be in use",
+            "Operate, observe and evaluate CCTVs within the HARPS/Information Desk Control Area",
+            "Use the Government provided radio system to notify the Facility Management staff and/or the base installation Security Forces on any alarm or police response situations",
+            "Monitor operations and status of overall security network for the MTF from the centralized console",
+            "Operate HARPS/Information Desk intercom system master station at the console to communicate with entry/exit points or incident locations",
+            "Utilize overhead paging system to notify personnel of emergency codes and alarms",
+            "Communicate all information in a clear and concise manner",
+            "Operate video recorder and playback at the request of Facility Management personnel",
+            "Maintain security log and activate control devices for interior and exterior doors",
+            "Receive transfer calls from designated wing agencies and take messages or forward calls to appropriate agencies",
+            "Report and initiate an action report log on any emergency situation and provide comprehensive information to responding agencies and Facility Management staff when appropriate",
+            "Maintain up to date roster of on-call and emergency contact personnel for required areas",
+            "The CP report to an appropriate authority (DCS Supervisors, Security Forces, and Facility Managers) any information or circumstances, which may pose a threat to the security of DoD personnel, contractor personnel, resources, and classified or unclassified defense information",
+            "Maintain Chronology of Events, Access Control logs and Alarm Reports at all times",
+            "Event logs will be documented in a professional manner utilizing appropriate grammar and punctuation and include all pertinent information covering the parameters of “Who, What, When, and Where.” Event logs will be sent to Facility Management on a daily basis no later than 0800 hrs",
+            "CP shall perform and document physical checks of assigned buildings, rooms and areas when electronic systems are degraded",
+            "This includes manual fire watch procedures when fire alarm systems are down and checks of controlled areas such as pharmacies when Intrution Detection Systems (IDS) are degraded",
+            "Act as the information focal point for all medical groups' personnel, patients and visitors on all resource protection activities and the liaison on these issues to the facility management office",
+            "24 more items(s)"
           ],
           "title": "Responsibilities"
         }

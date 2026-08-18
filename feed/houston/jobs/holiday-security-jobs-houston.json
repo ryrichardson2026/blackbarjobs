@@ -1,11 +1,107 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/holiday-security-jobs-houston",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "66d24eb3b547",
+      "title": "Data Center Surveillance Officer – Day/Night Shifts",
+      "company": "Garda World Security",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "surveillance",
+      "pay": "46K–54K a year",
+      "pay_min": 46000.0,
+      "pay_max": 54000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5367293124/e/",
+      "via": "via JobLeads",
+      "description": "<p>GardaWorld Security Services is seeking Data Center Security Officers in Houston, TX. The role emphasizes exceptional customer service, communications, and technical proficiency. Full or part-time shifts with 6am–6pm and 6pm–6am options are available at Spring, Hockley, and The Woodlands sites.</p><p>Responsibilities include observing and reporting incidents, writing detailed reports, and protecting client property. Background checks and a drug screen follow an offer.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Background checks and a drug screen follow an offer"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role emphasizes exceptional customer service, communications, and technical proficiency",
+            "Full or part-time shifts with 6am–6pm and 6pm–6am options are available at Spring, Hockley, and The Woodlands sites",
+            "Responsibilities include observing and reporting incidents, writing detailed reports, and protecting client property"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "af8721e672e5",
+      "title": "Surveillance Security Officer Night/Weekend Shift",
+      "company": "Garda World Security",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.thejobnetwork.com/job/0ad59771-af15-488b-9bbc-e31bf782e54f/immediate-bilingual-st-shift-security-officer-needed",
+      "via": "via BeBee",
+      "description": "<p>GardaWorld Security Services in Houston, TX is seeking a Surveillance Security Officer to monitor CCTV, detect suspicious activity, and document incidents across a 24/7 environment. You will respond quickly to threats and help ensure the safety of people and property.\nThe role requires a High School Diploma or GED, valid U.S. work authorization, and the ability to pass screening. Uniform is provided and there are opportunities for career growth within GardaWorld.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires a High School Diploma or GED, valid U.S. work authorization, and the ability to pass screening"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Uniform is provided and there are opportunities for career growth within GardaWorld"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "GardaWorld Security Services in Houston, TX is seeking a Surveillance Security Officer to monitor CCTV, detect suspicious activity, and document incidents across a 24/7 environment",
+            "You will respond quickly to threats and help ensure the safety of people and property"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "1763bd77fab4",
+      "title": "Client-Facing Security Officer — Evening/Night & Weekend",
+      "company": "Marksman",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": "21K–30K a year",
+      "pay_min": 21000.0,
+      "pay_max": 30000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-10",
+      "apply_link": "https://bebee.com/us/jobs/weekend-security-officer-downtown-77002-united-protective-services-houston-tx--t7xk-758418844",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security in Houston is seeking professional, polished security officers for a client-facing role focused on professionalism, communication, and client satisfaction while maintaining a safe environment.</p><p>The job offers same-day hiring during the job fair on Aug 19–20, 2026 at 18530 State Hwy 249, Houston, TX 77070; North Houston (77064) positions with shifts including evenings and weekends. Must have an active Level 2 Security License and be able to pass background checks.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have an active Level 2 Security License and be able to pass background checks"
+          ],
+          "title": "Qualifications"
+        }
+      ]
+    },
     {
       "job_hash": "921cd402bfb3",
       "title": "Campus Security Officer - Night & Weekend Shifts",
@@ -82,61 +178,6 @@
       ]
     },
     {
-      "job_hash": "debd9ed9550c",
-      "title": "Field Training Officer - Overnight 77079 (Operations)",
-      "company": "United Protective Services",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "overnight",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://bebee.com/us/jobs/field-training-officer-daytime-with-weekends-77079-operations-united-protective-services-houston--ss-us-d2c7t6",
-      "via": "via Teal",
-      "description": "<p>About the position</p><p>United Protective Services is seeking a dependable and experienced Field Training Officer to help develop Security Officers, perform field inspections, and provide support across multiple client locations. This is a great opportunity for a security professional with leadership experience who enjoys coaching others and maintaining high standards. This is a Full-Time position with a consistent schedule, leadership and training responsibilities, and opportunities for advancement in a supportive, professional work environment with a competitive benefits package.</p><p>Responsibilities</p><ul><li>Train, coach, and mentor Security Officers in the field</li><li>Conduct routine site inspections and performance audits</li><li>Assist with incident response and emergency situations</li><li>Prepare accurate reports and maintain required documentation</li><li>Ensure officers follow company policies and client expectations</li><li>Promote professional customer service at all assigned locations</li><li>Travel between client sites as needed</li></ul><p>Requirements</p><ul><li>High School Diploma or GED</li><li>Valid Driver’s License</li><li>Must be 25 years of age or older due to insurance requirements</li><li>Previous leadership experience as a Lead Officer, Shift Supervisor, Site Supervisor, Field Supervisor, or similar role</li><li>Strong communication, leadership, and problem-solving abilities</li></ul><p>Nice-to-haves</p><ul><li>Military or Law Enforcement experience is a plus</li></ul><p>Benefits</p><ul><li>Medical Insurance</li><li>Dental Insurance</li><li>Vision Insurance</li><li>Paid Vacation</li><li>Career Advancement Opportunities</li></ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "High School Diploma or GED",
-            "Valid Driver’s License",
-            "Must be 25 years of age or older due to insurance requirements",
-            "Previous leadership experience as a Lead Officer, Shift Supervisor, Site Supervisor, Field Supervisor, or similar role",
-            "Strong communication, leadership, and problem-solving abilities",
-            "2 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "This is a Full-Time position with a consistent schedule, leadership and training responsibilities, and opportunities for advancement in a supportive, professional work environment with a competitive benefits package",
-            "Medical Insurance",
-            "Dental Insurance",
-            "Vision Insurance",
-            "Paid Vacation",
-            "Career Advancement Opportunities",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Train, coach, and mentor Security Officers in the field",
-            "Conduct routine site inspections and performance audits",
-            "Assist with incident response and emergency situations",
-            "Prepare accurate reports and maintain required documentation",
-            "Ensure officers follow company policies and client expectations",
-            "Promote professional customer service at all assigned locations",
-            "Travel between client sites as needed",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "dad610110d3f",
       "title": "Security Officers - Night Shift",
       "company": "Penn Entertaiment",
@@ -186,7 +227,7 @@
       "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-06",
-      "apply_link": "https://us.jobrapido.com/jobpreview/610347818783080448",
+      "apply_link": "https://bebee.com/us/jobs/night-gatehouse-officer-secure-welcoming-community-highland-springs-by-erickson-senior-living-housto--pureheal-28528_23106_36b621355e5fe8b642f72a0929f8f65a",
       "via": "via JobLeads",
       "description": "<p>Eagle’s Trace at Erickson Senior Living in West Houston, Texas, is hiring a Gatehouse Officer for a full-time night shift (7 pm–7 am) on-site. You will staff the gatehouse, greet residents and visitors, screen traffic and maintain a secure, welcoming environment.</p><p>You must be at least 18, with prior gatehouse security experience preferred and a valid driver's license preferred. We offer comprehensive benefits, including health, PTO, a 3% 401(k) match, on-site medical centers, and a starting wage</p>",
       "job_highlights": [
@@ -203,24 +244,6 @@
           "title": "Responsibilities"
         }
       ]
-    },
-    {
-      "job_hash": "30434f0ac1dc",
-      "title": "Night Shift Security Officer - Weekend Part-Time",
-      "company": "Houston Protective Services",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "weekend",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://en.edu.is-best.net/?jobs=en-job-night-shift-security-officer-weekend-1785572529412",
-      "via": "via En.edu.is-Best.net",
-      "description": "Join Houston Protective Services as a Weekend Night Shift Security Officer and become an essential part of our 24/7 operations. We're seeking reliable professionals to safeguard high-value commercial properties during peak weekend hours. This flexible part-time role offers competitive pay and the opportunity to develop security expertise while maintaining work-life balance. Enjoy a supportive team environment, comprehensive training, and the satisfaction of protecting Houston's thriving business community.Why Work With Us?• Competitive weekend shift premiums• Paid certification training•...",
-      "job_highlights": null
     },
     {
       "job_hash": "5afa74d6d03c",
@@ -285,55 +308,6 @@
       ]
     },
     {
-      "job_hash": "c499c7dde130",
-      "title": "Overnight Security Ambassador",
-      "company": "MetroNational",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "overnight",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://jooble.org/rjdp/1643514467254803508",
-      "via": "via Jooble",
-      "description": "<p>Job Type</p>\r\n<p>Full-time<br/>Description<br/>***MUST HAVE a VAID TEXAS DRIVERS LICENSE with NO RESTRICTIONS***MUST BE ABLE TO WORK ALL SHIFTS as ASSIGNED***<br/>Everything we do at MetroNational comes back to our purpose: To Build Better Lives. It's our North Star and the reason we do the work we do. As a MetroNational  Security Ambassador I  , you build better lives by forming bonds with our guests, tenants, and residents, developing relationships with them, and ensuring a safe environment on our beautiful campus in Memorial City.<br/>As a  Security Ambassador I,  you may work in an...",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "1d69beadc000",
-      "title": "Night Security Officer – Hospital & Patient Safety",
-      "company": "Memorial Hermann Health System",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": "42K–54K a year",
-      "pay_min": 42000.0,
-      "pay_max": 54000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://bebee.com/us/jobs/hospital-security-officer-detention-care-oversight-geo-corrections-amp-detentions-houston--pureheal-28528_25298_e6dd6a0ddfc5780569a794306f14b4d1",
-      "via": "via JobLeads",
-      "description": "<p>Memorial Hermann Health System in Houston seeks a Security Officer for the Night shift at TMC/Children's Hospital to help protect patients, visitors and staff. You will patrol, monitor access, respond to emergencies and maintain safety across designated areas.</p><p>The role requires a Commissioned Security Officer license, CPR certification within 90 days, a high school diploma or GED, and the ability to communicate in English and operate security equipment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role requires a Commissioned Security Officer license, CPR certification within 90 days, a high school diploma or GED, and the ability to communicate in English and operate security equipment"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "You will patrol, monitor access, respond to emergencies and maintain safety across designated areas"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "1d69beadc000",
       "title": "Night Security Officer – Hospital & Patient Safety",
       "company": "Memorial Hermann Health System",
@@ -381,6 +355,38 @@
       "via": "via Teacompaño.org",
       "description": "Overnight Shuttle Driver - Security Guard job at Four Points by Sheraton Houston Airport. Houston, TX. <p>Join our team at the Four Points by Sheraton Hotel as an Overnight Shuttle Driver/Security Guard.\n\n<b>Responsibilities:</b>\n<ul><li>Deliver on the promise to provide excellent guest service</li><li>Respond to all guest requests for shuttle service in a prompt and courteous manner; assist guests with luggage while boarding and off-loading the vehicle.</li><li>Operate vehicle in accordance with state laws; observe all airport rules pertaining to the shuttle vehicles.</li><li>Explain and...",
       "job_highlights": null
+    },
+    {
+      "job_hash": "923a0d5f41cd",
+      "title": "Residential Security Officer – Night Shift & Career Growth",
+      "company": "City Security Services LTD",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "surveillance",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-05",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4360273182121263104",
+      "via": "via JobLeads",
+      "description": "<p>City Security Services in Houston, TX is seeking an Unarmed Security Officer for a residential community. The role requires patrolling the premises, monitoring access, and responding to incidents while maintaining a professional security presence.</p><p>Key duties include door-to-door patrols, reporting, and collaborating with emergency responders as needed. A Level II security license and a clean driving record are required, with overnight shifts available.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "A Level II security license and a clean driving record are required, with overnight shifts available"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role requires patrolling the premises, monitoring access, and responding to incidents while maintaining a professional security presence",
+            "Key duties include door-to-door patrols, reporting, and collaborating with emergency responders as needed"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

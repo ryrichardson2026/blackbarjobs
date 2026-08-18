@@ -1,11 +1,102 @@
 {
-  "generated": "2026-08-15T14:34:25.750895+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "dallas/dallas-surveillance-security",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "cf1e2d4b173c",
+      "title": "Lobby Security Officer – Front Desk & CCTV",
+      "company": "Marksman Security",
+      "location": "The Colony, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "25K–51K a year",
+      "pay_min": 25000.0,
+      "pay_max": 51000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://www.jobleads.com/us/job/lobby-security-officer-front-desk-cctv--the-colony--e0f1f119d8b4f5d835db526e039b1dd78",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security LLC is hiring a Full Time Lobby Security Officer in Plano, Texas. The role focuses on front desk duties, access control, CCTV monitoring, and delivering high-level customer service in a professional security setting.</p><p>The position offers weekday hours (1:00 PM–9:00 PM), a $18.50 per hour wage, and a $50 sign-on bonus for those with an active Texas Guard Card. Experience in security or customer service is preferred and valid state licensing is required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The position offers weekday hours (1:00 PM–9:00 PM), a $18.50 per hour wage, and a $50 sign-on bonus for those with an active Texas Guard Card"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role focuses on front desk duties, access control, CCTV monitoring, and delivering high-level customer service in a professional security setting"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "839f7d56263d",
+      "title": "Passenger Surveillance Specialist",
+      "company": "Airport Career Resource",
+      "location": "Rowlett, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-14",
+      "apply_link": "https://careerhq.allhireseasy.com/jobpage/0hi6lcbe72cw-b5f50-62730bf7c3ee9b303e193ccf1ea",
+      "via": "via CareerHQ - All Hires Easy",
+      "description": "<p>Job Summary of Passenger Surveillance Specialist:</p><p>The TSA is currently recruiting for the position of Passenger Surveillance Specialist to work in airport terminals in Oakland.These professionals are tasked with identifying suspicious actions and preventing possible threats before they arise. No experience is required, and training will be supplied.</p><p>Position Details:</p><ul><li>Beginnings:Oakland and National Levels</li><li>Entry-level compensation: $23.00-$45.00</li><li>Yearly Pay:Ranging from $48,000 to over $70,000</li><li>Schedule:Shift-based</li></ul><p>Benefits of Passenger Surveillance Specialist:</p><ul><li>Paid leave encompasses time off with full salary and entitlement to official public holidays</li><li>Health insurance coverage</li><li>TSP matching as part of a retirement plan encourages individuals to save more for their post-employment years</li><li>Overtime opportunities</li><li>Career advancement</li></ul><p>Responsibilities of Passenger Surveillance Specialist:</p><ul><li>Monitor passenger behavior</li><li>Identify potential threats</li><li>Engage in joint efforts with law enforcement officials</li><li>Report security concerns</li></ul><p>Disclaimer:</p><p>The content shared is not a direct job invitation from the TSA. It highlights an external preparation resource for individuals interested in applying. The TSA does not mandate any application charges.</p><p>The support our program gives:</p><ul><li>Hiring guidance</li><li>Practice tests</li><li>Interview coaching</li><li>Job locator tools</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Entry-level compensation: $23.00-$45.00",
+            "Yearly Pay:Ranging from $48,000 to over $70,000",
+            "Paid leave encompasses time off with full salary and entitlement to official public holidays",
+            "Health insurance coverage",
+            "TSP matching as part of a retirement plan encourages individuals to save more for their post-employment years",
+            "Overtime opportunities",
+            "Career advancement",
+            "4 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Monitor passenger behavior",
+            "Identify potential threats",
+            "Engage in joint efforts with law enforcement officials",
+            "Report security concerns",
+            "1 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "46a4c7f5f9aa",
+      "title": "Campus Security Monitor",
+      "company": "Lewisville ISD",
+      "location": "The Colony, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "$18.11 per hour",
+      "pay_min": 18.11,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://us.trabajo.org/job-4023-5d073b473db5794d7b90282398f06dfd",
+      "via": "via Trabajo.org",
+      "description": "Position Type: Security/Security Guard II Date Posted: 2/26/2026 Location: THE COLONY HS 004 Date Available: 03/02/2026 Minimum starting salary rate: $18.11 per hour Attachment(s): - Lead Campus Security Monitor",
+      "job_highlights": null
+    },
     {
       "job_hash": "bdbcb804f449",
       "title": "Surveillance Security Officer — Monitor Threats & Grow",
@@ -36,24 +127,6 @@
           "title": "Benefits"
         }
       ]
-    },
-    {
-      "job_hash": "46a4c7f5f9aa",
-      "title": "Campus Security Monitor",
-      "company": "Lewisville ISD",
-      "location": "The Colony, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "$18.11 per hour",
-      "pay_min": 18.11,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://us.trabajo.org/job-4023-5d073b473db5794d7b90282398f06dfd",
-      "via": "via Trabajo.org",
-      "description": "Position Type: Security/Security Guard II Date Posted: 2/26/2026 Location: THE COLONY HS 004 Date Available: 03/02/2026 Minimum starting salary rate: $18.11 per hour Attachment(s): - Lead Campus Security Monitor",
-      "job_highlights": null
     },
     {
       "job_hash": "383cb0e1e524",
@@ -121,6 +194,44 @@
       ]
     },
     {
+      "job_hash": "478c357d7843",
+      "title": "Surveillance Security Officer - 4am-3:30pm, Benefits & PTO",
+      "company": "Garda World Security",
+      "location": "Richardson, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": "22K–29K a year",
+      "pay_min": 22000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://jooble.org/jdp/7902340800375627271",
+      "via": "via JobLeads",
+      "description": "<p>GardaWorld Security Services is hiring a Surveillance Security Officer in Richardson, Texas. The role emphasizes vigilance, monitoring multiple screens, and detailed reporting to prevent threats.</p><p>Responsibilities include monitoring systems, rapid incident response, and regular patrols to secure premises. A valid DL, clean MVR, and U.S. work authorization are required, with a HS diploma or GED. The position offers competitive pay and benefits with potential career growth.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "A valid DL, clean MVR, and U.S. work authorization are required, with a HS diploma or GED"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The position offers competitive pay and benefits with potential career growth"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role emphasizes vigilance, monitoring multiple screens, and detailed reporting to prevent threats",
+            "Responsibilities include monitoring systems, rapid incident response, and regular patrols to secure premises"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "bd4483725838",
       "title": "GardaWorld is hiring: Surveillance Security - FLEX OVERNIGHT in Dallas",
       "company": "GardaWorld",
@@ -180,6 +291,78 @@
             "Collaborate with law enforcement in case of serious situations or emergencies",
             "Ensure the safety and protection of individuals and property",
             "9 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "409b692988fc",
+      "title": "Underground Utility CCTV Operator- (Open to Entry Level)",
+      "company": "The Contractor Consultants",
+      "location": "Haltom City, TX",
+      "vertical": "security",
+      "role": "entry-level",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.ziprecruiter.com/c/Contractor-Consultants/Job/Underground-Utility-CCTV-Operator-(Open-to-Entry-Level)/-in-Haltom-City,TX?jid=87b280937a675c2e",
+      "via": "via LinkedIn",
+      "description": "<strong>Underground Utility CCTV Operator- (Open to Entry Level) – Launch Your Underground Utility Career with Paid Training<br><br></strong><strong><strong>Job Overview<br><br></strong></strong><ul><li>Company: BCAC Underground, LLC</li><li>Salary/Pay Rate: 17.00–26.00 / hour</li><li>Location: Haltom City, TX</li><li>Job/Employment Type: Full Time</li><li>Schedule: Full Time</li><li>Mandatory Licences & Certifications: Valid Driver's License</li><li>Department: Field Operations</li><li>Reports To: Field Supervisor / Project Manager</li><li>FLSA Status: Non-Exempt (Hourly)<br><br></li></ul><strong><strong>Job Overview<br><br></strong></strong>The Underground Utility CCTV Operator is responsible for the setup, operation, and post-processing of closed-circuit television (CCTV) inspection equipment used to assess the condition of underground infrastructure, including sanitary sewer mains, storm drains,<br><br>force mains, and related utility systems. The operator produces accurate inspection reports used by engineers, municipalities, and project managers to evaluate pipe conditions and prioritize rehabilitation or replacement.<br><br><strong><strong>Key Responsibilities<br><br></strong></strong><ul><li>Set up and operate mainline and lateral CCTV inspection equipment (crawler systems, push cameras, etc.) in accordance with project specifications and safety protocols </li><li>Perform pipeline inspections per NASSCO PACP, LACP, and MACP coding standards</li><li>Accurately code and document pipe defects, structural anomalies, and service connections in real time using industry-standard software (WinCan, ICOM, or equivalent)</li><li>Prepare and submit complete, accurate inspection reports including video, photos, and defect logs</li><li>Operate and maintain jetting/vacuum equipment when required for pre-cleaning pipes prior to inspection</li><li>Perform traffic control setup in accordance with MUTCD standards and applicable local requirements</li><li>Conduct confined space entry procedures and atmospheric testing in compliance with OSHA 29 CFR 1910.146</li><li>Maintain, clean, and perform basic field repairs on all CCTV and associated equipment</li><li>Communicate daily with supervisors regarding inspection progress, site conditions, and any issues encountered</li><li>Ensure all work is performed in compliance with OSHA, DOT, and company safety standards</li><li>Complete daily field logs, equipment checklists, and timesheets accurately<br><br></li></ul><strong><strong>Required Qualifications & Experience<br><br></strong></strong><ul><li>High school diploma or GED equivalent.</li><li>Valid driver’s license with a clean driving record. </li><li>Ability to pass background check, drug screening, and MVR check</li><li>Physical ability to work in outdoor environments and confined spaces<br><br></li></ul><strong><strong>Preferred Qualifications & Experience<br><br></strong></strong><ul><li>NASSCO PACP/LACP/MACP Certification-Will provide training</li><li>OSHA 10 or OSHA 30 (Construction) certification-Will provide training</li><li>Confined Space Entry Certification-Will provide training</li><li>Experience with WinCan, ICOM, Granite XP, or similar pipeline inspection software</li><li>First Aid / CPR certification-Will provide training<br><br></li></ul><strong><strong>Physical Requirements<br><br></strong></strong><ul><li>Ability to lift and carry up to 50 lbs. regularly</li><li>Ability to work in confined spaces, manholes, and underground environments</li><li>Ability to stand, kneel, bend, and work in physically demanding field conditions</li><li>Comfortable working in all weather conditions including extreme heat and cold</li><li>Ability to work at or near active traffic lanes<br><br></li></ul><strong>Working Conditions<br><br></strong><ul><li>Outdoor field environment — municipal streets, easements, job sites</li><li>General Construction Conditions</li><li>Strong communication skills and a team-oriented mindset.</li><li>Enthusiasm for learning software applications and robotic camera operations.<br><br></li></ul><strong><strong>Compensation<br><br></strong></strong><ul><li>0 – 3 years experience $17-$20 / hr plus performance bonus</li><li>4 – 6 years experience $21-$25 / hr plus performance bonus</li><li>7+ years experience $26+ / hr plus performance bonus</li><li>Benefits may include health insurance, paid time off, <br><br></li></ul><strong><strong>About Us<br><br></strong></strong>BCAC Underground, LLC is the industry standard for underground pipe and inspection services. We deliver top-of-the-line, safe, cost-effective, and environmentally responsible solutions to meet complex utility needs. We empower our workforce through competitive pay, robust benefit options, and continuous technical training.<br><br>Learn more at https://bcacunderground.com/.<br><br><em>BCAC Underground, LLC is an Equal Opportunity Employer and does not discriminate on the basis of race, color, religion, sex (including pregnancy, gender expression, and sexual orientation), parental status, national origin, age, disability, genetic information (including family medical history), political affiliation, military service, or any other status protected by law or regulations. It is our intention that all qualified applicants be given equal opportunity and that selection decisions be based on job-related factors.</em>",
+      "job_highlights": [
+        {
+          "items": [
+            "Mandatory Licences & Certifications: Valid Driver's License",
+            "High school diploma or GED equivalent",
+            "Valid driver’s license with a clean driving record",
+            "Ability to pass background check, drug screening, and MVR check",
+            "Physical ability to work in outdoor environments and confined spaces",
+            "Ability to lift and carry up to 50 lbs",
+            "regularly",
+            "Ability to work in confined spaces, manholes, and underground environments",
+            "Ability to stand, kneel, bend, and work in physically demanding field conditions",
+            "Comfortable working in all weather conditions including extreme heat and cold",
+            "Ability to work at or near active traffic lanes",
+            "Strong communication skills and a team-oriented mindset",
+            "Enthusiasm for learning software applications and robotic camera operations",
+            "10 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Schedule: Full Time",
+            "0 – 3 years experience $17-$20 / hr plus performance bonus",
+            "4 – 6 years experience $21-$25 / hr plus performance bonus",
+            "7+ years experience $26+ / hr plus performance bonus",
+            "Benefits may include health insurance, paid time off,",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Job/Employment Type: Full Time",
+            "Reports To: Field Supervisor / Project Manager",
+            "FLSA Status: Non-Exempt (Hourly)",
+            "The Underground Utility CCTV Operator is responsible for the setup, operation, and post-processing of closed-circuit television (CCTV) inspection equipment used to assess the condition of underground infrastructure, including sanitary sewer mains, storm drains,",
+            "force mains, and related utility systems",
+            "The operator produces accurate inspection reports used by engineers, municipalities, and project managers to evaluate pipe conditions and prioritize rehabilitation or replacement",
+            "Set up and operate mainline and lateral CCTV inspection equipment (crawler systems, push cameras, etc.) in accordance with project specifications and safety protocols",
+            "Perform pipeline inspections per NASSCO PACP, LACP, and MACP coding standards",
+            "Accurately code and document pipe defects, structural anomalies, and service connections in real time using industry-standard software (WinCan, ICOM, or equivalent)",
+            "Prepare and submit complete, accurate inspection reports including video, photos, and defect logs",
+            "Operate and maintain jetting/vacuum equipment when required for pre-cleaning pipes prior to inspection",
+            "Perform traffic control setup in accordance with MUTCD standards and applicable local requirements",
+            "Conduct confined space entry procedures and atmospheric testing in compliance with OSHA 29 CFR 1910.146",
+            "Maintain, clean, and perform basic field repairs on all CCTV and associated equipment",
+            "Communicate daily with supervisors regarding inspection progress, site conditions, and any issues encountered",
+            "Ensure all work is performed in compliance with OSHA, DOT, and company safety standards",
+            "Complete daily field logs, equipment checklists, and timesheets accurately",
+            "14 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -274,153 +457,6 @@
             "Collaborate with other investigators and law enforcement agencies as needed to gather information and coordinate efforts",
             "Maintain confidentiality and adhere to legal and ethical standards in conducting surveillance operations",
             "5 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "38de86b2b978",
-      "title": "Onsite Security Patrol & Surveillance Specialist",
-      "company": "Dunbar Security Solutions",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "mobile-patrol",
-      "pay": "35K–44K a year",
-      "pay_min": 35000.0,
-      "pay_max": 44000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.jobleads.com/us/job/onsite-security-patrol-surveillance-specialist--dallas--ed2d48ff84e2feeb9626141fc0615a8d2",
-      "via": "via JobLeads",
-      "description": "<p>Dunbar Security Solutions in Dallas, TX is seeking a reliable Security Guard to patrol a client site, monitor surveillance, deter theft, and respond to emergencies. The role is full-time with a pay rate of $17.00 per hour and a daytime schedule (Mon-Fri, 8:00 AM–4:00 PM).</p><p>Overnight shifts may be required for coverage. Ideal candidates are dependable, observant, and capable of professional interactions with tenants, customers, and law enforcement.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Ideal candidates are dependable, observant, and capable of professional interactions with tenants, customers, and law enforcement"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The role is full-time with a pay rate of $17.00 per hour and a daytime schedule (Mon-Fri, 8:00 AM–4:00 PM)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Overnight shifts may be required for coverage"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "7fc1177958b8",
-      "title": "Security Officer Patrol Monitor",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "part-time",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://jobs.aus.com/en/job/fort-worth/security-officer-patrol-monitor/22950/98898211104",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana,...",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "bd309b96dcf0",
-      "title": "Surveillance Security Officer: Growth & Benefits",
-      "company": "GardaWorld",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.jobleads.com/us/job/surveillance-security-officer-growth-benefits--fort-worth--e32f9f4dca6c3c02f377e7109960beb7d",
-      "via": "via JobLeads",
-      "description": "<p>GardaWorld Security Services in the United States is seeking a Surveillance Security Officer to monitor multiple security screens, spot threats, and document incidents with clarity. You will work in environments such as security operations centers, call centers, and gatehouses, with shift options discussed during phone interviews.</p><p>GardaWorld offers a competitive hourly wage and comprehensive benefits. The role emphasizes keen observation, quick incident response, and collaboration with law</p>",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "8f2bcbb5ebbe",
-      "title": "Overnight Alarm Monitor",
-      "company": "GardaWorld",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "surveillance",
-      "pay": "23K–32K a year",
-      "pay_min": 23000.0,
-      "pay_max": 32000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5358474849/e/",
-      "via": "via JobLeads",
-      "description": "<div><h3><b>Join Our Team as an Overnight Alarm Monitor Dallas, TX!</b></h3>\n<p>Are you a detail-oriented professional with a passion for security and customer service? We are looking for a self-motivated Overnight Alarm Monitor to join our dynamic team. In this role, you will be at the forefront of our security operations, monitoring live and recorded camera footage to identify and respond to potential security risks. Your keen eye for detail and strong decision-making skills will be crucial as you assess suspicious activities, follow client-specific protocols, and take swift action by contacting authorities when necessary.</p>\n<p>As an Escalations Specialist, you will need to multitask across various computer programs, communicate effectively with both internal and external stakeholders, and maintain the highest level of confidentiality when handling sensitive information. Proficiency in video monitoring software, Microsoft Office, and Google Maps is essential. This position requires the ability to remain highly focused and alert while sitting for extended periods, and you must be comfortable working nights, weekends, and holidays to support our 24/7 security operation.</p>\n<p><b>If you thrive in a fast-paced environment and are committed to ensuring the safety and security of our clients, we encourage you to apply and become a vital part of our team.</b></p>\n<h3>What’s in it for You</h3>\n<ul>\n<li><b>Competitive Pay:</b> $20.00 / hour</li>\n<li><b>Work Site Location: </b>Dallas, TX</li>\n<li><b>Schedule: </b>May include weekdays, weekends, and varying shifts\n<ul>\n<li>Willingness to work nights, weekends, and holidays, as needed.</li>\n</ul>\n</li>\n<li><b>Comprehensive Benefits:</b> Medical, dental, and vision insurance plans, 401(k) with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options.</li>\n<li><b>Career Growth: </b>Career growth opportunities at GardaWorld</li>\n</ul>\n<h3>Your Responsibilities</h3>\n<ul>\n<li>Review camera footage and assess potential security risk events</li>\n<li>Responsible for understanding client-specific requirements and protocols.</li>\n<li>Deter suspicious or unwanted activity from client properties.</li>\n<li>Responsible for contacting appropriate authorities with urgency (Police, Fire, Guard, etc.).</li>\n<li>Answer inbound calls while utilizing a multi-line phone system.</li>\n<li>Communicate with internal and external stakeholders.</li>\n<li>Special projects as assigned (audits, process documentation, research, etc.).</li>\n<li>Monitor camera alarms for assigned sites/stations and act accordingly based on the events and severity of activity observed.</li>\n<li>Able to multitask using different computer programs.</li>\n<li>Ability to work under pressure while observing and handling live criminal events.</li>\n<li>Experience with Microsoft Office Word, Excel.</li>\n<li>Ability to effectively use Google maps.</li>\n<li>Ability to maintain confidentiality of legally protected information.</li>\n<li>Ability to work in a fast-paced environment and manage multiple priorities.</li>\n</ul>\n<h3>Your Qualifications</h3>\n<ul>\n<li>Authorized to work in the United States</li>\n<li>A high school diploma or equivalent (GED)</li>\n<li>Able to pass an extensive screening process</li>\n<li>Add additional qualifications as needed/required.</li>\n<li>Must always remain alert during working hours.</li>\n<li>Ability to sit for long periods of time.</li>\n</ul>\n<h3>Your Skills and Competencies</h3>\n<ul>\n<li>Composure – Can handle stress, does not get knocked off balance by the unexpected</li>\n<li>Timely Decision Making – Able to make quick decisions under tight deadlines and pressure.</li>\n<li>Decision Quality – Most decisions are correct and accurate using analysis, wisdom, judgment, and experience.</li>\n<li>Strong typing skills, 40 wpm – minimum.</li>\n<li>Strong attention to detail skills.</li>\n</ul>\n<h3>ECAMSECURE: Safeguarding Sites with Innovation</h3>\n<p>ECAMSECURE, a GardaWorld company, is a leader in security technology and remote surveillance. With a mission to deliver smarter, more efficient security solutions, ECAMSECURE protects construction sites, commercial properties, and critical infrastructure with cutting-edge mobile surveillance units, AI-driven monitoring, and professional guard services. Their integrated approach helps clients reduce risk, prevent loss, and maintain peace of mind—24/7.</p>\n<p>It is the policy of ECAMSECURE to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, ECAMSECURE complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of ECAMSECURE not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.</p></div>",
-      "job_highlights": [
-        {
-          "items": [
-            "Proficiency in video monitoring software, Microsoft Office, and Google Maps is essential",
-            "This position requires the ability to remain highly focused and alert while sitting for extended periods, and you must be comfortable working nights, weekends, and holidays to support our 24/7 security operation",
-            "Ability to work under pressure while observing and handling live criminal events",
-            "Experience with Microsoft Office Word, Excel",
-            "Ability to effectively use Google maps",
-            "Ability to maintain confidentiality of legally protected information",
-            "Ability to work in a fast-paced environment and manage multiple priorities",
-            "Authorized to work in the United States",
-            "A high school diploma or equivalent (GED)",
-            "Able to pass an extensive screening process",
-            "Add additional qualifications as needed/required",
-            "Must always remain alert during working hours",
-            "Ability to sit for long periods of time",
-            "Composure – Can handle stress, does not get knocked off balance by the unexpected",
-            "Timely Decision Making – Able to make quick decisions under tight deadlines and pressure",
-            "Decision Quality – Most decisions are correct and accurate using analysis, wisdom, judgment, and experience",
-            "Strong typing skills, 40 wpm – minimum",
-            "Strong attention to detail skills",
-            "15 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Competitive Pay: $20.00 / hour",
-            "Work Site Location: Dallas, TX",
-            "Schedule: May include weekdays, weekends, and varying shifts",
-            "Willingness to work nights, weekends, and holidays, as needed",
-            "Comprehensive Benefits: Medical, dental, and vision insurance plans, 401(k) with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
-            "Career Growth: Career growth opportunities at GardaWorld",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role, you will be at the forefront of our security operations, monitoring live and recorded camera footage to identify and respond to potential security risks",
-            "Your keen eye for detail and strong decision-making skills will be crucial as you assess suspicious activities, follow client-specific protocols, and take swift action by contacting authorities when necessary",
-            "As an Escalations Specialist, you will need to multitask across various computer programs, communicate effectively with both internal and external stakeholders, and maintain the highest level of confidentiality when handling sensitive information",
-            "If you thrive in a fast-paced environment and are committed to ensuring the safety and security of our clients, we encourage you to apply and become a vital part of our team",
-            "Review camera footage and assess potential security risk events",
-            "Responsible for understanding client-specific requirements and protocols",
-            "Deter suspicious or unwanted activity from client properties",
-            "Responsible for contacting appropriate authorities with urgency (Police, Fire, Guard, etc.)",
-            "Answer inbound calls while utilizing a multi-line phone system",
-            "Communicate with internal and external stakeholders",
-            "Special projects as assigned (audits, process documentation, research, etc.)",
-            "Monitor camera alarms for assigned sites/stations and act accordingly based on the events and severity of activity observed",
-            "Able to multitask using different computer programs",
-            "10 more items(s)"
           ],
           "title": "Responsibilities"
         }
