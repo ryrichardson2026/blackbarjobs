@@ -56,6 +56,10 @@
       window.open(url, "_blank"); return false;   // row-body click has no href to follow
     }
     if (event) event.preventDefault();            // gate: stop the anchor navigating
+    // Stash the specific job so the register overlay's success splash can hand the user a
+    // working "Continue to your application" link (Task 1). bbj-feed.js is the live apply
+    // path on the security hub pages, and unlike bbj-board.js it did not set this before.
+    try { sessionStorage.setItem("bbj_pending_job", url); } catch (e) {}
     if (typeof bbjAccOpen === "function") { bbjAccOpen(); } else { window.open(url, "_blank"); }
     return false;
   };
@@ -75,6 +79,8 @@
     window.indexViewsThisSession = (window.indexViewsThisSession || 0) + 1;
     if (window.indexViewsThisSession <= 2) { return true; }
     if (event) event.preventDefault();
+    // Same as bbjHandleApply: stash the job for the overlay's Continue link (Task 1).
+    try { sessionStorage.setItem("bbj_pending_job", url); } catch (e) {}
     if (typeof bbjAccOpen === "function") { bbjAccOpen(); } else { window.open(url, "_blank"); }
     return false;
   };
