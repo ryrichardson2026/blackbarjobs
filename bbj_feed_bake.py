@@ -255,6 +255,15 @@ def splice_container(html, loc, cards):
 SCHEMA_START = "<!--BBJ_SCHEMA_START-->"
 SCHEMA_END = "<!--BBJ_SCHEMA_END-->"
 
+# Task 0 (2026-08-18): JobPosting must never render on a multi-job list/hub page
+# (Google policy: JobPosting markup is only permitted on a page containing exactly one
+# job; see DG7). This is the SINGLE build-time gate for the whole site. When False,
+# splice_schema writes an EMPTY BBJ_SCHEMA marker pair instead of any objects; the
+# markers stay on the page so this is reversible in one line. Flip back to True only
+# for a surface that contains exactly ONE job (the per-job pages, Task 5), never for a
+# hub / metro / board list page.
+EMIT_JOBPOSTING = False
+
 # schedule -> Google employmentType. Emitted ONLY on an exact match; anything
 # else (None, "Per diem", etc.) omits the field rather than guessing.
 EMPLOYMENT_TYPE = {
@@ -395,6 +404,9 @@ def splice_schema(html, jobs):
         return html, 0                                  # no schema region on this page
     if si == -1 or ei == -1 or ei < si:
         raise BakeError("unbalanced BBJ_SCHEMA markers")
+    if not EMIT_JOBPOSTING:                             # Task 0 gate (DG7): no JobPosting
+        inner_start = si + len(SCHEMA_START)            # on any multi-job list page. Empty
+        return html[:inner_start] + html[ei:], 0        # the region, keep the markers.
     objs, dropped = build_job_postings(jobs)
     if len(objs) > len(jobs):                           # objects must be a card subset
         raise BakeError("schema objects %d exceed cards %d" % (len(objs), len(jobs)))
