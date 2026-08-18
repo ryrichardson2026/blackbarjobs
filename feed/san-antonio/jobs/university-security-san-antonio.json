@@ -1,28 +1,44 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "san-antonio/jobs/university-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 10,
-  "exact": 8,
+  "exact": 9,
   "jobs": [
     {
-      "title": "Campus Security Officer - Parking & Traffic Flexible",
-      "company": "Comal Independent School District",
+      "job_hash": "d22b54b588ee",
+      "title": "Campus Peace Officer – TCOLE-Certified Patrol & Investigations",
+      "company": "Trinity University",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "university",
-      "pay": "20,664–30,307 a year",
-      "pay_min": 20664.0,
-      "pay_max": 30307.0,
+      "role": "school",
+      "pay": "33,021–41,272 a year",
+      "pay_min": 33021.0,
+      "pay_max": 41272.0,
       "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-09",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/entertainment/5331013009/e/",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://bebee.com/us/jobs/campus-peace-officer-tcole-certified-patrol-investigations-trinity-university-san-antonio--pureheal-28528_25298_2532eed7cae55b75cc59e8079ac48cb0",
       "via": "via JobLeads",
-      "description": "<p>Comal Independent School District is seeking a security professional to provide safety for students and vehicles in the student parking lot and to monitor traffic at the entrance gate. The role includes accompanying drug dogs during searches and assisting administration in related activities.</p><p>Under general supervision, you will register student vehicles, inform students of issues, and coordinate with office staff. Flexibility for after-school events and summer duties may be required.</p>"
+      "description": "<p>Trinity University is seeking a Police Officer to uphold Texas law and university policies, serving a diverse campus community with professionalism. The role emphasizes safety, integrity and rapid decision-making in emergency contexts.</p><p>Starting pay is $28.85 per hour; the compensation range is $23.97–$29.96 per hour. Requires TX Peace Officer certification; non-exempt, full-time, on-site position at Trinity University.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Requires TX Peace Officer certification; non-exempt, full-time, on-site position at Trinity University"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Starting pay is $28.85 per hour; the compensation range is $23.97–$29.96 per hour"
+          ],
+          "title": "Benefits"
+        }
+      ]
     },
     {
+      "job_hash": "b7334eb72eec",
       "title": "Campus Police Dispatcher — 24/7 Emergency Communications",
       "company": "University Of The, Inc.arnate Word",
       "location": "San Antonio, TX",
@@ -36,14 +52,57 @@
       "posted_date": "2026-08-09",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/government/5344177886/e/",
       "via": "via JobLeads",
-      "description": "<p>University of the Incarnate Word is seeking a Police Dispatcher to receive, assess and document emergency and non-emergency calls and dispatch campus police and security officers with pertinent information. The position reports to the University Police Lieutenant.</p><p>The role requires passing a physical and psychological evaluation per TCOLE standards and offers a robust benefits package for full-time staff.</p>"
+      "description": "<p>University of the Incarnate Word is seeking a Police Dispatcher to receive, assess and document emergency and non-emergency calls and dispatch campus police and security officers with pertinent information. The position reports to the University Police Lieutenant.</p><p>The role requires passing a physical and psychological evaluation per TCOLE standards and offers a robust benefits package for full-time staff.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "University of the Incarnate Word is seeking a Police Dispatcher to receive, assess and document emergency and non-emergency calls and dispatch campus police and security officers with pertinent information",
+            "The position reports to the University Police Lieutenant",
+            "The role requires passing a physical and psychological evaluation per TCOLE standards and offers a robust benefits package for full-time staff"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "1fe93bce161c",
+      "title": "Campus Security Officer - Parking & Traffic Flexible",
+      "company": "Comal Independent School District",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "university",
+      "pay": "20,664–30,307 a year",
+      "pay_min": 20664.0,
+      "pay_max": 30307.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-09",
+      "apply_link": "https://www.jobleads.com/us/job/campus-security-officer-parking-traffic-flexible--san-antonio--e0fe3c69819e2c7e2d9d98fc50164c91d",
+      "via": "via JobLeads",
+      "description": "<p>Comal Independent School District is seeking a security professional to provide safety for students and vehicles in the student parking lot and to monitor traffic at the entrance gate. The role includes accompanying drug dogs during searches and assisting administration in related activities.</p><p>Under general supervision, you will register student vehicles, inform students of issues, and coordinate with office staff. Flexibility for after-school events and summer duties may be required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Flexibility for after-school events and summer duties may be required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role includes accompanying drug dogs during searches and assisting administration in related activities",
+            "Under general supervision, you will register student vehicles, inform students of issues, and coordinate with office staff"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "3ad07bfdff81",
       "title": "Evening Security Officer — Tech Campus, Growth & Benefits",
       "company": "Allied Universal",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "unarmed",
+      "role": "school",
       "pay": "16K–23K a year",
       "pay_min": 16000.0,
       "pay_max": 23000.0,
@@ -52,9 +111,24 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://www.jobleads.com/us/job/evening-security-officer-tech-campus-growth-benefits--san-antonio--ed137b1c47455deec3efa9e000f596d94",
       "via": "via JobLeads",
-      "description": "<p>Allied Universal is looking for a Full Time Security Officer in San Antonio, TX to provide customer service to employees, visitors, and contractors at a technology, media, and telecom site. You will handle security procedures, monitor access, and respond to incidents in a calm, professional manner.</p><p>Requires a high school diploma or equivalent and a valid driver’s license; CPR and alarm panel experience are preferred. Background checks and drug screening are required as conditions of employment.</p>"
+      "description": "<p>Allied Universal is looking for a Full Time Security Officer in San Antonio, TX to provide customer service to employees, visitors, and contractors at a technology, media, and telecom site. You will handle security procedures, monitor access, and respond to incidents in a calm, professional manner.</p><p>Requires a high school diploma or equivalent and a valid driver’s license; CPR and alarm panel experience are preferred. Background checks and drug screening are required as conditions of employment.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Background checks and drug screening are required as conditions of employment"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will handle security procedures, monitor access, and respond to incidents in a calm, professional manner"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "8e18f9f0f436",
       "title": "Campus Security Guard: Patrol, Monitor, Respond",
       "company": "Roosevelt School District 66",
       "location": "San Antonio, TX",
@@ -68,41 +142,112 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5336210295/e/",
       "via": "via Learn4Good",
-      "description": "Roosevelt School District 66 is seeking a Security Guard to monitor district facilities and deter unauthorized activity. You will patrol campuses, enforce policies, and assist in emergencies, reporting incidents to administration as needed.The role requires vigilance, good decision-making, and the ability to communicate clearly in English. A valid driver’s license and liability insurance are required, with work across multiple district locations in all weather conditions.#J-18808-Ljbffr"
+      "description": "Roosevelt School District 66 is seeking a Security Guard to monitor district facilities and deter unauthorized activity. You will patrol campuses, enforce policies, and assist in emergencies, reporting incidents to administration as needed.The role requires vigilance, good decision-making, and the ability to communicate clearly in English. A valid driver’s license and liability insurance are required, with work across multiple district locations in all weather conditions.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires vigilance, good decision-making, and the ability to communicate clearly in English",
+            "A valid driver’s license and liability insurance are required, with work across multiple district locations in all weather conditions"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Roosevelt School District 66 is seeking a Security Guard to monitor district facilities and deter unauthorized activity",
+            "You will patrol campuses, enforce policies, and assist in emergencies, reporting incidents to administration as needed"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Campus Control Officer - Weekends; Part-time",
-      "company": "GoodHeart Brand Specialty Foods",
+      "job_hash": "2e99c66fe6dc",
+      "title": "Public Safety Officer (Guard), University Police",
+      "company": "The University of Texas at San Antonio",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "school",
-      "pay": "22,041–33,062 a year",
-      "pay_min": 22041.0,
-      "pay_max": 33062.0,
-      "pay_unit": "YEAR",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5318044825/e/",
-      "via": "via Learn4Good",
-      "description": "Position: Campus Control Officer - Weekends (Part-time) Job SummaryThe Weekend Campus Control Officer is responsible for monitoring access to the facility, assisting employees, visitors, vendors, and drivers entering the property, conducting routine facility rounds, and reporting safety, security, or facility concerns. This position serves as a visible point of contact during weekend operations and helps ensure established access‑control and facility procedures are followed.Essential Job Duties and ResponsibilitiesMonitor and control vehicle and pedestrian access to the facility in accordance with company procedures.Verify employees, visitors, vendors, contractors, and drivers are authorized to enter the property.Issue temporary parking permits or visitor identification, assist with required visitor documentation, and direct visitors to appropriate locations.Conduct routine walking patrols and facility rounds to identify unsecured doors, unusual activity, safety hazards, facility concerns, or other conditions requiring attention.Monitor surveillance cameras, access points, alarms, and other designated facility monitoring systems.Observe and report suspicious activity, policy violations, safety concerns, or potential criminal activity to appropriate management personnel.Contact management, law enforcement, fire, EMS, or other emergency services according to established procedures when circumstances require emergency assistance.Respond to alarms, distress calls, and reported facility concerns by assessing the situation, notifying appropriate personnel, and following established response procedures.Perform and document assigned facility checks, including designated temperature readings, doors, alarms, or other facility conditions, and promptly report abnormalities.Maintain accurate visitor, vehicle, incident, facility, and activity logs.Prepare clear and accurate shift or incident reports documenting significant observations, events, and actions taken.Preserve and identify relevant surveillance footage when requested by authorized management.Maintain professional and courteous communication with employees, visitors, drivers, vendors, contractors, and management.Follow all company safety, GMP, food safety, confidentiality, and facility‑access requirements.Perform other related duties as assigned.Education and Experience High school diploma or GED required.Six months to two years of experience in access control, gate operations, security, warehouse/logistics, manufacturing, customer service, or a similar role preferred.Previous experience monitoring a facility, controlling visitor or vehicle access, or maintaining activity logs preferred.Bilingual English/Spanish preferred.Skills and AbilitiesAbility to read, write, speak, and understand English sufficiently to communicate effectively, follow written procedures, and complete required reports.Strong observation skills with attention to detail.Ability to remain calm and use sound judgment during unusual or emergency situations.Strong customer‑service and interpersonal skills.Ability to communicate professionally with employees, drivers, visitors, vendors, emergency responders, and management.Ability to accurately complete written and electronic logs and incident reports.Basic ability to operate computers, surveillance monitors, phones, radios, and other access‑control equipment.Ability to follow established procedures and appropriately escalation concerns rather than independently taking unnecessary enforcement action.Dependable and able to work independently with limited supervision.Physical and Scheduling RequirementsAbility to stand for extended periods during the scheduled shift.Ability to walk throughout the facility and property for approximately 2–4 hours during a shift, including conducting scheduled facility rounds.Ability to work in indoor and outdoor environments and in varying weather conditions as required.Regular weekend availability is required.Ability to work occasional holidays or additional shifts based on business needs.#J-18808-Ljbffr"
-    },
-    {
-      "title": "HS Campus Security Guard",
-      "company": "Comal Independent School District",
-      "location": "New Braunfels, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": null,
-      "pay_min": null,
+      "role": "university",
+      "pay": "3,075 a month",
+      "pay_min": 3075.0,
       "pay_max": null,
-      "pay_unit": null,
+      "pay_unit": "MONTH",
       "schedule": "Full-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.monster.com/job-openings/hs-campus-security-guard-new-braunfels-tx--7a0cf155-da4a-4877-bee0-c233bd15aa49",
-      "via": "via Monster",
-      "description": "<p>Primary Purpose:</p><p>Under general supervision, provide security and protection for students and vehicles in student parking lot. Monitor student, visitor, and vendor traffic at entrance gate. Accompany drug dogs and assist administration in searching of identified vehicles.</p><p>Education / Certification:</p><ul><li>High School Diploma or GED.</li></ul><p>Special Knowledge / Skills:</p><ul><li>Ability to record information.</li><li>Ability to follow verbal and written instructions.</li><li>Ability to work effectively with high school students.</li><li>Ability to communicate effectively (verbally).</li></ul><p>Experience / Other Requirements:</p><ul><li>Previous security or law enforcement experience is preferred.</li></ul><p>Major Responsibilities and Duties:</p><p>Student Management</p><ul><li>Monitor student behavior and enforce school rules related to student conduct, vehicle operation, and parking.</li><li>Resolve conflict or confrontation between students and report disturbances to principal or assistant principal.</li><li>Control traffic and parking on campus grounds. Write citations when necessary.</li><li>Assist administration in vehicle searches.</li></ul><p>Security and Parking</p><ul><li>Register student vehicles and maintain accurate records of registration.</li><li>Work cooperatively with office personnel to inform students of problems with vehicles (i.e., improperly parked, lights on, etc.)</li><li>Assist law enforcement personnel as needed.</li><li>Notify police, fire department, or other appropriate authority of any situation requiring immediate attention.</li><li>Give directions or act as a guide to authorized visitors.</li><li>Flex working times if necessary to cover after school hour events. (Example: Come in at 1:00 pm if needed to work traffic for football games.)</li><li>Other duties as assigned; could include working in Maintenance & Operations or Transportation in the summer.</li></ul><p>Supervisor Responsibilities:</p><p>None.</p><br><p><b>Skills:</b><br>Communication Skills, Conflict Resolution, Firefighting, Football, High School Diploma, Law Enforcement, Presentation/Verbal Skills, Record Keeping, Secondary School, Student Conduct, Writing Skills</p><br><p><b>undefined:</b><br>Comal Independent School District</p><br><br>"
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/the-chronicle-of-higher-education-inc/san-antonio/public-safety-officer-guard-university-police-131301786/",
+      "via": "via BeBee",
+      "description": "<p><strong>Location:</strong> San Antonio, TX</p>\n<h4><strong>Regular/Temporary:</strong> Regular</h4>\n<h4><strong>Job ID:</strong> 15551</h4>\n<h4><strong>Full/Part Time:</strong> Full Time</h4>\n<strong>Position Information</strong> <strong>The University of Texas at San Antonio</strong> (UT San Antonio) is a nationally recognized, top-tier public research university that unites the power of higher education, biomedical discovery and healthcare within one visionary institution. As the third-largest research university in Texas and a Carnegie R1-designated institution, UT San Antonio is a model of access and excellence - advancing knowledge, social mobility and public health across South Texas and beyond. UT San Antonio serves approximately 42,000 students in 320 academic programs spanning science, engineering, medicine, health, liberal arts, AI, cybersecurity, business, education and more.\n<p>With 17,000 faculty and staff, UT San Antonio has also been recognized as a Top Employer in Texas by Forbes Magazine. Learn more online, on UT San Antonio Today or on X, Instagram, Facebook, YouTube or LinkedIn.</p>\n<p><strong>Salary Range</strong>: $36,894 annualized, commensurate with education, experience, and qualifications.</p>\n<h4><strong>Job Type</strong>: Full Time</h4>\n<strong>Posting Close Date</strong>: Applications will be accepted through 11:59 PM CDT on 07/25/2026. At the discretion of the hiring department, this posting may close once a sufficient number of qualified applications have been received.\n<h4><strong>Required Application Materials</strong></h4>\n<ul>\n<li>Resume is required\n<h4></h4></li>\n<li>Cover Letter is preferred\n<h4><strong>Job Details</strong></h4>\n<strong>Job Summary</strong> The Public Safety Officer is responsible for providing security in the protection, safety and welfare of students, employees, visitors and property within the control and jurisdiction of a component institution of The University of Texas System; operates within the limits prescribed by the Rules and Regulations of the Board of Regents, institutional rules and regulations and departmental policies and procedures. Serves as a Campus Security Authority as defined by the Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act (Clery Act). Enforce the rules and regulations of the University of Texas System Administration pertaining to the safeguarding of students, employees, visitors, property, and buildings of the University of Texas at San Antonio.\n<h4><strong>Core Responsibilities</strong></h4>\n<ul>\n<li>Enforces the rules, regulations, policies and procedures of the University of Texas System and the University</li>\n<li>Conducts regular patrols (on foot, golf cart, motor vehicle to include a truck, and by bicycle if certified) of both the main and downtown campuses.</li>\n<li>Conducts guard tours of controlled spaces, patrols buildings, parking lots, and other UTSA controlled property to assists with asset protection, provide security presence and prevent crime.</li>\n<li>Patrols buildings and grounds to check for fires, water leaks, and potential security and safety hazards. Investigates and reports abnormalities.</li>\n<li>Assists with security surveys to look for safety and security deficiencies such as lighting, landscaping and safety concerns.</li>\n<li>Inspects emergency phones and other security equipment.</li>\n<li>Assists with emergency response and provides emergency assistance when needed</li>\n<li>Provides security support for special events such as weddings, sporting events, concerts etc. by opening and closing facilities, conducting security sweeps, assigned fixed posts, bag checks, security camera surveillance etc.</li>\n<li>Provides customer service to the public by providing security escorts, motorist assistance; provides information and direction to students, employees, and visitors; directs traffic.</li>\n<li>Utilizes a handheld radio for communication to dispatch, supervisor and other Public Safety officers and Police.</li>\n<li>Writes electronic reports; takes observational field notes.</li>\n<li>Unlocks and secures buildings, classrooms in both public and non-public areas, reports issues regarding the function and maintenance of entries and exits to include doors, door locks and other security systems.</li>\n<li>Responds to calls for service, alarms, and /or observed behaviors. Provides requested services in a timely manner and in accordance with policies and procedures.</li>\n<li>Examines credentials of persons desiring to enter controlled areas.</li>\n<li>Attends meetings and training.</li>\n<li>Assist security service and police teams.</li>\n<li>Performs other duties as assigned. Other duties to include, but not limited to, emergency recall and/or may be required to remain onsite or work extended hours during man-made or natural disasters and unusual occurrences on campus.\n<strong>Required Qualifications</strong>\n<p></li> <li>High school graduate or equivalent.</li> <li>One (1) year of demonstrated ability to uphold responsibilities, reliably meet commitments and expectations, and exhibit dependability and accountability through employment, volunteer work, or community involvement</li> <li>Must have the physical and mental capabilities to properly carry out his or her responsibilities and duties as a guard of The University of Texas System Police.</li> <li>Continued employment contingent upon completion of a required formal field training program and achievement of sufficient proficiency.</li> <li>Valid Texas State Driver's License.</li></p>\n<p><li>Must be eligible to work in secure and/or restricted-access facilities and demonstrate the ability to meet all compliance standards, including those mandated by grant funding agencies and site-specific security protocols.</li> <li>Eyesight and hearing shall be of sufficient acuity to accomplish the job duties described.</li> <li>This position requires the ability to maintain the security and integrity of UT San Antonio and its infrastructure per Texas EO-GA-48</li></p>\n<p><strong>Knowledge, Skills, and Abilities</strong></p>\n<p></ul></li>\n<li>Communication.</li>\n<li>Microsoft Office Suite.</li>\n<li>Familiarity and experience with Police Department equipment.</li>\n<li>Sharp Acumen.\n<strong>Working Conditions</strong></p>\n<p></li> <li>Work involves a high degree of hazard normally associated with law enforcement.</li> <li>May be required to work either day or night on any one of three shifts with varying days off.</li>\n<li>Exposure to outside weather conditions.</li> <li>Must be flexible to work evenings, weekends and holidays.</li> <li>Required walking and standing shall be done without the aid of canes, crutches or similar tools.</li></p>\n<p><li>Public Safety Officers must be willing to work assigned shifts, which may include dayshift, evening shift, overnight midnight shifts and power shifts that cover the most populated times of the day at both Main campus and Downtown campus.</li> <li>Public Safety Officers are assigned to work varying shifts based on seniority to cover the campus 24/7 and shift change periods.</li></p>\n<p><strong>Physical Demands</strong> <li>Must be able to walk, climb stairs, stand, sit, both inside and outside areas for extended periods of time.</li></p>\n<p>This position will be located on <strong>the main and/or downtown campus</strong>. Must be flexible to work at either campus as needed. Travel and parking expenses are the employee's responsibility.</p>\n<p>This position is contingent upon a successful background check. Verification of a valid driver's license and Motor Vehicle Record (MVR) may be completed as applicable. Applicants selected must be able to show proof of eligibility to work in the United States by time of hire.</p>\n<p></ul> <strong>Equal Employment Opportunity</strong> As an equal employment opportunity and affirmative action employer, it is the policy of The University of Texas at San Antonio to promote and ensure equal employment...",
+      "job_highlights": [
+        {
+          "items": [
+            "Resume is required",
+            "High school graduate or equivalent",
+            "One (1) year of demonstrated ability to uphold responsibilities, reliably meet commitments and expectations, and exhibit dependability and accountability through employment, volunteer work, or community involvement",
+            "Must have the physical and mental capabilities to properly carry out his or her responsibilities and duties as a guard of The University of Texas System Police",
+            "Continued employment contingent upon completion of a required formal field training program and achievement of sufficient proficiency",
+            "Valid Texas State Driver's License",
+            "Must be eligible to work in secure and/or restricted-access facilities and demonstrate the ability to meet all compliance standards, including those mandated by grant funding agencies and site-specific security protocols",
+            "Eyesight and hearing shall be of sufficient acuity to accomplish the job duties described",
+            "This position requires the ability to maintain the security and integrity of UT San Antonio and its infrastructure per Texas EO-GA-48",
+            "Communication",
+            "Microsoft Office Suite",
+            "Familiarity and experience with Police Department equipment",
+            "Sharp Acumen",
+            "Must be able to walk, climb stairs, stand, sit, both inside and outside areas for extended periods of time",
+            "This position will be located on the main and/or downtown campus",
+            "Must be flexible to work at either campus as needed",
+            "Verification of a valid driver's license and Motor Vehicle Record (MVR) may be completed as applicable",
+            "Applicants selected must be able to show proof of eligibility to work in the United States by time of hire",
+            "15 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary Range: $36,894 annualized, commensurate with education, experience, and qualifications"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Job Summary The Public Safety Officer is responsible for providing security in the protection, safety and welfare of students, employees, visitors and property within the control and jurisdiction of a component institution of The University of Texas System; operates within the limits prescribed by the Rules and Regulations of the Board of Regents, institutional rules and regulations and departmental policies and procedures",
+            "Enforce the rules and regulations of the University of Texas System Administration pertaining to the safeguarding of students, employees, visitors, property, and buildings of the University of Texas at San Antonio",
+            "Enforces the rules, regulations, policies and procedures of the University of Texas System and the University",
+            "Conducts regular patrols (on foot, golf cart, motor vehicle to include a truck, and by bicycle if certified) of both the main and downtown campuses",
+            "Conducts guard tours of controlled spaces, patrols buildings, parking lots, and other UTSA controlled property to assists with asset protection, provide security presence and prevent crime",
+            "Patrols buildings and grounds to check for fires, water leaks, and potential security and safety hazards",
+            "Investigates and reports abnormalities",
+            "Assists with security surveys to look for safety and security deficiencies such as lighting, landscaping and safety concerns",
+            "Inspects emergency phones and other security equipment",
+            "Assists with emergency response and provides emergency assistance when needed",
+            "Provides security support for special events such as weddings, sporting events, concerts etc",
+            "by opening and closing facilities, conducting security sweeps, assigned fixed posts, bag checks, security camera surveillance etc",
+            "Provides customer service to the public by providing security escorts, motorist assistance; provides information and direction to students, employees, and visitors; directs traffic",
+            "Utilizes a handheld radio for communication to dispatch, supervisor and other Public Safety officers and Police",
+            "Writes electronic reports; takes observational field notes",
+            "Unlocks and secures buildings, classrooms in both public and non-public areas, reports issues regarding the function and maintenance of entries and exits to include doors, door locks and other security systems",
+            "Responds to calls for service, alarms, and /or observed behaviors",
+            "Provides requested services in a timely manner and in accordance with policies and procedures",
+            "Examines credentials of persons desiring to enter controlled areas",
+            "Attends meetings and training",
+            "Assist security service and police teams",
+            "Performs other duties as assigned",
+            "Other duties to include, but not limited to, emergency recall and/or may be required to remain onsite or work extended hours during man-made or natural disasters and unusual occurrences on campus",
+            "Work involves a high degree of hazard normally associated with law enforcement",
+            "May be required to work either day or night on any one of three shifts with varying days off",
+            "Exposure to outside weather conditions",
+            "Must be flexible to work evenings, weekends and holidays",
+            "Required walking and standing shall be done without the aid of canes, crutches or similar tools",
+            "Public Safety Officers must be willing to work assigned shifts, which may include dayshift, evening shift, overnight midnight shifts and power shifts that cover the most populated times of the day at both Main campus and Downtown campus",
+            "Public Safety Officers are assigned to work varying shifts based on seniority to cover the campus 24/7 and shift change periods",
+            "Travel and parking expenses are the employee's responsibility",
+            "28 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "499f7107a603",
       "title": "School Campus Security Officer",
       "company": "SENTRYSIX Defense Group, Inc.",
       "location": "San Antonio, TX",
@@ -116,9 +261,11 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/sentrysix-defense-group-inc/san-antonio/school-campus-security-officer-104224607/",
       "via": "via Talents By Vaia",
-      "description": "Position Overview SENTRYSIX International is seeking highly professional and proactive Campus Security Officers to support the safety and security of educational environments. This position is responsible for protecting students, staff, and visitors through visible deterrence, active patrol, and rapid response to incidents.  Our officers represent the SENTRYSIX standard—disciplined, service-oriented professionals committed to safeguarding communities through vigilance, integrity, and leadership.  Core Responsibilities  Conduct high-visibility patrols of campus buildings, grounds, parking lots, and perimeter areas  Monitor and operate surveillance systems, alarm systems, and access control points  Enforce school policies, safety procedures, and applicable state laws  Respond immediately to emergencies, disturbances, and suspicious activityServe as a deterrent to criminal or disruptive behavior through professional presence  Control campus access and screen visitors in accordance with school protocols  Prepare detailed, accurate, and timely incident and daily activity reports  Assist school administration with emergency preparedness and response procedures  Provide security coverage for school events, extracurricular activities, and after-hours functions  Coordinate with local law enforcement, first responders, and school officials as needed  Identify vulnerabilities, hazards, and security risks, and report them through proper channels  Minimum Qualifications  Must be 21 years of age or older  Must possess a valid Texas Private Security Level III (Commissioned) License  High school diploma or GED required  Valid Texas driver’s license with a clean driving record  Prior experience in law enforcement, military, or professional security preferred  Required Competencies  Strong situational awareness and observational skills  Ability to remain composed and make sound decisions under pressure  Professional communication and report writing abilities  Knowledge of use-of-force standards and de-escalation techniques  High level of integrity, accountability, and reliability  Ability to engage positively with students, staff, and the public while maintaining authority  Physical Requirements  Ability to stand and walk for extended periods  Ability to conduct foot and vehicle patrols across large campuses  Capability to respond quickly and effectively during emergencies  Ability to lift/move up to [X] pounds if required  Work Environment  Active school campus setting (indoor and outdoor)  Exposure to varying weather conditions  May require flexible scheduling, including evenings, weekends, and special events  SENTRYSIX Standards & Expectations  Maintain a professional appearance and command presence at all times  Uphold SENTRYSIX core values: Integrity, Vigilance, Service, and Leadership  Adhere to all company policies, post orders, and client expectations  Commit to continuous training and professional development  Pre-Employment Requirements  Successful completion of background investigation  Drug screening (if required by contract)  Verification of licensing and credentials  #J-18808-Ljbffr\n\nSalary: USD 40000 - 50000 per year"
+      "description": "Position Overview SENTRYSIX International is seeking highly professional and proactive Campus Security Officers to support the safety and security of educational environments. This position is responsible for protecting students, staff, and visitors through visible deterrence, active patrol, and rapid response to incidents.  Our officers represent the SENTRYSIX standard—disciplined, service-oriented professionals committed to safeguarding communities through vigilance, integrity, and leadership.  Core Responsibilities  Conduct high-visibility patrols of campus buildings, grounds, parking lots, and perimeter areas  Monitor and operate surveillance systems, alarm systems, and access control points  Enforce school policies, safety procedures, and applicable state laws  Respond immediately to emergencies, disturbances, and suspicious activityServe as a deterrent to criminal or disruptive behavior through professional presence  Control campus access and screen visitors in accordance with school protocols  Prepare detailed, accurate, and timely incident and daily activity reports  Assist school administration with emergency preparedness and response procedures  Provide security coverage for school events, extracurricular activities, and after-hours functions  Coordinate with local law enforcement, first responders, and school officials as needed  Identify vulnerabilities, hazards, and security risks, and report them through proper channels  Minimum Qualifications  Must be 21 years of age or older  Must possess a valid Texas Private Security Level III (Commissioned) License  High school diploma or GED required  Valid Texas driver’s license with a clean driving record  Prior experience in law enforcement, military, or professional security preferred  Required Competencies  Strong situational awareness and observational skills  Ability to remain composed and make sound decisions under pressure  Professional communication and report writing abilities  Knowledge of use-of-force standards and de-escalation techniques  High level of integrity, accountability, and reliability  Ability to engage positively with students, staff, and the public while maintaining authority  Physical Requirements  Ability to stand and walk for extended periods  Ability to conduct foot and vehicle patrols across large campuses  Capability to respond quickly and effectively during emergencies  Ability to lift/move up to [X] pounds if required  Work Environment  Active school campus setting (indoor and outdoor)  Exposure to varying weather conditions  May require flexible scheduling, including evenings, weekends, and special events  SENTRYSIX Standards & Expectations  Maintain a professional appearance and command presence at all times  Uphold SENTRYSIX core values: Integrity, Vigilance, Service, and Leadership  Adhere to all company policies, post orders, and client expectations  Commit to continuous training and professional development  Pre-Employment Requirements  Successful completion of background investigation  Drug screening (if required by contract)  Verification of licensing and credentials  #J-18808-Ljbffr\n\nSalary: USD 40000 - 50000 per year",
+      "job_highlights": null
     },
     {
+      "job_hash": "b1f534a18057",
       "title": "Campus Police Officer: Protect, Patrol, Respond",
       "company": "Our Lady of the Lake University",
       "location": "San Antonio, TX",
@@ -132,39 +279,104 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/our-lady-of-the-lake-university/san-antonio/campus-police-officer-protect-patrol-respond-73194014/",
       "via": "via Talents By Vaia",
-      "description": "A Texas educational institution seeks a Police Officer to ensure campus safety by preventing crime and enforcing laws. The role involves responding to emergencies, conducting patrols, and providing assistance to the university community. Ideal candidates will possess a high school diploma, a TCOLE peace officer’s license, and a valid Texas driver\\'s license. This position requires a commitment to public safety and the ability to work in stressful environments. Applications must be submitted online along with a resume. #J-18808-Ljbffr"
+      "description": "A Texas educational institution seeks a Police Officer to ensure campus safety by preventing crime and enforcing laws. The role involves responding to emergencies, conducting patrols, and providing assistance to the university community. Ideal candidates will possess a high school diploma, a TCOLE peace officer’s license, and a valid Texas driver\\'s license. This position requires a commitment to public safety and the ability to work in stressful environments. Applications must be submitted online along with a resume. #J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "Ideal candidates will possess a high school diploma, a TCOLE peace officer’s license, and a valid Texas driver's license",
+            "This position requires a commitment to public safety and the ability to work in stressful environments"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role involves responding to emergencies, conducting patrols, and providing assistance to the university community"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "GardaWorld is hiring: Security Guard - Surveillance in San Antonio",
-      "company": "GardaWorld",
+      "job_hash": "856251e8f6fb",
+      "title": "Campus Police Officer",
+      "company": "University of the Incarnate Word",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "armed",
+      "role": "university",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.recruit.net/job/gardaworld-is-security-guard-surveillance-jobs/21C80DC8D7D9295B",
-      "via": "via Recruit.net",
-      "description": "GardaWorld Security Services is Now Hiring a Surveillance Security Officer!<br />READY TO SUIT UP AS A SURVEILLANCE SECURITY GUARD?<br />What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens.<br />Tell us about your strong observation skills with attention to detail.<br />As a Security Officer – Surveillance, you will be the person spotting threats before they escape in environments such as a security operations centers, call centers, parking gatehouses, etc.<br />WHAT’S IN IT FOR YOU<br />* Set schedule:<br />* Friday - Sunday 6am-2pm / Monday 5am -2 pm (Full-Time/40 Hours)<br />* Competitive hourly wage of $16.50 (DailyPay is available for GardaWorld employees!)<br />* A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options<br />* Career growth opportunities at GardaWorld<br />* Uniform provided at no cost<br />RESPONSIBILITIES OF SURVEILLANCE SECURITY GUARD<br />* Monitor security systems to detect any suspicious activity<br />* Document observed events and incidents, writing detailed reports<br />* Respond quickly to incidents or potential threats<br />* Conduct regular patrols to ensure the safety of the premises<br />* Control access to secure areas and verify the identities of visitors<br />* Analyze security systems to identify potential vulnerabilities or malfunctions<br />* Collaborate with law enforcement in case of serious situations or emergencies<br />* Ensure the safety and protection of individuals and property<br />QUALIFICATIONS OF A SURVEILLANCE SECURITY GUARD<br />* Be authorized to work in the U.S.<br />* Be able to provide documentation of High School Diploma or GED<br />* Be able to ace (and pass) an extensive screening process<br />* Strong report writing skills<br />* Good eyesight and excellent abilities to maintain focus<br />* Strong proficiency with technology<br />* If you have Security, Military, Law Enforcement experience – even better!<br />* You have a state license if required<br />In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work.<br />This could be more than a job! 26% of our corporate employees started as frontline workers.<br />If you’re ambitious with an entrepreneurial spirit – someone who wants to be a GardaWorld Ambassador – a promising career awaits you!<br />GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.<br />Not the job for you?<br />Make sure to check out all our jobs!<br />We also have tactical, concierge, and even casual roles available.<br />It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws.<br />In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment.<br />This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training.<br />It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.<br />License # B07179<br />#J-18808-Ljbffr"
+      "posted_date": null,
+      "apply_link": "https://phdjobs.com/jobdetail-348769-campus-police-officer",
+      "via": "via Community College Jobs",
+      "description": "University of the Incarnate Word",
+      "job_highlights": null
     },
     {
-      "title": "Armed Security Access Control Specialist (Part-Time)",
-      "company": "Defense Consulting Services, LLC",
+      "job_hash": "873fe4300997",
+      "title": "Security Specialist/HARPS Guard I - PT On Call Floater hours",
+      "company": "Defense Consulting Services",
       "location": "San Antonio, TX",
       "vertical": "security",
-      "role": "data-center",
-      "pay": "28K–40K a year",
-      "pay_min": 28000.0,
-      "pay_max": 40000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://www.jobleads.com/us/job/armed-security-access-control-specialist-part-time--san-antonio--e39460a4315ce0c73899019e0a41bff3a",
-      "via": "via JobLeads",
-      "description": "<p>Defense Consulting Services, LLC is seeking a Part Time Service Worker to support armed access control at a DISA data center in San Antonio, TX. The role requires on-site presence, Level III certification, and 3 years of physical security experience.</p><p>The position is part-time with weekend shifts; compensation is hourly and commensurate with experience. Benefits include a competitive package and equal opportunity employment.</p>"
+      "role": "industrial",
+      "pay": "17.75 an hour",
+      "pay_min": 17.75,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.sonicjobs.com/us/jobs/san-antonio/full-time/evs---housekeeper-on-call---randolph-afb-6a4deda52a0e4b7f0ba40c36",
+      "via": "via ZipRecruiter",
+      "description": "<div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div><div><p>Position: <strong>PART-TIME PT Floater hours</strong></p><p><br/></p><p><strong>SCHEDULE: on-call floater hours</strong></p><p><br/></p><p>Specific Tasks. The following tasks are general duties for the HARPS personnel. Contracting Personnel (CP) providing service at JBSA-Lackland and Randolph, AFB shall perform the following tasks below; </p><p></p><p>ESSENTIAL JOB FUNCTIONS: • Monitor all electromagnetic door locks, door contact switches, duress alarms and answer all telephone calls within the HARPS/Information Desk Control Area. This area is defined as the Closed Circuit Television (CCTV) room, and the adjacent administrative area commonly referred to as the Information Desk. • Personnel will monitor the Identipass, Genetech, and Premisys access control systems. • Initial training for these systems will be provided by a company representative of which the system is being provided by. The contractor will then be responsible to train any new CP thereafter. • The government will phase out any of the systems that will eventually no longer be in use. • Operate, observe and evaluate CCTVs within the HARPS/Information Desk Control Area. • Use the Government provided radio system to notify the Facility Management staff and/or the base installation Security Forces on any alarm or police response situations. • Monitor operations and status of overall security network for the MTF from the centralized console. • Operate HARPS/Information Desk intercom system master station at the console to communicate with entry/exit points or incident locations. • Utilize overhead paging system to notify personnel of emergency codes and alarms. Communicate all information in a clear and concise manner. • Operate video recorder and playback at the request of Facility Management personnel. • Maintain security log and activate control devices for interior and exterior doors. • Receive transfer calls from designated wing agencies and take messages or forward calls to appropriate agencies. • Report and initiate an action report log on any emergency situation and provide comprehensive information to responding agencies and Facility Management staff when appropriate. • Maintain up to date roster of on-call and emergency contact personnel for required areas. • The CP report to an appropriate authority (DCS Supervisors, Security Forces, and Facility Managers) any information or circumstances, which may pose a threat to the security of DoD personnel, contractor personnel, resources, and classified or unclassified defense information. • Maintain Chronology of Events, Access Control logs and Alarm Reports at all times. Event logs will be documented in a professional manner utilizing appropriate grammar and punctuation and include all pertinent information covering the parameters of “Who, What, When, and Where.” Event logs will be sent to Facility Management on a daily basis no later than 0800 hrs. These documents are for official use only. • CP shall perform and document physical checks of assigned buildings, rooms and areas when electronic systems are degraded. This includes manual fire watch procedures when fire alarm systems are down and checks of controlled areas such as pharmacies when Intrution Detection Systems (IDS) are degraded. • Act as the information focal point for all medical groups' personnel, patients and visitors on all resource protection activities and the liaison on these issues to the facility management office. </p><p><br/></p><p>Qualifications.</p><div><ol><li>Have 12 months of experience as an alarm monitor or dispatcher, either in the military or civilian sector, within the last 3 years.</li><li>Skills and Knowledge. Must be able to use, at minimum, Access Control System, Genetech, and Microsoft Programs such as Word, Excel, and PowerPoint.</li><li>Shall be capable of sitting for an extended period of time during the course of their 8-hour shift, but are able to get up and move about within the area. CP shall be capable of bending, reaching, and lifting a minimum of 30 pounds to move and retrieve records or equipment, and may require prolonged walking and or standing.</li><li>Personnel must be able to communicate in a clear and concise manner and demonstrate a calm demeanor during high-stress situations</li></ol></div><p><br/></p></div></div></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Have 12 months of experience as an alarm monitor or dispatcher, either in the military or civilian sector, within the last 3 years",
+            "Skills and Knowledge",
+            "Must be able to use, at minimum, Access Control System, Genetech, and Microsoft Programs such as Word, Excel, and PowerPoint",
+            "Shall be capable of sitting for an extended period of time during the course of their 8-hour shift, but are able to get up and move about within the area",
+            "CP shall be capable of bending, reaching, and lifting a minimum of 30 pounds to move and retrieve records or equipment, and may require prolonged walking and or standing",
+            "Personnel must be able to communicate in a clear and concise manner and demonstrate a calm demeanor during high-stress situations",
+            "3 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Position: PART-TIME PT Floater hours",
+            "SCHEDULE: on-call floater hours",
+            "The following tasks are general duties for the HARPS personnel",
+            "Contracting Personnel (CP) providing service at JBSA-Lackland and Randolph, AFB shall perform the following tasks below;",
+            "Monitor all electromagnetic door locks, door contact switches, duress alarms and answer all telephone calls within the HARPS/Information Desk Control Area",
+            "This area is defined as the Closed Circuit Television (CCTV) room, and the adjacent administrative area commonly referred to as the Information Desk",
+            "Personnel will monitor the Identipass, Genetech, and Premisys access control systems",
+            "Initial training for these systems will be provided by a company representative of which the system is being provided by",
+            "The contractor will then be responsible to train any new CP thereafter",
+            "The government will phase out any of the systems that will eventually no longer be in use",
+            "Operate, observe and evaluate CCTVs within the HARPS/Information Desk Control Area",
+            "Use the Government provided radio system to notify the Facility Management staff and/or the base installation Security Forces on any alarm or police response situations",
+            "Monitor operations and status of overall security network for the MTF from the centralized console",
+            "Operate HARPS/Information Desk intercom system master station at the console to communicate with entry/exit points or incident locations",
+            "Utilize overhead paging system to notify personnel of emergency codes and alarms",
+            "Communicate all information in a clear and concise manner",
+            "Operate video recorder and playback at the request of Facility Management personnel",
+            "Maintain security log and activate control devices for interior and exterior doors",
+            "Receive transfer calls from designated wing agencies and take messages or forward calls to appropriate agencies",
+            "Report and initiate an action report log on any emergency situation and provide comprehensive information to responding agencies and Facility Management staff when appropriate",
+            "Maintain up to date roster of on-call and emergency contact personnel for required areas",
+            "The CP report to an appropriate authority (DCS Supervisors, Security Forces, and Facility Managers) any information or circumstances, which may pose a threat to the security of DoD personnel, contractor personnel, resources, and classified or unclassified defense information",
+            "Maintain Chronology of Events, Access Control logs and Alarm Reports at all times",
+            "Event logs will be documented in a professional manner utilizing appropriate grammar and punctuation and include all pertinent information covering the parameters of “Who, What, When, and Where.” Event logs will be sent to Facility Management on a daily basis no later than 0800 hrs",
+            "CP shall perform and document physical checks of assigned buildings, rooms and areas when electronic systems are degraded",
+            "This includes manual fire watch procedures when fire alarm systems are down and checks of controlled areas such as pharmacies when Intrution Detection Systems (IDS) are degraded",
+            "Act as the information focal point for all medical groups' personnel, patients and visitors on all resource protection activities and the liaison on these issues to the facility management office",
+            "24 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

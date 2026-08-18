@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/richmond-security-jobs",
   "market": "Houston",
   "target": "city",
@@ -7,6 +7,65 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "7a24e34406c2",
+      "title": "Security Officer Part Time Unarmed Patrol Assessment",
+      "company": "Allied Universal",
+      "location": "Richmond, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-08-10",
+      "apply_link": "https://www.jobleads.com/us/job/full-time-unarmed-security-officer-protect-serve--richmond--e7aaed8e9e03c675a0cef0b5989150cec",
+      "via": "via Teal",
+      "description": "<p>About the position</p><p>As a Security Officer Part Time Unarmed Patrol Assessment in Richmond, TX, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. As an Unarmed Patrol Officer supporting a dynamic technology, media, and telecommunications location, you will conduct routine patrols, maintain a visible presence to help deter incidents, and provide outstanding customer service. You will communicate clearly with employees and visitors while responding to security-related concerns. Join Allied Universal, where an agile, reliable, innovative team puts people first, delivers through teamwork, and acts with integrity.</p><p>Responsibilities</p><ul><li>Provide customer service to employees, visitors, contractors, and delivery personnel at a technology-focused location by carrying out security-related procedures, site-specific policies, and emergency response activities as appropriate.</li><li>Respond to incidents, access concerns, and critical situations in a calm, professional, problem-solving manner, escalating matters according to established protocols.</li><li>Conduct regular and random unarmed patrols of interior areas, exterior grounds, parking areas, and perimeter access points to help deter unauthorized activity and identify security-related concerns.</li><li>Monitor access points and verify visitor, contractor, and delivery credentials in accordance with site requirements while maintaining accurate activity logs and incident documentation.</li><li>Communicate observed hazards, suspicious activity, and operational concerns to site leadership and Allied Universal management, collaborating with appropriate personnel during response activities.</li></ul><p>Requirements</p><ul><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.</li></ul><p>Benefits</p><ul><li>Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Get paid training and access to career growth opportunities.</li><li>Participate in our retirement savings plan to invest in your future.</li><li>Enjoy discounts on top brands and services through our Perks Program.</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Get paid training and access to career growth opportunities",
+            "Participate in our retirement savings plan to invest in your future",
+            "Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Part Time Unarmed Patrol Assessment in Richmond, TX, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more",
+            "As an Unarmed Patrol Officer supporting a dynamic technology, media, and telecommunications location, you will conduct routine patrols, maintain a visible presence to help deter incidents, and provide outstanding customer service",
+            "You will communicate clearly with employees and visitors while responding to security-related concerns",
+            "Join Allied Universal, where an agile, reliable, innovative team puts people first, delivers through teamwork, and acts with integrity",
+            "Provide customer service to employees, visitors, contractors, and delivery personnel at a technology-focused location by carrying out security-related procedures, site-specific policies, and emergency response activities as appropriate",
+            "Respond to incidents, access concerns, and critical situations in a calm, professional, problem-solving manner, escalating matters according to established protocols",
+            "Conduct regular and random unarmed patrols of interior areas, exterior grounds, parking areas, and perimeter access points to help deter unauthorized activity and identify security-related concerns",
+            "Monitor access points and verify visitor, contractor, and delivery credentials in accordance with site requirements while maintaining accurate activity logs and incident documentation",
+            "Communicate observed hazards, suspicious activity, and operational concerns to site leadership and Allied Universal management, collaborating with appropriate personnel during response activities",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "5212247b74b5",
       "title": "IT Security Supervisor",
       "company": "Fort Bend County",
       "location": "Richmond, TX",
@@ -20,9 +79,122 @@
       "posted_date": "2026-08-09",
       "apply_link": "https://us.trabajo.org/job-28652-791aff038ccb165983d091e200f503ea",
       "via": "via Trabajo.org",
-      "description": "Current Fort Bend County Employees (excluding election workers): Please click here to apply through the internal Workday Jobs Hub. If you cannot access the Jobs Hub, please contact Human Resources. Fort Bend County is ranked as one of the fastest growing counties in the nation. We have capitalized on not only the creed of our location, but on the \"quality of life\" for our families to call home. Our employees are the key to our success and the heartbeat of our foundation. The diversity and inclusivity of our community is our strength and at the forefront of a workplace environment welcoming to all. Live Here Work Here Responsibilities - Supervises the daily activities of the IT Security Team. - Develops and implements security controls, as well as a suite of security services and tools to address and mitigate security risk. - Oversees the daily monitoring of computer networks and the investigations of security breaches. - Provides timely reporting of security related systems and events to various levels of management on a regular basis. - Provides cybersecurity education and awareness training to County employees. - Works closely with the IT Security Manager and other IT Managers across the Department on all cybersecurity issues. - On-call 24/7 for IT support issues. - Participates in activities and duties related to emergency management during a local state of disaster as directed by appropriate county managers. Requirements - Bachelor’s Degree in cybersecurity related field (High School/GED and four years of relevant professional experience in addition to 7 years required experience may be substituted for the Bachelor’s degree) - 7 years of job related experience including 5 years supervisory/management experience. - Thorough knowledge of the following technologies: network security, web application security, mobile device security, anti-virus, anti-malware, two-factor authentication, data loss prevention, backup and storage, identity and access management, encryption, email security, Microsoft 365, SCCM, Endpoint protection, Firewalls, VPNs, Single Sign-on, Active Directory, access control, patch management, incident response, application security, vulnerability assessment. - Requires successful CJIS background check prior to hire date. Salary Range $56.85 - $71.06 hourly based on qualifications Closing Date Upon filling position Benefits All full-time and part-time employees are members of the Texas County District Retirement System (TCDRS). Full-time employees also enjoy a wide-range of great benefits. Equal Employment Opportunity Fort Bend County is an equal opportunity employer, committed to non-discrimination in employment on any basis including race, color, religion or creed, sex, sexual orientation, gender, gender identity, gender expression, pregnancy status (including childbirth and related medical conditions), national origin, ethnicity, citizenship status, age (40 and over), physical or mental disability, genetic information, protected military and veteran status, political affiliation or beliefs, or any other classification protected by state, federal and local laws, unless such classification is a bona fide occupational qualification. For more information on Fort Bend County's Title VI / Nondiscrimination Statement, visit www.fbctx.gov/comply Fort Bend County is committed to providing equal opportunity and reasonable accommodations to employees with disabilities. FBC complies with the Americans with Disabilities Act and all other applicable federal, state and local laws regarding disability discrimination and accommodation."
+      "description": "Current Fort Bend County Employees (excluding election workers): Please click here to apply through the internal Workday Jobs Hub. If you cannot access the Jobs Hub, please contact Human Resources. Fort Bend County is ranked as one of the fastest growing counties in the nation. We have capitalized on not only the creed of our location, but on the \"quality of life\" for our families to call home. Our employees are the key to our success and the heartbeat of our foundation. The diversity and inclusivity of our community is our strength and at the forefront of a workplace environment welcoming to all. Live Here Work Here Responsibilities - Supervises the daily activities of the IT Security Team. - Develops and implements security controls, as well as a suite of security services and tools to address and mitigate security risk. - Oversees the daily monitoring of computer networks and the investigations of security breaches. - Provides timely reporting of security related systems and events to various levels of management on a regular basis. - Provides cybersecurity education and awareness training to County employees. - Works closely with the IT Security Manager and other IT Managers across the Department on all cybersecurity issues. - On-call 24/7 for IT support issues. - Participates in activities and duties related to emergency management during a local state of disaster as directed by appropriate county managers. Requirements - Bachelor’s Degree in cybersecurity related field (High School/GED and four years of relevant professional experience in addition to 7 years required experience may be substituted for the Bachelor’s degree) - 7 years of job related experience including 5 years supervisory/management experience. - Thorough knowledge of the following technologies: network security, web application security, mobile device security, anti-virus, anti-malware, two-factor authentication, data loss prevention, backup and storage, identity and access management, encryption, email security, Microsoft 365, SCCM, Endpoint protection, Firewalls, VPNs, Single Sign-on, Active Directory, access control, patch management, incident response, application security, vulnerability assessment. - Requires successful CJIS background check prior to hire date. Salary Range $56.85 - $71.06 hourly based on qualifications Closing Date Upon filling position Benefits All full-time and part-time employees are members of the Texas County District Retirement System (TCDRS). Full-time employees also enjoy a wide-range of great benefits. Equal Employment Opportunity Fort Bend County is an equal opportunity employer, committed to non-discrimination in employment on any basis including race, color, religion or creed, sex, sexual orientation, gender, gender identity, gender expression, pregnancy status (including childbirth and related medical conditions), national origin, ethnicity, citizenship status, age (40 and over), physical or mental disability, genetic information, protected military and veteran status, political affiliation or beliefs, or any other classification protected by state, federal and local laws, unless such classification is a bona fide occupational qualification. For more information on Fort Bend County's Title VI / Nondiscrimination Statement, visit www.fbctx.gov/comply Fort Bend County is committed to providing equal opportunity and reasonable accommodations to employees with disabilities. FBC complies with the Americans with Disabilities Act and all other applicable federal, state and local laws regarding disability discrimination and accommodation.",
+      "job_highlights": [
+        {
+          "items": [
+            "Requirements - Bachelor’s Degree in cybersecurity related field (High School/GED and four years of relevant professional experience in addition to 7 years required experience may be substituted for the Bachelor’s degree) - 7 years of job related experience including 5 years supervisory/management experience",
+            "Thorough knowledge of the following technologies: network security, web application security, mobile device security, anti-virus, anti-malware, two-factor authentication, data loss prevention, backup and storage, identity and access management, encryption, email security, Microsoft 365, SCCM, Endpoint protection, Firewalls, VPNs, Single Sign-on, Active Directory, access control, patch management, incident response, application security, vulnerability assessment",
+            "Requires successful CJIS background check prior to hire date"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary Range $56.85 - $71.06 hourly based on qualifications Closing Date Upon filling position Benefits All full-time and part-time employees are members of the Texas County District Retirement System (TCDRS)",
+            "Full-time employees also enjoy a wide-range of great benefits"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Live Here Work Here Responsibilities - Supervises the daily activities of the IT Security Team",
+            "Develops and implements security controls, as well as a suite of security services and tools to address and mitigate security risk",
+            "Oversees the daily monitoring of computer networks and the investigations of security breaches",
+            "Provides timely reporting of security related systems and events to various levels of management on a regular basis",
+            "Provides cybersecurity education and awareness training to County employees",
+            "Works closely with the IT Security Manager and other IT Managers across the Department on all cybersecurity issues",
+            "On-call 24/7 for IT support issues",
+            "Participates in activities and duties related to emergency management during a local state of disaster as directed by appropriate county managers",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "daa1147825c6",
+      "title": "Security Officer - PT & FT available",
+      "company": "Inter-con Security",
+      "location": "Richmond, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://www.learn4good.com/jobs/richmond/texas/security/5351338194/e/",
+      "via": "via Learn4Good",
+      "description": "[Security Guard / Safety Officer / Patrol] - Industry Leading Pay / Opportunity for Medical-Dental-Holidays-Vacation-Sick Pay-401(k) / Uniform and equipment provided / Recognition and Reward Programs - As a Security Officer you'll: Perform constant or frequent personal surveillance and patrols of the secured areas with close observation of persons within the secured areas to detect evidence of damage, misuse or theft of property; Closely inspect persons and vehicles entering and exiting the secured areas to ensure that nothing is either introduced or removed without proper documentation; Immediately report any unsafe or potentially unsafe conditions that could cause fires, explosions, collapses and other hazards by close; Perform detailed observation of buildings, building equipment, supplies, vehicles and personnel within secured areas or as detailed in post orders; Monitor and respond to alarm system communications (phone calls, duress alarms, computer-generated alarms, etc.); Notify appropriate agencies and company management personnel as per local post orders; Prepare and submit security reports that are legible, accurate and complete and provide assistance to investigators as required.",
+      "job_highlights": [
+        {
+          "items": [
+            "Perform constant or frequent personal surveillance and patrols of the secured areas with close observation of persons within the secured areas to detect evidence of damage, misuse or theft of property;",
+            "Closely inspect persons and vehicles entering and exiting the secured areas to ensure that nothing is either introduced or removed without proper documentation;",
+            "Immediately report any unsafe or potentially unsafe conditions that could cause fires, explosions, collapses and other hazards by close;",
+            "Perform detailed observation of buildings, building equipment, supplies, vehicles and personnel within secured areas or as detailed in post orders;",
+            "Monitor and respond to alarm system communications (phone calls, duress alarms, computer-generated alarms, etc.);",
+            "Notify appropriate agencies and company management personnel as per local post orders;",
+            "Prepare and submit security reports that are legible, accurate and complete and provide assistance to investigators as required",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "760845073e12",
+      "title": "Campus Parking Lot Security Patrol",
+      "company": "Fort Bend Independent School District",
+      "location": "Richmond, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "17K–22K a year",
+      "pay_min": 17000.0,
+      "pay_max": 22000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-06",
+      "apply_link": "https://www.learn4good.com/jobs/richmond/texas/security/5358434810/e/",
+      "via": "via JobLeads",
+      "description": "<p>Fort Bend Independent School District in Richmond, TX is seeking a Parking Lot Attendant at Bush High School. You will patrol exterior lots, monitor vehicles, and assist with safety and security across campus during after-hours and events.</p><p>The role requires alertness, reliability, and the ability to follow instructions, with a preference for candidates with security-related experience and a valid Texas driver's license.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires alertness, reliability, and the ability to follow instructions, with a preference for candidates with security-related experience and a valid Texas driver's license"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will patrol exterior lots, monitor vehicles, and assist with safety and security across campus during after-hours and events"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "695f70bdaab6",
+      "title": "Retail Security Supervisor",
+      "company": "Marksman Security",
+      "location": "Richmond, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-06",
+      "apply_link": "https://www.jobilize.com/job/us-tx-richmond-retail-security-supervisor-marksman-hiring-now-job",
+      "via": "via Trabajo.org",
+      "description": "Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well-known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman's customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in providing unparalleled service and support in all that we do. If you are looking for a meaningful career, a culture of excellence, and the ability to make a difference, we want to talk to you Responsibilities Provide excellent Customer Service to all parties encountered while on duty, including assisting with directions and general business information Maintain clear, accurate administrative logs at front desk pertaining to people or property including packages. Control access for tenants, visitors or vendors as required Monitor security guard cameras and conduct patrols to guard against theft and maintain a safe environment Respond to incidents, including emergencies at the property, and record data on incidents for building and Titan Security management Other duties as assigned Required Qualifications Must be at least 21 years of age. High School diploma or general education degree (GED) Must have a valid License 2 Able to pass pre-employment drug screen and criminal background check. Able to read, write, speak, and understand English Able to meet physical essential functions of the job, which can include lifting 50+ lbs, completing foot patrols, walking up and down stairs, working in inclement weather Preferred Qualifications Bi-lingual considered a plus. Evening, overnight, and weekend availability required Pay and Benefits Positions starting at $17.34 / hour depending on experience, location and position Paid time off and paid holidays Medical and Dental insurance Opportunities for career growth and promotion Skills‐enhancing training EEO/M/F/D/V #J-18808-Ljbffr",
+      "job_highlights": null
+    },
+    {
+      "job_hash": "35b4f77b8b48",
       "title": "Licensed Special Event Security Officer",
       "company": "Andy Frain Services",
       "location": "Richmond, TX",
@@ -36,25 +208,51 @@
       "posted_date": "2026-08-05",
       "apply_link": "https://jobs.edinburghcityfc.com/jobs/event-security-officer-richmond-texas/2904389837-2/",
       "via": "via Jobs For Stevenage Fans",
-      "description": "<p><b>Job Summary:</b><br>Join our dynamic team as a Licensed Special Event Security Officer, where you will play a crucial role in ensuring the safety and security of our events. You will establish relationships with customers, local law enforcement, and fire departments while maintaining a high level of vigilance regarding your surroundings. Your professional demeanor and exceptional customer service will set the standard for security personnel.</p><p><b>Basic Functions:</b></p><ul><li>Control entrances and manage pedestrian and vehicle traffic.</li><li>Conduct patrols of buildings and perimeters.</li><li>Provide escort for personnel and materials.</li><li>Inspect security measures and fire safety exposures.</li><li>Handle special assignments as needed.</li></ul><p><b>Responsibilities:</b><br>Your day-to-day duties will vary based on departmental size and post assignments, and reasonable accommodations can be made for specific needs. General functions include:</p><ul><li>Arriving on time and reporting for duty in full uniform.</li><li>Maintaining a professional appearance and greeting customers, visitors, and employees courteously.</li><li>Staying informed about all updates to post orders and information from customers and AFS.</li><li>Patrolling or maintaining assigned positions, promptly reporting suspicious activities and incidents.</li><li>Monitoring surveillance equipment as outlined in your post orders.</li><li>Understanding all emergency policies and procedures for effective response to incidents.</li><li>Completing Daily Activity Reports, Log Entries, and Incident Reports accurately.</li><li>Recommending safety and loss prevention improvements based on observations.</li><li>Being knowledgeable about life safety systems, fire alarms, CCTV systems, and ensuring their proper operation.</li><li>Ensuring compliance with training and standards set by AFS and relevant agencies.</li><li>Regularly communicating new security concerns or changes with the Security Supervisor.</li></ul><p><b>Skills and Abilities:</b><ul><li>A security officer must demonstrate honesty, alertness, and discipline in safeguarding property and safety.</li><li>Maintain constant vigilance and dedication to duty.</li><li>Exemplify strong customer service skills consistent with our mission.</li><li>Handle multiple priorities effectively with a results-oriented approach.</li><li>Collaborate within a team and follow guidance efficiently.</li><li>Work with a sense of urgency and purpose.</li><li>Possess strong oral and written communication skills.</li></ul><i>This job description provides a general outline of expected duties and responsibilities but is not exhaustive of all tasks that may be assigned. The company reserves the right to modify this description at its discretion.</i>"
+      "description": "<p><b>Job Summary:</b><br>Join our dynamic team as a Licensed Special Event Security Officer, where you will play a crucial role in ensuring the safety and security of our events. You will establish relationships with customers, local law enforcement, and fire departments while maintaining a high level of vigilance regarding your surroundings. Your professional demeanor and exceptional customer service will set the standard for security personnel.</p><p><b>Basic Functions:</b></p><ul><li>Control entrances and manage pedestrian and vehicle traffic.</li><li>Conduct patrols of buildings and perimeters.</li><li>Provide escort for personnel and materials.</li><li>Inspect security measures and fire safety exposures.</li><li>Handle special assignments as needed.</li></ul><p><b>Responsibilities:</b><br>Your day-to-day duties will vary based on departmental size and post assignments, and reasonable accommodations can be made for specific needs. General functions include:</p><ul><li>Arriving on time and reporting for duty in full uniform.</li><li>Maintaining a professional appearance and greeting customers, visitors, and employees courteously.</li><li>Staying informed about all updates to post orders and information from customers and AFS.</li><li>Patrolling or maintaining assigned positions, promptly reporting suspicious activities and incidents.</li><li>Monitoring surveillance equipment as outlined in your post orders.</li><li>Understanding all emergency policies and procedures for effective response to incidents.</li><li>Completing Daily Activity Reports, Log Entries, and Incident Reports accurately.</li><li>Recommending safety and loss prevention improvements based on observations.</li><li>Being knowledgeable about life safety systems, fire alarms, CCTV systems, and ensuring their proper operation.</li><li>Ensuring compliance with training and standards set by AFS and relevant agencies.</li><li>Regularly communicating new security concerns or changes with the Security Supervisor.</li></ul><p><b>Skills and Abilities:</b><ul><li>A security officer must demonstrate honesty, alertness, and discipline in safeguarding property and safety.</li><li>Maintain constant vigilance and dedication to duty.</li><li>Exemplify strong customer service skills consistent with our mission.</li><li>Handle multiple priorities effectively with a results-oriented approach.</li><li>Collaborate within a team and follow guidance efficiently.</li><li>Work with a sense of urgency and purpose.</li><li>Possess strong oral and written communication skills.</li></ul><i>This job description provides a general outline of expected duties and responsibilities but is not exhaustive of all tasks that may be assigned. The company reserves the right to modify this description at its discretion.</i>",
+      "job_highlights": [
+        {
+          "items": [
+            "A security officer must demonstrate honesty, alertness, and discipline in safeguarding property and safety",
+            "Exemplify strong customer service skills consistent with our mission",
+            "Handle multiple priorities effectively with a results-oriented approach",
+            "Collaborate within a team and follow guidance efficiently",
+            "Work with a sense of urgency and purpose",
+            "Possess strong oral and written communication skills",
+            "3 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Join our dynamic team as a Licensed Special Event Security Officer, where you will play a crucial role in ensuring the safety and security of our events",
+            "You will establish relationships with customers, local law enforcement, and fire departments while maintaining a high level of vigilance regarding your surroundings",
+            "Your professional demeanor and exceptional customer service will set the standard for security personnel",
+            "Control entrances and manage pedestrian and vehicle traffic",
+            "Conduct patrols of buildings and perimeters",
+            "Provide escort for personnel and materials",
+            "Inspect security measures and fire safety exposures",
+            "Handle special assignments as needed",
+            "Your day-to-day duties will vary based on departmental size and post assignments, and reasonable accommodations can be made for specific needs",
+            "Arriving on time and reporting for duty in full uniform",
+            "Maintaining a professional appearance and greeting customers, visitors, and employees courteously",
+            "Staying informed about all updates to post orders and information from customers and AFS",
+            "Patrolling or maintaining assigned positions, promptly reporting suspicious activities and incidents",
+            "Monitoring surveillance equipment as outlined in your post orders",
+            "Understanding all emergency policies and procedures for effective response to incidents",
+            "Completing Daily Activity Reports, Log Entries, and Incident Reports accurately",
+            "Recommending safety and loss prevention improvements based on observations",
+            "Being knowledgeable about life safety systems, fire alarms, CCTV systems, and ensuring their proper operation",
+            "Ensuring compliance with training and standards set by AFS and relevant agencies",
+            "Regularly communicating new security concerns or changes with the Security Supervisor",
+            "Maintain constant vigilance and dedication to duty",
+            "18 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Military Security Officer",
-      "company": "U.S. Navy",
-      "location": "Richmond, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/richmond/texas/security/5343987852/e/",
-      "via": "via Learn4Good",
-      "description": "Job Title: Security & Law Enforcement (Master-at-Arms)Category / Component:Enlisted ActiveThis role is open to both entry-level applicants and candidates with prior experience. Those with a background in Law Enforcement, Corrections/Parole, or as a Security Practitioner may qualify for direct-entry consideration at an advanced paygrade (E-4 to E-6) depending on experience.OverviewMaster-at-Arms (MA) Sailors provide the Navys core security, anti-terrorism, and law enforcement capability, protecting people, installations, ships, and strategic assets at home and abroad. They conduct force..."
-    },
-    {
+      "job_hash": "45936c130879",
       "title": "Evening Armed Guard (PT",
       "company": "Excelsior Defense",
       "location": "Richmond, TX",
@@ -68,25 +266,35 @@
       "posted_date": "2026-08-04",
       "apply_link": "https://us.trabajo.org/job-28607-fa1647d2db00a0f09c66eb375f765ffd",
       "via": "via Learn4Good",
-      "description": "Position: Evening Armed Guard (PT) [Security Guard / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As an Evening Armed Guard you'll: Protect company's property and staff by maintaining a safe and secure environment; Observe for signs of crime or disorder and investigate disturbances; Act lawfully in direct defense of life or property; Apprehend criminals and evict violators; Take accurate notes of unusual occurrences; Report in detail any suspicious incidents; Patrol randomly or regularly building and perimeter; Monitor and control access at building entrances and vehicle gates; Watch alarm systems or video cameras and operate detecting/emergency equipment; Perform first aid or CPR; Maintain Access Control Entrance."
+      "description": "Position: Evening Armed Guard (PT) [Security Guard / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As an Evening Armed Guard you'll: Protect company's property and staff by maintaining a safe and secure environment; Observe for signs of crime or disorder and investigate disturbances; Act lawfully in direct defense of life or property; Apprehend criminals and evict violators; Take accurate notes of unusual occurrences; Report in detail any suspicious incidents; Patrol randomly or regularly building and perimeter; Monitor and control access at building entrances and vehicle gates; Watch alarm systems or video cameras and operate detecting/emergency equipment; Perform first aid or CPR; Maintain Access Control Entrance.",
+      "job_highlights": [
+        {
+          "items": [
+            "Perform first aid or CPR;",
+            "Maintain Access Control Entrance"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "[Security Guard / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As an Evening Armed Guard you'll:",
+            "Protect company's property and staff by maintaining a safe and secure environment;",
+            "Observe for signs of crime or disorder and investigate disturbances;",
+            "Act lawfully in direct defense of life or property;",
+            "Apprehend criminals and evict violators;",
+            "Take accurate notes of unusual occurrences;",
+            "Report in detail any suspicious incidents;",
+            "Patrol randomly or regularly building and perimeter;",
+            "Monitor and control access at building entrances and vehicle gates;",
+            "Watch alarm systems or video cameras and operate detecting/emergency equipment;",
+            "7 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Unarmed Security Officer",
-      "company": "Metro One Loss Prevention Services Group (Guard Division), Inc.",
-      "location": "Richmond, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-02",
-      "apply_link": "https://jooble.org/jdp/4223704429512654121",
-      "via": "via Jooble",
-      "description": "<p> ARE YOU EARNING PAID VACATION?\n We offer 2 weeks a year after each 6 months of employment!\n WE CARE ABOUT YOU AT METRO ONE LOSS PREVENTION GROUP\n Join our Team!\n\n Need a CHANGE? Become a Security Officer!\n Seeking Work Life Balance?\n How about paid vacation WE HAVE THAT!\n One of the few in the industry that will give you time off!\n Take time when you need it or bucket your time for a cash payout!\n\n Have a passion for service we have just the opportunity for you!\n Did you know that Security is now a True Valued Profession?\n\n Find an exciting career path at Metro One Loss Prevention Service..."
-    },
-    {
+      "job_hash": "4a98678eedea",
       "title": "TSA Security Inspector - No Experience Required",
       "company": "Airport Security Careers",
       "location": "Richmond, TX",
@@ -98,11 +306,41 @@
       "pay_unit": "HOUR",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://us.thebigjobsite.com/details/D1F9B68B5E2103B3602FC109371EE092/mail-processor---no-experience-required",
+      "apply_link": "https://salutemyjob.com/jobs/mail-processor-no-experience-required-richmond-texas/2926148594-2/",
       "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in Richmond </b><p> Help maintain the highest airport security standards. </p>"
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations. Inspectors conduct audits and assessments to maintain safety standards. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $26.00 - $48.00</li><li><b> Annual Compensation </b> : $55,000 - $85,000+</li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health coverage </li><li> Retirement plans </li><li> Career growth opportunities </li></ul><h2> Key Responsibilities </h2><ul><li> Conduct inspections </li><li> Ensure compliance with TSA standards </li><li> Prepare reports </li><li> Coordinate with airport authorities </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes a preparation platform. </p><h2> How Our Program Helps </h2><ul><li> Guided preparation </li><li> Practice exams </li><li> Interview support </li><li> Job search assistance </li></ul><b> Apply for TSA Inspector Roles in Richmond </b><p> Help maintain the highest airport security standards. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting Pay : $26.00 - $48.00",
+            "Annual Compensation : $55,000 - $85,000+",
+            "Perks and Benefits",
+            "Paid leave and holidays",
+            "Health coverage",
+            "Retirement plans",
+            "Career growth opportunities",
+            "Practice exams",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSA is hiring Security Inspectors to evaluate airport security systems in Richmond and ensure compliance with federal regulations",
+            "Inspectors conduct audits and assessments to maintain safety standards",
+            "Conduct inspections",
+            "Ensure compliance with TSA standards",
+            "Prepare reports",
+            "Coordinate with airport authorities",
+            "Help maintain the highest airport security standards",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "74b079186209",
       "title": "Unarmed Security Officers Full Time 3rd shift- \\$16.56/hr (#90)",
       "company": "Sunstates Security",
       "location": "Richmond, TX",
@@ -116,41 +354,59 @@
       "posted_date": null,
       "apply_link": "https://www.tealhq.com/job/unarmed-security-officer_7ea1ad9d81ae50721ac069f40d6e23f84a9c4",
       "via": "via Teal",
-      "description": "<p>About the position</p><p>Become part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, Sunstates Security has built a national reputation for delivering exceptional services while fostering high-quality work environments for our team. We are dedicated to hiring, developing, and retaining a professional workforce that reflects our commitment to excellence. We believe in strategic reinvestment in our people by offering a benefits package that exceeds industry standards, pathways for career advancement, extensive internal training, and employee recognition programs. Our team members are provided with the tools, knowledge, and hands-on management support necessary for long-term success. Our commitment to a superior workplace culture is reflected in our most recent national accolades. Sunstates Security is proud to be recognized as a 2026 Forbes Dream Employer , an honor based on independent employee feedback and workplace excellence. Additionally, we have been named a 2026 Training MVP by Training Magazine, marking the third consecutive year we have accepted this prestigious recognition. We also continue to be celebrated for our steady growth and stability on the Inc. 5000 list of America’s fastest-growing private companies. At the heart of everything we do are our core values of honor, integrity, and trust. If you are searching for a rewarding career with a proactive security partner that protects some of the country’s leading organizations, we invite you to explore the possibilities at Sunstates Security. Join a successful, growing team where your talent is appreciated and have opportunities to advance your professional career. HIRING IMMEDIATELY Sunstates Security is currently hiring for Full- Time, Unarmed Security officers for 3rd shift in the Richmond, TX area. These positions offer a starting pay rate of \\$16.56/hr, paid weekly. Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental, & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates! A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP). The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives. Sun123</p><p>Responsibilities</p><ul><li>A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP).</li><li>The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives.</li></ul><p>Requirements</p><ul><li>Must have Texas Level II Security license in hand</li><li>Must have reliable transportation to and from work</li><li>Must be available to work the 3rd shift (overnight)</li><li>Must demonstrate excellent writing, oral, analytical and communication skills</li><li>Must be able to work independently and function with limited supervision</li><li>Capable of performing duties with a high level of accuracy and ability to maintain highest level of integrity</li><li>Ability to exercise good judgment and make sound decisions</li></ul><p>Benefits</p><ul><li>Affordable Care Act compliant Medical Benefits Program</li><li>Dental Insurance Program</li><li>Free Life Insurance</li><li>Disability Insurance</li><li>Paid Time Off & Bereavement Leave</li><li>Paid Holidays</li><li>Direct Deposit or Pay Cards</li><li>Employee Incentives</li><li>Referral Bonuses</li><li>Employee of the Month Award</li><li>Education Reimbursement</li><li>Service Awards</li><li>Employee Involvement Initiatives</li><li>Management Mentoring and Support</li><li>Career Advancement</li><li>401K program</li></ul>"
+      "description": "<p>About the position</p><p>Become part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, Sunstates Security has built a national reputation for delivering exceptional services while fostering high-quality work environments for our team. We are dedicated to hiring, developing, and retaining a professional workforce that reflects our commitment to excellence. We believe in strategic reinvestment in our people by offering a benefits package that exceeds industry standards, pathways for career advancement, extensive internal training, and employee recognition programs. Our team members are provided with the tools, knowledge, and hands-on management support necessary for long-term success. Our commitment to a superior workplace culture is reflected in our most recent national accolades. Sunstates Security is proud to be recognized as a 2026 Forbes Dream Employer , an honor based on independent employee feedback and workplace excellence. Additionally, we have been named a 2026 Training MVP by Training Magazine, marking the third consecutive year we have accepted this prestigious recognition. We also continue to be celebrated for our steady growth and stability on the Inc. 5000 list of America’s fastest-growing private companies. At the heart of everything we do are our core values of honor, integrity, and trust. If you are searching for a rewarding career with a proactive security partner that protects some of the country’s leading organizations, we invite you to explore the possibilities at Sunstates Security. Join a successful, growing team where your talent is appreciated and have opportunities to advance your professional career. HIRING IMMEDIATELY Sunstates Security is currently hiring for Full- Time, Unarmed Security officers for 3rd shift in the Richmond, TX area. These positions offer a starting pay rate of \\$16.56/hr, paid weekly. Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental, & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates! A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP). The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives. Sun123</p><p>Responsibilities</p><ul><li>A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP).</li><li>The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives.</li></ul><p>Requirements</p><ul><li>Must have Texas Level II Security license in hand</li><li>Must have reliable transportation to and from work</li><li>Must be available to work the 3rd shift (overnight)</li><li>Must demonstrate excellent writing, oral, analytical and communication skills</li><li>Must be able to work independently and function with limited supervision</li><li>Capable of performing duties with a high level of accuracy and ability to maintain highest level of integrity</li><li>Ability to exercise good judgment and make sound decisions</li></ul><p>Benefits</p><ul><li>Affordable Care Act compliant Medical Benefits Program</li><li>Dental Insurance Program</li><li>Free Life Insurance</li><li>Disability Insurance</li><li>Paid Time Off & Bereavement Leave</li><li>Paid Holidays</li><li>Direct Deposit or Pay Cards</li><li>Employee Incentives</li><li>Referral Bonuses</li><li>Employee of the Month Award</li><li>Education Reimbursement</li><li>Service Awards</li><li>Employee Involvement Initiatives</li><li>Management Mentoring and Support</li><li>Career Advancement</li><li>401K program</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have Texas Level II Security license in hand",
+            "Must have reliable transportation to and from work",
+            "Must be available to work the 3rd shift (overnight)",
+            "Must demonstrate excellent writing, oral, analytical and communication skills",
+            "Must be able to work independently and function with limited supervision",
+            "Capable of performing duties with a high level of accuracy and ability to maintain highest level of integrity",
+            "Ability to exercise good judgment and make sound decisions",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "These positions offer a starting pay rate of \\$16.56/hr, paid weekly",
+            "Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental, & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!",
+            "Affordable Care Act compliant Medical Benefits Program",
+            "Dental Insurance Program",
+            "Free Life Insurance",
+            "Disability Insurance",
+            "Paid Time Off & Bereavement Leave",
+            "Paid Holidays",
+            "Direct Deposit or Pay Cards",
+            "Employee Incentives",
+            "Referral Bonuses",
+            "Employee of the Month Award",
+            "Education Reimbursement",
+            "Service Awards",
+            "Employee Involvement Initiatives",
+            "Management Mentoring and Support",
+            "Career Advancement",
+            "401K program",
+            "15 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP)",
+            "The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives",
+            "A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP)",
+            "The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives",
+            "1 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Richmond, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "20–45 an hour",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/-2041565674989774705",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in Richmond and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career..."
-    },
-    {
-      "title": "Behavior Detection Officer (BDO) - No Experience Required",
-      "company": "Airport Security Careers",
-      "location": "Richmond, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "23–45 an hour",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": null,
-      "posted_date": null,
-      "apply_link": "https://jooble.org/jdp/-4726318478521473154",
-      "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Behavior Detection Officers (BDOs) to work inside airport terminals in Richmond. These professionals focus on identifying suspicious behavior and preventing potential threats before they occur. No prior experience is required and training is provided. </p><h2> Position Details </h2><ul><li><b> Openings </b> : Richmond and Nationwide </li><li><b> Starting Pay </b> : $23.00 - $45.00</li><li><b> Annual Compensation </b> : $48,000 - $70,000+</li><li><b> Schedule </b> : Shift-based </li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays..."
-    },
-    {
+      "job_hash": "6da76f3c02c4",
       "title": "Security Officer",
       "company": "Inter-con Security",
       "location": "Richmond, TX",
@@ -164,7 +420,8 @@
       "posted_date": null,
       "apply_link": "https://us.trabajo.org/job-28607-b15cb547324823145c80f3d08ab17fe4",
       "via": "via Trabajo.org",
-      "description": "[Security Guard / Safety Officer / Patrol] - Industry Leading Pay / Opportunity for Medical-Dental-Holidays-Vacation-Sick Pay-401(k) / Uniform and equipment provided / Recognition and Reward Programs - As a Security Officer you'll: Perform constant or frequent personal surveillance and patrols of the secured areas with close observation of persons within the secured areas to detect evidence of damage, misuse or theft of property; Closely inspect persons and vehicles entering and exiting the secured areas to ensure that nothing is either introduced or removed without proper documentation; Immediately report any unsafe or potentially unsafe conditions that could cause fires, explosions, collapses and other hazards by close; Perform detailed observation of buildings, building equipment, supplies, vehicles and personnel within secured areas or as detailed in post orders; Monitor and respond to alarm system communications (phone calls, duress alarms, computer-generated alarms, etc.); Notify appropriate agencies and company management personnel as per local post orders; Prepare and submit security reports that are legible, accurate and complete and provide assistance to investigators as required...Hiring Fast >>"
+      "description": "[Security Guard / Safety Officer / Patrol] - Industry Leading Pay / Opportunity for Medical-Dental-Holidays-Vacation-Sick Pay-401(k) / Uniform and equipment provided / Recognition and Reward Programs - As a Security Officer you'll: Perform constant or frequent personal surveillance and patrols of the secured areas with close observation of persons within the secured areas to detect evidence of damage, misuse or theft of property; Closely inspect persons and vehicles entering and exiting the secured areas to ensure that nothing is either introduced or removed without proper documentation; Immediately report any unsafe or potentially unsafe conditions that could cause fires, explosions, collapses and other hazards by close; Perform detailed observation of buildings, building equipment, supplies, vehicles and personnel within secured areas or as detailed in post orders; Monitor and respond to alarm system communications (phone calls, duress alarms, computer-generated alarms, etc.); Notify appropriate agencies and company management personnel as per local post orders; Prepare and submit security reports that are legible, accurate and complete and provide assistance to investigators as required...Hiring Fast >>",
+      "job_highlights": null
     }
   ]
 }

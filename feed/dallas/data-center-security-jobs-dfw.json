@@ -1,44 +1,39 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "dallas/data-center-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
-  "exact": 6,
+  "exact": 5,
   "jobs": [
     {
-      "title": "Security Officer Data Center",
-      "company": "Allied Universal",
-      "location": "Garland, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.indeed.com/viewjob?jk=c954bd62dee4622b",
-      "via": "via Indeed",
-      "description": "<div>\n <p>Security Officer Data Center</p>\n <h2><b> Overview</b></h2>\n <div>\n  <br>\n   Company Overview:\n </div>\n <div>\n  Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n </div>\n <h2><b><br>\n    Job Description</b></h2>\n <p><br>\n   As a Security Officer, you will serve and safeguard clients in a range of..."
-    },
-    {
-      "title": "Datacenter Site Security Lead",
-      "company": "Securitas US Business Unit",
-      "location": "Dallas, TX",
+      "job_hash": "d2251f62e42e",
+      "title": "Data Center Security Manager: Risk & Compliance (Equity + 20% Bonus)",
+      "company": "Google",
+      "location": "Midlothian, TX",
       "vertical": "security",
       "role": "data-center",
-      "pay": "70K–110K a year",
-      "pay_min": 70000.0,
-      "pay_max": 110000.0,
+      "pay": "159K–231K a year",
+      "pay_min": 159000.0,
+      "pay_max": 231000.0,
       "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-03",
-      "apply_link": "https://bebee.com/us/jobs/datacenter-site-security-lead-securitas-us-business-unit-dallas--pureheal-28528_25298_6920c8ad2bd7d20afd8061f7e1383845",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://bebee.com/us/jobs/data-center-security-manager-risk-compliance-equity-20-bonus-google-midlothian--pureheal-28528_25300_fc5db27ee8e9dd54de7aac0dbf321d82",
       "via": "via JobLeads",
-      "description": "<p>Securitas US Business Unit in Dallas is seeking a Site Security Manager to lead a 24/7 datacenter security operations team, ensuring a safe, compliant environment and meeting client expectations. Reporting to a Campus Security Manager, you will build a cohesive, high‑performing team across shifts and sites.</p><p>You will coordinate with campus leaders, manage SOC systems, audits, and documentation, and mentor staff while delivering proactive security services and continuous improvements.</p>"
+      "description": "<p>Google is seeking a Staff Data Center Area Security Manager, Compliance, Safety, and Risk Management to own security programs across data center sites in Texas. You will drive risk management, incident response, and compliance efforts, influencing cross-functional teams and external partners.</p><p>This Advanced role requires deep expertise in security operations, vendor management, and data-driven decision making.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You will drive risk management, incident response, and compliance efforts, influencing cross-functional teams and external partners",
+            "This Advanced role requires deep expertise in security operations, vendor management, and data-driven decision making"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "79f2f9aefdb7",
       "title": "Data Center Security Shift Supervisor",
       "company": "Salute Mission Critical",
       "location": "Ennis, TX",
@@ -52,9 +47,73 @@
       "posted_date": null,
       "apply_link": "https://www.monster.com/job-openings/data-center-security-shift-supervisor-ennis-tx--c4ce8b96-adfa-423a-acdf-edd08c1c6be1",
       "via": "via Monster",
-      "description": "<p>Salute is a leading provider of cutting-edge Data Center Infrastructure Services, dedicated to serving data center clients worldwide. We pride ourselves on delivering sustainable solutions, unparalleled reliability, and outstanding customer service. As we continue to grow, we are seeking a dynamic and experienced Security Manager to join our team and drive our relationships with hyperscale clients to new heights.</p><p>Position located in Afton, TX.</p><p>Salute Benefits That Put You First</p><p>We know life doesn't stop when work begins, that's why we offer perks designed to support your well-being, your family, and your future:</p><ul><li>Time to Recharge: Enjoy 8 company-paid holidays, 2 floating holidays, and PTO so you can rest, celebrate, and take care of what matters most.</li><li>Comprehensive Benefits Package: Including Medical, Dental, and Vision that you can enroll in starting on Day 1. Coverage begins the first of the month following 30-days of employment.</li><li>Peace of Mind: The Employee Assistance Program is available to all employees, even if you do not participate in the benefits package.</li><li>Your financial future matters: Enjoy our employer-supported 401(K) with immediate 100% vesting, plus a 3% employer match and a 50% match on the next 2%.</li><li>Wellness Support: Access to HSA, mental health resources, and gym discounts-because your health matters.</li><li>Extra Protection & Perks: Through discounted group programs, such as legal services, home & auto insurance, pet insurance, and ID theft protection for life's unexpected moments</li></ul><p>Security Supervisor</p><p>The Security Supervisor is responsible for the day-to-day execution and oversight of security operations within a data center environment. This role ensures the consistent application of security policies, procedures, and standards to protect critical infrastructure, personnel, and assets, while supporting compliance with client requirements and regulatory frameworks such as SOC 2 and ISO.</p><p>Responsibilities:</p><ul><li>Supervise and coordinate shift-based security operations, including access control, surveillance, and patrols</li><li>Ensure all security officers adhere to post orders, SOPs, and site-specific protocols</li><li>Monitor and manage access control systems, badge issuance, visitor management, and escort procedures</li><li>Oversee CCTV and alarm systems, ensuring timely response to alerts and anomalies</li><li>Act as the first point of escalation for incidents, emergencies, and operational issues; ensure proper documentation and reporting</li><li>Conduct preliminary incident investigations and support root cause analysis</li><li>Ensure compliance with SOC 2, ISO standards, and all client-driven security requirements</li><li>Perform routine site inspections, audits, and quality assurance checks</li><li>Coordinate with the Security Manager and client stakeholders on daily operations and escalations</li><li>Lead shift briefings, training, and ongoing coaching for security personnel</li><li>Manage staffing levels, scheduling, and coverage to meet operational demands</li><li>Support emergency preparedness efforts, including drills and response coordination</li><li>Maintain accurate logs, reports, and metrics related to security operations and incidents</li></ul><p>Qualifications</p><ul><li>3-5+ years of experience in physical security, preferably in a data center or critical environment</li><li>Prior supervisory or team lead experience required</li><li>Strong understanding of access control systems, CCTV, and security operations</li><li>Familiarity with compliance frameworks such as SOC 2 and ISO</li><li>Excellent communication, leadership, and decision-making skills</li><li>Ability to operate effectively in a fast-paced, high-security environment</li></ul><p>Physical Requirements</p><ul><li>Ability to stand and remain active for extended periods</li><li>Ability to work outdoors in varied weather conditions</li><li>Ability to navigate uneven terrain and active construction areas</li><li>Ability to lift up to 40lbsas needed</li><li>Ability to respond quickly to incidents and emergencies</li></ul><p>Work Environment</p><ul><li>Remote site in Afton, TX with limited nearby services</li><li>Active construction environment with heavy equipment and ongoing operations</li><li>Outdoor work in extreme weather conditions and in an office setting</li><li>Uneven terrain requiring mobility and situational awareness</li><li>Strict adherence to PPE requirements is always mandatory within designated construction zones and while operating site vehicles including UTVs</li></ul><p>If you are a motivated and results-driven individual with a passion for data center services and a knack for building strong client relationships, we want to hear from you. Join us in revolutionizing the data center industry and apply today!</p><p>Salute is an equal opportunity employer committed to celebrating diversity, creating an inclusive environment for all employees, and providing equal employment opportunities to all applicants; if you require a reasonable accommodation to participate in the job application or interview process, perform essential job functions, or receive other benefits and privileges of employment, please contact our Human Resources department at hr@salute.com for more information.</p><p>The base salary range for this role is $26-$28 per hour. This range reflects a good‑faith estimate of what we reasonably expect to pay upon hire, based on factors such as skills, experience, education, and market/location. Our comprehensive benefits include health, dental, and vision insurance, Health Savings Account (HSA), gym discount, mental health, Discounted Group Life & AD&D, Discounted Group Short & Long-term Disability, 401(k) retirement matching, PTO/paid holidays, and parental leave. Final compensation will be determined by job‑related factors consistent with applicable law.</p><p>#sp1</p><br><p><b>Skills:</b><br>Access Control, Applications Security, CCTV, Coaching, Communication Skills, Computer Security, Construction, Customer Relations, Customer Support/Service, Documentation, Heavy Equipment/Vehicles, ISO (International Organization for Standardization), Incident Response, Information/Data Security (InfoSec), Leadership, Maintain Compliance, Metrics, Network Operations Center, Operations, Physical Demands, Physical Security, Psychiatry and Mental Health, Quality Assurance, Regulatory Compliance, Regulatory Requirements, Root Cause Analysis, Security Equipment, Security Monitoring, Standard Operating Procedures (SOP), Surveillance, Systems Administration/Management, Team Lead/Manager, Time Management</p><br><p><b>undefined:</b><br>Salute Mission Critical</p><br><br>"
+      "description": "<p>Salute is a leading provider of cutting-edge Data Center Infrastructure Services, dedicated to serving data center clients worldwide. We pride ourselves on delivering sustainable solutions, unparalleled reliability, and outstanding customer service. As we continue to grow, we are seeking a dynamic and experienced Security Manager to join our team and drive our relationships with hyperscale clients to new heights.</p><p>Position located in Afton, TX.</p><p>Salute Benefits That Put You First</p><p>We know life doesn't stop when work begins, that's why we offer perks designed to support your well-being, your family, and your future:</p><ul><li>Time to Recharge: Enjoy 8 company-paid holidays, 2 floating holidays, and PTO so you can rest, celebrate, and take care of what matters most.</li><li>Comprehensive Benefits Package: Including Medical, Dental, and Vision that you can enroll in starting on Day 1. Coverage begins the first of the month following 30-days of employment.</li><li>Peace of Mind: The Employee Assistance Program is available to all employees, even if you do not participate in the benefits package.</li><li>Your financial future matters: Enjoy our employer-supported 401(K) with immediate 100% vesting, plus a 3% employer match and a 50% match on the next 2%.</li><li>Wellness Support: Access to HSA, mental health resources, and gym discounts-because your health matters.</li><li>Extra Protection & Perks: Through discounted group programs, such as legal services, home & auto insurance, pet insurance, and ID theft protection for life's unexpected moments</li></ul><p>Security Supervisor</p><p>The Security Supervisor is responsible for the day-to-day execution and oversight of security operations within a data center environment. This role ensures the consistent application of security policies, procedures, and standards to protect critical infrastructure, personnel, and assets, while supporting compliance with client requirements and regulatory frameworks such as SOC 2 and ISO.</p><p>Responsibilities:</p><ul><li>Supervise and coordinate shift-based security operations, including access control, surveillance, and patrols</li><li>Ensure all security officers adhere to post orders, SOPs, and site-specific protocols</li><li>Monitor and manage access control systems, badge issuance, visitor management, and escort procedures</li><li>Oversee CCTV and alarm systems, ensuring timely response to alerts and anomalies</li><li>Act as the first point of escalation for incidents, emergencies, and operational issues; ensure proper documentation and reporting</li><li>Conduct preliminary incident investigations and support root cause analysis</li><li>Ensure compliance with SOC 2, ISO standards, and all client-driven security requirements</li><li>Perform routine site inspections, audits, and quality assurance checks</li><li>Coordinate with the Security Manager and client stakeholders on daily operations and escalations</li><li>Lead shift briefings, training, and ongoing coaching for security personnel</li><li>Manage staffing levels, scheduling, and coverage to meet operational demands</li><li>Support emergency preparedness efforts, including drills and response coordination</li><li>Maintain accurate logs, reports, and metrics related to security operations and incidents</li></ul><p>Qualifications</p><ul><li>3-5+ years of experience in physical security, preferably in a data center or critical environment</li><li>Prior supervisory or team lead experience required</li><li>Strong understanding of access control systems, CCTV, and security operations</li><li>Familiarity with compliance frameworks such as SOC 2 and ISO</li><li>Excellent communication, leadership, and decision-making skills</li><li>Ability to operate effectively in a fast-paced, high-security environment</li></ul><p>Physical Requirements</p><ul><li>Ability to stand and remain active for extended periods</li><li>Ability to work outdoors in varied weather conditions</li><li>Ability to navigate uneven terrain and active construction areas</li><li>Ability to lift up to 40lbsas needed</li><li>Ability to respond quickly to incidents and emergencies</li></ul><p>Work Environment</p><ul><li>Remote site in Afton, TX with limited nearby services</li><li>Active construction environment with heavy equipment and ongoing operations</li><li>Outdoor work in extreme weather conditions and in an office setting</li><li>Uneven terrain requiring mobility and situational awareness</li><li>Strict adherence to PPE requirements is always mandatory within designated construction zones and while operating site vehicles including UTVs</li></ul><p>If you are a motivated and results-driven individual with a passion for data center services and a knack for building strong client relationships, we want to hear from you. Join us in revolutionizing the data center industry and apply today!</p><p>Salute is an equal opportunity employer committed to celebrating diversity, creating an inclusive environment for all employees, and providing equal employment opportunities to all applicants; if you require a reasonable accommodation to participate in the job application or interview process, perform essential job functions, or receive other benefits and privileges of employment, please contact our Human Resources department at hr@salute.com for more information.</p><p>The base salary range for this role is $26-$28 per hour. This range reflects a good‑faith estimate of what we reasonably expect to pay upon hire, based on factors such as skills, experience, education, and market/location. Our comprehensive benefits include health, dental, and vision insurance, Health Savings Account (HSA), gym discount, mental health, Discounted Group Life & AD&D, Discounted Group Short & Long-term Disability, 401(k) retirement matching, PTO/paid holidays, and parental leave. Final compensation will be determined by job‑related factors consistent with applicable law.</p><p>#sp1</p><br><p><b>Skills:</b><br>Access Control, Applications Security, CCTV, Coaching, Communication Skills, Computer Security, Construction, Customer Relations, Customer Support/Service, Documentation, Heavy Equipment/Vehicles, ISO (International Organization for Standardization), Incident Response, Information/Data Security (InfoSec), Leadership, Maintain Compliance, Metrics, Network Operations Center, Operations, Physical Demands, Physical Security, Psychiatry and Mental Health, Quality Assurance, Regulatory Compliance, Regulatory Requirements, Root Cause Analysis, Security Equipment, Security Monitoring, Standard Operating Procedures (SOP), Surveillance, Systems Administration/Management, Team Lead/Manager, Time Management</p><br><p><b>undefined:</b><br>Salute Mission Critical</p><br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "3-5+ years of experience in physical security, preferably in a data center or critical environment",
+            "Prior supervisory or team lead experience required",
+            "Strong understanding of access control systems, CCTV, and security operations",
+            "Familiarity with compliance frameworks such as SOC 2 and ISO",
+            "Excellent communication, leadership, and decision-making skills",
+            "Ability to operate effectively in a fast-paced, high-security environment",
+            "Ability to stand and remain active for extended periods",
+            "Ability to work outdoors in varied weather conditions",
+            "Ability to navigate uneven terrain and active construction areas",
+            "Ability to lift up to 40lbsas needed",
+            "Ability to respond quickly to incidents and emergencies",
+            "Strict adherence to PPE requirements is always mandatory within designated construction zones and while operating site vehicles including UTVs",
+            "Access Control, Applications Security, CCTV, Coaching, Communication Skills, Computer Security, Construction, Customer Relations, Customer Support/Service, Documentation, Heavy Equipment/Vehicles, ISO (International Organization for Standardization), Incident Response, Information/Data Security (InfoSec), Leadership, Maintain Compliance, Metrics, Network Operations Center, Operations, Physical Demands, Physical Security, Psychiatry and Mental Health, Quality Assurance, Regulatory Compliance, Regulatory Requirements, Root Cause Analysis, Security Equipment, Security Monitoring, Standard Operating Procedures (SOP), Surveillance, Systems Administration/Management, Team Lead/Manager, Time Management",
+            "10 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Time to Recharge: Enjoy 8 company-paid holidays, 2 floating holidays, and PTO so you can rest, celebrate, and take care of what matters most",
+            "Comprehensive Benefits Package: Including Medical, Dental, and Vision that you can enroll in starting on Day 1",
+            "Coverage begins the first of the month following 30-days of employment",
+            "Peace of Mind: The Employee Assistance Program is available to all employees, even if you do not participate in the benefits package",
+            "Your financial future matters: Enjoy our employer-supported 401(K) with immediate 100% vesting, plus a 3% employer match and a 50% match on the next 2%",
+            "Wellness Support: Access to HSA, mental health resources, and gym discounts-because your health matters",
+            "Extra Protection & Perks: Through discounted group programs, such as legal services, home & auto insurance, pet insurance, and ID theft protection for life's unexpected moments",
+            "The base salary range for this role is $26-$28 per hour",
+            "This range reflects a good‑faith estimate of what we reasonably expect to pay upon hire, based on factors such as skills, experience, education, and market/location",
+            "Our comprehensive benefits include health, dental, and vision insurance, Health Savings Account (HSA), gym discount, mental health, Discounted Group Life & AD&D, Discounted Group Short & Long-term Disability, 401(k) retirement matching, PTO/paid holidays, and parental leave",
+            "Final compensation will be determined by job‑related factors consistent with applicable law",
+            "8 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Security Supervisor is responsible for the day-to-day execution and oversight of security operations within a data center environment",
+            "This role ensures the consistent application of security policies, procedures, and standards to protect critical infrastructure, personnel, and assets, while supporting compliance with client requirements and regulatory frameworks such as SOC 2 and ISO",
+            "Supervise and coordinate shift-based security operations, including access control, surveillance, and patrols",
+            "Ensure all security officers adhere to post orders, SOPs, and site-specific protocols",
+            "Monitor and manage access control systems, badge issuance, visitor management, and escort procedures",
+            "Oversee CCTV and alarm systems, ensuring timely response to alerts and anomalies",
+            "Act as the first point of escalation for incidents, emergencies, and operational issues; ensure proper documentation and reporting",
+            "Conduct preliminary incident investigations and support root cause analysis",
+            "Ensure compliance with SOC 2, ISO standards, and all client-driven security requirements",
+            "Perform routine site inspections, audits, and quality assurance checks",
+            "Coordinate with the Security Manager and client stakeholders on daily operations and escalations",
+            "Lead shift briefings, training, and ongoing coaching for security personnel",
+            "Manage staffing levels, scheduling, and coverage to meet operational demands",
+            "Support emergency preparedness efforts, including drills and response coordination",
+            "Maintain accurate logs, reports, and metrics related to security operations and incidents",
+            "Remote site in Afton, TX with limited nearby services",
+            "Active construction environment with heavy equipment and ongoing operations",
+            "Outdoor work in extreme weather conditions and in an office setting",
+            "Uneven terrain requiring mobility and situational awareness",
+            "16 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "2b4a69c94d10",
       "title": "Data Center Security Officers- \\$23.00/hr (#96)",
       "company": "Sunstates Security",
       "location": "Fort Worth, TX",
@@ -68,9 +127,157 @@
       "posted_date": null,
       "apply_link": "https://www.tealhq.com/job/data-center-security-officer_7ea1a506e088b1761dfc48f86477dbc73e695",
       "via": "via Teal",
-      "description": "<p>About the position</p><p>Sunstates Security is currently hiring Data Center Security Officers in the Roanoke, TX area. These positions will be Full-time/ Part-time & All shifts. These positions offer a pay rate of \\$23.00/hr paid weekly. Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!</p><p>Responsibilities</p><ul><li>A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP).</li><li>The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives.</li></ul><p>Requirements</p><ul><li>Must have Level II Security Officer License in hand.</li><li>Must have a CPR card</li><li>Must be able to stand, walk, and sit for long periods of time.</li><li>Must have security experience.</li><li>Must have reliable means of transportation to and from work.</li><li>Must have 2 years of experience working in technology.</li><li>High School diploma or equivalent</li><li>Level II Texas Security License</li><li>CPR/1st Aid</li></ul><p>Nice-to-haves</p><ul><li>Customer service experience preferred.</li></ul><p>Benefits</p><ul><li>Weekly pay</li><li>401k savings plan with a company match</li><li>Affordable medical, dental & vision benefits</li><li>Employee referral bonuses</li><li>Paid time off</li><li>Premium holiday pay</li><li>Tuition reimbursement</li><li>Affordable Care Act compliant Medical Benefits Program</li><li>Dental Insurance Program</li><li>Free Life Insurance</li><li>Disability Insurance</li><li>Paid Time Off & Bereavement Leave</li><li>Paid Holidays</li><li>Direct Deposit or Pay Cards</li><li>Employee Incentives</li><li>Referral Bonuses</li><li>Employee of the Month Award</li><li>Education Reimbursement</li><li>Service Awards</li><li>Employee Involvement Initiatives</li><li>Management Mentoring and Support</li><li>Career Advancement</li><li>401K program</li><li>Medical Insurance</li><li>Life Insurance</li><li>Dental Insurance</li><li>Vision Insurance</li><li>Paid Vacation</li><li>Short Term Disability</li><li>Long Term Disability</li><li>401K/403b Plan</li><li>Educational Assistance</li></ul>"
+      "description": "<p>About the position</p><p>Sunstates Security is currently hiring Data Center Security Officers in the Roanoke, TX area. These positions will be Full-time/ Part-time & All shifts. These positions offer a pay rate of \\$23.00/hr paid weekly. Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!</p><p>Responsibilities</p><ul><li>A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP).</li><li>The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives.</li></ul><p>Requirements</p><ul><li>Must have Level II Security Officer License in hand.</li><li>Must have a CPR card</li><li>Must be able to stand, walk, and sit for long periods of time.</li><li>Must have security experience.</li><li>Must have reliable means of transportation to and from work.</li><li>Must have 2 years of experience working in technology.</li><li>High School diploma or equivalent</li><li>Level II Texas Security License</li><li>CPR/1st Aid</li></ul><p>Nice-to-haves</p><ul><li>Customer service experience preferred.</li></ul><p>Benefits</p><ul><li>Weekly pay</li><li>401k savings plan with a company match</li><li>Affordable medical, dental & vision benefits</li><li>Employee referral bonuses</li><li>Paid time off</li><li>Premium holiday pay</li><li>Tuition reimbursement</li><li>Affordable Care Act compliant Medical Benefits Program</li><li>Dental Insurance Program</li><li>Free Life Insurance</li><li>Disability Insurance</li><li>Paid Time Off & Bereavement Leave</li><li>Paid Holidays</li><li>Direct Deposit or Pay Cards</li><li>Employee Incentives</li><li>Referral Bonuses</li><li>Employee of the Month Award</li><li>Education Reimbursement</li><li>Service Awards</li><li>Employee Involvement Initiatives</li><li>Management Mentoring and Support</li><li>Career Advancement</li><li>401K program</li><li>Medical Insurance</li><li>Life Insurance</li><li>Dental Insurance</li><li>Vision Insurance</li><li>Paid Vacation</li><li>Short Term Disability</li><li>Long Term Disability</li><li>401K/403b Plan</li><li>Educational Assistance</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have Level II Security Officer License in hand",
+            "Must have a CPR card",
+            "Must be able to stand, walk, and sit for long periods of time",
+            "Must have security experience",
+            "Must have reliable means of transportation to and from work",
+            "Must have 2 years of experience working in technology",
+            "High School diploma or equivalent",
+            "Level II Texas Security License",
+            "5 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "These positions offer a pay rate of \\$23.00/hr paid weekly",
+            "Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!",
+            "Weekly pay",
+            "401k savings plan with a company match",
+            "Affordable medical, dental & vision benefits",
+            "Employee referral bonuses",
+            "Paid time off",
+            "Premium holiday pay",
+            "Tuition reimbursement",
+            "Affordable Care Act compliant Medical Benefits Program",
+            "Dental Insurance Program",
+            "Free Life Insurance",
+            "Disability Insurance",
+            "Paid Time Off & Bereavement Leave",
+            "Paid Holidays",
+            "Direct Deposit or Pay Cards",
+            "Employee Incentives",
+            "Referral Bonuses",
+            "Employee of the Month Award",
+            "Education Reimbursement",
+            "Service Awards",
+            "Employee Involvement Initiatives",
+            "Management Mentoring and Support",
+            "Career Advancement",
+            "401K program",
+            "Medical Insurance",
+            "Life Insurance",
+            "Dental Insurance",
+            "Vision Insurance",
+            "Paid Vacation",
+            "Short Term Disability",
+            "Long Term Disability",
+            "401K/403b Plan",
+            "Educational Assistance",
+            "31 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "These positions will be Full-time/ Part-time & All shifts",
+            "A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP)",
+            "The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "ec9a66a51a0f",
+      "title": "Data Center Security Officer",
+      "company": "Salute Mission Critical",
+      "location": "Ennis, TX",
+      "vertical": "security",
+      "role": "data-center",
+      "pay": "22–25 an hour",
+      "pay_min": 22.0,
+      "pay_max": 25.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.monster.com/job-openings/data-center-security-officer-ennis-tx--2fc61440-741b-41a6-890f-3217c5df4b52",
+      "via": "via Monster",
+      "description": "<p>Salute is a leading provider of cutting-edge Data Center Infrastructure Services, dedicated to serving data center clients worldwide. We pride ourselves on delivering sustainable solutions, unparalleled reliability, and outstanding customer service. As we continue to grow, we are seeking a dynamic and experienced Security Officer to join our team and drive our relationships with hyperscale clients to new heights.</p><p>Position located in Afton, TX.</p><p>Salute Benefits That Put You First</p><p>We know life doesn't stop when work begins, that's why we offer perks designed to support your well-being, your family, and your future:</p><ul><li>Time to Recharge: Enjoy 8 company-paid holidays, 2 floating holidays, and PTO so you can rest, celebrate, and take care of what matters most.</li><li>Comprehensive Benefits Package: Including Medical, Dental, and Vision that you can enroll in starting on Day 1. Coverage begins the first of the month following 30-days of employment.</li><li>Peace of Mind: The Employee Assistance Program is available to all employees, even if you do not participate in the benefits package.</li><li>Your financial future matters: Enjoy our employer-supported 401(K) with immediate 100% vesting, plus a 3% employer match and a 50% match on the next 2%.</li><li>Wellness Support: Access to HSA, mental health resources, and gym discounts-because your health matters.</li><li>Extra Protection & Perks: Through discounted group programs, such as legal services, home & auto insurance, pet insurance, and ID theft protection for life's unexpected moments</li></ul><p>Security Officer:</p><p>As a Data Center Security Officer, you will conduct unarmed foot and/or vehicle patrol (interior and/or exterior), control access and egress, monitor closed-circuit televisions and alarm systems compose reports, deter criminal activity, and misconduct, and perform other duties as specified in post orders. The Data Center Security Officer is trained to work on all posts at the assigned site location and is available to work all shifts.</p><p>Responsibilities:</p><ul><li>Patrol exterior grounds of the facility.</li><li>Provide access control for gates ensuring only authorized personnel are permitted.</li><li>Manage traffic flow at gates to ensure no disruption in business operations.</li><li>Maintain access log.</li><li>Monitor cameras after normal working hours.</li><li>Notify your Shift Lead of Supervisor of any issues.</li><li>Observe and report and suspicious activity</li><li>Maintain awareness of surroundings to promote physical security and safety; watch for irregular or unusual conditions that may create security concerns or safety hazards</li><li>Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements</li><li>Contribute to communication and awareness of security policies and issues as needed; warn violators of rule infractions, such as loitering, smoking or carrying forbidden articles</li><li>Permit authorized persons to enter property and monitors entrances and exits; control/direct traffic; Observe departing personnel to protect against theft of company property and ensure that authorized removal of property is conducted within appropriate client requirements</li></ul><p>Required Qualifications:</p><ul><li>Customer service experience</li><li>A team player with a helpful disposition</li><li>Excellent computer skills</li><li>High School Diploma or equivalent</li><li>Able to pass a background check and 10-panel drug screen (Zero tolerance drug policy)</li><li>Texas DPS Guard Card</li><li>Overtime will be required at times</li></ul><p>Physical Requirements:</p><ul><li>Ability to lift and carry heavy equipment, up to 40lbs.</li><li>Ability to climb ladders and multiple flights of stairs to access elevated equipment</li><li>Ability to stand for long periods of time in various work environments</li><li>Ability to bend, stoop, kneel, and reach for equipment related tasks</li><li>Basic physical fitness to respond quickly to emergency situations and navigate areas quickly</li><li>Ability to move quickly and efficiently withing various work environments to troubleshoot issues or respond to emergencies.</li><li>Good hand-eye coordination and dexterity for working with small components and connectors</li><li>Clear vision, with or without correction, to perform tasks requiring attention to detail and precision while wearing safety glasses</li><li>Ability to differentiate between color-coded warning signs, labels, and cables</li><li>Ability to work in environments with a wide variety temperature inside a facility</li><li>Ability to work outdoors in various weather conditions, including extreme temperatures, rain, or snow</li><li>Capability to work in environments with elevated noise levels while wearing hearing protection</li><li>Possession of a valid driver's license for work-related travel, as required</li></ul><p>If you are a motivated and results-driven individual with a passion for data center services and a knack for building strong client relationships, we want to hear from you. Join us in revolutionizing the data center industry and apply today!</p><p>Salute is an equal opportunity employer committed to celebrating diversity, creating an inclusive environment for all employees, and providing equal employment opportunities to all applicants; if you require a reasonable accommodation to participate in the job application or interview process, perform essential job functions, or receive other benefits and privileges of employment, please contact our Human Resources department at hr@salute.com for more information.</p><p>Compensation & Benefits Disclosure</p><p>The base salary range for this role is $22-$25/hour. This range reflects a good‑faith estimate of what we reasonably expect to pay upon hire, based on factors such as skills, experience, education, and market/location. Our comprehensive benefits include health, dental, and vision insurance, Health Savings Account (HSA), gym discount, mental health, Discounted Group Life & AD&D, Discounted Group Short & Long-term Disability, 401(k) retirement matching, PTO/paid holidays, and parental leave. Final compensation will be determined by job‑related factors consistent with applicable law.</p><p>#sp1</p><br><p><b>Skills:</b><br>Access Control, Background Investigation, Business Operations, Compensation and Benefits, Computer Skills, Customer Relations, Customer Support/Service, Detail Oriented, Driver's License, Emergency Response, Environmental Issues, Fitness, Heavy Equipment/Vehicles, Heavy Lifting, High School Diploma, Identify Issues, Information/Data Security (InfoSec), Lift/Move 40 Pounds, Network Operations Center, Physical Demands, Psychiatry and Mental Health, Security Equipment, Team Player, Willing to Travel</p><br><p><b>undefined:</b><br>Salute Mission Critical</p><br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Customer service experience",
+            "A team player with a helpful disposition",
+            "Excellent computer skills",
+            "High School Diploma or equivalent",
+            "Able to pass a background check and 10-panel drug screen (Zero tolerance drug policy)",
+            "Texas DPS Guard Card",
+            "Overtime will be required at times",
+            "Ability to lift and carry heavy equipment, up to 40lbs",
+            "Ability to climb ladders and multiple flights of stairs to access elevated equipment",
+            "Ability to stand for long periods of time in various work environments",
+            "Ability to bend, stoop, kneel, and reach for equipment related tasks",
+            "Basic physical fitness to respond quickly to emergency situations and navigate areas quickly",
+            "Ability to move quickly and efficiently withing various work environments to troubleshoot issues or respond to emergencies",
+            "Good hand-eye coordination and dexterity for working with small components and connectors",
+            "Clear vision, with or without correction, to perform tasks requiring attention to detail and precision while wearing safety glasses",
+            "Ability to differentiate between color-coded warning signs, labels, and cables",
+            "Ability to work in environments with a wide variety temperature inside a facility",
+            "Ability to work outdoors in various weather conditions, including extreme temperatures, rain, or snow",
+            "Capability to work in environments with elevated noise levels while wearing hearing protection",
+            "Possession of a valid driver's license for work-related travel, as required",
+            "If you are a motivated and results-driven individual with a passion for data center services and a knack for building strong client relationships, we want to hear from you",
+            "Access Control, Background Investigation, Business Operations, Compensation and Benefits, Computer Skills, Customer Relations, Customer Support/Service, Detail Oriented, Driver's License, Emergency Response, Environmental Issues, Fitness, Heavy Equipment/Vehicles, Heavy Lifting, High School Diploma, Identify Issues, Information/Data Security (InfoSec), Lift/Move 40 Pounds, Network Operations Center, Physical Demands, Psychiatry and Mental Health, Security Equipment, Team Player, Willing to Travel",
+            "19 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Time to Recharge: Enjoy 8 company-paid holidays, 2 floating holidays, and PTO so you can rest, celebrate, and take care of what matters most",
+            "Comprehensive Benefits Package: Including Medical, Dental, and Vision that you can enroll in starting on Day 1",
+            "Coverage begins the first of the month following 30-days of employment",
+            "Peace of Mind: The Employee Assistance Program is available to all employees, even if you do not participate in the benefits package",
+            "Your financial future matters: Enjoy our employer-supported 401(K) with immediate 100% vesting, plus a 3% employer match and a 50% match on the next 2%",
+            "Wellness Support: Access to HSA, mental health resources, and gym discounts-because your health matters",
+            "Extra Protection & Perks: Through discounted group programs, such as legal services, home & auto insurance, pet insurance, and ID theft protection for life's unexpected moments",
+            "The base salary range for this role is $22-$25/hour",
+            "This range reflects a good‑faith estimate of what we reasonably expect to pay upon hire, based on factors such as skills, experience, education, and market/location",
+            "Our comprehensive benefits include health, dental, and vision insurance, Health Savings Account (HSA), gym discount, mental health, Discounted Group Life & AD&D, Discounted Group Short & Long-term Disability, 401(k) retirement matching, PTO/paid holidays, and parental leave",
+            "Final compensation will be determined by job‑related factors consistent with applicable law",
+            "8 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Data Center Security Officer, you will conduct unarmed foot and/or vehicle patrol (interior and/or exterior), control access and egress, monitor closed-circuit televisions and alarm systems compose reports, deter criminal activity, and misconduct, and perform other duties as specified in post orders",
+            "The Data Center Security Officer is trained to work on all posts at the assigned site location and is available to work all shifts",
+            "Patrol exterior grounds of the facility",
+            "Provide access control for gates ensuring only authorized personnel are permitted",
+            "Manage traffic flow at gates to ensure no disruption in business operations",
+            "Maintain access log",
+            "Monitor cameras after normal working hours",
+            "Notify your Shift Lead of Supervisor of any issues",
+            "Observe and report and suspicious activity",
+            "Maintain awareness of surroundings to promote physical security and safety; watch for irregular or unusual conditions that may create security concerns or safety hazards",
+            "Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements",
+            "Contribute to communication and awareness of security policies and issues as needed; warn violators of rule infractions, such as loitering, smoking or carrying forbidden articles",
+            "Permit authorized persons to enter property and monitors entrances and exits; control/direct traffic; Observe departing personnel to protect against theft of company property and ensure that authorized removal of property is conducted within appropriate client requirements",
+            "10 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "1351f93e4b05",
       "title": "Data Center Security Officer",
       "company": "Securitas Security Services",
       "location": "Dallas, TX",
@@ -84,87 +291,366 @@
       "posted_date": null,
       "apply_link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/169543",
       "via": "via Cloud Sign In",
-      "description": "<p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"><strong>Security Officer</strong></span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"bcx9\"> </span><br><span class=\"bcx9\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">We help make your world a safer place.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">Securitas is a global company that offers the most advanced and sustainable security solutions in the industry. We </span><span class=\"normaltextrun\" style=\"border-bottom: transparent;\">are located in</span><span class=\"normaltextrun\"> 47 countries and have 355,000 employees worldwide and over 150,000 clients.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">Securitas plays an essential role for our clients and in society. The</span><span><strong> Security Officer</strong> position helps maintain a safe and secure environment for our clients by actively monitoring the premises, including patrolling a variety of locations. They preserve order while </span><span class=\"normaltextrun\" style=\"border-bottom: transparent;\">enforcing regulations and directives for a client site pertaining to personnel, visitors, and the area. Frequently our Security Officers will provide customer service and information to a </span><span class=\"normaltextrun\">client’s employees and customers.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">We are driven by a clear corporate culture and purpose, which helps us live according to our values of Integrity, Vigilance, and Helpfulness. These values are at the heart of our culture, help define who we are and guide our actions.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">No experience necessary! If you have retail, food service or hospitality industry background you are a great fit for this role; if not, we will provide you with the training and everything you need for a great introduction to a career in the security industry.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"><strong>Are you interested in being part of our Team?</strong></span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Apply quickly and efficiently online </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Interview from the convenience of your own home</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Weekly pay </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Competitive benefits </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Flexible schedules </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">With over 80 years of protecting the things that matter, we’ve seen more than most. That’s why Securitas is the partner of choice for companies and an employer of choice for candidates worldwide.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"> See a different world.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"> </span><span class=\"eop\"> </span></p><p class=\"MsoNormal\">“Securitas is committed to diversity, equity, inclusion and belonging in the workplace.  All qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other applicable legally protected characteristic.”</p><p class=\"MsoNormal\"> </p><p>Security Guard / Securitas Security / DALLAS TX / TXDPS License # B01835<br> </p>"
+      "description": "<p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"><strong>Security Officer</strong></span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"bcx9\"> </span><br><span class=\"bcx9\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">We help make your world a safer place.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">Securitas is a global company that offers the most advanced and sustainable security solutions in the industry. We </span><span class=\"normaltextrun\" style=\"border-bottom: transparent;\">are located in</span><span class=\"normaltextrun\"> 47 countries and have 355,000 employees worldwide and over 150,000 clients.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">Securitas plays an essential role for our clients and in society. The</span><span><strong> Security Officer</strong> position helps maintain a safe and secure environment for our clients by actively monitoring the premises, including patrolling a variety of locations. They preserve order while </span><span class=\"normaltextrun\" style=\"border-bottom: transparent;\">enforcing regulations and directives for a client site pertaining to personnel, visitors, and the area. Frequently our Security Officers will provide customer service and information to a </span><span class=\"normaltextrun\">client’s employees and customers.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">We are driven by a clear corporate culture and purpose, which helps us live according to our values of Integrity, Vigilance, and Helpfulness. These values are at the heart of our culture, help define who we are and guide our actions.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">No experience necessary! If you have retail, food service or hospitality industry background you are a great fit for this role; if not, we will provide you with the training and everything you need for a great introduction to a career in the security industry.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"><strong>Are you interested in being part of our Team?</strong></span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Apply quickly and efficiently online </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Interview from the convenience of your own home</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Weekly pay </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Competitive benefits </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in 0in 0in 11.25pt;\"><span>·           </span><span class=\"normaltextrun\">Flexible schedules </span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\">With over 80 years of protecting the things that matter, we’ve seen more than most. That’s why Securitas is the partner of choice for companies and an employer of choice for candidates worldwide.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"> See a different world.</span><span class=\"eop\"> </span></p><p class=\"paragraph\" style=\"margin: 0in;\"><span class=\"normaltextrun\"> </span><span class=\"eop\"> </span></p><p class=\"MsoNormal\">“Securitas is committed to diversity, equity, inclusion and belonging in the workplace.  All qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other applicable legally protected characteristic.”</p><p class=\"MsoNormal\"> </p><p>Security Guard / Securitas Security / DALLAS TX / TXDPS License # B01835<br> </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "No experience necessary!",
+            "If you have retail, food service or hospitality industry background you are a great fit for this role; if not, we will provide you with the training and everything you need for a great introduction to a career in the security industry",
+            "Flexible schedules"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Interview from the convenience of your own home",
+            "Weekly pay",
+            "Competitive benefits"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Security Officer position helps maintain a safe and secure environment for our clients by actively monitoring the premises, including patrolling a variety of locations",
+            "They preserve order while enforcing regulations and directives for a client site pertaining to personnel, visitors, and the area",
+            "Frequently our Security Officers will provide customer service and information to a client’s employees and customers"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Data Center Security Officers- $23.00/hr (#96)",
-      "company": "Sunstates Security",
+      "job_hash": "5a916b501551",
+      "title": "Security Patrol Officer - Variable Schedule",
+      "company": "Union Gospel Mission of Tarrant County",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "data-center",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://bebee.com/us/jobs/data-center-security-officers-2300-hr-96-sunstates-security-fort-worth--ss-us-ohohk0",
-      "via": "via BeBee",
-      "description": "<h2>Overview</h2>\nBecome part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener..."
-    },
-    {
-      "title": "Unarmed Security Officer - (Level II Noncommissioned)",
-      "company": "First Responder Protective Services",
-      "location": "Grapevine, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "18–20 an hour",
-      "pay_min": 18.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-level-ii-noncommissioned-first-responder-protective-services-corp-grapevine--fj-2309071783",
-      "via": "via Indeed",
-      "description": "<div>\n <p><b>About First Responder Protective Services</b></p>\n <p></p>\n <p><br>\n   First Responder Protective Services is a premier provider of private security needs across the U.S. Our company is owned, operated and managed by U.S. Military veterans, law enforcement executives, and corporate business professionals. Our founders have over 60 years of experience in protecting critical infrastructures, combating transnational criminal organizations, mitigating risks, and providing the highest level of safety and security to corporations and communities.</p>\n <p></p>\n <p><br>\n   The mission of First Responder Protective Services is to provide the highest level of customer service to each and every client. We accomplish this mission through our foundation of attention to detail, integrity, accountability, empathy, care, and concern for the needs of our clients and the officers which we serve.</p>\n <p><b><br>\n    Job Title:</b> Non-Commissioned Security Guard (Level II)<br><b>Location</b>: Grapevine<br><b>Pay:</b> $18-$20 per hour, depending on qualifications (paid weekly)<br><b>Status: Full-time & Part-time</b></p>\n <h3><b> Position Summary</b></h3>\n <p></p>\n <p><br>\n   First Responder Protective Services (FRPS) is hiring multiple FLEX Non-Commissioned Security Guards to provide a consistent security presence at a controlled-access community in the Grapevine area. This position is primarily based in a spacious, climate-controlled guard shack, where officers will manage access control, monitor video surveillance and access systems, and check residents and visitors in and out of the property. The guard shack is equipped with basic necessities and access to clean, private restroom facilities. Officers will also conduct occasional patrols of the property, both on foot and by golf cart, to maintain visibility and ensure the safety of residents and property. Weekday and weekend shifts are available, with 24/7 coverage required.</p>\n <h3><b> Key Responsibilities</b></h3>\n <ul>\n  <li>Manage check-in/out residents and visitors in a climate controlled shack.</li>\n  <li>Monitor entrances, access points, and surveillance systems.</li>\n  <li>Respond promptly to alarms, emergencies, or incidents.</li>\n  <li>Prepare detailed incident and activity reports as required.</li>\n  <li>Remain alert and proactive in identifying and reporting security concerns</li>\n  <li>Follow all post orders and supervisor instructions</li>\n  <li>Occasional mobile and foot patrol in assigned areas to ensure safety and security of residents, staff, and property.</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Requirements</b></h3>\n <ul>\n  <li>Must have at least <b>one year of experience </b>unarmed security.</li>\n  <li>Must hold a current <b>Level II Texas Noncommissioned Security License</b></li>\n  <li>Must have a <b>valid Texas Driver’s License</b> (or ability to obtain before starting)</li>\n  <li>Professional appearance and demeanor</li>\n  <li>Ability to work independently or with a team</li>\n  <li>Able to sit, stand, or walk for extended periods</li>\n </ul>\n <p></p>\n <p><b><br>\n    Schedule</b></p>\n <p>Full Time position:</p>\n <ul>\n  <li>Sunday: 10p-6a</li>\n  <li>Monday: 10p-6a</li>\n  <li>Tuesday: 10p-6a</li>\n  <li>Wednesday: 10p-6a</li>\n  <li>Thursday: 10p-6a</li>\n  <li>Friday: OFF</li>\n  <li>Saturday: OFF</li>\n </ul>\n <p></p>\n <p><br>\n   Part Time position:</p>\n <ul>\n  <li>Saturday 2p-10p</li>\n  <li>Sunday 2p-10p</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Uniform & Equipment</b></h3>\n <ul>\n  <li><b> FRPS Provides:</b> Uniform shirt, hats, cold weather gear</li>\n  <li><b> Officer Provides:</b> Duty pants, black boots</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Compensation & Advancement</b></h3>\n <ul>\n  <li><b> Hourly Pay:</b> $18-$20/hour (based on experience and availability)</li>\n  <li><b> Pay Frequency:</b> Bi-weekly via direct deposit</li>\n  <li><b> Status:</b> W2 employee (eligible for overtime after 40 hours in a workweek)</li>\n  <li><b> Shifts:</b> 8 hours per day</li>\n </ul>\n <p></p>\n <p><b><br>\n    Full-Time Employee Benefits</b></p>\n <ul>\n  <li><b> Paid Time Off (PTO):</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>1st Year: Accrue up to 7 days (56 hours)</li>\n     <li>2nd Year: Accrue up to 10 days (80 hours)</li>\n     <li>5th Year and beyond: Accrue up to 15 days (120 hours)</li>\n    </ul>\n   </div></li>\n  <li><b> Health Insurance:</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>Company pays up to $300/month toward employee’s health insurance</li>\n     <li>Comprehensive medical, dental, and vision coverage (eligible after first month)</li>\n    </ul>\n   </div></li>\n  <li><b> Retirement:</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>401(k) plan with up to 4% company match</li>\n    </ul>\n   </div></li>\n </ul>\n <h3><b> Posted By:</b></h3>\n <p><b> First Responder Protective Services</b><br>\n   4006 Belt Line Rd, Suite 138<br>\n   Addison, TX 75001<br>\n   Texas Department Of Public Safety Private Security Program License # C10520601</p>\n <p><b><br>\n    Equal Employment Opportunity</b></p>\n <p>First Responder Protective Services is an Equal Employment Opportunity and affirmative action employer. We celebrate diversity and do not discriminate based on race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability status, or any other applicable characteristics protected by law.</p>\n</div>\n<p></p>"
-    },
-    {
-      "title": "Security Shift Supervisor",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Red Oak, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "$20.00/hour",
+      "role": "weekend",
+      "pay": "20 an hour",
       "pay_min": 20.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b20ce3d656430cda",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0c76d689d432e249",
       "via": "via LinkedIn",
-      "description": "<strong>Security Shift Supervisor (Overnight) – Desoto, TX<br><br></strong><strong>Pay Rate:</strong> $20.00/hour<br><br><strong>Schedule<br><br></strong><ul><li>Friday: 12:00 AM – 8:00 AM</li><li>Saturday: 12:00 AM – 8:00 AM & 8:00 PM – 8:00 AM</li><li>Sunday: 8:00 PM – 8:00 AM<br><br></li></ul><strong>Position Summary<br><br></strong>We are seeking a reliable and motivated <strong>Security Shift Lead</strong> to oversee overnight security operations in Desoto, TX. This role is responsible for maintaining a safe and secure environment while providing leadership, direction, and support to on-duty security personnel. The ideal candidate is experienced, decisive under pressure, and capable of managing incidents professionally.<br><br><strong>Key Responsibilities<br><br></strong><ul><li>Supervise and support security officers during assigned shifts</li><li>Serve as the primary point of contact for incidents and escalations</li><li>Monitor premises through patrols and surveillance systems</li><li>Respond to emergencies, incidents, and alarms in a timely manner</li><li>Prepare detailed incident and daily activity reports</li><li>Ensure all security protocols and post orders are followed</li><li>Communicate effectively with management, clients, and team members</li><li>Assist with training and mentoring of security staff<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>1–3 years of security experience (supervisory experience preferred)</li><li>Strong leadership, interpersonal, and communication skills</li><li>Ability to assess situations and make sound decisions under pressure</li><li>Basic computer proficiency (report writing, email, incident systems)</li><li>Flexible availability, including nights and weekends as needed</li><li>Must be 21 years of age or older</li><li>Valid driver’s license required<br><br></li></ul><strong>Preferred Qualities<br><br></strong><ul><li>Professional demeanor and strong work ethic</li><li>Ability to multitask in a fast-paced environment</li><li>High level of integrity and accountability</li><li>Strong attention to detail<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Consistent overnight schedule</li><li>Opportunity to grow into higher leadership roles</li><li>Supportive team environment<br><br></li></ul><em>Security Guard / Securitas Security/ Longview, Texas / TXDPS License #B01835<br><br></em>“Securitas is committed to diversity, equity, inclusion and belonging in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other applicable legally protected characteristic.”<br><br>Securitas employees come from all walks of life, bringing with them a variety of distinctive skills and perspectives. United through our common purpose, we provide the security needed to safeguard our clients' assets and people. Our core values - Integrity, Vigilance and Helpfulness - are represented by the three red dots in the Securitas logo. If you live by these values, we’re looking for you to join the Securitas team.<br><br><strong>Benefits Include<br><br></strong><ul><li>Retirement plan</li><li>Employer-provided medical and dental coverage</li><li>Company-paid life insurance</li><li>Voluntary life and disability insurance</li><li>Employee assistance plan</li><li>Securitas Saves discount program</li><li>Paid holidays</li><li>Paid time away from work<br><br></li></ul>Additionally, some populations may have the availability of accessing earned wages on a daily basis, prior to payday. Restrictions and fees may apply.<br><br>Certain waiting periods may also apply. Paid time away from work may be available either through a combination of vacation and sick time or under a PTO policy, depending on local requirements. Benefits may be different for union members.<br><br>"
+      "description": "<p>More than a career...it's a calling!</p><br> Founded in 1888, Union Gospel Mission of Tarrant County is a united Christian organization and ministry dedicated to providing <strong>love, hope, respect, and a new beginning</strong> for homeless women, men, and families. UGM-TC is funded entirely by the generosity of the community and offers a residency program for individuals looking to maximize their potential and transition out of homelessness. Through the programs and services provided, individuals develop essential life skills to become independent, productive members of our community. UGM-TC is God’s healthy place to end homelessness one person at a time. Come serve with us!  <br><br><br><br><br><strong>UGM is seeking a flexible Security Patrol Officer able to work a variable schedule regarding hours and days worked based on the organization's changing needs.</strong><br><br><br><p><br> <br><br></p><br><p><strong>Position Summary:</strong></p><br><p>The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons. We are looking for active, dependable individuals that are highly motivated. <strong>Former military or law enforcement experience preferred!</strong> This position requires individuals to stand/walk for extended periods of time. There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County.  We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols. </p><br><p>What You Do: </p><br><ul><br> <li>Patrol buildings and grounds. </li><br> <li>Maintain campus security and follow lock protocols. </li><br> <li>Provides individual and group escorts to and from parking areas. </li><br> <li>Identifies and removes unauthorized individuals from property. </li><br> <li>Enforces campus parking policies/cites violations. </li><br> <li>Executes Courtesy Patrol policies, procedures, and standards with excellence. </li><br> <li>Provides campus directions to facility visitors. </li><br> <li>Interacts with police, fire personnel, EMS, patients, visitors, and staff. </li><br> <li>Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities.  </li><br> <li>Make eye contact and greet all people with respect. </li><br> <li>Responds to calls for service and emergency situations with urgency and professionalism. </li><br> <li>Assesses the situation and utilizes appropriate de-escalation measures. </li><br> <li>Utilizes critical thinking skills. </li><br> <li>Responds to and activates the appropriate emergency response codes.  </li><br> <li>Supports activities and events by utilizing appropriate crowd control techniques representative of UGM.  </li><br> <li><strong>Work overnights, weekends, evening hours, and holidays as needed by the organization. </strong> </li><br> <li>The central job functions of this position are not limited to the duties listed above. </li><br></ul><br><p> </p><br><p>Qualifications / What You Bring:  </p><br><ul><br> <li>3-5 years of security, law enforcement, or military experience preferred. </li><br> <li>Familiarity with security equipment.</li><br> <li>Ability to handle physical workload (walking/standing)</li><br> <li>Bilingual:  Spanish Speaking a plus</li><br> <li>Level 2 License preferred</li><br> <li>Strong attention to detail </li><br> <li>An ability to connect with people from diverse backgrounds at varying levels of understanding.  </li><br> <li>Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem. </li><br> <li>Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense. </li><br> <li>Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material. </li><br> <li>Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events). </li><br> <li>A clean driving record.</li><br></ul><br><p><br> <br><br></p><br><p>“As part of the screening process, you may be asked to provide a pastoral reference. Union Gospel Mission of Tarrant County is a Christian organization that seeks to hire people who align with our beliefs in Jesus Christ. We welcome all Christian denominations into the mission.”</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "We are looking for active, dependable individuals that are highly motivated",
+            "This position requires individuals to stand/walk for extended periods of time",
+            "Familiarity with security equipment",
+            "Ability to handle physical workload (walking/standing)",
+            "Strong attention to detail",
+            "An ability to connect with people from diverse backgrounds at varying levels of understanding",
+            "Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong",
+            "It does not involve solving the problem, only recognizing that there is a problem",
+            "Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense",
+            "Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material",
+            "Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)",
+            "A clean driving record",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons",
+            "There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County",
+            "We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols",
+            "Patrol buildings and grounds",
+            "Maintain campus security and follow lock protocols",
+            "Provides individual and group escorts to and from parking areas",
+            "Identifies and removes unauthorized individuals from property",
+            "Enforces campus parking policies/cites violations",
+            "Executes Courtesy Patrol policies, procedures, and standards with excellence",
+            "Provides campus directions to facility visitors",
+            "Interacts with police, fire personnel, EMS, patients, visitors, and staff",
+            "Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities",
+            "Make eye contact and greet all people with respect",
+            "Responds to calls for service and emergency situations with urgency and professionalism",
+            "Assesses the situation and utilizes appropriate de-escalation measures",
+            "Utilizes critical thinking skills",
+            "Responds to and activates the appropriate emergency response codes",
+            "Supports activities and events by utilizing appropriate crowd control techniques representative of UGM",
+            "Work overnights, weekends, evening hours, and holidays as needed by the organization",
+            "The central job functions of this position are not limited to the duties listed above",
+            "17 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Surveillance Security Officer — Monitor Threats & Grow",
-      "company": "GardaWorld",
-      "location": "Richardson, TX",
+      "job_hash": "4af67f139a64",
+      "title": "Loss Prevention Teammate - 2nd Shift",
+      "company": "DICK'S Sporting Goods",
+      "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "general",
-      "pay": "25K–28K a year",
-      "pay_min": 25000.0,
-      "pay_max": 28000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.jobleads.com/us/job/surveillance-security-officer-monitor-threats-grow--richardson--ec85590f9a39bc5ecaef84c26f68d6224",
-      "via": "via JobLeads",
-      "description": "<p>GardaWorld Security Services in Richardson, TX is seeking a Surveillance Security Officer to monitor security systems, observe activity, and rapidly document incidents. This full-time role offers a set Sat-Mon shift, a competitive $18.50/hour wage, comprehensive benefits, a 401(k) with match, PTO and life insurance, plus uniform provided.</p><p>If you have a valid DL, clean MVR, HS diploma or GED, and proven reports writing skills, apply today to join GardaWorld and advance in security.</p>"
-    },
-    {
-      "title": "Security Officer (Union) Mon- Fri 3pm-11pm",
-      "company": "Comstock",
-      "location": "Arlington, TX",
-      "vertical": "security",
-      "role": "residential",
-      "pay": null,
-      "pay_min": null,
+      "role": "loss-prevention",
+      "pay": "$20.05/hr",
+      "pay_min": 20.05,
       "pay_max": null,
-      "pay_unit": null,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.monster.com/job-openings/security-officer-union-mon-fri-3pm-11pm-arlington-tx--3ca93a58-82c9-4ae8-b875-a949f800bda2",
-      "via": "via Monster",
-      "description": "<div class=\"job__description body\"><div><p>Job Overview</p><p>The Security Officer for ParkX Management ensures that the facility is run smoothly, safely, cleanly, and is a good experience for residents, tenants, and guests.</p><p>Key Responsibilities</p><ul><li>Complete hourly patrol route of the property using the security system</li><li>Access control for guests, tenants and vendors</li><li>Ensure no property is being damaged</li><li>Conduct of routine foot patrols in and around building.</li><li>Perform other duties as assigned </li><li>Observation and reporting of safety</li><li>Issue Banning notices to rule violators      </li><li>Maintain file for Ban Notices and notify management when necessary</li><li>Maintain the appearance of the two plaza kiosks </li><li>Enforce the “no dogs on the plaza” policy</li><li>Keep updated information (e.g., Kiss N Ride, Contact Phone #’s, Rules of Conduct) and communicate to guests as needed</li><li>Report any unknown work that is occurring at the property to management</li><li>If anyone parks illegally on the plaza, notify Park X, Commercial property management, and Residential property management immediately </li><li>Communicate to guests that we must keep the fire access areas accessible for fire trucks and ambulances</li><li>Close loading dock doors as needed</li><li>Report any concerns to management</li><li>Reston and Loudoun Station: Assist the Marketing team before, during, and after events as needed</li><li>Reston Station: Manage the valet; ensure that cars are not being parked on the plaza or on the down ramp</li><li>Reston Station: For Special event, ensure that the plaza marketing plan is followed</li><li>Reston Station: Manage traffic coming onto the plaza and keep it moving</li></ul><p>Qualifications</p><ul><li>High School Diploma</li><li>Must be certified security officer by the state of Virginia</li><li>Minimum of at least 1 year experience in customer-service related field </li><li>Valid driver's license without major violations</li><li>Flexibility to work after hours and weekends, as needed</li><li>Outgoing personality with ability to relate to diverse group of people and build/maintain strong relationships</li><li>Strong sense of urgency</li><li>Strong problem-solving, time management and communication skills</li><li>Must be highly credible and trustworthy, and operate with high degree of integrity</li><li>Must hold oneself and others accountable and strive for a high level of excellence</li><li>Must have a positive, can-do attitude and be able to fuel growth and innovation</li><li>Must be customer-focused and results-oriented</li><li>Must want to continuously learn and develop</li><li>Exceptional oral and written communication, active listening, and organizational skills</li><li>Ability to establish strong working relationships with others in team setting </li><li>Ability to multitask and prioritize tasks with a strong attention to detail in a fast-paced environment </li><li>Self-directed and able to work independently, with minimal supervision</li></ul><p> </p><p>Physical Demands & Work Environment</p><ul><li>Required to stand for long periods and walk, climb stairs, balance, stoop, kneel, crouch, bend, stretch, twist, and/or reach</li><li>Push, pull or lift up to 50 pounds</li><li>Continuous repetitive motions</li><li>Work under variable temperature conditions (or extreme heat or cold), under variable noise levels, outdoors/indoors, around fumes and/or hazards, around dust and/or mite hazards, around chemicals and bio-hazards</li></ul><p> </p><p>Benefits</p><p>Compensation:<br>Benefit Package: Medical, Dental, Vision, 401K Match, Life Insurance<br><br>Career Development<br>- Opportunities for Advancement within our expanding portfolio<br>- Annual Professional Development Funds to fuel your growth<br><br>Employee Perks (to name a few):<br>- Free Parking and EV charging<br>- Parental Leave Program<br>- Enjoy a Friendly Work Environment that values collaboration<br><br>*Note benefits vary depending on the function of your role</p></div><div class=\"job__pay-ranges\"><div class=\"pay-range\"><div class=\"description\"><div class=\"body\"><p></p><div><div><p class=\"\">The wage range listed for this position reflects a reasonable estimate and considers multiple factors that influence compensation decisions. These may include, but are not limited to, your skills, experience, training, licensure, certifications, and the specific needs of the organization. The posted range does not reflect adjustments for geographic differentials tied to where the role may be filled.</p><p class=\"\">At Comstock, it is not typical for a new hire to start at or near the top of the posted range. Compensation is determined based on the unique circumstances of each candidate.</p><p class=\"\">You may also be eligible to participate in a discretionary annual incentive program. Any award under this program is subject to its rules and may depend on individual and organizational performance.</p></div></div><p></p></div></div><p class=\"body body--medium\">Virginia Compensation Range</p><p class=\"body\"><bdi>$18</bdi> - <bdi>$19</bdi><bdi>USD</bdi></p></div></div></div><br><p><b>Skills:</b><br>Access Control, Commercial Real Estate, Communication Skills, Compensation Management, Customer Relations, Customer Support/Service, Detail Oriented, Driver's License, Establish Priorities, Facilities Management, File Maintenance, Fire Engine, High School Diploma, Incentive Programs, Insurance, Kiosks, Lift/Move 50 Pounds, Loading Dock, Marketing, Marketing Plan, Multitasking, Organizational Skills, Physical Demands, Presentation/Verbal Skills, Problem Solving Skills, Property Management, Residential Real Estate, Team Player, Time Management</p><br><p><b>undefined:</b><br>Comstock</p><br><br>"
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=85984dd75ab8684d",
+      "via": "via LinkedIn",
+      "description": "At <strong>DICK’S Sporting Goods</strong>, we believe in how positively sports can change lives. On our team, everyone plays a critical role in creating confidence and excitement by personally equipping all athletes to achieve their dreams. We are committed to creating an inclusive and diverse workforce, reflecting the communities we serve.<br><br>If you are ready to make a difference as part of the world’s greatest sports team, apply to join our team today!<br><br><strong>Overview<br><br></strong>2nd Shift Opportunity<br><br>Monday - Thursday<br><br>4:00pm-2:30am<br><br>$20.05/hr + $1.00/hr shift differential<br><br><strong>Job Duties & Responsibilities<br><br></strong>Inventory Integrity, shrink control and profit protection.<br><br><ul><li>Conduct and assist in internal investigations (theft, dishonesty, policy violations, human resources) in the DC.</li><li>Conduct and assist with external investigations related to cargo theft to and from the DC’s.</li><li>Complete daily, weekly, monthly & quarterly audits</li><li>Conduct lane inspections/ carton scans to improve operational accuracy and document in LPMS / DSGiQ (case management systems)</li><li>Compile and reconcile data for Seal Verification reporting.</li><ul><li>Researches, resolves and documents discrepancies.</li></ul><li>Review inventory adjustment details in order to research high dollar losses.</li><li>Complete store research to identify & resolve misdirected freight issues.</li><ul><li>This includes variance investigations for DC & field related issues.</li></ul><li>Partner with Federal Authorities in relation to Firearms control and reporting.<br></li></ul>Report all findings to database, email contacts and immediate alerts if within criteria.<br><br>Safety and Emergency Preparedness<br><br><ul><li>Work closely with Operations & Leadership team to investigate incidents which includes document review, visual inspections. Clearly communicate findings with internal & external stakeholders.</li><li>Serve as support for potentially volatile terminations and /or situations within location.</li><li>Supports accident investigations with video review and detailed reporting.<br><br></li></ul>Conduct weekly / monthly / quarterly Safety Assessments to ensure overall safety compliance and reports findings.<br><br>Physical Security and Investigations<br><br><ul><li>Responsible for security screening all people entering/exiting the facility per DSG requirements.</li><li>Test, troubleshoot and respond to all alarm systems (burglar, Fire & Amarok [perimeter electrified fence])</li><li>Opening/Closing of DC facility per DSG guidelines without supervision</li><li>Complete building walkthrough multiple times throughout daily shift</li><ul><li>Focusing on misdirected freight, safety, physical security, firearm security, & deterrence</li></ul><li>Knowledge of Genetec system, create access control badges & ensure all building credentials are accurate.</li><li>Complete daily observations of facility and document /address opportunities.<br></li></ul>Conduct and / or support investigations in regard to concerns or violations of the physical security of assigned location and report findings.<br><br>Yard Management<br><br><ul><li>Assist guard shack as needed with inbound/outbound trailer procedures. Provide physical control of guard shack and perform duties for emergency coverage if / when needed.</li><li>Resolve daily logs to allow proper YMS (Yard Management System) workflows to be followed.</li><li>Assist with passive yard control requests.</li><li>Reconcile Yard Audit results to ensure yard accuracy.</li><li>Provide direction to 3rd party staff.<br><br></li></ul>Conduct and / or support investigations in to concerns or violations of trailer yard of location and report findings.<br><br><strong>Other<br><br></strong><ul><li>Conduct Social Engineering Drills with the stores on a regular basis.</li><li>Assigned schedule can be temporary / permanently changed as needed for the needs of the business.</li><li>Help maintain inventory of LP Supplies & distribute store orders.</li><li>Serve as resource/provide guidance to warehouse teammates for a variety of topics.</li><li>Must be available to be on call during off hours.</li><li>Must be flexible to cover additional hours to provide support during special projects and facility overtime.</li><li>Assist in New Hire orientation for Loss Prevention introduction for new Teammates.</li><li>Support other departments in investigations, presence or as needed. i.e., Human Resources, Operations, Logistics.<br><br></li></ul>Other duties as assigned<br><br><strong>Qualifications<br><br></strong><ul><li>High School Diploma or Equivalent</li><li>1-3 years experience</li><li>Loss Prevention, Asset Protection, Profit Protection, Operations, Safety, Logistics</li><li>Ability to stand, bend, stoop, reach, push, pull and lift 10-50 pounds intermittently.</li><li>Basic English reading comprehension & numerical reasoning skills.<br><br></li></ul><strong>Virtual Requirements<br><br></strong>At DICK’S, we thrive on innovation and authenticity. That said, to protect the integrity and security of our hiring process, we ask that candidates do not use AI tools (like ChatGPT or others) during interviews or assessments.<br><br>To ensure a smooth and secure experience, please note the following:<br><br><ul><li>Cameras must be on during all virtual interviews.</li><li>AI tools are not permitted to be used by the candidate during any part of the interview process.</li><li>Offers are contingent upon a satisfactory background check which may include ID verification.<br><br></li></ul>If you have any questions or need accommodations, we’re here to help. Thanks for helping us keep the process fair and secure for everyone!",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be available to be on call during off hours",
+            "Must be flexible to cover additional hours to provide support during special projects and facility overtime",
+            "High School Diploma or Equivalent",
+            "1-3 years experience",
+            "Loss Prevention, Asset Protection, Profit Protection, Operations, Safety, Logistics",
+            "Ability to stand, bend, stoop, reach, push, pull and lift 10-50 pounds intermittently",
+            "Basic English reading comprehension & numerical reasoning skills",
+            "Cameras must be on during all virtual interviews",
+            "AI tools are not permitted to be used by the candidate during any part of the interview process",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "$20.05/hr + $1.00/hr shift differential"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Inventory Integrity, shrink control and profit protection",
+            "Conduct and assist in internal investigations (theft, dishonesty, policy violations, human resources) in the DC",
+            "Conduct and assist with external investigations related to cargo theft to and from the DC’s",
+            "Complete daily, weekly, monthly & quarterly audits",
+            "Conduct lane inspections/ carton scans to improve operational accuracy and document in LPMS / DSGiQ (case management systems)",
+            "Compile and reconcile data for Seal Verification reporting",
+            "Researches, resolves and documents discrepancies",
+            "Review inventory adjustment details in order to research high dollar losses",
+            "Complete store research to identify & resolve misdirected freight issues",
+            "This includes variance investigations for DC & field related issues",
+            "Partner with Federal Authorities in relation to Firearms control and reporting",
+            "Report all findings to database, email contacts and immediate alerts if within criteria",
+            "Safety and Emergency Preparedness",
+            "Work closely with Operations & Leadership team to investigate incidents which includes document review, visual inspections",
+            "Clearly communicate findings with internal & external stakeholders",
+            "Serve as support for potentially volatile terminations and /or situations within location",
+            "Supports accident investigations with video review and detailed reporting",
+            "Conduct weekly / monthly / quarterly Safety Assessments to ensure overall safety compliance and reports findings",
+            "Physical Security and Investigations",
+            "Responsible for security screening all people entering/exiting the facility per DSG requirements",
+            "Test, troubleshoot and respond to all alarm systems (burglar, Fire & Amarok [perimeter electrified fence])",
+            "Opening/Closing of DC facility per DSG guidelines without supervision",
+            "Complete building walkthrough multiple times throughout daily shift",
+            "Focusing on misdirected freight, safety, physical security, firearm security, & deterrence",
+            "Knowledge of Genetec system, create access control badges & ensure all building credentials are accurate",
+            "Complete daily observations of facility and document /address opportunities",
+            "Conduct and / or support investigations in regard to concerns or violations of the physical security of assigned location and report findings",
+            "Yard Management",
+            "Assist guard shack as needed with inbound/outbound trailer procedures",
+            "Provide physical control of guard shack and perform duties for emergency coverage if / when needed",
+            "Resolve daily logs to allow proper YMS (Yard Management System) workflows to be followed",
+            "Assist with passive yard control requests",
+            "Reconcile Yard Audit results to ensure yard accuracy",
+            "Provide direction to 3rd party staff",
+            "Conduct and / or support investigations in to concerns or violations of trailer yard of location and report findings",
+            "Conduct Social Engineering Drills with the stores on a regular basis",
+            "Assigned schedule can be temporary / permanently changed as needed for the needs of the business",
+            "Help maintain inventory of LP Supplies & distribute store orders",
+            "Serve as resource/provide guidance to warehouse teammates for a variety of topics",
+            "Assist in New Hire orientation for Loss Prevention introduction for new Teammates",
+            "Support other departments in investigations, presence or as needed",
+            "i.e., Human Resources, Operations, Logistics",
+            "39 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f504f9796989",
+      "title": "Security Officer Access Operations",
+      "company": "Allied Universal",
+      "location": "Ennis, TX",
+      "vertical": "security",
+      "role": "surveillance",
+      "pay": "16 an hour",
+      "pay_min": 16.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1657757/security-officer-access-operations/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Access Operations</strong> in <strong>Ennis, TX</strong>, you will serve and safeguard clients in a range of industries such as Healthcare, and more. As an Allied Universal Security Professional, you will support a healthcare location by managing access control, monitoring entry points, verifying credentials, and maintaining a professional presence that helps to deter incidents. You will interact with patients, visitors, and staff while providing exceptional customer service and clear communication. Join a caring, agile, reliable, and innovative team that puts people first, delivers through teamwork, and acts with integrity.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $16.53 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to patients, visitors, employees, and vendors by carrying out site-specific security-related procedures, access-control policies, and emergency response activities at a healthcare location.</li><li>Monitor access points and verify authorization for entry, assisting with visitor screening, credential checks, and directing individuals to appropriate areas.</li><li>Respond to access-control alarms, incidents, and critical situations in a calm, professional, problem-solving manner, following established site procedures.</li><li>Maintain accurate security-related logs and reports for visitor activity, access-control events, incidents, and unusual conditions.</li><li>Conduct regular and random patrols of assigned interior and exterior areas, including entrances, restricted areas, and the business perimeter, to help deter unauthorized access.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Comfortable using a computer or tablet is preferred.</li><li>A guard card/license is preferred.</li><li>Customer service experience is preferred.</li><li>At this site there are limited on-site facilities such as portable toilets and rustic guard shacks.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1657757<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "At this site there are limited on-site facilities such as portable toilets and rustic guard shacks",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "5 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $16.53 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As an Allied Universal Security Professional, you will support a healthcare location by managing access control, monitoring entry points, verifying credentials, and maintaining a professional presence that helps to deter incidents",
+            "You will interact with patients, visitors, and staff while providing exceptional customer service and clear communication",
+            "Join a caring, agile, reliable, and innovative team that puts people first, delivers through teamwork, and acts with integrity",
+            "Position Type: Full Time",
+            "DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM",
+            "Provide customer service to patients, visitors, employees, and vendors by carrying out site-specific security-related procedures, access-control policies, and emergency response activities at a healthcare location",
+            "Monitor access points and verify authorization for entry, assisting with visitor screening, credential checks, and directing individuals to appropriate areas",
+            "Respond to access-control alarms, incidents, and critical situations in a calm, professional, problem-solving manner, following established site procedures",
+            "Maintain accurate security-related logs and reports for visitor activity, access-control events, incidents, and unusual conditions",
+            "Conduct regular and random patrols of assigned interior and exterior areas, including entrances, restricted areas, and the business perimeter, to help deter unauthorized access",
+            "7 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "69125f4f760d",
+      "title": "Hiring Event - Armed Security Officers - August 26, 2026 9:30AM - 2:00PM",
+      "company": "Sunstates Security",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "festival",
+      "pay": "$21.00 - $23.00/hr",
+      "pay_min": 21.0,
+      "pay_max": 23.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/SSKSSHUSP100834EXTERNALENUS/Hiring-Event-Armed-Security-Officers-August-26-2026-9-30AM-2-00PM",
+      "via": "via Sunstates Security Jobs",
+      "description": "<strong>Job Description and Responsibilities </strong><br><p> </p><p>Become part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><u>Sunstates Security</u></a> has built a national reputation for delivering exceptional services while fostering high-quality work environments for our team. We are dedicated to hiring, developing, and retaining a professional workforce that reflects our commitment to excellence. </p><p>We believe in strategic reinvestment in our people by offering a benefits package that exceeds industry standards, pathways for career advancement, extensive internal training, and employee recognition programs. Our team members are provided with the tools, knowledge, and hands-on management support necessary for long-term success.</p><p> </p><p>Our commitment to a superior workplace culture is reflected in our most recent national accolades. Sunstates Security is proud to be recognized as a <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2Fforbes-dream-employers-2026%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122230946%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=XRtpm40i4pvx01%2BGoNiEmaaq7KjCI4YuA9jZDNFpmYY%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>2026 Forbes Dream Employer</u></strong></a>, an honor based on independent employee feedback and workplace excellence. Additionally, we have been named a <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F2026-training-mvp-award%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122268073%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=yAbqQbrvCb%2FE%2BGO5LaDAwV5kQIyRIrwDe3EQbVm6wp0%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>2026 Training MVP</u></strong></a><strong> </strong>by Training Magazine, marking the third consecutive year we have accepted this prestigious recognition. We also continue to be celebrated for our steady growth and stability on the <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2Finc-5000-list-2025%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122310127%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=80EbE%2BhmaiBs5Zl5tHvvuGk4Ju%2FW3xM2fB%2B5iqBKrQY%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>Inc. 5000</u></strong></a> list of America’s fastest-growing private companies. </p><p> </p><p>At the heart of everything we do are our core values of honor, integrity, and trust. If you are searching for a rewarding career with a proactive security partner that protects some of the country’s leading organizations, we invite you to explore the possibilities at Sunstates Security. Join a successful, growing team where your talent is appreciated and have opportunities to advance your professional career. </p><p> </p><p><strong><em>HIRING IMMEDIATELY </em></strong></p><p> </p><p><strong>Sunstates Security is hosting a Hiring Event for Armed Security Officers on Wednesday, August 26, 2026, from 9:30AM -2:00PM.</strong></p><p> </p><p>Meet with Hiring Managers to explore<strong> Full-Time, Part-Time, and Flex positions on 1st, 2nd, and 3rd shifts</strong> in the <strong>Dallas, Texas </strong>area. </p><p> </p><p>Various days and shifts are available with a pay range of<strong> $21.00 - $23.00/hr, with weekly pay. </strong></p><p> </p><p><strong style=\"background-color: rgb(230, 230, 77);\">{Please keep in mind that in order to attend the 8/26/2026 Hiring Event, you must have a Level III and or Level IV Security License in hand.} </strong></p><p> </p><p><strong>Location of event:</strong></p><p><strong>Diversified</strong></p><p><strong>8435 N Stemmons Freeway </strong></p><p><strong>Suite 100</strong></p><p><strong>Dallas, Texas 75247</strong></p><p> </p><p><strong><em>This is a walk-in event. Come prepared to interview with our hiring managers.</em></strong></p><br><br><strong>Job Requirements </strong><br><p><strong>Requirements:</strong></p><ul><li><strong>Must have a Valid Texas Level III and or Level IV Security License in hand. </strong></li><li><strong>Must have reliable transportation to and from work.</strong></li><li><strong>Must have your own firearm and duty equipment. </strong></li><li><strong>Must be available to work on Sundays </strong></li><li>Excellent customer service skills. </li><li>Security officer and/or military experience is a<strong> plus.</strong></li><li>Good verbal and written communication skills.</li><li>Willing and able to work holidays and weekends.</li><li>Ability to pass criminal background and drug screen pre-hire.</li><li>Willing to work in various weather conditions.</li><li>Must regularly walk or stand for extended periods of time and distance.</li></ul><p>A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP). The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives. </p><br><br><strong>Benefits </strong><br><p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);\"><i>Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!</i> </span></p><br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "{Please keep in mind that in order to attend the 8/26/2026 Hiring Event, you must have a Level III and or Level IV Security License in hand.}",
+            "Must have a Valid Texas Level III and or Level IV Security License in hand",
+            "Must have reliable transportation to and from work",
+            "Must have your own firearm and duty equipment",
+            "Must be available to work on Sundays",
+            "Excellent customer service skills",
+            "Good verbal and written communication skills",
+            "Willing and able to work holidays and weekends",
+            "Ability to pass criminal background and drug screen pre-hire",
+            "Willing to work in various weather conditions",
+            "Must regularly walk or stand for extended periods of time and distance",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Various days and shifts are available with a pay range of $21.00 - $23.00/hr, with weekly pay",
+            "Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP)",
+            "The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "4beaf0972138",
+      "title": "Dedicated Security Officer - Frisco - Copy",
+      "company": "Signal of Irving-Arlington",
+      "location": "Frisco, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "16 an hour",
+      "pay_min": 16.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.glassdoor.com/job-listing/dedicated-security-officer-frisco-copy-signal-of-irving-arlington-JV_IC1139994_KO0,38_KE39,65.htm?jl=1010233133478",
+      "via": "via Glassdoor",
+      "description": "<div><p>Dedicated Security Officer - Patrols<br>\nLocation: Frisco<br>\nCompensation: $15.50-$18.00 Per Hour<br>\nSchedule: Friday, Saturday | 08:00 PM - 4:00 AM - OVERNIGHT</p>\n<p>Must be 19 years of age or older and be able to meet physical requirements<br>\nMust have Lvl 2 Guard Card or be willing to obtain it<br>\nMust have a 1 driver's license and clean driving record<br>\nMust have reliable transportation<br>\nMust be able to pass background check</p><br>\n<p></p><div><div><p><b>Position Summary:</b></p>\n<p></p><p>This role is ideal for individuals who are reliable, observant, customer-service oriented, and motivated to grow within the security industry. Officers will be stationed at one dedicated site and conduct patrols, monitor properties, and provide a visible security presence to help deter criminal activity.</p>\n<p><b>Soft Skills:</b></p>\n<p></p><ul><li><b>Visioning: </b>Understanding the big picture and requirements necessary to deliver services that reflect company values, goals, and purpose. Can you exhibit our core values, creating peace of mind for our clients?</li>\n<li><b>Strategic Planning: </b>Effective engagement, communication, planning and execution of daily patrol responsibilities while meeting established deadlines. Can you effectively complete a route in the allotted time?</li>\n<li><b>Financial Acumen: </b>Understanding company measurements while executing the necessary behaviors to drive performance. Can you manage your time on property which equates with meeting the company benchmark?</li>\n<li><b>Team Development: </b>Communicate with Clients, team members and management effectively and in a timely manner, receiving and relaying feedback and executing follow up as needed. Can you work cohesively with a team, delivering on key objectives?</li>\n<li><b>Project Management: </b>Complete understanding and execution of daily tasks and efficiently delivering services that meet the needs of the business.<i> </i>Can you complete your daily assigned tasks and communicate maintenance needs of company assets?</li>\n</ul><p></p><p><b>Responsibilities:</b></p>\n<p></p><ul><li>Will conduct and deliver various foot patrols that reflect the company’s values, expectations, and consistent service in alignment with site specific instructions/post orders.</li>\n<li>Will write detailed and accurate reports utilizing company technology and web or app-based software during each shift that align with site instruction/post orders.</li>\n<li>The Ability to consistently arrive on time for shifts, clock in and out, meet time commitments, follow instruction, follow dress code and appearance standards and expectations</li>\n<li>Interacting with internal and external customers on site cultivating a customer service relationship striving to provide peace of mind.</li>\n<li>Consistently communicates with the Advanced Patrol Guard and or the Branch Patrol Supervisor to ly report any customer or property related information and concerns.</li>\n<li>Will be assigned a vehicle that guard is responsible for during their shift to include fueling, washing, interior cleanliness, and inspecting.</li>\n<li>Responsible for the care of any Signal equipment assigned during shift including radios, access keys/cards, uniforms, and devices, etc.</li>\n<li>Manage daily activities while meeting key benchmarks and expectations set by the Branch Patrol Supervisor such as reporting standards and service quality.</li>\n<li>Consistently deescalate issues through communication in a professional and manner.</li>\n<li>Communicate with the Branch Patrol Supervisor to receive and disseminate information through Branch Supervisor Daily Scrum, such as the client needs, route changes, and post order updates to ensure operational excellence and efficiency.</li>\n</ul><p></p><p><b>Requirements:</b></p>\n<p></p><ul><li>19 years of age or older</li>\n<li>High school diploma or GED</li>\n<li>Pass background check and drug test</li>\n<li>Must have 1 driver’s license and good driving record</li>\n<li>Must have reliable transportation</li>\n<li>Complete training modules within first month</li>\n<li>Excellent organization, oral, and written communication skills</li>\n<li>Demonstrate a commitment to service, organization values and professionalism through appropriate conduct and demeanor at all times</li>\n<li>Must be able to move equipment weighing up to 20 pounds</li>\n</ul><p></p><p>Signal is an equal opportunity employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law.</p></div></div></div><p></p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be 19 years of age or older and be able to meet physical requirements",
+            "Must have Lvl 2 Guard Card or be willing to obtain it",
+            "Must have a 1 driver's license and clean driving record",
+            "Must have reliable transportation",
+            "Must be able to pass background check",
+            "Visioning: Understanding the big picture and requirements necessary to deliver services that reflect company values, goals, and purpose",
+            "Financial Acumen: Understanding company measurements while executing the necessary behaviors to drive performance",
+            "19 years of age or older",
+            "High school diploma or GED",
+            "Pass background check and drug test",
+            "Must have 1 driver’s license and good driving record",
+            "Must have reliable transportation",
+            "Complete training modules within first month",
+            "Excellent organization, oral, and written communication skills",
+            "Demonstrate a commitment to service, organization values and professionalism through appropriate conduct and demeanor at all times",
+            "Must be able to move equipment weighing up to 20 pounds",
+            "13 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Compensation: $15.50-$18.00 Per Hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Schedule: Friday, Saturday | 08:00 PM - 4:00 AM - OVERNIGHT",
+            "This role is ideal for individuals who are reliable, observant, customer-service oriented, and motivated to grow within the security industry",
+            "Officers will be stationed at one dedicated site and conduct patrols, monitor properties, and provide a visible security presence to help deter criminal activity",
+            "Strategic Planning: Effective engagement, communication, planning and execution of daily patrol responsibilities while meeting established deadlines",
+            "Can you effectively complete a route in the allotted time?",
+            "Can you manage your time on property which equates with meeting the company benchmark?",
+            "Team Development: Communicate with Clients, team members and management effectively and in a timely manner, receiving and relaying feedback and executing follow up as needed",
+            "Project Management: Complete understanding and execution of daily tasks and efficiently delivering services that meet the needs of the business",
+            "Can you complete your daily assigned tasks and communicate maintenance needs of company assets?",
+            "Will conduct and deliver various foot patrols that reflect the company’s values, expectations, and consistent service in alignment with site specific instructions/post orders",
+            "Will write detailed and accurate reports utilizing company technology and web or app-based software during each shift that align with site instruction/post orders",
+            "The Ability to consistently arrive on time for shifts, clock in and out, meet time commitments, follow instruction, follow dress code and appearance standards and expectations",
+            "Interacting with internal and external customers on site cultivating a customer service relationship striving to provide peace of mind",
+            "Consistently communicates with the Advanced Patrol Guard and or the Branch Patrol Supervisor to ly report any customer or property related information and concerns",
+            "Will be assigned a vehicle that guard is responsible for during their shift to include fueling, washing, interior cleanliness, and inspecting",
+            "Responsible for the care of any Signal equipment assigned during shift including radios, access keys/cards, uniforms, and devices, etc",
+            "Manage daily activities while meeting key benchmarks and expectations set by the Branch Patrol Supervisor such as reporting standards and service quality",
+            "Consistently deescalate issues through communication in a professional and manner",
+            "Communicate with the Branch Patrol Supervisor to receive and disseminate information through Branch Supervisor Daily Scrum, such as the client needs, route changes, and post order updates to ensure operational excellence and efficiency",
+            "16 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

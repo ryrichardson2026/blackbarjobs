@@ -1,44 +1,98 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "dallas/north-richland-hills-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 10,
-  "exact": 8,
+  "exact": 9,
   "jobs": [
     {
-      "title": "Security Officer Incident Response",
+      "job_hash": "10e7ea7db6b5",
+      "title": "Immediate Start in North Richland Hills:Armored Truck Driver And",
+      "company": "GardaWorld",
+      "location": "North Richland Hills, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "22–27 an hour",
+      "pay_min": 22.0,
+      "pay_max": 27.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://hicareer.co.com/jobs/immediate-start-in-north-richland-hillsarmored-truck-860fac.html",
+      "via": "via EasyCareers",
+      "description": "<h3> North Richland Hills Role Highlights</h3><h4>Role Essentials</h4><ul><li><em>Project-based work with clear objectives.</em></li><li><strong>Benefits:</strong> This role offers competitive pay.</li><li><strong>Based in:</strong>  North Richland Hills,  TX (our growing  North Richland Hills office)</li><li>This role centers on <strong>your professional skills</strong> within the <strong>Security And Financial Logistics</strong> space in  North Richland Hills.</li><li><strong>Flexible Role in  North Richland Hills:</strong> Armored Truck Driver And Messenger</li><li><strong>Pay:</strong> $22-$27/Hour (approx. $51k/Year)</li><li><strong>Employer:</strong> GardaWorld (Hiring in  North Richland Hills)</li><li>This <strong> North Richland Hills</strong>-based role is an excellent opportunity for professionals skilled in <strong>relevant skills</strong>.</li><li>Our <strong>GardaWorld</strong> team in  North Richland Hills,  TX is growing.</li><li>Benefit from working in <strong> North Richland Hills</strong>, a key hub for the <strong>Security And Financial Logistics</strong> industry.</li></ul><hr><br><h3><strong>About GardaWorld</strong></h3><p>GardaWorld is a global champion in security services, integrated risk management, and cash solutions. We protect the high-value assets of financial institutions, major retailers, and government agencies worldwide. We offer our employees a robust, highly secure working environment where discipline, integrity, and safety are the highest operational priorities. We pride ourselves on hiring professionals who thrive in high-stakes environments.</p><h3><strong>A Timeline of Your Daily Operations</strong></h3><ul><li><strong>6:00 AM - Secure Dispatch:</strong> Arrive at the heavily fortified GardaWorld vault facility. You will arm yourself, review the daily manifest with your partner, and conduct a rigorous mechanical and security inspection of the armored commercial vehicle.</li><li><strong>7:30 AM - Tactical Routing:</strong> Navigate the armored vehicle safely through dense city traffic or suburban routes. You must maintain absolute situational awareness and utilize defensive driving techniques to prevent accidents and mitigate security risks.</li><li><strong>10:00 AM - Asset Transfer:</strong> Act as the armed messenger. You will exit the vehicle to securely deliver and pick up cash deposits, coins, and valuable assets from retail clients and ATMs, operating with hyper-vigilance while your partner secures the perimeter.</li><li><strong>3:00 PM - Vault Reconciliation:</strong> Return safely to the branch facility. You will follow strict, heavily audited procedures to transfer the collected assets back into the vault and complete all digital and physical chain-of-custody paperwork.</li></ul><h3><strong>The Security Advantage</strong></h3><p>This is a highly structured, rewarding role that combines commercial driving with elite physical security. You will enjoy a predictable daytime schedule. GardaWorld provides a highly competitive hourly wage, comprehensive medical and dental insurance, robust 401(k) options, and all necessary tactical and firearms training.</p><h3><strong>Qualifications</strong></h3><p>Must be at least 21 years of age. A valid driver's license with a pristine driving record is required (commercial license preferred but not always mandatory). You must possess or be willing and able to obtain a state-issued armed security guard license and a permit to carry a firearm. A flawless criminal background, exceptional ethical integrity, and the physical ability to lift heavy coin bags (up to 50 lbs) are mandatory.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You must maintain absolute situational awareness and utilize defensive driving techniques to prevent accidents and mitigate security risks",
+            "10:00 AM - Asset Transfer: Act as the armed messenger",
+            "Must be at least 21 years of age",
+            "You must possess or be willing and able to obtain a state-issued armed security guard license and a permit to carry a firearm",
+            "A flawless criminal background, exceptional ethical integrity, and the physical ability to lift heavy coin bags (up to 50 lbs) are mandatory",
+            "2 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Benefits: This role offers competitive pay",
+            "Pay: $22-$27/Hour (approx",
+            "$51k/Year)",
+            "You will enjoy a predictable daytime schedule",
+            "GardaWorld provides a highly competitive hourly wage, comprehensive medical and dental insurance, robust 401(k) options, and all necessary tactical and firearms training",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Project-based work with clear objectives",
+            "6:00 AM - Secure Dispatch: Arrive at the heavily fortified GardaWorld vault facility",
+            "You will arm yourself, review the daily manifest with your partner, and conduct a rigorous mechanical and security inspection of the armored commercial vehicle",
+            "7:30 AM - Tactical Routing: Navigate the armored vehicle safely through dense city traffic or suburban routes",
+            "You will exit the vehicle to securely deliver and pick up cash deposits, coins, and valuable assets from retail clients and ATMs, operating with hyper-vigilance while your partner secures the perimeter",
+            "3:00 PM - Vault Reconciliation: Return safely to the branch facility",
+            "You will follow strict, heavily audited procedures to transfer the collected assets back into the vault and complete all digital and physical chain-of-custody paperwork",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a39443471ef8",
+      "title": "Flexible Security Pro — Patrol, Respond & Protect",
       "company": "Allied Universal",
       "location": "North Richland Hills, TX",
       "vertical": "security",
       "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
+      "pay": "32K–52K a year",
+      "pay_min": 32000.0,
+      "pay_max": 52000.0,
+      "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://career.io/job/security-officer-incident-response-north-richland-hills-allied-universal-31c380ac52e025f5273eddc2b35d9055",
-      "via": "via Career.io",
-      "description": "<div class=\"iCIMS_JobContent\">\n\n<h2 class=\"iCIMS_InfoMsg iCIMS_InfoField_Job\">\n\n\n\nOverview\n\n\n</h2>\n<div class=\"iCIMS_InfoMsg iCIMS_InfoMsg_Job\">\n<div class=\"iCIMS_Expandable_Container\">\n<div class=\"iCIMS_Expandable_Text\">\n<p style=\"margin: 0;\"><span style=\"font-size: 10pt; font-family: Verdana, sans-serif;\"> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively..."
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.learn4good.com/jobs/north-richland-hills/texas/security/5368851110/e/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is hiring a Security Professional Flex Officer to patrol designated areas and safeguard clients across multiple industries. The role uses a shift-pickup platform to choose open shifts based on availability, offering flexible scheduling and valuable site experience.</p><p>The position may involve irregular hours with little notice, and requires the ability to communicate clearly, document events, and respond to emergencies in a professional manner.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The position may involve irregular hours with little notice, and requires the ability to communicate clearly, document events, and respond to emergencies in a professional manner"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The role uses a shift-pickup platform to choose open shifts based on availability, offering flexible scheduling and valuable site experience"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Personnel Security Specialist",
-      "company": "Department of Transportation",
-      "location": "North Richland Hills, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "53,528–82,976 a year",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-07",
-      "apply_link": "https://bandana.com/jobs/43cb5237-a8fb-42b4-a628-5982439cf6fc",
-      "via": "via Bandana.com",
-      "description": "<strong>Job Summary</strong><br /><br />This position is located in the Security and Hazardous Materials Safety (ASH) organization and may be assigned to a geographical location under the purview of the Office of Personnel Security. The mission of ASH is to ensure aviation safety, support national security, and promote an efficient airspace system through the development and administration of policies and programs.<br /><br /><strong>Major Duties</strong><br /><br />This position supports ASH in accomplishing mission critical responsibilities and key agency goals and objectives by..."
-    },
-    {
+      "job_hash": "d0f1306930cf",
       "title": "Security Officer Part-Time (Unarmed)",
       "company": "Tarian",
       "location": "North Richland Hills, TX",
@@ -51,10 +105,69 @@
       "schedule": "Part-time",
       "posted_date": "2026-08-04",
       "apply_link": "https://www.ziprecruiter.com/c/Tarian/Job/Security-Officer-Part-Time-(Unarmed)/-in-North-Richland-Hills,TX?jid=867d4d39ce8d30cd",
-      "via": "via Indeed",
-      "description": "<div>\n Overview: \n <div>\n  Every Tarian Teammate contributes significantly to our mission. Whether you are a frontline employee or work behind the scenes, you are the reason why Tarian is TRUSTED TO PROTECT. You are a member of a diverse team working in an inclusive and dynamic environment. You will provide direct security and related public services.\n </div>\n <div>\n  <br>\n </div>\n <div>\n  <b>Compensation: $17.75/Per Hour. Part-Time</b>\n </div>\n <div></div>\n <div>\n  <b><br>\n    Benefits:</b>\n </div>\n <div>\n  Our full-time positions offer role specific on-the-job training, career paths, and a full range of benefits.\n </div>\n <ul>\n  <li>Medical, Dental, and Vision Insurance</li>\n  <li>Supplemental Medical Reimbursement Plans</li>\n  <li>Paid Time Off & Paid Holidays*</li>\n  <li>401k Plan & Free Retirement Planning Consulting</li>\n  <li>Short-term & Long-term Disability Income Protection Benefits</li>\n  <li>Life Insurance for Teammate and Family</li>\n  <li>Employee Assistance Program</li>\n  <li>Recognition & Reward Program</li>\n  <li>Perks Discount Programs with 3,000 free classes from yoga to financial wellness.</li>\n  <li>Wellness Program</li>\n  <li>Pet Insurance</li>\n </ul>\n <div></div>\n <div>\n  <b><br>\n    POSITION SUMMARY:</b>\n </div>\n <div>\n  Provides direct security and related public services.\n </div> Responsibilities: \n <div>\n  You will conduct the following responsibilities, upholding Tarian's commitment to safety and security while supporting the values and culture of the client and community.\n </div> Our Healthcare Security Officers are responsible for maintaining the security and safety of the hospital, its staff, and its patients and visitors \n <ul>\n  <li>- and serve as a visible deterrent to illegal activities on hospital property. Our Security Officers also provide supervision for at-risk patients in the hospital environment.</li>\n  <li>Performs other job-related duties as assigned.</li>\n </ul> Qualifications: \n <div>\n  <b> E</b><b>DUCATION & EXPERIENCE</b>\n </div>\n <ul>\n  <li>Completed High School Diploma or GED</li>\n  <li>Must be able to obtain and maintain any applicable licenses or certifications</li>\n  <li>Strong vision abilities including color vision, peripheral vision, depth perception, and the ability to adjust focus</li>\n  <li>Must be able to stand and/or walk for an entire work shift, move or lift objects up to 80 lbs., help restrain or lift a person</li>\n  <li>Valid driver’s license and ability to meet Tarian company driving guidelines if applicable (for Driving Roles).</li>\n </ul>\n <div>\n  <b> Employment Verification</b>\n  <br><b>For applicable roles, previous employment must be verified through our background vendor. If any employment cannot be confirmed, candidates may be required to provide proof of employment (such as a pay stubs or W-2s)</b>\n </div>\n <div></div>\n <div>\n  <b><br>\n    Desired Qualification of the Security Officer:</b>\n </div>\n <ul>\n  <li>Previous work experience with the public in a service setting</li>\n </ul>\n <div>\n  <b> PHYSICAL DEMANDS & WORK ENVIRONMENT</b>\n  <br>\n   Work hours will vary depending on assignments, client schedules, project deadlines, and the needs of the company. Workweeks may exceed 40 hours and may involve any of the 7 days of the week, depending on the needs of the business. The work environment may be fast-paced and stressful or may also be quiet and slow-paced. All environments and pace of work will require alertness and ability to perform under pressure.\n </div>\n <div>\n  While performing the duties of this job, the employee must be able to sit, stand, and walk for variable amounts of time throughout an assigned shift; use hands to finger, handle or feel objects, tools or controls; reach with hands and arms; climb stairs; occasionally stoop, kneel, or crouch. The employee must occasionally lift and/or move objects 25 pounds or more. Specific vision abilities required by the job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus. Frequently engages in mental concentration, analysis, and formulation.\n </div>\n <p></p>\n <div>\n  <b><br>\n    About Tarian</b>\n  <br>\n   Tarian stands out as North America’s foremost expert and trusted security partner, a distinction attributed not only to the solutions and services we provide but also as a testament to the incredible individuals on our team. Their diverse backgrounds and experiences continuously drive innovation and excellence across our company, enabling our growth and success.\n </div>\n <div></div>\n <div>\n  <br>\n   At Tarian, we believe in the extraordinary power of people to enact positive change. Our visionis to shape a future where safety and security are not only foundations for enduring success but also powerful catalysts for positive change. We offer more than employment; we provide a career path rich in purpose and fulfillment. By joining Tarian, you become part of a greater mission. Through the creation of safe environments, you empower people, communities, and organizations to thrive and achieve their full potential, as well as your own.\n </div>\n <div></div>\n <div>\n  <br>\n   Be Extraordinary.<i> Always.</i> Join Tarian in safeguarding what matters most.\n </div>\n <div></div>\n <div>\n  <b><br>\n    Tarian is an equal opportunity employer.</b>\n  <br>\n   We are committed to providing equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected status under applicable laws. We encourage individuals of all backgrounds to apply.\n </div> State Security Licensing: Texas State Security Licensing Number: Texas - Tarian - B30955801\n</div>"
+      "via": "via Monster",
+      "description": "Overview:\n<p>Every Tarian Teammate contributes significantly to our mission. Whether you are a frontline employee or work behind the scenes, you are the reason why Tarian is TRUSTED TO PROTECT. You are a member of a diverse team working in an inclusive and dynamic environment. You will provide direct security and related public services. </p><p> </p><p>Compensation: $17.75/Per Hour. Part-Time</p><p> </p><p>Benefits:</p><p>Our full-time positions offer role specific on-the-job training, career paths, and a full range of benefits.</p><ul><li>Medical, Dental, and Vision Insurance</li><li>Supplemental Medical Reimbursement Plans</li><li>Paid Time Off & Paid Holidays*</li><li>401k Plan & Free Retirement Planning Consulting</li><li>Short-term & Long-term Disability Income Protection Benefits</li><li>Life Insurance for Teammate and Family</li><li>Employee Assistance Program</li><li>Recognition & Reward Program</li><li>Perks Discount Programs with 3,000 free classes from yoga to financial wellness.</li><li>Wellness Program</li><li>Pet Insurance</li></ul><p> </p><p>POSITION SUMMARY:</p><p>Provides direct security and related public services.</p>\n\nResponsibilities:\n<p>You will conduct the following responsibilities, upholding Tarian's commitment to safety and security while supporting the values and culture of the client and community.</p><ul><li>Our Healthcare Security Officers are responsible for maintaining the security and safety of the hospital, its staff, and its patients and visitors -- and serve as a visible deterrent to illegal activities on hospital property. Our Security Officers also provide supervision for at-risk patients in the hospital environment.</li><li>Performs other job-related duties as assigned.</li></ul>\n\nQualifications:\n<p>EDUCATION & EXPERIENCE</p><ul><li>Completed High School Diploma or GED</li><li>Must be able to obtain and maintain any applicable licenses or certifications</li><li>Strong vision abilities including color vision, peripheral vision, depth perception, and the ability to adjust focus</li><li>Must be able to stand and/or walk for an entire work shift, move or lift objects up to 80 lbs., help restrain or lift a person</li><li>Valid driver’s license and ability to meet Tarian company driving guidelines if applicable (for Driving Roles).</li></ul><p>Employment Verification<br>For applicable roles, previous employment must be verified through our background vendor. If any employment cannot be confirmed, candidates may be required to provide proof of employment (such as a pay stubs or W-2s)</p><p> </p><p>Desired Qualification of the Security Officer:</p><ul><li>Previous work experience with the public in a service setting</li></ul><p>PHYSICAL DEMANDS & WORK ENVIRONMENT<br>Work hours will vary depending on assignments, client schedules, project deadlines, and the needs of the company. Workweeks may exceed 40 hours and may involve any of the 7 days of the week, depending on the needs of the business. The work environment may be fast-paced and stressful or may also be quiet and slow-paced.  All environments and pace of work will require alertness and ability to perform under pressure.</p><p>While performing the duties of this job, the employee must be able to sit, stand, and walk for variable amounts of time throughout an assigned shift; use hands to finger, handle or feel objects, tools or controls; reach with hands and arms; climb stairs; occasionally stoop, kneel, or crouch. The employee must occasionally lift and/or move objects 25 pounds or more. Specific vision abilities required by the job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus. Frequently engages in mental concentration, analysis, and formulation.</p><p> </p><p>About Tarian<br>Tarian stands out as North America’s foremost expert and trusted security partner, a distinction attributed not only to the solutions and services we provide but also as a testament to the incredible individuals on our team. Their diverse backgrounds and experiences continuously drive innovation and excellence across our company, enabling our growth and success.</p><p> </p><p>At Tarian, we believe in the extraordinary power of people to enact positive change. Our visionis to shape a future where safety and security are not only foundations for enduring success but also powerful catalysts for positive change. We offer more than employment; we provide a career path rich in purpose and fulfillment. By joining Tarian, you become part of a greater mission. Through the creation of safe environments, you empower people, communities, and organizations to thrive and achieve their full potential, as well as your own.</p><p> </p><p>Be Extraordinary.<em> Always.</em> Join Tarian in safeguarding what matters most.</p><p> </p><p>Tarian is an equal opportunity employer.<br>We are committed to providing equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected status under applicable laws. We encourage individuals of all backgrounds to apply.</p>\n\nState Security Licensing:\nTexas\n\nState Security Licensing Number:\nTexas - Tarian - B30955801<br><p><b>Skills:</b><br>Consulting, Dental Insurance, Depth Perception, Diversity, Driver's License, Employee Assistance Plan, Healthcare, High School Diploma, Hospital, Insurance, Life Insurance, Lift/Move 80 Pounds, Physical Demands, Project Schedule, Reimbursement, Retirement Planning, Risk, Time Management, Vision Plan</p><br><p><b>undefined:</b><br>Tarian</p><br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Completed High School Diploma or GED",
+            "Must be able to obtain and maintain any applicable licenses or certifications",
+            "Strong vision abilities including color vision, peripheral vision, depth perception, and the ability to adjust focus",
+            "Must be able to stand and/or walk for an entire work shift, move or lift objects up to 80 lbs., help restrain or lift a person",
+            "Valid driver’s license and ability to meet Tarian company driving guidelines if applicable (for Driving Roles)",
+            "For applicable roles, previous employment must be verified through our background vendor",
+            "If any employment cannot be confirmed, candidates may be required to provide proof of employment (such as a pay stubs or W-2s)",
+            "PHYSICAL DEMANDS & WORK ENVIRONMENT",
+            "All environments and pace of work will require alertness and ability to perform under pressure",
+            "While performing the duties of this job, the employee must be able to sit, stand, and walk for variable amounts of time throughout an assigned shift; use hands to finger, handle or feel objects, tools or controls; reach with hands and arms; climb stairs; occasionally stoop, kneel, or crouch",
+            "The employee must occasionally lift and/or move objects 25 pounds or more",
+            "Specific vision abilities required by the job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus",
+            "Frequently engages in mental concentration, analysis, and formulation",
+            "Texas - Tarian - B30955801",
+            "Consulting, Dental Insurance, Depth Perception, Diversity, Driver's License, Employee Assistance Plan, Healthcare, High School Diploma, Hospital, Insurance, Life Insurance, Lift/Move 80 Pounds, Physical Demands, Project Schedule, Reimbursement, Retirement Planning, Risk, Time Management, Vision Plan",
+            "12 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Compensation: $17.75/Per Hour",
+            "Part-Time",
+            "Our full-time positions offer role specific on-the-job training, career paths, and a full range of benefits",
+            "Medical, Dental, and Vision Insurance",
+            "Supplemental Medical Reimbursement Plans",
+            "Paid Time Off & Paid Holidays*",
+            "401k Plan & Free Retirement Planning Consulting",
+            "Short-term & Long-term Disability Income Protection Benefits",
+            "Life Insurance for Teammate and Family",
+            "Employee Assistance Program",
+            "Recognition & Reward Program",
+            "Perks Discount Programs with 3,000 free classes from yoga to financial wellness",
+            "Wellness Program",
+            "Pet Insurance",
+            "11 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will provide direct security and related public services",
+            "Provides direct security and related public services",
+            "You will conduct the following responsibilities, upholding Tarian's commitment to safety and security while supporting the values and culture of the client and community",
+            "Our Healthcare Security Officers are responsible for maintaining the security and safety of the hospital, its staff, and its patients and visitors -- and serve as a visible deterrent to illegal activities on hospital property",
+            "Our Security Officers also provide supervision for at-risk patients in the hospital environment",
+            "Performs other job-related duties as assigned",
+            "Work hours will vary depending on assignments, client schedules, project deadlines, and the needs of the company",
+            "Workweeks may exceed 40 hours and may involve any of the 7 days of the week, depending on the needs of the business",
+            "The work environment may be fast-paced and stressful or may also be quiet and slow-paced",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "061a536a4d5a",
       "title": "Behavior Detection Officer (BDO) - No Experience Required",
       "company": "Airport Security Careers",
       "location": "North Richland Hills, TX",
@@ -68,9 +181,106 @@
       "posted_date": null,
       "apply_link": "https://us.thebigjobsite.com/details/75DD8D5796F08427FA6CD92918DB49D9/behavior-detection-officer--bdo----no-experience-required",
       "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA is hiring Behavior Detection Officers (BDOs) to work inside airport terminals in North Richland Hills. These professionals focus on identifying suspicious behavior and preventing potential threats before they occur. No prior experience is required and training is provided. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Richland Hills and Nationwide </li><li><b> Starting Pay </b> : $23.00 - $45.00</li><li><b> Annual Compensation </b> : $48,000 - $70,000+</li><li><b> Schedule </b> : Shift-based </li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health insurance coverage </li><li> Retirement plan with TSP matching </li><li> Overtime opportunities </li><li> Career advancement </li></ul><h2> Key Responsibilities </h2><ul><li> Monitor passenger behavior </li><li> Identify potential threats </li><li> Coordinate with law enforcement </li><li> Report security concerns </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes an independent preparation resource. TSA does not charge application fees. </p><h2> How Our Program Helps </h2><ul><li> Hiring guidance </li><li> Practice tests </li><li> Interview coaching </li><li> Job locator tools </li></ul><b> Apply for BDO Roles in North Richland Hills Today </b><p> Join TSA and play a key role in proactive airport security in North Richland Hills. </p>"
+      "description": "<h2> Role Overview </h2><p> TSA is hiring Behavior Detection Officers (BDOs) to work inside airport terminals in North Richland Hills. These professionals focus on identifying suspicious behavior and preventing potential threats before they occur. No prior experience is required and training is provided. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Richland Hills and Nationwide </li><li><b> Starting Pay </b> : $23.00 - $45.00</li><li><b> Annual Compensation </b> : $48,000 - $70,000+</li><li><b> Schedule </b> : Shift-based </li></ul><h2> Perks and Benefits </h2><ul><li> Paid leave and holidays </li><li> Health insurance coverage </li><li> Retirement plan with TSP matching </li><li> Overtime opportunities </li><li> Career advancement </li></ul><h2> Key Responsibilities </h2><ul><li> Monitor passenger behavior </li><li> Identify potential threats </li><li> Coordinate with law enforcement </li><li> Report security concerns </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes an independent preparation resource. TSA does not charge application fees. </p><h2> How Our Program Helps </h2><ul><li> Hiring guidance </li><li> Practice tests </li><li> Interview coaching </li><li> Job locator tools </li></ul><b> Apply for BDO Roles in North Richland Hills Today </b><p> Join TSA and play a key role in proactive airport security in North Richland Hills. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "No prior experience is required and training is provided"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Starting Pay : $23.00 - $45.00",
+            "Annual Compensation : $48,000 - $70,000+",
+            "Schedule : Shift-based",
+            "Perks and Benefits",
+            "Paid leave and holidays",
+            "Health insurance coverage",
+            "Retirement plan with TSP matching",
+            "Overtime opportunities",
+            "Career advancement",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Monitor passenger behavior",
+            "Identify potential threats",
+            "Coordinate with law enforcement",
+            "Report security concerns",
+            "1 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "392b209fb7af",
+      "title": "Detention Officer; Veterans Encouraged",
+      "company": "GardaWorld Federal Services",
+      "location": "North Richland Hills, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "35.09 an hour",
+      "pay_min": 35.09,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.learn4good.com/jobs/north-richland-hills/texas/security/5224173885/e/",
+      "via": "via Learn4Good",
+      "description": "Position: Detention Officer (Veterans Encouraged) Location : El Paso, TXFull-Time/Part-Time : Full-timeFLSA Status : Non-Exempt/HourlyTravel Requirement : NoTeleworking : NoPay : $35.09/hr. ($30/hr. base rate + $5.09 H&W)Hours : 60 – 72/hrs./wk. Pay is based on numerous factors including market location and may vary depending on job-related knowledge, skills, and experience.Position Overview In this role, you will maintain a vigilant presence to ensure the safety, security, and integrity of the detention center. Your primary focus will be the direct supervision of the resident population, maintaining order within housing units, and enforcing strict center protocols. You must possess sharp observational skills, strong communication abilities, and the capacity to respond decisively to emergencies or behavioral incidents to maintain a secure and controlled environment.ResponsibilitiesConduct regular patrols of the detention center's internal housing units, common areas, and specialized wings to ensure safety and compliance.Monitor and control the movement of residents throughout the center, ensuring all transitions between housing, medical, and recreational areas are secure.Operate and monitor security equipment, including internal surveillance systems, electronic gate controls, and radio communications, to maintain constant situational awareness.Respond promptly and effectively to center emergencies, resident disturbances, or security breaches, using de-escalation techniques and, when necessary, approved physical interventions.Perform thorough searches of resident living quarters, common areas, and individuals for contraband or unauthorized items in accordance with established protocols.Manage the intake and release process, ensuring the accurate processing of individuals and the secure storage of personal property.Prepare detailed and accurate reports on disciplinary incidents, medical observations, and daily shift activities.Maintain proficiency in the use of center-issued safety equipment and incident response protocols, adhering to all ongoing training and certification requirements.Collaborate closely with medical staff, fellow officers, and other support personnel to ensure a secure, humane, and orderly environment.QualificationsMust have a minumum of one (1) year of work experience as active-duty military, detention/corrections, or law enforcement.Must be able to provide proof of citizenship or legal US work authorization.If prior active-duty military, must provide copies of DD214(s) showing discharge condition.Must consent to fingerprinting.Must be at least 21 years of age.Must possess a high school diploma or equivalent.Clean criminal record and ability to pass a comprehensive background check and security screening.Ability to pass a preemployment medical assessment and drug screening.Excellent communication, observation, and report-writing skills.Ability to remain calm and effective under pressure and in high-stress situations.Ability to work flexible shifts, including nights, weekends, and holidays.Work EnvironmentEmployees may be exposed to extreme cold or hot weather conditions, fumes, or airborne particles, toxic or caustic chemicals, and loud noise.Physical Requirements Employees may be required to remain in a stationary position, stand, push, pull, climb, kneel, crawl, balance, squat, bend, and reach. Employees may be also required to use gear to move items around, including, but not limited to, carts and dollies. Employees may also be occasionally required to lift and/or move up to 49 pounds.Garda World Federal Services is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "You must possess sharp observational skills, strong communication abilities, and the capacity to respond decisively to emergencies or behavioral incidents to maintain a secure and controlled environment",
+            "Must have a minumum of one (1) year of work experience as active-duty military, detention/corrections, or law enforcement",
+            "Must be able to provide proof of citizenship or legal US work authorization",
+            "If prior active-duty military, must provide copies of DD214(s) showing discharge condition",
+            "Must consent to fingerprinting",
+            "Must be at least 21 years of age",
+            "Must possess a high school diploma or equivalent",
+            "Clean criminal record and ability to pass a comprehensive background check and security screening",
+            "Ability to pass a preemployment medical assessment and drug screening",
+            "Excellent communication, observation, and report-writing skills",
+            "Ability to remain calm and effective under pressure and in high-stress situations",
+            "Ability to work flexible shifts, including nights, weekends, and holidays",
+            "Employees may be required to remain in a stationary position, stand, push, pull, climb, kneel, crawl, balance, squat, bend, and reach",
+            "Employees may also be occasionally required to lift and/or move up to 49 pounds",
+            "11 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "($30/hr. base rate + $5.09 H&W)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "In this role, you will maintain a vigilant presence to ensure the safety, security, and integrity of the detention center",
+            "Your primary focus will be the direct supervision of the resident population, maintaining order within housing units, and enforcing strict center protocols",
+            "Conduct regular patrols of the detention center's internal housing units, common areas, and specialized wings to ensure safety and compliance",
+            "Monitor and control the movement of residents throughout the center, ensuring all transitions between housing, medical, and recreational areas are secure",
+            "Operate and monitor security equipment, including internal surveillance systems, electronic gate controls, and radio communications, to maintain constant situational awareness",
+            "Respond promptly and effectively to center emergencies, resident disturbances, or security breaches, using de-escalation techniques and, when necessary, approved physical interventions",
+            "Perform thorough searches of resident living quarters, common areas, and individuals for contraband or unauthorized items in accordance with established protocols",
+            "Manage the intake and release process, ensuring the accurate processing of individuals and the secure storage of personal property",
+            "Prepare detailed and accurate reports on disciplinary incidents, medical observations, and daily shift activities",
+            "Maintain proficiency in the use of center-issued safety equipment and incident response protocols, adhering to all ongoing training and certification requirements",
+            "Collaborate closely with medical staff, fellow officers, and other support personnel to ensure a secure, humane, and orderly environment",
+            "Employees may be also required to use gear to move items around, including, but not limited to, carts and dollies",
+            "9 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c572709cad10",
       "title": "Security Guard",
       "company": "Fast Guard Security Service",
       "location": "North Richland Hills, TX",
@@ -84,9 +294,11 @@
       "posted_date": null,
       "apply_link": "https://us.trabajo.org/job-28607-ff454d61e3cfbfedf28adb8260e95da2",
       "via": "via Trabajo.org",
-      "description": "[Security Officer / Patrol] - Earn $20/hr (Unarmed) or $30/hr (Armed) / Flexible Scheduling / Rapid-Response Assignments / Nationwide Full-Time & Part-Time Openings - As a Security Guard Armed/Unarmed at Fast Guard Service, you will: Monitor and patrol designated areas to ensure the safety and security of the premises and its occupants; Enforce rules and regulations set by the company and respond promptly to any violations or disturbances; Perform regular security checks to identify and report any potential hazards or suspicious activities; Maintain accurate and detailed incident reports for any security-related incidents or emergencies; Assist with access control by verifying credentials and monitoring entry and exit of individuals and vehicles; Respond to alarms and emergency situations in a calm and efficient manner; Provide exceptional customer service to clients and visitors by addressing any questions or concerns in a professional manner...Hiring Immediately >>"
+      "description": "[Security Officer / Patrol] - Earn $20/hr (Unarmed) or $30/hr (Armed) / Flexible Scheduling / Rapid-Response Assignments / Nationwide Full-Time & Part-Time Openings - As a Security Guard Armed/Unarmed at Fast Guard Service, you will: Monitor and patrol designated areas to ensure the safety and security of the premises and its occupants; Enforce rules and regulations set by the company and respond promptly to any violations or disturbances; Perform regular security checks to identify and report any potential hazards or suspicious activities; Maintain accurate and detailed incident reports for any security-related incidents or emergencies; Assist with access control by verifying credentials and monitoring entry and exit of individuals and vehicles; Respond to alarms and emergency situations in a calm and efficient manner; Provide exceptional customer service to clients and visitors by addressing any questions or concerns in a professional manner...Hiring Immediately >>",
+      "job_highlights": null
     },
     {
+      "job_hash": "e34f3e6b0a00",
       "title": "TSA Administrative and Law Enforcement Careers - No Experience Required",
       "company": "Airport Security Careers",
       "location": "North Richland Hills, TX",
@@ -98,11 +310,39 @@
       "pay_unit": "HOUR",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://us.thebigjobsite.com/details/B4FF365639416855A68BD25A79BA18B0/tsa-administrative-and-law-enforcement-careers---no-experience-required",
+      "apply_link": "https://www.collegerecruiter.com/job/2813496669-tsa-administrative-and-law-enforcement-careers-no-experience-required",
       "via": "via Jooble",
-      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in North Richland Hills and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Richland Hills and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career advancement </li></ul><h2> Key Responsibilities </h2><ul><li> Administrative support </li><li> Policy development <li> Compliance monitoring </li><li> Support investigations </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes an independent preparation resource. </p><h2> How Our Program Helps </h2><ul><li> Preparation tools </li><li> Practice tests </li><li> Application guidance </li><li> Support resources </li></ul><b> Apply for TSA Support Careers in North Richland Hills </b><p> Start a stable federal career supporting national security in North Richland Hills. </p>"
+      "description": "<h2> Role Overview </h2><p> TSA offers administrative and law enforcement support roles in North Richland Hills and regional offices. These positions help maintain operations, policy compliance, and security support functions. </p><h2> Position Details </h2><ul><li><b> Openings </b> : North Richland Hills and Nationwide </li><li><b> Starting Pay </b> : $20.00 - $45.00</li><li><b> Annual Compensation </b> : $42,000 - $75,000+</li><li><b> Schedule </b> : Standard business hours </li></ul><h2> Perks and Benefits </h2><ul><li> Paid time off </li><li> Health insurance </li><li> Retirement savings </li><li> Career advancement </li></ul><h2> Key Responsibilities </h2><ul><li> Administrative support </li><li> Policy development <li> Compliance monitoring </li><li> Support investigations </li></ul><h2> Disclaimer </h2><p> This is not a direct TSA job offer. This promotes an independent preparation resource. </p><h2> How Our Program Helps </h2><ul><li> Preparation tools </li><li> Practice tests </li><li> Application guidance </li><li> Support resources </li></ul><b> Apply for TSA Support Careers in North Richland Hills </b><p> Start a stable federal career supporting national security in North Richland Hills. </p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Starting Pay : $20.00 - $45.00",
+            "Annual Compensation : $42,000 - $75,000+",
+            "Schedule : Standard business hours",
+            "Perks and Benefits",
+            "Paid time off",
+            "Health insurance",
+            "Retirement savings",
+            "Career advancement",
+            "5 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "TSA offers administrative and law enforcement support roles in North Richland Hills and regional offices",
+            "Administrative support",
+            "Policy development",
+            "Compliance monitoring",
+            "Support investigations",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "a741be75f75d",
       "title": "Security Guard",
       "company": "Excelsior Defense",
       "location": "North Richland Hills, TX",
@@ -116,55 +356,101 @@
       "posted_date": null,
       "apply_link": "https://us.trabajo.org/job-28607-c62e63c3bb520036d773b0a867e0e6ad",
       "via": "via Trabajo.org",
-      "description": "[Security Officer / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As a Security Guard you'll: Patrol premises regularly to maintain order and establish presence; Monitor and authorize entrance of vehicles or people in the property; Remove wrongdoers or trespassers from the area; Secure all exits, doors and windows after end of operations; Check surveillance cameras periodically to identify disruptions or unlawful acts; Investigate people for suspicious activity or possessions; Respond to alarms by investigating and assessing the situation; Provide assistance to people in need; Apprehend and detain perpetrators according to legal protocol before arrival of authorities; Submit reports of daily surveillance activity and important occurrences...Hiring Fast >>"
+      "description": "[Security Officer / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As a Security Guard you'll: Patrol premises regularly to maintain order and establish presence; Monitor and authorize entrance of vehicles or people in the property; Remove wrongdoers or trespassers from the area; Secure all exits, doors and windows after end of operations; Check surveillance cameras periodically to identify disruptions or unlawful acts; Investigate people for suspicious activity or possessions; Respond to alarms by investigating and assessing the situation; Provide assistance to people in need; Apprehend and detain perpetrators according to legal protocol before arrival of authorities; Submit reports of daily surveillance activity and important occurrences...Hiring Fast >>",
+      "job_highlights": null
     },
     {
-      "title": "Detention Officer (Veterans Encouraged)",
-      "company": "GardaWorld Federal Services",
+      "job_hash": "69e229d0fd45",
+      "title": "Asset Protection Specialist",
+      "company": "The Home Depot",
       "location": "North Richland Hills, TX",
       "vertical": "security",
-      "role": "general",
+      "role": "loss-prevention",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://www.linkedin.com/jobs/view/detention-officer-veterans-encouraged-at-gardaworld-federal-services-4391521811",
+      "apply_link": "https://lensa.com/job-v1/home-depot/north-richland-hills-tx/asset-protection-specialist/4daac79102fe16dea20cbe9534bdadc3",
       "via": "via LinkedIn",
-      "description": "<strong>Location: </strong>El Paso, TX<br><br><strong>Full-Time/Part-Time: </strong>Full-time<br><br><strong>FLSA Status: </strong>Non-Exempt/Hourly<br><br><strong>Travel Requirement: </strong>No<br><br><strong>Teleworking: </strong>No<br><br><strong>Pay: </strong>$35.09/hr. ($30/hr. base rate + $5.09 H&amp;W)<br><br><strong>Hours: </strong>60 – 72/hrs./wk.<br><br>Pay is based on numerous factors including market location and may vary depending on job-related knowledge, skills, and experience.<br><br><strong>Position Overview: </strong>In this role, you will maintain a vigilant presence to..."
+      "description": "91254BR<br><br><strong>Job Description<br><br></strong><strong>Position Purpose:<br><br></strong>The Asset Protection Specialist is primarily responsible for preventing financial loss caused by theft and fraud and supporting safety and environmental program compliance in their assigned store/multiple stores. They utilize tools to minimize loss to the Company, including but not limited to identifying incidents of theft and fraud, reviewing CCTV and exception reports, monitoring the store's physical security, auditing the Electronic Article Surveillance and driving a shrink elimination culture in the store. Other responsibilities include: preparing accurate and detailed case reports documenting your apprehensions and recoveries, preserving evidence, interacting with law enforcement and testifying in criminal and civil court actions. The Asset Protection Specialist must report any hazardous or unsafe condition to the Manager on Duty and carry out job responsibilities in a manner that minimizes the risk of injury to themselves, other associates, vendors, customers, and the Company. They must demonstrate integrity at all times, respond to asset protection and operational concerns of all associates and remain focused on store specific business objectives while supporting key asset protection and operational responsibilities.",
+      "job_highlights": [
+        {
+          "items": [
+            "The Asset Protection Specialist is primarily responsible for preventing financial loss caused by theft and fraud and supporting safety and environmental program compliance in their assigned store/multiple stores",
+            "They utilize tools to minimize loss to the Company, including but not limited to identifying incidents of theft and fraud, reviewing CCTV and exception reports, monitoring the store's physical security, auditing the Electronic Article Surveillance and driving a shrink elimination culture in the store",
+            "Other responsibilities include: preparing accurate and detailed case reports documenting your apprehensions and recoveries, preserving evidence, interacting with law enforcement and testifying in criminal and civil court actions",
+            "The Asset Protection Specialist must report any hazardous or unsafe condition to the Manager on Duty and carry out job responsibilities in a manner that minimizes the risk of injury to themselves, other associates, vendors, customers, and the Company",
+            "They must demonstrate integrity at all times, respond to asset protection and operational concerns of all associates and remain focused on store specific business objectives while supporting key asset protection and operational responsibilities",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Unarmed Security Officer - (Level II Noncommissioned)",
-      "company": "First Responder Protective Services",
-      "location": "Grapevine, TX",
+      "job_hash": "5a916b501551",
+      "title": "Security Patrol Officer - Variable Schedule",
+      "company": "Union Gospel Mission of Tarrant County",
+      "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "general",
-      "pay": "18–20 an hour",
-      "pay_min": 18.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://bebee.com/us/jobs/unarmed-security-officer-level-ii-noncommissioned-first-responder-protective-services-corp-grapevine--fj-2309071783",
-      "via": "via Indeed",
-      "description": "<div>\n <p><b>About First Responder Protective Services</b></p>\n <p></p>\n <p><br>\n   First Responder Protective Services is a premier provider of private security needs across the U.S. Our company is owned, operated and managed by U.S. Military veterans, law enforcement executives, and corporate business professionals. Our founders have over 60 years of experience in protecting critical infrastructures, combating transnational criminal organizations, mitigating risks, and providing the highest level of safety and security to corporations and communities.</p>\n <p></p>\n <p><br>\n   The mission of First Responder Protective Services is to provide the highest level of customer service to each and every client. We accomplish this mission through our foundation of attention to detail, integrity, accountability, empathy, care, and concern for the needs of our clients and the officers which we serve.</p>\n <p><b><br>\n    Job Title:</b> Non-Commissioned Security Guard (Level II)<br><b>Location</b>: Grapevine<br><b>Pay:</b> $18-$20 per hour, depending on qualifications (paid weekly)<br><b>Status: Full-time & Part-time</b></p>\n <h3><b> Position Summary</b></h3>\n <p></p>\n <p><br>\n   First Responder Protective Services (FRPS) is hiring multiple FLEX Non-Commissioned Security Guards to provide a consistent security presence at a controlled-access community in the Grapevine area. This position is primarily based in a spacious, climate-controlled guard shack, where officers will manage access control, monitor video surveillance and access systems, and check residents and visitors in and out of the property. The guard shack is equipped with basic necessities and access to clean, private restroom facilities. Officers will also conduct occasional patrols of the property, both on foot and by golf cart, to maintain visibility and ensure the safety of residents and property. Weekday and weekend shifts are available, with 24/7 coverage required.</p>\n <h3><b> Key Responsibilities</b></h3>\n <ul>\n  <li>Manage check-in/out residents and visitors in a climate controlled shack.</li>\n  <li>Monitor entrances, access points, and surveillance systems.</li>\n  <li>Respond promptly to alarms, emergencies, or incidents.</li>\n  <li>Prepare detailed incident and activity reports as required.</li>\n  <li>Remain alert and proactive in identifying and reporting security concerns</li>\n  <li>Follow all post orders and supervisor instructions</li>\n  <li>Occasional mobile and foot patrol in assigned areas to ensure safety and security of residents, staff, and property.</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Requirements</b></h3>\n <ul>\n  <li>Must have at least <b>one year of experience </b>unarmed security.</li>\n  <li>Must hold a current <b>Level II Texas Noncommissioned Security License</b></li>\n  <li>Must have a <b>valid Texas Driver’s License</b> (or ability to obtain before starting)</li>\n  <li>Professional appearance and demeanor</li>\n  <li>Ability to work independently or with a team</li>\n  <li>Able to sit, stand, or walk for extended periods</li>\n </ul>\n <p></p>\n <p><b><br>\n    Schedule</b></p>\n <p>Full Time position:</p>\n <ul>\n  <li>Sunday: 10p-6a</li>\n  <li>Monday: 10p-6a</li>\n  <li>Tuesday: 10p-6a</li>\n  <li>Wednesday: 10p-6a</li>\n  <li>Thursday: 10p-6a</li>\n  <li>Friday: OFF</li>\n  <li>Saturday: OFF</li>\n </ul>\n <p></p>\n <p><br>\n   Part Time position:</p>\n <ul>\n  <li>Saturday 2p-10p</li>\n  <li>Sunday 2p-10p</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Uniform & Equipment</b></h3>\n <ul>\n  <li><b> FRPS Provides:</b> Uniform shirt, hats, cold weather gear</li>\n  <li><b> Officer Provides:</b> Duty pants, black boots</li>\n </ul>\n <p></p>\n <h3><b><br>\n    Compensation & Advancement</b></h3>\n <ul>\n  <li><b> Hourly Pay:</b> $18-$20/hour (based on experience and availability)</li>\n  <li><b> Pay Frequency:</b> Bi-weekly via direct deposit</li>\n  <li><b> Status:</b> W2 employee (eligible for overtime after 40 hours in a workweek)</li>\n  <li><b> Shifts:</b> 8 hours per day</li>\n </ul>\n <p></p>\n <p><b><br>\n    Full-Time Employee Benefits</b></p>\n <ul>\n  <li><b> Paid Time Off (PTO):</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>1st Year: Accrue up to 7 days (56 hours)</li>\n     <li>2nd Year: Accrue up to 10 days (80 hours)</li>\n     <li>5th Year and beyond: Accrue up to 15 days (120 hours)</li>\n    </ul>\n   </div></li>\n  <li><b> Health Insurance:</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>Company pays up to $300/month toward employee’s health insurance</li>\n     <li>Comprehensive medical, dental, and vision coverage (eligible after first month)</li>\n    </ul>\n   </div></li>\n  <li><b> Retirement:</b></li>\n  <li>\n   <div>\n    <ul>\n     <li>401(k) plan with up to 4% company match</li>\n    </ul>\n   </div></li>\n </ul>\n <h3><b> Posted By:</b></h3>\n <p><b> First Responder Protective Services</b><br>\n   4006 Belt Line Rd, Suite 138<br>\n   Addison, TX 75001<br>\n   Texas Department Of Public Safety Private Security Program License # C10520601</p>\n <p><b><br>\n    Equal Employment Opportunity</b></p>\n <p>First Responder Protective Services is an Equal Employment Opportunity and affirmative action employer. We celebrate diversity and do not discriminate based on race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability status, or any other applicable characteristics protected by law.</p>\n</div>\n<p></p>"
-    },
-    {
-      "title": "Security Shift Supervisor",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Red Oak, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "$20.00/hour",
+      "role": "weekend",
+      "pay": "20 an hour",
       "pay_min": 20.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=b20ce3d656430cda",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=0c76d689d432e249",
       "via": "via LinkedIn",
-      "description": "<strong>Security Shift Supervisor (Overnight) – Desoto, TX<br><br></strong><strong>Pay Rate:</strong> $20.00/hour<br><br><strong>Schedule<br><br></strong><ul><li>Friday: 12:00 AM – 8:00 AM</li><li>Saturday: 12:00 AM – 8:00 AM & 8:00 PM – 8:00 AM</li><li>Sunday: 8:00 PM – 8:00 AM<br><br></li></ul><strong>Position Summary<br><br></strong>We are seeking a reliable and motivated <strong>Security Shift Lead</strong> to oversee overnight security operations in Desoto, TX. This role is responsible for maintaining a safe and secure environment while providing leadership, direction, and support to on-duty security personnel. The ideal candidate is experienced, decisive under pressure, and capable of managing incidents professionally.<br><br><strong>Key Responsibilities<br><br></strong><ul><li>Supervise and support security officers during assigned shifts</li><li>Serve as the primary point of contact for incidents and escalations</li><li>Monitor premises through patrols and surveillance systems</li><li>Respond to emergencies, incidents, and alarms in a timely manner</li><li>Prepare detailed incident and daily activity reports</li><li>Ensure all security protocols and post orders are followed</li><li>Communicate effectively with management, clients, and team members</li><li>Assist with training and mentoring of security staff<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>1–3 years of security experience (supervisory experience preferred)</li><li>Strong leadership, interpersonal, and communication skills</li><li>Ability to assess situations and make sound decisions under pressure</li><li>Basic computer proficiency (report writing, email, incident systems)</li><li>Flexible availability, including nights and weekends as needed</li><li>Must be 21 years of age or older</li><li>Valid driver’s license required<br><br></li></ul><strong>Preferred Qualities<br><br></strong><ul><li>Professional demeanor and strong work ethic</li><li>Ability to multitask in a fast-paced environment</li><li>High level of integrity and accountability</li><li>Strong attention to detail<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Consistent overnight schedule</li><li>Opportunity to grow into higher leadership roles</li><li>Supportive team environment<br><br></li></ul><em>Security Guard / Securitas Security/ Longview, Texas / TXDPS License #B01835<br><br></em>“Securitas is committed to diversity, equity, inclusion and belonging in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other applicable legally protected characteristic.”<br><br>Securitas employees come from all walks of life, bringing with them a variety of distinctive skills and perspectives. United through our common purpose, we provide the security needed to safeguard our clients' assets and people. Our core values - Integrity, Vigilance and Helpfulness - are represented by the three red dots in the Securitas logo. If you live by these values, we’re looking for you to join the Securitas team.<br><br><strong>Benefits Include<br><br></strong><ul><li>Retirement plan</li><li>Employer-provided medical and dental coverage</li><li>Company-paid life insurance</li><li>Voluntary life and disability insurance</li><li>Employee assistance plan</li><li>Securitas Saves discount program</li><li>Paid holidays</li><li>Paid time away from work<br><br></li></ul>Additionally, some populations may have the availability of accessing earned wages on a daily basis, prior to payday. Restrictions and fees may apply.<br><br>Certain waiting periods may also apply. Paid time away from work may be available either through a combination of vacation and sick time or under a PTO policy, depending on local requirements. Benefits may be different for union members.<br><br>"
+      "description": "<p>More than a career...it's a calling!</p><br> Founded in 1888, Union Gospel Mission of Tarrant County is a united Christian organization and ministry dedicated to providing <strong>love, hope, respect, and a new beginning</strong> for homeless women, men, and families. UGM-TC is funded entirely by the generosity of the community and offers a residency program for individuals looking to maximize their potential and transition out of homelessness. Through the programs and services provided, individuals develop essential life skills to become independent, productive members of our community. UGM-TC is God’s healthy place to end homelessness one person at a time. Come serve with us!  <br><br><br><br><br><strong>UGM is seeking a flexible Security Patrol Officer able to work a variable schedule regarding hours and days worked based on the organization's changing needs.</strong><br><br><br><p><br> <br><br></p><br><p><strong>Position Summary:</strong></p><br><p>The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons. We are looking for active, dependable individuals that are highly motivated. <strong>Former military or law enforcement experience preferred!</strong> This position requires individuals to stand/walk for extended periods of time. There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County.  We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols. </p><br><p>What You Do: </p><br><ul><br> <li>Patrol buildings and grounds. </li><br> <li>Maintain campus security and follow lock protocols. </li><br> <li>Provides individual and group escorts to and from parking areas. </li><br> <li>Identifies and removes unauthorized individuals from property. </li><br> <li>Enforces campus parking policies/cites violations. </li><br> <li>Executes Courtesy Patrol policies, procedures, and standards with excellence. </li><br> <li>Provides campus directions to facility visitors. </li><br> <li>Interacts with police, fire personnel, EMS, patients, visitors, and staff. </li><br> <li>Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities.  </li><br> <li>Make eye contact and greet all people with respect. </li><br> <li>Responds to calls for service and emergency situations with urgency and professionalism. </li><br> <li>Assesses the situation and utilizes appropriate de-escalation measures. </li><br> <li>Utilizes critical thinking skills. </li><br> <li>Responds to and activates the appropriate emergency response codes.  </li><br> <li>Supports activities and events by utilizing appropriate crowd control techniques representative of UGM.  </li><br> <li><strong>Work overnights, weekends, evening hours, and holidays as needed by the organization. </strong> </li><br> <li>The central job functions of this position are not limited to the duties listed above. </li><br></ul><br><p> </p><br><p>Qualifications / What You Bring:  </p><br><ul><br> <li>3-5 years of security, law enforcement, or military experience preferred. </li><br> <li>Familiarity with security equipment.</li><br> <li>Ability to handle physical workload (walking/standing)</li><br> <li>Bilingual:  Spanish Speaking a plus</li><br> <li>Level 2 License preferred</li><br> <li>Strong attention to detail </li><br> <li>An ability to connect with people from diverse backgrounds at varying levels of understanding.  </li><br> <li>Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem. </li><br> <li>Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense. </li><br> <li>Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material. </li><br> <li>Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events). </li><br> <li>A clean driving record.</li><br></ul><br><p><br> <br><br></p><br><p>“As part of the screening process, you may be asked to provide a pastoral reference. Union Gospel Mission of Tarrant County is a Christian organization that seeks to hire people who align with our beliefs in Jesus Christ. We welcome all Christian denominations into the mission.”</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "We are looking for active, dependable individuals that are highly motivated",
+            "This position requires individuals to stand/walk for extended periods of time",
+            "Familiarity with security equipment",
+            "Ability to handle physical workload (walking/standing)",
+            "Strong attention to detail",
+            "An ability to connect with people from diverse backgrounds at varying levels of understanding",
+            "Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong",
+            "It does not involve solving the problem, only recognizing that there is a problem",
+            "Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense",
+            "Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material",
+            "Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)",
+            "A clean driving record",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons",
+            "There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County",
+            "We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols",
+            "Patrol buildings and grounds",
+            "Maintain campus security and follow lock protocols",
+            "Provides individual and group escorts to and from parking areas",
+            "Identifies and removes unauthorized individuals from property",
+            "Enforces campus parking policies/cites violations",
+            "Executes Courtesy Patrol policies, procedures, and standards with excellence",
+            "Provides campus directions to facility visitors",
+            "Interacts with police, fire personnel, EMS, patients, visitors, and staff",
+            "Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities",
+            "Make eye contact and greet all people with respect",
+            "Responds to calls for service and emergency situations with urgency and professionalism",
+            "Assesses the situation and utilizes appropriate de-escalation measures",
+            "Utilizes critical thinking skills",
+            "Responds to and activates the appropriate emergency response codes",
+            "Supports activities and events by utilizing appropriate crowd control techniques representative of UGM",
+            "Work overnights, weekends, evening hours, and holidays as needed by the organization",
+            "The central job functions of this position are not limited to the duties listed above",
+            "17 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

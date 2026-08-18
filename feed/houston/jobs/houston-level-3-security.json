@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "houston/jobs/houston-level-3-security",
   "market": "Houston",
   "target": "city-role",
@@ -7,6 +7,55 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "8b7f2fad1567",
+      "title": "Immediate Hire! Full-Level III Supervisors-Weekends 3rd Shift",
+      "company": "International Guard Services",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "executive-protection",
+      "pay": "22,041–24,796 a year",
+      "pay_min": 22041.0,
+      "pay_max": 24796.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-06",
+      "apply_link": "https://us.jobrapido.com/jobpreview/5115106468848205824",
+      "via": "via JobLeads",
+      "description": "<div><h3>Immediate Hire! Full-Level III Supervisors-Weekends 3rd Shift</h3>\n<p>Full Time</p>\n<p>HQ - Houston</p>\n<p>$16.00-18.00/hr</p>\n<p>IGS Protection is hiring professional Armed Security Officers for immediate openings. We are looking for dependable, customer-focused individuals who take pride in maintaining safe and secure environments. This position offers advancement opportunities, flexible scheduling, and long-term career growth.</p>\n<h3>SCHEDULE</h3>\n<p>Monday-Friday: 9pm-5am</p>\n<h3>Key Responsibilities</h3>\n<ul>\n<li>Maintain a visible and professional security presence.</li>\n<li>Conduct patrols and inspections.</li>\n<li>Monitor access points and security systems.</li>\n<li>Document incidents and daily activities.</li>\n<li>Respond professionally to emergencies and client requests.</li>\n</ul>\n<h3>Requirements</h3>\n<ul>\n<li>Active Guard Card/State Security License</li>\n<li>Valid Driver's License</li>\n<li>Reliable Transportation</li>\n<li>Ability to Pass Background Screening</li>\n</ul>\n<h3>Why Join IGS Protection?</h3>\n<p>At IGS Protection, we invest in our employees and recognize strong performance. We strive to create a professional environment where team members can develop their careers and grow into leadership positions.</p></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Active Guard Card/State Security License",
+            "Valid Driver's License",
+            "Reliable Transportation",
+            "Ability to Pass Background Screening",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Full-Level III Supervisors-Weekends 3rd Shift",
+            "This position offers advancement opportunities, flexible scheduling, and long-term career growth"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Monday-Friday: 9pm-5am",
+            "Maintain a visible and professional security presence",
+            "Conduct patrols and inspections",
+            "Monitor access points and security systems",
+            "Document incidents and daily activities",
+            "Respond professionally to emergencies and client requests",
+            "3 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "805d57d7fe56",
       "title": "Level III Security Officer Weekends",
       "company": "International Guard Services (IGS)",
       "location": "Houston, TX",
@@ -20,73 +69,66 @@
       "posted_date": "2026-08-06",
       "apply_link": "https://www.ziprecruiter.com/c/Valor-Force/Job/Experienced-Level-III-Commissioned-Security-Officer-(School-Campus-Assignment)/-in-Houston,TX?jid=b54703d986bf6ccd",
       "via": "via Indeed",
-      "description": "<div>\n <p>IGS Protection is hiring professional Level III Security Officers for immediate openings. We are looking for dependable, customer-focused individuals who take pride in maintaining safe and secure environments. This position offers advancement opportunities, flexible scheduling, and long-term career growth.</p>\n <h2><b> schedule</b></h2>\n <p>Days: Friday, Saturday, Sunday</p>\n <p>Hours: 6:00pm-6:00am</p>\n <p>Pay Rate: $17.00/hour</p>\n <h2><b> Key Responsibilities</b></h2>\n <ul>\n  <li>Maintain a visible and professional security presence.</li>\n  <li>Conduct patrols and inspections.</li>\n  <li>Monitor access points and security systems.</li>\n  <li>Document incidents and daily activities.</li>\n  <li>Respond professionally to emergencies and client requests.</li>\n </ul>\n <h2><b> Requirements</b></h2>\n <ul>\n  <li>Active Level III Guard Card /State Security License</li>\n  <li>Valid (Active) Driver's License</li>\n  <li>Reliable Transportation</li>\n  <li>Ability to Pass Background Screening</li>\n  <li>Strong Communication Skills</li>\n </ul>\n <h2><b> Why Join IGS Protection?</b></h2>\n <p>At IGS Protection, we invest in our employees and recognize strong performance. We strive to create a professional environment where team members can develop their careers and grow into leadership positions.</p>\n <p></p>\n <h2><b><br>\n    Immediate HIre Available</b></h2>\n</div>"
+      "description": "<div>\n <p>IGS Protection is hiring professional Level III Security Officers for immediate openings. We are looking for dependable, customer-focused individuals who take pride in maintaining safe and secure environments. This position offers advancement opportunities, flexible scheduling, and long-term career growth.</p>\n <h2><b> schedule</b></h2>\n <p>Days: Friday, Saturday, Sunday</p>\n <p>Hours: 6:00pm-6:00am</p>\n <p>Pay Rate: $17.00/hour</p>\n <h2><b> Key Responsibilities</b></h2>\n <ul>\n  <li>Maintain a visible and professional security presence.</li>\n  <li>Conduct patrols and inspections.</li>\n  <li>Monitor access points and security systems.</li>\n  <li>Document incidents and daily activities.</li>\n  <li>Respond professionally to emergencies and client requests.</li>\n </ul>\n <h2><b> Requirements</b></h2>\n <ul>\n  <li>Active Level III Guard Card /State Security License</li>\n  <li>Valid (Active) Driver's License</li>\n  <li>Reliable Transportation</li>\n  <li>Ability to Pass Background Screening</li>\n  <li>Strong Communication Skills</li>\n </ul>\n <h2><b> Why Join IGS Protection?</b></h2>\n <p>At IGS Protection, we invest in our employees and recognize strong performance. We strive to create a professional environment where team members can develop their careers and grow into leadership positions.</p>\n <p></p>\n <h2><b><br>\n    Immediate HIre Available</b></h2>\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Active Level III Guard Card /State Security License",
+            "Valid (Active) Driver's License",
+            "Reliable Transportation",
+            "Ability to Pass Background Screening",
+            "Strong Communication Skills",
+            "2 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $17.00/hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Maintain a visible and professional security presence",
+            "Conduct patrols and inspections",
+            "Monitor access points and security systems",
+            "Document incidents and daily activities",
+            "Respond professionally to emergencies and client requests",
+            "2 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "df91c475929f",
       "title": "Campus Safety Officer, Level III Commissioned",
       "company": "Valorforces",
       "location": "Houston, TX",
       "vertical": "security",
       "role": "school",
       "pay": "28K–30K a year",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
+      "pay_min": 28000.0,
+      "pay_max": 30000.0,
+      "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-05",
       "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5344337247/e/",
       "via": "via Learn4Good",
-      "description": "Valorforces is seeking professional Level III Commissioned Security Officers to support school-based safety and protection. We value appearance, communication, tactical readiness, and leadership in a mission-driven environment that partners with educators, families, and police.As a commissioned officer on a school campus, you will patrol interior and exterior areas, respond to incidents, prepare incident reports, and collaborate with school administrators and local law enforcement to maintain a#J-18808-Ljbffr"
+      "description": "Valorforces is seeking professional Level III Commissioned Security Officers to support school-based safety and protection. We value appearance, communication, tactical readiness, and leadership in a mission-driven environment that partners with educators, families, and police.As a commissioned officer on a school campus, you will patrol interior and exterior areas, respond to incidents, prepare incident reports, and collaborate with school administrators and local law enforcement to maintain a#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "We value appearance, communication, tactical readiness, and leadership in a mission-driven environment that partners with educators, families, and police",
+            "As a commissioned officer on a school campus, you will patrol interior and exterior areas, respond to incidents, prepare incident reports, and collaborate with school administrators and local law enforcement to maintain a"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Nightclub Security LEVEL 3",
-      "company": "Houston Tactical Agency LLC",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "level-3",
-      "pay": "18–20 an hour",
-      "pay_min": 18.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-07-31",
-      "apply_link": "https://www.glassdoor.com/job-listing/nightclub-security-level-3-houston-tactical-agency-llc-JV_IC1140171_KO0,26_KE27,54.htm?jl=1010216097437",
-      "via": "via Indeed",
-      "description": "<p>We are currently hiring commission security officers.</p>\n<p>This post is in a night club setting and requires to have the items listed below in order to be consider employment.</p>\n<p><b>Level 3 must have the following</b></p>\n<ul>\n <li>Full duty belt with gear and gun.</li>\n</ul>\n<ul>\n <li>bullet proof vest</li>\n <li>Reliable transportation</li>\n <li>Smart phone</li>\n <li>Commission Security Officer card.</li>\n</ul>\n<p>Job Type: Part-time</p>\n<p>Pay: $18.00 - $20.00 per hour</p>\n<p>Work Location: In person</p>"
-    },
-    {
-      "title": "Commissioned Level III Security Officers (Bilingual Preferred)",
-      "company": "Texas Crime, LLC",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "residential",
-      "pay": "16–17 an hour",
-      "pay_min": 16.0,
-      "pay_max": 17.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-07-30",
-      "apply_link": "https://www.glassdoor.com/job-listing/commissioned-level-iii-security-officers-bilingual-preferred-texas-crime-llc-JV_IC1140171_KO0,60_KE61,76.htm?jl=1010228594115",
-      "via": "via Indeed",
-      "description": "<p>We are seeking a Commissioned Security Officer (Bilingual Preferred) to become an integral part of our team. The selected individual will patrol and secure assigned premises as well as identify risks to staff and patrons.</p>\n<p>Responsibilities:</p>\n<ul>\n <li>Monitor premises to prevent theft, violence, or infractions of rules</li>\n <li>examine doors, windows, and gates to ensure proper function and security</li>\n <li>Warn violators of premise rules and regulations</li>\n <li>Apprehend or expel persons engaging in suspicious or criminal acts</li>\n <li>Report any facility issues such as fire hazards and leaking water pipes</li>\n <li>Request emergency personnel for high-risk situations</li>\n</ul>\n<p>​Qualifications:</p>\n<ul>\n <li>Previous experience in security, law enforcement, or other related fields</li>\n <li>Familiarity with security equipment</li>\n <li>Ability to handle physical workload</li>\n <li>Strong attention to detail</li>\n <li>MUST PASS A CRIMINAL BACKGROUND CHECK</li>\n</ul>\n<p>MUST BE AVAILABLE WEEKENDS, WEEKDAYS AND HOLIDAYS</p>\n<p>MUST HAVE LEVEL 3 CERTIFICATION</p>\n<p>Please apply with the following link: http://tcd.traitset.com</p>\n<p>****ELIGIBLE FOR RAISE AFTER 90 DAYS********</p>\n<p>*****GREAT INCENTIVE PROGRAM*************</p>\n<p>*****OPPORTUNITY TO ADVANCE WITHIN COMPANY******</p>\n<p>You may also call (832) 650-0412 or email us at : n.magallanes@tcd-officers.com</p>\n<p>Job Types: Full-time, Part-time</p>\n<p>Pay: $16.00 - $17.00 per hour</p>\n<p>Experience:</p>\n<ul>\n <li>Security: 1 year (Required)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Armed Security License (Preferred)</li>\n <li>Level 3 Guard Card (Required)</li>\n</ul>\n<p>Ability to Commute:</p>\n<ul>\n <li>Houston, TX 77082 (Required)</li>\n</ul>\n<p>Work Location: In person</p>"
-    },
-    {
-      "title": "Hiring a Level III Security Officer (Armed) for the Yorkshire Academy location",
-      "company": "Ranger Cinco, LLC",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "level-3",
-      "pay": "$17.00 per hour",
-      "pay_min": 17.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/ranger-cinco-llc/houston/hiring-a-level-iii-security-officer-armed-for-the-yorkshire-academy-location-119294633/",
-      "via": "via Talents By Vaia",
-      "description": "Ranger Cinco, LLC is hiring a Level III Security Officer for the Yorkshire Academy location Job Overview/Duties: Officers will conduct regular, scheduled foot patrol of school campus buildings, campus perimeter and parking lot(s) as outlined in job site security procedures, to deter criminal activity and trespassers. Officers will assist with general traffic flow/control during school drop off and pick up times. Officers will prevent unauthorized access by identifying each campus visitor through school staff. Officers will maintain ongoing communication with school staff utilizing walkie talkie, phone and other communication devices. Officers will complete daily activity and incident reports as outlined in their job site security procedures. Officers will observe and report any incidents immediately to proper staff Officers will utilize good customer service skills, being mindful of ethical and professional boundaries around students at campus. Officers will be required to download the operating application onto their smartphone to accept shifts, clock in/out, scan checkpoints throughout shifts, and make reports. Officers will act proactively and identify potential areas of security improvements on campus.Qualifications for location: Must be at least 30 years old High school diploma/GED Must have a valid Driver's License. Possess a valid Level III Security License (Armed) in state of employment. Must be able to pass an onsite drug screen and background check. Comfortable kneeling, carrying, bending, walking, standing, or sitting for extended periods of time. Ability to perform continuous physical movement/exertion as needed. Proficient written and oral communication skills.Working mobile Cellular phone with ability to download and utilize Security Application Pay:$17.00/per hour (Based on Experience) Experience Level: Security:5 Years (Required) or equivalent military/law enforcement experience Ability to commute/Relocate:Job is in Houston, Texas.Must be able to commute or plan to relocate before starting work.License/Certification: Driver's License (Required) Level III Security License (Required) First Aid and Basic CPR (Required) Work Location:14120 Memorial Drive, Houston, Texas 77079 Work Hours: Monday- Friday:1500-1800 (3:00pm-6:00pm, CST) Part time Some occasional weekends or after hours throughout the school year for events Must be available for training the week prior to start date (July 7, 2026 start date) Pay:From $17.00 per hour Experience:Security:5 years (Preferred) License/Certification:Armed Security License (Preferred) Ability to Commute:Houston, TX 77079 (Preferred) Work Location:In person."
-    },
-    {
+      "job_hash": "f5bf9fdd73ca",
       "title": "COMMISSIONED OFFICER WITH A LEVEL III COMMISSION LICENSE IN HAND-WEEKLY PAY",
       "company": "S.E.A.L. Security Solutions, LLC",
       "location": "Houston, TX",
@@ -100,25 +142,229 @@
       "posted_date": null,
       "apply_link": "https://www.simplyhired.com/job/JM2-B-90F01yRM_7sPqWFU-edpeGn30vd6xOOJOFXbg_vT6if4Fp-Q",
       "via": "via Indeed",
-      "description": "<p>S.E.A.L. SECURITY SOLUTIONS, LLC is a leading private security company specializing in providing commissioned officers and K-9 units. We pride ourselves on our extensive training programs for our officers and K-9's, ensuring they are well-prepared to meet the challenges of the security industry.</p>\n<p><i><b>WE ARE OFFERING A $300.00 SIGN ON BONUS W/ 90 DAYS OF FULL TIME EMPLOYMENT. ALSO, A $300.00 REFERRAL BONUS AFTER 90 DAYS OF FULL TIME EMPLOYMENT. THIS IS A WIN WIN SITUATION.</b></i></p>\n<p><b>Summary</b></p>\n<p>S.E.A.L. Security Solutions, LLC is hiring <b>experienced Level III Commissioned Security Officers</b> for posts in Houston and surrounding areas.<br><b>THIS IS NOT AN ENTRY LEVEL OR LEVEL II POSITION.</b><br>\n  We require a <b>current Level III commission card in hand</b> and <b>at least 2 years of verifiable armed experience with solid work history</b>.<br>\n  We offer weekly pay, steady schedules, overtime opportunities, and advancement for professional, reliable officers.</p>\n<p><b>Responsibilities</b></p>\n<ul>\n <li>Conduct regular patrols to ensure the safety of assigned areas.</li>\n <li>Manage conflict situations effectively while maintaining professionalism.</li>\n <li>Collaborate with law enforcement agencies as needed for incident resolution.</li>\n <li>Participate in ongoing training sessions to enhance skills and knowledge.</li>\n</ul>\n<p><b>Requirements</b></p>\n<ul>\n <li>Current <b>Texas Level III Commission</b> license <b>in hand</b></li>\n <li>Strong knowledge of surveillance and patrol methods</li>\n <li>Must pass a background check and drug test</li>\n <li>Must have a valid driver license and clean driving record</li>\n <li>At least 2 years of verifiable ARMED / Level III experience</li>\n <li><b>Stable work history</b> in security (no excessive job-hopping)</li>\n <li>Must be at least 23 years of age</li>\n <li><b>Must have ALL required equipment:</b> firearm, duty belt, <b>2 magazines</b>, and <b>Level III holster</b></li>\n <li>Must have reliable transportation</li>\n <li>Excellent conflict management skills with the ability to remain calm under pressure</li>\n <li><i><b>Prior law enforcement or military service is highly welcomed</b></i></li>\n</ul>\n<p>We are not currently hiring Level II officers or candidates without <b>2 years verifiable TOPS armed/Level III experience</b> and solid tenure.</p>\n<p>If you are ready to take your career in security to the next level, we invite you to apply today and become an integral part of our team at S.E.A.L. SECURITY SOLUTIONS, LLC!</p>\n<p>Please contact Diana Rivette at 713-979-2388 or you can go to our website at www.sealsecurity.com and click on contact us to set up an appointment for an application and interview.</p>\n<p><i>TX DPS PSB LICENSE# C15942 TX DPS PSB LICENSE# F01142</i></p>\n<p>Pay: $48,000.00 - $50,000.00 per year</p>\n<p>Benefits:</p>\n<ul>\n <li>Dental insurance</li>\n <li>Health insurance</li>\n <li>Life insurance</li>\n <li>Paid time off</li>\n <li>Referral program</li>\n <li>Vision insurance</li>\n</ul>\n<p>Application Question(s):</p>\n<ul>\n <li>12+ hour shifts</li>\n <li>Overtime</li>\n <li>Weekends as needed</li>\n <li>On call</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Commission: 2 years (Required)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>commission license in hand (Required)</li>\n</ul>\n<p>Shift availability:</p>\n<ul>\n <li>Day Shift (Required)</li>\n <li>Night Shift (Required)</li>\n <li>Overnight Shift (Required)</li>\n</ul>\n<p>Work Location: In person</p>"
+      "description": "<p>S.E.A.L. SECURITY SOLUTIONS, LLC is a leading private security company specializing in providing commissioned officers and K-9 units. We pride ourselves on our extensive training programs for our officers and K-9's, ensuring they are well-prepared to meet the challenges of the security industry.</p>\n<p><i><b>WE ARE OFFERING A $300.00 SIGN ON BONUS W/ 90 DAYS OF FULL TIME EMPLOYMENT. ALSO, A $300.00 REFERRAL BONUS AFTER 90 DAYS OF FULL TIME EMPLOYMENT. THIS IS A WIN WIN SITUATION.</b></i></p>\n<p><b>Summary</b></p>\n<p>S.E.A.L. Security Solutions, LLC is hiring <b>experienced Level III Commissioned Security Officers</b> for posts in Houston and surrounding areas.<br><b>THIS IS NOT AN ENTRY LEVEL OR LEVEL II POSITION.</b><br>\n  We require a <b>current Level III commission card in hand</b> and <b>at least 2 years of verifiable armed experience with solid work history</b>.<br>\n  We offer weekly pay, steady schedules, overtime opportunities, and advancement for professional, reliable officers.</p>\n<p><b>Responsibilities</b></p>\n<ul>\n <li>Conduct regular patrols to ensure the safety of assigned areas.</li>\n <li>Manage conflict situations effectively while maintaining professionalism.</li>\n <li>Collaborate with law enforcement agencies as needed for incident resolution.</li>\n <li>Participate in ongoing training sessions to enhance skills and knowledge.</li>\n</ul>\n<p><b>Requirements</b></p>\n<ul>\n <li>Current <b>Texas Level III Commission</b> license <b>in hand</b></li>\n <li>Strong knowledge of surveillance and patrol methods</li>\n <li>Must pass a background check and drug test</li>\n <li>Must have a valid driver license and clean driving record</li>\n <li>At least 2 years of verifiable ARMED / Level III experience</li>\n <li><b>Stable work history</b> in security (no excessive job-hopping)</li>\n <li>Must be at least 23 years of age</li>\n <li><b>Must have ALL required equipment:</b> firearm, duty belt, <b>2 magazines</b>, and <b>Level III holster</b></li>\n <li>Must have reliable transportation</li>\n <li>Excellent conflict management skills with the ability to remain calm under pressure</li>\n <li><i><b>Prior law enforcement or military service is highly welcomed</b></i></li>\n</ul>\n<p>We are not currently hiring Level II officers or candidates without <b>2 years verifiable TOPS armed/Level III experience</b> and solid tenure.</p>\n<p>If you are ready to take your career in security to the next level, we invite you to apply today and become an integral part of our team at S.E.A.L. SECURITY SOLUTIONS, LLC!</p>\n<p>Please contact Diana Rivette at 713-979-2388 or you can go to our website at www.sealsecurity.com and click on contact us to set up an appointment for an application and interview.</p>\n<p><i>TX DPS PSB LICENSE# C15942 TX DPS PSB LICENSE# F01142</i></p>\n<p>Pay: $48,000.00 - $50,000.00 per year</p>\n<p>Benefits:</p>\n<ul>\n <li>Dental insurance</li>\n <li>Health insurance</li>\n <li>Life insurance</li>\n <li>Paid time off</li>\n <li>Referral program</li>\n <li>Vision insurance</li>\n</ul>\n<p>Application Question(s):</p>\n<ul>\n <li>12+ hour shifts</li>\n <li>Overtime</li>\n <li>Weekends as needed</li>\n <li>On call</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Commission: 2 years (Required)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>commission license in hand (Required)</li>\n</ul>\n<p>Shift availability:</p>\n<ul>\n <li>Day Shift (Required)</li>\n <li>Night Shift (Required)</li>\n <li>Overnight Shift (Required)</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "We require a current Level III commission card in hand and at least 2 years of verifiable armed experience with solid work history",
+            "Current Texas Level III Commission license in hand",
+            "Strong knowledge of surveillance and patrol methods",
+            "Must pass a background check and drug test",
+            "Must have a valid driver license and clean driving record",
+            "At least 2 years of verifiable ARMED / Level III experience",
+            "Stable work history in security (no excessive job-hopping)",
+            "Must be at least 23 years of age",
+            "Must have ALL required equipment: firearm, duty belt, 2 magazines, and Level III holster",
+            "Must have reliable transportation",
+            "Excellent conflict management skills with the ability to remain calm under pressure",
+            "Prior law enforcement or military service is highly welcomed",
+            "We are not currently hiring Level II officers or candidates without 2 years verifiable TOPS armed/Level III experience and solid tenure",
+            "Commission: 2 years (Required)",
+            "commission license in hand (Required)",
+            "12 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "WE ARE OFFERING A $300.00 SIGN ON BONUS W/ 90 DAYS OF FULL TIME EMPLOYMENT",
+            "ALSO, A $300.00 REFERRAL BONUS AFTER 90 DAYS OF FULL TIME EMPLOYMENT",
+            "We offer weekly pay, steady schedules, overtime opportunities, and advancement for professional, reliable officers",
+            "Pay: $48,000.00 - $50,000.00 per year",
+            "Dental insurance",
+            "Health insurance",
+            "Life insurance",
+            "Paid time off",
+            "Referral program",
+            "Vision insurance",
+            "7 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Conduct regular patrols to ensure the safety of assigned areas",
+            "Manage conflict situations effectively while maintaining professionalism",
+            "Collaborate with law enforcement agencies as needed for incident resolution",
+            "Participate in ongoing training sessions to enhance skills and knowledge",
+            "12+ hour shifts",
+            "Day Shift (Required)",
+            "Night Shift (Required)",
+            "Overnight Shift (Required)",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "ef38590db737",
+      "title": "Hiring a Level III Security Officer (Armed) for the Yorkshire Academy location",
+      "company": "Ranger Cinco, LLC",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "level-3",
+      "pay": "$17.00 per hour",
+      "pay_min": 17.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/ranger-cinco-llc/houston/hiring-a-level-iii-security-officer-armed-for-the-yorkshire-academy-location-119294633/",
+      "via": "via Talents By Vaia",
+      "description": "Ranger Cinco, LLC is hiring a Level III Security Officer for the Yorkshire Academy location Job Overview/Duties: Officers will conduct regular, scheduled foot patrol of school campus buildings, campus perimeter and parking lot(s) as outlined in job site security procedures, to deter criminal activity and trespassers. Officers will assist with general traffic flow/control during school drop off and pick up times. Officers will prevent unauthorized access by identifying each campus visitor through school staff. Officers will maintain ongoing communication with school staff utilizing walkie talkie, phone and other communication devices. Officers will complete daily activity and incident reports as outlined in their job site security procedures. Officers will observe and report any incidents immediately to proper staff Officers will utilize good customer service skills, being mindful of ethical and professional boundaries around students at campus. Officers will be required to download the operating application onto their smartphone to accept shifts, clock in/out, scan checkpoints throughout shifts, and make reports. Officers will act proactively and identify potential areas of security improvements on campus.Qualifications for location: Must be at least 30 years old High school diploma/GED Must have a valid Driver's License. Possess a valid Level III Security License (Armed) in state of employment. Must be able to pass an onsite drug screen and background check. Comfortable kneeling, carrying, bending, walking, standing, or sitting for extended periods of time. Ability to perform continuous physical movement/exertion as needed. Proficient written and oral communication skills.Working mobile Cellular phone with ability to download and utilize Security Application Pay:$17.00/per hour (Based on Experience) Experience Level: Security:5 Years (Required) or equivalent military/law enforcement experience Ability to commute/Relocate:Job is in Houston, Texas.Must be able to commute or plan to relocate before starting work.License/Certification: Driver's License (Required) Level III Security License (Required) First Aid and Basic CPR (Required) Work Location:14120 Memorial Drive, Houston, Texas 77079 Work Hours: Monday- Friday:1500-1800 (3:00pm-6:00pm, CST) Part time Some occasional weekends or after hours throughout the school year for events Must be available for training the week prior to start date (July 7, 2026 start date) Pay:From $17.00 per hour Experience:Security:5 years (Preferred) License/Certification:Armed Security License (Preferred) Ability to Commute:Houston, TX 77079 (Preferred) Work Location:In person.",
+      "job_highlights": [
+        {
+          "items": [
+            "Qualifications for location: Must be at least 30 years old High school diploma/GED Must have a valid Driver's License",
+            "Possess a valid Level III Security License (Armed) in state of employment",
+            "Must be able to pass an onsite drug screen and background check",
+            "Comfortable kneeling, carrying, bending, walking, standing, or sitting for extended periods of time",
+            "Ability to perform continuous physical movement/exertion as needed",
+            "Proficient written and oral communication skills",
+            "Working mobile Cellular phone with ability to download and utilize Security Application Pay:$17.00/per hour (Based on Experience) Experience Level: Security:5 Years (Required) or equivalent military/law enforcement experience Ability to commute/Relocate:Job is in Houston, Texas",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Officers will assist with general traffic flow/control during school drop off and pick up times",
+            "Officers will prevent unauthorized access by identifying each campus visitor through school staff",
+            "Officers will maintain ongoing communication with school staff utilizing walkie talkie, phone and other communication devices",
+            "Officers will complete daily activity and incident reports as outlined in their job site security procedures",
+            "Officers will observe and report any incidents immediately to proper staff Officers will utilize good customer service skills, being mindful of ethical and professional boundaries around students at campus",
+            "Officers will be required to download the operating application onto their smartphone to accept shifts, clock in/out, scan checkpoints throughout shifts, and make reports",
+            "Officers will act proactively and identify potential areas of security improvements on campus",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "1c60a5f3c9ab",
+      "title": "PV Fluid Level III Officer (Houston Regional Office)",
+      "company": "Security Officer Services",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "level-3",
+      "pay": "$18 per hour",
+      "pay_min": 18.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/security-officer-services/pv-fluid-level-iii-officer-houston-regional-office-32267628/",
+      "via": "via Talents By Vaia",
+      "description": "<p>Overview</p><p><strong>Why St. Moritz?</strong></p><p>Are you looking for a rewarding career in the security industry? Join St. Moritz Security Services, Inc., a well -established company with over 43 years in the industry.</p><p>No security program can be successfully implemented without quality people to execute the program.</p><p><strong>The ST. MORITZ DIFFERENCE is our PEOPLE.</strong></p><p>From the first level security officer to the CEO, St. Moritz is committed from the top down to provide the highest level of service possible.</p>Job Skills / Requirements<p><b><strong>Job Title: Armed Officer</strong></b></p><p><b><strong>Location: 11901 Cutten Rd, Houston, TX 77066</strong></b></p><p><b><strong>Pay: $18 per hour  40 HR</strong></b></p><p><b><strong>Schedule:Fri,Sat,Sun,Wed,Thu 10:00 pm-6:00 am</strong></b></p><p><b><strong>Primary Purpose and Function</strong></b></p><ul><li>Completes site checks and incident reports utilizing current technology.</li><li>Investigates and completes reports related to incidents and/or accidents.</li><li>Delivers orientation, training, development and is responsible for retention of high caliber staff; ensures that each staff member is treated with dignity and respect; coaches employees and carries out disciplinary actions, as necessary at the direction of the Manager.</li><li>Stands post when a suitable security officer cannot be scheduled due to call offs, no call- no shows, vacations, etc.</li><li>Responds to any communications regarding call-offs or no-shows in accordance with set protocol.</li><li>Communicates with guards regarding scheduling, staffing, equipment, record keeping, and related matters, to ensure smooth delivery of services.</li><li>Prepares, discusses, and implements disciplinary notices and corrective actions to security officers.</li><li>Participates in recruiting interviewing of potential security officers. Make recommendations for hiring decisions.</li><li>Completes New Hire paperwork with new employees and forwards to Operations Manager for processing.</li><li>Managers team of security officers to ensure that service expectations are being met through regular contact with clients; evaluates service quality, inspects posts, and initiates corrective action in a timely manner as necessary. Participates in security officer performance reviews. Make recommendations for placement of personnel.</li><li>Meets with operations management for status updates and to address any actual or potential problems; provides support during client start-ups; provides input to security planning, assessments, and surveys; reviews post orders and communicates requirements and changes to affected personnel.</li><li>Maintains a positive, professional environment in full compliance with applicable laws, regulations, policies, and procedures; acts to ensure that staff members understand and comply with applicable laws, regulations, policies, and procedures.</li><li>Performs tasks and duties of a similar nature and scope as required for assigned office.</li></ul><p><b><strong>Education and Experience</strong></b></p><ul><li>High School graduate (some college education is preferred).</li><li>A minimum of 1+ years of security experience is required.</li><li>Demonstrated skills in web searching and use of Excel and Word programs</li><li>Strong organizational and interpersonal skills preferred.</li><li>Ability to multi-task in a fast-paced environment.</li><li><b><strong>Key Performance Criteria</strong></b><br></li><li><ul><li>Manages security officers to ensure excellent service delivery</li><li>Note and correct performance issues with security officers</li><li>Timeliness and accuracy of paperwork and reports</li><li>Internal and external customer satisfaction</li><li>Demonstrate good judgment and common sense, following directions and directives from supervisors and execution of company policy and guidelines.</li><li>Friendly and professional demeanor in the delivery of quality customer service</li></ul></li><li><b><strong>Other Requirements</strong></b><br></li><li><ul><li>Must be present in the field or office during assigned shift.</li><li>May require some local and long distance travel.</li></ul></li></ul><p>Texas #B14072</p>Education Requirements (All)<p>HS Diploma<br>GED or H.S. Equivalent<br></p>Certification Requirements (All)<p>Texas Level 3<br>Driver\\'s License<br></p>Additional Information / Benefits<p>Benefits: Medical Insurance, Life Insurance, Dental Insurance, Vision Insurance, Short Term Disability, Long Term Disability, 401K/403b Plan</p><p>This is a <strong>Full-Time</strong> position <strong>1st Shift</strong>, <strong>2nd Shift</strong>.</p> #J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "A minimum of 1+ years of security experience is required",
+            "Demonstrated skills in web searching and use of Excel and Word programs",
+            "Ability to multi-task in a fast-paced environment",
+            "Key Performance Criteria",
+            "Timeliness and accuracy of paperwork and reports",
+            "Internal and external customer satisfaction",
+            "Demonstrate good judgment and common sense, following directions and directives from supervisors and execution of company policy and guidelines",
+            "Friendly and professional demeanor in the delivery of quality customer service",
+            "Must be present in the field or office during assigned shift",
+            "May require some local and long distance travel",
+            "HS Diploma",
+            "GED or H.S. Equivalent",
+            "Texas Level 3",
+            "Driver's License",
+            "11 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $18 per hour 40 HR",
+            "Benefits: Medical Insurance, Life Insurance, Dental Insurance, Vision Insurance, Short Term Disability, Long Term Disability, 401K/403b Plan"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Completes site checks and incident reports utilizing current technology",
+            "Investigates and completes reports related to incidents and/or accidents",
+            "Delivers orientation, training, development and is responsible for retention of high caliber staff; ensures that each staff member is treated with dignity and respect; coaches employees and carries out disciplinary actions, as necessary at the direction of the Manager",
+            "Stands post when a suitable security officer cannot be scheduled due to call offs, no call- no shows, vacations, etc",
+            "Responds to any communications regarding call-offs or no-shows in accordance with set protocol",
+            "Communicates with guards regarding scheduling, staffing, equipment, record keeping, and related matters, to ensure smooth delivery of services",
+            "Prepares, discusses, and implements disciplinary notices and corrective actions to security officers",
+            "Participates in recruiting interviewing of potential security officers",
+            "Make recommendations for hiring decisions",
+            "Completes New Hire paperwork with new employees and forwards to Operations Manager for processing",
+            "Managers team of security officers to ensure that service expectations are being met through regular contact with clients; evaluates service quality, inspects posts, and initiates corrective action in a timely manner as necessary",
+            "Participates in security officer performance reviews",
+            "Make recommendations for placement of personnel",
+            "Meets with operations management for status updates and to address any actual or potential problems; provides support during client start-ups; provides input to security planning, assessments, and surveys; reviews post orders and communicates requirements and changes to affected personnel",
+            "Maintains a positive, professional environment in full compliance with applicable laws, regulations, policies, and procedures; acts to ensure that staff members understand and comply with applicable laws, regulations, policies, and procedures",
+            "Performs tasks and duties of a similar nature and scope as required for assigned office",
+            "Manages security officers to ensure excellent service delivery",
+            "Note and correct performance issues with security officers",
+            "15 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a4c0b459d700",
       "title": "Houston Level 3 Security Officer [Flex / Swing]",
       "company": "Jet Security LLC",
       "location": "Houston, TX",
       "vertical": "security",
       "role": "weekend",
-      "pay": "23 an hour",
-      "pay_min": 23.0,
+      "pay": "22 an hour",
+      "pay_min": 22.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time and Part-time",
       "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/p0VAT9tl8Il3_kTbiEuSLwy9PyglFrVl6jUm0JLX089uXQ356HbLBg",
+      "apply_link": "https://www.indeed.com/viewjob?jk=a07a7d714e2fb3ef",
       "via": "via SimplyHired",
-      "description": "<p>Job Title: Level 3 ARMED Security Officer - FLEX / FLOATER - PART-TIME - Please read EVERYTHING, Additional Fingerprints ARE REQUIRED!!!! Instructions Below</p><p>We will be holding <b>IN-PERSON interviews this TUESDAY, AUG 11th between 3pm - 6pm</b></p><p>6464 Savoy Drive Houston TX Suite 635 - parking garage entrance is located on Dale Carnegie</p><p><b>If you will be attending</b>, <b>please text YOUR NAME and the word \"FLEX\" IN TEXT!!!</b> to either <b>832-657-4767 or 214-433-4053</b> Will be conducting interviews THIS TUESDAY. AUG 11TH!</p><p><b>Potential Shifts: Monday - Friday 7:30 AM - 3:30 PM - ON CALL, Floater, Part-Time, potentially Full-Time - THIS IS A FLEX POSITION TO FILL IN FOR GUARDS IN VARIOUS LOCATIONS THROUGHOUT HOUSTON, PEARLAND & FT. BEND WHEN A GUARD CALLS OUT - we cover over 145 school campuses, plenty of hours and also ALL flex officers are first in line when a permanent location opens.</b></p><p>- <b>Must have an active Level 3 Guard Card, FIREARM, LEVEL 3 HOLSTER AND DUTY BELT!</b></p><p><b>Off Weekends & Holidays</b></p><p><b>All applicants will be REQUIRED to do additional fingerprints and pass additional background screening, if you are serious about the position, see below, </b><i><b>this can be done before attending the interview OR AFTER, BUT IT MUST BE DONE TO BE CONSIDERED FOR THIS POSITION:</b></i></p><p><i>If you are interested, you must first go to Identogo and schedule a 10 min fingerprint appointment [THIS IS NOT THE SAME AS YOUR LEVEL 3 FINGERPRINTS, THIS IS DIFFERENT!]</i></p><p><i>Please visit uenroll.identogo.com</i></p><p><i>Enter the following SERVICE CODE: </i><i><b>11FJ5N</b></i></p><p><i>DISTRICT ORI code for eligibility: </i><i><b>TX922040Z</b></i></p><p><i>Click on Schedule Appointment and follow the steps, once you have completed your fingerprints, please </i><i><b>TEXT your BIRTHDAY, the word \"HOUSTON FLEX\" and a picture of your Receipt </b></i><i>to </i><b>832-657-4767</b></p><p><b>Once you are approved [can take up to a week, we will give you the time and location for our onboarding event]</b></p><p>Requirements:<br/>- <b>Must be able to pass a thorough background check, Fingerprints are Required, this is a requirement</b></p><p>Job Summary:<br/>We are seeking a dedicated Security Officer to ensure the safety and security of our premises. As a Security Officer, you will play a crucial role in maintaining a secure environment for our employees, visitors, and assets and implementing security measures to safeguard against potential threats.</p><p>Duties:<br/>- Conduct regular patrols to identify and address security risks<br/>- Enforce security protocols to prevent unauthorized access<br/>- Collaborate with law enforcement agencies when necessary<br/>- Manage conflicts and disturbances effectively</p><p>Job Types: Full-time, Part-time</p><p>Pay: $23.00 per hour</p><p>Work Location: In person</p>"
+      "description": "<p>Job Title: Level 3 ARMED Security Officer - FLEX / FLOATER - PART-TIME - Please read EVERYTHING, Additional Fingerprints ARE REQUIRED!!!! Instructions Below - PLEASE READ EVERYTHING!</p><p><b>If you are </b>seriously interested, <b>please text YOUR NAME and the word \"FLEX\" IN TEXT!!!</b> to either <b>832-657-4767 or 214-433-4053 for further instructions and next steps.</b></p><p><b>Potential Shifts: Monday - Friday 7:30 AM - 3:30 PM - ON CALL, Floater, Part-Time, potentially Full-Time - THIS IS A FLEX POSITION TO FILL IN FOR GUARDS IN VARIOUS LOCATIONS THROUGHOUT HOUSTON, PEARLAND & FT. BEND WHEN A GUARD CALLS OUT - we cover over 145 school campuses, plenty of hours and also ALL flex officers are first in line when a permanent location opens.</b></p><p>- <b>Must have an active Level 3 Guard Card, FIREARM, LEVEL 3 HOLSTER AND DUTY BELT!</b></p><p><b>Off Weekends & Holidays</b></p><p><b>All applicants will be REQUIRED to do additional fingerprints and pass additional background screening, if you are serious about the position, see below, </b><i><b>this can be done before attending the interview OR AFTER, BUT IT MUST BE DONE TO BE CONSIDERED FOR THIS POSITION:</b></i></p><p><i>If you are interested, you must first go to Identogo and schedule a 10 min fingerprint appointment [THIS IS NOT THE SAME AS YOUR LEVEL 3 FINGERPRINTS, THIS IS DIFFERENT!]</i></p><p><i>Please visit uenroll.identogo.com</i></p><p><i>Enter the following SERVICE CODE: </i><i><b>11FJ5N</b></i></p><p><i>DISTRICT ORI code for eligibility: </i><i><b>TX922040Z</b></i></p><p><i>Click on Schedule Appointment and follow the steps, once you have completed your fingerprints, please </i><i><b>TEXT your BIRTHDAY, the word \"HOUSTON FLEX\" and a picture of your Receipt </b></i><i>to </i><b>832-657-4767</b></p><p><b>Once you are approved [can take up to a week, we will give you the time and location for our onboarding event]</b></p><p>Requirements:<br/>- <b>Must be able to pass a thorough background check, Fingerprints are Required, this is a requirement</b></p><p>Job Summary:<br/>We are seeking a dedicated Security Officer to ensure the safety and security of our premises. As a Security Officer, you will play a crucial role in maintaining a secure environment for our employees, visitors, and assets and implementing security measures to safeguard against potential threats.</p><p>Duties:<br/>- Conduct regular patrols to identify and address security risks<br/>- Enforce security protocols to prevent unauthorized access<br/>- Collaborate with law enforcement agencies when necessary<br/>- Manage conflicts and disturbances effectively</p><p>Job Types: Full-time, Part-time</p><p>Pay: $22.00 per hour</p><p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Job Title: Level 3 ARMED Security Officer - FLEX / FLOATER - PART-TIME - Please read EVERYTHING, Additional Fingerprints ARE REQUIRED!!!!",
+            "Must have an active Level 3 Guard Card, FIREARM, LEVEL 3 HOLSTER AND DUTY BELT!",
+            "All applicants will be REQUIRED to do additional fingerprints and pass additional background screening, if you are serious about the position, see below, this can be done before attending the interview OR AFTER, BUT IT MUST BE DONE TO BE CONSIDERED FOR THIS POSITION:",
+            "If you are interested, you must first go to Identogo and schedule a 10 min fingerprint appointment [THIS IS NOT THE SAME AS YOUR LEVEL 3 FINGERPRINTS, THIS IS DIFFERENT!]",
+            "Must be able to pass a thorough background check, Fingerprints are Required, this is a requirement",
+            "2 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $22.00 per hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "to either 832-657-4767 or 214-433-4053 for further instructions and next steps",
+            "Potential Shifts: Monday - Friday 7:30 AM - 3:30 PM - ON CALL, Floater, Part-Time, potentially Full-Time - THIS IS A FLEX POSITION TO FILL IN FOR GUARDS IN VARIOUS LOCATIONS THROUGHOUT HOUSTON, PEARLAND & FT. BEND WHEN A GUARD CALLS OUT - we cover over 145 school campuses, plenty of hours and also ALL flex officers are first in line when a permanent location opens",
+            "Off Weekends & Holidays",
+            "As a Security Officer, you will play a crucial role in maintaining a secure environment for our employees, visitors, and assets and implementing security measures to safeguard against potential threats",
+            "Conduct regular patrols to identify and address security risks",
+            "Enforce security protocols to prevent unauthorized access",
+            "Collaborate with law enforcement agencies when necessary",
+            "Manage conflicts and disturbances effectively",
+            "Job Types: Full-time, Part-time",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "22c3fba4fb17",
       "title": "Level 3 Security Guard Needed in Houston, TX",
       "company": "Security King LLC",
       "location": "Houston, TX",
@@ -132,9 +378,23 @@
       "posted_date": null,
       "apply_link": "https://www.ziprecruiter.com/c/Security-King-LLC/Job/Level-3-Security-Guard-Needed-in-Houston,-TX/-in-Houston,TX?jid=c65e918c91415894",
       "via": "via ZipRecruiter",
-      "description": "<div><p>Seeking Armed Level 3 Officers to guard a retail store in Houston.</p><p>Officer needs to be able to stand on their feet for a full shift.<br><br>Officers must be well-groomed, well-spoken, and responsible. We are ONLY looking for officers with OPEN availability, RELIABLE transportation, and who can start IMMEDIATELY! Officers must have a working cell phone, and their own firearm.<br><br>Officers must be ARMED, and have a level 3 license in hand.</p><p>DO NOT APPLY IF YOU CAN'T START IMMEDIATELY!</p><p>Hours:<br/>4pm - 12am CST</p></div>"
+      "description": "<div><p>Seeking Armed Level 3 Officers to guard a retail store in Houston.</p><p>Officer needs to be able to stand on their feet for a full shift.<br><br>Officers must be well-groomed, well-spoken, and responsible. We are ONLY looking for officers with OPEN availability, RELIABLE transportation, and who can start IMMEDIATELY! Officers must have a working cell phone, and their own firearm.<br><br>Officers must be ARMED, and have a level 3 license in hand.</p><p>DO NOT APPLY IF YOU CAN'T START IMMEDIATELY!</p><p>Hours:<br/>4pm - 12am CST</p></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Officer needs to be able to stand on their feet for a full shift",
+            "Officers must be well-groomed, well-spoken, and responsible",
+            "We are ONLY looking for officers with OPEN availability, RELIABLE transportation, and who can start IMMEDIATELY!",
+            "Officers must have a working cell phone, and their own firearm",
+            "Officers must be ARMED, and have a level 3 license in hand",
+            "2 more items(s)"
+          ],
+          "title": "Qualifications"
+        }
+      ]
     },
     {
+      "job_hash": "2d5d21b600e9",
       "title": "Security Officer - Level III (General Vacancy)",
       "company": "Brazosport Independent School District",
       "location": "Clute, TX",
@@ -148,9 +408,18 @@
       "posted_date": null,
       "apply_link": "https://talents.vaia.com/companies/brazosport-independent-school-district/security-officer-level-iii-general-vacancy-27465970/",
       "via": "via ZipRecruiter",
-      "description": "<strong>Position Type:</strong>\n<br>\n Campus Safety and Security/Security Officer - Level 3\n<br>\n<br><strong>Date Posted:</strong>\n<br>\n 6/11/2025\n<br>\n<br><strong>Location:</strong>\n<br>\n Safety & Security\n<br><strong>Job Title: Security Officer - Level III<br>\n  Reports: Director of Safety & Security<br>\n  Dept./School: Assigned Campus<br>\n  Employment Type: Non Exempt<br>\n  Pay Grade: Auxillary 5<br>\n  Days: 187<br>\n  Min: $26,269 Mid: $32,164 Max: $38,058<br><br>\n  **For job description, please click on attachment located at the lower right corner.**</strong>\n<br>\n<br>\nAttachment(s):\n<ul>\n <li>Click Here for Job Description</li>\n</ul>"
+      "description": "<strong>Position Type:</strong>\n<br>\n Campus Safety and Security/Security Officer - Level 3\n<br>\n<br><strong>Date Posted:</strong>\n<br>\n 6/11/2025\n<br>\n<br><strong>Location:</strong>\n<br>\n Safety & Security\n<br><strong>Job Title: Security Officer - Level III<br>\n  Reports: Director of Safety & Security<br>\n  Dept./School: Assigned Campus<br>\n  Employment Type: Non Exempt<br>\n  Pay Grade: Auxillary 5<br>\n  Days: 187<br>\n  Min: $26,269 Mid: $32,164 Max: $38,058<br><br>\n  **For job description, please click on attachment located at the lower right corner.**</strong>\n<br>\n<br>\nAttachment(s):\n<ul>\n <li>Click Here for Job Description</li>\n</ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Pay Grade: Auxillary 5"
+          ],
+          "title": "Benefits"
+        }
+      ]
     },
     {
+      "job_hash": "084f54f22d5c",
       "title": "LEVEL 3 SECURITY OFFICER'S - PART TIME ( Must be active in TOPS )",
       "company": "Top Gun Bodyguard and Security Consulting",
       "location": "League City, TX",
@@ -164,7 +433,59 @@
       "posted_date": null,
       "apply_link": "https://www.simplyhired.com/job/dNiO1L6TIB3HbJGFwcJi6LnpMTl2GMlHWQnUWajCIEC75wSrIGz9kg",
       "via": "via Indeed",
-      "description": "<p><b>Job Overview</b><br>\n  Top Gun Security & Investigations is seeking highly qualified \"ARMED\" security officers for assignments throughout Galveston, Harris, Fort Bend and Brazoria Counties. Candidates must have the following:<br>\n  Active Texas Department of Public Safety Private Security Level 3 license<br>\n  Reliable transportation<br>\n  Approved firearm and related security officer equipment<br>\n  Candidates will undergo a through interview, background and drug screening process prior to hiring.<br>\n  JOIN the Top Gun Team!!!!!!!!!!</p>\n<p><b>Duties</b></p>\n<ul>\n <li>Monitor areas using CCTV surveillance systems</li>\n <li>Perform patrol operations on foot or by vehicle</li>\n <li>Control access points by verifying identification, issuing visitor badges, and managing entry logs for employees, contractors, visitors, and vendors.</li>\n <li>Conduct thorough inspections of personnel, packages, and premises to prevent theft, vandalism, or unauthorized entry.</li>\n <li>Respond promptly to security alarms or incidents, coordinating with law enforcement or emergency responders as necessary.</li>\n <li>Maintain detailed incident reports, shift logs, and security records to document all activities accurately.</li>\n <li>Utilize surveillance equipment such as CCTV cameras effectively to monitor activity across multiple locations.</li>\n <li>Assist in conflict management by de-escalating tense situations with professionalism and tact.</li>\n <li>Support emergency preparedness drills and ensure compliance with safety regulations at all times.</li>\n</ul>\n<p><b>Skills</b></p>\n<ul>\n <li>Proven experience in security roles, law enforcement, military service or related fields demonstrating strong situational awareness.</li>\n <li>Knowledge of Texas laws as they pertain to Texas Security Officers</li>\n <li>Knowledge of CCTV systems, surveillance techniques, and loss prevention methods.</li>\n <li>Skilled in the use of firearms, defensive tactics, and intermediate weapons</li>\n <li>Strong communications skills</li>\n <li>Ability to effectively communicate with the public during non emergency and emergency situations</li>\n</ul>\n<p><b>Conditions of Employment</b></p>\n<ul>\n <li>Must be able to stand, walk and sit for extended periods (excess of 10hrs)</li>\n <li>Must be able to work in all weather conditions</li>\n <li>Must have reliable transportation</li>\n <li>Must have reliable means of communication (employer utilizes this method for employees to clock in & out)</li>\n <li>Must be able to remain on duty during critical situations</li>\n <li>Must has a serviceable handgun (final determination will be that of the employer)</li>\n <li>Must have all required equipment set forth by employer</li>\n <li>Must have up to date ballistic vest when required (some assignments this is MANDATORY)</li>\n <li>Must participate in all employer mandated training</li>\n <li>Must maintain uniforms in a clean and serviceable manner</li>\n <li>Must ensure all state issued license are current and renewed at least 30days prior to expiration</li>\n</ul>\n<p>Pay: $18.00 - $19.00 per hour</p>\n<p>Application Question(s):</p>\n<ul>\n <li>Do you speak or are you fluent in a foreign language</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Security or Related : 1 year (Preferred)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Level 3 Guard Card or Active Level 3 License (Required)</li>\n</ul>\n<p>Shift availability:</p>\n<ul>\n <li>Day Shift (Preferred)</li>\n <li>Night Shift (Preferred)</li>\n <li>Overnight Shift (Preferred)</li>\n</ul>\n<p>Work Location: In person</p>"
+      "description": "<p><b>Job Overview</b><br>\n  Top Gun Security & Investigations is seeking highly qualified \"ARMED\" security officers for assignments throughout Galveston, Harris, Fort Bend and Brazoria Counties. Candidates must have the following:<br>\n  Active Texas Department of Public Safety Private Security Level 3 license<br>\n  Reliable transportation<br>\n  Approved firearm and related security officer equipment<br>\n  Candidates will undergo a through interview, background and drug screening process prior to hiring.<br>\n  JOIN the Top Gun Team!!!!!!!!!!</p>\n<p><b>Duties</b></p>\n<ul>\n <li>Monitor areas using CCTV surveillance systems</li>\n <li>Perform patrol operations on foot or by vehicle</li>\n <li>Control access points by verifying identification, issuing visitor badges, and managing entry logs for employees, contractors, visitors, and vendors.</li>\n <li>Conduct thorough inspections of personnel, packages, and premises to prevent theft, vandalism, or unauthorized entry.</li>\n <li>Respond promptly to security alarms or incidents, coordinating with law enforcement or emergency responders as necessary.</li>\n <li>Maintain detailed incident reports, shift logs, and security records to document all activities accurately.</li>\n <li>Utilize surveillance equipment such as CCTV cameras effectively to monitor activity across multiple locations.</li>\n <li>Assist in conflict management by de-escalating tense situations with professionalism and tact.</li>\n <li>Support emergency preparedness drills and ensure compliance with safety regulations at all times.</li>\n</ul>\n<p><b>Skills</b></p>\n<ul>\n <li>Proven experience in security roles, law enforcement, military service or related fields demonstrating strong situational awareness.</li>\n <li>Knowledge of Texas laws as they pertain to Texas Security Officers</li>\n <li>Knowledge of CCTV systems, surveillance techniques, and loss prevention methods.</li>\n <li>Skilled in the use of firearms, defensive tactics, and intermediate weapons</li>\n <li>Strong communications skills</li>\n <li>Ability to effectively communicate with the public during non emergency and emergency situations</li>\n</ul>\n<p><b>Conditions of Employment</b></p>\n<ul>\n <li>Must be able to stand, walk and sit for extended periods (excess of 10hrs)</li>\n <li>Must be able to work in all weather conditions</li>\n <li>Must have reliable transportation</li>\n <li>Must have reliable means of communication (employer utilizes this method for employees to clock in & out)</li>\n <li>Must be able to remain on duty during critical situations</li>\n <li>Must has a serviceable handgun (final determination will be that of the employer)</li>\n <li>Must have all required equipment set forth by employer</li>\n <li>Must have up to date ballistic vest when required (some assignments this is MANDATORY)</li>\n <li>Must participate in all employer mandated training</li>\n <li>Must maintain uniforms in a clean and serviceable manner</li>\n <li>Must ensure all state issued license are current and renewed at least 30days prior to expiration</li>\n</ul>\n<p>Pay: $18.00 - $19.00 per hour</p>\n<p>Application Question(s):</p>\n<ul>\n <li>Do you speak or are you fluent in a foreign language</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Security or Related : 1 year (Preferred)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Level 3 Guard Card or Active Level 3 License (Required)</li>\n</ul>\n<p>Shift availability:</p>\n<ul>\n <li>Day Shift (Preferred)</li>\n <li>Night Shift (Preferred)</li>\n <li>Overnight Shift (Preferred)</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Active Texas Department of Public Safety Private Security Level 3 license",
+            "Reliable transportation",
+            "Approved firearm and related security officer equipment",
+            "Candidates will undergo a through interview, background and drug screening process prior to hiring",
+            "Proven experience in security roles, law enforcement, military service or related fields demonstrating strong situational awareness",
+            "Knowledge of Texas laws as they pertain to Texas Security Officers",
+            "Knowledge of CCTV systems, surveillance techniques, and loss prevention methods",
+            "Skilled in the use of firearms, defensive tactics, and intermediate weapons",
+            "Strong communications skills",
+            "Ability to effectively communicate with the public during non emergency and emergency situations",
+            "Must be able to stand, walk and sit for extended periods (excess of 10hrs)",
+            "Must be able to work in all weather conditions",
+            "Must have reliable transportation",
+            "Must have reliable means of communication (employer utilizes this method for employees to clock in & out)",
+            "Must be able to remain on duty during critical situations",
+            "Must has a serviceable handgun (final determination will be that of the employer)",
+            "Must have all required equipment set forth by employer",
+            "Must have up to date ballistic vest when required (some assignments this is MANDATORY)",
+            "Must ensure all state issued license are current and renewed at least 30days prior to expiration",
+            "Do you speak or are you fluent in a foreign language",
+            "Level 3 Guard Card or Active Level 3 License (Required)",
+            "18 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $18.00 - $19.00 per hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Monitor areas using CCTV surveillance systems",
+            "Perform patrol operations on foot or by vehicle",
+            "Control access points by verifying identification, issuing visitor badges, and managing entry logs for employees, contractors, visitors, and vendors",
+            "Conduct thorough inspections of personnel, packages, and premises to prevent theft, vandalism, or unauthorized entry",
+            "Respond promptly to security alarms or incidents, coordinating with law enforcement or emergency responders as necessary",
+            "Maintain detailed incident reports, shift logs, and security records to document all activities accurately",
+            "Utilize surveillance equipment such as CCTV cameras effectively to monitor activity across multiple locations",
+            "Assist in conflict management by de-escalating tense situations with professionalism and tact",
+            "Support emergency preparedness drills and ensure compliance with safety regulations at all times",
+            "Must participate in all employer mandated training",
+            "Must maintain uniforms in a clean and serviceable manner",
+            "8 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }

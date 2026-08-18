@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "austin/jobs/armed-security-austin",
   "market": "Austin",
   "target": "city-role",
@@ -7,6 +7,7 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "257be439283e",
       "title": "Armed security guard",
       "company": "20/20 Security Group",
       "location": "Austin, TX",
@@ -20,9 +21,185 @@
       "posted_date": "2026-08-13",
       "apply_link": "https://bebee.com/us/jobs/armed-security-guard-central-valley-medical-center-ut--appcast-13509_98793136",
       "via": "via Indeed",
-      "description": "<p>Provide coverage inside and outside of the restaurant. Officers are to be active and attentive and not to be on their phones or in their vehicles. You will work with the Manager on Duty each day to move where they need you and assist with any unruly guest.</p>\n<p>Pay: $24.00 per hour</p>\n<p>People with a criminal record are encouraged to apply</p>\n<p>Work Location: In person</p>"
+      "description": "<p>Provide coverage inside and outside of the restaurant. Officers are to be active and attentive and not to be on their phones or in their vehicles. You will work with the Manager on Duty each day to move where they need you and assist with any unruly guest.</p>\n<p>Pay: $24.00 per hour</p>\n<p>People with a criminal record are encouraged to apply</p>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "People with a criminal record are encouraged to apply"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $24.00 per hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Provide coverage inside and outside of the restaurant",
+            "Officers are to be active and attentive and not to be on their phones or in their vehicles",
+            "You will work with the Manager on Duty each day to move where they need you and assist with any unruly guest"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "3d2f626e6ece",
+      "title": "Patrol Officer Security is hiring: Armed Security Officer in Austin",
+      "company": "Patrol Officer Security",
+      "location": "Austin, TX",
+      "vertical": "security",
+      "role": "armed",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://www.recruit.net/job/patrol-officer-security-is-armed-jobs/AE601E47FAD29A13",
+      "via": "via Recruit.net",
+      "description": "JOB DESCRIPTION<br />Job Description<br />Overview<br />The Armed Security Officer is responsible for ensuring the safety and security of residents, visitors, and property within the apartment complex.<br />This position involves maintaining a visible presence, enforcing community rules, and responding to security incidents with professionalism and discretion.<br />Responsibilities<br />* Patrol the apartment grounds, parking lots, and common areas to deter unauthorized activity and ensure resident safety.<br />* Respond promptly to calls for service, disturbances, or suspicious activity.<br />* Enforce property policies and regulations while maintaining a respectful and professional demeanor with residents and guests.<br />* Conduct vehicle and foot patrols to prevent trespassing, vandalism, theft, and other unlawful acts.<br />* Prepare detailed hourly reports using our tracktik security system, on activities, incidents, and observations.<br />* Coordinate with law enforcement and emergency responders when necessary.<br />* Provide assistance to residents, management, and contractors as needed to maintain a safe environment.<br />Qualifications<br />* Must possess a valid armed security officer license or certification as required by state law.<br />* Proven experience in security, law enforcement, or military service preferred.<br />* Excellent communication and conflict-resolution skills.<br />* Ability to remain calm and act decisively during high-stress situations.<br />* Must be able to stand, walk, and patrol for extended periods and work in various weather conditions.<br />* Professional appearance and conduct required at all times.<br />* Join us in ensuring safety and security within our community by applying for the Armed Security Officer position today!<br />Job Types: Full-time, Part-time",
+      "job_highlights": [
+        {
+          "items": [
+            "Must possess a valid armed security officer license or certification as required by state law",
+            "Excellent communication and conflict-resolution skills",
+            "Ability to remain calm and act decisively during high-stress situations",
+            "Must be able to stand, walk, and patrol for extended periods and work in various weather conditions",
+            "Professional appearance and conduct required at all times",
+            "Join us in ensuring safety and security within our community by applying for the Armed Security Officer position today!",
+            "3 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The Armed Security Officer is responsible for ensuring the safety and security of residents, visitors, and property within the apartment complex",
+            "This position involves maintaining a visible presence, enforcing community rules, and responding to security incidents with professionalism and discretion",
+            "Patrol the apartment grounds, parking lots, and common areas to deter unauthorized activity and ensure resident safety",
+            "Respond promptly to calls for service, disturbances, or suspicious activity",
+            "Enforce property policies and regulations while maintaining a respectful and professional demeanor with residents and guests",
+            "Conduct vehicle and foot patrols to prevent trespassing, vandalism, theft, and other unlawful acts",
+            "Prepare detailed hourly reports using our tracktik security system, on activities, incidents, and observations",
+            "Coordinate with law enforcement and emergency responders when necessary",
+            "Provide assistance to residents, management, and contractors as needed to maintain a safe environment",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "dcca712dd03d",
+      "title": "Austin, TX: Armed Protective Security Officer (PSO), DHS/FPS - Austin, TX",
+      "company": "BTI Security",
+      "location": "Austin, TX",
+      "vertical": "security",
+      "role": "armed",
+      "pay": "4.3K–5.8K a month",
+      "pay_min": 4300.0,
+      "pay_max": 5800.0,
+      "pay_unit": "MONTH",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.jobstore.com/us/job/l24653101/austin-tx-armed-protective-security-officer-pso-dhsfps-job",
+      "via": "via Jobstore.com",
+      "description": "Job Skills / RequirementsArmed Security Officers perform a variety of security-related duties depending on the post.Patrolling and monitoring exterior and community areas on-premises.Access control of entrances and exits and departure of employees and visitors.Monitoring surveillance cameras for any disruptions or unlawful activities.Must be able to read, write, speak, and understand the English language.Must be able to understand, explain, interpret, and apply rules, regulations, directives, and procedures per contract.Provide detailed reports on daily activities and incidents that may have occurred.Knowledgeable and able to effectively use magnetometer and X-ray machines.Using provided communication devices such as two-way radios clearly and concisely.Performing CPR or first aid when needed.Ensure credentials are maintained per contract requirements.Perform other duties as assigned by the Supervisor or Project Manager.Minimum Requirements Two (2) years of experience security experience. Must possess and maintain a valid Security Guard Card. Strong relevant knowledge of the security industry. Excellent written and verbal communication skills. Must have a customer service-driven mindset. Ability to communicate effectively and present information to all levels of internal and external customers.BTI Security is committed to a policy of equal employment opportunity and does not unlawfully discriminate against employees or applicants for employment. This policy applies to all aspects of the employment relationship, including hiring, placement, compensation, promotion, transfer, disciplinary action, layoff, return from layoff, training, social and recreational programs, and all other terms, conditions, and privileges of employment.Education Requirements (Any)High School Diploma/GEDAt Least 2 Years of CollegeCertification Requirements (Any)TxDPS Security License (Texas Armed)CPR/First AidThis job reports to the Operations ManagerThis is a Full and Part-Time position 1st Shift, 2nd Shift, 3rd Shift, Weekends.Number of Openings for this position: 10Back Apply NowBackApply Now",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be able to read, write, speak, and understand the English language",
+            "Must be able to understand, explain, interpret, and apply rules, regulations, directives, and procedures per contract",
+            "Minimum Requirements Two (2) years of experience security experience",
+            "Must possess and maintain a valid Security Guard Card",
+            "Strong relevant knowledge of the security industry",
+            "Excellent written and verbal communication skills",
+            "Must have a customer service-driven mindset",
+            "Ability to communicate effectively and present information to all levels of internal and external customers",
+            "Education Requirements (Any)High School Diploma/GEDAt Least 2 Years of CollegeCertification Requirements (Any)TxDPS Security License (Texas Armed)CPR/First AidThis job reports to the Operations ManagerThis is a Full and Part-Time position 1st Shift, 2nd Shift, 3rd Shift, Weekends",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Job Skills / RequirementsArmed Security Officers perform a variety of security-related duties depending on the post",
+            "Patrolling and monitoring exterior and community areas on-premises.Access control of entrances and exits and departure of employees and visitors",
+            "Monitoring surveillance cameras for any disruptions or unlawful activities",
+            "Provide detailed reports on daily activities and incidents that may have occurred",
+            "Knowledgeable and able to effectively use magnetometer and X-ray machines",
+            "Using provided communication devices such as two-way radios clearly and concisely",
+            "Performing CPR or first aid when needed",
+            "Ensure credentials are maintained per contract requirements",
+            "Perform other duties as assigned by the Supervisor or Project Manager",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "5dbdef5a3be0",
+      "title": "Armed Security Patrol Driver — Part-Time, Flexible Shifts",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "vertical": "security",
+      "role": "armed",
+      "pay": "34K–44K a year",
+      "pay_min": 34000.0,
+      "pay_max": 44000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5367050449/e/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking an Armed Security Officer Patrol Driver - Part Time for Austin, TX. This role offers fixed shifts with an anchor schedule and opportunities to pick up additional shifts through our scheduling platform.</p><p>You will conduct armed patrols at retail locations, monitor access points, respond to incidents, and complete accurate reports while upholding site policies and safety standards. Valid Texas Level III Armed Certification and driver’s license required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Valid Texas Level III Armed Certification and driver’s license required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "This role offers fixed shifts with an anchor schedule and opportunities to pick up additional shifts through our scheduling platform",
+            "You will conduct armed patrols at retail locations, monitor access points, respond to incidents, and complete accurate reports while upholding site policies and safety standards"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c4ad76fbf22f",
+      "title": "Armed Security Specialist - Growth & Perks",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "vertical": "security",
+      "role": "armed",
+      "pay": "42K–58K a year",
+      "pay_min": 42000.0,
+      "pay_max": 58000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5323474291/e/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking an Armed Security Officer to safeguard clients across Commercial Real Estate, Healthcare, Education, Government and more. You will perform security procedures, monitor sites, and respond to incidents with a calm, solution-oriented approach.</p><p>This role requires meeting armed-guard requirements and adherence to licensing rules, with opportunities for ongoing training and career growth within a nationwide security services provider.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "You will perform security procedures, monitor sites, and respond to incidents with a calm, solution-oriented approach",
+            "This role requires meeting armed-guard requirements and adherence to licensing rules, with opportunities for ongoing training and career growth within a nationwide security services provider"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a4721be1c505",
       "title": "Part-Time Armed Security Officer: Emergency Patrol & Response",
       "company": "Alliedbarton Security Services",
       "location": "Austin, TX",
@@ -36,9 +213,24 @@
       "posted_date": "2026-08-10",
       "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5262292772/e/",
       "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking a Security Officer Part Time Armed Patrol Emergency Response in Austin, TX to protect clients across Retail/Malls and other sites, and enjoy potential for growth within a leading security services company. The role offers a flexible schedule via our Claim a Shift platform and a pay rate of $21.00 per hour, with DayTime and weekend shifts and ongoing training.</p><p>You will conduct armed patrols, monitor entrances and high-traffic areas, respond to incidents calmly,</p>"
+      "description": "<p>Allied Universal is seeking a Security Officer Part Time Armed Patrol Emergency Response in Austin, TX to protect clients across Retail/Malls and other sites, and enjoy potential for growth within a leading security services company. The role offers a flexible schedule via our Claim a Shift platform and a pay rate of $21.00 per hour, with DayTime and weekend shifts and ongoing training.</p><p>You will conduct armed patrols, monitor entrances and high-traffic areas, respond to incidents calmly,</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role offers a flexible schedule via our Claim a Shift platform and a pay rate of $21.00 per hour, with DayTime and weekend shifts and ongoing training"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will conduct armed patrols, monitor entrances and high-traffic areas, respond to incidents calmly,"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "9644ebff9cad",
       "title": "Security Guard Armed Patrol Driver Texas",
       "company": "Allied Universal",
       "location": "Austin, TX",
@@ -52,9 +244,121 @@
       "posted_date": "2026-08-10",
       "apply_link": "https://securitycareers-aus.icims.com/jobs/1653793/security-guard-armed-patrol-driver-texas/job",
       "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Guard Armed Patrol Driver Texas</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. As an Armed Patrol Officer at a retail and mall location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This driving position also focuses on exceptional customer service, clear communication, and teamwork. Join Allied Universal's agile, reliable, and innovative team, where people come first and integrity guides every action. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Full Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $26.00 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width: 100%; max-width: 400px; border-collapse: collapse; border-spacing: 0; font-family: 'Verdana',sans-serif; font-size: 10pt; line-height: 1.2;'><thead><tr><th style='text-align: left; padding: 0 4px 2px 0;'>Day</th><th style='text-align: left; padding: 0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Mon</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Tue</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Fri</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Sat</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Sun</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients, visitors, and staff by carrying out armed security-related procedures, site-specific policies, and emergency response activities when appropriate.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, alarms, and critical situations in a calm, professional, problem-solving manner, following applicable site procedures and reporting requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols throughout the retail location, including interior areas, exterior grounds, parking areas, and perimeter access points.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor for suspicious activity, unauthorized access, hazardous conditions, and policy violations, helping to deter incidents through a visible professional presence.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Document patrols, incidents, observations, and interactions accurately, and communicate relevant information to site contacts and Allied Universal leadership.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess at least 3 years of combined law enforcement, corrections, or military experience, or at least 5 years of armed security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A Level III Armed Certification is required in Texas.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability..."
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Guard Armed Patrol Driver Texas</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. As an Armed Patrol Officer at a retail and mall location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This driving position also focuses on exceptional customer service, clear communication, and teamwork. Join Allied Universal's agile, reliable, and innovative team, where people come first and integrity guides every action. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Full Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $26.00 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width: 100%; max-width: 400px; border-collapse: collapse; border-spacing: 0; font-family: 'Verdana',sans-serif; font-size: 10pt; line-height: 1.2;'><thead><tr><th style='text-align: left; padding: 0 4px 2px 0;'>Day</th><th style='text-align: left; padding: 0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Mon</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Tue</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Fri</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Sat</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding: 0 4px 0 0; white-space: nowrap;'>Sun</td><td style='padding: 0; white-space: nowrap;'>02:00 PM - 10:00 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients, visitors, and staff by carrying out armed security-related procedures, site-specific policies, and emergency response activities when appropriate.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, alarms, and critical situations in a calm, professional, problem-solving manner, following applicable site procedures and reporting requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols throughout the retail location, including interior areas, exterior grounds, parking areas, and perimeter access points.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor for suspicious activity, unauthorized access, hazardous conditions, and policy violations, helping to deter incidents through a visible professional presence.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Document patrols, incidents, observations, and interactions accurately, and communicate relevant information to site contacts and Allied Universal leadership.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess at least 3 years of combined law enforcement, corrections, or military experience, or at least 5 years of armed security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A Level III Armed Certification is required in Texas.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;' /><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability...",
+      "job_highlights": [
+        {
+          "items": [
+            "Possess at least 3 years of combined law enforcement, corrections, or military experience, or at least 5 years of armed security-related experience",
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "A Level III Armed Certification is required in Texas",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $26.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As an Armed Patrol Officer at a retail and mall location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism",
+            "This driving position also focuses on exceptional customer service, clear communication, and teamwork",
+            "Position Type: Full Time",
+            "02:00 PM - 10:00 PM",
+            "Provide customer service to clients, visitors, and staff by carrying out armed security-related procedures, site-specific policies, and emergency response activities when appropriate",
+            "Respond to incidents, alarms, and critical situations in a calm, professional, problem-solving manner, following applicable site procedures and reporting requirements",
+            "Conduct regular and random armed patrols throughout the retail location, including interior areas, exterior grounds, parking areas, and perimeter access points",
+            "Monitor for suspicious activity, unauthorized access, hazardous conditions, and policy violations, helping to deter incidents through a visible professional presence",
+            "Document patrols, incidents, observations, and interactions accurately, and communicate relevant information to site contacts and Allied Universal leadership",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
+      "job_hash": "e98e73498fb7",
+      "title": "Security Guard Full Time Armed Patrol Driver",
+      "company": "Allied Universal",
+      "location": "Austin, TX",
+      "vertical": "security",
+      "role": "full-time",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-09",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-armed-patrol-driver-at-allied-universal-4452195700",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Guard Full Time Armed Patrol Driver</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. As an Armed Patrol Officer at a retail location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, respond to security-related concerns, and provide exceptional customer service and communication. This driving position offers the opportunity to support a caring, people-first culture while working with integrity, teamwork, agility, reliability, and innovation. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Full Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $26.50 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width:100%; max-width:400px; border-collapse:collapse; border-spacing:0; font-family:'Verdana',sans-serif; font-size:10pt; line-height:1.2;'><thead><tr><th style='text-align:left; padding:0 4px 2px 0;'>Day</th><th style='text-align:left; padding:0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Mon</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Thur</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sat</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sun</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients, shoppers, and employees by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, including situations requiring an armed response in accordance with applicable laws and site procedures.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols throughout the retail location, including sales areas, receiving areas, parking lots, and perimeter locations, to help deter unauthorized activity.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor access points, observe visitor and employee activity, and report suspicious conditions, policy violations, and security-related concerns to appropriate personnel.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Complete accurate incident reports, daily activity logs, and other required documentation while maintaining professional communication with site management and Allied Universal leadership.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess 3+ years of combined law enforcement, corrections, or military experience, or 5+ years of armed security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a Level III Armed Certification in Texas only.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security-related training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana,...",
+      "job_highlights": [
+        {
+          "items": [
+            "Possess 3+ years of combined law enforcement, corrections, or military experience, or 5+ years of armed security-related experience",
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Level III Armed Certification in Texas only",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security-related training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $26.50 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Guard Full Time Armed Patrol Driver in Austin, TX, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more",
+            "As an Armed Patrol Officer at a retail location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, respond to security-related concerns, and provide exceptional customer service and communication",
+            "This driving position offers the opportunity to support a caring, people-first culture while working with integrity, teamwork, agility, reliability, and innovation",
+            "06:00 AM - 02:45 PM",
+            "06:00 AM - 02:45 PM",
+            "06:00 AM - 02:45 PM",
+            "Provide customer service to clients, shoppers, and employees by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities",
+            "Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, including situations requiring an armed response in accordance with applicable laws and site procedures",
+            "Conduct regular and random armed patrols throughout the retail location, including sales areas, receiving areas, parking lots, and perimeter locations, to help deter unauthorized activity",
+            "Monitor access points, observe visitor and employee activity, and report suspicious conditions, policy violations, and security-related concerns to appropriate personnel",
+            "Complete accurate incident reports, daily activity logs, and other required documentation while maintaining professional communication with site management and Allied Universal leadership",
+            "8 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "d7563546ec10",
       "title": "Armed Driver Guard",
       "company": "Loomis",
       "location": "Austin, TX",
@@ -68,103 +372,40 @@
       "posted_date": "2026-08-09",
       "apply_link": "https://us.trabajo.org/job-4023-b134ea8aac10e9900577a93557043d9f",
       "via": "via Trabajo.org",
-      "description": "Job Description As an Armored Driver Guard, you work with your team to ensure the safe and secure pickup and delivery of cash, coin, and valuables. Responsibilities · Drive automatic armored vehicles and other vehicles on designated routes servicing customer locations · Service ATMs and Smart Safes · Service customer stops, including delivering customer change orders and picking up deposits. · Load/unload vehicle cargo including multiple bags and boxes of coins · Count items, record, and sign for cargo items · Other duties as assigned by management Requirements · At least 21 years of age · At least a 3 year driving record · Ability to obtain Medical Examiners Certificate via US Department of Transportation approved medical examiners · A valid firearms permit or ability to pass applicable firearms requirements may be required Loomis will pay for security and firearms qualifications, licensing and permitting. Working Conditions · Full-time schedule potentially consisting of an average 40 to 50 hours/week, with minimum of 5 days during a 6-day period. Occasional weekend work · Approximately 90-95 percent of work performed in air-conditioned vehicle within individual compartments (front and rear) Essential Duties/Job Qualifications As part of the qualification process for the Armed Driver Guard position, a Human Performance Evaluation (HPE) is required. This evaluation requires successful completion of testing in the following areas:Lift:- 25lbs vertical lift from 10 inches to 66 inches from the floor (1X)Lift-Carry:- 18lbs vertical lift from 1 inch to 44 inches from the floor, and horizontally transfer 15ft (4X)- 18lbs vertical lift from 10 inches to 36 inches from the floor and horizontally transfer 300ft (1X)- 50lbs vertical lift from 10 inches to 36 inches from the floor and horizontally transfer 2ft (2X)Push-Pull:- Horizontally transfer 47lbs of force on a sled (single, non-dominant arm), a distance of 1ft (2X)Repetitive Coupling:- Squeeze Jamar Hand Dynamometer requiring forces up to 30lbs / both right & left hands (4X)Climb:- Ascend / Descend a step with heights of 16. 21 & 24 inches from the floor (10X) Benefits Loomis offers one of the most comprehensive employees benefit packages in the industry, which includes: · Vacation and Sick Time (PTO) as well as Paid Holidays · Health & Dental Insurance · Vision Insurance · 401(k) Plan · Basic Life Insurance Plan · Voluntary Life Insurance Plan · Flexible Spending and Health Savings Account · Dependent Care Account · Industry leading Training and Development"
+      "description": "Job Description As an Armored Driver Guard, you work with your team to ensure the safe and secure pickup and delivery of cash, coin, and valuables. Responsibilities · Drive automatic armored vehicles and other vehicles on designated routes servicing customer locations · Service ATMs and Smart Safes · Service customer stops, including delivering customer change orders and picking up deposits. · Load/unload vehicle cargo including multiple bags and boxes of coins · Count items, record, and sign for cargo items · Other duties as assigned by management Requirements · At least 21 years of age · At least a 3 year driving record · Ability to obtain Medical Examiners Certificate via US Department of Transportation approved medical examiners · A valid firearms permit or ability to pass applicable firearms requirements may be required Loomis will pay for security and firearms qualifications, licensing and permitting. Working Conditions · Full-time schedule potentially consisting of an average 40 to 50 hours/week, with minimum of 5 days during a 6-day period. Occasional weekend work · Approximately 90-95 percent of work performed in air-conditioned vehicle within individual compartments (front and rear) Essential Duties/Job Qualifications As part of the qualification process for the Armed Driver Guard position, a Human Performance Evaluation (HPE) is required. This evaluation requires successful completion of testing in the following areas:Lift:- 25lbs vertical lift from 10 inches to 66 inches from the floor (1X)Lift-Carry:- 18lbs vertical lift from 1 inch to 44 inches from the floor, and horizontally transfer 15ft (4X)- 18lbs vertical lift from 10 inches to 36 inches from the floor and horizontally transfer 300ft (1X)- 50lbs vertical lift from 10 inches to 36 inches from the floor and horizontally transfer 2ft (2X)Push-Pull:- Horizontally transfer 47lbs of force on a sled (single, non-dominant arm), a distance of 1ft (2X)Repetitive Coupling:- Squeeze Jamar Hand Dynamometer requiring forces up to 30lbs / both right & left hands (4X)Climb:- Ascend / Descend a step with heights of 16. 21 & 24 inches from the floor (10X) Benefits Loomis offers one of the most comprehensive employees benefit packages in the industry, which includes: · Vacation and Sick Time (PTO) as well as Paid Holidays · Health & Dental Insurance · Vision Insurance · 401(k) Plan · Basic Life Insurance Plan · Voluntary Life Insurance Plan · Flexible Spending and Health Savings Account · Dependent Care Account · Industry leading Training and Development",
+      "job_highlights": null
     },
     {
-      "title": "Security Guard Full Time Armed Patrol Driver",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-09",
-      "apply_link": "https://www.linkedin.com/jobs/view/security-guard-full-time-armed-patrol-driver-at-allied-universal-4452195700",
-      "via": "via Allied Universal",
-      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Guard Full Time Armed Patrol Driver</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. As an Armed Patrol Officer at a retail location, you will conduct routine vehicle and foot patrols, maintain a visible presence to help deter incidents, respond to security-related concerns, and provide exceptional customer service and communication. This driving position offers the opportunity to support a caring, people-first culture while working with integrity, teamwork, agility, reliability, and innovation. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Full Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $26.50 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width:100%; max-width:400px; border-collapse:collapse; border-spacing:0; font-family:'Verdana',sans-serif; font-size:10pt; line-height:1.2;'><thead><tr><th style='text-align:left; padding:0 4px 2px 0;'>Day</th><th style='text-align:left; padding:0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Mon</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Thur</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sat</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sun</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:45 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients, shoppers, and employees by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents, disturbances, and critical situations in a calm, professional, problem-solving manner, including situations requiring an armed response in accordance with applicable laws and site procedures.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random armed patrols throughout the retail location, including sales areas, receiving areas, parking lots, and perimeter locations, to help deter unauthorized activity.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor access points, observe visitor and employee activity, and report suspicious conditions, policy violations, and security-related concerns to appropriate personnel.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Complete accurate incident reports, daily activity logs, and other required documentation while maintaining professional communication with site management and Allied Universal leadership.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess 3+ years of combined law enforcement, corrections, or military experience, or 5+ years of armed security-related experience.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a Level III Armed Certification in Texas only.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 21 years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Participate in industry-specific security-related training programs.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana,..."
-    },
-    {
-      "title": "Full-time Armed Security Officers - $30/hr",
-      "company": "Sunstates Security",
-      "location": "Austin, TX",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": "$30.00/hr",
-      "pay_min": 30.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-07",
-      "apply_link": "https://careers.sunstatessecurity.com/us/en/job/P-100690/Full-time-Armed-Security-Officers-30-hr",
-      "via": "via Sunstates Security Jobs",
-      "description": "<strong>Job Description and Responsibilities </strong><br><p> </p><p>Become part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122177079%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1VSeMj%2FQVH4RpaqzIKnWn5QJq7Hf09QPL%2F%2BMTXhQOOE%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><u>Sunstates Security</u></a> has built a national reputation for delivering exceptional services while fostering high-quality work environments for our team. We are dedicated to hiring, developing, and retaining a professional workforce that reflects our commitment to excellence. </p><p>We believe in strategic reinvestment in our people by offering a benefits package that exceeds industry standards, pathways for career advancement, extensive internal training, and employee recognition programs. Our team members are provided with the tools, knowledge, and hands-on management support necessary for long-term success.</p><p> </p><p>Our commitment to a superior workplace culture is reflected in our most recent national accolades. Sunstates Security is proud to be recognized as a <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2Fforbes-dream-employers-2026%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122230946%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=XRtpm40i4pvx01%2BGoNiEmaaq7KjCI4YuA9jZDNFpmYY%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>2026 Forbes Dream Employer</u></strong></a>, an honor based on independent employee feedback and workplace excellence. Additionally, we have been named a <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2F2026-training-mvp-award%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122268073%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=yAbqQbrvCb%2FE%2BGO5LaDAwV5kQIyRIrwDe3EQbVm6wp0%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>2026 Training MVP</u></strong></a><strong> </strong>by Training Magazine, marking the third consecutive year we have accepted this prestigious recognition. We also continue to be celebrated for our steady growth and stability on the <a href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sunstatessecurity.com%2Finc-5000-list-2025%2F&data=05%7C02%7Cmhoyt%40sunstatessecurity.com%7C14ce539cf6eb4456d46108de4d353654%7C6d9106477bd54b37b65f9d6e6816e523%7C0%7C0%7C639033088122310127%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=80EbE%2BhmaiBs5Zl5tHvvuGk4Ju%2FW3xM2fB%2B5iqBKrQY%3D&reserved=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(70, 120, 134);\"><strong><u>Inc. 5000</u></strong></a> list of America’s fastest-growing private companies. </p><p> </p><p>At the heart of everything we do are our core values of honor, integrity, and trust. If you are searching for a rewarding career with a proactive security partner that protects some of the country’s leading organizations, we invite you to explore the possibilities at Sunstates Security. Join a successful, growing team where your talent is appreciated and have opportunities to advance your professional career. </p><p> </p><p><strong><em>HIRING IMMEDIATELY </em></strong></p><p> </p><p><span style=\"background-color: rgb(255, 255, 255);\">Sunstates Security is hiring</span><strong style=\"background-color: rgb(255, 255, 255);\"> Armed Security Officers</strong><span style=\"background-color: rgb(255, 255, 255);\"> in the </span><strong style=\"background-color: rgb(255, 255, 255);\">Austin, Texas </strong><span style=\"background-color: rgb(255, 255, 255);\">area. </span><strong style=\"background-color: rgb(255, 255, 255);\">All days and shifts</strong><span style=\"background-color: rgb(255, 255, 255);\"> are available! These positions offer a pay rate of </span><strong style=\"background-color: rgb(255, 255, 255);\">$30.00/hr, with weekly pay. </strong><span style=\"background-color: rgb(255, 255, 255);\"> </span></p><br><br><strong>Job Requirements </strong><br><p><strong><u>Requirements</u>:</strong>  </p><ul><li><span style=\"color: black;\">Active Level Level 4 Security License in hand</span></li><li><span style=\"color: black;\">Active DoD security clearance preferred</span></li><li><span style=\"color: black;\">U.S. Citizenship required</span></li><li><span style=\"color: black;\">Former law enforcement or military highly preferred</span></li><li><span style=\"color: black;\">Minimum 5 years of supervisory or leadership experience in a security, law enforcement, or military environment</span></li><li><span style=\"color: black;\">Minimum 5 years of customer service experience</span></li><li><span style=\"color: black;\">Experience working in a government contracting or defense-regulated environment preferred</span></li><li><span style=\"color: black;\">Familiarity with access control systems, visitor control procedures, and badging protocols</span></li><li><span style=\"color: black;\">Working knowledge of physical security standards and DoD security directives</span></li><li><span style=\"color: black;\">Proficient in Microsoft Office (Word, Excel, Outlook) for reporting and documentation</span></li><li><span style=\"color: black;\">Exceptional verbal and written communication skills</span></li><li><span style=\"color: black;\">Valid driver's license and reliable means of transportation</span></li><li><span style=\"color: black;\">Attention to detail and strong situational awareness</span></li><li><span style=\"color: black;\">Ability to stand, walk, and patrol for extended periods including climbing stairs and operating a patrol vehicle</span></li><li><span style=\"color: black;\">Must maintain a neat, professional appearance and adhere to uniform standards at all times</span></li><li><span style=\"color: black;\">Open availability to work overtime as needed; must be available for immediate recall if required.</span></li></ul><p><strong> </strong></p><p><strong style=\"color: black;\">Responsibilities:</strong></p><ul><li><span style=\"color: black;\">Supervise and direct security personnel across a multi-building site</span></li><li><span style=\"color: black;\">Monitor CCTV cameras and security systems</span></li><li><span style=\"color: black;\">Conduct and oversee scheduled foot and vehicle patrols across all buildings and grounds</span></li><li><span style=\"color: black;\">Enforce access control procedures for employees, visitors, vendors, and contractors</span></li><li><span style=\"color: black;\">Escort client team members and authorized personnel</span></li><li><span style=\"color: black;\">Interact with visitors, members of the public, and team members in a highly professional manner</span></li><li><span style=\"color: black;\">Conduct entry and exit inspections in accordance with site security protocols</span></li><li><span style=\"color: black;\">Brief personnel on site-specific security procedures and awareness requirements</span></li><li><span style=\"color: black;\">Respond to alarms, incidents, and disturbances promptly and decisively</span></li><li><span style=\"color: black;\">Address trespassers and enforce..."
-    },
-    {
-      "title": "Armed Driving Security Officer – Retail Mobile Patrol",
-      "company": "Allied Universal",
+      "job_hash": "b1f87c8389d4",
+      "title": "Armed Security Specialist - Daily Pay & Growth Prospects",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
       "location": "Austin, TX",
       "vertical": "security",
       "role": "armed",
-      "pay": "32K–43K a year",
-      "pay_min": 32000.0,
-      "pay_max": 43000.0,
+      "pay": "25K–33K a year",
+      "pay_min": 25000.0,
+      "pay_max": 33000.0,
       "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-07",
-      "apply_link": "https://us.jobrapido.com/jobpreview/9073895473315577856",
+      "posted_date": "2026-08-08",
+      "apply_link": "https://bebee.com/us/jobs/armed-security-specialist-daily-pay-start-now-austin-cascadia-global-security-austin--pureheal-28528_23106_a3c940f0d47c61e3a86c5b3c01ae0fa4",
       "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking an Armed Driver Mobile Response Security Officer in Austin, TX. You will provide customer service, conduct patrols, and respond to incidents while maintaining a strong safety presence at a retail location.</p><p>The role requires an armed certification, a valid driver’s license, and a high school diploma. This full-time position offers steady shifts, competitive pay, and opportunities to advance within a nationwide security team.</p>"
-    },
-    {
-      "title": "Armed Security Driver – Incident Response Specialist",
-      "company": "Alliedbarton Security Services",
-      "location": "Austin, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": "28K–40K a year",
-      "pay_min": 28000.0,
-      "pay_max": 40000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.learn4good.com/jobs/austin/texas/security/5327368845/e/",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal in Austin, TX is seeking a Security Officer Armed Driver Incident Management to protect clients in Tech/Media/Telecom sites. In this role you will drive as needed, monitor entrances, report incidents, and maintain a professional presence to deter security risks.</p><p>You will join a collaborative team, complete site procedures, and communicate with supervisors. Requirements include 3+ years of armed security or military/LE experience, Level III Armed Certification in Texas, 21+ years</p>"
-    },
-    {
-      "title": "Part-time Armed Security Officers - $30/hr",
-      "company": "Sunstates Security",
-      "location": "Austin, TX",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": "$30.00/hr",
-      "pay_min": 30.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.indeed.com/viewjob?jk=a157de508a11cba7",
-      "via": "via Indeed",
-      "description": "<div>\n <b>Job Description and Responsibilities</b>\n <br>\n <p></p>\n <p>Become part of one of the largest and fastest-growing privately held security companies in the U.S! Since 1998, Sunstates Security has built a national reputation for delivering exceptional services while fostering high-quality work environments for our team. We are dedicated to hiring, developing, and retaining a professional workforce that reflects our commitment to excellence.</p>\n <p>We believe in strategic reinvestment in our people by offering a benefits package that exceeds industry standards, pathways for career advancement, extensive internal training, and employee recognition programs. Our team members are provided with the tools, knowledge, and hands-on management support necessary for long-term success.</p>\n <p></p>\n <p><br>\n   Our commitment to a superior workplace culture is reflected in our most recent national accolades. Sunstates Security is proud to be recognized as a <b>2026 Forbes Dream Employer</b>, an honor based on independent employee feedback and workplace excellence. Additionally, we have been named a <b>2026 Training MVP</b><b> </b>by Training Magazine, marking the third consecutive year we have accepted this prestigious recognition. We also continue to be celebrated for our steady growth and stability on the <b>Inc. 5000</b> list of America’s fastest-growing private companies.</p>\n <p></p>\n <p><br>\n   At the heart of everything we do are our core values of honor, integrity, and trust. If you are searching for a rewarding career with a proactive security partner that protects some of the country’s leading organizations, we invite you to explore the possibilities at Sunstates Security. Join a successful, growing team where your talent is appreciated and have opportunities to advance your professional career.</p>\n <p></p>\n <p><b><i><br>\n     HIRING IMMEDIATELY</i></b></p>\n <p></p>\n <p><br>\n   Sunstates Security is hiring<b> Armed Security Officers</b> in the<b> Austin, Texas </b>area. <b>All days and shifts</b> are available! These positions offer a pay rate of <b>$30.00/hr, with weekly pay.</b></p><b><br>\n   Job Requirements<br></b>\n <br>\n <p><b>Requirements</b><b>:</b></p>\n <ul>\n  <li>Level 4 Security License in hand</li>\n  <li>Active DoD security clearance preferred</li>\n  <li>U.S. Citizenship required</li>\n  <li>Former law enforcement or military highly preferred</li>\n  <li>Minimum 5 years of supervisory or leadership experience in a security, law enforcement, or military environment</li>\n  <li>Minimum 5 years of customer service experience</li>\n  <li>Experience working in a government contracting or defense-regulated environment preferred</li>\n  <li>Familiarity with access control systems, visitor control procedures, and badging protocols</li>\n  <li>Working knowledge of physical security standards and DoD security directives</li>\n  <li>Proficient in Microsoft Office (Word, Excel, Outlook) for reporting and documentation</li>\n  <li>Exceptional verbal and written communication skills</li>\n  <li>Valid driver's license and reliable means of transportation</li>\n  <li>Attention to detail and strong situational awareness</li>\n  <li>Ability to stand, walk, and patrol for extended periods including climbing stairs and operating a patrol vehicle</li>\n  <li>Must maintain a neat, professional appearance and adhere to uniform standards at all times</li>\n  <li>Open availability to work overtime as needed; must be available for immediate recall if required.</li>\n </ul>\n <p></p>\n <p><b><br>\n    Responsibilities:</b></p>\n <ul>\n  <li>Supervise and direct security personnel across a multi-building site</li>\n  <li>Monitor CCTV cameras and security systems</li>\n  <li>Conduct and oversee scheduled foot and vehicle patrols across all buildings and grounds</li>\n  <li>Enforce access control procedures for employees, visitors, vendors, and contractors</li>\n  <li>Escort client team members and authorized personnel</li>\n  <li>Interact with visitors, members of the public, and team members in a highly professional manner</li>\n  <li>Conduct entry and exit inspections in accordance with site security protocols</li>\n  <li>Brief personnel on site-specific security procedures and awareness requirements</li>\n  <li>Respond to alarms, incidents, and disturbances promptly and decisively</li>\n  <li>Address trespassers and enforce property rules</li>\n  <li>Professionally interact with and de-escalate situations involving transient individuals</li>\n  <li>Coordinate with law enforcement when necessary</li>\n  <li>Ensure proper safeguarding of all government and client equipment, information, and property</li>\n  <li>Complete accurate hourly and daily activity and incident reports</li>\n  <li>Conduct periodic site security inspections and report deficiencies to management</li>\n </ul>\n <br><b> Benefits<br></b>\n <br>\n <p><i>Industry-leading employee benefits that include weekly pay, 401k savings plan with a company match, affordable medical, dental & vision benefits, employee referral bonuses, paid time off, premium holiday pay, tuition reimbursement, and more – available for qualified candidates!</i></p>\n</div>"
-    },
-    {
-      "title": "Armed Patrol Security Officer, Emergency Response",
-      "company": "Allied Universal",
-      "location": "Austin, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": "21 an hour",
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://simplify.jobs/p/fa715430-63f0-4aff-8dd8-3f917256d9d4/Armed-Patrol-Security-Officer",
-      "via": "via Simplify",
-      "description": "<h3>Overview</h3>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h3>Job Description</h3>\n<p> As a <strong>Security Officer Part Time Armed Patrol Emergency Response</strong> in <strong>Austin, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more...."
+      "description": "<p>Cascadia Global Security is hiring for an Armed Security position in Austin, TX. This full-time role requires passing a 10-panel drug screen and a Level 3 Armed License, with duties including access control, patrols, and reporting safety conditions.</p><p>Candidates should have basic computer skills, a background in customer service, and be able to handle emergencies calmly. Salary is $21 per hour, with daily pay options and immediate hiring.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This full-time role requires passing a 10-panel drug screen and a Level 3 Armed License, with duties including access control, patrols, and reporting safety conditions",
+            "Candidates should have basic computer skills, a background in customer service, and be able to handle emergencies calmly"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Salary is $21 per hour, with daily pay options and immediate hiring"
+          ],
+          "title": "Benefits"
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T15:14:32.357712+00:00",
+  "generated": "2026-08-18T14:44:06.304749+00:00",
   "page": "chicago/jobs/corporate-security-chicago",
   "market": "Chicago",
   "target": "city-role",
@@ -7,11 +7,12 @@
   "exact": 4,
   "jobs": [
     {
+      "job_hash": "27d2f462526a",
       "title": "Security Officer – Corporate Lobby Desk",
       "company": "Allied Universal",
       "location": "Chicago, IL",
       "vertical": "security",
-      "role": "industrial",
+      "role": "corporate",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
@@ -20,25 +21,68 @@
       "posted_date": "2026-08-09",
       "apply_link": "https://jobmesh.io/job/7b508f56-1a1b-4a80-9f35-4a85ec4d909f",
       "via": "via BeBee",
-      "description": "<h3>Overview</h3>\nAllied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n<h3>Job Description</h3>\nAs a <b>Security Officer – Corporate Lobby Desk</b> in <b>Chicago, IL</b>, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, and more. As a Front Desk Officer at a commercial real estate location, you will welcome tenants and visitors, support lobby operations, monitor entry points and cameras, manage visitor logs and badges, and respond to alarms and security-related concerns with clear communication. You will represent Allied Universal with a people-first approach, staying agile and reliable while partnering with the site team to help maintain an orderly, professional environment.\n<h4><b>Position Type: Full Time</b></h4>\n<p><b>Pay Rate: $23.50 / Hour</b></p>\n<h4><b>Job Schedule:</b></h4>\n<p>DayTimeMon07:00 AM – 03:00 PMTue07:00 AM – 03:00 PMWed07:00 AM – 03:00 PMSat07:00 AM – 03:00 PMSun07:00 AM – 03:00 PM</p>\n<h3>Why Join Us</h3>\n<ul>\n<li><b>Smart Tools:</b> Access to our exclusive technology to view and claim additional shifts to earn more.</li>\n<li><b>Career Growth:</b> Get paid training and access to career growth opportunities.</li>\n<li><b>Financial and Health Benefits:</b> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li>\n<li><b>Exclusive Perks:</b> Enjoy discounts on top brands and services through our Perks Program.</li>\n</ul>\n<h3>What You’ll Do</h3>\n<ul>\n<li>Provide customer service to tenants, visitors, and vendors at the front desk by following Allied Universal security-related procedures and site-specific policies.</li>\n<li>Control access to the property by greeting and directing guests, verifying identification and/or credentials, issuing visitor passes, and maintaining visitor logs.</li>\n<li>Monitor and acknowledge alarms, cameras, and other building systems from the front desk, and report irregular activity according to post orders.</li>\n<li>Respond to incidents and critical situations in a calm, problem-solving manner, including contacting emergency services and/or property management as directed.</li>\n<li>Complete required documentation such as incident reports, access logs, and shift activity reports, and communicate pertinent information during shift turnovers.</li>\n</ul>\n<h3>Minimum Requirements</h3>\n<ul>\n<li>Client requires proof of high school diploma and/or GED.</li>\n<li>Alarm panel experience is preferred.</li>\n<li>Access control and/or badge experience is preferred.</li>\n<li>CPR certification is preferred.A guard card and/or license is preferred.</li>\n<li>Be at least 18 years of age for unarmed roles; 21 years of age for armed roles.</li>\n<li>Possess a high school diploma or equivalent.</li>\n<li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li>\n<li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li>\n<li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li>\n<li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li>\n<li>A valid driver’s license will be required for driving positions only.</li>\n</ul>\n<h3>Closing</h3>\n<b>Allied Universal® is an Equal Opportunity Employer.</b> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com."
+      "description": "<h3>Overview</h3>\nAllied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n<h3>Job Description</h3>\nAs a <b>Security Officer – Corporate Lobby Desk</b> in <b>Chicago, IL</b>, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, and more. As a Front Desk Officer at a commercial real estate location, you will welcome tenants and visitors, support lobby operations, monitor entry points and cameras, manage visitor logs and badges, and respond to alarms and security-related concerns with clear communication. You will represent Allied Universal with a people-first approach, staying agile and reliable while partnering with the site team to help maintain an orderly, professional environment.\n<h4><b>Position Type: Full Time</b></h4>\n<p><b>Pay Rate: $23.50 / Hour</b></p>\n<h4><b>Job Schedule:</b></h4>\n<p>DayTimeMon07:00 AM – 03:00 PMTue07:00 AM – 03:00 PMWed07:00 AM – 03:00 PMSat07:00 AM – 03:00 PMSun07:00 AM – 03:00 PM</p>\n<h3>Why Join Us</h3>\n<ul>\n<li><b>Smart Tools:</b> Access to our exclusive technology to view and claim additional shifts to earn more.</li>\n<li><b>Career Growth:</b> Get paid training and access to career growth opportunities.</li>\n<li><b>Financial and Health Benefits:</b> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li>\n<li><b>Exclusive Perks:</b> Enjoy discounts on top brands and services through our Perks Program.</li>\n</ul>\n<h3>What You’ll Do</h3>\n<ul>\n<li>Provide customer service to tenants, visitors, and vendors at the front desk by following Allied Universal security-related procedures and site-specific policies.</li>\n<li>Control access to the property by greeting and directing guests, verifying identification and/or credentials, issuing visitor passes, and maintaining visitor logs.</li>\n<li>Monitor and acknowledge alarms, cameras, and other building systems from the front desk, and report irregular activity according to post orders.</li>\n<li>Respond to incidents and critical situations in a calm, problem-solving manner, including contacting emergency services and/or property management as directed.</li>\n<li>Complete required documentation such as incident reports, access logs, and shift activity reports, and communicate pertinent information during shift turnovers.</li>\n</ul>\n<h3>Minimum Requirements</h3>\n<ul>\n<li>Client requires proof of high school diploma and/or GED.</li>\n<li>Alarm panel experience is preferred.</li>\n<li>Access control and/or badge experience is preferred.</li>\n<li>CPR certification is preferred.A guard card and/or license is preferred.</li>\n<li>Be at least 18 years of age for unarmed roles; 21 years of age for armed roles.</li>\n<li>Possess a high school diploma or equivalent.</li>\n<li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li>\n<li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li>\n<li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li>\n<li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li>\n<li>A valid driver’s license will be required for driving positions only.</li>\n</ul>\n<h3>Closing</h3>\n<b>Allied Universal® is an Equal Opportunity Employer.</b> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.",
+      "job_highlights": [
+        {
+          "items": [
+            "Client requires proof of high school diploma and/or GED",
+            "Be at least 18 years of age for unarmed roles; 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "5 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $23.50 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Front Desk Officer at a commercial real estate location, you will welcome tenants and visitors, support lobby operations, monitor entry points and cameras, manage visitor logs and badges, and respond to alarms and security-related concerns with clear communication",
+            "You will represent Allied Universal with a people-first approach, staying agile and reliable while partnering with the site team to help maintain an orderly, professional environment",
+            "Provide customer service to tenants, visitors, and vendors at the front desk by following Allied Universal security-related procedures and site-specific policies",
+            "Control access to the property by greeting and directing guests, verifying identification and/or credentials, issuing visitor passes, and maintaining visitor logs",
+            "Monitor and acknowledge alarms, cameras, and other building systems from the front desk, and report irregular activity according to post orders",
+            "Respond to incidents and critical situations in a calm, problem-solving manner, including contacting emergency services and/or property management as directed",
+            "Complete required documentation such as incident reports, access logs, and shift activity reports, and communicate pertinent information during shift turnovers",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Senior Director, Corporate Security & Protection",
-      "company": "Delmarva Power & Light Co.",
+      "job_hash": "1c865f6151e2",
+      "title": "Security Officer – Downtown Corporate Site",
+      "company": "Allied Universal",
       "location": "Chicago, IL",
       "vertical": "security",
       "role": "corporate",
-      "pay": "150K–207K a year",
-      "pay_min": 150000.0,
-      "pay_max": 207000.0,
-      "pay_unit": "YEAR",
+      "pay": "$18.50 - $25.50 Per Hour",
+      "pay_min": 18.5,
+      "pay_max": 25.5,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-03",
-      "apply_link": "https://www.learn4good.com/jobs/chicago/illinois/security/5327269165/e/",
-      "via": "via JobLeads",
-      "description": "<p>Exelon is seeking a strategic Security leader to manage corporate physical security across multiple sites, developing policies and coordinating with regulators and law enforcement to protect personnel and assets.</p><p>The role requires substantial experience in Fortune 500 security, strong budgeting and communications skills, and collaboration with Real Estate, IT Security and Compliance teams in a hybrid work setting.</p>"
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/allied-universal/security-officer-downtown-corporate-site-20991559/",
+      "via": "via Talents By Vaia",
+      "description": "Security Officer – Downtown Corporate Site  Join to apply for the  Security Officer – Downtown Corporate Site  role at  Allied Universal Continue with Google Continue with Google Security Officer – Downtown Corporate Site  1 day ago Be among the first 25 applicants Join to apply for the  Security Officer – Downtown Corporate Site  role at  Allied Universal Overview  Allied Universal, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. We offer comprehensive benefits for most full-time positions, including medical, dental, and vision coverage, life insurance, a retirement plan, employee assistance programs, company discounts, perks, and more. Overview  Allied Universal, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. We offer comprehensive benefits for most full-time positions, including medical, dental, and vision coverage, life insurance, a retirement plan, employee assistance programs, company discounts, perks, and more.  Job Summary  Job Description  Allied Universal is hiring a  Part-Time Security Officer  to join our team in a prestigious downtown Chicago corporate building. This is a great opportunity for a polished, dependable individual to provide customer-focused security services during evening and overnight hours.  Job Title:  Part-Time Security Officer – Evening/Overnight Shift  Location:  Downtown Chicago, Professional Corporate Building  Pay Rate:  $21.01 / hr  Schedule Details  Employment Type: Part Time Shifts Available: Evening, Overnight  Requirements  1–2 years of prior security experience preferred Must be comfortable using computers or tablets Strong customer service and communication skills Ability to remain alert and professional in a corporate environment  Duties  Greet and assist building visitors and tenants Monitor building access and maintain a visible security presence Conduct patrols of interior and exterior spaces Use electronic systems to document reports and activities Respond to incidents quickly and effectively  Help protect one of Chicago’s leading corporate spaces. Be part of a team that values professionalism, service, and growth opportunities!  Responsibilities  Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities Respond to incidents and critical situations in a calm, problem solving manner Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.  Minimum Requirements  Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles Possess a high school diploma or equivalent, or 5 years of verifiable experience As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws. As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law. Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment. A valid driver’s license will be required for driving positions only  Perks And Benefits  Health insurance and 401k plans for full-time positions Schedules that fit with your personal life goals Ongoing paid training programs and career growth opportunities Employee discounts through our perks program to your favorite restaurants, entertainment venues and much more…  Closing  Allied Universal is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com  If you have any questions regarding Equal Employment Opportunity, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.  Requisition ID  2025-1398976 Seniority level    Seniority level Entry level Employment type    Employment type Full-time Job function    Job function Other, Information Technology, and Management Industries Professional Services Referrals increase your chances of interviewing at Allied Universal by 2x Sign in to set job alerts for “Corporate Security Officer” roles.  Continue with Google Continue with Google Continue with Google Continue with Google Security Supervisor, Obama Presidential Center  Security Site Supervisor: *$18.50 - $25.50 Per Hour* - (East Chicago, IN.)  South Holland, IL $18.50 - $25.50 7 months ago Chicago, IL $69,500.00 - $86,900.00 1 month ago Security Shift Supervisor (1st/3rd Shift) - Willis Tower - Chicago, IL  Security Site Supervisor - Office High Rise - West Loop  Security Field Supervisor - Lunch Relief  Director of Information Security and Data Governance  Rosemont, IL $140,000 - $190,000 2 weeks ago Flex Officer - 2nd and 3rd Shift Availability  Sr. Lead – IAM (Identity and Access Management)  Counsel, Corporate Governance & Securities  Chicago, IL $190,000 - $225,000 3 days ago Branch Security Officer - Chicago-Michigan Ave.  Security Operations Center (SOC) Supervisor - Chicago, IL  We’re unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.  #J-18808-Ljbffr",
+      "job_highlights": null
     },
     {
+      "job_hash": "ff388e83bffc",
       "title": "Corporate Security Protection Officer",
       "company": "Swoon",
       "location": "Chicago, IL",
@@ -52,119 +96,463 @@
       "posted_date": null,
       "apply_link": "https://www.talent.com/view?id=623630645269628997",
       "via": "via Talents By Vaia",
-      "description": "<p>Location: Chicago, IL (downtown)</p><p>Schedule: Onsite | Full-Time</p><p>Position Summary</p><p>Our client, a leading financial services organization, is seeking a Corporate Security Protection Officer to provide a visible security presence and ensure the safety of employees, clients, and visitors within a corporate banking environment. This is a professional, client-facing position requiring strong communication skills, sound judgment, and the ability to respond effectively to dynamic situations while maintaining a polished appearance and professional demeanor.</p><p>Key Responsibilities</p><ul><li>Maintain a visible security presence throughout corporate banking facilities.</li><li>Conduct routine patrols of offices, common areas, and secured locations.</li><li>Monitor access points and address unauthorized access, tailgating, or security violations.</li><li>Assess potential threats and respond appropriately to safety and security incidents.</li><li>Serve as a point of contact for employees, clients, guests, and visitors regarding security concerns.</li><li>Investigate suspicious activity and escalate incidents as necessary.</li><li>Support emergency response procedures and maintain situational awareness at all times.</li><li>Provide a reassuring and professional presence while helping deter disruptive behavior.</li><li>Ensure compliance with company security policies, procedures, and safety standards.</li></ul><p>Required Qualifications</p><ul><li>Must possess and maintain a personally owned firearm and be able to legally carry and conceal while on duty.</li><li>Strong verbal communication and interpersonal skills.</li><li>Ability to remain alert, mobile, and actively patrol throughout the workday.</li><li>Professional appearance and ability to work in a business attire environment.</li></ul><p>Schedule</p><ul><li>8-hour shifts with rotating schedules</li><li>Shift rotation occurs approximately every 4 weeks</li></ul><p>Typical shift options include:</p><ul><li>7:00 AM – 3:30 PM</li><li>8:00 AM – 4:30 PM</li><li>9:30 AM – 6:00 PM</li><li>1:00 PM – 9:30 PM</li><li>No weekends</li><li>No holidays</li><li>Overtime available and paid when required</li></ul><p>Benefits: Medical, Dental, Vision, 401(k), Paid Time Off, and additional employee benefit offerings available.</p><p>If interested in more details, please apply!</p>\n\nSalary: USD 60000 - 80000 per year"
+      "description": "<p>Location: Chicago, IL (downtown)</p><p>Schedule: Onsite | Full-Time</p><p>Position Summary</p><p>Our client, a leading financial services organization, is seeking a Corporate Security Protection Officer to provide a visible security presence and ensure the safety of employees, clients, and visitors within a corporate banking environment. This is a professional, client-facing position requiring strong communication skills, sound judgment, and the ability to respond effectively to dynamic situations while maintaining a polished appearance and professional demeanor.</p><p>Key Responsibilities</p><ul><li>Maintain a visible security presence throughout corporate banking facilities.</li><li>Conduct routine patrols of offices, common areas, and secured locations.</li><li>Monitor access points and address unauthorized access, tailgating, or security violations.</li><li>Assess potential threats and respond appropriately to safety and security incidents.</li><li>Serve as a point of contact for employees, clients, guests, and visitors regarding security concerns.</li><li>Investigate suspicious activity and escalate incidents as necessary.</li><li>Support emergency response procedures and maintain situational awareness at all times.</li><li>Provide a reassuring and professional presence while helping deter disruptive behavior.</li><li>Ensure compliance with company security policies, procedures, and safety standards.</li></ul><p>Required Qualifications</p><ul><li>Must possess and maintain a personally owned firearm and be able to legally carry and conceal while on duty.</li><li>Strong verbal communication and interpersonal skills.</li><li>Ability to remain alert, mobile, and actively patrol throughout the workday.</li><li>Professional appearance and ability to work in a business attire environment.</li></ul><p>Schedule</p><ul><li>8-hour shifts with rotating schedules</li><li>Shift rotation occurs approximately every 4 weeks</li></ul><p>Typical shift options include:</p><ul><li>7:00 AM – 3:30 PM</li><li>8:00 AM – 4:30 PM</li><li>9:30 AM – 6:00 PM</li><li>1:00 PM – 9:30 PM</li><li>No weekends</li><li>No holidays</li><li>Overtime available and paid when required</li></ul><p>Benefits: Medical, Dental, Vision, 401(k), Paid Time Off, and additional employee benefit offerings available.</p><p>If interested in more details, please apply!</p>\n\nSalary: USD 60000 - 80000 per year",
+      "job_highlights": [
+        {
+          "items": [
+            "Must possess and maintain a personally owned firearm and be able to legally carry and conceal while on duty",
+            "Strong verbal communication and interpersonal skills",
+            "Ability to remain alert, mobile, and actively patrol throughout the workday",
+            "Professional appearance and ability to work in a business attire environment",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "8-hour shifts with rotating schedules",
+            "No weekends",
+            "No holidays",
+            "Overtime available and paid when required",
+            "Benefits: Medical, Dental, Vision, 401(k), Paid Time Off, and additional employee benefit offerings available",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Our client, a leading financial services organization, is seeking a Corporate Security Protection Officer to provide a visible security presence and ensure the safety of employees, clients, and visitors within a corporate banking environment",
+            "This is a professional, client-facing position requiring strong communication skills, sound judgment, and the ability to respond effectively to dynamic situations while maintaining a polished appearance and professional demeanor",
+            "Maintain a visible security presence throughout corporate banking facilities",
+            "Conduct routine patrols of offices, common areas, and secured locations",
+            "Monitor access points and address unauthorized access, tailgating, or security violations",
+            "Assess potential threats and respond appropriately to safety and security incidents",
+            "Serve as a point of contact for employees, clients, guests, and visitors regarding security concerns",
+            "Investigate suspicious activity and escalate incidents as necessary",
+            "Support emergency response procedures and maintain situational awareness at all times",
+            "Provide a reassuring and professional presence while helping deter disruptive behavior",
+            "Ensure compliance with company security policies, procedures, and safety standards",
+            "Shift rotation occurs approximately every 4 weeks",
+            "7:00 AM – 3:30 PM",
+            "9:30 AM – 6:00 PM",
+            "11 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Security Officer – Downtown Corporate Site",
-      "company": "Allied Universal",
-      "location": "Chicago, IL",
+      "job_hash": "199f9049511a",
+      "title": "Field Supervisor (Overnight) (P4S - Corporate)",
+      "company": "P4 Security Solutions",
+      "location": "Downers Grove, IL",
       "vertical": "security",
-      "role": "corporate",
-      "pay": null,
-      "pay_min": null,
+      "role": "overnight",
+      "pay": "23 an hour",
+      "pay_min": 23.0,
       "pay_max": null,
-      "pay_unit": null,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/allied-universal/security-officer-downtown-corporate-site-20991559/",
-      "via": "via Talents By Vaia",
-      "description": "Security Officer – Downtown Corporate Site  Join to apply for the  Security Officer – Downtown Corporate Site  role at  Allied Universal Continue with Google Continue with Google Security Officer – Downtown Corporate Site  1 day ago Be among the first 25 applicants Join to apply for the  Security Officer – Downtown Corporate Site  role at  Allied Universal Overview  Allied Universal, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. We offer comprehensive benefits for most full-time positions, including medical, dental, and vision coverage, life insurance, a retirement plan, employee assistance programs, company discounts, perks, and more. Overview  Allied Universal, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. We offer comprehensive benefits for most full-time positions, including medical, dental, and vision coverage, life insurance, a retirement plan, employee assistance programs, company discounts, perks, and more.  Job Summary  Job Description  Allied Universal is hiring a  Part-Time Security Officer  to join our team in a prestigious downtown Chicago corporate building. This is a great opportunity for a polished, dependable individual to provide customer-focused security services during evening and overnight hours.  Job Title:  Part-Time Security Officer – Evening/Overnight Shift  Location:  Downtown Chicago, Professional Corporate Building  Pay Rate:  $21.01 / hr  Schedule Details  Employment Type: Part Time Shifts Available: Evening, Overnight  Requirements  1–2 years of prior security experience preferred Must be comfortable using computers or tablets Strong customer service and communication skills Ability to remain alert and professional in a corporate environment  Duties  Greet and assist building visitors and tenants Monitor building access and maintain a visible security presence Conduct patrols of interior and exterior spaces Use electronic systems to document reports and activities Respond to incidents quickly and effectively  Help protect one of Chicago’s leading corporate spaces. Be part of a team that values professionalism, service, and growth opportunities!  Responsibilities  Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities Respond to incidents and critical situations in a calm, problem solving manner Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.  Minimum Requirements  Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles Possess a high school diploma or equivalent, or 5 years of verifiable experience As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws. As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law. Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment. A valid driver’s license will be required for driving positions only  Perks And Benefits  Health insurance and 401k plans for full-time positions Schedules that fit with your personal life goals Ongoing paid training programs and career growth opportunities Employee discounts through our perks program to your favorite restaurants, entertainment venues and much more…  Closing  Allied Universal is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com  If you have any questions regarding Equal Employment Opportunity, have difficulty using the online system and require an alternate method to apply, or require an accommodation at any time during the recruitment and/or employment process, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.  Requisition ID  2025-1398976 Seniority level    Seniority level Entry level Employment type    Employment type Full-time Job function    Job function Other, Information Technology, and Management Industries Professional Services Referrals increase your chances of interviewing at Allied Universal by 2x Sign in to set job alerts for “Corporate Security Officer” roles.  Continue with Google Continue with Google Continue with Google Continue with Google Security Supervisor, Obama Presidential Center  Security Site Supervisor: *$18.50 - $25.50 Per Hour* - (East Chicago, IN.)  South Holland, IL $18.50 - $25.50 7 months ago Chicago, IL $69,500.00 - $86,900.00 1 month ago Security Shift Supervisor (1st/3rd Shift) - Willis Tower - Chicago, IL  Security Site Supervisor - Office High Rise - West Loop  Security Field Supervisor - Lunch Relief  Director of Information Security and Data Governance  Rosemont, IL $140,000 - $190,000 2 weeks ago Flex Officer - 2nd and 3rd Shift Availability  Sr. Lead – IAM (Identity and Access Management)  Counsel, Corporate Governance & Securities  Chicago, IL $190,000 - $225,000 3 days ago Branch Security Officer - Chicago-Michigan Ave.  Security Operations Center (SOC) Supervisor - Chicago, IL  We’re unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.  #J-18808-Ljbffr"
+      "apply_link": "https://www.career.com/job/p4-security-solutions/field-supervisor-overnight-p4s-corporate/j202604292237142073328",
+      "via": "via Career.com",
+      "description": "<section>\r\n                                    <section>\r\n                                        <h2>Overview</h2>\r\n                                        <p><p><strong>Company Overview</strong></p><p><br>Join P4 Companies — including P4 Security Solutions and P4 Protective Services — leaders in professional security services. We offer flexible opportunities for both security professionals and law enforcement officers across multiple industries. We are looking for individuals who bring vigilance, integrity, and professionalism, and who take pride in being a visible, reassuring presence. If you value teamwork and want a career with growth potential in the security field, P4 Companies may be the right fit for you.</p><p><strong>Opportunities for Security Officers</strong><br>Provide security at commercial buildings, residential communities, manufacturing sites, retail, campuses, cannabis facilities, and events. Key duties include:</p><ul><li><p>Customer service and access control</p></li><li><p>Patrols and incident response</p></li><li><p>Site monitoring and safety enforcement</p></li><li><p>Ideal for individuals seeking stability, teamwork, and career growth in security.</p><p></p></li></ul><p><strong>Opportunities for Active or Retired Law Enforcement</strong><br>Specialized assignments throughout Illinois, including executive protection, patrol programs, healthcare, campuses, private venues, and retail.</p><ul><li><p>Flexible scheduling</p></li><li><p>Competitive rates statewide</p></li><li><p>Perfect for officers seeking supplemental income or flexible off-duty work.</p><p></p></li></ul><p>Officers bring their advanced training, professionalism, and command presence to ensure safety in high-trust environments. Your experience makes a difference, and Security Solutions values your service and leadership. Whether you are beginning your security career or leveraging decades of law enforcement experience, The Companies provide a path for meaningful and rewarding work. Join us in making safety and service a priority.</p><p></p>\r\n                                    </section>\r\n                                                                    <section>\r\n                                        <h2>Job Skills / Requirements</h2>\r\n                                        <p><p><b><strong>Schedule: 11:00 PM-7:00 AM (40hrs per week)</strong></b></p><p><b><strong>Job Overview:</strong></b></p><p><span>The Overnight Field Supervisor enforces adherence to post orders and regulatory requirements across assigned locations. This role conducts routine site inspections, evaluates officer performance, and responds to incidents. Serving as a liaison between corporate and field personnel, the Supervisor provides support and ensures consistent application of security protocols. The position requires strong decision-making, effective communication, detailed reporting, ability to work alone with minimal supervision, and the ability to manage high-pressure situations with professionalism and integrity.</span></p><p><b><strong>*For current employees, you must be actively employed for a minimum of six months.*</strong></b></p><p><b><strong>Key Responsibilities</strong></b></p><p><b><strong>1. Site & Officer Oversight</strong></b></p><ul><li><span>Conduct routine inspections across assigned client locations.</span></li><li><span>Ensure Security Officers (SO) and Off-Duty Police Officers (ODP) are:</span></li><li><ul><li><span>Present on site</span></li><li><span>In proper uniform and equipped appropriately</span></li><li><span>Following all site-specific post orders</span></li></ul></li><li><span>Inspect and document the condition of vehicles used in the field.</span></li><li><span>Confirm up-to-date licensing, training, and compliance for all personnel.</span></li></ul><p><b><strong>2. Compliance & Quality Assurance</strong></b></p><ul><li><span>Identify and address security vulnerabilities, safety violations, or procedural non-compliance.</span></li><li><span>Enforce company policies and site-specific standard operating procedures (SOPs).</span></li><li><span>Conduct field compliance audits.</span></li><li><span>Maintain thorough logs, reports, and digital documentation.</span></li><li><span>Provide timely and accurate reporting through approved platforms.</span></li></ul><p><b><strong>3. Incident Response & Field Communications</strong></b></p><ul><li><span>Respond swiftly to critical incidents or emergencies within assigned territory.</span></li><li><span>Remain on-site during escalations until resolution or proper handoff.</span></li><li><span>Serve as the communication bridge between field staff, SOC, and management.</span></li><li><span>Document all incident activity with complete and clear reporting.</span></li></ul><p><b><strong>4. Administrative & Operational Support</strong></b></p><ul><li><span>Complete all required certifications and administrative tasks on schedule.</span></li><li><span>Report equipment, vehicle, or operational issues promptly.</span></li><li><span>Represent the company professionally, discreetly, and with a client-focused approach.</span></li><li><span>Serve as a backup for security officers during emergencies or shortages.</span></li><li><span>Assist with vehicle movements.</span></li><li><span>Perform other duties as assigned.</span></li></ul><p><b><strong>Skills & Competencies</strong></b></p><ul><li><span>2  years of security experience preferred</span></li><li><span>Strong leadership presence with high emotional intelligence</span></li><li><span>Excellent written and verbal communication skills</span></li><li><span>Proficient with security reporting systems</span></li><li><span>Organized, detail-oriented, and adaptable in dynamic environments</span></li><li><span>Comfortable enforcing rules, providing feedback, and handling confrontational situations professionally; de-escalation skills a plus</span></li><li><span>Ability to work independently</span></li></ul><p><b><strong>Technology & Tools</strong></b></p><ul><li><span>Mobile inspection/reporting platforms</span></li><li><span>Two-way radios and mobile devices</span></li><li><span>GPS operation</span></li><li><i><em>After 6 months on the job, employees will begin the process to become armed and obtain the necessary credentials and licensing to carry a firearm while on duty.</em></i></li></ul><p><b><strong>Minimum Requirements</strong></b></p><ul><li><span>High School Diploma or GED</span></li><li><span>At least 21 years of age</span></li><li><span>Valid Driver’s License in good standing</span></li><li><span>Valid FOID Card (Firearm Owner’s Identification)</span></li><li><span>Valid and active PERC Card (Permanent Employee Registration Card)</span></li><li><span>Fingerprint background check with “Eligible” status via ISP</span></li><li><span>7-year criminal background clearance and drug screening</span></li><li><span>Reliable personal transportation</span></li><li><span>Ability to write clear, professional, and grammatically correct reports</span></li><li><span>Ability to pass MVR screening\r\n                                    </span></li></ul></section>\r\n                                                                    <section>\r\n                                        <h2>Education Requirements (All)</h2>\r\n                                        <p>\r\nGED or High School Diploma<br>\r\n                                        </p>\r\n                                    </section>\r\n                                                                    <section>\r\n                                        <h2>Certification Requirements (All)</h2>\r\n                                        <p>\r\nPERC Card<br>\r\n20 hour Security Training Certificate<br>\r\n                                        </p>\r\n                                    </section>\r\n                                                                    <section>\r\n                                        <h2>Additional Information /...",
+      "job_highlights": [
+        {
+          "items": [
+            "The position requires strong decision-making, effective communication, detailed reporting, ability to work alone with minimal supervision, and the ability to manage high-pressure situations with professionalism and integrity",
+            "For current employees, you must be actively employed for a minimum of six months.*",
+            "Strong leadership presence with high emotional intelligence",
+            "Excellent written and verbal communication skills",
+            "Proficient with security reporting systems",
+            "Organized, detail-oriented, and adaptable in dynamic environments",
+            "Ability to work independently",
+            "Two-way radios and mobile devices",
+            "GPS operation",
+            "After 6 months on the job, employees will begin the process to become armed and obtain the necessary credentials and licensing to carry a firearm while on duty",
+            "High School Diploma or GED",
+            "At least 21 years of age",
+            "Valid Driver’s License in good standing",
+            "Valid FOID Card (Firearm Owner’s Identification)",
+            "Valid and active PERC Card (Permanent Employee Registration Card)",
+            "Fingerprint background check with “Eligible” status via ISP",
+            "7-year criminal background clearance and drug screening",
+            "Reliable personal transportation",
+            "Ability to write clear, professional, and grammatically correct reports",
+            "Ability to pass MVR screening",
+            "GED or High School Diploma",
+            "Certification Requirements (All)",
+            "19 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Flexible scheduling",
+            "Competitive rates statewide",
+            "Perfect for officers seeking supplemental income or flexible off-duty work",
+            "20 hour Security Training Certificate",
+            "Benefits: Medical Insurance, Life Insurance, Dental Insurance, Vision Insurance, Paid Vacation, Paid Holidays, 401K/403b Plan",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Provide security at commercial buildings, residential communities, manufacturing sites, retail, campuses, cannabis facilities, and events",
+            "Customer service and access control",
+            "Patrols and incident response",
+            "Site monitoring and safety enforcement",
+            "Ideal for individuals seeking stability, teamwork, and career growth in security",
+            "Officers bring their advanced training, professionalism, and command presence to ensure safety in high-trust environments",
+            "Schedule: 11:00 PM-7:00 AM (40hrs per week)",
+            "The Overnight Field Supervisor enforces adherence to post orders and regulatory requirements across assigned locations",
+            "This role conducts routine site inspections, evaluates officer performance, and responds to incidents",
+            "Serving as a liaison between corporate and field personnel, the Supervisor provides support and ensures consistent application of security protocols",
+            "Site & Officer Oversight",
+            "Conduct routine inspections across assigned client locations",
+            "Ensure Security Officers (SO) and Off-Duty Police Officers (ODP) are:",
+            "Present on site",
+            "In proper uniform and equipped appropriately",
+            "Following all site-specific post orders",
+            "Inspect and document the condition of vehicles used in the field",
+            "Confirm up-to-date licensing, training, and compliance for all personnel",
+            "Compliance & Quality Assurance",
+            "Identify and address security vulnerabilities, safety violations, or procedural non-compliance",
+            "Enforce company policies and site-specific standard operating procedures (SOPs)",
+            "Conduct field compliance audits",
+            "Maintain thorough logs, reports, and digital documentation",
+            "Provide timely and accurate reporting through approved platforms",
+            "Incident Response & Field Communications",
+            "Respond swiftly to critical incidents or emergencies within assigned territory",
+            "Remain on-site during escalations until resolution or proper handoff",
+            "Serve as the communication bridge between field staff, SOC, and management",
+            "Document all incident activity with complete and clear reporting",
+            "Administrative & Operational Support",
+            "Complete all required certifications and administrative tasks on schedule",
+            "Report equipment, vehicle, or operational issues promptly",
+            "Represent the company professionally, discreetly, and with a client-focused approach",
+            "Serve as a backup for security officers during emergencies or shortages",
+            "Assist with vehicle movements",
+            "Perform other duties as assigned",
+            "Mobile inspection/reporting platforms",
+            "34 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Warehouse Associate",
-      "company": "Uline",
-      "location": "Waukegan, IL",
-      "vertical": "warehouse",
-      "role": "overnight",
-      "pay": "26–36 an hour",
-      "pay_min": 26.0,
-      "pay_max": 36.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.ziprecruiter.com/c/New-Haven-Companies/Job/Warehouse-Associate/-in-Waukegan,IL?jid=b1ebc5dfe519b83b",
-      "via": "via LinkedIn",
-      "description": "<strong>Earn $26 - $36 per hour depending on shift and experience<br><br></strong><strong>Wisconsin Distribution Center<br><br></strong><strong>12885 104th St. Pleasant Prairie, WI 53158<br><br></strong>Go-getters wanted! Looking to join a top-tier team? Join Uline as a Warehouse Associate for job stability, training and the opportunity to build a long-term career with a growing company. Don’t wait, apply now!<br><br><strong>Multiple Full-Time Shifts Available<br><br></strong><ul><li> Day Shift: Monday - Friday, 10:30 AM - 7 PM | $26-$32/hr </li><li> Mid Shift: Monday - Friday, 2 PM - 10:30 PM | $28-$34/hr </li><li> Overnight Shift: Sunday - Thursday, 9 PM - 5:30 AM | $30-$36/hr <br><br></li></ul><strong>Why Warehouse at Uline?<br><br></strong><ul><li> Great Pay and Benefits: Competitive pay and comprehensive benefits to support your future and well-being. </li><li> Stability You Can Count On: Consistent full-time hours with overtime opportunities available. </li><li> We Invest in You: Hands-on training, top-tier facilities and an on-site fitness center to support your success. <br><br></li></ul><strong>Position Responsibilities<br><br></strong><ul><li>Unload shipments from suppliers, ensuring accuracy and quality. </li><li>Load outbound trailers with Uline product for our customers. </li><li>Give it your all - EVERY DAY! <br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>High school diploma or equivalent. </li><li>Frequently move packages weighing up to 50 - 70 lbs. </li><li>Comfortable on warehouse equipment at heights up to 30 feet. <br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Complete health insurance coverage and 401(k) with 6% employer match that starts day one! </li><li>Multiple bonus programs. </li><li>Paid holidays and generous paid time off. </li><li>Tuition Assistance Program that covers professional continuing education. <br><br></li></ul><strong>About Uline<br><br></strong>Uline, a family-owned company, is North America’s leading distributor of shipping, industrial, and packaging materials with over 9,800 employees across 14 locations.<br><br>Uline is a drug-free workplace. All new hires must complete a pre-employment hair follicle drug screening.<br><br>EEO/AA Employer/Vet/Disabled<br><br>(#IN-DCWHMS)<br><br>#ZR-DCWH<br><br>Our employees make the difference and we are committed to offering exceptional benefits and perks! Explore https://www.uline.jobs/#working-here_blankUline.jobs to learn more!<br><br>"
-    },
-    {
-      "title": "Armed Security Officer- 1st Shift",
-      "company": "S&C Electric Company",
-      "location": "Chicago, IL",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": "49,040–61,300 a year",
-      "pay_min": 49040.0,
-      "pay_max": 61300.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.indeed.com/viewjob?jk=5f4557e32fe3b3f0",
-      "via": "via LinkedIn",
-      "description": "<strong>Job Description<br><br></strong>As an S&C Electric team member, you’ll work on projects that have real-world impact. You’ll help transform the grid for resilient and reliable power worldwide. S&C has more than a 100-year history of innovation and has been 100% employee-owned since 2012. We continue this legacy as a trusted, forward-thinking leader in the electrical industry. You will advance a safer, more reliable, and more resilient electrical grid. Our products help the grid adapt to severe weather and transition to clean energy. We’re big enough to be a respected industry leader but small enough for you to impact our company directly. Our commitment gives you opportunities to impact on and off the job positively.<br><br>Join S&C to make an impact on tomorrow’s energy challenges and become an employee-owner!<br><br><strong>Hours <br><br></strong><ul><li>8:00 am – 4:30 pm<br><br></li></ul><strong>Compensation<br><br></strong>At S&C, we are dedicated to providing competitive and equitable compensation for all our team members, and we are committed to transparency in our pay practices. <strong>The estimated annual base salary range for this position is $49,040 - $61,300.</strong> Individual pay within this salary range is determined by several compensable factors, including performance, knowledge, job-related skills and experience, and relevant education or training. This role is also eligible for S&C’s annual incentive plan (AIP), subject to eligibility criteria.<br><br><strong>Join Our Team as a Security Officer!<br><br></strong>S&C Electric Company is seeking a dynamic individual to coordinate our security function. As a Security Officer, you’ll be crucial in ensuring smooth operations and supporting our diverse team. Officers perform duties in three main categories, including patrolling the S&C Ridge Boulevard Industrial Campus facility, working in the Global Security Operations Center (GSOC), and operating the security gatehouses.<br><br><strong>Key Responsibilities<br><br></strong><ul><li>Utilize strong, written communication skills by creating clear and accurate incident and field activity reports in a timely manner.</li><li>Conduct and document events/ investigations with close attention to detail; gather and summarize statements and facts for records.</li><li>Perform routine and scheduled patrols of the S&C Campus to: regulate traffic and parking, ensure team member safety, respond to emergencies/incidents.</li><li>Act as first responders to critical and emergent situations including: medical emergencies, fires, hazardous material releases/spills, unauthorized personnel on campus, confined space rescues, severe weather, and building evacuations.</li><li>Certify and maintain required certification in the use of self-contained breathing apparatus and/or respirators.</li><li>Monitor fire, building supervisory, high-voltage supply, intrusion alarm, and closed-circuit video systems while assigned to the Global Security Operations Center (GSOC).</li><li>Monitor entry/exit and access to S&C Campus, with attention to detail for guiding team members, vehicles, visitors, and contractors. Maintain accurate logs and records of all commercial-related entrants.</li><li>Issue temporary identification badges and parking permits to authorized individuals.</li><li>Coordinate logistics of commercial deliveries and shipments from the GSOC.</li><li>Operate communication systems by serving as radio dispatchers and telephone switchboard operators during off-hours.</li><li>Directly identifying and addressing safety, trespassing and workplace violence concerns, which may include, but is not limited to, the detaining of threatening individuals for police resolution.</li><li>Safely remove unauthorized individuals from the campus using various de-escalation techniques.</li><li>Maintaining licensing and certifications for essential training and equipment necessary to perform job duties. (PERC, FOID, DL)</li><li>Maintain regular and punctual attendance.</li><li>Attend in-person or virtual meetings as requested or required.</li><li>Communicate effectively and respectfully with others.</li><li>Drive a car or other vehicle.</li><li>Understand and comply with all applicable Company policies and rules.</li><li>Other responsibilities as assigned.<br><br></li></ul><strong>What You’ll Need To Succeed<br><br></strong><ul><li>High School diploma or acceptable General Educational Development (GED), some college preferred.</li><li>Illinois Driver’s License and Illinois Firearms Owner’s Identification Card.</li><li>Good verbal and written communication skills; proficiency with personal computers.</li><li>State of Illinois Security Officer 40-Hour Training Program for armed security</li><li>A Permanent Employee Registration Card (PERC) and ability to successfully obtain the Firearm Authorization Card (FAC) issued from the State of Illinois, Department of Financial and Professional Regulation.</li><li>4 years of security or related background. Industrial security, law enforcement, or military experience preferred.</li><li>Strong verbal and written communication skills</li><li>Strong computer and technological skills</li><li>Conflict resolution skills</li><li>De-escalation and high stress management skills</li><li>Understanding laws and regulations pertaining to armed security work</li><li>Understanding signals of distress or impairment in others<br><br></li></ul><strong>Preferred<br><br></strong><ul><li>Associates Degree in Security, Criminal Justice, Law Enforcement, or related field.</li><li>Any advanced National Incident Management System (NIMS) training.</li><li>Handcuffing certification.</li><li>De-escalation training i.e., Crisis Prevention Institute (CPI) or Crisis Intervention (CIT) Training certifications<br><br></li></ul><strong>Major Physical Demands<br><br></strong><ul><li>Frequently required to stand and perform tasks for 2-4 hours at a time approximately [5] days per work week.</li><li>Frequently required to remain in a stationary position and perform desk-based for 2-4 hours at a time approximately [5] days per work week.</li><li>Frequently required to walk moderate distances up to [1-2 miles on campus while patrolling] [frequency – e.g., multiple times each day]</li><li>Occasionally required to solo lift and/or carry items ranging in weight from 5 to 40 lb, and team lift and carry items or other team members to safety, exercising sound judgment to employ manual handling or machine lifts where required and risk assessments, if appropriate.</li><li>Occasionally required to position self to perform tasks involving but not limited to reaching, twisting, rotating, and pushing/pulling.</li><li>Occasionally required to use hand-eye coordination to control both hands and arms for a full range of motion to operate equipment/machinery/power tools/office productivity equipment.</li><li>Frequently ascending or descending ladders/stairs/scaffolding/ramps/poles.</li><li>Frequently required to observe details at close range, including depth perception, peripheral vision, and the ability to differentiate between colors.</li><li>Continuously required to talk and hear in person and by phone/conference calls. </li><li>Frequently required to travel (up to 10%) and work extended hours when necessary.<br><br></li></ul>S&C Electric is committed to equal-opportunity employment. All employees and applicants will be considered without regard to age, color, disability, gender, national origin, race, religion, sexual orientation, gender identity, protected veteran status, or any other classification protected by federal, state, or local law. If you are an individual with a disability and need an accommodation to complete the application, please email us at TAsupport@sandc.com .<br><br><strong>No fixed deadline<br><br></strong><strong>#SC25<br><br></strong><strong>About Us<br><br></strong>In 1909, S&C Electric Company transformed the delivery of safe, reliable electricity with the..."
-    },
-    {
-      "title": "Armed Security Officer - Olympia Fields",
-      "company": "Guardian Security Services, Inc.",
-      "location": "Hazel Crest, IL",
-      "vertical": "security",
-      "role": "hospital-healthcare",
-      "pay": "$19.00 - 20.00 per hour",
-      "pay_min": 19.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Internship",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.ziprecruiter.com/c/Guardian-Security-Services/Job/Armed-Security-Officer-Olympia-Fields/-in-Hazel-Crest,IL?jid=01e27c67f48e4468",
-      "via": "via LinkedIn",
-      "description": "<ul><li>Guardian Security Services Careers </li><li>Hazel Crest </li><li>Armed Security Officer - Olympia Fields <br><br></li></ul>Armed Security Officer - Olympia Fields<br><br>SMS Email Messenger Facebook Twitter LinkedIn Whatsapp<br><br>\" data-original-title=\"\" title=\"\">ShareApply<br><br>Part-time<br><br>High school degree<br><br>$19.00 - 20.00 per hour<br><br><strong>Part-Time Armed Position, 3–4-day shifts per week. <br><br></strong>Are you a highly skilled and motivated individual looking for a dynamic role in the protective and security industry? Do you thrive in an environment where your dedication and commitment are valued? If yes, then Guardian Security Services is the perfect place for you! Come and join our team!<br><br>At Guardian Security Services, we believe in making smart investments, and that starts with investing in our people. As a Security Officer, you will play a crucial role in ensuring the safety and security of our clients.<br><br><strong>About Us<br><br></strong>Guardian Security Services, a family-owned company, has been proudly serving the Chicagoland area for over fifty years. We work diligently to find our team members opportunities close to<br><br>home, and a schedule that works best for you to provide a healthy work life balance. Join the Guardian family where your efforts and hard work will be recognized, along with opportunities for career advancement and coupled with a comprehensive benefits package and competitive wages!<br><br><strong>Why Join Us<br><br></strong><ul><li>Daily Pay, get paid when you want!</li><li>Roth IRA for retirement savings.</li><li>Health Insurance, Dental and Vision.</li><li>Virtual Urgent Care</li><li>Virtual Primary Care Services</li><li>Virtual Behavioral Health</li><li>Prescription Benefit</li><li>Payments for qualified out-of-pocket hospital expenses</li><li>Health Management Coaching</li><li>Personal Pathfinder Assessment</li><li>Laboratory and Genomic Screenings</li><li>Behavioral Change Workshops and Paths</li><li>Emotional Well-Being Solutions</li><li>Digital Coaching</li><li>Professional Tax Consulting Services<br><br></li></ul><strong>Your Responsibilities<br><br></strong><ul><li>Understands and maintains general post instructions for that assigned post.</li><li>Maintain practical knowledge of all additional and emergency post instructions that are called for by the client</li><li>Proven ability to deal with challenging situations while remaining calm and professional at all times.</li><li>Maintain access control procedures set by management.</li><li>Document and report any property damage and special occurrences.</li><li>Respond to incidents and document the event accurately.</li><li>Ability to stand/sit/walk for long periods of time.</li><li>Provide excellent Customer Service, Public Relation interactions and have an Impeccable image at all times.<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>Part-Time Day shifts to include Saturdays.</li><li>Strong attention to detail and excellent observation skills</li><li>Ability to remain calm and composed in all situations.</li><li>Good communication and interpersonal skills</li><li>Must be a minimum 21 years of age.</li><li>Possess a High School Diploma/GED or military service record.</li><li>Must have a valid Permanent Employee Registration Card (PERC) or willing to apply for one.</li><li>Must have a 20-hour training certificate or complete within in 30 days of employment.</li><li>Must have a 40-hour training certificate.</li><li>Must have a FOID Card</li><li>Must be able to acquire a Firearm Control Card through Guardian Security Services.</li><li>All applicants must complete a pre-employment screening process.</li><li>Maintain an impeccable image and adhere to our professional military grooming standards, which includes:</li><li>Must have mature demeanor, personality and attitude.</li><li>Must possess strong customer service skills, public relation skills and the ability to interact well with people of diverse cultures and backgrounds.</li><li>Possess strong communication skills, both verbally, written and non-verbal.</li><li>Must maintain a working telephone at all times.</li><li>Must have reliable means of transportation.<br><br></li></ul>If you are ready to take on this exciting and rewarding opportunity, apply now! Join our team at Guardian Security Services and become part of a dedicated and enthusiastic workforce committed to making a difference in the security industry.<br><br>Work schedule<br><br><ul><li>8 hour shift</li><li>Weekend availability</li><li>Day shift<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Paid time off</li><li>Health insurance</li><li>Dental insurance</li><li>Vision insurance</li><li>Referral program</li><li>Employee discount</li><li>Paid training<br><br></li></ul>Guardian Security Services - Hazel Crest<br><br>Hazel Crest, IL, 60429<br><br>Apply"
-    },
-    {
-      "title": "Event Staff",
-      "company": "Andy Frain Services",
+      "job_hash": "fb70d6323759",
+      "title": "Security Guard, Substitute",
+      "company": "Management & Training Corporation",
       "location": "Joliet, IL",
       "vertical": "security",
       "role": "general",
-      "pay": "$18.00/hr",
-      "pay_min": 18.0,
+      "pay": "$20.77 an hour",
+      "pay_min": 20.77,
       "pay_max": null,
       "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://bebee.com/us/jobs/event-staff-andy-frain-joliet--lensa-7428_1dda51a51128c0ca168f80421a49dac3eb0c33431b20815bb7a2a07eeb416d50",
-      "via": "via SaluteMyJob",
-      "description": "<DIV><STRONG>Hiring for various events and weekend work in the Chicago Suburbs. Locations vary per event and pay rate starts at $18.00/hr.  Increased pay for supervisory positions.  MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE.  RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. </STRONG></DIV> <DIV> </DIV> <DIV><STRONG>Job Summary:</STRONG><BR>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<BR><BR><STRONG>Basic Functions:</STRONG><BR> <UL> <LI>Control of entrances and movement of pedestrian and vehicle traffic.</LI> <LI>Patrol of buildings and perimeters.</LI> <LI>Escort of material and personnel.</LI> <LI>Inspection of security and fire exposures.</LI> <LI>Special assignments.</LI> </UL> <STRONG> Responsibilities: </STRONG> <BR>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<BR> <UL> <LI>Be on time and report to post in full uniform.</LI> <LI>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</LI> <LI>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</LI> <LI>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</LI> <LI>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</LI> <LI>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</LI> <LI>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</LI> <LI>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</LI> <LI>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</LI> <LI>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</LI> <LI>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</LI> </UL> <STRONG>Skills and Abilities:</STRONG><BR> <UL> <LI>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</LI> <LI>Constant and dedicated vigilance.</LI> <LI>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</LI> <LI>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</LI> <LI>Ability to facilitate progressive change, work as part of a team and follow directions.</LI> <LI>Work with a sense of urgency.</LI> <LI>Strong oral and written communications skills.</LI> </UL> <DIV><EM>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</EM></DIV> <DIV> </DIV> </DIV>"
+      "schedule": "Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.monster.com/job-openings/security-guard-substitute-joliet-il--77a0d67c-6fd8-4751-a925-24426c3c71b2",
+      "via": "via LinkedIn",
+      "description": "<strong>Job Description<br><br></strong><strong>Wage</strong> - $20.77 an hour<br><br><strong>Schedule – </strong>As needed<br><br>MTC is proud to operate the <strong>Joliet Job Corps Center in Joliet, IL</strong> where our staff provide quality services to our local youth. We value our professional and caring employees who are dedicated to improving people’s lives and we want <strong>YOU </strong>to join our team!<br><br><strong>What you will be doing:</strong> Responsible for providing security coverage at campus access gate, performing patrol duties in assigned areas to ensure positive group relations and activities, to protect life and property, in compliance with government and management directives.<br><br><strong>Essential Functions<br><br></strong><ul><li>Follow company security procedures on all persons and vehicles entering and exiting the campus</li><li>Advise students and provide guidance for positive attitude and behavior in on center activities</li><li>Patrol and monitor center grounds and the surrounding vicinities as required ensuring safety and proper behavior of students; resolving potential or occurring problems</li><li>Protect and secure buildings, center vehicles and property by checking doors, windows, lights, electrical appliances, equipment, locks and emergency equipment; maintain log of findings and corrective action taken; control security vehicle assignments and use</li><li>Assist in emergency evacuation, control and accountability of students and staff; respond to fire alarms; take necessary steps to report fires; reset fire alarm equipment</li><li>Issue visitor badges and parking permits; issue staff and student keys and badges; maintain related records</li><li>Distribute petty cash, maintain accountability logs and receipts, and audit each shift</li><li>Assist staff and law enforcement personnel in controlling disturbances; conduct investigation of crimes and unauthorized activities as assigned</li><li>Review student problems with counselors and student personnel officer</li><li>Assume supervisory responsibility of all safety and security activities when assigned</li><li>Perform administrative functions such as logs, incident reports and accident documentation; act as center dispatcher as assigned</li><li>When directed to do so, overtime is expected</li><li>Regular and predictable attendance is required</li><li>Participate in student employability programs and activities</li><li>Support and promote center zero tolerance policies</li><li>Provide positive, quality customer services to students, staff and other center customers</li><li>Promote the development of Career Success Standards by modeling appropriate behaviors, mentoring students where necessary and monitoring both positive and negative behaviors through interventions</li><li>Maintain accountability of students and property; adhere to safety practices</li><li>Assist, support and communicate with community life departments to ensure high level of service.<br><br></li></ul><strong>Education & Experience<br><br></strong><ul><li>High school diploma or equivalent and one year experience working with youth preferred</li><li>Security related experience is desired</li><li>Computer proficiency required</li><li>Valid driver’s license with an acceptable driving record<br><br></li></ul>Management & Training Corporation (MTC) is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, disabled status, veteran status, genetic information, national origin, or any other category protected by federal law. MTC participates in E-Verify. We strive to provide reasonable accommodation for qualified individuals with disabilities, including disabled veterans, in our job application and hiring process. If you are interested in employment opportunities with Management & Training Corporation and need assistance, please contact our staffing department through customersupport@mtctrains.com or 801-693-2888.",
+      "job_highlights": [
+        {
+          "items": [
+            "Computer proficiency required",
+            "Valid driver’s license with an acceptable driving record"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Wage - $20.77 an hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "What you will be doing: Responsible for providing security coverage at campus access gate, performing patrol duties in assigned areas to ensure positive group relations and activities, to protect life and property, in compliance with government and management directives",
+            "Follow company security procedures on all persons and vehicles entering and exiting the campus",
+            "Advise students and provide guidance for positive attitude and behavior in on center activities",
+            "Patrol and monitor center grounds and the surrounding vicinities as required ensuring safety and proper behavior of students; resolving potential or occurring problems",
+            "Protect and secure buildings, center vehicles and property by checking doors, windows, lights, electrical appliances, equipment, locks and emergency equipment; maintain log of findings and corrective action taken; control security vehicle assignments and use",
+            "Assist in emergency evacuation, control and accountability of students and staff; respond to fire alarms; take necessary steps to report fires; reset fire alarm equipment",
+            "Issue visitor badges and parking permits; issue staff and student keys and badges; maintain related records",
+            "Distribute petty cash, maintain accountability logs and receipts, and audit each shift",
+            "Assist staff and law enforcement personnel in controlling disturbances; conduct investigation of crimes and unauthorized activities as assigned",
+            "Review student problems with counselors and student personnel officer",
+            "Assume supervisory responsibility of all safety and security activities when assigned",
+            "Perform administrative functions such as logs, incident reports and accident documentation; act as center dispatcher as assigned",
+            "When directed to do so, overtime is expected",
+            "Regular and predictable attendance is required",
+            "Participate in student employability programs and activities",
+            "Support and promote center zero tolerance policies",
+            "Provide positive, quality customer services to students, staff and other center customers",
+            "Promote the development of Career Success Standards by modeling appropriate behaviors, mentoring students where necessary and monitoring both positive and negative behaviors through interventions",
+            "Maintain accountability of students and property; adhere to safety practices",
+            "Assist, support and communicate with community life departments to ensure high level of service",
+            "17 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Security Officer - High End Retail",
-      "company": "Guardian Security Services, Inc.",
-      "location": "Oak Brook, IL",
+      "job_hash": "725277409de3",
+      "title": "Campus Police Officer: Protect, Enforce & Serve",
+      "company": "Northeastern Illinois University",
+      "location": "Chicago, IL",
       "vertical": "security",
-      "role": "industrial",
-      "pay": "$20.00 per hour",
-      "pay_min": 20.0,
+      "role": "university",
+      "pay": "44K–52K a year",
+      "pay_min": 44000.0,
+      "pay_max": 52000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://bebee.com/us/jobs/university-police-officer-protect-engage-serve-patrol-the-blue-line-chicago--lensa-7428_dea135c85dcf92a634a841fe68a1eda6b764095bef5c6f6b92f13b831303ed45",
+      "via": "via JobLeads",
+      "description": "<p>Northeastern Illinois University in Chicago seeks Police Officers to safeguard lives and property, enforce laws, and promote university and community relations.</p><p>This posting is to build a pool of qualified candidates for future openings. Duties include patrols, investigations, directing traffic, assisting local agencies, and preparing reports; candidates must meet minimum qualifications and pass background checks.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Duties include patrols, investigations, directing traffic, assisting local agencies, and preparing reports; candidates must meet minimum qualifications and pass background checks"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "47e114cb5fa5",
+      "title": "Shipping & Receiving Specialist - Forklift Operator",
+      "company": "Tomenson Machine Works",
+      "location": "West Chicago, IL",
+      "vertical": "warehouse",
+      "role": "forklift",
+      "pay": "19–22 an hour",
+      "pay_min": 19.0,
+      "pay_max": 22.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.adzuna.com/details/5846237202",
+      "via": "via Adzuna",
+      "description": "<p>This job posting is for West Chicago the suburb. Approximately 1 hour from the City of Chicago.</p><p><br /></p><p>This position is on-site and the hours are 6:00am - 2:30pm, Monday through Friday</p><p><br /></p><p>We are looking for a person to work in our shipping department as well as operate an electric sit-down forklift to help with incoming deliveries, outgoing deliveries, and distributing raw material to CNC work stations.</p><p><br /></p><p><strong>Responsibilities</strong></p><ul><li>Receiving raw materials and recording them into our system</li><li>Transporting raw materials to CNC work stations</li><li>Staging raw materials for production operations</li><li>Loading finished goods onto trucks</li><li>Packing boxes with finished materials</li><li>Assisting with other shipping and receiving activities</li><li>Keeping your work area clean</li></ul><p><br /></p><p><strong>Benefits</strong></p><ul><li>Pay: $19-$22 depending on experience</li><li>401k with employer match</li><li>Discounted Medical, Dental, and Vision Insurance</li><li>Free Life Insurance</li><li>PTO and Vacation Pay</li><li>Holiday Pay</li><li>PPE Reimbursement</li><li>Overtime available</li><li>Overtime optional</li></ul>\nRequirements\n<ul><li>Previous forklift experience required</li><li>Ability to stand for majority of shift</li><li>Basic math and computer skills</li><li>Ability to lift up to 50 pounds regularly </li><li>Ability to stand, walk, bend, reach, and perform repetitive motions throughout the shift</li><li>Ability to work in a manufacturing environment with varying temperatures</li><li>Ability to safely operate equipment for extended periods</li></ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Previous forklift experience required",
+            "Ability to stand for majority of shift",
+            "Basic math and computer skills",
+            "Ability to lift up to 50 pounds regularly",
+            "Ability to stand, walk, bend, reach, and perform repetitive motions throughout the shift",
+            "Ability to work in a manufacturing environment with varying temperatures",
+            "Ability to safely operate equipment for extended periods",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $19-$22 depending on experience",
+            "401k with employer match",
+            "Discounted Medical, Dental, and Vision Insurance",
+            "Free Life Insurance",
+            "PTO and Vacation Pay",
+            "Holiday Pay",
+            "PPE Reimbursement",
+            "Overtime available",
+            "Overtime optional",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Receiving raw materials and recording them into our system",
+            "Transporting raw materials to CNC work stations",
+            "Staging raw materials for production operations",
+            "Loading finished goods onto trucks",
+            "Packing boxes with finished materials",
+            "Assisting with other shipping and receiving activities",
+            "Keeping your work area clean",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "7edfbfbfbb94",
+      "title": "Loss Prevention Officer Store #3223",
+      "company": "Jewel-Osco",
+      "location": "River Forest, IL",
+      "vertical": "security",
+      "role": "loss-prevention",
+      "pay": "21.00–23.50 an hour",
+      "pay_min": 21.0,
+      "pay_max": 23.5,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.indeed.com/viewjob?jk=eef88818f9b59ab4",
+      "via": "via LinkedIn",
+      "description": "<strong>Why choose us?<br><br></strong><strong>Are you ready to take the next step in your career? Join us for an exciting opportunity at Albertsons Companies, where innovation and customer service go hand-in-hand!<br><br></strong>At Albertsons Companies, we are looking for someone who’s not just seeking a job, but someone who wants to make an impact. In this role, you’ll have the opportunity to lead, innovate, and contribute to the growth of a company that values great service and lasting customer relationships. This position offers the chance to work in a fast-paced, dynamic environment that’s constantly evolving.<br><br><strong>Main Responsibilities<br><br></strong><ul><li>[Hiring team to provide specific responsibilities here. [Target 5 – 10 max main responsibilities]<br><br></li></ul><strong>We Are Looking For Candidates Who Possess The Following<br><br></strong><ul><li>Soft skills: [Hiring team to provide details, list externally friendly skills, internal language may not translate to external candidates]</li><li>Competencies: [Hiring team to provide details]</li><li>Knowledge: [Hiring team to provide details]</li><li>Abilities: [Hiring team to provide details]</li><li>Educational requirements: [details here]</li><li>Travel requirements: [details here]</li><li>Other requirements: [details here]<br><br></li></ul><strong>We Also Provide a Variety Of Benefits Including<br><br></strong><ul><li>Competitive wages paid weekly</li><li> Access to up to 50% of your earned wages before payday, via our partnership with Stream</li><li>Associate discounts</li><li>Health and financial well-being benefits for eligible associates (Medical, Dental, 401k and more!)</li><li>Time off (vacation, holidays, sick pay). For eligibility requirements please visit myACI Benefits</li><li>Leaders invested in your training, career growth and development</li><li>An inclusive work environment with talented colleagues who reflect the communities we serve<br><br></li></ul><strong>Our Values – Click below to view video: </strong>ACI Values<br><br><em>A copy of the full job description can be made available to you.</em>",
+      "job_highlights": [
+        {
+          "items": [
+            "Soft skills: [Hiring team to provide details, list externally friendly skills, internal language may not translate to external candidates]",
+            "Competencies: [Hiring team to provide details]",
+            "Knowledge: [Hiring team to provide details]",
+            "Abilities: [Hiring team to provide details]",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We Also Provide a Variety Of Benefits Including",
+            "Competitive wages paid weekly",
+            "Access to up to 50% of your earned wages before payday, via our partnership with Stream",
+            "Associate discounts",
+            "Health and financial well-being benefits for eligible associates (Medical, Dental, 401k and more!)",
+            "Time off (vacation, holidays, sick pay)",
+            "For eligibility requirements please visit myACI Benefits",
+            "Leaders invested in your training, career growth and development",
+            "An inclusive work environment with talented colleagues who reflect the communities we serve",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "This position offers the chance to work in a fast-paced, dynamic environment that’s constantly evolving",
+            "[Hiring team to provide specific responsibilities here",
+            "[Target 5 – 10 max main responsibilities]"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "8333e656e7e2",
+      "title": "Security Shift Supervisor - Unarmed",
+      "company": "Allied Universal",
+      "location": "Northlake, IL",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "24 an hour",
+      "pay_min": 24.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.recruit.net/job/security-officer-high-end-retail-jobs/BB1022E33F17E299",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1658750/security-shift-supervisor---unarmed/job",
       "via": "via LinkedIn",
-      "description": "<ul><li>Guardian Security Services Careers </li><li>Oak Brook - 1305 </li><li>Security Officer - High End Retail <br><br></li></ul>Security Officer - High End Retail<br><br>SMS Email Messenger Facebook Twitter LinkedIn Whatsapp<br><br>\" data-original-title=\"\" title=\"\">ShareApply<br><br>Full-time<br><br>High school degree<br><br>Starting at $20.00 per hour<br><br><strong>Seeking a Security Officer to work in a high-end retail store. <br><br></strong>We are seeking an unarmed security officer to work Tuesday through Saturday, from 9:00 a.m. to 5:30 p.m. You must have the ability to be on your feet for extended periods of time and remain alert at all times. Having an eye for detail is extremely important and the ability to detect potential threats.<br><br><strong>About Us<br><br></strong>Guardian Security Services, a family-owned company, has been proudly serving the Chicagoland area for over fifty years. We work diligently to find our team members opportunities close to home, and a schedule that works best for you to provide a healthy work life balance. Join the Guardian family where your efforts and hard work will be recognized, along with opportunities for career advancement and coupled with a comprehensive benefits package and competitive wages!<br><br><strong>Why Join Us<br><br></strong><ul><li>Daily Pay, get paid when you want!</li><li>Roth IRA for retirement savings.</li><li>Health Insurance, Dental and Vision.</li><li>Virtual Urgent Care</li><li>Virtual Primary Care Services</li><li>Virtual Behavioral Health</li><li>Prescription Benefit</li><li>Payments for qualified out-of-pocket hospital expenses</li><li>Health Management Coaching</li><li>Personal Pathfinder Assessment</li><li>Laboratory and Genomic Screenings</li><li>Behavioral Change Workshops and Paths</li><li>Emotional Well-Being Solutions</li><li>Digital Coaching</li><li>Professional Tax Consulting Services<br><br></li></ul><strong>Your Responsibilities<br><br></strong><ul><li>Understands and maintains general post instructions for that assigned post. </li><li>Maintain practical knowledge of all additional and emergency post instructions that are called for by the client.</li><li>Maintain access control procedures set by management.</li><li>Effectively utilize CCTV systems as needed.</li><li>Document and report any suspicious activity.</li><li>Be alert and vigilant at all times to prevent theft.</li><li>Respond to incidents and document the event accurately.</li><li>Greet all customers with a professional demeanor.</li><li>Provide excellent Customer Service, Public Relation interactions and have an Impeccable image at all times.<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>Strong attention to detail and excellent observation skills</li><li>Ability to remain calm and composed in all situations.</li><li>Good communication and interpersonal skills</li><li>Must be a minimum 21 years of age. </li><li>Possess a High School Diploma/GED or military service record. </li><li>Must have a valid Permanent Employee Registration Card (PERC) or willing to apply for one.</li><li>Must have a 20-hour training certificate or complete within in 30 days of employment.</li><li>All applicants must complete a pre-employment screening process to include drug screening.</li><li>Maintain an impeccable image and adhere to our professional grooming standards.</li><li>Must have mature demeanor, personality and attitude. </li><li>Must possess strong customer service skills, public relation skills and the ability to interact well with people of diverse cultures and backgrounds.</li><li>Possess strong communication skills, both verbally, written and non-verbal.</li><li>Must maintain a working telephone at all times. </li><li>Must have reliable means of transportation. <br><br></li></ul>If you are ready to take on this exciting and rewarding opportunity, apply now! Join our team at Guardian Security Services Inc and become part of a dedicated and enthusiastic workforce committed to making a difference in the security industry.<br><br>Work schedule<br><br><ul><li>8 hour shift</li><li>Weekend availability</li><li>Day shift<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Paid time off</li><li>Health insurance</li><li>Dental insurance</li><li>Vision insurance</li><li>Referral program</li><li>Employee discount</li><li>Paid training</li><li>Other<br><br></li></ul>Guardian Security Services - Oak Brook - 1305<br><br>Oak Brook, IL, 60523<br><br>Apply"
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong><strong>Pay Rate: $24.00 / Hour<br><br></strong><strong>Working Hours 1700 - 1000<br><br></strong><strong>Leadership Opportunity with a Growing Company!<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br>The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer. The <strong>Security Shift Supervisor</strong> will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers. Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range.<br><br><strong>Qualifications/Requirements<br><br></strong><ul><li>At least 18 years of age</li><li>Possess a high school diploma or equivalent, or 5 years verifiable experience</li><li>Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines</li><li>Must be able to frequently prepare written reports and logs in neat, legible handwriting; </li><li>Must be able to read and understand all operating procedures and instructions</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required.</li><li>As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check</li><li>Intermediate computer skills to utilize innovative, wireless technology at client specific sites</li><li>Ability to handle both common and crisis situations at the client site, calmly and efficiently</li><li>Display exceptional customer service and communication skills</li><li>Ability to handle crisis situations at the client site, calmly and efficiently<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Enrollment in our company’s 401(k)plan</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1658750<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "At least 18 years of age",
+            "Possess a high school diploma or equivalent, or 5 years verifiable experience",
+            "Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines",
+            "Must be able to frequently prepare written reports and logs in neat, legible handwriting;",
+            "Must be able to read and understand all operating procedures and instructions",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required",
+            "As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check",
+            "Intermediate computer skills to utilize innovative, wireless technology at client specific sites",
+            "Ability to handle both common and crisis situations at the client site, calmly and efficiently",
+            "Display exceptional customer service and communication skills",
+            "Ability to handle crisis situations at the client site, calmly and efficiently",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $24.00 / Hour",
+            "Working Hours 1700 - 1000",
+            "Medical, dental, vision, basic life, AD&D, and disability insurance",
+            "Enrollment in our company’s 401(k)plan",
+            "Seven holidays annually paid at time and a half, if worked",
+            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer",
+            "The Security Shift Supervisor will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers",
+            "Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     },
     {
-      "title": "Order Selector - Overnights",
-      "company": "Uline",
-      "location": "Waukegan, IL",
-      "vertical": "warehouse",
-      "role": "night-shift",
-      "pay": "30–36 an hour",
-      "pay_min": 30.0,
-      "pay_max": 36.0,
+      "job_hash": "a01c5b149f40",
+      "title": "Security Officer Full Time Unarmed Driver Patrol",
+      "company": "Allied Universal",
+      "location": "Crown Point, IN",
+      "vertical": "security",
+      "role": "university",
+      "pay": "17 an hour",
+      "pay_min": 17.0,
+      "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://www.ziprecruiter.com/c/Uline/Job/Order-Selector-Overnights/-in-Waukegan,IL?jid=51b11f2a6bf94911",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1658620/security-officer-full-time-unarmed-driver-patrol/job",
       "via": "via LinkedIn",
-      "description": "<strong>Pay from $30 to $36 per hour with significant growth and earning potential!<br><br></strong><strong>Includes $4 Shift Differential<br><br></strong><strong>Wisconsin Distribution Center<br><br></strong><strong>12885 104th St. Pleasant Prairie, WI 53158<br><br></strong>Go-getters wanted! Looking to join a top-tier team? Join Uline as an Overnight Order Selector for job stability, training and the opportunity to build a long-term career with a growing company. Don’t wait, apply now!<br><br><strong>Full-Time, Night Shift Hours: </strong>Sunday - Thursday, 7 PM to 3:30 AM <strong>OR</strong> 9 PM to 5:30 AM + overtime opportunities<br><br><strong>Why Warehouse at Uline?<br><br></strong><ul><li> Great Pay and Benefits: Competitive pay and comprehensive benefits to support your future and well-being. </li><li> Stability You Can Count On: Consistent full-time hours with overtime opportunities available. </li><li> We Invest in You: Hands-on training, top-tier facilities and an on-site fitness center to support your success. <br><br></li></ul><strong>Position Responsibilities<br><br></strong><ul><li>Unload shipments from suppliers, ensuring accuracy and quality. </li><li>Load outbound trailers with Uline product for our customers. </li><li>Give it your all - EVERY DAY! <br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>High school diploma or equivalent. </li><li>Frequently move packages weighing up to 50 - 70 lbs. </li><li>Comfortable on warehouse equipment at heights up to 30 feet. <br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Complete health insurance coverage and 401(k) with 6% employer match that starts day one! </li><li>Multiple bonus programs. </li><li>Paid holidays and generous paid time off. </li><li>Tuition Assistance Program that covers professional continuing education. <br><br></li></ul><strong>About Uline<br><br></strong>Uline, a family-owned company, is North America’s leading distributor of shipping, industrial, and packaging materials with over 9,800 employees across 14 locations.<br><br>Uline is a drug-free workplace. All new hires must complete a pre-employment hair follicle drug screening.<br><br>EEO/AA Employer/Vet/Disabled<br><br>(#IN-DCWHET)<br><br>Our employees make the difference and we are committed to offering exceptional benefits and perks! Explore https://www.uline.jobs/#working-here_blankUline.jobs to learn more!<br><br>"
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Driver Patrol </strong>in <strong>Crown Point, IN</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. As a Patrol Unarmed Officer at a dynamic technology, media, and telecommunications location, you will conduct routine patrols, maintain a visible presence to help deter security-related incidents, and provide outstanding customer service and communication. This driving position requires a valid driver’s license in accordance with Allied Universal driver policy requirements. Join a caring, agile, reliable, and innovative team that puts people first, works together, and acts with integrity.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $17.75 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeThur03:00 PM - 11:00 PMFri03:00 PM - 11:00 PMSat03:00 PM - 11:00 PMSun03:00 PM - 11:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to employees, visitors, contractors, and/or delivery personnel at a technology-focused location by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities.</li><li>Respond to incidents, access concerns, alarms, and critical situations in a calm, problem-solving manner, following established reporting and escalation procedures.</li><li>Conduct regular and random foot and/or vehicle patrols of buildings, parking areas, entry points, loading areas, and perimeter locations to help deter unauthorized activity and identify security-related concerns.</li><li>Monitor access points and visitor activity, verify credentials as directed by site procedures, and report unauthorized access attempts or unusual conditions.</li><li>Complete accurate activity reports, incident documentation, and shift communications using required site systems and procedures.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1658620<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Join a caring, agile, reliable, and innovative team that puts people first, works together, and acts with integrity",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $17.75 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Full Time Unarmed Driver Patrol in Crown Point, IN, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more",
+            "As a Patrol Unarmed Officer at a dynamic technology, media, and telecommunications location, you will conduct routine patrols, maintain a visible presence to help deter security-related incidents, and provide outstanding customer service and communication",
+            "This driving position requires a valid driver’s license in accordance with Allied Universal driver policy requirements",
+            "Position Type: Full Time",
+            "Provide customer service to employees, visitors, contractors, and/or delivery personnel at a technology-focused location by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities",
+            "Respond to incidents, access concerns, alarms, and critical situations in a calm, problem-solving manner, following established reporting and escalation procedures",
+            "Conduct regular and random foot and/or vehicle patrols of buildings, parking areas, entry points, loading areas, and perimeter locations to help deter unauthorized activity and identify security-related concerns",
+            "Monitor access points and visitor activity, verify credentials as directed by site procedures, and report unauthorized access attempts or unusual conditions",
+            "Complete accurate activity reports, incident documentation, and shift communications using required site systems and procedures",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
     }
   ]
 }
