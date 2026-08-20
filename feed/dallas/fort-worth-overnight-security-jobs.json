@@ -1,11 +1,37 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/fort-worth-overnight-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "65e523719d56",
+      "title": "Night Security Alarm Monitor – 24​/7 Surveillance",
+      "company": "GardaWorld",
+      "location": "Addison, TX",
+      "vertical": "security",
+      "role": "surveillance",
+      "pay": "25K–30K a year",
+      "pay_min": 25000.0,
+      "pay_max": 30000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.learn4good.com/jobs/addison/texas/security/5372766749/e/",
+      "via": "via Learn4Good",
+      "description": "Garda World is seeking an Overnight Alarm Monitor in Dallas, TX to guard client properties by reviewing live and recorded camera footage and responding to incidents. You will follow client protocols, contact authorities when needed, and maintain confidentiality in a fast-paced security environment.The role requires staying alert through night shifts, weekends, and holidays, with strong multitasking skills and proficiency in Microsoft Office and Google Maps.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "You will follow client protocols, contact authorities when needed, and maintain confidentiality in a fast-paced security environment",
+            "The role requires staying alert through night shifts, weekends, and holidays, with strong multitasking skills and proficiency in Microsoft Office and Google Maps"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "3a56e4b35322",
       "title": "Overnight Loss Prevention Officer",
@@ -19,7 +45,7 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=774d832b8e548734",
+      "apply_link": "https://www.ziprecruiter.com/c/Omni-Hotels-&-resorts/Job/Overnight-Loss-Prevention-Officer/-in-Fort-Worth,TX?jid=57070a0a2498b996",
       "via": "via LinkedIn",
       "description": "<strong>Overview<br><br></strong>The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task. Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention.<br><br><strong>Responsibilities<br><br></strong><ul><li>To observe and report on all assignments</li><li>Able to keep accurate records and communicate using radio equipment.</li><li>Record and report any unsafe conditions while patrolling hotel property.</li><li>To ensure protection and preservation of hotel, guest, and employee property.</li><li>Maintain professional attitude and appearance.<br><br></li></ul><strong>Qualifications<br><br></strong><ul><li>Previous security experience preferred.</li><li>Red Cross and First Aid Certified.</li><li>Able to work nights, weekends, and holidays.</li></ul>",
       "job_highlights": [
@@ -105,6 +131,64 @@
       ]
     },
     {
+      "job_hash": "1672ccd51ef1",
+      "title": "Night Shift Unarmed Security Officer – Daily Pay & Growth",
+      "company": "Cascadia Global Security / Cascadia Off-Duty",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "21K–29K a year",
+      "pay_min": 21000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-unarmed-security-officer-daily-pay-growth--fort-worth--ea2bb6e20c1cbd8f8a762bc9bd89aa3b9",
+      "via": "via JobLeads",
+      "description": "<p>Cascadia Global Security is seeking a Security Officer for Fort Worth, TX. The position offers Full-Time or Part-Time options with flexible shifts including evenings and weekends.</p><p>Pay is $17.50 per hour with daily pay; applicants must be 21+, have a valid driver’s license, and a clean driving record. Benefits for Full-Time include 50% paid medical/dental/vision, life insurance after 60 days, and a 401k plan.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Pay is $17.50 per hour with daily pay; applicants must be 21+, have a valid driver’s license, and a clean driving record",
+            "Benefits for Full-Time include 50% paid medical/dental/vision, life insurance after 60 days, and a 401k plan"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The position offers Full-Time or Part-Time options with flexible shifts including evenings and weekends"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c9b633212e30",
+      "title": "Night-Shift Real Estate Security Dispatch Specialist",
+      "company": "Allied Universal",
+      "location": "Richardson, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://www.jobleads.com/us/job/night-shift-real-estate-security-dispatch-specialist--richardson--e45655fdbbe88e6445ddac5ff955c877b",
+      "via": "via BeBee",
+      "description": "<p>Allied Universal in Richardson, TX, is seeking a Security Officer Dispatch Operations Specialist to coordinate security communications, monitor systems, document activity, and dispatch personnel to protect clients in commercial real estate locations.</p>\n<p>This full-time role emphasizes responsive customer service, clear communication, and detailed documentation. You will maintain dispatch logs, incident reports, and visitor records while supporting a safe, welcoming environment.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This full-time role emphasizes responsive customer service, clear communication, and detailed documentation",
+            "You will maintain dispatch logs, incident reports, and visitor records while supporting a safe, welcoming environment"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "383cb0e1e524",
       "title": "Surveillance Security - FLEX OVERNIGHT Job at GardaWorld in Dallas",
       "company": "GardaWorld",
@@ -170,6 +254,32 @@
       ]
     },
     {
+      "job_hash": "83d818d62657",
+      "title": "Dallas Security Ops Leader — Night-Shift Manager",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "data-center",
+      "pay": "60K–61K a year",
+      "pay_min": 60000.0,
+      "pay_max": 61000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://bebee.com/us/jobs/dallas-security-ops-leader-night-shift-manager-securitas-security-services-usa-inc-dallas--pureheal-28528_23106_b4d5c85dacdbad3f74ae3d1b84ce01d7",
+      "via": "via JobLeads",
+      "description": "<p>Securitas Security Services USA, Inc. is seeking a Security Operations Manager for key client sites in Dallas, TX. The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service.</p><p>You will manage staffing, provide training, and partner with the client to understand expectations and deliver results. This position offers growth opportunities and a dynamic work environment.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service",
+            "You will manage staffing, provide training, and partner with the client to understand expectations and deliver results"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "1f1a0cb63963",
       "title": "Full-Time Overnight Security Officers",
       "company": "Dunbar Security Solutions",
@@ -220,32 +330,6 @@
             "Lock and unlock premises as required",
             "Interact professionally with tenants, customers, and law enforcement when necessary",
             "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "83d818d62657",
-      "title": "Dallas Security Ops Leader — Night-Shift Manager",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "night-shift",
-      "pay": "60K–61K a year",
-      "pay_min": 60000.0,
-      "pay_max": 61000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://bebee.com/us/jobs/dallas-security-ops-leader-night-shift-manager-securitas-security-services-usa-inc-dallas--pureheal-28528_23106_b4d5c85dacdbad3f74ae3d1b84ce01d7",
-      "via": "via JobLeads",
-      "description": "<p>Securitas Security Services USA, Inc. is seeking a Security Operations Manager for key client sites in Dallas, TX. The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service.</p><p>You will manage staffing, provide training, and partner with the client to understand expectations and deliver results. This position offers growth opportunities and a dynamic work environment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service",
-            "You will manage staffing, provide training, and partner with the client to understand expectations and deliver results"
           ],
           "title": "Responsibilities"
         }
@@ -328,177 +412,6 @@
       "via": "via Moral Theologian",
       "description": "Security Officer - Overnight job at Crescent Hotels & Resorts. Allen, TX. <p> At Crescent Hotels & Resorts, we are a team of hospitality professionals that are deeply connected to & proud of the exceptional experiences we provide for our guests. More than that, we know our Associates are the shining stars of what we do! We und Security Officer, Officer, Security, Overnight, Associate, Hotel </p>",
       "job_highlights": null
-    },
-    {
-      "job_hash": "bd4483725838",
-      "title": "GardaWorld is hiring: Surveillance Security - FLEX OVERNIGHT in Dallas",
-      "company": "GardaWorld",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "surveillance",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://www.recruit.net/job/gardaworld-is-surveillance-security-flex-jobs/435B68BDB0BD855C",
-      "via": "via Recruit.net",
-      "description": "GardaWorld Security Services is Now Hiring a Surveillance Security Officer!<br />Ready to suit up as a Surveillance Flex Security Ambassador?<br />Must be 21 years of age with a valid driver's license<br />What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens.<br />Describe your strong observational skills, with a focus on attention to detail.<br />As a Security Officer – Surveillance, you will be the person who spots threats before they escalate in environments such as security operations centers, call centers, and parking gatehouses.<br />Shift: Must be able to work NIGHTS.<br />Must be able to work at least 32 hours per week.<br />* Nights: 10:00 PM - 6:00 AM (weekdays and weekends)<br />What’s In It For You<br />* Competitive hourly wage of $18.50 (DailyPay is available for GardaWorld employees!)<br />* A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options<br />* Career growth opportunities at GardaWorld<br />* Uniform provided at no cost<br />Responsibilities Of Surveillance Security Guard<br />* Monitor security systems to detect any suspicious activity<br />* Document observed events and incidents, writing detailed reports<br />* Respond quickly to incidents or potential threats<br />* Conduct regular patrols to ensure the safety of the premises<br />* Control access to secure areas and verify the identities of visitors<br />* Analyze security systems to identify potential vulnerabilities or malfunctions<br />* Collaborate with law enforcement in case of serious situations or emergencies<br />* Ensure the safety and protection of individuals and property<br />Qualifications Of a Surveillance Security Guard<br />* Be authorized to work in the U.S.<br />* Be able to provide documentation of High School Diploma or GED<br />* Be able to ace (and pass) an extensive screening process<br />* Strong report-writing skills<br />* Good eyesight and excellent abilities to maintain focus<br />* Strong proficiency with technology<br />* If you have 6 months of Security, Military, or Law Enforcement experience<br />* You have a valid driver's license (for driving positions) with a good driving history (pass a Motor Vehicle Record Check).<br />* MUST BE 21 YEARS OF AGE<br />In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work.<br />Apply today – this could be more than a job!<br />Twenty-six percent of our corporate employees began their careers as frontline workers.<br />If you’re ambitious with an entrepreneurial spirit – someone who wants to be a GardaWorld Ambassador – a promising career awaits you!<br />GardaWorld Security is a global leader in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals worldwide.<br />Do you think this is the right job for you?<br />Make sure to check out all our jobs!<br />We also have tactical, concierge, and even casual roles available.<br />It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability, as required by applicable federal laws.<br />Additionally, GardaWorld Security Services complies with applicable state and local laws governing non-discrimination in employment.<br />This policy applies to all terms and conditions of employment, including, but not limited to, hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training.<br />It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law unless such request is based on a bona fide occupational qualification for that assignment<br />License # B0717<br />#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "Must be 21 years of age with a valid driver's license",
-            "What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens",
-            "Qualifications Of a Surveillance Security Guard",
-            "Be authorized to work in the U.S",
-            "Be able to provide documentation of High School Diploma or GED",
-            "Be able to ace (and pass) an extensive screening process",
-            "Strong report-writing skills",
-            "Good eyesight and excellent abilities to maintain focus",
-            "Strong proficiency with technology",
-            "If you have 6 months of Security, Military, or Law Enforcement experience",
-            "You have a valid driver's license (for driving positions) with a good driving history (pass a Motor Vehicle Record Check)",
-            "MUST BE 21 YEARS OF AGE",
-            "9 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Competitive hourly wage of $18.50 (DailyPay is available for GardaWorld employees!)",
-            "A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
-            "Career growth opportunities at GardaWorld",
-            "Uniform provided at no cost",
-            "1 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Security Officer – Surveillance, you will be the person who spots threats before they escalate in environments such as security operations centers, call centers, and parking gatehouses",
-            "Shift: Must be able to work NIGHTS",
-            "Must be able to work at least 32 hours per week",
-            "Nights: 10:00 PM - 6:00 AM (weekdays and weekends)",
-            "Monitor security systems to detect any suspicious activity",
-            "Document observed events and incidents, writing detailed reports",
-            "Respond quickly to incidents or potential threats",
-            "Conduct regular patrols to ensure the safety of the premises",
-            "Control access to secure areas and verify the identities of visitors",
-            "Analyze security systems to identify potential vulnerabilities or malfunctions",
-            "Collaborate with law enforcement in case of serious situations or emergencies",
-            "Ensure the safety and protection of individuals and property",
-            "9 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "37bf46f77d95",
-      "title": "Texas Night-Shift Residential Security Specialist",
-      "company": "Surefox Consulting, LLC",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "residential",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-09",
-      "apply_link": "https://talents.vaia.com/companies/surefox-consulting-llc/dallas/texas-night-shift-residential-security-specialist-93606725/",
-      "via": "via BeBee",
-      "description": "<p>A security services provider is seeking an experienced Residential Security Agent in Dallas, TX. The ideal candidate will provide physical security, manage surveillance equipment, and respond to emergencies.</p>\n<p>Responsibilities include monitoring access points and maintaining logs of activities. Applicants must hold a valid Texas Level 4 License, pass background checks, and be at least 21 years old. The role requires strong observational and communication skills, as well as the ability to work independently while ensuring client safety. Flexible work hours include nights and weekends.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Applicants must hold a valid Texas Level 4 License, pass background checks, and be at least 21 years old",
-            "The role requires strong observational and communication skills, as well as the ability to work independently while ensuring client safety"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The ideal candidate will provide physical security, manage surveillance equipment, and respond to emergencies",
-            "Responsibilities include monitoring access points and maintaining logs of activities",
-            "Flexible work hours include nights and weekends"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "a85faf9161c0",
-      "title": "Overnight Security Guard",
-      "company": "Driftwood Hospitality Management",
-      "location": "Rockwall, TX",
-      "vertical": "security",
-      "role": "armed-overnight",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-08",
-      "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/5438f3085c4c93300f1f7f60696da2b7/jobs/99055",
-      "via": "via ZipRecruiter",
-      "description": "<strong>Job Summary</strong>\n<br>\n<br>\nMonitor and patrol hotel property to ensure the safety of guests and employees to protect all hotel assets. Maintain a safe and secure environment by performing protective and enforcement functions in a courteous and restrained manner in coping with emergencies, undesired conduct, disturbances and threats to life and property.\n<br><strong>Essential Job Functions</strong>\n<br>\n<br>\nThis description is a summary of primary responsibilities and qualifications. The job description is not intended to include all duties or qualifications that may be required now or in the future. The Hotel operates 24 hours a day and 7 days a week, so operational demands require variations in shift days, starting times, and hours worked in a week.\n<br>\n<ul>\n <li>Spend majority of shift on foot patrol, walking, climbing stairs of the interior and perimeter of the hotel to observe and identify potential security and safety risks or undesirable conditions.</li>\n <li>Requires verbal communication using pager and two-way radio, bending, stooping and kneeling as in performing CPR.</li>\n <li>Maintain order in the hotel, dealing with the welfare of guests, e.g., assisting with door lock problems, coordinate expedient response to emergency conditions such as fire, fire or safety hazards and threats to life and/or property in a calm, rational and persuasive manner. Handle undesired conduct, violations of hotel policy and civil laws as warranted for the security and safety of hotel guests, employees, patrons and property. Requires grasping, lifting and or carrying or otherwise moving persons, packages, luggage, wheelchairs and safety equipment using manual dexterity of hands.</li>\n <li>Answer security telephone and safety hotline calls and respond in a timely manner based on priority.</li>\n <li>Use a clear, concise English-speaking voice, listen with empathy, provide accurate information and document legibly all appropriate incident information.</li>\n <li>Memorize and monitor life safety system installed at property including layout of entire building, alarm pull stations, location of fire extinguisher and sprinklers.</li>\n <li>Receive, record and store lost and found items. Research and respond to inquirers from guests concerning status of items.</li>\n <li>Escort guests and employees as required to parking lots, provide same for employees carrying house banks.</li>\n <li>Adheres to all company policies and procedures.</li>\n <li>Follows safety and security procedures and rules.</li>\n <li>Knows department fire prevention and emergency procedures.</li>\n <li>Utilizes protective equipment.</li>\n <li>Reports unsafe conditions to management.</li>\n <li>Reports accidents, injuries, near-misses, property damage or loss to management.</li>\n <li>Provides for a safe work environment by following all safety and security procedures and rules.</li>\n <li>All team members must maintain a neat, clean and well-groomed appearance. (Specific standards outlined in team member handbook).</li>\n <li>Assists other Front Desk Personnel when needed.</li>\n <li>Perform any related duties as requested by management.</li>\n</ul>\n<br>\n<br><strong>Qualifications</strong>\n<br><strong><strong>Knowledge, Skills & Abilities</strong></strong>\n<br>\n<br>\nThe Hotel may consider equivalent combination of acceptable education and experience providing the knowledge, skills and abilities cited below, when applicable.\n<br>\n<ul>\n <li>Any combination of education and experience equivalent to graduation from high school or any other combination of education, training or experience that provides the required knowledge skills and abilities. High school diploma preferred.</li>\n <li>Prior law enforcement or other military experience preferred.</li>\n <li>Thorough knowledge of the layout of the building, function rooms, and some knowledge of the city and surrounding areas.</li>\n <li>Ability to effectively deal with internal and external customers, some of whom will require high levels of patience, tact and diplomacy to defuse anger and collect accurate information.</li>\n <li>Ability to listen effectively, speak, read and write English clearly to ascertain and document important information.</li>\n <li>Ability to work in a fast-paced environment, sometimes under pressure, while remaining flexible and efficient while maintaining a pleasant cheerful demeanor.</li>\n <li>Ability to follow written and or verbal instructions.</li>\n <li>Ability to operate a computer, printer, copier, and telephone. <strong>Physical Demands</strong></li>\n <li>Ability to stand, walk and/or sit and continuously perform essential job functions for duration of shift.</li>\n <li>Hearing and visual ability to observe and detect signs of emergency situations.</li>\n <li>Ability to climb stairs and/or ladders at a rapid pace.</li>\n <li>Perform tasks requiring bending, stooping, kneeling, and walking significant distances between and within buildings on the property.</li>\n <li>Lifting up to 25 pounds.</li>\n <li>Frequent twisting, bending, stooping, reaching, standing, walking, talking, hearing, seeing and smiling.</li>\n</ul>\n<br><strong>Benefits</strong>\n<br>\n<ul>\n <li>401(k)</li>\n <li>Room Discounts</li>\n <li>Employee Food and Beverage Discounts</li>\n</ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "The Hotel may consider equivalent combination of acceptable education and experience providing the knowledge, skills and abilities cited below, when applicable",
-            "Any combination of education and experience equivalent to graduation from high school or any other combination of education, training or experience that provides the required knowledge skills and abilities",
-            "Ability to stand, walk and/or sit and continuously perform essential job functions for duration of shift",
-            "Hearing and visual ability to observe and detect signs of emergency situations",
-            "Ability to climb stairs and/or ladders at a rapid pace",
-            "Perform tasks requiring bending, stooping, kneeling, and walking significant distances between and within buildings on the property",
-            "Frequent twisting, bending, stooping, reaching, standing, walking, talking, hearing, seeing and smiling",
-            "4 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "401(k)",
-            "Room Discounts",
-            "Employee Food and Beverage Discounts"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Monitor and patrol hotel property to ensure the safety of guests and employees to protect all hotel assets",
-            "Maintain a safe and secure environment by performing protective and enforcement functions in a courteous and restrained manner in coping with emergencies, undesired conduct, disturbances and threats to life and property",
-            "The Hotel operates 24 hours a day and 7 days a week, so operational demands require variations in shift days, starting times, and hours worked in a week",
-            "Spend majority of shift on foot patrol, walking, climbing stairs of the interior and perimeter of the hotel to observe and identify potential security and safety risks or undesirable conditions",
-            "Requires verbal communication using pager and two-way radio, bending, stooping and kneeling as in performing CPR",
-            "Maintain order in the hotel, dealing with the welfare of guests, e.g., assisting with door lock problems, coordinate expedient response to emergency conditions such as fire, fire or safety hazards and threats to life and/or property in a calm, rational and persuasive manner",
-            "Handle undesired conduct, violations of hotel policy and civil laws as warranted for the security and safety of hotel guests, employees, patrons and property",
-            "Requires grasping, lifting and or carrying or otherwise moving persons, packages, luggage, wheelchairs and safety equipment using manual dexterity of hands",
-            "Answer security telephone and safety hotline calls and respond in a timely manner based on priority",
-            "Use a clear, concise English-speaking voice, listen with empathy, provide accurate information and document legibly all appropriate incident information",
-            "Memorize and monitor life safety system installed at property including layout of entire building, alarm pull stations, location of fire extinguisher and sprinklers",
-            "Receive, record and store lost and found items",
-            "Research and respond to inquirers from guests concerning status of items",
-            "Escort guests and employees as required to parking lots, provide same for employees carrying house banks",
-            "Adheres to all company policies and procedures",
-            "Follows safety and security procedures and rules",
-            "Knows department fire prevention and emergency procedures",
-            "Utilizes protective equipment",
-            "Reports unsafe conditions to management",
-            "Reports accidents, injuries, near-misses, property damage or loss to management",
-            "Provides for a safe work environment by following all safety and security procedures and rules",
-            "All team members must maintain a neat, clean and well-groomed appearance",
-            "(Specific standards outlined in team member handbook)",
-            "Assists other Front Desk Personnel when needed",
-            "Perform any related duties as requested by management",
-            "Lifting up to 25 pounds",
-            "23 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
     }
   ]
 }

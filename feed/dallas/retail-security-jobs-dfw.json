@@ -1,11 +1,68 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/retail-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "6f6274e7a021",
+      "title": "Retail Security Jobs",
+      "company": "MyJobResource",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-17",
+      "apply_link": "https://us.trabajo.org/job-28643-ab55afec64a3c80b5b28d2e960afeac4",
+      "via": "via Trabajo.org",
+      "description": "We are currently looking for individuals to fulfill Part-Time and Full-Time Retail Security positions. No experience is required to apply for the position. Training is provided through former experienced employees and available to hired applicants. We are looking for individuals able to carry out various tasks. Individuals must be hardworking and task-oriented. Don't Wait Fill out a Profile Now MyJobResource is a staffing and recruitment industry job search engine. We specialize in finding the exact company to suit your needs. We help match job seekers to the right jobs in either full-time or temporary positions. Assignments are typically made depending on the ratio of candidates to jobs, skill-set, and experience. The companies we work with pay us for the services we provide to find the right people for their job openings.",
+      "job_highlights": [
+        {
+          "items": [
+            "No experience is required to apply for the position",
+            "Individuals must be hardworking and task-oriented"
+          ],
+          "title": "Qualifications"
+        }
+      ]
+    },
+    {
+      "job_hash": "19cf924c7e2e",
+      "title": "Armed Patrol Driver – Retail Security & Growth (Full-Time)",
+      "company": "Allied Universal",
+      "location": "Waxahachie, TX",
+      "vertical": "security",
+      "role": "retail",
+      "pay": "25K–29K a year",
+      "pay_min": 25000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-15",
+      "apply_link": "https://www.learn4good.com/jobs/waxahachie/texas/security/5344211375/e/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal, North America's leading security and facility services company, invites you to join as an Armed Security Officer Certified Patrol Driver in Waxahachie, TX. In this role you will patrol retail locations, maintain a visible presence, and respond to security concerns with professionalism to protect clients and employees.</p><p>This full-time position offers a pay rate of $18.00 per hour, a schedule on Thursdays through Saturdays, and opportunities for career growth, training, and</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "This full-time position offers a pay rate of $18.00 per hour, a schedule on Thursdays through Saturdays, and opportunities for career growth, training, and"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "In this role you will patrol retail locations, maintain a visible presence, and respond to security concerns with professionalism to protect clients and employees"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "0ec280cec088",
       "title": "Hiring Event for Retail Unarmed Security Officers - Thursday, 8/20/2026 - Dallas, TX",
@@ -98,6 +155,45 @@
         {
           "items": [
             "You will support loss prevention, monitor safety, and greet customers while maintaining a visible security presence on the floor"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "e14c79626fe7",
+      "title": "Security Officer Overnight Shift - High Rise-Retail 75225",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://unitedprotective.joblinkapply.com/job/cc01e951-3248-4f29-a54b-0dca3c486388",
+      "via": "via Indeed",
+      "description": "<div>\n Security Officer Overnight Shift - High Rise-Retail 75225 \n <p><b><br>\n    Pay Rate:</b> $18.00hr</p>\n <p><b> Schedule:</b> Saturday/Sunday 7PM - 7AM</p>\n <p>Thursday/Friday 11PM - 7AMull-time</p>\n <p><b> Responsibilities</b></p>\n <ul>\n  <li>Officer will patrol interior of building and garage using our Silver Trac tour system</li>\n  <li>Officer will be alert and attentive while in the lobby and greet tenants or guests that enter the building</li>\n  <li>Respond to alarms by investigating and assessing the situation</li>\n  <li>Provide assistance to people in need</li>\n  <li>Officer will report all incidents according to the policies and procedures</li>\n  <li>Submit reports of daily surveillance activity and important occurrences</li>\n </ul>\n <p></p>\n <p><br>\n   UNITED PROTECTIVE SERVICES - DALLAS BRANCH4455 Sigma Road Dallas TX 75244</p>\n <p>Job Type: F</p>\n <p>United Protective Services License: Texas B-09771 Equal Opportunity Employer</p>\n <p><br>\n   At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed.<br></p>\n <br>\n <br>\n  United Protective Services License:Texas B-09771 & B-12854Oklahoma 12SGA 4246Equal Opportunity Employer\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Pay Rate: $18.00hr",
+            "Schedule: Saturday/Sunday 7PM - 7AM"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Thursday/Friday 11PM - 7AMull-time",
+            "Officer will patrol interior of building and garage using our Silver Trac tour system",
+            "Officer will be alert and attentive while in the lobby and greet tenants or guests that enter the building",
+            "Respond to alarms by investigating and assessing the situation",
+            "Provide assistance to people in need",
+            "Officer will report all incidents according to the policies and procedures",
+            "Submit reports of daily surveillance activity and important occurrences",
+            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -210,86 +306,31 @@
       ]
     },
     {
-      "job_hash": "090ad1ce2ed9",
-      "title": "Retail Loss Prevention Detective",
-      "company": "The TJX Companies, Inc.",
-      "location": "Lake Worth, TX",
+      "job_hash": "d3766f1e6312",
+      "title": "Unarmed Security Officer — Retail X-Ray Patrol & Growth",
+      "company": "Alliedbarton Security Services",
+      "location": "Sunnyvale, TX",
       "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "20,044–28,103 a year",
-      "pay_min": 20044.0,
-      "pay_max": 28103.0,
-      "pay_unit": "YEAR",
+      "role": "retail",
+      "pay": "18.54 an hour",
+      "pay_min": 18.54,
+      "pay_max": null,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
       "posted_date": "2026-08-07",
-      "apply_link": "https://www.jobleads.com/us/job/retail-loss-prevention-detective--lake-worth--e9f241596831dfe414f1705d9af776ca3",
-      "via": "via JobLeads",
-      "description": "<div><p>TJ Maxx</p>\n<p>At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development. Whether you’re working in our four global Home Offices, Distribution Centers or Retail Stores—TJ Maxx, Marshalls, Homegoods, Homesense, Sierra, Winners, and TK Maxx, you’ll find abundant opportunities to learn, thrive, and make an impact. Come join our TJX family—a Fortune 100 company and the world’s leading off-price retailer.</p>\n<h3>Job Description</h3>\n<h3>Opportunity: Your Your Career</h3>\n<p>Completes the daily tasks required for Store Loss Prevention and safety programs. Maintains positive relationships with Store Management. Conducts apprehensions within established policies and guidelines. Communicates with store Associates on damage and shrink initiatives. Identifies and resolves internal and external theft.</p>\n<ul>\n<li>Adheres to established shoplifter guidelines and policies</li>\n<li>Provides timely, courteous and knowledgeable service to customers</li>\n<li>Promotes a culture of honesty and integrity; maintains confidentiality</li>\n<li>Observes, apprehends, and/or deters any acts of dishonesty from outside sources</li>\n<li>Participates in investigations and surveillance as assigned</li>\n<li>Ensures apprehensions are consistent with store theft activity</li>\n<li>Completes and distributes paperwork in an accurate and timely manner</li>\n<li>Maintains appropriate evidence, demonstrates understanding of law enforcement procedures and professionally participates in legal activities as needed (e.g., police calls, etc.)</li>\n<li>Coordinates and complete shrink related activities in partnership with Store Management</li>\n<li>Adheres to all labor laws, policies, and procedures</li>\n<li>Supports and participates in store shrink reduction goals and programs</li>\n<li>Encourages Associate use of shrink reduction resources</li>\n<li>Promotes safety awareness and supports maintenance of a safe environment</li>\n</ul>\n<h3>Who We’re Looking For: You.</h3>\n<ul>\n<li>Excellent communication skills and sound judgment</li>\n<li>Basic computer skills</li>\n<li>Basic time management skills</li>\n<li>Investigative / analytical skills</li>\n<li>Ability to respond appropriately to changes in direction or unexpected situations</li>\n<li>Standout colleague, working effectively with peers and supervisors to accomplish tasks</li>\n<li>Able to work a flexible schedule to support business needs</li>\n<li>0-2 years retail or security experience</li>\n</ul>\n<h3>Benefits</h3>\n<ul>\n<li>Associate discount</li>\n<li>EAP</li>\n<li>smoking cessation</li>\n<li>bereavement</li>\n<li>401(k) Associate contributions</li>\n<li>child care & cell phone discounts</li>\n<li>pet & legal insurance</li>\n<li>credit union</li>\n<li>referral bonuses</li>\n<li>401(k) match</li>\n<li>medical/dental/vision</li>\n<li>HSA</li>\n<li>health care FSA</li>\n<li>life insurance</li>\n<li>short/long term disability</li>\n<li>paid parental leave</li>\n<li>paid holidays/vacation/sick</li>\n<li>auto/home insurance discounts</li>\n<li>scholarship program</li>\n<li>adoption assistance</li>\n</ul>\n<p>All benefits are provided in accordance with and subject to the terms of the applicable plan or program and may change from time to time. Contact your TJX representative for more information.</p>\n<p>TJX considers all applicants for employment without regard to race, color, religion, gender, sexual orientation, national origin, age, disability, gender identity and expression, marital or military status, or based on any individual's status in any group or class protected by applicable federal, state, or local law. TJX also provides reasonable accommodations to qualified individuals with disabilities in accordance with the Americans with Disabilities Act and applicable state and local law.</p>\n<p>Applicants with arrest or conviction records will be considered for employment.</p>\n<h3>Address</h3>\n<p>6330 Lantana Road</p>\n<h3>Location:</h3>\n<p>USA TJ Maxx Store 1103 Lake Worth FL</p>\n<p>This position has a starting pay range of $14.55 to $20.40 per hour. Actual starting pay is determined by a number of factors, including relevant skills, qualifications, and experience.</p></div>",
+      "apply_link": "https://www.learn4good.com/jobs/sunnyvale/texas/security/5349019060/e/",
+      "via": "via Learn4Good",
+      "description": "Allied Universal is seeking a Security Officer Unarmed Patrol X Ray Operations in Sunnyvale, TX. You will monitor retail areas, maintain a visible presence, and deter incidents while delivering excellent customer service to clients and visitors.Ideal candidates have at least 1 year of security experience; X-ray screening is a plus. Pay is $18.54 per hour with a full-time schedule including evenings and weekends as listed. Background checks and drug screening apply per policy.#J-18808-Ljbffr",
       "job_highlights": [
         {
           "items": [
-            "Excellent communication skills and sound judgment",
-            "Basic computer skills",
-            "Basic time management skills",
-            "Investigative / analytical skills",
-            "Ability to respond appropriately to changes in direction or unexpected situations",
-            "Standout colleague, working effectively with peers and supervisors to accomplish tasks",
-            "Able to work a flexible schedule to support business needs",
-            "0-2 years retail or security experience",
-            "5 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Associate discount",
-            "EAP",
-            "smoking cessation",
-            "bereavement",
-            "401(k) Associate contributions",
-            "child care & cell phone discounts",
-            "pet & legal insurance",
-            "credit union",
-            "referral bonuses",
-            "401(k) match",
-            "medical/dental/vision",
-            "HSA",
-            "health care FSA",
-            "life insurance",
-            "short/long term disability",
-            "paid parental leave",
-            "paid holidays/vacation/sick",
-            "auto/home insurance discounts",
-            "scholarship program",
-            "adoption assistance",
-            "All benefits are provided in accordance with and subject to the terms of the applicable plan or program and may change from time to time",
-            "This position has a starting pay range of $14.55 to $20.40 per hour",
-            "Actual starting pay is determined by a number of factors, including relevant skills, qualifications, and experience",
-            "20 more items(s)"
+            "Pay is $18.54 per hour with a full-time schedule including evenings and weekends as listed"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "Completes the daily tasks required for Store Loss Prevention and safety programs",
-            "Maintains positive relationships with Store Management",
-            "Conducts apprehensions within established policies and guidelines",
-            "Communicates with store Associates on damage and shrink initiatives",
-            "Identifies and resolves internal and external theft",
-            "Adheres to established shoplifter guidelines and policies",
-            "Provides timely, courteous and knowledgeable service to customers",
-            "Promotes a culture of honesty and integrity; maintains confidentiality",
-            "Observes, apprehends, and/or deters any acts of dishonesty from outside sources",
-            "Participates in investigations and surveillance as assigned",
-            "Ensures apprehensions are consistent with store theft activity",
-            "Completes and distributes paperwork in an accurate and timely manner",
-            "Maintains appropriate evidence, demonstrates understanding of law enforcement procedures and professionally participates in legal activities as needed (e.g., police calls, etc.)",
-            "Coordinates and complete shrink related activities in partnership with Store Management",
-            "Adheres to all labor laws, policies, and procedures",
-            "Supports and participates in store shrink reduction goals and programs",
-            "Encourages Associate use of shrink reduction resources",
-            "Promotes safety awareness and supports maintenance of a safe environment",
-            "15 more items(s)"
+            "You will monitor retail areas, maintain a visible presence, and deter incidents while delivering excellent customer service to clients and visitors"
           ],
           "title": "Responsibilities"
         }
@@ -328,144 +369,6 @@
         {
           "items": [
             "The role requires providing exceptional security and operations support, ensuring adherence to security systems, and actively engaging with customers as a Tiffany ambassador"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "d3766f1e6312",
-      "title": "Unarmed Security Officer — Retail X-Ray Patrol & Growth",
-      "company": "Alliedbarton Security Services",
-      "location": "Sunnyvale, TX",
-      "vertical": "security",
-      "role": "retail",
-      "pay": "18.54 an hour",
-      "pay_min": 18.54,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-07",
-      "apply_link": "https://www.learn4good.com/jobs/sunnyvale/texas/security/5349019060/e/",
-      "via": "via Learn4Good",
-      "description": "Allied Universal is seeking a Security Officer Unarmed Patrol X Ray Operations in Sunnyvale, TX. You will monitor retail areas, maintain a visible presence, and deter incidents while delivering excellent customer service to clients and visitors.Ideal candidates have at least 1 year of security experience; X-ray screening is a plus. Pay is $18.54 per hour with a full-time schedule including evenings and weekends as listed. Background checks and drug screening apply per policy.#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "Pay is $18.54 per hour with a full-time schedule including evenings and weekends as listed"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You will monitor retail areas, maintain a visible presence, and deter incidents while delivering excellent customer service to clients and visitors"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "981ad8cb24f3",
-      "title": "Retail Off-Duty Security Officer - Weekend & Evening Shifts",
-      "company": "Marksman Security",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "weekend",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/entertainment/5344965134/e/",
-      "via": "via BeBee",
-      "description": "<p>Marksman Security LLC is seeking Off Duty Officers for Retail in Dallas, Texas. This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills.\nThe ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays. Candidates must be at least 21 years old and able to pass pre-employment screenings.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays",
-            "Candidates must be at least 21 years old and able to pass pre-employment screenings"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "e084a367b08f",
-      "title": "UNIQLO Retail Loss Prevention Agent - Dallas Galleria",
-      "company": "UNIQLO",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "24.50 an hour",
-      "pay_min": 24.5,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.careerbuilder.com/job-details/uniqlo-retail-loss-prevention-agent-dallas-galleria-dallas-tx--ba28f13e-f046-4b6b-9c0a-9f4d09fb90f9",
-      "via": "via Indeed",
-      "description": "<div>\n <p>We offer competitive compensation for Retail Loss Prevention Agent starting at $24.50/hr along with a clear path to promotion opportunities every 3 months based on individual performance! Career advancement opportunities for driven team members who consistently deliver strong results.</p>\n <p></p>\n <ul>\n  <li>The offered salary or salary range is based on several factors, including, but not limited to, overall experience, relevant experience, education level, certifications, applicable skills and expertise, and location of the position.</li>\n </ul>\n <p></p>\n <p>As an Equal Opportunity Employer, UNIQLO USA, does not discriminate against applicants or employees because of race, color, creed, religion, sex, national origin, veteran status, disability, age, citizenship, marital or domestic/civil partnership status, sexual orientation, gender identity or expression or because of any other status or condition protected by applicable federal, state, or local law.</p>\n <p></p>\n <p><b>Position Overview: </b></p>\n <p>UNIQLO Loss Prevention is responsible for maintaining a safe shopping environment for all customers and employees. The Loss Prevention Agent plays a critical role in inventory management and shortage reduction. Daily LP tasks at store are focused on safety, inventory management and shortage reduction. Loss Prevention Agent will be reporting to Loss Prevention Manager and Store Manager, serve as an asset for protection and safety specialist of our stores.</p>\n <p></p>\n <p><b>Key Responsibilities: </b></p>\n <ul>\n  <li>\n   <p>Train store team members on loss prevention and safety policies, procedures and standards: ensure compliance from all store team, notifying store management/Loss Prevention Manager of any violations.</p></li>\n  <li>\n   <p>Ensure LP team can successfully identify, apprehend and detain shoplifters by following company guidelines.</p></li>\n  <li>\n   <p>Build productive relationships with store leadership team and associates.</p></li>\n  <li>\n   <p>Lead associate awareness efforts and generate leads pertaining to internal investigations.</p></li>\n  <li>\n   <p>Focus on importance of proper inventory management. Investigate issues and educate team on proper procedures.</p></li>\n  <li>\n   <p>Ensure compliance and understanding of the shortage reduction strategies.</p></li>\n  <li>\n   <p>Work with Leadership to strengthen LP culture</p></li>\n  <li>\n   <p>Partner with LP Manager to ensure compliance of company policy and procedure.</p></li>\n  <li>\n   <p>Inspect compliance to company safety policy and procedures through store visits and provide direction and training to ensure opportunities are identified and corrected.</p></li>\n  <li>\n   <p>Identify safety or loss risks, immediately notifying store and loss prevention management to prevent accidents.</p></li>\n  <li>\n   <p>Support loss prevention management with audits and inventory counts.</p></li>\n  <li>\n   <p>Ensure full confidentiality at all times.</p></li>\n  <li>\n   <p>Assist with special projects, as assigned.</p></li>\n </ul>\n <p></p>\n <p><b>Qualifications </b></p>\n <ul>\n  <li>\n   <p>Strong knowledge of computer applications; including Security Software, CCTV equipment, Excel, Word, and PowerPoint</p></li>\n  <li>\n   <p>Strong verbal and written communication skills</p></li>\n  <li>\n   <p>Knowledge of federal, state and local law</p></li>\n  <li>\n   <p>Knowledge of surveillance/security equipment and installations</p></li>\n  <li>\n   <p>Ability to travel to stores within assigned area</p></li>\n  <li>\n   <p>Must be able to work for extended periods of standing or walking the sales floor as required</p></li>\n </ul>\n <p></p>\n <p><b>Physical Requirements: </b></p>\n <ul>\n  <li>\n   <p>Ability to effectively communicate with customers and store personnel</p></li>\n  <li>\n   <p>Ability to calculate figures and amounts such as discounts and percentages</p></li>\n  <li>\n   <p>Ability to lift and carry up to 50 lbs.</p></li>\n  <li>\n   <p>Ability to stand for long periods of time, read computer terminals, push, pull or move objects of at least 50lbs.</p></li>\n  <li>\n   <p>Ability to effectively maneuver around sales floor and stockroom, repetitive bending, prolonged standing, twisting, stooping, squatting, and climbing</p></li>\n </ul>\n <p></p>\n <p><b>Schedule Requirements </b>:</p>\n <ul>\n  <li>\n   <p>Ability to work a flexible schedule that meets the business needs, including nights, evenings and weekends</p></li>\n  <li>\n   <p>Average 32 or more hours per week based on business seasonality.</p></li>\n  <li>\n   <p>Open availability on weekends (religious exemptions will be considered).</p></li>\n  <li>\n   <p>Restrictions on availability limited to two days per week.</p></li>\n </ul>\n <p></p>\n <p><b>Compensation: </b></p>\n <ul>\n  <li>\n   <p>$24.50 per hour</p></li>\n  <li>\n   <p>The offered salary or salary range is based on several factors, including, but not limited to, overall experience, relevant experience, education level, certifications, applicable skills and expertise, and location of the position.</p></li>\n </ul>\n <p></p>\n <p><b>Education/Experience: </b></p>\n <ul>\n  <li>\n   <p>High School Diploma or G.E.D.</p></li>\n  <li>\n   <p>Bachelor’s Degree in Criminal Justice or related preferred.</p></li>\n </ul>\n <p></p>\n <p>The Company is committed to equal pay initiatives and will not ask candidates for their current or past salary.</p>\n <p></p>\n <p>As an Equal Opportunity Employer, Fast Retailing does not discriminate against applicants or employees because of race, color, creed, religion, sex, national origin, veteran status, disability, age, citizenship, marital or domestic/civil partnership status, sexual orientation, gender identity or expression or because of any other status or condition protected by applicable federal, state or local law.</p>\n</div>",
-      "job_highlights": [
-        {
-          "items": [
-            "Strong knowledge of computer applications; including Security Software, CCTV equipment, Excel, Word, and PowerPoint",
-            "Strong verbal and written communication skills",
-            "Knowledge of federal, state and local law",
-            "Knowledge of surveillance/security equipment and installations",
-            "Ability to travel to stores within assigned area",
-            "Must be able to work for extended periods of standing or walking the sales floor as required",
-            "Ability to effectively communicate with customers and store personnel",
-            "Ability to calculate figures and amounts such as discounts and percentages",
-            "Ability to lift and carry up to 50 lbs",
-            "Ability to stand for long periods of time, read computer terminals, push, pull or move objects of at least 50lbs",
-            "Ability to effectively maneuver around sales floor and stockroom, repetitive bending, prolonged standing, twisting, stooping, squatting, and climbing",
-            "Ability to work a flexible schedule that meets the business needs, including nights, evenings and weekends",
-            "Average 32 or more hours per week based on business seasonality",
-            "High School Diploma or G.E.D",
-            "11 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "We offer competitive compensation for Retail Loss Prevention Agent starting at $24.50/hr along with a clear path to promotion opportunities every 3 months based on individual performance!",
-            "Career advancement opportunities for driven team members who consistently deliver strong results",
-            "The offered salary or salary range is based on several factors, including, but not limited to, overall experience, relevant experience, education level, certifications, applicable skills and expertise, and location of the position",
-            "Restrictions on availability limited to two days per week",
-            "$24.50 per hour",
-            "The offered salary or salary range is based on several factors, including, but not limited to, overall experience, relevant experience, education level, certifications, applicable skills and expertise, and location of the position",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The Loss Prevention Agent plays a critical role in inventory management and shortage reduction",
-            "Daily LP tasks at store are focused on safety, inventory management and shortage reduction",
-            "Loss Prevention Agent will be reporting to Loss Prevention Manager and Store Manager, serve as an asset for protection and safety specialist of our stores",
-            "Train store team members on loss prevention and safety policies, procedures and standards: ensure compliance from all store team, notifying store management/Loss Prevention Manager of any violations",
-            "Ensure LP team can successfully identify, apprehend and detain shoplifters by following company guidelines",
-            "Build productive relationships with store leadership team and associates",
-            "Lead associate awareness efforts and generate leads pertaining to internal investigations",
-            "Focus on importance of proper inventory management",
-            "Investigate issues and educate team on proper procedures",
-            "Ensure compliance and understanding of the shortage reduction strategies",
-            "Work with Leadership to strengthen LP culture",
-            "Partner with LP Manager to ensure compliance of company policy and procedure",
-            "Inspect compliance to company safety policy and procedures through store visits and provide direction and training to ensure opportunities are identified and corrected",
-            "Identify safety or loss risks, immediately notifying store and loss prevention management to prevent accidents",
-            "Support loss prevention management with audits and inventory counts",
-            "Ensure full confidentiality at all times",
-            "Assist with special projects, as assigned",
-            "Open availability on weekends (religious exemptions will be considered)",
-            "15 more items(s)"
           ],
           "title": "Responsibilities"
         }

@@ -1,11 +1,73 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/fort-worth-loss-prevention",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "b5f38e96a926",
+      "title": "Loss Prevention Clerk",
+      "company": "Costco Wholesale",
+      "location": "Rockwall, TX",
+      "vertical": "security",
+      "role": "loss-prevention",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Internship",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://careers.costco.com/jobs/57621?lang=en-us",
+      "via": "via LinkedIn",
+      "description": "<p><strong><span>Job Description</span></strong></p><p><span>California applicants: Please </span><span>click here</span><span> to review the Costco Applicant Privacy Notice.</span></p><p><span> </span></p><p><em><span>The jobs listed are examples of the typical kinds of positions that Costco may hire for when openings exist. The listing does not mean that any positions are currently open or available at Costco.</span></em></p><p> </p><p><strong><span>Position Summary</span></strong></p><p><span>Protects company assets from internal and external theft. Reviews individual warehouse inventory numbers and assists in creating / executing a plan of action to reduce shrink. Is familiar with various facets of operation that contribute to shrink and participates in instruction and training with affected employees. Observes and reports potential safety and security hazards. Investigates, detains suspects, completes reports, cooperates with local law enforcement, and testifies in court if necessary. Reports directly to the Warehouse Manager. Provides a high level of member service.</span></p><p> </p><p><strong><span>Job Duties</span></strong></p><ul><li><span>Walks the warehouse and perimeter up to 8 hours a day to monitor safety and security concerns. Pushes cart with merchandise and returns items to the floor. Maintains anonymity by shopping amongst members.</span></li><li><span>Follows and maintains knowledge of Costco procedures and applicable laws in performance of duties. Attends meetings and seminars regarding loss prevention.</span></li><li><span>Observes, detects, and investigates internal and external theft threats as well as safety concerns. Retrieves stolen items which shoplifters have concealed; may need to move product to access stolen items.</span></li><li><span>Detains and interviews shoplifters when warranted. Reports potential internal theft situations to the warehouse manager.</span></li><li><span>Prepares reports for internal use and for potential prosecution. Enters cases into case management system Nettrack.</span></li><li><span>Maintains evidence collected and reports files from investigations.</span></li><li><span>Testifies in court concerning theft investigations.</span></li><li><span>Communicates with other area Costco Loss Prevention Clerks and Security people of area businesses to exchange information about current, local theft threats.</span></li><li><span>Ensures proper cleanup and disposal of hazardous materials.</span></li><li><span>Ability to operate vehicles, equipment or machinery.</span></li><li><span>Assists with department duties as necessary.</span></li><li><span>Assists in other departments of the warehouse as necessary.</span></li></ul><p><br><br></p><p><span>For additional information about pay ranges,</span><span> click here.</span></p><p> </p><p><span>We offer a comprehensive package of benefits including paid time off, health benefits - medical/dental/vision/hearing aid/pharmacy/behavioral health/employee assistance, health care reimbursement account, dependent care assistance plan, short-term disability and long-term disability insurance, AD&D insurance, life insurance, 401(k), stock purchase plan to eligible employees.</span></p><p> </p><p> </p><p> </p><p><em><span>Apart from any religious or disability considerations, open availability is needed to meet the needs of the business. </span></em><em><span>If hired, you will be required to provide proof of authorization to work in the United States.</span></em></p><p><span> </span></p><p><em><span>Job Description Posting Updated: July 2026</span></em> <em><span>                                  Job Code: 0540</span></em></p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Detains and interviews shoplifters when warranted",
+            "If hired, you will be required to provide proof of authorization to work in the United States"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We offer a comprehensive package of benefits including paid time off, health benefits - medical/dental/vision/hearing aid/pharmacy/behavioral health/employee assistance, health care reimbursement account, dependent care assistance plan, short-term disability and long-term disability insurance, AD&D insurance, life insurance, 401(k), stock purchase plan to eligible employees"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Protects company assets from internal and external theft",
+            "Reviews individual warehouse inventory numbers and assists in creating / executing a plan of action to reduce shrink",
+            "Is familiar with various facets of operation that contribute to shrink and participates in instruction and training with affected employees",
+            "Observes and reports potential safety and security hazards",
+            "Investigates, detains suspects, completes reports, cooperates with local law enforcement, and testifies in court if necessary",
+            "Reports directly to the Warehouse Manager",
+            "Provides a high level of member service",
+            "Walks the warehouse and perimeter up to 8 hours a day to monitor safety and security concerns",
+            "Pushes cart with merchandise and returns items to the floor",
+            "Maintains anonymity by shopping amongst members",
+            "Follows and maintains knowledge of Costco procedures and applicable laws in performance of duties",
+            "Attends meetings and seminars regarding loss prevention",
+            "Observes, detects, and investigates internal and external theft threats as well as safety concerns",
+            "Retrieves stolen items which shoplifters have concealed; may need to move product to access stolen items",
+            "Reports potential internal theft situations to the warehouse manager",
+            "Prepares reports for internal use and for potential prosecution",
+            "Enters cases into case management system Nettrack",
+            "Maintains evidence collected and reports files from investigations",
+            "Testifies in court concerning theft investigations",
+            "Communicates with other area Costco Loss Prevention Clerks and Security people of area businesses to exchange information about current, local theft threats",
+            "Ensures proper cleanup and disposal of hazardous materials",
+            "Ability to operate vehicles, equipment or machinery",
+            "Assists with department duties as necessary",
+            "Assists in other departments of the warehouse as necessary",
+            "21 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "4af67f139a64",
       "title": "Loss Prevention Teammate - 2nd Shift",
@@ -107,7 +169,7 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=774d832b8e548734",
+      "apply_link": "https://www.ziprecruiter.com/c/Omni-Hotels-&-resorts/Job/Overnight-Loss-Prevention-Officer/-in-Fort-Worth,TX?jid=57070a0a2498b996",
       "via": "via LinkedIn",
       "description": "<strong>Overview<br><br></strong>The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task. Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention.<br><br><strong>Responsibilities<br><br></strong><ul><li>To observe and report on all assignments</li><li>Able to keep accurate records and communicate using radio equipment.</li><li>Record and report any unsafe conditions while patrolling hotel property.</li><li>To ensure protection and preservation of hotel, guest, and employee property.</li><li>Maintain professional attitude and appearance.<br><br></li></ul><strong>Qualifications<br><br></strong><ul><li>Previous security experience preferred.</li><li>Red Cross and First Aid Certified.</li><li>Able to work nights, weekends, and holidays.</li></ul>",
       "job_highlights": [
@@ -139,7 +201,7 @@
       "company": "Marriott International, Inc",
       "location": "Dallas, TX",
       "vertical": "security",
-      "role": "full-time",
+      "role": "residential",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
@@ -366,6 +428,81 @@
       ]
     },
     {
+      "job_hash": "42bb0ad475eb",
+      "title": "Regional Loss Prevention Investigator",
+      "company": "Lids",
+      "location": "Anywhere",
+      "vertical": "security",
+      "role": "loss-prevention",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-14",
+      "apply_link": "https://talents.vaia.com/companies/t-e-c-industrial-inc/regional-loss-prevention-investigator-151197460/",
+      "via": "via Lensa",
+      "description": "<strong>Description</strong> <br><br>Regional LP Investigator <br><br>About Our Company <br><br>At Lids Sports Group, we don't just sell hats - we fuel fandom. As the largest licensed sports retailer in North America, we bring sports, fashion, and culture together in more than 1,300 stores nationwide. Headquartered in Indianapolis, Indiana, Lids delivers premium, fan-driven products and unforgettable retail experiences. <br><br>Our stores feature officially licensed headwear and apparel from collegiate and professional teams, alongside top brands like Champion, Nike, New Era, Lululemon Athletica, and Mitchell & Ness. We're also the industry leader in on-demand customization, offering in-store embroidery that turns everyday gear into one-of-a-kind statements. <br><br>From specialty concept stores for the NBA and NHL to iconic clubhouse destinations for the Yankees and Dodgers, we create immersive retail experiences that celebrate the teams fans love. Through collaborations with brands like Marvel, Peanuts, and The Walt Disney Company, Lids continues to redefine how fans represent their teams - in style. <br> <br>Position Summary <br>The Regional Loss Prevention Investigator (RLPI) is responsible for mitigating financial loss through comprehensive investigations, physical inventory audits, and policy compliance reviews. This role leverages advanced data analytics and surveillance technology to detect fraud, while providing essential training to field personnel to ensure strict adherence to corporate standards. <br><br>Principal Duties and Responsibilities <br>• <strong>Investigations:</strong> Lead internal and external investigations into theft, fraud, and policy violations, conducting professional interviews to reach successful resolutions. <br>• <strong>Compliance Auditing:</strong> Evaluate store records and operational procedures to ensure full compliance with company policies and applicable legal regulations. <br>• <strong>Data Analytics:</strong> Utilize POS exception-based reporting and analytics software to identify patterns of loss and potential asset exposure. <br>• <strong>Inventory Control:</strong> Execute full physical inventory audits to verify asset accountability and assess the accuracy of store accounting systems. <br>• <strong>Risk Mitigation:</strong> Conduct specialized studies to identify the mechanics of fraud and develop preventative controls to safeguard company property and funds. <br>• <strong>Reporting & Recommendations:</strong> Prepare detailed audit and investigative findings for Regional Directors, District Sales Managers, and HR, providing actionable recommendations for improvement. <br>• <strong>Cross-Functional Collaboration:</strong> Partner with HR, field leadership, and law enforcement agencies to resolve complex cases and ensure organizational alignment. <br>• <strong>Training & Support:</strong> Educate field personnel on loss prevention best practices, operational compliance, and corporate policy and procedures (SOPs). <br>• <strong>Customer Service:</strong> Maintain a professional demeanor and provide high-level service in alignment with Lids Sports Group (LSG) standards. <br>• <strong>Policy Adherence:</strong> Consistently support and model all company policies and performance guidelines. <br><br>Job Required Knowledge and Skills <br>• <strong>Qualifications:</strong> Bachelor's degree in business or a related field; OR an Associate's degree with 1+ years of relevant experience; OR an equivalent combination of education and professional experience. <br>• <strong>Certification:</strong> Professional Interview & Interrogation certification (e.g., Wicklander-Zulawski) required. <br>• <strong>Autonomy:</strong> Proven ability to work independently and manage a regional territory with minimal supervision. <br>• <strong>Communication:</strong> Exceptional interpersonal skills with the ability to communicate professionally and effectively at all levels of the organization. <br>• <strong>Technical Skills:</strong> Proficiency in computer operations, case management software, and security systems. <br>• <strong>Licensing:</strong> Must possess a valid driver's license and active auto insurance. <br><br>Physical Demands & Requirements <br><ul> <li>Ability to occasionally lift up to 50 pounds. </li><li>Ability to occasionally climb a ladder and work with hands overhead. </li><li>Ability to constantly stand on shift. </li><li>Ability to frequently walk on shift. </li><li>Ability to frequently hear and communicate verbally with customers, employees, and other personnel. </li><li>Ability to frequently visually observe the store and read written or digital information. </li><li>Ability to frequently operate a computer and mobile Point-of-Sale system, as well as maneuver relative software programs. </li><li>Reasonable accommodations may be made to enable individuals with disabilities to perform these essential functions. For inquires related to reasonable accommodations, please contact HR@Lids.com. </li></ul>What We Offer <ul> <li>Comprehensive medical, dental, and vision coverage </li><li>Retirement plan with company match </li><li>100% employer-paid benefits, including short-term and long-term disability, life and AD&D insurance, and an Employee Assistance Program </li><li>Paid Time Off </li><li>Generous employee discount and exclusive perks </li><li>Ongoing career development and professional training, including discounted secondary education and certification reimbursement </li><li>A collaborative, innovative, and team-oriented work environment </li><li>Early Wage Access options </li><li>Bonus eligibility depending on position level </li></ul>Work Environment <ul> <li>On the road! <strong>This role requires 100% travel. </strong> </li></ul> <br><br>Additional Information <br><br>Employment Requirements <br>Candidates must possess the experience, skills, physical abilities, and qualifications, with or without reasonable accommodation, to perform the essential duties of the role and must meet all applicable employment standards. Being legally authorized to work in the United States is a pre-condition of employment for this position. Current or future employment-based visa sponsorship is not available for this role. <br><br>Equal Employment Opportunity <br>We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law. <br><br>Notice to Applicants <br>In connection with your application, we collect information that identifies, reasonably relates to, or describes you (\"Personal Information\"). The categories of Personal Information we collect include your name, email address, mailing address, other contact information, employment history, and educational history. We collect and use this information for human resources and business management purposes, including identifying and evaluating candidates for employment or future contract opportunities, and maintaining recruiting and hiring records. <br> <br>Need Accessibility Assistance? <br>Applicants who require accessibility assistance to submit an employment application may email hr@lids.com. A member of our Talent team will respond as soon as reasonably possible. This email address is only for individuals seeking reasonable accommodation when applying for a career at Lids.",
+      "job_highlights": [
+        {
+          "items": [
+            "Qualifications: Bachelor's degree in business or a related field; OR an Associate's degree with 1+ years of relevant experience; OR an equivalent combination of education and professional experience",
+            "Certification: Professional Interview & Interrogation certification (e.g., Wicklander-Zulawski) required",
+            "Autonomy: Proven ability to work independently and manage a regional territory with minimal supervision",
+            "Communication: Exceptional interpersonal skills with the ability to communicate professionally and effectively at all levels of the organization",
+            "Technical Skills: Proficiency in computer operations, case management software, and security systems",
+            "Licensing: Must possess a valid driver's license and active auto insurance",
+            "Physical Demands & Requirements",
+            "Ability to occasionally lift up to 50 pounds",
+            "Ability to occasionally climb a ladder and work with hands overhead",
+            "Ability to constantly stand on shift",
+            "Ability to frequently walk on shift",
+            "Ability to frequently hear and communicate verbally with customers, employees, and other personnel",
+            "Ability to frequently visually observe the store and read written or digital information",
+            "Ability to frequently operate a computer and mobile Point-of-Sale system, as well as maneuver relative software programs",
+            "Reasonable accommodations may be made to enable individuals with disabilities to perform these essential functions",
+            "Candidates must possess the experience, skills, physical abilities, and qualifications, with or without reasonable accommodation, to perform the essential duties of the role and must meet all applicable employment standards",
+            "Being legally authorized to work in the United States is a pre-condition of employment for this position",
+            "14 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Comprehensive medical, dental, and vision coverage",
+            "Retirement plan with company match",
+            "100% employer-paid benefits, including short-term and long-term disability, life and AD&D insurance, and an Employee Assistance Program",
+            "Paid Time Off",
+            "Generous employee discount and exclusive perks",
+            "Ongoing career development and professional training, including discounted secondary education and certification reimbursement",
+            "A collaborative, innovative, and team-oriented work environment",
+            "Early Wage Access options",
+            "Bonus eligibility depending on position level",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Regional Loss Prevention Investigator (RLPI) is responsible for mitigating financial loss through comprehensive investigations, physical inventory audits, and policy compliance reviews",
+            "This role leverages advanced data analytics and surveillance technology to detect fraud, while providing essential training to field personnel to ensure strict adherence to corporate standards",
+            "Investigations: Lead internal and external investigations into theft, fraud, and policy violations, conducting professional interviews to reach successful resolutions",
+            "Compliance Auditing: Evaluate store records and operational procedures to ensure full compliance with company policies and applicable legal regulations",
+            "Data Analytics: Utilize POS exception-based reporting and analytics software to identify patterns of loss and potential asset exposure",
+            "Inventory Control: Execute full physical inventory audits to verify asset accountability and assess the accuracy of store accounting systems",
+            "Risk Mitigation: Conduct specialized studies to identify the mechanics of fraud and develop preventative controls to safeguard company property and funds",
+            "Reporting & Recommendations: Prepare detailed audit and investigative findings for Regional Directors, District Sales Managers, and HR, providing actionable recommendations for improvement",
+            "Cross-Functional Collaboration: Partner with HR, field leadership, and law enforcement agencies to resolve complex cases and ensure organizational alignment",
+            "Training & Support: Educate field personnel on loss prevention best practices, operational compliance, and corporate policy and procedures (SOPs)",
+            "Customer Service: Maintain a professional demeanor and provide high-level service in alignment with Lids Sports Group (LSG) standards",
+            "Policy Adherence: Consistently support and model all company policies and performance guidelines",
+            "9 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "d75fa884f96c",
       "title": "Loss Prevention Clerk",
       "company": "Costco Wholesale",
@@ -486,160 +623,6 @@
             "Offer support for investigations by interviewing relevant parties as necessary",
             "Ensure strict compliance with the company's safety and security protocols",
             "11 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "43cd02a41f51",
-      "title": "Loss Prevention Officer",
-      "company": "Marriott International, Inc",
-      "location": "Grand Prairie, TX",
-      "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "$20.50-$21.00 per hour",
-      "pay_min": 20.5,
-      "pay_max": 21.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-12",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/grand-prairie-tx/loss-prevention-officer-285884/",
-      "via": "via Women For Hire- Job Board",
-      "description": "<b>Additional Information</b>Overnight Shift<br /><b>Job Number</b>26099779<br /><b>Job Category</b>Loss Prevention & Security<br /><b>Location</b>2222 N Stemmons Fwy, Dallas, Texas, United States, 75207VIEW ON MAP<br /><b>Schedule</b>Full Time<br /><b>Located Remotely?</b>N<br /><b>Position Type</b> Non-Management<br /><strong>Pay Range:</strong> $20.50-$21.00 per hour<div><p></p><div> <p><strong>POSITION SUMMARY</strong></p>  <p>Patrol all areas of the property; assist guests with room access. Monitor Closed Circuit Televisions, perimeter alarm system, duress alarms, and fire life safety system. Lock property entrances when required. Conduct daily physical hazard inspections. Respond to accidents, contact EMS or administer first aid/CPR as required. Assist guests/employees during emergency situations. Notify appropriate individuals in the event of accidents, attacks, or other incidents. Defuse guest/employee disturbances. Call for outside assistance if necessary. Complete incident reports to document all Security/Loss Prevention related incidents. Handle all interruptions and complaints. Resolve safety hazard situations. Escort any unwelcome persons from the property without interrupting the orderly flow of property operation. Report to scenes of vehicle accidents/thefts. Call for assistance using proper code responses. Complete a Loss Prevention shift summary/daily activity report. Maintain confidentiality of all Security/Loss Prevention and property reports/documents; release information only to authorized individuals. Conduct investigations and gather evidence. Conduct interviews with relevant parties.</p>  <p>Follow all company policies and procedures; report accidents, injuries, and unsafe work conditions to manager; complete safety training and certifications; ensure uniform and personal appearance are clean and professional; maintain confidentiality of proprietary information; protect company assets. Welcome and acknowledge all guests according to company standards; anticipate and address guests’ service needs; assist individuals with disabilities; thank guests with genuine appreciation. Speak with others using clear and professional language; prepare and review written documents accurately and completely. Develop and maintain positive working relationships with others; support team to reach common goals. Comply with quality assurance expectations and standards. Stand, sit, or walk for an extended period of time. In addition, some states may have additional licensing/registration requirements to be considered for this position. Read and visually verify information in a variety of formats (e.g., small print). Visually inspect tools, equipment, or machines (e.g., to identify defects). Enter and locate work-related information using computers and/or point of sale systems. Move at a speed required to respond to work situations (e.g., run, walk, jog). Stand, sit, or walk for an extended period of time or for an entire work shift. Move, lift, carry, push, pull, and place objects weighing less than or equal to 50 pounds without assistance and objects weighing in excess of 75 pounds with assistance. Grasp, turn, and manipulate objects of varying size and weight, requiring fine motor skills and hand-eye coordination. Move through narrow, confined, or elevated spaces. Move over sloping, uneven, or slippery surfaces as well as up and down stairs and/or service ramps. Reach overhead and below the knees, including bending, twisting, pulling, and stooping. Perform other reasonable job duties as requested by Supervisors.</p>  <p>PREFERRED QUALIFICATIONS</p> <p>Education: High school diploma or G.E.D. equivalent.</p> <p>Related Work Experience: No related work experience.</p> <p>Supervisory Experience: No supervisory experience.</p> <p>License or Certification: None</p>  <p><strong> </strong></p></div><em>At Marriott International, we are dedicated to being an equal opportunity employer, welcoming all and providing access to opportunity. We actively foster an environment where the unique backgrounds of our associates are valued and celebrated. Our greatest strength lies in the rich blend of culture, talent, and experiences of our associates. We are committed to non-discrimination on any protected basis, including disability, veteran status, or other basis protected by applicable law.</em><p></p><p>At Renaissance Hotels, we believe in helping our guests experience the DNA of the neighborhoods they are visiting. Our guests come to discover and uncover the unexpected, to dive into a new culture, or simply to make the most of a free evening. They see business travel as an adventure because they see all travel as an adventure. Where others may settle for the usual, our guests see a chance to bring home a great story. And so do we. We’re looking for fellow spontaneous explorers to join our team to bring the spirit of the neighborhood to our guests. If this sounds like you, we invite you to discover career opportunities with Renaissance Hotels. In joining Renaissance Hotels, you join a portfolio of brands with Marriott International. <b>Be</b> where you can do your best work,​ <b>begin</b> your purpose, <b>belong</b> to an amazing global​ team, and <b>become</b> the best version of you.</p></div>",
-      "job_highlights": [
-        {
-          "items": [
-            "In addition, some states may have additional licensing/registration requirements to be considered for this position",
-            "Stand, sit, or walk for an extended period of time or for an entire work shift",
-            "Move, lift, carry, push, pull, and place objects weighing less than or equal to 50 pounds without assistance and objects weighing in excess of 75 pounds with assistance",
-            "Grasp, turn, and manipulate objects of varying size and weight, requiring fine motor skills and hand-eye coordination",
-            "Move through narrow, confined, or elevated spaces",
-            "Move over sloping, uneven, or slippery surfaces as well as up and down stairs and/or service ramps",
-            "Education: High school diploma or G.E.D",
-            "Related Work Experience: No related work experience",
-            "Supervisory Experience: No supervisory experience",
-            "License or Certification: None",
-            "7 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Additional InformationOvernight Shift",
-            "Pay Range: $20.50-$21.00 per hour"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Patrol all areas of the property; assist guests with room access",
-            "Monitor Closed Circuit Televisions, perimeter alarm system, duress alarms, and fire life safety system",
-            "Lock property entrances when required",
-            "Conduct daily physical hazard inspections",
-            "Respond to accidents, contact EMS or administer first aid/CPR as required",
-            "Assist guests/employees during emergency situations",
-            "Notify appropriate individuals in the event of accidents, attacks, or other incidents",
-            "Defuse guest/employee disturbances",
-            "Call for outside assistance if necessary",
-            "Complete incident reports to document all Security/Loss Prevention related incidents",
-            "Handle all interruptions and complaints",
-            "Resolve safety hazard situations",
-            "Escort any unwelcome persons from the property without interrupting the orderly flow of property operation",
-            "Report to scenes of vehicle accidents/thefts",
-            "Call for assistance using proper code responses",
-            "Complete a Loss Prevention shift summary/daily activity report",
-            "Maintain confidentiality of all Security/Loss Prevention and property reports/documents; release information only to authorized individuals",
-            "Conduct investigations and gather evidence",
-            "Conduct interviews with relevant parties",
-            "Follow all company policies and procedures; report accidents, injuries, and unsafe work conditions to manager; complete safety training and certifications; ensure uniform and personal appearance are clean and professional; maintain confidentiality of proprietary information; protect company assets",
-            "Welcome and acknowledge all guests according to company standards; anticipate and address guests’ service needs; assist individuals with disabilities; thank guests with genuine appreciation",
-            "Speak with others using clear and professional language; prepare and review written documents accurately and completely",
-            "Develop and maintain positive working relationships with others; support team to reach common goals",
-            "Comply with quality assurance expectations and standards",
-            "Stand, sit, or walk for an extended period of time",
-            "Read and visually verify information in a variety of formats (e.g., small print)",
-            "Visually inspect tools, equipment, or machines (e.g., to identify defects)",
-            "Enter and locate work-related information using computers and/or point of sale systems",
-            "Move at a speed required to respond to work situations (e.g., run, walk, jog)",
-            "Reach overhead and below the knees, including bending, twisting, pulling, and stooping",
-            "Perform other reasonable job duties as requested by Supervisors",
-            "28 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "725a97d49df0",
-      "title": "Loss Prevention Officer Job at Marriott International, Inc in Highland Park",
-      "company": "Marriott International, Inc",
-      "location": "Highland Park, TX",
-      "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "$19.50-$20.00 per hour",
-      "pay_min": 19.5,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-12",
-      "apply_link": "http://petersonresearch.com.au/wp-job/job/loss-prevention-officer-at-marriott-international-inc-highland-park-tx-WXBTZnhQZGw2MytHdi9tTGdRWXJJZDNWS1E9PQ==",
-      "via": "via Recruit.net",
-      "description": "Additional Information Job Number 26099774 Job Category Loss Prevention & Security Location 2222 N Stemmons Fwy, Dallas, Texas, United States, 75207 VIEW ON MAP Schedule Full Time Located Remotely?<br />N Position Type Non-Management Pay Range: $19.50-$20.00 per hour POSITION SUMMARY Patrol all areas of the property; assist guests with room access.<br />Monitor Closed Circuit Televisions, perimeter alarm system, duress alarms, and fire life safety system.<br />Lock property entrances when required.<br />Conduct daily physical hazard inspections.<br />Respond to accidents, contact EMS or administer first aid/CPR as required.<br />Assist guests/employees during emergency situations.<br />Notify appropriate individuals in the event of accidents, attacks, or other incidents.<br />Defuse guest/employee disturbances.<br />Call for outside assistance if necessary.<br />Complete incident reports to document all Security/Loss Prevention related incidents.<br />Handle all interruptions and complaints.<br />Resolve safety hazard situations.<br />Escort any unwelcome persons from the property without interrupting the orderly flow of property operation.<br />Report to scenes of vehicle accidents/thefts.<br />Call for assistance using proper code responses.<br />Complete a Loss Prevention shift summary/daily activity report.<br />- Maintain confidentiality of all Security/Loss Prevention and property reports/documents; release information only to authorized individuals.<br />Conduct investigations and gather evidence.<br />Conduct interviews with relevant parties.<br />- Follow all company policies and procedures; report accidents, injuries, and unsafe work conditions to manager; complete safety training and certifications; ensure uniform and personal appearance are clean and professional; maintain confidentiality of proprietary information; protect company assets.<br />Welcome and acknowledge all guests according to company standards; anticipate and address guests’ service needs; assist individuals with disabilities; thank guests with genuine appreciation.<br />Speak with others using clear and professional language; prepare and review written documents accurately and completely.<br />Develop and maintain positive working relationships with others; support team to reach common goals.<br />Comply with quality assurance expectations and standards.<br />Stand, sit, or walk for an extended period of time.<br />In addition, some states may have additional licensing/registration requirements to be considered for this position.<br />Read and visually verify information in a variety of formats (e.g., small print). Visually inspect tools, equipment, or machines (e.g., to identify defects). Enter and locate work-related information using computers and/or point of sale systems.<br />Move at a speed required to respond to work situations (e.g., run, walk, jog). Stand, sit, or walk for an extended period of time or for an entire work shift.<br />Move, lift, carry, push, pull, and place objects weighing less than or equal to 50 pounds without assistance and objects weighing in excess of 75 pounds with assistance.<br />Grasp, turn, and manipulate objects of varying size and weight, requiring fine motor skills and hand-eye coordination.<br />Move through narrow, confined, or elevated spaces.<br />Move over sloping, uneven, or slippery surfaces as well as up and down stairs and/or service ramps.<br />Reach overhead and below the knees, including bending, twisting, pulling, and stooping.<br />- Perform other reasonable job duties as requested by Supervisors.<br />PREFERRED QUALIFICATIONS Education: High school diploma or G.E.D. equivalent.<br />Related Work Experience: No related work experience.<br />Supervisory Experience: No supervisory experience.<br />License or Certification: None At Marriott International, we are dedicated to being an equal opportunity employer, welcoming all and providing access to opportunity.<br />We actively foster an environment where the unique backgrounds of our associates are valued and celebrated.<br />Our greatest strength lies in the rich blend of culture, talent, and experiences of our associates.<br />We are committed to non-discrimination on any protected basis, including disability, veteran status, or other basis protected by applicable law.<br />At Renaissance Hotels, we believe in helping our guests experience the DNA of the neighborhoods they are visiting.<br />Our guests come to discover and uncover the unexpected, to dive into a new culture, or simply to make the most of a free evening.<br />They see business travel as an adventure because they see all travel as an adventure.<br />Where others may settle for the usual, our guests see a chance to bring home a great story.<br />And so do we.<br />We’re looking for fellow spontaneous explorers to join our team to bring the spirit of the neighborhood to our guests.<br />If this sounds like you, we invite you to discover career opportunities with Renaissance Hotels.<br />In joining Renaissance Hotels, you join a portfolio of brands with Marriott International.<br />Be where you can do your best work, begin your purpose, belong to an amazing global team, and become the best version of you.",
-      "job_highlights": [
-        {
-          "items": [
-            "In addition, some states may have additional licensing/registration requirements to be considered for this position",
-            "Stand, sit, or walk for an extended period of time or for an entire work shift",
-            "Move, lift, carry, push, pull, and place objects weighing less than or equal to 50 pounds without assistance and objects weighing in excess of 75 pounds with assistance",
-            "Grasp, turn, and manipulate objects of varying size and weight, requiring fine motor skills and hand-eye coordination",
-            "Move over sloping, uneven, or slippery surfaces as well as up and down stairs and/or service ramps",
-            "Related Work Experience: No related work experience",
-            "Supervisory Experience: No supervisory experience",
-            "4 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "N Position Type Non-Management Pay Range: $19.50-$20.00 per hour POSITION SUMMARY Patrol all areas of the property; assist guests with room access"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Monitor Closed Circuit Televisions, perimeter alarm system, duress alarms, and fire life safety system",
-            "Lock property entrances when required",
-            "Conduct daily physical hazard inspections",
-            "Respond to accidents, contact EMS or administer first aid/CPR as required",
-            "Assist guests/employees during emergency situations",
-            "Notify appropriate individuals in the event of accidents, attacks, or other incidents",
-            "Defuse guest/employee disturbances",
-            "Call for outside assistance if necessary",
-            "Complete incident reports to document all Security/Loss Prevention related incidents",
-            "Handle all interruptions and complaints",
-            "Resolve safety hazard situations",
-            "Escort any unwelcome persons from the property without interrupting the orderly flow of property operation",
-            "Report to scenes of vehicle accidents/thefts",
-            "Call for assistance using proper code responses",
-            "Complete a Loss Prevention shift summary/daily activity report",
-            "Maintain confidentiality of all Security/Loss Prevention and property reports/documents; release information only to authorized individuals",
-            "Conduct investigations and gather evidence",
-            "Conduct interviews with relevant parties",
-            "Follow all company policies and procedures; report accidents, injuries, and unsafe work conditions to manager; complete safety training and certifications; ensure uniform and personal appearance are clean and professional; maintain confidentiality of proprietary information; protect company assets",
-            "Welcome and acknowledge all guests according to company standards; anticipate and address guests’ service needs; assist individuals with disabilities; thank guests with genuine appreciation",
-            "Speak with others using clear and professional language; prepare and review written documents accurately and completely",
-            "Develop and maintain positive working relationships with others; support team to reach common goals",
-            "Comply with quality assurance expectations and standards",
-            "Stand, sit, or walk for an extended period of time",
-            "Read and visually verify information in a variety of formats (e.g., small print)",
-            "Visually inspect tools, equipment, or machines (e.g., to identify defects)",
-            "Enter and locate work-related information using computers and/or point of sale systems",
-            "Move at a speed required to respond to work situations (e.g., run, walk, jog)",
-            "Move through narrow, confined, or elevated spaces",
-            "Reach overhead and below the knees, including bending, twisting, pulling, and stooping",
-            "Perform other reasonable job duties as requested by Supervisors",
-            "28 more items(s)"
           ],
           "title": "Responsibilities"
         }

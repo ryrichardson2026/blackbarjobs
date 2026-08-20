@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "houston/jobs/loss-prevention-houston",
   "market": "Houston",
   "target": "city-role",
@@ -143,74 +143,6 @@
       ]
     },
     {
-      "job_hash": "7a65fbc13d16",
-      "title": "Loss Prevention Investigator – Fast-Paced Distribution Center",
-      "company": "Saks Fifth Avenue Llc",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "23K–35K a year",
-      "pay_min": 23000.0,
-      "pay_max": 35000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://us.jobrapido.com/jobpreview/1265550233748635648",
-      "via": "via JobLeads",
-      "description": "<p>Saks Global is hiring an Asset Protection Investigator to join our on-site team at the distribution center. You will monitor for internal and external theft, conduct investigations, and prepare reports to protect merchandise and ensure safety.</p><p>This role emphasizes quick response, strong observation, and clear written communication. We offer a competitive hourly wage, comprehensive benefits including medical, dental, vision, 401(k), life and disability insurance, plus employee discounts.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "We offer a competitive hourly wage, comprehensive benefits including medical, dental, vision, 401(k), life and disability insurance, plus employee discounts"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You will monitor for internal and external theft, conduct investigations, and prepare reports to protect merchandise and ensure safety",
-            "This role emphasizes quick response, strong observation, and clear written communication"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "6bf644bacd9e",
-      "title": "Security/Loss Prevention Officer",
-      "company": "Spriggs Inc.",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "retail",
-      "pay": "22–23 an hour",
-      "pay_min": 22.0,
-      "pay_max": 23.0,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=b8688a2a1d6d712f",
-      "via": "via Indeed",
-      "description": "<p>Looking for Part time/flex guard for mainly weekends (Friday-Sunday).</p>\n<p>Looking for Security/Loss Prevention Officer for a High-End Retail Store . Must have black suit with white shirt and tie with dress shoes. Must have Texas DPS level 2 completed. Looking for experienced officer that is clean cut and professional. Expereinced guards are preferred along with police and military experience.</p>\n<p>Pay start range is between $22.00-$23.00 an hour.</p>\n<p>Pay: $22.00 - $23.00 per hour</p>\n<p>Education:</p>\n<ul>\n <li>High school or equivalent (Preferred)</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Security Guards: 8 years (Preferred)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Level 2 Texas DPS (Required)</li>\n</ul>\n<p>Work Location: In person</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Must have black suit with white shirt and tie with dress shoes",
-            "Must have Texas DPS level 2 completed",
-            "Looking for experienced officer that is clean cut and professional",
-            "Level 2 Texas DPS (Required)",
-            "1 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Pay start range is between $22.00-$23.00 an hour",
-            "Pay: $22.00 - $23.00 per hour"
-          ],
-          "title": "Benefits"
-        }
-      ]
-    },
-    {
       "job_hash": "9a8a562c0a8d",
       "title": "Asset Loss Prevention Officer - Flex",
       "company": "Metro One LPSG",
@@ -257,6 +189,108 @@
             "Observe, survey, and provide reporting on activity at your assigned location",
             "Provide rapid response in critical situations",
             "1 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "6bf644bacd9e",
+      "title": "Security/Loss Prevention Officer",
+      "company": "Spriggs Inc.",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "retail",
+      "pay": "22–23 an hour",
+      "pay_min": 22.0,
+      "pay_max": 23.0,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=b8688a2a1d6d712f",
+      "via": "via Indeed",
+      "description": "<p>Looking for Part time/flex guard for mainly weekends (Friday-Sunday).</p>\n<p>Looking for Security/Loss Prevention Officer for a High-End Retail Store . Must have black suit with white shirt and tie with dress shoes. Must have Texas DPS level 2 completed. Looking for experienced officer that is clean cut and professional. Expereinced guards are preferred along with police and military experience.</p>\n<p>Pay start range is between $22.00-$23.00 an hour.</p>\n<p>Pay: $22.00 - $23.00 per hour</p>\n<p>Education:</p>\n<ul>\n <li>High school or equivalent (Preferred)</li>\n</ul>\n<p>Experience:</p>\n<ul>\n <li>Security Guards: 8 years (Preferred)</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Level 2 Texas DPS (Required)</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have black suit with white shirt and tie with dress shoes",
+            "Must have Texas DPS level 2 completed",
+            "Looking for experienced officer that is clean cut and professional",
+            "Level 2 Texas DPS (Required)",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay start range is between $22.00-$23.00 an hour",
+            "Pay: $22.00 - $23.00 per hour"
+          ],
+          "title": "Benefits"
+        }
+      ]
+    },
+    {
+      "job_hash": "be372d8688b1",
+      "title": "Asset Protection Associate - Memorial City",
+      "company": "JCPenney",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "retail",
+      "pay": "$14.50/Hr",
+      "pay_min": 14.5,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=f91e3eecfcaff12b",
+      "via": "via LinkedIn",
+      "description": "Shrink<br><br><ul><li>Observes activities to detect theft, fraud, or suspicious activity; collects investigative evidence utilizing CCTV and observations from the sales floor. Follows AP Directives and Company policy when making apprehensions.</li><li>Executes required Company investigation routines to identify and resolve theft, and properly documents all stages</li><li>Conducts external interviews in accordance with local laws and Company policy with customers and contractors suspected of theft.</li><li>Reports suspected fraud (i.e., credit / check and refund fraud) and infractions of company policy to AP and/or Store leadership</li><li>Creates and manages records using approved Company methods for reporting apprehension, witness statements, retention of evidence, and disposition of recovered merchandise.</li><li>Based on direction from Asset Protection leadership, will collect evidence and/or monitor associate activity as needed regarding internal investigations and/or serve as an interview witness.</li><li>Proactively identifies potential acts of theft and fraud by observing associate/customer activity, exception reports and referrals.</li><li>Investigates suspicious behavior (collects intelligence, documents behavior, etc.).</li><li>Attends court hearings as required and updates appropriate files with related outcomes; maintains professional relationship with local law enforcement.</li><li>Travels to stores as necessary.</li><li>Analyzes intelligence on individuals and booster groups involved in theft.<br><br></li></ul>Safe and Secure<br><br><ul><li>Supports a safety culture through impressions of control, coaching, and recognition.</li><li>Provides support by aiding store leadership in morning meetings to communicate current shrinkage and safety topics to associates</li><li>Provides support by walking the store to identify potential hazards that could result in customer or associate injury; Takes initiative to correct minor hazards on floor while reporting larger concerns or consistent issues to leadership.</li><li>Provides emergency or critical incident response. </li><li>Assists with incident investigations and completes associated reports.</li><li>May assist with Asset Protection audits.</li><li>Coaches associates on keeping work areas and sales floor free of hazards to reduce risk of accidents.</li><li>Supports stores in cases of critical incidents, business disruptions, natural disasters, etc.<br><br></li></ul>Performance Standards<br><br><ul><li>Consistently meets established performance standards for the role, including but not limited to service, productivity, and attendance.<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>AP Associates designated as a part of our AP Shared Services staffing model will require reliable transportation; ability to travel to designated stores, as assigned.</li><li>1+ years retail work experience/Asset Protection/Security or equivalent leadership experience/education preferred.</li><li>High School diploma or equivalent work experience, AA/BA/BS in Criminal Justice or Business Management preferred.</li><li>Must be age 18+.<br><br></li></ul><strong>What You Get<br><br></strong>If eligible, we offer a competitive benefits package including medical/dental/vision, term life insurance, paid vacation/holidays*, and 401(k) with Company match. All associates are eligible for an associate discount on JCPenney merchandise. For paid holidays, associates who are eligible for paid vacation (MTO) are also eligible for eight paid holidays during the calendar year. All store hourly associates scheduled to work on a designated holiday will receive additional compensation. *For paid vacation days, as well as eligibility requirements for other benefits, please visit www.catalystbrandsbenefits.com<br><br><em>This position profile should be used as a guide and may not be inclusive of all position expectations and responsibilities.<br><br></em><strong><strong>Pay Range<br><br></strong></strong>USD $14.50/Hr -USD $18.13/Hr.",
+      "job_highlights": [
+        {
+          "items": [
+            "Safe and Secure",
+            "AP Associates designated as a part of our AP Shared Services staffing model will require reliable transportation; ability to travel to designated stores, as assigned",
+            "Must be age 18+"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "If eligible, we offer a competitive benefits package including medical/dental/vision, term life insurance, paid vacation/holidays*, and 401(k) with Company match",
+            "All associates are eligible for an associate discount on JCPenney merchandise",
+            "For paid holidays, associates who are eligible for paid vacation (MTO) are also eligible for eight paid holidays during the calendar year",
+            "All store hourly associates scheduled to work on a designated holiday will receive additional compensation",
+            "*For paid vacation days, as well as eligibility requirements for other benefits, please visit www.catalystbrandsbenefits.com",
+            "USD $14.50/Hr -USD $18.13/Hr",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Observes activities to detect theft, fraud, or suspicious activity; collects investigative evidence utilizing CCTV and observations from the sales floor",
+            "Follows AP Directives and Company policy when making apprehensions",
+            "Executes required Company investigation routines to identify and resolve theft, and properly documents all stages",
+            "Conducts external interviews in accordance with local laws and Company policy with customers and contractors suspected of theft",
+            "Reports suspected fraud (i.e., credit / check and refund fraud) and infractions of company policy to AP and/or Store leadership",
+            "Creates and manages records using approved Company methods for reporting apprehension, witness statements, retention of evidence, and disposition of recovered merchandise",
+            "Based on direction from Asset Protection leadership, will collect evidence and/or monitor associate activity as needed regarding internal investigations and/or serve as an interview witness",
+            "Proactively identifies potential acts of theft and fraud by observing associate/customer activity, exception reports and referrals",
+            "Investigates suspicious behavior (collects intelligence, documents behavior, etc.)",
+            "Attends court hearings as required and updates appropriate files with related outcomes; maintains professional relationship with local law enforcement",
+            "Travels to stores as necessary",
+            "Analyzes intelligence on individuals and booster groups involved in theft",
+            "Supports a safety culture through impressions of control, coaching, and recognition",
+            "Provides support by aiding store leadership in morning meetings to communicate current shrinkage and safety topics to associates",
+            "Provides support by walking the store to identify potential hazards that could result in customer or associate injury; Takes initiative to correct minor hazards on floor while reporting larger concerns or consistent issues to leadership",
+            "Provides emergency or critical incident response",
+            "Assists with incident investigations and completes associated reports",
+            "May assist with Asset Protection audits",
+            "Coaches associates on keeping work areas and sales floor free of hazards to reduce risk of accidents",
+            "Supports stores in cases of critical incidents, business disruptions, natural disasters, etc",
+            "Consistently meets established performance standards for the role, including but not limited to service, productivity, and attendance",
+            "18 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -357,66 +391,53 @@
       ]
     },
     {
-      "job_hash": "be372d8688b1",
-      "title": "Asset Protection Associate - Memorial City",
-      "company": "JCPenney",
+      "job_hash": "2bc3be4ac4a3",
+      "title": "Part-Time Loss Prevention Team Member",
+      "company": "Key-Comm International",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "retail",
-      "pay": "$14.50/Hr",
-      "pay_min": 14.5,
+      "role": "loss-prevention",
+      "pay": null,
+      "pay_min": null,
       "pay_max": null,
-      "pay_unit": "HOUR",
+      "pay_unit": null,
       "schedule": "Part-time",
       "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=f91e3eecfcaff12b",
-      "via": "via LinkedIn",
-      "description": "Shrink<br><br><ul><li>Observes activities to detect theft, fraud, or suspicious activity; collects investigative evidence utilizing CCTV and observations from the sales floor. Follows AP Directives and Company policy when making apprehensions.</li><li>Executes required Company investigation routines to identify and resolve theft, and properly documents all stages</li><li>Conducts external interviews in accordance with local laws and Company policy with customers and contractors suspected of theft.</li><li>Reports suspected fraud (i.e., credit / check and refund fraud) and infractions of company policy to AP and/or Store leadership</li><li>Creates and manages records using approved Company methods for reporting apprehension, witness statements, retention of evidence, and disposition of recovered merchandise.</li><li>Based on direction from Asset Protection leadership, will collect evidence and/or monitor associate activity as needed regarding internal investigations and/or serve as an interview witness.</li><li>Proactively identifies potential acts of theft and fraud by observing associate/customer activity, exception reports and referrals.</li><li>Investigates suspicious behavior (collects intelligence, documents behavior, etc.).</li><li>Attends court hearings as required and updates appropriate files with related outcomes; maintains professional relationship with local law enforcement.</li><li>Travels to stores as necessary.</li><li>Analyzes intelligence on individuals and booster groups involved in theft.<br><br></li></ul>Safe and Secure<br><br><ul><li>Supports a safety culture through impressions of control, coaching, and recognition.</li><li>Provides support by aiding store leadership in morning meetings to communicate current shrinkage and safety topics to associates</li><li>Provides support by walking the store to identify potential hazards that could result in customer or associate injury; Takes initiative to correct minor hazards on floor while reporting larger concerns or consistent issues to leadership.</li><li>Provides emergency or critical incident response. </li><li>Assists with incident investigations and completes associated reports.</li><li>May assist with Asset Protection audits.</li><li>Coaches associates on keeping work areas and sales floor free of hazards to reduce risk of accidents.</li><li>Supports stores in cases of critical incidents, business disruptions, natural disasters, etc.<br><br></li></ul>Performance Standards<br><br><ul><li>Consistently meets established performance standards for the role, including but not limited to service, productivity, and attendance.<br><br></li></ul><strong>Requirements<br><br></strong><ul><li>AP Associates designated as a part of our AP Shared Services staffing model will require reliable transportation; ability to travel to designated stores, as assigned.</li><li>1+ years retail work experience/Asset Protection/Security or equivalent leadership experience/education preferred.</li><li>High School diploma or equivalent work experience, AA/BA/BS in Criminal Justice or Business Management preferred.</li><li>Must be age 18+.<br><br></li></ul><strong>What You Get<br><br></strong>If eligible, we offer a competitive benefits package including medical/dental/vision, term life insurance, paid vacation/holidays*, and 401(k) with Company match. All associates are eligible for an associate discount on JCPenney merchandise. For paid holidays, associates who are eligible for paid vacation (MTO) are also eligible for eight paid holidays during the calendar year. All store hourly associates scheduled to work on a designated holiday will receive additional compensation. *For paid vacation days, as well as eligibility requirements for other benefits, please visit www.catalystbrandsbenefits.com<br><br><em>This position profile should be used as a guide and may not be inclusive of all position expectations and responsibilities.<br><br></em><strong><strong>Pay Range<br><br></strong></strong>USD $14.50/Hr -USD $18.13/Hr.",
+      "apply_link": "https://www.ziprecruiter.com/c/Key-Comm-International/Job/Part-Time-Loss-Prevention-Team-Member/-in-Houston,TX?jid=a9e6c98a7ca355d6",
+      "via": "via ZipRecruiter",
+      "description": "<strong>Part-Time Loss Prevention Support Description</strong>\n<br>\n<br>\nThe Loss Prevention Team Member role enjoys supporting a dynamic and high energy environment. They will be responsible for supporting all our company-owned retail stores with compliance to our Brand Operating Standards and being a key role in bringing our Un-Carrier Experience alive for our customers. You'll take pride in your work and work closely with our Corporate HR, Talent and Sales Leadership Team to plan and execute Brand Operating Standards with Excellence. The Store Loss Prevention Support Team exemplifies the KCI Wireless values of Making It Dope, Think Big and Make an Impact!\n<br>\n<br><strong>Responsibilities:</strong>\n<br>\n<ul>\n <li>Prevent loss and control shrink by performing preventative tasks and monitoring loss, company policy enforcement and programs throughout the company.</li>\n <li>Monitor store budgets and help reduce labor costs</li>\n <li>Assist in other areas related to operations and loss prevention as required by their Loss Prevention Support Team Manager.</li>\n <li>Provide a safe and secure store environment for KCI customers, associates, and vendors.</li>\n <li>Conduct surveillance on the sales floor as well as utilizing the CCTV system to identify, observe and apprehend or deter individual(s) from committing theft.</li>\n <li>Identify and report to KCI leadership of any potential internal theft opportunities.</li>\n <li>Monitor Alarm Systems.</li>\n <li>Manage safety and loss prevention control meetings.</li>\n <li>Ability to respond well to emergency situations.</li>\n <li>Train other employees in operation control methods.</li>\n</ul>\n<br>\n<br><strong>Job Qualifications:</strong>\n<br>\n<ul>\n <li>Strong written, verbal, interviewing, listening and interpersonal communication skills.</li>\n <li>Basic computer skills required.</li>\n <li>1 year of asset protection/loss prevention experience in a retail environment.</li>\n <li>High School graduate or equivalent</li>\n <li>General operating knowledge of retail CCTV systems</li>\n <li>Able to work flexible hours including days and nights, weekends and holidays appropriate to the business needs.</li>\n <li>Consistent and reliable attendance.</li>\n <li>Willing to work additional hours as necessary</li>\n <li>Open availability</li>\n</ul>",
       "job_highlights": [
         {
           "items": [
-            "Safe and Secure",
-            "AP Associates designated as a part of our AP Shared Services staffing model will require reliable transportation; ability to travel to designated stores, as assigned",
-            "Must be age 18+"
+            "Strong written, verbal, interviewing, listening and interpersonal communication skills",
+            "Basic computer skills required",
+            "1 year of asset protection/loss prevention experience in a retail environment",
+            "High School graduate or equivalent",
+            "General operating knowledge of retail CCTV systems",
+            "Able to work flexible hours including days and nights, weekends and holidays appropriate to the business needs",
+            "Consistent and reliable attendance",
+            "Willing to work additional hours as necessary",
+            "Open availability",
+            "6 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "If eligible, we offer a competitive benefits package including medical/dental/vision, term life insurance, paid vacation/holidays*, and 401(k) with Company match",
-            "All associates are eligible for an associate discount on JCPenney merchandise",
-            "For paid holidays, associates who are eligible for paid vacation (MTO) are also eligible for eight paid holidays during the calendar year",
-            "All store hourly associates scheduled to work on a designated holiday will receive additional compensation",
-            "*For paid vacation days, as well as eligibility requirements for other benefits, please visit www.catalystbrandsbenefits.com",
-            "USD $14.50/Hr -USD $18.13/Hr",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Observes activities to detect theft, fraud, or suspicious activity; collects investigative evidence utilizing CCTV and observations from the sales floor",
-            "Follows AP Directives and Company policy when making apprehensions",
-            "Executes required Company investigation routines to identify and resolve theft, and properly documents all stages",
-            "Conducts external interviews in accordance with local laws and Company policy with customers and contractors suspected of theft",
-            "Reports suspected fraud (i.e., credit / check and refund fraud) and infractions of company policy to AP and/or Store leadership",
-            "Creates and manages records using approved Company methods for reporting apprehension, witness statements, retention of evidence, and disposition of recovered merchandise",
-            "Based on direction from Asset Protection leadership, will collect evidence and/or monitor associate activity as needed regarding internal investigations and/or serve as an interview witness",
-            "Proactively identifies potential acts of theft and fraud by observing associate/customer activity, exception reports and referrals",
-            "Investigates suspicious behavior (collects intelligence, documents behavior, etc.)",
-            "Attends court hearings as required and updates appropriate files with related outcomes; maintains professional relationship with local law enforcement",
-            "Travels to stores as necessary",
-            "Analyzes intelligence on individuals and booster groups involved in theft",
-            "Supports a safety culture through impressions of control, coaching, and recognition",
-            "Provides support by aiding store leadership in morning meetings to communicate current shrinkage and safety topics to associates",
-            "Provides support by walking the store to identify potential hazards that could result in customer or associate injury; Takes initiative to correct minor hazards on floor while reporting larger concerns or consistent issues to leadership",
-            "Provides emergency or critical incident response",
-            "Assists with incident investigations and completes associated reports",
-            "May assist with Asset Protection audits",
-            "Coaches associates on keeping work areas and sales floor free of hazards to reduce risk of accidents",
-            "Supports stores in cases of critical incidents, business disruptions, natural disasters, etc",
-            "Consistently meets established performance standards for the role, including but not limited to service, productivity, and attendance",
-            "18 more items(s)"
+            "The Loss Prevention Team Member role enjoys supporting a dynamic and high energy environment",
+            "They will be responsible for supporting all our company-owned retail stores with compliance to our Brand Operating Standards and being a key role in bringing our Un-Carrier Experience alive for our customers",
+            "You'll take pride in your work and work closely with our Corporate HR, Talent and Sales Leadership Team to plan and execute Brand Operating Standards with Excellence",
+            "Prevent loss and control shrink by performing preventative tasks and monitoring loss, company policy enforcement and programs throughout the company",
+            "Monitor store budgets and help reduce labor costs",
+            "Assist in other areas related to operations and loss prevention as required by their Loss Prevention Support Team Manager",
+            "Provide a safe and secure store environment for KCI customers, associates, and vendors",
+            "Conduct surveillance on the sales floor as well as utilizing the CCTV system to identify, observe and apprehend or deter individual(s) from committing theft",
+            "Identify and report to KCI leadership of any potential internal theft opportunities",
+            "Monitor Alarm Systems",
+            "Manage safety and loss prevention control meetings",
+            "Ability to respond well to emergency situations",
+            "Train other employees in operation control methods",
+            "10 more items(s)"
           ],
           "title": "Responsibilities"
         }

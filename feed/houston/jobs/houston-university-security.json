@@ -1,11 +1,42 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "houston/jobs/houston-university-security",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
-  "exact": 10,
+  "exact": 9,
   "jobs": [
+    {
+      "job_hash": "5b1848bfb8b4",
+      "title": "School Campus Security Officer - Level III",
+      "company": "Katy Independent School District",
+      "location": "Katy, TX",
+      "vertical": "security",
+      "role": "school",
+      "pay": "34K–46K a year",
+      "pay_min": 34000.0,
+      "pay_max": 46000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://jooble.org/rjdp/292667805514676067",
+      "via": "via JobLeads",
+      "description": "<p>Katy Independent School District is seeking a Security Guard - Level III Certification to protect students, staff, and district property under the Katy ISD Police Department. You will support campus safety during instructional and non-instructional events, perform perimeter checks, and coordinate with law enforcement.</p><p>The role requires Level 3 Armed Security Officer License, MMPI testing, and a Texas Driver License.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires Level 3 Armed Security Officer License, MMPI testing, and a Texas Driver License"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will support campus safety during instructional and non-instructional events, perform perimeter checks, and coordinate with law enforcement"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "921cd402bfb3",
       "title": "Campus Security Officer - Night & Weekend Shifts",
@@ -87,7 +118,7 @@
       "company": "SAFESECURE 360, LLC",
       "location": "Houston, TX",
       "vertical": "security",
-      "role": "weekend",
+      "role": "unarmed",
       "pay": "3,293 a month",
       "pay_min": 3293.0,
       "pay_max": null,
@@ -158,65 +189,6 @@
       ]
     },
     {
-      "job_hash": "df91c475929f",
-      "title": "Campus Safety Officer, Level III Commissioned",
-      "company": "Valorforces",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": "28K–30K a year",
-      "pay_min": 28000.0,
-      "pay_max": 30000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5344337247/e/",
-      "via": "via Learn4Good",
-      "description": "Valorforces is seeking professional Level III Commissioned Security Officers to support school-based safety and protection. We value appearance, communication, tactical readiness, and leadership in a mission-driven environment that partners with educators, families, and police.As a commissioned officer on a school campus, you will patrol interior and exterior areas, respond to incidents, prepare incident reports, and collaborate with school administrators and local law enforcement to maintain a#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "We value appearance, communication, tactical readiness, and leadership in a mission-driven environment that partners with educators, families, and police",
-            "As a commissioned officer on a school campus, you will patrol interior and exterior areas, respond to incidents, prepare incident reports, and collaborate with school administrators and local law enforcement to maintain a"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "eb34fdafc4f4",
-      "title": "Campus Security Guard: Patrol, Monitor, Respond",
-      "company": "Roosevelt School District 66",
-      "location": "Houston, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.learn4good.com/jobs/houston/texas/security/5336200858/e/",
-      "via": "via Learn4Good",
-      "description": "Roosevelt School District 66 is seeking a Security Guard to monitor district facilities and deter unauthorized activity. You will patrol campuses, enforce policies, and assist in emergencies, reporting incidents to administration as needed.The role requires vigilance, good decision-making, and the ability to communicate clearly in English. A valid driver’s license and liability insurance are required, with work across multiple district locations in all weather conditions.#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "The role requires vigilance, good decision-making, and the ability to communicate clearly in English",
-            "A valid driver’s license and liability insurance are required, with work across multiple district locations in all weather conditions"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Roosevelt School District 66 is seeking a Security Guard to monitor district facilities and deter unauthorized activity",
-            "You will patrol campuses, enforce policies, and assist in emergencies, reporting incidents to administration as needed"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "b28fb7bec8ba",
       "title": "Security Officer- Victoria Campus",
       "company": "University of Houston",
@@ -277,32 +249,6 @@
             "10 more items(s)"
           ],
           "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "115185668dee",
-      "title": "Campus Safety Officer",
-      "company": "New Caney Independent School District",
-      "location": "Porter, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": "13.53 an hour",
-      "pay_min": 13.53,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.ziprecruiter.com/c/New-Caney-Independent-School-District/Job/Campus-Safety-Officer/-in-Porter,TX?jid=c0435529e5336dc1",
-      "via": "via ZipRecruiter",
-      "description": "<strong>Position Type:</strong>\n<br>\n Campus Auxiliary/Campus Safety Officer\n<br>\n<br><strong>Date Posted:</strong>\n<br>\n 4/27/2026\n<br>\n<br><strong>Location:</strong>\n<br>\n Porter High School\n<br><strong>Pay Grade</strong>\n<br>\n<br><strong>Days/Months</strong>\n<br>\n<br><strong>Hourly Minimum</strong>\n<br>\n<br>\nAX3\n<br>\n<br>\n11 Months\n<br>\n<br>\n $13.53\n<br>\n<br>\nAttachment(s):\n<ul>\n <li>Job Description</li>\n</ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Pay Grade",
-            "$13.53"
-          ],
-          "title": "Benefits"
         }
       ]
     },
@@ -444,6 +390,31 @@
       ]
     },
     {
+      "job_hash": "0c6309ac33ac",
+      "title": "Level 3 Campus Guard",
+      "company": "Klein Independent School District",
+      "location": "Spring, TX",
+      "vertical": "security",
+      "role": "university",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/Klein-Independent-School-District/Job/Level-3-Campus-Guard/-in-Spring,TX?jid=80982aa00d069ecf",
+      "via": "via ZipRecruiter",
+      "description": "<strong>Position Type:</strong>\n<br>\n Police Services/Campus Guard - Level 3\n<br>\n<br><strong>Date Posted:</strong>\n<br>\n 9/5/2023\n<br>\n<br><strong>Location:</strong>\n<br>\n Police Services<b>Description:</b>\n<br>\n<br><b>Job Summary: A level III Certified Armed Security Officer is a part of our Campus Guard Program. The primary responsibility for the position is to maintain a safe and secure environment for the students and staff at various elementary schools within Klein ISD.</b>\n<br>\n<br><b>Application Procedure:</b>\n<br>\n Apply online\n<br>\n<br>\nAttachment(s):\n<ul>\n <li>Level 3 Campus Guard</li>\n</ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "The primary responsibility for the position is to maintain a safe and secure environment for the students and staff at various elementary schools within Klein ISD"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "e94999c24741",
       "title": "Campus Security Guard - Episcopal High School, Houston",
       "company": "Episcopal High School",
@@ -495,6 +466,75 @@
             "Work may involve moderate exposure to outdoor conditions, including heat, cold, and inclement weather",
             "Position requires moderate physical activity, including standing or walking for extended periods and lifting or carrying items up to 50 pounds",
             "12 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "76a4a8a8a06d",
+      "title": "Exterior Vehicle Patrol Security Officer – West Houston (77024)",
+      "company": "United Protective Services",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": "15.50–16.00 an hour",
+      "pay_min": 15.5,
+      "pay_max": 16.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://unitedprotective.joblinkapply.com/job/cae76276-6cea-4c54-8fd5-5c187f849743",
+      "via": "via Indeed",
+      "description": "<div>\n Exterior Vehicle Patrol Security Officer – West Houston (77024) \n <br>\n <h1><b> Join Our Team – Exterior Vehicle Patrol Security Officer Needed</b></h1>\n <h3><b> Retail Property</b></h3>\n <p><b> Position:</b> Exterior Vehicle Patrol Security Officer<b>Schedule:</b> Full-Time | 40 Hours Weekly</p>\n <ul>\n  <li>Saturday–Sunday: 10:00 AM–6:00 PM</li>\n  <li>Monday–Tuesday: 11:00 PM–7:00 AM</li>\n  <li>Wednesday–Thursday: Off</li>\n  <li>Friday: 3:00 PM–11:00 PM</li>\n  <li>Pay Rate: $15.50-$16.00 (Depending on experience)</li>\n </ul>\n <p>United Protective Services is seeking a professional, dependable, and customer-focused <b>Security Officer</b> to provide exterior vehicle patrol coverage at a retail property.</p>\n <p>This is an active patrol position requiring the officer to operate a company/client patrol vehicle, maintain a visible security presence, and regularly work outdoors in varying weather conditions.</p>\n <h2><b> Primary Responsibilities</b></h2>\n <ul>\n  <li>Conduct routine vehicle patrols throughout the property, parking lots, and surrounding exterior areas.</li>\n  <li>Maintain a visible and proactive security presence to deter theft, vandalism, trespassing, and unauthorized activity.</li>\n  <li>Monitor parking areas, storefronts, exterior access points, and other designated areas.</li>\n  <li>Identify and report suspicious activity, safety hazards, property damage, and maintenance concerns.</li>\n  <li>Professionally interact with tenants, customers, vendors, employees, and Property Management.</li>\n  <li>Respond promptly to security concerns, disturbances, and incidents.</li>\n  <li>Complete accurate Daily Activity Reports (DARs), incident reports, and patrol documentation.</li>\n  <li>Safely operate the assigned patrol vehicle and comply with all company and property driving requirements.</li>\n </ul>\n <h2><b> Qualifications</b></h2>\n <ul>\n  <li><b> Valid driver's license and acceptable driving record required.</b></li>\n  <li><b> Must reside within approximately 20 miles of ZIP Code 77024.</b></li>\n  <li><b> Scheduling flexibility is required</b>, including the ability to assist with coverage outside the regular schedule when operationally necessary.</li>\n  <li>Previous security experience preferred.</li>\n  <li>Must be comfortable operating a patrol vehicle for extended periods.</li>\n  <li>Must be willing and able to work outdoors in varying weather conditions, including heat, cold, and rain.</li>\n  <li>Strong customer service and communication skills.</li>\n  <li>Professional appearance, attitude, and demeanor.</li>\n  <li>Ability to remain alert, observant, and proactive throughout the shift.</li>\n  <li>Dependable attendance and punctuality are required.</li>\n  <li>Ability to complete written and electronic security reports accurately.</li>\n </ul>\n <h2><b> What We're Looking For</b></h2>\n <p>The ideal candidate is <b>dependable, flexible, observant, professional, and customer-service oriented</b>. Candidates should be comfortable working independently, taking initiative, and maintaining situational awareness while conducting continuous exterior patrols.</p>\n <p>Because this position involves vehicle patrol and exterior security duties, applicants must be comfortable spending a significant portion of their shift <b>driving, entering and exiting the patrol vehicle, and working outdoors in the elements</b>.</p>\n <h2><b> Why Join United Protective Services?</b></h2>\n <ul>\n  <li>Full-time, 40-hour weekly schedule.</li>\n  <li>Consistent permanent assignment.</li>\n  <li>Company/client patrol vehicle provided while on duty.</li>\n  <li>Stable work environment.</li>\n  <li>Opportunities for growth and advancement.</li>\n  <li>Support from an established security management team.</li>\n </ul>\n <p>If you are dependable, flexible, professional, live within the required area, and are comfortable performing active exterior vehicle patrols, we encourage you to apply.</p>\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Valid driver's license and acceptable driving record required",
+            "Must reside within approximately 20 miles of ZIP Code 77024",
+            "Scheduling flexibility is required, including the ability to assist with coverage outside the regular schedule when operationally necessary",
+            "Must be comfortable operating a patrol vehicle for extended periods",
+            "Must be willing and able to work outdoors in varying weather conditions, including heat, cold, and rain",
+            "Strong customer service and communication skills",
+            "Professional appearance, attitude, and demeanor",
+            "Ability to remain alert, observant, and proactive throughout the shift",
+            "Dependable attendance and punctuality are required",
+            "Ability to complete written and electronic security reports accurately",
+            "The ideal candidate is dependable, flexible, observant, professional, and customer-service oriented",
+            "Candidates should be comfortable working independently, taking initiative, and maintaining situational awareness while conducting continuous exterior patrols",
+            "Because this position involves vehicle patrol and exterior security duties, applicants must be comfortable spending a significant portion of their shift driving, entering and exiting the patrol vehicle, and working outdoors in the elements",
+            "Company/client patrol vehicle provided while on duty",
+            "If you are dependable, flexible, professional, live within the required area, and are comfortable performing active exterior vehicle patrols, we encourage you to apply",
+            "12 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $15.50-$16.00 (Depending on experience)",
+            "Full-time, 40-hour weekly schedule",
+            "Consistent permanent assignment",
+            "Stable work environment",
+            "Opportunities for growth and advancement",
+            "Support from an established security management team",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Position: Exterior Vehicle Patrol Security OfficerSchedule: Full-Time | 40 Hours Weekly",
+            "Saturday–Sunday: 10:00 AM–6:00 PM",
+            "This is an active patrol position requiring the officer to operate a company/client patrol vehicle, maintain a visible security presence, and regularly work outdoors in varying weather conditions",
+            "Conduct routine vehicle patrols throughout the property, parking lots, and surrounding exterior areas",
+            "Maintain a visible and proactive security presence to deter theft, vandalism, trespassing, and unauthorized activity",
+            "Monitor parking areas, storefronts, exterior access points, and other designated areas",
+            "Identify and report suspicious activity, safety hazards, property damage, and maintenance concerns",
+            "Professionally interact with tenants, customers, vendors, employees, and Property Management",
+            "Respond promptly to security concerns, disturbances, and incidents",
+            "Complete accurate Daily Activity Reports (DARs), incident reports, and patrol documentation",
+            "Safely operate the assigned patrol vehicle and comply with all company and property driving requirements",
+            "8 more items(s)"
           ],
           "title": "Responsibilities"
         }

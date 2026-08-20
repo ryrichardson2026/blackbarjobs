@@ -1,11 +1,37 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "san-antonio/jobs/data-center-security-san-antonio",
   "market": "San Antonio",
   "target": "city-role",
   "count": 10,
-  "exact": 5,
+  "exact": 2,
   "jobs": [
+    {
+      "job_hash": "30cce220de3c",
+      "title": "Site Security Manager — 24/7 Data Center, TS/Poly Clearance",
+      "company": "CenCore, LLC in",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "data-center",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-09",
+      "apply_link": "https://us.trabajo.org/job-28652-686da8c3cf23780228b7102a606c6319",
+      "via": "via Trabajo.org",
+      "description": "CenCore, LLC seeks a Site Security Manager to oversee 24/7 security operations at a cleared data center, ensuring compliance with regulations and security protocols. The role demands an active Top-Secret Clearance with Polygraph and leadership of unarmed security staff, with audit preparation and asset accountability. The successful candidate will mentor Campus Security Managers, maintain training records, and ensure all personnel are properly licensed and trained in security systems and",
+      "job_highlights": [
+        {
+          "items": [
+            "The role demands an active Top-Secret Clearance with Polygraph and leadership of unarmed security staff, with audit preparation and asset accountability",
+            "The successful candidate will mentor Campus Security Managers, maintain training records, and ensure all personnel are properly licensed and trained in security systems and"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "3d3240aa4af5",
       "title": "Data Center Tech II (Field) San Antonio TX",
@@ -60,168 +86,336 @@
       ]
     },
     {
-      "job_hash": "678b344103e8",
-      "title": "Data Center Security Admin & Compliance Specialist",
-      "company": "CenCore, LLC in",
-      "location": "San Antonio, TX",
+      "job_hash": "4a683c2d9435",
+      "title": "Security Officer - Personnel Screening",
+      "company": "Allied Universal",
+      "location": "New Braunfels, TX",
       "vertical": "security",
-      "role": "data-center",
-      "pay": "55K–85K a year",
-      "pay_min": 55000.0,
-      "pay_max": 85000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://us.jobrapido.com/jobpreview/5777700350731485184",
-      "via": "via JobLeads",
-      "description": "<p>CenCore, LLC is seeking an Administrative Officer for POLY (AGC / GRN) (Maintenance) to support security operations at a high‑value data center. You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility.</p><p>Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "You will ensure compliance, record keeping, personnel support, and efficient administrative coordination in a mission‑critical facility",
-            "Responsibilities include onboarding and scheduling security staff, maintaining incident and audit records, and coordinating with HR and site teams to uphold security standards and regulatory requirements"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "ce87eb81d0eb",
-      "title": "ACO Trainer, Security (TS/Polygraph) & Datacenter Training",
-      "company": "CenCore, LLC in",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "data-center",
-      "pay": "70K–110K a year",
-      "pay_min": 70000.0,
-      "pay_max": 110000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5352004106/e/",
-      "via": "via JobLeads",
-      "description": "<p>CenCore, LLC is seeking an ACO Trainer - TX (Security) to manage training, licensing, and qualification records for supplier staff at datacenter sites. The role involves regular travel to assess performance, deliver training, and resolve issues, with a focus on security procedures and customer systems.</p><p>Ideal candidates possess U.S. citizenship, a high school diploma or GED, excellent customer service, strong verbal communication, MS Office proficiency, and an active Top-Secret Clearance with</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Ideal candidates possess U.S. citizenship, a high school diploma or GED, excellent customer service, strong verbal communication, MS Office proficiency, and an active Top-Secret Clearance with"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The role involves regular travel to assess performance, deliver training, and resolve issues, with a focus on security procedures and customer systems"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "0f9862e1d9fb",
-      "title": "Data Center Site Manager - TX",
-      "company": "Patriot Group International",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "data-center",
-      "pay": null,
-      "pay_min": null,
+      "role": "entry-level",
+      "pay": "17 an hour",
+      "pay_min": 17.0,
       "pay_max": null,
-      "pay_unit": null,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-04",
-      "apply_link": "https://jobright.ai/jobs/info/6a70a00602d93145bf88b148?visit=data-center-site-acquisition-specialist-graduate-%28data-center-development%29---2027-start-jobs-in-united-states",
-      "via": "via BeBee",
-      "description": "<p><strong>Data Center Site Manager (Physical Security)</strong></p>\n<p><strong>Position Type:</strong> Full-Time, Exempt</p>\n<p><strong>Work Location:</strong> San Antonio, Texas</p>\n<p><strong>Clearance:</strong> Top Secret / SCI</p>\n<h4><strong>Shift:</strong> Day</h4>\n<p><strong>Patriot Group International LLC. (PGI), </strong>voted #1 Best Place to Work by Virginia Business Magazine and the Best Companies Group, offers an unrivaled hybrid of specialized services by combining security and risk management disciplines with a special operations and intelligence perspective.</p>\n<p>We are looking to hire a <strong>Data Center Site Manager</strong> to join our team in the San Antonio, Texas area, where we provide data center security solutions that protect client applications and data from increasingly sophisticated threats and global attacks. This position reports to the PGI Cluster Account Manager (CAM).</p>\n<p>The Data Center Site Manager manages and directs all operations and personnel management of a data center security operation, including security services and response, scheduling, budget, training, contract compliance, and quality management.</p>\n<p><strong>The Data Center Site Manager will be responsible for the following:</strong></p>\n<ul><li>Responsible for all scheduling, administration, reporting, incident response, training, human resources concerns, timekeeping, and invoicing support for the assigned site on a 24/7/365 basis.</li><li>Serve as a direct PGI representative to the Customer Site Security Manager. </li><li>Directly responsible for the site’s contract compliance with all elements of customer statements of work, service level agreements, and quality assurance.</li><li>Assisting the CAM in developing, maintaining, and reporting individual program budgets, including minimizing unplanned overtime.</li><li>Assist the CAM in providing strategic direction and direct guidance to operations and subordinates to manage activities and issue resolution, including physical security, safety, and business continuity events.</li><li>Assist the CAM in creating or improving the operational systems, processes, and policies supporting the customer mission.</li><li>Assist the CAM and operations staff in the planning and executing of screening, hiring, development, and retention of security personnel and supervisors.</li><li>Ensure 100% staffing coverage and responsibility alignment for the assigned site, team, and shift.</li><li>Oversee and direct crisis management functions at the assigned Site, including command and control of incident response post-orders, law enforcement and emergency services coordination, customer communication, after-action review, and debriefing. </li><li>Enforce PGI policies and standards of conduct.</li><li>Obtain or maintain a Virginia DCJS Security Guard license.</li><li>Other duties as required or delegated by the CAM.</li></ul>\n<h4><strong>Required Qualifications:</strong></h4>\n<ul><li>Commitment to the mission, PGI core values and ethos.</li><li>At least 8 years of security, military, or law enforcement management experience including a strong knowledge of personnel management, budgeting, and compliance.</li><li>A minimum of 5 years of experience managing shifts of personnel including screening, hiring, training, scheduling, and reporting activities.</li><li>A minimum of 2 years’ experience developing national, state, or federal level policies and procedures.</li><li>Knowledge and experience in organizational effectiveness, operations management and implementing best practices.</li><li>Excellent computer skills and proficiency in Excel, Word, Outlook, and Access.</li><li>Experience in using the Lenel access control system. </li><li>Excellent communication skills.</li><li>Demonstrated leadership and vision in managing staff groups, projects, or initiatives.</li><li>Excellent interpersonal skills and a collaborative management style.</li><li>A demonstrated commitment to high professional ethical standards and a diverse workplace.</li><li>Excels at operating in a fast paced and ever-changing environment.</li><li>Excellent people manager, open to direction and commitment to get the job done.</li><li>Ability to challenge and debate issues of importance to the organization.</li><li>Ability to look at situations from several points of view.</li><li>Persuasive with details and facts.</li><li>Delegate responsibilities effectively.</li><li>Must be available by phone or email after hours and on weekends.</li><li>Must be able to travel domestically to customers or PGI locations as needed.</li><li>Ability to complete PGI Security Guard Certification, and State Certification, including the application process, fingerprints, and background investigation.</li><li>Ability to pass a pre-employment drug screening and periodic random drug screening throughout the duration of employment.</li><li>U.S. Citizenship</li></ul>\n<h4><strong>Required Security Clearance:</strong></h4>\n<ul><li>U.S. Government Top Secret / SCI </li></ul>\n<h4><strong>Preferred Qualifications</strong></h4>\n<ul><li>One year of experience managing the physical and technical security aspects of large data centers or similar facilities.</li><li>Two years of experience managing high volume (50+ security, military, or law enforcement professionals) employee development and training initiatives in a high-pressure and high-visibility environment.</li><li>Significant experience diplomatically managing upward and downward within a defined chain of command with internal and external customers or stakeholders.</li><li>Two years of experience in national-level incident response protocols.</li><li>Bachelor’s degree in a related field.</li></ul>\n<h4><strong>Physical Requirements:</strong></h4>\n<ul><li>This position requires lifting, standing, walking, sitting, and bending throughout the workday.</li></ul>\n<p><strong>Patriot Group International LLC.</strong> is a global mission support service provider with expeditionary capabilities, providing services to select clients within the intelligence, defense, and private sectors. PGI is a veteran-owned and operated company with experience performing in over 50 countries, including austere and high-threat environments.</p>\n<h4><strong>DISCLAIMER:</strong></h4>\n<p>Patriot Group International LLC. is proud to be an Affirmative Action/Equal Opportunity Employer. PGI provides equal employment opportunity for all persons in all facets of employment. PGI maintains a drug-free workplace and performs pre-employment substance abuse testing and background checks.</p>\n<p>If you are a qualified individual with a disability or a disabled veteran and need a reasonable accommodation to use or access our online system, please contact us on our home page.</p>\n<p><em> </em></p>\n<p>http://patriotgroupinternational.com/</p>",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://jobs.aus.com/job/new-braunfels/security-officer-personnel-screening/22950/99453240448",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Personnel Screening</strong> in <strong>New Braunfels, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. As a Screener supporting a dynamic technology, media, and telecommunications location, you will help create a welcoming, controlled environment by screening visitors, monitoring access points, and communicating professionally with employees and guests. Your visible presence and attention to detail will help deter security-related incidents while delivering exceptional customer service. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity put people first.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon05:30 AM - 05:30 PMTue05:30 AM - 05:30 PMWed05:30 AM - 05:30 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and policies.</li><li>Screen employees, visitors, and deliveries in accordance with access-control requirements, verifying credentials and directing individuals to appropriate areas.</li><li>Monitor entry points, visitor activity, and prohibited-item screening processes; report unusual activity or policy violations to appropriate personnel.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following site emergency response procedures.</li><li>Conduct regular and random patrols of assigned screening areas, access points, and the surrounding business perimeter to help deter unauthorized activity.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A Guard Card/License is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1659845<br><br>",
       "job_highlights": [
         {
           "items": [
-            "Commitment to the mission, PGI core values and ethos",
-            "At least 8 years of security, military, or law enforcement management experience including a strong knowledge of personnel management, budgeting, and compliance",
-            "A minimum of 5 years of experience managing shifts of personnel including screening, hiring, training, scheduling, and reporting activities",
-            "A minimum of 2 years’ experience developing national, state, or federal level policies and procedures",
-            "Knowledge and experience in organizational effectiveness, operations management and implementing best practices",
-            "Excellent computer skills and proficiency in Excel, Word, Outlook, and Access",
-            "Experience in using the Lenel access control system",
-            "Excellent communication skills",
-            "Demonstrated leadership and vision in managing staff groups, projects, or initiatives",
-            "Excellent interpersonal skills and a collaborative management style",
-            "A demonstrated commitment to high professional ethical standards and a diverse workplace",
-            "Excels at operating in a fast paced and ever-changing environment",
-            "Excellent people manager, open to direction and commitment to get the job done",
-            "Ability to challenge and debate issues of importance to the organization",
-            "Ability to look at situations from several points of view",
-            "Persuasive with details and facts",
-            "Delegate responsibilities effectively",
-            "Must be available by phone or email after hours and on weekends",
-            "Must be able to travel domestically to customers or PGI locations as needed",
-            "Ability to complete PGI Security Guard Certification, and State Certification, including the application process, fingerprints, and background investigation",
-            "Ability to pass a pre-employment drug screening and periodic random drug screening throughout the duration of employment",
-            "U.S. Citizenship",
-            "U.S. Government Top Secret / SCI",
-            "This position requires lifting, standing, walking, sitting, and bending throughout the workday",
-            "21 more items(s)"
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "4 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "The Data Center Site Manager manages and directs all operations and personnel management of a data center security operation, including security services and response, scheduling, budget, training, contract compliance, and quality management",
-            "Responsible for all scheduling, administration, reporting, incident response, training, human resources concerns, timekeeping, and invoicing support for the assigned site on a 24/7/365 basis",
-            "Serve as a direct PGI representative to the Customer Site Security Manager",
-            "Directly responsible for the site’s contract compliance with all elements of customer statements of work, service level agreements, and quality assurance",
-            "Assisting the CAM in developing, maintaining, and reporting individual program budgets, including minimizing unplanned overtime",
-            "Assist the CAM in providing strategic direction and direct guidance to operations and subordinates to manage activities and issue resolution, including physical security, safety, and business continuity events",
-            "Assist the CAM in creating or improving the operational systems, processes, and policies supporting the customer mission",
-            "Assist the CAM and operations staff in the planning and executing of screening, hiring, development, and retention of security personnel and supervisors",
-            "Ensure 100% staffing coverage and responsibility alignment for the assigned site, team, and shift",
-            "Oversee and direct crisis management functions at the assigned Site, including command and control of incident response post-orders, law enforcement and emergency services coordination, customer communication, after-action review, and debriefing",
-            "Enforce PGI policies and standards of conduct",
-            "Obtain or maintain a Virginia DCJS Security Guard license",
-            "Other duties as required or delegated by the CAM",
-            "10 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "f6ff134f5b6e",
-      "title": "Data Center Security Control Room Officer",
-      "company": "Alamo ACE",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": "50K a year",
-      "pay_min": 50000.0,
-      "pay_max": null,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/alamo-ace/san-antonio/data-center-security-control-room-officer-poly-91329341/",
-      "via": "via Talents By Vaia",
-      "description": "A security services provider in San Antonio, TX, seeks a Security Control Room Officer. The role involves monitoring security systems, enforcing access policies, and responding to incidents to ensure data center security. Candidates must have a minimum of one year in security or law enforcement, be at least 21 years old, and possess a high school diploma. A Texas DPS Non-Commissioned Security Officer certification is needed, along with a minimum US Government Top Secret security clearance with poly required. Competitive monthly salary of $4,197 offered. #J-18808-Ljbffr\n\nSalary: USD 50000 per year\n\nExperience: 1 year required",
-      "job_highlights": [
-        {
-          "items": [
-            "Candidates must have a minimum of one year in security or law enforcement, be at least 21 years old, and possess a high school diploma",
-            "A Texas DPS Non-Commissioned Security Officer certification is needed, along with a minimum US Government Top Secret security clearance with poly required",
-            "Experience: 1 year required"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Competitive monthly salary of $4,197 offered",
-            "#J-18808-Ljbffr",
-            "Salary: USD 50000 per year"
+            "Pay Rate: $17.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "The role involves monitoring security systems, enforcing access policies, and responding to incidents to ensure data center security"
+            "As a Security Officer Personnel Screening in New Braunfels, TX, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more",
+            "As a Screener supporting a dynamic technology, media, and telecommunications location, you will help create a welcoming, controlled environment by screening visitors, monitoring access points, and communicating professionally with employees and guests",
+            "Your visible presence and attention to detail will help deter security-related incidents while delivering exceptional customer service",
+            "Provide customer service to employees, visitors, and vendors at a technology, media, and telecommunications location by carrying out site-specific security-related procedures and policies",
+            "Screen employees, visitors, and deliveries in accordance with access-control requirements, verifying credentials and directing individuals to appropriate areas",
+            "Monitor entry points, visitor activity, and prohibited-item screening processes; report unusual activity or policy violations to appropriate personnel",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following site emergency response procedures",
+            "Conduct regular and random patrols of assigned screening areas, access points, and the surrounding business perimeter to help deter unauthorized activity",
+            "5 more items(s)"
           ],
           "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "fa9c4a40336d",
+      "title": "Cleared Armed Security - Clearance Required Patrol",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "industrial",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-08-19",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1659949/cleared-armed-security---clearance-required-patrol/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Guard - Armed Clearance Required Patrol </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. Join Allied Universal as an Armed Security Officer supporting a dynamic aerospace and defense location. You will conduct routine patrols, operate a vehicle in accordance with AU Driver Policy requirements, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This role calls for exceptional customer service, clear communication, teamwork, integrity, and an active DoD Secret or Top Secret clearance.<br><br><strong>Position Type: Part Time<br><br></strong><strong> Pay Rate: $22.13 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeWed06:00 AM - 02:00 PMThur06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to personnel, visitors, and contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate.</li><li>Conduct regular and random armed patrols of assigned facilities, access points, parking areas, and perimeter areas to help identify and report unusual activity, hazardous conditions, and policy concerns.</li><li>Monitor access to restricted areas, verify credentials and authorization, and document visitor, contractor, and delivery activity in accordance with site procedures.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner; notify appropriate site contacts and emergency services as directed by established procedures.</li><li>Prepare accurate activity logs and incident reports, maintain required equipment, and support security-related operations in a professional manner.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Possess an active DoD Secret Clearance.</li><li>Must have an active Texas Armed Guard Card </li><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Be at least 21 years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Participate in industry-specific security training programs.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial Benefits: Participate in our retirement savings plan to invest in your future.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1659949<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Possess an active DoD Secret Clearance",
+            "Must have an active Texas Armed Guard Card",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Pay Rate: $22.13 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Guard - Armed Clearance Required Patrol in San Antonio, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more",
+            "Join Allied Universal as an Armed Security Officer supporting a dynamic aerospace and defense location",
+            "You will conduct routine patrols, operate a vehicle in accordance with AU Driver Policy requirements, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism",
+            "This role calls for exceptional customer service, clear communication, teamwork, integrity, and an active DoD Secret or Top Secret clearance",
+            "Provide customer service to personnel, visitors, and contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate",
+            "Conduct regular and random armed patrols of assigned facilities, access points, parking areas, and perimeter areas to help identify and report unusual activity, hazardous conditions, and policy concerns",
+            "Monitor access to restricted areas, verify credentials and authorization, and document visitor, contractor, and delivery activity in accordance with site procedures",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner; notify appropriate site contacts and emergency services as directed by established procedures",
+            "Prepare accurate activity logs and incident reports, maintain required equipment, and support security-related operations in a professional manner",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a7e65014369c",
+      "title": "Security Officer - Retail Mall Patrol Driver",
+      "company": "Allied Universal",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "17 an hour",
+      "pay_min": 17.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1658963/security-officer---retail-mall-patrol-driver/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer - Retail Mall Patrol Driver </strong>in <strong>San Antonio, TX</strong>, you will serve and safeguard clients in a range of industries such as Retail/Malls, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As a Security Officer at a retail and mall location, you will conduct routine patrols, primarily operating a vehicle to maintain a visible presence and help deter security-related incidents. You will interact with shoppers, tenants, and visitors, provide exceptional customer service, and communicate observations using computer or tablet tools. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every shift.<br><br><strong>Position Type: Part Time<br><br></strong><strong> Pay Rate: $17.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeTue05:00 PM - 10:00 PMWed05:00 PM - 10:00 PMThur05:00 PM - 10:00 PMFri05:00 PM - 10:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to tenants, shoppers, visitors, and/or vendors by carrying out site-specific security-related procedures, policies, and when appropriate, emergency response activities.</li><li>Conduct regular and random unarmed patrols throughout the retail property, including common areas, parking areas, entrances, and perimeter locations, to help deter unauthorized activity.</li><li>Monitor access points and observe activity within the location, reporting unusual conditions, hazards, and/or policy violations according to site procedures.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, contacting appropriate personnel and/or emergency responders when needed.</li><li>Prepare accurate reports and maintain communication with site management and Allied Universal leadership regarding incidents, observations, and daily activities.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>At least 1 year of security-related experience is required.</li><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Comfortable using a computer or tablet is preferred.</li><li>A guard card/license is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial Benefits: Participate in our retirement savings plan to invest in your future.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. C15802<br><br>Requisition ID<br><br>2026-1658963<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "At least 1 year of security-related experience is required",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Pay Rate: $17.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer at a retail and mall location, you will conduct routine patrols, primarily operating a vehicle to maintain a visible presence and help deter security-related incidents",
+            "You will interact with shoppers, tenants, and visitors, provide exceptional customer service, and communicate observations using computer or tablet tools",
+            "Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every shift",
+            "Provide customer service to tenants, shoppers, visitors, and/or vendors by carrying out site-specific security-related procedures, policies, and when appropriate, emergency response activities",
+            "Conduct regular and random unarmed patrols throughout the retail property, including common areas, parking areas, entrances, and perimeter locations, to help deter unauthorized activity",
+            "Monitor access points and observe activity within the location, reporting unusual conditions, hazards, and/or policy violations according to site procedures",
+            "Respond to incidents and critical situations in a calm, problem-solving manner, contacting appropriate personnel and/or emergency responders when needed",
+            "Prepare accurate reports and maintain communication with site management and Allied Universal leadership regarding incidents, observations, and daily activities",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "31f2d72f5a02",
+      "title": "Armed Security Officers, Weekends a must 6pm-6am Von Ormy, Tx $18/Hourly",
+      "company": "Enforce Security",
+      "location": "Von Ormy, TX",
+      "vertical": "security",
+      "role": "armed",
+      "pay": "17–18 an hour",
+      "pay_min": 17.0,
+      "pay_max": 18.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://bebee.com/us/jobs/armed-security-officers-weekends-a-must-6pm-6am-von-ormy-tx-19-hourly-enforce-security-von-ormy-tx--t7xk-808023782",
+      "via": "via Indeed",
+      "description": "<p>Responsibilities:</p>\n<ul>\n <li><i><b>IMMEDIATE HIRE!</b></i></li>\n <li>MUST BE AVAILABLE on weekends</li>\n <li>Monitor premises to prevent theft, violence, or infractions of rules</li>\n <li>Thoroughly examine doors, windows, and gates to ensure proper function and security</li>\n <li>Warn violators of premise rules and regulations</li>\n <li>Expel persons engaging in suspicious or criminal acts</li>\n <li>Report any facility issues such as fire hazards and leaking water pipes</li>\n <li>Request emergency personnel for high-risk situations</li>\n <li>Location is in Von Ormy, Tx</li>\n</ul>\n<p>​Qualifications:</p>\n<ul>\n <li>Previous experience in security, law enforcement, or other related fields</li>\n <li>Familiarity with security equipment</li>\n <li>Ability to handle physical workload</li>\n <li>Strong attention to detail</li>\n <li>Must have current Security License card for Texas</li>\n <li>Apply at www.enforcesecurity.com</li>\n <li>PLEASE MENTION THIS AD IN YOUR APPLICATION</li>\n</ul>\n<p>Pay: $17.00 - $18.00 per hour</p>\n<p>Benefits:</p>\n<ul>\n <li>401(k)</li>\n <li>Dental insurance</li>\n <li>Health insurance</li>\n <li>Vision insurance</li>\n</ul>\n<p>Application Question(s):</p>\n<ul>\n <li>Have a reliable vehicle that you can use to do short patrols in on site?</li>\n</ul>\n<p>License/Certification:</p>\n<ul>\n <li>Armed Security License (Required)</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Previous experience in security, law enforcement, or other related fields",
+            "Familiarity with security equipment",
+            "Ability to handle physical workload",
+            "Strong attention to detail",
+            "Must have current Security License card for Texas",
+            "Armed Security License (Required)",
+            "3 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay: $17.00 - $18.00 per hour",
+            "401(k)",
+            "Dental insurance",
+            "Health insurance",
+            "Vision insurance",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "IMMEDIATE HIRE!",
+            "MUST BE AVAILABLE on weekends",
+            "Monitor premises to prevent theft, violence, or infractions of rules",
+            "Thoroughly examine doors, windows, and gates to ensure proper function and security",
+            "Warn violators of premise rules and regulations",
+            "Expel persons engaging in suspicious or criminal acts",
+            "Report any facility issues such as fire hazards and leaking water pipes",
+            "Request emergency personnel for high-risk situations",
+            "Location is in Von Ormy, Tx",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "b6a164cdd192",
+      "title": "Mobile Patrol Security Officer-nights & multiple stops",
+      "company": "Security Methods LLC",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "night-shift",
+      "pay": "17–19 an hour",
+      "pay_min": 17.0,
+      "pay_max": 19.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time, Part-time, and Contractor",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://bebee.com/us/jobs/mobile-patrol-security-officer-nights-multiple-stops-other-methods-llc-san-antonio-tx--t7xk-807398570",
+      "via": "via Indeed",
+      "description": "<p><b>About us</b></p>\n<p>We are a local security company looking for loyal and committed workers to serve our clients all around the San Antonio and surrounding areas. *We have immediate positions for hire* and pay weekly! <b>Serious applicants only please who are willing to work night shifts and use their own vehicle.</b></p>\n<p><b>IMMEDIATE HIRE FOR QUALIFIED Serious APPLICANTS</b></p>\n<p>Must have current and valid drivers license.</p>\n<p><b>Reliable personal vehicle to</b> <b>use during shift</b>.</p>\n<p>Level 2 or 3 Commission card in hand.</p>\n<p>Must have own weapon and gear if level 3.</p>\n<p>Additional pay per mileage</p>\n<p>Contract Work</p>\n<p>Work Location:</p>\n<ul>\n <li>On the road</li>\n <li>Multi sites</li>\n</ul>\n<p>We are seeking licensed Security Guards to become an integral part of our team. The selected individuals will patrol and secure assigned <b>multiple</b> premises (multifamily homes) as well as identify risks to staff and patrons. Full and part time opportunities available. Must be available to work all shifts and have <b>own proper transportation.</b></p>\n<p><b>Responsibilities:</b></p>\n<ul>\n <li>Monitor multiple premises to prevent theft, violence, or infractions of rules</li>\n <li>Makes periodic tours of entry/exits, buildings and grounds of assigned client site</li>\n <li>Thoroughly examine doors, windows, and gates to ensure proper function and security; if not, takes appropriate action if needed</li>\n <li>Warn violators of premise rules and regulations within guidelines</li>\n <li>Report any facility issues such as fire hazards and leaking water pipes</li>\n <li>Request emergency personnel for high risk situations</li>\n</ul>\n<p>​<b>Qualifications:</b></p>\n<ul>\n <li>Previous experience in security, law enforcement, or other related fields</li>\n <li>Ability to accurately key information into data system</li>\n <li>Ability to work weekends, holidays, shift work, and extended hours (reliable)</li>\n <li>Performs administrative duties (e.g., guard post reports, daily activity reports, and associated documentation)</li>\n <li>Maintains safety awareness; reports incidents / violations</li>\n <li>Familiarity with security equipment</li>\n <li>Ability to handle physical workload</li>\n <li>Strong attention to detail</li>\n <li>Ability to remain calm in emergency situations</li>\n <li>Use personal vehicle</li>\n</ul>\n<p>Uniform:</p>\n<p>Shirt will be provided, must have black pants, belts and shoes.</p>\n<p>- Note: This job description is not intended to be all-inclusive. Worker may perform other related duties as negotiated to meet the ongoing needs of the organization.</p>\n<p>Job Types: Full-time, Part-time, Contract</p>\n<p>Pay: $17.00 - $19.00 per hour</p>\n<p>Benefits:</p>\n<ul>\n <li>Flexible schedule</li>\n</ul>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have current and valid drivers license",
+            "Reliable personal vehicle to use during shift",
+            "Must have own weapon and gear if level 3",
+            "Previous experience in security, law enforcement, or other related fields",
+            "Ability to accurately key information into data system",
+            "Familiarity with security equipment",
+            "Ability to handle physical workload",
+            "Strong attention to detail",
+            "Ability to remain calm in emergency situations",
+            "Use personal vehicle",
+            "Shirt will be provided, must have black pants, belts and shoes",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Additional pay per mileage",
+            "Full and part time opportunities available",
+            "Pay: $17.00 - $19.00 per hour",
+            "Flexible schedule",
+            "1 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Level 2 or 3 Commission card in hand",
+            "The selected individuals will patrol and secure assigned multiple premises (multifamily homes) as well as identify risks to staff and patrons",
+            "Must be available to work all shifts and have own proper transportation",
+            "Monitor multiple premises to prevent theft, violence, or infractions of rules",
+            "Makes periodic tours of entry/exits, buildings and grounds of assigned client site",
+            "Thoroughly examine doors, windows, and gates to ensure proper function and security; if not, takes appropriate action if needed",
+            "Warn violators of premise rules and regulations within guidelines",
+            "Report any facility issues such as fire hazards and leaking water pipes",
+            "Request emergency personnel for high risk situations",
+            "Ability to work weekends, holidays, shift work, and extended hours (reliable)",
+            "Performs administrative duties (e.g., guard post reports, daily activity reports, and associated documentation)",
+            "Maintains safety awareness; reports incidents / violations",
+            "9 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "08c5dfab6fb1",
+      "title": "Flexible Security Officer: Diverse Site Experience",
+      "company": "Alliedbarton Security Services",
+      "location": "San Antonio, TX",
+      "vertical": "security",
+      "role": "industrial",
+      "pay": "15 an hour",
+      "pay_min": 15.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.learn4good.com/jobs/san-antonio/texas/security/5372490205/e/",
+      "via": "via Learn4Good",
+      "description": "Allied Universal is hiring Security Flex Officers for the San Antonio, Texas area. Pay Rate: $15.00 / Hour. Must be flexible to work various shifts, nights, weekends and holidays.Must have a valid driver’s license for more than 1 year. The Security Flex Officer will serve and safeguard clients in Healthcare, Education, Finance and more, using our shift-pickup platform to build a schedule. The role offers hands-on experience across industries and opportunities for growth within a dynamic,#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "Must be flexible to work various shifts, nights, weekends and holidays",
+            "Must have a valid driver’s license for more than 1 year"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $15.00 / Hour",
+            "The Security Flex Officer will serve and safeguard clients in Healthcare, Education, Finance and more, using our shift-pickup platform to build a schedule"
+          ],
+          "title": "Benefits"
         }
       ]
     },
@@ -290,281 +484,66 @@
       ]
     },
     {
-      "job_hash": "b6a164cdd192",
-      "title": "Mobile Patrol Security Officer-nights & multiple stops",
-      "company": "Security Methods LLC",
-      "location": "San Antonio, TX",
+      "job_hash": "96744e34ebf1",
+      "title": "Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard)",
+      "company": "ARMADA, Ltd.",
+      "location": "Lackland Air Force Base",
       "vertical": "security",
-      "role": "night-shift",
-      "pay": "17–19 an hour",
-      "pay_min": 17.0,
-      "pay_max": 19.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time, Part-time, and Contractor",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.glassdoor.com/job-listing/mobile-patrol-security-officer-nights-and-multiple-stops-security-methods-llc-JV_IC1140494_KO0,56_KE57,77.htm?jl=1010232862512",
-      "via": "via Indeed",
-      "description": "<p><b>About us</b></p>\n<p>We are a local security company looking for loyal and committed workers to serve our clients all around the San Antonio and surrounding areas. *We have immediate positions for hire* and pay weekly! <b>Serious applicants only please who are willing to work night shifts and use their own vehicle.</b></p>\n<p><b>IMMEDIATE HIRE FOR QUALIFIED Serious APPLICANTS</b></p>\n<p>Must have current and valid drivers license.</p>\n<p><b>Reliable personal vehicle to</b> <b>use during shift</b>.</p>\n<p>Level 2 or 3 Commission card in hand.</p>\n<p>Must have own weapon and gear if level 3.</p>\n<p>Additional pay per mileage</p>\n<p>Contract Work</p>\n<p>Work Location:</p>\n<ul>\n <li>On the road</li>\n <li>Multi sites</li>\n</ul>\n<p>We are seeking licensed Security Guards to become an integral part of our team. The selected individuals will patrol and secure assigned <b>multiple</b> premises (multifamily homes) as well as identify risks to staff and patrons. Full and part time opportunities available. Must be available to work all shifts and have <b>own proper transportation.</b></p>\n<p><b>Responsibilities:</b></p>\n<ul>\n <li>Monitor multiple premises to prevent theft, violence, or infractions of rules</li>\n <li>Makes periodic tours of entry/exits, buildings and grounds of assigned client site</li>\n <li>Thoroughly examine doors, windows, and gates to ensure proper function and security; if not, takes appropriate action if needed</li>\n <li>Warn violators of premise rules and regulations within guidelines</li>\n <li>Report any facility issues such as fire hazards and leaking water pipes</li>\n <li>Request emergency personnel for high risk situations</li>\n</ul>\n<p>​<b>Qualifications:</b></p>\n<ul>\n <li>Previous experience in security, law enforcement, or other related fields</li>\n <li>Ability to accurately key information into data system</li>\n <li>Ability to work weekends, holidays, shift work, and extended hours (reliable)</li>\n <li>Performs administrative duties (e.g., guard post reports, daily activity reports, and associated documentation)</li>\n <li>Maintains safety awareness; reports incidents / violations</li>\n <li>Familiarity with security equipment</li>\n <li>Ability to handle physical workload</li>\n <li>Strong attention to detail</li>\n <li>Ability to remain calm in emergency situations</li>\n <li>Use personal vehicle</li>\n</ul>\n<p>Uniform:</p>\n<p>Shirt will be provided, must have black pants, belts and shoes.</p>\n<p>- Note: This job description is not intended to be all-inclusive. Worker may perform other related duties as negotiated to meet the ongoing needs of the organization.</p>\n<p>Job Types: Full-time, Part-time, Contract</p>\n<p>Pay: $17.00 - $19.00 per hour</p>\n<p>Benefits:</p>\n<ul>\n <li>Flexible schedule</li>\n</ul>\n<p>Work Location: In person</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Must have current and valid drivers license",
-            "Reliable personal vehicle to use during shift",
-            "Must have own weapon and gear if level 3",
-            "Previous experience in security, law enforcement, or other related fields",
-            "Ability to accurately key information into data system",
-            "Familiarity with security equipment",
-            "Ability to handle physical workload",
-            "Strong attention to detail",
-            "Ability to remain calm in emergency situations",
-            "Use personal vehicle",
-            "Shirt will be provided, must have black pants, belts and shoes",
-            "8 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Additional pay per mileage",
-            "Full and part time opportunities available",
-            "Pay: $17.00 - $19.00 per hour",
-            "Flexible schedule",
-            "1 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Level 2 or 3 Commission card in hand",
-            "The selected individuals will patrol and secure assigned multiple premises (multifamily homes) as well as identify risks to staff and patrons",
-            "Must be available to work all shifts and have own proper transportation",
-            "Monitor multiple premises to prevent theft, violence, or infractions of rules",
-            "Makes periodic tours of entry/exits, buildings and grounds of assigned client site",
-            "Thoroughly examine doors, windows, and gates to ensure proper function and security; if not, takes appropriate action if needed",
-            "Warn violators of premise rules and regulations within guidelines",
-            "Report any facility issues such as fire hazards and leaking water pipes",
-            "Request emergency personnel for high risk situations",
-            "Ability to work weekends, holidays, shift work, and extended hours (reliable)",
-            "Performs administrative duties (e.g., guard post reports, daily activity reports, and associated documentation)",
-            "Maintains safety awareness; reports incidents / violations",
-            "9 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "4d5638fa339f",
-      "title": "Facility Security Officer",
-      "company": "Software Tech Enterprises, Inc.",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "industrial",
+      "role": "school",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-18",
-      "apply_link": "https://www.linkedin.com/jobs/view/facility-security-officer-at-software-tech-enterprises-inc-4454291473",
+      "apply_link": "https://bebee.com/us/jobs/basic-security-fundamental-support-instructor-ii-swim-tester-lifeguard-armada-ltd-lackland-air-force--fj-2316718001",
       "via": "via LinkedIn",
-      "description": "<p><span>Software Tech Enterprises (STE) is an Information Technology Consulting firm headquartered in Frankfort, IL. STE supports commercial and government clients and provides services in IT Integrated Solutions, Software Development, Cloud Implementation Services, Artifactual Intelligent, Data Analytics, Project Management and other IT services. Our mission is to build value for our customers through optimum information technology methods, strategies, innovations and solutions.</span></p><p><br></p><p><strong>Job Description</strong></p><p><br></p><p><strong>Role Description: </strong><span>The Facility Security Officer (FSO) will provide onsite support for all security actions in accordance with NISPOM and other Federal government security regulations. The FSO will serve as a liaison with US government counterparts, conduct security briefings and debriefings, monitor classified controlled areas, and perform periodic self-inspections.</span></p><p><br></p><p><strong>ESSENTIAL DUTIES AND RESPONSIBILITIES</strong></p><ul><li>Perform all security operations including personnel clearance processing, tracking, education, reporting, debriefs and any other duties administratively.</li><li>Process necessary badges, visit requests and certifications for government facilities.</li><li>Daily use of personnel clearance data systems – DISS/NBIS and E-qip and other security software in the performance of assigned duties. </li><li>Prepare, issue and maintain DD254s. </li><li>Maintain classified materials receipt, logging, control, and dissemination. </li><li>Maintain accountability of classified government-furnished information and equipment.</li><li>Participate in and perform inspections and audits. </li><li>Maintain certification and accreditation of the facilities eligibility as well as personnel.</li><li>Create and update security plans, procedures, and instructions.</li><li>Develop and administer a comprehensive education training program.</li><li>Maintain and coordinate excellent working relationships with government agencies.</li><li>Assure compliance with all government and company security regulations.</li><li>This position requires U.S. Security Clearance.</li><li>Perform other duties as assigned.</li><li>Oversee all duties assigned to the Security Clerk front desk for all locations.</li></ul><p><strong>CORE COMPETENCIES</strong></p><ul><li>Focus on Results - Able to plan and organize work to achieve goals; achieves targeted results with minimal supervision; is accountable for own actions</li><li>Communications - Possess excellent verbal & written communications skills; Provides timely, well-organized verbal & written information that is audience appropriate; listens attentively to others and retains/processes information.</li><li>Teamwork - Builds alliances, partnerships & collaboration with others including those different from him/her; deals tactfully with others; assumes helps with a variety of team roles.</li><li>Strategic Planning & Decision-Making - Develops strategic short- & long-term plans; arranges priorities, distinguishing urgent, important and unimportant in order to meet goals & deadlines; consult & collaborates with appropriate individuals.</li></ul><p><br></p><p><strong>Qualifications</strong></p><p><span>To perform this job successfully, an individual must be able to perform each essential duty satisfactorily. </span></p><p><br></p><p><span>The requirements listed below are representative of the knowledge, skill, and/or ability required.</span></p><ul><li>Must possess and maintain an active Top Secret security clearance.</li><li>Must have experience implementing NISPOM requirements</li></ul><p><br></p><p><strong>EDUCATION AND/OR EXPERIENCE</strong></p><p><br></p><p><span>REQUIRED: </span></p><ul><li>This position requires a BA or BS degree and at least 5 years of experience with industrial security, NISPOM, COMSEC programs, clearance processing, document control, and physical security; or equivalent combination of education and experience.</li><li>Successful completion of the following CDSE courses: Essentials of Industrial Security Management, Protecting Secret and Classified Documents, FSO Program Management, NSA COMSEC Custodian Academy, FSO Program Management for Possessing Facilities.</li></ul><p><strong>SKILLS & EXPERIENCE:</strong></p><ul><li>Minimum of five years of experience in the U.S. Government, DoD, Intelligence, or contractor community in security management.</li><li>Minimum of five years of experience in Industrial Security with associated training and credentials. </li><li>Experience as a Facility Security Officer (FSO) preferred. </li><li>Familiarity with NISPOM and DCID guidance documents.</li><li>Significant experience with DCSA Defense Information Security System (DISS)</li><li>Proficient with Microsoft applications. </li><li>Excellent interpersonal, written and verbal communication skills.</li></ul><p><br></p><p><strong>PHYSICAL DEMANDS/WORK ENVIRONMENT </strong></p><ul><li>The physical demands and work environment characteristics described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.</li><li>While performing the duties of this job, the employee may be regularly required to sit, stand, bend, reach and move about the facility. </li><li>The environmental characteristic for this position is an office setting. Candidates should be able to adapt to a traditional business environment.</li></ul><p><br></p><p><strong>Primary Location</strong></p><p><span>Washington, DC / Frankfort, IL / Remote </span></p><p><br></p><p><strong>Schedule:  </strong><span>Part-Time</span></p><p><br></p><p><span>STE is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status.</span></p><p><br></p>",
+      "description": "<strong>Type:</strong> Full Time<br><br><strong>Location:</strong> NTTC Lackland/ San Antonio, Texas<br><br><strong>Overtime Exempt:</strong> No<br><br><strong>Reports To:</strong> ARMADA HQ<br><br><strong>Duties & Responsibilities<br><br></strong><ul><li>The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) administers Navy Second Class Swimmer testing for designated Master‑at‑Arms students in accordance with NETC P1552/16 swim testing standards. </li><li>The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) conducts all poolside safety checks, verify facility readiness, ensure required safety equipment is present, and confirm communication capabilities.</li><li>Perform lifeguard duties during all swim testing events and evaluate students in accordance with Navy Swimming and Water Survival Instructor Manual guidelines. </li><li>Complete the Record of Swim Qualification and ensure accurate documentation of all results.</li><li>Coordinate with NTTC Lackland administrative staff to record successful or unsuccessful test completions in FLTMPS and in student service records.</li><li>Assist with scheduling pool access and work directly with NTTC and Joint Base San Antonio swimming facility personnel.</li><li>Deliver CPR instruction and support other non‑weapons training modules within MA \"A\" School after obtaining CUIT qualifications.</li><li>Ensure compliance with medical pre‑screening requirements, swimmer safety policies, and high‑risk training precautions.</li><li>The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) maintains all required certifications and ensures documentation is properly filed in the Instructor Training Jacket (ITJ).</li><li>Other duties as assigned.<br><br></li></ul><strong>Knowledge, Skills, And Abilities (KSAs)<br><br></strong><ul><li>Knowledge of Navy swim testing procedures, water survival standards, and CPR instruction requirements.</li><li>Ability to perform lifeguard duties, administer swim qualifications, and evaluate student safety and performance.</li><li>Strong understanding of aquatic safety practices, rescue procedures, and emergency response techniques.</li><li>Ability to coordinate with medical, administrative, and facility personnel to ensure compliance with screening, documentation, and reporting processes.</li><li>Strong communication skills for delivering CPR instruction and supporting training modules.</li><li>Ability to maintain physical readiness to perform water‑based rescue, testing, and instructional tasks.<br><br></li></ul><strong>Minimum/General Experience</strong>  <br><br><ul><li>Possess current certification as a lifeguard. Lifeguard certification requires one of the following:</li><ul><li>American Red Cross Lifeguard Training</li><li>YMCA Lifeguard Training</li><li>Ellis and Associates Water Park Training </li><li>Possession of one of the following military qualifications:</li><ul><li>Navy NEC 801A (Navy Rescue Swimmer – Surface) </li><li>Navy NEC O26A (Special Warfare Operator (SEAL)) </li><li>Navy NEC 840A (Navy Scuba Diver) </li><li>Navy NEC O50A (Special Warfare Boat Operator (SB) Candidate) </li><li>Navy NEC O52A (Special Warfare Combatant-craft Crewman (SWCC))</li><li>Navy NEC G02A (Helicopter Search and Rescue Aircrew Swimmer) </li><li>Navy NEC 806A (Aviation Water Survival Instructor) </li><li>Navy NEC 808A (Basic Swimming and Water Survival Instructor) </li><li>USMC MOS 0918 (Water Safety/Survival Instructor)</li></ul></ul><li>Possess current certification in Tier 2 Tactical Combat Casualty Care (TCCC) (or TCCC Instructor/Trainer certification)</li><li>Possess current certification in Cardiopulmonary Resuscitation (CPR)</li><li>Possess current certification as a CPR Instructor Certification<br></li></ul><strong>Minimum Education<br><br></strong><ul><li>High school diploma or GED required. <br><br></li></ul><strong>Disclaimer<br><br></strong>The above information has been designed to indicate the general nature and level of work to be performed. It is not designed to contain or be interpreted as a comprehensive inventory of all duties, responsibilities, and qualifications required of the contractor assigned to this position. <strong>Applying: </strong>If you feel you have the knowledge, skills and abilities for this position visit our careers page at www.armadausa.com.<br><br><strong>Special Notes:</strong> Relocation is not available for these jobs.<br><br>ARMADA provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, marital status, amnesty, or status as a covered veteran in accordance with applicable federal, state and local laws. ARMADA complies with applicable state and local laws governing non-discrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including, but not limited to, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.",
       "job_highlights": [
         {
           "items": [
-            "Focus on Results - Able to plan and organize work to achieve goals; achieves targeted results with minimal supervision; is accountable for own actions",
-            "To perform this job successfully, an individual must be able to perform each essential duty satisfactorily",
-            "The requirements listed below are representative of the knowledge, skill, and/or ability required",
-            "Must possess and maintain an active Top Secret security clearance",
-            "Must have experience implementing NISPOM requirements",
-            "This position requires a BA or BS degree and at least 5 years of experience with industrial security, NISPOM, COMSEC programs, clearance processing, document control, and physical security; or equivalent combination of education and experience",
-            "Successful completion of the following CDSE courses: Essentials of Industrial Security Management, Protecting Secret and Classified Documents, FSO Program Management, NSA COMSEC Custodian Academy, FSO Program Management for Possessing Facilities",
-            "Minimum of five years of experience in the U.S. Government, DoD, Intelligence, or contractor community in security management",
-            "Minimum of five years of experience in Industrial Security with associated training and credentials",
-            "Familiarity with NISPOM and DCID guidance documents",
-            "Significant experience with DCSA Defense Information Security System (DISS)",
-            "Proficient with Microsoft applications",
-            "Excellent interpersonal, written and verbal communication skills",
-            "PHYSICAL DEMANDS/WORK ENVIRONMENT",
-            "11 more items(s)"
+            "Knowledge of Navy swim testing procedures, water survival standards, and CPR instruction requirements",
+            "Ability to perform lifeguard duties, administer swim qualifications, and evaluate student safety and performance",
+            "Strong understanding of aquatic safety practices, rescue procedures, and emergency response techniques",
+            "Ability to coordinate with medical, administrative, and facility personnel to ensure compliance with screening, documentation, and reporting processes",
+            "Strong communication skills for delivering CPR instruction and supporting training modules",
+            "Ability to maintain physical readiness to perform water‑based rescue, testing, and instructional tasks",
+            "Possess current certification as a lifeguard",
+            "Lifeguard certification requires one of the following:",
+            "American Red Cross Lifeguard Training",
+            "YMCA Lifeguard Training",
+            "Ellis and Associates Water Park Training",
+            "Possession of one of the following military qualifications:",
+            "Navy NEC 801A (Navy Rescue Swimmer – Surface)",
+            "Navy NEC O26A (Special Warfare Operator (SEAL))",
+            "Navy NEC 840A (Navy Scuba Diver)",
+            "Navy NEC O50A (Special Warfare Boat Operator (SB) Candidate)",
+            "Navy NEC O52A (Special Warfare Combatant-craft Crewman (SWCC))",
+            "Navy NEC G02A (Helicopter Search and Rescue Aircrew Swimmer)",
+            "Navy NEC 806A (Aviation Water Survival Instructor)",
+            "Navy NEC 808A (Basic Swimming and Water Survival Instructor)",
+            "USMC MOS 0918 (Water Safety/Survival Instructor)",
+            "Possess current certification in Tier 2 Tactical Combat Casualty Care (TCCC) (or TCCC Instructor/Trainer certification)",
+            "Possess current certification in Cardiopulmonary Resuscitation (CPR)",
+            "Possess current certification as a CPR Instructor Certification",
+            "High school diploma or GED required",
+            "22 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Role Description: The Facility Security Officer (FSO) will provide onsite support for all security actions in accordance with NISPOM and other Federal government security regulations",
-            "The FSO will serve as a liaison with US government counterparts, conduct security briefings and debriefings, monitor classified controlled areas, and perform periodic self-inspections",
-            "Perform all security operations including personnel clearance processing, tracking, education, reporting, debriefs and any other duties administratively",
-            "Process necessary badges, visit requests and certifications for government facilities",
-            "Daily use of personnel clearance data systems – DISS/NBIS and E-qip and other security software in the performance of assigned duties",
-            "Prepare, issue and maintain DD254s",
-            "Maintain classified materials receipt, logging, control, and dissemination",
-            "Maintain accountability of classified government-furnished information and equipment",
-            "Participate in and perform inspections and audits",
-            "Maintain certification and accreditation of the facilities eligibility as well as personnel",
-            "Create and update security plans, procedures, and instructions",
-            "Develop and administer a comprehensive education training program",
-            "Maintain and coordinate excellent working relationships with government agencies",
-            "Assure compliance with all government and company security regulations",
-            "This position requires U.S. Security Clearance",
-            "Perform other duties as assigned",
-            "Oversee all duties assigned to the Security Clerk front desk for all locations",
-            "Communications - Possess excellent verbal & written communications skills; Provides timely, well-organized verbal & written information that is audience appropriate; listens attentively to others and retains/processes information",
-            "Teamwork - Builds alliances, partnerships & collaboration with others including those different from him/her; deals tactfully with others; assumes helps with a variety of team roles",
-            "Strategic Planning & Decision-Making - Develops strategic short- & long-term plans; arranges priorities, distinguishing urgent, important and unimportant in order to meet goals & deadlines; consult & collaborates with appropriate individuals",
-            "The physical demands and work environment characteristics described here are representative of those that must be met by an employee to successfully perform the essential functions of this job",
-            "Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions",
-            "While performing the duties of this job, the employee may be regularly required to sit, stand, bend, reach and move about the facility",
-            "20 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "4dfaf6f64f36",
-      "title": "Loss Prevention Clerk",
-      "company": "Costco Wholesale",
-      "location": "New Braunfels, TX",
-      "vertical": "security",
-      "role": "loss-prevention",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Internship",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://careers.costco.com/jobs/49956?lang=en-us",
-      "via": "via LinkedIn",
-      "description": "<p><strong><span>Job Description</span></strong></p><p><span>California applicants: Please </span><span>click here</span><span> to review the Costco Applicant Privacy Notice.</span></p><p><span> </span></p><p><em><span>The jobs listed are examples of the typical kinds of positions that Costco may hire for when openings exist. The listing does not mean that any positions are currently open or available at Costco.</span></em></p><p> </p><p><strong><span>Position Summary</span></strong></p><p><span>Protects company assets from internal and external theft. Reviews individual warehouse inventory numbers and assists in creating / executing a plan of action to reduce shrink. Is familiar with various facets of operation that contribute to shrink and participates in instruction and training with affected employees. Observes and reports potential safety and security hazards. Investigates, detains suspects, completes reports, cooperates with local law enforcement, and testifies in court if necessary. Reports directly to the Warehouse Manager. Provides a high level of member service.</span></p><p> </p><p><strong><span>Job Duties</span></strong></p><ul><li><span>Walks the warehouse and perimeter up to 8 hours a day to monitor safety and security concerns. Pushes cart with merchandise and returns items to the floor. Maintains anonymity by shopping amongst members.</span></li><li><span>Follows and maintains knowledge of Costco procedures and applicable laws in performance of duties. Attends meetings and seminars regarding loss prevention.</span></li><li><span>Observes, detects, and investigates internal and external theft threats as well as safety concerns. Retrieves stolen items which shoplifters have concealed; may need to move product to access stolen items.</span></li><li><span>Detains and interviews shoplifters when warranted. Reports potential internal theft situations to the warehouse manager.</span></li><li><span>Prepares reports for internal use and for potential prosecution. Enters cases into case management system Nettrack.</span></li><li><span>Maintains evidence collected and reports files from investigations.</span></li><li><span>Testifies in court concerning theft investigations.</span></li><li><span>Communicates with other area Costco Loss Prevention Clerks and Security people of area businesses to exchange information about current, local theft threats.</span></li><li><span>Ensures proper cleanup and disposal of hazardous materials.</span></li><li><span>Ability to operate vehicles, equipment or machinery.</span></li><li><span>Assists with department duties as necessary.</span></li><li><span>Assists in other departments of the warehouse as necessary.</span></li></ul><p><br><br></p><p><span>For additional information about pay ranges,</span><span> click here.</span></p><p> </p><p><span>We offer a comprehensive package of benefits including paid time off, health benefits - medical/dental/vision/hearing aid/pharmacy/behavioral health/employee assistance, health care reimbursement account, dependent care assistance plan, short-term disability and long-term disability insurance, AD&D insurance, life insurance, 401(k), stock purchase plan to eligible employees.</span></p><p> </p><p> </p><p> </p><p><em><span>Apart from any religious or disability considerations, open availability is needed to meet the needs of the business. </span></em><em><span>If hired, you will be required to provide proof of authorization to work in the United States.</span></em></p><p><span> </span></p><p><em><span>Job Description Posting Updated: July 2026</span></em> <em><span>                                  Job Code: 0540</span></em></p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Detains and interviews shoplifters when warranted",
-            "If hired, you will be required to provide proof of authorization to work in the United States"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "We offer a comprehensive package of benefits including paid time off, health benefits - medical/dental/vision/hearing aid/pharmacy/behavioral health/employee assistance, health care reimbursement account, dependent care assistance plan, short-term disability and long-term disability insurance, AD&D insurance, life insurance, 401(k), stock purchase plan to eligible employees"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Protects company assets from internal and external theft",
-            "Reviews individual warehouse inventory numbers and assists in creating / executing a plan of action to reduce shrink",
-            "Is familiar with various facets of operation that contribute to shrink and participates in instruction and training with affected employees",
-            "Observes and reports potential safety and security hazards",
-            "Investigates, detains suspects, completes reports, cooperates with local law enforcement, and testifies in court if necessary",
-            "Reports directly to the Warehouse Manager",
-            "Provides a high level of member service",
-            "Walks the warehouse and perimeter up to 8 hours a day to monitor safety and security concerns",
-            "Pushes cart with merchandise and returns items to the floor",
-            "Maintains anonymity by shopping amongst members",
-            "Follows and maintains knowledge of Costco procedures and applicable laws in performance of duties",
-            "Attends meetings and seminars regarding loss prevention",
-            "Observes, detects, and investigates internal and external theft threats as well as safety concerns",
-            "Retrieves stolen items which shoplifters have concealed; may need to move product to access stolen items",
-            "Reports potential internal theft situations to the warehouse manager",
-            "Prepares reports for internal use and for potential prosecution",
-            "Enters cases into case management system Nettrack",
-            "Maintains evidence collected and reports files from investigations",
-            "Testifies in court concerning theft investigations",
-            "Communicates with other area Costco Loss Prevention Clerks and Security people of area businesses to exchange information about current, local theft threats",
-            "Ensures proper cleanup and disposal of hazardous materials",
-            "Ability to operate vehicles, equipment or machinery",
-            "Assists with department duties as necessary",
-            "Assists in other departments of the warehouse as necessary",
-            "21 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "e6ebf3590fd2",
-      "title": "Facilities Manager / FSO (Industrial Security Analyst 3) - 29869",
-      "company": "Mission Technologies, a division of HII",
-      "location": "San Antonio, TX",
-      "vertical": "security",
-      "role": "industrial",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Contractor",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.tealhq.com/job/facilities-manager-fso-industrial-security-analyst-3_7ea1ac8b9f606a6a6a54b917a7af4073fb7ba",
-      "via": "via LinkedIn",
-      "description": "Requisition Number: 29869<br><br>Required Travel: 0 - 10%<br><br>Employment Type: Full Time/Salaried/Exempt<br><br>Anticipated Salary Range: $74,984.00 - $100,000.00<br><br>Security Clearance: TS/SCI<br><br>Level of Experience: Mid<br><br><strong>Meet HII’s Mission Technologies Division<br><br></strong>Our team of more than 7,000 professionals worldwide delivers all-domain expertise and advanced technologies in service of mission partners across the globe. Mission Technologies is leading the next evolution of national defense – the data evolution - by accelerating a breadth of national security solutions for government and commercial customers. Our capabilities range from C5ISR, AI and Big Data, cyber operations and synthetic training environments to fleet sustainment, environmental remediation and the largest family of unmanned underwater vehicles in every class. Find the role that’s right for you. Apply today. We look forward to meeting you.<br><br>To learn more about Mission Technologies, click here for a short video: https://vimeo.com/732533072<br><br><strong>Leadership Mindset at HII – Mission Technologies<br><br></strong><strong>Role<br><br></strong>Leadership at HII is a mindset, not a title. Through our Leadership Capability Framework, we define how every employee grows, leads, and contributes—regardless of role. It sets the standard for how you can develop yourself and what you can expect from leaders across our organization. We look for candidates who want to grow in alignment with these capabilities:<br><br><ul><li>Know & Grow Your People – Commit to learning and supporting team success.</li><li>Build Relationships – Communicate openly, collaborate well, and build trust.</li><li>Take Ownership – Deliver on commitments and take pride in your work.</li><li>Customer First – Focus on the mission and those we serve.</li><li>Shape the Future – Bring ideas, curiosity, and continuous improvement.</li><li>Act with Urgency – Take initiative and follow through with purpose.<br><br></li></ul>These capabilities guide how all employees contribute to our shared success across Mission Technologies.<br><br><strong>Job Description<br><br></strong>HII Mission Technologies is looking for an experienced Facility Manager with Facility Security Office experience. The Ideal candidate will possess mid-level working experience in functional areas such as facility/property management and security officer duties. The individual will be responsible for performing all disciplines within facility maintenance, and security to include personnel security, physical security, document control, visitor control, as well as the protection and tracking of proprietary computing equipment.<br><br>The ideal candidate will also be responsible for the opening, closing, and daily management of a 5,000 – 10,000 square foot commercial facility to include managing all logistics management operations within the facility.<br><br>The applicant must have a working knowledge and experience with the below responsibilities:<br><br><strong>Essential Job Responsibilities<br><br></strong><strong>Facility Security Officer Duties:<br><br></strong><ul><li> The successful candidate will manage all disciplines of security to include personnel and physical security, document control, visitor control, security education and training, and other duties as directed.</li><li> Will work closely with program CPSO’s to ensure that program personnel are processed accordingly for special accesses.</li><li> Will be responsible for the administration and coordination of DOD and other Industrial Security Programs and activities to ensure compliance with government and company security policies and procedures.</li><li> Will develop and administer security programs and procedures for classified or proprietary materials, documents, and equipment in coordination with government agencies and management personnel.</li><li> Have in-depth working knowledge to implement and enforce 32-CFR Part 117 and SEAD 3 Reporting Requirements.</li><li> Reviews and implements federal security regulations that apply to company operations.</li><li> Obtains rulings, approvals, interpretations, and acceptable deviations for compliance with regulations from government agencies.</li><li> Prepares manuals outlining regulations such as SOPs, SPPs, ITPs, EAPs and OPSEC.</li><li> Establishes procedures for record keeping, handling, storing, and for granting personnel and visitor access to restricted records and materials.</li><li> Prepares and conducts security education classes, incoming/outgoing facility inspections, and security audits.</li><li> Investigates security violations and prepares reports specifying preventive action to be taken.</li><li> Ensures individuals stay within scope for current investigations and perform the necessary actions for initial and/or reinvestigation actions and track accordingly to internal processes and procedures.</li><li> Conducts security self-inspections, physical security surveys, and threat/vulnerability assessments.</li><li> Ensures accuracy of the security clearance data base and document control using the Access Commander database.</li><li> Interfaces with government customers on security related issues.</li><li> Ensures that classified information entrusted to the company is properly safeguarded as outlined in federal controlling instructions.</li><li> Responsible for preparation, management, and interfacing with the Defense Counterintelligence Security Agency (DCSA) during audits.</li><li> Thorough knowledge of using/applying US Government online programs such as the National Background Investigation Services (NBIS), eAPP (Electronic Application), Defense Information System for Security (DISS) and the National Industrial Security System (NISS).<br><br></li></ul><strong>Facility and Logistics Management<br><br></strong><ul><li> Oversee daily facility operations for a 5,000–10,000 square foot commercial site.</li><li> Coordinate maintenance and manage vendor contracts for janitorial, HVAC, electrical, and security systems.</li><li> Develop and monitor facility budgets, track expenditures, and maintain inventory.</li><li> Ensure compliance with safety, environmental, and ADA regulations, including NFPA and OSHA standards.</li><li> Plan and execute facility projects, including renovations and space planning.</li><li> Manage logistics operations, including shipping, receiving, and other support services.</li><li> Serve as the primary point of contact for facility-related issues, including utilities, waste disposal, and emergency response.<br><br></li></ul><strong>Minimum Qualifications<br><br></strong>6 years relevant experience with Bachelors in related field; 4 years relevant experience with Masters in related field; or High School Diploma or equivalent and 10 years relevant experience.<br><br><ul><li> Program Management Curriculum for Possessing Facilities certification is required.</li><li> Full knowledge and understanding of Industrial Security practices.</li><li> Must be able to independently demonstrate the skills and abilities to perform complex professional tasks.</li><li> Thorough knowledge of 32-CFR, Part 117, ICDs, NFPA, OSHA, ADA, and other DoD facility compliance requirements.</li><li> Candidate must work well in a team environment and possess excellent speaking, writing, organizational, customer service, interpersonal, and project management skills.</li><li> The candidate must be able to work with minimal supervision on multiple tasks and work well under deadlines in a fast-paced environment.</li><li> Candidate must be able to prioritize tasks and handle multiple assignments concurrently.</li><li> Candidate must have proficiency in the use of Microsoft Word, Excel, PowerPoint, and various facility management software to include CAFM and CMMS.</li><li> Proven ability to manage budgets as well as vendor negotiation.</li><li> Must possess a current Top-Secret clearance with an in-scope...",
-      "job_highlights": [
-        {
-          "items": [
-            "Know & Grow Your People – Commit to learning and supporting team success",
-            "Build Relationships – Communicate openly, collaborate well, and build trust",
-            "The Ideal candidate will possess mid-level working experience in functional areas such as facility/property management and security officer duties",
-            "Thorough knowledge of using/applying US Government online programs such as the National Background Investigation Services (NBIS), eAPP (Electronic Application), Defense Information System for Security (DISS) and the National Industrial Security System (NISS)",
-            "6 years relevant experience with Bachelors in related field; 4 years relevant experience with Masters in related field; or High School Diploma or equivalent and 10 years relevant experience",
-            "Program Management Curriculum for Possessing Facilities certification is required",
-            "Full knowledge and understanding of Industrial Security practices",
-            "Must be able to independently demonstrate the skills and abilities to perform complex professional tasks",
-            "Thorough knowledge of 32-CFR, Part 117, ICDs, NFPA, OSHA, ADA, and other DoD facility compliance requirements",
-            "Candidate must work well in a team environment and possess excellent speaking, writing, organizational, customer service, interpersonal, and project management skills",
-            "The candidate must be able to work with minimal supervision on multiple tasks and work well under deadlines in a fast-paced environment",
-            "Candidate must be able to prioritize tasks and handle multiple assignments concurrently",
-            "Candidate must have proficiency in the use of Microsoft Word, Excel, PowerPoint, and various facility management software to include CAFM and CMMS",
-            "Proven ability to manage budgets as well as vendor negotiation",
-            "Must possess a current Top-Secret clearance with an in-scope background investigation as well as have an ability to meet Top Secret/SCI eligibility requirements if required",
-            "Must be able to lift, carry, and transport heavy equipment weighing up to but not exceeding 50 lbs",
-            "Job performance requires adequate visual acuity and manual dexterity for meeting the requirements of the discipline",
-            "14 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Anticipated Salary Range: $74,984.00 - $100,000.00",
-            "The listed salary range for this role is intended as a good faith estimate based on the role's location, expectations, and responsibilities",
-            "We offer competitive benefits such as best-in-class medical, dental and vision plan choices; wellness resources; employee assistance programs; Savings Plan Options (401(k)); financial planning tools, life insurance; employee discounts; paid holidays and paid time off; tuition reimbursement; as well as early childhood and post-secondary education scholarships"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Take Ownership – Deliver on commitments and take pride in your work",
-            "Customer First – Focus on the mission and those we serve",
-            "Shape the Future – Bring ideas, curiosity, and continuous improvement",
-            "Act with Urgency – Take initiative and follow through with purpose",
-            "The individual will be responsible for performing all disciplines within facility maintenance, and security to include personnel security, physical security, document control, visitor control, as well as the protection and tracking of proprietary computing equipment",
-            "The ideal candidate will also be responsible for the opening, closing, and daily management of a 5,000 – 10,000 square foot commercial facility to include managing all logistics management operations within the facility",
-            "The successful candidate will manage all disciplines of security to include personnel and physical security, document control, visitor control, security education and training, and other duties as directed",
-            "Will work closely with program CPSO’s to ensure that program personnel are processed accordingly for special accesses",
-            "Will be responsible for the administration and coordination of DOD and other Industrial Security Programs and activities to ensure compliance with government and company security policies and procedures",
-            "Will develop and administer security programs and procedures for classified or proprietary materials, documents, and equipment in coordination with government agencies and management personnel",
-            "Have in-depth working knowledge to implement and enforce 32-CFR Part 117 and SEAD 3 Reporting Requirements",
-            "Reviews and implements federal security regulations that apply to company operations",
-            "Obtains rulings, approvals, interpretations, and acceptable deviations for compliance with regulations from government agencies",
-            "Prepares manuals outlining regulations such as SOPs, SPPs, ITPs, EAPs and OPSEC",
-            "Establishes procedures for record keeping, handling, storing, and for granting personnel and visitor access to restricted records and materials",
-            "Prepares and conducts security education classes, incoming/outgoing facility inspections, and security audits",
-            "Investigates security violations and prepares reports specifying preventive action to be taken",
-            "Ensures individuals stay within scope for current investigations and perform the necessary actions for initial and/or reinvestigation actions and track accordingly to internal processes and procedures",
-            "Conducts security self-inspections, physical security surveys, and threat/vulnerability assessments",
-            "Ensures accuracy of the security clearance data base and document control using the Access Commander database",
-            "Interfaces with government customers on security related issues",
-            "Ensures that classified information entrusted to the company is properly safeguarded as outlined in federal controlling instructions",
-            "Responsible for preparation, management, and interfacing with the Defense Counterintelligence Security Agency (DCSA) during audits",
-            "Facility and Logistics Management",
-            "Oversee daily facility operations for a 5,000–10,000 square foot commercial site",
-            "Coordinate maintenance and manage vendor contracts for janitorial, HVAC, electrical, and security systems",
-            "Develop and monitor facility budgets, track expenditures, and maintain inventory",
-            "Ensure compliance with safety, environmental, and ADA regulations, including NFPA and OSHA standards",
-            "Plan and execute facility projects, including renovations and space planning",
-            "Manage logistics operations, including shipping, receiving, and other support services",
-            "Serve as the primary point of contact for facility-related issues, including utilities, waste disposal, and emergency response",
-            "28 more items(s)"
+            "The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) administers Navy Second Class Swimmer testing for designated Master‑at‑Arms students in accordance with NETC P1552/16 swim testing standards",
+            "The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) conducts all poolside safety checks, verify facility readiness, ensure required safety equipment is present, and confirm communication capabilities",
+            "Perform lifeguard duties during all swim testing events and evaluate students in accordance with Navy Swimming and Water Survival Instructor Manual guidelines",
+            "Complete the Record of Swim Qualification and ensure accurate documentation of all results",
+            "Coordinate with NTTC Lackland administrative staff to record successful or unsuccessful test completions in FLTMPS and in student service records",
+            "Assist with scheduling pool access and work directly with NTTC and Joint Base San Antonio swimming facility personnel",
+            "Deliver CPR instruction and support other non‑weapons training modules within MA \"A\" School after obtaining CUIT qualifications",
+            "Ensure compliance with medical pre‑screening requirements, swimmer safety policies, and high‑risk training precautions",
+            "The Basic Security Fundamental Support Instructor II (Swim Tester / Lifeguard) maintains all required certifications and ensures documentation is properly filed in the Instructor Training Jacket (ITJ)",
+            "Other duties as assigned",
+            "7 more items(s)"
           ],
           "title": "Responsibilities"
         }

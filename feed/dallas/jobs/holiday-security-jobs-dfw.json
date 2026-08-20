@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/jobs/holiday-security-jobs-dfw",
   "market": "DFW",
   "target": "city-role",
@@ -72,6 +72,32 @@
       ]
     },
     {
+      "job_hash": "83d818d62657",
+      "title": "Dallas Security Ops Leader — Night-Shift Manager",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "data-center",
+      "pay": "60K–61K a year",
+      "pay_min": 60000.0,
+      "pay_max": 61000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://bebee.com/us/jobs/dallas-security-ops-leader-night-shift-manager-securitas-security-services-usa-inc-dallas--pureheal-28528_23106_b4d5c85dacdbad3f74ae3d1b84ce01d7",
+      "via": "via JobLeads",
+      "description": "<p>Securitas Security Services USA, Inc. is seeking a Security Operations Manager for key client sites in Dallas, TX. The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service.</p><p>You will manage staffing, provide training, and partner with the client to understand expectations and deliver results. This position offers growth opportunities and a dynamic work environment.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service",
+            "You will manage staffing, provide training, and partner with the client to understand expectations and deliver results"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "1f1a0cb63963",
       "title": "Full-Time Overnight Security Officers",
       "company": "Dunbar Security Solutions",
@@ -122,32 +148,6 @@
             "Lock and unlock premises as required",
             "Interact professionally with tenants, customers, and law enforcement when necessary",
             "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "83d818d62657",
-      "title": "Dallas Security Ops Leader — Night-Shift Manager",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "night-shift",
-      "pay": "60K–61K a year",
-      "pay_min": 60000.0,
-      "pay_max": 61000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://bebee.com/us/jobs/dallas-security-ops-leader-night-shift-manager-securitas-security-services-usa-inc-dallas--pureheal-28528_23106_b4d5c85dacdbad3f74ae3d1b84ce01d7",
-      "via": "via JobLeads",
-      "description": "<p>Securitas Security Services USA, Inc. is seeking a Security Operations Manager for key client sites in Dallas, TX. The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service.</p><p>You will manage staffing, provide training, and partner with the client to understand expectations and deliver results. This position offers growth opportunities and a dynamic work environment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service",
-            "You will manage staffing, provide training, and partner with the client to understand expectations and deliver results"
           ],
           "title": "Responsibilities"
         }
@@ -208,6 +208,45 @@
             "Assist with handling items for “Lost and Found” according to the standards",
             "Works special functions attends meetings and/or performs other duties as required",
             "25 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "e14c79626fe7",
+      "title": "Security Officer Overnight Shift - High Rise-Retail 75225",
+      "company": "United Protective Services",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "weekend",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-11",
+      "apply_link": "https://unitedprotective.joblinkapply.com/job/cc01e951-3248-4f29-a54b-0dca3c486388",
+      "via": "via Indeed",
+      "description": "<div>\n Security Officer Overnight Shift - High Rise-Retail 75225 \n <p><b><br>\n    Pay Rate:</b> $18.00hr</p>\n <p><b> Schedule:</b> Saturday/Sunday 7PM - 7AM</p>\n <p>Thursday/Friday 11PM - 7AMull-time</p>\n <p><b> Responsibilities</b></p>\n <ul>\n  <li>Officer will patrol interior of building and garage using our Silver Trac tour system</li>\n  <li>Officer will be alert and attentive while in the lobby and greet tenants or guests that enter the building</li>\n  <li>Respond to alarms by investigating and assessing the situation</li>\n  <li>Provide assistance to people in need</li>\n  <li>Officer will report all incidents according to the policies and procedures</li>\n  <li>Submit reports of daily surveillance activity and important occurrences</li>\n </ul>\n <p></p>\n <p><br>\n   UNITED PROTECTIVE SERVICES - DALLAS BRANCH4455 Sigma Road Dallas TX 75244</p>\n <p>Job Type: F</p>\n <p>United Protective Services License: Texas B-09771 Equal Opportunity Employer</p>\n <p><br>\n   At United Protective Services, our people are our greatest asset. We are looking for reliable, positive people who want to serve others, and grow in their security careers. In return, we provide training, support, and opportunities you need to succeed.<br></p>\n <br>\n <br>\n  United Protective Services License:Texas B-09771 & B-12854Oklahoma 12SGA 4246Equal Opportunity Employer\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Pay Rate: $18.00hr",
+            "Schedule: Saturday/Sunday 7PM - 7AM"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Thursday/Friday 11PM - 7AMull-time",
+            "Officer will patrol interior of building and garage using our Silver Trac tour system",
+            "Officer will be alert and attentive while in the lobby and greet tenants or guests that enter the building",
+            "Respond to alarms by investigating and assessing the situation",
+            "Provide assistance to people in need",
+            "Officer will report all incidents according to the policies and procedures",
+            "Submit reports of daily surveillance activity and important occurrences",
+            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -439,107 +478,48 @@
       ]
     },
     {
-      "job_hash": "8f2bcbb5ebbe",
-      "title": "Overnight Alarm Monitor",
-      "company": "GardaWorld",
+      "job_hash": "e467d5e415df",
+      "title": "Overnight Security Dispatcher (Remote - Texas Only) | Special Events & Account Support",
+      "company": "AX9 Security, Inc.",
       "location": "Dallas, TX",
       "vertical": "security",
-      "role": "surveillance",
-      "pay": "23K–32K a year",
-      "pay_min": 23000.0,
-      "pay_max": 32000.0,
-      "pay_unit": "YEAR",
+      "role": "overnight",
+      "pay": "$20.00 - $21.00 Hourly",
+      "pay_min": 20.0,
+      "pay_max": 21.0,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5358474849/e/",
-      "via": "via JobLeads",
-      "description": "<div><h3><b>Join Our Team as an Overnight Alarm Monitor Dallas, TX!</b></h3>\n<p>Are you a detail-oriented professional with a passion for security and customer service? We are looking for a self-motivated Overnight Alarm Monitor to join our dynamic team. In this role, you will be at the forefront of our security operations, monitoring live and recorded camera footage to identify and respond to potential security risks. Your keen eye for detail and strong decision-making skills will be crucial as you assess suspicious activities, follow client-specific protocols, and take swift action by contacting authorities when necessary.</p>\n<p>As an Escalations Specialist, you will need to multitask across various computer programs, communicate effectively with both internal and external stakeholders, and maintain the highest level of confidentiality when handling sensitive information. Proficiency in video monitoring software, Microsoft Office, and Google Maps is essential. This position requires the ability to remain highly focused and alert while sitting for extended periods, and you must be comfortable working nights, weekends, and holidays to support our 24/7 security operation.</p>\n<p><b>If you thrive in a fast-paced environment and are committed to ensuring the safety and security of our clients, we encourage you to apply and become a vital part of our team.</b></p>\n<h3>What’s in it for You</h3>\n<ul>\n<li><b>Competitive Pay:</b> $20.00 / hour</li>\n<li><b>Work Site Location: </b>Dallas, TX</li>\n<li><b>Schedule: </b>May include weekdays, weekends, and varying shifts\n<ul>\n<li>Willingness to work nights, weekends, and holidays, as needed.</li>\n</ul>\n</li>\n<li><b>Comprehensive Benefits:</b> Medical, dental, and vision insurance plans, 401(k) with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options.</li>\n<li><b>Career Growth: </b>Career growth opportunities at GardaWorld</li>\n</ul>\n<h3>Your Responsibilities</h3>\n<ul>\n<li>Review camera footage and assess potential security risk events</li>\n<li>Responsible for understanding client-specific requirements and protocols.</li>\n<li>Deter suspicious or unwanted activity from client properties.</li>\n<li>Responsible for contacting appropriate authorities with urgency (Police, Fire, Guard, etc.).</li>\n<li>Answer inbound calls while utilizing a multi-line phone system.</li>\n<li>Communicate with internal and external stakeholders.</li>\n<li>Special projects as assigned (audits, process documentation, research, etc.).</li>\n<li>Monitor camera alarms for assigned sites/stations and act accordingly based on the events and severity of activity observed.</li>\n<li>Able to multitask using different computer programs.</li>\n<li>Ability to work under pressure while observing and handling live criminal events.</li>\n<li>Experience with Microsoft Office Word, Excel.</li>\n<li>Ability to effectively use Google maps.</li>\n<li>Ability to maintain confidentiality of legally protected information.</li>\n<li>Ability to work in a fast-paced environment and manage multiple priorities.</li>\n</ul>\n<h3>Your Qualifications</h3>\n<ul>\n<li>Authorized to work in the United States</li>\n<li>A high school diploma or equivalent (GED)</li>\n<li>Able to pass an extensive screening process</li>\n<li>Add additional qualifications as needed/required.</li>\n<li>Must always remain alert during working hours.</li>\n<li>Ability to sit for long periods of time.</li>\n</ul>\n<h3>Your Skills and Competencies</h3>\n<ul>\n<li>Composure – Can handle stress, does not get knocked off balance by the unexpected</li>\n<li>Timely Decision Making – Able to make quick decisions under tight deadlines and pressure.</li>\n<li>Decision Quality – Most decisions are correct and accurate using analysis, wisdom, judgment, and experience.</li>\n<li>Strong typing skills, 40 wpm – minimum.</li>\n<li>Strong attention to detail skills.</li>\n</ul>\n<h3>ECAMSECURE: Safeguarding Sites with Innovation</h3>\n<p>ECAMSECURE, a GardaWorld company, is a leader in security technology and remote surveillance. With a mission to deliver smarter, more efficient security solutions, ECAMSECURE protects construction sites, commercial properties, and critical infrastructure with cutting-edge mobile surveillance units, AI-driven monitoring, and professional guard services. Their integrated approach helps clients reduce risk, prevent loss, and maintain peace of mind—24/7.</p>\n<p>It is the policy of ECAMSECURE to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, ECAMSECURE complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of ECAMSECURE not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.</p></div>",
+      "posted_date": null,
+      "apply_link": "https://bebee.com/us/jobs/overnight-security-dispatcher-remote-texas-only-special-events-account-support-ax9-security-inc-dall--fj-2137330241",
+      "via": "via BeBee",
+      "description": "<p>Job DetailsJob Location: Dallas, Texas - Dallas, TXPosition Type: Full TimeSalary Range: $20.00 - $21.00 HourlyTravel Percentage: Up to 25%Job Shift: GraveyardJob Category: Admin - ClericalJoin AX9 Security Inc. – A Top-Rated Security Company with Proven Growth!</p>\n<p>Job Title: Branch Administrative Assistant – AX9 Security Inc.</p>\n<p>Overview: Since our founding in 2004, AX9 Security, Inc. has emerged as one of the fastest-growing security providers in the nation. We pride ourselves on upholding the highest safety standards while diligently protecting our clients' assets. By joining the AX9 team, you will have the opportunity to advance your career with a leading security company dedicated to your professional growth.</p>\n<p>We are excited to welcome passionate individuals who are ready to contribute to our mission of ensuring safety and security in the communities we serve.</p>\n<p>Job Summary: We are seeking a highly organized and proactive Branch Administrative Assistant to support the operations of our branch. The ideal candidate will be able to handle a variety of administrative, Human Resource and operational tasks, ensuring the smooth and efficient functioning of the office while maintaining discretion and confidentiality.</p>\n<p>Essential Job Duties and Responsibilities: Duties necessary to meet the minimum requirements of the position.</p>\n<p>Other duties may be assigned: Provide comprehensive administrative support to ensure seamless office operations. Answer phone calls and direct inquiries to the appropriate personnel. Welcome and assist clients, visitors, and vendors, including signing for packages.</p>\n<p>Respond to emails and other digital communications in a timely manner. Draft, edit, and prepare letters, reports, proposals and various documents as needed. Handle sensitive and confidential information with the utmost discretion, ensuring compliance with company privacy policies and regulations.</p>\n<p>Enter employee data into the company HRIS database, onboard and load new employees. Support the branch's disciplinary processes and handle formal grievances. Address employee inquiries, concerns and or complaints Responsible for ordering and maintaining inventory of branch uniforms, supplies, etc.</p>\n<p>Monitor and manage employee qualification expiration dates, ensuring timely renewals and compliance with necessary certifications. Various HR tasks including but not limited to; recruiting, complete onboarding process, pay discrepancies, and employee relations matters.</p>\n<p>Qualifications Experience: 5+ years of customer service and HR experience preferred. Proficiency in Google Suite, Microsoft Office, and other office software. Familiarity with calendar management, Outlook, and general office procedures.</p>\n<p>Working knowledge of Tracktik (or similar scheduling platform) and Paycom (or similar payroll/HRIS system) is preferred. Strong organizational skills with the ability to multitask and meet deadlines. Excellent communication and interpersonal skills, with the ability to handle sensitive information with discretion.</p>\n<p>Experience in managing disciplinary processes, employee inquiries, and new hire onboarding is a plus.</p>\n<p>Licensing: CA PPO 15200 | AZ DPS 1609999 | TX DPS B18160 | MD MSPD 106-5206 | WASH MPD SAB2002271 | HI 1111 | NJ SORA 1793 | NY 11000213558 AX9 Security, Inc. is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, national origin, disability status, protected veteran status or any other characteristic protected by law. #Adm2</p>",
       "job_highlights": [
         {
           "items": [
-            "Proficiency in video monitoring software, Microsoft Office, and Google Maps is essential",
-            "This position requires the ability to remain highly focused and alert while sitting for extended periods, and you must be comfortable working nights, weekends, and holidays to support our 24/7 security operation",
-            "Ability to work under pressure while observing and handling live criminal events",
-            "Experience with Microsoft Office Word, Excel",
-            "Ability to effectively use Google maps",
-            "Ability to maintain confidentiality of legally protected information",
-            "Ability to work in a fast-paced environment and manage multiple priorities",
-            "Authorized to work in the United States",
-            "A high school diploma or equivalent (GED)",
-            "Able to pass an extensive screening process",
-            "Add additional qualifications as needed/required",
-            "Must always remain alert during working hours",
-            "Ability to sit for long periods of time",
-            "Composure – Can handle stress, does not get knocked off balance by the unexpected",
-            "Timely Decision Making – Able to make quick decisions under tight deadlines and pressure",
-            "Decision Quality – Most decisions are correct and accurate using analysis, wisdom, judgment, and experience",
-            "Strong typing skills, 40 wpm – minimum",
-            "Strong attention to detail skills",
-            "15 more items(s)"
+            "Proficiency in Google Suite, Microsoft Office, and other office software",
+            "Familiarity with calendar management, Outlook, and general office procedures",
+            "Strong organizational skills with the ability to multitask and meet deadlines",
+            "Excellent communication and interpersonal skills, with the ability to handle sensitive information with discretion",
+            "1 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Competitive Pay: $20.00 / hour",
-            "Work Site Location: Dallas, TX",
-            "Schedule: May include weekdays, weekends, and varying shifts",
-            "Willingness to work nights, weekends, and holidays, as needed",
-            "Comprehensive Benefits: Medical, dental, and vision insurance plans, 401(k) with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
-            "Career Growth: Career growth opportunities at GardaWorld",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role, you will be at the forefront of our security operations, monitoring live and recorded camera footage to identify and respond to potential security risks",
-            "Your keen eye for detail and strong decision-making skills will be crucial as you assess suspicious activities, follow client-specific protocols, and take swift action by contacting authorities when necessary",
-            "As an Escalations Specialist, you will need to multitask across various computer programs, communicate effectively with both internal and external stakeholders, and maintain the highest level of confidentiality when handling sensitive information",
-            "If you thrive in a fast-paced environment and are committed to ensuring the safety and security of our clients, we encourage you to apply and become a vital part of our team",
-            "Review camera footage and assess potential security risk events",
-            "Responsible for understanding client-specific requirements and protocols",
-            "Deter suspicious or unwanted activity from client properties",
-            "Responsible for contacting appropriate authorities with urgency (Police, Fire, Guard, etc.)",
-            "Answer inbound calls while utilizing a multi-line phone system",
-            "Communicate with internal and external stakeholders",
-            "Special projects as assigned (audits, process documentation, research, etc.)",
-            "Monitor camera alarms for assigned sites/stations and act accordingly based on the events and severity of activity observed",
-            "Able to multitask using different computer programs",
+            "Job Summary: We are seeking a highly organized and proactive Branch Administrative Assistant to support the operations of our branch",
+            "The ideal candidate will be able to handle a variety of administrative, Human Resource and operational tasks, ensuring the smooth and efficient functioning of the office while maintaining discretion and confidentiality",
+            "Other duties may be assigned: Provide comprehensive administrative support to ensure seamless office operations",
+            "Answer phone calls and direct inquiries to the appropriate personnel",
+            "Welcome and assist clients, visitors, and vendors, including signing for packages",
+            "Respond to emails and other digital communications in a timely manner",
+            "Draft, edit, and prepare letters, reports, proposals and various documents as needed",
+            "Handle sensitive and confidential information with the utmost discretion, ensuring compliance with company privacy policies and regulations",
+            "Enter employee data into the company HRIS database, onboard and load new employees",
+            "Support the branch's disciplinary processes and handle formal grievances",
+            "Address employee inquiries, concerns and or complaints Responsible for ordering and maintaining inventory of branch uniforms, supplies, etc",
+            "Monitor and manage employee qualification expiration dates, ensuring timely renewals and compliance with necessary certifications",
+            "Various HR tasks including but not limited to; recruiting, complete onboarding process, pay discrepancies, and employee relations matters",
             "10 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "443f510a22e9",
-      "title": "Night Shift Surveillance Officer: Detail-Driven Pro",
-      "company": "GardaWorld",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "surveillance",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.jobleads.com/us/job/night-shift-surveillance-officer-detail-driven-pro--dallas--e9af74aaa27cbfe5a9e860567038f63d3",
-      "via": "via JobLeads",
-      "description": "<p>GardaWorld Security Services is recruiting a Surveillance Security Officer to monitor security systems and respond to incidents in night shifts. The role requires attention to detail, the ability to document events clearly, and exceptional observation skills.</p><p>You will patrol, control access, verify visitor identities, and work with law enforcement when needed. Must be 21+, with a valid driver’s license and US work authorization.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Must be 21+, with a valid driver’s license and US work authorization"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "GardaWorld Security Services is recruiting a Surveillance Security Officer to monitor security systems and respond to incidents in night shifts",
-            "The role requires attention to detail, the ability to document events clearly, and exceptional observation skills",
-            "You will patrol, control access, verify visitor identities, and work with law enforcement when needed"
           ],
           "title": "Responsibilities"
         }

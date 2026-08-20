@@ -1,11 +1,72 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "houston/jobs/houston-retail-security",
   "market": "Houston",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "b18390126ba0",
+      "title": "Security Officer - Retail Supervisor",
+      "company": "GardaWorld",
+      "location": "Houston, TX",
+      "vertical": "security",
+      "role": "corporate",
+      "pay": "$20.00/hr",
+      "pay_min": 20.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-12",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-retail-memorial-at-allied-universal-4453654874",
+      "via": "via GardaWorld - GardaWorld Security",
+      "description": "<p>GardaWorld Security Services is Now Hiring a Surveillance Security Officer!</p><p> </p><p><strong>Ready to suit up as a Surveillance Security Guard?</strong></p><p>What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.</p><p><strong>What’s in it for you:</strong></p><ul><li>Site Location: Houston, Tx</li><li>Set schedule: Full-time Saturday-Wednesday 2pm-10pm</li><li>Competitive hourly wage of $20.00/hr (DailyPay is available for GardaWorld employees!)</li><li>A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options</li><li>Career growth opportunities at GardaWorld</li><li>Uniform provided at no cost</li></ul><p><strong>Responsibilities of Surveillance Security Guard</strong></p><ul><li>Must have 1+ years of Verifiable Supervisor Experience</li><li>Monitor security systems to detect any suspicious activity</li><li>Document observed events and incidents, writing detailed reports</li><li>Respond quickly to incidents or potential threats</li><li>Conduct regular patrols to ensure the safety of the premises</li><li>Control access to secure areas and verify the identities of visitors</li><li>Analyze security systems to identify potential vulnerabilities or malfunctions</li><li>Collaborate with law enforcement in case of serious situations or emergencies</li><li>Ensure the safety and protection of individuals and property</li></ul><p><strong>Qualifications of a Surveillance Security Guard</strong></p><ul><li>Be authorized to work in the U.S.</li><li><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Be able to provide documentation of High School Diploma or GED</span></span></li><li>Be able to ace (and pass) an extensive screening process</li><li>Strong report writing skills</li><li>Sharp visual activity and exceptional concentration skills</li><li>Strong proficiency with technology</li><li>If you have Security, Military, Law Enforcement experience – even better!</li><li>You have a state license if required</li></ul><p>In the United States, GardaWorld Security remains the only guarding security company to be <strong>Certified by Great Place to Work</strong>. Apply today – this could be more than a job! 26% of our corporate employees started as frontline workers.</p><p>If you’re ambitious with an entrepreneurial spirit – someone who wants to be a GardaWorld Ambassador – a promising career awaits you!</p><p>GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.</p><p>Not the job for you? Make sure to check out all our jobs! We also have tactical, concierge, and even casual roles available.<br><br><em><strong>Employment is contingent on the successful completion of a background check and drug screening to be conducted after an offer of employment is extended.</strong></em></p><p><em>It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment</em>.<br><br>B07179</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have 1+ years of Verifiable Supervisor Experience",
+            "Qualifications of a Surveillance Security Guard",
+            "Be authorized to work in the U.S",
+            "Be able to provide documentation of High School Diploma or GED",
+            "Be able to ace (and pass) an extensive screening process",
+            "Strong report writing skills",
+            "Sharp visual activity and exceptional concentration skills",
+            "Strong proficiency with technology",
+            "If you have Security, Military, Law Enforcement experience – even better!",
+            "You have a state license if required",
+            "7 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Set schedule: Full-time Saturday-Wednesday 2pm-10pm",
+            "Competitive hourly wage of $20.00/hr (DailyPay is available for GardaWorld employees!)",
+            "A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
+            "Career growth opportunities at GardaWorld",
+            "Uniform provided at no cost",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc",
+            "Monitor security systems to detect any suspicious activity",
+            "Document observed events and incidents, writing detailed reports",
+            "Respond quickly to incidents or potential threats",
+            "Conduct regular patrols to ensure the safety of the premises",
+            "Control access to secure areas and verify the identities of visitors",
+            "Analyze security systems to identify potential vulnerabilities or malfunctions",
+            "Collaborate with law enforcement in case of serious situations or emergencies",
+            "Ensure the safety and protection of individuals and property",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "ed75422f1b43",
       "title": "$22.50HR/ RETAIL STORES UNARMED SECURITY OFFICER SEASONAL WORK STRTS SEPT",
@@ -411,24 +472,6 @@
           "title": "Responsibilities"
         }
       ]
-    },
-    {
-      "job_hash": "695f70bdaab6",
-      "title": "Retail Security Supervisor",
-      "company": "Marksman Security",
-      "location": "Richmond, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.jobilize.com/job/us-tx-richmond-retail-security-supervisor-marksman-hiring-now-job",
-      "via": "via Trabajo.org",
-      "description": "Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well-known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman's customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in providing unparalleled service and support in all that we do. If you are looking for a meaningful career, a culture of excellence, and the ability to make a difference, we want to talk to you Responsibilities Provide excellent Customer Service to all parties encountered while on duty, including assisting with directions and general business information Maintain clear, accurate administrative logs at front desk pertaining to people or property including packages. Control access for tenants, visitors or vendors as required Monitor security guard cameras and conduct patrols to guard against theft and maintain a safe environment Respond to incidents, including emergencies at the property, and record data on incidents for building and Titan Security management Other duties as assigned Required Qualifications Must be at least 21 years of age. High School diploma or general education degree (GED) Must have a valid License 2 Able to pass pre-employment drug screen and criminal background check. Able to read, write, speak, and understand English Able to meet physical essential functions of the job, which can include lifting 50+ lbs, completing foot patrols, walking up and down stairs, working in inclement weather Preferred Qualifications Bi-lingual considered a plus. Evening, overnight, and weekend availability required Pay and Benefits Positions starting at $17.34 / hour depending on experience, location and position Paid time off and paid holidays Medical and Dental insurance Opportunities for career growth and promotion Skills‐enhancing training EEO/M/F/D/V #J-18808-Ljbffr",
-      "job_highlights": null
     }
   ]
 }

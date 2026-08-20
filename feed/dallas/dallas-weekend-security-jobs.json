@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
@@ -66,6 +66,69 @@
       ]
     },
     {
+      "job_hash": "152c4249999b",
+      "title": "Part-Time Security Officer - Weekend & Evening Shifts",
+      "company": "Marksman Security",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Part-time",
+      "posted_date": "2026-08-17",
+      "apply_link": "https://www.jobleads.com/us/job/part-time-security-officer-weekend-evening-shifts--fort-worth--ef22a6ef43da44d74c9a6796f73235ba5",
+      "via": "via BeBee",
+      "description": "<p>Marksman Security LLC in Fort Worth, TX is seeking a Security Officer to patrol public rights of way, engage with the public and respond to service calls. You'll work with a team under a leadership team that sets clear expectations and supports your growth.\nRequirements include being 21+, high school diploma or equivalent, Texas Level II Guard License, willingness to work weekends/evenings/holidays, clean driving record, and ability to perform extended patrols up to six hours.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Requirements include being 21+, high school diploma or equivalent, Texas Level II Guard License, willingness to work weekends/evenings/holidays, clean driving record, and ability to perform extended patrols up to six hours"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You'll work with a team under a leadership team that sets clear expectations and supports your growth"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "3d2e21b3493a",
+      "title": "Armed Security Officer (TX) - Weekend PT with Benefits",
+      "company": "Socket.dev",
+      "location": "Hutchins, TX",
+      "vertical": "security",
+      "role": "event",
+      "pay": "30,307–35,817 a year",
+      "pay_min": 30307.0,
+      "pay_max": 35817.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://www.learn4good.com/jobs/texas/security/5371132584/e/",
+      "via": "via JobLeads",
+      "description": "<p>Marksman Security is hiring for part-time weekend armed security officers in Hutchins, TX. The role involves guarding a food distribution warehouse, patrolling, checking checkpoints, and monitoring CCTV and gatehouse access.</p><p>Shifts are available 6pm-6am on Sat/Sun or 10pm-6am, with a pay rate of $23.00 per hour. Offers include 401(k), medical/vision/dental insurance, short-term disability, life and pet insurance, legal/guidance services, paid training, PTO and bi-weekly pay, with career</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Shifts are available 6pm-6am on Sat/Sun or 10pm-6am, with a pay rate of $23.00 per hour",
+            "Offers include 401(k), medical/vision/dental insurance, short-term disability, life and pet insurance, legal/guidance services, paid training, PTO and bi-weekly pay, with career"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role involves guarding a food distribution warehouse, patrolling, checking checkpoints, and monitoring CCTV and gatehouse access"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "41cae9628cba",
       "title": "Part-Time Security Officer - Weekend & Evening Shifts",
       "company": "Marksman Security LLC",
@@ -97,38 +160,6 @@
       ]
     },
     {
-      "job_hash": "0d46cc1c9dde",
-      "title": "Part-Time Weekend Warehouse Security Clerk — Weekly Pay",
-      "company": "Ryder System, Inc.",
-      "location": "Haltom City, TX",
-      "vertical": "security",
-      "role": "overnight-warehouse",
-      "pay": "26K–29K a year",
-      "pay_min": 26000.0,
-      "pay_max": 29000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-10",
-      "apply_link": "https://www.learn4good.com/jobs/haltom-city/texas/warehouse/5361024311/e/",
-      "via": "via JobLeads",
-      "description": "<p>Ryder System, Inc. is hiring a Part-Time Guard/Clerk in Haltom City, Texas, with a weekend schedule and weekly pay. The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills.</p><p>The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities. Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities",
-            "Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "a4c01de24948",
       "title": "Security Shift Lead – Mesquite, TX (Weekend/Holiday)",
       "company": "Marksman Security LLC",
@@ -149,71 +180,6 @@
           "items": [
             "Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions",
             "Weekend and holiday availability is required"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "82ca0e564c4a",
-      "title": "Weekend Only Unarmed Security Officer (Level II) – North Dallas $20/hour | Saturday & Sunday Only |",
-      "company": "Security Reconnaissance Team Inc",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "weekend",
-      "pay": "20 an hour",
-      "pay_min": 20.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.simplyhired.com/job/MoetBvit6EA6Rm5PL-pJ7U14RWaqbZ8I8__-xECtTvelJX0nNj0OWw",
-      "via": "via SimplyHired",
-      "description": "<p>Security Reconnaissance Team, Inc. (C13489) is hiring reliable, professional <b>Weekend Only</b> Non-Commissioned / Level II (Unarmed) Security Officers for our North Dallas sites.</p><p>We’re a growing Texas security company that values clear communication, dependability, and strong customer service. If you’re looking for consistent weekend work with competitive pay and a professional team, we’d like to hear from you.</p><p>Available Weekend Shifts</p><ul><li><b>Day Shift</b>: 6:00 AM – 6:00 PM (Saturday + Sunday)</li><li><b>Night Shift</b>: 6:00 PM – 6:00 AM (Saturday + Sunday)</li></ul><p>This is an unarmed, uniformed position.</p><p>What You’ll Do</p><ul><li>Patrol and monitor the property to maintain a safe environment</li><li>Observe and report irregularities, incidents, and activities accurately</li><li>Control access points and inspect buildings/equipment as needed</li><li>Respond appropriately and notify the right people when issues arise</li><li>Complete clear, timely reports</li><li>Uphold client standards and company policies at all times</li></ul><p>Requirements (Must Have)</p><ul><li>Valid Texas Level II Non-Commissioned (Unarmed) Security License</li><li>Minimum age of 21</li><li>Reliable transportation and a working cell phone</li><li>Ability to communicate clearly in English</li><li>Ability to pass a criminal background check</li><li>Drug-free (we are a Drug-Free Workplace)</li><li>Legally authorized to work in the United States</li></ul><p>What We Offer</p><ul><li><b>$20.00 per hour</b></li><li>Bi-weekly pay via direct deposit</li><li>Uniforms provided</li><li>Free continued training (state licensing support, re-qualification, and related skills)</li><li>Supportive team environment with opportunities for additional hours or advancement as available</li><li>Equal opportunity employer – military veterans are strongly encouraged to apply</li></ul><p><b>Job Type</b>: Part-time (Weekend Only)<br/><b>Work Location</b>: In person – North Dallas area (Richardson, TX 75081 and surrounding sites)<br/><b>Schedule</b>: Saturday and Sunday only – choose Day (6 AM–6 PM) or Night (6 PM–6 AM)</p><p>If you meet the requirements and want steady weekend work with a professional security team, apply today. We look forward to reviewing your application.</p><p>Pay: $20.00 per hour</p><p>Benefits:</p><ul><li>Employee discount</li><li>Health insurance</li><li>Referral program</li><li>Vision insurance</li></ul><p>License/Certification:</p><ul><li>Level II or Level III security license (Required)</li></ul><p>Work Location: In person</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Valid Texas Level II Non-Commissioned (Unarmed) Security License",
-            "Minimum age of 21",
-            "Reliable transportation and a working cell phone",
-            "Ability to communicate clearly in English",
-            "Ability to pass a criminal background check",
-            "Drug-free (we are a Drug-Free Workplace)",
-            "Legally authorized to work in the United States",
-            "Level II or Level III security license (Required)",
-            "5 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "If you’re looking for consistent weekend work with competitive pay and a professional team, we’d like to hear from you",
-            "$20.00 per hour",
-            "Bi-weekly pay via direct deposit",
-            "Uniforms provided",
-            "Free continued training (state licensing support, re-qualification, and related skills)",
-            "Supportive team environment with opportunities for additional hours or advancement as available",
-            "Equal opportunity employer – military veterans are strongly encouraged to apply",
-            "Pay: $20.00 per hour",
-            "Employee discount",
-            "Health insurance",
-            "Referral program",
-            "Vision insurance",
-            "9 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Day Shift: 6:00 AM – 6:00 PM (Saturday + Sunday)",
-            "Night Shift: 6:00 PM – 6:00 AM (Saturday + Sunday)",
-            "Patrol and monitor the property to maintain a safe environment",
-            "Observe and report irregularities, incidents, and activities accurately",
-            "Control access points and inspect buildings/equipment as needed",
-            "Respond appropriately and notify the right people when issues arise",
-            "Complete clear, timely reports",
-            "Uphold client standards and company policies at all times",
-            "5 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -264,7 +230,7 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-06",
-      "apply_link": "https://us.jobrapido.com/jobpreview/4111459198313693184",
+      "apply_link": "https://jooble.org/jdp/-3490314673494081543",
       "via": "via BeBee",
       "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property. Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>",
       "job_highlights": [
@@ -363,63 +329,58 @@
       ]
     },
     {
-      "job_hash": "5a916b501551",
-      "title": "Security Patrol Officer - Variable Schedule",
-      "company": "Union Gospel Mission of Tarrant County",
+      "job_hash": "299f746fb638",
+      "title": "Security Officer - Distribution Center",
+      "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "weekend",
-      "pay": "20 an hour",
-      "pay_min": 20.0,
+      "role": "general",
+      "pay": "19 an hour",
+      "pay_min": 19.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0c76d689d432e249",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-distribution-center/22950/99453232464",
       "via": "via LinkedIn",
-      "description": "<p>More than a career...it's a calling!</p><br> Founded in 1888, Union Gospel Mission of Tarrant County is a united Christian organization and ministry dedicated to providing <strong>love, hope, respect, and a new beginning</strong> for homeless women, men, and families. UGM-TC is funded entirely by the generosity of the community and offers a residency program for individuals looking to maximize their potential and transition out of homelessness. Through the programs and services provided, individuals develop essential life skills to become independent, productive members of our community. UGM-TC is God’s healthy place to end homelessness one person at a time. Come serve with us!  <br><br><br><br><br><strong>UGM is seeking a flexible Security Patrol Officer able to work a variable schedule regarding hours and days worked based on the organization's changing needs.</strong><br><br><br><p><br> <br><br></p><br><p><strong>Position Summary:</strong></p><br><p>The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons. We are looking for active, dependable individuals that are highly motivated. <strong>Former military or law enforcement experience preferred!</strong> This position requires individuals to stand/walk for extended periods of time. There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County.  We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols. </p><br><p>What You Do: </p><br><ul><br> <li>Patrol buildings and grounds. </li><br> <li>Maintain campus security and follow lock protocols. </li><br> <li>Provides individual and group escorts to and from parking areas. </li><br> <li>Identifies and removes unauthorized individuals from property. </li><br> <li>Enforces campus parking policies/cites violations. </li><br> <li>Executes Courtesy Patrol policies, procedures, and standards with excellence. </li><br> <li>Provides campus directions to facility visitors. </li><br> <li>Interacts with police, fire personnel, EMS, patients, visitors, and staff. </li><br> <li>Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities.  </li><br> <li>Make eye contact and greet all people with respect. </li><br> <li>Responds to calls for service and emergency situations with urgency and professionalism. </li><br> <li>Assesses the situation and utilizes appropriate de-escalation measures. </li><br> <li>Utilizes critical thinking skills. </li><br> <li>Responds to and activates the appropriate emergency response codes.  </li><br> <li>Supports activities and events by utilizing appropriate crowd control techniques representative of UGM.  </li><br> <li><strong>Work overnights, weekends, evening hours, and holidays as needed by the organization. </strong> </li><br> <li>The central job functions of this position are not limited to the duties listed above. </li><br></ul><br><p> </p><br><p>Qualifications / What You Bring:  </p><br><ul><br> <li>3-5 years of security, law enforcement, or military experience preferred. </li><br> <li>Familiarity with security equipment.</li><br> <li>Ability to handle physical workload (walking/standing)</li><br> <li>Bilingual:  Spanish Speaking a plus</li><br> <li>Level 2 License preferred</li><br> <li>Strong attention to detail </li><br> <li>An ability to connect with people from diverse backgrounds at varying levels of understanding.  </li><br> <li>Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem. </li><br> <li>Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense. </li><br> <li>Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material. </li><br> <li>Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events). </li><br> <li>A clean driving record.</li><br></ul><br><p><br> <br><br></p><br><p>“As part of the screening process, you may be asked to provide a pastoral reference. Union Gospel Mission of Tarrant County is a Christian organization that seeks to hire people who align with our beliefs in Jesus Christ. We welcome all Christian denominations into the mission.”</p>",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Patrol Driver</strong> in <strong>Justin, TX</strong>, you will serve and safeguard clients in a range of industries. As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service. This driving position requires a valid driver’s license. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $19.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon06:00 AM - 02:00 PMThur06:00 AM - 02:00 PMFri06:00 AM - 02:00 PMSat06:00 AM - 02:00 PMSun06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner.</li><li>Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Comfortable using a computer or tablet is preferred.</li><li>Access control and badge experience is preferred.</li><li>Customer service experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1660792<br><br>",
       "job_highlights": [
         {
           "items": [
-            "We are looking for active, dependable individuals that are highly motivated",
-            "This position requires individuals to stand/walk for extended periods of time",
-            "Familiarity with security equipment",
-            "Ability to handle physical workload (walking/standing)",
-            "Strong attention to detail",
-            "An ability to connect with people from diverse backgrounds at varying levels of understanding",
-            "Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong",
-            "It does not involve solving the problem, only recognizing that there is a problem",
-            "Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense",
-            "Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material",
-            "Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)",
-            "A clean driving record",
-            "9 more items(s)"
+            "This driving position requires a valid driver’s license",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "6 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons",
-            "There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County",
-            "We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols",
-            "Patrol buildings and grounds",
-            "Maintain campus security and follow lock protocols",
-            "Provides individual and group escorts to and from parking areas",
-            "Identifies and removes unauthorized individuals from property",
-            "Enforces campus parking policies/cites violations",
-            "Executes Courtesy Patrol policies, procedures, and standards with excellence",
-            "Provides campus directions to facility visitors",
-            "Interacts with police, fire personnel, EMS, patients, visitors, and staff",
-            "Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities",
-            "Make eye contact and greet all people with respect",
-            "Responds to calls for service and emergency situations with urgency and professionalism",
-            "Assesses the situation and utilizes appropriate de-escalation measures",
-            "Utilizes critical thinking skills",
-            "Responds to and activates the appropriate emergency response codes",
-            "Supports activities and events by utilizing appropriate crowd control techniques representative of UGM",
-            "Work overnights, weekends, evening hours, and holidays as needed by the organization",
-            "The central job functions of this position are not limited to the duties listed above",
-            "17 more items(s)"
+            "Pay Rate: $19.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Full Time Unarmed Patrol Driver in Justin, TX, you will serve and safeguard clients in a range of industries",
+            "As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service",
+            "Position Type: Full Time",
+            "Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities",
+            "Respond to incidents and critical situations in a calm, problem-solving manner",
+            "Conduct regular and random patrols around the business and perimeter",
+            "Working environments and conditions may vary by client site",
+            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }

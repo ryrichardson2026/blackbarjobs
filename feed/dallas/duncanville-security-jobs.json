@@ -1,66 +1,11 @@
 {
-  "generated": "2026-08-18T14:44:06.304749+00:00",
+  "generated": "2026-08-20T14:45:03.380766+00:00",
   "page": "dallas/duncanville-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 10,
-  "exact": 8,
+  "exact": 7,
   "jobs": [
-    {
-      "job_hash": "010236b66e1e",
-      "title": "Event Manager",
-      "company": "Andy Frain Services",
-      "location": "Duncanville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://salutemyjob.com/jobs/event-manager-duncanville-texas/2924079914-2/",
-      "via": "via Adzuna",
-      "description": "<strong>About the Role<br /></strong>\n<strong>Andy Frain Services</strong> is seeking a driven, detail-oriented <strong>Event Manager</strong> to assist in leading event operations across our premier <strong>Dallas-area Sports & Entertainment (S&E) venues </strong>with primary focus at<strong> Fair Park/State Fair of Texas</strong>.<br /><br />\nIn this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor.\n<strong>Work Schedule Note:</strong> This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars.<br /><br />\n<strong>Compensation & Benefits</strong>\n<ul>\n<li><strong>Competitive Salary:</strong> Commensurate with experience</li>\n<li><strong>Time Off:</strong> Paid Time Off (PTO)</li>\n<li><strong>Health & Wellness:</strong> Comprehensive Medical, Dental, and Vision insurance options</li>\n<li><strong>Retirement:</strong> 401(k) retirement savings plan</li>\n<li><strong>Career Advancement:</strong> Leadership development and professional growth within a nationally recognized industry leader</li>\n</ul>\n \n<strong>Key Responsibilities<br /></strong>\n<strong>Event Operations & Venue Leadership</strong>\n<ul>\n<li>Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations.</li>\n<li>Supervise event-day execution, ensuring client security needs and account standards are fully met.</li>\n<li>Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data.</li>\n<li>Act as the primary lead or step in for the Account Manager in their absence.</li>\n</ul>\n \n<strong>Staffing, Onboarding & Development</strong>\n<ul>\n<li>Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors.</li>\n<li>Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel).</li>\n<li>Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes).</li>\n<li>Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy.</li>\n</ul>\n \n<strong>Logistics & Equipment Management</strong>\n<ul>\n<li>Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices.</li>\n<li>Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors.</li>\n<li>Submit formal equipment and supply requests 45 days in advance of operational needs.</li>\n</ul>\n \n<strong>Risk Management, Safety & Client Relations</strong>\n<ul>\n<li>Proactively identify and mitigate safety risks for guests, staff, and venue assets.</li>\n<li>Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols.</li>\n<li>Ensure strict adherence to Federal and State OSHA, fire, and safety regulations.</li>\n</ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Competitive Salary: Commensurate with experience",
-            "Time Off: Paid Time Off (PTO)",
-            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
-            "Retirement: 401(k) retirement savings plan",
-            "Career Advancement: Leadership development and professional growth within a nationally recognized industry leader",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor",
-            "Work Schedule Note: This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars",
-            "Event Operations & Venue Leadership",
-            "Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations",
-            "Supervise event-day execution, ensuring client security needs and account standards are fully met",
-            "Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data",
-            "Act as the primary lead or step in for the Account Manager in their absence",
-            "Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors",
-            "Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel)",
-            "Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes)",
-            "Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy",
-            "Logistics & Equipment Management",
-            "Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices",
-            "Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors",
-            "Submit formal equipment and supply requests 45 days in advance of operational needs",
-            "Risk Management, Safety & Client Relations",
-            "Proactively identify and mitigate safety risks for guests, staff, and venue assets",
-            "Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols",
-            "Ensure strict adherence to Federal and State OSHA, fire, and safety regulations",
-            "16 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
     {
       "job_hash": "cde84cfc7c96",
       "title": "Event Operations Manager",
@@ -118,6 +63,61 @@
       ]
     },
     {
+      "job_hash": "010236b66e1e",
+      "title": "Event Manager",
+      "company": "Andy Frain Services",
+      "location": "Duncanville, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-13",
+      "apply_link": "https://salutemyjob.com/jobs/event-manager-duncanville-texas/2924079914-2/",
+      "via": "via Adzuna",
+      "description": "<strong>About the Role<br /></strong>\n<strong>Andy Frain Services</strong> is seeking a driven, detail-oriented <strong>Event Manager</strong> to assist in leading event operations across our premier <strong>Dallas-area Sports & Entertainment (S&E) venues </strong>with primary focus at<strong> Fair Park/State Fair of Texas</strong>.<br /><br />\nIn this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor.\n<strong>Work Schedule Note:</strong> This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars.<br /><br />\n<strong>Compensation & Benefits</strong>\n<ul>\n<li><strong>Competitive Salary:</strong> Commensurate with experience</li>\n<li><strong>Time Off:</strong> Paid Time Off (PTO)</li>\n<li><strong>Health & Wellness:</strong> Comprehensive Medical, Dental, and Vision insurance options</li>\n<li><strong>Retirement:</strong> 401(k) retirement savings plan</li>\n<li><strong>Career Advancement:</strong> Leadership development and professional growth within a nationally recognized industry leader</li>\n</ul>\n \n<strong>Key Responsibilities<br /></strong>\n<strong>Event Operations & Venue Leadership</strong>\n<ul>\n<li>Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations.</li>\n<li>Supervise event-day execution, ensuring client security needs and account standards are fully met.</li>\n<li>Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data.</li>\n<li>Act as the primary lead or step in for the Account Manager in their absence.</li>\n</ul>\n \n<strong>Staffing, Onboarding & Development</strong>\n<ul>\n<li>Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors.</li>\n<li>Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel).</li>\n<li>Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes).</li>\n<li>Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy.</li>\n</ul>\n \n<strong>Logistics & Equipment Management</strong>\n<ul>\n<li>Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices.</li>\n<li>Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors.</li>\n<li>Submit formal equipment and supply requests 45 days in advance of operational needs.</li>\n</ul>\n \n<strong>Risk Management, Safety & Client Relations</strong>\n<ul>\n<li>Proactively identify and mitigate safety risks for guests, staff, and venue assets.</li>\n<li>Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols.</li>\n<li>Ensure strict adherence to Federal and State OSHA, fire, and safety regulations.</li>\n</ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Competitive Salary: Commensurate with experience",
+            "Time Off: Paid Time Off (PTO)",
+            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
+            "Retirement: 401(k) retirement savings plan",
+            "Career Advancement: Leadership development and professional growth within a nationally recognized industry leader",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor",
+            "Work Schedule Note: This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars",
+            "Event Operations & Venue Leadership",
+            "Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations",
+            "Supervise event-day execution, ensuring client security needs and account standards are fully met",
+            "Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data",
+            "Act as the primary lead or step in for the Account Manager in their absence",
+            "Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors",
+            "Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel)",
+            "Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes)",
+            "Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy",
+            "Logistics & Equipment Management",
+            "Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices",
+            "Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors",
+            "Submit formal equipment and supply requests 45 days in advance of operational needs",
+            "Risk Management, Safety & Client Relations",
+            "Proactively identify and mitigate safety risks for guests, staff, and venue assets",
+            "Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols",
+            "Ensure strict adherence to Federal and State OSHA, fire, and safety regulations",
+            "16 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "3f6477a62bf5",
       "title": "Supervisory Passenger Screening Officer",
       "company": "Airport Career Resource",
@@ -161,53 +161,6 @@
             "Support officers in their career advancement through mentorship and training programs",
             "Manage checkpoint operations",
             "2 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "bcdd07a82f27",
-      "title": "Military Security Officer",
-      "company": "U.S. Navy",
-      "location": "Duncanville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-05",
-      "apply_link": "https://www.learn4good.com/jobs/duncanville/texas/security/5343964439/e/",
-      "via": "via Learn4Good",
-      "description": "Job Title: Security & Law Enforcement (Master-at-Arms)Category / Component:Enlisted ActiveThis role is open to both entry-level applicants and candidates with prior experience. Those with a background in Law Enforcement, Corrections/Parole, or as a Security Practitioner may qualify for direct-entry consideration at an advanced paygrade (E-4 to E-6) depending on experience.OverviewMaster-at-Arms (MA) Sailors provide the Navys core security, anti-terrorism, and law enforcement capability, protecting people, installations, ships, and strategic assets at home and abroad. They conduct force protection, physical security, and policing on bases, aboard ships, at sea, and in expeditionary environments, and may specialize in areas such as military working dogs, harbor security, corrections, investigations, or protective services.Key ResponsibilitiesConduct anti-terrorism and force protection patrols on installations and piers; stand sentry and access control posts and control entry to secure areas; perform vehicle, personnel, and baggage inspections to detect weapons, contraband, or unauthorized items; enforce traffic and parking regulations, respond to calls for service, and investigate incidents and traffic accidents; collect and preserve evidence and prepare reports and case files; provide law enforcement presence and crowd control during special events and emergencies; operate and maintain small arms, crew-served weapons, non-lethal weapons, and security vehicles or boats; support harbor and waterside security, high-value unit escorts, and expeditionary security missions; supervise and train junior security force personnel in watch standing, weapons, and security procedures.What to ExpectWork in a fast-paced, armed, and safety-critical environment where attention to detail, judgment, and professionalism are essential; frequent duty in rotating shifts, including nights, weekends, and holidays, to provide 24/7 security and law enforcement coverage; exposure to stressful situations involving emergencies, accidents, or criminal activity, requiring calm decision-making and strong communication; ongoing qualification and requalification in weapons, use of force, tactical skills, and physical fitness; increasing responsibility over time as you qualify for specialized billets such as patrol supervisor, watch commander, kennel master, or investigator.Work EnvironmentAssignments at Navy installations in the U.S. and overseas, aboard aircraft carriers and other ships, and with expeditionary security units and strategic weapons facilities; work primarily on bases, piers, flight lines, harbor security boats, and in patrol vehicles, kennels, armories, and security operations centers; opportunities for overseas, forward-deployed, and dependent-restricted tours that count as sea duty for rotation; close integration with other security forces, Marine units, NCIS, and joint or host-nation partners depending on billet.Pathways, Training & AdvancementRecruit Training followed by Master-at-Arms Class A School at Lackland AFB, where you learn basic law enforcement, weapons handling, anti-terrorism, patrol procedures, and security operations; progressive on-the-job qualification through Personnel Qualification Standards, watch stations, and unit training; opportunities for advanced schools that award Navy Enlisted Classifications such as Military Working Dog Handler and Kennel Master, Harbor Security Coxswain and Patrol Leader, Corrections Specialist, Small Arms Instructor, Crew-Served Weapons Instructor, Protective Service Specialist, and Criminal Investigator; career-long development through leadership courses, warfare qualifications (such as ESWS, EAWS, EXW, FMF, or NWS when assigned to qualifying commands), and senior enlisted leader programs.Enlist directly into the Master-at-Arms rating and attend MA A School after Recruit Training, then report to an operational security force billet at an installation, ship, or expeditionary unit; Reserve opportunities may exist in Navy Security Force and Maritime Expeditionary Security units for qualified prior-service or SELRES applicants, often requiring completion of MA A School or equivalent training and, for some billets, specific NECs or follow-on schools; prior-service Sailors from other ratings may be able to convert into MA based on community needs and screening.QualificationsAll Navy jobs require meeting general enlistment or commissioning standards, which typically includes:Eligibility to serve in the United States Navy, which may involve United States citizenship or other legal residency and work status, depending on the program and current law and policyA high school diploma or equivalent for enlisted positions, and a bachelors or qualifying professional degree for officer positionsMeeting age limits that vary by program and are set in law and Navy policy. Some communities have more restrictive age rangesMeeting medical, vision, and dental standards, including body composition and…",
-      "job_highlights": [
-        {
-          "items": [
-            "Those with a background in Law Enforcement, Corrections/Parole, or as a Security Practitioner may qualify for direct-entry consideration at an advanced paygrade (E-4 to E-6) depending on experience",
-            "Work in a fast-paced, armed, and safety-critical environment where attention to detail, judgment, and professionalism are essential; frequent duty in rotating shifts, including nights, weekends, and holidays, to provide 24/7 security and law enforcement coverage; exposure to stressful situations involving emergencies, accidents, or criminal activity, requiring calm decision-making and strong communication; ongoing qualification and requalification in weapons, use of force, tactical skills, and physical fitness;",
-            "Recruit Training followed by Master-at-Arms Class A School at Lackland AFB, where you learn basic law enforcement, weapons handling, anti-terrorism, patrol procedures, and security operations; progressive on-the-job qualification through Personnel Qualification Standards, watch stations, and unit training; opportunities for advanced schools that award Navy Enlisted Classifications such as Military Working Dog Handler and Kennel Master, Harbor Security Coxswain and Patrol Leader, Corrections Specialist, Small Arms Instructor, Crew-Served Weapons Instructor, Protective Service Specialist, and Criminal Investigator;",
-            "career-long development through leadership courses, warfare qualifications (such as ESWS, EAWS, EXW, FMF, or NWS when assigned to qualifying commands), and senior enlisted leader programs",
-            "Enlist directly into the Master-at-Arms rating and attend MA A School after Recruit Training, then report to an operational security force billet at an installation, ship, or expeditionary unit;",
-            "Reserve opportunities may exist in Navy Security Force and Maritime Expeditionary Security units for qualified prior-service or SELRES applicants, often requiring completion of MA A School or equivalent training and, for some billets, specific NECs or follow-on schools; prior-service Sailors from other ratings may be able to convert into MA based on community needs and screening",
-            "All Navy jobs require meeting general enlistment or commissioning standards, which typically includes:",
-            "Eligibility to serve in the United States Navy, which may involve United States citizenship or other legal residency and work status, depending on the program and current law and policy",
-            "A high school diploma or equivalent for enlisted positions, and a bachelors or qualifying professional degree for officer positions",
-            "Meeting age limits that vary by program and are set in law and Navy policy",
-            "7 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Master-at-Arms (MA) Sailors provide the Navys core security, anti-terrorism, and law enforcement capability, protecting people, installations, ships, and strategic assets at home and abroad",
-            "They conduct force protection, physical security, and policing on bases, aboard ships, at sea, and in expeditionary environments, and may specialize in areas such as military working dogs, harbor security, corrections, investigations, or protective services",
-            "Conduct anti-terrorism and force protection patrols on installations and piers; stand sentry and access control posts and control entry to secure areas; perform vehicle, personnel, and baggage inspections to detect weapons, contraband, or unauthorized items; enforce traffic and parking regulations, respond to calls for service, and investigate incidents and traffic accidents; collect and preserve evidence and prepare reports and case files;",
-            "provide law enforcement presence and crowd control during special events and emergencies; operate and maintain small arms, crew-served weapons, non-lethal weapons, and security vehicles or boats; support harbor and waterside security, high-value unit escorts, and expeditionary security missions; supervise and train junior security force personnel in watch standing, weapons, and security procedures",
-            "increasing responsibility over time as you qualify for specialized billets such as patrol supervisor, watch commander, kennel master, or investigator",
-            "Assignments at Navy installations in the U.S. and overseas, aboard aircraft carriers and other ships, and with expeditionary security units and strategic weapons facilities; work primarily on bases, piers, flight lines, harbor security boats, and in patrol vehicles, kennels, armories, and security operations centers; opportunities for overseas, forward-deployed, and dependent-restricted tours that count as sea duty for rotation; close integration with other security forces, Marine units, NCIS, and joint or host-nation partners depending on billet",
-            "3 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -309,69 +262,6 @@
       ]
     },
     {
-      "job_hash": "6df71f07afd4",
-      "title": "Security Officer- Armed Overnight",
-      "company": "GardaWorld",
-      "location": "Duncanville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://talents.vaia.com/companies/gardaworld/security-officer-armed-overnight-34585087/",
-      "via": "via Talents By Vaia",
-      "description": "<p>Armed Surveillance Security Officer</p><p>GardaWorld Security Services is now hiring an Armed Surveillance Security Officer! Must have current Level 3 card in hand and valid DL.</p><p>Ready to suit up as an Armed Surveillance Security Guard? What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.</p><p>What\\'s in it for you:</p><ul><li>Site location: Duncanville, Texas</li><li>Set schedule: Monday-Friday 11:00pm-7:00am</li><li>Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)</li><li>A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options</li><li>Career growth opportunities at GardaWorld</li><li>Uniform provided at no cost</li></ul><p>Responsibilities of Surveillance Security Guard:</p><ul><li>Monitor security systems to detect any suspicious activity</li><li>Document observed events and incidents, writing detailed reports</li><li>Respond quickly to incidents or potential threats</li><li>Conduct regular patrols to ensure the safety of the premises</li><li>Control access to secure areas and verify the identities of visitors</li><li>Analyze security systems to identify potential vulnerabilities or malfunctions</li><li>Collaborate with law enforcement in case of serious situations or emergencies</li><li>Ensure the safety and protection of individuals and property</li></ul><p>Qualifications of a Surveillance Security Guard:</p><ul><li>Be authorized to work in the U.S.</li><li>Be able to provide documentation of High School Diploma or GED</li><li>Be able to ace (and pass) an extensive screening process</li><li>Strong report writing skills</li><li>Good eyesight and excellent abilities to maintain focus</li><li>Strong proficiency with technology</li><li>If you have Security, Military, Law Enforcement experience even better!</li><li>Must be 21 years or older</li><li>Must have valid DL</li><li>This is an armed role. Must have current Level 3 card in hand</li></ul><p>In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work. Apply today this could be more than a job! 26% of our corporate employees started as frontline workers.</p><p>If you\\'re ambitious with an entrepreneurial spirit someone who wants to be a GardaWorld Ambassador a promising career awaits you!</p><p>GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.</p><p>It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Must have current Level 3 card in hand and valid DL",
-            "Be authorized to work in the U.S",
-            "Be able to provide documentation of High School Diploma or GED",
-            "Be able to ace (and pass) an extensive screening process",
-            "Strong report writing skills",
-            "Good eyesight and excellent abilities to maintain focus",
-            "Strong proficiency with technology",
-            "If you have Security, Military, Law Enforcement experience even better!",
-            "Must be 21 years or older",
-            "Must have valid DL",
-            "This is an armed role",
-            "Must have current Level 3 card in hand",
-            "9 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Set schedule: Monday-Friday 11:00pm-7:00am",
-            "Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)",
-            "A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
-            "Career growth opportunities at GardaWorld",
-            "Uniform provided at no cost",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Security Officer Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc",
-            "Monitor security systems to detect any suspicious activity",
-            "Document observed events and incidents, writing detailed reports",
-            "Respond quickly to incidents or potential threats",
-            "Conduct regular patrols to ensure the safety of the premises",
-            "Control access to secure areas and verify the identities of visitors",
-            "Analyze security systems to identify potential vulnerabilities or malfunctions",
-            "Collaborate with law enforcement in case of serious situations or emergencies",
-            "Ensure the safety and protection of individuals and property",
-            "6 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "82bd5cbdb3e4",
       "title": "Police Officer",
       "company": "Duncanville Police Department",
@@ -444,151 +334,234 @@
       ]
     },
     {
-      "job_hash": "5a916b501551",
-      "title": "Security Patrol Officer - Variable Schedule",
-      "company": "Union Gospel Mission of Tarrant County",
-      "location": "Fort Worth, TX",
+      "job_hash": "6df71f07afd4",
+      "title": "Security Officer- Armed Overnight",
+      "company": "GardaWorld",
+      "location": "Duncanville, TX",
       "vertical": "security",
-      "role": "weekend",
-      "pay": "20 an hour",
-      "pay_min": 20.0,
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
       "pay_max": null,
-      "pay_unit": "HOUR",
+      "pay_unit": null,
       "schedule": "Full-time",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=0c76d689d432e249",
-      "via": "via LinkedIn",
-      "description": "<p>More than a career...it's a calling!</p><br> Founded in 1888, Union Gospel Mission of Tarrant County is a united Christian organization and ministry dedicated to providing <strong>love, hope, respect, and a new beginning</strong> for homeless women, men, and families. UGM-TC is funded entirely by the generosity of the community and offers a residency program for individuals looking to maximize their potential and transition out of homelessness. Through the programs and services provided, individuals develop essential life skills to become independent, productive members of our community. UGM-TC is God’s healthy place to end homelessness one person at a time. Come serve with us!  <br><br><br><br><br><strong>UGM is seeking a flexible Security Patrol Officer able to work a variable schedule regarding hours and days worked based on the organization's changing needs.</strong><br><br><br><p><br> <br><br></p><br><p><strong>Position Summary:</strong></p><br><p>The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons. We are looking for active, dependable individuals that are highly motivated. <strong>Former military or law enforcement experience preferred!</strong> This position requires individuals to stand/walk for extended periods of time. There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County.  We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols. </p><br><p>What You Do: </p><br><ul><br> <li>Patrol buildings and grounds. </li><br> <li>Maintain campus security and follow lock protocols. </li><br> <li>Provides individual and group escorts to and from parking areas. </li><br> <li>Identifies and removes unauthorized individuals from property. </li><br> <li>Enforces campus parking policies/cites violations. </li><br> <li>Executes Courtesy Patrol policies, procedures, and standards with excellence. </li><br> <li>Provides campus directions to facility visitors. </li><br> <li>Interacts with police, fire personnel, EMS, patients, visitors, and staff. </li><br> <li>Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities.  </li><br> <li>Make eye contact and greet all people with respect. </li><br> <li>Responds to calls for service and emergency situations with urgency and professionalism. </li><br> <li>Assesses the situation and utilizes appropriate de-escalation measures. </li><br> <li>Utilizes critical thinking skills. </li><br> <li>Responds to and activates the appropriate emergency response codes.  </li><br> <li>Supports activities and events by utilizing appropriate crowd control techniques representative of UGM.  </li><br> <li><strong>Work overnights, weekends, evening hours, and holidays as needed by the organization. </strong> </li><br> <li>The central job functions of this position are not limited to the duties listed above. </li><br></ul><br><p> </p><br><p>Qualifications / What You Bring:  </p><br><ul><br> <li>3-5 years of security, law enforcement, or military experience preferred. </li><br> <li>Familiarity with security equipment.</li><br> <li>Ability to handle physical workload (walking/standing)</li><br> <li>Bilingual:  Spanish Speaking a plus</li><br> <li>Level 2 License preferred</li><br> <li>Strong attention to detail </li><br> <li>An ability to connect with people from diverse backgrounds at varying levels of understanding.  </li><br> <li>Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem. </li><br> <li>Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense. </li><br> <li>Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material. </li><br> <li>Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events). </li><br> <li>A clean driving record.</li><br></ul><br><p><br> <br><br></p><br><p>“As part of the screening process, you may be asked to provide a pastoral reference. Union Gospel Mission of Tarrant County is a Christian organization that seeks to hire people who align with our beliefs in Jesus Christ. We welcome all Christian denominations into the mission.”</p>",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/gardaworld/security-officer-armed-overnight-34585087/",
+      "via": "via Talents By Vaia",
+      "description": "<p>Armed Surveillance Security Officer</p><p>GardaWorld Security Services is now hiring an Armed Surveillance Security Officer! Must have current Level 3 card in hand and valid DL.</p><p>Ready to suit up as an Armed Surveillance Security Guard? What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.</p><p>What\\'s in it for you:</p><ul><li>Site location: Duncanville, Texas</li><li>Set schedule: Monday-Friday 11:00pm-7:00am</li><li>Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)</li><li>A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options</li><li>Career growth opportunities at GardaWorld</li><li>Uniform provided at no cost</li></ul><p>Responsibilities of Surveillance Security Guard:</p><ul><li>Monitor security systems to detect any suspicious activity</li><li>Document observed events and incidents, writing detailed reports</li><li>Respond quickly to incidents or potential threats</li><li>Conduct regular patrols to ensure the safety of the premises</li><li>Control access to secure areas and verify the identities of visitors</li><li>Analyze security systems to identify potential vulnerabilities or malfunctions</li><li>Collaborate with law enforcement in case of serious situations or emergencies</li><li>Ensure the safety and protection of individuals and property</li></ul><p>Qualifications of a Surveillance Security Guard:</p><ul><li>Be authorized to work in the U.S.</li><li>Be able to provide documentation of High School Diploma or GED</li><li>Be able to ace (and pass) an extensive screening process</li><li>Strong report writing skills</li><li>Good eyesight and excellent abilities to maintain focus</li><li>Strong proficiency with technology</li><li>If you have Security, Military, Law Enforcement experience even better!</li><li>Must be 21 years or older</li><li>Must have valid DL</li><li>This is an armed role. Must have current Level 3 card in hand</li></ul><p>In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work. Apply today this could be more than a job! 26% of our corporate employees started as frontline workers.</p><p>If you\\'re ambitious with an entrepreneurial spirit someone who wants to be a GardaWorld Ambassador a promising career awaits you!</p><p>GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.</p><p>It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment.</p>",
       "job_highlights": [
         {
           "items": [
-            "We are looking for active, dependable individuals that are highly motivated",
-            "This position requires individuals to stand/walk for extended periods of time",
-            "Familiarity with security equipment",
-            "Ability to handle physical workload (walking/standing)",
-            "Strong attention to detail",
-            "An ability to connect with people from diverse backgrounds at varying levels of understanding",
-            "Problem Sensitivity — The ability to tell when something is wrong or is likely to go wrong",
-            "It does not involve solving the problem, only recognizing that there is a problem",
-            "Deductive Reasoning — The ability to apply general rules to specific problems to produce answers that make sense",
-            "Flexibility of Closure — The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material",
-            "Inductive Reasoning — The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)",
-            "A clean driving record",
+            "Must have current Level 3 card in hand and valid DL",
+            "Be authorized to work in the U.S",
+            "Be able to provide documentation of High School Diploma or GED",
+            "Be able to ace (and pass) an extensive screening process",
+            "Strong report writing skills",
+            "Good eyesight and excellent abilities to maintain focus",
+            "Strong proficiency with technology",
+            "If you have Security, Military, Law Enforcement experience even better!",
+            "Must be 21 years or older",
+            "Must have valid DL",
+            "This is an armed role",
+            "Must have current Level 3 card in hand",
             "9 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "The selected individual will patrol and secure assigned premises as well as identify and mitigate risks to staff and patrons",
-            "There will be routine checks and code compliance requirements for the 10-acre campus of Union Gospel Mission of Tarrant County",
-            "We also service The Vineyards of Lancaster, registering visitors, taking calls, and ensuring visitors have registered vehicles while conducting routine patrols",
-            "Patrol buildings and grounds",
-            "Maintain campus security and follow lock protocols",
-            "Provides individual and group escorts to and from parking areas",
-            "Identifies and removes unauthorized individuals from property",
-            "Enforces campus parking policies/cites violations",
-            "Executes Courtesy Patrol policies, procedures, and standards with excellence",
-            "Provides campus directions to facility visitors",
-            "Interacts with police, fire personnel, EMS, patients, visitors, and staff",
-            "Completes incident / offense reports and composes narratives by performing investigations, recording observations, taking statements, gathering information, citing occurrences, and utilizing surveillance activities",
-            "Make eye contact and greet all people with respect",
-            "Responds to calls for service and emergency situations with urgency and professionalism",
-            "Assesses the situation and utilizes appropriate de-escalation measures",
-            "Utilizes critical thinking skills",
-            "Responds to and activates the appropriate emergency response codes",
-            "Supports activities and events by utilizing appropriate crowd control techniques representative of UGM",
-            "Work overnights, weekends, evening hours, and holidays as needed by the organization",
-            "The central job functions of this position are not limited to the duties listed above",
-            "17 more items(s)"
+            "Set schedule: Monday-Friday 11:00pm-7:00am",
+            "Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)",
+            "A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
+            "Career growth opportunities at GardaWorld",
+            "Uniform provided at no cost",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc",
+            "Monitor security systems to detect any suspicious activity",
+            "Document observed events and incidents, writing detailed reports",
+            "Respond quickly to incidents or potential threats",
+            "Conduct regular patrols to ensure the safety of the premises",
+            "Control access to secure areas and verify the identities of visitors",
+            "Analyze security systems to identify potential vulnerabilities or malfunctions",
+            "Collaborate with law enforcement in case of serious situations or emergencies",
+            "Ensure the safety and protection of individuals and property",
+            "6 more items(s)"
           ],
           "title": "Responsibilities"
         }
       ]
     },
     {
-      "job_hash": "4af67f139a64",
-      "title": "Loss Prevention Teammate - 2nd Shift",
-      "company": "DICK'S Sporting Goods",
+      "job_hash": "299f746fb638",
+      "title": "Security Officer - Distribution Center",
+      "company": "Allied Universal",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "loss-prevention",
-      "pay": "$20.05/hr",
-      "pay_min": 20.05,
+      "role": "general",
+      "pay": "19 an hour",
+      "pay_min": 19.0,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.indeed.com/viewjob?jk=85984dd75ab8684d",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-distribution-center/22950/99453232464",
       "via": "via LinkedIn",
-      "description": "At <strong>DICK’S Sporting Goods</strong>, we believe in how positively sports can change lives. On our team, everyone plays a critical role in creating confidence and excitement by personally equipping all athletes to achieve their dreams. We are committed to creating an inclusive and diverse workforce, reflecting the communities we serve.<br><br>If you are ready to make a difference as part of the world’s greatest sports team, apply to join our team today!<br><br><strong>Overview<br><br></strong>2nd Shift Opportunity<br><br>Monday - Thursday<br><br>4:00pm-2:30am<br><br>$20.05/hr + $1.00/hr shift differential<br><br><strong>Job Duties & Responsibilities<br><br></strong>Inventory Integrity, shrink control and profit protection.<br><br><ul><li>Conduct and assist in internal investigations (theft, dishonesty, policy violations, human resources) in the DC.</li><li>Conduct and assist with external investigations related to cargo theft to and from the DC’s.</li><li>Complete daily, weekly, monthly & quarterly audits</li><li>Conduct lane inspections/ carton scans to improve operational accuracy and document in LPMS / DSGiQ (case management systems)</li><li>Compile and reconcile data for Seal Verification reporting.</li><ul><li>Researches, resolves and documents discrepancies.</li></ul><li>Review inventory adjustment details in order to research high dollar losses.</li><li>Complete store research to identify & resolve misdirected freight issues.</li><ul><li>This includes variance investigations for DC & field related issues.</li></ul><li>Partner with Federal Authorities in relation to Firearms control and reporting.<br></li></ul>Report all findings to database, email contacts and immediate alerts if within criteria.<br><br>Safety and Emergency Preparedness<br><br><ul><li>Work closely with Operations & Leadership team to investigate incidents which includes document review, visual inspections. Clearly communicate findings with internal & external stakeholders.</li><li>Serve as support for potentially volatile terminations and /or situations within location.</li><li>Supports accident investigations with video review and detailed reporting.<br><br></li></ul>Conduct weekly / monthly / quarterly Safety Assessments to ensure overall safety compliance and reports findings.<br><br>Physical Security and Investigations<br><br><ul><li>Responsible for security screening all people entering/exiting the facility per DSG requirements.</li><li>Test, troubleshoot and respond to all alarm systems (burglar, Fire & Amarok [perimeter electrified fence])</li><li>Opening/Closing of DC facility per DSG guidelines without supervision</li><li>Complete building walkthrough multiple times throughout daily shift</li><ul><li>Focusing on misdirected freight, safety, physical security, firearm security, & deterrence</li></ul><li>Knowledge of Genetec system, create access control badges & ensure all building credentials are accurate.</li><li>Complete daily observations of facility and document /address opportunities.<br></li></ul>Conduct and / or support investigations in regard to concerns or violations of the physical security of assigned location and report findings.<br><br>Yard Management<br><br><ul><li>Assist guard shack as needed with inbound/outbound trailer procedures. Provide physical control of guard shack and perform duties for emergency coverage if / when needed.</li><li>Resolve daily logs to allow proper YMS (Yard Management System) workflows to be followed.</li><li>Assist with passive yard control requests.</li><li>Reconcile Yard Audit results to ensure yard accuracy.</li><li>Provide direction to 3rd party staff.<br><br></li></ul>Conduct and / or support investigations in to concerns or violations of trailer yard of location and report findings.<br><br><strong>Other<br><br></strong><ul><li>Conduct Social Engineering Drills with the stores on a regular basis.</li><li>Assigned schedule can be temporary / permanently changed as needed for the needs of the business.</li><li>Help maintain inventory of LP Supplies & distribute store orders.</li><li>Serve as resource/provide guidance to warehouse teammates for a variety of topics.</li><li>Must be available to be on call during off hours.</li><li>Must be flexible to cover additional hours to provide support during special projects and facility overtime.</li><li>Assist in New Hire orientation for Loss Prevention introduction for new Teammates.</li><li>Support other departments in investigations, presence or as needed. i.e., Human Resources, Operations, Logistics.<br><br></li></ul>Other duties as assigned<br><br><strong>Qualifications<br><br></strong><ul><li>High School Diploma or Equivalent</li><li>1-3 years experience</li><li>Loss Prevention, Asset Protection, Profit Protection, Operations, Safety, Logistics</li><li>Ability to stand, bend, stoop, reach, push, pull and lift 10-50 pounds intermittently.</li><li>Basic English reading comprehension & numerical reasoning skills.<br><br></li></ul><strong>Virtual Requirements<br><br></strong>At DICK’S, we thrive on innovation and authenticity. That said, to protect the integrity and security of our hiring process, we ask that candidates do not use AI tools (like ChatGPT or others) during interviews or assessments.<br><br>To ensure a smooth and secure experience, please note the following:<br><br><ul><li>Cameras must be on during all virtual interviews.</li><li>AI tools are not permitted to be used by the candidate during any part of the interview process.</li><li>Offers are contingent upon a satisfactory background check which may include ID verification.<br><br></li></ul>If you have any questions or need accommodations, we’re here to help. Thanks for helping us keep the process fair and secure for everyone!",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Patrol Driver</strong> in <strong>Justin, TX</strong>, you will serve and safeguard clients in a range of industries. As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service. This driving position requires a valid driver’s license. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $19.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon06:00 AM - 02:00 PMThur06:00 AM - 02:00 PMFri06:00 AM - 02:00 PMSat06:00 AM - 02:00 PMSun06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner.</li><li>Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Comfortable using a computer or tablet is preferred.</li><li>Access control and badge experience is preferred.</li><li>Customer service experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1660792<br><br>",
       "job_highlights": [
         {
           "items": [
-            "Must be available to be on call during off hours",
-            "Must be flexible to cover additional hours to provide support during special projects and facility overtime",
-            "High School Diploma or Equivalent",
-            "1-3 years experience",
-            "Loss Prevention, Asset Protection, Profit Protection, Operations, Safety, Logistics",
-            "Ability to stand, bend, stoop, reach, push, pull and lift 10-50 pounds intermittently",
-            "Basic English reading comprehension & numerical reasoning skills",
-            "Cameras must be on during all virtual interviews",
-            "AI tools are not permitted to be used by the candidate during any part of the interview process",
+            "This driving position requires a valid driver’s license",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
             "6 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "$20.05/hr + $1.00/hr shift differential"
+            "Pay Rate: $19.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "Inventory Integrity, shrink control and profit protection",
-            "Conduct and assist in internal investigations (theft, dishonesty, policy violations, human resources) in the DC",
-            "Conduct and assist with external investigations related to cargo theft to and from the DC’s",
-            "Complete daily, weekly, monthly & quarterly audits",
-            "Conduct lane inspections/ carton scans to improve operational accuracy and document in LPMS / DSGiQ (case management systems)",
-            "Compile and reconcile data for Seal Verification reporting",
-            "Researches, resolves and documents discrepancies",
-            "Review inventory adjustment details in order to research high dollar losses",
-            "Complete store research to identify & resolve misdirected freight issues",
-            "This includes variance investigations for DC & field related issues",
-            "Partner with Federal Authorities in relation to Firearms control and reporting",
-            "Report all findings to database, email contacts and immediate alerts if within criteria",
-            "Safety and Emergency Preparedness",
-            "Work closely with Operations & Leadership team to investigate incidents which includes document review, visual inspections",
-            "Clearly communicate findings with internal & external stakeholders",
-            "Serve as support for potentially volatile terminations and /or situations within location",
-            "Supports accident investigations with video review and detailed reporting",
-            "Conduct weekly / monthly / quarterly Safety Assessments to ensure overall safety compliance and reports findings",
-            "Physical Security and Investigations",
-            "Responsible for security screening all people entering/exiting the facility per DSG requirements",
-            "Test, troubleshoot and respond to all alarm systems (burglar, Fire & Amarok [perimeter electrified fence])",
-            "Opening/Closing of DC facility per DSG guidelines without supervision",
-            "Complete building walkthrough multiple times throughout daily shift",
-            "Focusing on misdirected freight, safety, physical security, firearm security, & deterrence",
-            "Knowledge of Genetec system, create access control badges & ensure all building credentials are accurate",
-            "Complete daily observations of facility and document /address opportunities",
-            "Conduct and / or support investigations in regard to concerns or violations of the physical security of assigned location and report findings",
-            "Yard Management",
-            "Assist guard shack as needed with inbound/outbound trailer procedures",
-            "Provide physical control of guard shack and perform duties for emergency coverage if / when needed",
-            "Resolve daily logs to allow proper YMS (Yard Management System) workflows to be followed",
-            "Assist with passive yard control requests",
-            "Reconcile Yard Audit results to ensure yard accuracy",
-            "Provide direction to 3rd party staff",
-            "Conduct and / or support investigations in to concerns or violations of trailer yard of location and report findings",
-            "Conduct Social Engineering Drills with the stores on a regular basis",
-            "Assigned schedule can be temporary / permanently changed as needed for the needs of the business",
-            "Help maintain inventory of LP Supplies & distribute store orders",
-            "Serve as resource/provide guidance to warehouse teammates for a variety of topics",
-            "Assist in New Hire orientation for Loss Prevention introduction for new Teammates",
-            "Support other departments in investigations, presence or as needed",
-            "i.e., Human Resources, Operations, Logistics",
-            "39 more items(s)"
+            "As a Security Officer Full Time Unarmed Patrol Driver in Justin, TX, you will serve and safeguard clients in a range of industries",
+            "As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service",
+            "Position Type: Full Time",
+            "Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities",
+            "Respond to incidents and critical situations in a calm, problem-solving manner",
+            "Conduct regular and random patrols around the business and perimeter",
+            "Working environments and conditions may vary by client site",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "407c0277d2af",
+      "title": "Security Specialist - Full Time",
+      "company": "SECURITY INDUSTRY SPECIALISTS INC",
+      "location": "Grapevine, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "19 an hour",
+      "pay_min": 19.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.glassdoor.com/job-listing/security-specialist-full-time-security-industry-specialists-JV_IC1139999_KO0,29_KE30,59.htm?jl=1010235527022",
+      "via": "via Glassdoor",
+      "description": "<div><p><b><i>About the role:</i></b></p><p>\nThe Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned. All duties must be performed in accordance to client policies and procedures and all state and federal regulations.</p><p>\n</p><p><b><i>In this role, your responsibilities will be:</i></b></p><ul><li>\nProvide a safe and professional work environment for client's employees and guests</li><li>\nProvide escort, patrol on foot to secure your assigned post</li><li>\nAct quickly as a responder to incidents</li>\nBring a positive attitude every day <li>- represent our brand, the client, and yourself in a professional manner</li></ul><p><b><i>\nAs a candidate you must have:\n</i></b></p><ul><li>High school diploma (or GED)</li><li>\nMust complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications</li><li>\nInterpersonal skills and a professional attitude</li><li>\nUniform attire and grooming standards must be maintained while in uniform</li></ul><p>\n</p><p><b><i>We offer:</i></b></p><ul><li>\n$19 per hour</li><li>\nHealth, Dental, Vision, and 401k</li><li>\nPaid Time Off including Sick/Safe Time</li><li>\nA dynamic and challenging work environment with opportunity for growth</li></ul><p>\nSecurity Agency #C14164</p><p><b>\nSecurity Industry Specialists, Inc. is an Equal Opportunity Employer</b></p></div>",
+      "job_highlights": [
+        {
+          "items": [
+            "High school diploma (or GED)",
+            "Must complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications",
+            "Interpersonal skills and a professional attitude",
+            "Uniform attire and grooming standards must be maintained while in uniform",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "$19 per hour",
+            "Health, Dental, Vision, and 401k",
+            "Paid Time Off including Sick/Safe Time",
+            "A dynamic and challenging work environment with opportunity for growth",
+            "1 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned",
+            "All duties must be performed in accordance to client policies and procedures and all state and federal regulations",
+            "Provide a safe and professional work environment for client's employees and guests",
+            "Provide escort, patrol on foot to secure your assigned post",
+            "Act quickly as a responder to incidents",
+            "Bring a positive attitude every day",
+            "- represent our brand, the client, and yourself in a professional manner",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "4e0bdca0096c",
+      "title": "Security Officer Part Time Access Control Operations",
+      "company": "Allied Universal",
+      "location": "McKinney, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "16 an hour",
+      "pay_min": 16.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Part-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1660244/security-officer-part-time-access-control-operations/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Part Time Access Control Operations</strong> in <strong>Mckinney, TX</strong>, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. Join Allied Universal as an Access Control Officer at a dynamic logistics and distribution location. You will manage badge access, monitor entry points, conduct routine patrols, and remain visible to help deter security-related incidents. Deliver exceptional customer service while communicating clearly with employees, visitors, and team members. Bring integrity, reliability, and a collaborative mindset to a caring, innovative team that puts people first.<br><br><strong>Position Type: Part Time<br><br></strong><strong> Pay Rate: $16.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to clients by carrying out site-specific security-related procedures, access-control policies, and emergency response activities at a logistics and distribution location.</li><li>Monitor and control access to the facility by verifying identification, credentials, visitor authorizations, and delivery or contractor entry requirements.</li><li>Maintain accurate access-related logs and reports for visitors, contractors, vehicles, deliveries, and other authorized personnel.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, escalating concerns according to site procedures.</li><li>Conduct regular and random patrols of entry points, loading areas, parking areas, and the business perimeter to help identify and report unusual activity or access-control concerns.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Access control and badge experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial Benefits: Participate in our retirement savings plan to invest in your future.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1660244<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "4 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Pay Rate: $16.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Part Time Access Control Operations in Mckinney, TX, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more",
+            "Join Allied Universal as an Access Control Officer at a dynamic logistics and distribution location",
+            "You will manage badge access, monitor entry points, conduct routine patrols, and remain visible to help deter security-related incidents",
+            "Deliver exceptional customer service while communicating clearly with employees, visitors, and team members",
+            "Bring integrity, reliability, and a collaborative mindset to a caring, innovative team that puts people first",
+            "DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AM",
+            "Provide customer service to clients by carrying out site-specific security-related procedures, access-control policies, and emergency response activities at a logistics and distribution location",
+            "Monitor and control access to the facility by verifying identification, credentials, visitor authorizations, and delivery or contractor entry requirements",
+            "Maintain accurate access-related logs and reports for visitors, contractors, vehicles, deliveries, and other authorized personnel",
+            "Respond to incidents and critical situations in a calm, problem-solving manner, escalating concerns according to site procedures",
+            "Conduct regular and random patrols of entry points, loading areas, parking areas, and the business perimeter to help identify and report unusual activity or access-control concerns",
+            "8 more items(s)"
           ],
           "title": "Responsibilities"
         }
