@@ -1,4 +1,5 @@
 supabase-jobfeed/
+_retired/
 *.bak
 
 __pycache__/

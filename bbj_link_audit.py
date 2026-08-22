@@ -27,7 +27,7 @@ from difflib import get_close_matches
 from collections import defaultdict
 
 DOMAIN = "blackbarjobs.com"
-SKIP_DIRS = {".git", "node_modules", ".vercel", ".github"}
+SKIP_DIRS = {".git", "node_modules", ".vercel", ".github", "_retired"}
 
 # ---- health-audit constants (Check A schema, Check B freshness, --ci mode) ----
 STALENESS_DAYS   = 14   # a feed's newest job must be within this many days (matches feed_fetch --staleness-days)

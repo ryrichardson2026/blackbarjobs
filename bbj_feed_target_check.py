@@ -25,7 +25,7 @@ EXIT CODES
 
 import os, re, argparse, sys
 
-SKIP_DIRS = {".git", "node_modules", ".vercel", ".github"}
+SKIP_DIRS = {".git", "node_modules", ".vercel", ".github", "_retired"}
 KEY_RE = re.compile(r'BBJ_FEED_KEY\s*=\s*"([^"]+)"')
 
 

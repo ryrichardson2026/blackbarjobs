@@ -20,7 +20,7 @@ jobs:
       - name: Alert on failure
         if: steps.audit.outcome == 'failure'
         run: |
-          curl -sS -X POST "${{ secrets.MAKE_ALERT_WEBHOOK }}" \
+          curl -sS -L -X POST "${{ secrets.MAKE_ALERT_WEBHOOK }}" \
             -H "Content-Type: application/json" \
             --data-binary @health-report.json
       - name: Mark run failed

@@ -774,7 +774,10 @@ def main():
             print("   - %s" % p)
     else:
         targets = json.load(open(os.path.join(repo, args.targets), encoding="utf-8"))["targets"]
-        market = [t for t in targets if t["market"].lower() == args.market.lower()]
+        # --market all bakes across every market (intersect with --pages when given);
+        # needed now that --walk-dir is retired and the cron bakes an explicit page list.
+        market = (targets if args.market.lower() == "all"
+                  else [t for t in targets if t["market"].lower() == args.market.lower()])
 
         # split real vs phantom (target path with no file on disk)
         real, phantom = [], []

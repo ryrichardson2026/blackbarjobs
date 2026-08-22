@@ -33,11 +33,51 @@ jobs:
 
       # Bake the just-refreshed feed into the static HTML so crawlable cards stay in
       # sync with feed/*.json (keeps Lever 1 fresh and the audit's bake-lag check ~0).
-      # walk-dir bakes every page by its own BBJ_FEED_KEY (manifest-independent, so it
-      # covers DFW/Austin whose manifests are stale). No secrets: it only transforms
-      # local feed JSON into HTML. --no-sitemap keeps the commit scoped to feed + pages.
+      # Post-teardown the board is a fixed 36-page core (27 security role x market pages
+      # + 9 Chicago warehouse pages), so we bake an explicit --pages list against the
+      # canonical automation/ targets instead of walking the whole tree. --market all
+      # bakes across every market in that list. No secrets: it only transforms local
+      # feed JSON into HTML. --no-sitemap keeps the commit scoped to feed + pages.
       - name: Bake feed into static HTML
-        run: python bbj_feed_bake.py --repo . --walk-dir . --market all --no-sitemap
+        run: >
+          python bbj_feed_bake.py --repo . --targets automation/bbj_page_targets.json
+          --market all --no-sitemap --pages
+          chicago/jobs/unarmed-security-chicago.html
+          chicago/jobs/armed-security-chicago.html
+          chicago/jobs/overnight-security-chicago.html
+          chicago/jobs/warehouse-security-chicago.html
+          chicago/jobs/airport-security-chicago.html
+          chicago/jobs/loss-prevention-chicago.html
+          dallas/jobs/dallas-unarmed-security.html
+          dallas/jobs/dallas-armed-security.html
+          dallas/jobs/dallas-night-shift-security.html
+          dallas/jobs/dallas-warehouse-security.html
+          dallas/jobs/dallas-no-experience-security.html
+          dallas/jobs/dallas-airport-security.html
+          dallas/jobs/dallas-loss-prevention-security.html
+          houston/jobs/unarmed-security-houston.html
+          houston/jobs/armed-security-houston.html
+          houston/jobs/houston-night-shift-security.html
+          houston/jobs/warehouse-security-houston.html
+          houston/jobs/houston-no-experience-security.html
+          houston/jobs/houston-airport-security.html
+          houston/jobs/loss-prevention-houston.html
+          san-antonio/jobs/unarmed-security-san-antonio.html
+          san-antonio/jobs/armed-security-san-antonio.html
+          san-antonio/jobs/night-shift-security-san-antonio.html
+          san-antonio/jobs/warehouse-security-san-antonio.html
+          san-antonio/jobs/no-experience-security-san-antonio.html
+          san-antonio/jobs/tsa-airport-security-san-antonio.html
+          san-antonio/jobs/loss-prevention-san-antonio.html
+          chicago/warehouse/forklift-operator-jobs.html
+          chicago/warehouse/overnight-warehouse-jobs.html
+          chicago/warehouse/package-handler-jobs.html
+          chicago/warehouse/part-time-warehouse-jobs.html
+          chicago/warehouse/warehouse-associate-jobs.html
+          chicago/warehouse/warehouse-jobs.html
+          chicago/warehouse/warehouse-jobs-hiring-immediately.html
+          chicago/warehouse/warehouse-jobs-that-pay-weekly.html
+          chicago/warehouse/weekend-warehouse-jobs.html
 
       - name: Commit and push refreshed feed + baked pages
         id: commit

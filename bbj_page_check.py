@@ -174,7 +174,7 @@ def main():
         print(f"Could not find that folder: {root}")
         sys.exit(1)
 
-    skip_dirs = {".git", "node_modules", ".vercel", ".github"}
+    skip_dirs = {".git", "node_modules", ".vercel", ".github", "_retired"}
     pages = []
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if d not in skip_dirs]
