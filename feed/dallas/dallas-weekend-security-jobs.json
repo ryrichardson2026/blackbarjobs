@@ -1,11 +1,71 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/dallas-weekend-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
   "exact": 9,
   "jobs": [
+    {
+      "job_hash": "eebe45ab3956",
+      "title": "Full and Part-Time Evening and Weekend Security Officers",
+      "company": "Marksman Security",
+      "location": "Plano, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://jooble.org/rjdp/-8736415272138489801",
+      "via": "via Jooble",
+      "description": "<p>Security Officer</p>\r\n<p>Marksman Security is built on serving our clients and building careers – just like yours. We are trusted by some of the most well-known companies and properties in the country while remaining dedicated to building personalized security solutions that solve the needs of every customer we support. Named as a nationally recognized Top Workplace in 2024 and 2025 by USA Today, Marksman's customized approach to security services will provide you with the opportunity to learn, grow and succeed. Our core values of being Unified, Transparent, Innovative, Committed and Accountable help us in providing unparalleled service and support in all that we do. Marksman Security LLC is hiring immediately for a</p>\r\n<p>Flex Security Officer</p>\r\n<p>1st, 2nd and 3rd shifts</p>\r\n<p>Applicants need to be flexible with their schedule and willing to work weekends, evenings and holidays, if needed. Hiring for multiple sites — full-time, part-time, and all shifts.</p>\r\n<p>Weekend and holiday availability is required.</p>\r\n<p>The site is a Headquarters location, and will require the highest level of professionalism, customer service, and high quality candidates with excellent work ethics.</p>\r\n<p>Required to have previous experience in security or customer service fields. State training and licensing assistance may be available for qualified candidates.</p>\r\n<p>$50 Sign-On Bonus – Active Guard Card Already licensed? Associates who join with an active Guard Card on file will receive a $50 Sign-On Bonus, paid out upon successful completion of 90 days of employment.</p>\r\n<p>Join Marksman Security — a service-driven team supporting a premier automotive facility. Gatehouse — Access control; greet and ID residents/guests, log vehicles, announce visitors</p>\r\n<p>Front Desk — Customer service, access control, CCTV monitoring, package distribution, visitor announcements</p>\r\n<p>Your performance is visible, your work matters, and those who show up consistently have a real, fast path to advancement.</p>\r\n<p>Acknowledge and greet all residents and guests in a prompt and courteous manner</p>\r\n<p>Document and maintain a log of visitors and notify residents of visitor's arrival</p>\r\n<p>Assist in protecting others and equipment while enforcing policies and procedures</p>\r\n<p>Monitor surveillance cameras and alarms</p>\r\n<p>Patrol the perimeter (interior/exterior) to identify potential safety and security risks</p>\r\n<p>Respond to calls of distress, alarms and or emergencies such as fire, injuries or presence of unauthorized individuals by contacting local first responders</p>\r\n<p>Identify and report any and all concerns (safety, security breaches, unusual circumstances) in a timely manner</p>\r\n<p>Ensures accuracy and timely submission of required documentation (reports/documents)</p>\r\n<p>Must be at least 18 years of age or older</p>\r\n<p>Basic computer skills</p>\r\n<p>Minimum of one year of customer service experience</p>\r\n<p>Minimum of one year of security experience</p>\r\n<p>Marksman Security LLC · Equal Opportunity Employer M/F/D/V</p>\r\n<p>#</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Required to have previous experience in security or customer service fields",
+            "State training and licensing assistance may be available for qualified candidates",
+            "Must be at least 18 years of age or older",
+            "Basic computer skills",
+            "Minimum of one year of customer service experience",
+            "Minimum of one year of security experience",
+            "3 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "$50 Sign-On Bonus – Active Guard Card Already licensed?",
+            "Associates who join with an active Guard Card on file will receive a $50 Sign-On Bonus, paid out upon successful completion of 90 days of employment"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "1st, 2nd and 3rd shifts",
+            "Applicants need to be flexible with their schedule and willing to work weekends, evenings and holidays, if needed",
+            "Hiring for multiple sites — full-time, part-time, and all shifts",
+            "Weekend and holiday availability is required",
+            "The site is a Headquarters location, and will require the highest level of professionalism, customer service, and high quality candidates with excellent work ethics",
+            "Gatehouse — Access control; greet and ID residents/guests, log vehicles, announce visitors",
+            "Front Desk — Customer service, access control, CCTV monitoring, package distribution, visitor announcements",
+            "Your performance is visible, your work matters, and those who show up consistently have a real, fast path to advancement",
+            "Acknowledge and greet all residents and guests in a prompt and courteous manner",
+            "Document and maintain a log of visitors and notify residents of visitor's arrival",
+            "Assist in protecting others and equipment while enforcing policies and procedures",
+            "Monitor surveillance cameras and alarms",
+            "Patrol the perimeter (interior/exterior) to identify potential safety and security risks",
+            "Respond to calls of distress, alarms and or emergencies such as fire, injuries or presence of unauthorized individuals by contacting local first responders",
+            "Identify and report any and all concerns (safety, security breaches, unusual circumstances) in a timely manner",
+            "Ensures accuracy and timely submission of required documentation (reports/documents)",
+            "13 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "841699817c95",
       "title": "Watch Officer, Global Security Operations Center (Night Weekend Shift)",
@@ -102,7 +162,7 @@
       "company": "Socket.dev",
       "location": "Hutchins, TX",
       "vertical": "security",
-      "role": "event",
+      "role": "night-shift",
       "pay": "30,307–35,817 a year",
       "pay_min": 30307.0,
       "pay_max": 35817.0,
@@ -123,6 +183,32 @@
         {
           "items": [
             "The role involves guarding a food distribution warehouse, patrolling, checking checkpoints, and monitoring CCTV and gatehouse access"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "a0e4741cffc4",
+      "title": "Security Shift Lead - Mesquite, TX (Weekend/Holiday)",
+      "company": "Marksman Security LLC",
+      "location": "Mesquite, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": null,
+      "posted_date": "2026-08-15",
+      "apply_link": "https://us.jobrapido.com/jobpreview/4111459198313693184",
+      "via": "via Jooble",
+      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property.\nResponsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.\n\n#J-18808-Ljbffr  Marksman Security LLC\n</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions",
+            "Weekend and holiday availability is required"
           ],
           "title": "Responsibilities"
         }
@@ -160,6 +246,38 @@
       ]
     },
     {
+      "job_hash": "0d46cc1c9dde",
+      "title": "Part-Time Weekend Warehouse Security Clerk — Weekly Pay",
+      "company": "Ryder System, Inc.",
+      "location": "Haltom City, TX",
+      "vertical": "security",
+      "role": "overnight-warehouse",
+      "pay": "26K–29K a year",
+      "pay_min": 26000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-10",
+      "apply_link": "https://www.learn4good.com/jobs/haltom-city/texas/warehouse/5361024311/e/",
+      "via": "via JobLeads",
+      "description": "<p>Ryder System, Inc. is hiring a Part-Time Guard/Clerk in Haltom City, Texas, with a weekend schedule and weekly pay. The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills.</p><p>The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities. Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities",
+            "Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "a4c01de24948",
       "title": "Security Shift Lead – Mesquite, TX (Weekend/Holiday)",
       "company": "Marksman Security LLC",
@@ -184,82 +302,6 @@
           "title": "Responsibilities"
         }
       ]
-    },
-    {
-      "job_hash": "981ad8cb24f3",
-      "title": "Retail Off-Duty Security Officer - Weekend & Evening Shifts",
-      "company": "Marksman Security",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "weekend",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/entertainment/5344965134/e/",
-      "via": "via BeBee",
-      "description": "<p>Marksman Security LLC is seeking Off Duty Officers for Retail in Dallas, Texas. This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills.\nThe ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays. Candidates must be at least 21 years old and able to pass pre-employment screenings.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The ideal candidates will have experience in security or customer service and must be willing to work flexible hours, including weekends and holidays",
-            "Candidates must be at least 21 years old and able to pass pre-employment screenings"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "This role involves engaging with the public and responding to service calls, requiring a professional demeanor and effective communication skills"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "2da301d9dcc8",
-      "title": "Security Shift Lead - Mesquite, TX (Weekend/Holiday)",
-      "company": "Marksman Security",
-      "location": "Mesquite, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://jooble.org/jdp/-3490314673494081543",
-      "via": "via BeBee",
-      "description": "<p>Marksman Security LLC in Mesquite, TX is seeking a Site Supervisor to oversee client sites, manage security officers on shift, and ensure high-quality services for people and property. Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions. Weekend and holiday availability is required.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Responsibilities include scheduling, training, incident reporting, access control and coordinating with Titan Management to deliver reliable security solutions",
-            "Weekend and holiday availability is required"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "f81dec27e6e7",
-      "title": "Armed Security Officers – Weekend & Event Work (Growing Company) (fort worth) by Craigslist in 2026 | ok.com",
-      "company": "Craigslist",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "festival",
-      "pay": "1.2K a month",
-      "pay_min": 1200.0,
-      "pay_max": null,
-      "pay_unit": "MONTH",
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://us.ok.com/en/city-fort-worth/cate-security-services/armed-security-officers-%E2%80%93-weekend-%26-event-work-%28growing-company%29-%28fort-worth%29-43845287410796544/",
-      "via": "via OK.com",
-      "description": "Summary:\nSeeking professional security officers to join a tight, dependable team with consistent expectations and growth opportunities for v",
-      "job_highlights": null
     },
     {
       "job_hash": "5983207bbcd1",
@@ -329,58 +371,31 @@
       ]
     },
     {
-      "job_hash": "299f746fb638",
-      "title": "Security Officer - Distribution Center",
-      "company": "Allied Universal",
+      "job_hash": "db30e16723d1",
+      "title": "Hospital Police Officer – Protect & Serve Patients & Staff",
+      "company": "Baylor Scott & White Health",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "general",
-      "pay": "19 an hour",
-      "pay_min": 19.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
+      "role": "full-time",
+      "pay": "60K–80K a year",
+      "pay_min": 60000.0,
+      "pay_max": 80000.0,
+      "pay_unit": "YEAR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-20",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-distribution-center/22950/99453232464",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Patrol Driver</strong> in <strong>Justin, TX</strong>, you will serve and safeguard clients in a range of industries. As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service. This driving position requires a valid driver’s license. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $19.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon06:00 AM - 02:00 PMThur06:00 AM - 02:00 PMFri06:00 AM - 02:00 PMSat06:00 AM - 02:00 PMSun06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner.</li><li>Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Comfortable using a computer or tablet is preferred.</li><li>Access control and badge experience is preferred.</li><li>Customer service experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1660792<br><br>",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.jobleads.com/us/job/hospital-police-officer-protect-serve-patients-staff--fort-worth--ec8f15cb2b5a6408fd07fc98ec5f7f0c3",
+      "via": "via JobLeads",
+      "description": "<p>Baylor Scott & White Health in Fort Worth, TX is seeking a Police Officer to protect hospital grounds, deter threats, and support security and loss prevention with a patient‑centered approach.</p><p>The officer conducts patrols, investigations, and enforces laws, while assisting nursing staff and coordinating with emergency management. A valid Peace Officer license and BLS are required with onboarding within defined timelines.</p>",
       "job_highlights": [
         {
           "items": [
-            "This driving position requires a valid driver’s license",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "6 more items(s)"
+            "A valid Peace Officer license and BLS are required with onboarding within defined timelines"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Pay Rate: $19.00 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Security Officer Full Time Unarmed Patrol Driver in Justin, TX, you will serve and safeguard clients in a range of industries",
-            "As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service",
-            "Position Type: Full Time",
-            "Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities",
-            "Respond to incidents and critical situations in a calm, problem-solving manner",
-            "Conduct regular and random patrols around the business and perimeter",
-            "Working environments and conditions may vary by client site",
-            "4 more items(s)"
+            "The officer conducts patrols, investigations, and enforces laws, while assisting nursing staff and coordinating with emergency management"
           ],
           "title": "Responsibilities"
         }

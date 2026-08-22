@@ -1,204 +1,11 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "chicago/jobs/event-security-chicago",
   "market": "Chicago",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
-    {
-      "job_hash": "86c7e491e6d5",
-      "title": "Event Staff",
-      "company": "Andy Frain Services",
-      "location": "Warrenville, IL",
-      "vertical": "security",
-      "role": "event",
-      "pay": "$18.00/hr",
-      "pay_min": 18.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-16",
-      "apply_link": "https://www.seasoned.co/job/event-staff-main-event-warrenville-warrenville-il_776b423c-28b2-4bb4-b07d-fd6d034bb517_44e02",
-      "via": "via SaluteMyJob",
-      "description": "<DIV><STRONG>Hiring for various events and weekend work in the Chicago Suburbs. Locations vary per event and pay rate starts at $18.00/hr.  Increased pay for supervisory positions.  MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE.  RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. </STRONG></DIV> <DIV> </DIV> <DIV><STRONG>Job Summary:</STRONG><BR>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<BR><BR><STRONG>Basic Functions:</STRONG><BR> <UL> <LI>Control of entrances and movement of pedestrian and vehicle traffic.</LI> <LI>Patrol of buildings and perimeters.</LI> <LI>Escort of material and personnel.</LI> <LI>Inspection of security and fire exposures.</LI> <LI>Special assignments.</LI> </UL> <STRONG> Responsibilities: </STRONG> <BR>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<BR> <UL> <LI>Be on time and report to post in full uniform.</LI> <LI>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</LI> <LI>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</LI> <LI>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</LI> <LI>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</LI> <LI>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</LI> <LI>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</LI> <LI>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</LI> <LI>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</LI> <LI>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</LI> <LI>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</LI> </UL> <STRONG>Skills and Abilities:</STRONG><BR> <UL> <LI>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</LI> <LI>Constant and dedicated vigilance.</LI> <LI>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</LI> <LI>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</LI> <LI>Ability to facilitate progressive change, work as part of a team and follow directions.</LI> <LI>Work with a sense of urgency.</LI> <LI>Strong oral and written communications skills.</LI> </UL> <DIV><EM>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</EM></DIV> <DIV> </DIV> </DIV>",
-      "job_highlights": [
-        {
-          "items": [
-            "MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE",
-            "RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS",
-            "A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety",
-            "Constant and dedicated vigilance",
-            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement",
-            "Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously",
-            "Ability to facilitate progressive change, work as part of a team and follow directions",
-            "Work with a sense of urgency",
-            "Strong oral and written communications skills",
-            "6 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Locations vary per event and pay rate starts at $18.00/hr",
-            "Increased pay for supervisory positions"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
-            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
-            "Security Officers must maintain a professional image and always demonstrate excellent customer service",
-            "Control of entrances and movement of pedestrian and vehicle traffic",
-            "Patrol of buildings and perimeters",
-            "Escort of material and personnel",
-            "Inspection of security and fire exposures",
-            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
-            "Reasonable accommodations may be made to allow for certain ADA requirements",
-            "Be on time and report to post in full uniform",
-            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
-            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
-            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
-            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
-            "Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations",
-            "Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment",
-            "Make recommendations to management on better safety and loss prevention processes as identified during daily routine",
-            "Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments",
-            "Ensure continuous and safe operation of all elevators and access doors",
-            "Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment",
-            "Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market",
-            "Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented",
-            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
-            "20 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "052ebff13a99",
-      "title": "Event Staff",
-      "company": "Andy Frain",
-      "location": "Bellwood, IL",
-      "vertical": "security",
-      "role": "event",
-      "pay": "$18.00/hr",
-      "pay_min": 18.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://jobs.stevenagefc.com/jobs/event-staff-bellwood-illinois/2922474915-2/",
-      "via": "via BeBee",
-      "description": "<p>Hiring for various events and weekend work in the Chicago Suburbs. Locations vary per event and pay rate starts at $18.00/hr. Increased pay for supervisory positions. MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE. RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. <strong>Job Summary:</strong></p>\n<p>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area.</p>\n<h4>Security</h4>\n<p>Officers must maintain a professional image and always demonstrate excellent customer service.</p>\n<h4><strong>Basic Functions:</strong></h4>\n<ul>\n<p><li>Control of entrances and movement of pedestrian and vehicle traffic.</li></p>\n<p><li>Patrol of buildings and perimeters.</li></p>\n<p><li>Escort of material and personnel.</li></p>\n<p><li>Inspection of security and fire exposures.</li></p>\n<p><li>Special assignments.</li></p>\n<p></ul></p>\n<h4><strong> Responsibilities: </strong></h4>\n<p>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):</p>\n<ul>\n<p><li>Be on time and report to post in full uniform.</li></p>\n<p><li>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</li></p>\n<p><li>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</li></p>\n<p><li>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</li></p>\n<p><li>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</li></ul></p>",
-      "job_highlights": [
-        {
-          "items": [
-            "MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE",
-            "RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. Job Summary:",
-            "Officers must maintain a professional image and always demonstrate excellent customer service"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Locations vary per event and pay rate starts at $18.00/hr",
-            "Increased pay for supervisory positions"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
-            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
-            "Control of entrances and movement of pedestrian and vehicle traffic",
-            "Patrol of buildings and perimeters",
-            "Escort of material and personnel",
-            "Inspection of security and fire exposures",
-            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
-            "Reasonable accommodations may be made to allow for certain ADA requirements",
-            "Be on time and report to post in full uniform",
-            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
-            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
-            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
-            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
-            "10 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "d9aaa95ba0e6",
-      "title": "Event Staff",
-      "company": "Andy Frain Services",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": "$18.00/hr",
-      "pay_min": 18.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://bebee.com/us/jobs/event-staff-andy-frain-joliet--lensa-7428_1dda51a51128c0ca168f80421a49dac3eb0c33431b20815bb7a2a07eeb416d50",
-      "via": "via SaluteMyJob",
-      "description": "<DIV><STRONG>Hiring for various events and weekend work in the Chicago Suburbs. Locations vary per event and pay rate starts at $18.00/hr.  Increased pay for supervisory positions.  MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE.  RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. </STRONG></DIV> <DIV> </DIV> <DIV><STRONG>Job Summary:</STRONG><BR>Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<BR><BR><STRONG>Basic Functions:</STRONG><BR> <UL> <LI>Control of entrances and movement of pedestrian and vehicle traffic.</LI> <LI>Patrol of buildings and perimeters.</LI> <LI>Escort of material and personnel.</LI> <LI>Inspection of security and fire exposures.</LI> <LI>Special assignments.</LI> </UL> <STRONG> Responsibilities: </STRONG> <BR>Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<BR> <UL> <LI>Be on time and report to post in full uniform.</LI> <LI>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</LI> <LI>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</LI> <LI>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</LI> <LI>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</LI> <LI>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</LI> <LI>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</LI> <LI>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</LI> <LI>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</LI> <LI>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</LI> <LI>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</LI> </UL> <STRONG>Skills and Abilities:</STRONG><BR> <UL> <LI>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</LI> <LI>Constant and dedicated vigilance.</LI> <LI>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</LI> <LI>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</LI> <LI>Ability to facilitate progressive change, work as part of a team and follow directions.</LI> <LI>Work with a sense of urgency.</LI> <LI>Strong oral and written communications skills.</LI> </UL> <DIV><EM>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</EM></DIV> <DIV> </DIV> </DIV>",
-      "job_highlights": [
-        {
-          "items": [
-            "MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE",
-            "RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS",
-            "A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety",
-            "Constant and dedicated vigilance",
-            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement",
-            "Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously",
-            "Ability to facilitate progressive change, work as part of a team and follow directions",
-            "Work with a sense of urgency",
-            "Strong oral and written communications skills",
-            "6 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Locations vary per event and pay rate starts at $18.00/hr",
-            "Increased pay for supervisory positions"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
-            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
-            "Security Officers must maintain a professional image and always demonstrate excellent customer service",
-            "Control of entrances and movement of pedestrian and vehicle traffic",
-            "Patrol of buildings and perimeters",
-            "Escort of material and personnel",
-            "Inspection of security and fire exposures",
-            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
-            "Reasonable accommodations may be made to allow for certain ADA requirements",
-            "Be on time and report to post in full uniform",
-            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
-            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
-            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
-            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
-            "Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations",
-            "Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment",
-            "Make recommendations to management on better safety and loss prevention processes as identified during daily routine",
-            "Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments",
-            "Ensure continuous and safe operation of all elevators and access doors",
-            "Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment",
-            "Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market",
-            "Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented",
-            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
-            "20 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
     {
       "job_hash": "5bec69662263",
       "title": "Part-Time Event Security / Ushers & Ticket Takers",
@@ -258,64 +65,61 @@
       ]
     },
     {
-      "job_hash": "a259bd344e5d",
-      "title": "Event Security at Andy Frain Services Cicero, IL",
-      "company": "Andy Frain Services",
-      "location": "Cicero, IL",
+      "job_hash": "b4be6c98c424",
+      "title": "Event Security Staff - Chicagoland Speedway",
+      "company": "Chicagoland Speedway",
+      "location": "Chicago, IL",
       "vertical": "security",
       "role": "event",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
+      "pay": "$15.00 - $18.00 /hour",
+      "pay_min": 15.0,
+      "pay_max": 18.0,
+      "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://colorsprayformulator.com/job-listing/job/event-security-at-andy-frain-services-cicero-il-RkRSM2dQUGthdEFFKzFVTm5XZFVhN0s3SUE9PQ==",
-      "via": "via Colorspray Formulator",
-      "description": "Event Security job at Andy Frain Services. Cicero, IL. <b> YOU MUST have a CURRENT State of Illinois PERC Card License in good standing to Apply to this Position. <p></p> Enjoy live music, sports, and special events? Andy Frain Services is currently hiring PERC Card Licensed Event Security for our Sports & Entertainment office in Chicago. This is a GREAT part time or secondary job - it's an event-based schedule, so you can schedule yourself to work when you are able!<p></p><b> Job Summary <p></p></b> Support our stadium, arena, convention center, and theatre clients in their security needs and be an integral part of the facility's needs by observing and reporting activities and incidents, as well as providing security and safety to both the venue's property and personnel. Event Security must possess and maintain professional image and help make our clients' venues places where fans can have an unforgettable and safe experience. <p></p><b> Responsibilities <p></p></b> Duties may vary depending on event, staff size, organizational structure and/or geographical location. Reasonable accommodations may be made to allow for certain ADA requirements. Other duties not listed below may also be assigned. <p></p><ul><li> Be on time and report to post in full uniform. </li><li> Delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description. The ability to greet all visitors, vendors, and employees while continuously maintaining the standards of excellence in presentation and professionalism. Customer Service is Every Employee's Job!</li><li> Maintain a working knowledge of all emergency policies, procedures, and regulations. Respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed. </li><li> Post orders may include wanding, metal detectors, bag search, pat downs, or other tasks as needed. </li><li> Be diligent and vigilant in safety awareness. </li><li> Know and understand post orders, revisions, and daily event needs. Know your chain of command. </li><li> Responsibilities are not limited to these listed and may be expanded upon at any time at the request of the client. <p></p></li></ul><b> Minimum Qualifications <p></p></b><ul><li> CURRENT State of Illinois PERC Card License in good standing </li><li>18 years of age or older </li><li> High School Diploma and/or equivalent (GED). </li><li> Must be willing to submit to a background check and drug screening (where required) - any offer of employment is conditioned upon the successful completion of a background investigation. </li><li> Minimum 6 months prior experience in security, loss prevention, and life safety. <p></p></li></ul><b> Skills And Abilities <p></p></b><ul><li> A security officer is to be honest, alert, and well-disciplined as the custodians of employee and customer property and safety. </li><li> Strong customer service skills, exemplifying Andy Frain Services Mission Statement - \"Customer Service is Every Employee's Job.\"</li><li> Ability to facilitate progressive change, follow directions, work as part of a team and get along with other employees. </li><li> Work with a sense of urgency. </li><li> Clear and effective oral and written communication skills. <p></p></li></ul><b> Physical Requirements <p></p></b> In general, the following physical demands are representative of those that must be met by a Security Officer to successfully perform the essential functions of this job. Reasonable accommodations may be made to allow for certain ADA requirements. <p></p><ul><li> Must be able to see, hear, speak, and write clearly in order to communicate with employees and/or other customers. </li><li> Pushing/pulling/carrying/lifting may include up to 50 lbs. </li><li> Normal vision or corrected by use of glasses and/or contacts for normal reading and viewing abilities. </li><li> Ability to twist, turn, bend, stand, climb stairs and walk as required to perform the duties associated with functioning as a security officer. <p></p></li></ul><em> This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time. </em></b>",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=d19e88b96644c1d9",
+      "via": "via TeamWork Online",
+      "description": "CHICAGOLAND SPEEDWAY<p>Chicagoland Speedway is a 1.5-mile oval located in Joliet, Ill., approximately 30 miles south of downtown Chicago on Old Historic Route 66. On July 3-5, 2026, NASCAR will make its much-anticipated return to Chicagoland Speedway for three days of racing action. </p><p> </p><p>Summary</p><p>Assist in maintaining the safety, security, and orderly operations of Chicagoland Speedway while providing exceptional customer service.  This position provides a visible security presence to guests, employees, and assists with questions regarding directions, information about the facility, and disabled assistance.</p><p></p><p>Essential Duties and Responsibilities include the following:  Other duties may be assigned.</p><ul><li>Maintain posts and screen guests for proper tickets and credentials throughout the facility on race weekends.</li><li>Control access to different areas on-site with proper credentials using verbal communication and physical presence.</li><li>Ensure safety is maintained by advising rules, policies of the facility, and enforcement of such when necessary.</li><li>Provide outstanding customer service by providing information, giving directions, and answering questions.</li><li>Assist competitors, owners, race officials, and customers by managing parking areas.</li><li>Maintain the physical security of customers, competitors, equipment and other assigned areas by patrolling on foot and in Chicagoland Speedway vehicles.</li><li>Roam the grounds on foot and in golf carts assisting guests, relieving co-workers for breaks, and responding to calls for assistance.</li><li>Searching and screening ticketed guests entering restricted areas for prohibited items and providing safe orderly crowd control.</li><li>Inspect camping structures upon entry for prohibited items.</li><li>Securing of doors and gates at designated times.</li><li>Patrolling of the property for unwanted, unsafe, and / or suspicious behavior.</li><li>Assist setting up perimeter fencing and barricades.</li></ul><p></p><p>Education and/or Experience</p><ul><li>High school diploma or general education degree (GED); or one to three months related experience and/or training; or equivalent combination of education and experience.</li></ul><p></p><p>Certificates, Licenses, Registrations</p><ul><li>Some positions may require a valid driver’s license and to pass a motor vehicle license inspection report.</li></ul><p></p><p>Other Qualifications</p><ul><li>Must be at least (18) eighteen years of age. </li><li>Previous security is preferred but not required. </li><li>Must be professional in appearance, have good communication skills, and be willing to work in an outdoor environment.</li><li>Ability to work nights and weekends.</li><li>Reliable transportation to and from track location.</li><li>Basic computer skills and abilities such as corresponding in emails and communicating documentation of time clock with specific software programs approved by employer</li></ul><p>The compensation range for this position is:</p>$15.00 - $18.00 /hour<p></p><p></p><p>Benefits Information</p>No benefits<p>For an overview of NASCAR Benefits, please navigate to: <a href=\"https://careers.nascar.com/benefitsandwellness/\">https://careers.nascar.com/benefitsandwellness/</a></p><p></p><p></p><p></p><p>Apply Now!</p><p></p><p>Learn more about this role and our team by applying at <a href=\"http://www.careers.nascar.com/\">www.careers.nascar.com</a> for consideration.</p><p></p><p>We are a company unlike any other. We want you to bring your experience, skills and passion to our close-knit, high-energy environment in which our employees thrive and where you can prosper. We know the key to our success is our employees and we offer highly competitive salaries, a solid benefits package focused on wellness, and opportunities for you to grow and develop both personally and professionally. It won’t take you long to find out that you are on the right track here at NASCAR!</p><p></p><p>NASCAR is committed to fostering a diverse work environment where all employees feel valued and empowered. NASCAR is an Equal Opportunity Employer (EEO). We seek to attract and retain the best qualified people available. All qualified applicants will receive consideration for employment without regard to race, color, gender, gender identity and expression, age, national origin, disability, religion, sexual orientation, genetic information, pregnancy, veteran status or any basis that is protected by applicable law except where a bona fide occupational qualification exists.</p><p></p><p>Follow us on <a href=\"http://www.linkedin.com/company/nascar\">LinkedIn</a> and <a href=\"http://x.com/NASCARJobs\">X</a> for future opportunities and company news.</p><p></p><p>We're looking for your voice, your ideas, and your perspective. To help us get to know you accurately and keep the process fair for everyone, we ask that interviews and assessments be completed without the support of AI-generated content or automated assistance.</p>",
       "job_highlights": [
         {
           "items": [
-            "YOU MUST have a CURRENT State of Illinois PERC Card License in good standing to Apply to this Position",
-            "CURRENT State of Illinois PERC Card License in good standing",
-            "18 years of age or older",
-            "High School Diploma and/or equivalent (GED)",
-            "Must be willing to submit to a background check and drug screening (where required) - any offer of employment is conditioned upon the successful completion of a background investigation",
-            "Minimum 6 months prior experience in security, loss prevention, and life safety",
-            "A security officer is to be honest, alert, and well-disciplined as the custodians of employee and customer property and safety",
-            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement - \"Customer Service is Every Employee's Job.\"",
-            "Ability to facilitate progressive change, follow directions, work as part of a team and get along with other employees",
-            "Work with a sense of urgency",
-            "Clear and effective oral and written communication skills",
-            "In general, the following physical demands are representative of those that must be met by a Security Officer to successfully perform the essential functions of this job",
-            "Reasonable accommodations may be made to allow for certain ADA requirements",
-            "Must be able to see, hear, speak, and write clearly in order to communicate with employees and/or other customers",
-            "Pushing/pulling/carrying/lifting may include up to 50 lbs",
-            "Normal vision or corrected by use of glasses and/or contacts for normal reading and viewing abilities",
-            "Ability to twist, turn, bend, stand, climb stairs and walk as required to perform the duties associated with functioning as a security officer",
-            "14 more items(s)"
+            "High school diploma or general education degree (GED); or one to three months related experience and/or training; or equivalent combination of education and experience",
+            "Some positions may require a valid driver’s license and to pass a motor vehicle license inspection report",
+            "Must be at least (18) eighteen years of age",
+            "Must be professional in appearance, have good communication skills, and be willing to work in an outdoor environment",
+            "Ability to work nights and weekends",
+            "Reliable transportation to and from track location",
+            "Basic computer skills and abilities such as corresponding in emails and communicating documentation of time clock with specific software programs approved by employer",
+            "4 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Support our stadium, arena, convention center, and theatre clients in their security needs and be an integral part of the facility's needs by observing and reporting activities and incidents, as well as providing security and safety to both the venue's property and personnel",
-            "Event Security must possess and maintain professional image and help make our clients' venues places where fans can have an unforgettable and safe experience",
-            "Duties may vary depending on event, staff size, organizational structure and/or geographical location",
-            "Reasonable accommodations may be made to allow for certain ADA requirements",
-            "Be on time and report to post in full uniform",
-            "Delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description",
-            "The ability to greet all visitors, vendors, and employees while continuously maintaining the standards of excellence in presentation and professionalism",
-            "Customer Service is Every Employee's Job!",
-            "Maintain a working knowledge of all emergency policies, procedures, and regulations",
-            "Respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed",
-            "Post orders may include wanding, metal detectors, bag search, pat downs, or other tasks as needed",
-            "Be diligent and vigilant in safety awareness",
-            "Know and understand post orders, revisions, and daily event needs",
-            "Know your chain of command",
-            "Responsibilities are not limited to these listed and may be expanded upon at any time at the request of the client",
-            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
-            "13 more items(s)"
+            "$15.00 - $18.00 /hour",
+            "No benefits",
+            "We know the key to our success is our employees and we offer highly competitive salaries, a solid benefits package focused on wellness, and opportunities for you to grow and develop both personally and professionally"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Assist in maintaining the safety, security, and orderly operations of Chicagoland Speedway while providing exceptional customer service",
+            "This position provides a visible security presence to guests, employees, and assists with questions regarding directions, information about the facility, and disabled assistance",
+            "Essential Duties and Responsibilities include the following: Other duties may be assigned",
+            "Maintain posts and screen guests for proper tickets and credentials throughout the facility on race weekends",
+            "Control access to different areas on-site with proper credentials using verbal communication and physical presence",
+            "Ensure safety is maintained by advising rules, policies of the facility, and enforcement of such when necessary",
+            "Provide outstanding customer service by providing information, giving directions, and answering questions",
+            "Assist competitors, owners, race officials, and customers by managing parking areas",
+            "Maintain the physical security of customers, competitors, equipment and other assigned areas by patrolling on foot and in Chicagoland Speedway vehicles",
+            "Roam the grounds on foot and in golf carts assisting guests, relieving co-workers for breaks, and responding to calls for assistance",
+            "Searching and screening ticketed guests entering restricted areas for prohibited items and providing safe orderly crowd control",
+            "Inspect camping structures upon entry for prohibited items",
+            "Securing of doors and gates at designated times",
+            "Patrolling of the property for unwanted, unsafe, and / or suspicious behavior",
+            "Assist setting up perimeter fencing and barricades",
+            "12 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -488,61 +292,235 @@
       ]
     },
     {
-      "job_hash": "b4be6c98c424",
-      "title": "Event Security Staff - Chicagoland Speedway",
-      "company": "Chicagoland Speedway",
-      "location": "Chicago, IL",
+      "job_hash": "553211def111",
+      "title": "Event Staff (West Chicago)",
+      "company": "Andy Frain Services",
+      "location": "West Chicago, IL",
       "vertical": "security",
       "role": "event",
-      "pay": "$15.00 - $18.00 /hour",
-      "pay_min": 15.0,
-      "pay_max": 18.0,
+      "pay": "$18.00/hr",
+      "pay_min": 18.0,
+      "pay_max": null,
       "pay_unit": "HOUR",
-      "schedule": "Full-time",
+      "schedule": "Part-time",
       "posted_date": null,
-      "apply_link": "https://www.indeed.com/viewjob?jk=d19e88b96644c1d9",
-      "via": "via TeamWork Online",
-      "description": "CHICAGOLAND SPEEDWAY<p>Chicagoland Speedway is a 1.5-mile oval located in Joliet, Ill., approximately 30 miles south of downtown Chicago on Old Historic Route 66. On July 3-5, 2026, NASCAR will make its much-anticipated return to Chicagoland Speedway for three days of racing action. </p><p> </p><p>Summary</p><p>Assist in maintaining the safety, security, and orderly operations of Chicagoland Speedway while providing exceptional customer service.  This position provides a visible security presence to guests, employees, and assists with questions regarding directions, information about the facility, and disabled assistance.</p><p></p><p>Essential Duties and Responsibilities include the following:  Other duties may be assigned.</p><ul><li>Maintain posts and screen guests for proper tickets and credentials throughout the facility on race weekends.</li><li>Control access to different areas on-site with proper credentials using verbal communication and physical presence.</li><li>Ensure safety is maintained by advising rules, policies of the facility, and enforcement of such when necessary.</li><li>Provide outstanding customer service by providing information, giving directions, and answering questions.</li><li>Assist competitors, owners, race officials, and customers by managing parking areas.</li><li>Maintain the physical security of customers, competitors, equipment and other assigned areas by patrolling on foot and in Chicagoland Speedway vehicles.</li><li>Roam the grounds on foot and in golf carts assisting guests, relieving co-workers for breaks, and responding to calls for assistance.</li><li>Searching and screening ticketed guests entering restricted areas for prohibited items and providing safe orderly crowd control.</li><li>Inspect camping structures upon entry for prohibited items.</li><li>Securing of doors and gates at designated times.</li><li>Patrolling of the property for unwanted, unsafe, and / or suspicious behavior.</li><li>Assist setting up perimeter fencing and barricades.</li></ul><p></p><p>Education and/or Experience</p><ul><li>High school diploma or general education degree (GED); or one to three months related experience and/or training; or equivalent combination of education and experience.</li></ul><p></p><p>Certificates, Licenses, Registrations</p><ul><li>Some positions may require a valid driver’s license and to pass a motor vehicle license inspection report.</li></ul><p></p><p>Other Qualifications</p><ul><li>Must be at least (18) eighteen years of age. </li><li>Previous security is preferred but not required. </li><li>Must be professional in appearance, have good communication skills, and be willing to work in an outdoor environment.</li><li>Ability to work nights and weekends.</li><li>Reliable transportation to and from track location.</li><li>Basic computer skills and abilities such as corresponding in emails and communicating documentation of time clock with specific software programs approved by employer</li></ul><p>The compensation range for this position is:</p>$15.00 - $18.00 /hour<p></p><p></p><p>Benefits Information</p>No benefits<p>For an overview of NASCAR Benefits, please navigate to: <a href=\"https://careers.nascar.com/benefitsandwellness/\">https://careers.nascar.com/benefitsandwellness/</a></p><p></p><p></p><p></p><p>Apply Now!</p><p></p><p>Learn more about this role and our team by applying at <a href=\"http://www.careers.nascar.com/\">www.careers.nascar.com</a> for consideration.</p><p></p><p>We are a company unlike any other. We want you to bring your experience, skills and passion to our close-knit, high-energy environment in which our employees thrive and where you can prosper. We know the key to our success is our employees and we offer highly competitive salaries, a solid benefits package focused on wellness, and opportunities for you to grow and develop both personally and professionally. It won’t take you long to find out that you are on the right track here at NASCAR!</p><p></p><p>NASCAR is committed to fostering a diverse work environment where all employees feel valued and empowered. NASCAR is an Equal Opportunity Employer (EEO). We seek to attract and retain the best qualified people available. All qualified applicants will receive consideration for employment without regard to race, color, gender, gender identity and expression, age, national origin, disability, religion, sexual orientation, genetic information, pregnancy, veteran status or any basis that is protected by applicable law except where a bona fide occupational qualification exists.</p><p></p><p>Follow us on <a href=\"http://www.linkedin.com/company/nascar\">LinkedIn</a> and <a href=\"http://x.com/NASCARJobs\">X</a> for future opportunities and company news.</p><p></p><p>We're looking for your voice, your ideas, and your perspective. To help us get to know you accurately and keep the process fair for everyone, we ask that interviews and assessments be completed without the support of AI-generated content or automated assistance.</p>",
+      "apply_link": "https://talents.vaia.com/companies/andy-frain-services/west-chicago/event-staff-west-chicago-129905817/",
+      "via": "via Talents By Vaia",
+      "description": "<div><strong>Hiring for various events and weekend work in the Chicago Suburbs. Locations vary per event and pay rate starts at $18.00/hr.  Increased pay for supervisory positions.  MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE.  RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS. </strong></div>  <div><strong>Job Summary:</strong><br />Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments. Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area. Security Officers must maintain a professional image and always demonstrate excellent customer service.<br /><br /><strong>Basic Functions:</strong><br /> <ul> <li>Control of entrances and movement of pedestrian and vehicle traffic.</li> <li>Patrol of buildings and perimeters.</li> <li>Escort of material and personnel.</li> <li>Inspection of security and fire exposures.</li> <li>Special assignments.</li> </ul> <strong> Responsibilities: </strong> <br />Duties may vary depending on department size, organizational structure, geographic location and post assignments. Reasonable accommodations may be made to allow for certain ADA requirements. Overall general function of officers is to provide security detail as described below (Note: duties may vary depending on post orders):<br /> <ul> <li>Be on time and report to post in full uniform.</li> <li>Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner.</li> <li>Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS.</li> <li>Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts.</li> <li>Monitor cameras or equipment in a continuous fashion as outlined in the post orders.</li> <li>Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations.</li> <li>Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment.</li> <li>Make recommendations to management on better safety and loss prevention processes as identified during daily routine.</li> <li>Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments. Ensure continuous and safe operation of all elevators and access doors. Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment.</li> <li>Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market.</li> <li>Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented.</li> </ul> <strong>Skills and Abilities:</strong><br /> <ul> <li>A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety.</li> <li>Constant and dedicated vigilance.</li> <li>Strong customer service skills, exemplifying Andy Frain Services Mission Statement.</li> <li>Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously.</li> <li>Ability to facilitate progressive change, work as part of a team and follow directions.</li> <li>Work with a sense of urgency.</li> <li>Strong oral and written communications skills.</li> </ul> <div><em>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time.</em></div>  </div>",
       "job_highlights": [
         {
           "items": [
-            "High school diploma or general education degree (GED); or one to three months related experience and/or training; or equivalent combination of education and experience",
-            "Some positions may require a valid driver’s license and to pass a motor vehicle license inspection report",
-            "Must be at least (18) eighteen years of age",
-            "Must be professional in appearance, have good communication skills, and be willing to work in an outdoor environment",
-            "Ability to work nights and weekends",
-            "Reliable transportation to and from track location",
-            "Basic computer skills and abilities such as corresponding in emails and communicating documentation of time clock with specific software programs approved by employer",
-            "4 more items(s)"
+            "MUST HAVE VALID PERC CARD, MINIMUM 20 HOUR TRAINING AND PREVIOUS EVENT SECURITY EXPERIENCE",
+            "RELIABLE TRANSPORTATION NEEDED DUE TO LOCATIONS",
+            "A security officer is to be honest, alert and well-disciplined as the custodians of employee and customer property and safety",
+            "Constant and dedicated vigilance",
+            "Strong customer service skills, exemplifying Andy Frain Services Mission Statement",
+            "Ability to be a hands-on, results oriented employee, handling multiple priorities simultaneously",
+            "Ability to facilitate progressive change, work as part of a team and follow directions",
+            "Work with a sense of urgency",
+            "Strong oral and written communications skills",
+            "6 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "$15.00 - $18.00 /hour",
-            "No benefits",
-            "We know the key to our success is our employees and we offer highly competitive salaries, a solid benefits package focused on wellness, and opportunities for you to grow and develop both personally and professionally"
+            "Locations vary per event and pay rate starts at $18.00/hr",
+            "Increased pay for supervisory positions"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "Assist in maintaining the safety, security, and orderly operations of Chicagoland Speedway while providing exceptional customer service",
-            "This position provides a visible security presence to guests, employees, and assists with questions regarding directions, information about the facility, and disabled assistance",
-            "Essential Duties and Responsibilities include the following: Other duties may be assigned",
-            "Maintain posts and screen guests for proper tickets and credentials throughout the facility on race weekends",
-            "Control access to different areas on-site with proper credentials using verbal communication and physical presence",
-            "Ensure safety is maintained by advising rules, policies of the facility, and enforcement of such when necessary",
-            "Provide outstanding customer service by providing information, giving directions, and answering questions",
-            "Assist competitors, owners, race officials, and customers by managing parking areas",
-            "Maintain the physical security of customers, competitors, equipment and other assigned areas by patrolling on foot and in Chicagoland Speedway vehicles",
-            "Roam the grounds on foot and in golf carts assisting guests, relieving co-workers for breaks, and responding to calls for assistance",
-            "Searching and screening ticketed guests entering restricted areas for prohibited items and providing safe orderly crowd control",
-            "Inspect camping structures upon entry for prohibited items",
-            "Securing of doors and gates at designated times",
-            "Patrolling of the property for unwanted, unsafe, and / or suspicious behavior",
-            "Assist setting up perimeter fencing and barricades",
-            "12 more items(s)"
+            "Provide security detail as outlined in the post orders and establish working relationships with customers, local law enforcement and fire departments",
+            "Security personnel will always perform job duties with a constant awareness of surroundings, making note of all activity that takes place in the assigned area",
+            "Security Officers must maintain a professional image and always demonstrate excellent customer service",
+            "Control of entrances and movement of pedestrian and vehicle traffic",
+            "Patrol of buildings and perimeters",
+            "Escort of material and personnel",
+            "Inspection of security and fire exposures",
+            "Duties may vary depending on department size, organizational structure, geographic location and post assignments",
+            "Reasonable accommodations may be made to allow for certain ADA requirements",
+            "Be on time and report to post in full uniform",
+            "Maintain professional image that includes greeting customers, visitors and employees in a polite and friendly manner",
+            "Be proactive in knowing all revisions to post orders and general information distributed by the customer and AFS",
+            "Patrol physical property or maintain fixed post position, being diligent to report any suspicious activity and investigate accidents and criminal acts",
+            "Monitor cameras or equipment in a continuous fashion as outlined in the post orders",
+            "Maintain a working knowledge of all emergency policies, procedures and regulations to be able to respond to alarms, incidents and emergency situations",
+            "Complete Daily Activity Reports, Log Book entries, Incident Reports and all relevant reports related to job assignment",
+            "Make recommendations to management on better safety and loss prevention processes as identified during daily routine",
+            "Have knowledge of any life safety systems, fire panels, CCTV system computer, and other such equipment to complete job assignments",
+            "Ensure continuous and safe operation of all elevators and access doors",
+            "Know authorized contractor personnel who are responsible for maintenance and upkeep of equipment",
+            "Ensure training and compliance guidelines are met as outlined by AFS and other agencies regulating the customer / market",
+            "Communicate on a daily basis with Security Supervisor any new Security Issues or changes that need to be considered or implemented",
+            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
+            "20 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "8a6139d050cc",
+      "title": "Part-Time Event Security Lead",
+      "company": "16oncenterchicago",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "event",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Part-time",
+      "posted_date": null,
+      "apply_link": "https://talents.vaia.com/companies/16oncenterchicago/chicago/part-time-event-security-lead-103550862/",
+      "via": "via Talents By Vaia",
+      "description": "A prominent event management company in Chicago seeks a part-time Security Supervisor to oversee event security operations and ensure a safe experience for guests. The role requires over 2 years of security experience and strong communication skills. You\\'ll be responsible for managing staff deployment during events, crowd control, and incident reporting. Benefits include hourly compensation of $23 - $25, paid leave, dining discounts at venues, and a 401(k) plan. Candidates from diverse backgrounds are encouraged to apply. #J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires over 2 years of security experience and strong communication skills"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Benefits include hourly compensation of $23 - $25, paid leave, dining discounts at venues, and a 401(k) plan"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You'll be responsible for managing staff deployment during events, crowd control, and incident reporting"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "7b521cd552bd",
+      "title": "Event Security Officer- The Chicago Theatre",
+      "company": "Madison Square Garden, Inc.",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "event",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.ziprecruiter.com/c/MSG-Entertainment-Holdings,-LLC/Job/Event-Security-Officer-The-Chicago-Theatre/-in-Chicago,IL?jid=10a6d742f24f06c5",
+      "via": "via Monster",
+      "description": "<p>Madison Square Garden Entertainment Corp. (MSG Entertainment) is a leader in live entertainment, delivering unforgettable experiences while forging deep connections with diverse and passionate audiences. The Company's portfolio includes a collection of world-renowned venues - New York's Madison Square Garden, Infosys Theater at Madison Square Garden, Radio City Music Hall, and Beacon Theatre; and The Chicago Theatre - that showcase a broad array of sporting events, concerts, family shows, and special events for millions of guests annually. In addition, the Company features the original production, the Christmas Spectacular Starring the Radio City Rockettes, which has been a holiday tradition for more than 90 years. More information is available at www.msgentertainment.com.</p><p>Who are we hiring?</p><p>As an Event Security Officer at the Chicago Theatre you will promote positive guest/client experiences during the beginning (ingress), middle of event and show departure (egress). Event Security Officers are responsible for greeting guests, searching bags and wanding guests if they alarm on the magnetometers. This role will also ensure the safety of guests, assist with emergency or medical situations, and answer general questions regarding the event or the Chicago Theatre. As a crucial member of our team, Chicago Event Security Officers may be requested to work a flexible schedule inclusive of early mornings, day & evening shifts (late evenings may be required), weekends, holidays and back to back events. Additionally, Event Security Officers may be assigned to an area with adverse temperature/weather conditions such as observing the surroundings for any threats or directing guests in/out of the theater while being positioned outside of the building. Event Security Officers will be required to stand and move freely throughout the property during their shift.</p><p>What will you do?</p><ul><li>Ensure protection of facilities, properties, employees and guests of The Chicago Theatre.</li><li>Promote positive guest/client experience. Uphold commitment of MSG \"Circle of Service\" standards and MSG's Mission and Values.</li><li>Maintain professional manner, presence, and appearance at all times while on premises</li><li>Arrive for scheduled shift on time and in proper MSG approved uniform.</li><li>Prevent access to any areas of the facility by any unauthorized individuals.</li><li>Conduct building tours, monitor CCTV and alarm systems and control building access.</li><li>Responsible for checking bags and screening guests/employees to ensure overall safety.</li><li>Serve as a security escort and respond to security assistance calls during performances and operating hours.</li><li>Be prepared to take an active role in Emergency Operations procedures (evacuation plan) through on-going training and drills.</li><li>Lock/unlock facility doors according to scheduled requirements.</li><li>Prevent sales of all unauthorized merchandise and tickets in and around venue</li><li>Provide exceptional experiences for our guests, partners, and team members, including by adhering to our appearance and presentation guidelines while on-site.</li></ul><p>What do you need to succeed?</p><ul><li>Strong verbal communication skills and demonstrated ability to work well under pressure.</li><li>Will have the ability to enforce departmental policies and procedures with fairness and consistency.</li><li>Will utilize a bullhorn and radio to direct guests.</li><li>Previous security experience required.</li><li>Must be able to obtain PERC Card upon request.</li><li>Obtain Fire Guard certificate upon request.</li></ul><p>Special Requirements</p><ul><li>Must be receptive to working outside in inclement weather and extreme temperatures.</li><li>Able to walk and stand during the entire shift.</li><li>Lifting, pushing, pulling up to 25 lbs.</li><li>Ability to work a flexible schedule including nights, have split days off, work weekends and holidays in a 24 X 7 environment.</li><li>Responsibilities must be done onsite</li></ul><p>#LI-Onsite</p><p>Hourly Pay Range</p><p>$19.30-$19.30 USD</p><p>At MSG, we recognize the importance of upskilling employees' talents and strengths so they can drive their careers forward. We are proud to offer a robust set of tools and resources to help employees understand their interests and purpose, harness their talents and obtain the skills they need to reach the next step in their careers. Growth and longevity for our employees are top priorities here.</p><p>We value diversity and are looking for extraordinary employees of all backgrounds! MSG is an Equal Opportunity Employer and provides equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity or expression, sexual and reproductive health choices, national origin, citizenship, age, genetic information, disability, or veteran status. MSG complies with all applicable federal, state, and local laws governing nondiscrimination, including considering requests for reasonable accommodations as required.</p><br><p><b>Skills:</b><br>Access Control, CCTV, Communication Skills, Customer Experience, Diversity, Emergency Procedures, Genetics, Lift/Move 25 Pounds, Music, Operations Processes, Presentation/Verbal Skills, Safety/Work Safety, Sales, Security Equipment, Telephone Skills, Theater, Time Management</p><br><p><b>undefined:</b><br>Madison Square Garden, Inc.</p><br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Strong verbal communication skills and demonstrated ability to work well under pressure",
+            "Will have the ability to enforce departmental policies and procedures with fairness and consistency",
+            "Will utilize a bullhorn and radio to direct guests",
+            "Previous security experience required",
+            "Must be able to obtain PERC Card upon request",
+            "Obtain Fire Guard certificate upon request",
+            "Must be receptive to working outside in inclement weather and extreme temperatures",
+            "Able to walk and stand during the entire shift",
+            "Lifting, pushing, pulling up to 25 lbs",
+            "Ability to work a flexible schedule including nights, have split days off, work weekends and holidays in a 24 X 7 environment",
+            "Responsibilities must be done onsite",
+            "Access Control, CCTV, Communication Skills, Customer Experience, Diversity, Emergency Procedures, Genetics, Lift/Move 25 Pounds, Music, Operations Processes, Presentation/Verbal Skills, Safety/Work Safety, Sales, Security Equipment, Telephone Skills, Theater, Time Management",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Hourly Pay Range",
+            "$19.30-$19.30 USD"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As an Event Security Officer at the Chicago Theatre you will promote positive guest/client experiences during the beginning (ingress), middle of event and show departure (egress)",
+            "Event Security Officers are responsible for greeting guests, searching bags and wanding guests if they alarm on the magnetometers",
+            "This role will also ensure the safety of guests, assist with emergency or medical situations, and answer general questions regarding the event or the Chicago Theatre",
+            "As a crucial member of our team, Chicago Event Security Officers may be requested to work a flexible schedule inclusive of early mornings, day & evening shifts (late evenings may be required), weekends, holidays and back to back events",
+            "Additionally, Event Security Officers may be assigned to an area with adverse temperature/weather conditions such as observing the surroundings for any threats or directing guests in/out of the theater while being positioned outside of the building",
+            "Event Security Officers will be required to stand and move freely throughout the property during their shift",
+            "Ensure protection of facilities, properties, employees and guests of The Chicago Theatre",
+            "Promote positive guest/client experience",
+            "Uphold commitment of MSG \"Circle of Service\" standards and MSG's Mission and Values",
+            "Maintain professional manner, presence, and appearance at all times while on premises",
+            "Arrive for scheduled shift on time and in proper MSG approved uniform",
+            "Prevent access to any areas of the facility by any unauthorized individuals",
+            "Conduct building tours, monitor CCTV and alarm systems and control building access",
+            "Responsible for checking bags and screening guests/employees to ensure overall safety",
+            "Serve as a security escort and respond to security assistance calls during performances and operating hours",
+            "Be prepared to take an active role in Emergency Operations procedures (evacuation plan) through on-going training and drills",
+            "Lock/unlock facility doors according to scheduled requirements",
+            "Prevent sales of all unauthorized merchandise and tickets in and around venue",
+            "Provide exceptional experiences for our guests, partners, and team members, including by adhering to our appearance and presentation guidelines while on-site",
+            "16 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "b5fe64295d8b",
+      "title": "Event Safety & Guest Experience Officer (Seasonal Full-TIme)",
+      "company": "Inner Valor",
+      "location": "Chicago, IL",
+      "vertical": "security",
+      "role": "event",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": null,
+      "apply_link": "https://www.indeed.com/viewjob?jk=f4a5a04ae0645e23",
+      "via": "via Indeed",
+      "description": "<div>\n <p><b>About Inner Valor </b></p>\n <p>At Inner Valor, we deliver hospitality-driven security for large-scale festivals and high-profile events. Our officers are not simply present they are engaged, observant, and proactive, creating a safe environment while enhancing the guest experience.</p>\n <p><b>Position Summary </b></p>\n <p>We are seeking high-performing Event Security Officers who demonstrate strong judgment, professional presence, and the ability to operate effectively in fast-paced, high-attendance environments.</p>\n <p>This role is best suited for individuals who take pride in their work, communicate confidently, and can anticipate and address issues before they escalate.</p>\n <p><b>Key Responsibilities: </b></p>\n <ul>\n  <li>\n   <p>Execute access control operations, including ID verification and credential enforcement, with consistency and professionalism</p></li>\n  <li>\n   <p>Conduct security screenings, including bag checks and handheld or walk through metal detector procedures, in accordance with site protocols</p></li>\n  <li>\n   <p>Maintain situational awareness across large crowds, identifying risks early</p></li>\n  <li>\n   <p>Support safe and efficient guest flow, including entry, exit, and restricted areas</p></li>\n  <li>\n   <p>Apply clear communication and de-escalation techniques when addressing issues</p></li>\n  <li>\n   <p>Respond decisively to incidents, disturbances, and emergency situations</p></li>\n  <li>\n   <p>Represent Inner Valor with a polished, customer-focused presence at all times</p></li>\n </ul>\n <p><b>What Sets You Apart </b></p>\n <p>We are looking for individuals who demonstrate:</p>\n <ul>\n  <li>\n   <p>Strong awareness, attention to detail, and decision-making ability</p></li>\n  <li>\n   <p>The ability to remain calm, composed, and professional under pressure</p></li>\n  <li>\n   <p>Excellent communication and interpersonal skills</p></li>\n  <li>\n   <p>A team-first mindset with a high level of accountability</p></li>\n  <li>\n   <p>Reliability you show up early, prepared, and ready to perform</p></li>\n </ul>\n <p><b>Minimum Qualifications: </b></p>\n <ul>\n  <li>\n   <p>18+ years old with a high school diploma or GED</p></li>\n  <li>\n   <p>Ability to work long shifts (8-12+ hour shifts) in dynamic environments</p></li>\n  <li>\n   <p>Reliable transportation to various event locations across Chicago and the suburbs</p></li>\n  <li>\n   <p>Exceptional customer service and communication skills</p></li>\n  <li>\n   <p>Comfortable working in outdoor event environments</p></li>\n  <li>\n   <p>Must pass background check and drug test</p></li>\n </ul>\n <p><b>Preferred Qualifications: </b></p>\n <ul>\n  <li>\n   <p>PERC card & 20-hour Basic Security Training certification</p></li>\n  <li>\n   <p>Experience in event security, hospitality, military, or law enforcement</p></li>\n  <li>\n   <p>CPR/First Aid certification</p></li>\n  <li>\n   <p>Prior experience working large-scale events or high-attendance venues</p></li>\n </ul>\n <p><b>Physical & Mental Requirement: </b></p>\n <p>This role requires sustained physical presence, environmental adaptability, and continuous alertness in dynamic event settings. Responsibilities include:</p>\n <ul>\n  <li>\n   <p>Remaining on your feet for extended periods (8 12+ hours), including standing, walking, and active monitoring</p></li>\n  <li>\n   <p>Working outdoors for prolonged durations in varying weather conditions (heat, sun, wind, rain, and other environmental factors)</p></li>\n  <li>\n   <p>Operating effectively in crowded, high-noise environments, including entry points and screening areas</p></li>\n  <li>\n   <p>Maintaining constant situational awareness, attention to detail, and focus throughout the duration of the shift</p></li>\n  <li>\n   <p>Communicating clearly and effectively with guests and team members in fast-paced and sometimes stressful conditions</p></li>\n  <li>\n   <p>Navigating dense crowds, restricted areas, stairs, and uneven terrain as required by the event site</p></li>\n  <li>\n   <p>Responding quickly to incidents, including rapid movement over short distances when necessary</p></li>\n  <li>\n   <p>Occasionally lifting, carrying, pushing, or pulling up to 25 pounds</p></li>\n </ul>\n</div>",
+      "job_highlights": [
+        {
+          "items": [
+            "Strong awareness, attention to detail, and decision-making ability",
+            "The ability to remain calm, composed, and professional under pressure",
+            "Excellent communication and interpersonal skills",
+            "A team-first mindset with a high level of accountability",
+            "Reliability you show up early, prepared, and ready to perform",
+            "18+ years old with a high school diploma or GED",
+            "Ability to work long shifts (8-12+ hour shifts) in dynamic environments",
+            "Reliable transportation to various event locations across Chicago and the suburbs",
+            "Exceptional customer service and communication skills",
+            "Comfortable working in outdoor event environments",
+            "Must pass background check and drug test",
+            "This role requires sustained physical presence, environmental adaptability, and continuous alertness in dynamic event settings",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "This role is best suited for individuals who take pride in their work, communicate confidently, and can anticipate and address issues before they escalate",
+            "Execute access control operations, including ID verification and credential enforcement, with consistency and professionalism",
+            "Conduct security screenings, including bag checks and handheld or walk through metal detector procedures, in accordance with site protocols",
+            "Maintain situational awareness across large crowds, identifying risks early",
+            "Support safe and efficient guest flow, including entry, exit, and restricted areas",
+            "Apply clear communication and de-escalation techniques when addressing issues",
+            "Respond decisively to incidents, disturbances, and emergency situations",
+            "Represent Inner Valor with a polished, customer-focused presence at all times",
+            "Remaining on your feet for extended periods (8 12+ hours), including standing, walking, and active monitoring",
+            "Working outdoors for prolonged durations in varying weather conditions (heat, sun, wind, rain, and other environmental factors)",
+            "Operating effectively in crowded, high-noise environments, including entry points and screening areas",
+            "Maintaining constant situational awareness, attention to detail, and focus throughout the duration of the shift",
+            "Communicating clearly and effectively with guests and team members in fast-paced and sometimes stressful conditions",
+            "Navigating dense crowds, restricted areas, stairs, and uneven terrain as required by the event site",
+            "Responding quickly to incidents, including rapid movement over short distances when necessary",
+            "Occasionally lifting, carrying, pushing, or pulling up to 25 pounds",
+            "13 more items(s)"
           ],
           "title": "Responsibilities"
         }

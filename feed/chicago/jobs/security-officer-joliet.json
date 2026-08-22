@@ -1,11 +1,76 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "chicago/jobs/security-officer-joliet",
   "market": "Chicago",
   "target": "city",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "80d7daabb000",
+      "title": "Senior Security Officer",
+      "company": "Management & Training Corporation",
+      "location": "Joliet, IL",
+      "vertical": "security",
+      "role": "general",
+      "pay": "$22.85 an hour",
+      "pay_min": 22.85,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.ziprecruiter.com/c/Management-&-Training/Job/Senior-Security-Officer/-in-Joliet,IL?jid=afcf3e449629d8d7",
+      "via": "via LinkedIn",
+      "description": "<strong>Job Description<br><br></strong><strong>Wage</strong> - $22.85 an hour<br><br><strong>Schedule – </strong>Full Time<br><br><strong>Our Staff Also Enjoy These Benefits<br><br></strong><ul><li>Health, dental, vision, prescription and life insurance</li><li>Short & long-term disability</li><li>401(k) retirement plan</li><li>Paid time off and paid holidays</li><li>Professional development assistance </li><li>Career advancement opportunities <br><br></li></ul>MTC is proud to operate the <strong>Joliet Job Corps Center in Joliet, IL</strong> where our staff provide quality services to our local youth. We value our professional and caring employees who are dedicated to improving people’s lives and we want <strong>YOU </strong>to join our team!<br><br><strong>What you will be doing:</strong> Directly supervises security officers on their assigned shift. Responsible for providing security coverage at campus access gate, performing patrol duties in assigned areas to ensure positive group relations and activities, and to protect life and property, in compliance with government and management directives.<br><br><strong>Essential Functions<br><br></strong><ul><li>Perform administrative and security activities of the department; serve as liaison between center and immediate community in security, law enforcement and fire agency matters</li><li>Interview, hire, train, discipline and terminate security staff subject to required approval</li><li>Provide staff training, evaluate staff performance and recommend personnel changes</li><li>Review incident reports for completeness, conciseness, proper spelling, and grammar, prior to distribution</li><li>Assist with developing new and revised policies and procedures security</li><li>Supervise the investigation of student and staff accidents; ensure all paperwork is completed</li><li>Provide fire protection, conduct frequent fire drills and inspections of the facility</li><li>Conduct orientation and in service training programs for staff and students to ensure that security policies are followed; assist manager, safety & security with safety training and programs</li><li>Conduct periodic security audits to identify deficiencies and recommend changes</li><li>Provide records and reports of departmental activities upon request by management, insurance underwriters, DOL and other government agencies</li><li>Coordinate with other center staff concerning safety and security matters and conduct security related investigations</li><li>Coordinate searches of students’ rooms and belongings to ensure center health and safety</li><li>Provide for the safety and security of students on center grounds through the direction and monitoring of the mobile advisor staff<br><br></li></ul><strong>Education & Experience<br><br></strong><ul><li>High school diploma or equivalent and one year experience in a supervisory capacity</li><li>Directly related youth program experience may be considered in lieu of formal education requirements on a year by year basis</li><li>Excellent written and verbal communications skills and computer proficiency required</li><li>Valid driver’s license with an acceptable driving record<br><br></li></ul>Management & Training Corporation (MTC) is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, disabled status, veteran status, genetic information, national origin, or any other category protected by federal law. MTC participates in E-Verify. We strive to provide reasonable accommodation for qualified individuals with disabilities, including disabled veterans, in our job application and hiring process. If you are interested in employment opportunities with Management & Training Corporation and need assistance, please contact our staffing department through customersupport@mtctrains.com or 801-693-2888.<br><br><strong>About Us<br><br></strong>Learn more about Management & Training Corporation here",
+      "job_highlights": [
+        {
+          "items": [
+            "High school diploma or equivalent and one year experience in a supervisory capacity",
+            "Directly related youth program experience may be considered in lieu of formal education requirements on a year by year basis",
+            "Excellent written and verbal communications skills and computer proficiency required",
+            "Valid driver’s license with an acceptable driving record",
+            "1 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Wage - $22.85 an hour",
+            "Schedule – Full Time",
+            "Our Staff Also Enjoy These Benefits",
+            "Health, dental, vision, prescription and life insurance",
+            "Short & long-term disability",
+            "401(k) retirement plan",
+            "Paid time off and paid holidays",
+            "Professional development assistance",
+            "Career advancement opportunities",
+            "6 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "What you will be doing: Directly supervises security officers on their assigned shift",
+            "Responsible for providing security coverage at campus access gate, performing patrol duties in assigned areas to ensure positive group relations and activities, and to protect life and property, in compliance with government and management directives",
+            "Perform administrative and security activities of the department; serve as liaison between center and immediate community in security, law enforcement and fire agency matters",
+            "Interview, hire, train, discipline and terminate security staff subject to required approval",
+            "Provide staff training, evaluate staff performance and recommend personnel changes",
+            "Review incident reports for completeness, conciseness, proper spelling, and grammar, prior to distribution",
+            "Assist with developing new and revised policies and procedures security",
+            "Supervise the investigation of student and staff accidents; ensure all paperwork is completed",
+            "Provide fire protection, conduct frequent fire drills and inspections of the facility",
+            "Conduct orientation and in service training programs for staff and students to ensure that security policies are followed; assist manager, safety & security with safety training and programs",
+            "Conduct periodic security audits to identify deficiencies and recommend changes",
+            "Provide records and reports of departmental activities upon request by management, insurance underwriters, DOL and other government agencies",
+            "Coordinate with other center staff concerning safety and security matters and conduct security related investigations",
+            "Coordinate searches of students’ rooms and belongings to ensure center health and safety",
+            "Provide for the safety and security of students on center grounds through the direction and monitoring of the mobile advisor staff",
+            "12 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "5a65f7a5db9e",
       "title": "Security Officer - Unarmed Security",
@@ -72,6 +137,93 @@
             "Professionalism — Treating employees, visitors, clients, and fellow team members with respect while representing ProTex professionally",
             "Dependability — Showing up prepared, on time, and ready to perform the responsibilities of the position",
             "13 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "58ce44116279",
+      "title": "Full-Time Security Officer: Patrols, Growth & Benefits",
+      "company": "Allied Universal",
+      "location": "Joliet, IL",
+      "vertical": "security",
+      "role": "general",
+      "pay": "38K–46K a year",
+      "pay_min": 38000.0,
+      "pay_max": 46000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5370819910/e/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal in Joliet, IL is seeking a Security Officer Full Time Threat Assessment to monitor distribution locations, provide customer service, and deter security incidents across logistics facilities. The role requires maintaining a visible presence and communicating with employees and visitors to support a welcoming environment.</p><p>Shifts include Thu 2:00 PM – 10:00 PM, Fri 2:00 PM – 10:00 PM, Sat 10:00 PM – 6:00 AM, and Sun 10:00 PM – 6:00 AM.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires maintaining a visible presence and communicating with employees and visitors to support a welcoming environment",
+            "Shifts include Thu 2:00 PM – 10:00 PM, Fri 2:00 PM – 10:00 PM, Sat 10:00 PM – 6:00 AM, and Sun 10:00 PM – 6:00 AM"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f165c5b51729",
+      "title": "Security Field Supervisor",
+      "company": "DSI Security Services",
+      "location": "Joliet, IL",
+      "vertical": "security",
+      "role": "general",
+      "pay": "24 an hour",
+      "pay_min": 24.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.indeed.com/viewjob?jk=e4599dbf06de1677",
+      "via": "via ZipRecruiter",
+      "description": "<b>Security Field Supervisor | $24.00/HR</b>\n<br>\n<br><b>Company Overview </b>\n<br>\n<br>\nDSI Security Services is a leading provider of contract security solutions, serving clients across multiple industries nationwide. Founded on the principle of <strong>DWYSYWD - \"Do What You Say You Will Do,\"</strong> DSI is committed to accountability, professionalism, and delivering consistent, high-quality service.\n<br>\n<br>\nWe believe success starts with our people. Through thoughtful recruiting, ongoing training, and strong operational support, DSI creates work environments that align with both our clients' expectations and our core values. Our focus on integrity, teamwork, and continuous improvement allows us to build long-term partnerships with clients while providing meaningful career opportunities for our employees.\n<br>\n<br><b>Job Summary</b>\n<br>\n<br>\nWe are seeking a dedicated and experienced <strong>Security Field Supervisor</strong> to oversee and coordinate security operations in the field. The ideal candidate will have strong leadership skills, a keen eye for detail, and the ability to manage security personnel effectively to ensure the safety and security of our clients and their assets.\n<br><strong><b>Responsibilities</b></strong>\n<br>\n<ul>\n <li>Supervise and coordinate daily activities of security personnel in the field.</li>\n <li>Conduct regular inspections and patrols to ensure compliance with security protocols.</li>\n <li>Train, mentor, and evaluate security staff to maintain high performance standards.</li>\n <li>Respond promptly to incidents and emergencies, providing guidance and support as needed.</li>\n <li>Prepare detailed reports on security incidents, personnel performance, and operational issues.</li>\n <li>Collaborate with management and clients to address security concerns and improve procedures.</li>\n <li>Ensure all security equipment is functioning properly and report any malfunctions.</li>\n <li>Maintain accurate records of attendance, incidents, and other relevant data.</li>\n</ul><strong><b>Qualifications</b></strong>\n<br>\n<ul>\n <li>Proven experience as a Security Field Supervisor or similar role.</li>\n <li>Strong knowledge of security operations, protocols, and best practices.</li>\n <li>Excellent leadership and team management skills.</li>\n <li>Ability to remain calm and make quick decisions in emergency situations.</li>\n <li>Good communication and interpersonal skills.</li>\n <li>Familiarity with security equipment and technology.</li>\n <li>Valid security certification or license as required by local regulations.</li>\n <li>Flexibility to work various shifts, including nights, weekends, and holidays.</li>\n</ul><strong><b>Skills</b></strong>\n<br>\n<ul>\n <li>Leadership and team management</li>\n <li>Incident response and crisis management</li>\n <li>Report writing and documentation</li>\n <li>Communication and interpersonal skills</li>\n <li>Attention to detail</li>\n <li>Problem-solving abilities</li>\n</ul>\n<br>\n<br><b>Requirements</b>\n<br>\n<br><b>Certifications:</b>\n<br>\n<ul>\n <li>Valid State Driver's License</li>\n</ul>\n<br>\n<br><b>Education:</b>\n<br>\n<ul>\n <li>High School Diploma or Equivalent</li>\n</ul>\n<br>\n<br><strong><b>Required Screenings</b></strong>\n<br>\n<ul>\n <li>Criminal Background Check</li>\n <li>Motor Vehicle</li>\n <li>Drug Screen</li>\n</ul>\n<br>\n<br>\n#ILL48\n<br>\n<br><b>DSI Security Services</b> is a drug free employer complies with all applicable laws regarding affirmative action and equal opportunity in all its activities and programs and does not discriminate against anyone protected by law because of age, color, disability, national origin, race, religion, sex, handicap, or status as a veteran or disabled veteran.\n<br>\n<br><b>DSI Security Services</b> is an equal employment/affirmative action employer. If you need accommodation for any part of the employment process because of a medical condition or disability, please contact Human Resources.",
+      "job_highlights": [
+        {
+          "items": [
+            "The ideal candidate will have strong leadership skills, a keen eye for detail, and the ability to manage security personnel effectively to ensure the safety and security of our clients and their assets",
+            "Proven experience as a Security Field Supervisor or similar role",
+            "Strong knowledge of security operations, protocols, and best practices",
+            "Excellent leadership and team management skills",
+            "Ability to remain calm and make quick decisions in emergency situations",
+            "Good communication and interpersonal skills",
+            "Familiarity with security equipment and technology",
+            "Valid security certification or license as required by local regulations",
+            "Flexibility to work various shifts, including nights, weekends, and holidays",
+            "Leadership and team management",
+            "Communication and interpersonal skills",
+            "Attention to detail",
+            "Problem-solving abilities",
+            "Valid State Driver's License",
+            "High School Diploma or Equivalent",
+            "Required Screenings",
+            "Criminal Background Check",
+            "Motor Vehicle",
+            "Drug Screen",
+            "16 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "We are seeking a dedicated and experienced Security Field Supervisor to oversee and coordinate security operations in the field",
+            "Supervise and coordinate daily activities of security personnel in the field",
+            "Conduct regular inspections and patrols to ensure compliance with security protocols",
+            "Train, mentor, and evaluate security staff to maintain high performance standards",
+            "Respond promptly to incidents and emergencies, providing guidance and support as needed",
+            "Prepare detailed reports on security incidents, personnel performance, and operational issues",
+            "Collaborate with management and clients to address security concerns and improve procedures",
+            "Ensure all security equipment is functioning properly and report any malfunctions",
+            "Maintain accurate records of attendance, incidents, and other relevant data",
+            "Incident response and crisis management",
+            "Report writing and documentation",
+            "8 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -150,33 +302,71 @@
       ]
     },
     {
-      "job_hash": "25461d8f8de0",
-      "title": "Community Security Officer — Weekly Pay & Benefits",
-      "company": "Securitas Security Services USA, Inc.",
+      "job_hash": "10d6f090f77f",
+      "title": "Security Officer — Compliance & Patrol (Logistics Site",
+      "company": "Alliedbarton Security Services",
       "location": "Joliet, IL",
       "vertical": "security",
       "role": "general",
-      "pay": "18.71 an hour",
-      "pay_min": 18.71,
+      "pay": "18.39 an hour",
+      "pay_min": 18.39,
       "pay_max": null,
       "pay_unit": "HOUR",
       "schedule": "Full-time",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5372769206/e/",
+      "posted_date": "2026-08-19",
+      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5374466169/e/",
       "via": "via Learn4Good",
-      "description": "Securitas Security Services USA, Inc. is hosting an Open House Hiring Event for Full Time Security Officers at 815 N Larkin Ave, Joliet, IL 60435. Event runs 10:00am–12:00pm.Wage is $18.71 per hour. We seek customer-service driven individuals ready to support the community and grow with our management team. Applicants should be at least 18, possess a HS diploma or GED, and have good driving records where required.#J-18808-Ljbffr",
+      "description": "Position: Security Officer — Compliance & Patrol (Logistics Site) Allied Universal is seeking a Security Officer Compliance Review in Joliet, IL. You will patrol, monitor access, and maintain a visible security presence to deter incidents while delivering exceptional customer service and teamwork.Position is full-time with a pay rate of $18.39 per hour. You will support site operations and follow established procedures, with opportunities for growth and development within a dynamic logistics and distribution environment.#J-18808-Ljbffr",
       "job_highlights": [
         {
           "items": [
-            "Applicants should be at least 18, possess a HS diploma or GED, and have good driving records where required"
+            "Position is full-time with a pay rate of $18.39 per hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will patrol, monitor access, and maintain a visible security presence to deter incidents while delivering exceptional customer service and teamwork",
+            "You will support site operations and follow established procedures, with opportunities for growth and development within a dynamic logistics and distribution environment"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "4a0cb6e365a9",
+      "title": "Pet-Focused Warehouse Pro — Night Shift & Growth",
+      "company": "Petco Animal Supplies, Inc.",
+      "location": "Joliet, IL",
+      "vertical": "warehouse",
+      "role": "night-shift",
+      "pay": "21K–33K a year",
+      "pay_min": 21000.0,
+      "pay_max": 33000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.jobleads.com/us/job/pet-focused-warehouse-pro-night-shift-growth--joliet--e41af5e3542cc835513fd9d78dc344908",
+      "via": "via JobLeads",
+      "description": "<p>Petco Animal Supplies, Inc. is seeking a warehouse associate in Joliet, IL to pull, pack and ship merchandise while maintaining accurate inventory. You will operate material handling equipment after certification and work a 2:30 pm – 1:00 am schedule with occasional overtime.</p><p>The role requires a high school diploma or GED, basic math skills, and the ability to lift up to 50 pounds repeatedly. Competitive hourly pay and benefits accompany career growth opportunities.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires a high school diploma or GED, basic math skills, and the ability to lift up to 50 pounds repeatedly"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "Wage is $18.71 per hour"
+            "Competitive hourly pay and benefits accompany career growth opportunities"
           ],
           "title": "Benefits"
+        },
+        {
+          "items": [
+            "You will operate material handling equipment after certification and work a 2:30 pm – 1:00 am schedule with occasional overtime"
+          ],
+          "title": "Responsibilities"
         }
       ]
     },
@@ -239,6 +429,37 @@
       ]
     },
     {
+      "job_hash": "25461d8f8de0",
+      "title": "Community Security Officer — Weekly Pay & Benefits",
+      "company": "Securitas Security Services USA, Inc.",
+      "location": "Joliet, IL",
+      "vertical": "security",
+      "role": "general",
+      "pay": "18.71 an hour",
+      "pay_min": 18.71,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5372769206/e/",
+      "via": "via Learn4Good",
+      "description": "Securitas Security Services USA, Inc. is hosting an Open House Hiring Event for Full Time Security Officers at 815 N Larkin Ave, Joliet, IL 60435. Event runs 10:00am–12:00pm.Wage is $18.71 per hour. We seek customer-service driven individuals ready to support the community and grow with our management team. Applicants should be at least 18, possess a HS diploma or GED, and have good driving records where required.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "Applicants should be at least 18, possess a HS diploma or GED, and have good driving records where required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Wage is $18.71 per hour"
+          ],
+          "title": "Benefits"
+        }
+      ]
+    },
+    {
       "job_hash": "d697441cd5f1",
       "title": "Security Officer - Compliance Review",
       "company": "Allied Universal",
@@ -251,9 +472,9 @@
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": "2026-08-18",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1658390/security-officer---compliance-review/job",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Compliance Review</strong> in <strong>Joliet, IL</strong>, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more. Join Allied Universal at a dynamic logistics and distribution location, where you will monitor assigned areas, conduct routine patrols, and maintain a visible presence to help deter security-related incidents. You will support a welcoming environment through exceptional customer service, clear communication, and teamwork. Bring integrity, reliability, and an agile mindset to a role where your contributions help keep operations running smoothly.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $18.39 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon02:00 PM - 10:00 PMTue02:00 PM - 10:00 PMWed02:00 PM - 10:00 PMSat06:00 AM - 02:00 PMSun06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to clients by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner, communicating with site contacts and emergency services as needed.</li><li>Conduct regular and random patrols of distribution facilities, loading areas, parking areas, offices, and perimeter locations to help deter unauthorized activity.</li><li>Monitor access points, verify visitor and contractor authorization, and maintain accurate visitor and incident documentation.</li><li>Observe freight movement and facility activity, report unusual conditions or security-related concerns, and follow established escalation procedures.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1658390<br><br>",
+      "apply_link": "https://www.linkedin.com/jobs/view/security-officer-compliance-review-at-allied-universal-4455540401",
+      "via": "via Allied Universal",
+      "description": "<br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br><br><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> As a <strong>Security Officer Compliance Review</strong> in <strong>Joliet, IL</strong>, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more. Join Allied Universal at a dynamic logistics and distribution location, where you will monitor assigned areas, conduct routine patrols, and maintain a visible presence to help deter security-related incidents. You will support a welcoming environment through exceptional customer service, clear communication, and teamwork. Bring integrity, reliability, and an agile mindset to a role where your contributions help keep operations running smoothly. </span></p><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Position Type: Full Time</span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif;'> Pay Rate: $18.39 / Hour </span></strong></p><p style='margin-bottom: 4px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Job Schedule:</span></strong></p><table style='width:100%; max-width:400px; border-collapse:collapse; border-spacing:0; font-family:'Verdana',sans-serif; font-size:10pt; line-height:1.2;'><thead><tr><th style='text-align:left; padding:0 4px 2px 0;'>Day</th><th style='text-align:left; padding:0 0 2px 0;'>Time</th></tr></thead><tbody><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Mon</td><td style='padding:0; white-space:nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Tue</td><td style='padding:0; white-space:nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Wed</td><td style='padding:0; white-space:nowrap;'>02:00 PM - 10:00 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sat</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:00 PM</td></tr><tr><td style='padding:0 4px 0 0; white-space:nowrap;'>Sun</td><td style='padding:0; white-space:nowrap;'>06:00 AM - 02:00 PM</td></tr></tbody></table><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> What You'll Do:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Provide customer service to clients by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Respond to incidents and critical situations in a calm, problem-solving manner, communicating with site contacts and emergency services as needed.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Conduct regular and random patrols of distribution facilities, loading areas, parking areas, offices, and perimeter locations to help deter unauthorized activity.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Monitor access points, verify visitor and contractor authorization, and maintain accurate visitor and incident documentation.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Observe freight movement and facility activity, report unusual conditions or security-related concerns, and follow established escalation procedures.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'> Minimum Requirements:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Possess a high school diploma or equivalent.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'>A valid driver’s license will be required for driving positions only.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><p style='margin-bottom: 8px;'><strong><span style='font-size: 10pt; font-family: Verdana, sans-serif; font-weight: bold; color: black;'>Why Join Us:</span></strong></p><ul><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</span></li><li style='margin-bottom: 8px;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</span></li></ul><hr style='border: none; border-top: 1px solid #ccc; margin: 16px 0;'><br><br><p style='margin: 0;'><span style='font-size: 10pt; font-family: Verdana, sans-serif;'><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: <a href='https://www.aus.com/' target='_blank' style='color: #0000ff;' rel='noopener'>www.aus.com</a>. </span></p><p style='margin-top: 4px;'><span style='font-size: 10pt; font-family: Verdana,...",
       "job_highlights": [
         {
           "items": [
@@ -286,218 +507,15 @@
             "You will support a welcoming environment through exceptional customer service, clear communication, and teamwork",
             "Bring integrity, reliability, and an agile mindset to a role where your contributions help keep operations running smoothly",
             "Position Type: Full Time",
+            "02:00 PM - 10:00 PM",
+            "06:00 AM - 02:00 PM",
+            "06:00 AM - 02:00 PM",
             "Provide customer service to clients by carrying out security-related procedures, site-specific policies, and when appropriate, emergency response activities",
             "Respond to incidents and critical situations in a calm, problem-solving manner, communicating with site contacts and emergency services as needed",
             "Conduct regular and random patrols of distribution facilities, loading areas, parking areas, offices, and perimeter locations to help deter unauthorized activity",
             "Monitor access points, verify visitor and contractor authorization, and maintain accurate visitor and incident documentation",
             "Observe freight movement and facility activity, report unusual conditions or security-related concerns, and follow established escalation procedures",
-            "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "9bbb3551a305",
-      "title": "Security Officer: Patrols, Access Control & Growth Opportunities",
-      "company": "Tsg",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": "19 an hour",
-      "pay_min": 19.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-17",
-      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5371442665/e/",
-      "via": "via Learn4Good",
-      "description": "Tsg is seeking Security Officers in the United States, Illinois, to deliver excellent customer service and ensure safety at client properties. Responsibilities include monitoring surveillance, controlling access, and responding to incidents. Candidates must be at least 18 years old with a high school diploma or GED and able to meet physical job requirements.The position offers competitive pay starting at $19.00/hour, medical benefits, and opportunities for career growth. Join Tsg for a meaningful career in security!#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "Candidates must be at least 18 years old with a high school diploma or GED and able to meet physical job requirements"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The position offers competitive pay starting at $19.00/hour, medical benefits, and opportunities for career growth"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Responsibilities include monitoring surveillance, controlling access, and responding to incidents"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "679b921d4938",
-      "title": "Armed Public Safety Officer – Hospital Campus Security",
-      "company": "UChicago Medicine",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": "55K–85K a year",
-      "pay_min": 55000.0,
-      "pay_max": 85000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-17",
-      "apply_link": "https://www.learn4good.com/jobs/joliet/illinois/security/5371528806/e/",
-      "via": "via Learn4Good",
-      "description": "UChicago Medicine Ingalls Memorial Hospital is seeking an Armed Public Safety Officer for the Safety Department. This 100% onsite role requires you to be based in the greater Chicagoland area and provide comprehensive security services across Ingalls facilities.Under supervision, you will patrol, respond to emergencies, enforce policies, and coordinate with law enforcement while maintaining HIPAA compliance and professional, courteous service to staff, patients, and visitors.#J-18808-Ljbffr",
-      "job_highlights": [
-        {
-          "items": [
-            "This 100% onsite role requires you to be based in the greater Chicagoland area and provide comprehensive security services across Ingalls facilities",
-            "Under supervision, you will patrol, respond to emergencies, enforce policies, and coordinate with law enforcement while maintaining HIPAA compliance and professional, courteous service to staff, patients, and visitors"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "b0033d702212",
-      "title": "Security Officer — Compliance & Patrol (Logistics Site)",
-      "company": "Alliedbarton Security Services",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": "38K–46K a year",
-      "pay_min": 38000.0,
-      "pay_max": 46000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://www.jobleads.com/us/job/security-officer-compliance-patrol-logistics-site--joliet--ee41e483d4d1a0f9582b50b2c819a3fa3",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal is seeking a Security Officer Compliance Review in Joliet, IL. You will patrol, monitor access, and maintain a visible security presence to deter incidents while delivering exceptional customer service and teamwork.</p><p>Position is full-time with a pay rate of $18.39 per hour. You will support site operations and follow established procedures, with opportunities for growth and development within a dynamic logistics and distribution environment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Position is full-time with a pay rate of $18.39 per hour"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You will patrol, monitor access, and maintain a visible security presence to deter incidents while delivering exceptional customer service and teamwork",
-            "You will support site operations and follow established procedures, with opportunities for growth and development within a dynamic logistics and distribution environment"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "040301a9c2e0",
-      "title": "Guest Relations - Security",
-      "company": "Saint Joseph Medical Center - Joliet",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://careers-primehealthcare.icims.com/jobs/274563/guest-relations---security/job",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong><ul><li> Department: Security</li><li> Schedule: part-time, 5a-1:30p + 9a-5:30p (3 days per week)</li><li> Facility: Prime Healthcare Saint Joseph Medical Center</li><li> Location: Joliet, IL 60435<br><br></li></ul><strong>Responsibilities<br><br></strong>The Guest Relations role is responsible for performing various administrative assistant and clerical duties in the Security Department. This position interacts with leaders, physicians, employees and visitors, and must greet all staff and guests at the Facility with professionalism and kindness. Participates in the department’s performance improvement activities. Understands and follows the organization’s policies, procedures and behavior standards.<br><br><strong>Qualifications<br><br></strong>EDUCATION, EXPERIENCE, TRAINING<br><br><ul><li> High School Graduate or equivalent.</li><li> Previous receptionist or customer service experience, ideally in a healthcare setting.</li><li> Excellent communication, presentation and interpersonal skills.</li><li> Ability to multi-task.</li><li> Extreme attention to detail.</li><li> Expertise in Microsoft Office.</li><li> Bi-lingual, preferred.<br><br></li></ul><strong> Pay Transparency <br><br></strong>Saint Joseph Medical Center - Joliet offers competitive compensation and a comprehensive benefits package that provides employees the flexibility to tailor benefits according to their individual needs. Our Total Rewards package includes, but is not limited to, paid time off, a 401K retirement plan, medical, dental, and vision coverage, tuition reimbursement, and many more voluntary benefit options. A reasonable compensation estimate for this role, which includes estimated wages, benefits, and other forms of compensation, is $15.00 to $21.72. The exact starting compensation to be offered will be determined at the time of selecting an applicant for hire, in which a wide range of factors will be considered, including but not limited to, skillset, years of applicable experience, education, credentials and licensure.<br><br>The company is dedicated to empowering its staff with a comprehensive, competitive benefits package, allowing them the freedom to customize their benefits to fit their unique needs. Our abundant resources, programs, and voluntary options serve as a foundation for individual growth and well-being. Learn more here: https://www.primehealthcare.com/benefitsthatmattermost/<br><br><strong> Employment Status <br><br></strong>Part Time > 59<br><br><strong> Shift <br><br></strong>Days<br><br><strong> Equal Employment Opportunity <br><br></strong>Company is an equal employment opportunity employer. Company prohibits discrimination against any applicant or employee based on race, color, sex, sexual orientation, gender identity, religion, national origin, age (subject to applicable law), disability, military status, genetic information or any other basis protected by applicable federal, state, or local laws. The Company also prohibits harassment of applicants or employees based on any of these protected categories. Know Your Rights: https://www.eeoc.gov/sites/default/files/2022-10/EEOC_KnowYourRights_screen_reader_10_20.pdf",
-      "job_highlights": [
-        {
-          "items": [
-            "High School Graduate or equivalent",
-            "Previous receptionist or customer service experience, ideally in a healthcare setting",
-            "Excellent communication, presentation and interpersonal skills",
-            "Ability to multi-task",
-            "Extreme attention to detail",
-            "Expertise in Microsoft Office",
-            "3 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Schedule: part-time, 5a-1:30p + 9a-5:30p (3 days per week)",
-            "Pay Transparency",
-            "Saint Joseph Medical Center - Joliet offers competitive compensation and a comprehensive benefits package that provides employees the flexibility to tailor benefits according to their individual needs",
-            "Our Total Rewards package includes, but is not limited to, paid time off, a 401K retirement plan, medical, dental, and vision coverage, tuition reimbursement, and many more voluntary benefit options",
-            "A reasonable compensation estimate for this role, which includes estimated wages, benefits, and other forms of compensation, is $15.00 to $21.72",
-            "The exact starting compensation to be offered will be determined at the time of selecting an applicant for hire, in which a wide range of factors will be considered, including but not limited to, skillset, years of applicable experience, education, credentials and licensure",
-            "The company is dedicated to empowering its staff with a comprehensive, competitive benefits package, allowing them the freedom to customize their benefits to fit their unique needs",
-            "4 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The Guest Relations role is responsible for performing various administrative assistant and clerical duties in the Security Department",
-            "This position interacts with leaders, physicians, employees and visitors, and must greet all staff and guests at the Facility with professionalism and kindness",
-            "Participates in the department’s performance improvement activities",
-            "Understands and follows the organization’s policies, procedures and behavior standards",
-            "1 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "364d9b480482",
-      "title": "Security Officer - Open Availability",
-      "company": "Allied Universal",
-      "location": "Joliet, IL",
-      "vertical": "security",
-      "role": "general",
-      "pay": "15–20 an hour",
-      "pay_min": 15.0,
-      "pay_max": 20.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-14",
-      "apply_link": "https://securitycareers-aus.icims.com/jobs/1656883/security-officer---open-availability/job",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong><strong>Allied Universal Security Officer Hiring Event<br><br></strong><strong>Thursday, August 20th 10AM – 2PM<br><br></strong><strong>Holiday Inn - 1471 Rock Creek Blvd, Joliet, Illinois 60431<br><br></strong><strong>Hiring for Southwest Suburbs Afternoons / Overnights Weekend Availability<br><br></strong><strong>We Are Making Offers On The Spot! Be Prepared to Interview - BUSINESS CASUAL ATTIRE REQUIRED.<br><br></strong><strong>Tips: A collared shirt (polos are acceptable)<br><br></strong><ul><li>Crop tops, t-shirts, & hoodies are not acceptable Bottoms: Chinos, dress pants, or black jeans without cuts, holes, or rips.</li><li>Leggings, blue jeans, & shorts are not acceptable Head ware: Only headwear that is allowed is for religious purposes</li><li> Durags, bonnets, wave caps, fitted caps, baseball caps are not acceptable Shoes: Gym Shoes, and Sneakers are okay along with dress shoes Crocs, and flip flops are not acceptable<br><br></li></ul><strong>Join the Largest Contract Security Company!<br><br></strong><strong>Pay Range: $15 - $20 / Hour Depending on Experience<br><br></strong>As a Security Officer, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, Healthcare, Education, Government and more.<br><br><strong>Responsibilities<br><br></strong><ul><li>Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities</li><li>Respond to incidents and critical situations in a calm, problem solving manner</li><li>Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles</li><li>Possess a high school diploma or equivalent, or 5 years of verifiable experience</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws. Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1656883<br><br>",
-      "job_highlights": [
-        {
-          "items": [
-            "Tips: A collared shirt (polos are acceptable)",
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent, or 5 years of verifiable experience",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "4 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Pay Range: $15 - $20 / Hour Depending on Experience",
-            "As a Security Officer, you will serve and safeguard clients in a range of industries such as Commercial Real Estate, Healthcare, Education, Government and more",
-            "Medical, dental, vision, basic life, AD&D, and disability insurance",
-            "Company's retirement plans",
-            "Seven holidays annually paid at time and a half, if worked",
-            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Crop tops, t-shirts, & hoodies are not acceptable Bottoms: Chinos, dress pants, or black jeans without cuts, holes, or rips",
-            "Leggings, blue jeans, & shorts are not acceptable Head ware: Only headwear that is allowed is for religious purposes",
-            "Durags, bonnets, wave caps, fitted caps, baseball caps are not acceptable Shoes: Gym Shoes, and Sneakers are okay along with dress shoes Crocs, and flip flops are not acceptable",
-            "Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities",
-            "Respond to incidents and critical situations in a calm, problem solving manner",
-            "Conduct regular and random patrols around the business and perimeter",
-            "Working environments and conditions may vary by client site",
-            "4 more items(s)"
+            "10 more items(s)"
           ],
           "title": "Responsibilities"
         }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/fort-worth-event-security",
   "market": "DFW",
   "target": "city-role",
@@ -33,12 +33,97 @@
       ]
     },
     {
+      "job_hash": "b31ee6c9bfd8",
+      "title": "Event Security Lead — School District Safety",
+      "company": "Young World Physical Education",
+      "location": "Weatherford, TX",
+      "vertical": "security",
+      "role": "school",
+      "pay": "17K–25K a year",
+      "pay_min": 17000.0,
+      "pay_max": 25000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-19",
+      "apply_link": "https://www.learn4good.com/jobs/weatherford/texas/security/5367191260/e/",
+      "via": "via JobLeads",
+      "description": "<p>Weatherford ISD Safety & Security in Weatherford, Texas is seeking an Event Security professional to help monitor and safeguard attendees, staff, and facilities at district events. The role is posted as part-time and on-site, with duties focusing on security coverage during events and quick response to incidents.</p><p>This position requires coordinating with district personnel and adhering to safety protocols to ensure a secure event environment for students and staff. Immediate start is available.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role is posted as part-time and on-site, with duties focusing on security coverage during events and quick response to incidents",
+            "This position requires coordinating with district personnel and adhering to safety protocols to ensure a secure event environment for students and staff"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "7d815b247d44",
+      "title": "SPECIAL EVENT Unarmed Security/ Bag Screener",
+      "company": "ATOSC Group",
+      "location": "Grapevine, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "$17.00 per hour",
+      "pay_min": 17.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": null,
+      "posted_date": "2026-08-19",
+      "apply_link": "https://www.simplyhired.com/job/BxRoqjXedzQ5YHsU997gLu-1UetOiSvUIMG6ryf5kyKfpiFRAVZ5EA",
+      "via": "via Indeed",
+      "description": "<p>A temporary position for a 4-day event.</p>\n<p><b>Job Overview:</b><br>\n  We are seeking detail-oriented Security Screeners to join our Special Event Team. As a Security Screener, you will play a vital role in ensuring the safety and security of our premises and personnel. The ideal candidate will possess excellent communication skills, be punctual and reliable, and have a keen eye for detail.</p>\n<p><b>Duties:</b></p>\n<ul>\n <li>Inspect visitor bags, wagons, strollers, and other permitted items upon entry</li>\n <li>Follow established screening and security procedures</li>\n <li>Communicate screening requirements clearly and courteously</li>\n <li>Remain alert and report suspicious activity or potential security concerns</li>\n <li>Maintain a clean and organized screening area</li>\n <li>Follow directions from event supervisors and security management</li>\n</ul>\n<p><b>Requirements:</b></p>\n<ul>\n <li>Valid Texas Level II Guard Card in hand</li>\n <li>Previous security or screening experience</li>\n <li>Dependable, punctual, and committed to completing all accepted shifts</li>\n <li>Ability to work effectively in a fast-paced, public-facing environment</li>\n <li>Ability to stand for extended periods, with or without reasonable accommodation</li>\n <li>Ability to work outdoors in varying weather conditions</li>\n <li>Clean and professional appearance and demeanor</li>\n <li>Ability to follow strict security protocols and supervisor instructions</li>\n <li>Strong attention to detail and ability to recognize potential security concerns</li>\n</ul>\n<p><b>Attendance Bonuses</b> will be active for this event, in addition to the stated hourly rate. Employees that work one full shift per day for ALL 4 days of the event, will earn a $100 bonus. Employees that work 2 full shifts per day for ALL 4 days of the event, will earn a $200 bonus. Bonuses added to paycheck.</p>\n<p>This assignment is best suited for security professionals who are dependable, attentive, comfortable interacting with the public, and committed to completing their assigned shifts.</p>\n<p>Job Type: Temporary</p>\n<p>Pay: $17.00 per hour</p>\n<p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Valid Texas Level II Guard Card in hand",
+            "Previous security or screening experience",
+            "Dependable, punctual, and committed to completing all accepted shifts",
+            "Ability to work effectively in a fast-paced, public-facing environment",
+            "Ability to stand for extended periods, with or without reasonable accommodation",
+            "Ability to work outdoors in varying weather conditions",
+            "Clean and professional appearance and demeanor",
+            "Ability to follow strict security protocols and supervisor instructions",
+            "Strong attention to detail and ability to recognize potential security concerns",
+            "6 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Employees that work one full shift per day for ALL 4 days of the event, will earn a $100 bonus",
+            "Employees that work 2 full shifts per day for ALL 4 days of the event, will earn a $200 bonus",
+            "Bonuses added to paycheck",
+            "This assignment is best suited for security professionals who are dependable, attentive, comfortable interacting with the public, and committed to completing their assigned shifts",
+            "Pay: $17.00 per hour",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Screener, you will play a vital role in ensuring the safety and security of our premises and personnel",
+            "The ideal candidate will possess excellent communication skills, be punctual and reliable, and have a keen eye for detail",
+            "Inspect visitor bags, wagons, strollers, and other permitted items upon entry",
+            "Follow established screening and security procedures",
+            "Communicate screening requirements clearly and courteously",
+            "Remain alert and report suspicious activity or potential security concerns",
+            "Maintain a clean and organized screening area",
+            "Follow directions from event supervisors and security management",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "69125f4f760d",
       "title": "Hiring Event - Armed Security Officers - August 26, 2026 9:30AM - 2:00PM",
       "company": "Sunstates Security",
       "location": "Dallas, TX",
       "vertical": "security",
-      "role": "industrial",
+      "role": "festival",
       "pay": "$21.00 - $23.00/hr",
       "pay_min": 21.0,
       "pay_max": 23.0,
@@ -77,6 +162,94 @@
           "items": [
             "A Security Officer may perform a multitude of duties as specified by the Post Orders and Standard Operating Procedures (SOP)",
             "The Security Officer will read and become extremely knowledgeable of Post Orders and SOP and will be able to act quickly and efficiently according to such directives"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "f6423f4ceb18",
+      "title": "Mansfield Stadium Event Security",
+      "company": "Andy Frain Services",
+      "location": "DeSoto, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time and Part-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://salutemyjob.com/jobs/mansfield-stadium-event-security-desoto-texas/2932455107-2/",
+      "via": "via Snagajob",
+      "description": "<div><div>\n<div><strong>JOB SUMMARY: - Mansfield Stadium</strong></div>\n<div> </div>\n<div>Provide quality customer service to customers, patrons and employees. Establish working relationships with customers, vendors and employees in fulfilling assigned post orders. Take an active role in assisting customer with other duties that may not be included in this job description and are approved by the Security Manager. Event Staff must possess and maintain a professional image at all times.</div>\n<div> </div>\n<div><strong>RESPONSIBILITIES/DUTIES:</strong></div>\n<div> </div>\n<div>Essential functions may vary depending on department size, organizational structure and/or geographic location. Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job. Other duties, not listed below, may also be assigned.</div>\n<div> </div>\n<div>· The delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description. The ability to greet all visitors, vendors, and employees; while continuously maintaining the standards of excellence in presentation and professionalism. Customer Service is Every Employee's Job!</div>\n<div>· Maintain a working knowledge of all emergency policies, procedures and regulations; respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed.</div>\n<div>· Post orders may include Ticket Taking, Ushering, Guest Services, Elevator Operator, Special Services or other.</div>\n<div>· Be diligent and vigilant in safety awareness.</div>\n<div>· Know and understand post orders, revisions, and daily event needs. Know your chain of command.</div>\n<div>· These functions are not limited to these listed and may be expanded upon at any time at the request of the customer.</div>\n<div> </div>\n<div><strong>MINIMUM QUALIFICATIONS:</strong></div>\n<div> </div>\n<div>The following are the minimum qualifications which an individual needs in order to successfully perform the duties and responsibilities of this position. Please note that the minimum qualifications may vary based upon the department size and/or geographic location.</div>\n<div><br>\n<ul>\n<li>High School Diploma/or equivalent (GED) and be 18 years of age or older.</li>\n<li>Must be willing to submit to a background and drug screening where required; any offer of employment is conditioned upon the successful completion of a background investigation.</li>\n</ul>\n</div>\n<div> </div>\n<div>Skills/Abilities:</div>\n<div> </div>\n<div>· Strong customer service orientation, exemplifying our Mission Statement that Customer Service is Every Employee's Job.</div>\n<div>· Ability to facilitate progressive change, getting along with other employees, following directions and continually improving.</div>\n<div>· Clear and effective oral and written communications skills.</div>\n<div> </div>\n<div><strong>PHYSICAL DEMANDS:</strong></div>\n<div> </div>\n<div>In general, the following physical demands are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job.</div>\n<div> </div>\n<div>Must be able to see, hear, speak and write clearly in order to communicate with employees and/or other customers. Pushing/pulling/carrying lifting may include up to 25 lbs (event evacuation), stair climbing. Ability to sit, twist, turn, bend as required to perform duties within the facility. Must be capable of standing for long periods of time.</div>\n<div> </div>\n<div><em>This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent. Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion. Duties other than those expressly specified may be assigned from time to time</em></div>\n</div></div><div><div>\n<div><strong>JOB SUMMARY: - Mansfield Stadium</strong></div>\n<div> </div>\n<div>Provide quality customer service to customers, patrons and employees. Establish working relationships with customers, vendors and employees in fulfilling assigned post orders. Take an active role in assisting customer with other duties that may not be included in this job description and are approved by the Security Manager. Event Staff must possess and maintain a professional image at all times.</div>\n<div> </div>\n<div><strong>RESPONSIBILITIES/DUTIES:</strong></div>\n<div> </div>\n<div>Essential functions may vary depending on department size, organizational structure and/or geographic location. Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job. Other duties, not listed below, may also be assigned.</div>\n<div> </div>\n<div>· The delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description. The ability to greet all visitors, vendors, and employees; while continuously maintaining the standards of excellence in presentation and professionalism. Customer Service is Every Employee's Job!</div>\n<div>· Maintain a working knowledge of all emergency policies, procedures and regulations; respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed.</div>\n<div>· Post orders may include Ticket Taking, Ushering, Guest Services, Elevator Operator, Special Services or other.</div>\n<div>· Be diligent and vigilant in safety awareness.</div>\n<div>· Know and understand post orders, revisions, and daily event needs. Know your chain of command.</div>\n<div>· These functions are not limited to these listed and may be expanded upon at any time at the request of the customer.</div>\n<div> </div>\n<div><strong>MINIMUM QUALIFICATIONS:</strong></div>\n<div> </div>\n<div>The following are the minimum qualifications which an individual needs in order to successfully perform the duties and responsibilities of this position. Please note that the minimum qualifications may vary based upon the department size and/or geographic location.</div>\n<div><br>\n<ul>\n<li>High School Diploma/or equivalent (GED) and be 18 years of age or older.</li>\n<li>Must be willing to submit to a background and drug screening where required; any offer of employment is conditioned upon the successful completion of a background investigation.</li>\n</ul>\n</div>\n<div> </div>\n<div>Skills/Abilities:</div>\n<div> </div>\n<div>· Strong customer service orientation, exemplifying our Mission Statement that Customer Service is Every Employee's Job.</div>\n<div>· Ability to facilitate progressive change, getting along with other employees, following directions and continually improving.</div>\n<div>· Clear and effective oral and written communications skills.</div>\n<div> </div>\n<div><strong>PHYSICAL DEMANDS:</strong></div>\n<div> </div>\n<div>In general, the following physical demands are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job.</div>\n<div> </div>\n<div>Must be able to see, hear, speak and write clearly in order to communicate with employees and/or other customers. Pushing/pulling/carrying lifting may include up to 25 lbs (event evacuation), stair climbing. Ability to sit, twist, turn, bend as required to perform duties within the facility. Must be capable of standing for long periods of time.</div>\n<div> </div>\n<div><em>This description portrays in general terms the type and level(s) of work performed...",
+      "job_highlights": [
+        {
+          "items": [
+            "The following are the minimum qualifications which an individual needs in order to successfully perform the duties and responsibilities of this position",
+            "Please note that the minimum qualifications may vary based upon the department size and/or geographic location",
+            "High School Diploma/or equivalent (GED) and be 18 years of age or older",
+            "Must be willing to submit to a background and drug screening where required; any offer of employment is conditioned upon the successful completion of a background investigation",
+            "Clear and effective oral and written communications skills",
+            "Must be able to see, hear, speak and write clearly in order to communicate with employees and/or other customers",
+            "Pushing/pulling/carrying lifting may include up to 25 lbs (event evacuation), stair climbing",
+            "Ability to sit, twist, turn, bend as required to perform duties within the facility",
+            "Must be capable of standing for long periods of time",
+            "This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent",
+            "The following are the minimum qualifications which an individual needs in order to successfully perform the duties and responsibilities of this position",
+            "Please note that the minimum qualifications may vary based upon the department size and/or geographic location",
+            "High School Diploma/or equivalent (GED) and be 18 years of age or older",
+            "Must be willing to submit to a background and drug screening where required; any offer of employment is conditioned upon the successful completion of a background investigation",
+            "Clear and effective oral and written communications skills",
+            "Must be able to see, hear, speak and write clearly in order to communicate with employees and/or other customers",
+            "Pushing/pulling/carrying lifting may include up to 25 lbs (event evacuation), stair climbing",
+            "Ability to sit, twist, turn, bend as required to perform duties within the facility",
+            "Must be capable of standing for long periods of time",
+            "This description portrays in general terms the type and level(s) of work performed and is not intended to be all-inclusive, nor the specific duties of any one incumbent",
+            "17 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Provide quality customer service to customers, patrons and employees",
+            "Establish working relationships with customers, vendors and employees in fulfilling assigned post orders",
+            "Take an active role in assisting customer with other duties that may not be included in this job description and are approved by the Security Manager",
+            "Event Staff must possess and maintain a professional image at all times",
+            "Essential functions may vary depending on department size, organizational structure and/or geographic location",
+            "Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job",
+            "The delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description",
+            "The ability to greet all visitors, vendors, and employees; while continuously maintaining the standards of excellence in presentation and professionalism",
+            "Customer Service is Every Employee's Job!",
+            "Maintain a working knowledge of all emergency policies, procedures and regulations; respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed",
+            "Post orders may include Ticket Taking, Ushering, Guest Services, Elevator Operator, Special Services or other",
+            "Be diligent and vigilant in safety awareness",
+            "Know and understand post orders, revisions, and daily event needs",
+            "Know your chain of command",
+            "These functions are not limited to these listed and may be expanded upon at any time at the request of the customer",
+            "Strong customer service orientation, exemplifying our Mission Statement that Customer Service is Every Employee's Job",
+            "Ability to facilitate progressive change, getting along with other employees, following directions and continually improving",
+            "In general, the following physical demands are representative of those that must be met by an employee to successfully perform the essential functions of this job",
+            "Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job",
+            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
+            "Provide quality customer service to customers, patrons and employees",
+            "Establish working relationships with customers, vendors and employees in fulfilling assigned post orders",
+            "Take an active role in assisting customer with other duties that may not be included in this job description and are approved by the Security Manager",
+            "Event Staff must possess and maintain a professional image at all times",
+            "Essential functions may vary depending on department size, organizational structure and/or geographic location",
+            "Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job",
+            "The delivery of quality service and positive interaction with our customers is critical to the completion of all the tasks within this job description",
+            "The ability to greet all visitors, vendors, and employees; while continuously maintaining the standards of excellence in presentation and professionalism",
+            "Customer Service is Every Employee's Job!",
+            "Maintain a working knowledge of all emergency policies, procedures and regulations; respond immediately to emergency alarms or calls for help, determine course of action, notify appropriate authorities and assist as needed",
+            "Post orders may include Ticket Taking, Ushering, Guest Services, Elevator Operator, Special Services or other",
+            "Be diligent and vigilant in safety awareness",
+            "Know and understand post orders, revisions, and daily event needs",
+            "Ability to facilitate progressive change, getting along with other employees, following directions and continually improving",
+            "In general, the following physical demands are representative of those that must be met by an employee to successfully perform the essential functions of this job",
+            "Reasonable accommodations may be made to allow differently-abled individuals to perform the essential functions of the job",
+            "Andy Frain Services reserves the right to modify, supplement, delete or augment the duties and responsibilities specified in the position description, in the Company's sole and absolute discretion",
+            "34 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -241,7 +414,7 @@
       "company": "Allied Universal",
       "location": "Dallas, TX",
       "vertical": "security",
-      "role": "sporting-event",
+      "role": "festival",
       "pay": "21 an hour",
       "pay_min": 21.0,
       "pay_max": null,
@@ -400,7 +573,7 @@
       "pay_unit": "HOUR",
       "schedule": "Full-time and Part-time",
       "posted_date": "2026-08-13",
-      "apply_link": "https://www.breakroom.cc/en-us/jobs/listing/44447129-metro-one-lpsg-hiring-event-for-retail-unarmed-security",
+      "apply_link": "https://www.jobleads.com/us/job/hiring-event-for-retail-unarmed-security-officers-wednesday-7-29-2026-dallas-tx--dallas--e597286068d3c6b8d482c192e0ab4d786",
       "via": "via Indeed",
       "description": "<div>\n <p><b>Dallas In-Person Hiring Event </b></p>\n <p><b>Retail </b><b>Unarmed Security Officer(s)</b></p>\n <br>\n <p></p>\n <p><b> DATE: Thursday - August 20 2026</b></p>\n <p><b> TIME: 1:00PM – 5:00PM</b></p>\n <p><b> First Apply, Resume is Reviewed,</b></p>\n <p><b> Then You Are Invited to Event</b></p>\n <br>\n <h1><b> Metro One Security has the opportunity you’ve been looking for!</b></h1>\n <p><b> About Us:</b></p>\n <p>At Metro One Security, we are reshaping the security industry with a dynamic, service-driven approach. We provide top-tier security and loss prevention services to our valued retail clients nationwide—and we’re growing fast. If you’re ready to join a company that values professionalism, integrity, and career growth, we’d love to meet you.</p>\n <br>\n <p></p>\n <p><b> Why Attend Our Open House?</b></p>\n <ul>\n  <li>Meet directly with our recruiting team</li>\n  <li>Learn about available sites, shifts, and expectations</li>\n  <li>Immediate Interviews and take next steps toward employment</li>\n  <li>Get questions answered in real time</li>\n </ul>\n <br>\n <p></p>\n <p><b> What We Offer:</b></p>\n <ul>\n  <li><b> Weekly Pay</b> – Get paid fast for your hard work</li>\n  <li><b> Competitive Benefits</b> – Medical, dental, vision, and more</li>\n  <li><b> Flexible Scheduling</b> – We value work-life balance</li>\n  <li><b> 401(k) Program</b> – Plan for your future</li>\n  <li><b> Easy Online Application Process</b> – Quick and convenient</li>\n </ul>\n <br>\n <p></p>\n <p><b> Your Responsibilities:</b></p>\n <ul>\n  <li>Provide exceptional customer service to clients and visitors</li>\n  <li>Monitor CCTV surveillance systems and complete accurate daily activity reports</li>\n  <li>Control access points and monitor security alarms</li>\n  <li>Observe, survey, and report activity at assigned posts</li>\n  <li>Respond appropriately to incidents and emergency situations</li>\n </ul>\n <br>\n <p></p>\n <p><b> What We’re Looking For:</b></p>\n <ul>\n  <li>Must be 18 years of age or older</li>\n  <li>High school diploma or GED required</li>\n  <li>Authorized to work in the United States</li>\n  <li>Strong and stable work history, (No more than 3 jobs in last 6 years)</li>\n  <li><b> Bring UPDATED Resume to Event</b></li>\n  <li>Ability to stand for extended periods, (8hrs. or more)</li>\n  <li>Must pass a drug test and background screening</li>\n  <li>No Face, Neck or Hand Tattoos</li>\n  <li>Prior experience in security, military, corrections, or law enforcement is a plus</li>\n  <li><b> Valid Texas Security License required</b></li>\n  <li>Reliable transportation required</li>\n </ul>\n <p><br></p>\n <p><b>Grow your career. Strengthen your skills. Make a difference.</b></p>\n <br>\n <p></p>\n <p><b> Metro One is an Equal Opportunity Employer.</b></p>\n <p></p>\n <p><b><br>\n    Please bring the following with you:</b></p>\n <ul>\n  <li><b> A valid photo ID or Driver’s license</b></li>\n  <li><b> A current Texas Unarmed Security License</b></li>\n  <li><b> Social Security Card, Birth Certificate or Passport</b></li>\n  <li><b> Updated Resume</b></li>\n </ul>\n <div>\n  <div>\n   <div>\n    <div>\n     <div>\n      <div>\n       <div>\n        <div>\n         <p><b>Business Casual attire, Required.</b></p>\n        </div>\n       </div>\n      </div>\n     </div>\n    </div>\n   </div>\n  </div>\n </div>\n</div>",
       "job_highlights": [
@@ -447,197 +620,6 @@
             "Observe, survey, and report activity at assigned posts",
             "Respond appropriately to incidents and emergency situations",
             "2 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "cde84cfc7c96",
-      "title": "Event Operations Manager",
-      "company": "Andy Frain Services",
-      "location": "Duncanville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://jobs.stevenagefc.com/jobs/event-operations-manager-duncanville-texas/2924088683-2/",
-      "via": "via SaluteMyJob",
-      "description": "<p><b>About the Role</b></p><p><b>Andy Frain Services</b> is on the lookout for a motivated and detail-oriented <b>Event Operations Manager</b> to play a key role in driving event operations across our premier <b>Sports & Entertainment venues</b>. You will primarily focus on <b>Fair Park/State Fair of Texas</b>.</p><p>In this dynamic role, you will partner directly with the Account Manager to oversee event day operations, lead the security team, and ensure exceptional safety and experiences for fans, promoters, sponsors, and vendors.</p><p><b>Work Schedule Note:</b> Flexibility is essential as this position involves a dynamic, event-driven schedule, including evenings, weekends, and holidays based on the venue calendar.</p><p><b>Compensation & Benefits</b></p><ul><li><b>Competitive Salary:</b> Commensurate with experience</li><li><b>Time Off:</b> Paid Time Off (PTO)</li><li><b>Health & Wellness:</b> Comprehensive Medical, Dental, and Vision insurance options</li><li><b>Retirement:</b> 401(k) retirement savings plan</li><li><b>Career Advancement:</b> Opportunities for leadership development and professional growth within a nationally recognized industry leader</li></ul><p><b>Key Responsibilities</b></p><p><b>Event Operations & Venue Leadership</b></p><ul><li>Act as the operational lead for smaller events and manage concurrent venue dates across Dallas.</li><li>Oversee event-day execution, ensuring that security requirements and client standards are met.</li><li>Lead staff sign-in/sign-out processes and manage accurate post-event payroll and billing.</li><li>Serve as the primary lead in the Account Manager's absence.</li></ul><p><b>Staffing, Onboarding & Development</b></p><ul><li>Assist in the onboarding, training, scheduling, and management of event-day staff and supervisors.</li><li>Conduct pre-event briefings for teams of varying sizes, from small groups to over 600 personnel.</li><li>Monitor monthly event metrics and assess staff performance indicators.</li><li>Coach and mentor supervisors and staff on personnel matters in accordance with company policy.</li></ul><p><b>Logistics & Equipment Management</b></p><ul><li>Oversee the storage, distribution, maintenance, and tracking of venue equipment.</li><li>Prepare operational materials and documentation for event-day supervisors.</li><li>Submit equipment and supply requests 45 days in advance of the operational needs.</li></ul><p><b>Risk Management, Safety & Client Relations</b></p><ul><li>Identify and address potential safety risks for guests and staff.</li><li>Regularly meet with venue clients to ensure security, emergency preparedness, and safety compliance.</li><li>Ensure compliance with Federal and State OSHA, fire, and safety regulations.</li></ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Competitive Salary: Commensurate with experience",
-            "Time Off: Paid Time Off (PTO)",
-            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
-            "Retirement: 401(k) retirement savings plan",
-            "Career Advancement: Opportunities for leadership development and professional growth within a nationally recognized industry leader",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You will primarily focus on Fair Park/State Fair of Texas",
-            "In this dynamic role, you will partner directly with the Account Manager to oversee event day operations, lead the security team, and ensure exceptional safety and experiences for fans, promoters, sponsors, and vendors",
-            "Work Schedule Note: Flexibility is essential as this position involves a dynamic, event-driven schedule, including evenings, weekends, and holidays based on the venue calendar",
-            "Event Operations & Venue Leadership",
-            "Act as the operational lead for smaller events and manage concurrent venue dates across Dallas",
-            "Oversee event-day execution, ensuring that security requirements and client standards are met",
-            "Lead staff sign-in/sign-out processes and manage accurate post-event payroll and billing",
-            "Serve as the primary lead in the Account Manager's absence",
-            "Assist in the onboarding, training, scheduling, and management of event-day staff and supervisors",
-            "Conduct pre-event briefings for teams of varying sizes, from small groups to over 600 personnel",
-            "Monitor monthly event metrics and assess staff performance indicators",
-            "Coach and mentor supervisors and staff on personnel matters in accordance with company policy",
-            "Logistics & Equipment Management",
-            "Oversee the storage, distribution, maintenance, and tracking of venue equipment",
-            "Prepare operational materials and documentation for event-day supervisors",
-            "Submit equipment and supply requests 45 days in advance of the operational needs",
-            "Risk Management, Safety & Client Relations",
-            "Identify and address potential safety risks for guests and staff",
-            "Regularly meet with venue clients to ensure security, emergency preparedness, and safety compliance",
-            "Ensure compliance with Federal and State OSHA, fire, and safety regulations",
-            "17 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "2f921edeb9f3",
-      "title": "Event Manager",
-      "company": "Andy Frain Services",
-      "location": "Bedford, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://salutemyjob.com/jobs/event-manager-bedford-texas/2924080537-2/",
-      "via": "via Adzuna",
-      "description": "<strong>About the Role<br /></strong>\n<strong>Andy Frain Services</strong> is seeking a driven, detail-oriented <strong>Event Manager</strong> to assist in leading event operations across our premier <strong>Dallas-area Sports & Entertainment (S&E) venues </strong>with primary focus at<strong> Fair Park/State Fair of Texas</strong>.<br /><br />\nIn this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor.\n<strong>Work Schedule Note:</strong> This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars.<br /><br />\n<strong>Compensation & Benefits</strong>\n<ul>\n<li><strong>Competitive Salary:</strong> Commensurate with experience</li>\n<li><strong>Time Off:</strong> Paid Time Off (PTO)</li>\n<li><strong>Health & Wellness:</strong> Comprehensive Medical, Dental, and Vision insurance options</li>\n<li><strong>Retirement:</strong> 401(k) retirement savings plan</li>\n<li><strong>Career Advancement:</strong> Leadership development and professional growth within a nationally recognized industry leader</li>\n</ul>\n \n<strong>Key Responsibilities<br /></strong>\n<strong>Event Operations & Venue Leadership</strong>\n<ul>\n<li>Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations.</li>\n<li>Supervise event-day execution, ensuring client security needs and account standards are fully met.</li>\n<li>Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data.</li>\n<li>Act as the primary lead or step in for the Account Manager in their absence.</li>\n</ul>\n \n<strong>Staffing, Onboarding & Development</strong>\n<ul>\n<li>Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors.</li>\n<li>Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel).</li>\n<li>Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes).</li>\n<li>Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy.</li>\n</ul>\n \n<strong>Logistics & Equipment Management</strong>\n<ul>\n<li>Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices.</li>\n<li>Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors.</li>\n<li>Submit formal equipment and supply requests 45 days in advance of operational needs.</li>\n</ul>\n \n<strong>Risk Management, Safety & Client Relations</strong>\n<ul>\n<li>Proactively identify and mitigate safety risks for guests, staff, and venue assets.</li>\n<li>Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols.</li>\n<li>Ensure strict adherence to Federal and State OSHA, fire, and safety regulations.</li>\n</ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Competitive Salary: Commensurate with experience",
-            "Time Off: Paid Time Off (PTO)",
-            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
-            "Retirement: 401(k) retirement savings plan",
-            "Career Advancement: Leadership development and professional growth within a nationally recognized industry leader",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor",
-            "Work Schedule Note: This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars",
-            "Event Operations & Venue Leadership",
-            "Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations",
-            "Supervise event-day execution, ensuring client security needs and account standards are fully met",
-            "Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data",
-            "Act as the primary lead or step in for the Account Manager in their absence",
-            "Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors",
-            "Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel)",
-            "Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes)",
-            "Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy",
-            "Logistics & Equipment Management",
-            "Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices",
-            "Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors",
-            "Submit formal equipment and supply requests 45 days in advance of operational needs",
-            "Risk Management, Safety & Client Relations",
-            "Proactively identify and mitigate safety risks for guests, staff, and venue assets",
-            "Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols",
-            "Ensure strict adherence to Federal and State OSHA, fire, and safety regulations",
-            "16 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "7675f4fa35d5",
-      "title": "Event Manager",
-      "company": "Andy Frain Services",
-      "location": "Royse City, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time and Part-time",
-      "posted_date": "2026-08-13",
-      "apply_link": "https://salutemyjob.com/jobs/event-manager-royse-city-texas/2924080026-2/",
-      "via": "via Snagajob",
-      "description": "<div><div><strong>About the Role<br></strong></div>\n<div><strong>Andy Frain Services</strong> is seeking a driven, detail-oriented <strong>Event Manager</strong> to assist in leading event operations across our premier <strong>Dallas-area Sports & Entertainment (S&E) venues </strong>with primary focus at<strong> Fair Park/State Fair of Texas</strong>.<br><br></div>\n<div>In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor.</div>\n<strong>Work Schedule Note:</strong> This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars.<br><br>\n<div><strong>Compensation & Benefits</strong></div>\n<ul>\n<li><strong>Competitive Salary:</strong> Commensurate with experience</li>\n<li><strong>Time Off:</strong> Paid Time Off (PTO)</li>\n<li><strong>Health & Wellness:</strong> Comprehensive Medical, Dental, and Vision insurance options</li>\n<li><strong>Retirement:</strong> 401(k) retirement savings plan</li>\n<li><strong>Career Advancement:</strong> Leadership development and professional growth within a nationally recognized industry leader</li>\n</ul>\n<div> </div>\n<div><strong>Key Responsibilities<br></strong></div>\n<div><strong>Event Operations & Venue Leadership</strong></div>\n<ul>\n<li>Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations.</li>\n<li>Supervise event-day execution, ensuring client security needs and account standards are fully met.</li>\n<li>Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data.</li>\n<li>Act as the primary lead or step in for the Account Manager in their absence.</li>\n</ul>\n<div> </div>\n<div><strong>Staffing, Onboarding & Development</strong></div>\n<ul>\n<li>Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors.</li>\n<li>Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel).</li>\n<li>Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes).</li>\n<li>Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy.</li>\n</ul>\n<div> </div>\n<div><strong>Logistics & Equipment Management</strong></div>\n<ul>\n<li>Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices.</li>\n<li>Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors.</li>\n<li>Submit formal equipment and supply requests 45 days in advance of operational needs.</li>\n</ul>\n<div> </div>\n<div><strong>Risk Management, Safety & Client Relations</strong></div>\n<ul>\n<li>Proactively identify and mitigate safety risks for guests, staff, and venue assets.</li>\n<li>Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols.</li>\n<li>Ensure strict adherence to Federal and State OSHA, fire, and safety regulations.</li>\n</ul>\n<div> </div>\n<div> </div></div><div><div><strong>About the Role<br></strong></div>\n<div><strong>Andy Frain Services</strong> is seeking a driven, detail-oriented <strong>Event Manager</strong> to assist in leading event operations across our premier <strong>Dallas-area Sports & Entertainment (S&E) venues </strong>with primary focus at<strong> Fair Park/State Fair of Texas</strong>.<br><br></div>\n<div>In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor.</div>\n<strong>Work Schedule Note:</strong> This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars.<br><br>\n<div><strong>Compensation & Benefits</strong></div>\n<ul>\n<li><strong>Competitive Salary:</strong> Commensurate with experience</li>\n<li><strong>Time Off:</strong> Paid Time Off (PTO)</li>\n<li><strong>Health & Wellness:</strong> Comprehensive Medical, Dental, and Vision insurance options</li>\n<li><strong>Retirement:</strong> 401(k) retirement savings plan</li>\n<li><strong>Career Advancement:</strong> Leadership development and professional growth within a nationally recognized industry leader</li>\n</ul>\n<div> </div>\n<div><strong>Key Responsibilities<br></strong></div>\n<div><strong>Event Operations & Venue Leadership</strong></div>\n<ul>\n<li>Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations.</li>\n<li>Supervise event-day execution, ensuring client security needs and account standards are fully met.</li>\n<li>Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data.</li>\n<li>Act as the primary lead or step in for the Account Manager in their absence.</li>\n</ul>\n<div> </div>\n<div><strong>Staffing, Onboarding & Development</strong></div>\n<ul>\n<li>Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors.</li>\n<li>Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel).</li>\n<li>Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes).</li>\n<li>Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy.</li>\n</ul>\n<div> </div>\n<div><strong>Logistics & Equipment Management</strong></div>\n<ul>\n<li>Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices.</li>\n<li>Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors.</li>\n<li>Submit formal equipment and supply requests 45 days in advance of operational needs.</li>\n</ul>\n<div> </div>\n<div><strong>Risk Management, Safety & Client Relations</strong></div>\n<ul>\n<li>Proactively identify and mitigate safety risks for guests, staff, and venue assets.</li>\n<li>Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols.</li>\n<li>Ensure strict adherence to Federal and State OSHA, fire, and safety regulations.</li>\n</ul>\n<div> </div>\n<div> </div></div>",
-      "job_highlights": [
-        {
-          "items": [
-            "Competitive Salary: Commensurate with experience",
-            "Time Off: Paid Time Off (PTO)",
-            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
-            "Retirement: 401(k) retirement savings plan",
-            "Career Advancement: Leadership development and professional growth within a nationally recognized industry leader",
-            "Compensation & Benefits",
-            "Competitive Salary: Commensurate with experience",
-            "Time Off: Paid Time Off (PTO)",
-            "Health & Wellness: Comprehensive Medical, Dental, and Vision insurance options",
-            "Retirement: 401(k) retirement savings plan",
-            "Career Advancement: Leadership development and professional growth within a nationally recognized industry leader",
-            "8 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor",
-            "Work Schedule Note: This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars",
-            "Event Operations & Venue Leadership",
-            "Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations",
-            "Supervise event-day execution, ensuring client security needs and account standards are fully met",
-            "Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data",
-            "Act as the primary lead or step in for the Account Manager in their absence",
-            "Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors",
-            "Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel)",
-            "Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes)",
-            "Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy",
-            "Logistics & Equipment Management",
-            "Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices",
-            "Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors",
-            "Submit formal equipment and supply requests 45 days in advance of operational needs",
-            "Risk Management, Safety & Client Relations",
-            "Proactively identify and mitigate safety risks for guests, staff, and venue assets",
-            "Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols",
-            "Ensure strict adherence to Federal and State OSHA, fire, and safety regulations",
-            "In this role, you will work directly alongside the Account Manager to oversee event day operations, lead front-line security personnel and supervisors, and deliver exceptional safety and guest experiences for every fan, promoter, sponsor, and vendor",
-            "Work Schedule Note: This position requires flexibility to work a dynamic, event-driven schedule including evenings, weekends, and holidays based on venue calendars",
-            "Event Operations & Venue Leadership",
-            "Serve as the operational lead for smaller events, Event Orders (EOs), and concurrent venue dates across Dallas locations",
-            "Supervise event-day execution, ensuring client security needs and account standards are fully met",
-            "Lead staff sign-in/sign-out processes and coordinate accurate post-event payroll, time processing, and billing data",
-            "Act as the primary lead or step in for the Account Manager in their absence",
-            "Assist with the onboarding, training, scheduling, and distribution of event-day staff and supervisors",
-            "Deliver pre-event briefings and address large groups (ranging from small teams to 600+ personnel)",
-            "Evaluate monthly event metrics, staff performance, and employee performance indicators (call-offs, attendance, counseling notes)",
-            "Coach, mentor, and guide supervisors and staff through personnel issues in accordance with company policy",
-            "Logistics & Equipment Management",
-            "Manage the storage, distribution, maintenance, and tracking of venue radios, scanners, and ISS devices",
-            "Prepare operational materials, shift rosters, and briefing documentation for event-day supervisors",
-            "Submit formal equipment and supply requests 45 days in advance of operational needs",
-            "Risk Management, Safety & Client Relations",
-            "Proactively identify and mitigate safety risks for guests, staff, and venue assets",
-            "Meet regularly with venue clients to address security, emergency preparedness, and site safety protocols",
-            "Ensure strict adherence to Federal and State OSHA, fire, and safety regulations",
-            "35 more items(s)"
           ],
           "title": "Responsibilities"
         }

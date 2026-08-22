@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/armed-security-dfw",
   "market": "DFW",
   "target": "role",
@@ -7,12 +7,345 @@
   "exact": 10,
   "jobs": [
     {
+      "job_hash": "4d0dc114df7c",
+      "title": "Level III Armed Protective Service Officer (Burleson Warehouse)",
+      "company": "National Security & Protective Services, Inc.",
+      "location": "Burleson, TX",
+      "vertical": "security",
+      "role": "warehouse",
+      "pay": "19.03 an hour",
+      "pay_min": 19.03,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.glassdoor.com/job-listing/level-iii-armed-protective-service-officer-burleson-warehouse-national-security-and-protective-services-JV_IC1139961_KO0,61_KE62,103.htm?jl=1010238034643",
+      "via": "via Glassdoor",
+      "description": "<ul><li>Observes and reports activities and incidents, providing security and safety for client, property, personnel, & visitors.</li><li>Conduct random marked vehicle patrols for irregularities on property and around the grounds in Marked Patrol Vehicle with Lights.</li><li>Full access controlled booth is provided for camera monitoring.</li><li>Enforce rules, regulations, and directives for the facility pertaining to personnel, visitors, and premises.</li><li>Checks for unsafe conditions, hazards, unlocked doors, security violations, blocked entrances and exits, mechanical problems, and unauthorized persons.</li><li>Daily phone app logs and reports are required.</li></ul><p><b>(2) Position Available</b></p><p><b>Shifts Available: Sun, Mon, Tue / 6:00am-6:00pm</b></p><p><b>Shift 2: Mon, Tue, Wed / 6:00pm-6:00am</b></p><p><b>Requirements:</b></p><ul><li>Must have at least 3 years Security/Law Enforcement Experience.</li><li>Must be at least 23 years of age</li><li>Must be able to Pass a Background Investigation</li><li>Must Pass Drug Screen</li><li>Must be Professional looking and Detail Oriented</li><li>Posses a High School Diploma or GED</li><li>Posses a Valid Drivers License</li><li>Must have a Phone & Reliable Transportation</li><li>Must have Black Shoes that can be shined</li><li>Must be Physically Fit</li><li>Must be a Team Player</li><li>Posses a Level III Commission in Good Standing with the Texas Department of Public Safety (Security Board)</li></ul><p><b>Benefits:</b></p><p>All Full Time Warehouse Protective Service Officers will receive:</p><ul><li>Direct Deposit</li><li>Paid Training & Orientation</li><li>Paid Vacation</li><li>Paid Security License Transfer/Update</li><li>16 hrs of (PTO) Paid Time Off</li><li>Free Medical, Vision, Dental, Life Insurance with Legal Defense.</li></ul><p><b>To Apply:</b></p><p><b>Respond to this post</b></p><p>Fort Worth Headquarters<br/>5601 Bridge St.<br/>Suite 324<br/>Fort Worth, TX 76244</p><p>Call (817) 896-9573 for Interview<br/>or Text (817) 936-0541</p><p>TXDPS Lic. <b>#C-16053</b></p><p>National Security & Protective Services, Inc. is an (EOE) Equal Opportunity Employer</p><p>Pay: From $19.03 per hour</p><p>Benefits:</p><ul><li>Dental insurance</li><li>Health insurance</li><li>Life insurance</li><li>Paid time off</li><li>Referral program</li><li>Vision insurance</li></ul><p>Education:</p><ul><li>High school or equivalent (Required)</li></ul><p>Experience:</p><ul><li>Security/Law Enforcement: 3 years (Required)</li></ul><p>License/Certification:</p><ul><li>Level III Armed License (Required)</li><li>Driver's License (Required)</li></ul><p>Shift availability:</p><ul><li>Night Shift (Required)</li><li>Overnight Shift (Required)</li></ul><p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have at least 3 years Security/Law Enforcement Experience",
+            "Must be at least 23 years of age",
+            "Must be able to Pass a Background Investigation",
+            "Must Pass Drug Screen",
+            "Must be Professional looking and Detail Oriented",
+            "Posses a High School Diploma or GED",
+            "Posses a Valid Drivers License",
+            "Must have a Phone & Reliable Transportation",
+            "Must have Black Shoes that can be shined",
+            "Must be Physically Fit",
+            "Must be a Team Player",
+            "Posses a Level III Commission in Good Standing with the Texas Department of Public Safety (Security Board)",
+            "High school or equivalent (Required)",
+            "Security/Law Enforcement: 3 years (Required)",
+            "Level III Armed License (Required)",
+            "Driver's License (Required)",
+            "13 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Direct Deposit",
+            "Paid Training & Orientation",
+            "Paid Vacation",
+            "Paid Security License Transfer/Update",
+            "16 hrs of (PTO) Paid Time Off",
+            "Free Medical, Vision, Dental, Life Insurance with Legal Defense",
+            "Pay: From $19.03 per hour",
+            "Dental insurance",
+            "Health insurance",
+            "Life insurance",
+            "Paid time off",
+            "Referral program",
+            "Vision insurance",
+            "10 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Observes and reports activities and incidents, providing security and safety for client, property, personnel, & visitors",
+            "Conduct random marked vehicle patrols for irregularities on property and around the grounds in Marked Patrol Vehicle with Lights",
+            "Full access controlled booth is provided for camera monitoring",
+            "Enforce rules, regulations, and directives for the facility pertaining to personnel, visitors, and premises",
+            "Checks for unsafe conditions, hazards, unlocked doors, security violations, blocked entrances and exits, mechanical problems, and unauthorized persons",
+            "Daily phone app logs and reports are required",
+            "Shifts Available: Sun, Mon, Tue / 6:00am-6:00pm",
+            "Shift 2: Mon, Tue, Wed / 6:00pm-6:00am",
+            "Night Shift (Required)",
+            "Overnight Shift (Required)",
+            "7 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "fff3557b8a42",
+      "title": "Armed Security Officer Security Clearance Job at Allied Universal in Fort Worth",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.recruit.net/job/armed-security-officer-security-clearance-jobs/CED550ABE9282A5E",
+      "via": "via Recruit.net",
+      "description": "SECURITY OFFICER ARMED VEHICLE PATROL SECURITY CLEARANCE<br />Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose.<br />While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br />As a Security Officer Armed Vehicle Patrol Security Clearance in Fort Worth, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more.<br />Join Allied Universal as an armed patrol officer at a leading aerospace and defense location, where you will monitor and patrol assigned areas, remain visible to help deter security-related incidents, and deliver outstanding customer service and communication.<br />This driving post offers the opportunity to support a dynamic environment with professionalism, teamwork, and integrity while contributing to a caring, reliable, and innovative culture.<br />Position Type: Full Time<br />Pay Rate: $27.32 / Hour<br />Job<br />Schedule:<br />* Mon: 02:00 PM - 10:00 PM<br />* Wed: 02:00 PM - 10:00 PM<br />* Thur: 02:00 PM - 10:00 PM<br />* Fri: 02:00 PM - 10:00 PM<br />* Sat: 02:00 PM - 10:00 PM<br />WHAT YOU'LL DO<br />* Provide customer service to personnel, visitors, and/or contractors by carrying out security-related procedures, site‑specific policies, and when appropriate, emergency response activities at an aerospace and defense location.<br />* Respond to incidents, alarms, and/or critical situations in a calm, problem‑solving manner, documenting observations and communicating with site contacts and Allied Universal leadership as needed.<br />* Conduct regular and random armed patrols throughout buildings, restricted areas, and perimeter zones to help deter unauthorized access and/or unusual activity.<br />* Monitor entry and exit points, verify credentials and/or authorizations, and report policy violations, hazards, and suspicious behavior in accordance with post orders and applicable regulations.<br />* Support access control, incident reporting, and emergency preparedness activities while working in environments and conditions that may vary across the location.<br />MINIMUM REQUIREMENTS<br />* Possess at least 2 years of security‑related experience.<br />* Possess 3 or more years of combined law enforcement, military, and/or security‑related experience or a college degree.<br />* Possess an active DoD Secret Clearance.<br />* Be at least 21 years of age.<br />* A valid driver’s license is required in accordance with Allied Universal driver policy requirements.<br />* Possess a Level III Armed Certification in Texas only.<br />* Possess a high school diploma or equivalent.<br />* As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.<br />* Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.<br />* As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.<br />* Participate in industry‑specific security training programs.<br />* Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.<br />WHY JOIN US<br />* Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.<br />* Career Growth: Get paid training and access to career growth opportunities.<br />* Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.<br />* Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br />Allied Universal® is an<br />Equal Opportunity Employer.<br />All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law.<br />For more information: www.aus.com.<br />#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "Possess at least 2 years of security‑related experience",
+            "Possess 3 or more years of combined law enforcement, military, and/or security‑related experience or a college degree",
+            "Possess an active DoD Secret Clearance",
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Level III Armed Certification in Texas only",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry‑specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $27.32 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Armed Vehicle Patrol Security Clearance in Fort Worth, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more",
+            "This driving post offers the opportunity to support a dynamic environment with professionalism, teamwork, and integrity while contributing to a caring, reliable, and innovative culture",
+            "Mon: 02:00 PM - 10:00 PM",
+            "Thur: 02:00 PM - 10:00 PM",
+            "Fri: 02:00 PM - 10:00 PM",
+            "Sat: 02:00 PM - 10:00 PM",
+            "Provide customer service to personnel, visitors, and/or contractors by carrying out security-related procedures, site‑specific policies, and when appropriate, emergency response activities at an aerospace and defense location",
+            "Respond to incidents, alarms, and/or critical situations in a calm, problem‑solving manner, documenting observations and communicating with site contacts and Allied Universal leadership as needed",
+            "Conduct regular and random armed patrols throughout buildings, restricted areas, and perimeter zones to help deter unauthorized access and/or unusual activity",
+            "Monitor entry and exit points, verify credentials and/or authorizations, and report policy violations, hazards, and suspicious behavior in accordance with post orders and applicable regulations",
+            "Support access control, incident reporting, and emergency preparedness activities while working in environments and conditions that may vary across the location",
+            "8 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "e76ba379f0a7",
+      "title": "GardaWorld Security Services U.S. is hiring: Security- Armed School Officer in Dallas",
+      "company": "GardaWorld Security Services U.S.",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "unarmed",
+      "pay": "$25.00/hr",
+      "pay_min": 25.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Contractor",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.recruit.net/job/gardaworld-security-services-u-is-jobs/ACDA49CF22107DEA",
+      "via": "via Recruit.net",
+      "description": "GARDAWORLD SECURITY SERVICES U.S.<br />JOB DESCRIPTION:<br />SECURITY-ARMED SCHOOL RESOURCE OFFICER- MUST HAVE LEVEL 3 LICENSE (ARMED GUARD CARD)<br />You've got the right skills.<br />What you need is the right opportunity to unleash your potential.<br />We agree, and we're hiring!<br />Every day is different at GardaWorld with diverse work assignments and flexible schedules.<br />We are leaders in Professional training programs that cover every aspect of delivering world class security services.<br />And every industry counts on us because we're the very best at what we do.<br />Perhaps you are, too.<br />In our complex world today, GardaWorld stands out as the largest privately owned security services company in the world.<br />We're experts at protecting people and assets.<br />We're also growing everywhere and expanding in multiple locations.<br />If you're a sharp, talented, self-confident individual who excels in customer service, you can build a future here.<br />We give you all the tools you need to expand your skills and grow your career with exceptional opportunities for advancement.<br />You can stand out - and thrive - here, too.<br />At GardaWorld, we know your compensation is important, so we provide competitive hourly starting rates for every market we're in:<br />Shift: Monday-Friday 2:00pm-7:00pm<br />Compensation: $25.00/hr<br />ABOUT THE JOB:<br />* Securing car pool line after school release<br />* Responsible for securing after school activities until everyone has left premises<br />* Assisting staff by observing and reporting<br />* Excellent customer service is always top priority.<br />* You observe, survey the area, and provide reporting on activity at your assigned location.<br />* You provide rapid response in critical situations.<br />* You're good with reading and writing detailed reports.<br />* You know when and how to enforce customer procedures, regulations, and standards.<br />YOUR BACKGROUND:<br />* You have a high school education or equivalent (GED)<br />* You're able to ace (and pass) an extensive screening process<br />* Legally authorized to work in the United States<br />* If you have Security, Military, Corrections, or Law Enforcement experience – even better!<br />* You have a Level 3 state security license or ability to obtain one<br />* At least 21years of age or older as required by applicable law or contractual requirements<br />* Valid driver's license with good driving history<br />* Demonstrate a stable work history<br />* Have reliable transportation<br />* Able to walk, stand, and sit for long periods of time<br />If you want a real career opportunity where you're part of a dynamic supportive team that’s dedicated to your success, check us out.<br />We're a global organization that embraces our cultural diversity and we promote engagement, communication, and sharing ideas across all our teams.<br />At GardaWorld, you'll have plenty of room to grow - and that's just for starters.<br />Explore your future with us today.<br />- Work today, get paid today, with DailyPay!<br />GardaWorld offers DailyPay - a voluntary benefit that allows you to access your pay on day 1 of work.<br />DAILYPAY'S MOST USED FEATURES INCLUDE:<br />* PAY:Get instant access to your money as you earn it<br />* SAVE:Automatically save a portion of every paycheck<br />* BALANCE ALERTS:Track your real-time earnings & budget for upcoming bills or expenses<br />License # B07179<br />#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "SECURITY-ARMED SCHOOL RESOURCE OFFICER- MUST HAVE LEVEL 3 LICENSE (ARMED GUARD CARD)",
+            "You're good with reading and writing detailed reports",
+            "You know when and how to enforce customer procedures, regulations, and standards",
+            "You have a high school education or equivalent (GED)",
+            "You're able to ace (and pass) an extensive screening process",
+            "Legally authorized to work in the United States",
+            "If you have Security, Military, Corrections, or Law Enforcement experience – even better!",
+            "You have a Level 3 state security license or ability to obtain one",
+            "At least 21years of age or older as required by applicable law or contractual requirements",
+            "Valid driver's license with good driving history",
+            "Demonstrate a stable work history",
+            "Have reliable transportation",
+            "Able to walk, stand, and sit for long periods of time",
+            "10 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Shift: Monday-Friday 2:00pm-7:00pm",
+            "Compensation: $25.00/hr",
+            "GardaWorld offers DailyPay - a voluntary benefit that allows you to access your pay on day 1 of work",
+            "PAY:Get instant access to your money as you earn it",
+            "SAVE:Automatically save a portion of every paycheck",
+            "BALANCE ALERTS:Track your real-time earnings & budget for upcoming bills or expenses",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Securing car pool line after school release",
+            "Responsible for securing after school activities until everyone has left premises",
+            "Assisting staff by observing and reporting",
+            "Excellent customer service is always top priority",
+            "You observe, survey the area, and provide reporting on activity at your assigned location",
+            "You provide rapid response in critical situations",
+            "3 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "df07a166235c",
+      "title": "Armed Security Officer – Campus Patrol & Response",
+      "company": "Prysmian",
+      "location": "McKinney, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-campus-patrol-response--mckinney--ee098bafc3bedc5eca4f5b6e6a59554d7",
+      "via": "via BeBee",
+      "description": "<p>Prysmian is seeking a dedicated Security Officer for the McKinney, Texas campus on the day shift. You will perform armed patrols to protect property, personnel and visitors, monitor cameras and access controls, and manage visitor vetting and gate procedures.</p>\n<p>This role requires alertness, sound judgment and strict adherence to safety protocols. Ideal candidates have at least 2 years in security, hold a Texas Level III license, and can pass background and medical screenings.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Ideal candidates have at least 2 years in security, hold a Texas Level III license, and can pass background and medical screenings"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "You will perform armed patrols to protect property, personnel and visitors, monitor cameras and access controls, and manage visitor vetting and gate procedures",
+            "This role requires alertness, sound judgment and strict adherence to safety protocols"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "e1279fa9b1a6",
+      "title": "Armed Security Officer, Flexible Part-Time Shifts",
+      "company": "Allied Universal",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "part-time",
+      "pay": "36K–39K a year",
+      "pay_min": 36000.0,
+      "pay_max": 39000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-19",
+      "apply_link": "https://salutemyjob.com/jobs/part-time-security-officer-with-active-clearance-fort-worth-texas/2935324166-2/",
+      "via": "via JobLeads",
+      "description": "<p>Allied Universal is seeking a Security Officer Armed Enhanced for a part‑time patrol in Fort Worth, TX. The role offers fixed shifts with opportunities to pick‑up additional hours and earn more through the Earn More, Claim‑A‑Shift program.</p><p>The position includes a DoD Secret Clearance requirement and a Texas Level III Armed Certification, with a pay rate of $27.32 per hour. The role emphasizes customer service, adherence to site policies, and the ability to respond to incidents and alarms</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role offers fixed shifts with opportunities to pick‑up additional hours and earn more through the Earn More, Claim‑A‑Shift program",
+            "The position includes a DoD Secret Clearance requirement and a Texas Level III Armed Certification, with a pay rate of $27.32 per hour"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The role emphasizes customer service, adherence to site policies, and the ability to respond to incidents and alarms"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "5ce033b43321",
+      "title": "Armed Cleared Security Officer",
+      "company": "Allied Universal",
+      "location": "White Settlement, TX",
+      "vertical": "security",
+      "role": "mobile-patrol",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-19",
+      "apply_link": "https://jobs.womenforhire.com/job/usa/white-settlement-tx/armed-cleared-security-officer-065689/",
+      "via": "via Women For Hire- Job Board",
+      "description": "<h2>Overview</h2><br /><p><span> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br /><h2>Job Description</h2><br /><hr /><p><span> As a <strong>Security Officer Armed Mobile Patrol Driver with Active Clearance</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. As an Armed Security Officer supporting an aerospace and defense location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This driving post offers the opportunity to provide exceptional customer service and communication while contributing to a mission-focused environment. At Allied Universal, you will work with an agile, reliable, innovative team that puts people first and acts with integrity. </span></p><hr /><p><strong><span>Position Type: Full Time</span></strong></p><p><strong><span> Pay Rate: $27.32 / Hour </span></strong></p><p><strong><span>Job Schedule:</span></strong></p><table><thead><tr><th>Day</th><th>Time</th></tr></thead><tbody><tr><td>Mon</td><td>10:00 PM - 06:00 AM</td></tr><tr><td>Tue</td><td>10:00 PM - 06:00 AM</td></tr><tr><td>Fri</td><td>10:00 PM - 06:00 AM</td></tr><tr><td>Sat</td><td>10:00 PM - 06:00 AM</td></tr><tr><td>Sun</td><td>10:00 PM - 06:00 AM</td></tr></tbody></table><hr /><p><strong><span> What You'll Do:</span></strong></p><ul><li><span>Provide customer service to personnel and visitors by carrying out security-related procedures, site-specific policies, access-control protocols, and/or emergency response activities at an aerospace and defense location.</span></li><li><span>Conduct regular and random armed patrols of facilities, parking areas, entry points, and perimeter areas to help identify unusual conditions and help deter unauthorized activity.</span></li><li><span>Monitor access points, verify credentials, and maintain visitor and contractor entry records in accordance with site requirements.</span></li><li><span>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following established escalation and reporting procedures.</span></li><li><span>Carry authorized equipment in accordance with applicable laws, licensing requirements, post orders, and Allied Universal policies.</span></li></ul><hr /><p><strong><span> Minimum Requirements:</span></strong></p><ul><li><span>Have at least 2 years of security-related experience.</span></li><li><span>Have 3 or more years of combined law enforcement, military, and/or security-related experience or a college degree.</span></li><li><span>Possess an active DoD Secret Clearance.</span></li><li><span>Be at least 21 years of age.</span></li><li><span>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li><span>Possess a Level III Armed Certification in Texas.</span></li><li><span>Be at least 21 years of age for armed roles.</span></li><li><span>Possess a high school diploma or equivalent.</span></li><li><span>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li><span>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li><span>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li><span>Participate in industry-specific security training programs.</span></li><li><span>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li><span>A valid driver’s license will be required for driving positions only.</span></li></ul><hr /><p><strong><span>Why Join Us:</span></strong></p><ul><li><span><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li><span><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li><span><strong>Financial and Health Benefits:</strong> Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</span></li><li><span><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</span></li></ul><hr /><br /><h2>Closing</h2><br /><p><span><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com. </span></p><p><span> If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. </span></p><br /><h2>Requisition ID</h2><br /><br />2026-1653376",
+      "job_highlights": [
+        {
+          "items": [
+            "Have at least 2 years of security-related experience",
+            "Have 3 or more years of combined law enforcement, military, and/or security-related experience or a college degree",
+            "Possess an active DoD Secret Clearance",
+            "Be at least 21 years of age",
+            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Possess a Level III Armed Certification in Texas",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "11 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Pay Rate: $27.32 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "2 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "As a Security Officer Armed Mobile Patrol Driver with Active Clearance in Fort Worth, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more",
+            "As an Armed Security Officer supporting an aerospace and defense location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism",
+            "This driving post offers the opportunity to provide exceptional customer service and communication while contributing to a mission-focused environment",
+            "10:00 PM - 06:00 AM",
+            "10:00 PM - 06:00 AM",
+            "Provide customer service to personnel and visitors by carrying out security-related procedures, site-specific policies, access-control protocols, and/or emergency response activities at an aerospace and defense location",
+            "Conduct regular and random armed patrols of facilities, parking areas, entry points, and perimeter areas to help identify unusual conditions and help deter unauthorized activity",
+            "Monitor access points, verify credentials, and maintain visitor and contractor entry records in accordance with site requirements",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following established escalation and reporting procedures",
+            "Carry authorized equipment in accordance with applicable laws, licensing requirements, post orders, and Allied Universal policies",
+            "7 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "69125f4f760d",
       "title": "Hiring Event - Armed Security Officers - August 26, 2026 9:30AM - 2:00PM",
       "company": "Sunstates Security",
       "location": "Dallas, TX",
       "vertical": "security",
-      "role": "industrial",
+      "role": "festival",
       "pay": "$21.00 - $23.00/hr",
       "pay_min": 21.0,
       "pay_max": 23.0,
@@ -57,67 +390,62 @@
       ]
     },
     {
-      "job_hash": "d7898b5753ee",
-      "title": "Armed Security Officer Flex Office Building",
+      "job_hash": "57bd4c14a7e6",
+      "title": "Armed Security Officer Patrol Emergency Preparedness",
       "company": "Allied Universal",
-      "location": "Plano, TX",
+      "location": "Dallas, TX",
       "vertical": "security",
-      "role": "unarmed",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Internship",
+      "role": "mobile-patrol",
+      "pay": "26K–34K a year",
+      "pay_min": 26000.0,
+      "pay_max": 34000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
       "posted_date": "2026-08-18",
-      "apply_link": "https://jobs.aus.com/job/plano/armed-security-officer-flex-office-building/22950/99368014048",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of industries such as Healthcare, Education, Finance and more. Join a leading team where flexibility meets opportunity. As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries. Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities. The Security Professional Flex Officer may be called upon to work irregular shifts at times with little to no advance notice.<br><br><strong>Responsibilities<br><br></strong><ul><li>Perform security patrols of designated areas on foot or in vehicle</li><li>Watch for irregular or unusual conditions that may create security concerns or safety hazards</li><li>Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons</li><li>Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles</li><li>Permit authorized persons to enter property and monitors entrances and exits</li><li>Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements</li><li>Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post</li><li>Aid customers, employees, and visitors in a courteous and professional manner</li><li>Make emergency notifications as necessary pursuant to site Post Orders<br><br></li></ul><strong>Qualifications (must Have)<br><br></strong><ul><li>Must possess a high school diploma or equivalent or 5 years of verifiable experience</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment</li><li>Valid driver’s license if driving a company or customer-owned vehicle</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law</li><li>No prior experience required</li><li>Be at least 18 years of age, or higher if required by the state (21 years, if armed)</li><li>Reliability and ability to adapt to different post assignments</li><li>Be able to operate radio or telephone equipment and/or console monitors</li><li>Demonstrated ability to interact cordially and communicate with the public</li><li>Effective oral and written communication skills; able to write informatively, clearly, and accurately</li><li>Active listening and problem-solving skills</li><li>Assess and evaluate situations effectively; identify critical issues quickly and accurately</li><li>Mediate conflict with tact, diplomacy</li><li>Teamwork</li><li>Attention to detail<br><br></li></ul><strong>Preferred Qualifications (nice To Have)<br><br></strong><ul><li>Ability to speak, read, and write in multiple languages (e.g., Spanish, Portuguese, French, Arabic)</li><li>Prior security, military, or law enforcement experience<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1658786<br><br>",
+      "apply_link": "https://www.jobleads.com/us/job/armed-security-officer-patrol-emergency-preparedness--dallas--northern--ea99a28f61e87438885b417ece299007c",
+      "via": "via JobLeads",
+      "description": "<div><p>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.</p><p>As a <b>Armed Security Officer Patrol Emergency Preparedness</b> in <b>Dallas, TX</b>, you will serve and safeguard clients in a range of industries such as Manufacturing & Industrial, and more. Join a leading team where flexibility meets opportunity. As a <b>Part-Time Security Officer</b>, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As an Armed Patrol Officer at a dynamic manufacturing and industrial location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, respond to security-related situations, and deliver outstanding customer service. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every shift.</p><h3>Position Type</h3><p>Part Time</p><h3>Pay Rate</h3><p>Pay Rate: $22.00 / Hour</p><h3>Job Schedule</h3><ul><li>Mon 03:00 PM - 11:00 PM</li><li>Sun 03:00 PM - 11:00 PM</li></ul><h3>What You’ll Do</h3><ul><li>Provide customer service to employees, visitors, contractors, and/or vendors at a manufacturing and industrial location by carrying out security-related procedures, site-specific policies, and, when appropriate, emergency response activities.</li><li>Conduct regular and random armed patrols of manufacturing facilities, production areas, access points, parking areas, and perimeter locations to help to deter unauthorized activity and identify unusual conditions.</li><li>Monitor and control access to restricted areas, verify credentials, and maintain awareness of vehicle, visitor, and contractor activity in accordance with site requirements.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner; document observations and report concerns through established procedures.</li><li>Maintain proficiency with assigned equipment and comply with applicable laws, client policies, and Allied Universal procedures related to armed post duties.</li></ul><h3>Minimum Requirements</h3><ul><li>At least one year of security-related experience is required.</li><li>A Texas Level III Armed Certification is required.</li><li>Customer service experience is preferred.</li><li>CPR and First Aid certification is preferred.</li><li>An Armed Guard Card or License is preferred.</li><li>Be at least 21 years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Participate in industry-specific security training programs.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.</li></ul><h3>Why Join Us</h3><ul><li><b>Smart Tools:</b> Access to our exclusive technology to view and claim additional shifts to earn more.</li><li><b>Career Growth:</b> Get paid training and access to career growth opportunities.</li><li><b>Financial Benefits:</b> Participate in our retirement savings plan to invest in your future.</li><li><b>Exclusive Perks:</b> Enjoy discounts on top brands and services through our Perks Program.</li></ul><p><b>Allied Universal® is an Equal Opportunity Employer.</b> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.</p><p>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.</p></div>",
       "job_highlights": [
         {
           "items": [
-            "Must possess a high school diploma or equivalent or 5 years of verifiable experience",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "Valid driver’s license if driving a company or customer-owned vehicle",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "At least one year of security-related experience is required",
+            "A Texas Level III Armed Certification is required",
+            "Be at least 21 years of age for armed roles",
+            "Possess a high school diploma or equivalent",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
+            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
             "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "No prior experience required",
-            "Be at least 18 years of age, or higher if required by the state (21 years, if armed)",
-            "Reliability and ability to adapt to different post assignments",
-            "Be able to operate radio or telephone equipment and/or console monitors",
-            "Demonstrated ability to interact cordially and communicate with the public",
-            "Effective oral and written communication skills; able to write informatively, clearly, and accurately",
-            "Active listening and problem-solving skills",
-            "Assess and evaluate situations effectively; identify critical issues quickly and accurately",
-            "Mediate conflict with tact, diplomacy",
-            "Teamwork",
-            "Attention to detail",
-            "13 more items(s)"
+            "Participate in industry-specific security training programs",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "A valid driver’s license will be required for driving positions only",
+            "7 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries",
-            "Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities",
-            "Medical, dental, vision, basic life, AD&D, and disability insurance",
-            "Company's retirement plans",
-            "Seven holidays annually paid at time and a half, if worked",
-            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
-            "3 more items(s)"
+            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
+            "Pay Rate",
+            "Pay Rate: $22.00 / Hour",
+            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
+            "Career Growth: Get paid training and access to career growth opportunities",
+            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
+            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "4 more items(s)"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "Perform security patrols of designated areas on foot or in vehicle",
-            "Watch for irregular or unusual conditions that may create security concerns or safety hazards",
-            "Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons",
-            "Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles",
-            "Permit authorized persons to enter property and monitors entrances and exits",
-            "Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements",
-            "Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post",
-            "Aid customers, employees, and visitors in a courteous and professional manner",
-            "Make emergency notifications as necessary pursuant to site Post Orders",
+            "As a Armed Security Officer Patrol Emergency Preparedness in Dallas, TX, you will serve and safeguard clients in a range of industries such as Manufacturing & Industrial, and more",
+            "As an Armed Patrol Officer at a dynamic manufacturing and industrial location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, respond to security-related situations, and deliver outstanding customer service",
+            "Mon 03:00 PM - 11:00 PM",
+            "Sun 03:00 PM - 11:00 PM",
+            "Provide customer service to employees, visitors, contractors, and/or vendors at a manufacturing and industrial location by carrying out security-related procedures, site-specific policies, and, when appropriate, emergency response activities",
+            "Conduct regular and random armed patrols of manufacturing facilities, production areas, access points, parking areas, and perimeter locations to help to deter unauthorized activity and identify unusual conditions",
+            "Monitor and control access to restricted areas, verify credentials, and maintain awareness of vehicle, visitor, and contractor activity in accordance with site requirements",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner; document observations and report concerns through established procedures",
+            "Maintain proficiency with assigned equipment and comply with applicable laws, client policies, and Allied Universal procedures related to armed post duties",
             "6 more items(s)"
           ],
           "title": "Responsibilities"
@@ -190,323 +518,68 @@
       ]
     },
     {
-      "job_hash": "f6d5b79a5b07",
-      "title": "Armed Security Officer - Cleared",
+      "job_hash": "d7898b5753ee",
+      "title": "Armed Security Officer Flex Office Building",
       "company": "Allied Universal",
-      "location": "Aledo, TX",
+      "location": "Plano, TX",
       "vertical": "security",
-      "role": "armed",
+      "role": "construction",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-17",
-      "apply_link": "https://jobs.womenforhire.com/job/usa/aledo-tx/armed-security-officer-cleared-353303/",
-      "via": "via Women For Hire- Job Board",
-      "description": "<h2>Overview</h2><br /><p><span> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </span></p><br /><h2>Job Description</h2><br /><hr /><p><span> As a <strong>Security Officer Armed Patrol Driver Security Clearance Response</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As an Armed Security Officer supporting an aerospace and defense location, you will conduct routine patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism. This driving post offers the opportunity to provide exceptional customer service and clear communication while supporting a mission-focused environment. Join Allied Universal, where agility, reliability, innovation, teamwork, care, and integrity guide our work. </span></p><hr /><p><strong><span>Position Type: Part Time</span></strong></p><p><strong><span> Pay Rate: $27.32 / Hour </span></strong></p><p><strong><span>Job Schedule:</span></strong></p><table><thead><tr><th>Day</th><th>Time</th></tr></thead><tbody><tr><td>Tue</td><td>02:00 PM - 10:00 PM</td></tr><tr><td>Thur</td><td>02:00 PM - 10:00 PM</td></tr><tr><td>Fri</td><td>02:00 PM - 10:00 PM</td></tr></tbody></table><hr /><p><strong><span> What You'll Do:</span></strong></p><ul><li><span>Provide customer service by carrying out site-specific security-related procedures, policies, and/or emergency response activities at an aerospace and defense location.</span></li><li><span>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, notifying appropriate personnel and documenting actions taken.</span></li><li><span>Conduct regular and random armed patrols of facilities, controlled areas, parking locations, and perimeter boundaries to help identify unusual activity and help deter unauthorized access.</span></li><li><span>Monitor access points, verify credentials as directed, and assist with visitor and contractor entry procedures in accordance with site requirements.</span></li><li><span>Carry and maintain assigned duty equipment, including firearms, in accordance with applicable laws, training, company policy, and site procedures.</span></li></ul><hr /><p><strong><span> Minimum Requirements:</span></strong></p><ul><li><span>Have at least 2 years of security-related experience.</span></li><li><span>Have at least 3 years of combined law enforcement, military, and/or security-related experience or a college degree.</span></li><li><span>Possess an active DoD Secret Clearance.</span></li><li><span>Be at least 21 years of age.</span></li><li><span>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</span></li><li><span>Possess a Level III Armed Certification in Texas.</span></li><li><span>Be at least 21 years of age for armed roles.</span></li><li><span>Possess a high school diploma or equivalent.</span></li><li><span>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</span></li><li><span>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</span></li><li><span>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</span></li><li><span>Participate in industry-specific security training programs.</span></li><li><span>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</span></li><li><span>A valid driver’s license will be required for driving positions only.</span></li></ul><hr /><p><strong><span>Why Join Us:</span></strong></p><ul><li><span><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</span></li><li><span><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</span></li><li><span><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</span></li><li><span><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</span></li></ul><hr /><br /><h2>Closing</h2><br /><p><span><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com. </span></p><p><span> If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. </span></p><br /><h2>Requisition ID</h2><br /><br />2026-1647186",
-      "job_highlights": [
-        {
-          "items": [
-            "Have at least 2 years of security-related experience",
-            "Have at least 3 years of combined law enforcement, military, and/or security-related experience or a college degree",
-            "Possess an active DoD Secret Clearance",
-            "Be at least 21 years of age",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
-            "Possess a Level III Armed Certification in Texas",
-            "Be at least 21 years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Participate in industry-specific security training programs",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "11 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Pay Rate: $27.32 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As an Armed Security Officer supporting an aerospace and defense location, you will conduct routine patrols, maintain a visible presence to help deter incidents, and respond to security-related concerns with professionalism",
-            "This driving post offers the opportunity to provide exceptional customer service and clear communication while supporting a mission-focused environment",
-            "02:00 PM - 10:00 PM",
-            "02:00 PM - 10:00 PM",
-            "02:00 PM - 10:00 PM",
-            "Provide customer service by carrying out site-specific security-related procedures, policies, and/or emergency response activities at an aerospace and defense location",
-            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, notifying appropriate personnel and documenting actions taken",
-            "Conduct regular and random armed patrols of facilities, controlled areas, parking locations, and perimeter boundaries to help identify unusual activity and help deter unauthorized access",
-            "Monitor access points, verify credentials as directed, and assist with visitor and contractor entry procedures in accordance with site requirements",
-            "Carry and maintain assigned duty equipment, including firearms, in accordance with applicable laws, training, company policy, and site procedures",
-            "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "3d2e21b3493a",
-      "title": "Armed Security Officer (TX) - Weekend PT with Benefits",
-      "company": "Socket.dev",
-      "location": "Hutchins, TX",
-      "vertical": "security",
-      "role": "event",
-      "pay": "30,307–35,817 a year",
-      "pay_min": 30307.0,
-      "pay_max": 35817.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-16",
-      "apply_link": "https://www.learn4good.com/jobs/texas/security/5371132584/e/",
-      "via": "via JobLeads",
-      "description": "<p>Marksman Security is hiring for part-time weekend armed security officers in Hutchins, TX. The role involves guarding a food distribution warehouse, patrolling, checking checkpoints, and monitoring CCTV and gatehouse access.</p><p>Shifts are available 6pm-6am on Sat/Sun or 10pm-6am, with a pay rate of $23.00 per hour. Offers include 401(k), medical/vision/dental insurance, short-term disability, life and pet insurance, legal/guidance services, paid training, PTO and bi-weekly pay, with career</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Shifts are available 6pm-6am on Sat/Sun or 10pm-6am, with a pay rate of $23.00 per hour",
-            "Offers include 401(k), medical/vision/dental insurance, short-term disability, life and pet insurance, legal/guidance services, paid training, PTO and bi-weekly pay, with career"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The role involves guarding a food distribution warehouse, patrolling, checking checkpoints, and monitoring CCTV and gatehouse access"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "91d7584b7aa8",
-      "title": "Armed Security Officer: Perimeter Patrol Growth Benefits",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "parking",
-      "pay": "26K–43K a year",
-      "pay_min": 26000.0,
-      "pay_max": 43000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-16",
-      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5358356297/e/",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal in Dallas, TX is seeking an Armed Security Officer for perimeter patrol at a financial institution. You will perform armed patrols, monitor entrances, and respond to incidents, providing professional customer service.</p><p>Requirements include at least 2 years in security, Level III Armed Certification in Texas, HS diploma, and ability to work in a team. This position offers full-time hours and a $22 per hour pay rate.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Requirements include at least 2 years in security, Level III Armed Certification in Texas, HS diploma, and ability to work in a team"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "This position offers full-time hours and a $22 per hour pay rate"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "You will perform armed patrols, monitor entrances, and respond to incidents, providing professional customer service"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "19cf924c7e2e",
-      "title": "Armed Patrol Driver – Retail Security & Growth (Full-Time)",
-      "company": "Allied Universal",
-      "location": "Waxahachie, TX",
-      "vertical": "security",
-      "role": "retail",
-      "pay": "25K–29K a year",
-      "pay_min": 25000.0,
-      "pay_max": 29000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://www.learn4good.com/jobs/waxahachie/texas/security/5344211375/e/",
-      "via": "via JobLeads",
-      "description": "<p>Allied Universal, North America's leading security and facility services company, invites you to join as an Armed Security Officer Certified Patrol Driver in Waxahachie, TX. In this role you will patrol retail locations, maintain a visible presence, and respond to security concerns with professionalism to protect clients and employees.</p><p>This full-time position offers a pay rate of $18.00 per hour, a schedule on Thursdays through Saturdays, and opportunities for career growth, training, and</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "This full-time position offers a pay rate of $18.00 per hour, a schedule on Thursdays through Saturdays, and opportunities for career growth, training, and"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "In this role you will patrol retail locations, maintain a visible presence, and respond to security concerns with professionalism to protect clients and employees"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "68f43ac0763f",
-      "title": "ARMED SECURITY OFFICER",
-      "company": "Homeland Protective Services Inc",
-      "location": "Mesquite, TX",
-      "vertical": "security",
-      "role": "school",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-15",
-      "apply_link": "https://bebee.com/us/jobs/armed-security-officer-homeland-protective-services-inc-mesquite--fj-2313748275",
+      "schedule": "Internship",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://jobs.aus.com/job/plano/armed-security-officer-flex-office-building/22950/99368014048",
       "via": "via LinkedIn",
-      "description": "Provide firearm-qualified protection for assigned sites. Requires a current Texas Level III certification, valid security license, clean background, and strong judgment under pressure.",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of industries such as Healthcare, Education, Finance and more. Join a leading team where flexibility meets opportunity. As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries. Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities. The Security Professional Flex Officer may be called upon to work irregular shifts at times with little to no advance notice.<br><br><strong>Responsibilities<br><br></strong><ul><li>Perform security patrols of designated areas on foot or in vehicle</li><li>Watch for irregular or unusual conditions that may create security concerns or safety hazards</li><li>Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons</li><li>Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles</li><li>Permit authorized persons to enter property and monitors entrances and exits</li><li>Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements</li><li>Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post</li><li>Aid customers, employees, and visitors in a courteous and professional manner</li><li>Make emergency notifications as necessary pursuant to site Post Orders<br><br></li></ul><strong>Qualifications (must Have)<br><br></strong><ul><li>Must possess a high school diploma or equivalent or 5 years of verifiable experience</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment</li><li>Valid driver’s license if driving a company or customer-owned vehicle</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law</li><li>No prior experience required</li><li>Be at least 18 years of age, or higher if required by the state (21 years, if armed)</li><li>Reliability and ability to adapt to different post assignments</li><li>Be able to operate radio or telephone equipment and/or console monitors</li><li>Demonstrated ability to interact cordially and communicate with the public</li><li>Effective oral and written communication skills; able to write informatively, clearly, and accurately</li><li>Active listening and problem-solving skills</li><li>Assess and evaluate situations effectively; identify critical issues quickly and accurately</li><li>Mediate conflict with tact, diplomacy</li><li>Teamwork</li><li>Attention to detail<br><br></li></ul><strong>Preferred Qualifications (nice To Have)<br><br></strong><ul><li>Ability to speak, read, and write in multiple languages (e.g., Spanish, Portuguese, French, Arabic)</li><li>Prior security, military, or law enforcement experience<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1658786<br><br>",
       "job_highlights": [
         {
           "items": [
-            "Requires a current Texas Level III certification, valid security license, clean background, and strong judgment under pressure"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Provide firearm-qualified protection for assigned sites"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "ce2d23df029d",
-      "title": "Armed Security Officers- All Shifts",
-      "company": "Prosegur Security USA",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "full-time",
-      "pay": "23–32 an hour",
-      "pay_min": 23.0,
-      "pay_max": 32.0,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-14",
-      "apply_link": "https://prosegur.joblinkapply.com/job/f31ea7d5-8fc4-4591-acf9-1e11701baba3",
-      "via": "via ZipRecruiter",
-      "description": "<b>Overview</b>\n<br>\n<br>\nAt Prosegur, we make our world safer by taking care of people and businesses while remaining at the forefront of innovation. Every day, we work to secure what our clients value most, from their families to their assets, from their reputation to their networks, and from their money to their cloud. As the 3rd largest security services provider, our 175k+ team members in 36 countries combine and adapt global best practices to match the unique nature of each market we serve and partner with Electronic Security, Global Risk Services, CyberSecurity, and Remote Services (iSOC) divisions to create meaningful 'Hybrid Security' solutions for Prospects.\n<br>\n<br><b>Job Details</b>\n<br>\n<br><b><strong>Key Responsibilities:</strong></b>\n<br>\n<br>\n<ul>\n <li>Conduct regular patrols of assigned areas, identifying potential security breaches or hazards</li>\n <li>Deter, detect, and respond to security threats or incidents promptly and professionally</li>\n <li>Control access points and monitor premises to prevent unauthorized access</li>\n <li>Provide emergency response, including de-escalation, arrest control, and restraining individuals as necessary</li>\n <li>Maintain clear and concise incident reports and documentation for all security-related incidents</li>\n <li>Engage with individuals in a courteous and professional manner to enforce rules and regulations</li>\n <li>Coordinate with local law enforcement when required</li>\n</ul>\n<br>\n<br><b><strong>Qualifications and Requirements:</strong></b>\n<br>\n<br>\n<ul>\n <li>Experience: Background in Military Police, law enforcement, or certified corrections is required</li>\n <li>Firearms: Must have own firearm and a valid license to carry; an armed guard license is required in applicable states</li>\n <li>Training: Certified in arrest control, handcuff, and baton use is preferred</li>\n <li>Physical Fitness: Capable of performing physical duties such as patrolling, responding to incidents, and managing potentially intense confrontations</li>\n <li>Compliance: Understanding of and commitment to all local, state, and federal security and firearm regulations</li>\n <li>Schedule Flexibility: Ability to work various shifts, including nights, weekends, and holidays as needed</li>\n</ul>\n<br>\n<br><b><strong>Preferred Qualifications: </strong></b>\n<br>\n<br>\n<ul>\n <li>Must have obtained Top Security Clearance in the past 5 years</li>\n <li>Must have obtained a Security Clearance in the past 5 years</li>\n</ul>\n<br>\n<br><b><strong>Preferred Skills:</strong></b>\n<br>\n<br>\n<ul>\n <li>Strong observational skills with a keen attention to detail</li>\n <li>Excellent communication and de-escalation abilities</li>\n <li>High level of professionalism and discretion</li>\n <li>Prior training or certification in security management, conflict resolution, or emergency response</li>\n</ul>\n<br>\n<br><b><strong>Physical Requirements:</strong></b>\n<br>\n<br>\n<ul>\n <li>Must be able to stand, walk, and patrol for extended periods</li>\n <li>Capable of lifting or moving objects up to 50 lbs as needed</li>\n</ul>\n<br>\n<br>\nThis position plays a critical role in ensuring a safe and secure environment for our clients. We are looking for a dedicated and proactive individual committed to the highest standards of security and professionalism.\n<br>\n<br>\n#SCR123\n<br>\n<br><b>Certification Requirements</b>\n<br>\n<br>\n<ul>\n <li>Armed Security License</li>\n <li>Security Guard Card</li>\n <li>Driver's License</li>\n</ul>\n<br>\n<br><b>Education Requirements</b>\n<br>\n<br>\n<ul>\n <li>High School Diploma</li>\n</ul>\n<br>\n<br><b>Additional Information / Benefits</b>\n<br>\n<br>\n<ul>\n <li>401K/403b Plan</li>\n <li>Dental Insurance</li>\n <li>Vision Insurance</li>\n <li>Medical Insurance</li>\n</ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Experience: Background in Military Police, law enforcement, or certified corrections is required",
-            "Firearms: Must have own firearm and a valid license to carry; an armed guard license is required in applicable states",
-            "Physical Fitness: Capable of performing physical duties such as patrolling, responding to incidents, and managing potentially intense confrontations",
-            "Compliance: Understanding of and commitment to all local, state, and federal security and firearm regulations",
-            "Schedule Flexibility: Ability to work various shifts, including nights, weekends, and holidays as needed",
-            "Must be able to stand, walk, and patrol for extended periods",
-            "Capable of lifting or moving objects up to 50 lbs as needed",
-            "This position plays a critical role in ensuring a safe and secure environment for our clients",
-            "Armed Security License",
-            "Security Guard Card",
-            "Driver's License",
-            "High School Diploma",
-            "9 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "401K/403b Plan",
-            "Dental Insurance",
-            "Vision Insurance",
-            "Medical Insurance",
-            "1 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Conduct regular patrols of assigned areas, identifying potential security breaches or hazards",
-            "Deter, detect, and respond to security threats or incidents promptly and professionally",
-            "Control access points and monitor premises to prevent unauthorized access",
-            "Provide emergency response, including de-escalation, arrest control, and restraining individuals as necessary",
-            "Maintain clear and concise incident reports and documentation for all security-related incidents",
-            "Engage with individuals in a courteous and professional manner to enforce rules and regulations",
-            "Coordinate with local law enforcement when required",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "34ac1f0bf06c",
-      "title": "Armed Security Officer, Secret Security Clearance Patrol",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "armed",
-      "pay": "27.32 an hour",
-      "pay_min": 27.32,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-14",
-      "apply_link": "https://simplify.jobs/p/4497e71f-f8d4-400b-9c82-acf0ef402b19/Armed-Security-Officer",
-      "via": "via Simplify",
-      "description": "<h3>Overview</h3>\n<p> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve. </p>\n<h3>Job Description</h3>\n<p> As a <strong>Security Officer Armed Driver DoD Secret Security Clearance Patrol</strong> in <strong>Fort Worth, TX</strong>, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. As an Armed Security Officer at a leading aerospace and defense location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, and support a secure environment. This driving post combines professional communication, customer service, and prompt response to security-related concerns. Join Allied Universal, where agile, reliable, innovative teams put people first and act with integrity. </p>\n<p><strong>Position Type: Part Time</strong></p>\n<p><strong> Pay Rate: $27.32 / Hour </strong></p>\n<p><strong>Job Schedule:</strong></p>DayTimeMon10:00 PM - 06:00 AMFri10:00 PM - 06:00 AM\n<p><strong> What You'll Do:</strong></p>\n<ul>\n<li>Provide customer service to employees, visitors, and contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, access-control requirements, and when appropriate, emergency response activities.</li>\n<li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following established post orders and escalation protocols.</li>\n<li>Conduct regular and random armed patrols of facilities, restricted areas, parking areas, and perimeter locations to help deter unauthorized activity and report unusual conditions.</li>\n<li>Monitor access points, verify credentials and authorizations, and document visitor, contractor, delivery, and incident activity in accordance with site requirements.</li>\n<li>Maintain required firearms qualifications and handle assigned equipment responsibly while performing duties in accordance with Allied Universal policies, applicable laws, and client procedures.</li>\n</ul>\n<p><strong> Minimum Requirements:</strong></p>\n<ul>\n<li>Possess at least 2 years of security-related experience.</li>\n<li>Possess at least 3 years of combined law enforcement, military, and/or security-related experience or a college degree.</li>\n<li>Possess an active DoD Secret Clearance.</li>\n<li>Be at least 21 years of age.</li>\n<li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li>\n<li>Possess a Level III Armed Certification in Texas only.</li>\n<li>Be at least 21 years of age for armed roles.</li>\n<li>Possess a high school diploma or equivalent.</li>\n<li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li>\n<li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li>\n<li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li>\n<li>Participate in industry-specific security training programs.</li>\n<li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li>\n<li>A valid driver’s license will be required for driving positions only.</li>\n</ul>\n<p><strong>Why Join Us:</strong></p>\n<ul>\n<li><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</li>\n<li><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</li>\n<li><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</li>\n<li><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</li>\n</ul>\n<h3>Closing</h3>\n<p><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com. </p>\n<p> If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices. </p>\n<h3>Requisition ID</h3>2026-1656893",
-      "job_highlights": [
-        {
-          "items": [
-            "Possess at least 2 years of security-related experience",
-            "Possess at least 3 years of combined law enforcement, military, and/or security-related experience or a college degree",
-            "Possess an active DoD Secret Clearance",
-            "Be at least 21 years of age",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
-            "Possess a Level III Armed Certification in Texas only",
-            "Be at least 21 years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Participate in industry-specific security training programs",
+            "Must possess a high school diploma or equivalent or 5 years of verifiable experience",
             "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "11 more items(s)"
+            "Valid driver’s license if driving a company or customer-owned vehicle",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "No prior experience required",
+            "Be at least 18 years of age, or higher if required by the state (21 years, if armed)",
+            "Reliability and ability to adapt to different post assignments",
+            "Be able to operate radio or telephone equipment and/or console monitors",
+            "Demonstrated ability to interact cordially and communicate with the public",
+            "Effective oral and written communication skills; able to write informatively, clearly, and accurately",
+            "Active listening and problem-solving skills",
+            "Assess and evaluate situations effectively; identify critical issues quickly and accurately",
+            "Mediate conflict with tact, diplomacy",
+            "Teamwork",
+            "Attention to detail",
+            "13 more items(s)"
           ],
           "title": "Qualifications"
         },
         {
           "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Pay Rate: $27.32 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
+            "As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries",
+            "Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities",
+            "Medical, dental, vision, basic life, AD&D, and disability insurance",
+            "Company's retirement plans",
+            "Seven holidays annually paid at time and a half, if worked",
+            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
             "3 more items(s)"
           ],
           "title": "Benefits"
         },
         {
           "items": [
-            "As an Armed Security Officer at a leading aerospace and defense location, you will monitor and patrol assigned areas, maintain a visible presence to help deter incidents, and support a secure environment",
-            "This driving post combines professional communication, customer service, and prompt response to security-related concerns",
-            "DayTimeMon10:00 PM - 06:00 AMFri10:00 PM - 06:00 AM",
-            "Provide customer service to employees, visitors, and contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, access-control requirements, and when appropriate, emergency response activities",
-            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, following established post orders and escalation protocols",
-            "Conduct regular and random armed patrols of facilities, restricted areas, parking areas, and perimeter locations to help deter unauthorized activity and report unusual conditions",
-            "Monitor access points, verify credentials and authorizations, and document visitor, contractor, delivery, and incident activity in accordance with site requirements",
-            "Maintain required firearms qualifications and handle assigned equipment responsibly while performing duties in accordance with Allied Universal policies, applicable laws, and client procedures",
-            "5 more items(s)"
+            "Perform security patrols of designated areas on foot or in vehicle",
+            "Watch for irregular or unusual conditions that may create security concerns or safety hazards",
+            "Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons",
+            "Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles",
+            "Permit authorized persons to enter property and monitors entrances and exits",
+            "Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements",
+            "Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post",
+            "Aid customers, employees, and visitors in a courteous and professional manner",
+            "Make emergency notifications as necessary pursuant to site Post Orders",
+            "6 more items(s)"
           ],
           "title": "Responsibilities"
         }

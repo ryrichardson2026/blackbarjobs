@@ -1,11 +1,68 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/fort-worth-overnight-security-jobs",
   "market": "DFW",
   "target": "city-role",
   "count": 10,
   "exact": 10,
   "jobs": [
+    {
+      "job_hash": "a1916d5835be",
+      "title": "Night Shift Security Officer – FT/PT, Daily Pay",
+      "company": "Cascadia Global Security",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "21K–28K a year",
+      "pay_min": 21000.0,
+      "pay_max": 28000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5367277213/e/",
+      "via": "via JobLeads",
+      "description": "<p>Cascadia Global Security is seeking a Security Officer in Fort Worth, TX. This position offers full-time or part-time options with shifts including evenings and weekends; a company vehicle is required.</p><p>The pay is $17.50 per hour with daily pay and growth opportunities within a veteran-owned, nationwide security company. Applicants must be 21+, hold an unarmed Guard Card, have a valid driver’s license and clean driving record; background and DMV checks are required.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Applicants must be 21+, hold an unarmed Guard Card, have a valid driver’s license and clean driving record; background and DMV checks are required"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The pay is $17.50 per hour with daily pay and growth opportunities within a veteran-owned, nationwide security company"
+          ],
+          "title": "Benefits"
+        }
+      ]
+    },
+    {
+      "job_hash": "1cfd9d46823c",
+      "title": "Night Unarmed Security Officer: Patrol, Alarm Response",
+      "company": "Allied Universal",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "surveillance",
+      "pay": "15–20 an hour",
+      "pay_min": 15.0,
+      "pay_max": 20.0,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-20",
+      "apply_link": "https://www.learn4good.com/jobs/dallas/texas/security/5376473989/e/",
+      "via": "via Learn4Good",
+      "description": "Allied Universal is seeking a Security Officer Unarmed Patrol Alarm Verification in Dallas, TX. You will safeguard clients while performing routine patrols, monitoring access points, and responding to alarms to deter incidents.A strong emphasis on professional customer service in a welcoming environment is essential. The position is full time with shifts including nights, offering opportunities to work with a diverse team and grow within a reputable security company.#J-18808-Ljbffr",
+      "job_highlights": [
+        {
+          "items": [
+            "You will safeguard clients while performing routine patrols, monitoring access points, and responding to alarms to deter incidents",
+            "A strong emphasis on professional customer service in a welcoming environment is essential"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "65e523719d56",
       "title": "Night Security Alarm Monitor – 24​/7 Surveillance",
@@ -27,45 +84,6 @@
           "items": [
             "You will follow client protocols, contact authorities when needed, and maintain confidentiality in a fast-paced security environment",
             "The role requires staying alert through night shifts, weekends, and holidays, with strong multitasking skills and proficiency in Microsoft Office and Google Maps"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "3a56e4b35322",
-      "title": "Overnight Loss Prevention Officer",
-      "company": "Omni Hotels & Resorts",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-18",
-      "apply_link": "https://www.ziprecruiter.com/c/Omni-Hotels-&-resorts/Job/Overnight-Loss-Prevention-Officer/-in-Fort-Worth,TX?jid=57070a0a2498b996",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task. Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention.<br><br><strong>Responsibilities<br><br></strong><ul><li>To observe and report on all assignments</li><li>Able to keep accurate records and communicate using radio equipment.</li><li>Record and report any unsafe conditions while patrolling hotel property.</li><li>To ensure protection and preservation of hotel, guest, and employee property.</li><li>Maintain professional attitude and appearance.<br><br></li></ul><strong>Qualifications<br><br></strong><ul><li>Previous security experience preferred.</li><li>Red Cross and First Aid Certified.</li><li>Able to work nights, weekends, and holidays.</li></ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Red Cross and First Aid Certified",
-            "Able to work nights, weekends, and holidays"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task",
-            "Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention",
-            "To observe and report on all assignments",
-            "Able to keep accurate records and communicate using radio equipment",
-            "Record and report any unsafe conditions while patrolling hotel property",
-            "To ensure protection and preservation of hotel, guest, and employee property",
-            "Maintain professional attitude and appearance",
-            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }
@@ -131,19 +149,58 @@
       ]
     },
     {
+      "job_hash": "3a56e4b35322",
+      "title": "Overnight Loss Prevention Officer",
+      "company": "Omni Hotels & Resorts",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "hotel",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Full-time",
+      "posted_date": "2026-08-18",
+      "apply_link": "https://www.linkedin.com/jobs/view/overnight-loss-prevention-officer-at-omni-hotels-resorts-4454474342",
+      "via": "via Indeed",
+      "description": "<b>Overview:</b>\n<br>\n The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task. Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention. \n<br>\n<br><b>Responsibilities:</b>\n<br>\n<ul>\n <li>To observe and report on all assignments</li>\n <li>Able to keep accurate records and communicate using radio equipment.</li>\n <li>Record and report any unsafe conditions while patrolling hotel property.</li>\n <li>To ensure protection and preservation of hotel, guest, and employee property.</li>\n <li>Maintain professional attitude and appearance.</li>\n</ul><b>Qualifications:</b>\n<br>\n<ul>\n <li>Previous security experience preferred.</li>\n <li>Red Cross and First Aid Certified.</li>\n <li>Able to work nights, weekends, and holidays.</li>\n</ul>",
+      "job_highlights": [
+        {
+          "items": [
+            "Red Cross and First Aid Certified",
+            "Able to work nights, weekends, and holidays"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The Loss Prevention Officer ensures the safety and tranquil stay of hotel guests and employees, to enforce the policies and procedures of the hotel and to record in writing any assigned task",
+            "Prepare incident and accident reports accurately and in the format specified by the Director of Loss Prevention",
+            "To observe and report on all assignments",
+            "Able to keep accurate records and communicate using radio equipment",
+            "Record and report any unsafe conditions while patrolling hotel property",
+            "To ensure protection and preservation of hotel, guest, and employee property",
+            "Maintain professional attitude and appearance",
+            "4 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "1672ccd51ef1",
       "title": "Night Shift Unarmed Security Officer – Daily Pay & Growth",
       "company": "Cascadia Global Security / Cascadia Off-Duty",
       "location": "Fort Worth, TX",
       "vertical": "security",
-      "role": "general",
+      "role": "overnight",
       "pay": "21K–29K a year",
       "pay_min": 21000.0,
       "pay_max": 29000.0,
       "pay_unit": "YEAR",
       "schedule": "Full-time",
       "posted_date": "2026-08-16",
-      "apply_link": "https://www.jobleads.com/us/job/night-shift-unarmed-security-officer-daily-pay-growth--fort-worth--ea2bb6e20c1cbd8f8a762bc9bd89aa3b9",
+      "apply_link": "https://www.learn4good.com/jobs/fort-worth/texas/security/5372778665/e/",
       "via": "via JobLeads",
       "description": "<p>Cascadia Global Security is seeking a Security Officer for Fort Worth, TX. The position offers Full-Time or Part-Time options with flexible shifts including evenings and weekends.</p><p>Pay is $17.50 per hour with daily pay; applicants must be 21+, have a valid driver’s license, and a clean driving record. Benefits for Full-Time include 50% paid medical/dental/vision, life insurance after 60 days, and a 401k plan.</p>",
       "job_highlights": [
@@ -157,6 +214,94 @@
         {
           "items": [
             "The position offers Full-Time or Part-Time options with flexible shifts including evenings and weekends"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "d746680ee443",
+      "title": "PT Night Shift Security Officers",
+      "company": "Dallas Theological Seminary",
+      "location": "Dallas, TX",
+      "vertical": "security",
+      "role": "university",
+      "pay": "16.80–18.30 an hour",
+      "pay_min": 16.8,
+      "pay_max": 18.3,
+      "pay_unit": "HOUR",
+      "schedule": null,
+      "posted_date": "2026-08-16",
+      "apply_link": "https://jooble.org/rjdp/-2460740154527512013",
+      "via": "via Jooble",
+      "description": "<p>Job DetailsJob Location: Dallas Campus - Dallas, TX 75204Position Type: Part Time Hourly Non ExemptSalary Range: $16.80 - $18.30 HourlyJob Category: On Campus<br/>Job Summary The Campus Security Officer provides security and safety support for the Dallas campus.<br/>Compensation Regular shift: $16.80 per hour<br/>Midnight shift: $18.30 per hour (includes shift differential)<br/>Duties/Responsibilities Patrol campus, check buildings, residential facilities, and parking lots; identify and address unauthorized individuals.<br/>Interact with people.<br/>Provide an armed, visible security presence on Campus.<br/>Issue parking decals, perform computer work, and complete administrative tasks.<br/>Investigate incidents, write reports, and respond to calls for service.<br/>Respond to calls for service<br/>Observe and report safety issues.<br/>Perform other related duties as assigned.<br/>Qualifications Excellent verbal and written communication skills.<br/>Strong interpersonal and customer service skills.<br/>Ability to analyze situations quickly, make sound decisions, and function effectively in stressful environments.<br/>High attention to detail and strong problem-solving skills.<br/>Flexible schedule with willingness to work alone and serve as a self-starter.<br/>Ability to follow directions while exercising good judgment.<br/>Valid driver's license with a good driving record.<br/>Proficient with Microsoft Office Suite or related software.<br/>Must have or be able to obtain and maintain a valid Texas Level 3 (Commissioned) Armed Security Officer license (requires successful completion of required Level 2 and Level 3 training through a Texas DPS-approved provider)<br/>Education and Experience: A college degree preferred.<br/>Physical Requirements: Ability to climb, walk, balance, kneel, reach, lift up to 50 pounds, talk, and hear.<br/>Comfort working in varying outside weather conditions, including during inclement weather when other officers may be unable to reach campus.</p>\r\n<p>#J-18808-Ljbffr Dallas Theological Seminary<br/></p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Qualifications Excellent verbal and written communication skills",
+            "Strong interpersonal and customer service skills",
+            "Ability to analyze situations quickly, make sound decisions, and function effectively in stressful environments",
+            "High attention to detail and strong problem-solving skills",
+            "Flexible schedule with willingness to work alone and serve as a self-starter",
+            "Ability to follow directions while exercising good judgment",
+            "Valid driver's license with a good driving record",
+            "Proficient with Microsoft Office Suite or related software",
+            "Must have or be able to obtain and maintain a valid Texas Level 3 (Commissioned) Armed Security Officer license (requires successful completion of required Level 2 and Level 3 training through a Texas DPS-approved provider)",
+            "Physical Requirements: Ability to climb, walk, balance, kneel, reach, lift up to 50 pounds, talk, and hear",
+            "Comfort working in varying outside weather conditions, including during inclement weather when other officers may be unable to reach campus",
+            "8 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Compensation Regular shift: $16.80 per hour",
+            "Midnight shift: $18.30 per hour (includes shift differential)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Duties/Responsibilities Patrol campus, check buildings, residential facilities, and parking lots; identify and address unauthorized individuals",
+            "Interact with people",
+            "Provide an armed, visible security presence on Campus",
+            "Issue parking decals, perform computer work, and complete administrative tasks",
+            "Investigate incidents, write reports, and respond to calls for service",
+            "Respond to calls for service",
+            "Observe and report safety issues",
+            "Perform other related duties as assigned",
+            "5 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "6296803abac2",
+      "title": "Night Shift: Unarmed Construction Site Security",
+      "company": "Defense Mechanics Inc",
+      "location": "Denton, TX",
+      "vertical": "security",
+      "role": "school",
+      "pay": "27K–38K a year",
+      "pay_min": 27000.0,
+      "pay_max": 38000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-16",
+      "apply_link": "https://bebee.com/us/jobs/night-shift-unarmed-construction-site-security-defense-mechanics-inc-denton--lensa-7428_36757a6930edc9d99b36d532833c94f652f4775edaec92bb732e09b612e3c9fe",
+      "via": "via JobLeads",
+      "description": "<p>Texas Tactical Protection Group is seeking unarmed Security Officers to provide overnight protection for an active construction site. Officers will maintain a visible security presence, control access, conduct patrols, and report any suspicious activity, ensuring the safety of personnel and valuable assets.</p><p>The ideal candidate will have a Texas Security Officer License (Level II – Non-Commissioned), a high school diploma or GED, and the ability to stand or patrol for extended periods.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The ideal candidate will have a Texas Security Officer License (Level II – Non-Commissioned), a high school diploma or GED, and the ability to stand or patrol for extended periods"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Officers will maintain a visible security presence, control access, conduct patrols, and report any suspicious activity, ensuring the safety of personnel and valuable assets"
           ],
           "title": "Responsibilities"
         }
@@ -252,166 +397,6 @@
           "title": "Responsibilities"
         }
       ]
-    },
-    {
-      "job_hash": "83d818d62657",
-      "title": "Dallas Security Ops Leader — Night-Shift Manager",
-      "company": "Securitas Security Services USA, Inc.",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "data-center",
-      "pay": "60K–61K a year",
-      "pay_min": 60000.0,
-      "pay_max": 61000.0,
-      "pay_unit": "YEAR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://bebee.com/us/jobs/dallas-security-ops-leader-night-shift-manager-securitas-security-services-usa-inc-dallas--pureheal-28528_23106_b4d5c85dacdbad3f74ae3d1b84ce01d7",
-      "via": "via JobLeads",
-      "description": "<p>Securitas Security Services USA, Inc. is seeking a Security Operations Manager for key client sites in Dallas, TX. The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service.</p><p>You will manage staffing, provide training, and partner with the client to understand expectations and deliver results. This position offers growth opportunities and a dynamic work environment.</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "The role focuses on leading security personnel, coordinating daily operations, and ensuring compliance with client requirements while delivering top-tier service",
-            "You will manage staffing, provide training, and partner with the client to understand expectations and deliver results"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "1f1a0cb63963",
-      "title": "Full-Time Overnight Security Officers",
-      "company": "Dunbar Security Solutions",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "surveillance",
-      "pay": "$17.00 per hour",
-      "pay_min": 17.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://jooble.org/rjdp/-707702356477913410",
-      "via": "via Jooble",
-      "description": "<p>Overview<br/>Dunbar Security Solutions is a trusted provider of professional security services. Join our team and build a rewarding career in the security industry where safety, professionalism, and growth comes first.</p>\r\n<p>Job Skills / Requirements<br/>Pay Rate:  $17.00 per hour<br/>Schedule:  Mon-Fri: 8:00AM-4:00PM<br/>Employment Type:  Full-Time</p>\r\n<p>About the Role:  We are currently seeking a reliable and vigilant  Security Guard  to join our team and help maintain a safe and secure environment at one of our clients locations (vacant building). The primary responsibilities are to monitor the property for thieves and trespassers. The ideal candidate will be dependable, observant, and comfortable working overnight shifts.<br/><b>Key Responsibilities:</b></p>\r\n<p>Patrol assigned areas of the shopping center on foot<br/>Monitor surveillance equipment and regularly scan checkpoint tags throughout the property<br/>Deter unauthorized activity and ensure a secure environment for tenants and patrons<br/>Report suspicious behavior, safety hazards, and incidents promptly and accurately<br/>Respond to emergencies and follow established safety protocols<br/>Lock and unlock premises as required<br/>Interact professionally with tenants, customers, and law enforcement when necessary<br/>Certification Requirements (All)</p>\r\n<p>Texas Level II Non-Commissioned License<br/>Additional Information / Benefits<br/><b>Dunbar Benefits:</b><br/><ul><li>Medical Insurance</li><li>Life Insurance</li><li>Dental Insurance</li><li>Vision Insurance</li><li>Paid Vacation</li><li>401k Plan</li></ul><br/>Dunbar Security Solutions is an Equal Opportunity Employer. We value diversity and encourage candidates from all backgrounds to apply.<br/>Benefits: Medical Insurance, Life Insurance, Dental Insurance, Vision Insurance, Paid Vacation, Paid Sick Days, Paid Holidays, Short Term Disability, Long Term Disability, 401K/403b Plan, Stock Options, Stock Awards, Pension/Retirement, Educational Assistance, Special Incentive Plans<br/>This job reports to the Operations Manager<br/>This is a  Full-Time  position<br/></p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Texas Level II Non-Commissioned License"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Pay Rate: $17.00 per hour",
-            "Schedule: Mon-Fri: 8:00AM-4:00PM",
-            "Medical Insurance",
-            "Life Insurance",
-            "Dental Insurance",
-            "Vision Insurance",
-            "Paid Vacation",
-            "401k Plan",
-            "Benefits: Medical Insurance, Life Insurance, Dental Insurance, Vision Insurance, Paid Vacation, Paid Sick Days, Paid Holidays, Short Term Disability, Long Term Disability, 401K/403b Plan, Stock Options, Stock Awards, Pension/Retirement, Educational Assistance, Special Incentive Plans",
-            "6 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "About the Role: We are currently seeking a reliable and vigilant Security Guard to join our team and help maintain a safe and secure environment at one of our clients locations (vacant building)",
-            "The primary responsibilities are to monitor the property for thieves and trespassers",
-            "The ideal candidate will be dependable, observant, and comfortable working overnight shifts",
-            "Patrol assigned areas of the shopping center on foot",
-            "Monitor surveillance equipment and regularly scan checkpoint tags throughout the property",
-            "Deter unauthorized activity and ensure a secure environment for tenants and patrons",
-            "Report suspicious behavior, safety hazards, and incidents promptly and accurately",
-            "Respond to emergencies and follow established safety protocols",
-            "Lock and unlock premises as required",
-            "Interact professionally with tenants, customers, and law enforcement when necessary",
-            "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "65d37487e367",
-      "title": "Part Time Overnight Security Officer at The Beeman Hotel Dallas, TX",
-      "company": "The Beeman Hotel",
-      "location": "Dallas, TX",
-      "vertical": "security",
-      "role": "hotel",
-      "pay": "$18/HR",
-      "pay_min": 18.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://ecollincountyhomes.com/library/job/part-time-overnight-security-officer-at-the-beeman-hotel-dallas-tx-bDlUVFY4MjlBcHNLdSt1T0dlVjJoMnNPTkE9PQ==",
-      "via": "via Marine Resale",
-      "description": "Part Time Overnight Security Officer job at The Beeman Hotel. Dallas, TX. <h3> Job Description </h3><p> Job Description <p> Description: <p><b> MONDAY AND TUESDAY  </b> <b> Availability  </b> <b> REQUIRED </b></p><p><b>$18/HR </b></p><p></p><p> A Safety & Security Guard is responsible for providing protection for hotel guests employees and property. They are also responsible for providing guests with a sense of comfort and well being by maintaining a level of visibility. </p><p></p><b> Responsibilities </b><p></p><p><b> QUALIFICATIONS: </b></p><ul><li> High School diploma or equivalent and/or experience in a hotel or a related field preferred </li><li> Certificate of Completion in Safety and Security Training </li><li> CPR First Aid and Heimlich maneuver Certified </li></ul><p><b> RESPONSIBILITIES: </b></p><ul><li> Approach all encounters with guests and employees in a friendly service oriented manner. </li><li> Maintain regular attendance in compliance with Coury Hospitality standards as required by scheduling which will vary according to the needs of the hotel. </li><li> Maintain high standards of personal appearance and grooming which include wearing the proper uniform when working (per brand standards)</li><li> Comply at all times with Coury Hospitality standards and regulations to encourage safe and efficient hotel operations. </li><li> Answer phone and dispatch in a timely manner in addition to demonstrating proper two-way radio etiquette at all times when communicating with other Associates; maintain radio contact with the Front Desk/Night Auditor at all times. </li><li> Maintain visual contact with the Front Desk/Night Auditor and the front door of the hotel by remaining in the Lobby area when not on property walks. </li><li> Maintain and review daily activity log. </li><li> Maintain confidentiality with respect to guest and Associate incidents. </li><li> Hold briefing with Guest Services staff both at the beginning and end of shift. </li><li> Open secured areas for authorized personnel; checks ID of  visitors/Associates  as necessary. </li><li> Maintain an awareness of legal limitations of position (i.e. local ordinances state ordinances etc.). </li><li> Assist guests to their rooms or help guests enter their rooms. </li><li> Investigates room thefts auto accidents/thefts and assault complaints for guests (not for Associates); serves as the first responder partnering with Department Head/Hotel leadership to write the incident report. </li><li> Assist outside agencies as necessary. </li><li> Provide escort. </li><li> Assist HR/MOD with responding to Associate altercations. </li><li> Assist with intoxicated guests. </li><li> Be knowledgeable about hotel and guestroom locking systems. </li><li> Respond to security alarms and monitor TV cameras (CCTV) (if applicable). </li><li> Challenge suspicious persons. </li><li> Conduct rounds checking for safety hazards checking lights and door locks and picking up items left on the property. </li><li> Assist during medical emergencies administering First Aid/C.P.R/Heimlich maneuver as necessary. </li><li> In partnership with Department Head/Hotel leadership completes Incident/Accident Reports in a clear and concise manner. </li><li> Receive deliveries; deliver requested items to guest rooms as needed. </li><li> Assist with handling items for “Lost and Found” according to the standards. </li><li> Works special functions attends meetings and/or performs other duties as required. </li></ul><b> Property Details </b><br><p> The Beeman Hotel includes an indoor swimming pool. Dallas Love Field airport, just 6 miles away. <br></p><p> Unique décor and modern furnishings are showcased in each guest room at the Beeman Hotel. All rooms are appointed with free Wi-Fi, a flat-screen TV and a coffee machine. <br></p><p> Fax and photocopy services as well as internet access are available in the hotel’s 24-hour business center. The on-site fitness facilities are fitted with a full set of cardio machines. </p> Requirements: <p></p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Certificate of Completion in Safety and Security Training",
-            "CPR First Aid and Heimlich maneuver Certified"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "A Safety & Security Guard is responsible for providing protection for hotel guests employees and property",
-            "They are also responsible for providing guests with a sense of comfort and well being by maintaining a level of visibility",
-            "Approach all encounters with guests and employees in a friendly service oriented manner",
-            "Maintain regular attendance in compliance with Coury Hospitality standards as required by scheduling which will vary according to the needs of the hotel",
-            "Maintain high standards of personal appearance and grooming which include wearing the proper uniform when working (per brand standards)",
-            "Comply at all times with Coury Hospitality standards and regulations to encourage safe and efficient hotel operations",
-            "Answer phone and dispatch in a timely manner in addition to demonstrating proper two-way radio etiquette at all times when communicating with other Associates; maintain radio contact with the Front Desk/Night Auditor at all times",
-            "Maintain visual contact with the Front Desk/Night Auditor and the front door of the hotel by remaining in the Lobby area when not on property walks",
-            "Maintain and review daily activity log",
-            "Maintain confidentiality with respect to guest and Associate incidents",
-            "Hold briefing with Guest Services staff both at the beginning and end of shift",
-            "Open secured areas for authorized personnel; checks ID of visitors/Associates as necessary",
-            "Maintain an awareness of legal limitations of position (i.e. local ordinances state ordinances etc.)",
-            "Assist guests to their rooms or help guests enter their rooms",
-            "Investigates room thefts auto accidents/thefts and assault complaints for guests (not for Associates); serves as the first responder partnering with Department Head/Hotel leadership to write the incident report",
-            "Assist outside agencies as necessary",
-            "Provide escort",
-            "Assist HR/MOD with responding to Associate altercations",
-            "Assist with intoxicated guests",
-            "Be knowledgeable about hotel and guestroom locking systems",
-            "Respond to security alarms and monitor TV cameras (CCTV) (if applicable)",
-            "Challenge suspicious persons",
-            "Conduct rounds checking for safety hazards checking lights and door locks and picking up items left on the property",
-            "Assist during medical emergencies administering First Aid/C.P.R/Heimlich maneuver as necessary",
-            "In partnership with Department Head/Hotel leadership completes Incident/Accident Reports in a clear and concise manner",
-            "Receive deliveries; deliver requested items to guest rooms as needed",
-            "Assist with handling items for “Lost and Found” according to the standards",
-            "Works special functions attends meetings and/or performs other duties as required",
-            "25 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "0714d1c4f401",
-      "title": "Security Officer - Overnight at Crescent Hotels & Resorts Allen, TX",
-      "company": "Crescent Hotels & Resorts",
-      "location": "Allen, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": "2026-08-11",
-      "apply_link": "https://moraltheologian.com/career/job/security-officer-overnight-at-crescent-hotels-and-resorts-allen-tx-Um5CVzZzYTZsWm4vYTlLMk45N2hEb2ZUbkE9PQ==",
-      "via": "via Moral Theologian",
-      "description": "Security Officer - Overnight job at Crescent Hotels & Resorts. Allen, TX. <p> At Crescent Hotels & Resorts, we are a team of hospitality professionals that are deeply connected to & proud of the exceptional experiences we provide for our guests. More than that, we know our Associates are the shining stars of what we do! We und Security Officer, Officer, Security, Overnight, Associate, Hotel </p>",
-      "job_highlights": null
     }
   ]
 }

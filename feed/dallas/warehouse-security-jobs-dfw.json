@@ -1,11 +1,213 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/warehouse-security-jobs-dfw",
   "market": "DFW",
   "target": "role",
   "count": 10,
-  "exact": 9,
+  "exact": 10,
   "jobs": [
+    {
+      "job_hash": "fb428e09624e",
+      "title": "Security Shift Supervisor - Warehouse",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "vertical": "security",
+      "role": "overnight-warehouse",
+      "pay": "21 an hour",
+      "pay_min": 21.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.monster.com/job-openings/security-shift-supervisor-warehouse-sunnyvale-tx--6fa60f6e-9ce8-4661-b852-48b374d01835",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br><ul><li>Payrate: $21.64 / hour</li><li>Location: Sunnyvale, Texas</li><li>Multiple shifts available</li><li>Great opporunity for career growth and advancement <br><br></li></ul>The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer. The <strong>Security Shift Supervisor</strong> will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers. Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range.<br><br><strong>Qualifications/Requirements<br><br></strong><ul><li>At least 18 years of age</li><li>Possess a high school diploma or equivalent, or 5 years verifiable experience</li><li>Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines</li><li>Must be able to frequently prepare written reports and logs in neat, legible handwriting; </li><li>Must be able to read and understand all operating procedures and instructions</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required.</li><li>As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check</li><li>Intermediate computer skills to utilize innovative, wireless technology at client specific sites</li><li>Ability to handle both common and crisis situations at the client site, calmly and efficiently</li><li>Display exceptional customer service and communication skills</li><li>Ability to handle crisis situations at the client site, calmly and efficiently<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1662831<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "At least 18 years of age",
+            "Possess a high school diploma or equivalent, or 5 years verifiable experience",
+            "Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines",
+            "Must be able to frequently prepare written reports and logs in neat, legible handwriting;",
+            "Must be able to read and understand all operating procedures and instructions",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required",
+            "As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check",
+            "Intermediate computer skills to utilize innovative, wireless technology at client specific sites",
+            "Ability to handle both common and crisis situations at the client site, calmly and efficiently",
+            "Display exceptional customer service and communication skills",
+            "Ability to handle crisis situations at the client site, calmly and efficiently",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Payrate: $21.64 / hour",
+            "Multiple shifts available",
+            "Great opporunity for career growth and advancement",
+            "Medical, dental, vision, basic life, AD&D, and disability insurance",
+            "Company's retirement plans",
+            "Seven holidays annually paid at time and a half, if worked",
+            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
+            "4 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer",
+            "The Security Shift Supervisor will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers",
+            "Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "4d0dc114df7c",
+      "title": "Level III Armed Protective Service Officer (Burleson Warehouse)",
+      "company": "National Security & Protective Services, Inc.",
+      "location": "Burleson, TX",
+      "vertical": "security",
+      "role": "warehouse",
+      "pay": "19.03 an hour",
+      "pay_min": 19.03,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.glassdoor.com/job-listing/level-iii-armed-protective-service-officer-burleson-warehouse-national-security-and-protective-services-JV_IC1139961_KO0,61_KE62,103.htm?jl=1010238034643",
+      "via": "via Glassdoor",
+      "description": "<ul><li>Observes and reports activities and incidents, providing security and safety for client, property, personnel, & visitors.</li><li>Conduct random marked vehicle patrols for irregularities on property and around the grounds in Marked Patrol Vehicle with Lights.</li><li>Full access controlled booth is provided for camera monitoring.</li><li>Enforce rules, regulations, and directives for the facility pertaining to personnel, visitors, and premises.</li><li>Checks for unsafe conditions, hazards, unlocked doors, security violations, blocked entrances and exits, mechanical problems, and unauthorized persons.</li><li>Daily phone app logs and reports are required.</li></ul><p><b>(2) Position Available</b></p><p><b>Shifts Available: Sun, Mon, Tue / 6:00am-6:00pm</b></p><p><b>Shift 2: Mon, Tue, Wed / 6:00pm-6:00am</b></p><p><b>Requirements:</b></p><ul><li>Must have at least 3 years Security/Law Enforcement Experience.</li><li>Must be at least 23 years of age</li><li>Must be able to Pass a Background Investigation</li><li>Must Pass Drug Screen</li><li>Must be Professional looking and Detail Oriented</li><li>Posses a High School Diploma or GED</li><li>Posses a Valid Drivers License</li><li>Must have a Phone & Reliable Transportation</li><li>Must have Black Shoes that can be shined</li><li>Must be Physically Fit</li><li>Must be a Team Player</li><li>Posses a Level III Commission in Good Standing with the Texas Department of Public Safety (Security Board)</li></ul><p><b>Benefits:</b></p><p>All Full Time Warehouse Protective Service Officers will receive:</p><ul><li>Direct Deposit</li><li>Paid Training & Orientation</li><li>Paid Vacation</li><li>Paid Security License Transfer/Update</li><li>16 hrs of (PTO) Paid Time Off</li><li>Free Medical, Vision, Dental, Life Insurance with Legal Defense.</li></ul><p><b>To Apply:</b></p><p><b>Respond to this post</b></p><p>Fort Worth Headquarters<br/>5601 Bridge St.<br/>Suite 324<br/>Fort Worth, TX 76244</p><p>Call (817) 896-9573 for Interview<br/>or Text (817) 936-0541</p><p>TXDPS Lic. <b>#C-16053</b></p><p>National Security & Protective Services, Inc. is an (EOE) Equal Opportunity Employer</p><p>Pay: From $19.03 per hour</p><p>Benefits:</p><ul><li>Dental insurance</li><li>Health insurance</li><li>Life insurance</li><li>Paid time off</li><li>Referral program</li><li>Vision insurance</li></ul><p>Education:</p><ul><li>High school or equivalent (Required)</li></ul><p>Experience:</p><ul><li>Security/Law Enforcement: 3 years (Required)</li></ul><p>License/Certification:</p><ul><li>Level III Armed License (Required)</li><li>Driver's License (Required)</li></ul><p>Shift availability:</p><ul><li>Night Shift (Required)</li><li>Overnight Shift (Required)</li></ul><p>Work Location: In person</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must have at least 3 years Security/Law Enforcement Experience",
+            "Must be at least 23 years of age",
+            "Must be able to Pass a Background Investigation",
+            "Must Pass Drug Screen",
+            "Must be Professional looking and Detail Oriented",
+            "Posses a High School Diploma or GED",
+            "Posses a Valid Drivers License",
+            "Must have a Phone & Reliable Transportation",
+            "Must have Black Shoes that can be shined",
+            "Must be Physically Fit",
+            "Must be a Team Player",
+            "Posses a Level III Commission in Good Standing with the Texas Department of Public Safety (Security Board)",
+            "High school or equivalent (Required)",
+            "Security/Law Enforcement: 3 years (Required)",
+            "Level III Armed License (Required)",
+            "Driver's License (Required)",
+            "13 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Direct Deposit",
+            "Paid Training & Orientation",
+            "Paid Vacation",
+            "Paid Security License Transfer/Update",
+            "16 hrs of (PTO) Paid Time Off",
+            "Free Medical, Vision, Dental, Life Insurance with Legal Defense",
+            "Pay: From $19.03 per hour",
+            "Dental insurance",
+            "Health insurance",
+            "Life insurance",
+            "Paid time off",
+            "Referral program",
+            "Vision insurance",
+            "10 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Observes and reports activities and incidents, providing security and safety for client, property, personnel, & visitors",
+            "Conduct random marked vehicle patrols for irregularities on property and around the grounds in Marked Patrol Vehicle with Lights",
+            "Full access controlled booth is provided for camera monitoring",
+            "Enforce rules, regulations, and directives for the facility pertaining to personnel, visitors, and premises",
+            "Checks for unsafe conditions, hazards, unlocked doors, security violations, blocked entrances and exits, mechanical problems, and unauthorized persons",
+            "Daily phone app logs and reports are required",
+            "Shifts Available: Sun, Mon, Tue / 6:00am-6:00pm",
+            "Shift 2: Mon, Tue, Wed / 6:00pm-6:00am",
+            "Night Shift (Required)",
+            "Overnight Shift (Required)",
+            "7 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "d335f96f8547",
+      "title": "Security Officer Flex Distribution",
+      "company": "Allied Universal",
+      "location": "Mesquite, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": null,
+      "pay_min": null,
+      "pay_max": null,
+      "pay_unit": null,
+      "schedule": "Internship",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1663008/security-officer-flex-distribution/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal® is hiring a Security Professional Flex Officer. The Security Professional Flex Officer will serve and safeguard clients in a range of industries such as Healthcare, Education, Finance and more. Join a leading team where flexibility meets opportunity. As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries. Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities. The Security Professional Flex Officer may be called upon to work irregular shifts at times with little to no advance notice.<br><br><strong>Responsibilities<br><br></strong><ul><li>Perform security patrols of designated areas on foot or in vehicle</li><li>Watch for irregular or unusual conditions that may create security concerns or safety hazards</li><li>Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons</li><li>Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles</li><li>Permit authorized persons to enter property and monitors entrances and exits</li><li>Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements</li><li>Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post</li><li>Aid customers, employees, and visitors in a courteous and professional manner</li><li>Make emergency notifications as necessary pursuant to site Post Orders<br><br></li></ul><strong>Qualifications (must Have)<br><br></strong><ul><li>Must possess a high school diploma or equivalent or 5 years of verifiable experience</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment</li><li>Valid driver’s license if driving a company or customer-owned vehicle</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law</li><li>No prior experience required</li><li>Be at least 18 years of age, or higher if required by the state (21 years, if armed)</li><li>Reliability and ability to adapt to different post assignments</li><li>Be able to operate radio or telephone equipment and/or console monitors</li><li>Demonstrated ability to interact cordially and communicate with the public</li><li>Effective oral and written communication skills; able to write informatively, clearly, and accurately</li><li>Active listening and problem-solving skills</li><li>Assess and evaluate situations effectively; identify critical issues quickly and accurately</li><li>Mediate conflict with tact, diplomacy</li><li>Teamwork</li><li>Attention to detail<br><br></li></ul><strong>Preferred Qualifications (nice To Have)<br><br></strong><ul><li>Ability to speak, read, and write in multiple languages (e.g., Spanish, Portuguese, French, Arabic)</li><li>Prior security, military, or law enforcement experience<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1663008<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Must possess a high school diploma or equivalent or 5 years of verifiable experience",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "Valid driver’s license if driving a company or customer-owned vehicle",
+            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws; Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
+            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
+            "No prior experience required",
+            "Be at least 18 years of age, or higher if required by the state (21 years, if armed)",
+            "Reliability and ability to adapt to different post assignments",
+            "Be able to operate radio or telephone equipment and/or console monitors",
+            "Demonstrated ability to interact cordially and communicate with the public",
+            "Effective oral and written communication skills; able to write informatively, clearly, and accurately",
+            "Active listening and problem-solving skills",
+            "Assess and evaluate situations effectively; identify critical issues quickly and accurately",
+            "Mediate conflict with tact, diplomacy",
+            "Teamwork",
+            "Attention to detail",
+            "13 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "As a Security Professional Flex Officer, you’ll use our exclusive shift-pickup platform to view and claim open shifts based on your availability - giving you the freedom to build a schedule that works for you, while gaining valuable site experience across various industries",
+            "Whether you're looking to supplement your income or take the first step toward a phenomenal career, this position offers unmatched access to hands-on experience and growth opportunities",
+            "Medical, dental, vision, basic life, AD&D, and disability insurance",
+            "Company's retirement plans",
+            "Seven holidays annually paid at time and a half, if worked",
+            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
+            "3 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "Perform security patrols of designated areas on foot or in vehicle",
+            "Watch for irregular or unusual conditions that may create security concerns or safety hazards",
+            "Sound alarms or calls police or fire department in case of fire or presence of unauthorized persons",
+            "Warn violators of rule infractions, such as loitering, smoking, or carrying forbidden articles",
+            "Permit authorized persons to enter property and monitors entrances and exits",
+            "Observe departing personnel to protect against theft of company property and ensures that authorized removal of property is conducted within appropriate client requirements",
+            "Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs as required by the post",
+            "Aid customers, employees, and visitors in a courteous and professional manner",
+            "Make emergency notifications as necessary pursuant to site Post Orders",
+            "6 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
     {
       "job_hash": "299f746fb638",
       "title": "Security Officer - Distribution Center",
@@ -242,6 +444,38 @@
       ]
     },
     {
+      "job_hash": "0d46cc1c9dde",
+      "title": "Part-Time Weekend Warehouse Security Clerk — Weekly Pay",
+      "company": "Ryder System, Inc.",
+      "location": "Haltom City, TX",
+      "vertical": "security",
+      "role": "overnight-warehouse",
+      "pay": "26K–29K a year",
+      "pay_min": 26000.0,
+      "pay_max": 29000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-10",
+      "apply_link": "https://www.learn4good.com/jobs/haltom-city/texas/warehouse/5361024311/e/",
+      "via": "via JobLeads",
+      "description": "<p>Ryder System, Inc. is hiring a Part-Time Guard/Clerk in Haltom City, Texas, with a weekend schedule and weekly pay. The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills.</p><p>The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities. Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "The role requires SAP and Warehouse Management System experience, plus strong communication and organizational skills"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The position supports warehouse operations in a safe, efficient environment, with on-the-job training and potential benefits typical for warehouse facilities",
+            "Candidates should be ready to work Saturdays and Sundays, 7:00 am–7:00 pm"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
       "job_hash": "8c0f4b84f88e",
       "title": "Security Supervisor - Warehouse",
       "company": "GardaWorld",
@@ -303,64 +537,6 @@
       ]
     },
     {
-      "job_hash": "2a4239dd0ef9",
-      "title": "Security Officer - Distribution Facility",
-      "company": "Allied Universal",
-      "location": "Grapevine, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": "2026-08-06",
-      "apply_link": "https://bebee.com/us/jobs/security-officer-distribution-facility-allied-universal-grapevine--fj-2301042252",
-      "via": "via Teal",
-      "description": "<p>About the position</p><p>As a Security Officer Part Time Mobile Response Driver in Dallas, TX, you will serve and safeguard clients in a range of industries such as Aero/Defense, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. As an Unarmed Patrol Officer at an aerospace and defense location, you will conduct routine patrols, monitor access points, and maintain a visible presence to help deter incidents. This driving position offers the opportunity to support a dynamic environment through professional communication, customer service, and timely reporting. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every shift.</p><p>Responsibilities</p><ul><li>Provide customer service to personnel, visitors, and/or contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate.</li><li>Respond to incidents, alarms, access-control concerns, and critical situations in a calm, problem-solving manner, following established reporting and escalation procedures.</li><li>Conduct regular and random foot and/or vehicle patrols of facilities, grounds, parking areas, and perimeter areas to help identify unusual conditions and help deter unauthorized activity.</li><li>Monitor entry and exit points, verify authorization for access as directed by site procedures, and maintain accurate activity, incident, and visitor records.</li><li>Communicate professionally with site personnel and emergency responders, reporting hazards, maintenance concerns, and security-related observations to appropriate contacts.</li></ul><p>Requirements</p><ul><li>Have at least two years of security-related experience.</li><li>Provide proof of a high school diploma or GED, as required by the client.</li><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.</li></ul><p>Nice-to-haves</p><ul><li>Access control and badge experience is preferred.</li><li>A state, county, or city-issued security license is preferred.</li></ul><p>Benefits</p><ul><li>Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Get paid training and access to career growth opportunities.</li><li>Participate in our retirement savings plan to invest in your future.</li><li>Enjoy discounts on top brands and services through our Perks Program.</li></ul>",
-      "job_highlights": [
-        {
-          "items": [
-            "Have at least two years of security-related experience",
-            "Provide proof of a high school diploma or GED, as required by the client",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "6 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Get paid training and access to career growth opportunities",
-            "Participate in our retirement savings plan to invest in your future",
-            "Enjoy discounts on top brands and services through our Perks Program",
-            "2 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As an Unarmed Patrol Officer at an aerospace and defense location, you will conduct routine patrols, monitor access points, and maintain a visible presence to help deter incidents",
-            "This driving position offers the opportunity to support a dynamic environment through professional communication, customer service, and timely reporting",
-            "Provide customer service to personnel, visitors, and/or contractors at an aerospace and defense location by carrying out security-related procedures, site-specific policies, and emergency response activities when appropriate",
-            "Respond to incidents, alarms, access-control concerns, and critical situations in a calm, problem-solving manner, following established reporting and escalation procedures",
-            "Conduct regular and random foot and/or vehicle patrols of facilities, grounds, parking areas, and perimeter areas to help identify unusual conditions and help deter unauthorized activity",
-            "Monitor entry and exit points, verify authorization for access as directed by site procedures, and maintain accurate activity, incident, and visitor records",
-            "Communicate professionally with site personnel and emergency responders, reporting hazards, maintenance concerns, and security-related observations to appropriate contacts",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
       "job_hash": "b49824229daf",
       "title": "Security Guard Warehouse Distribution",
       "company": "Allied Universal",
@@ -407,182 +583,6 @@
           "items": [
             "What You'll Do: Provide customer service to our clients by carrying out safety and security procedures, site-specific policies and when appropriate, emergency response activities Respond to incidents and critical situations in a calm, problem-solving manner Conduct regular and random patrols around the business and perimeter",
             "Working environments and conditions may vary by client site"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "ccef56938b5c",
-      "title": "Security Officer Warehouse",
-      "company": "Allied Universal",
-      "location": "Lewisville, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.thejobnetwork.com/job/f60dccec-ef3a-4fb5-a775-15654307ff6c/security-officer-warehouse",
-      "via": "via BeBee",
-      "description": "<h2>Overview</h2> Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.\n<h2>Job Description</h2> As a <strong>Security Officer Part Time Screener</strong> in <strong>Lewisville, TX</strong>, you will serve and safeguard clients in a range of industries such as Tech/Media/Telecom, and more. Join a leading team where flexibility meets opportunity. As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform. Learn more: aus.com/earnmore. Join Allied Universal as a Screener in a dynamic tech and telecommunications location, where you will help monitor access, screen visitors and team members, and support security-related protocols with professionalism and care. This role combines strong communication, visible presence, and customer service while reflecting our agile, reliable, and innovative approach. Be part of a team that puts people first, works together, and acts with integrity every day.\n<h4><strong>Position Type: Part Time</strong></h4>\n<p><strong> Pay Rate: $16.50 / Hour </strong></p>\n<h4><strong>Job Schedule:</strong></h4>\n<p>DayTimeMon06:00 PM - 06:00 AMSun06:00 PM - 06:00 AM <strong> What You'll Do:</strong></p>\n<ul> <li>Provide customer service by carrying out security-related procedures, site-specific policies, and/or appropriate emergency response activities at a technology-focused location.</li> <li>Screen employees, visitors, contractors, and/or deliveries at designated entry points while following access control procedures and reporting unusual activity.</li> <li>Respond to incidents and critical situations in a calm, problem-solving manner, escalating concerns through established communication channels when needed.</li> <li>Conduct regular and random patrols around the business and perimeter to help to deter unauthorized activity and note conditions that may require attention.</li> <li>Maintain accurate activity and incident documentation, support badge and credential checks, and/or assist with directing people according to site protocols.</li> </ul> <strong> Minimum Requirements:</strong>\n<ul> <li>Have at least 1 year of security-related experience.</li> <li>Be at least 21 years of age.</li> <li>CPR and First Aid certification is preferred.</li> <li>Customer service experience is preferred.</li> <li>Access control and badge experience is preferred.</li> <li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li> <li>Possess a high school diploma or equivalent.</li> <li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li> <li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li> <li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li> <li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li> <li>A valid driver’s license will be required for driving positions only.</li> </ul> <strong>Why Join Us:</strong>\n<ul> <li><strong>Smart Tools:</strong> Access to our exclusive technology to view and claim additional shifts to earn more.</li> <li><strong>Career Growth:</strong> Get paid training and access to career growth opportunities.</li> <li><strong>Financial Benefits:</strong> Participate in our retirement savings plan to invest in your future.</li> <li><strong>Exclusive Perks:</strong> Enjoy discounts on top brands and services through our Perks Program.</li> </ul> <h2>Closing</h2> <strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.\n<p>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.</p>\n<h2>Requisition ID</h2>2026-1617823",
-      "job_highlights": [
-        {
-          "items": [
-            "Have at least 1 year of security-related experience",
-            "Be at least 21 years of age",
-            "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
-            "Possess a high school diploma or equivalent",
-            "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
-            "Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws",
-            "As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law",
-            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
-            "A valid driver’s license will be required for driving positions only",
-            "6 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "As a Part-Time Security Officer, you can build a schedule that works for you and explore new roles using our Claim a Shift platform",
-            "Pay Rate: $16.50 / Hour",
-            "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
-            "Career Growth: Get paid training and access to career growth opportunities",
-            "Financial Benefits: Participate in our retirement savings plan to invest in your future",
-            "Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Join Allied Universal as a Screener in a dynamic tech and telecommunications location, where you will help monitor access, screen visitors and team members, and support security-related protocols with professionalism and care",
-            "This role combines strong communication, visible presence, and customer service while reflecting our agile, reliable, and innovative approach",
-            "Be part of a team that puts people first, works together, and acts with integrity every day",
-            "Provide customer service by carrying out security-related procedures, site-specific policies, and/or appropriate emergency response activities at a technology-focused location",
-            "Screen employees, visitors, contractors, and/or deliveries at designated entry points while following access control procedures and reporting unusual activity",
-            "Respond to incidents and critical situations in a calm, problem-solving manner, escalating concerns through established communication channels when needed",
-            "Conduct regular and random patrols around the business and perimeter to help to deter unauthorized activity and note conditions that may require attention",
-            "Maintain accurate activity and incident documentation, support badge and credential checks, and/or assist with directing people according to site protocols",
-            "5 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "d45369823c07",
-      "title": "Security Officer - Warehouse",
-      "company": "Gardaworld",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "warehouse",
-      "pay": null,
-      "pay_min": null,
-      "pay_max": null,
-      "pay_unit": null,
-      "schedule": "Full-time",
-      "posted_date": null,
-      "apply_link": "https://www.careerbuilder.com/job-details/security-officer-warehouse-fort-worth-tx--98fb97b9-bf78-4f51-8160-f9c56c56392d",
-      "via": "via Monster",
-      "description": "<p>GardaWorld Security Services is Now Hiring a Surveillance Security Officer!</p><p></p><p>Ready to suit up as a Surveillance Security Guard?</p><p>What matters most about a role like this is your sharp eye, capturing every detail as you scan a series of screens. Tell us about your strong observation skills with attention to detail.</p><p>As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc.</p><p>What’s in it for you:</p><ul><li>Site Location: White Settlement, Tx</li><li>Set schedule: We are hiring for multiple Full Time and Part Time positions. Specific shifts and schedules will be discussed during the interview process.</li><li>Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)</li><li>A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options</li><li>Career growth opportunities at GardaWorld</li><li>Uniform provided at no cost</li></ul><p>Responsibilities of Surveillance Security Guard</p><ul><li>Monitor security systems to detect any suspicious activity</li><li>Document observed events and incidents, writing detailed reports</li><li>Respond quickly to incidents or potential threats</li><li>Conduct regular patrols to ensure the safety of the premises</li><li>Control access to secure areas and verify the identities of visitors</li><li>Analyze security systems to identify potential vulnerabilities or malfunctions</li><li>Collaborate with law enforcement in case of serious situations or emergencies</li><li>Ensure the safety and protection of individuals and property</li></ul><p>Qualifications of a Surveillance Security Guard</p><ul><li>Be authorized to work in the U.S.</li><li>MUST BE 21 and over with VALID DRIVER'S LICENSE NO RESTRICTION B</li><li>Be able to provide documentation of High School Diploma or GED</li><li>Be able to ace (and pass) an extensive screening process</li><li>Strong report writing skills</li><li>Sharp visual activity and exceptional concentration skills</li><li>Strong proficiency with technology</li><li>If you have Security, Military, Law Enforcement experience – even better!</li><li>You have a state license if required</li></ul><p>In the United States, GardaWorld Security remains the only guarding security company to be Certified by Great Place to Work. Apply today – this could be more than a job! 26% of our corporate employees started as frontline workers.</p><p>If you’re ambitious with an entrepreneurial spirit – someone who wants to be a GardaWorld Ambassador – a promising career awaits you!</p><p>GardaWorld Security is a global champion in sophisticated and tailored security solutions, employing and training highly skilled and dedicated professionals across the globe.</p><p>Not the job for you? Make sure to check out all our jobs! We also have tactical, concierge, and even casual roles available.<br><br><em>Employment is contingent on the successful completion of a background check and drug screening to be conducted after an offer of employment is extended.</em></p><p><em>It is the policy of GardaWorld Security Services to provide equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, veteran status, or disability in accordance with applicable federal laws. In addition, GardaWorld Security Services complies with applicable state and local laws governing nondiscrimination in employment. This policy applies to all terms and conditions of employment including, but not limited to hiring, placement, assignment, promotion, termination, layoffs, recalls, transfers, leaves of absence, compensation, and training. It is also the policy of GardaWorld Security Services not to honor requests that employees be assigned on the basis of sex or any other classification protected by law, unless such request is based on a bona fide occupational qualification for that assignment</em>.<br></p><br><p><b>Skills:</b><br>Access Control, Call Center Operations, Computer Security, Detail Oriented, Documentation, Driver's License, High School Diploma, Incident Response, Law Enforcement, Reporting Skills, Safety/Work Safety, Security Analysis, Security Monitoring, Surveillance, Systems Analysis, Warehousing, Writing Skills</p><br><p><b>undefined:</b><br>Gardaworld</p><br><p>GardaWorld Cash will remain an industry leader in cash management by leveraging the most up-to-date techology available and our decades of experience in the industry to create solutions that give our clients exactly what they need to optimize their business and thrive. We offer modern cash processing for consumer businesses and financial institutions, with a range of products and services that can be used a la carte or bundled into end-to-end solutions that integrate cash and digital revenue streams to enable an optimized treasury operation for any business.</p><br><br><p><b>Company Size:</b><br>10,000 employees or more</p><br><p><b>Industry:</b><br>Banking</p><br><p><b>undefined:</b><br>0</p><br><p><b>Website:</b><br>https://cash.garda.com/</p><br>",
-      "job_highlights": [
-        {
-          "items": [
-            "Qualifications of a Surveillance Security Guard",
-            "Be authorized to work in the U.S",
-            "MUST BE 21 and over with VALID DRIVER'S LICENSE NO RESTRICTION B",
-            "Be able to provide documentation of High School Diploma or GED",
-            "Be able to ace (and pass) an extensive screening process",
-            "Strong report writing skills",
-            "Sharp visual activity and exceptional concentration skills",
-            "Strong proficiency with technology",
-            "If you have Security, Military, Law Enforcement experience – even better!",
-            "You have a state license if required",
-            "Access Control, Call Center Operations, Computer Security, Detail Oriented, Documentation, Driver's License, High School Diploma, Incident Response, Law Enforcement, Reporting Skills, Safety/Work Safety, Security Analysis, Security Monitoring, Surveillance, Systems Analysis, Warehousing, Writing Skills",
-            "8 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Set schedule: We are hiring for multiple Full Time and Part Time positions",
-            "Competitive hourly wage of $23.50 (DailyPay is available for GardaWorld employees!)",
-            "A comprehensive benefits package including medical, dental, and vision insurance plans, a 401(k) retirement savings plan with employer matching contributions, paid time off (PTO) policy, paid holidays, disability coverage, and life insurance options",
-            "Career growth opportunities at GardaWorld",
-            "Uniform provided at no cost",
-            "We also have tactical, concierge, and even casual roles available",
-            "3 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "As a Security Officer – Surveillance, you will be the person spotting threats before they escalate in environments such as a security operations centers, call centers, parking gatehouses, etc",
-            "Specific shifts and schedules will be discussed during the interview process",
-            "Monitor security systems to detect any suspicious activity",
-            "Document observed events and incidents, writing detailed reports",
-            "Respond quickly to incidents or potential threats",
-            "Conduct regular patrols to ensure the safety of the premises",
-            "Control access to secure areas and verify the identities of visitors",
-            "Analyze security systems to identify potential vulnerabilities or malfunctions",
-            "Collaborate with law enforcement in case of serious situations or emergencies",
-            "Ensure the safety and protection of individuals and property",
-            "7 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "407c0277d2af",
-      "title": "Security Specialist - Full Time",
-      "company": "SECURITY INDUSTRY SPECIALISTS INC",
-      "location": "Grapevine, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "19 an hour",
-      "pay_min": 19.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-20",
-      "apply_link": "https://www.glassdoor.com/job-listing/security-specialist-full-time-security-industry-specialists-JV_IC1139999_KO0,29_KE30,59.htm?jl=1010235527022",
-      "via": "via Glassdoor",
-      "description": "<div><p><b><i>About the role:</i></b></p><p>\nThe Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned. All duties must be performed in accordance to client policies and procedures and all state and federal regulations.</p><p>\n</p><p><b><i>In this role, your responsibilities will be:</i></b></p><ul><li>\nProvide a safe and professional work environment for client's employees and guests</li><li>\nProvide escort, patrol on foot to secure your assigned post</li><li>\nAct quickly as a responder to incidents</li>\nBring a positive attitude every day <li>- represent our brand, the client, and yourself in a professional manner</li></ul><p><b><i>\nAs a candidate you must have:\n</i></b></p><ul><li>High school diploma (or GED)</li><li>\nMust complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications</li><li>\nInterpersonal skills and a professional attitude</li><li>\nUniform attire and grooming standards must be maintained while in uniform</li></ul><p>\n</p><p><b><i>We offer:</i></b></p><ul><li>\n$19 per hour</li><li>\nHealth, Dental, Vision, and 401k</li><li>\nPaid Time Off including Sick/Safe Time</li><li>\nA dynamic and challenging work environment with opportunity for growth</li></ul><p>\nSecurity Agency #C14164</p><p><b>\nSecurity Industry Specialists, Inc. is an Equal Opportunity Employer</b></p></div>",
-      "job_highlights": [
-        {
-          "items": [
-            "High school diploma (or GED)",
-            "Must complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications",
-            "Interpersonal skills and a professional attitude",
-            "Uniform attire and grooming standards must be maintained while in uniform",
-            "1 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "$19 per hour",
-            "Health, Dental, Vision, and 401k",
-            "Paid Time Off including Sick/Safe Time",
-            "A dynamic and challenging work environment with opportunity for growth",
-            "1 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned",
-            "All duties must be performed in accordance to client policies and procedures and all state and federal regulations",
-            "Provide a safe and professional work environment for client's employees and guests",
-            "Provide escort, patrol on foot to secure your assigned post",
-            "Act quickly as a responder to incidents",
-            "Bring a positive attitude every day",
-            "- represent our brand, the client, and yourself in a professional manner",
-            "4 more items(s)"
           ],
           "title": "Responsibilities"
         }

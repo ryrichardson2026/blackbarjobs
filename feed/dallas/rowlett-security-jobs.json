@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-20T14:45:03.380766+00:00",
+  "generated": "2026-08-22T14:38:47.422879+00:00",
   "page": "dallas/rowlett-security-jobs",
   "market": "DFW",
   "target": "city",
   "count": 10,
-  "exact": 8,
+  "exact": 7,
   "jobs": [
     {
       "job_hash": "32b3d13d9545",
@@ -347,104 +347,200 @@
       ]
     },
     {
-      "job_hash": "97737b7e35f4",
-      "title": "Overnight Security Officer at Ray Hubbard",
-      "company": "Sunset Management Lake Patrol",
+      "job_hash": "568933cfe8fa",
+      "title": "Store Protection Specialist",
+      "company": "Ross Stores",
       "location": "Rowlett, TX",
       "vertical": "security",
-      "role": "general",
-      "pay": "17 an hour",
-      "pay_min": 17.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Part-time",
-      "posted_date": null,
-      "apply_link": "https://www.simplyhired.com/job/YJ8a3dNMc0wbXDJ1IfSPe8-hP1V_yN10s--rjogudbitLGGchsJjvQ",
-      "via": "via Indeed",
-      "description": "<p><b>Looking for a job that keeps you moving instead of stuck behind a desk?</b><br>\n  We’re hiring motivated, physically fit, outgoing individuals to join our overnight patrol team. If you’ve got a good personality, strong awareness, and enjoy being active outdoors, this could be a perfect fit.</p>\n<p><b>Schedule:</b></p>\n<ul>\n <li>(nights only)</li>\n <li>Approximately 30-35 hours per week</li>\n <li>Overnight shifts Mon-Friday</li>\n</ul>\n<p><b>What You’ll Do:</b></p>\n<ul>\n <li>Conduct foot patrols of assigned properties</li>\n <li>Observe and report suspicious activity</li>\n <li>Provide a visible security presence to deter incidents</li>\n <li>Complete detailed nightly activity reports</li>\n</ul>\n<p><b>What Makes This Job Different:</b></p>\n<ul>\n <li>Work outdoors instead of sitting inside all night</li>\n <li>Stay active and get great exercise on the job</li>\n <li>Every night is different —</li>\n <li>Be part of a team that takes pride in what they do</li>\n</ul>\n<p><b>What We’re Looking For:</b></p>\n<ul>\n <li>Outgoing, professional personality</li>\n <li>Reliable and self-motivated</li>\n <li>Comfortable working overnight and outdoors</li>\n <li>Strong observation and communication skills</li>\n</ul>\n<p><b>No Experience? No Problem.</b><br>\n  We provide training for the right candidate with the right attitude. No uniform deposits or training costs involved. We even get your registered with the state @ no charge.</p>\n<p><b>Why Join Us:</b></p>\n<ul>\n <li>Consistent full-time hours</li>\n <li>Supportive team environment within a family owned and operated company</li>\n <li>Opportunity to grow within the company</li>\n <li>Veterans earn PTO for serving our country!</li>\n</ul>\n<p>ALL INTERVIEWS ARE CONDUCTED AT THE BEGINNING OF NIGHT SHIFT, AROUND 9:00PM IN ORDER TO ILLUSTRATE TYPICAL WORKING CONDITIONS OVERNIGHT. WE DO NOT HAVE ANY DAYTIME INTERVIEW SPOTS AVAILABLE. JOIN TEAM SUNSET!</p>\n<p>DPS RSD#C06251901</p>\n<p>Pay: From $17.00 per hour</p>\n<p>Benefits:</p>\n<ul>\n <li>Flexible schedule</li>\n <li>Paid time off</li>\n</ul>\n<p>Work Location: In person</p>",
-      "job_highlights": [
-        {
-          "items": [
-            "Outgoing, professional personality",
-            "Reliable and self-motivated",
-            "Comfortable working overnight and outdoors",
-            "Strong observation and communication skills",
-            "1 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "Approximately 30-35 hours per week",
-            "Overnight shifts Mon-Friday",
-            "Work outdoors instead of sitting inside all night",
-            "Stay active and get great exercise on the job",
-            "We provide training for the right candidate with the right attitude",
-            "No uniform deposits or training costs involved",
-            "We even get your registered with the state @ no charge",
-            "Consistent full-time hours",
-            "Supportive team environment within a family owned and operated company",
-            "Opportunity to grow within the company",
-            "Veterans earn PTO for serving our country!",
-            "Pay: From $17.00 per hour",
-            "Flexible schedule",
-            "Paid time off",
-            "11 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "Conduct foot patrols of assigned properties",
-            "Observe and report suspicious activity",
-            "Provide a visible security presence to deter incidents",
-            "Complete detailed nightly activity reports",
-            "Be part of a team that takes pride in what they do",
-            "2 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "78d32c0dd948",
-      "title": "Security Guard",
-      "company": "Excelsior Defense",
-      "location": "Rowlett, TX",
-      "vertical": "security",
-      "role": "general",
+      "role": "loss-prevention",
       "pay": null,
       "pay_min": null,
       "pay_max": null,
       "pay_unit": null,
       "schedule": "Full-time",
       "posted_date": null,
-      "apply_link": "https://us.trabajo.org/job-28607-b7abfce40edd54f82c1f9b71f1d8c537",
-      "via": "via Trabajo.org",
-      "description": "[Security Officer / Safety Officer / Patrol] - Up to $28.00-hr. / Dental-Health-Vision / PTO - As a Security Guard you'll: Patrol premises regularly to maintain order and establish presence; Monitor and authorize entrance of vehicles or people in the property; Remove wrongdoers or trespassers from the area; Secure all exits, doors and windows after end of operations; Check surveillance cameras periodically to identify disruptions or unlawful acts; Investigate people for suspicious activity or possessions; Respond to alarms by investigating and assessing the situation; Provide assistance to people in need; Apprehend and detain perpetrators according to legal protocol before arrival of authorities; Submit reports of daily surveillance activity and important occurrences...Hiring Fast >>",
-      "job_highlights": null
-    },
-    {
-      "job_hash": "299f746fb638",
-      "title": "Security Officer - Distribution Center",
-      "company": "Allied Universal",
-      "location": "Fort Worth, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "19 an hour",
-      "pay_min": 19.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-20",
-      "apply_link": "https://jobs.aus.com/job/fort-worth/security-officer-distribution-center/22950/99453232464",
-      "via": "via LinkedIn",
-      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Patrol Driver</strong> in <strong>Justin, TX</strong>, you will serve and safeguard clients in a range of industries. As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service. This driving position requires a valid driver’s license. Join Allied Universal’s agile, reliable, and innovative team, where a caring culture, teamwork, and integrity guide every interaction.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $19.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon06:00 AM - 02:00 PMThur06:00 AM - 02:00 PMFri06:00 AM - 02:00 PMSat06:00 AM - 02:00 PMSun06:00 AM - 02:00 PM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities.</li><li>Respond to incidents and critical situations in a calm, problem-solving manner.</li><li>Conduct regular and random patrols around the business and perimeter. Working environments and conditions may vary by client site.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>A valid driver’s license is required in accordance with Allied Universal driver policy requirements.</li><li>Comfortable using a computer or tablet is preferred.</li><li>Access control and badge experience is preferred.</li><li>Customer service experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1660792<br><br>",
+      "apply_link": "https://jobs.rossstores.com/search/jobdetails/store-protection-specialist/081a11b3-cda7-48d0-8471-7638eb2b7f3d",
+      "via": "via Careers | Ross Stores - Ross",
+      "description": "<p><b>Our values start with our people, join a team that values you!</b></p><p>Bring your talents to Ross, our leading off-price retail chain with over 2,200 stores, and a strong track record of success and growth. Our focus has always been bringing our customers a constant stream of high-quality brands and on-trend merchandise at extraordinary savings. All while providing a fun and exciting treasure hunt experience.<br/> As part of our team, you will experience:</p><ul><li><b>Success.</b> Our winning team pursues excellence while learning and evolving</li><li><b>Career growth.</b> We develop industry leading talent because Ross grows when our people grow</li><li><b>Teamwork.</b> We work together to solve the hard problems and find the right solution</li><li><b>Our commitment to Diversity, Equality & Inclusion, and our community.</b> We celebrate the backgrounds, identities, and ideas of those who work and shop with us because our differences make us stronger. We strive to be a positive force in our community.</li></ul><p>Our Corporate headquarters are in Dublin, CA, we have 3 buying offices in key markets in New York City, Los Angeles, and Boston, and 8 distribution centers nationwide. With 2025 revenues of $22.8 billion, we are a Fortune 500 company who is committed to providing an inclusive work environment with continuous learning opportunities and development for our teams.</p><b>GENERAL PURPOSE:</b><br><br>This position provides a visible presence at the Store entrances/exits, mitigating theft and fraud and maintaining a safe and secure environment for Associates and Customers. The Specialist makes eye contact, smiles, and greets all Customers in a prominent, courteous and friendly manner deterring opportunity for theft by demonstrating \"command\" presence in a Company issued vest/required black attire, and monitoring the Code 50 package inspection policy. Walks sales floor to identify and address potential theft indicators, as directed by Store Leadership. Partners with Store Leadership to ensure compliance with Loss Prevention directives and minimization of operational shortage. Must embrace Company values and have a mentality to protect the Ross treasure.<br><br><b>ESSENTIAL FUNCTIONS:</b><br><br><b>Maintaining Safe & Secure Environment:</b><br><br><ul><li>Understands that safety is the number one priority and practices safe behaviors in everything they do and assists Store Leadership in maintaining a safe and secure environment for both Associates and Customers.</li><li>Provides visible \"command\" presence, including prominent greetings with eye contact, at Store entrances/exits and on sales floor in a Company issued vest/required black attire, monitoring for potential safety issues.</li><li>Removes clutter and ensures safe, clear egress to emergency exits.</li></ul><br><br><b>Developing Great Teams & Partnerships:</b><br><br><ul><li>Provides great Customer service by prominently greeting Customers, making eye contact, smiling and answering questions in a friendly and courteous manner.</li><li>Treats all Customers and Associates with respect.</li><li>Demonstrates courtesy, friendliness, and professionalism at all times. Recognizes Associates using Company recognition programs.</li><li>Regular involvement with internal and external partners. May include conference calls, scheduled district meetings, educating Associates, providing recognition, etc.</li><li>Other duties as assigned to support Loss Prevention initiatives.</li></ul><br><br><b>Personal and Store Brand</b><br><br><ul><li>Represents and supports the Company brand at all times.</li><li>Maintains a professional appearance, in accordance with Company dress code.</li></ul><br><br><b>Mitigating Theft & Fraud:</b><br><br><ul><li>Monitors entrances/exits as well as sales floor for potential theft by identifying suspicious behavior.</li><li>Gathers theft indicators and uses internal or external intelligence to impact shortage trends. Effectively communicates to Store Leadership and Loss Prevention Leadership.</li><li>Adheres to Company policy for external theft response.</li><li>Executes all Company Best Practices and maximizes productivity by minimizing steps and touches while working.</li></ul><br><br><b>Minimizing Operational Shortage:</b><br><br><ul><li>Increases Store awareness on effective processes to minimize operational shortage. Trains and educates Associates on shortage reduction initiatives.</li><li>Observes and validates proper checkout procedures for Customers and Associates.</li></ul><br><br><b>COMPETENCIES:</b><br><br><ul><li>Manages Work Processes</li><li>Business Acumen</li><li>Plans, Aligns & Prioritizes</li><li>Builds Talent</li><li>Collaborates</li><li>Leading by Example</li><li>Communicates Effectively</li><li>Ensures Accountability & Execution</li></ul><br><br><b>QUALIFICATIONS AND SPECIAL SKILLS REQUIRED:</b><br><br><ul><li>High School education or equivalent required, AA degree preferred.</li><li>One year retail supervisor experience or similar training preferred.</li><li>One year loss prevention/security training preferred.</li><li>Active Security Guard License preferred</li><li>Ability to work effectively in a fast-paced environment.</li><li>Strong communication skills.</li><li>Demonstrated ability to build and maintain relationships with the Store team.</li><li>Excellent Customer service skills.</li><li>Proven ability to effectively resolve conflict.</li><li>Must be able to comply with all applicable federal and state laws and regulations for security positions, including but not limited to, additional background screening, physical examination, fingerprinting and/or drug and alcohol testing.</li></ul><br><br><b>PHYSICAL REQUIREMENTS/ADA:</b><br><br><ul><li>Consistent timeliness and regular attendance. </li><li>Ability to spend up to 100% of working time standing, walking, and moving around the Store.</li><li>Must be able to raise or lower objects more than 25 lbs., from one level to another (includes upward pulling).</li><li>Must be able to regularly bend, stoop, or crouch (frequency and duration will vary per daily business need).</li><li>Certain assignments may require other qualifications and skills.</li></ul><br><br><b>SUPERVISORY RESPONSIBILITIES:</b><br><br>None<br><br><b>DISCLAIMER</b><br><br>This job description is a summary of the primary duties and responsibilities of the job and position. It is not intended to be a comprehensive or all-inclusive listing of duties and responsibilities. Contents are subject to change at management's discretion.<br><br>Ross is an equal employment opportunity employer. We consider individuals for employment or promotion according to their skills, abilities and experience. We believe that it is an essential part of the Company's overall commitment to attract, hire and develop a strong, talented and diverse workforce. Ross is committed to complying with all applicable laws prohibiting discrimination based on race, color, religious creed, age, national origin, ancestry, physical, mental or developmental disability, sex (which includes pregnancy, childbirth, breastfeeding and medical conditions related to pregnancy, childbirth or breastfeeding), veteran status, military status, marital or registered domestic partnership status, medical condition (including cancer or genetic characteristics), genetic information, gender, gender identity, gender expression, sexual orientation, as well as any other category protected by federal, state or local laws.",
       "job_highlights": [
         {
           "items": [
-            "This driving position requires a valid driver’s license",
-            "A valid driver’s license is required in accordance with Allied Universal driver policy requirements",
+            "Regular involvement with internal and external partners",
+            "Manages Work Processes",
+            "Business Acumen",
+            "Plans, Aligns & Prioritizes",
+            "Collaborates",
+            "Leading by Example",
+            "Ability to work effectively in a fast-paced environment",
+            "Strong communication skills",
+            "Demonstrated ability to build and maintain relationships with the Store team",
+            "Excellent Customer service skills",
+            "Proven ability to effectively resolve conflict",
+            "Must be able to comply with all applicable federal and state laws and regulations for security positions, including but not limited to, additional background screening, physical examination, fingerprinting and/or drug and alcohol testing",
+            "Consistent timeliness and regular attendance",
+            "Ability to spend up to 100% of working time standing, walking, and moving around the Store",
+            "Must be able to raise or lower objects more than 25 lbs., from one level to another (includes upward pulling)",
+            "Must be able to regularly bend, stoop, or crouch (frequency and duration will vary per daily business need)",
+            "Certain assignments may require other qualifications and skills",
+            "14 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Career growth",
+            "Represents and supports the Company brand at all times",
+            "Maintains a professional appearance, in accordance with Company dress code"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "This position provides a visible presence at the Store entrances/exits, mitigating theft and fraud and maintaining a safe and secure environment for Associates and Customers",
+            "The Specialist makes eye contact, smiles, and greets all Customers in a prominent, courteous and friendly manner deterring opportunity for theft by demonstrating \"command\" presence in a Company issued vest/required black attire, and monitoring the Code 50 package inspection policy",
+            "Walks sales floor to identify and address potential theft indicators, as directed by Store Leadership",
+            "Partners with Store Leadership to ensure compliance with Loss Prevention directives and minimization of operational shortage",
+            "Must embrace Company values and have a mentality to protect the Ross treasure",
+            "Maintaining Safe & Secure Environment:",
+            "Understands that safety is the number one priority and practices safe behaviors in everything they do and assists Store Leadership in maintaining a safe and secure environment for both Associates and Customers",
+            "Provides visible \"command\" presence, including prominent greetings with eye contact, at Store entrances/exits and on sales floor in a Company issued vest/required black attire, monitoring for potential safety issues",
+            "Removes clutter and ensures safe, clear egress to emergency exits",
+            "Developing Great Teams & Partnerships:",
+            "Provides great Customer service by prominently greeting Customers, making eye contact, smiling and answering questions in a friendly and courteous manner",
+            "Treats all Customers and Associates with respect",
+            "Demonstrates courtesy, friendliness, and professionalism at all times",
+            "Recognizes Associates using Company recognition programs",
+            "May include conference calls, scheduled district meetings, educating Associates, providing recognition, etc",
+            "Other duties as assigned to support Loss Prevention initiatives",
+            "Mitigating Theft & Fraud:",
+            "Monitors entrances/exits as well as sales floor for potential theft by identifying suspicious behavior",
+            "Gathers theft indicators and uses internal or external intelligence to impact shortage trends",
+            "Effectively communicates to Store Leadership and Loss Prevention Leadership",
+            "Adheres to Company policy for external theft response",
+            "Executes all Company Best Practices and maximizes productivity by minimizing steps and touches while working",
+            "Minimizing Operational Shortage:",
+            "Increases Store awareness on effective processes to minimize operational shortage",
+            "Trains and educates Associates on shortage reduction initiatives",
+            "Observes and validates proper checkout procedures for Customers and Associates",
+            "Builds Talent",
+            "Communicates Effectively",
+            "Ensures Accountability & Execution",
+            "26 more items(s)"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "db30e16723d1",
+      "title": "Hospital Police Officer – Protect & Serve Patients & Staff",
+      "company": "Baylor Scott & White Health",
+      "location": "Fort Worth, TX",
+      "vertical": "security",
+      "role": "full-time",
+      "pay": "60K–80K a year",
+      "pay_min": 60000.0,
+      "pay_max": 80000.0,
+      "pay_unit": "YEAR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.jobleads.com/us/job/hospital-police-officer-protect-serve-patients-staff--fort-worth--ec8f15cb2b5a6408fd07fc98ec5f7f0c3",
+      "via": "via JobLeads",
+      "description": "<p>Baylor Scott & White Health in Fort Worth, TX is seeking a Police Officer to protect hospital grounds, deter threats, and support security and loss prevention with a patient‑centered approach.</p><p>The officer conducts patrols, investigations, and enforces laws, while assisting nursing staff and coordinating with emergency management. A valid Peace Officer license and BLS are required with onboarding within defined timelines.</p>",
+      "job_highlights": [
+        {
+          "items": [
+            "A valid Peace Officer license and BLS are required with onboarding within defined timelines"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "The officer conducts patrols, investigations, and enforces laws, while assisting nursing staff and coordinating with emergency management"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "fb428e09624e",
+      "title": "Security Shift Supervisor - Warehouse",
+      "company": "Allied Universal",
+      "location": "Sunnyvale, TX",
+      "vertical": "security",
+      "role": "overnight-warehouse",
+      "pay": "21 an hour",
+      "pay_min": 21.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://www.monster.com/job-openings/security-shift-supervisor-warehouse-sunnyvale-tx--6fa60f6e-9ce8-4661-b852-48b374d01835",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Company Overview:<br><br>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>Allied Universal Services is currently searching for a <strong>Professional Security Shift Supervisor</strong>.<br><br><ul><li>Payrate: $21.64 / hour</li><li>Location: Sunnyvale, Texas</li><li>Multiple shifts available</li><li>Great opporunity for career growth and advancement <br><br></li></ul>The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer. The <strong>Security Shift Supervisor</strong> will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers. Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range.<br><br><strong>Qualifications/Requirements<br><br></strong><ul><li>At least 18 years of age</li><li>Possess a high school diploma or equivalent, or 5 years verifiable experience</li><li>Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines</li><li>Must be able to frequently prepare written reports and logs in neat, legible handwriting; </li><li>Must be able to read and understand all operating procedures and instructions</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required.</li><li>As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check</li><li>Intermediate computer skills to utilize innovative, wireless technology at client specific sites</li><li>Ability to handle both common and crisis situations at the client site, calmly and efficiently</li><li>Display exceptional customer service and communication skills</li><li>Ability to handle crisis situations at the client site, calmly and efficiently<br><br></li></ul><strong>Benefits<br><br></strong><ul><li>Medical, dental, vision, basic life, AD&D, and disability insurance</li><li>Company's retirement plans</li><li>Seven holidays annually paid at time and a half, if worked</li><li>40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law<br><br></li></ul>Closing<br><br>Allied Universal® is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1662831<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "At least 18 years of age",
+            "Possess a high school diploma or equivalent, or 5 years verifiable experience",
+            "Must possess effective written and oral communication and interpersonal skills with ability to deal with all levels of personnel and the general public in a professional and effective manner; must be able to use initiative and independent judgment within established guidelines",
+            "Must be able to frequently prepare written reports and logs in neat, legible handwriting;",
+            "Must be able to read and understand all operating procedures and instructions",
+            "Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment",
+            "Driving Positions: must possess a valid Driver’s License with at least one year of driving experience, a clean driving record (no major violations within last 36 months, no more than 1 accident in last 24 months, no more than one minor moving violation in last 24 months), a minimum level of insurance as required by Company policy, and the ability to safely operate a vehicle required",
+            "As a condition of employment, employee must successfully complete a background investigation and a post-offer/pre-employment drug/alcohol test, may be required to pass Drivers Record check",
+            "Intermediate computer skills to utilize innovative, wireless technology at client specific sites",
+            "Ability to handle both common and crisis situations at the client site, calmly and efficiently",
+            "Display exceptional customer service and communication skills",
+            "Ability to handle crisis situations at the client site, calmly and efficiently",
+            "9 more items(s)"
+          ],
+          "title": "Qualifications"
+        },
+        {
+          "items": [
+            "Payrate: $21.64 / hour",
+            "Multiple shifts available",
+            "Great opporunity for career growth and advancement",
+            "Medical, dental, vision, basic life, AD&D, and disability insurance",
+            "Company's retirement plans",
+            "Seven holidays annually paid at time and a half, if worked",
+            "40 hours of vacation after one year of employment at eligible work assignments; unused vacation is only paid out where required by law",
+            "4 more items(s)"
+          ],
+          "title": "Benefits"
+        },
+        {
+          "items": [
+            "The Shift Security Supervisor will supervise and coordinate the delivery of quality services on a specific shift at an assigned customer",
+            "The Security Shift Supervisor will act as a liaison between site supervisor, Account Manager/Field Operations Manager and professional security officers",
+            "Supervise staff on assigned shift, providing coaching, recognition and discipline within approved empowerment range"
+          ],
+          "title": "Responsibilities"
+        }
+      ]
+    },
+    {
+      "job_hash": "c28f7d1ab39d",
+      "title": "Security Officer - Log keeping",
+      "company": "Allied Universal",
+      "location": "Irving, TX",
+      "vertical": "security",
+      "role": "general",
+      "pay": "18 an hour",
+      "pay_min": 18.0,
+      "pay_max": null,
+      "pay_unit": "HOUR",
+      "schedule": "Full-time",
+      "posted_date": "2026-08-22",
+      "apply_link": "https://securitycareers-aus.icims.com/jobs/1662295/security-officer---log-keeping/job",
+      "via": "via LinkedIn",
+      "description": "<strong>Overview<br><br></strong>Allied Universal®, North America’s leading security and facility services company, offers rewarding careers that provide you a sense of purpose. While working in a dynamic, welcoming, and collaborative workplace, you will be part of a team that contributes to a culture that positively impacts the communities and customers we serve.<br><br><strong>Job Description<br><br></strong>As a <strong>Security Officer Full Time Unarmed Patrol Digital Logkeeping</strong> in <strong>Irving, TX</strong>, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more. As an Unarmed Security Officer at a logistics and distribution location, you will monitor assigned areas, conduct routine patrols, support access control, and remain visible to help deter security-related incidents. You will provide exceptional customer service and clear communication while supporting a welcoming environment for employees and visitors. Join Allied Universal, where agile, reliable, innovative teams put people first and act with integrity.<br><br><strong>Position Type: Full Time<br><br></strong><strong> Pay Rate: $18.00 / Hour <br><br></strong><strong>Job Schedule<br><br></strong>DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM<br><br><strong>What You'll Do<br><br></strong><ul><li>Provide customer service to clients, visitors, drivers, and/or delivery personnel while carrying out site-specific security-related procedures and emergency response activities as appropriate.</li><li>Conduct regular and random unarmed patrols of the distribution facility, loading areas, parking areas, and perimeter to help identify and report unusual activity, hazards, and/or access concerns.</li><li>Monitor access points, verify authorized entry in accordance with site procedures, and maintain awareness of shipping and receiving activity.</li><li>Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, notifying appropriate personnel and documenting actions taken.</li><li>Complete accurate activity reports, incident reports, and shift documentation in accordance with Allied Universal and site-specific requirements.<br><br></li></ul><strong>Minimum Requirements<br><br></strong><ul><li>Possess at least one year of security-related experience.</li><li>Access control and badge experience is preferred.</li><li>Be comfortable using a computer or tablet.</li><li>CPR and First Aid certification is preferred.</li><li>Customer service experience is preferred.</li><li>Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles.</li><li>Possess a high school diploma or equivalent.</li><li>As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws.</li><li>Allied Universal will consider qualified applications with criminal histories in a manner consistent with applicable laws.</li><li>As a condition of employment, applicants will be subject to a drug screen to the extent permitted by law.</li><li>Licensing requirements are subject to state and/or local laws and regulations and may be required prior to employment.</li><li>A valid driver’s license will be required for driving positions only.<br><br></li></ul><strong>Why Join Us<br><br></strong><ul><li>Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more.</li><li>Career Growth: Get paid training and access to career growth opportunities.</li><li>Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance.</li><li>Exclusive Perks: Enjoy discounts on top brands and services through our Perks Program.<br><br></li></ul>Closing<br><br><strong>Allied Universal® is an Equal Opportunity Employer.</strong> All qualified applicants will receive consideration for employment without regard to race/ethnicity, age, color, religion, sex, sexual orientation, gender identity, national origin, genetic information, disability, protected veteran status or relationship/association with a protected veteran, or any other basis or characteristic protected by law. For more information: www.aus.com.<br><br>If you have difficulty using the online system and require an alternate method to apply or require an accommodation, please contact our local Human Resources department. To find an office near you, please visit: www.aus.com/offices.<br><br>Requisition ID<br><br>2026-1662295<br><br>",
+      "job_highlights": [
+        {
+          "items": [
+            "Possess at least one year of security-related experience",
+            "Be comfortable using a computer or tablet",
             "Be at least 18 years of age for unarmed roles; 21+ years of age for armed roles",
             "Possess a high school diploma or equivalent",
             "As a condition of employment, applicants will be subject to a background investigation in accordance with all federal, state, and local laws",
@@ -458,7 +554,7 @@
         },
         {
           "items": [
-            "Pay Rate: $19.00 / Hour",
+            "Pay Rate: $18.00 / Hour",
             "Smart Tools: Access to our exclusive technology to view and claim additional shifts to earn more",
             "Career Growth: Get paid training and access to career growth opportunities",
             "Financial and Health Benefits: Enjoy access to a retirement savings plan, plus medical, dental, vision, basic life and AD&D, and disability insurance",
@@ -469,66 +565,17 @@
         },
         {
           "items": [
-            "As a Security Officer Full Time Unarmed Patrol Driver in Justin, TX, you will serve and safeguard clients in a range of industries",
-            "As an Unarmed Patrol Officer, you will conduct routine patrols throughout a retail location, maintain a visible presence to help deter security-related incidents, support access control activities, and deliver outstanding customer service",
+            "As a Security Officer Full Time Unarmed Patrol Digital Logkeeping in Irving, TX, you will serve and safeguard clients in a range of industries such as Logistics & Distribution, and more",
+            "As an Unarmed Security Officer at a logistics and distribution location, you will monitor assigned areas, conduct routine patrols, support access control, and remain visible to help deter security-related incidents",
+            "You will provide exceptional customer service and clear communication while supporting a welcoming environment for employees and visitors",
             "Position Type: Full Time",
-            "Provide customer service to our clients by carrying out security-related procedures, site-specific policies and, when appropriate, emergency response activities",
-            "Respond to incidents and critical situations in a calm, problem-solving manner",
-            "Conduct regular and random patrols around the business and perimeter",
-            "Working environments and conditions may vary by client site",
-            "4 more items(s)"
-          ],
-          "title": "Responsibilities"
-        }
-      ]
-    },
-    {
-      "job_hash": "407c0277d2af",
-      "title": "Security Specialist - Full Time",
-      "company": "SECURITY INDUSTRY SPECIALISTS INC",
-      "location": "Grapevine, TX",
-      "vertical": "security",
-      "role": "general",
-      "pay": "19 an hour",
-      "pay_min": 19.0,
-      "pay_max": null,
-      "pay_unit": "HOUR",
-      "schedule": "Full-time",
-      "posted_date": "2026-08-20",
-      "apply_link": "https://www.glassdoor.com/job-listing/security-specialist-full-time-security-industry-specialists-JV_IC1139999_KO0,29_KE30,59.htm?jl=1010235527022",
-      "via": "via Glassdoor",
-      "description": "<div><p><b><i>About the role:</i></b></p><p>\nThe Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned. All duties must be performed in accordance to client policies and procedures and all state and federal regulations.</p><p>\n</p><p><b><i>In this role, your responsibilities will be:</i></b></p><ul><li>\nProvide a safe and professional work environment for client's employees and guests</li><li>\nProvide escort, patrol on foot to secure your assigned post</li><li>\nAct quickly as a responder to incidents</li>\nBring a positive attitude every day <li>- represent our brand, the client, and yourself in a professional manner</li></ul><p><b><i>\nAs a candidate you must have:\n</i></b></p><ul><li>High school diploma (or GED)</li><li>\nMust complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications</li><li>\nInterpersonal skills and a professional attitude</li><li>\nUniform attire and grooming standards must be maintained while in uniform</li></ul><p>\n</p><p><b><i>We offer:</i></b></p><ul><li>\n$19 per hour</li><li>\nHealth, Dental, Vision, and 401k</li><li>\nPaid Time Off including Sick/Safe Time</li><li>\nA dynamic and challenging work environment with opportunity for growth</li></ul><p>\nSecurity Agency #C14164</p><p><b>\nSecurity Industry Specialists, Inc. is an Equal Opportunity Employer</b></p></div>",
-      "job_highlights": [
-        {
-          "items": [
-            "High school diploma (or GED)",
-            "Must complete and maintain state Guard Certification as prescribed by presiding state law, as well as all client requested certifications",
-            "Interpersonal skills and a professional attitude",
-            "Uniform attire and grooming standards must be maintained while in uniform",
-            "1 more items(s)"
-          ],
-          "title": "Qualifications"
-        },
-        {
-          "items": [
-            "$19 per hour",
-            "Health, Dental, Vision, and 401k",
-            "Paid Time Off including Sick/Safe Time",
-            "A dynamic and challenging work environment with opportunity for growth",
-            "1 more items(s)"
-          ],
-          "title": "Benefits"
-        },
-        {
-          "items": [
-            "The Security Specialists, under the direct supervision of the Shift Supervisor, ensures SIS standards and policies are met in overall field services, operations and functions in assigned area such as: site inspections, emergency response, camera review, client liaison, and special projects as assigned",
-            "All duties must be performed in accordance to client policies and procedures and all state and federal regulations",
-            "Provide a safe and professional work environment for client's employees and guests",
-            "Provide escort, patrol on foot to secure your assigned post",
-            "Act quickly as a responder to incidents",
-            "Bring a positive attitude every day",
-            "- represent our brand, the client, and yourself in a professional manner",
-            "4 more items(s)"
+            "DayTimeMon10:00 PM - 06:00 AMTue10:00 PM - 06:00 AMWed10:00 PM - 06:00 AMSat10:00 PM - 06:00 AMSun10:00 PM - 06:00 AM",
+            "Provide customer service to clients, visitors, drivers, and/or delivery personnel while carrying out site-specific security-related procedures and emergency response activities as appropriate",
+            "Conduct regular and random unarmed patrols of the distribution facility, loading areas, parking areas, and perimeter to help identify and report unusual activity, hazards, and/or access concerns",
+            "Monitor access points, verify authorized entry in accordance with site procedures, and maintain awareness of shipping and receiving activity",
+            "Respond to incidents, alarms, and critical situations in a calm, problem-solving manner, notifying appropriate personnel and documenting actions taken",
+            "Complete accurate activity reports, incident reports, and shift documentation in accordance with Allied Universal and site-specific requirements",
+            "7 more items(s)"
           ],
           "title": "Responsibilities"
         }
